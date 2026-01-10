@@ -1,0 +1,116 @@
+{
+  "drug_name": "Cardiac_enzymes",
+  "url": "https://wikem.org/wiki/Cardiac_enzymes",
+  "scraped_at": "2026-01-10T07:49:50.744281",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Enzymes_Over_Time": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Myoglobin",
+                "Interval (hours)": "1-4",
+                "Peak Elevation (hours)": "6-7",
+                "Return to Normal": "18-24 hours"
+              },
+              {
+                "Type": "TroponinI",
+                "Interval (hours)": "3-12",
+                "Peak Elevation (hours)": "10-24",
+                "Return to Normal": "3-10 days"
+              },
+              {
+                "Type": "TroponinT",
+                "Interval (hours)": "3-12",
+                "Peak Elevation (hours)": "10-24",
+                "Return to Normal": "5-14 days"
+              },
+              {
+                "Type": "CK-MB",
+                "Interval (hours)": "4-12",
+                "Peak Elevation (hours)": "12-24",
+                "Return to Normal": "2-3 days"
+              },
+              {
+                "Type": "LDH",
+                "Interval (hours)": "8-12",
+                "Peak Elevation (hours)": "24-48",
+                "Return to Normal": "10-14 days"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiac_Enzymes_Over_Time": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Myoglobin",
+            "Interval (hours)": "1-4",
+            "Peak Elevation (hours)": "6-7",
+            "Return to Normal": "18-24 hours"
+          },
+          {
+            "Type": "TroponinI",
+            "Interval (hours)": "3-12",
+            "Peak Elevation (hours)": "10-24",
+            "Return to Normal": "3-10 days"
+          },
+          {
+            "Type": "TroponinT",
+            "Interval (hours)": "3-12",
+            "Peak Elevation (hours)": "10-24",
+            "Return to Normal": "5-14 days"
+          },
+          {
+            "Type": "CK-MB",
+            "Interval (hours)": "4-12",
+            "Peak Elevation (hours)": "12-24",
+            "Return to Normal": "2-3 days"
+          },
+          {
+            "Type": "LDH",
+            "Interval (hours)": "8-12",
+            "Peak Elevation (hours)": "24-48",
+            "Return to Normal": "10-14 days"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Creatine_Phosphokinase": {
+      "text": "Can be elevated in trauma,\nrhabdomyolysis\n, hyperthermia, physical activity, renal or endocrine disease, systemic infections\nIf patient small with small muscle mass to begin with, total ck may not be elevated- so better to use CK index- is ratio of CKMB/ total CK. Elevated if > 3- 5%.\nCK Mass: with monoclonal antibody techniques, can directly measure ck mb mass as mmcg/L. More sensitive for detection of AMI\nCK-MB can be removed from the routine ED cardiac panel without adversely affecting patient care\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Troponin\nAcute Coronary Syndrome (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        }
+      ]
+    }
+  }
+}

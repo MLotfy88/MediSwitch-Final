@@ -1,0 +1,319 @@
+{
+  "drug_name": "Cat-scratch_disease",
+  "url": "https://wikem.org/wiki/Cat-scratch_disease",
+  "scraped_at": "2026-01-10T07:49:53.107510",
+  "sections": {
+    "Background": {
+      "text": "Caused by\nBartonella henselae",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of cat (normally kitten) exposure\nMost commonly present about 2 weeks after exposure\nLymphadenitis proximal to exposure",
+      "subsections": {
+        "Parinaud's_oculoglandular_syndrome": {
+          "text": "Due to direct inoculation of the eye\nCauses conjunctivitis, ocular granuloma, periauricular adenopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parinaud's_oculoglandular_syndrome": {
+      "text": "Due to direct inoculation of the eye\nCauses conjunctivitis, ocular granuloma, periauricular adenopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Lymphadenitis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Indirect fluorescence assay (IFA) or ELISA testing",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Generally clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "Indirect fluorescence assay (IFA) or ELISA testing",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Generally clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Generally clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Immunocompetent\nAdult (>45kg):\nAzithromycin\n500mg PO x1, then 250mg/day x 4 days\nChild (<45kg):\nAzithromycin\n10mg/kg x1, then 5mg/kg per day x 4 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit if immunocompromised or evidence of systemic disease.\nOtherwise discharge with PCP follow-up.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bartonella henselae\nMammalian bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        }
+      ]
+    }
+  }
+}

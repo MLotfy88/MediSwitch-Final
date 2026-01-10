@@ -1,0 +1,250 @@
+{
+  "drug_name": "Candidiasis",
+  "url": "https://wikem.org/wiki/Candidiasis",
+  "scraped_at": "2026-01-10T07:49:41.413639",
+  "sections": {
+    "Background": {
+      "text": "Candidiasis encompasses a wide array of local or invasive fungal infections caused by the\nCandida\ngenus and infect more than 250,000 patients worldwide per year\n[1]\nCandida\nyeasts (most commonly\nCandida albicans\n) are normal flora that live on the skin and mucous membranes, but may cause infection with overgrowth and vary in clinical presentation depending on the infected area\nLocal mucocutaneous candida infections: oropharyngeal candidiasis, esophagitis, vulvovaginitis, balanitis, chronic mucocutaneous candidiasis, and mastitis\n[2]\nInvasive candida infections: Fungal UTI, Meningitis, Endocarditis, Empyema, Mediastinitis, Pericarditis",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Skin maceration\nImmunosuppression: HIV/AIDS, Corticosteroid use, Chemotherapy, Immunomodulators\n[2]\nBroad spectrum antibiotic use\nDiabetes mellitus\nOral Contraceptive use\nHematologic Malignancy\nCentral Venous Catheters use\nTotal Parenteral nutrition use\nNeutropenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Skin maceration\nImmunosuppression: HIV/AIDS, Corticosteroid use, Chemotherapy, Immunomodulators\n[2]\nBroad spectrum antibiotic use\nDiabetes mellitus\nOral Contraceptive use\nHematologic Malignancy\nCentral Venous Catheters use\nTotal Parenteral nutrition use\nNeutropenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Local_Candida_Infections": {
+          "text": "Mouth:\nOropharyngeal candidiasis\n(thrush)\nEsophagus:\nEsophageal candidiasis\nVulva/vagina:\nCandida vulvovaginitis\nSkin lesions:\nCandida dermatitis",
+          "tables": []
+        },
+        "Systemic": {
+          "text": "hematogenous, central line cathether, intravenous catheter,\nindwelling foley catheter\n:\nInvasive candidiasis\nOral candidiasis\nEsophageal candidiasis\nCandida vaginitis\nDiaper dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Candida vulvovaginitis",
+          "url": "https://wikem.org/wiki/Candida_vulvovaginitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "indwelling foley catheter",
+          "url": "https://wikem.org/wiki/Candiduria"
+        },
+        {
+          "text": "Invasive candidiasis",
+          "url": "https://wikem.org/wiki/Invasive_candidiasis"
+        },
+        {
+          "text": "Oral candidiasis",
+          "url": "https://wikem.org/wiki/Oral_candidiasis"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        }
+      ]
+    },
+    "Local_Candida_Infections": {
+      "text": "Mouth:\nOropharyngeal candidiasis\n(thrush)\nEsophagus:\nEsophageal candidiasis\nVulva/vagina:\nCandida vulvovaginitis\nSkin lesions:\nCandida dermatitis",
+      "subsections": {
+        "Systemic": {
+          "text": "hematogenous, central line cathether, intravenous catheter,\nindwelling foley catheter\n:\nInvasive candidiasis\nOral candidiasis\nEsophageal candidiasis\nCandida vaginitis\nDiaper dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Candida vulvovaginitis",
+          "url": "https://wikem.org/wiki/Candida_vulvovaginitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "indwelling foley catheter",
+          "url": "https://wikem.org/wiki/Candiduria"
+        },
+        {
+          "text": "Invasive candidiasis",
+          "url": "https://wikem.org/wiki/Invasive_candidiasis"
+        },
+        {
+          "text": "Oral candidiasis",
+          "url": "https://wikem.org/wiki/Oral_candidiasis"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        }
+      ]
+    },
+    "Systemic": {
+      "text": "hematogenous, central line cathether, intravenous catheter,\nindwelling foley catheter\n:\nInvasive candidiasis\nOral candidiasis\nEsophageal candidiasis\nCandida vaginitis\nDiaper dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "indwelling foley catheter",
+          "url": "https://wikem.org/wiki/Candiduria"
+        },
+        {
+          "text": "Invasive candidiasis",
+          "url": "https://wikem.org/wiki/Invasive_candidiasis"
+        },
+        {
+          "text": "Oral candidiasis",
+          "url": "https://wikem.org/wiki/Oral_candidiasis"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Esophageal_candidiasis": {
+          "text": "CMV esophagitis\nHSV esophagitis\nDiphtheria\n(C. diptheriae)\nPill esophagitis (bisphosphonates, NSAIDs, potassium chloride, iron supplements)\nPost-radiation esophagutis\nMallory Weiss tear or Boerhaave syndrome\nCardiac pain (ACS, pericarditis, myocarditis, dissection, etc.)\nZenker's diverticulum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Zenker's diverticulum",
+          "url": "https://wikem.org/wiki/Zenker%27s_diverticulum"
+        }
+      ]
+    },
+    "Esophageal_candidiasis": {
+      "text": "CMV esophagitis\nHSV esophagitis\nDiphtheria\n(C. diptheriae)\nPill esophagitis (bisphosphonates, NSAIDs, potassium chloride, iron supplements)\nPost-radiation esophagutis\nMallory Weiss tear or Boerhaave syndrome\nCardiac pain (ACS, pericarditis, myocarditis, dissection, etc.)\nZenker's diverticulum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Zenker's diverticulum",
+          "url": "https://wikem.org/wiki/Zenker%27s_diverticulum"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Local candidiasis is primarily clinically diagnosed based on lesion characteristics and appearance\nConfirmatory tests: KOH preparation of lesion scrapings, vaginal wet mount, culture, or endoscopic biopsy reveal budding yeast with pseudohyphae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Local: Topical anti-fungal (Nystatin, azoles) or oral azole (eg\nfluconazole\n)\nInvasive: Intravenous Echinocandins (Caspofungin, Micafungin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Local infections can be managed on an outpatient basis\nInvasive infection will be managed with IV antibiotics and requires prolonged hospitalization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Candiduria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candiduria",
+          "url": "https://wikem.org/wiki/Candiduria"
+        }
+      ]
+    }
+  }
+}

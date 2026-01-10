@@ -1,0 +1,159 @@
+{
+  "drug_name": "Carbamazepine",
+  "url": "https://wikem.org/wiki/Carbamazepine",
+  "scraped_at": "2026-01-10T07:49:45.697094",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsant\n, anti\nmanic\nDosage Forms:tablet (chewable, immediate-release, ER), capsule (ER), oral suspension\nDosage Strengths: chewable tablet: 100mg; immediate-release tablet: 200mg; extended-release tablet: 100, 200, 400mg; extended-release capsule: 100, 200, 300mg; oral suspension: 100mg/5mL; IV solution: 10mg/mL\nRoutes of Administration: PO, IV\nCommon Trade Names: Tegretol, Equetro, Epitol, Tegretol XR, Carbagen SR, Carbatrol, Teril, Carnexiv",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsant",
+          "url": "https://wikem.org/wiki/Anticonvulsant"
+        },
+        {
+          "text": "manic",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Epilepsy\nMaintenance dose:800-1200mg/day PO in divided doses\nTherapeutic range: 4-12mg/L (16.9-50.8 micromoles/L)\nMax dose: 1600mg/day (rarely 1.6-2.4g/day)\nTrigeminal Neuralgia\nMaintenance dose: 400-800mg/day PO in divided doses\nMax dose: 1200mg/day\nBipolar Mania\nInitial 200mg PO q 12h increase by 200mg/day\nMax dose 1600mg/day\nRestless legs syndrome (off label)\n100-600mg PO qHS up to 5 weeks\nSchizophrenia (off label)\n200-1300mg/day for 2.5-8 weeks\nPostherpatic Neuralgia (off label)\n100-200mg PO qDay, may increase slowly to 1200mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Trigeminal Neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_Neuralgia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Epilepsy\n<6 years old\nInitial: tablet- 10-20mg/kg/d PO q8-12h, suspension-10-20mg/kg/d PO q6h\nMaintenance: may divide frequency into 3-4 times daily not to exceed 35mg/kg/day\n>6 years old\nInital: suspension- 50mg PO q6h, tablet- 100mg PO q12h, may increase q week by 100mg/day\nMaintenance: 400-800mg/day PO q6-8h (immediate release), q12h (ER)\n>12 years old\nInitial: suspension- 10mL (200mg) PO q6h; tablet- 200mg PO q12h, may increase qWeek q12h (ER); q6-8h (other formulations)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Enters breast milk; not recommended\nRenal Dosing\nAdult: GFR<10: 75% of dose and monitor\nPediatric: same\nHepatic Dosing\nAdult: Use caution, drug primarily metabolized in live\nPediatric: same",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHistory of bone marrow suppresion\nMAOI use within last 14d\ncoadministration with nefazodone, NNRTIs\nJaundice, hepatitis\nPregnancy, especially 1st trimester",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Toxic epidermal necrolysis\nand\nStevens Johnson syndrome\nespecially in Asian populations\nAplastic anemia\nand\nagranulocytosis\nHyponatremia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Ataxia, Dizziness, Drowsiness, Nausea, Vomiting, Dry mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens_Johnson_syndrome"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Toxic epidermal necrolysis\nand\nStevens Johnson syndrome\nespecially in Asian populations\nAplastic anemia\nand\nagranulocytosis\nHyponatremia",
+      "subsections": {
+        "Common": {
+          "text": "Ataxia, Dizziness, Drowsiness, Nausea, Vomiting, Dry mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens_Johnson_syndrome"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Ataxia, Dizziness, Drowsiness, Nausea, Vomiting, Dry mouth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 25-65 hr (initial dosing), 10-20 hr after autoinduction; 35-40h (extended release)\nMetabolism: hepatic CYP3A4\nExcretion: Urine (72%), Feces (28%)\nMechanism of Action: stabilizes inactivated state of sodium channels, making neurons less excitable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticonvulsants\nSeizure levels and reloading\nCarbamazepine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Seizure levels and reloading",
+          "url": "https://wikem.org/wiki/Seizure_levels_and_reloading"
+        },
+        {
+          "text": "Carbamazepine toxicity",
+          "url": "https://wikem.org/wiki/Carbamazepine_toxicity"
+        }
+      ]
+    }
+  }
+}

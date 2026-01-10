@@ -1,0 +1,159 @@
+{
+  "drug_name": "CT_brain_interpretation",
+  "url": "https://wikem.org/wiki/CT_brain_interpretation",
+  "scraped_at": "2026-01-10T07:49:39.877672",
+  "sections": {
+    "Mnemonic": {
+      "text": "Blood Can Be Very Bad\nBlood\nCisterns\nBrain\nVentricles\nBone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Blood": {
+      "text": "Questions\nIs blood present?\nIf so, where is it?\nIf so, what effect is it having?\nPhysiology\nAcute blood is bright white (once it clots)\nBlood becomes isodense at 1wk (exact time depends on size of clot)\nBlood becomes hypodense at 2wks (exact time depends on size of clot)\nFindings\nEpidural hematoma\n(blood problem)\nLens shaped\nDoes not cross sutures\nClassically described with injury to middle meningeal artery\nLow mortality if treated prior to unconsciousness (<20% morbidity/mortality)\nSubdural\n(brain problem)\nSickle shaped\nCrosses sutures but not midline\nMarker for severe head injury (mortality approaches 80%)\nSmall amount of bleed can be associated with major shift (secondary to brain injury/oozing)\nSAH\nBlood in the cisterns/cortical gyral surface/interhemispheric fissure\nSuprasellar cistern is first place see SAH (location adjacent to circle of willis)\nAneurysm: 80%\nAVM\n: 5%\nIntraventricular/Intraparenchymal Hemorrhage\nTypically obvious findings\nUnimportant if intraventricular ruptured into parenchyma or vice-versa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        }
+      ]
+    },
+    "Cisterns": {
+      "text": "4 key cisterns:\nCircummesencephalic\nFirst cistern to show increased ICP (squished shut)\nSuprasellar\nQuadrigeminal\n\"W\" shaped\nSecond cistern to show increased ICP\nSylvian\nMay see isloated distal MCA bleed\n2 questions:\nIs there blood?\nAre the cisterns open?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Brain": {
+      "text": "Compare side to side\nLook for grey-white differentiation\nGrey is denser so appears lighter on CT\nLook at gyral pattern all the way around (gyri effacement indicator of increased ICP)\nFindings\nTumor\nMay see increased hypodensity (\nedema\n)\n80% visible without contrast\nAtrophy\nAbscess\nHemorrhagic contusion\nMass effect\nStroke\nIntracranial air (\nskull fracture\n)\nHyperdense middle cerebral artery or basilar artery sign\nSuggests thrombosis of vessel\nSuggestive of\nCerebral venous thrombosis\n:\nEmpty delta sign: dense triangle in superior sagittal sinus\nCord sign: hyperattenuated, homogeneous linear or round foci in cerebral sinus\n[1]\nVein Sign: hypoattenuated foci in the deep vein\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_brain_cancer"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        }
+      ]
+    },
+    "Ventricles": {
+      "text": "Check all 4 for size and for hemorrhage\nTemporal tips (comma-shaped) of lateral ventricle first place to show hydrocephalus\nIf enlarged must differentiate between\nhydrocephalus\nfrom increased pressure versus atrophy:\nAre the gyri effaced? If yes suggestive of increased pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Bone": {
+      "text": "Inspect petrous ridges for\nskull base fracture\nLook at mastoid air cells full of fluid (blood) for indirect evidence of fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "skull base fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        }
+      ]
+    },
+    "Examples": {
+      "text": "Hemorrhagic stroke\n(spontaneous intracranial hemorrhage)\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nHydrocephalus\nBrain abscess\nIschemic stroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Head CT (Clinical Decision Rules)\nCT Before Lumbar Puncture\nIntracerebral Hemorrhage (ICH)\nX-ray interpretation (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT (Clinical Decision Rules)",
+          "url": "https://wikem.org/wiki/Head_CT_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "CT Before Lumbar Puncture",
+          "url": "https://wikem.org/wiki/CT_Before_Lumbar_Puncture"
+        },
+        {
+          "text": "Intracerebral Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracerebral_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "X-ray interpretation (main)",
+          "url": "https://wikem.org/wiki/X-ray_interpretation_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Blood Can Be Very Bad: CT Interpretation Course Guide\nwww.uic.edu/com/ferne/pdf/acep2005_spring/perron_acep2005_spring_bcbvb_course.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

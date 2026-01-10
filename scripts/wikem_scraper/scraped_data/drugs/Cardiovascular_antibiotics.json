@@ -1,0 +1,493 @@
+{
+  "drug_name": "Cardiovascular_antibiotics",
+  "url": "https://wikem.org/wiki/Cardiovascular_antibiotics",
+  "scraped_at": "2026-01-10T07:49:52.223701",
+  "sections": {
+    "Endocarditis": {
+      "text": "",
+      "subsections": {
+        "Native_Valves": {
+          "text": "Options:\n[1]\nAmpicillin/Sulbactam\n12g/day IV in 4 doses +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nAmoxicillin/Clavulanate\n12g/day in 4 dose +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nOxacillin\nor\nNafcillin\n2g IV six times daily +\nGentamicin\n1mg/kg IV three times daily AND\nAmpicillin\n2g IV six times daily\nDaptomycin\n6mg/kg IV once daily\nSuspected MRSA:\n[1]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nCiprofloxacin\n1000mg/day PO in 2 doses or 800 mg/day IV in 2 doses",
+          "tables": []
+        },
+        "Prosthetic_Valves_(Early)": {
+          "text": "Early prosthetic valve endocarditis defined as < 12 months post surgery\n[1]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nRifampin\n1200 mg/day PO in 2 doses",
+          "tables": []
+        },
+        "IV_Drug_User_without_Prosthetic_Valve": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID daily\nDaptomycin\n6mg/kg IV once daily",
+          "tables": []
+        },
+        "Prosthetic_Valve_(Late)": {
+          "text": "Late prosthetic valve endocarditis defined as ≥ 12 months post surgery\n[1]\nSame as native valve endocarditis empiric therapy",
+          "tables": []
+        },
+        "Dental_Procedure_Prophylaxis": {
+          "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[2]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "Native_Valves": {
+      "text": "Options:\n[1]\nAmpicillin/Sulbactam\n12g/day IV in 4 doses +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nAmoxicillin/Clavulanate\n12g/day in 4 dose +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nOxacillin\nor\nNafcillin\n2g IV six times daily +\nGentamicin\n1mg/kg IV three times daily AND\nAmpicillin\n2g IV six times daily\nDaptomycin\n6mg/kg IV once daily\nSuspected MRSA:\n[1]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nCiprofloxacin\n1000mg/day PO in 2 doses or 800 mg/day IV in 2 doses",
+      "subsections": {
+        "Prosthetic_Valves_(Early)": {
+          "text": "Early prosthetic valve endocarditis defined as < 12 months post surgery\n[1]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nRifampin\n1200 mg/day PO in 2 doses",
+          "tables": []
+        },
+        "IV_Drug_User_without_Prosthetic_Valve": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID daily\nDaptomycin\n6mg/kg IV once daily",
+          "tables": []
+        },
+        "Prosthetic_Valve_(Late)": {
+          "text": "Late prosthetic valve endocarditis defined as ≥ 12 months post surgery\n[1]\nSame as native valve endocarditis empiric therapy",
+          "tables": []
+        },
+        "Dental_Procedure_Prophylaxis": {
+          "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[2]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "IV_Drug_User_without_Prosthetic_Valve": {
+      "text": "Vancomycin\n15-20 mg/kg IV BID daily\nDaptomycin\n6mg/kg IV once daily",
+      "subsections": {
+        "Prosthetic_Valve_(Late)": {
+          "text": "Late prosthetic valve endocarditis defined as ≥ 12 months post surgery\n[1]\nSame as native valve endocarditis empiric therapy",
+          "tables": []
+        },
+        "Dental_Procedure_Prophylaxis": {
+          "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[2]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "Dental_Procedure_Prophylaxis": {
+      "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[2]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

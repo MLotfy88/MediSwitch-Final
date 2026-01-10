@@ -1,0 +1,56 @@
+{
+  "drug_name": "Carotid_stenosis",
+  "url": "https://wikem.org/wiki/Carotid_stenosis",
+  "scraped_at": "2026-01-10T07:49:50.940274",
+  "sections": {
+    "Background": {
+      "text": "Among patients who suffer\nstroke\n, 50-75% could have been treated with endarterectomy\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Carotid_Endarterectomy": {
+          "text": "Indicated in symptomatic patients fulfilling the following:\n<6% surgical morbidity/mortality\n≥1\nTIA\n(s) in past 6 months\nCarotid artery stenosis > 50%\nIndicated in asymptomatic patients with:\n<3% surgical morbidity/mortality\nCarotid artery stenosis > 60%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        }
+      ]
+    },
+    "Carotid_Endarterectomy": {
+      "text": "Indicated in symptomatic patients fulfilling the following:\n<6% surgical morbidity/mortality\n≥1\nTIA\n(s) in past 6 months\nCarotid artery stenosis > 50%\nIndicated in asymptomatic patients with:\n<3% surgical morbidity/mortality\nCarotid artery stenosis > 60%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Stroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    }
+  }
+}

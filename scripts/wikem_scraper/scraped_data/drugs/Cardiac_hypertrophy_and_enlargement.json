@@ -1,0 +1,69 @@
+{
+  "drug_name": "Cardiac_hypertrophy_and_enlargement",
+  "url": "https://wikem.org/wiki/Cardiac_hypertrophy_and_enlargement",
+  "scraped_at": "2026-01-10T07:49:51.852034",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Hypertrophy_and_Enlargement": {
+          "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        }
+      ]
+    },
+    "Cardiac_Hypertrophy_and_Enlargement": {
+      "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    }
+  }
+}

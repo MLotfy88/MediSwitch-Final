@@ -1,0 +1,145 @@
+{
+  "drug_name": "Capsaicin",
+  "url": "https://wikem.org/wiki/Capsaicin",
+  "scraped_at": "2026-01-10T07:49:41.553613",
+  "sections": {
+    "Administration": {
+      "text": "Type: Topical analgesic\nDosage Forms:\nRoutes of Administration: Topical\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Apply to affected area TID or QID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not approved for pediatric use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown if absorbed and excreted in milk. DO NOT apply to nipple!",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown if absorbed and excreted in milk. DO NOT apply to nipple!",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown if absorbed and excreted in milk. DO NOT apply to nipple!",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Not established",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nApplication to broken or infected skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Transient increased pain at application site (dissipates w/ continued use)\nApplication site erythema\nPain\nNausea/vomiting\nRash, dryness pruritus, edema, exfoliation, skin odor\nHypertension\nSinusitis, bronchitis, cough\nDizziness, Headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Transient increased pain at application site (dissipates w/ continued use)\nApplication site erythema\nPain\nNausea/vomiting\nRash, dryness pruritus, edema, exfoliation, skin odor\nHypertension\nSinusitis, bronchitis, cough\nDizziness, Headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Transient increased pain at application site (dissipates w/ continued use)\nApplication site erythema\nPain\nNausea/vomiting\nRash, dryness pruritus, edema, exfoliation, skin odor\nHypertension\nSinusitis, bronchitis, cough\nDizziness, Headache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "\"Transient receptor potential vanilloid-1 (TRPV1) agonist; topical application causes initial TRPV1 stimulation that may cause pain, followed by pain relief by reduction in TRPV1-expressing nociceptive nerve endings\"\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

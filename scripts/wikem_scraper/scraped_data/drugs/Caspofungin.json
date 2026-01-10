@@ -1,0 +1,289 @@
+{
+  "drug_name": "Caspofungin",
+  "url": "https://wikem.org/wiki/Caspofungin",
+  "scraped_at": "2026-01-10T07:49:55.049047",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntifungal\n, particularly used for\naspergillosis\nand\ncandidiasis\nDosage Forms: powder for injection\nDosage Strengths: 50mg/vial, 70mg/vial\nRoutes of Administration: IV\nCommon Trade Names: Cancidas",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        },
+        {
+          "text": "aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "50-150 mg IV daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "3 months or older\n50-70 mg/m(2) daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Erythema multiforme\n,\nStevens-Johnson syndrome\nPancreatitis\n,\nhepatic failure\nSepsis\nNephrotoxicity\nPleural effusion\n, respiratory distress\nAngioedema",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nRash\nDiarrhea\nHistaminergic reaction\n(flushing, warmth, pruritus)\nAbnormal\nLFTs\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Histaminergic reaction",
+          "url": "https://wikem.org/wiki/Histaminergic_reaction"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Erythema multiforme\n,\nStevens-Johnson syndrome\nPancreatitis\n,\nhepatic failure\nSepsis\nNephrotoxicity\nPleural effusion\n, respiratory distress\nAngioedema",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nRash\nDiarrhea\nHistaminergic reaction\n(flushing, warmth, pruritus)\nAbnormal\nLFTs\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Histaminergic reaction",
+          "url": "https://wikem.org/wiki/Histaminergic_reaction"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypotension\nRash\nDiarrhea\nHistaminergic reaction\n(flushing, warmth, pruritus)\nAbnormal\nLFTs\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Histaminergic reaction",
+          "url": "https://wikem.org/wiki/Histaminergic_reaction"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 13-15 hours\nMetabolism: spontaneous degradation, hydrolysis and N-acetylation\nExcretion: Fecal, renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits beta (1,3)-D-glucan synthesis in fungal cell wall",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antifungals\nFungal Infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fungal Infections",
+          "url": "https://wikem.org/wiki/Fungal_Infections"
+        }
+      ]
+    },
+    "References": {
+      "text": "Aronoff GR, Bennett WM, Berns JS, et al, Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children, 5th ed. Philadelphia, PA: American College of Physicians; 2007, p 61, 153.\nBetts RF, Nucci M, Talwar D, et al, “A Multicenter, Double-Blind Trial of a High-Dose Caspofungin Treatment Regimen Versus a Standard Caspofungin Treatment Regimen for Adult Patients With Invasive Candidiasis,” Clin Infect Dis, 2009, 48(12):1676-84. [PubMed 19419331]\nCancidas (caspofungin) [prescribing information]. Whitehouse Station, NJ: Merck Sharp & Dohme; February 2019.\nFreifeld AG, Bow EJ, Sepkowitz KA, et al; Infectious Diseases Society of America. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the Infectious Diseases Society of America. Clin Infect Dis. 2011;52(4):e56-e93. [PubMed 21258094]10.1093/cid/cir073\nGould FK, Denning DW, Elliott TS, et al, “Guidelines for the Diagnosis and Antibiotic Treatment of Endocarditis in Adults: A Report of the Working Party of the British Society for Antimicrobial Chemotherapy,” J Antimicrob Chemother, 2012, 67(2):269-89. [PubMed 22086858]\nGustot T, Ter Heine R, Brauns E, Cotton F, Jacobs F, Brüggemann RJ. Caspofungin dosage adjustments are not required for patients with Child-Pugh B or C cirrhosis. J Antimicrob Chemother. 2018;73(9):2493-2496. doi: 10.1093/jac/dky189. [PubMed 29860319]\nHeintz BH, Matzke GR, Dager WE. Antimicrobial dosing concepts and recommendations for critically ill adult patients receiving continuous renal replacement therapy or intermittent hemodialysis. Pharmacotherapy. 2009;29(5):562-577. [PubMed 19397464]\nHHS Panel on Opportunistic Infections in HIV-Infected Adults and Adolescents. Guidelines for the prevention and treatment of opportunistic infections in HIV-infected adults and adolescents: recommendations from the Centers for Disease Control and Prevention, the National Institutes of Health, and the HIV Medicine Association of the Infectious Diseases Society of America.\nhttp://aidsinfo.nih.gov/contentfiles/lvguidelines/adult_oi.pdf\n. Accessed August 28, 2017.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

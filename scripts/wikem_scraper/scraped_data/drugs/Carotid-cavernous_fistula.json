@@ -1,0 +1,252 @@
+{
+  "drug_name": "Carotid-cavernous_fistula",
+  "url": "https://wikem.org/wiki/Carotid-cavernous_fistula",
+  "scraped_at": "2026-01-10T07:49:53.252147",
+  "sections": {
+    "Background": {
+      "text": "Fistula between carotid and cavernous sinus\nMajority arise from trauma\nExact mechanism unclear/variable, may arise from small tear in internal carotid or branches due to basilar\nskull fracture\n(esp. through sphenoid), shear forces, or abrupt increases in intraluminal pressure when compressed due to neck flexion\n[1]\nMay also occur spontaneously, due to aneurysms, thrombosis, or weakening in arterial wall\nRisk factors include\nconnective tissue disease\ne.g. Ehler's Danlos",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Onset typically abrupt within hours to few days after initial insult, but may present weeks after trauma\nSymptoms due to arterialization of orbital veins\nPulsating exophthalmos/\nproptosis\nRaised\nintraocular pressure\nEye pain\n(ocular and/or orbital),\nheadache\nChemosis\nDiplopia\nor blurry vision\nCN VI palsy\nEsotropia (eye moves inwards),\ndiplopia\nCNIII palsy\nExotropia (eye moves laterally)\nPtosis\nPupillary dilation\nBruit (over eye or head)\nPossible complications include:\nAcute angle\nglaucoma\n,\nvitreous hemorrhage\n,\nretinal detachment\nCan lead to\nvision loss\nICH\n,\nSAH\n(if fistula drains into cortical veins)\nSevere\nepistaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "proptosis",
+          "url": "https://wikem.org/wiki/Proptosis"
+        },
+        {
+          "text": "intraocular pressure",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Chemosis",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "CN VI palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "CNIII palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "vision loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bilateral_red_eyes": {
+          "text": "Painful\nCaustic keratoconjunctivitis\nOcular foreign body\nOrbital trauma\nContact lens problems\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease\nCarotid-cavernous fistula\nPainless\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Contact lens problems",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        }
+      ]
+    },
+    "Bilateral_red_eyes": {
+      "text": "Painful\nCaustic keratoconjunctivitis\nOcular foreign body\nOrbital trauma\nContact lens problems\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease\nCarotid-cavernous fistula\nPainless\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Contact lens problems",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Conventional angio is gold standard, but can be seen on\nCT\n/CTA or\nMRI\n/MRA of head/orbits",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "5-10% close spontaneously\n[2]\nremainder must be closed by interventional radiology (e.g. embolization) or surgically",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Red eye\n,\neye pain\nHead trauma\nCranial nerve palsies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Red eye",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        }
+      ]
+    }
+  }
+}

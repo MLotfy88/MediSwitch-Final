@@ -1,0 +1,495 @@
+{
+  "drug_name": "Cardiac_ultrasound",
+  "url": "https://wikem.org/wiki/Cardiac_ultrasound",
+  "scraped_at": "2026-01-10T07:49:50.422087",
+  "sections": {
+    "Background": {
+      "text": "Important to realize that the cardiac ultrasound preset on some machines reverses the indicator marking with the probe indicator on the right\nWith the general ED ultrasound the probe indicator is on the left of the screen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Shock\nChest pain\nShortness of breath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "Select probe\nPhased array probe\nLocation",
+      "subsections": {
+        "Parasternal_Long": {
+          "text": "Pointer to right shoulder, probe at left 3rd/4th intercostal space adjacent to sternum\nUse to visualize global function and rule out pericardial effusion/tamponade\nCan evaluate mitral valve, aortic valve, aortic root, LV squeeze",
+          "tables": []
+        },
+        "Parasternal_Short": {
+          "text": "Pointer to left shoulder, probe at left 3rd/4th intercostal space adjacent to sternum\nTip: obtain parasternal long view, then rotate probe 90 degrees\nUse to evaluate LV squeeze, right ventricle\nRight heart strain = dilated right ventricle",
+          "tables": []
+        },
+        "Apical_4_chamber": {
+          "text": "Pointer to right, usually below nipple\nUse to visualize global function (Left and right ventricle, squeeze)\nUse this view to obtain the Tricuspid Annular Plane Systolic Excursion (TAPSE)\n[1]\nRepresents the distance the tricuspid annulus moves longitudinally toward the apex during systole\nMeasurement obtained using M-Mode with the tracer line through the lateral tricuspid annulus\n< 16mm is suggestive of right heart dysfunction\n[2]",
+          "tables": []
+        },
+        "Subxyphoid": {
+          "text": "Pointer to right, subxyphoid with probe pointed toward head\nUse liver to as acoustic window to visualize heart",
+          "tables": []
+        },
+        "Suprasternal_(Optional)": {
+          "text": "Pointer at 12 o'clock (cephalad) and place in sternal notch\nMove probe inferior and to the left to visualize aortic arch\nRotate probe clockwise for further image optimization\nCan evaluate for aortic dissections/aneurysms, coarctation of the aorta, and aortic stenosis/regurgitation",
+          "tables": []
+        },
+        "Apical_5_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, tilt the probe upwards until the aortic outflow tract is seen\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness",
+          "tables": []
+        },
+        "Apical_3_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, rotate the probe until the marker points towards the patient's right shoulder\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness (alternate method to the apical 5 chamber view)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parasternal_Long": {
+      "text": "Pointer to right shoulder, probe at left 3rd/4th intercostal space adjacent to sternum\nUse to visualize global function and rule out pericardial effusion/tamponade\nCan evaluate mitral valve, aortic valve, aortic root, LV squeeze",
+      "subsections": {
+        "Parasternal_Short": {
+          "text": "Pointer to left shoulder, probe at left 3rd/4th intercostal space adjacent to sternum\nTip: obtain parasternal long view, then rotate probe 90 degrees\nUse to evaluate LV squeeze, right ventricle\nRight heart strain = dilated right ventricle",
+          "tables": []
+        },
+        "Apical_4_chamber": {
+          "text": "Pointer to right, usually below nipple\nUse to visualize global function (Left and right ventricle, squeeze)\nUse this view to obtain the Tricuspid Annular Plane Systolic Excursion (TAPSE)\n[1]\nRepresents the distance the tricuspid annulus moves longitudinally toward the apex during systole\nMeasurement obtained using M-Mode with the tracer line through the lateral tricuspid annulus\n< 16mm is suggestive of right heart dysfunction\n[2]",
+          "tables": []
+        },
+        "Subxyphoid": {
+          "text": "Pointer to right, subxyphoid with probe pointed toward head\nUse liver to as acoustic window to visualize heart",
+          "tables": []
+        },
+        "Suprasternal_(Optional)": {
+          "text": "Pointer at 12 o'clock (cephalad) and place in sternal notch\nMove probe inferior and to the left to visualize aortic arch\nRotate probe clockwise for further image optimization\nCan evaluate for aortic dissections/aneurysms, coarctation of the aorta, and aortic stenosis/regurgitation",
+          "tables": []
+        },
+        "Apical_5_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, tilt the probe upwards until the aortic outflow tract is seen\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness",
+          "tables": []
+        },
+        "Apical_3_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, rotate the probe until the marker points towards the patient's right shoulder\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness (alternate method to the apical 5 chamber view)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parasternal_Short": {
+      "text": "Pointer to left shoulder, probe at left 3rd/4th intercostal space adjacent to sternum\nTip: obtain parasternal long view, then rotate probe 90 degrees\nUse to evaluate LV squeeze, right ventricle\nRight heart strain = dilated right ventricle",
+      "subsections": {
+        "Apical_4_chamber": {
+          "text": "Pointer to right, usually below nipple\nUse to visualize global function (Left and right ventricle, squeeze)\nUse this view to obtain the Tricuspid Annular Plane Systolic Excursion (TAPSE)\n[1]\nRepresents the distance the tricuspid annulus moves longitudinally toward the apex during systole\nMeasurement obtained using M-Mode with the tracer line through the lateral tricuspid annulus\n< 16mm is suggestive of right heart dysfunction\n[2]",
+          "tables": []
+        },
+        "Subxyphoid": {
+          "text": "Pointer to right, subxyphoid with probe pointed toward head\nUse liver to as acoustic window to visualize heart",
+          "tables": []
+        },
+        "Suprasternal_(Optional)": {
+          "text": "Pointer at 12 o'clock (cephalad) and place in sternal notch\nMove probe inferior and to the left to visualize aortic arch\nRotate probe clockwise for further image optimization\nCan evaluate for aortic dissections/aneurysms, coarctation of the aorta, and aortic stenosis/regurgitation",
+          "tables": []
+        },
+        "Apical_5_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, tilt the probe upwards until the aortic outflow tract is seen\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness",
+          "tables": []
+        },
+        "Apical_3_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, rotate the probe until the marker points towards the patient's right shoulder\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness (alternate method to the apical 5 chamber view)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Apical_4_chamber": {
+      "text": "Pointer to right, usually below nipple\nUse to visualize global function (Left and right ventricle, squeeze)\nUse this view to obtain the Tricuspid Annular Plane Systolic Excursion (TAPSE)\n[1]\nRepresents the distance the tricuspid annulus moves longitudinally toward the apex during systole\nMeasurement obtained using M-Mode with the tracer line through the lateral tricuspid annulus\n< 16mm is suggestive of right heart dysfunction\n[2]",
+      "subsections": {
+        "Subxyphoid": {
+          "text": "Pointer to right, subxyphoid with probe pointed toward head\nUse liver to as acoustic window to visualize heart",
+          "tables": []
+        },
+        "Suprasternal_(Optional)": {
+          "text": "Pointer at 12 o'clock (cephalad) and place in sternal notch\nMove probe inferior and to the left to visualize aortic arch\nRotate probe clockwise for further image optimization\nCan evaluate for aortic dissections/aneurysms, coarctation of the aorta, and aortic stenosis/regurgitation",
+          "tables": []
+        },
+        "Apical_5_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, tilt the probe upwards until the aortic outflow tract is seen\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness",
+          "tables": []
+        },
+        "Apical_3_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, rotate the probe until the marker points towards the patient's right shoulder\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness (alternate method to the apical 5 chamber view)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Subxyphoid": {
+      "text": "Pointer to right, subxyphoid with probe pointed toward head\nUse liver to as acoustic window to visualize heart",
+      "subsections": {
+        "Suprasternal_(Optional)": {
+          "text": "Pointer at 12 o'clock (cephalad) and place in sternal notch\nMove probe inferior and to the left to visualize aortic arch\nRotate probe clockwise for further image optimization\nCan evaluate for aortic dissections/aneurysms, coarctation of the aorta, and aortic stenosis/regurgitation",
+          "tables": []
+        },
+        "Apical_5_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, tilt the probe upwards until the aortic outflow tract is seen\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness",
+          "tables": []
+        },
+        "Apical_3_chamber_(optional)": {
+          "text": "Start in the Apical 4 chamber view, rotate the probe until the marker points towards the patient's right shoulder\nThis view can be used to calculate the velocity time integral (VTI) and subsequently cardiac output to assess fluid responsiveness (alternate method to the apical 5 chamber view)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "",
+      "subsections": {
+        "Classic_Ultrasound_Findings_For_Critically_Ill_Patients": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Disease": "MI",
+                "Cardiac": "Focal WMAMod/Poor squeeze",
+                "IVC": "↑",
+                "Lung (Phased Array)": "NL or B-lines",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "Tamponade",
+                "Cardiac": "RA collapse with fillingRV collapse with filling",
+                "IVC": "↑",
+                "Lung (Phased Array)": "NL",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "pneumothorax",
+                "Cardiac": "NL or Hyperdynamic",
+                "IVC": "↑",
+                "Lung (Phased Array)": "Lung pointConsolidated lung",
+                "Lung (Linear)": "Absent lung sliding"
+              },
+              {
+                "Disease": "Sepsis",
+                "Cardiac": "Hyperdynamic squeeze",
+                "IVC": "↓",
+                "Lung (Phased Array)": "NL (see pneumonia)",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "Pneumonia",
+                "Cardiac": "Hyperdynamic squeeze",
+                "IVC": "NL or ↓",
+                "Lung (Phased Array)": "Unilateral B-lines",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "Decompensated HF",
+                "Cardiac": "Mod/Poor squeeze",
+                "IVC": "↑",
+                "Lung (Phased Array)": "Bilateral B-lines",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "PE",
+                "Cardiac": "RV > LVMcConnell's sign",
+                "IVC": "↑",
+                "Lung (Phased Array)": "NL or Unilateral B-lines",
+                "Lung (Linear)": "Sliding"
+              }
+            ]
+          ]
+        },
+        "Parasternal_Long_2": {
+          "text": "Assess for pericardial effusion and differentiate from pleural effusions\nAssess ejection fraction using E-point septal separation (EPSS)\nMeasures the distance between the maximal opening of the anterior leaflet of the mitral valve during diastole (the E wave) and the septum\nMeasured using M mode\nEPSS > 7mm is 100% sensitive for EF < 30%\n[3]\nFractional shortening for LVEF estimation\nPlace M-mode marker perpendicular to LV cavity\nMeasure LV end diastolic diameter (LVEDD) and LV end systolic diameter (LVESD)\nCalculate LVEF using %FS = (LVEDD-LVESD)/LVEDD×100%",
+          "tables": []
+        },
+        "Parasternal_Short_2": {
+          "text": "Assess for pericaridal effusion\nAssess for squeeze - visual estimate of hyperdynamic, good, moderate, or poor\nCan also assess fractional shortening in short axis at level of papillary muscles (see above for calculation)",
+          "tables": []
+        },
+        "Apical_4_chamber_2": {
+          "text": "Assess RV:LV diameter at the level of the valves\nNormal RV:LV is 0.6:1\nRV strain is >1:1\nAssess for McConnell's sign\nCalculate TAPSE using M-mode",
+          "tables": []
+        },
+        "Subxyphoid_2": {
+          "text": "Assess for pericardial effusion\nIf concerns for PE, assess for right ventricular wall diameter in end diastole\n[4]\nDiameter of <5mm is suggestive of acute pulmonary hypertension\nDiameter of >5mm is suggestive of chronic pulmonary hypertension",
+          "tables": []
+        },
+        "Suprasternal_(Optional)_2": {
+          "text": "Assess for aortic dissection",
+          "tables": []
+        },
+        "IVC_ultrasound": {
+          "text": "Tyically included in interpretation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classic_Ultrasound_Findings_For_Critically_Ill_Patients": {
+      "text": "",
+      "subsections": {
+        "Parasternal_Long_2": {
+          "text": "Assess for pericardial effusion and differentiate from pleural effusions\nAssess ejection fraction using E-point septal separation (EPSS)\nMeasures the distance between the maximal opening of the anterior leaflet of the mitral valve during diastole (the E wave) and the septum\nMeasured using M mode\nEPSS > 7mm is 100% sensitive for EF < 30%\n[3]\nFractional shortening for LVEF estimation\nPlace M-mode marker perpendicular to LV cavity\nMeasure LV end diastolic diameter (LVEDD) and LV end systolic diameter (LVESD)\nCalculate LVEF using %FS = (LVEDD-LVESD)/LVEDD×100%",
+          "tables": []
+        },
+        "Parasternal_Short_2": {
+          "text": "Assess for pericaridal effusion\nAssess for squeeze - visual estimate of hyperdynamic, good, moderate, or poor\nCan also assess fractional shortening in short axis at level of papillary muscles (see above for calculation)",
+          "tables": []
+        },
+        "Apical_4_chamber_2": {
+          "text": "Assess RV:LV diameter at the level of the valves\nNormal RV:LV is 0.6:1\nRV strain is >1:1\nAssess for McConnell's sign\nCalculate TAPSE using M-mode",
+          "tables": []
+        },
+        "Subxyphoid_2": {
+          "text": "Assess for pericardial effusion\nIf concerns for PE, assess for right ventricular wall diameter in end diastole\n[4]\nDiameter of <5mm is suggestive of acute pulmonary hypertension\nDiameter of >5mm is suggestive of chronic pulmonary hypertension",
+          "tables": []
+        },
+        "Suprasternal_(Optional)_2": {
+          "text": "Assess for aortic dissection",
+          "tables": []
+        },
+        "IVC_ultrasound": {
+          "text": "Tyically included in interpretation",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Disease": "MI",
+            "Cardiac": "Focal WMAMod/Poor squeeze",
+            "IVC": "↑",
+            "Lung (Phased Array)": "NL or B-lines",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "Tamponade",
+            "Cardiac": "RA collapse with fillingRV collapse with filling",
+            "IVC": "↑",
+            "Lung (Phased Array)": "NL",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "pneumothorax",
+            "Cardiac": "NL or Hyperdynamic",
+            "IVC": "↑",
+            "Lung (Phased Array)": "Lung pointConsolidated lung",
+            "Lung (Linear)": "Absent lung sliding"
+          },
+          {
+            "Disease": "Sepsis",
+            "Cardiac": "Hyperdynamic squeeze",
+            "IVC": "↓",
+            "Lung (Phased Array)": "NL (see pneumonia)",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "Pneumonia",
+            "Cardiac": "Hyperdynamic squeeze",
+            "IVC": "NL or ↓",
+            "Lung (Phased Array)": "Unilateral B-lines",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "Decompensated HF",
+            "Cardiac": "Mod/Poor squeeze",
+            "IVC": "↑",
+            "Lung (Phased Array)": "Bilateral B-lines",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "PE",
+            "Cardiac": "RV > LVMcConnell's sign",
+            "IVC": "↑",
+            "Lung (Phased Array)": "NL or Unilateral B-lines",
+            "Lung (Linear)": "Sliding"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Parasternal_Long_2": {
+      "text": "Assess for pericardial effusion and differentiate from pleural effusions\nAssess ejection fraction using E-point septal separation (EPSS)\nMeasures the distance between the maximal opening of the anterior leaflet of the mitral valve during diastole (the E wave) and the septum\nMeasured using M mode\nEPSS > 7mm is 100% sensitive for EF < 30%\n[3]\nFractional shortening for LVEF estimation\nPlace M-mode marker perpendicular to LV cavity\nMeasure LV end diastolic diameter (LVEDD) and LV end systolic diameter (LVESD)\nCalculate LVEF using %FS = (LVEDD-LVESD)/LVEDD×100%",
+      "subsections": {
+        "Parasternal_Short_2": {
+          "text": "Assess for pericaridal effusion\nAssess for squeeze - visual estimate of hyperdynamic, good, moderate, or poor\nCan also assess fractional shortening in short axis at level of papillary muscles (see above for calculation)",
+          "tables": []
+        },
+        "Apical_4_chamber_2": {
+          "text": "Assess RV:LV diameter at the level of the valves\nNormal RV:LV is 0.6:1\nRV strain is >1:1\nAssess for McConnell's sign\nCalculate TAPSE using M-mode",
+          "tables": []
+        },
+        "Subxyphoid_2": {
+          "text": "Assess for pericardial effusion\nIf concerns for PE, assess for right ventricular wall diameter in end diastole\n[4]\nDiameter of <5mm is suggestive of acute pulmonary hypertension\nDiameter of >5mm is suggestive of chronic pulmonary hypertension",
+          "tables": []
+        },
+        "Suprasternal_(Optional)_2": {
+          "text": "Assess for aortic dissection",
+          "tables": []
+        },
+        "IVC_ultrasound": {
+          "text": "Tyically included in interpretation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parasternal_Short_2": {
+      "text": "Assess for pericaridal effusion\nAssess for squeeze - visual estimate of hyperdynamic, good, moderate, or poor\nCan also assess fractional shortening in short axis at level of papillary muscles (see above for calculation)",
+      "subsections": {
+        "Apical_4_chamber_2": {
+          "text": "Assess RV:LV diameter at the level of the valves\nNormal RV:LV is 0.6:1\nRV strain is >1:1\nAssess for McConnell's sign\nCalculate TAPSE using M-mode",
+          "tables": []
+        },
+        "Subxyphoid_2": {
+          "text": "Assess for pericardial effusion\nIf concerns for PE, assess for right ventricular wall diameter in end diastole\n[4]\nDiameter of <5mm is suggestive of acute pulmonary hypertension\nDiameter of >5mm is suggestive of chronic pulmonary hypertension",
+          "tables": []
+        },
+        "Suprasternal_(Optional)_2": {
+          "text": "Assess for aortic dissection",
+          "tables": []
+        },
+        "IVC_ultrasound": {
+          "text": "Tyically included in interpretation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Apical_4_chamber_2": {
+      "text": "Assess RV:LV diameter at the level of the valves\nNormal RV:LV is 0.6:1\nRV strain is >1:1\nAssess for McConnell's sign\nCalculate TAPSE using M-mode",
+      "subsections": {
+        "Subxyphoid_2": {
+          "text": "Assess for pericardial effusion\nIf concerns for PE, assess for right ventricular wall diameter in end diastole\n[4]\nDiameter of <5mm is suggestive of acute pulmonary hypertension\nDiameter of >5mm is suggestive of chronic pulmonary hypertension",
+          "tables": []
+        },
+        "Suprasternal_(Optional)_2": {
+          "text": "Assess for aortic dissection",
+          "tables": []
+        },
+        "IVC_ultrasound": {
+          "text": "Tyically included in interpretation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Subxyphoid_2": {
+      "text": "Assess for pericardial effusion\nIf concerns for PE, assess for right ventricular wall diameter in end diastole\n[4]\nDiameter of <5mm is suggestive of acute pulmonary hypertension\nDiameter of >5mm is suggestive of chronic pulmonary hypertension",
+      "subsections": {
+        "Suprasternal_(Optional)_2": {
+          "text": "Assess for aortic dissection",
+          "tables": []
+        },
+        "IVC_ultrasound": {
+          "text": "Tyically included in interpretation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IVC_ultrasound": {
+      "text": "Tyically included in interpretation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess the heart with clinical indications of SOB. The parasternal long, parasternal short, apical four chamber, subxyphoid, and IVC views were obtained. Normal diameter AOFT, no pericardial or pleural effusions identified, good squeeze, RV<LV, and IVC was not plethoric nor flat. Normal cardiac ultrasound.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess the heart with clinical indications of SOB. The parasternal long, parasternal short, apical four chamber, subxyphoid, and IVC views were obtained. Normal diameter AOFT, EPSS >7mm, no pericardial effusion, bilateral pleural effusions, poor squeeze, RV<LV, and IVC was plethoric. Indicative of systolic heart failure.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess the heart with clinical indications of SOB. The parasternal long, parasternal short, apical four chamber, subxyphoid, and IVC views were obtained. Normal diameter AOFT, no pericardial or pleural effusions identified, good squeeze, RV<LV, and IVC was not plethoric nor flat. Normal cardiac ultrasound.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess the heart with clinical indications of SOB. The parasternal long, parasternal short, apical four chamber, subxyphoid, and IVC views were obtained. Normal diameter AOFT, EPSS >7mm, no pericardial effusion, bilateral pleural effusions, poor squeeze, RV<LV, and IVC was plethoric. Indicative of systolic heart failure.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess the heart with clinical indications of SOB. The parasternal long, parasternal short, apical four chamber, subxyphoid, and IVC views were obtained. Normal diameter AOFT, EPSS >7mm, no pericardial effusion, bilateral pleural effusions, poor squeeze, RV<LV, and IVC was plethoric. Indicative of systolic heart failure.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (Main)\nFormal echocardiography\nPericardial Effusion and Tamponade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        },
+        {
+          "text": "Formal echocardiography",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMRA: Fractional Shortening\nEMRA: EPSS",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id= 4qerzEW_ASU}}\n{{#widget:YouTube|id= EaLuCBXXINg}}\n{{#widget:YouTube|id= _eHZz-OCc_M}}\n{{#widget:YouTube|id= 1UJ6RodOSTw}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id= 4qerzEW_ASU}}\n{{#widget:YouTube|id= EaLuCBXXINg}}\n{{#widget:YouTube|id= _eHZz-OCc_M}}\n{{#widget:YouTube|id= 1UJ6RodOSTw}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

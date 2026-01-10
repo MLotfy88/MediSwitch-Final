@@ -1,0 +1,43 @@
+{
+  "drug_name": "Care_under_fire",
+  "url": "https://wikem.org/wiki/Care_under_fire",
+  "scraped_at": "2026-01-10T07:49:51.602986",
+  "sections": {
+    "Background": {
+      "text": "One of the three phases of care within the Tactical Combat Casualty Care (TCCC) guidelines.\nDefined as care rendered to a casualty while still under active fire.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Principles_of_Care": {
+      "text": "Return fire and take cover.\nDirect or expect casualty to remain engaged as a combatant if appropriate.\nDirect casualty to move to cover and apply self-aid if able.\nTry to keep the casualty from sustaining additional wounds.\nCasualties should be extricated from burning vehicles or buildings and moved to places of relative safety. Do what is necessary to stop the burning process.\nAirway management is generally best deferred until the Tactical Field Care phase.\nStop life-threatening external hemorrhage if tactically feasible:\nDirect casualty to control hemorrhage by self-aid if able.\nUse a CoTCCC-recommended\ntourniquet\nfor hemorrhage that is anatomically amenable to\ntourniquet\napplication.\nApply the\ntourniquet\nproximal to the bleeding site, over the uniform, tighten, and move the casualty to cover.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Tactical combat casualty care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tactical combat casualty care",
+          "url": "https://wikem.org/wiki/Tactical_combat_casualty_care"
+        }
+      ]
+    }
+  }
+}

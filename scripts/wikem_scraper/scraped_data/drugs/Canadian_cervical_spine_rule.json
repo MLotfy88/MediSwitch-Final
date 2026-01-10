@@ -1,0 +1,103 @@
+{
+  "drug_name": "Canadian_cervical_spine_rule",
+  "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule",
+  "scraped_at": "2026-01-10T07:49:39.477865",
+  "sections": {
+    "Background": {
+      "text": "Only applies to\nGCS\n=15 and stable\nblunt neck trauma\nNot applicable for:\nNon-trauma, GCS <15, Hemodynamically unstable, Age <16, Acute paralysis, previous spinal disease or surgery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/Glasgow_Coma_Scale_(GCS)"
+        },
+        {
+          "text": "blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        }
+      ]
+    },
+    "Rule": {
+      "text": "",
+      "subsections": {
+        "No_High_Risk_Factors": {
+          "text": "Age >65\nDangerous mechanism (fall>3ft/5 stairs, high speed MVC (>60mph)/rollover/ejection, bicycle crash, RV, axial load injury)\nParasthesias in extremities",
+          "tables": []
+        },
+        "ANY_Low_Risk_Factor": {
+          "text": "Simple rear end MVC\nDelayed onset of pain\nSitting position in ED\nAmbulatory at any time\nAbsence of midline C-spine tenderness",
+          "tables": []
+        },
+        "ROM": {
+          "text": "Rotates neck 45 degrees to left and right\nC-spine can be cleared clinically if above criteria met\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Canadian_Cervical_Spine_Rule": {
+      "text": "",
+      "subsections": {
+        "No_High_Risk_Factors": {
+          "text": "Age >65\nDangerous mechanism (fall>3ft/5 stairs, high speed MVC (>60mph)/rollover/ejection, bicycle crash, RV, axial load injury)\nParasthesias in extremities",
+          "tables": []
+        },
+        "ANY_Low_Risk_Factor": {
+          "text": "Simple rear end MVC\nDelayed onset of pain\nSitting position in ED\nAmbulatory at any time\nAbsence of midline C-spine tenderness",
+          "tables": []
+        },
+        "ROM": {
+          "text": "Rotates neck 45 degrees to left and right\nC-spine can be cleared clinically if above criteria met\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mnemonic": {
+      "text": "High Risk Rhyme\nSixty five,\nFast drive,\nSense deprive\n(Image if alive)\nLow Risk Rhyme\nSlow wreck,\nSlow neck,\nSitting down,\nWalking around,\nC-spine fine\n(Range the spine)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "EBQ:Canadian C-spine Rule Study\nNEXUS cervical spine rule\nEBQ:NEXUS\nBlunt neck trauma\nCervical spine clearance\nC-Spine X-Ray",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:Canadian C-spine Rule Study",
+          "url": "https://wikem.org/wiki/EBQ:Canadian_C-spine_Rule_Study"
+        },
+        {
+          "text": "NEXUS cervical spine rule",
+          "url": "https://wikem.org/wiki/NEXUS_cervical_spine_rule"
+        },
+        {
+          "text": "EBQ:NEXUS",
+          "url": "https://wikem.org/wiki/EBQ:NEXUS"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "C-Spine X-Ray",
+          "url": "https://wikem.org/wiki/C-Spine_X-Ray"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc Canadian C-Spine Rule\nMDCalc NEXUS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "drug_name": "Carbon_disulfide_toxicity",
+  "url": "https://wikem.org/wiki/Carbon_disulfide_toxicity",
+  "scraped_at": "2026-01-10T07:49:47.503434",
+  "sections": {
+    "Background": {
+      "text": "Organic Solvent\nPrecursor in rubber industry\nAlso a metabolite of drug Disulfiram",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Disruption of enzymes and metabolic pathways including in the CNS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Disruption of enzymes and metabolic pathways including in the CNS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Eye irritation\nSkin irritation\nCNS depression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Based on clinical history and presenting signs and symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Decontaminate\nConsider\nactivated charcoal\nfor oral ingestions\nNo specific antidotes available",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

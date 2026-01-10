@@ -1,0 +1,218 @@
+{
+  "drug_name": "Capitate_fracture",
+  "url": "https://wikem.org/wiki/Capitate_fracture",
+  "scraped_at": "2026-01-10T07:49:45.240512",
+  "sections": {
+    "Background": {
+      "text": "Isolated capitate fractures are rare (\nscaphoid\nis most common associated fracture)\nOccurs via forceful dorsiflexion of hand (FOOSH injury) with impact on radial side\nProximal fracture fragment at risk for\navascular necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "scaphoid",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Diffuse swelling and tenderness over capitate (just proximal to 3rd metacarpal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Hand x-ray\nOften overlooked due to accompanying\nscaphoid fracture\nor\nlunate/perilunate dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "lunate/perilunate dislocation",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Isolated capitate fracture requires\nforearm volar splint\nimmobilization and early ortho referral\nCapitate fracture associated with\nscaphoid fracture\nor dislocations requires surgical treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        },
+        {
+          "text": "scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Isolated capitate fracture requires\nforearm volar splint\nimmobilization and early ortho referral\nCapitate fracture associated with\nscaphoid fracture\nor dislocations requires surgical treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        },
+        {
+          "text": "scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Isolated capitate fracture requires\nforearm volar splint\nimmobilization and early ortho referral\nCapitate fracture associated with\nscaphoid fracture\nor dislocations requires surgical treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        },
+        {
+          "text": "scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be dishcarged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Carpal fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal fractures",
+          "url": "https://wikem.org/wiki/Carpal_fractures"
+        }
+      ]
+    }
+  }
+}

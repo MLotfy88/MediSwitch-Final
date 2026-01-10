@@ -1,0 +1,1127 @@
+{
+  "drug_name": "Carbon_monoxide_toxicity",
+  "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity",
+  "scraped_at": "2026-01-10T07:49:47.434303",
+  "sections": {
+    "Background": {
+      "text": "Colorless, odorless gas\nMost toxic component in\nsmoke inhalation\nand major contributor to fire-related deaths\nCan co-occur with\nCyanide\ntoxicity in industrial fires\nCase fatality rate as high as 30%\n[1]\nPeak incidence in winter months for unintentional exposure",
+      "subsections": {
+        "Sources": {
+          "text": "Formed from incomplete combustion of hydrocarbons\nAutomotive exhaust\nPropane-fueled heaters\nWood or coal-burning heaters\nStructure fires\nGasoline-powered motors\nNatural gas-powered heaters\nWaterpipe/Hookah\n[2]\nMethylene chloride (a degreasing solvent found in most paint strippers) fume inhalation\nMetabolized by the liver into carbon monoxide resulting in delayed toxicity (8 hours or longer)\n[3]",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Hypoxia\nBinding affinity of hemoglobin for CO (carboxyhemoglobin) is 200x that of O2\nHalf-Life\nRoom air: ~5hrs\n100% O2: ~1hr\nHBO 2.5atm: 24min\nLactic acidosis\nCO inhibits oxidative phosphorylation\nHypotension\nCO induces NO2 and guanylate cyclase release → vasodilation release\nCO binds to myoglobin and alters its function\nCO damage at cellular level due to reactive oxygen species, lipid peroxidation, and cellular apoptosis\nOccurs in CNS and leads to neurological sequela",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "smoke inhalation",
+          "url": "https://wikem.org/wiki/Smoke_inhalation"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Sources": {
+      "text": "Formed from incomplete combustion of hydrocarbons\nAutomotive exhaust\nPropane-fueled heaters\nWood or coal-burning heaters\nStructure fires\nGasoline-powered motors\nNatural gas-powered heaters\nWaterpipe/Hookah\n[2]\nMethylene chloride (a degreasing solvent found in most paint strippers) fume inhalation\nMetabolized by the liver into carbon monoxide resulting in delayed toxicity (8 hours or longer)\n[3]",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Hypoxia\nBinding affinity of hemoglobin for CO (carboxyhemoglobin) is 200x that of O2\nHalf-Life\nRoom air: ~5hrs\n100% O2: ~1hr\nHBO 2.5atm: 24min\nLactic acidosis\nCO inhibits oxidative phosphorylation\nHypotension\nCO induces NO2 and guanylate cyclase release → vasodilation release\nCO binds to myoglobin and alters its function\nCO damage at cellular level due to reactive oxygen species, lipid peroxidation, and cellular apoptosis\nOccurs in CNS and leads to neurological sequela",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Hypoxia\nBinding affinity of hemoglobin for CO (carboxyhemoglobin) is 200x that of O2\nHalf-Life\nRoom air: ~5hrs\n100% O2: ~1hr\nHBO 2.5atm: 24min\nLactic acidosis\nCO inhibits oxidative phosphorylation\nHypotension\nCO induces NO2 and guanylate cyclase release → vasodilation release\nCO binds to myoglobin and alters its function\nCO damage at cellular level due to reactive oxygen species, lipid peroxidation, and cellular apoptosis\nOccurs in CNS and leads to neurological sequela",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May range from \"flu-like\" symptoms to coma\nCNS\nHeadache\nVisual disturbances\nConfusion\nAtaxia\nSeizure\nSyncope\nRetinal hemorrhage\nFocal neurologic deficit\nComa\nGI\nVomiting\nPulm\nDyspnea/tachypnea\nCardio\nChest pain\nECG\nchanges/\ndysrhythmias\nDerm\nBullous skin lesions\nClassic finding of cherry red oral mucosa is rarely seen in living patients\nMore likely seen in > 25% COhemoglobin levels",
+      "subsections": {
+        "Expected_CNS_Function_by_COhemoglobin%": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "COhemoglobin": "10-20%",
+                "Presentation": "Confusion and agitation secondary to mild hypoxia"
+              },
+              {
+                "COhemoglobin": "20-30%",
+                "Presentation": "Progressive obtundation and nausea"
+              },
+              {
+                "COhemoglobin": ">40%",
+                "Presentation": "Almost always unconscious"
+              },
+              {
+                "COhemoglobin": ">60%",
+                "Presentation": "Survival is very rare"
+              }
+            ]
+          ]
+        },
+        "Symptoms_By_Frequency": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Symptom": "Headache",
+                "%": "85"
+              },
+              {
+                "Symptom": "Dizzy",
+                "%": "69"
+              },
+              {
+                "Symptom": "Fatigue",
+                "%": "67"
+              },
+              {
+                "Symptom": "NauseaorVomiting",
+                "%": "52"
+              },
+              {
+                "Symptom": "Confusion",
+                "%": "37"
+              },
+              {
+                "Symptom": "LOC",
+                "%": "35"
+              },
+              {
+                "Symptom": "Dyspnea",
+                "%": "7"
+              }
+            ]
+          ]
+        },
+        "Delayed_Neurological_Sequela": {
+          "text": "Can occur days to weeks after apparent resolution of acute symptoms in up to 46% of patients. The globus pallidus is the most commonly affected area.\nPersistent, disabling, or permanent\nCognitive sequelae lasting one month or more appear to occur in 25-50 percent of patients with loss of consciousness or CO levels > 25%.\nIncludes:\nCognitive effects\nMotor disturbances\nAtaxia\nNeuropathies\nPsychosis\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Bullous skin lesions",
+          "url": "https://wikem.org/wiki/Bullous_skin_lesions"
+        }
+      ]
+    },
+    "Expected_CNS_Function_by_COhemoglobin%": {
+      "text": "",
+      "subsections": {
+        "Symptoms_By_Frequency": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Symptom": "Headache",
+                "%": "85"
+              },
+              {
+                "Symptom": "Dizzy",
+                "%": "69"
+              },
+              {
+                "Symptom": "Fatigue",
+                "%": "67"
+              },
+              {
+                "Symptom": "NauseaorVomiting",
+                "%": "52"
+              },
+              {
+                "Symptom": "Confusion",
+                "%": "37"
+              },
+              {
+                "Symptom": "LOC",
+                "%": "35"
+              },
+              {
+                "Symptom": "Dyspnea",
+                "%": "7"
+              }
+            ]
+          ]
+        },
+        "Delayed_Neurological_Sequela": {
+          "text": "Can occur days to weeks after apparent resolution of acute symptoms in up to 46% of patients. The globus pallidus is the most commonly affected area.\nPersistent, disabling, or permanent\nCognitive sequelae lasting one month or more appear to occur in 25-50 percent of patients with loss of consciousness or CO levels > 25%.\nIncludes:\nCognitive effects\nMotor disturbances\nAtaxia\nNeuropathies\nPsychosis\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "COhemoglobin": "10-20%",
+            "Presentation": "Confusion and agitation secondary to mild hypoxia"
+          },
+          {
+            "COhemoglobin": "20-30%",
+            "Presentation": "Progressive obtundation and nausea"
+          },
+          {
+            "COhemoglobin": ">40%",
+            "Presentation": "Almost always unconscious"
+          },
+          {
+            "COhemoglobin": ">60%",
+            "Presentation": "Survival is very rare"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Symptoms_By_Frequency": {
+      "text": "",
+      "subsections": {
+        "Delayed_Neurological_Sequela": {
+          "text": "Can occur days to weeks after apparent resolution of acute symptoms in up to 46% of patients. The globus pallidus is the most commonly affected area.\nPersistent, disabling, or permanent\nCognitive sequelae lasting one month or more appear to occur in 25-50 percent of patients with loss of consciousness or CO levels > 25%.\nIncludes:\nCognitive effects\nMotor disturbances\nAtaxia\nNeuropathies\nPsychosis\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Symptom": "Headache",
+            "%": "85"
+          },
+          {
+            "Symptom": "Dizzy",
+            "%": "69"
+          },
+          {
+            "Symptom": "Fatigue",
+            "%": "67"
+          },
+          {
+            "Symptom": "NauseaorVomiting",
+            "%": "52"
+          },
+          {
+            "Symptom": "Confusion",
+            "%": "37"
+          },
+          {
+            "Symptom": "LOC",
+            "%": "35"
+          },
+          {
+            "Symptom": "Dyspnea",
+            "%": "7"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Delayed_Neurological_Sequela": {
+      "text": "Can occur days to weeks after apparent resolution of acute symptoms in up to 46% of patients. The globus pallidus is the most commonly affected area.\nPersistent, disabling, or permanent\nCognitive sequelae lasting one month or more appear to occur in 25-50 percent of patients with loss of consciousness or CO levels > 25%.\nIncludes:\nCognitive effects\nMotor disturbances\nAtaxia\nNeuropathies\nPsychosis\nDementia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "A \"great mimicker\" due to the presentation of poisoning being diverse and nonspecific\nViral syndrome\nDepression\nChronic fatigue syndrome\nChest pain\nOther\nheadache\nARDS\nAcute mountain sickness\nLactic acidosis\nDiabetic ketoacidosis\nMeningitis\nMethemoglobinemia\nOpioid\nor\ntoxic alcohol poisoning\nInhalation exposure",
+      "subsections": {
+        "Further_Considerations": {
+          "text": "Dichloromethane methylene chloride toxicity\nConsider when level not decreasing as expected, or is increasing due to prolonged absorption through skin/respiratory tract.",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "toxic alcohol poisoning",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Dichloromethane methylene chloride toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_methylene_chloride_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Further_Considerations": {
+      "text": "Dichloromethane methylene chloride toxicity\nConsider when level not decreasing as expected, or is increasing due to prolonged absorption through skin/respiratory tract.",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dichloromethane methylene chloride toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_methylene_chloride_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "VBG\n(ABGs are no longer considered necessary\n[6]\nas venous and arterial COHg levels will be within ±2%\n[7]\n)\nCO-oximetry analysis will provide carboxyhemoglobin level\npH will be low secondary to metabolic acidosis caused by anaerobic metabolism and elevated lactate levels\nPulse CO-oximetry\nSpecial pulse CO-ox can accurately determine CO level\n[8]\nLactate (usually not significantly elevated, and if so should raise concern for cyanide toxicity)\n[9]\nChemistry\nTroponin\nTotal CK (\nrhabdomyolysis\n)\nBeta-HCG\nECG\nMay range from normal to STEMI (most common ST/T changes, then prolonged QT)\nFew of the patients with AMI from CO have occlusive lesions in their arteries\nHead CT\nIdentified radiographically within 12 hours of exposure\nBilateral hypodense lesions in the basal ganglia: globus pallidus, putamen, and caudate nuclei\n[10]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Must have high clinical suspicion (esp in\ncoma\n,\naltered mental status\n, or\nanion gap acidosis\n)\nComatose patients removed from fire should be assumed to have CO poisoning\nCarboxyhemoglobin Level\nInterpretation must take into account time since exposure and O2 treatment\nNormal value in non-smokers is ~1%, normal value in smokers may be up to 10%\nSymptoms and COhemoglobin levels do not always correlate well\nPulse oximetry is unreliable\nCOhemoglobin registers the same as O2hemoglobin so will have artificially high SpO2\nO2 saturation gap reflects discordance of SpO2 by pulse oximeter vs by VBG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "VBG\n(ABGs are no longer considered necessary\n[6]\nas venous and arterial COHg levels will be within ±2%\n[7]\n)\nCO-oximetry analysis will provide carboxyhemoglobin level\npH will be low secondary to metabolic acidosis caused by anaerobic metabolism and elevated lactate levels\nPulse CO-oximetry\nSpecial pulse CO-ox can accurately determine CO level\n[8]\nLactate (usually not significantly elevated, and if so should raise concern for cyanide toxicity)\n[9]\nChemistry\nTroponin\nTotal CK (\nrhabdomyolysis\n)\nBeta-HCG\nECG\nMay range from normal to STEMI (most common ST/T changes, then prolonged QT)\nFew of the patients with AMI from CO have occlusive lesions in their arteries\nHead CT\nIdentified radiographically within 12 hours of exposure\nBilateral hypodense lesions in the basal ganglia: globus pallidus, putamen, and caudate nuclei\n[10]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Must have high clinical suspicion (esp in\ncoma\n,\naltered mental status\n, or\nanion gap acidosis\n)\nComatose patients removed from fire should be assumed to have CO poisoning\nCarboxyhemoglobin Level\nInterpretation must take into account time since exposure and O2 treatment\nNormal value in non-smokers is ~1%, normal value in smokers may be up to 10%\nSymptoms and COhemoglobin levels do not always correlate well\nPulse oximetry is unreliable\nCOhemoglobin registers the same as O2hemoglobin so will have artificially high SpO2\nO2 saturation gap reflects discordance of SpO2 by pulse oximeter vs by VBG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Must have high clinical suspicion (esp in\ncoma\n,\naltered mental status\n, or\nanion gap acidosis\n)\nComatose patients removed from fire should be assumed to have CO poisoning\nCarboxyhemoglobin Level\nInterpretation must take into account time since exposure and O2 treatment\nNormal value in non-smokers is ~1%, normal value in smokers may be up to 10%\nSymptoms and COhemoglobin levels do not always correlate well\nPulse oximetry is unreliable\nCOhemoglobin registers the same as O2hemoglobin so will have artificially high SpO2\nO2 saturation gap reflects discordance of SpO2 by pulse oximeter vs by VBG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Management": {
+          "text": "If smoke inhalation, good pulmonary toilet is very important\nNEVER\nuse steroids in smoke inhalation injury; intubate early if concern for obstructing edema\nO2 100% by NRB or ETT\nProvide O2 until COhemoglobin value <10%\nEarly PEEP prevents progressive atelectasis and improves O2 diffusion\nIn general, COhemoglobin levels fall rapidly to < 10% within 30 min of 100% O2\nMaintain 100% O2 for additional 2-3 hrs after < 10%, since anaerobic COmetabolism is occuring due to cytochrome oxidase poisoning\n[11]\nAnaerobic metabolism universally seen with COhemoglobin > 40%\nMonitor for return of aerobic metabolism with normal serum bicarbonate levels\nConsider other combustion products such as\nCyanide",
+          "tables": []
+        },
+        "Hyperbaric_Therapy_(HBO)": {
+          "text": "Decision to initiate HBO should be made in consultation with a hyperbaric specialist\nThere is controversy regarding benefit\n[12]\n[13]\nThree HBO treatments within 24hrs shown to reduce risk of cognitive sequelae 6 weeks and 12 months after CO poisoning\n[14]\nHowever, another study showed no benefit and suggested worse outcomes in HBO therapy\n[15]\nPatient must be stable prior to transport since response to acute medical conditions while undergoing hyperbaric therapy in a chamber is difficult.\nIndications (generally accepted guidelines):\n[16]\nSyncope\nConfusion/\naltered mental status\nSeizure\nComa\nFocal neuro deficit\nPregnancy\nwith COhemoglobin level >15%\nFetal Hb tends to bind more CO\nBlood level >25%\nAcute myocardial ischemia\nProlonged CO exposure with minor clinical findings (“soaking”)\n[17]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Acute myocardial ischemia",
+          "url": "https://wikem.org/wiki/Acute_myocardial_ischemia"
+        }
+      ]
+    },
+    "General_Management": {
+      "text": "If smoke inhalation, good pulmonary toilet is very important\nNEVER\nuse steroids in smoke inhalation injury; intubate early if concern for obstructing edema\nO2 100% by NRB or ETT\nProvide O2 until COhemoglobin value <10%\nEarly PEEP prevents progressive atelectasis and improves O2 diffusion\nIn general, COhemoglobin levels fall rapidly to < 10% within 30 min of 100% O2\nMaintain 100% O2 for additional 2-3 hrs after < 10%, since anaerobic COmetabolism is occuring due to cytochrome oxidase poisoning\n[11]\nAnaerobic metabolism universally seen with COhemoglobin > 40%\nMonitor for return of aerobic metabolism with normal serum bicarbonate levels\nConsider other combustion products such as\nCyanide",
+      "subsections": {
+        "Hyperbaric_Therapy_(HBO)": {
+          "text": "Decision to initiate HBO should be made in consultation with a hyperbaric specialist\nThere is controversy regarding benefit\n[12]\n[13]\nThree HBO treatments within 24hrs shown to reduce risk of cognitive sequelae 6 weeks and 12 months after CO poisoning\n[14]\nHowever, another study showed no benefit and suggested worse outcomes in HBO therapy\n[15]\nPatient must be stable prior to transport since response to acute medical conditions while undergoing hyperbaric therapy in a chamber is difficult.\nIndications (generally accepted guidelines):\n[16]\nSyncope\nConfusion/\naltered mental status\nSeizure\nComa\nFocal neuro deficit\nPregnancy\nwith COhemoglobin level >15%\nFetal Hb tends to bind more CO\nBlood level >25%\nAcute myocardial ischemia\nProlonged CO exposure with minor clinical findings (“soaking”)\n[17]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Acute myocardial ischemia",
+          "url": "https://wikem.org/wiki/Acute_myocardial_ischemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Minimal_or_no_symptoms": {
+          "text": "Discharge\nIf discharging patient, may need to alert local fire/police services to evaluate home/work before they return. Check with your local branch.\nPatient's should not be discharged to an environment where they will become toxic again",
+          "tables": []
+        },
+        "Mildly_symptomatic": {
+          "text": "Headache\n,\nvomiting\n, elevated COhemoglobin level\nDischarge after 4hr obs and symptom resolution and assurance that the discharge environment is safe",
+          "tables": []
+        },
+        "Severely_symptomatic": {
+          "text": "Ataxia\n,\nsyncope\n,\nchest pain\n,\nfocal neuro deficit\n,\ndyspnea\n,\nECG\nchanges, pregnant with COhemoglobin >15%\nAdmit; discuss with hyperbaric specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Minimal_or_no_symptoms": {
+      "text": "Discharge\nIf discharging patient, may need to alert local fire/police services to evaluate home/work before they return. Check with your local branch.\nPatient's should not be discharged to an environment where they will become toxic again",
+      "subsections": {
+        "Mildly_symptomatic": {
+          "text": "Headache\n,\nvomiting\n, elevated COhemoglobin level\nDischarge after 4hr obs and symptom resolution and assurance that the discharge environment is safe",
+          "tables": []
+        },
+        "Severely_symptomatic": {
+          "text": "Ataxia\n,\nsyncope\n,\nchest pain\n,\nfocal neuro deficit\n,\ndyspnea\n,\nECG\nchanges, pregnant with COhemoglobin >15%\nAdmit; discuss with hyperbaric specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Mildly_symptomatic": {
+      "text": "Headache\n,\nvomiting\n, elevated COhemoglobin level\nDischarge after 4hr obs and symptom resolution and assurance that the discharge environment is safe",
+      "subsections": {
+        "Severely_symptomatic": {
+          "text": "Ataxia\n,\nsyncope\n,\nchest pain\n,\nfocal neuro deficit\n,\ndyspnea\n,\nECG\nchanges, pregnant with COhemoglobin >15%\nAdmit; discuss with hyperbaric specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Severely_symptomatic": {
+      "text": "Ataxia\n,\nsyncope\n,\nchest pain\n,\nfocal neuro deficit\n,\ndyspnea\n,\nECG\nchanges, pregnant with COhemoglobin >15%\nAdmit; discuss with hyperbaric specialist",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Toxidromes\nBurns\nCyanide\nMethemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP Clinical Policy Statement on Carbon Monoxide Poisoining",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

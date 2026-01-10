@@ -1,0 +1,154 @@
+{
+  "drug_name": "Candiduria",
+  "url": "https://wikem.org/wiki/Candiduria",
+  "scraped_at": "2026-01-10T07:49:39.052916",
+  "sections": {
+    "Background": {
+      "text": "Colonization with\ncandida\nwithout infection is common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic or signs/symptoms of\nUTI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "UA\n, urine culture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "If asymptomatic, no treatment needed except for: neonates,\nrenal transplant\npatients,\npregnancy\n,\nneutropenic\npatients, patients undergoing renal tract procedure\nCatheter related infection frequently responds without therapy.",
+      "subsections": {
+        "Antimicrobial_treatment": {
+          "text": "Cystitis\n:\nFluconazole\n200 mg/d (3mg/kg) x 14d.\nPyelonephritis\n:\nFluconazole\n200 to 400 mg/d x 14d\nNeutropenic\npatients:\nmicafungin\n100 mg/d IV or other echinocandin (anidulafungin,\ncaspofungin\n)\nPatients with\nfluconazole\nresistant candida can be treated with\namphotericin B",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "renal transplant",
+          "url": "https://wikem.org/wiki/Kidney_transplant"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "neutropenic",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Neutropenic",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Antimicrobial_treatment": {
+      "text": "Cystitis\n:\nFluconazole\n200 mg/d (3mg/kg) x 14d.\nPyelonephritis\n:\nFluconazole\n200 to 400 mg/d x 14d\nNeutropenic\npatients:\nmicafungin\n100 mg/d IV or other echinocandin (anidulafungin,\ncaspofungin\n)\nPatients with\nfluconazole\nresistant candida can be treated with\namphotericin B",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Neutropenic",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Candida",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    }
+  }
+}

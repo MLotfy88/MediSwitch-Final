@@ -1,0 +1,83 @@
+{
+  "drug_name": "Camphor_toxicity",
+  "url": "https://wikem.org/wiki/Camphor_toxicity",
+  "scraped_at": "2026-01-10T07:49:39.212452",
+  "sections": {
+    "Background": {
+      "text": "Common topical agent for pain relief, wart removal, osteoarthritis, cold sores, cough suppression, nasal decongestion\nFDA limits over the counter preparations to 11%\n[1]\nHighly lipophilic, widely and rapidly distributed, symptom onset 5-15 minutes\nCNS stimulant when ingested",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nausea/vomiting\n,\nabdominal pain\nOral burning\nHeadache\nVertigo\n,\nconfusion\n,\nagitation\nSeizure\n, respiratory depression,\ncoma\nHepatitis\nand\nliver failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Aggressive supportive care\n[2]\nBenzodiazepines\nfor seizure\nIntubation\nand\nmechanical ventilation\nas needed\nCharcoal\nnot likely effective",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        },
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        }
+      ]
+    }
+  }
+}

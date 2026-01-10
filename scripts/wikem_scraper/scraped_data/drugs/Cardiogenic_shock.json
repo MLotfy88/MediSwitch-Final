@@ -1,0 +1,1245 @@
+{
+  "drug_name": "Cardiogenic_shock",
+  "url": "https://wikem.org/wiki/Cardiogenic_shock",
+  "scraped_at": "2026-01-10T07:49:51.917796",
+  "sections": {
+    "Background": {
+      "text": "Leading cause of death in patients with\nACS\nwho reach the hospital alive",
+      "subsections": {
+        "Etiologies": {
+          "text": "Myocardial infarction\nPump failure\nMechanical complications\nAcute\nmitral regurgitation\n(papillary muscle rupture)\nVSD\nFree-wall rupture\nRV infarction\nDecreased forward flow\nSepsis\nRate-related\nBradycardia\nTachycardia\nMyocarditis\nMyocardial contusion\nCardiomyopathy\nMechanical obstruction to forward flow\nAortic stenosis\nHOCM\nMitral stenosis\nPericardial\nLV regurgitation\nChordal rupture\nAortic Insufficiency\nToxic/metabolic\nSevere\nacidosis\n, severe hypoxemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Free-wall rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Myocardial contusion",
+          "url": "https://wikem.org/wiki/Myocardial_contusion"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Pericardial",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Aortic Insufficiency",
+          "url": "https://wikem.org/wiki/Aortic_Insufficiency"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Myocardial infarction\nPump failure\nMechanical complications\nAcute\nmitral regurgitation\n(papillary muscle rupture)\nVSD\nFree-wall rupture\nRV infarction\nDecreased forward flow\nSepsis\nRate-related\nBradycardia\nTachycardia\nMyocarditis\nMyocardial contusion\nCardiomyopathy\nMechanical obstruction to forward flow\nAortic stenosis\nHOCM\nMitral stenosis\nPericardial\nLV regurgitation\nChordal rupture\nAortic Insufficiency\nToxic/metabolic\nSevere\nacidosis\n, severe hypoxemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Free-wall rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Myocardial contusion",
+          "url": "https://wikem.org/wiki/Myocardial_contusion"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Pericardial",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Aortic Insufficiency",
+          "url": "https://wikem.org/wiki/Aortic_Insufficiency"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Assess for signs of\nCHF\nelevated JVD, pulmonary edema, S3\nAssess for\nvalvular disease\n(\nmitral regurgitation\n, critical\naortic stenosis\n, or\naortic regurgitation\n)\nAssess for end-organ hypoperfusion\ncool/mottled extremities, weak pulses,\naltered mental status\n, decreased UOP\nAssess for\npulsus paradoxus\n(\ncardiac tamponade\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_disease"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "pulsus paradoxus",
+          "url": "https://wikem.org/wiki/Pulsus_paradoxus"
+        },
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Assess for signs of\nCHF\nelevated JVD, pulmonary edema, S3\nAssess for\nvalvular disease\n(\nmitral regurgitation\n, critical\naortic stenosis\n, or\naortic regurgitation\n)\nAssess for end-organ hypoperfusion\ncool/mottled extremities, weak pulses,\naltered mental status\n, decreased UOP\nAssess for\npulsus paradoxus\n(\ncardiac tamponade\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_disease"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "pulsus paradoxus",
+          "url": "https://wikem.org/wiki/Pulsus_paradoxus"
+        },
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Shock": {
+      "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs\nTroponin\nLactate\nCBC\nWBC elevated with a left shift\nChem\nLFTs\nelevated due to liver hypoperfusion\nABG\nanion gap acidosis\nBNP\nECG\nCXR\nTTE",
+          "tables": []
+        },
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[2]",
+          "tables": []
+        },
+        "NT-proBNP[3][4]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Labs\nTroponin\nLactate\nCBC\nWBC elevated with a left shift\nChem\nLFTs\nelevated due to liver hypoperfusion\nABG\nanion gap acidosis\nBNP\nECG\nCXR\nTTE",
+      "subsections": {
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[2]",
+          "tables": []
+        },
+        "NT-proBNP[3][4]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Aim for MAP >65\nConsider etiologies (see above) and treat specific one, if present\nConsider small fluid challenge (250-500cc normal saline IV) or fluid removal, depending on estimation of patient's point on Starling curve\nIncrease inotropy\nDobutamine\n+/-\nnorepinephrine\nOR\ndopamine\nDobutamine\nmay initially drop pressures, so may need to use second agent to maintain BP\nConsider\nmilrinone\nor\nbeta-blocker reversal\nif patient is on a\nbeta-blocker\nConsider\ncalcium chloride\n1 g if hypocalcemic or normocalcemic through good PIV or central line\nConsider\ntransfusion\nif hemoglobin < 10 (be aware of added fluid)\nConsider\nintubation\nDecreases O2 demand BUT may worsen preload",
+          "tables": []
+        },
+        "Mitral_Regurgitation": {
+          "text": "Increase forward flow\nDobutamine\n(contractility) +\nnitroprusside\n(afterload reduction)",
+          "tables": []
+        },
+        "ACS": {
+          "text": "PCI or\nthrombolysis",
+          "tables": []
+        },
+        "Aortic_stenosis": {
+          "text": "Decrease afterload (with extreme caution in very small, carefully-titrated doses)\nAgents:\nNitroprusside\nDobutamine\nHydralazine\nDo not give preload reducers such as\nnitro\nPatients are flow dependent over stenotic value.  Flow proportional to degree of stenosis and afterload.",
+          "tables": []
+        },
+        "Toxins": {
+          "text": "Beta-Blocker Toxicity\nCalcium Channel Blocker\nDigoxin",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Pressor": "Dobutamine",
+                "Initial Dose": "3-5 mcg/kg/min",
+                "Max Dose": "5-15 mcg/kg/min (as high as 200)[6]",
+                "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+                "BP Effect": "alpha effect minimal",
+                "Arrhythmias": "HR variable effects.",
+                "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[7]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+              },
+              {
+                "Pressor": "Dopamine",
+                "Initial Dose": "2 mcg/kg/min",
+                "Max Dose": "20-50 mcg/kg/min",
+                "Cardiac Effect": "β1 and NorEpi release",
+                "BP Effect": "α effects if > 20mcg/kg/min",
+                "Arrhythmias": "Arrhythmogenic from β1 effects",
+                "Special Notes": "More adverse events when used in shock compared to Norepi[8]"
+              },
+              {
+                "Pressor": "Epinepherine",
+                "Initial Dose": "0.1-1 mcg/kg/min",
+                "Max Dose": "",
+                "Cardiac Effect": "+ inotropy, + chronotropy",
+                "BP Effect": "",
+                "Arrhythmias": "",
+                "Special Notes": ""
+              },
+              {
+                "Pressor": "Norepinephrine",
+                "Initial Dose": "0.2 mcg/kg/min",
+                "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[9]",
+                "Cardiac Effect": "mild β1 direct effect",
+                "BP Effect": "β1 and strong α1,2 effects",
+                "Arrhythmias": "Less arrhythmias than Dopamine[8]",
+                "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+              },
+              {
+                "Pressor": "Milrinone",
+                "Initial Dose": "50 mcg/kg x 10 min",
+                "Max Dose": "0.375-75 mcg/kg/min",
+                "Cardiac Effect": "Direct influx of Ca2+channels",
+                "BP Effect": "Smooth muscle vasodilator",
+                "Arrhythmias": "",
+                "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+              },
+              {
+                "Pressor": "Phenylephrine",
+                "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+                "Max Dose": "0.4-9 mcg/kg/min",
+                "Cardiac Effect": "",
+                "BP Effect": "Alpha agonist",
+                "Arrhythmias": "",
+                "Special Notes": "Long half life"
+              },
+              {
+                "Pressor": "Vasopressin",
+                "Initial Dose": "Fixed Dose",
+                "Max Dose": "0.01 to 0.04 U/min",
+                "Cardiac Effect": "unknown",
+                "BP Effect": "increases via ADH peptide",
+                "Arrhythmias": "",
+                "Special Notes": "should not be titrated due to ischemic effects"
+              },
+              {
+                "Pressor": "Methylene blue[10]",
+                "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+                "Max Dose": "1-2 mg/kg/hour",
+                "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+                "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+                "Arrhythmias": "",
+                "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+              }
+            ],
+            [
+              {
+                "Medication": "Norepinephrine(Levophed)",
+                "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+                "Concentration": "8mg in 500mL D5W"
+              },
+              {
+                "Medication": "Dopamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "400mg in 250 D5W"
+              },
+              {
+                "Medication": "Dobutamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "250mg in 250 mg D5W"
+              },
+              {
+                "Medication": "Epinephrine",
+                "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+                "Concentration": "1mg in 250 D5W"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "beta-blocker reversal",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        },
+        {
+          "text": "Beta-Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Beta-Blocker_Toxicity"
+        },
+        {
+          "text": "Calcium Channel Blocker",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "General": {
+      "text": "Aim for MAP >65\nConsider etiologies (see above) and treat specific one, if present\nConsider small fluid challenge (250-500cc normal saline IV) or fluid removal, depending on estimation of patient's point on Starling curve\nIncrease inotropy\nDobutamine\n+/-\nnorepinephrine\nOR\ndopamine\nDobutamine\nmay initially drop pressures, so may need to use second agent to maintain BP\nConsider\nmilrinone\nor\nbeta-blocker reversal\nif patient is on a\nbeta-blocker\nConsider\ncalcium chloride\n1 g if hypocalcemic or normocalcemic through good PIV or central line\nConsider\ntransfusion\nif hemoglobin < 10 (be aware of added fluid)\nConsider\nintubation\nDecreases O2 demand BUT may worsen preload",
+      "subsections": {
+        "Mitral_Regurgitation": {
+          "text": "Increase forward flow\nDobutamine\n(contractility) +\nnitroprusside\n(afterload reduction)",
+          "tables": []
+        },
+        "ACS": {
+          "text": "PCI or\nthrombolysis",
+          "tables": []
+        },
+        "Aortic_stenosis": {
+          "text": "Decrease afterload (with extreme caution in very small, carefully-titrated doses)\nAgents:\nNitroprusside\nDobutamine\nHydralazine\nDo not give preload reducers such as\nnitro\nPatients are flow dependent over stenotic value.  Flow proportional to degree of stenosis and afterload.",
+          "tables": []
+        },
+        "Toxins": {
+          "text": "Beta-Blocker Toxicity\nCalcium Channel Blocker\nDigoxin",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Pressor": "Dobutamine",
+                "Initial Dose": "3-5 mcg/kg/min",
+                "Max Dose": "5-15 mcg/kg/min (as high as 200)[6]",
+                "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+                "BP Effect": "alpha effect minimal",
+                "Arrhythmias": "HR variable effects.",
+                "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[7]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+              },
+              {
+                "Pressor": "Dopamine",
+                "Initial Dose": "2 mcg/kg/min",
+                "Max Dose": "20-50 mcg/kg/min",
+                "Cardiac Effect": "β1 and NorEpi release",
+                "BP Effect": "α effects if > 20mcg/kg/min",
+                "Arrhythmias": "Arrhythmogenic from β1 effects",
+                "Special Notes": "More adverse events when used in shock compared to Norepi[8]"
+              },
+              {
+                "Pressor": "Epinepherine",
+                "Initial Dose": "0.1-1 mcg/kg/min",
+                "Max Dose": "",
+                "Cardiac Effect": "+ inotropy, + chronotropy",
+                "BP Effect": "",
+                "Arrhythmias": "",
+                "Special Notes": ""
+              },
+              {
+                "Pressor": "Norepinephrine",
+                "Initial Dose": "0.2 mcg/kg/min",
+                "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[9]",
+                "Cardiac Effect": "mild β1 direct effect",
+                "BP Effect": "β1 and strong α1,2 effects",
+                "Arrhythmias": "Less arrhythmias than Dopamine[8]",
+                "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+              },
+              {
+                "Pressor": "Milrinone",
+                "Initial Dose": "50 mcg/kg x 10 min",
+                "Max Dose": "0.375-75 mcg/kg/min",
+                "Cardiac Effect": "Direct influx of Ca2+channels",
+                "BP Effect": "Smooth muscle vasodilator",
+                "Arrhythmias": "",
+                "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+              },
+              {
+                "Pressor": "Phenylephrine",
+                "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+                "Max Dose": "0.4-9 mcg/kg/min",
+                "Cardiac Effect": "",
+                "BP Effect": "Alpha agonist",
+                "Arrhythmias": "",
+                "Special Notes": "Long half life"
+              },
+              {
+                "Pressor": "Vasopressin",
+                "Initial Dose": "Fixed Dose",
+                "Max Dose": "0.01 to 0.04 U/min",
+                "Cardiac Effect": "unknown",
+                "BP Effect": "increases via ADH peptide",
+                "Arrhythmias": "",
+                "Special Notes": "should not be titrated due to ischemic effects"
+              },
+              {
+                "Pressor": "Methylene blue[10]",
+                "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+                "Max Dose": "1-2 mg/kg/hour",
+                "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+                "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+                "Arrhythmias": "",
+                "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+              }
+            ],
+            [
+              {
+                "Medication": "Norepinephrine(Levophed)",
+                "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+                "Concentration": "8mg in 500mL D5W"
+              },
+              {
+                "Medication": "Dopamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "400mg in 250 D5W"
+              },
+              {
+                "Medication": "Dobutamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "250mg in 250 mg D5W"
+              },
+              {
+                "Medication": "Epinephrine",
+                "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+                "Concentration": "1mg in 250 D5W"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "beta-blocker reversal",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        },
+        {
+          "text": "Beta-Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Beta-Blocker_Toxicity"
+        },
+        {
+          "text": "Calcium Channel Blocker",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "Specific_Situations": {
+      "text": "",
+      "subsections": {
+        "Mitral_Regurgitation": {
+          "text": "Increase forward flow\nDobutamine\n(contractility) +\nnitroprusside\n(afterload reduction)",
+          "tables": []
+        },
+        "ACS": {
+          "text": "PCI or\nthrombolysis",
+          "tables": []
+        },
+        "Aortic_stenosis": {
+          "text": "Decrease afterload (with extreme caution in very small, carefully-titrated doses)\nAgents:\nNitroprusside\nDobutamine\nHydralazine\nDo not give preload reducers such as\nnitro\nPatients are flow dependent over stenotic value.  Flow proportional to degree of stenosis and afterload.",
+          "tables": []
+        },
+        "Toxins": {
+          "text": "Beta-Blocker Toxicity\nCalcium Channel Blocker\nDigoxin",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Pressor": "Dobutamine",
+                "Initial Dose": "3-5 mcg/kg/min",
+                "Max Dose": "5-15 mcg/kg/min (as high as 200)[6]",
+                "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+                "BP Effect": "alpha effect minimal",
+                "Arrhythmias": "HR variable effects.",
+                "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[7]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+              },
+              {
+                "Pressor": "Dopamine",
+                "Initial Dose": "2 mcg/kg/min",
+                "Max Dose": "20-50 mcg/kg/min",
+                "Cardiac Effect": "β1 and NorEpi release",
+                "BP Effect": "α effects if > 20mcg/kg/min",
+                "Arrhythmias": "Arrhythmogenic from β1 effects",
+                "Special Notes": "More adverse events when used in shock compared to Norepi[8]"
+              },
+              {
+                "Pressor": "Epinepherine",
+                "Initial Dose": "0.1-1 mcg/kg/min",
+                "Max Dose": "",
+                "Cardiac Effect": "+ inotropy, + chronotropy",
+                "BP Effect": "",
+                "Arrhythmias": "",
+                "Special Notes": ""
+              },
+              {
+                "Pressor": "Norepinephrine",
+                "Initial Dose": "0.2 mcg/kg/min",
+                "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[9]",
+                "Cardiac Effect": "mild β1 direct effect",
+                "BP Effect": "β1 and strong α1,2 effects",
+                "Arrhythmias": "Less arrhythmias than Dopamine[8]",
+                "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+              },
+              {
+                "Pressor": "Milrinone",
+                "Initial Dose": "50 mcg/kg x 10 min",
+                "Max Dose": "0.375-75 mcg/kg/min",
+                "Cardiac Effect": "Direct influx of Ca2+channels",
+                "BP Effect": "Smooth muscle vasodilator",
+                "Arrhythmias": "",
+                "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+              },
+              {
+                "Pressor": "Phenylephrine",
+                "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+                "Max Dose": "0.4-9 mcg/kg/min",
+                "Cardiac Effect": "",
+                "BP Effect": "Alpha agonist",
+                "Arrhythmias": "",
+                "Special Notes": "Long half life"
+              },
+              {
+                "Pressor": "Vasopressin",
+                "Initial Dose": "Fixed Dose",
+                "Max Dose": "0.01 to 0.04 U/min",
+                "Cardiac Effect": "unknown",
+                "BP Effect": "increases via ADH peptide",
+                "Arrhythmias": "",
+                "Special Notes": "should not be titrated due to ischemic effects"
+              },
+              {
+                "Pressor": "Methylene blue[10]",
+                "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+                "Max Dose": "1-2 mg/kg/hour",
+                "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+                "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+                "Arrhythmias": "",
+                "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+              }
+            ],
+            [
+              {
+                "Medication": "Norepinephrine(Levophed)",
+                "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+                "Concentration": "8mg in 500mL D5W"
+              },
+              {
+                "Medication": "Dopamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "400mg in 250 D5W"
+              },
+              {
+                "Medication": "Dobutamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "250mg in 250 mg D5W"
+              },
+              {
+                "Medication": "Epinephrine",
+                "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+                "Concentration": "1mg in 250 D5W"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        },
+        {
+          "text": "Beta-Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Beta-Blocker_Toxicity"
+        },
+        {
+          "text": "Calcium Channel Blocker",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "Vasopressors": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Pressor": "Dobutamine",
+            "Initial Dose": "3-5 mcg/kg/min",
+            "Max Dose": "5-15 mcg/kg/min (as high as 200)[6]",
+            "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+            "BP Effect": "alpha effect minimal",
+            "Arrhythmias": "HR variable effects.",
+            "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[7]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+          },
+          {
+            "Pressor": "Dopamine",
+            "Initial Dose": "2 mcg/kg/min",
+            "Max Dose": "20-50 mcg/kg/min",
+            "Cardiac Effect": "β1 and NorEpi release",
+            "BP Effect": "α effects if > 20mcg/kg/min",
+            "Arrhythmias": "Arrhythmogenic from β1 effects",
+            "Special Notes": "More adverse events when used in shock compared to Norepi[8]"
+          },
+          {
+            "Pressor": "Epinepherine",
+            "Initial Dose": "0.1-1 mcg/kg/min",
+            "Max Dose": "",
+            "Cardiac Effect": "+ inotropy, + chronotropy",
+            "BP Effect": "",
+            "Arrhythmias": "",
+            "Special Notes": ""
+          },
+          {
+            "Pressor": "Norepinephrine",
+            "Initial Dose": "0.2 mcg/kg/min",
+            "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[9]",
+            "Cardiac Effect": "mild β1 direct effect",
+            "BP Effect": "β1 and strong α1,2 effects",
+            "Arrhythmias": "Less arrhythmias than Dopamine[8]",
+            "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+          },
+          {
+            "Pressor": "Milrinone",
+            "Initial Dose": "50 mcg/kg x 10 min",
+            "Max Dose": "0.375-75 mcg/kg/min",
+            "Cardiac Effect": "Direct influx of Ca2+channels",
+            "BP Effect": "Smooth muscle vasodilator",
+            "Arrhythmias": "",
+            "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+          },
+          {
+            "Pressor": "Phenylephrine",
+            "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+            "Max Dose": "0.4-9 mcg/kg/min",
+            "Cardiac Effect": "",
+            "BP Effect": "Alpha agonist",
+            "Arrhythmias": "",
+            "Special Notes": "Long half life"
+          },
+          {
+            "Pressor": "Vasopressin",
+            "Initial Dose": "Fixed Dose",
+            "Max Dose": "0.01 to 0.04 U/min",
+            "Cardiac Effect": "unknown",
+            "BP Effect": "increases via ADH peptide",
+            "Arrhythmias": "",
+            "Special Notes": "should not be titrated due to ischemic effects"
+          },
+          {
+            "Pressor": "Methylene blue[10]",
+            "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+            "Max Dose": "1-2 mg/kg/hour",
+            "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+            "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+            "Arrhythmias": "",
+            "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+          }
+        ],
+        [
+          {
+            "Medication": "Norepinephrine(Levophed)",
+            "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+            "Concentration": "8mg in 500mL D5W"
+          },
+          {
+            "Medication": "Dopamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "400mg in 250 D5W"
+          },
+          {
+            "Medication": "Dobutamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "250mg in 250 mg D5W"
+          },
+          {
+            "Medication": "Epinephrine",
+            "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+            "Concentration": "1mg in 250 D5W"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission, frequently to intensive or higher-level of care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Shock\nUltrasound in Shock and Hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Ultrasound in Shock and Hypotension",
+          "url": "https://wikem.org/wiki/Ultrasound_in_Shock_and_Hypotension"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit Podcast – Cardiogenic Shock\nemDocs - Diagnosing Cardiogenic Shock in the ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

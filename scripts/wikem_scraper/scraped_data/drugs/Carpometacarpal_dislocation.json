@@ -1,0 +1,135 @@
+{
+  "drug_name": "Carpometacarpal_dislocation",
+  "url": "https://wikem.org/wiki/Carpometacarpal_dislocation",
+  "scraped_at": "2026-01-10T07:49:54.374583",
+  "sections": {
+    "Background": {
+      "text": "Also known as CMC joint\nUncommon due to strong ligaments and insertions of wrist flexors/extensors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Cause is usually result of high-speed mechanisms\nUsually dislocates dorsally with associated fracture(s)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        }
+      ]
+    },
+    "Hand_and_finger_dislocations": {
+      "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "X-ray",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Reduction": {
+          "text": "Traction and flexion with simultaneous longitudinal pressure on metacarpal base\nIf unable to reduce or remains unstable, immobilize with both dorsal and volar splints for urgent hand surgeon referral\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reduction": {
+      "text": "Traction and flexion with simultaneous longitudinal pressure on metacarpal base\nIf unable to reduce or remains unstable, immobilize with both dorsal and volar splints for urgent hand surgeon referral\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Refer to hand surgeon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger dislocations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=8cY4oIAR-ow}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=8cY4oIAR-ow}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

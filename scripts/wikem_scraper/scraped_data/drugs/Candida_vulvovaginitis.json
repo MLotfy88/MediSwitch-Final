@@ -1,0 +1,364 @@
+{
+  "drug_name": "Candida_vulvovaginitis",
+  "url": "https://wikem.org/wiki/Candida_vulvovaginitis",
+  "scraped_at": "2026-01-10T07:49:45.077550",
+  "sections": {
+    "Background": {
+      "text": "Local fungal infection caused by the\nCandida\ngenus (most commonly\nCandida albicans\n)\nMost commonly seen in females in high estrogen states: pregnancy, oral contraceptive use, obesity, diabetes mellitus\nNot considered an STI although it can be transmitted by sexual intercourse\nMay occur in premarnarcheal girls (rare)\nCan occur as a result of antibiotic use",
+      "subsections": {
+        "Types": {
+          "text": "Uncomplicated (must have all)\nSporadic infection\nMild-moderate symptoms\nDue to\nCandida albicans\n(suspected or proven)\nImmunocompetent\nComplicated (presence of ANY of the following)\nAny species other than\nC. albicans\nRecurrent infection (defined as ≥4 episodes per year)\nSevere symptoms or findings\nPoorly controlled\ndiabetes\n, immunocompromising conditions (such as\nHIV\n), debilitation, or immunosuppressive therapy (e.g.,\ncorticosteroids\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Candida albicans",
+          "url": "https://wikem.org/wiki/Candida_albicans"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Uncomplicated (must have all)\nSporadic infection\nMild-moderate symptoms\nDue to\nCandida albicans\n(suspected or proven)\nImmunocompetent\nComplicated (presence of ANY of the following)\nAny species other than\nC. albicans\nRecurrent infection (defined as ≥4 episodes per year)\nSevere symptoms or findings\nPoorly controlled\ndiabetes\n, immunocompromising conditions (such as\nHIV\n), debilitation, or immunosuppressive therapy (e.g.,\ncorticosteroids\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Vulvar\npruritus\n- most common and specific symptom\n[2]\nVaginal discharge\n- varies from little to copious and from watery to cottage-cheese like\nMalodorous smell is unusual (if present favors diagnosis of\nBacterial vaginosis\n)\nIntense vulvovaginal\npruritus\nor burning\nDyspareunia\nDysuria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Vulvovaginitis": {
+      "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Urine pregnancy\nWet mount\nConsider blood glucose (if recurrent, to check for occult DM)\nConsider tests for\nSTIs",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Cotton cheese curd-like non-odorous vaginal discharge on pelvic exam\nVaginal pH < 4.5\nVaginal wet mount\nHyphae and yeast buds\nCandida does not cause WBCs on wet mount → if present, consider co-infection with other\nvaginitides\nor\nSTI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STIs",
+          "url": "https://wikem.org/wiki/STIs"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Urine pregnancy\nWet mount\nConsider blood glucose (if recurrent, to check for occult DM)\nConsider tests for\nSTIs",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Cotton cheese curd-like non-odorous vaginal discharge on pelvic exam\nVaginal pH < 4.5\nVaginal wet mount\nHyphae and yeast buds\nCandida does not cause WBCs on wet mount → if present, consider co-infection with other\nvaginitides\nor\nSTI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STIs",
+          "url": "https://wikem.org/wiki/STIs"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Cotton cheese curd-like non-odorous vaginal discharge on pelvic exam\nVaginal pH < 4.5\nVaginal wet mount\nHyphae and yeast buds\nCandida does not cause WBCs on wet mount → if present, consider co-infection with other\nvaginitides\nor\nSTI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Do\nnot\ntreat if asymptomatic\nSexual partners should\nnot\nbe treated unless the patient has frequent recurrences\nDoes\nnot\nneed a test of cure",
+      "subsections": {
+        "Uncomplicated": {
+          "text": "There is little resistance to azole medications; treatment often dictated by patient preference.\nFluconazole\n150mg PO once (preferred)\n[3]\nA second dose at 72hrs may be given if patient is still symptomatic\nIntravaginal therapy\nClotrimazole\n1 % cream applied vaginally for 7 days OR\nClotrimazole\n2% applied vaginally for 3 days\nMiconazole\n2% cream applied vaginally for 7 days OR 4% cream x 3 days\nButoconazole 2% applied vaginally x 3 days\nTioconazole 6.5% applied vaginally x 1",
+          "tables": []
+        },
+        "Complicated": {
+          "text": "Severe or immunosuppressed\nFluconazole\n150mg PO q72h x 3 doses\nNon-albicans species\nFor example, C. glabrata, C. krusei and other atypical Candida spp.\nBoric acid vaginal suppository intravaginal qday x ≥14 days\nCan be fatal if taken orally\nIf empirically treated and later is found to have non-albicans Candida spp., no change in therapy is needed if patient is improving (otherwise switch to boric acid.\nRecurrent (≥ 4 infections in a year)\nTreat as for uncomplicated (see above)\nOnce therapy completed, prescribe long-term treatment\nFluconazole\n150mg PO qweek x 6 months, OR\nIntravaginal medication, such as clotrimazole 500mg PV qweek or 200mg PV twice a week",
+          "tables": []
+        },
+        "Pregnant_Patients": {
+          "text": "Intravaginal\nclotrimazole\nor\nmiconazole\nare the only recommended treatments\nDuration is 7 days\nPO fluconazole associated with congenital malformations and spontaneous abortions\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        }
+      ]
+    },
+    "Antifungals": {
+      "text": "",
+      "subsections": {
+        "Uncomplicated": {
+          "text": "There is little resistance to azole medications; treatment often dictated by patient preference.\nFluconazole\n150mg PO once (preferred)\n[3]\nA second dose at 72hrs may be given if patient is still symptomatic\nIntravaginal therapy\nClotrimazole\n1 % cream applied vaginally for 7 days OR\nClotrimazole\n2% applied vaginally for 3 days\nMiconazole\n2% cream applied vaginally for 7 days OR 4% cream x 3 days\nButoconazole 2% applied vaginally x 3 days\nTioconazole 6.5% applied vaginally x 1",
+          "tables": []
+        },
+        "Complicated": {
+          "text": "Severe or immunosuppressed\nFluconazole\n150mg PO q72h x 3 doses\nNon-albicans species\nFor example, C. glabrata, C. krusei and other atypical Candida spp.\nBoric acid vaginal suppository intravaginal qday x ≥14 days\nCan be fatal if taken orally\nIf empirically treated and later is found to have non-albicans Candida spp., no change in therapy is needed if patient is improving (otherwise switch to boric acid.\nRecurrent (≥ 4 infections in a year)\nTreat as for uncomplicated (see above)\nOnce therapy completed, prescribe long-term treatment\nFluconazole\n150mg PO qweek x 6 months, OR\nIntravaginal medication, such as clotrimazole 500mg PV qweek or 200mg PV twice a week",
+          "tables": []
+        },
+        "Pregnant_Patients": {
+          "text": "Intravaginal\nclotrimazole\nor\nmiconazole\nare the only recommended treatments\nDuration is 7 days\nPO fluconazole associated with congenital malformations and spontaneous abortions\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient\nRefer all \"complicated\" cases to gynecology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vulvovaginitis\nCandidiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "drug_name": "Capnography",
+  "url": "https://wikem.org/wiki/Capnography",
+  "scraped_at": "2026-01-10T07:49:45.050363",
+  "sections": {
+    "Background": {
+      "text": "End-tidal CO2 monitors can be qualitative or quantitative\nQualitative devices indicate presence or absence of EtCO2\nColorimetric EtCO2 devices change color from purple (CO2 absent) to yellow (CO2 present)\nQuantitative devices give numeric values\nMainstream (or inline) CO2 monitors are placed within the closed circuit of the ventilator (or BVM)\nSidestream CO2 monitors use special NC to detect CO2\nEtCO2 is ~3-5 mmHg less than PaCO2 - see\nEBQ:End-Tidal CO2 PaCO2 correlation\nDue to dilution of CO2 in alveolar dead space\nProcesses that increase alveolar dead space:\nPulmonary embolism\nDecreased cardiac output",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:End-Tidal CO2 PaCO2 correlation",
+          "url": "https://wikem.org/wiki/EBQ:End-Tidal_CO2_PaCO2_correlation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Basics": {
+      "text": "Capnography measures the amount of exhaled CO2\nETCO2 of 35-45mmHg is considered normal\n<35mmHg = Hypocapnia or Hyperventilation\n>45mmHg =\nHypercapnia\nor Hypoventilation\nDirectly measure the function of ventilation (not oxygenation)\nETCO2 ≥ PCO2\nIndirectly measures overall metabolism (or lack there of in cardiac arrest)",
+      "subsections": {
+        "Capnogram_Overview": {
+          "text": "Exhalation will first expel dead space air (Phase I)\nThen a rapid rise in CO2 rich air is noted (Phase II)\nThis is followed by a more gradual increase in CO2 (Phase III)\nThe curve peaks at the end of Phase III which is noted as the End-Tidal CO2 measurement\nInhalation follows (Phase 0 or IV)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        }
+      ]
+    },
+    "Capnogram_Overview": {
+      "text": "Exhalation will first expel dead space air (Phase I)\nThen a rapid rise in CO2 rich air is noted (Phase II)\nThis is followed by a more gradual increase in CO2 (Phase III)\nThe curve peaks at the end of Phase III which is noted as the End-Tidal CO2 measurement\nInhalation follows (Phase 0 or IV)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Airway_Monitoring": {
+      "text": "Ensure adequate\nBVM\nventilation\nAssess for\nETT\nplacement using presence of measurable ETCO2 and waveform\nIn out of hospital use, this had SN 1.0 and SP 1.0 in detected good placement\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "ETT",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Cardiac_Arrest_Monitoring": {
+      "text": "",
+      "subsections": {
+        "Ensure_adequate_chest_compressions": {
+          "text": "ETCO2 10-20mmHg signifies high quality chest compressions\n[2]",
+          "tables": []
+        },
+        "ROSC": {
+          "text": "Attaining ROSC is associated with an ETCO2 jump 10mmHg with ROSC (13.5 on average)\n[3]\n10mHg has a sensitivity of 33% and a specificity of 97% for ROSC\n[4]\n20mHg has a sensitivity of 20% and a specificity of 99% for ROSC\nCPR does not have to be stopped for pulse checks\nLoss of ROSC can be determined by a significant drop signifies drop in ETCO2",
+          "tables": []
+        },
+        "Prognosis": {
+          "text": "ETCO2 level of 10mmHg or less after 20 min of CPR predicts death\n[5]\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ensure_adequate_chest_compressions": {
+      "text": "ETCO2 10-20mmHg signifies high quality chest compressions\n[2]",
+      "subsections": {
+        "ROSC": {
+          "text": "Attaining ROSC is associated with an ETCO2 jump 10mmHg with ROSC (13.5 on average)\n[3]\n10mHg has a sensitivity of 33% and a specificity of 97% for ROSC\n[4]\n20mHg has a sensitivity of 20% and a specificity of 99% for ROSC\nCPR does not have to be stopped for pulse checks\nLoss of ROSC can be determined by a significant drop signifies drop in ETCO2",
+          "tables": []
+        },
+        "Prognosis": {
+          "text": "ETCO2 level of 10mmHg or less after 20 min of CPR predicts death\n[5]\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ROSC": {
+      "text": "Attaining ROSC is associated with an ETCO2 jump 10mmHg with ROSC (13.5 on average)\n[3]\n10mHg has a sensitivity of 33% and a specificity of 97% for ROSC\n[4]\n20mHg has a sensitivity of 20% and a specificity of 99% for ROSC\nCPR does not have to be stopped for pulse checks\nLoss of ROSC can be determined by a significant drop signifies drop in ETCO2",
+      "subsections": {
+        "Prognosis": {
+          "text": "ETCO2 level of 10mmHg or less after 20 min of CPR predicts death\n[5]\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "ETCO2 level of 10mmHg or less after 20 min of CPR predicts death\n[5]\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedural_Sedation_Monitoring": {
+      "text": "Pulse-ox has a lag time of sec to mins\nCapnography will show real-time respiratory changes and apnea\nETCO2 monitoring detects clinically signifcant respiratory events before SPO2 or clinically noted apnea/hypoventilation\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "DKA": {
+      "text": "Adults with BG>550\n[8]\nETCO2>35 mmHg has a sensitivity 100%, ETCO2<26 mmHg has specificity of 96%\nAdults with BG>250\n[9]\nETCO2>24.5 mmHg has sensitivity of 90%, ETCO2<24.5 mmHg has specificity of 90%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intubation\nProcedural sedation\nEBQ:End-Tidal CO2 PaCO2 correlation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "EBQ:End-Tidal CO2 PaCO2 correlation",
+          "url": "https://wikem.org/wiki/EBQ:End-Tidal_CO2_PaCO2_correlation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Capnography.com",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

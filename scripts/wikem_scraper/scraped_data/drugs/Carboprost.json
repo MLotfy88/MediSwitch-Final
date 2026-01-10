@@ -1,0 +1,316 @@
+{
+  "drug_name": "Carboprost",
+  "url": "https://wikem.org/wiki/Carboprost",
+  "scraped_at": "2026-01-10T07:49:45.956882",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nUterotonic\nDosage Forms: 250 mcg/mL\nRoutes of Administration: IV, IM\nCommon Trade Names: Hemabate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Uterotonic",
+          "url": "https://wikem.org/wiki/Uterotonic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Postpartum_hemorrhage": {
+          "text": "250 mcg IM x1\nMay repeat q15-90min for refractory bleeding\nMax 2mg total dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Postpartum_hemorrhage": {
+      "text": "250 mcg IM x1\nMay repeat q15-90min for refractory bleeding\nMax 2mg total dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Pediatric dosing not applicable or safety has not been established in pediatric patients.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Avoid use in 3rd trimester\nPossible risk of embryo-fetal toxicity",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised when breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Avoid use in 3rd trimester\nPossible risk of embryo-fetal toxicity",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Caution advised when breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Caution advised when breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Contraindicated in acute impairment\nPediatric: N/a",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to prostaglandin\nPID\n, acute\nAcute\nrenal impairment\nAcute pulmonary disease\nAcute hepatic disease\nCAD\nCaution if\nasthma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "renal impairment",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Uterine rupture\nHemorrhage\n,\nhematemesis\nRespiratory distress\n,\npulmonary edema",
+          "tables": []
+        },
+        "Common": {
+          "text": "vomiting\n,\nnausea\n,\ndiarrhea\nfever\n, flushing\nHTN\nCough\n,\nheadache\n, pain, bronchospasm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Uterine rupture\nHemorrhage\n,\nhematemesis\nRespiratory distress\n,\npulmonary edema",
+      "subsections": {
+        "Common": {
+          "text": "vomiting\n,\nnausea\n,\ndiarrhea\nfever\n, flushing\nHTN\nCough\n,\nheadache\n, pain, bronchospasm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Common": {
+      "text": "vomiting\n,\nnausea\n,\ndiarrhea\nfever\n, flushing\nHTN\nCough\n,\nheadache\n, pain, bronchospasm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Liver primarily, lung\nExcretion: Urine (<1% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Stimulates smooth muscle and uterine contractions\nActs as synthetic prostaglandin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Postpartum hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "drug_name": "Captopril",
+  "url": "https://wikem.org/wiki/Captopril",
+  "scraped_at": "2026-01-10T07:49:43.500206",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nACE inhibitor\nDosage Forms: tablet\nDosage Strengths: 12.5, 25, 50, 100mg\nRoutes of Administration: PO\nCommon Trade Names: Capoten, Captoril",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "6.25-150mg PO three times per day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: Infant risk minimal\nRenal dosing: Initial dose should be reduced, titrate in smaller increments",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHistory of ACE-inhibitor induced angioedema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Angioedema\nStevens-Johnson syndrome\nAgranulocytosis, neutropenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nHyperkalemia\nCough\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Angioedema\nStevens-Johnson syndrome\nAgranulocytosis, neutropenia",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nHyperkalemia\nCough\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypotension\nHyperkalemia\nCough\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: < 3 hours\nMetabolism: Hepatic\nExcretion: Renal, dialzable\nRapid onset",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits angiotensin I-converting enzyme, blocks conversion of angiotensin I→ angiotensin II",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension\nACE-inhibitors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ACE-inhibitors",
+          "url": "https://wikem.org/wiki/ACE-inhibitors"
+        }
+      ]
+    }
+  }
+}

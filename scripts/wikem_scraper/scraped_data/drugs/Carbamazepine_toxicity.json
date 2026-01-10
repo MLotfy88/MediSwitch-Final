@@ -1,0 +1,99 @@
+{
+  "drug_name": "Carbamazepine_toxicity",
+  "url": "https://wikem.org/wiki/Carbamazepine_toxicity",
+  "scraped_at": "2026-01-10T07:49:46.221685",
+  "sections": {
+    "Background": {
+      "text": "Has\nanticholinergic\n, sodium-channel blockade, anti-NMDA and antiepileptic effects\nTherapeutic concentration: 4-12 mg/L",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May be delayed and follow crescendo-decrescendo course (due to delayed GI motility)\nNeurologic\nAtaxia\nNystagmus\nSeizures\nComa\nAnticholinergic Toxicity\nCardiovascular\nDysrhythmias are rare but may occur\nWide QRS\nfrom sodium channel blockade\n[1]\nQT Prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Wide QRS",
+          "url": "https://wikem.org/wiki/Wide_QRS"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Levels do not accurately correlate with clinical severity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "GI decontamination\nActivated Charcoal\n(if presents within 1hr of ingestion)\nConsider\nMultidose activated charcoal\nDialysis\nfor severe cases. Indications:\n[2]\nIntractable seizures or life threatening dysrhythmia (level 1D recommendation)\nRespiratory depression requiring mechanical ventilation or prolonged coma (level 2D suggestion)\nSignificant toxicity or rising/persistent carbamazepine level despite\nactivated charcoal\nand supportive care (level 2D suggestion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "Multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialyzable_Drugs"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge for patient with decreasing levels (measured few hrs apart) and is asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)\nCarbamazepine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        }
+      ]
+    }
+  }
+}

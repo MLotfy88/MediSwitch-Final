@@ -1,0 +1,126 @@
+{
+  "drug_name": "Canthotomy",
+  "url": "https://wikem.org/wiki/Canthotomy",
+  "scraped_at": "2026-01-10T07:49:43.702542",
+  "sections": {
+    "Background": {
+      "text": "Acute\norbital compartment syndrome\n(OCS) is a clinical diagnosis\nVision loss can be permanent after 60-100 min of ischemia\n[1]\n- do not delay procedure for imaging\n[2]",
+      "subsections": {
+        "Causes": {
+          "text": "Trauma (\nretrobulbar hematoma\n) - most common cause\n[1]\nSpontaneous bleed\nTumor\nOrbital cellulitis\n/abscess\nProlonged\nhypoxemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "orbital compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "retrobulbar hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hematoma"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Trauma (\nretrobulbar hematoma\n) - most common cause\n[1]\nSpontaneous bleed\nTumor\nOrbital cellulitis\n/abscess\nProlonged\nhypoxemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "retrobulbar hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hematoma"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Suspected acute orbital compartment syndrome (OCS), plus one or more of the following:\n[3]\nDecreased visual acuity\nIOP >40\nor\nmarked difference in globe compressibility by palpation\nProptosis\nSecondary indications (subjective and nonspecific) - if only secondary indications are present, get emergent ophthalmology consult prior to performing canthotomy.\nAfferent pupillary defect\nCherry red macula\nOphthalmoplegia\nNerve head pallor\nSignificant eye pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Globe rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        }
+      ]
+    },
+    "Equipment": {
+      "text": "Betadine prep\nSterile drape or towels\nLidocaine\nwith epi\nSyringe with 27-30ga needle\nNormal saline for irrigation\nStraight hemostat or needle driver\nIris or suture scissors\nForceps",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Consider sedating patient for procedure, if time allows\n[1]\n[3]\n[4]\nPrep and drape the area (Irrigation with normal saline is acceptable prep given emergent nature of procedure)\nInject lidocaine with epinephrine into the lateral canthus directing the needle tip toward the lateral orbital rim (away from the globe)\nApply hemostat to the lateral canthus from the angle of the eye to the orbital rim and clamp shut for ~1 min. (provides relative devascularization as well as a landmark for the canthotomy)\nUsing scissors, incise the lateral canthus from the angle of the eyelid to the orbital rim (~1cm).\nRetract the inferior lid and bluntly dissect tissue until the canthal tendon is identified.\nPerform inferior cantholysis - cut the inferior crus of the lateral canthus tendon (point scissors infero-posteriorally toward the lateral orbital rim, avoiding the globe)\nRecheck IOP → if still elevated, perform superior cantholysis - cut the superior crus of the canthal tendon (some experts recommend performing both inferior and superior cantholysis at the same time, prior to re-evaluating IOP)",
+      "subsections": {
+        "Signs_of_successful_procedure": {
+          "text": "improved visual acuity\nresolution of afferent pupillary defect\ndecrease in IOP to <40 mm Hg\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Signs_of_successful_procedure": {
+      "text": "improved visual acuity\nresolution of afferent pupillary defect\ndecrease in IOP to <40 mm Hg\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Incomplete cantholysis\nIatrogenic globe or surrounding structure injury (rare)\nLoss of adequate lower lid suspension\nBleeding\nInfection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Orbital Hematoma\nVertical lid split procedure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Orbital Hematoma",
+          "url": "https://wikem.org/wiki/Orbital_Hematoma"
+        },
+        {
+          "text": "Vertical lid split procedure",
+          "url": "https://wikem.org/wiki/Vertical_lid_split_procedure"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMRAP procedure video-\nhttps://www.youtube.com/watch?v=tgQaKVGynFA\nReview article by Murali et al: Orbital compartment syndrome: Pearls and pitfalls for the emergency physician. JACEP Open. 2021; 2:e12372.\nhttps://doi.org/10.1002/emp2.12372",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "drug_name": "Carpal_dislocations",
+  "url": "https://wikem.org/wiki/Carpal_dislocations",
+  "scraped_at": "2026-01-10T07:49:50.733790",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Carpal_Dislocations": {
+          "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        }
+      ]
+    },
+    "Carpal_Dislocations": {
+      "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Carpal fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal fractures",
+          "url": "https://wikem.org/wiki/Carpal_fractures"
+        }
+      ]
+    }
+  }
+}

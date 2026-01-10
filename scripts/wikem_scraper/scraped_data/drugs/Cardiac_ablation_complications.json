@@ -1,0 +1,84 @@
+{
+  "drug_name": "Cardiac_ablation_complications",
+  "url": "https://wikem.org/wiki/Cardiac_ablation_complications",
+  "scraped_at": "2026-01-10T07:49:48.031382",
+  "sections": {
+    "Background": {
+      "text": "Procedure to address complicated\narrhythmias\n(e.g.\nSVT\n,\nafib\n/\nflutter\n,\nWPW\n), typically after failing medical management\nMultiple catheters passed through vein/artery into heart, including mapping catheter and ablation catheter, the latter of which heats tissue (often near pulmonary veins) with the abnormal pathway, which is scarred to prevent transmission of abnormal signals.\nComplications include:\nAtrio-esophageal fistula\n: rare but deadly\nDelayed\ncardiac tamponade\nStroke\nAtypical\nmigraine\nOverall rate of major complications ~4%\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrio-esophageal fistula",
+          "url": "https://wikem.org/wiki/Atrio-esophageal_fistula"
+        },
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Therapy based on respective complication\nIn general, targeted toward reducing recurrence of\natrial fibrillation\nManagement of OSA\n[2]\nInsufficient evidence for use of steroids, colchicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Strict follow-up with cardiology\n[3]\nFirst visit at a minimum 3 months, then every 6 months for at least 2 years\nECGs at all visits",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Complications of cardiac ablation: ED presentations, evaluation, and management from emDocs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Post-surgical complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-surgical complications",
+          "url": "https://wikem.org/wiki/Post-surgical_complications"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "drug_name": "Cardiac_arrest_in_pregnancy",
+  "url": "https://wikem.org/wiki/Cardiac_arrest_in_pregnancy",
+  "scraped_at": "2026-01-10T07:49:48.578565",
+  "sections": {
+    "Background": {
+      "text": "Occurs in ~1 in 30,000 pregnancies\n[1]\nKey differences from non-pregnant cardiac arrest\n[2]\n:\nNeed to remove uterus from IVC (by rolling patient to side or manual lifting of uterus)\nDo not obtain venous access below the diaphragm\nSecure airway immediately\nNon-cardiac cause of arrest is more likely\nResuscitative hysterotomy\nshould be performed rapidly (within 4 minutes), and may save both fetus and mother",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cardiopulmonary arrest\nin gravid female.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiopulmonary arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Arrest_in_Pregnancy": {
+          "text": "BEAT CHOPS\nB\nleeding\n/\nDIC\nE\nmbolism - coronary,\npulmonary\n,\namniotic fluid\nA\nnesthetic complications\nT\none (uTerine aTony)\nC\nardiac disease -\nMI\n,\naortic dissection\n,\ncardiomyopathy\nH\nypertension\n,\npreeclampsia\n,\neclampsia\nO\nther - all typical H's and T's\nHypovolemia\nHypoxemia\nHydrogen ion (i.e.\nacidemia\n)\nHypo\n/\nhyperkalemia\nHypothermia\nTension Pneumothorax\nCardiac tamponade\nToxins\nThrombosis, pulmonary\nThrombosis, coronary\nP\nlacental abruption\n,\nplacenta previa\nS\nepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "pulmonary",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "amniotic fluid",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Hypo",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tension Pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_Pneumothorax"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Thrombosis, pulmonary",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Thrombosis, coronary",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Cardiac_Arrest_in_Pregnancy": {
+      "text": "BEAT CHOPS\nB\nleeding\n/\nDIC\nE\nmbolism - coronary,\npulmonary\n,\namniotic fluid\nA\nnesthetic complications\nT\none (uTerine aTony)\nC\nardiac disease -\nMI\n,\naortic dissection\n,\ncardiomyopathy\nH\nypertension\n,\npreeclampsia\n,\neclampsia\nO\nther - all typical H's and T's\nHypovolemia\nHypoxemia\nHydrogen ion (i.e.\nacidemia\n)\nHypo\n/\nhyperkalemia\nHypothermia\nTension Pneumothorax\nCardiac tamponade\nToxins\nThrombosis, pulmonary\nThrombosis, coronary\nP\nlacental abruption\n,\nplacenta previa\nS\nepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "pulmonary",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "amniotic fluid",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Hypo",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tension Pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_Pneumothorax"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Thrombosis, pulmonary",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Thrombosis, coronary",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical",
+      "subsections": {
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Estimated_Gestational_Age_by_Fundal_Height": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weeks": "12",
+            "Fundal Height / Finding": "Pubic symphysis"
+          },
+          {
+            "Weeks": "20",
+            "Fundal Height / Finding": "Umbilicus"
+          },
+          {
+            "Weeks": "20-32",
+            "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+          },
+          {
+            "Weeks": "36",
+            "Fundal Height / Finding": "Xiphoid process"
+          },
+          {
+            "Weeks": ">37",
+            "Fundal Height / Finding": "Regression"
+          },
+          {
+            "Weeks": "Post delivery",
+            "Fundal Height / Finding": "Umbilicus"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Standard\nACLS\nmanagement\nEarly\ndefibrillation\n- use standard energy levels (safe for fetus in maternal arrest)\nAnterior/Posterior pad placement is preferred\nMay use AP pads to pace as well\nGive typical adult\nACLS\ndrugs/dosages\nAirway management / Ventilate with 100% FiO2\nMonitor EtCO2\nEnsure\npost cardiac arrest\ncare",
+      "subsections": {
+        "Maternal_Modifications": {
+          "text": "Resuscitative hysterotomy\n(aka perimortem c-section) if estimated gestational age >24wks (fundus >~4cm above umbilicus)\nMust make decision early, <4min without ROSC\nManual left uterine displacement\nDisplaces uterus to patient's left, relieving aortocaval compression\nMay be of concern even if < 20 wks\nPut hands on right side of gravid abdomen, and\npull upwards towards ceiling\nand\nleftwards\nOR\ntilt patient 15–30° to left\n[4]\nDownward force will worse IVC compression\nIVs above diaphragm - avoids IVC which may be compressed\nAdminister\nfluids\nand\nblood\nproducts\nAnticipate\ndifficult airway\nwith high risk of aspiration\nIf patient receiving IV magnesium prearrest, stop mag and give arrest dose calcium\nContinue\nCPR\n, positioning, de-fib, drugs, and fluids during and after C-section\nTherapeutic hypothermia\ncontraindicated if patient still intrapartum, but may be safe for postpartum cardiac arrest\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        },
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "post cardiac arrest",
+          "url": "https://wikem.org/wiki/Post_cardiac_arrest"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "difficult airway",
+          "url": "https://wikem.org/wiki/Difficult_airway"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Therapeutic hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        }
+      ]
+    },
+    "Maternal_Modifications": {
+      "text": "Resuscitative hysterotomy\n(aka perimortem c-section) if estimated gestational age >24wks (fundus >~4cm above umbilicus)\nMust make decision early, <4min without ROSC\nManual left uterine displacement\nDisplaces uterus to patient's left, relieving aortocaval compression\nMay be of concern even if < 20 wks\nPut hands on right side of gravid abdomen, and\npull upwards towards ceiling\nand\nleftwards\nOR\ntilt patient 15–30° to left\n[4]\nDownward force will worse IVC compression\nIVs above diaphragm - avoids IVC which may be compressed\nAdminister\nfluids\nand\nblood\nproducts\nAnticipate\ndifficult airway\nwith high risk of aspiration\nIf patient receiving IV magnesium prearrest, stop mag and give arrest dose calcium\nContinue\nCPR\n, positioning, de-fib, drugs, and fluids during and after C-section\nTherapeutic hypothermia\ncontraindicated if patient still intrapartum, but may be safe for postpartum cardiac arrest\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "difficult airway",
+          "url": "https://wikem.org/wiki/Difficult_airway"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Therapeutic hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (if\nROSC\nobtained)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ROSC",
+          "url": "https://wikem.org/wiki/ROSC"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pregnancy (main)\nPerimortem cesarean delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://first10em.com/cardiac-arrest-in-pregnancy-the-perimortem-cesarean-section/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

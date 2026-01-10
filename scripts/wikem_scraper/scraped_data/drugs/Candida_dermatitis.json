@@ -1,0 +1,177 @@
+{
+  "drug_name": "Candida_dermatitis",
+  "url": "https://wikem.org/wiki/Candida_dermatitis",
+  "scraped_at": "2026-01-10T07:49:41.964376",
+  "sections": {
+    "Background": {
+      "text": "Local fungal infection caused by the\nCandida\ngenus\nMost commonly seen in infants (diaper dermatitis) or intertriginous areas",
+      "subsections": {
+        "Dermatitis_Types": {
+          "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Dermatitis_Types": {
+      "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pruritus\nand erythematous changes in high risk locations: inguinal folds, axilla, scrotum, intergluteal/inframammary/abdominal folds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Tinea cruris\nAtopic Dermatitis\nContact Dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "erythematous, macerated, intertriginous plaques with satellite pustules or papules\nKOH prep or culture of skin scrapings",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Topical\nnystatin\n,\nketoconazole\n, or\nclotrimazole\napplied twice per day until resolution",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Candidiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    }
+  }
+}
