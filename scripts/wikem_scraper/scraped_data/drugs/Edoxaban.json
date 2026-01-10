@@ -1,0 +1,208 @@
+{
+  "drug_name": "Edoxaban",
+  "url": "https://wikem.org/wiki/Edoxaban",
+  "scraped_at": "2026-01-10T07:52:25.291440",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticoagulant\nDosage Forms: 15, 30, 60 mg\nRoutes of Administration: Oral\nCommon Trade Names: Savaysa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Thromboembolism/stroke_Prophylaxis": {
+          "text": "60 mg PO QD",
+          "tables": []
+        },
+        "DVT/PE_Treatment": {
+          "text": "<60 kg\n30 mg PO QD\n>60 kg\n60 mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thromboembolism/stroke_Prophylaxis": {
+      "text": "60 mg PO QD",
+      "subsections": {
+        "DVT/PE_Treatment": {
+          "text": "<60 kg\n30 mg PO QD\n>60 kg\n60 mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "DVT/PE_Treatment": {
+      "text": "<60 kg\n30 mg PO QD\n>60 kg\n60 mg PO QD",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D; Avoid use (Risk of maternal hemorrhage and embryo-fetal death up to 49xMRHD based on animal data and risk of maternal/fetal bleeding base don mechanism of action; No known risk of teratogenicity)\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nThromboembolism/stroke Prophylaxis\nCrCl > 95: Avoid Use\nCrCl 50-95: No Adjustment\nCrCl 15-50: 30 mg QD\nCrCl <15 (not on HD): Avoid use\nDVT\n/PE treatment\nCrCl 15-30: 30 mg QD\nCr Cl <15 (not on HD): Avoid use\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Child-Pugh Class B or C: Avoid use\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nThromboembolism/stroke Prophylaxis\nCrCl > 95: Avoid Use\nCrCl 50-95: No Adjustment\nCrCl 15-50: 30 mg QD\nCrCl <15 (not on HD): Avoid use\nDVT\n/PE treatment\nCrCl 15-30: 30 mg QD\nCr Cl <15 (not on HD): Avoid use\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Child-Pugh Class B or C: Avoid use\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Child-Pugh Class B or C: Avoid use\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersenstivity to drug/class/component\nActive major bleeding\nCrCl > 95 (non-valvular atrial fibrillation patients)\nCrCl < 15\nHepatic impairment (Child-Pugh Class B or C)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Epidural hematoma\nBleeding, severe\nThrombosis with premature D/C",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding\nAnemia\nRash\nALT, AST elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Epidural hematoma\nBleeding, severe\nThrombosis with premature D/C",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding\nAnemia\nRash\nALT, AST elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding\nAnemia\nRash\nALT, AST elevation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 10-14 hr\nMetabolism: Minimal; CYP450: 3A4 substrate\nExcretion: Urine 50%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Factor Xa inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Black Box Warnings:\nReduced Efficacy in non-valvular Afib Pts with CrCl >95mL/min with increased risk for ischemic stroke\nPremature treatment discontinuation increases the risk of increased ischemic event for reasons other than pathological bleeding or course completion\nEpidural/Spinal Hematoma Risk after anesthesia or spinal puncture may result in long-term or permanent paralysis and increases.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticoagulant reversal for life-threatening bleeds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        }
+      ]
+    }
+  }
+}

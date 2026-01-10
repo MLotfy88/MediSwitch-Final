@@ -1,0 +1,260 @@
+{
+  "drug_name": "Ebullism_syndrome",
+  "url": "https://wikem.org/wiki/Ebullism_syndrome",
+  "scraped_at": "2026-01-10T07:52:23.396428",
+  "sections": {
+    "Background": {
+      "text": "Ebullism syndrome, also known as ebullism or boiling blood syndrome, can occur if the ambient pressure is less than the vapor pressure ot normal body temperature. The condition is not remedied with O2 prebreathing as it occurs due to the formation of the gas phase of water due to lack of ambient pressure (vacuum).\nVenous return can be obstructed due to bubble formation obstructing the venae cavae\n[1]\nOne human exposed to a near vacuum for 5 minutes required multiple hyperbaric oxygen treatments and two chest tubes, but did recover fully\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Mild": {
+          "text": "Joint pain and swelling\nMuscle weakness and fatigue\nSkin rash or lesions\nRespiratory distress\nCardiac arrhythmias\nNumbness, tingling, and confusion",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Cardiac arrest\nRespiratory failure\nCVA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Mild": {
+      "text": "Joint pain and swelling\nMuscle weakness and fatigue\nSkin rash or lesions\nRespiratory distress\nCardiac arrhythmias\nNumbness, tingling, and confusion",
+      "subsections": {
+        "Severe": {
+          "text": "Cardiac arrest\nRespiratory failure\nCVA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "Cardiac arrest\nRespiratory failure\nCVA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Space_medicine": {
+          "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Space_medicine": {
+      "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Based soley on case reports, treatment involves symptom control, immediate return to re-pressurization, and for severe symptoms, hyperbaric oxygen.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary disorders of spaceflight\nDecompression sickness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        }
+      ]
+    }
+  }
+}

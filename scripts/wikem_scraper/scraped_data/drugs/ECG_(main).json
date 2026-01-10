@@ -1,0 +1,414 @@
+{
+  "drug_name": "ECG_(main)",
+  "url": "https://wikem.org/wiki/ECG_(main)",
+  "scraped_at": "2026-01-10T07:52:21.004746",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nECG (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Measurement": {
+      "text": "All these measures are valid for the standard paper speed of 25 mm/Sec\n1 small box = 1mm = 0.04 sec = 40 miliseconds\n5 small boxes = 1 big box = 5mm = 0.2 sec = 200 miliseconds\nStandard 12 lead ECG duration = 10 seconds",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Interval": "PR",
+            "Time(s)": "0.12 - 0.20",
+            "Boxes": "3-5"
+          },
+          {
+            "Interval": "QRS",
+            "Time(s)": "0.06 - 0.10",
+            "Boxes": "1.5-2.5"
+          },
+          {
+            "Interval": "QTc",
+            "Time(s)": "<0.44",
+            "Boxes": "N/A"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Primary_Analysis": {
+      "text": "ECG Rhythms\nECG Axis\nLow ECG voltage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG Rhythms",
+          "url": "https://wikem.org/wiki/ECG_Rhythms"
+        },
+        {
+          "text": "ECG Axis",
+          "url": "https://wikem.org/wiki/ECG_Axis"
+        },
+        {
+          "text": "Low ECG voltage",
+          "url": "https://wikem.org/wiki/Low_ECG_voltage"
+        }
+      ]
+    },
+    "Segments_&_Intervals": {
+      "text": "ST Elevation\nST Depression\nQT Prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST Elevation",
+          "url": "https://wikem.org/wiki/ST_Elevation"
+        },
+        {
+          "text": "ST Depression",
+          "url": "https://wikem.org/wiki/ST_Depression"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        }
+      ]
+    },
+    "Waves": {
+      "text": "Q Waves\nT Waves\nR-wave in V1\nWide QRS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Q Waves",
+          "url": "https://wikem.org/wiki/Q_Waves"
+        },
+        {
+          "text": "T Waves",
+          "url": "https://wikem.org/wiki/T_Waves"
+        },
+        {
+          "text": "R-wave in V1",
+          "url": "https://wikem.org/wiki/R-wave_in_V1"
+        },
+        {
+          "text": "Wide QRS",
+          "url": "https://wikem.org/wiki/Wide_QRS"
+        }
+      ]
+    },
+    "Hypertrophy/Enlargement": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Hypertrophy_and_Enlargement": {
+          "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy\nDifferential includes ischemic events, electrolyte abnormalities, and medication overdoses in addition to rheumatologic conditions\n[1]\n[2]\nAnterior\nMI\nRheumatic fever\nMyocarditis\nLyme disease\nLenegre's disease\nLev's disease\nSLE\nSystemic sclerosis\nAmyloidosis\nHemochromatosis\nSarcoidosis\nHyperkalemia\nToxicology\nBeta blocker toxicity\nCalcium channel blocker toxicity\nDigoxin toxicity\nAmiodarone",
+          "tables": []
+        },
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Systemic sclerosis",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Toxicology",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "Calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "Cardiac_Hypertrophy_and_Enlargement": {
+      "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy\nDifferential includes ischemic events, electrolyte abnormalities, and medication overdoses in addition to rheumatologic conditions\n[1]\n[2]\nAnterior\nMI\nRheumatic fever\nMyocarditis\nLyme disease\nLenegre's disease\nLev's disease\nSLE\nSystemic sclerosis\nAmyloidosis\nHemochromatosis\nSarcoidosis\nHyperkalemia\nToxicology\nBeta blocker toxicity\nCalcium channel blocker toxicity\nDigoxin toxicity\nAmiodarone",
+      "subsections": {
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Systemic sclerosis",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Toxicology",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "Calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "AV_blocks": {
+      "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "Bundle_and_Fascicular_Blocks": {
+      "text": "Right Bundle Branch Block\nLeft Bundle Branch Block\nLeft Anterior Fascicular Block\nLeft Posterior Fascicular Block\nTrifascicular Block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Right Bundle Branch Block",
+          "url": "https://wikem.org/wiki/Right_Bundle_Branch_Block"
+        },
+        {
+          "text": "Left Bundle Branch Block",
+          "url": "https://wikem.org/wiki/Left_Bundle_Branch_Block"
+        },
+        {
+          "text": "Left Anterior Fascicular Block",
+          "url": "https://wikem.org/wiki/Left_Anterior_Fascicular_Block"
+        },
+        {
+          "text": "Left Posterior Fascicular Block",
+          "url": "https://wikem.org/wiki/Left_Posterior_Fascicular_Block"
+        },
+        {
+          "text": "Trifascicular Block",
+          "url": "https://wikem.org/wiki/Trifascicular_Block"
+        }
+      ]
+    },
+    "Premature_Beats": {
+      "text": "Premature atrial contraction\nPremature junctional complex\nPremature ventricular contraction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional complex",
+          "url": "https://wikem.org/wiki/Premature_junctional_complex"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACS - Anatomical Correlation\nECGs by Diagnosis\nSTEMI equivalents\nEarly Repolarization",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS - Anatomical Correlation",
+          "url": "https://wikem.org/wiki/ACS_-_Anatomical_Correlation"
+        },
+        {
+          "text": "ECGs by Diagnosis",
+          "url": "https://wikem.org/wiki/ECGs_by_Diagnosis"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        },
+        {
+          "text": "Early Repolarization",
+          "url": "https://wikem.org/wiki/Early_Repolarization"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: ECG Guide",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=LCFXZvnW3rg}}\n{{#widget:YouTube|id= vNc4Xhbjh9o}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

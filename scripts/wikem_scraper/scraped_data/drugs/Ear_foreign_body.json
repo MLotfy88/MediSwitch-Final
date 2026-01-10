@@ -1,0 +1,503 @@
+{
+  "drug_name": "Ear_foreign_body",
+  "url": "https://wikem.org/wiki/Ear_foreign_body",
+  "scraped_at": "2026-01-10T07:52:23.178809",
+  "sections": {
+    "Background": {
+      "text": "Usually children 6 years old or younger",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Caregiver often reports seeing child put something in the ear\nDecreased hearing\nor\notalgia\nMore common on right (hand dominant) side\nMay have otorrhea or bleeding\nForeign body contacting tympanic membrane can cause intractable\nhiccups",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decreased hearing",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "otalgia",
+          "url": "https://wikem.org/wiki/Earache"
+        },
+        {
+          "text": "hiccups",
+          "url": "https://wikem.org/wiki/Hiccups"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically seen on visual inspection or otoscopy\nCheck other ear / nares",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Removal_Options": {
+          "text": "Irrigation\nContraindicated if suspected\nTM perforation\n, tympanostomy tubes, button battery, or vegetable parts (swells)\nBody temperature sterile water or normal saline to avoid inducing nystagmus\nAttach 14 or 16 ga IV catheter to 20-60 mL syringe\nCan also utilize an infant nasogastric tube instead of an IV catheter, place tip of catheter next to TM, connect syringe and irrigate\nAlligator forceps\nRight angle tool / day hook\nScoop with curette (lighted curette helpful)\nSchuknecht extractor (attaches to wall suction)\nDermabond on a swab stick\n[1]\nAllow glue to become tacky before inserting into canal\nMay use disposable ear speculum to shield canal so do not accidentally glue stick to ear canal",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider\nofloxacin\nor\nciprofloxacin\n+/-\ndexamethasone\nif\nperforated TM\nor significant trauma to ear canal",
+          "tables": []
+        },
+        "Insects": {
+          "text": "May wish to first kill (e.g., with mineral oil,\nEtOH\n, diluted hydrogen peroxide, or 2%\nlidocaine\n) prior to removal\nIn an in-vitro trial mineral oil was faster and more effective than other methods to kill cockroaches\n[2]\nSometimes use of killing agents may make insects soft and mushy, thus making it more difficult to remove all pieces. In this case, may consider irrigation afterwards, to remove all parts. Or, may alternatively defer injection of liquid and prefer swift removal, if a viable option (e.g., with a compliant, non-pediatric patient)",
+          "tables": []
+        },
+        "Button_Batteries": {
+          "text": "Requires emergent removal (consider ENT consult)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TM perforation",
+          "url": "https://wikem.org/wiki/TM_perforation"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "perforated TM",
+          "url": "https://wikem.org/wiki/Perforated_TM"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "General_Removal_Options": {
+      "text": "Irrigation\nContraindicated if suspected\nTM perforation\n, tympanostomy tubes, button battery, or vegetable parts (swells)\nBody temperature sterile water or normal saline to avoid inducing nystagmus\nAttach 14 or 16 ga IV catheter to 20-60 mL syringe\nCan also utilize an infant nasogastric tube instead of an IV catheter, place tip of catheter next to TM, connect syringe and irrigate\nAlligator forceps\nRight angle tool / day hook\nScoop with curette (lighted curette helpful)\nSchuknecht extractor (attaches to wall suction)\nDermabond on a swab stick\n[1]\nAllow glue to become tacky before inserting into canal\nMay use disposable ear speculum to shield canal so do not accidentally glue stick to ear canal",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Consider\nofloxacin\nor\nciprofloxacin\n+/-\ndexamethasone\nif\nperforated TM\nor significant trauma to ear canal",
+          "tables": []
+        },
+        "Insects": {
+          "text": "May wish to first kill (e.g., with mineral oil,\nEtOH\n, diluted hydrogen peroxide, or 2%\nlidocaine\n) prior to removal\nIn an in-vitro trial mineral oil was faster and more effective than other methods to kill cockroaches\n[2]\nSometimes use of killing agents may make insects soft and mushy, thus making it more difficult to remove all pieces. In this case, may consider irrigation afterwards, to remove all parts. Or, may alternatively defer injection of liquid and prefer swift removal, if a viable option (e.g., with a compliant, non-pediatric patient)",
+          "tables": []
+        },
+        "Button_Batteries": {
+          "text": "Requires emergent removal (consider ENT consult)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TM perforation",
+          "url": "https://wikem.org/wiki/TM_perforation"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "perforated TM",
+          "url": "https://wikem.org/wiki/Perforated_TM"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Consider\nofloxacin\nor\nciprofloxacin\n+/-\ndexamethasone\nif\nperforated TM\nor significant trauma to ear canal",
+      "subsections": {
+        "Insects": {
+          "text": "May wish to first kill (e.g., with mineral oil,\nEtOH\n, diluted hydrogen peroxide, or 2%\nlidocaine\n) prior to removal\nIn an in-vitro trial mineral oil was faster and more effective than other methods to kill cockroaches\n[2]\nSometimes use of killing agents may make insects soft and mushy, thus making it more difficult to remove all pieces. In this case, may consider irrigation afterwards, to remove all parts. Or, may alternatively defer injection of liquid and prefer swift removal, if a viable option (e.g., with a compliant, non-pediatric patient)",
+          "tables": []
+        },
+        "Button_Batteries": {
+          "text": "Requires emergent removal (consider ENT consult)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "perforated TM",
+          "url": "https://wikem.org/wiki/Perforated_TM"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Insects": {
+      "text": "May wish to first kill (e.g., with mineral oil,\nEtOH\n, diluted hydrogen peroxide, or 2%\nlidocaine\n) prior to removal\nIn an in-vitro trial mineral oil was faster and more effective than other methods to kill cockroaches\n[2]\nSometimes use of killing agents may make insects soft and mushy, thus making it more difficult to remove all pieces. In this case, may consider irrigation afterwards, to remove all parts. Or, may alternatively defer injection of liquid and prefer swift removal, if a viable option (e.g., with a compliant, non-pediatric patient)",
+      "subsections": {
+        "Button_Batteries": {
+          "text": "Requires emergent removal (consider ENT consult)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Button_Batteries": {
+      "text": "Requires emergent removal (consider ENT consult)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Most patients with foreign body removal and no significant complications can be discharged\nConsider urgent ENT consult/follow-up for TM injuries, retained FB, retained insect parts\nEmergent ENT for all button batteries failing ED management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Tympanic membrane rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Foreign bodies\nEar diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        },
+        {
+          "text": "Ear diagnoses",
+          "url": "https://wikem.org/wiki/Ear_diagnoses"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ALiEM: PEM Pearls: Search & Rescue of Ear Foreign Bodies – Picking the Right Tool",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

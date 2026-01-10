@@ -1,0 +1,324 @@
+{
+  "drug_name": "Dry_gangrene",
+  "url": "https://wikem.org/wiki/Dry_gangrene",
+  "scraped_at": "2026-01-10T07:52:15.155439",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Gangrene_General_Info": {
+          "text": "A form of tissue necrosis characterized by critically insufficient blood supply leading to tissue death.\nPrimarily divided into wet gangrene vs dry gangrene. Other, specific forms of gangrene include\nFournier's gangrene\n, gas gangrene, and\nnecrotizing fasciitis\n.\nMost commonly occur in distal extremities, clasically the feet.\nMain risk factors are\ndiabetes\n, smoking, and\nperipheral arterial disease\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "peripheral arterial disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        }
+      ]
+    },
+    "Gangrene_General_Info": {
+      "text": "A form of tissue necrosis characterized by critically insufficient blood supply leading to tissue death.\nPrimarily divided into wet gangrene vs dry gangrene. Other, specific forms of gangrene include\nFournier's gangrene\n, gas gangrene, and\nnecrotizing fasciitis\n.\nMost commonly occur in distal extremities, clasically the feet.\nMain risk factors are\ndiabetes\n, smoking, and\nperipheral arterial disease\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "peripheral arterial disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Dry gangrene is tissue necrosis often due to chronic progressive ischemia from\nperipheral arterial disease\n, but can also be caused by\nacute limb ischemia\n.\nPresents with dry, cold, shrunken tissue, usually ranging from dark red to completely black, often with a clear line of demarcation between healthy and necrotic tissue.\nUsually not associated with infection (in contrast to\nWet gangrene\n) as bacteria cannot survive in the dry/mummified tissue; however, development of secondary infection is possible\n[1]\nTypically not painful due to associated nerve death\nNonpalpable pulses are common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "peripheral arterial disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        },
+        {
+          "text": "acute limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_limb_ischemia"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Foot_infection": {
+      "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+      "subsections": {
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Look_A-Likes": {
+      "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "History and physical examination are usually sufficient to make the diagnosis.\nConsider\nABI\nor pulse volume recording (PVR) for early evaluation of\nperipheral arterial disease\n.\nIf\nacute limb ischemia\nis suspected, consider a CTA of the affected limb and a vascular surgery consultation.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ABI",
+          "url": "https://wikem.org/wiki/ABI"
+        },
+        {
+          "text": "peripheral arterial disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        },
+        {
+          "text": "acute limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_limb_ischemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Infection rarely present\n<8% of cases convert to wet gangrene\n[2]\nIf has any areas consistent with\nwet gangrene\nor surrounding\nSSTI\nor\nNecrotizing fasciitis\n, treat as for those entities\nKeep area clean and dry to prevent infection; consider debridement\nEarly involvement of vascular surgery\nAlthough revascularization is possible for chronic ischemia, dry gangrene signifies that the tissue is already necrotic\nAmputation is often the treatment of choice for significant necrosis; patients could also await autoamputation, which usually occurs in <6mo\n[3]\nDiabetes or immunocompromise may warrant lower threshold for consultation\n[4]\nIf\nacute limb ischemia\nis present, embolectomy or surgical bypass may be required to restore flow.\nEnsure patient has adequate medical management of predisposing risk factors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "SSTI",
+          "url": "https://wikem.org/wiki/SSTI"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "acute limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_limb_ischemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient, if\nacute limb ischemia\nis NOT a concern",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_limb_ischemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Wet gangrene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "drug_name": "Ear_laceration",
+  "url": "https://wikem.org/wiki/Ear_laceration",
+  "scraped_at": "2026-01-10T07:52:25.789285",
+  "sections": {
+    "Background": {
+      "text": "Most injuries are to the pinna, which is poorly vascularized cartilage covered by skin.\nThe cartilage itself is avascular and fragile, deriving it's blood supply from the perichondrium\nThe lobule is composed of fibroadipose tissue, with no underlying cartilage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications/Contraindications": {
+      "text": "Primary closure is indicated within 24 hours of the injury\nConsider delayed or staged closure with presentation >24hrs, signs of infection around the wound, or those at high risk of infection\nAny injuries extending to the external auditory canal or with associated middle or inner ear injury should be referred to ENT or Plastic surgery\nPartial avulsions may be closed by EPs as long as there is a wide pedicle and brisk capillary refill at the most distal aspect of the injury. Otherwise refer to ENT/plastics given the risk for ischemia.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Suture_Type": {
+      "text": "Cartilage/Perichondrium repair is performed with 5-0 or 6-0 absorbable sutures (Vicryl, Monocryl, or PDS)\nOverlying skin closure is performed with 5-0 or 6-0 sutures. Absorbable vs non-absorbable per physician preference.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Anesthesia": {
+      "text": "Auricular Block:\nInstill local anesthetic in a diamond shape around the base of the ear. Begin with a \"V\" shape just inferior to the lobule, using the same insertion site to create an anterior and posterior track in the subcutaneous plane. Then do the same superiorly in an \"inverse V\" pattern, connecting with the inferior tracts you previously created to complete a ring block.\nEMRAP video on this\nHERE\nLocal instillation into the wound edges may be appropriate, but beware of distorting anatomic landmarks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Obtain good anesthesia as above\nIrrigate the wound under pressure with copious sterile saline and explore for foreign bodies\nExplore the wound to appreciate approximation of anatomic landmarks and search for cartilage involvement\nSmall superficial wounds without cartilage involvement can be approximated with simple interrupted sutures through the skin at 2-3mm intervals",
+      "subsections": {
+        "When_Cartilage_Is_Involved": {
+          "text": "Ensure that the skin can appropriately cover the remaining cartilage when closed\nIf needed, up to a 5mm wedge of cartilage may be removed through the helix without significant detriment to aesthetics or function. Anything larger will require staged surgical repair or flaps.\nUse deep sutures with buried knots to approximate the cartilage.\nSutures should be thrown through the perichondrium as the cartilage itself is prone to tearing\nConsider horizontal mattress sutures to hold tension with reduced risk of tearing\nNext close the overlying skin with simple interrupted sutures as above",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "When_Cartilage_Is_Involved": {
+      "text": "Ensure that the skin can appropriately cover the remaining cartilage when closed\nIf needed, up to a 5mm wedge of cartilage may be removed through the helix without significant detriment to aesthetics or function. Anything larger will require staged surgical repair or flaps.\nUse deep sutures with buried knots to approximate the cartilage.\nSutures should be thrown through the perichondrium as the cartilage itself is prone to tearing\nConsider horizontal mattress sutures to hold tension with reduced risk of tearing\nNext close the overlying skin with simple interrupted sutures as above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dressing": {
+      "text": "Pressure dressings are important following ear laceration repair in order to prevent hematoma formation. One of several types may be used:\nHead Wrap Technique\nApply petroleum soaked gauze the the wound and use it to pack the helix. Apply gauze posterior to the ear and another generous wad covering the ear entirely. Compress this dressing tightly to the head by wrapping gauze or coban around the circumference of the head.\nBolster Technique\nSandwich the wound area between two cotton rolls or small rolls of gauze. Snugly suture these into place by piercing through and through the pinna\nEar splint Technique\nCreate a small plaster roll, wet it to activate it, and coat it with a small amount of cotton webril dressing to prevent sticking. Press the splint firmly in place and place a wad of gauze posterior to the ear. Apply several layers of gauze over the ear and employ a wrap or beanie hat to hold the dressing in place\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition_and_Followup": {
+      "text": "Patients  not requiring surgical intervention as above may be discharged home\nThere is no good data supporting the routine use of prophylactic antibiotics, but they are prescribed frequently in practice. Antibiotics should cover for pseudomonas if given.\n48 hour recheck looking for signs of infection and hematoma formation is appropriate\nChondritis is often caused by Pseudomonal infections and should be treated with\nCiprofloxacin\nAll non-absorbable sutures including bolster should be removed in 5-7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Laceration repair",
+      "subsections": {
+        "Special_Lacerations_by_Body_Part": {
+          "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "Special_Lacerations_by_Body_Part": {
+      "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    }
+  }
+}

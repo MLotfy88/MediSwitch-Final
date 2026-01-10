@@ -1,0 +1,137 @@
+{
+  "drug_name": "ECGs_by_Diagnosis",
+  "url": "https://wikem.org/wiki/ECGs_by_Diagnosis",
+  "scraped_at": "2026-01-10T07:52:20.326004",
+  "sections": {
+    "ACS": {
+      "text": "See\nACS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Aneurysm": {
+      "text": "see\nLeft ventricular aneurysm\nSuggested by:\nST elevation >4wk\nQS wave in setting of ST-segment elevation with out T-wave inversion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        }
+      ]
+    },
+    "Pericarditis": {
+      "text": "See [[Pericarditis*\nECG\n|Pericarditis]]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Electrolyte_Disorders": {
+      "text": "Hyperkalemia\nHypokalemia\nHypercalcemia\nHypocalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "CNS": {
+      "text": "SAH\n,\nIC Bleed\n,\nCVA\nDiffuse wide, deep, blunted, inverted T waves\nQT Prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "IC Bleed",
+          "url": "https://wikem.org/wiki/IC_Bleed"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        }
+      ]
+    },
+    "Pacemakers": {
+      "text": "see\nPacemaker complication\nShould be in the apex of right ventricle\nECG\nshould mimic LBBB with LAD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Pulmonary_Embolism": {
+      "text": "see\nPulmonary embolism\nSinus\ntachycardia\nS1Q3T3 (Sp, not Sn)\nRight axis deviation\nRBBB\nT wave inversions leads V1-V3",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Hypothermia": {
+      "text": "Osborn wave (J wave) - Positive deflection at the J point\nHeight of the J wave correlates to the degree of hypothermia\n[1]\nBradyarrhythmias, AV blocks\nProlonged PR, QRS, QT intervals\nShivering artifact",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ECG (Main)\nSTEMI equivalents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "drug_name": "Dysarthria",
+  "url": "https://wikem.org/wiki/Dysarthria",
+  "scraped_at": "2026-01-10T07:52:18.654080",
+  "sections": {
+    "Background": {
+      "text": "Motor speech disorder characterized by poor articulation of language sounds or pronounciation\n[1]\nCranial nerves involved include trigeminal nerve's motor branch (V), facial nerve (VII), glossopharyngeal nerve (IX), vagus nerve (X), and hypoglossal nerve (XII).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Includes abnormality to any of the following: breath control,\nduration of syllables\n, pitch, range, speed, steadiness,\ntiming\n, tone,\nvocal quality\n, pitch, volume\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Stroke_Types": {
+          "text": "Ischemic Stroke\nCerebellar Stroke\nTransient Ischemic Attack (TIA)\nHemorrhagic Stroke\nIntracerebral Hemorrhage\nSubarachnoid Hemorrhage (SAH)",
+          "tables": []
+        },
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUMN:\nCVA (Main)\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(UMN & LMN)\nSpinal cord disease:\nInfection (\nEpidural Abscess (Spinal)\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nTumor\nPeripheral nerve disease:\nLyme disease\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetes mellitus\nneuropathy (non-emergent)\nNMJ disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nSepsis (Main)\nHypoglycemia\nPeriodic paralysis (electrolyte disturbance, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nOther\nCerebral palsy\nHypothermia\nParkinson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic Stroke",
+          "url": "https://wikem.org/wiki/Ischemic_Stroke"
+        },
+        {
+          "text": "Cerebellar Stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_Stroke"
+        },
+        {
+          "text": "Transient Ischemic Attack (TIA)",
+          "url": "https://wikem.org/wiki/Transient_Ischemic_Attack_(TIA)"
+        },
+        {
+          "text": "Hemorrhagic Stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_Stroke"
+        },
+        {
+          "text": "Intracerebral Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_Hemorrhage"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        },
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        }
+      ]
+    },
+    "Stroke_Types": {
+      "text": "Ischemic Stroke\nCerebellar Stroke\nTransient Ischemic Attack (TIA)\nHemorrhagic Stroke\nIntracerebral Hemorrhage\nSubarachnoid Hemorrhage (SAH)",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUMN:\nCVA (Main)\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(UMN & LMN)\nSpinal cord disease:\nInfection (\nEpidural Abscess (Spinal)\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nTumor\nPeripheral nerve disease:\nLyme disease\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetes mellitus\nneuropathy (non-emergent)\nNMJ disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nSepsis (Main)\nHypoglycemia\nPeriodic paralysis (electrolyte disturbance, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nOther\nCerebral palsy\nHypothermia\nParkinson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic Stroke",
+          "url": "https://wikem.org/wiki/Ischemic_Stroke"
+        },
+        {
+          "text": "Cerebellar Stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_Stroke"
+        },
+        {
+          "text": "Transient Ischemic Attack (TIA)",
+          "url": "https://wikem.org/wiki/Transient_Ischemic_Attack_(TIA)"
+        },
+        {
+          "text": "Hemorrhagic Stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_Stroke"
+        },
+        {
+          "text": "Intracerebral Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_Hemorrhage"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        },
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUMN:\nCVA (Main)\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(UMN & LMN)\nSpinal cord disease:\nInfection (\nEpidural Abscess (Spinal)\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nTumor\nPeripheral nerve disease:\nLyme disease\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetes mellitus\nneuropathy (non-emergent)\nNMJ disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nSepsis (Main)\nHypoglycemia\nPeriodic paralysis (electrolyte disturbance, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nOther\nCerebral palsy\nHypothermia\nParkinson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nConsider\nCVA\nor other neurologic workup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying cause\nSpeech pathology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

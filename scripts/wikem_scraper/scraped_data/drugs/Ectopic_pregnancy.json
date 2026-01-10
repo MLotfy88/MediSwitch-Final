@@ -1,0 +1,983 @@
+{
+  "drug_name": "Ectopic_pregnancy",
+  "url": "https://wikem.org/wiki/Ectopic_pregnancy",
+  "scraped_at": "2026-01-10T07:52:31.504086",
+  "sections": {
+    "Background": {
+      "text": "Leading cause of maternal death in first trimester and overall third leading cause of maternal death\nOccur in 2% of all pregnancies\n[1]\nand as high as 6-16% in those presenting to the ED\n[2]\nPregnancy in patient with prior tubal ligation or IUD in place is ectopic until proven otherwise (25-50% are ectopic)\nEven if an IUP is visualized, there is a small risk of heterotopic ectopic pregnancy\nGeneral Population = 1 per 4000\nIVF Population = 1 per 100",
+      "subsections": {
+        "Risk_Factors[3]": {
+          "text": "Risk factors absent in almost half of patients",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Previous tubal surgery",
+                "Odds Ratio": "21"
+              },
+              {
+                "Risk Factor": "Previous ectopic pregnancy",
+                "Odds Ratio": "8.3"
+              },
+              {
+                "Risk Factor": "Diethylstilbestrol exposure",
+                "Odds Ratio": "5.6"
+              },
+              {
+                "Risk Factor": "PreviousPID",
+                "Odds Ratio": "2.4 to 3.7"
+              },
+              {
+                "Risk Factor": "Assisted Fertility",
+                "Odds Ratio": "2 to 2.5"
+              },
+              {
+                "Risk Factor": "Smoker",
+                "Odds Ratio": "2.3"
+              },
+              {
+                "Risk Factor": "Previous intrauterine device use",
+                "Odds Ratio": "1.6"
+              }
+            ]
+          ]
+        },
+        "Specific_Types_by_Location": {
+          "text": "Most common location is the ampulla of the fallopian tube",
+          "tables": []
+        },
+        "Cervical_Ectopic": {
+          "text": "Very rare with delayed diagnoses due to decreased accuracy of US\nAs high as 10% with reproductive IVF",
+          "tables": []
+        },
+        "Interstitial_Ectopic": {
+          "text": "Typically presents after 8 wks, with rupture possibly occurring as early as 5 wks\nImplantation in myometrium in proximal part of fallopian tube, commonly misdiagnosed on\nultrasound\nas intrauterine pregnancy\n65% diagnosis on\nultrasound\nand laparascopy is gold standard\nUS characteristics:\nEmpty uterus\nGestational sac separate from endometrium\nGestational sac > 1 cm from lateral aspect of uterine cavity\n< 5 mm mantle surrounding the sac",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Specific_Types_by_Location": {
+      "text": "Most common location is the ampulla of the fallopian tube",
+      "subsections": {
+        "Cervical_Ectopic": {
+          "text": "Very rare with delayed diagnoses due to decreased accuracy of US\nAs high as 10% with reproductive IVF",
+          "tables": []
+        },
+        "Interstitial_Ectopic": {
+          "text": "Typically presents after 8 wks, with rupture possibly occurring as early as 5 wks\nImplantation in myometrium in proximal part of fallopian tube, commonly misdiagnosed on\nultrasound\nas intrauterine pregnancy\n65% diagnosis on\nultrasound\nand laparascopy is gold standard\nUS characteristics:\nEmpty uterus\nGestational sac separate from endometrium\nGestational sac > 1 cm from lateral aspect of uterine cavity\n< 5 mm mantle surrounding the sac",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Must consider in all women of childbearing age with\nabdominal\nand/or\npelvic pain\nRuptured\nShock\nRebound tenderness\nNon-ruptured (early)\nAbdominal\n/\npelvic pain\nVaginal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(<20wks)": {
+          "text": "Ectopic pregnancy\nSubchorionic hematoma\nFirst Trimester Abortion\nComplete Abortion\nIncomplete Abortion\nInevitable Abortion\nMissed Abortion\nSeptic abortion\nThreatened Abortion\nGestational trophoblastic disease\nConsider when pregnancy-induced hypertension is seen before 24 wks of gestation\nHeterotopic pregnancy\nImplantation bleeding\nMolar pregnancy\nNon-pregnancy related bleeding\nCervicitis\nFibroids\nImplantation bleeding",
+          "tables": []
+        },
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[5]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Subchorionic hematoma",
+          "url": "https://wikem.org/wiki/Subchorionic_hematoma"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Fibroids",
+          "url": "https://wikem.org/wiki/Fibroids"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[5]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "hemoglobin (or CBC)\n[7]\nBeta-HCG (quantitative)\nType and Screen with Rh Factor\nFAST\nand\nPelvic US",
+          "tables": []
+        },
+        "Diagnostic_Algorithm": {
+          "text": "Using this algorithm should always favor considering ectopic if there is any evolution or change in a patient's clinical exam\n[8]",
+          "tables": [
+            [
+              {
+                "Clinical Signs and Symptoms": "Peritoneal irritation or cervical motion tenderness",
+                "Risk Group": "High",
+                "Percent Risk of Ectopic (%)": "29"
+              },
+              {
+                "Clinical Signs and Symptoms": "No fetal heart tones; no tissue at cervical os; pain present",
+                "Risk Group": "Intermediate",
+                "Percent Risk of Ectopic (%)": "7"
+              },
+              {
+                "Clinical Signs and Symptoms": "Fetal heart tones or tissue at cervical os; no pain",
+                "Risk Group": "",
+                "Percent Risk of Ectopic (%)": "<1"
+              }
+            ]
+          ]
+        },
+        "Step_one": {
+          "text": "Assess for\nShock\nBeware that paradoxical bradycardia can be present with significant hemoperitoneum\n[10]\nIf patient is a high risk for ectopic based on above estimation then immediately contact OBGYN",
+          "tables": []
+        },
+        "Step_Two": {
+          "text": "Perform a\nPelvic US\nConsider Transabdominal Ultrasound  for B-HCG: >6000 mIU/ml (but if negative or indeterminate must do Pelvic\nultrasound\nregardless of B-HCG)\nIs there an Intrauterine Pregnancy?\nIf there is an IUP and there was no assisted reproductive fertility used then ectopic ruled out and heterotopic unlikely (less than 1:30,000)\n[11]\nIf fertility assistance was used then still consider a heterotopic (1% risk)\n[12]",
+          "tables": []
+        },
+        "Step_Three": {
+          "text": "If HCG above Discriminatory Zone (>1,500-3,000 mIU/ml) and not visualized it should be an ectopic pregnancy until proven otherwise",
+          "tables": []
+        },
+        "Step_Four": {
+          "text": "Arrange close follow-up for patients with no visualized IUP and B-HCG( (<1,500-3,000 mIU/ml), with minimal to no pain and hemodynamically stable.\nPatients should have a 48hr repeat B-HCG level checked to determine if appropriate doubling is occurring.",
+          "tables": []
+        },
+        "Repeat_B-hCG_Levels": {
+          "text": "^Initial level CANNOT be used to rule-out ectopic",
+          "tables": [
+            [
+              {
+                "Pregnancy Type": "Normal",
+                "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+              },
+              {
+                "Pregnancy Type": "Ectopic",
+                "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+              },
+              {
+                "Pregnancy Type": "Miscarriage",
+                "B-hCG Change": "Decreases >20% in 48 hrs"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-HCG (quantitative)",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "Pelvic US",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Pelvic US",
+          "url": "https://wikem.org/wiki/Pelvic_US"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "hemoglobin (or CBC)\n[7]\nBeta-HCG (quantitative)\nType and Screen with Rh Factor\nFAST\nand\nPelvic US",
+      "subsections": {
+        "Diagnostic_Algorithm": {
+          "text": "Using this algorithm should always favor considering ectopic if there is any evolution or change in a patient's clinical exam\n[8]",
+          "tables": [
+            [
+              {
+                "Clinical Signs and Symptoms": "Peritoneal irritation or cervical motion tenderness",
+                "Risk Group": "High",
+                "Percent Risk of Ectopic (%)": "29"
+              },
+              {
+                "Clinical Signs and Symptoms": "No fetal heart tones; no tissue at cervical os; pain present",
+                "Risk Group": "Intermediate",
+                "Percent Risk of Ectopic (%)": "7"
+              },
+              {
+                "Clinical Signs and Symptoms": "Fetal heart tones or tissue at cervical os; no pain",
+                "Risk Group": "",
+                "Percent Risk of Ectopic (%)": "<1"
+              }
+            ]
+          ]
+        },
+        "Step_one": {
+          "text": "Assess for\nShock\nBeware that paradoxical bradycardia can be present with significant hemoperitoneum\n[10]\nIf patient is a high risk for ectopic based on above estimation then immediately contact OBGYN",
+          "tables": []
+        },
+        "Step_Two": {
+          "text": "Perform a\nPelvic US\nConsider Transabdominal Ultrasound  for B-HCG: >6000 mIU/ml (but if negative or indeterminate must do Pelvic\nultrasound\nregardless of B-HCG)\nIs there an Intrauterine Pregnancy?\nIf there is an IUP and there was no assisted reproductive fertility used then ectopic ruled out and heterotopic unlikely (less than 1:30,000)\n[11]\nIf fertility assistance was used then still consider a heterotopic (1% risk)\n[12]",
+          "tables": []
+        },
+        "Step_Three": {
+          "text": "If HCG above Discriminatory Zone (>1,500-3,000 mIU/ml) and not visualized it should be an ectopic pregnancy until proven otherwise",
+          "tables": []
+        },
+        "Step_Four": {
+          "text": "Arrange close follow-up for patients with no visualized IUP and B-HCG( (<1,500-3,000 mIU/ml), with minimal to no pain and hemodynamically stable.\nPatients should have a 48hr repeat B-HCG level checked to determine if appropriate doubling is occurring.",
+          "tables": []
+        },
+        "Repeat_B-hCG_Levels": {
+          "text": "^Initial level CANNOT be used to rule-out ectopic",
+          "tables": [
+            [
+              {
+                "Pregnancy Type": "Normal",
+                "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+              },
+              {
+                "Pregnancy Type": "Ectopic",
+                "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+              },
+              {
+                "Pregnancy Type": "Miscarriage",
+                "B-hCG Change": "Decreases >20% in 48 hrs"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-HCG (quantitative)",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "Pelvic US",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Pelvic US",
+          "url": "https://wikem.org/wiki/Pelvic_US"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Diagnostic_Algorithm": {
+      "text": "Using this algorithm should always favor considering ectopic if there is any evolution or change in a patient's clinical exam\n[8]",
+      "subsections": {
+        "Step_one": {
+          "text": "Assess for\nShock\nBeware that paradoxical bradycardia can be present with significant hemoperitoneum\n[10]\nIf patient is a high risk for ectopic based on above estimation then immediately contact OBGYN",
+          "tables": []
+        },
+        "Step_Two": {
+          "text": "Perform a\nPelvic US\nConsider Transabdominal Ultrasound  for B-HCG: >6000 mIU/ml (but if negative or indeterminate must do Pelvic\nultrasound\nregardless of B-HCG)\nIs there an Intrauterine Pregnancy?\nIf there is an IUP and there was no assisted reproductive fertility used then ectopic ruled out and heterotopic unlikely (less than 1:30,000)\n[11]\nIf fertility assistance was used then still consider a heterotopic (1% risk)\n[12]",
+          "tables": []
+        },
+        "Step_Three": {
+          "text": "If HCG above Discriminatory Zone (>1,500-3,000 mIU/ml) and not visualized it should be an ectopic pregnancy until proven otherwise",
+          "tables": []
+        },
+        "Step_Four": {
+          "text": "Arrange close follow-up for patients with no visualized IUP and B-HCG( (<1,500-3,000 mIU/ml), with minimal to no pain and hemodynamically stable.\nPatients should have a 48hr repeat B-HCG level checked to determine if appropriate doubling is occurring.",
+          "tables": []
+        },
+        "Repeat_B-hCG_Levels": {
+          "text": "^Initial level CANNOT be used to rule-out ectopic",
+          "tables": [
+            [
+              {
+                "Pregnancy Type": "Normal",
+                "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+              },
+              {
+                "Pregnancy Type": "Ectopic",
+                "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+              },
+              {
+                "Pregnancy Type": "Miscarriage",
+                "B-hCG Change": "Decreases >20% in 48 hrs"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Clinical Signs and Symptoms": "Peritoneal irritation or cervical motion tenderness",
+            "Risk Group": "High",
+            "Percent Risk of Ectopic (%)": "29"
+          },
+          {
+            "Clinical Signs and Symptoms": "No fetal heart tones; no tissue at cervical os; pain present",
+            "Risk Group": "Intermediate",
+            "Percent Risk of Ectopic (%)": "7"
+          },
+          {
+            "Clinical Signs and Symptoms": "Fetal heart tones or tissue at cervical os; no pain",
+            "Risk Group": "",
+            "Percent Risk of Ectopic (%)": "<1"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Pelvic US",
+          "url": "https://wikem.org/wiki/Pelvic_US"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Repeat_B-hCG_Levels": {
+      "text": "^Initial level CANNOT be used to rule-out ectopic",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Pregnancy Type": "Normal",
+            "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+          },
+          {
+            "Pregnancy Type": "Ectopic",
+            "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+          },
+          {
+            "Pregnancy Type": "Miscarriage",
+            "B-hCG Change": "Decreases >20% in 48 hrs"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Emergency_Treatment": {
+          "text": "OB/GYN Consult\nRhoGAM\nfor all Rh-negative women\nIf unstable:\nUrgent surgical laparotomy\nConsider T&S and/or\nblood transfusion\n(e.g.,\nMTP\n) as temporizing measure",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Medical management with\nmethotrexate\n(ACOG)\nSingle dose regimen\n[13]\nMethotrexate\n50mg/m2 IM day 1\nIf hCG decreases by <15% between days 4 and 7, another 50mg/m2 IM\nmethotrexate\non day 7\nAbsolute contraindications\nBreast-feeding\nLaboratory evidence of immunodeficiency\nPreexisting blood dyscrasias (bone marrow hypoplasia,\nleukopenia\n,\nthrombocytopenia\n, or clinically significant\nanemia\n)\nKnown sensitivity to methotrexate\nActive pulmonary disease\nPeptic ulcer disease\nHepatic, renal, or hematologic dysfunction\nAlcoholism\nAlcoholic or other chronic liver disease\nCoexistant viable IUP\nDoes not have timely access to medical institution, or unwilling/unable to comply with post-MTX monitoring\nRelative contraindications\nAdnexal mass >3.5 cm in largest diameter\nPresence of fetal heart rate\nFree fluid visualized in Pouch of Douglas\nBeta-HCG\n>5000mIU/mL\nNote: Need to counsel patient to return after 4 and 7 days to recheck hCG values to check for satisfactory decline\nAlso note that 30-60% of women experience \"separation pain\" ~1 week after starting methotrexate\n[14]\nThought to be due to tubal distention from tubal abortion or hematoma formation\nNevertheless, presentation of abdominal pain at this time still warrants an US to look for tubal rupture, which may be indicated by increase in pelvic free fluid, decrease in Hb\nSize of ectopic mass may actually increase before involution, and this is not associated with treatment failure\nSurgical treatment\nLaparascopic salpingectomy or salpingostomy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RhoGAM",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "blood transfusion",
+          "url": "https://wikem.org/wiki/Blood_transfusion"
+        },
+        {
+          "text": "MTP",
+          "url": "https://wikem.org/wiki/MTP"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        }
+      ]
+    },
+    "Emergency_Treatment": {
+      "text": "OB/GYN Consult\nRhoGAM\nfor all Rh-negative women\nIf unstable:\nUrgent surgical laparotomy\nConsider T&S and/or\nblood transfusion\n(e.g.,\nMTP\n) as temporizing measure",
+      "subsections": {
+        "Definitive_Treatment": {
+          "text": "Medical management with\nmethotrexate\n(ACOG)\nSingle dose regimen\n[13]\nMethotrexate\n50mg/m2 IM day 1\nIf hCG decreases by <15% between days 4 and 7, another 50mg/m2 IM\nmethotrexate\non day 7\nAbsolute contraindications\nBreast-feeding\nLaboratory evidence of immunodeficiency\nPreexisting blood dyscrasias (bone marrow hypoplasia,\nleukopenia\n,\nthrombocytopenia\n, or clinically significant\nanemia\n)\nKnown sensitivity to methotrexate\nActive pulmonary disease\nPeptic ulcer disease\nHepatic, renal, or hematologic dysfunction\nAlcoholism\nAlcoholic or other chronic liver disease\nCoexistant viable IUP\nDoes not have timely access to medical institution, or unwilling/unable to comply with post-MTX monitoring\nRelative contraindications\nAdnexal mass >3.5 cm in largest diameter\nPresence of fetal heart rate\nFree fluid visualized in Pouch of Douglas\nBeta-HCG\n>5000mIU/mL\nNote: Need to counsel patient to return after 4 and 7 days to recheck hCG values to check for satisfactory decline\nAlso note that 30-60% of women experience \"separation pain\" ~1 week after starting methotrexate\n[14]\nThought to be due to tubal distention from tubal abortion or hematoma formation\nNevertheless, presentation of abdominal pain at this time still warrants an US to look for tubal rupture, which may be indicated by increase in pelvic free fluid, decrease in Hb\nSize of ectopic mass may actually increase before involution, and this is not associated with treatment failure\nSurgical treatment\nLaparascopic salpingectomy or salpingostomy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RhoGAM",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "blood transfusion",
+          "url": "https://wikem.org/wiki/Blood_transfusion"
+        },
+        {
+          "text": "MTP",
+          "url": "https://wikem.org/wiki/MTP"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        }
+      ]
+    },
+    "Definitive_Treatment": {
+      "text": "Medical management with\nmethotrexate\n(ACOG)\nSingle dose regimen\n[13]\nMethotrexate\n50mg/m2 IM day 1\nIf hCG decreases by <15% between days 4 and 7, another 50mg/m2 IM\nmethotrexate\non day 7\nAbsolute contraindications\nBreast-feeding\nLaboratory evidence of immunodeficiency\nPreexisting blood dyscrasias (bone marrow hypoplasia,\nleukopenia\n,\nthrombocytopenia\n, or clinically significant\nanemia\n)\nKnown sensitivity to methotrexate\nActive pulmonary disease\nPeptic ulcer disease\nHepatic, renal, or hematologic dysfunction\nAlcoholism\nAlcoholic or other chronic liver disease\nCoexistant viable IUP\nDoes not have timely access to medical institution, or unwilling/unable to comply with post-MTX monitoring\nRelative contraindications\nAdnexal mass >3.5 cm in largest diameter\nPresence of fetal heart rate\nFree fluid visualized in Pouch of Douglas\nBeta-HCG\n>5000mIU/mL\nNote: Need to counsel patient to return after 4 and 7 days to recheck hCG values to check for satisfactory decline\nAlso note that 30-60% of women experience \"separation pain\" ~1 week after starting methotrexate\n[14]\nThought to be due to tubal distention from tubal abortion or hematoma formation\nNevertheless, presentation of abdominal pain at this time still warrants an US to look for tubal rupture, which may be indicated by increase in pelvic free fluid, decrease in Hb\nSize of ectopic mass may actually increase before involution, and this is not associated with treatment failure\nSurgical treatment\nLaparascopic salpingectomy or salpingostomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most are admitted and/or go to the OR\nSmaller, minimally symptomatic ectopic pregnancies being treated with methotrexate may be discharged in consultation with OB/GYN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pregnancy (main)\nmethotrexate toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "methotrexate toxicity",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Pregnancy Due Dates Calculation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

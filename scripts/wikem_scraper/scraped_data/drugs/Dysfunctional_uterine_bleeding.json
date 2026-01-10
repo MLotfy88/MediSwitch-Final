@@ -1,0 +1,248 @@
+{
+  "drug_name": "Dysfunctional_uterine_bleeding",
+  "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding",
+  "scraped_at": "2026-01-10T07:52:18.714588",
+  "sections": {
+    "Intro": {
+      "text": "This diagnosis should be used only when all organic causes are ruled-out, which generally does not occur in the ED.  See\nnonpregnant vaginal bleeding\nfor the general approach.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Vaginal_bleeding_definitions": {
+          "text": "Menorrhagia: >7 day (prolonged) or >80 mL/day (excessive) uterine bleeding at regular intervals\nMetrorrhagia: irregular vaginal bleeding outside the normal cycle\nMenometrorrhagia: excessive irregular vaginal bleeding\nIntermenstrual bleeding: variable amounts between regular menstrual periods\nMidcycle spotting: spotting just before ovulation (due to decline in estrogen)\nPolymenorrhea: frequent and light bleeding\nPostcoital bleeding: vaginal bleeding after intercourse, suggesting cervical pathology\nPostmenopausal bleeding: recurrence of bleeding >6 mo after menopause\nAmenorrhea: bleeding that is absent for > 6 months",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vaginal_bleeding_definitions": {
+      "text": "Menorrhagia: >7 day (prolonged) or >80 mL/day (excessive) uterine bleeding at regular intervals\nMetrorrhagia: irregular vaginal bleeding outside the normal cycle\nMenometrorrhagia: excessive irregular vaginal bleeding\nIntermenstrual bleeding: variable amounts between regular menstrual periods\nMidcycle spotting: spotting just before ovulation (due to decline in estrogen)\nPolymenorrhea: frequent and light bleeding\nPostcoital bleeding: vaginal bleeding after intercourse, suggesting cervical pathology\nPostmenopausal bleeding: recurrence of bleeding >6 mo after menopause\nAmenorrhea: bleeding that is absent for > 6 months",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "The patient will not report bleeding amounts in mL/day so knowing the capacities of products is useful:\nOne Light tampon holds ~3mL\nOne Super tampon holds ~10-12mL\nOne Maxi pad holds up to 20-25mL\nOther symptoms related to\nanemia\nand\nhypovolemia\nshould be noted.\nThe patient may report cramping lower\nabdominal pain\nand\nback pain\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nonpregnant_Vaginal_Bleeding": {
+          "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Nonpregnant_Vaginal_Bleeding": {
+      "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nnonpregnant vaginal bleeding\nfor general approach\nThis diagnosis generally requires a endocervical curettage/endometrial biopsy to have been performed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nonpregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Nonpregnant_vaginal_bleeding"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Heavy_bleeding": {
+          "text": "Fluid\nadministration\nEstrogen-progestin OCP until gyn follow up - Preferred approach for most patients\nContraindications to Estrogen-progestin OCP:\nAge greater than 35 years\nHeavy tobacco use;Hypertension\nHistory of CVA or ischemic heart disease\nSLE\nMigraines with Aura\nTXA\n(Tranexamic acid) FDA approved for heavy menstrual bleeding. 1300mg (two 650mg tabs) PO TID\n[1]",
+          "tables": []
+        },
+        "Severe_Bleeding": {
+          "text": "Maintain hemodynamics\nConsider IV conjugated estrogen (Premarin) 25mg IV q4-6 hrs until bleeding stops\nContinued severe bleeding requires D&C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Heavy_bleeding": {
+      "text": "Fluid\nadministration\nEstrogen-progestin OCP until gyn follow up - Preferred approach for most patients\nContraindications to Estrogen-progestin OCP:\nAge greater than 35 years\nHeavy tobacco use;Hypertension\nHistory of CVA or ischemic heart disease\nSLE\nMigraines with Aura\nTXA\n(Tranexamic acid) FDA approved for heavy menstrual bleeding. 1300mg (two 650mg tabs) PO TID\n[1]",
+      "subsections": {
+        "Severe_Bleeding": {
+          "text": "Maintain hemodynamics\nConsider IV conjugated estrogen (Premarin) 25mg IV q4-6 hrs until bleeding stops\nContinued severe bleeding requires D&C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Severe_Bleeding": {
+      "text": "Maintain hemodynamics\nConsider IV conjugated estrogen (Premarin) 25mg IV q4-6 hrs until bleeding stops\nContinued severe bleeding requires D&C",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nonpregnant vaginal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nonpregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Nonpregnant_vaginal_bleeding"
+        }
+      ]
+    }
+  }
+}

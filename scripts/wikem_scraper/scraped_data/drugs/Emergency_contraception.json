@@ -1,0 +1,68 @@
+{
+  "drug_name": "Emergency_contraception",
+  "url": "https://wikem.org/wiki/Emergency_contraception",
+  "scraped_at": "2026-01-10T07:52:31.587792",
+  "sections": {
+    "Overview": {
+      "text": "",
+      "subsections": {
+        "Most_to_least_effective": {
+          "text": "Copper IUD\nUlipristal (\nElla\n)\nProgestin-only regimen\nCombination estrogen-progestin regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Copper_IUD": {
+      "text": "Copper intrauterine device (Paragard) can be used as emergency contraception up to 120 hours after unprotected sex\nAdvantages:\nMore\neffective than oral regimens (>99% vs ~88%)\n[2]\nServes as long-acting reversible contraception for up to 12 years after insertion\nDisadvantages:\nContraindicated in patients with\nPID\nor active\ngonorrhea\n/\nchlamydia\n: STD screening recommended prior to insertion\nNot a very feasible method in the ED",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        }
+      ]
+    },
+    "Progestin-only_Regimen": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "First dose within 48 hours after unprotected intercourse followed by second dose 12 hours later\nMay also be taken as single dose (double dose)\nRelative risk reduction of pregnancy = 89% (1% with vs 8% without)\nEffectiveness may be reduced in obese patients; some emerging evidence suggests doubling dose for obese patients\n[5]\nAdverse effects: Nausea (23%), vomiting (6%)",
+          "tables": []
+        },
+        "Dosing": {
+          "text": "Plan B (marketed specifically for emergency contraception) - levonorgestrel 0.75mg PO per pill\nShould be given as soon as possible after intercourse; labeled for use up to 72 hours post-coitus, however may still be moderately effective up to 5 days after\n[6]\nLevonorgestrel\n(Plan B and generics) 0.75mg PO Q12H x2 doses\nMay also be taken as one-time dose of levonorgestrel 1.5mg PO once",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Levonorgestrel",
+          "url": "https://wikem.org/wiki/Levonorgestrel"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    }
+  }
+}

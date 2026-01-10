@@ -1,0 +1,344 @@
+{
+  "drug_name": "Electronic_cigarettes",
+  "url": "https://wikem.org/wiki/Electronic_cigarettes",
+  "scraped_at": "2026-01-10T07:52:30.862120",
+  "sections": {
+    "Background": {
+      "text": "Nicotine containing products that are currently not regulated by the FDA\nOn 4/25/14, the FDA proposed legislation to allow them to regulate e-cigarettes like other tobacco products\n[1]\nNicotine usually suspended in a propylene glycol or vegetable glycerin solution (labeled as %PG/%VG)\n[2]\n[3]\nFrom Sept 2010 - Feb 2014, there were 16,248 toxic exposures to traditional cigarettes and 2,405 toxic exposures to e-cigarettes\n[4]\nExposures to e-cigarettes increased from 1/month to 215/month over that time period",
+      "subsections": {
+        "Product_Types": {
+          "text": "Some are fixed products with no refill capabilities (Ex. Blu e-cigarettes) while others can be refilled with replacement nicotine fluid\nCommon strengths include 6mg/ml (low), 12mg/ml (medium-low), 18mg/ml (medium), 24mg/ml (high) and 36mg/ml (Ultra-high)\nCommon refill sizes range from 5ml to 30ml\nProducts come in a variety of flavors that can be enticing to children\nBubble gum, root beer, extreme soda, Ecto-cooler, Banana cream pie, toasted marshmallow, etc.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Product_Types": {
+      "text": "Some are fixed products with no refill capabilities (Ex. Blu e-cigarettes) while others can be refilled with replacement nicotine fluid\nCommon strengths include 6mg/ml (low), 12mg/ml (medium-low), 18mg/ml (medium), 24mg/ml (high) and 36mg/ml (Ultra-high)\nCommon refill sizes range from 5ml to 30ml\nProducts come in a variety of flavors that can be enticing to children\nBubble gum, root beer, extreme soda, Ecto-cooler, Banana cream pie, toasted marshmallow, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Fatal intoxications are rare and estimates suggest 60mg - 500mg as a lethal dose.  Traditional cigarettes deliver approximately 2mg of nicotine\n[5]",
+      "subsections": {
+        "Absorption": {
+          "text": "Absorbed transdermally, orally and via inhalation",
+          "tables": []
+        },
+        "Biphasic_presentation": {
+          "text": "Initially excitation secondary to excitation of the presynaptic nAChR which facilitates release of neurotransmitters\nSecond phase characterized by desensitization of the receptors and decreased neurotransmitter release",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Absorption": {
+      "text": "Absorbed transdermally, orally and via inhalation",
+      "subsections": {
+        "Biphasic_presentation": {
+          "text": "Initially excitation secondary to excitation of the presynaptic nAChR which facilitates release of neurotransmitters\nSecond phase characterized by desensitization of the receptors and decreased neurotransmitter release",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Biphasic_presentation": {
+      "text": "Initially excitation secondary to excitation of the presynaptic nAChR which facilitates release of neurotransmitters\nSecond phase characterized by desensitization of the receptors and decreased neurotransmitter release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Eye_Pain": {
+          "text": "Nicotine is also an irritant and eye pain is a frequent complaint",
+          "tables": []
+        },
+        "Fasciculations": {
+          "text": "Due to the neuromuscular nicotinic activation",
+          "tables": []
+        },
+        "Hypersalivation": {
+          "text": "At high doses nicotine will activate muscarinic receptors",
+          "tables": []
+        },
+        "Biphasic_presentation_2": {
+          "text": "Initially present with excitation, N/V/D, salivation, tachycardia, hypertension, diaphoresis\nDelayed presentation is hypotension, bradycardia, hypoventilation, fasiculations, seizures, coma, and death",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Postive": "Anxiolysis",
+            "Negative": "Gastrointestinal Distress"
+          },
+          {
+            "Postive": "Congnitive Enhancement",
+            "Negative": "Hypothermia"
+          },
+          {
+            "Postive": "Cerebrovasodilation",
+            "Negative": "Emesis"
+          },
+          {
+            "Postive": "Neuroprotection",
+            "Negative": "Hypertension"
+          },
+          {
+            "Postive": "Analgesia",
+            "Negative": "Seizures"
+          },
+          {
+            "Postive": "Antipscyhotic",
+            "Negative": "Respiratory Distress"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Eye_Pain": {
+      "text": "Nicotine is also an irritant and eye pain is a frequent complaint",
+      "subsections": {
+        "Fasciculations": {
+          "text": "Due to the neuromuscular nicotinic activation",
+          "tables": []
+        },
+        "Hypersalivation": {
+          "text": "At high doses nicotine will activate muscarinic receptors",
+          "tables": []
+        },
+        "Biphasic_presentation_2": {
+          "text": "Initially present with excitation, N/V/D, salivation, tachycardia, hypertension, diaphoresis\nDelayed presentation is hypotension, bradycardia, hypoventilation, fasiculations, seizures, coma, and death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fasciculations": {
+      "text": "Due to the neuromuscular nicotinic activation",
+      "subsections": {
+        "Hypersalivation": {
+          "text": "At high doses nicotine will activate muscarinic receptors",
+          "tables": []
+        },
+        "Biphasic_presentation_2": {
+          "text": "Initially present with excitation, N/V/D, salivation, tachycardia, hypertension, diaphoresis\nDelayed presentation is hypotension, bradycardia, hypoventilation, fasiculations, seizures, coma, and death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypersalivation": {
+      "text": "At high doses nicotine will activate muscarinic receptors",
+      "subsections": {
+        "Biphasic_presentation_2": {
+          "text": "Initially present with excitation, N/V/D, salivation, tachycardia, hypertension, diaphoresis\nDelayed presentation is hypotension, bradycardia, hypoventilation, fasiculations, seizures, coma, and death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Biphasic_presentation_2": {
+      "text": "Initially present with excitation, N/V/D, salivation, tachycardia, hypertension, diaphoresis\nDelayed presentation is hypotension, bradycardia, hypoventilation, fasiculations, seizures, coma, and death",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Exposure to nicotine containing liquid\nToxidrome similar to nicotinism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "CBC\nChem 7\nUrine toxicology screen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Anticholinergic Toxicity\nOrganophosphate Toxicity\nSympathomimetic Toxicity\nNeuroleptic Malignant Syndrome (NMS)\nSerotonin Syndrome\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Organophosphate Toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_Toxicity"
+        },
+        {
+          "text": "Sympathomimetic Toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_Toxicity"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome (NMS)",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome_(NMS)"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Decontamination": {
+          "text": "Providers should wear appropriate PPE during decontamination.\nNeoprene or nitrile gloves and gown (latex and vinyl are ineffective)\nDispose of all clothes in biohazard container\nWash patient with soap and water",
+          "tables": []
+        },
+        "Supportive_Care": {
+          "text": "IVF, O2, Monitor\nAggressive airway management is of utmost importance.\nIntubation often needed due to significant  respiratory secretions / bronchospasm.\nUse nondepolarizing agent (\nRocuronium\nor\nVecuronium\n)\nSuccinylcholine is absolutely contraindicated\nBenzodiazepines\nfor seizures",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "Dosing with atropine and pralidoxime are time dependent and provides ability to reverse symptoms while awaiting agent metabolism\nFor exposure to nerve agents, manufactured IM autoinjectors are available for rapid administration:\nMark 1\nContains 2 separate cartridges: atropine 2 mg + 2-PAM 600 mg\nBeing phased out with newer kits\nDuoDote\nSingle autoinjector containing both medications\nSame doses as Mark 1: atropine 2 mg + 2-PAM 600 mg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Decontamination": {
+      "text": "Providers should wear appropriate PPE during decontamination.\nNeoprene or nitrile gloves and gown (latex and vinyl are ineffective)\nDispose of all clothes in biohazard container\nWash patient with soap and water",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "IVF, O2, Monitor\nAggressive airway management is of utmost importance.\nIntubation often needed due to significant  respiratory secretions / bronchospasm.\nUse nondepolarizing agent (\nRocuronium\nor\nVecuronium\n)\nSuccinylcholine is absolutely contraindicated\nBenzodiazepines\nfor seizures",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "Dosing with atropine and pralidoxime are time dependent and provides ability to reverse symptoms while awaiting agent metabolism\nFor exposure to nerve agents, manufactured IM autoinjectors are available for rapid administration:\nMark 1\nContains 2 separate cartridges: atropine 2 mg + 2-PAM 600 mg\nBeing phased out with newer kits\nDuoDote\nSingle autoinjector containing both medications\nSame doses as Mark 1: atropine 2 mg + 2-PAM 600 mg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "IVF, O2, Monitor\nAggressive airway management is of utmost importance.\nIntubation often needed due to significant  respiratory secretions / bronchospasm.\nUse nondepolarizing agent (\nRocuronium\nor\nVecuronium\n)\nSuccinylcholine is absolutely contraindicated\nBenzodiazepines\nfor seizures",
+      "subsections": {
+        "Antidotes": {
+          "text": "Dosing with atropine and pralidoxime are time dependent and provides ability to reverse symptoms while awaiting agent metabolism\nFor exposure to nerve agents, manufactured IM autoinjectors are available for rapid administration:\nMark 1\nContains 2 separate cartridges: atropine 2 mg + 2-PAM 600 mg\nBeing phased out with newer kits\nDuoDote\nSingle autoinjector containing both medications\nSame doses as Mark 1: atropine 2 mg + 2-PAM 600 mg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Antidotes": {
+      "text": "Dosing with atropine and pralidoxime are time dependent and provides ability to reverse symptoms while awaiting agent metabolism\nFor exposure to nerve agents, manufactured IM autoinjectors are available for rapid administration:\nMark 1\nContains 2 separate cartridges: atropine 2 mg + 2-PAM 600 mg\nBeing phased out with newer kits\nDuoDote\nSingle autoinjector containing both medications\nSame doses as Mark 1: atropine 2 mg + 2-PAM 600 mg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antidotes_2": {
+      "text": "",
+      "subsections": {
+        "Atropine": {
+          "text": "Competitively blocks muscarinic sites (does nothing for nicotinic-related muscle paralysis)\nMay require massive dosage (hundreds of milligrams)\nDosing\n[6]\nAdult: Initial bolus of 2-6mg IV; titrate by doubling dose q5-30m until tracheobronchial secretions controlled\nOnce secretions controlled → start IV gtt 0.02-0.08 mg/kg/hr\nChild: 0.05-0.1mg/kg (at least 0.1mg) IV; repeat bolus q2-30m until tracheobronchial secretions controlled\nOnce secretions controlled → start IV gtt 0.025 mg/kg/hr\nNo max dose, doses >400mg have been reported\n[7]",
+          "tables": []
+        },
+        "Pralidoxime": {
+          "text": "AKA 2-PAM\nFor Organophosphate poisoning only - reactivates AChE by removing phosphate group → oxime-OP complex then excreted by kidneys.\nThis must be done before \"aging\" occurs - conformational change that makes OP bond to AChE irreversible\n[8]\nPralidoxime can actually bind and inhibit AChE once all AChE enzymes have aged, and can make the toxicity worse\nWindow to aging depends on the agent, and is a matter of debate, but pralidoxime within 1-2 hours of exposure is the goal\nDosing\n[6]\nAdult: 1-2gm IV over 15-30min; repeat in 1 hour if needed\nor\n50 mg/hr infusion.\nChild: 20-40mg/kg IV over 20min; repeat in 1 hour if needed\nor\n10-20 mg/kg/hr infusion.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Atropine": {
+      "text": "Competitively blocks muscarinic sites (does nothing for nicotinic-related muscle paralysis)\nMay require massive dosage (hundreds of milligrams)\nDosing\n[6]\nAdult: Initial bolus of 2-6mg IV; titrate by doubling dose q5-30m until tracheobronchial secretions controlled\nOnce secretions controlled → start IV gtt 0.02-0.08 mg/kg/hr\nChild: 0.05-0.1mg/kg (at least 0.1mg) IV; repeat bolus q2-30m until tracheobronchial secretions controlled\nOnce secretions controlled → start IV gtt 0.025 mg/kg/hr\nNo max dose, doses >400mg have been reported\n[7]",
+      "subsections": {
+        "Pralidoxime": {
+          "text": "AKA 2-PAM\nFor Organophosphate poisoning only - reactivates AChE by removing phosphate group → oxime-OP complex then excreted by kidneys.\nThis must be done before \"aging\" occurs - conformational change that makes OP bond to AChE irreversible\n[8]\nPralidoxime can actually bind and inhibit AChE once all AChE enzymes have aged, and can make the toxicity worse\nWindow to aging depends on the agent, and is a matter of debate, but pralidoxime within 1-2 hours of exposure is the goal\nDosing\n[6]\nAdult: 1-2gm IV over 15-30min; repeat in 1 hour if needed\nor\n50 mg/hr infusion.\nChild: 20-40mg/kg IV over 20min; repeat in 1 hour if needed\nor\n10-20 mg/kg/hr infusion.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pralidoxime": {
+      "text": "AKA 2-PAM\nFor Organophosphate poisoning only - reactivates AChE by removing phosphate group → oxime-OP complex then excreted by kidneys.\nThis must be done before \"aging\" occurs - conformational change that makes OP bond to AChE irreversible\n[8]\nPralidoxime can actually bind and inhibit AChE once all AChE enzymes have aged, and can make the toxicity worse\nWindow to aging depends on the agent, and is a matter of debate, but pralidoxime within 1-2 hours of exposure is the goal\nDosing\n[6]\nAdult: 1-2gm IV over 15-30min; repeat in 1 hour if needed\nor\n50 mg/hr infusion.\nChild: 20-40mg/kg IV over 20min; repeat in 1 hour if needed\nor\n10-20 mg/kg/hr infusion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for symptomatic poisonings",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nicotine Poisoning",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nicotine Poisoning",
+          "url": "https://wikem.org/wiki/Nicotine_Poisoning"
+        }
+      ]
+    }
+  }
+}

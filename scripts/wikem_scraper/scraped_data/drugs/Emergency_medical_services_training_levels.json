@@ -1,0 +1,57 @@
+{
+  "drug_name": "Emergency_medical_services_training_levels",
+  "url": "https://wikem.org/wiki/Emergency_medical_services_training_levels",
+  "scraped_at": "2026-01-10T07:52:31.749293",
+  "sections": {
+    "Intro": {
+      "text": "Basic first aid and airway management (including\nOPA\nand BVM)\nCPR and AED  use\nEpi-pen\nAdvanced first aid and airway management (including\nOPA\n/NPA and BVM)\nAssist patients in taking home meds\nLimited medication administration (ASA, NTG, IM Epinephrine, Nalaxone, oral glucose, etc per medical director)\nOxygen administration\nMonitoring vitals\nInitiate IVs/IOs\nLimited IV medication administration (D10, Epi 1:10000 in Cardiac Arrest, Nitrous Oxide)\nFluid Resuscitation\nAirway management (including\nSupraglottic airway\nbut NOT endotracheal tube)\nInitiate IVs/IOs\n30-40+ Medications (including narcotics, benzodiazepines)\nCardiac monitoring and 12-lead ECG interpretation\nUltrasound\nManual defibrillation and cardioversion\nTranscutaneous pacing\nAdvanced Airway including endotracheal tube, RSI/DSI\nNeedle\n/\nSurgical cricothyrotomy\nNeedle Chest Decompression and/or Finger Thoracostomy\nChest tube monitoring\nNote: there remains considerable variability among state laws related to EMS scope of practice as well as agency guidance and medical direction/protocols.\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Current Name": "Emergency Medical Responder",
+            "Former Name": "First Responder",
+            "Training Requirements": "~60 hours",
+            "Authorized Skills": "Basic first aid and airway management (includingOPAand BVM)CPR and AED  useEpi-pen"
+          },
+          {
+            "Current Name": "Emergency Medical Technician",
+            "Former Name": "EMT - Basic",
+            "Training Requirements": "~150-200 hours",
+            "Authorized Skills": "Advanced first aid and airway management (includingOPA/NPA and BVM)Assist patients in taking home medsLimited medication administration (ASA, NTG, IM Epinephrine, Nalaxone, oral glucose, etc per medical director)Oxygen administrationMonitoring vitals"
+          },
+          {
+            "Current Name": "Advanced Emergency Medical Technician",
+            "Former Name": "EMT - Intermediate",
+            "Training Requirements": "~300-450 hours",
+            "Authorized Skills": "Initiate IVs/IOsLimited IV medication administration (D10, Epi 1:10000 in Cardiac Arrest, Nitrous Oxide)Fluid ResuscitationAirway management (includingSupraglottic airwaybut NOT endotracheal tube)"
+          },
+          {
+            "Current Name": "Paramedic",
+            "Former Name": "EMT - Paramedic",
+            "Training Requirements": "1000-2000 hours",
+            "Authorized Skills": "Initiate IVs/IOs30-40+ Medications (including narcotics, benzodiazepines)Cardiac monitoring and 12-lead ECG interpretationUltrasoundManual defibrillation and cardioversionTranscutaneous pacingAdvanced Airway including endotracheal tube, RSI/DSINeedle/Surgical cricothyrotomyNeedle Chest Decompression and/or Finger ThoracostomyChest tube monitoring"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Military emergency medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Military emergency medicine",
+          "url": "https://wikem.org/wiki/Military_emergency_medicine"
+        }
+      ]
+    },
+    "References": {
+      "text": "National EMS Education Standards",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

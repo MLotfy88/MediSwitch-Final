@@ -1,0 +1,187 @@
+{
+  "drug_name": "Dysphagia",
+  "url": "https://wikem.org/wiki/Dysphagia",
+  "scraped_at": "2026-01-10T07:52:21.776235",
+  "sections": {
+    "Background": {
+      "text": "Most patients with dysphagia have an identifiable, organic cause\nAssume malignancy in patients >40yo with new-onset dysphagia\nMedications can cause dysphagia from esophageal mucosal injury or reduced lower esophageal sphincter tone.\nCVA is most common cause of oropharyngeal dysphagia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Difficulty swallowing\nSensation of food stuck\nChest pain\nDysphagia categories\n[1]\nOropharyngeal dysphagia - difficulty initiating swallowing (coughing, chocking, nasal regurgitation)\nEsophageal dysphagia\nMechanical obstruction - usually solid food only\nNeuromuscular disorder - solid or liquid food",
+      "subsections": {
+        "Transfer_dysphagia_(oropharyngeal)": {
+          "text": "Discoordination in transferring bolus from pharynx to esophagus\nEtiology\nNeuromuscular disease (80% of cases)\nCVA\n,\nscleroderma\n,\nmyasthenia gravis\n,\nParkinson's\n,\nbotulism\n,\nlead poisoning\nLocalized disease\nPharyngitis\n, aphthous ulcers,\nPTA\n,\nZenker diverticulum\nSymptoms\nGagging,\ncoughing\n, inability to initiate swallow, need for repeated swallows",
+          "tables": []
+        },
+        "Transport_dysphagia_(esophageal)": {
+          "text": "Improper transfer of bolus from upper esophagus into stomach\nEtiology\nObstructive disease (85% of cases)\nForeign body\n, carcinoma, webs, strictures,\nthyroid\nenlargement\nMotor disorder\nAchalasia\n, peristaltic dysfunction (nutcracker esophagus),\nscleroderma\nSymptoms\nFood \"sticking,\" retrosternal fullness with solids (and eventually liquids), odynophagia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dysphagia": {
+          "text": "Oropharyngeal dysphagia\nCVA\nParkinson's disease\nBrain stem tumors\nDegenerative disease -\nALS\n,\nMS\n, Huntington's\nPostinfectious -\npolio\n,\nsyphilis\nPeripheral neuropathy\nMyasthenia gravis\nPolymyositis\n,\ndermatomyositis\nMuscular dystrophy\nEsophageal dysphagia\nAchalasia\nDiffuse esophageal spasm\nIngested foreign body\nEsophageal web\nMalignancy, mediastinal masses\nSchatzki Ring\nScleroderma\nStrictures -\npeptic\n, radiation, chemical, medication-induced\nVascular compression\nZenker's diverticulum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Diffuse esophageal spasm",
+          "url": "https://wikem.org/wiki/Diffuse_esophageal_spasm"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Schatzki Ring",
+          "url": "https://wikem.org/wiki/Schatzki_Ring"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "peptic",
+          "url": "https://wikem.org/wiki/PUD"
+        },
+        {
+          "text": "Zenker's diverticulum",
+          "url": "https://wikem.org/wiki/Zenker%27s_diverticulum"
+        }
+      ]
+    },
+    "Dysphagia": {
+      "text": "Oropharyngeal dysphagia\nCVA\nParkinson's disease\nBrain stem tumors\nDegenerative disease -\nALS\n,\nMS\n, Huntington's\nPostinfectious -\npolio\n,\nsyphilis\nPeripheral neuropathy\nMyasthenia gravis\nPolymyositis\n,\ndermatomyositis\nMuscular dystrophy\nEsophageal dysphagia\nAchalasia\nDiffuse esophageal spasm\nIngested foreign body\nEsophageal web\nMalignancy, mediastinal masses\nSchatzki Ring\nScleroderma\nStrictures -\npeptic\n, radiation, chemical, medication-induced\nVascular compression\nZenker's diverticulum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Diffuse esophageal spasm",
+          "url": "https://wikem.org/wiki/Diffuse_esophageal_spasm"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Schatzki Ring",
+          "url": "https://wikem.org/wiki/Schatzki_Ring"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "peptic",
+          "url": "https://wikem.org/wiki/PUD"
+        },
+        {
+          "text": "Zenker's diverticulum",
+          "url": "https://wikem.org/wiki/Zenker%27s_diverticulum"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for underlying etiology (e.g. rule out new neuro dysfunction)\nNeck x-ray (AP and lateral)\nHelpful in presumed transfer dysphagia and proximal transport dysphagia\nCXR\nHelpful in presumed transport dysphagia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Referral to GI or ENT for direct laryngoscopy or video-esophagography",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

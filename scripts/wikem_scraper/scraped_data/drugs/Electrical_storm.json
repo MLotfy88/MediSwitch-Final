@@ -1,0 +1,697 @@
+{
+  "drug_name": "Electrical_storm",
+  "url": "https://wikem.org/wiki/Electrical_storm",
+  "scraped_at": "2026-01-10T07:52:30.564701",
+  "sections": {
+    "Background": {
+      "text": "Definition: 3 or more episodes of sustained\nventricular tachycardia\n,\nventricular fibrilation\n, or ICD shocks within 24 hours\nMost have underlying structural heart disease, but also seen in those with structurally normal hearts (i.e.\nBrugada syndrome\n,\nLong QT syndrome\n)\nType 2 Diabetes is protective",
+      "subsections": {
+        "Risk_factors_": {
+          "text": "CAD\nHFrEF\nQT prolongation",
+          "tables": []
+        },
+        "Causes": {
+          "text": "Ischemia\nElectrolyte derangement\nIatrogenic (i.e.\nQT prolonging medications\n)\nHyperthyroidism\nInfection/\nFever\nBrugada syndrome\nShort QT syndrome\n,\nlong QT syndrome\nEarly repolarization syndrome\n, especially in inferior leads",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular fibrilation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrilation"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Electrolyte derangement",
+          "url": "https://wikem.org/wiki/Electrolyte_derangement"
+        },
+        {
+          "text": "QT prolonging medications",
+          "url": "https://wikem.org/wiki/QT_prolonging_medications"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Short QT syndrome",
+          "url": "https://wikem.org/wiki/Short_QT_syndrome"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Early repolarization syndrome",
+          "url": "https://wikem.org/wiki/Early_repolarization_syndrome"
+        }
+      ]
+    },
+    "Risk_factors_": {
+      "text": "CAD\nHFrEF\nQT prolongation",
+      "subsections": {
+        "Causes": {
+          "text": "Ischemia\nElectrolyte derangement\nIatrogenic (i.e.\nQT prolonging medications\n)\nHyperthyroidism\nInfection/\nFever\nBrugada syndrome\nShort QT syndrome\n,\nlong QT syndrome\nEarly repolarization syndrome\n, especially in inferior leads",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Electrolyte derangement",
+          "url": "https://wikem.org/wiki/Electrolyte_derangement"
+        },
+        {
+          "text": "QT prolonging medications",
+          "url": "https://wikem.org/wiki/QT_prolonging_medications"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Short QT syndrome",
+          "url": "https://wikem.org/wiki/Short_QT_syndrome"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Early repolarization syndrome",
+          "url": "https://wikem.org/wiki/Early_repolarization_syndrome"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Ischemia\nElectrolyte derangement\nIatrogenic (i.e.\nQT prolonging medications\n)\nHyperthyroidism\nInfection/\nFever\nBrugada syndrome\nShort QT syndrome\n,\nlong QT syndrome\nEarly repolarization syndrome\n, especially in inferior leads",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Electrolyte derangement",
+          "url": "https://wikem.org/wiki/Electrolyte_derangement"
+        },
+        {
+          "text": "QT prolonging medications",
+          "url": "https://wikem.org/wiki/QT_prolonging_medications"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Short QT syndrome",
+          "url": "https://wikem.org/wiki/Short_QT_syndrome"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Early repolarization syndrome",
+          "url": "https://wikem.org/wiki/Early_repolarization_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Presentation as:\nCardiac arrest\nPalpitations\n(Pre)\nSyncope\nICD patient complaining of shock(s)\nType of Ventricular Arrhythmias\n[2]\n[3]\nMonomorphic VT   86-97%\nPrimary VF       1-21%\nMixed VT/VF      3-14%\nPolymorphic VT   2-8%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        },
+        "ICD_malfunction": {
+          "text": "A fib\n/\nSVT\nOversensing\nLead fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {
+        "ICD_malfunction": {
+          "text": "A fib\n/\nSVT\nOversensing\nLead fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "ICD_malfunction": {
+      "text": "A fib\n/\nSVT\nOversensing\nLead fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nor clinical history for those with ICDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Emergency_Department": {
+          "text": "Follow current ACLS guidelines if pulseless\nSee\nAdult Pulseless Arrest\nAnalgesia\n/\nsedation\nfor all patients\nACC recommends repletion of K to 4.5 in all cases\n[4]\nAmiodarone\n1st line antiarrhythmic (preferred over\nlidocaine\n) for most cases\n[5]\nEfficacy of lidocaine highest if actively ischemic\nBeta blockade: Minimize\nepinephrine\nuse as much as possible\nConsider\nsympathetic blockade as first line\nover ACLS antiarrhythmics\nEspecially in patients that are high risk CAD\n67% vs. 5% survival in 49 patient study, respectively for esmolol/propranolol vs. ACLS antiarrhythmic\n[6]\nPatients who survived initial ES event did well over 1 yr follow up\nMetoprolol\n2.5-5mg IV q2-5 min to max of 15mg\nPropranolol\n0.15mg/kg IV over 10 minutes followed by 3-5mg q6h; may be effective even if metoprolol fails\nMore efficacious than metoprolol, terminated VT at 3 hours vs. 18 hours with metoprolol\n[7]\nEsmolol\n300-500 mcg/kg load over 1 minutes follwed by infusion at 25-50 mcg/kg/min initial dose\nExceptions to above are:\nTorsades\nwith known long QT\nMagnesium sulfate\n1-2 grams IV over 1-2 minutes\nPotassium repletion\nIf bradycardic between episodes, pace at 90-120 or start\nIsoproterenol\n2 mcg/min and titrate to HR 90-100\nConsider bolus dose 0.02-0.06mg isoproterenol, then infusion\nBrugada syndrome\n[8]\nIsoproterenol\ninfusion is 1st line\nQuinidine\nmay be of benefit\n[9]\nDue to its Ito channel blockade\nSodium channel blockade may be harmful, however (avoid other Class I antiarrhythmics)\nConsider\nisoproterenol\nin electrical storm in the following situations:\nRecalcitrant idiopathic ventricular fibrillation, not associated with structural heart, electrical, coronary heart disease\nBenign early repolarization\nwith J waves\n[10]\nIdiopathic ventricular fibrillation with complete\nright bundle branch block\nConsider isoproterenol carefully as it has been used to induce ventricular tachycardia by EPs\n[11]",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Emergent revascularization if ischemic\nAblation\nLeft sympathetic ganglionic blockade\nDeep\nsedation\n/ general anesthesia\nIABP /\nECMO\nPalliative care\nas this could represent impending terminal failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Adult_Pulseless_Arrest"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Benign early repolarization",
+          "url": "https://wikem.org/wiki/Benign_early_repolarization"
+        },
+        {
+          "text": "right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "Palliative care",
+          "url": "https://wikem.org/wiki/Palliative_care"
+        }
+      ]
+    },
+    "Emergency_Department": {
+      "text": "Follow current ACLS guidelines if pulseless\nSee\nAdult Pulseless Arrest\nAnalgesia\n/\nsedation\nfor all patients\nACC recommends repletion of K to 4.5 in all cases\n[4]\nAmiodarone\n1st line antiarrhythmic (preferred over\nlidocaine\n) for most cases\n[5]\nEfficacy of lidocaine highest if actively ischemic\nBeta blockade: Minimize\nepinephrine\nuse as much as possible\nConsider\nsympathetic blockade as first line\nover ACLS antiarrhythmics\nEspecially in patients that are high risk CAD\n67% vs. 5% survival in 49 patient study, respectively for esmolol/propranolol vs. ACLS antiarrhythmic\n[6]\nPatients who survived initial ES event did well over 1 yr follow up\nMetoprolol\n2.5-5mg IV q2-5 min to max of 15mg\nPropranolol\n0.15mg/kg IV over 10 minutes followed by 3-5mg q6h; may be effective even if metoprolol fails\nMore efficacious than metoprolol, terminated VT at 3 hours vs. 18 hours with metoprolol\n[7]\nEsmolol\n300-500 mcg/kg load over 1 minutes follwed by infusion at 25-50 mcg/kg/min initial dose\nExceptions to above are:\nTorsades\nwith known long QT\nMagnesium sulfate\n1-2 grams IV over 1-2 minutes\nPotassium repletion\nIf bradycardic between episodes, pace at 90-120 or start\nIsoproterenol\n2 mcg/min and titrate to HR 90-100\nConsider bolus dose 0.02-0.06mg isoproterenol, then infusion\nBrugada syndrome\n[8]\nIsoproterenol\ninfusion is 1st line\nQuinidine\nmay be of benefit\n[9]\nDue to its Ito channel blockade\nSodium channel blockade may be harmful, however (avoid other Class I antiarrhythmics)\nConsider\nisoproterenol\nin electrical storm in the following situations:\nRecalcitrant idiopathic ventricular fibrillation, not associated with structural heart, electrical, coronary heart disease\nBenign early repolarization\nwith J waves\n[10]\nIdiopathic ventricular fibrillation with complete\nright bundle branch block\nConsider isoproterenol carefully as it has been used to induce ventricular tachycardia by EPs\n[11]",
+      "subsections": {
+        "Inpatient": {
+          "text": "Emergent revascularization if ischemic\nAblation\nLeft sympathetic ganglionic blockade\nDeep\nsedation\n/ general anesthesia\nIABP /\nECMO\nPalliative care\nas this could represent impending terminal failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Adult_Pulseless_Arrest"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Benign early repolarization",
+          "url": "https://wikem.org/wiki/Benign_early_repolarization"
+        },
+        {
+          "text": "right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "Palliative care",
+          "url": "https://wikem.org/wiki/Palliative_care"
+        }
+      ]
+    },
+    "Inpatient": {
+      "text": "Emergent revascularization if ischemic\nAblation\nLeft sympathetic ganglionic blockade\nDeep\nsedation\n/ general anesthesia\nIABP /\nECMO\nPalliative care\nas this could represent impending terminal failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "Palliative care",
+          "url": "https://wikem.org/wiki/Palliative_care"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Torsades de pointes\nWide-complex tachycardia\nAdult pulseless arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Wide-complex tachycardia",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "First10EM - Management of Electrical Storm\nEM Ottawa - Braving the Electrical Storm in the ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

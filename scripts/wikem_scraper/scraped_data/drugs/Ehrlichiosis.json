@@ -1,0 +1,186 @@
+{
+  "drug_name": "Ehrlichiosis",
+  "url": "https://wikem.org/wiki/Ehrlichiosis",
+  "scraped_at": "2026-01-10T07:52:29.080212",
+  "sections": {
+    "Background": {
+      "text": "Bacterial infection of the family Anaplasmataceae common in mammals such as cattle, dogs, sheep, goats, and horses\n[1]\nSpread by the Lonestar tick (Amblyomma americanum)\nEastern seaboard from Florida to Maine and as far west as Iowa and Texas\nStates with the highest incidence:\n[2]\nRhode Island (36.5 cases per million)\nMinnesota (3.9 to 12.3 cases per million)\nConnecticut (8.1 to 15.9 cases per million)\nPeople often unaware they are bitten with case fatality rate of approximately 1.8%\n[3]\nMore severe disease in immunocompromised patients (\nHIV\n, Elderly,\nAsplenic\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Asplenic",
+          "url": "https://wikem.org/wiki/Asplenic"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Variable spectrum of severity of disease\nFever\n/chills (abrupt onset), malaise, myalgias\nHeadache\nNausea/vomiting\n,\ndiarrhea\nConjunctival injection\nRash\nUp to 60% in children, 30% of adults",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Peripheral blood smear\n[4]\nObligate intracellular organism\nSmear shows intracellular parasites only 20% of time\nPCR\nMost sensitive in first week of illness\nIndirect Immunoflorescence Assay'\nGold Standard\nNegative 85% of time in first 7 days of illness\nCompare 2 samples drawn at different times\n4 fold increase in titers of second draw is positive\nEnzyme Immunoassay\nQualitative tests, not quantitative\nLeukopenia, thrombocytopenia, and transaminitis often present",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotics should be continued for 5 days after the last recorded\nfever\n.\nAdults:\nDoxycycline\n100mg PO/IV BID x 14 days\nPediatrics: under 45 kg use\nDoxycycline\n2.2mg/kg PO/IV twice a day\nPregnant:\nRifampin\n300mg PO every 12 hours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most cases are treated as an outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Tick Borne Illnesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick Borne Illnesses",
+          "url": "https://wikem.org/wiki/Tick_Borne_Illnesses"
+        }
+      ]
+    }
+  }
+}

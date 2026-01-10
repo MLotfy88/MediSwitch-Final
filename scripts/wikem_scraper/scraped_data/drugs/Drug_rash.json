@@ -1,0 +1,633 @@
+{
+  "drug_name": "Drug_rash",
+  "url": "https://wikem.org/wiki/Drug_rash",
+  "scraped_at": "2026-01-10T07:52:16.064733",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "ABCs_of_Drug_Rashes": {
+          "text": "A\ncute generalized exanthematous pustulosis (\nAGEP\n)\nB\nullous disease, drug induced\nC\naptopril (\nACE-inhibitor\n) induced\nangioedema\nD\nrug reaction with eosinophilia and systemic symptoms\n(DRESS) syndrome\nS\nJS/\nTEN",
+          "tables": []
+        },
+        "Rash_Red_Flags": {
+          "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AGEP",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "ACE-inhibitor",
+          "url": "https://wikem.org/wiki/ACE-inhibitor"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "(DRESS) syndrome",
+          "url": "https://wikem.org/wiki/DRESS_syndrome"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "ABCs_of_Drug_Rashes": {
+      "text": "A\ncute generalized exanthematous pustulosis (\nAGEP\n)\nB\nullous disease, drug induced\nC\naptopril (\nACE-inhibitor\n) induced\nangioedema\nD\nrug reaction with eosinophilia and systemic symptoms\n(DRESS) syndrome\nS\nJS/\nTEN",
+      "subsections": {
+        "Rash_Red_Flags": {
+          "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AGEP",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "ACE-inhibitor",
+          "url": "https://wikem.org/wiki/ACE-inhibitor"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "(DRESS) syndrome",
+          "url": "https://wikem.org/wiki/DRESS_syndrome"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Rash_Red_Flags": {
+      "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sudden, usually morbilliform, often starts on face & trunk & spreads\nMore polymorphous than viral exanthem",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        },
+        "Plaques": {
+          "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {
+        "Plaques": {
+          "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Plaques": {
+      "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {
+        "Table_of_Severe_Drug_Rashes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Charateristic": "Image",
+                "DRESS": "",
+                "SJS/TEN": "",
+                "AGEP": "",
+                "Erythroderma": ""
+              },
+              {
+                "Charateristic": "Onset of eruption",
+                "DRESS": "2-6 weeks",
+                "SJS/TEN": "1-3 weeks",
+                "AGEP": "48 hours",
+                "Erythroderma": "1-3 weeks"
+              },
+              {
+                "Charateristic": "Duration of eruption (weeks)",
+                "DRESS": "Several",
+                "SJS/TEN": "1-3",
+                "AGEP": "<1",
+                "Erythroderma": "Several"
+              },
+              {
+                "Charateristic": "Fever",
+                "DRESS": "+++",
+                "SJS/TEN": "+++",
+                "AGEP": "+++",
+                "Erythroderma": "+++"
+              },
+              {
+                "Charateristic": "Mucocutaneous features",
+                "DRESS": "Facial edema, morbilliform eruption, pustules, exfoliative dermattiis, tense bullae, possible target lesions",
+                "SJS/TEN": "Bullae, atypical target lesions, mucocutaneous erosions",
+                "AGEP": "Facial edema, pustules, tense bullae, possible target lesions, possibl emucosal involvement",
+                "Erythroderma": "Erythematous plaques and edema affecting >90% of total skin surface with or without diffuse exfoliation"
+              },
+              {
+                "Charateristic": "Lymph node enlargement",
+                "DRESS": "+++",
+                "SJS/TEN": "-",
+                "AGEP": "+",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Neutrophils",
+                "DRESS": "Elevated",
+                "SJS/TEN": "Decreased",
+                "AGEP": "Very elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Eosinophils",
+                "DRESS": "Very elevated",
+                "SJS/TEN": "No change",
+                "AGEP": "Elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Atypical lymphocytes",
+                "DRESS": "+",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Hepatitis",
+                "DRESS": "+++",
+                "SJS/TEN": "++",
+                "AGEP": "++",
+                "Erythroderma": "-"
+              },
+              {
+                "Charateristic": "Other organ involvement",
+                "DRESS": "Interstitial nephritis, pneumonitis, myocarditis, and thydoiditis",
+                "SJS/TEN": "Tubular nephritis and tracheobronical necrosis",
+                "AGEP": "Possible",
+                "Erythroderma": "Possible"
+              },
+              {
+                "Charateristic": "Histological pattern of skin",
+                "DRESS": "Perivascular lymphocytcic infiltrate",
+                "SJS/TEN": "Epidermal necrosis",
+                "AGEP": "Subcorneal pustules",
+                "Erythroderma": "Nonspecific, unless reflecting Sezary syndrome or other lymphoma"
+              },
+              {
+                "Charateristic": "Lymph node histology",
+                "DRESS": "Lymphoid hyperplasia",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "No, unless reflecting Sezary syndrome or other malignancy"
+              },
+              {
+                "Charateristic": "Mortality(%)",
+                "DRESS": "10",
+                "SJS/TEN": "5-35",
+                "AGEP": "5",
+                "Erythroderma": "5-15"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Table_of_Severe_Drug_Rashes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Charateristic": "Image",
+            "DRESS": "",
+            "SJS/TEN": "",
+            "AGEP": "",
+            "Erythroderma": ""
+          },
+          {
+            "Charateristic": "Onset of eruption",
+            "DRESS": "2-6 weeks",
+            "SJS/TEN": "1-3 weeks",
+            "AGEP": "48 hours",
+            "Erythroderma": "1-3 weeks"
+          },
+          {
+            "Charateristic": "Duration of eruption (weeks)",
+            "DRESS": "Several",
+            "SJS/TEN": "1-3",
+            "AGEP": "<1",
+            "Erythroderma": "Several"
+          },
+          {
+            "Charateristic": "Fever",
+            "DRESS": "+++",
+            "SJS/TEN": "+++",
+            "AGEP": "+++",
+            "Erythroderma": "+++"
+          },
+          {
+            "Charateristic": "Mucocutaneous features",
+            "DRESS": "Facial edema, morbilliform eruption, pustules, exfoliative dermattiis, tense bullae, possible target lesions",
+            "SJS/TEN": "Bullae, atypical target lesions, mucocutaneous erosions",
+            "AGEP": "Facial edema, pustules, tense bullae, possible target lesions, possibl emucosal involvement",
+            "Erythroderma": "Erythematous plaques and edema affecting >90% of total skin surface with or without diffuse exfoliation"
+          },
+          {
+            "Charateristic": "Lymph node enlargement",
+            "DRESS": "+++",
+            "SJS/TEN": "-",
+            "AGEP": "+",
+            "Erythroderma": "+"
+          },
+          {
+            "Charateristic": "Neutrophils",
+            "DRESS": "Elevated",
+            "SJS/TEN": "Decreased",
+            "AGEP": "Very elevated",
+            "Erythroderma": "Elevated"
+          },
+          {
+            "Charateristic": "Eosinophils",
+            "DRESS": "Very elevated",
+            "SJS/TEN": "No change",
+            "AGEP": "Elevated",
+            "Erythroderma": "Elevated"
+          },
+          {
+            "Charateristic": "Atypical lymphocytes",
+            "DRESS": "+",
+            "SJS/TEN": "-",
+            "AGEP": "-",
+            "Erythroderma": "+"
+          },
+          {
+            "Charateristic": "Hepatitis",
+            "DRESS": "+++",
+            "SJS/TEN": "++",
+            "AGEP": "++",
+            "Erythroderma": "-"
+          },
+          {
+            "Charateristic": "Other organ involvement",
+            "DRESS": "Interstitial nephritis, pneumonitis, myocarditis, and thydoiditis",
+            "SJS/TEN": "Tubular nephritis and tracheobronical necrosis",
+            "AGEP": "Possible",
+            "Erythroderma": "Possible"
+          },
+          {
+            "Charateristic": "Histological pattern of skin",
+            "DRESS": "Perivascular lymphocytcic infiltrate",
+            "SJS/TEN": "Epidermal necrosis",
+            "AGEP": "Subcorneal pustules",
+            "Erythroderma": "Nonspecific, unless reflecting Sezary syndrome or other lymphoma"
+          },
+          {
+            "Charateristic": "Lymph node histology",
+            "DRESS": "Lymphoid hyperplasia",
+            "SJS/TEN": "-",
+            "AGEP": "-",
+            "Erythroderma": "No, unless reflecting Sezary syndrome or other malignancy"
+          },
+          {
+            "Charateristic": "Mortality(%)",
+            "DRESS": "10",
+            "SJS/TEN": "5-35",
+            "AGEP": "5",
+            "Erythroderma": "5-15"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Discontinue offending agent\nSupportive\nTopical steroids\nmay help relieve pruritus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If no signs of\nanaphylaxis\nor significant sloughing, consider outpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Erythematous rash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythematous rash",
+          "url": "https://wikem.org/wiki/Erythematous_rash"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDOCs - Drug Rashes: Not always so simple...\nEMOttawaBlog - Drug Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "drug_name": "Ehlers-Danlos_syndrome",
+  "url": "https://wikem.org/wiki/Ehlers-Danlos_syndrome",
+  "scraped_at": "2026-01-10T07:52:26.806896",
+  "sections": {
+    "Background": {
+      "text": "Hereditary\nconnective tissue disorder\nSix types: Classic, hypermobility, vascular, kyphoscoliosis, arthrochalasia, dermatosparaxis\nCauses increased risk of:\nThoracic\nand\nabdominal aortic aneurysm\nMitral valve prolapse\nSpontaneous\npneumothorax\nMyopia and\nretinal detachment\nPremature degenerative\narthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Thoracic",
+          "url": "https://wikem.org/wiki/Thoracic_Aortic_Aneurysm"
+        },
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Type I and II: Classical\nHyperextension of the joints and skin\nEasy bruising and skin fragility\nCongenital dislocations of the hips, recurrent dislocations of other joints\nSpondolithesis\nJoint effusions\nClub foot\nType III: Hypermobility\nSimilar to Classic, however less skin involvement\nType IV: Vascular\nColonic perforation\nRuptured arteries\nUterine rupture during pregnancy\nSevere and frequent wound dehiscence after surgery\nOnly type that significantly affects mortality\nType VI: Kyphoscoliotic\nFragility of the ocular globe\nMarked joint hyperextension\nSevere scoliosis\nType VIIA and VIIB: Arthrochalasia\nProfound joint hyperextension\nModerate short stature\nType VIIC: Dermatosparaxis\nMinimal joint involvement\nPrimarily affects the skin and fascia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Marfan syndrome\nCutis laxa\nLoeys-Dietz syndrome\nOsteogenesis imperfecta\nLarsen Syndrome\nStickler syndrome\nArteria tortuosity syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Marfan syndrome",
+          "url": "https://wikem.org/wiki/Marfan_syndrome"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Cardiac evaluation to screen for valvular disease, vascular disease, and aortic aneurysm\nOphthalmologic evaluation to screen for myopia, retinal detachment, and glaucoma\nMonitoring of skin fragility, wound healing, easy bruising",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Connective tissue disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        }
+      ]
+    }
+  }
+}

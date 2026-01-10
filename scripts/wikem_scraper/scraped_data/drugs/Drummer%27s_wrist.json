@@ -1,0 +1,30 @@
+{
+  "drug_name": "Drummer%27s_wrist",
+  "url": "https://wikem.org/wiki/Drummer%27s_wrist",
+  "scraped_at": "2026-01-10T07:52:14.637498",
+  "sections": {
+    "Background": {
+      "text": "Tenosynovitis of the 3rd dorsal wrist compartment containing the extensor pollicis longus (EPL)\nClassically drummers who play for long periods of time without rest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger diagnoses",
+          "url": "https://wikem.org/wiki/Hand_and_finger_diagnoses"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "See Dr. Nabil Ebraheim's video on\ndorsal wrist compartment syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "drug_name": "Emergency_Medical_Treatment_and_Active_Labor_Act",
+  "url": "https://wikem.org/wiki/Emergency_Medical_Treatment_and_Active_Labor_Act",
+  "scraped_at": "2026-01-10T07:52:31.916760",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: EMTALA\nCreated out of concern that patients were denied treatment because of an inability to pay\nEnsures equal access and delivery of emergency care, patient treated regardless of ability to pay\nPregnant woman in active labor treated through delivery unless an indication for transfer exists",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Basic_Requirements": {
+      "text": "",
+      "subsections": {
+        "Clinical": {
+          "text": "The hospital must provide an appropriate medical screening exam (MSE) to anyone coming to the ED seeking medical care\nIf that exam reveals an emergency medical condition (EMC), the hospital must treat and stabilize the emergency medical condition, or the hospital must transfer the individual\nRestricting transfer until stable\nDuty to accept appropriate transfer",
+          "tables": []
+        },
+        "Custodial": {
+          "text": "Post signs\nMaintain medical records, on-call list\nMaintain adequate staffing\nReporting\nPolicies and procedures\nSpecialized capabilities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical": {
+      "text": "The hospital must provide an appropriate medical screening exam (MSE) to anyone coming to the ED seeking medical care\nIf that exam reveals an emergency medical condition (EMC), the hospital must treat and stabilize the emergency medical condition, or the hospital must transfer the individual\nRestricting transfer until stable\nDuty to accept appropriate transfer",
+      "subsections": {
+        "Custodial": {
+          "text": "Post signs\nMaintain medical records, on-call list\nMaintain adequate staffing\nReporting\nPolicies and procedures\nSpecialized capabilities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Custodial": {
+      "text": "Post signs\nMaintain medical records, on-call list\nMaintain adequate staffing\nReporting\nPolicies and procedures\nSpecialized capabilities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Sections": {
+      "text": "",
+      "subsections": {
+        "Medical_Screening_Exam_Requirement": {
+          "text": "If any individual comes to the emergency department and a request is made on the individual’s behalf for examination or treatment for a medical condition, the hospital must provide for an appropriate medical screening examination within the capability of the hospital’s emergency department, including ancillary services routinely available to the emergency department, to determine whether or not an emergency medical condition\nThe law lacks specifics in what is included in the MSE\nDetermine with reasonable clinical confidence whether a medical emergency exists\nIndividual and condition specific\nNon-discrimination, 'comparative test' - patients presenting with similar signs & symptoms\nContinuous monitoring and contemporaneous documentation\n'Actual detection' standard - required only to stabilize detected EMC\nMSE cannot be so cursory that it is not designed to identify acute/severe symptoms alerting a possible EMC\nTypically this is understood to mean an exam performed and documented by a provider or RN certified to conduct MSE\nED staff initiate MSE, completed with discharge, admission, transfer, or move to another area in hospital",
+          "tables": []
+        },
+        "Emergency_Medical_Condition": {
+          "text": "The term “emergency medical condition” means a medical condition manifesting itself by acute symptoms of sufficient severity (including severe pain, psych, substance abuse) such that the absence of immediate medical attention could reasonably be expected to result in:\nPlacing the health of the individual (or, with respect to a pregnant woman, the health of the woman or her unborn child) in serious jeopardy,\nOR\nSerious impairment to bodily functions,\nOR\nSerious dysfunction of any bodily organ or part",
+          "tables": []
+        },
+        "Where_EMTALA_Applies": {
+          "text": "\"Dedicated ED\" - at least one of:\nLicensed by state as ED\nHeld out to the public as place providing care for EMC on an urgent basis w/o requiring previously scheduled appointment\nAt least 1/3 of visits are for treatment of EMC on an urgent basis w/o schedule appointment\nIncludes Labor & Delivery, Psych ED, Obs\nAmbulance patients en route unless on diversion\n250 yard rule (see below)\nExcludes: off campus facilities that are not dedicated EDs, independent urgent cares, physician offices/clinics, non-acute care facilities (skilled nursing facilities, rehab centers), and in general inpatients",
+          "tables": []
+        },
+        "Stabilization": {
+          "text": "The term “to stabilize” means... to provide such medical treatment of the condition as may be necessary to assure, within reasonable medical probability, that no material deterioration of the condition is likely to result from or occur during the transfer [or discharge] of the individual from a facility.\nStabilization is generally accepted to be according to the hospital's capabilities to provide care for emergency medical conditions\nIf not stabilized, provide appropriate transfer to another facility capable to provide stabilizing care, higher level of care",
+          "tables": []
+        },
+        "Transfers": {
+          "text": "If an individual at a hospital has an emergency medical condition which has not been stabilized, the hospital may not transfer the individual unless —\nThe individual (or a legally responsible person acting on the individual’s behalf) after being informed of the hospital’s obligations under this section and of the risk of transfer, in writing requests transfer to another medical facility\nA physician has signed a certification that based upon the information available at the time of transfer, the medical benefits reasonably expected from the provision of appropriate medical treatment at another medical facility outweigh the increased risks to the individual\nTransferring Hospital:\nFirst, call central transfer center, and patient flow staff of potential accepting hospital to assess capacity\nThen, speak to on-call/ED physician\nAn appropriate transfer to a medical facility is a transfer —\nIn which the transferring hospital provides the medical treatment within its capacity which minimizes the risks to the individual’s health\nIn which the receiving facility —\nHas capacity - available space, equipment, and qualified personnel for the treatment of the individual, and\nHas agreed to accept transfer of the individual and to provide appropriate medical treatment\nIn which the transferring hospital sends to the receiving facility all medical records (or copies thereof)\nIn which the transfer is effected through qualified personnel and transportation equipment",
+          "tables": []
+        },
+        "On-Call_Physician": {
+          "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+          "tables": []
+        },
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medical_Screening_Exam_Requirement": {
+      "text": "If any individual comes to the emergency department and a request is made on the individual’s behalf for examination or treatment for a medical condition, the hospital must provide for an appropriate medical screening examination within the capability of the hospital’s emergency department, including ancillary services routinely available to the emergency department, to determine whether or not an emergency medical condition\nThe law lacks specifics in what is included in the MSE\nDetermine with reasonable clinical confidence whether a medical emergency exists\nIndividual and condition specific\nNon-discrimination, 'comparative test' - patients presenting with similar signs & symptoms\nContinuous monitoring and contemporaneous documentation\n'Actual detection' standard - required only to stabilize detected EMC\nMSE cannot be so cursory that it is not designed to identify acute/severe symptoms alerting a possible EMC\nTypically this is understood to mean an exam performed and documented by a provider or RN certified to conduct MSE\nED staff initiate MSE, completed with discharge, admission, transfer, or move to another area in hospital",
+      "subsections": {
+        "Emergency_Medical_Condition": {
+          "text": "The term “emergency medical condition” means a medical condition manifesting itself by acute symptoms of sufficient severity (including severe pain, psych, substance abuse) such that the absence of immediate medical attention could reasonably be expected to result in:\nPlacing the health of the individual (or, with respect to a pregnant woman, the health of the woman or her unborn child) in serious jeopardy,\nOR\nSerious impairment to bodily functions,\nOR\nSerious dysfunction of any bodily organ or part",
+          "tables": []
+        },
+        "Where_EMTALA_Applies": {
+          "text": "\"Dedicated ED\" - at least one of:\nLicensed by state as ED\nHeld out to the public as place providing care for EMC on an urgent basis w/o requiring previously scheduled appointment\nAt least 1/3 of visits are for treatment of EMC on an urgent basis w/o schedule appointment\nIncludes Labor & Delivery, Psych ED, Obs\nAmbulance patients en route unless on diversion\n250 yard rule (see below)\nExcludes: off campus facilities that are not dedicated EDs, independent urgent cares, physician offices/clinics, non-acute care facilities (skilled nursing facilities, rehab centers), and in general inpatients",
+          "tables": []
+        },
+        "Stabilization": {
+          "text": "The term “to stabilize” means... to provide such medical treatment of the condition as may be necessary to assure, within reasonable medical probability, that no material deterioration of the condition is likely to result from or occur during the transfer [or discharge] of the individual from a facility.\nStabilization is generally accepted to be according to the hospital's capabilities to provide care for emergency medical conditions\nIf not stabilized, provide appropriate transfer to another facility capable to provide stabilizing care, higher level of care",
+          "tables": []
+        },
+        "Transfers": {
+          "text": "If an individual at a hospital has an emergency medical condition which has not been stabilized, the hospital may not transfer the individual unless —\nThe individual (or a legally responsible person acting on the individual’s behalf) after being informed of the hospital’s obligations under this section and of the risk of transfer, in writing requests transfer to another medical facility\nA physician has signed a certification that based upon the information available at the time of transfer, the medical benefits reasonably expected from the provision of appropriate medical treatment at another medical facility outweigh the increased risks to the individual\nTransferring Hospital:\nFirst, call central transfer center, and patient flow staff of potential accepting hospital to assess capacity\nThen, speak to on-call/ED physician\nAn appropriate transfer to a medical facility is a transfer —\nIn which the transferring hospital provides the medical treatment within its capacity which minimizes the risks to the individual’s health\nIn which the receiving facility —\nHas capacity - available space, equipment, and qualified personnel for the treatment of the individual, and\nHas agreed to accept transfer of the individual and to provide appropriate medical treatment\nIn which the transferring hospital sends to the receiving facility all medical records (or copies thereof)\nIn which the transfer is effected through qualified personnel and transportation equipment",
+          "tables": []
+        },
+        "On-Call_Physician": {
+          "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+          "tables": []
+        },
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Emergency_Medical_Condition": {
+      "text": "The term “emergency medical condition” means a medical condition manifesting itself by acute symptoms of sufficient severity (including severe pain, psych, substance abuse) such that the absence of immediate medical attention could reasonably be expected to result in:\nPlacing the health of the individual (or, with respect to a pregnant woman, the health of the woman or her unborn child) in serious jeopardy,\nOR\nSerious impairment to bodily functions,\nOR\nSerious dysfunction of any bodily organ or part",
+      "subsections": {
+        "Where_EMTALA_Applies": {
+          "text": "\"Dedicated ED\" - at least one of:\nLicensed by state as ED\nHeld out to the public as place providing care for EMC on an urgent basis w/o requiring previously scheduled appointment\nAt least 1/3 of visits are for treatment of EMC on an urgent basis w/o schedule appointment\nIncludes Labor & Delivery, Psych ED, Obs\nAmbulance patients en route unless on diversion\n250 yard rule (see below)\nExcludes: off campus facilities that are not dedicated EDs, independent urgent cares, physician offices/clinics, non-acute care facilities (skilled nursing facilities, rehab centers), and in general inpatients",
+          "tables": []
+        },
+        "Stabilization": {
+          "text": "The term “to stabilize” means... to provide such medical treatment of the condition as may be necessary to assure, within reasonable medical probability, that no material deterioration of the condition is likely to result from or occur during the transfer [or discharge] of the individual from a facility.\nStabilization is generally accepted to be according to the hospital's capabilities to provide care for emergency medical conditions\nIf not stabilized, provide appropriate transfer to another facility capable to provide stabilizing care, higher level of care",
+          "tables": []
+        },
+        "Transfers": {
+          "text": "If an individual at a hospital has an emergency medical condition which has not been stabilized, the hospital may not transfer the individual unless —\nThe individual (or a legally responsible person acting on the individual’s behalf) after being informed of the hospital’s obligations under this section and of the risk of transfer, in writing requests transfer to another medical facility\nA physician has signed a certification that based upon the information available at the time of transfer, the medical benefits reasonably expected from the provision of appropriate medical treatment at another medical facility outweigh the increased risks to the individual\nTransferring Hospital:\nFirst, call central transfer center, and patient flow staff of potential accepting hospital to assess capacity\nThen, speak to on-call/ED physician\nAn appropriate transfer to a medical facility is a transfer —\nIn which the transferring hospital provides the medical treatment within its capacity which minimizes the risks to the individual’s health\nIn which the receiving facility —\nHas capacity - available space, equipment, and qualified personnel for the treatment of the individual, and\nHas agreed to accept transfer of the individual and to provide appropriate medical treatment\nIn which the transferring hospital sends to the receiving facility all medical records (or copies thereof)\nIn which the transfer is effected through qualified personnel and transportation equipment",
+          "tables": []
+        },
+        "On-Call_Physician": {
+          "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+          "tables": []
+        },
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Where_EMTALA_Applies": {
+      "text": "\"Dedicated ED\" - at least one of:\nLicensed by state as ED\nHeld out to the public as place providing care for EMC on an urgent basis w/o requiring previously scheduled appointment\nAt least 1/3 of visits are for treatment of EMC on an urgent basis w/o schedule appointment\nIncludes Labor & Delivery, Psych ED, Obs\nAmbulance patients en route unless on diversion\n250 yard rule (see below)\nExcludes: off campus facilities that are not dedicated EDs, independent urgent cares, physician offices/clinics, non-acute care facilities (skilled nursing facilities, rehab centers), and in general inpatients",
+      "subsections": {
+        "Stabilization": {
+          "text": "The term “to stabilize” means... to provide such medical treatment of the condition as may be necessary to assure, within reasonable medical probability, that no material deterioration of the condition is likely to result from or occur during the transfer [or discharge] of the individual from a facility.\nStabilization is generally accepted to be according to the hospital's capabilities to provide care for emergency medical conditions\nIf not stabilized, provide appropriate transfer to another facility capable to provide stabilizing care, higher level of care",
+          "tables": []
+        },
+        "Transfers": {
+          "text": "If an individual at a hospital has an emergency medical condition which has not been stabilized, the hospital may not transfer the individual unless —\nThe individual (or a legally responsible person acting on the individual’s behalf) after being informed of the hospital’s obligations under this section and of the risk of transfer, in writing requests transfer to another medical facility\nA physician has signed a certification that based upon the information available at the time of transfer, the medical benefits reasonably expected from the provision of appropriate medical treatment at another medical facility outweigh the increased risks to the individual\nTransferring Hospital:\nFirst, call central transfer center, and patient flow staff of potential accepting hospital to assess capacity\nThen, speak to on-call/ED physician\nAn appropriate transfer to a medical facility is a transfer —\nIn which the transferring hospital provides the medical treatment within its capacity which minimizes the risks to the individual’s health\nIn which the receiving facility —\nHas capacity - available space, equipment, and qualified personnel for the treatment of the individual, and\nHas agreed to accept transfer of the individual and to provide appropriate medical treatment\nIn which the transferring hospital sends to the receiving facility all medical records (or copies thereof)\nIn which the transfer is effected through qualified personnel and transportation equipment",
+          "tables": []
+        },
+        "On-Call_Physician": {
+          "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+          "tables": []
+        },
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Stabilization": {
+      "text": "The term “to stabilize” means... to provide such medical treatment of the condition as may be necessary to assure, within reasonable medical probability, that no material deterioration of the condition is likely to result from or occur during the transfer [or discharge] of the individual from a facility.\nStabilization is generally accepted to be according to the hospital's capabilities to provide care for emergency medical conditions\nIf not stabilized, provide appropriate transfer to another facility capable to provide stabilizing care, higher level of care",
+      "subsections": {
+        "Transfers": {
+          "text": "If an individual at a hospital has an emergency medical condition which has not been stabilized, the hospital may not transfer the individual unless —\nThe individual (or a legally responsible person acting on the individual’s behalf) after being informed of the hospital’s obligations under this section and of the risk of transfer, in writing requests transfer to another medical facility\nA physician has signed a certification that based upon the information available at the time of transfer, the medical benefits reasonably expected from the provision of appropriate medical treatment at another medical facility outweigh the increased risks to the individual\nTransferring Hospital:\nFirst, call central transfer center, and patient flow staff of potential accepting hospital to assess capacity\nThen, speak to on-call/ED physician\nAn appropriate transfer to a medical facility is a transfer —\nIn which the transferring hospital provides the medical treatment within its capacity which minimizes the risks to the individual’s health\nIn which the receiving facility —\nHas capacity - available space, equipment, and qualified personnel for the treatment of the individual, and\nHas agreed to accept transfer of the individual and to provide appropriate medical treatment\nIn which the transferring hospital sends to the receiving facility all medical records (or copies thereof)\nIn which the transfer is effected through qualified personnel and transportation equipment",
+          "tables": []
+        },
+        "On-Call_Physician": {
+          "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+          "tables": []
+        },
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transfers": {
+      "text": "If an individual at a hospital has an emergency medical condition which has not been stabilized, the hospital may not transfer the individual unless —\nThe individual (or a legally responsible person acting on the individual’s behalf) after being informed of the hospital’s obligations under this section and of the risk of transfer, in writing requests transfer to another medical facility\nA physician has signed a certification that based upon the information available at the time of transfer, the medical benefits reasonably expected from the provision of appropriate medical treatment at another medical facility outweigh the increased risks to the individual\nTransferring Hospital:\nFirst, call central transfer center, and patient flow staff of potential accepting hospital to assess capacity\nThen, speak to on-call/ED physician\nAn appropriate transfer to a medical facility is a transfer —\nIn which the transferring hospital provides the medical treatment within its capacity which minimizes the risks to the individual’s health\nIn which the receiving facility —\nHas capacity - available space, equipment, and qualified personnel for the treatment of the individual, and\nHas agreed to accept transfer of the individual and to provide appropriate medical treatment\nIn which the transferring hospital sends to the receiving facility all medical records (or copies thereof)\nIn which the transfer is effected through qualified personnel and transportation equipment",
+      "subsections": {
+        "On-Call_Physician": {
+          "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+          "tables": []
+        },
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "On-Call_Physician": {
+      "text": "EMTALA does not require a hospital to employ certain types of on-call providers\nThe ED provider makes the determination of whether the on-call physician is needed to stabilize an emergency medical condition\nConsultation – “rendering opinion/advice, prescribing treatment, or rendering of decision regarding hospitalization vs transfer that is communicated by telephone or another means of communication. May include review of patient’s medical record, examination, and treatment in person”\nRespond in “reasonable” time to help stabilize patient\nDecided by ED provider\nMust do what ED provider asks\nCan never refuse, even if they think different specialty needed\nHelp manage patient until transfer\nDocument: time, name, discussion (1-2 sentences), re-contacted, etc.\nDisagreements/failures:\nIf, after an initial examination, a physician determines that the individual requires the services of a physician listed by the hospital on its list of on-call physicians and notifies the on-call physician and the on-call physician fails or refuses to appear within a reasonable period of time, and the physician orders the transfer of the individual because the physician determines that without the services of the on-call physician the benefits of transfer outweigh the risks of transfer, the physician authorizing the transfer shall not be subject to a penalty. However, the previous sentence shall not apply to the hospital or to the on-call physician who failed or refused to appear.\nDisagreements rulings usually defer to treating provider's judgement\nWhat to do in a disagreement:\nEscalate issues by contacting chief of service or hospital administrator\nContact other staff physicians in same specialty for help\nContact other area hospitals provider specialty service to arrange transfer (emergency provider exempt from liability)\nReport delays in care the hospital quality improvement and risk management programs.",
+      "subsections": {
+        "250-Yard_Rule": {
+          "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+          "tables": []
+        },
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "250-Yard_Rule": {
+      "text": "Campus means the physical area immediately adjacent to the provider's main buildings, other areas and structures that are not strictly contiguous to the main buildings but are located within 250 yards of the main buildings, and any other areas determined on an individual case basis, by the CMS regional office, to be part of the provider's campus.\nA patient is considered under the rules of EMTALA when on a hospital's campus\nStaff are expected to recognize if someone was in obvious need of a MSE when within 250 yards",
+      "subsections": {
+        "Penalties": {
+          "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Penalties": {
+      "text": "Required to report violations within 72 hours\nUp to $50,000 per violation against hospital and physicians\nHospital ‘dumped on’ recover cost of patient care\nPossible federal court case, civil rights/discrimination,criminal prosecution\nCenters for Medicare and Medicaid (CMS) can terminate Medicare provider agreement\nCorrective actions, public notice, follow up survey\nFacility at risk to lose government funding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Trauma center levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma center levels",
+          "url": "https://wikem.org/wiki/Trauma_center_levels"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "42 U.S. Code § 1395dd - Examination and treatment for emergency medical conditions and women in labor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "drug_name": "Ebola_virus_disease",
+  "url": "https://wikem.org/wiki/Ebola_virus_disease",
+  "scraped_at": "2026-01-10T07:52:27.967988",
+  "sections": {
+    "Background": {
+      "text": "An RNA based virus from the\nFilovirus\nFamily with 5 species mainly originating from Africa.\nOutbreaks in Gabon, Africa occured in 1996 and in July, 2014\n[1]\nViral hemorrhagic fever\nUnknown reservoir with most likely being bats",
+      "subsections": {
+        "2014_Outbreak_Country_Details": {
+          "text": "Widespread Transmission\nGuinea\nLiberia\nSierra Leone\nLocalized Transmission^\nUnited States\nMali\nPreviously Affected*\nNigeria\nSenegal\nSpain\n^Persons traveling from these countries should NOT be considered to be at risk for exposure to Ebola.",
+          "tables": []
+        },
+        "2014_Domestic_Outbreak_Details": {
+          "text": "September 30, 2014\nFirst case diagnosed in the United States in a man who had traveled to Dallas, Texas from Liberia (Died)\nOctober 10, 2014\nHealthcare worker at Texas Presbyterian Hospital who provided care for the index patient tested positive. (Recovered)\nOctober 15, 2014\nA second healthcare worker who provided care for the index patient tested positive (Recovered)\nOctober 23, 2014\nMedical aid worker who had returned to New York City from Guinea tested positive. (recovered)\nCurrent to date\nAll other 177 contacts of the index case, all people on the plane with the second healthcare worker, all contacts of the NY case, everyone else who has come from West Africa = NO CASES",
+          "tables": []
+        },
+        "Communicable_Transmission": {
+          "text": "Via blood and body fluids (urine, saliva, semen, feces, vomit) in contact with mucous membranes or via instruments such as needles\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Filovirus",
+          "url": "https://wikem.org/wiki/Filovirus"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        }
+      ]
+    },
+    "2014_Outbreak_Country_Details": {
+      "text": "Widespread Transmission\nGuinea\nLiberia\nSierra Leone\nLocalized Transmission^\nUnited States\nMali\nPreviously Affected*\nNigeria\nSenegal\nSpain\n^Persons traveling from these countries should NOT be considered to be at risk for exposure to Ebola.",
+      "subsections": {
+        "2014_Domestic_Outbreak_Details": {
+          "text": "September 30, 2014\nFirst case diagnosed in the United States in a man who had traveled to Dallas, Texas from Liberia (Died)\nOctober 10, 2014\nHealthcare worker at Texas Presbyterian Hospital who provided care for the index patient tested positive. (Recovered)\nOctober 15, 2014\nA second healthcare worker who provided care for the index patient tested positive (Recovered)\nOctober 23, 2014\nMedical aid worker who had returned to New York City from Guinea tested positive. (recovered)\nCurrent to date\nAll other 177 contacts of the index case, all people on the plane with the second healthcare worker, all contacts of the NY case, everyone else who has come from West Africa = NO CASES",
+          "tables": []
+        },
+        "Communicable_Transmission": {
+          "text": "Via blood and body fluids (urine, saliva, semen, feces, vomit) in contact with mucous membranes or via instruments such as needles\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "2014_Domestic_Outbreak_Details": {
+      "text": "September 30, 2014\nFirst case diagnosed in the United States in a man who had traveled to Dallas, Texas from Liberia (Died)\nOctober 10, 2014\nHealthcare worker at Texas Presbyterian Hospital who provided care for the index patient tested positive. (Recovered)\nOctober 15, 2014\nA second healthcare worker who provided care for the index patient tested positive (Recovered)\nOctober 23, 2014\nMedical aid worker who had returned to New York City from Guinea tested positive. (recovered)\nCurrent to date\nAll other 177 contacts of the index case, all people on the plane with the second healthcare worker, all contacts of the NY case, everyone else who has come from West Africa = NO CASES",
+      "subsections": {
+        "Communicable_Transmission": {
+          "text": "Via blood and body fluids (urine, saliva, semen, feces, vomit) in contact with mucous membranes or via instruments such as needles\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Communicable_Transmission": {
+      "text": "Via blood and body fluids (urine, saliva, semen, feces, vomit) in contact with mucous membranes or via instruments such as needles\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Severe, often fatal (40-65%) hemorrhagic fever\nIncubation period: 2-21 days (most commonly ~11 days)\nPatients under the age of 21 years have alower case fatality rate than those over the age of 45 years (57% vs. 94%)\n[5]\nCommon symptoms:\nfever\n(87.1%)\nfatigue (76.4%)\nLoss of appetite (64.5%)\nvomiting\n(67.6%)\ndiarrhea\n(65.6%)\nheadache\n(53.4%)\nabdominal pain\n(44.3%)\nHemorrhagic symptoms (<43%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "For travelers returning from countries with active Ebola follow the\nCDC Algorithm for Evaluation of the Returned Traveler",
+      "subsections": {
+        "Persons_under_Investigation_(PUI)": {
+          "text": "Obtain a travel history for all persons presenting with fever\nConsider Ebola in any person who presents\nwithin 21 days\nof:\nTraveling to an area with\nwidespread transmission\n(see background section),\nOR\nHad contact with a person who had a confirmed Ebola case",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CDC Algorithm for Evaluation of the Returned Traveler",
+          "url": "https://wikem.org/wiki/File:Ed-algorithm-management-patients-possible-ebola.jpg"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Transmission_Precautions": {
+          "text": "Isolate the patient\nsingle patient room (with private bathroom), door closed\nWear appropriate PPE\nEnhanced standard, contact, and droplet\nisolation precautions\n[7]\ngloves, gown (fluid resistant or impermeable), eye protection, and a facemask.\nAdditional protective equipment might be required in certain situations: double gloving, disposable shoe covers, and leg coverings\nHave a second party monitor\nRestrict visitors\nAvoid entry of visitors into the patient's room\nKeep a logbook of all persons entering the patient's room\nAvoid aerosol-generating procedures\nIf necessary, use respiratory protection (N95 or higher) and perform in airborne isolation room\nImplement environmental infection control measures\nDiligent environmental cleaning and disinfection",
+          "tables": []
+        },
+        "Contact_Public_Health": {
+          "text": "Immediately report PUIs to local health authorities or CDC\nLos Angeles repots to Acute Communicable Disease Control Program (ACDC) at 213-240-7941 (nights/weekends: 213-974-1234)\nSpecial diagnostic testing requires consultation",
+          "tables": []
+        },
+        "Clinical_Care": {
+          "text": "Test and treat for other possible causes of\nFever in Travelers\nwhile evaluating for Ebola\nA few days after infectious symptoms begin, ELISA IgM, PCR or virus isolation are possible. Later in the disease or during recovery, IgM or IgG can be tested.\nCDC has guidance for safe specimen handling\nUse point-of-care testing as much as possible\nSupportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "isolation precautions",
+          "url": "https://wikem.org/wiki/Isolation_precautions"
+        },
+        {
+          "text": "Fever in Travelers",
+          "url": "https://wikem.org/wiki/Fever_in_Travelers"
+        }
+      ]
+    },
+    "Transmission_Precautions": {
+      "text": "Isolate the patient\nsingle patient room (with private bathroom), door closed\nWear appropriate PPE\nEnhanced standard, contact, and droplet\nisolation precautions\n[7]\ngloves, gown (fluid resistant or impermeable), eye protection, and a facemask.\nAdditional protective equipment might be required in certain situations: double gloving, disposable shoe covers, and leg coverings\nHave a second party monitor\nRestrict visitors\nAvoid entry of visitors into the patient's room\nKeep a logbook of all persons entering the patient's room\nAvoid aerosol-generating procedures\nIf necessary, use respiratory protection (N95 or higher) and perform in airborne isolation room\nImplement environmental infection control measures\nDiligent environmental cleaning and disinfection",
+      "subsections": {
+        "Contact_Public_Health": {
+          "text": "Immediately report PUIs to local health authorities or CDC\nLos Angeles repots to Acute Communicable Disease Control Program (ACDC) at 213-240-7941 (nights/weekends: 213-974-1234)\nSpecial diagnostic testing requires consultation",
+          "tables": []
+        },
+        "Clinical_Care": {
+          "text": "Test and treat for other possible causes of\nFever in Travelers\nwhile evaluating for Ebola\nA few days after infectious symptoms begin, ELISA IgM, PCR or virus isolation are possible. Later in the disease or during recovery, IgM or IgG can be tested.\nCDC has guidance for safe specimen handling\nUse point-of-care testing as much as possible\nSupportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "isolation precautions",
+          "url": "https://wikem.org/wiki/Isolation_precautions"
+        },
+        {
+          "text": "Fever in Travelers",
+          "url": "https://wikem.org/wiki/Fever_in_Travelers"
+        }
+      ]
+    },
+    "Contact_Public_Health": {
+      "text": "Immediately report PUIs to local health authorities or CDC\nLos Angeles repots to Acute Communicable Disease Control Program (ACDC) at 213-240-7941 (nights/weekends: 213-974-1234)\nSpecial diagnostic testing requires consultation",
+      "subsections": {
+        "Clinical_Care": {
+          "text": "Test and treat for other possible causes of\nFever in Travelers\nwhile evaluating for Ebola\nA few days after infectious symptoms begin, ELISA IgM, PCR or virus isolation are possible. Later in the disease or during recovery, IgM or IgG can be tested.\nCDC has guidance for safe specimen handling\nUse point-of-care testing as much as possible\nSupportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever in Travelers",
+          "url": "https://wikem.org/wiki/Fever_in_Travelers"
+        }
+      ]
+    },
+    "Clinical_Care": {
+      "text": "Test and treat for other possible causes of\nFever in Travelers\nwhile evaluating for Ebola\nA few days after infectious symptoms begin, ELISA IgM, PCR or virus isolation are possible. Later in the disease or during recovery, IgM or IgG can be tested.\nCDC has guidance for safe specimen handling\nUse point-of-care testing as much as possible\nSupportive care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever in Travelers",
+          "url": "https://wikem.org/wiki/Fever_in_Travelers"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Frontline Healthcare Facilities\nIn consultation with public health authorities:\nLow risk: May initiate testing\nHigh risk: Transfer to Ebola Assessment Hospital or Ebola Treatment Center (if locally available)\nEbola Assessment Hospitals\nIn consultation with public health authorities:\nInitiate initial testing\nIf confirmed case, transfer to Ebola Treatment Center\n[8]\nEbola Treatment Center\nAdmit, isolation, possible ICU for serologic results and clinical observation/supportive care.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fever in Travelers\nTravel Medicine\nViral Hemorrhagic Fevers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever in Travelers",
+          "url": "https://wikem.org/wiki/Fever_in_Travelers"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Viral Hemorrhagic Fevers",
+          "url": "https://wikem.org/wiki/Viral_Hemorrhagic_Fevers"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC Main Site:\nhttp://www.cdc.gov/vhf/ebola/index.html\nPPE video:\nhttp://www.medscape.com/viewarticle/833907?src=ppc_google_acq_bola_vid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

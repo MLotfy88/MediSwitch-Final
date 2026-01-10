@@ -1,0 +1,92 @@
+{
+  "drug_name": "ECG_axis",
+  "url": "https://wikem.org/wiki/ECG_axis",
+  "scraped_at": "2026-01-10T07:52:21.565289",
+  "sections": {
+    "Normal_Axis": {
+      "text": "-30°→90°\nDominant QRS direction (positive or negative) can be used to approximate axis\nNormal axis if positive QRS in leads I and aVF",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Right_Axis_Deviation": {
+      "text": "Causes:\nUsually accompanied by tall R wave in V1\nRight ventricular hypertrophy\nPulmonary hypertension\n& chronic lung disease\nCOPD\nPulmonary embolism\nLeft posterior fascicular block\nLateral MI (from Q-waves in lead I)\nVentricular ectopy (VT)\nTCA toxicity\n, sodium channel blocker toxicity\nHyperkalemia\nLead misplacement\nDextrocardia\nNormal thin adults with horizontally positioned hearts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Left posterior fascicular block",
+          "url": "https://wikem.org/wiki/Left_posterior_fascicular_block"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Left_Axis_Deviation": {
+      "text": "Causes:\nLeft anterior fascicular block\nLeft Bundle Branch Block\nInferior MI (from Qs)\nLeft Ventricular Hypertrophy\nPacer\nWPW\nHyperkalemia\nNormal variant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Left anterior fascicular block",
+          "url": "https://wikem.org/wiki/Left_anterior_fascicular_block"
+        },
+        {
+          "text": "Left Bundle Branch Block",
+          "url": "https://wikem.org/wiki/Left_Bundle_Branch_Block"
+        },
+        {
+          "text": "Left Ventricular Hypertrophy",
+          "url": "https://wikem.org/wiki/Left_Ventricular_Hypertrophy"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: ECG Guide",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

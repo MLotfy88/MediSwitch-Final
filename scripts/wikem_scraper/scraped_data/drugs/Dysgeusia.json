@@ -1,0 +1,100 @@
+{
+  "drug_name": "Dysgeusia",
+  "url": "https://wikem.org/wiki/Dysgeusia",
+  "scraped_at": "2026-01-10T07:52:17.033676",
+  "sections": {
+    "Background": {
+      "text": "Dysgeusia (also known as parageusia) refers to alteration in the sense of taste. This includes ageusia (lack of sense of taste) and hypogeusia (decrease in sense of taste).\nCan be primary or secondary in nature.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Any change in the subjective perception of taste including decreased, absence, or altered taste.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Drugs, including chemotherapeutic agents\nZinc deficiency\nOral infections\nUpper respiratory infections (including\nCOVID-19\n)\nDiabetes\nStroke\ninvolving the pons, thalamus, and midbrain\nXerostomia (possibly secondary to Sjogren's)\nIntrinsic taste bud dysfunction\nHypothyroidism\nGERD\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluation of dysgeusia is difficult as it involves a complex interplay of the somatosensory system, the sense of smell, and the sense of pain.\nAt a minimum, evaluation should include a complete and thorough physical exam of the tongue and oropharynx",
+      "subsections": {
+        "Workup": {
+          "text": "Workup should focus on ruling out secondary causes. Questions should be asked regarding oral health, salivation, prior and/or current upper respiratory infections (including COVID-19)\nConsideration of ruling out potential secondary causes such as cancer, DM, hypothyroidism, or oropharyngeal causes",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Workup should focus on ruling out secondary causes. Questions should be asked regarding oral health, salivation, prior and/or current upper respiratory infections (including COVID-19)\nConsideration of ruling out potential secondary causes such as cancer, DM, hypothyroidism, or oropharyngeal causes",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Management should focus on treating the underlying cause, if one is identified.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient ENT referral and workup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "NEJM: Taste and Smell in Disease.\nJAMA: Smell and Taste Disorders, A Study of 750 Patients From the University of Pennsylvania Smell and Taste Center.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

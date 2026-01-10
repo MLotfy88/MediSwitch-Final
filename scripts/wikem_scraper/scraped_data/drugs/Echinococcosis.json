@@ -1,0 +1,206 @@
+{
+  "drug_name": "Echinococcosis",
+  "url": "https://wikem.org/wiki/Echinococcosis",
+  "scraped_at": "2026-01-10T07:52:26.261718",
+  "sections": {
+    "Background": {
+      "text": "2 most important forms are cystic and alveolar caused by E. granulosus and E. multilocularis\nHumans are accidental immediate hosts by ingesting parasitic eggs from contaminated food, soil, water, or direct contact with definitive hosts\nUsual intermediate hosts-sheep, goat, swine, cattle, rodents and camel\nDefinitive hosts-dogs, cats, fox, and wolves\nIngested eggs then hatch, penetrate intestinal mucosa, and spread hematogenously to final destination to form cysts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic for many years\nAbdominal cysts-\npain\n, distension,\nnausea/vomiting\nAlveolar abscess-\nchest pain\n,\nshortness of breath\n, chronic\ncough\nMusculoskeletal pain,\nblindness\n,\nheadache\n, and\nstroke\n-like symptoms if involving muscles, bones, eyes or brain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Neurocysticercosis",
+      "subsections": {
+        "Hepatic_abscess": {
+          "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Hepatic_abscess": {
+      "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Abdominal ultrasound\n(most widely used)\nCT\nMRI\nELISA-sensitivity inversely related to antigen sequestration in cysts\nPercutaneous aspiration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Abdominal ultrasound\n(most widely used)\nCT\nMRI\nELISA-sensitivity inversely related to antigen sequestration in cysts\nPercutaneous aspiration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Tissue stage/hydatid disease:\nalbendazole\n400mg BID x 28 days, repeat as needed every 2 weeks x 3 cycles\nSurgical removal\nDo not aspirate cysts (risk of seeding disease or anaphylactoid reaction from spillage of hydatid sand which contains antigenic proteins)\nPAIR (Percutaneous aspiration, injection, reaspiration)\nInject with 95% ethanol or hypertonic saline, leave in for 15 minutes, then reaspirate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge (if no significant clinical complications)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tapeworm\nHelminth infections\nTravel medicine\nParasitic diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tapeworm",
+          "url": "https://wikem.org/wiki/Tapeworm"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Travel medicine",
+          "url": "https://wikem.org/wiki/Travel_medicine"
+        },
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        }
+      ]
+    }
+  }
+}

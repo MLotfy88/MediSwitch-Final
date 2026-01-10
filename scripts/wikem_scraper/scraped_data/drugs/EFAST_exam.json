@@ -1,0 +1,277 @@
+{
+  "drug_name": "EFAST_exam",
+  "url": "https://wikem.org/wiki/EFAST_exam",
+  "scraped_at": "2026-01-10T07:52:30.041173",
+  "sections": {
+    "Background": {
+      "text": "Adjunct to traditional ATLS primary survey to enhance decision making around operative intervention in trauma\nSensitivity of 42% and specificity of ≥98% for peritoneal free fluid\n[1]\n[2]\nAs little as 100ml of free fluid can be seen\n[3]\n[4]\n, though >500ml is needed for the common user\n[5]\nPulmonary ultrasound for clinically significant pneumothorax is associated with a sensitivity of 95.3%, specificity 91.1%, and negative predictive value 100%\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Blunt or penetrating trauma\nEnables trauma bay decision:\nStable patient with traumatic mechanism of injury + negative EFAST → observation\nStable patient with traumatic mechanism of injury + positive EFAST → CT\nUnstable patient with traumatic mechanism of injury + negative EFAST → repeat FAST or CT\nUnstable patient with traumatic mechanism of injury + positive EFAST → laparotomy\nPatient with traumatic mechanism of injury + positive pulmonary findings on EFAST → chest tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Select probe\nCurvilinear/large convex probe is ideal but phased array probe may be substituted\nLinear probe for lung sliding though curvilinear or phased array probes can be substituted with depth decreased\nLocation\nSequence traditionally varies based on mechanism\nBlunt trauma starts with RUQ view\nMost sensitive view for peritoneal free fluid\nPenetrating trauma starts with cardiac view\nRule out pericardial effusion and (impending) tamponade\nInclude cardiac, RUQ, pelvic, LUQ views, and pulmonary views",
+      "subsections": {
+        "Cardiac": {
+          "text": "Location\nSubxiphoid\nParasternal long, if abdomen distended or subxiphoid view difficult to obtain\nLandmarks\nVisualize the heart and pericardium using the liver as an acoustic window\nScan anterior to posterior through the heart\nNote that an anterior fat pad can give the impression of pericardial effusion but should not be seen on posterior views",
+          "tables": []
+        },
+        "RUQ": {
+          "text": "Location\nCoronal view over the right flank\nLandmarks\nVisualize the hepatorenal interface\nScan anterior to posterior identifying Morison’s pouch and the superior and inferior pole of the kidney\nLiver tip is a common location for missed free fluid",
+          "tables": []
+        },
+        "Pelvic": {
+          "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder\nThis view will be limited after Foley insertion to drain bladder",
+          "tables": []
+        },
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the splenorenal interface\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney\nDiaphragm should be visualised through the 9 o'clock position",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "Location\nCoronal view over the right and left diaphragm (curvilinear probe)\nSagittal view over the midclavicular line between the 2nd and 3rd intercostal space (linear probe)\nLandmarks\nIdentify the interface between the diaphragm and lung on right and left (curvilinear probe)\nIdentify lung sliding between two ribs over the anterior thorax (linear probe)\nScan\nScan anterior to posterior over the diaphragm on right and left (curvilinear probe)\nHold probe in place between rib space observing for movement along the pleural line (linear probe)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiac": {
+      "text": "Location\nSubxiphoid\nParasternal long, if abdomen distended or subxiphoid view difficult to obtain\nLandmarks\nVisualize the heart and pericardium using the liver as an acoustic window\nScan anterior to posterior through the heart\nNote that an anterior fat pad can give the impression of pericardial effusion but should not be seen on posterior views",
+      "subsections": {
+        "RUQ": {
+          "text": "Location\nCoronal view over the right flank\nLandmarks\nVisualize the hepatorenal interface\nScan anterior to posterior identifying Morison’s pouch and the superior and inferior pole of the kidney\nLiver tip is a common location for missed free fluid",
+          "tables": []
+        },
+        "Pelvic": {
+          "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder\nThis view will be limited after Foley insertion to drain bladder",
+          "tables": []
+        },
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the splenorenal interface\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney\nDiaphragm should be visualised through the 9 o'clock position",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "Location\nCoronal view over the right and left diaphragm (curvilinear probe)\nSagittal view over the midclavicular line between the 2nd and 3rd intercostal space (linear probe)\nLandmarks\nIdentify the interface between the diaphragm and lung on right and left (curvilinear probe)\nIdentify lung sliding between two ribs over the anterior thorax (linear probe)\nScan\nScan anterior to posterior over the diaphragm on right and left (curvilinear probe)\nHold probe in place between rib space observing for movement along the pleural line (linear probe)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "RUQ": {
+      "text": "Location\nCoronal view over the right flank\nLandmarks\nVisualize the hepatorenal interface\nScan anterior to posterior identifying Morison’s pouch and the superior and inferior pole of the kidney\nLiver tip is a common location for missed free fluid",
+      "subsections": {
+        "Pelvic": {
+          "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder\nThis view will be limited after Foley insertion to drain bladder",
+          "tables": []
+        },
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the splenorenal interface\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney\nDiaphragm should be visualised through the 9 o'clock position",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "Location\nCoronal view over the right and left diaphragm (curvilinear probe)\nSagittal view over the midclavicular line between the 2nd and 3rd intercostal space (linear probe)\nLandmarks\nIdentify the interface between the diaphragm and lung on right and left (curvilinear probe)\nIdentify lung sliding between two ribs over the anterior thorax (linear probe)\nScan\nScan anterior to posterior over the diaphragm on right and left (curvilinear probe)\nHold probe in place between rib space observing for movement along the pleural line (linear probe)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pelvic": {
+      "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder\nThis view will be limited after Foley insertion to drain bladder",
+      "subsections": {
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the splenorenal interface\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney\nDiaphragm should be visualised through the 9 o'clock position",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "Location\nCoronal view over the right and left diaphragm (curvilinear probe)\nSagittal view over the midclavicular line between the 2nd and 3rd intercostal space (linear probe)\nLandmarks\nIdentify the interface between the diaphragm and lung on right and left (curvilinear probe)\nIdentify lung sliding between two ribs over the anterior thorax (linear probe)\nScan\nScan anterior to posterior over the diaphragm on right and left (curvilinear probe)\nHold probe in place between rib space observing for movement along the pleural line (linear probe)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "LUQ": {
+      "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the splenorenal interface\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney\nDiaphragm should be visualised through the 9 o'clock position",
+      "subsections": {
+        "Pulmonary": {
+          "text": "Location\nCoronal view over the right and left diaphragm (curvilinear probe)\nSagittal view over the midclavicular line between the 2nd and 3rd intercostal space (linear probe)\nLandmarks\nIdentify the interface between the diaphragm and lung on right and left (curvilinear probe)\nIdentify lung sliding between two ribs over the anterior thorax (linear probe)\nScan\nScan anterior to posterior over the diaphragm on right and left (curvilinear probe)\nHold probe in place between rib space observing for movement along the pleural line (linear probe)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pulmonary": {
+      "text": "Location\nCoronal view over the right and left diaphragm (curvilinear probe)\nSagittal view over the midclavicular line between the 2nd and 3rd intercostal space (linear probe)\nLandmarks\nIdentify the interface between the diaphragm and lung on right and left (curvilinear probe)\nIdentify lung sliding between two ribs over the anterior thorax (linear probe)\nScan\nScan anterior to posterior over the diaphragm on right and left (curvilinear probe)\nHold probe in place between rib space observing for movement along the pleural line (linear probe)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "Positive FAST will have one of the following:\nAnechoic area within the pericardial space\nAnechoic areas between the liver and kidney\nAnechoic areas between the diaphragm and spleen\nAnechoic areas between the spleen and kidney\nAnechoic areas between superior and posterior to the posterior wall of the bladder\nPositive EFAST will have one of the added pulmonary findings:\nAnechoic area above the diaphragm between the diaphragm and lung\nAbsent lung sliding - lack of lung rockets seen under the pleural line\nNegative FAST should be repeated if patient's condition evolves\nImproved detection of free fluid can be achieved through placing the patient in the Trendelenburg position for several minutes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "Normal": {
+          "text": "Normal subxiphoid view\nRUQ with no free fluid\nNormal saggital bladder\nNormal lung sliding\nNormal lung sliding",
+          "tables": []
+        },
+        "Abnormal": {
+          "text": "Pericardial effusion\nPositive FAST (RUQ)\nPositive FAST (RUQ)\nFree fluid superior to the bladder\nPositive FAST (LUQ)\nAbsent lung sliding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal": {
+      "text": "Normal subxiphoid view\nRUQ with no free fluid\nNormal saggital bladder\nNormal lung sliding\nNormal lung sliding",
+      "subsections": {
+        "Abnormal": {
+          "text": "Pericardial effusion\nPositive FAST (RUQ)\nPositive FAST (RUQ)\nFree fluid superior to the bladder\nPositive FAST (LUQ)\nAbsent lung sliding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal": {
+      "text": "Pericardial effusion\nPositive FAST (RUQ)\nPositive FAST (RUQ)\nFree fluid superior to the bladder\nPositive FAST (LUQ)\nAbsent lung sliding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Start scan in the RUQ view for any blunt trauma, in the subxiphoid view for any penetrating trauma\nScans must scan through the inferior poles of the kidneys as this can contain small quantities of fluid\nSerial exam may be needed\nNegative exam does not rule out intra-abdominal injuries\nRetroperitoneal hemorrhage not easily identified\nThose with delayed presentation may have clotted and not completely anechoic fluid collections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside EFAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, LUQ, and pulmonary views were adequately obtained. There was no free fluid identified. There was no pneumothorax or hemothorax identified.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside EFAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, LUQ, and pulmonary views were adequately obtained. There was free fluid identified in the RUQ suggesting intraabdominal hemorrhage. There was a pneumothorax on the left.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside EFAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, LUQ, and pulmonary views were adequately obtained. There was no free fluid identified. There was no pneumothorax or hemothorax identified.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside EFAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, LUQ, and pulmonary views were adequately obtained. There was free fluid identified in the RUQ suggesting intraabdominal hemorrhage. There was a pneumothorax on the left.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside EFAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, LUQ, and pulmonary views were adequately obtained. There was free fluid identified in the RUQ suggesting intraabdominal hemorrhage. There was a pneumothorax on the left.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clips": {
+      "text": "",
+      "subsections": {
+        "Normal_2": {
+          "text": "Normal subxiphoid view\nNormal pelvic view\nAbsent hemothorax\nNormal lung sliding\nNormal lung sliding",
+          "tables": []
+        },
+        "Abnormal_2": {
+          "text": "Free fluid located at the liver tip\nHemothorax",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_2": {
+      "text": "Normal subxiphoid view\nNormal pelvic view\nAbsent hemothorax\nNormal lung sliding\nNormal lung sliding",
+      "subsections": {
+        "Abnormal_2": {
+          "text": "Free fluid located at the liver tip\nHemothorax",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_2": {
+      "text": "Free fluid located at the liver tip\nHemothorax",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Sonoguide: Ultrasound in Trauma – The FAST Exam\nEMCrit: Podcast 102 – Don’t Half-Ass your FAST!\neFAST : extended Focused Assessment with Sonography in Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "FAST exam\nCardiac ultrasound\nIVC ultrasound\nUltrasound: Lungs\nUltrasound (Main)\nRenal ultrasound\nBladder ultrasound\nAbdominal Trauma\nUltrasound: In Shock and Hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST exam",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "Cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "Ultrasound: Lungs",
+          "url": "https://wikem.org/wiki/Ultrasound:_Lungs"
+        },
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Bladder ultrasound",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "Abdominal Trauma",
+          "url": "https://wikem.org/wiki/Abdominal_Trauma"
+        },
+        {
+          "text": "Ultrasound: In Shock and Hypotension",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        }
+      ]
+    }
+  }
+}

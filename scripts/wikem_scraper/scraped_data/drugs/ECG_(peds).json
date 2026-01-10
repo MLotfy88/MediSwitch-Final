@@ -1,0 +1,68 @@
+{
+  "drug_name": "ECG_(peds)",
+  "url": "https://wikem.org/wiki/ECG_(peds)",
+  "scraped_at": "2026-01-10T07:52:21.094301",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nECG (main)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ventricular_rate": {
+      "text": "Younger/smaller --> higher metabolic rate + lower vagal tone --> faster HR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Axis": {
+      "text": "Right axis\nnormal\nin first 6 months of life\nBlood shunted away from pulm vasculature in utero, higher pulmonary pressures--> relatively thicker RV --> Right axis\nExtreme superior axis\nAxis of -90 - 180 degrees\nSeen with AV canal or atrial septal defects\nAVF lead vector\nNegative QRS vector in AVF seen in some cardiac malformations (e.g. AV septal defects, single ventricle\nBiphasic QRS in AVF can be normal but should be reviewed by peds cards cardiology review. [Evans, 2010]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Intervals": {
+      "text": "Age dependant norms\nSmaller muscle mass--> shorter PR\nQTc longer in infants <6mo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "T-wave_inversions": {
+      "text": "T-wave inversions in anterior precordial leads are normal\nT-waves upright in most leads for first 7 days of life\nT-waves typically inverted from 7 days to adolescence\nOnce an individual child's T-waves flip upright, they should stay that way (i.e. to become newly inverted again would be pathologic)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Voltage/Ventricular_hypertrophy": {
+      "text": "Smaller pediatric chest wall --> EKG leads closer to heart --> exagerated voltages\nV2-V5 most likely to appear high voltage\nEKG auto-interpretations may \"over-report\" left or right ventricular hypertrophy\nLVH (quick/dirty method)\nIf R of V6 intersects with baseline of V5--> abnormal\nRVH indicators\nUpright T-wave in V1 after 7 days of life\nIf RSR' present; R' taller than R wave\nPure R wave in V1 in child >6mo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ECG (main)\nCongenital heart disease\nPALS (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (main)",
+          "url": "https://wikem.org/wiki/ECG_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://pedemmorsels.com/pediatric-ecg/\nhttps://litfl.com/paediatric-ecg-interpretation-ecg-library/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

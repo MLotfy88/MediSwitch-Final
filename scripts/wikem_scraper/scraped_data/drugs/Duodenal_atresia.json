@@ -1,0 +1,75 @@
+{
+  "drug_name": "Duodenal_atresia",
+  "url": "https://wikem.org/wiki/Duodenal_atresia",
+  "scraped_at": "2026-01-10T07:52:14.914137",
+  "sections": {
+    "Background": {
+      "text": "During weeks 6 and 7 of gestation, the GI tract becomes occluded then recanalizes during weeks 8 to 10\nDuodenal atresia is thought to result from failure of recanalization\nOften associated with other malformations such as\nbiliary atresia\nor gallbladder agenesis\nMay also be associated with cardiac, renal, or vertebral abnormalities\nAbout a quarter of patients born with duodenal atresia have\nDown syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Presentation is very early in the postnatal period\nAbdominal distention and bilious\nemesis\nwithin first 24 hours of birth\nAbdomen often markedly distended, with visible or palpable loops of bowel\nNG tube\naspirate >20 mL\nSigns of\ndehydration\n(e.g. dry mucous membranes, poor skin turgor, and sunken fontanelle)\n+/- Signs of other congenital anomalies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Malrotation with\nvolvulus\nHirschsprung's disease\nMeconium\nileus\nOther intestinal atresia",
+      "subsections": {
+        "Nausea_and_vomiting_(newborn)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Newborn": "Obstructive intestinal anomalies",
+                "'": "Esophageal stenosis/atresiaPyloric stenosisIntestinal stenosis/atresiaDuodenal atresiaMalrotation ±volvulusIncarceratedherniaMeconium ileus/plugHirschsprung's diseaseImperforate anusEnteric duplications"
+              },
+              {
+                "Newborn": "Neurologic",
+                "'": "Intracranial bleed/massHydrocephalusCerebral edemaKernicterus"
+              },
+              {
+                "Newborn": "Renal",
+                "'": "Urinary tract infectionObstructive uropathyRenal insufficiency"
+              },
+              {
+                "Newborn": "Infectious",
+                "'": "Viral illnessAcute gastroenteritisMeningitisSepsis"
+              },
+              {
+                "Newborn": "Metabolic/endocrine",
+                "'": "Inborn errors of metabolismAdrenal insufficiencyCongenital adrenal hyperplasia"
+              },
+              {
+                "Newborn": "Miscellaneous",
+                "'": "IleusGastroesophageal reflux diseaseNecrotizing enterocolitisMilk allergy,FPIESGIperforation"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Imaging\nAP, lateral, and cross table\nXR\nshould be obtained on all infants with concern for obstruction\nClassic double bubble sign due to dilation of the stomach and proximal duodenum\nAbsent distal gas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "NPO\nNG tube\nto suction\nCorrect\nfluid\nand\nelectrolyte abnormalities\nAmpicillin\nand\ngentamicin\n(to prevent post-op infection)\nSurgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

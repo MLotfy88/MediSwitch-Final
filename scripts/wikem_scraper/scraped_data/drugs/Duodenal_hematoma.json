@@ -1,0 +1,258 @@
+{
+  "drug_name": "Duodenal_hematoma",
+  "url": "https://wikem.org/wiki/Duodenal_hematoma",
+  "scraped_at": "2026-01-10T07:52:17.495087",
+  "sections": {
+    "Background": {
+      "text": "Relatively uncommon, occurs most frequently in children after blunt\nabdominal trauma\n[1]\n[2]\nMay also occur as a complication of endoscopy\nDiagnosis difficult as symptoms often delayed\n[3]\n[4]\nEstimated mortality associated with duodenal injury ranges from 5 to 30%\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Delayed onset of:\nAbdominal pain\nDistension\nNausea and vomiting\nHematemesis\nDiminished bowel sounds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs:\nSerum lipase/amylase may be associated with duodenal injury, but both are not sensitive/specific.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "If hemodynamically stable: CT abdomen with IV contrast\nIf hemodynamically unstable: OR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Labs:\nSerum lipase/amylase may be associated with duodenal injury, but both are not sensitive/specific.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "If hemodynamically stable: CT abdomen with IV contrast\nIf hemodynamically unstable: OR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "If hemodynamically stable: CT abdomen with IV contrast\nIf hemodynamically unstable: OR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Hemodynamically_stable": {
+          "text": "Conservative management with NG tube placement, enteral rest,\nIVF\n, and pain control",
+          "tables": []
+        },
+        "Hemodynamically_unstable:": {
+          "text": "OR for abdominal exploration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hemodynamically_stable": {
+      "text": "Conservative management with NG tube placement, enteral rest,\nIVF\n, and pain control",
+      "subsections": {
+        "Hemodynamically_unstable:": {
+          "text": "OR for abdominal exploration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hemodynamically_unstable:": {
+      "text": "OR for abdominal exploration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Rarely caused in isolation. Other commonly involved sites include liver, pancreas, stomach/intestinal, and vascular injuries\nGastric outlet or intestinal obstruction",
+          "tables": []
+        },
+        "Subacute": {
+          "text": "Intra-abdominal\nabscess\nDuodenal fistula\nPost-traumatic\npancreatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute": {
+      "text": "Rarely caused in isolation. Other commonly involved sites include liver, pancreas, stomach/intestinal, and vascular injuries\nGastric outlet or intestinal obstruction",
+      "subsections": {
+        "Subacute": {
+          "text": "Intra-abdominal\nabscess\nDuodenal fistula\nPost-traumatic\npancreatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Subacute": {
+      "text": "Intra-abdominal\nabscess\nDuodenal fistula\nPost-traumatic\npancreatitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

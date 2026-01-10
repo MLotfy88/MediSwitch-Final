@@ -1,0 +1,982 @@
+{
+  "drug_name": "Dystonic_reaction",
+  "url": "https://wikem.org/wiki/Dystonic_reaction",
+  "scraped_at": "2026-01-10T07:52:18.837759",
+  "sections": {
+    "Background": {
+      "text": "Adverse extrapyramidal effect shortly after initiation of new drugs\nintermittent spasmodic or sustained involuntary contractions of muscles\nRarely life threatening but patient is in distress from pain and discomfort\nMen > Women\nDystonia is idiosyncratic (not dose-related)",
+      "subsections": {
+        "Predisposing_Factors": {
+          "text": "Young age\nFamily history of dystonic reaction\nHistory of EtOH or drug use\nAssociated with administration of\nantiemetics\nor\nantipsychotic\nmedications (in 10-60% of treated patients)\n25% of patients treated with\nhaloperidol\nhave been known to develop this reaction\nReaction usually occurs within 48 hrs of drug treatment but can occur up to 5 days after starting therapy\nSeverity and onset of reaction depends on an individual, no association with dose, drug type, potency of drug, or duration of treatment",
+          "tables": []
+        },
+        "Medications_Associated_with_Dystonic_Reaction": {
+          "text": "Amitriptyline\nAmoxapine\nAzatadine\nBupropion\nChlorpromazine\nChlorprothixene\nCimetidine\nCisapride\nCocaine\nClomipramine\nClozapine\nCyclizine\nDextromethorphan\nDiazepam\nDiphenhydramine\nDoxepin\nEtomidate\nFluoxetine\nFluphenazine\nFluvoxamine\nHaloperidol\nImipramine\nKetamine\nLozapine\nMesoridazine\nMethohexital\nMetoclopramide\nOlanzapine\nParoxetine\nPerphenazine\nPhenelzine\nPhenytoin\nPimozide\nProchlorperazine\nPromazine\nPromethazine\nPropofol\nQuetiapine\nRanitidine\nRisperidone\nSertraline\nThiethylperazine\nThiopental\nThioridazine\nThiothixene\nTigabine\nTranylcypromine\nTrifluoperazine\nTriflupromazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "antipsychotic",
+          "url": "https://wikem.org/wiki/Antipsychotic"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Fluoxetine",
+          "url": "https://wikem.org/wiki/Fluoxetine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Methohexital",
+          "url": "https://wikem.org/wiki/Methohexital"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Quetiapine",
+          "url": "https://wikem.org/wiki/Quetiapine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "Thiopental",
+          "url": "https://wikem.org/wiki/Thiopental"
+        }
+      ]
+    },
+    "Predisposing_Factors": {
+      "text": "Young age\nFamily history of dystonic reaction\nHistory of EtOH or drug use\nAssociated with administration of\nantiemetics\nor\nantipsychotic\nmedications (in 10-60% of treated patients)\n25% of patients treated with\nhaloperidol\nhave been known to develop this reaction\nReaction usually occurs within 48 hrs of drug treatment but can occur up to 5 days after starting therapy\nSeverity and onset of reaction depends on an individual, no association with dose, drug type, potency of drug, or duration of treatment",
+      "subsections": {
+        "Medications_Associated_with_Dystonic_Reaction": {
+          "text": "Amitriptyline\nAmoxapine\nAzatadine\nBupropion\nChlorpromazine\nChlorprothixene\nCimetidine\nCisapride\nCocaine\nClomipramine\nClozapine\nCyclizine\nDextromethorphan\nDiazepam\nDiphenhydramine\nDoxepin\nEtomidate\nFluoxetine\nFluphenazine\nFluvoxamine\nHaloperidol\nImipramine\nKetamine\nLozapine\nMesoridazine\nMethohexital\nMetoclopramide\nOlanzapine\nParoxetine\nPerphenazine\nPhenelzine\nPhenytoin\nPimozide\nProchlorperazine\nPromazine\nPromethazine\nPropofol\nQuetiapine\nRanitidine\nRisperidone\nSertraline\nThiethylperazine\nThiopental\nThioridazine\nThiothixene\nTigabine\nTranylcypromine\nTrifluoperazine\nTriflupromazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "antipsychotic",
+          "url": "https://wikem.org/wiki/Antipsychotic"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Fluoxetine",
+          "url": "https://wikem.org/wiki/Fluoxetine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Methohexital",
+          "url": "https://wikem.org/wiki/Methohexital"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Quetiapine",
+          "url": "https://wikem.org/wiki/Quetiapine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "Thiopental",
+          "url": "https://wikem.org/wiki/Thiopental"
+        }
+      ]
+    },
+    "Medications_Associated_with_Dystonic_Reaction": {
+      "text": "Amitriptyline\nAmoxapine\nAzatadine\nBupropion\nChlorpromazine\nChlorprothixene\nCimetidine\nCisapride\nCocaine\nClomipramine\nClozapine\nCyclizine\nDextromethorphan\nDiazepam\nDiphenhydramine\nDoxepin\nEtomidate\nFluoxetine\nFluphenazine\nFluvoxamine\nHaloperidol\nImipramine\nKetamine\nLozapine\nMesoridazine\nMethohexital\nMetoclopramide\nOlanzapine\nParoxetine\nPerphenazine\nPhenelzine\nPhenytoin\nPimozide\nProchlorperazine\nPromazine\nPromethazine\nPropofol\nQuetiapine\nRanitidine\nRisperidone\nSertraline\nThiethylperazine\nThiopental\nThioridazine\nThiothixene\nTigabine\nTranylcypromine\nTrifluoperazine\nTriflupromazine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Fluoxetine",
+          "url": "https://wikem.org/wiki/Fluoxetine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Methohexital",
+          "url": "https://wikem.org/wiki/Methohexital"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Quetiapine",
+          "url": "https://wikem.org/wiki/Quetiapine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "Thiopental",
+          "url": "https://wikem.org/wiki/Thiopental"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of recent drug exposure or increase in drug dosage (e.g. prescription, over the counter, herbals, illegal)\nDystonia of any striated muscle group:\nTorticollar reaction\n-> twisted neck or facial muscle spasm\nBuccolingual reaction -> protruding or pulling sensation of the tongue\nOculogyric crisis -> roving or deviated gaze\nPromandibular dystonia\nLingual dystonia\nOpisthotonic -> severe hyperextension of entire spinal column\nKyphosis/lordosis/scoliosis\nTrismus\nFacial grimacing\nTortipelvic crisis -> abdominal rigidity and pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollar reaction",
+          "url": "https://wikem.org/wiki/Torticollar_reaction"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        },
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        },
+        "Neck_pain": {
+          "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Cervical disk herniation",
+          "url": "https://wikem.org/wiki/Cervical_disk_herniation"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Movement_Disorders_and_Other_Abnormal_Contractions": {
+      "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+      "subsections": {
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        },
+        "Neck_pain": {
+          "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Cervical disk herniation",
+          "url": "https://wikem.org/wiki/Cervical_disk_herniation"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Jaw_Spasms": {
+      "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+      "subsections": {
+        "Neck_pain": {
+          "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Cervical disk herniation",
+          "url": "https://wikem.org/wiki/Cervical_disk_herniation"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Neck_pain": {
+      "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Cervical disk herniation",
+          "url": "https://wikem.org/wiki/Cervical_disk_herniation"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Normally a clinical diagnosis\nConsider\nurine toxicology\nif no offending agent given by history\nMore chronic neurologic side effects of phenothiazines (akathisia, tardive dyskinesia, parkinsonism) don't usually respond as dramatically to treatment as does acute dystonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "urine toxicology",
+          "url": "https://wikem.org/wiki/Urine_toxicology"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Anticholinergic\nmedication:\nBenztropine\n: 1-2mg in adults over 2 minutes\nDiphenhydramine\n: 25-50mg over 2 minutes\nBiperiden\nTrihexyphenidyl\n2mg PO BID\nIV > IM > PO\nSymptoms will typically begin resolving in 2-15 minutes but may take up to 90 minutes to completely abate (depends on route in which medication was given)\nPatients may require more than one dose of IV medication before symptoms resolve completely\nBenzodiazepines\nAirway Management\nRare, but may be indicated in patients with severe respiratory distress from laryngeal or pharyngeal dystonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Stop the offending agent (if antipsychotic, speak with patients psychiatrist before just stopping the medication)\nContinue to treat with PO anticholinergic to prevent relapse of symptoms (if the culprit is long acting)\nBenztropine\n: 1-2mg PO BID during 2-3 days\nDiphenhydramine\n: 25mg PO QID for 24-72 hours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Torticollis\nExtrapyramidal reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        }
+      ]
+    },
+    "References": {
+      "text": "Hockberger RS, Richards JR: Thought Disorders; in Marx JA, Hockberger RS, Walls RM, et al (eds): Rosen’s Emergency Medicine: Concepts and Clinical Practice, ed 8. St. Louis, Mosby, Inc., 2014, (Ch) 110: p 1460-1466.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

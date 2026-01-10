@@ -1,0 +1,253 @@
+{
+  "drug_name": "Dysuria",
+  "url": "https://wikem.org/wiki/Dysuria",
+  "scraped_at": "2026-01-10T07:52:19.347685",
+  "sections": {
+    "Background": {
+      "text": "Painful urination\ndue to inflammation of urethra, bladder, or prostate\nDysuria is uncommonly used to describe difficult urination",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain with urination\nAdditional features dependent on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Dysuria": {
+      "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "UA",
+      "subsections": {
+        "Men": {
+          "text": "Men <50 yr: symptoms usually due to\nSTI\nMen >50 yr: incidence of\nacute cystitis\nrises dramatically due to prostatic obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        }
+      ]
+    },
+    "Men": {
+      "text": "Men <50 yr: symptoms usually due to\nSTI\nMen >50 yr: incidence of\nacute cystitis\nrises dramatically due to prostatic obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        }
+      ]
+    }
+  }
+}

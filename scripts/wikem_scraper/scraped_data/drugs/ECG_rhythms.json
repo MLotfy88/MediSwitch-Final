@@ -1,0 +1,154 @@
+{
+  "drug_name": "ECG_rhythms",
+  "url": "https://wikem.org/wiki/ECG_rhythms",
+  "scraped_at": "2026-01-10T07:52:19.091485",
+  "sections": {
+    "I._Supraventricular": {
+      "text": "Normal sinus\nSinus dysrhythmia\nSinus bradycardia\n(<60)\nSinus tachycardia\n(100-160)\nPremature atrial contractions\nWandering atrial pacemaker\nMultifocal atrial tachycardia\n(100-180)\nAtrial flutter\n(250-350)\nAtrial fibrillation\nParoxysmal supraventricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus bradycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Bradycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        }
+      ]
+    },
+    "II._Junctional": {
+      "text": "Narrow complex, rate 40-60\nDDx:\nCHF\n,\nmyocarditis\n,\nhyperkalemia\n,\nDigoxen Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxen Toxicity",
+          "url": "https://wikem.org/wiki/Digoxen_Toxicity"
+        }
+      ]
+    },
+    "III._Ventricular": {
+      "text": "Accelerated Idioventricular Rhythms (AIVR)\nPremature ventricular contraction\nTorsades de pointes\nVentricular fibrillation\nVentricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia_(wide)"
+        }
+      ]
+    },
+    "IV._Conduction_Disturbances": {
+      "text": "AV blocks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        }
+      ]
+    },
+    "V._Preterminal": {
+      "text": "Pulseless Electrical Activity (PEA)\nAsystole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulseless Electrical Activity (PEA)",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Asystole",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        }
+      ]
+    },
+    "VI._Preexcitation_Syndromes": {
+      "text": "Wolf Parkinson White (WPW)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wolf Parkinson White (WPW)",
+          "url": "https://wikem.org/wiki/Wolf_Parkinson_White_(WPW)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Antiarrhythmics\nACLS (Main)\nECG (Main)\nPacemaker complication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Life in the Fast Lane ECG Basics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

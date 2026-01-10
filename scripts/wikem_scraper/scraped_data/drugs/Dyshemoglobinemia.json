@@ -1,0 +1,26 @@
+{
+  "drug_name": "Dyshemoglobinemia",
+  "url": "https://wikem.org/wiki/Dyshemoglobinemia",
+  "scraped_at": "2026-01-10T07:52:18.180425",
+  "sections": {
+    "See": {
+      "text": "Sulfhemoglobinemia\nMethemoglobinemia\nCarbon monoxide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sulfhemoglobinemia",
+          "url": "https://wikem.org/wiki/Sulfhemoglobinemia"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        }
+      ]
+    }
+  }
+}

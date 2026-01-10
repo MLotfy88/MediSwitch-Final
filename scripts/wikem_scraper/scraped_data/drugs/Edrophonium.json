@@ -1,0 +1,320 @@
+{
+  "drug_name": "Edrophonium",
+  "url": "https://wikem.org/wiki/Edrophonium",
+  "scraped_at": "2026-01-10T07:52:27.145478",
+  "sections": {
+    "Administration": {
+      "text": "Type: Cholinesterase inhibitor\nDosage Forms: INJ\nRoutes of Administration: IV, IM\nCommon Trade Names: Enlon, Tensilon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Myasthenic crisis, diagnosis\n1 mg IV x2 doses\nMax: 2 mg cumulative dose\nGive second dose 1 min later if no impairment due to 1st dose\nNondepolarizing neuromuscular blockade reversal\n10 mg IV x1 dose\nRepeat dose PRN. Max: 40mg\nMyasthenia gravis\n, diagnosis\n2 mg IV x1dose\nIf no cholinergic rxn after 45s, give 8 mg IV x1 dose\nGive atropine sulfate 0.4-0.5 mg IV x1 dose if rxn from 2 mg edrophonium dose\n10 mg IM x1 dose\nIf cholinergic rxn, give 2 mg IM x1 dose 30 min after 1st dose\nMyasthenia gravis\n, tx evaluation\n1-2 mg IV x1 dose\n1h after PO tx drug",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Myasthenia gravis\n, diagnosis\nInfants\n0.5 mg IV x1 dose\n<75 lb\n1 mg IV x1 dose\nMax: 5 mg cumulative dose\nAlt: 5 mg IM x1 dose\n>75 lb\n2 mg IV x1 dose\nMax: 10 mg cumulative dose\nAlt: 5 mg IM x1 dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Caution advised in pregnancy, esp. in 3rd trimester\nLactation risk: Probably safe; Limited information demonstrates no risk. Caution advised.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nGI obstruction\nUrinary obstruction\nCaution if hypersensitivity to sulfites\nCaution if asthma\nCaution if arrhythmias",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Cholinergic rxn, severe\nArrhythmia\nBradycardia\nHypotension\nResp. Paralysis\nSeizure\nLaryngospasm\nBronchospasm",
+          "tables": []
+        },
+        "Common": {
+          "text": "Lacrimation\nMiosis\nAccommodation spasm\nDiplopia\nHyperemia, conjuntival\nSeizure\nDysarthria\nDysphonia\nDysphagia\nIncreased pulmonary secretions\nLaryngospasm\nBronchospasm\nResp. Paralysis\nArrhythmia\nBradycardia\nHypotension\nIncreased GI secretions\nNausea\n/\nVomiting\nDiarrhea\nAbdominal cramps\nWeakness\nFasciculation\nUrinary frequency\nIncontinence\nDiaphoresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Cholinergic rxn, severe\nArrhythmia\nBradycardia\nHypotension\nResp. Paralysis\nSeizure\nLaryngospasm\nBronchospasm",
+      "subsections": {
+        "Common": {
+          "text": "Lacrimation\nMiosis\nAccommodation spasm\nDiplopia\nHyperemia, conjuntival\nSeizure\nDysarthria\nDysphonia\nDysphagia\nIncreased pulmonary secretions\nLaryngospasm\nBronchospasm\nResp. Paralysis\nArrhythmia\nBradycardia\nHypotension\nIncreased GI secretions\nNausea\n/\nVomiting\nDiarrhea\nAbdominal cramps\nWeakness\nFasciculation\nUrinary frequency\nIncontinence\nDiaphoresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Lacrimation\nMiosis\nAccommodation spasm\nDiplopia\nHyperemia, conjuntival\nSeizure\nDysarthria\nDysphonia\nDysphagia\nIncreased pulmonary secretions\nLaryngospasm\nBronchospasm\nResp. Paralysis\nArrhythmia\nBradycardia\nHypotension\nIncreased GI secretions\nNausea\n/\nVomiting\nDiarrhea\nAbdominal cramps\nWeakness\nFasciculation\nUrinary frequency\nIncontinence\nDiaphoresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 33-110 min\nMetabolism: Unknown\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Reversibly binds to and inactivates acetylcholinesterases.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Myasthenia gravis\nAcetylcholinesterase inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitor",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitor"
+        }
+      ]
+    }
+  }
+}
