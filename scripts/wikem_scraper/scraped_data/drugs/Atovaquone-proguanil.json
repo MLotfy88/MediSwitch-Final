@@ -1,0 +1,142 @@
+{
+  "drug_name": "Atovaquone-proguanil",
+  "url": "https://wikem.org/wiki/Atovaquone-proguanil",
+  "scraped_at": "2026-01-10T03:00:02.884069",
+  "sections": {
+    "General": {
+      "text": "Type: Antimalarial\nDosage Forms: tablet\nDosage Strengths: 62.5mg/25mg, 250mg/100mg\nRoutes of Administration: PO\nCommon Trade Names: Malarone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Malaria_prophylaxis": {
+          "text": "250mg/100mg PO QD\nStart 1-2 days prior to possible exposure\nContinue 7 days after possible exposure",
+          "tables": []
+        },
+        "Malaria_treatment": {
+          "text": "1000mg/400mg PO QD x 3 days\nNot for severe, complicated or cerebral malaria\nSee\nCDC Recommendations\nfor complete dosing/recommendations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Malaria_prophylaxis_2": {
+          "text": "For all dosing regimins\nStart 1-2 days prior to possible exposure\nContinue 7 days after possible exposure",
+          "tables": []
+        },
+        "5-8_kg": {
+          "text": "31.25mg/12.5mg PO QD",
+          "tables": []
+        },
+        "9-10_kg": {
+          "text": "46.9mg/18.7mg PO QD",
+          "tables": []
+        },
+        "11-20_kg": {
+          "text": "62.5mg/25mg PO QD",
+          "tables": []
+        },
+        "21-30_kg": {
+          "text": "125mg/50mg PO QD",
+          "tables": []
+        },
+        "31-40_kg": {
+          "text": "187.5mg/75mg PO QD",
+          "tables": []
+        },
+        ">40_kg": {
+          "text": "See adult dosing",
+          "tables": []
+        },
+        "Malaria_treatment_2": {
+          "text": "Not for severe, complicated or cerebral malaria\nSee\nCDC Recommendations\nfor complete dosing/recommendations",
+          "tables": []
+        },
+        "5-8_kg_2": {
+          "text": "125mg/50mg PO QD x 3 days",
+          "tables": []
+        },
+        "9-10_kg_2": {
+          "text": "187.5mg/75mg PO QD x 3 days",
+          "tables": []
+        },
+        "11-20_kg_2": {
+          "text": "250mg/100mg QD x 3 days",
+          "tables": []
+        },
+        "21-30_kg_2": {
+          "text": "500mg/200mg PO QD x 3 days",
+          "tables": []
+        },
+        "31-40_kg_2": {
+          "text": "750mg/300mg PO QD x 3 days",
+          "tables": []
+        },
+        ">40_kg_2": {
+          "text": "See adult dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation:  Safety unknown; caution advised\nRenal Dosing: Adult and Pediatric\nCrCl>30: No adjustment\nCrCl<30\nContraindicated for malaria prophylaxis\nRisk/benefit analysis for malaria treatment\nHepatic Dosing: Adult and Pediatric\nUndefined for severe impairment otherwise no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCrCl <30\nCaution\nCrCl<30 for treatment\nPersistent severe diarrhea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction\nStevens-Johnson Syndrome\nErythema multiforme\nPhotosensitivity\nHepatotoxicity\nNeutropenia\nAnemia\nPancytopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Elevated LFTs\nAbdominal pain\nHeadache\nNausea/Vomiting\nCough\nDiarrhea\nAsthenia\nVivid dreams\nOral ulcers\nAnorexia\nDizziness\nGastritis\nPruritus\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 12-21 hours\nMetabolism:\nAtovaquone\nCYP450\nProguanil\nliver; CYP450\nExcretion: feces and urine\nMechanism of Action:\nAtovaquone\nbacteriostatic or bactericidal\nProguanil\nInhibits parasite dihydofolate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "drug_name": "Benztropine",
+  "url": "https://wikem.org/wiki/Benztropine",
+  "scraped_at": "2026-01-10T03:01:31.121187",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Extrapyramidal disease: 1-4 mg IV/IM/PO 1-2 times daily\nParkinsonism: 0.5 mg IM/IV/PO daily, titrate up in 0.5mg increments",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Contraindicated children <3 years old. Otherwise, same as adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal: no adjustment\nHepatic: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAge <3 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Psychosis, confusion, hallucinations\nHyperpyrexia, heat stroke, anhidrosis\nParalytic ileus",
+          "tables": []
+        },
+        "Common": {
+          "text": "Tachycardia\nConstipation, nausea, xerostomia\nBlurry vision\nUrinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: duration of action is around 24 hours\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

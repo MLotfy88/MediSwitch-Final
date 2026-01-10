@@ -1,0 +1,80 @@
+{
+  "drug_name": "Aztreonam",
+  "url": "https://wikem.org/wiki/Aztreonam",
+  "scraped_at": "2026-01-10T03:00:24.247447",
+  "sections": {
+    "General": {
+      "text": "Type:\nMonobactam\nantibiotic\nDosage forms: powder for injection\nDosage strengths: 1g, 2g\nRoutes of Administration: IM, IV\nCommon Trade Names: Azactam",
+      "subsections": {
+        "Other": {
+          "text": "Antimicrobial activity more closely resembles AG's (only active against gram -)\nEnterobacter, pseudomonas, H. influenzae, gonococci\nLittle allergic cross-reactivity with B-lactam antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_(Moderate_Severe)": {
+          "text": "1-2g IM/IV q8-12h\nMax: 8g/day",
+          "tables": []
+        },
+        "General_(Severe)": {
+          "text": "2g IM/IV q6-8h\nMax: 8g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_(Neonates)": {
+          "text": "<7 days old\n<2000g\n60mg/kg/day IV divided q12h\nFirst ED Dose: 30mg/kg x 1\n>2000g\n90mg/kg/day IV divided q8\nFirst ED Dose: 30mg/kg x 1\n7 days - 1 month\n<1200g\n60mg/kg/day IV divided q12h\nFirst ED Dose: 30mg/kg x 1\n1200-2000g\n90mg/kg/day IV divided q8\nFirst ED Dose: 30mg/kg x 1\n>2000g\n120mg/kg/day IV divided q6\nFirst ED Dose: 30mg/kg x 1",
+          "tables": []
+        },
+        "General_(1_Month_-_9_Months)": {
+          "text": "General\n90-120mg/kg/day IV divided q6-8h\nFirst ED Dose: 40mg/kg x 1\nRespiratory Infections in Cystic Fibrosis\n200mg/kg/day IV divided q6h\nFirst ED Dose: 40mg/kg x 1\nMax: 8g/day",
+          "tables": []
+        },
+        "General_>9_Months)": {
+          "text": "90-120mg/kg/day IV divided q6-8\nFirst ED Dose: 40mg/kg x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Safe\nRenal\nAdult\nCrCl 10-30: 1-2g x1, then decrease dose 50%\nCrCl <10: give usual dose x1, then decrease dose 75%\nHemodialysis: give 12.5% of initial dose as supplement\nPeritoneal dialysis: no supplement\nPediatric\nCrCl 10-30: decrease dose 50%\nCrCl <10: decrease dose 75%\nHemodialysis: give supplement\nPeritoneal dialysis: no supplement\nHepatic (Adult & Pediatric)\ncaution advised, but not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.7h (4.7-6h ESRD)\nMetabolism: CYP450, minimal liver\nExcretion: Urine\nMechanism of Action: Bactericidal; inhibits cell wall synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

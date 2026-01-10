@@ -1,0 +1,155 @@
+{
+  "drug_name": "Azithromycin",
+  "url": "https://wikem.org/wiki/Azithromycin",
+  "scraped_at": "2026-01-10T03:00:20.028264",
+  "sections": {
+    "General": {
+      "text": "Type:\nMacrolide\nDosage Forms: powder for solution, suspension reconstituted, packet, tablet\nDosage Strengths: powder for solution: 500mg, 2.5g; suspension reconstituted: 100, 200mg/5mL; packet: 1g; tablet: 250, 500, 600mg\nRoutes of Administration: PO, IV\nCommon Trade Names:\nZithromax\n, Z-Pak, Zmax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Babesiosis (In combination with Atovaquone) [Mild/Moderate 500mg PO x1 on day 1, then 250mg PO q24h x7-10 days. Severe 500mg IV q24hr for 7 to 10 days]\nBacterial Infections  [500mg PO x1 on day 1, then 250mg PO q24h x4 days]\nStrep Pharyngitis\n/tonsillitis   [500mg PO x1 on day 1, then 250mg PO q24h x4 days]  Alt: 500mg PO q24h x3 days\nCOPD exacerbation\n[500mg PO x1 on day 1, then 250mg PO q24h x4 days]   Alt: 500mg PO q24h x3 days\nCommunity-acquired\npneumonia\n[500mg PO x1 on day 1, then 250mg PO q24h x4 days]   Alt: 500mg IV q24h x2 or more days, then 500mg PO q24h to complete 7-10 day course\nChlamydia\n: 1 g PO x1; (for uncomplicated urethritis, cervicitis, oropharygeal)\nGonorrhea\n(initial or recurrent)   [1 g PO x1]\nGonorrhea\n(persistent)   [2 g PO x1]\nPID\n[500mg IV q24h x1-2 days, then 250mg PO q24h x5-6 days]\nUrethritis\n, non-gonococcal initial infection   [1 g PO x1]\nChancroid\n[1 g PO x1]\nMAC (disseminated)   [500-600mg PO q24h]  (not 1st-line agent; use with ethambutol)\nMAC (primary prophylaxis)   [1200mg PO qwk]   Alt: 600mg PO 2x/wk\nMAC (secondary prophylaxis)   [500-600mg PO q24h]   (not 1st-line agent; use with ethambutol)\nEndocarditis\nprophylaxis (dental)   [500mg PO x1]   (Start: 30-60min before procedure)\nPertussis [500mg PO on day 1, followed by 250mg q24hr for days 2-5]\nPresumptive\ncervicitis\n[1 g PO x1]\nSalmonella\n[1 g PO q24h x1 day, then 500mg PO q24h x2-6 days]\nTyphoid fever\n[10mg/kg PO q24h x1wk]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep Pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_Pharyngitis"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Pneumonia (peds)\n10mg/kg/day PO in a once daily dose on day 1 (max 500mg)\nFollowed by 5mg/kg/day PO once daily on days 2-5\nBacterial sinusitis: Children ≥6 months: Oral: 10mg/kg PO once daily for 3 days (maximum: 500mg daily)\nOtitis media\n: Children ≥6 months: Oral:\n1-day regimen: 30mg/kg as a single dose (maximum dose: 1,500mg)\n3-day regimen: 10mg/kg once daily for 3 days (maximum: 500mg daily)\n5-day regimen: 10mg/kg on day 1 (maximum: 500mg daily) followed by 5mg/kg/day once daily on days 2 to 5 (maximum: 250mg daily)\nPharyngitis\n(as an alternative agent in penicillin allergic patients):\nChildren ≥2 years and Adolescents: Oral: 12mg/kg/dose once daily for 5 days (maximum: 500mg daily)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia (peds)",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Excreted in low amounts of breast milk and may lead to rash, somnolence, and diarrhea in nursing infants\nRenal Dosing: Caution in patients with GFR <10 mL/minute, though primarily elimated through hepatic metabolism\nHepatic Dosing:  Caution is indicated for potential hepatotoxicity though it is rare, and there are no specific dosage adjustments indicated for patients with liver failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Hypersensitivity to azithromycin or other macrolides or any component of the formulation\nHistory of cholestatic jaundice/hepatic dysfunction with prior Azithromycin use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Prolonged QT\n,\ntorsades\n, hepatic necrosis, Eaton-Lambert,\nMyasthenia gravis\n, corneal erosion",
+          "tables": []
+        },
+        "Common": {
+          "text": "Vomiting\n, diarrhea, abdominal pain, headache, vision changes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 68 hrs\nMetabolism: Hepatic\nExcretion: Biliary\nMechanism of Action:Binds 50S ribosomal subunit interfering with microbial protein synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

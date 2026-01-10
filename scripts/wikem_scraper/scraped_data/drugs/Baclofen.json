@@ -1,0 +1,70 @@
+{
+  "drug_name": "Baclofen",
+  "url": "https://wikem.org/wiki/Baclofen",
+  "scraped_at": "2026-01-10T03:00:37.864174",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "5-20mg PO 3-4 times/day\nmaintenance intrathecal rate after titration: 22 to 1400 mcg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "2-7yo: 10 to 15 mg/day PO in 2-3 divided doses, titrate to max 40mg/day in 3-4 divided doses\n>7 yo: 10 to 15 mg/day PO in 2-3 divided doses, titrate to max 60mg/day in 3-4 divided doses\n<12 yo: maintenance intrathecal rate after titration- 24 to 1199 mcg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl 50-80 mL/min: reduce dose by 1/3\nCrCl 30-50 mL/min: reduce dose by 1/2\nCrCl <30 mL/min: reduce dose by 2/3\nIf HD, use intrathecal with caution, likely reduce dose",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "GI bleed\nComa\nSeizure\nAseptic meningitis\nPneumonia\nWithdrawal",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nNausea/vomiting, constipation\nDizziness, somnolence, asthenia, poor muscle tone\nUrinary complications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5 hours (oral), 1.5-4 hours (intrathecal)\nMetabolism: Hepatic (15%)\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

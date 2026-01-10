@@ -1,0 +1,74 @@
+{
+  "drug_name": "Benznidazole",
+  "url": "https://wikem.org/wiki/Benznidazole",
+  "scraped_at": "2026-01-10T03:01:13.729394",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Chronic\nchagas\nin patients up to age 50 without cardiomyopathy: 5-7 mg/kg/day PO divided in 2 doses separated by ~12 hr x 60 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "<2 years: Safety/efficacy not established\n2-12 years: 5-7.5 mg/kg/day PO divided in 2 doses separated by ~12 hr x 60 days\n>12y: 5-7 mg/kg/day PO divided in 2 doses separated by ~12 hr x 60 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Fetal harm demonstrated in animal studies\n[1]",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Breastfeeding while being treated with benznidazole not recommended\n[2]",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nDisulfiram administered within last 2 weeks; psychotic reactions may occur\nConcomitant consumption of ETOH or propylene glycol containing products; disulfiram-like reaction may occur",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Acute generalized exanthematous pustulosis\nTEN, erythema multiforme, DRESS\nParesthesias/peripheral neuropathy that can last for several months\nBone marrow depression (e.g. cytopenias)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache, dizziness\nParesthesias, peripheral neuropathy, tremor\nSkin reactions; rash\nAbdominal pain, nausea/vomiting, diarrhea, weight loss, abnormal LFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 13h\nMetabolism: unknown\nExcretion: urine and feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

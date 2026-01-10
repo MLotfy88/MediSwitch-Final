@@ -1,0 +1,94 @@
+{
+  "drug_name": "Benazepril",
+  "url": "https://wikem.org/wiki/Benazepril",
+  "scraped_at": "2026-01-10T03:01:07.130510",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "2-80mg PO in one or two daily doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">6yo: 0.2-0.6mg/kg daily, max 40mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category D (fetal risk demonstrated)",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk is minimal",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: GFR <30 or Cr >3: 5-40mg daily\nPediatric: not recommended if GFR <30",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established\nPediatric: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAngioedema history\nConcomitant aliskiren use in diabetic patients\nConcomitant or recent (<36h) neprilysin inhibitors (e.g. sacubitril)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Angioedema\n, anaphylactoid reaction\nSJS\nAgranulocytosis\n, [[neutropenia\nHepatic necrosis, increased LFTs\nRenal impairment",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\n,\nHeadache\nCough\nFatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Adult: 10-11h, pediatric: ~5h\nMetabolism: hepatic\nExcretion: renal, biliary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "drug_name": "Benzocaine",
+  "url": "https://wikem.org/wiki/Benzocaine",
+  "scraped_at": "2026-01-10T03:01:17.318101",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Apply 5-20% solution (or lozenge) q2-6h PRN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown risk, use with caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nBacterial infection of treated area",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Methemoglobinemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Burning, stinging tenderness\nPruritus\nEdema\nContact dermatitis, rash, urticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
