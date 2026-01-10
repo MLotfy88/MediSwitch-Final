@@ -373,25 +373,49 @@ class WikEMScraper:
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Extract all sections
-        sections = [
-            'General', 'Adult_Dosing', 'Pediatric_Dosing',
-            'Special_Populations', 'Contraindications',
-            'Adverse_Reactions', 'Pharmacology', 'Comments',
-            'Antibiotic_Sensitivities', 'Monitoring'
-        ]
-        
-        drug_data = {
-            "drug_name": drug_name,
-            "url": url,
-            "scraped_at": datetime.now().isoformat(),
-            "sections": {}
+        # 1. Capture content BEFORE the first H2 (Introduction/Tables at top)
+        intro_content = {
+            "text": "",
+            "subsections": {},
+            "tables": [],
+            "links": []
         }
         
-        for section in sections:
-            content = self.extract_section_content(soup, section)
+        # Start from content div
+        content_div = soup.find('div', class_='mw-parser-output')
+        if content_div:
+            for child in content_div.children:
+                if child.name == 'h2':
+                    break
+                
+                if child.name == 'table':
+                    table_data = self.extract_table(child)
+                    if table_data:
+                        intro_content["tables"].append(table_data)
+                elif child.name in ['p', 'ul', 'ol', 'dl']:
+                    text = child.get_text(separator='\n', strip=True)
+                    if text:
+                        intro_content["text"] += text + "\n"
+        
+        if intro_content["text"] or intro_content["tables"]:
+            drug_data["sections"]["Intro"] = intro_content
+
+        # 2. Dynamically find ALL H2 headers (Sections)
+        h2_headers = soup.find_all('h2')
+        for h2 in h2_headers:
+            span = h2.find('span', class_='mw-headline')
+            if not span:
+                continue
+                
+            section_id = span.get('id', span.get_text(strip=True))
+            # Clean section ID (remove [1], etc)
+            import re
+            clean_section_id = re.sub(r'\[\d+\]$', '', section_id)
+            
+            # Use the ID to extract content using our robust method
+            content = self.extract_section_content(soup, clean_section_id)
             if content:
-                drug_data["sections"][section] = content
+                drug_data["sections"][clean_section_id] = content
         
         return drug_data
     
