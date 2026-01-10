@@ -1,0 +1,82 @@
+{
+  "drug_name": "Suprapubic_catheter_placement",
+  "url": "https://wikem.org/wiki/Suprapubic_catheter_placement",
+  "scraped_at": "2026-01-10T08:03:01.875385",
+  "sections": {
+    "Indications": {
+      "text": "Urethral disruption due to trauma\nSevere urethral stricture or complex\nprostatic disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "prostatic disease",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Empty or unidentifiable bladder\nEmpty bladder introduces risk of through-and-through penetration of the bladder\nNo minimum reported bladder volume established\nBowel anterior to bladder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Cook peel-away introducer sheath\nIf not available, can use central venous access kit and use Seldinger technique to insert Foley\nUltrasound\nSterile gloves\nChlorhexidine or other skin prep\nLidocaine\nSterile syringe\nSpinal needle (22 gauge for adult patients)\nScalpel\nFoley cather\nDressing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Use ultrasound to locate and mark the bladder\nMay use real-time ultrasound guidance to insert the suprapubic catheter, or may landmark and use a blind approach\nPrep skin\nFill syringe with lidocaine and attach spinal needle\nRaise skin wheal at marked site\nInfiltrate subcutaneous tissue and rectus muscle fascia\nAdvance the spinal needle into the bladder while applying negative pressure to the syringe\nAfter locating the needle within the bladder, remove the syringe\nAdvance a guidewire through the needle and into the bladder\nRemove the syringe, leaving the guidewire\nUse a scalpel to make a stab incision at the site of the guidewire, extending the opening for the sheath introducer\nPass the peel-away sheath and in-dwelling dilator over the guidewire and into the bladder\nRemove the guidewire and fascial dilator, leaving only the peel-away sheet\nInsert Foley catheter through sheath and into bladder\nAspirate urine through Foley catheter to confirm placement\nInflate Foley balloon\nRemove the peel-away sheath\nDress the site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Bowel perforation\nThrough and through bladder penetration may lead to rectal, vaginal, or uterine injury\nIntraperitoneal extravasation\nInfection\nHematuria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Suprapubic bladder aspiration\nSuprapubic catheter changing or replacement\nGenitourinary trauma\nUrinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Suprapubic bladder aspiration",
+          "url": "https://wikem.org/wiki/Suprapubic_bladder_aspiration"
+        },
+        {
+          "text": "Suprapubic catheter changing or replacement",
+          "url": "https://wikem.org/wiki/Suprapubic_catheter_changing_or_replacement"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=yTFS3FILWGY}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=yTFS3FILWGY}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "drug_name": "Sudden_infant_death_syndrome",
+  "url": "https://wikem.org/wiki/Sudden_infant_death_syndrome",
+  "scraped_at": "2026-01-10T08:02:53.621642",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: SIDS\nUnexpected death of infants <1yr for which no pathologic cause can be determined\nMost deaths occur between 2-4 months of age\nRare in <1 month of age\nDiagnosis of exclusion",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Prone sleeping\nOdds ratio of 4.92, one of biggest modifiable risk factors\nLikely from combination of hypercarbia and hyperthermia (heat dissipated through head)\nSoft bedding\nBed-sharing\nParental smoking\nURI\nMale sex\nPrematurity / Developmental delay\nSocioeconomic disadvantage\nMothers <20 yo\nMaternal exposure to smoking, alcohol, drugs of abuse",
+          "tables": []
+        },
+        "Protective_Factors": {
+          "text": "Use of pacifier\nBreastfeeding\nImmunizations\nHome monitoring is NOT protective\nRecommend safe sleep to all families (the ABC's = Alone, on Back, in Crib)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Prone sleeping\nOdds ratio of 4.92, one of biggest modifiable risk factors\nLikely from combination of hypercarbia and hyperthermia (heat dissipated through head)\nSoft bedding\nBed-sharing\nParental smoking\nURI\nMale sex\nPrematurity / Developmental delay\nSocioeconomic disadvantage\nMothers <20 yo\nMaternal exposure to smoking, alcohol, drugs of abuse",
+      "subsections": {
+        "Protective_Factors": {
+          "text": "Use of pacifier\nBreastfeeding\nImmunizations\nHome monitoring is NOT protective\nRecommend safe sleep to all families (the ABC's = Alone, on Back, in Crib)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Protective_Factors": {
+      "text": "Use of pacifier\nBreastfeeding\nImmunizations\nHome monitoring is NOT protective\nRecommend safe sleep to all families (the ABC's = Alone, on Back, in Crib)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Unexpected death of infants <1yr for which no pathologic cause can be determined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Examine for signs of\nnonaccidental trauma\nBruising, petechiae (especially to face on conjunctivae), torn frenulum, blood in mouth or nares\nSIDS is a post-mortem diagnosis; ED chart should read \"sudden unexpected death in infancy\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Infants with rigor mortis, livedo reticulrais, pH <6, or reduced temperature in absence of environmental hypothermia should not be resuscitated\nDo not manipulate body - all cases require evaluation by coroner/ME",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Deceased, by definition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        }
+      ]
+    },
+    "References": {
+      "text": "The Sudden Infant Death Syndrome. N Engl J Med 2009; 361:795-805",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

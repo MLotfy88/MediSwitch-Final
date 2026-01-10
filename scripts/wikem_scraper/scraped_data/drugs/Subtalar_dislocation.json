@@ -1,0 +1,241 @@
+{
+  "drug_name": "Subtalar_dislocation",
+  "url": "https://wikem.org/wiki/Subtalar_dislocation",
+  "scraped_at": "2026-01-10T08:02:54.982591",
+  "sections": {
+    "Background": {
+      "text": "Usually high-energy trauma\n80% medial dislocations\n25% open, with lateral more likely\nAssociated with\nfractures\n~50%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Foot_Fractures"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Medial": {
+          "text": "Foot displaced to supination",
+          "tables": []
+        },
+        "Lateral": {
+          "text": "Foot displaced to pronation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medial": {
+      "text": "Foot displaced to supination",
+      "subsections": {
+        "Lateral": {
+          "text": "Foot displaced to pronation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lateral": {
+      "text": "Foot displaced to pronation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Xrays",
+      "subsections": {
+        "Medial_2": {
+          "text": "Talar head superior to navicular on lateral XR",
+          "tables": []
+        },
+        "Lateral_2": {
+          "text": "Talar head inferior to navicular on lateral XR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medial_2": {
+      "text": "Talar head superior to navicular on lateral XR",
+      "subsections": {
+        "Lateral_2": {
+          "text": "Talar head inferior to navicular on lateral XR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lateral_2": {
+      "text": "Talar head inferior to navicular on lateral XR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Closed reduction and short leg NWB cast first-line, with ortho consult\nReduce with ankle plantarflexed, then hindfoot inversion/eversion\nRequires CT after reduction for associated fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Talus fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        }
+      ]
+    },
+    "References": {
+      "text": "Weatherford B. Talar neck fractures. Orthobullets, last updated 12/19/14.\nhttp://www.orthobullets.com/trauma/1048/talar-neck-fractures\n.\nJudd DB, Kim DH. Foot Fractures Frequently Misdiagnosed as Ankle Sprains. Am Fam Physician. 2002 Sep 1;66(5):785-795.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

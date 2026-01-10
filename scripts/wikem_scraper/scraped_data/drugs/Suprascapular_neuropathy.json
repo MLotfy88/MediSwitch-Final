@@ -1,0 +1,250 @@
+{
+  "drug_name": "Suprascapular_neuropathy",
+  "url": "https://wikem.org/wiki/Suprascapular_neuropathy",
+  "scraped_at": "2026-01-10T08:03:04.560549",
+  "sections": {
+    "Background": {
+      "text": "Suprascapular nerve (C5, 6) branches from the superior trunk and innervates the supraspinatus and infraspinatus nerves\nCompression of the nerve in the suprascapular notch (proximal, supraspinatus and infraspinatus affected) or at spinoglenoid ligament (distal, only infraspinatus affected)\n[1]\n[2]\nMost often seen in athletes due to repetitive overhead arm movements",
+      "subsections": {
+        "Causes": {
+          "text": "Structural (direct nerve compression)\nParalabral cyst\nBone/soft tissue tumor\nTrauma\nTraction injury\nRotator cuff tear\nGlenohumerol dislocation\nScapular fracture\nPenetrating injury\nAutoimmune\nParsonage-Turner syndrome\nIaotrogenic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Structural (direct nerve compression)\nParalabral cyst\nBone/soft tissue tumor\nTrauma\nTraction injury\nRotator cuff tear\nGlenohumerol dislocation\nScapular fracture\nPenetrating injury\nAutoimmune\nParsonage-Turner syndrome\nIaotrogenic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Shoulder pain\nWeakness of shoulder abduction, flexion, and internal rotation\nMay see atrophy of supraspinatus and infraspinatus muscles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Upper_extremity_peripheral_nerve_syndromes": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nShoulder (Tests)\nPlain films to evaluate for fracture, callus, or bone tumor\nMRI and EMG outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder (Tests)",
+          "url": "https://wikem.org/wiki/Shoulder_(Tests)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Nonoperative - activity modification, avoid overhead activities, physical therapy, NSAIDs, sling\nOperative for space occupying lesions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with orthopedic follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Peripheral nerve syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral nerve syndromes",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        }
+      ]
+    }
+  }
+}

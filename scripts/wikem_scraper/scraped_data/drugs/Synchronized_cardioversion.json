@@ -1,0 +1,216 @@
+{
+  "drug_name": "Synchronized_cardioversion",
+  "url": "https://wikem.org/wiki/Synchronized_cardioversion",
+  "scraped_at": "2026-01-10T08:03:02.550087",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor doses by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Low energy shock synchronized with peak of QRS complex\nMachine leads synchronized with patient's EKG rhythm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "It is important to note that the procedure and indications differ between\ndefibrillation\nand\ncardioversion",
+      "subsections": {
+        "Defibrillation_(Unsynchronized_Cardioversion)": {
+          "text": "Ventricular fibrillation\nPulseless ventricular tachycardia\nPolymorphic ventricular tachycardia",
+          "tables": []
+        },
+        "Synchronized_Cardioversion": {
+          "text": "Supraventricular tachycardia (SVT)\nAtrial fibrillation\nAtrial flutter\nVentricular tachycardia with a pulse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Pulseless ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Supraventricular tachycardia (SVT)",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia_(SVT)"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_(Main)"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Ventricular tachycardia with a pulse",
+          "url": "https://wikem.org/wiki/Tachycardia_(Wide)"
+        }
+      ]
+    },
+    "Synchronized_Cardioversion": {
+      "text": "Supraventricular tachycardia (SVT)\nAtrial fibrillation\nAtrial flutter\nVentricular tachycardia with a pulse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Supraventricular tachycardia (SVT)",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia_(SVT)"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_(Main)"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Ventricular tachycardia with a pulse",
+          "url": "https://wikem.org/wiki/Tachycardia_(Wide)"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Defibrillator\nConsider sedation medication in conscious patient (e.g. etomidate, ketamine), but do not delay procedure in unstable patient\nGive\nfentanyl\n1 μg/kg before sedation, and consider slow 0.5 mg/kg\nlidocaine\nIV 1 min before sedative\nEtomidate\nsuperior to\npropofol\nin terms of recovery and hemodynamic stability\n[1]\nEtomidate 0.1 mg/kg, followed by etomidate second dose of 0.05 mg/kg just prior to shock\nVS propofol 1 mg/kg, followed by propofol second dose of 0.5 mg/kg just prior to shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Cardioversion": {
+          "text": "Apply pads\nAnterior-Posterior placement is preferred\n[2]\nbut may not be as important as previously thought and most studies are for atrial fibrillation or flutter\n[3]\nAvoid placing in close proximity to implanted devices if possible\n[4]\nSelect appropriate energy (Joules)\nEnsure machine is \"synced\" before each discharge\nMost machines show an indicator (arrow or dot) above each beat if appropriately synchronized\nEnsure R or S wave is bigger than T wave\nMachine may read T wave as depolarization and shock during an actual repolarization phase\nMay induce shock on T and subsequent VT/VF\nMove leads to avoid this\nGive sedation, if indicated\nAll awake and hemodynamically stable patients\nEnsure safety of environment prior to cardioversion\nNobody touching patient\nNobody touching equipment that is touching patient\nConsider removing supplemental oxygen\nCardiovert\nHold 'Shock' button until shock discharged\nShock delayed until peak of QRS complex in synchronized cardioversion (keep holding button down)\nRepeat PRN\nMay require escalating energy",
+          "tables": []
+        },
+        "Doses": {
+          "text": "Initial recommendations:\nTachycardia with pulse\nNarrow regular (SVT): 50-100 J\nNarrow irregular (A fib, A flutter)\nBiphasic: 120-200 J (may start as low as 50 - 100 J for A flutter)\nMonophasic: 200 J\nWide regular (VT with pulse): 100 J\nWide irregular:\ndefibrilate\n(NOT synchronized)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "defibrilate",
+          "url": "https://wikem.org/wiki/Defibrilate"
+        }
+      ]
+    },
+    "Cardioversion": {
+      "text": "Apply pads\nAnterior-Posterior placement is preferred\n[2]\nbut may not be as important as previously thought and most studies are for atrial fibrillation or flutter\n[3]\nAvoid placing in close proximity to implanted devices if possible\n[4]\nSelect appropriate energy (Joules)\nEnsure machine is \"synced\" before each discharge\nMost machines show an indicator (arrow or dot) above each beat if appropriately synchronized\nEnsure R or S wave is bigger than T wave\nMachine may read T wave as depolarization and shock during an actual repolarization phase\nMay induce shock on T and subsequent VT/VF\nMove leads to avoid this\nGive sedation, if indicated\nAll awake and hemodynamically stable patients\nEnsure safety of environment prior to cardioversion\nNobody touching patient\nNobody touching equipment that is touching patient\nConsider removing supplemental oxygen\nCardiovert\nHold 'Shock' button until shock discharged\nShock delayed until peak of QRS complex in synchronized cardioversion (keep holding button down)\nRepeat PRN\nMay require escalating energy",
+      "subsections": {
+        "Doses": {
+          "text": "Initial recommendations:\nTachycardia with pulse\nNarrow regular (SVT): 50-100 J\nNarrow irregular (A fib, A flutter)\nBiphasic: 120-200 J (may start as low as 50 - 100 J for A flutter)\nMonophasic: 200 J\nWide regular (VT with pulse): 100 J\nWide irregular:\ndefibrilate\n(NOT synchronized)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "defibrilate",
+          "url": "https://wikem.org/wiki/Defibrilate"
+        }
+      ]
+    },
+    "Doses": {
+      "text": "Initial recommendations:\nTachycardia with pulse\nNarrow regular (SVT): 50-100 J\nNarrow irregular (A fib, A flutter)\nBiphasic: 120-200 J (may start as low as 50 - 100 J for A flutter)\nMonophasic: 200 J\nWide regular (VT with pulse): 100 J\nWide irregular:\ndefibrilate\n(NOT synchronized)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "defibrilate",
+          "url": "https://wikem.org/wiki/Defibrilate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACLS (Main)\nPALS (Main)\nDefibrillation\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - Direct-Current Cardioversion-Defibrillation",
+      "subsections": {
+        "Videos": {
+          "text": "Larry Mellick-live demonstration (\nhttps://www.youtube.com/watch?v=uCETUw0Bssw\n)\n{{#widget:YouTube|id=T7Zv9vLdWtE}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "Larry Mellick-live demonstration (\nhttps://www.youtube.com/watch?v=uCETUw0Bssw\n)\n{{#widget:YouTube|id=T7Zv9vLdWtE}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "AHA 2010 ACLS Recommendations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

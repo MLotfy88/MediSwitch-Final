@@ -1,0 +1,584 @@
+{
+  "drug_name": "Supraglottic_airway",
+  "url": "https://wikem.org/wiki/Supraglottic_airway",
+  "scraped_at": "2026-01-10T08:03:03.060727",
+  "sections": {
+    "Indications": {
+      "text": "Need for positive pressure ventilation (PPV)\nPrimary or rescue airway\n[1]\nConduit/guide for elective or rescue fiberoptic intubation\n[2]\nIntubating LMA may be used to guide placement of an endotracheal tube\nField intubation by paramedics, especially in pediatric patients\n[3]\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute": {
+          "text": "Spontaneous respirations\nGag reflex",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Significant facial trauma",
+          "tables": []
+        },
+        "Difficult_Supraglottic_Device_(RODS)": {
+          "text": "R\nestricted mouth opening\nO\nbstruction\nD\nistorted airway\nS\ntiff lungs (chronic pulmonary disease, obesity) or neck (C-spine collar, limited neck extension)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Absolute": {
+      "text": "Spontaneous respirations\nGag reflex",
+      "subsections": {
+        "Relative": {
+          "text": "Significant facial trauma",
+          "tables": []
+        },
+        "Difficult_Supraglottic_Device_(RODS)": {
+          "text": "R\nestricted mouth opening\nO\nbstruction\nD\nistorted airway\nS\ntiff lungs (chronic pulmonary disease, obesity) or neck (C-spine collar, limited neck extension)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative": {
+      "text": "Significant facial trauma",
+      "subsections": {
+        "Difficult_Supraglottic_Device_(RODS)": {
+          "text": "R\nestricted mouth opening\nO\nbstruction\nD\nistorted airway\nS\ntiff lungs (chronic pulmonary disease, obesity) or neck (C-spine collar, limited neck extension)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Supraglottic Airway (SGA) device (many options exist, see below)\nAppropriate sedation/paralytic agents, if indicated",
+      "subsections": {
+        "LMA_Sizes": {
+          "text": "^Largest ETT that can pass thorough \"Intubating LMA\" (ILMA)",
+          "tables": [
+            [
+              {
+                "Mask Size": "1",
+                "Weight (kg)": "<5",
+                "Age (yr)": "<0.5",
+                "LMA Length (cm)": "10",
+                "LMA Cuff Vol (mL)": "4",
+                "Largest ETT^ (mm)": "3.5"
+              },
+              {
+                "Mask Size": "1.5",
+                "Weight (kg)": "5-10",
+                "Age (yr)": "<1",
+                "LMA Length (cm)": "10",
+                "LMA Cuff Vol (mL)": "5-7",
+                "Largest ETT^ (mm)": "4"
+              },
+              {
+                "Mask Size": "2",
+                "Weight (kg)": "6.5-20",
+                "Age (yr)": "1-5",
+                "LMA Length (cm)": "11.5",
+                "LMA Cuff Vol (mL)": "7-10",
+                "Largest ETT^ (mm)": "4.5"
+              },
+              {
+                "Mask Size": "2.5",
+                "Weight (kg)": "20-30",
+                "Age (yr)": "5-10",
+                "LMA Length (cm)": "12.5",
+                "LMA Cuff Vol (mL)": "14",
+                "Largest ETT^ (mm)": "5"
+              },
+              {
+                "Mask Size": "3",
+                "Weight (kg)": "30-60",
+                "Age (yr)": "10-15",
+                "LMA Length (cm)": "19",
+                "LMA Cuff Vol (mL)": "15-20",
+                "Largest ETT^ (mm)": "6"
+              },
+              {
+                "Mask Size": "4",
+                "Weight (kg)": "60-80",
+                "Age (yr)": ">15",
+                "LMA Length (cm)": "19",
+                "LMA Cuff Vol (mL)": "25-30",
+                "Largest ETT^ (mm)": "6.5"
+              },
+              {
+                "Mask Size": "5",
+                "Weight (kg)": ">80",
+                "Age (yr)": ">15",
+                "LMA Length (cm)": "19",
+                "LMA Cuff Vol (mL)": "30-40",
+                "Largest ETT^ (mm)": "7"
+              }
+            ]
+          ]
+        },
+        "iGel_Sizes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "igel size": "1",
+                "patient size": "neonate",
+                "weight (kg)": "2-5"
+              },
+              {
+                "igel size": "1.5",
+                "patient size": "infant",
+                "weight (kg)": "5-12"
+              },
+              {
+                "igel size": "2",
+                "patient size": "smal pediatric",
+                "weight (kg)": "10-25"
+              },
+              {
+                "igel size": "2.5",
+                "patient size": "large pediatric",
+                "weight (kg)": "25-35"
+              },
+              {
+                "igel size": "3",
+                "patient size": "small adult",
+                "weight (kg)": "30-60"
+              },
+              {
+                "igel size": "4",
+                "patient size": "medium adult",
+                "weight (kg)": "50-90"
+              },
+              {
+                "igel size": "5",
+                "patient size": "large adult",
+                "weight (kg)": "90+"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "LMA_Sizes": {
+      "text": "^Largest ETT that can pass thorough \"Intubating LMA\" (ILMA)",
+      "subsections": {
+        "iGel_Sizes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "igel size": "1",
+                "patient size": "neonate",
+                "weight (kg)": "2-5"
+              },
+              {
+                "igel size": "1.5",
+                "patient size": "infant",
+                "weight (kg)": "5-12"
+              },
+              {
+                "igel size": "2",
+                "patient size": "smal pediatric",
+                "weight (kg)": "10-25"
+              },
+              {
+                "igel size": "2.5",
+                "patient size": "large pediatric",
+                "weight (kg)": "25-35"
+              },
+              {
+                "igel size": "3",
+                "patient size": "small adult",
+                "weight (kg)": "30-60"
+              },
+              {
+                "igel size": "4",
+                "patient size": "medium adult",
+                "weight (kg)": "50-90"
+              },
+              {
+                "igel size": "5",
+                "patient size": "large adult",
+                "weight (kg)": "90+"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Mask Size": "1",
+            "Weight (kg)": "<5",
+            "Age (yr)": "<0.5",
+            "LMA Length (cm)": "10",
+            "LMA Cuff Vol (mL)": "4",
+            "Largest ETT^ (mm)": "3.5"
+          },
+          {
+            "Mask Size": "1.5",
+            "Weight (kg)": "5-10",
+            "Age (yr)": "<1",
+            "LMA Length (cm)": "10",
+            "LMA Cuff Vol (mL)": "5-7",
+            "Largest ETT^ (mm)": "4"
+          },
+          {
+            "Mask Size": "2",
+            "Weight (kg)": "6.5-20",
+            "Age (yr)": "1-5",
+            "LMA Length (cm)": "11.5",
+            "LMA Cuff Vol (mL)": "7-10",
+            "Largest ETT^ (mm)": "4.5"
+          },
+          {
+            "Mask Size": "2.5",
+            "Weight (kg)": "20-30",
+            "Age (yr)": "5-10",
+            "LMA Length (cm)": "12.5",
+            "LMA Cuff Vol (mL)": "14",
+            "Largest ETT^ (mm)": "5"
+          },
+          {
+            "Mask Size": "3",
+            "Weight (kg)": "30-60",
+            "Age (yr)": "10-15",
+            "LMA Length (cm)": "19",
+            "LMA Cuff Vol (mL)": "15-20",
+            "Largest ETT^ (mm)": "6"
+          },
+          {
+            "Mask Size": "4",
+            "Weight (kg)": "60-80",
+            "Age (yr)": ">15",
+            "LMA Length (cm)": "19",
+            "LMA Cuff Vol (mL)": "25-30",
+            "Largest ETT^ (mm)": "6.5"
+          },
+          {
+            "Mask Size": "5",
+            "Weight (kg)": ">80",
+            "Age (yr)": ">15",
+            "LMA Length (cm)": "19",
+            "LMA Cuff Vol (mL)": "30-40",
+            "Largest ETT^ (mm)": "7"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "iGel_Sizes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "igel size": "1",
+            "patient size": "neonate",
+            "weight (kg)": "2-5"
+          },
+          {
+            "igel size": "1.5",
+            "patient size": "infant",
+            "weight (kg)": "5-12"
+          },
+          {
+            "igel size": "2",
+            "patient size": "smal pediatric",
+            "weight (kg)": "10-25"
+          },
+          {
+            "igel size": "2.5",
+            "patient size": "large pediatric",
+            "weight (kg)": "25-35"
+          },
+          {
+            "igel size": "3",
+            "patient size": "small adult",
+            "weight (kg)": "30-60"
+          },
+          {
+            "igel size": "4",
+            "patient size": "medium adult",
+            "weight (kg)": "50-90"
+          },
+          {
+            "igel size": "5",
+            "patient size": "large adult",
+            "weight (kg)": "90+"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Due to variety of devices and placement techniques, impossible to give exact universal procedure\nPrepare patient as for intubation\nIf patient is awake, provide topical anesthetic\nPlace supraglottic airway device by one of the following techniques:\nUse thumb or index finger to guide device along midline of hard palate with cuff deflated or partially inflated and advance until seated\nInsert device with cuff facing hard palate, then rotate 180 degrees while advancing (similar to\nOPA\ninsertion)\nInsert laterally 45 degrees against tongue, advance and rotate to midline\nInflate cuff (if applicable)\nConfirm placement as with endotracheal tube",
+      "subsections": {
+        "Intubating_LMA": {
+          "text": "Prepare patient as for intubation\nPartially deflate the cuff of the iLMA and lubricate\nHolding iLMA by metal handle only, insert into patient's mouth with the posterior surface of the iLMA against the hard palate\nAdvance the iLMA until it is seated\nInflate the iLMA cuff\nVentilate patient and confirm placement as usual\nLubricate endotracheal tube\nInsert ETT into the aperture on the iLMA\nSlide ETT to appropriate depth\nInflate ETT cuff and confirm placement as usual\nDisconnect adaptor from ETT\nDeflate iLMA cuff\nUse obturator to push against ETT while slowly removing iLMA\nGrasp ETT in the oral cavity as soon as able\nWhen iLMA is fully removed, reattach ETT adaptor\nVentilate patient and confirm placement as usual",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Intubating_LMA": {
+      "text": "Prepare patient as for intubation\nPartially deflate the cuff of the iLMA and lubricate\nHolding iLMA by metal handle only, insert into patient's mouth with the posterior surface of the iLMA against the hard palate\nAdvance the iLMA until it is seated\nInflate the iLMA cuff\nVentilate patient and confirm placement as usual\nLubricate endotracheal tube\nInsert ETT into the aperture on the iLMA\nSlide ETT to appropriate depth\nInflate ETT cuff and confirm placement as usual\nDisconnect adaptor from ETT\nDeflate iLMA cuff\nUse obturator to push against ETT while slowly removing iLMA\nGrasp ETT in the oral cavity as soon as able\nWhen iLMA is fully removed, reattach ETT adaptor\nVentilate patient and confirm placement as usual",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Bronchospasm\nHoarseness\nLaryngeal nerve injury\nHypoglossal nerve injury\nPharyngeal edema\nDysphagia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Considerations": {
+      "text": "There are 2 generations of supraglottic airway devices\n[7]\n[2]\n1st Gen = classic LMA, other standard LMAs\n2nd Gen = iGel, LMA Supreme, Pro-Seal LMA (PLMA)\nSecond generation devices achieve improved esophageal and pharyngeal seal (causes ↑ oropharyngeal leak pressure), incorporate a \"drain tube\" that allows access to the esophagus and stomach, and usually have an incorporated bite block.\nOropharyngeal leak pressure = the applied pressure at which the seal between the device and the larynx begins to leak.\nPeak inspiratory pressure needs to be less than the oropharyngeal leak pressure for effective ventilation and to prevent gastric insufflation.\n[8]\nHigher failure rate with obese patients, inappropriate patient position (e.g. trendelenberg), and placement by inexperienced provider\n[2]\nThe AIRWAYS-2 trial found no significant difference in 30-day outcomes between initial use of SGAs and tracheal intubation during out-of-hospital cardiac arrest. However, it noted that SGAs had a higher initial ventilation success rate compared to tracheal intubation\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Insert a Laryngeal Mask Airway\nMerk Manual - How To Insert an Esophageal-Tracheal Double Lumen Tube (Combitube®) or a King Laryngeal Tube",
+      "subsections": {
+        "Videos": {
+          "text": "Laryngeal Mask Airway (\nhttps://www.youtube.com/watch?v=-oXa-f5qkGY\n)\nI-Gel (\nhttps://www.youtube.com/watch?v=YuG6k6ndBpM\n)\nKing Airway (\nhttps://www.youtube.com/watch?v=yJGuxDny_fo\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "Laryngeal Mask Airway (\nhttps://www.youtube.com/watch?v=-oXa-f5qkGY\n)\nI-Gel (\nhttps://www.youtube.com/watch?v=YuG6k6ndBpM\n)\nKing Airway (\nhttps://www.youtube.com/watch?v=yJGuxDny_fo\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

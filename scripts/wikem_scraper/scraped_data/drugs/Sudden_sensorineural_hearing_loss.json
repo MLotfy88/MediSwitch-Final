@@ -1,0 +1,362 @@
+{
+  "drug_name": "Sudden_sensorineural_hearing_loss",
+  "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss",
+  "scraped_at": "2026-01-10T08:02:56.694819",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Mostly idiopathic\nPrognosis depends on severity of hearing loss\nIncidence estimates range from 2-20 per 100,000 people per year\nMost commonly 43-53 years of age\nMen and women affected equally",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "Mostly idiopathic\nPrognosis depends on severity of hearing loss\nIncidence estimates range from 2-20 per 100,000 people per year\nMost commonly 43-53 years of age\nMen and women affected equally",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Immediate/rapid\nhearing loss\nor hearing loss upon awakening\nMostly unilateral hearing loss\nSensation of blocked or full ear, patient doesn’t recognize hearing is gone\nDifficulty in localizing sound\nTinnitus\nis common\nSome patients report\nvertigo\nOccasionally\near pain\nis present\nNo sign of obstruction or\notitis media\non physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "ear pain",
+          "url": "https://wikem.org/wiki/Otalgia"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        }
+      ]
+    },
+    "Differential_Diagnoses": {
+      "text": "Acute\nstroke\n, usually AICA occlusion\nMultiple Sclerosis\nMeningitis\nVestibular schwannomas\nMigrainous\ninfarction\nAcute otitis media\nTraumatic\nTM rupture",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Migrainous",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "infarction",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "TM rupture",
+          "url": "https://wikem.org/wiki/TM_rupture"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Weber test\nand\nRinne test\nto rule out conductive hearing loss (poor man's version is to have patient hum with mouth closed and ask which side they hear it louder on; ipsilateral for conductive and contralateral for sensorineural)\nOtoscopic exam to rule out OM, OE, foreign bodies, perforated TM or cholesteatoma\nRemove\nimpacted cerumen\nand re-examine\nComplete\nneurologic exam\nto rule out\nstroke\nAudiometric evaluation (typically as outpatient)\nConsider\nMRI\nto rule out\nacoustic neuroma\n, perilymphatic fistula,\nMeniere's disease\n, vascular insufficiency,\nMS\n; usually can happen as outpatient\nNo role for routine laboratory testing or CT head imaging in absence of other findings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weber test",
+          "url": "https://wikem.org/wiki/Eponyms_(T-Z)#Weber_test"
+        },
+        {
+          "text": "Rinne test",
+          "url": "https://wikem.org/wiki/Eponyms_(Q-S)#Rinne_test"
+        },
+        {
+          "text": "impacted cerumen",
+          "url": "https://wikem.org/wiki/Cerumen_impaction"
+        },
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Glucocorticoids orally (\nprednisone\n1mg/kg/day up to 60mg maximum for 10-14 days or\ndexamethasone\n300mg daily for 3 days)\nGlucocorticoids locally (intratympanic instillation,\ndexamethasone\n10 to 24mg/mL or\nmethylprednisolone\n30 to 40mg/mL) if refractory to oral GCs\nAntivirals for possible\nHSV-1\ninfection (\nvalacyclovir\n1g TID or\nfamciclovir\n500mg TID) are not routinely indicated in the absence of exam findings\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "HSV-1",
+          "url": "https://wikem.org/wiki/HSV-1"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient follow-up with:\nAudiogram in six months after initial diagnosis\nPossible auditory rehabilitation for patients with permanent hearing loss\nConsider assistive hearing devices",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Spontaneous improvement is common\nBetter prognosis if high- or low-frequency hearing loss pattern rather than flat across all frequencies\nAround 2/3 of patients will regain hearing in the affected ear\nWorse prognosis in older patients\nWorse in patients with vertigo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ear diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear diagnoses",
+          "url": "https://wikem.org/wiki/Ear_diagnoses"
+        }
+      ]
+    },
+    "References": {
+      "text": "Weber PC.  Sudden sensorineural hearing loss.  In: UpToDate.  Accessed Sept 22 2014.\nWeber PC.  Etiology of hearing loss in adults.  In: UpToDate.  Accessed Sept 22 2014.\nMolina, FJ.  Hearing Loss, Chapter 18.  Tintinalli’s Emergency Medicine.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

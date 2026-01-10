@@ -1,0 +1,71 @@
+{
+  "drug_name": "Sugar_tong_splint",
+  "url": "https://wikem.org/wiki/Sugar_tong_splint",
+  "scraped_at": "2026-01-10T08:02:55.530087",
+  "sections": {
+    "Background": {
+      "text": "Prevents pronation/supination, flexion/extension at the wrist, and immobilizes elbow",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Distal radius and ulnar fractures\n[1]\nOccasionally for\ncarpal bone fractures\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius and ulnar fractures",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "carpal bone fractures",
+          "url": "https://wikem.org/wiki/Carpal_bone_fractures"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[2]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\n[2]\nFrom proximal palmar crease\nAround elbow\nTo dorsum of MCP joints\nWatch for bunching of material around elbow, protect bony prominence such as elbow, ulnar styloid\n[3]\nReassess distal pulse, motor, and sensation\nKey anatomic positions\nElbow at 90°\nNeutral forearm with thumb pointed superiorly\nWrist in slight extension (approximately 10-20°) and slight ulnar deviation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[2]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\n[2]\nFrom proximal palmar crease\nAround elbow\nTo dorsum of MCP joints\nWatch for bunching of material around elbow, protect bony prominence such as elbow, ulnar styloid\n[3]\nReassess distal pulse, motor, and sensation\nKey anatomic positions\nElbow at 90°\nNeutral forearm with thumb pointed superiorly\nWrist in slight extension (approximately 10-20°) and slight ulnar deviation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure\nSplint course:\n[2]\nFrom proximal palmar crease\nAround elbow\nTo dorsum of MCP joints\nWatch for bunching of material around elbow, protect bony prominence such as elbow, ulnar styloid\n[3]\nReassess distal pulse, motor, and sensation\nKey anatomic positions\nElbow at 90°\nNeutral forearm with thumb pointed superiorly\nWrist in slight extension (approximately 10-20°) and slight ulnar deviation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

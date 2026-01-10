@@ -1,0 +1,102 @@
+{
+  "drug_name": "Sulfhemoglobinemia",
+  "url": "https://wikem.org/wiki/Sulfhemoglobinemia",
+  "scraped_at": "2026-01-10T08:02:55.018273",
+  "sections": {
+    "Background": {
+      "text": "Occurs when a sulfer atom binds to porphyrin ring of hemoglobin, resulting in permanent oxidation of iron to the ferric state, incapable of oxygen transport\nMost often associated with\nphenazopyridine\n,\ndapsone\n,\nmetoclopramide\n,\nsumatriptan\nAlso associated with industrial chemicals, including trinitrotoluene, hydroxyl amine sulfate, dimethyl sulfoxide,\nHydrogen Sulfide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Similar to that of\nmethemoglobinemia\nCyanosis, anxiety, headache, weakness, lightheadedness, tachycardia, MI, AMS, seizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Methemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Standard pulse ox tends to report falsely low value\nABG, Co-oximetry\nDark greenish-black blood",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care\nSevere toxicity may require\nexchange transfusion\nor\nPRBC\ntransfusion\nMethylene blue\ndoes not reduce sulfhemoglobin levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Dyshemoglobinemia\nToxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyshemoglobinemia",
+          "url": "https://wikem.org/wiki/Dyshemoglobinemia"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    },
+    "References": {
+      "text": "Tintinalli's Emergency Medicine 7th Edition, pg 1329-30",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

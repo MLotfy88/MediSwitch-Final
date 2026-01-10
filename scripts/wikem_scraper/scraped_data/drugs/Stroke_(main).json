@@ -1,0 +1,2105 @@
+{
+  "drug_name": "Stroke_(main)",
+  "url": "https://wikem.org/wiki/Stroke_(main)",
+  "scraped_at": "2026-01-10T08:02:49.803471",
+  "sections": {
+    "Background": {
+      "text": "Vascular injury that reduces cerebral blood flow to specific region of brain causing neuro impairment\nAccurate determination of last known time when patient was at baseline is essential\nIn-hospital mortality of 5-10% for ischemic stroke and 40-60% for hemorrhagic stroke\nOnly 10% of stroke survivors will recover completely",
+      "subsections": {
+        "Ischemic_stroke_causes_(87%)": {
+          "text": "Thrombotic (80% of ischemic CVA)\nAtherosclerosis\nVasculitis\nVertebral and carotid artery dissection\nOften preceded by yoga, spinal manipulation, coughing, vomiting\nPolycythemia\nHypercoagulable state (oral contraceptives, antiphospholipid antibodies, protein S and C deficiencies, sickle cell anemia)\nInfection\nToxicologic exposure\n(\ncocaine\n,\namphetamines\n, etc.)\nEmbolic (20% of ischemic CVA)\nValvular vegetations\nMural thrombi\nArterial-arterial emboli from proximal source (ex.\namaurosis fugax\n-> emboli from a proximal carotid artery plaque embolizes to the ophthalmic artery, causing transient monocular blindness)\nFat emboli\nSeptic emboli\nHypoperfusion\nCardiac failure resulting in systemic hypotension\nCryptogenic\nCryptogenic Stroke (CS) is defined as an Ischemic stroke of obscure or unknown origin. Its causes are unknown. It is transitory or reversible.\n[1]",
+          "tables": []
+        },
+        "Hemorrhagic_stroke_causes_(13%)": {
+          "text": "Intracerebral\nHypertension\nCerebral amyloid angiopathy\n(usually found in elderly, tends to be lobar in nature)\n[2]\nAnticoagulation\nVascular malformations (e.g.\nAVM\n,\nmoyamoya\nCocaine\nuse\nSubarachnoid hemorrhage\nBerry aneurysm rupture\nArteriovenous malformation",
+          "tables": []
+        },
+        "Stroke_Types": {
+          "text": "Ischemic stroke\nCerebellar stroke\nTransient ischemic attack\n(TIA)\nHemorrhagic stroke\nIntracerebral hemorrhage\nSubarachnoid hemorrhage\n(SAH)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Valvular vegetations",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Mural thrombi",
+          "url": "https://wikem.org/wiki/Mural_thrombi"
+        },
+        {
+          "text": "amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Fat emboli",
+          "url": "https://wikem.org/wiki/Fat_embolism_syndrome"
+        },
+        {
+          "text": "Hypoperfusion",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Intracerebral",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Cerebral amyloid angiopathy",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "moyamoya",
+          "url": "https://wikem.org/wiki/Moyamoya"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Transient ischemic attack",
+          "url": "https://wikem.org/wiki/Transient_ischemic_attack"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Stroke_Types": {
+      "text": "Ischemic stroke\nCerebellar stroke\nTransient ischemic attack\n(TIA)\nHemorrhagic stroke\nIntracerebral hemorrhage\nSubarachnoid hemorrhage\n(SAH)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Transient ischemic attack",
+          "url": "https://wikem.org/wiki/Transient_ischemic_attack"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Anterior_Circulation": {
+          "text": "Blood supply via internal carotid system\nIncludes\nACA\nand\nMCA",
+          "tables": []
+        },
+        "Internal_Carotid_Artery": {
+          "text": "Tonic gaze deviation towards lesion\nGlobal aphasia, dysgraphia, dyslexia, dyscalculia, disorientation (dominant lesion)\nSpatial or visual neglect (non-dominant lesion)",
+          "tables": []
+        },
+        "Anterior_Cerebral_Artery_(ACA)": {
+          "text": "Signs and Symptoms:\nContralateral\nsensory\nand\nmotor\nsymptoms in the lower extremity (sparing hands/face)\nUrinary\nand bowel incontinence\nLeft sided lesion: akinetic mutism, transcortical motor aphasia\nRight sided lesion:\nConfusion\n, motor hemineglect\nPresence of primitive grasp and suck reflexes\nMay manifest gait apraxia",
+          "tables": []
+        },
+        "Middle_Cerebral_Artery_(MCA)": {
+          "text": "Signs and Symptoms:\nHemiparesis\n,\nfacial plegia\n,\nsensory loss\ncontralateral to affected cortex\nMotor deficits\nfound more commonly in face and upper extremity than lower extremity\nDominant hemisphere involved: aphasia\nWernicke's aphasia\n(receptive aphasia) -> patient unable to process sensory input and does not understand verbal communication\nBroca's aphasia\n(expressive aphasia) -> patient unable to communicate verbally, even though understanding may be intact\nNondominant hemisphere involved: dysarthria (motor deficit of the mouth and speech muscles; understanding intact) w/o aphasia, inattention and neglect side opposite to infarct\nContralateral homonymous hemianopsia\nGaze preference toward side of infarct\nAgnosia (inability to recognize previously known subjects)",
+          "tables": []
+        },
+        "Posterior_circulation": {
+          "text": "Blood supply via the vertebral artery\nBranches include, AICA,\nBasilar artery\n,\nPCA\nand\nPICA\nSigns and Symptoms:\nCrossed neuro deficits (i.e., ipsilateral\nCN deficits\nw/ contralateral motor\nweakness\n)\nMultiple, simultaneous complaints are the rule (including\nloss of consciousness\n,\nnausea/vomiting\n, alexia, visual agnosia)\n5 Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nIsolated events are not attributable to vertebral occlusive disease (e.g. isolated lightheadedness, vertigo, transient ALOC, drop attacks)\nApproximately 25% associated with aortic dissection",
+          "tables": []
+        },
+        "Basilar_artery": {
+          "text": "Signs and Symptoms:\nQuadriplegia\n,\ncoma\n, locked-in syndrome\n\"Crossed signs\" in which a patient has unilateral cranial nerve deficits but contralateral hemiparesis and hemisensory loss suggest brainstem infarction\nMillard-Gubler syndrome (ventral pontine syndrome) -- ipsilateral\nCN VI\nand\nVII palsy\nwith contralateral hemiplegia of extremities\nSparing of vertical eye movements (CN III exits brainstem just above lesion)\nThus, may also have miosis b/l\nOne and a half syndrome (seen in a variety of brainstem infarctions)\n\"Half\" - INO (\ninternuclear ophthalmoplegia\n) in one direction\n\"One\" - inability for conjugate gaze in other direction\nConvergence and vertical EOM intact\nMedial inferior pontine syndrome (paramedian basilar artery branch)\nIpsilateral conjugate gaze towards lesion (PPRF),\nnystagmus\n(CN VIII),\nataxia\n,\ndiplopia\non lateral gaze (CN VI)\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial midpontine syndrome (paramedian midbasilar artery branch)\nIpsilateral\nataxia\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial superior pontine syndrome (paramedian upper basilar artery branches)\nIpsilateral\nataxia\n,\nINO\n, myoclonus of pharynx/vocal cords/face\nContralateral face/arm/leg\nparalysis\nand decreased proprioception",
+          "tables": []
+        },
+        "Superior_Cerebellar_Artery_(SCA)": {
+          "text": "~2% of all cerebral infarctions\n[3]\nMay present with nonspecific symptoms -\nnausea/vomiting\n,\ndizziness\n,\nataxia\n,\nnystagmus\n(more commonly horizontal)\n[4]\nLateral superior pontine syndrome\nIpsilateral\nataxia\n,\nnausea/vomiting\n,\nnystagmus\n,\nHorner syndrome\n, conjugate gaze paresis\nContralateral loss of pain/temperature in face/extremities/trunk, and loss of proprioception/vibration in LE > UE",
+          "tables": []
+        },
+        "Posterior_Cerebral_Artery_(PCA)": {
+          "text": "Signs and Symptoms:\nCommon after CPR, as occipital cortex is a watershed area\nUnilateral headache (most common presenting complaint)\nVisual field defects (contralateral homonymous hemianopsia, unilateral blindness)\nVisual agnosia - can't recognize objects\nPossible macular sparing if MCA unaffected\nMotor function is typically minimally affected\nLateral midbrain syndrome (penetrating arteries from PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral hemi\nataxia\n,\ntremor\n, hyperkinesis (red nucleus)\nMedial midbrain syndrome (upper basilar and proximal PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral\nparalysis\nof face, arm, leg (corticospinal)",
+          "tables": []
+        },
+        "Anterior_Inferior_Cerebellar_Artery_(AICA)": {
+          "text": "Lateral inferior pontine syndrome\nIpsilateral\nfacial paralysis\n, loss of corneal reflex (CN VII)\nIpsilateral loss of pain/temperature (CN V)\nNystagmus\n,\nnausea/vomiting\n,\nvertigo\n, ipsilateral\nhearing loss\n(CN VIII)\nIpsilateral limb and gait\nataxia\nIpsilateral\nHorner syndrome\nContralateral loss of pain/temperature in trunk and extremities (lateral spinothalamic)",
+          "tables": []
+        },
+        "Posterior_Inferior_Cerebellar_Artery_(PICA)": {
+          "text": "Signs and Symptoms:\nLateral medullary/Wallenberg syndrome\nIpsilateral cerebellar signs, ipsilateral loss of pain/temperature of face, ipsilateral\nHorner syndrome\n, ipsilateral\ndysphagia\nand\nhoarseness\n,\ndysarthria\n,\nvertigo\n/\nnystagmus\nContralateral loss of pain/temp over body\nAlso caused by vertebral artery occlusion (most cases)",
+          "tables": []
+        },
+        "Internal_Capsule_and_Lacunar_Infarcts": {
+          "text": "May present with either lacunar c/l pure motor or c/l pure sensory (of face and body)\n[5]\nPure c/l motor - posterior limb of internal capsule infarct\nPure c/l sensory - thalamic infarct (Dejerine and Roussy syndrome)\nC/l motor plus sensory if large enough\nClinically to cortical large ACA + MCA stroke - the following signs suggest cortical rather than internal capsule\n[6]\n:\nGaze preference\nVisual field defects\nAphasia (dominant lesion, MCA)\nSpatial neglect (non-dominant lesion)\nOthers\nIpsilateral ataxic\nhemiparesis\n, with legs worse than arms - posterior limb of internal capsule infarct\nDysarthria\n/Clumsy Hand Syndrome - basilar pons or anterior limb of internal capsule infarct",
+          "tables": []
+        },
+        "Superior_ASA": {
+          "text": "Medial medullary syndrome - displays alternating pattern of sidedness of symptoms below\nContralateral arm/leg\nweakness\nand proprioception/vibration\nTongue deviation towards lesion",
+          "tables": []
+        },
+        "Inferior_ASA": {
+          "text": "ASA syndrome\nWatershed area of hypoperfusion in T4-T8\nBilateral\npain/temp\nloss in trunk and extremities (spinothalamic)\nBilateral\nweakness\nin trunk and extremities (corticospinal)\nPreservation of dorsal columns",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Anterior_Cerebral_Artery_.28ACA.29"
+        },
+        {
+          "text": "MCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Middle_Cerebral_Artery_.28MCA.29"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "motor",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial plegia",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Basilar artery",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Basilar_artery"
+        },
+        {
+          "text": "PCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posterior_Cerebral_Artery_.28PCA.29"
+        },
+        {
+          "text": "PICA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posteroinferior_Cerebellar_Artery_.28PICA.29"
+        },
+        {
+          "text": "CN deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "VII palsy",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "INO",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "pain/temp",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Anterior_Circulation": {
+      "text": "Blood supply via internal carotid system\nIncludes\nACA\nand\nMCA",
+      "subsections": {
+        "Internal_Carotid_Artery": {
+          "text": "Tonic gaze deviation towards lesion\nGlobal aphasia, dysgraphia, dyslexia, dyscalculia, disorientation (dominant lesion)\nSpatial or visual neglect (non-dominant lesion)",
+          "tables": []
+        },
+        "Anterior_Cerebral_Artery_(ACA)": {
+          "text": "Signs and Symptoms:\nContralateral\nsensory\nand\nmotor\nsymptoms in the lower extremity (sparing hands/face)\nUrinary\nand bowel incontinence\nLeft sided lesion: akinetic mutism, transcortical motor aphasia\nRight sided lesion:\nConfusion\n, motor hemineglect\nPresence of primitive grasp and suck reflexes\nMay manifest gait apraxia",
+          "tables": []
+        },
+        "Middle_Cerebral_Artery_(MCA)": {
+          "text": "Signs and Symptoms:\nHemiparesis\n,\nfacial plegia\n,\nsensory loss\ncontralateral to affected cortex\nMotor deficits\nfound more commonly in face and upper extremity than lower extremity\nDominant hemisphere involved: aphasia\nWernicke's aphasia\n(receptive aphasia) -> patient unable to process sensory input and does not understand verbal communication\nBroca's aphasia\n(expressive aphasia) -> patient unable to communicate verbally, even though understanding may be intact\nNondominant hemisphere involved: dysarthria (motor deficit of the mouth and speech muscles; understanding intact) w/o aphasia, inattention and neglect side opposite to infarct\nContralateral homonymous hemianopsia\nGaze preference toward side of infarct\nAgnosia (inability to recognize previously known subjects)",
+          "tables": []
+        },
+        "Posterior_circulation": {
+          "text": "Blood supply via the vertebral artery\nBranches include, AICA,\nBasilar artery\n,\nPCA\nand\nPICA\nSigns and Symptoms:\nCrossed neuro deficits (i.e., ipsilateral\nCN deficits\nw/ contralateral motor\nweakness\n)\nMultiple, simultaneous complaints are the rule (including\nloss of consciousness\n,\nnausea/vomiting\n, alexia, visual agnosia)\n5 Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nIsolated events are not attributable to vertebral occlusive disease (e.g. isolated lightheadedness, vertigo, transient ALOC, drop attacks)\nApproximately 25% associated with aortic dissection",
+          "tables": []
+        },
+        "Basilar_artery": {
+          "text": "Signs and Symptoms:\nQuadriplegia\n,\ncoma\n, locked-in syndrome\n\"Crossed signs\" in which a patient has unilateral cranial nerve deficits but contralateral hemiparesis and hemisensory loss suggest brainstem infarction\nMillard-Gubler syndrome (ventral pontine syndrome) -- ipsilateral\nCN VI\nand\nVII palsy\nwith contralateral hemiplegia of extremities\nSparing of vertical eye movements (CN III exits brainstem just above lesion)\nThus, may also have miosis b/l\nOne and a half syndrome (seen in a variety of brainstem infarctions)\n\"Half\" - INO (\ninternuclear ophthalmoplegia\n) in one direction\n\"One\" - inability for conjugate gaze in other direction\nConvergence and vertical EOM intact\nMedial inferior pontine syndrome (paramedian basilar artery branch)\nIpsilateral conjugate gaze towards lesion (PPRF),\nnystagmus\n(CN VIII),\nataxia\n,\ndiplopia\non lateral gaze (CN VI)\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial midpontine syndrome (paramedian midbasilar artery branch)\nIpsilateral\nataxia\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial superior pontine syndrome (paramedian upper basilar artery branches)\nIpsilateral\nataxia\n,\nINO\n, myoclonus of pharynx/vocal cords/face\nContralateral face/arm/leg\nparalysis\nand decreased proprioception",
+          "tables": []
+        },
+        "Superior_Cerebellar_Artery_(SCA)": {
+          "text": "~2% of all cerebral infarctions\n[3]\nMay present with nonspecific symptoms -\nnausea/vomiting\n,\ndizziness\n,\nataxia\n,\nnystagmus\n(more commonly horizontal)\n[4]\nLateral superior pontine syndrome\nIpsilateral\nataxia\n,\nnausea/vomiting\n,\nnystagmus\n,\nHorner syndrome\n, conjugate gaze paresis\nContralateral loss of pain/temperature in face/extremities/trunk, and loss of proprioception/vibration in LE > UE",
+          "tables": []
+        },
+        "Posterior_Cerebral_Artery_(PCA)": {
+          "text": "Signs and Symptoms:\nCommon after CPR, as occipital cortex is a watershed area\nUnilateral headache (most common presenting complaint)\nVisual field defects (contralateral homonymous hemianopsia, unilateral blindness)\nVisual agnosia - can't recognize objects\nPossible macular sparing if MCA unaffected\nMotor function is typically minimally affected\nLateral midbrain syndrome (penetrating arteries from PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral hemi\nataxia\n,\ntremor\n, hyperkinesis (red nucleus)\nMedial midbrain syndrome (upper basilar and proximal PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral\nparalysis\nof face, arm, leg (corticospinal)",
+          "tables": []
+        },
+        "Anterior_Inferior_Cerebellar_Artery_(AICA)": {
+          "text": "Lateral inferior pontine syndrome\nIpsilateral\nfacial paralysis\n, loss of corneal reflex (CN VII)\nIpsilateral loss of pain/temperature (CN V)\nNystagmus\n,\nnausea/vomiting\n,\nvertigo\n, ipsilateral\nhearing loss\n(CN VIII)\nIpsilateral limb and gait\nataxia\nIpsilateral\nHorner syndrome\nContralateral loss of pain/temperature in trunk and extremities (lateral spinothalamic)",
+          "tables": []
+        },
+        "Posterior_Inferior_Cerebellar_Artery_(PICA)": {
+          "text": "Signs and Symptoms:\nLateral medullary/Wallenberg syndrome\nIpsilateral cerebellar signs, ipsilateral loss of pain/temperature of face, ipsilateral\nHorner syndrome\n, ipsilateral\ndysphagia\nand\nhoarseness\n,\ndysarthria\n,\nvertigo\n/\nnystagmus\nContralateral loss of pain/temp over body\nAlso caused by vertebral artery occlusion (most cases)",
+          "tables": []
+        },
+        "Internal_Capsule_and_Lacunar_Infarcts": {
+          "text": "May present with either lacunar c/l pure motor or c/l pure sensory (of face and body)\n[5]\nPure c/l motor - posterior limb of internal capsule infarct\nPure c/l sensory - thalamic infarct (Dejerine and Roussy syndrome)\nC/l motor plus sensory if large enough\nClinically to cortical large ACA + MCA stroke - the following signs suggest cortical rather than internal capsule\n[6]\n:\nGaze preference\nVisual field defects\nAphasia (dominant lesion, MCA)\nSpatial neglect (non-dominant lesion)\nOthers\nIpsilateral ataxic\nhemiparesis\n, with legs worse than arms - posterior limb of internal capsule infarct\nDysarthria\n/Clumsy Hand Syndrome - basilar pons or anterior limb of internal capsule infarct",
+          "tables": []
+        },
+        "Superior_ASA": {
+          "text": "Medial medullary syndrome - displays alternating pattern of sidedness of symptoms below\nContralateral arm/leg\nweakness\nand proprioception/vibration\nTongue deviation towards lesion",
+          "tables": []
+        },
+        "Inferior_ASA": {
+          "text": "ASA syndrome\nWatershed area of hypoperfusion in T4-T8\nBilateral\npain/temp\nloss in trunk and extremities (spinothalamic)\nBilateral\nweakness\nin trunk and extremities (corticospinal)\nPreservation of dorsal columns",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Anterior_Cerebral_Artery_.28ACA.29"
+        },
+        {
+          "text": "MCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Middle_Cerebral_Artery_.28MCA.29"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "motor",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial plegia",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Basilar artery",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Basilar_artery"
+        },
+        {
+          "text": "PCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posterior_Cerebral_Artery_.28PCA.29"
+        },
+        {
+          "text": "PICA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posteroinferior_Cerebellar_Artery_.28PICA.29"
+        },
+        {
+          "text": "CN deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "VII palsy",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "INO",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "pain/temp",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Posterior_circulation": {
+      "text": "Blood supply via the vertebral artery\nBranches include, AICA,\nBasilar artery\n,\nPCA\nand\nPICA\nSigns and Symptoms:\nCrossed neuro deficits (i.e., ipsilateral\nCN deficits\nw/ contralateral motor\nweakness\n)\nMultiple, simultaneous complaints are the rule (including\nloss of consciousness\n,\nnausea/vomiting\n, alexia, visual agnosia)\n5 Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nIsolated events are not attributable to vertebral occlusive disease (e.g. isolated lightheadedness, vertigo, transient ALOC, drop attacks)\nApproximately 25% associated with aortic dissection",
+      "subsections": {
+        "Basilar_artery": {
+          "text": "Signs and Symptoms:\nQuadriplegia\n,\ncoma\n, locked-in syndrome\n\"Crossed signs\" in which a patient has unilateral cranial nerve deficits but contralateral hemiparesis and hemisensory loss suggest brainstem infarction\nMillard-Gubler syndrome (ventral pontine syndrome) -- ipsilateral\nCN VI\nand\nVII palsy\nwith contralateral hemiplegia of extremities\nSparing of vertical eye movements (CN III exits brainstem just above lesion)\nThus, may also have miosis b/l\nOne and a half syndrome (seen in a variety of brainstem infarctions)\n\"Half\" - INO (\ninternuclear ophthalmoplegia\n) in one direction\n\"One\" - inability for conjugate gaze in other direction\nConvergence and vertical EOM intact\nMedial inferior pontine syndrome (paramedian basilar artery branch)\nIpsilateral conjugate gaze towards lesion (PPRF),\nnystagmus\n(CN VIII),\nataxia\n,\ndiplopia\non lateral gaze (CN VI)\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial midpontine syndrome (paramedian midbasilar artery branch)\nIpsilateral\nataxia\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial superior pontine syndrome (paramedian upper basilar artery branches)\nIpsilateral\nataxia\n,\nINO\n, myoclonus of pharynx/vocal cords/face\nContralateral face/arm/leg\nparalysis\nand decreased proprioception",
+          "tables": []
+        },
+        "Superior_Cerebellar_Artery_(SCA)": {
+          "text": "~2% of all cerebral infarctions\n[3]\nMay present with nonspecific symptoms -\nnausea/vomiting\n,\ndizziness\n,\nataxia\n,\nnystagmus\n(more commonly horizontal)\n[4]\nLateral superior pontine syndrome\nIpsilateral\nataxia\n,\nnausea/vomiting\n,\nnystagmus\n,\nHorner syndrome\n, conjugate gaze paresis\nContralateral loss of pain/temperature in face/extremities/trunk, and loss of proprioception/vibration in LE > UE",
+          "tables": []
+        },
+        "Posterior_Cerebral_Artery_(PCA)": {
+          "text": "Signs and Symptoms:\nCommon after CPR, as occipital cortex is a watershed area\nUnilateral headache (most common presenting complaint)\nVisual field defects (contralateral homonymous hemianopsia, unilateral blindness)\nVisual agnosia - can't recognize objects\nPossible macular sparing if MCA unaffected\nMotor function is typically minimally affected\nLateral midbrain syndrome (penetrating arteries from PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral hemi\nataxia\n,\ntremor\n, hyperkinesis (red nucleus)\nMedial midbrain syndrome (upper basilar and proximal PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral\nparalysis\nof face, arm, leg (corticospinal)",
+          "tables": []
+        },
+        "Anterior_Inferior_Cerebellar_Artery_(AICA)": {
+          "text": "Lateral inferior pontine syndrome\nIpsilateral\nfacial paralysis\n, loss of corneal reflex (CN VII)\nIpsilateral loss of pain/temperature (CN V)\nNystagmus\n,\nnausea/vomiting\n,\nvertigo\n, ipsilateral\nhearing loss\n(CN VIII)\nIpsilateral limb and gait\nataxia\nIpsilateral\nHorner syndrome\nContralateral loss of pain/temperature in trunk and extremities (lateral spinothalamic)",
+          "tables": []
+        },
+        "Posterior_Inferior_Cerebellar_Artery_(PICA)": {
+          "text": "Signs and Symptoms:\nLateral medullary/Wallenberg syndrome\nIpsilateral cerebellar signs, ipsilateral loss of pain/temperature of face, ipsilateral\nHorner syndrome\n, ipsilateral\ndysphagia\nand\nhoarseness\n,\ndysarthria\n,\nvertigo\n/\nnystagmus\nContralateral loss of pain/temp over body\nAlso caused by vertebral artery occlusion (most cases)",
+          "tables": []
+        },
+        "Internal_Capsule_and_Lacunar_Infarcts": {
+          "text": "May present with either lacunar c/l pure motor or c/l pure sensory (of face and body)\n[5]\nPure c/l motor - posterior limb of internal capsule infarct\nPure c/l sensory - thalamic infarct (Dejerine and Roussy syndrome)\nC/l motor plus sensory if large enough\nClinically to cortical large ACA + MCA stroke - the following signs suggest cortical rather than internal capsule\n[6]\n:\nGaze preference\nVisual field defects\nAphasia (dominant lesion, MCA)\nSpatial neglect (non-dominant lesion)\nOthers\nIpsilateral ataxic\nhemiparesis\n, with legs worse than arms - posterior limb of internal capsule infarct\nDysarthria\n/Clumsy Hand Syndrome - basilar pons or anterior limb of internal capsule infarct",
+          "tables": []
+        },
+        "Superior_ASA": {
+          "text": "Medial medullary syndrome - displays alternating pattern of sidedness of symptoms below\nContralateral arm/leg\nweakness\nand proprioception/vibration\nTongue deviation towards lesion",
+          "tables": []
+        },
+        "Inferior_ASA": {
+          "text": "ASA syndrome\nWatershed area of hypoperfusion in T4-T8\nBilateral\npain/temp\nloss in trunk and extremities (spinothalamic)\nBilateral\nweakness\nin trunk and extremities (corticospinal)\nPreservation of dorsal columns",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Basilar artery",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Basilar_artery"
+        },
+        {
+          "text": "PCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posterior_Cerebral_Artery_.28PCA.29"
+        },
+        {
+          "text": "PICA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posteroinferior_Cerebellar_Artery_.28PICA.29"
+        },
+        {
+          "text": "CN deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "VII palsy",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "INO",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "pain/temp",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Stroke-like_Symptoms": {
+          "text": "Stroke\nSeizures\n/postictal paralysis (Todd paralysis)\nSyncope\nSubdural hemorrhage\nEpidural hemorrhage\nHypoglycemia\nHyponatremia\nMeningitis\n/\nencephalitis\nHyperosmotic Coma\nLabyrinthitis\nDrug toxicity\nLithium\n,\nphenytoin\n,\ncarbamazepine\nBell's Palsy\nComplicated\nmigraine\nMeniere Disease\nDemyelinating disease (\nMS\n)\nConversion disorder\nTransient global amnesia\nGiant cell arteritis\nCerebral sinus thrombosis",
+          "tables": []
+        },
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Hyperosmotic Coma",
+          "url": "https://wikem.org/wiki/Hyperosmotic_Coma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Drug_toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_toxicity"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Transient global amnesia",
+          "url": "https://wikem.org/wiki/Transient_global_amnesia"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Stroke-like_Symptoms": {
+      "text": "Stroke\nSeizures\n/postictal paralysis (Todd paralysis)\nSyncope\nSubdural hemorrhage\nEpidural hemorrhage\nHypoglycemia\nHyponatremia\nMeningitis\n/\nencephalitis\nHyperosmotic Coma\nLabyrinthitis\nDrug toxicity\nLithium\n,\nphenytoin\n,\ncarbamazepine\nBell's Palsy\nComplicated\nmigraine\nMeniere Disease\nDemyelinating disease (\nMS\n)\nConversion disorder\nTransient global amnesia\nGiant cell arteritis\nCerebral sinus thrombosis",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Hyperosmotic Coma",
+          "url": "https://wikem.org/wiki/Hyperosmotic_Coma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Drug_toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_toxicity"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Transient global amnesia",
+          "url": "https://wikem.org/wiki/Transient_global_amnesia"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Always obtain blood glucose, which is commonly overlooked (more embarrassing if you give tPA)\nFind out last known normal of affected deficit and write it down in chart",
+      "subsections": {
+        "Stroke_Work-Up": {
+          "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[7]\nIn acute ICH the sensitivity is 95-100%\n[8]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[9]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+          "tables": []
+        },
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[10]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[11]\n(ACEP Level C)",
+          "tables": []
+        },
+        "Large_Vessel_Occlusion_-_Thrombectomy": {
+          "text": "\"Cortical strokes\" of ICA, MCA, and some ACA occlusions are most likely to benefit from thrombectomy\nCT perfusion study is the key factor in determining brain tissue salvageability from symptom onset to thrombectomy of 6-24 hours\n[12]\nIf CT perfusion unavailable, use ASPECT score\n[13]",
+          "tables": []
+        },
+        "VAN_Score": {
+          "text": "NIHSS score ≥ 6 is nearly 100% sensitive for emergent large vessel occlusion, which may be amenable to thrombectomy\n[14]\nVAN\nscore is just as sensitive, but also may be more specific (~90%)\nWeakness must be present, plus one or all of the VAN to be VAN positive\nWeakness qualifying findings -- if no weakness, the pt is VAN negative\nMild (minor drift)\nModerate (severe drift—touches or nearly touches ground)\nSevere (flaccid or no antigravity)\nV\nisual disturbance qualifying findings\nField cut (which side) (4 quadrants)\nDouble vision (ask patient to look to right then left; evaluate for uneven eyes)\nBlind new onset\nA\nphasia qualifying findings\nExpressive (inability to speak or paraphasic errors); do not count slurring of words (repeat and name 2 objects)\nReceptive (not understanding or following commands) (close eyes, make fist)\nMixed\nN\neglect qualifying findings\nForced gaze or inability to track to one side\nUnable to feel both sides at the same time, or unable to identify own arm\nIgnoring one side\nIf VAN positive, CT and CTA of the head should be ordered for consideration of thrombectomy plus/minus tPA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Stroke_Work-Up": {
+      "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[7]\nIn acute ICH the sensitivity is 95-100%\n[8]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[9]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+      "subsections": {
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[10]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[11]\n(ACEP Level C)",
+          "tables": []
+        },
+        "Large_Vessel_Occlusion_-_Thrombectomy": {
+          "text": "\"Cortical strokes\" of ICA, MCA, and some ACA occlusions are most likely to benefit from thrombectomy\nCT perfusion study is the key factor in determining brain tissue salvageability from symptom onset to thrombectomy of 6-24 hours\n[12]\nIf CT perfusion unavailable, use ASPECT score\n[13]",
+          "tables": []
+        },
+        "VAN_Score": {
+          "text": "NIHSS score ≥ 6 is nearly 100% sensitive for emergent large vessel occlusion, which may be amenable to thrombectomy\n[14]\nVAN\nscore is just as sensitive, but also may be more specific (~90%)\nWeakness must be present, plus one or all of the VAN to be VAN positive\nWeakness qualifying findings -- if no weakness, the pt is VAN negative\nMild (minor drift)\nModerate (severe drift—touches or nearly touches ground)\nSevere (flaccid or no antigravity)\nV\nisual disturbance qualifying findings\nField cut (which side) (4 quadrants)\nDouble vision (ask patient to look to right then left; evaluate for uneven eyes)\nBlind new onset\nA\nphasia qualifying findings\nExpressive (inability to speak or paraphasic errors); do not count slurring of words (repeat and name 2 objects)\nReceptive (not understanding or following commands) (close eyes, make fist)\nMixed\nN\neglect qualifying findings\nForced gaze or inability to track to one side\nUnable to feel both sides at the same time, or unable to identify own arm\nIgnoring one side\nIf VAN positive, CT and CTA of the head should be ordered for consideration of thrombectomy plus/minus tPA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Large_Vessel_Occlusion_-_Thrombectomy": {
+      "text": "\"Cortical strokes\" of ICA, MCA, and some ACA occlusions are most likely to benefit from thrombectomy\nCT perfusion study is the key factor in determining brain tissue salvageability from symptom onset to thrombectomy of 6-24 hours\n[12]\nIf CT perfusion unavailable, use ASPECT score\n[13]",
+      "subsections": {
+        "VAN_Score": {
+          "text": "NIHSS score ≥ 6 is nearly 100% sensitive for emergent large vessel occlusion, which may be amenable to thrombectomy\n[14]\nVAN\nscore is just as sensitive, but also may be more specific (~90%)\nWeakness must be present, plus one or all of the VAN to be VAN positive\nWeakness qualifying findings -- if no weakness, the pt is VAN negative\nMild (minor drift)\nModerate (severe drift—touches or nearly touches ground)\nSevere (flaccid or no antigravity)\nV\nisual disturbance qualifying findings\nField cut (which side) (4 quadrants)\nDouble vision (ask patient to look to right then left; evaluate for uneven eyes)\nBlind new onset\nA\nphasia qualifying findings\nExpressive (inability to speak or paraphasic errors); do not count slurring of words (repeat and name 2 objects)\nReceptive (not understanding or following commands) (close eyes, make fist)\nMixed\nN\neglect qualifying findings\nForced gaze or inability to track to one side\nUnable to feel both sides at the same time, or unable to identify own arm\nIgnoring one side\nIf VAN positive, CT and CTA of the head should be ordered for consideration of thrombectomy plus/minus tPA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Depends on type\nIschemic\nvs\nHemorrhagic\nAcute vs subacute vs old\nDue to risk for hemorrhagic transformation, there is no role in acute completed stroke for:\nDual antiplatelet therapy (as opposed in select cases of\nTIA\n)\nAnticoagulation, with or without atrial fibrillation",
+      "subsections": {
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Common_Medications_for_BP_Control_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Labetalol",
+                "Typica Dose/Range": "10-20 mg IV push; may repeat x 1",
+                "Onset of Action": "5 min",
+                "Cautions/Contraindications": "Avoid in COPD, asthma, heart failure, bradycardia, heart block"
+              },
+              {
+                "Agent": "Nicardipine",
+                "Typica Dose/Range": "IV infusion at 5 mg/h; titrate up by 2.5 mh/h q5-15 min; max 15 mg/h",
+                "Onset of Action": "1-5 min",
+                "Cautions/Contraindications": "Avoid in severe aortic stenosis"
+              },
+              {
+                "Agent": "Clevidipine",
+                "Typica Dose/Range": "1-2 mg/h IV; titrate by doubling dose q2-5 min; max 21 mg/h",
+                "Onset of Action": "2-4 min; short half-life",
+                "Cautions/Contraindications": "Avoid in egg/soy allergy"
+              },
+              {
+                "Agent": "Hydralazine",
+                "Typica Dose/Range": "10-20 mg IV; repeat q4-6 h",
+                "Onset of Action": "10-20 min",
+                "Cautions/Contraindications": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Hemorrhagic",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        }
+      ]
+    },
+    "BP_Goals_in_Acute_Stroke": {
+      "text": "",
+      "subsections": {
+        "Common_Medications_for_BP_Control_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Labetalol",
+                "Typica Dose/Range": "10-20 mg IV push; may repeat x 1",
+                "Onset of Action": "5 min",
+                "Cautions/Contraindications": "Avoid in COPD, asthma, heart failure, bradycardia, heart block"
+              },
+              {
+                "Agent": "Nicardipine",
+                "Typica Dose/Range": "IV infusion at 5 mg/h; titrate up by 2.5 mh/h q5-15 min; max 15 mg/h",
+                "Onset of Action": "1-5 min",
+                "Cautions/Contraindications": "Avoid in severe aortic stenosis"
+              },
+              {
+                "Agent": "Clevidipine",
+                "Typica Dose/Range": "1-2 mg/h IV; titrate by doubling dose q2-5 min; max 21 mg/h",
+                "Onset of Action": "2-4 min; short half-life",
+                "Cautions/Contraindications": "Avoid in egg/soy allergy"
+              },
+              {
+                "Agent": "Hydralazine",
+                "Typica Dose/Range": "10-20 mg IV; repeat q4-6 h",
+                "Onset of Action": "10-20 min",
+                "Cautions/Contraindications": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Stoke Type": "Acuteischemic stroke",
+            "Target BP(mm Hg)": "",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "IVtPAeligble",
+            "Target BP(mm Hg)": "<185/110",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "During/aftertPA",
+            "Target BP(mm Hg)": "<180/105",
+            "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+          },
+          {
+            "Stoke Type": "NotPA",
+            "Target BP(mm Hg)": "<220/120",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Mechanical thrombectomy",
+            "Target BP(mm Hg)": "≤180/105",
+            "Notes": "Maintain during and for 24 h after procedure"
+          },
+          {
+            "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+            "Target BP(mm Hg)": "",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Unsecured",
+            "Target BP(mm Hg)": "SBP <140-160",
+            "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+          },
+          {
+            "Stoke Type": "Secured",
+            "Target BP(mm Hg)": "Unclear",
+            "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+          },
+          {
+            "Stoke Type": "Intraparenchymal hemorrhage",
+            "Target BP(mm Hg)": "",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Initial SPB 150-220",
+            "Target BP(mm Hg)": "SBP <140",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Initial SPB >220",
+            "Target BP(mm Hg)": "SBP 140-160",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Common_Medications_for_BP_Control_in_Acute_Stroke": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Labetalol",
+            "Typica Dose/Range": "10-20 mg IV push; may repeat x 1",
+            "Onset of Action": "5 min",
+            "Cautions/Contraindications": "Avoid in COPD, asthma, heart failure, bradycardia, heart block"
+          },
+          {
+            "Agent": "Nicardipine",
+            "Typica Dose/Range": "IV infusion at 5 mg/h; titrate up by 2.5 mh/h q5-15 min; max 15 mg/h",
+            "Onset of Action": "1-5 min",
+            "Cautions/Contraindications": "Avoid in severe aortic stenosis"
+          },
+          {
+            "Agent": "Clevidipine",
+            "Typica Dose/Range": "1-2 mg/h IV; titrate by doubling dose q2-5 min; max 21 mg/h",
+            "Onset of Action": "2-4 min; short half-life",
+            "Cautions/Contraindications": "Avoid in egg/soy allergy"
+          },
+          {
+            "Agent": "Hydralazine",
+            "Typica Dose/Range": "10-20 mg IV; repeat q4-6 h",
+            "Onset of Action": "10-20 min",
+            "Cautions/Contraindications": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for acute or subacute stroke",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transient Ischemic Attack (TIA)\nThrombolysis in Acute Ischemic Stroke (tPA)\nCVA (Post-tPA Hemorrhage)\nIntracerebral Hemorrhage\nSubarachnoid Hemorrhage (SAH)\nCervical Artery Dissection\nNIH Stroke Scale\nCerebellar Stroke\nFocal neurologic signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transient Ischemic Attack (TIA)",
+          "url": "https://wikem.org/wiki/Transient_Ischemic_Attack_(TIA)"
+        },
+        {
+          "text": "Thrombolysis in Acute Ischemic Stroke (tPA)",
+          "url": "https://wikem.org/wiki/Thrombolysis_in_Acute_Ischemic_Stroke_(tPA)"
+        },
+        {
+          "text": "CVA (Post-tPA Hemorrhage)",
+          "url": "https://wikem.org/wiki/CVA_(Post-tPA_Hemorrhage)"
+        },
+        {
+          "text": "Intracerebral Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_Hemorrhage"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        },
+        {
+          "text": "Cervical Artery Dissection",
+          "url": "https://wikem.org/wiki/Cervical_Artery_Dissection"
+        },
+        {
+          "text": "NIH Stroke Scale",
+          "url": "https://wikem.org/wiki/NIH_Stroke_Scale"
+        },
+        {
+          "text": "Cerebellar Stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_Stroke"
+        },
+        {
+          "text": "Focal neurologic signs",
+          "url": "https://wikem.org/wiki/Focal_neurologic_signs"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - NIH Stroke Scale/Score\nEmergency medicine cases - ED stroke management in the age of endovascular therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

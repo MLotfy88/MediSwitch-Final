@@ -1,0 +1,317 @@
+{
+  "drug_name": "Sulfonylurea_toxicity",
+  "url": "https://wikem.org/wiki/Sulfonylurea_toxicity",
+  "scraped_at": "2026-01-10T08:02:55.580725",
+  "sections": {
+    "Background": {
+      "text": "Sulfonylureas are a commonly prescribed oral diabetes medication, and include\nglyburide\n, glimepiride,\nglipizide\nchlorpropamide, tolazamide\nInhibit potassium efflux from pancreatic beta cells→ increased insulin release",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "glyburide",
+          "url": "https://wikem.org/wiki/Glyburide"
+        },
+        {
+          "text": "glipizide",
+          "url": "https://wikem.org/wiki/Glipizide"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hypoglycemia\nCan occur at therapeutic doses in renally impaired patients\nHypoglycemia often prolonged and severe\nOnset within 8 hours of ingestion\nPediatrics\n: one pill can kill!!",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Drugs": {
+          "text": "Anti-hyperglycemic\nInsulin\nOral secretagogue\nSulfonylurea toxicity\nOther\nEtOH\nB-blocker\nACEI\nAcetaminophen (OD)",
+          "tables": []
+        },
+        "Systemic_Illness": {
+          "text": "Critical Illness\nSepsis\nMI\nOrgan Failure\nHepatic failure\nRenal failure\nEndocrinopathy\nAdrenal insufficiency\nSeizure\nInborn errors of metabolism",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Insulinoma\nNon-islet cell\nInsulin/receptor autoantibodies\nHigh tumor burden",
+          "tables": []
+        },
+        "Other": {
+          "text": "Artifactual\nSpecimen collection\nConsumption\nLeukemia\nErythrocytosis\nHemolytic disease\nPost-surgical\nGastric bypass\nGastrectomy\nPyloroplasty\nStarvation\nAnorexia nervosa",
+          "tables": []
+        },
+        "Precipitants_of_anti-hyperglycemic_induced_hypoglycemia": {
+          "text": "Decreased glucose\nMissed meal\nConsumption (exercise, illness)\nIncreased drug\nError (patient, provider)\nIntentional overdose\nIncreased availability\nHepatic failure\nRenal failure\nDrug interaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/B-blocker"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Acetaminophen (OD)",
+          "url": "https://wikem.org/wiki/Acetaminophen_Overdose"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Hemolytic disease",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Gastric bypass",
+          "url": "https://wikem.org/wiki/Gastric_bypass_surgery"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Hypoglycemia": {
+      "text": "",
+      "subsections": {
+        "Drugs": {
+          "text": "Anti-hyperglycemic\nInsulin\nOral secretagogue\nSulfonylurea toxicity\nOther\nEtOH\nB-blocker\nACEI\nAcetaminophen (OD)",
+          "tables": []
+        },
+        "Systemic_Illness": {
+          "text": "Critical Illness\nSepsis\nMI\nOrgan Failure\nHepatic failure\nRenal failure\nEndocrinopathy\nAdrenal insufficiency\nSeizure\nInborn errors of metabolism",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Insulinoma\nNon-islet cell\nInsulin/receptor autoantibodies\nHigh tumor burden",
+          "tables": []
+        },
+        "Other": {
+          "text": "Artifactual\nSpecimen collection\nConsumption\nLeukemia\nErythrocytosis\nHemolytic disease\nPost-surgical\nGastric bypass\nGastrectomy\nPyloroplasty\nStarvation\nAnorexia nervosa",
+          "tables": []
+        },
+        "Precipitants_of_anti-hyperglycemic_induced_hypoglycemia": {
+          "text": "Decreased glucose\nMissed meal\nConsumption (exercise, illness)\nIncreased drug\nError (patient, provider)\nIntentional overdose\nIncreased availability\nHepatic failure\nRenal failure\nDrug interaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/B-blocker"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Acetaminophen (OD)",
+          "url": "https://wikem.org/wiki/Acetaminophen_Overdose"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Hemolytic disease",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Gastric bypass",
+          "url": "https://wikem.org/wiki/Gastric_bypass_surgery"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Hypoglycemia\n+ known or suspected ingestion\nBMP, creatinine, decrease in renal clearance may have led to toxicity\nSerial POC glucose measurements\nRoutine ingestion labs if suspect intentional OD\nAcetaminophen\nand\nsalicylate\nlevels\nECG\n, look for QRS widening and QTc prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "salicylate",
+          "url": "https://wikem.org/wiki/Salicylate"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Activated_charcoal": {
+          "text": "Administer activated charcoal, preferably within 1 hr of ingestion\nMultiple doses may be beneficial, especially for glipizide",
+          "tables": []
+        },
+        "Glucose_Treatment": {
+          "text": "Initial therapy regardless of known cause\nAdults\n50mL\nD50W\nbolus\nStart a D10 1/2NS drip  (100mL/hr)\nChildren\n1mL/kg of D50W OR\n2mL/kg D25W OR 5-10mL/kg D10W\nNeonate: 5-10 mL/kg D10W",
+          "tables": []
+        },
+        "Octreotide": {
+          "text": "Theoretical benefit to reduce risk of recurrent hypoglycemia\nHyperpolarization of the beta cell results in inhibition of Ca influx and prevents insulin release\n50-100 mcg subcutaneous in adults with repeat dosing Q6hrs\n2 mcg/kg (max 150mcg) subcutaneously Q6hrs should be used in children\nContinuous infusion of 50-125 mcg/hr is an alternative in adults\nAdminister octreotide for 24 hours, then after discontinuing, monitor for hypoglycemia for another 24 hours",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Glucagon\n5mg IM may be used as temporizing measure, e.g. while obtaining IV access\nDependent on glycogen stores which may be depleted in prolonged hypoglycemia\nAlso short duration of action\nCaution in using\nglucagon\ndrip\nGlucagon\nalso has an insulin-releasing effect\nMay subsequently cause initial paradoxical hypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nBecause of prolonged effect, not appropriate to discharge from ED even with normal glucose and patient tolerating PO, as hypoglycaemia may recur over 24h or more",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypoglycemia\nDiabetes medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Diabetes medications",
+          "url": "https://wikem.org/wiki/Diabetes_medications"
+        }
+      ]
+    }
+  }
+}

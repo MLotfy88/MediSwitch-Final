@@ -1,0 +1,66 @@
+{
+  "drug_name": "Superior_mesenteric_artery_syndrome",
+  "url": "https://wikem.org/wiki/Superior_mesenteric_artery_syndrome",
+  "scraped_at": "2026-01-10T08:02:59.229506",
+  "sections": {
+    "Background": {
+      "text": "AKA: Wilke's syndrome\nRare condition, first described by Von Rokitansky in 1861 and then further studied in detail by Wilke in 1912\nOccurs when duodenum is compressed between aorta and superior mesenteric artery\nCan lead to gastrointestinal obstruction at level of duodenum\nChronic, intermittent, or acute\nPartial or complete\nControversy over this diagnosis",
+      "subsections": {
+        "Etiology": {
+          "text": "SMA takes off from the abdominal aorta at about 45 degree angle, due to cushioning from fatty/lymphatic tissue called mesenteric pad\nThird part of the duodenum courses between the angle formed\nNarrowing of this angle can cause entrap and compress of the duodenum\nFactors that narrow this angle include:\nSignificant weight loss (most common cause)\nCorrective spinal surgery for scoliosis lengthens the spine\nCongenital defects, suggested genetic predisposition\nAbdominal adhesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Etiology": {
+      "text": "SMA takes off from the abdominal aorta at about 45 degree angle, due to cushioning from fatty/lymphatic tissue called mesenteric pad\nThird part of the duodenum courses between the angle formed\nNarrowing of this angle can cause entrap and compress of the duodenum\nFactors that narrow this angle include:\nSignificant weight loss (most common cause)\nCorrective spinal surgery for scoliosis lengthens the spine\nCongenital defects, suggested genetic predisposition\nAbdominal adhesions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Early satiety, belching, post-prandial bloating, weight loss\nNausea and vomiting\n, can be bilious\nAbdominal pain\n, mid-abdomen, may be improved with changes of position\nProximal\nsmall bowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "See\nAbdominal Pain\nSee\nNausea and vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Evaluate for alternative causes of symptoms and for complications\nSuspected based on signs and symptoms\nDiagnosis confirmed by imaging:\nUpper GI series\nUpper endoscopy\nCT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Correct\ndehydration\n,\nelectrolyte abnormalities\n,\nmalnutrition\nPrimary goal is to correct the underlying cause, typically regain lost weight\nAcute management:\nAdjusting body position to alleviate symptoms, such as knee to chest or lying on left side\nNasogastric tube\nfor decompression\nSome patients may require a feeding tube distal to the obstruction or parenteral nutrition\nSurgery sometimes indicated\nStrong's procedure: duodenum moved to the right of the SMA\nGastrojejunostomy, duodenojejunostomy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on clinical presentation\nIf complete obstruction, admission for decompression and nutrition\nOutcome excellent with early diagnosis and appropriate treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute gastric dilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "1. <Karrer FM. Superior Mesenteric Artery Syndrome. Medscape Reference. Jan 2017;\nhttp://emedicine.medscape.com/article/932220-overview\n.>\n2. <Pleoa A, Constantinescu C, Crumpei F, and Cotea E. Superior mesenteric artery syndrome: an unusual cause of intestinal obstruction. \"J Gastrointest Liver Dis\". Mar 2006; 15(1): 69-72.>\n3. <Lorentziadis M. Wilke's syndrome. A rare cause of duodenal obstruction. \"Ann Gastroenterol.\" 2011; 24(1): 59-61.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "drug_name": "Surgical_procedures_for_congenital_heart_defects",
+  "url": "https://wikem.org/wiki/Surgical_procedures_for_congenital_heart_defects",
+  "scraped_at": "2026-01-10T08:03:02.110064",
+  "sections": {
+    "Intro": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Procedure": "Rashkind balloon atrial septostomy",
+            "Cardiac Lesion": "Transposition of the great arteries",
+            "Objective": "Palliative procedure, creates an atrial communication to allow for the mixing of oxygenated and deoxygenated blood."
+          },
+          {
+            "Procedure": "Blalock-Taussig shunt, modified Blalock-Taussig shunt (Gore-Tec shunt involving less dissection)",
+            "Cardiac Lesion": "Pulmonary stenosis, pulmonary atresia,tetralogy of Fallot",
+            "Objective": "Connects the subclavian artery to the ipsilateral pulmonary artery allowing for improved pulmonary blood flow."
+          },
+          {
+            "Procedure": "Fontan procedure",
+            "Cardiac Lesion": "Hypoplastic left heart syndrome,tricuspid atresia, hypoplastic right heart syndrome, single right ventricle lesions",
+            "Objective": "Cavocaval baffle to pulmonary artery anastomosis allows all systemic venous return to the directed to the pulmonary arteries."
+          },
+          {
+            "Procedure": "Arterial switch operation",
+            "Cardiac Lesion": "Transposition of the great arteries",
+            "Objective": "Aortic trunk is connected to the left ventricle, pulmonic trunk is connected to the right ventricle."
+          },
+          {
+            "Procedure": "Glenn operation",
+            "Cardiac Lesion": "Hypoplastic left heart syndrome, hypoplastic right heart syndrome",
+            "Objective": "Cavopulmonary shunt connects the superior vena cava to the right pulmonary artery."
+          },
+          {
+            "Procedure": "Norwood operation, Norwood operation with Sano modification",
+            "Cardiac Lesion": "Hypoplastic left heart syndrome, single ventricle lesions with aortic stenosis or hypoplasia",
+            "Objective": "Aortic arch reconstruction using the main pulmonary artery and ascending aorta, atrial septectomy, and modified Blalock-Taussig shunt provides unobstructed systemic blood flow and adequate coronary artery perfusion."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Surgical_Procedures_for_the_Treatment_of_Congenital_Heart_Defects": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Procedure": "Rashkind balloon atrial septostomy",
+            "Cardiac Lesion": "Transposition of the great arteries",
+            "Objective": "Palliative procedure, creates an atrial communication to allow for the mixing of oxygenated and deoxygenated blood."
+          },
+          {
+            "Procedure": "Blalock-Taussig shunt, modified Blalock-Taussig shunt (Gore-Tec shunt involving less dissection)",
+            "Cardiac Lesion": "Pulmonary stenosis, pulmonary atresia,tetralogy of Fallot",
+            "Objective": "Connects the subclavian artery to the ipsilateral pulmonary artery allowing for improved pulmonary blood flow."
+          },
+          {
+            "Procedure": "Fontan procedure",
+            "Cardiac Lesion": "Hypoplastic left heart syndrome,tricuspid atresia, hypoplastic right heart syndrome, single right ventricle lesions",
+            "Objective": "Cavocaval baffle to pulmonary artery anastomosis allows all systemic venous return to the directed to the pulmonary arteries."
+          },
+          {
+            "Procedure": "Arterial switch operation",
+            "Cardiac Lesion": "Transposition of the great arteries",
+            "Objective": "Aortic trunk is connected to the left ventricle, pulmonic trunk is connected to the right ventricle."
+          },
+          {
+            "Procedure": "Glenn operation",
+            "Cardiac Lesion": "Hypoplastic left heart syndrome, hypoplastic right heart syndrome",
+            "Objective": "Cavopulmonary shunt connects the superior vena cava to the right pulmonary artery."
+          },
+          {
+            "Procedure": "Norwood operation, Norwood operation with Sano modification",
+            "Cardiac Lesion": "Hypoplastic left heart syndrome, single ventricle lesions with aortic stenosis or hypoplasia",
+            "Objective": "Aortic arch reconstruction using the main pulmonary artery and ascending aorta, atrial septectomy, and modified Blalock-Taussig shunt provides unobstructed systemic blood flow and adequate coronary artery perfusion."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital Heart Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital Heart Disease",
+          "url": "https://wikem.org/wiki/Congenital_Heart_Disease"
+        }
+      ]
+    }
+  }
+}

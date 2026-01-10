@@ -1,0 +1,633 @@
+{
+  "drug_name": "Sympathomimetic_toxicity",
+  "url": "https://wikem.org/wiki/Sympathomimetic_toxicity",
+  "scraped_at": "2026-01-10T08:03:02.030816",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Sympathomimetics": {
+      "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        },
+        "Toxidrome_Chart": {
+          "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+          "tables": [
+            [
+              {
+                "Finding": "Example",
+                "Cholinergic": "Organophosphates",
+                "Anticholinergic": "TCAs",
+                "Sympathomimetic": "Cocaine",
+                "Sympatholytic^": "Clonidine",
+                "Sedative/Hypnotic": "ETOH"
+              },
+              {
+                "Finding": "Temp",
+                "Cholinergic": "Nl",
+                "Anticholinergic": "Nl / ↑",
+                "Sympathomimetic": "Nl / ↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "RR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Nl / ↓",
+                "Sympathomimetic": "Variable",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "HR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑ (sig)",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "BP",
+                "Cholinergic": "↑",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "LOC",
+                "Cholinergic": "Nl / Lethargic",
+                "Anticholinergic": "Nl, agitated, psychotic, comatose",
+                "Sympathomimetic": "Nl, agitated, psychotic",
+                "Sympatholytic^": "Nl, Lethargic, or Comatose",
+                "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+              },
+              {
+                "Finding": "Pupils",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Mydriatic",
+                "Sympathomimetic": "Mydriatic",
+                "Sympatholytic^": "Nl / Miotic",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Motor",
+                "Cholinergic": "Fasciculations, Flacid Paralysis",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl / Agitated",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Skin",
+                "Cholinergic": "Sweating (sig)",
+                "Anticholinergic": "Hot, dry",
+                "Sympathomimetic": "Sweating",
+                "Sympatholytic^": "Dry",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Lungs",
+                "Cholinergic": "Bronchospasm / rhinorrhea",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Bowel Sounds",
+                "Cholinergic": "Hyperactive (SLUDGE)",
+                "Anticholinergic": "↓ / Absent",
+                "Sympathomimetic": "Nl / ↓",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {
+        "Toxidrome_Chart": {
+          "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+          "tables": [
+            [
+              {
+                "Finding": "Example",
+                "Cholinergic": "Organophosphates",
+                "Anticholinergic": "TCAs",
+                "Sympathomimetic": "Cocaine",
+                "Sympatholytic^": "Clonidine",
+                "Sedative/Hypnotic": "ETOH"
+              },
+              {
+                "Finding": "Temp",
+                "Cholinergic": "Nl",
+                "Anticholinergic": "Nl / ↑",
+                "Sympathomimetic": "Nl / ↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "RR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Nl / ↓",
+                "Sympathomimetic": "Variable",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "HR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑ (sig)",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "BP",
+                "Cholinergic": "↑",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "LOC",
+                "Cholinergic": "Nl / Lethargic",
+                "Anticholinergic": "Nl, agitated, psychotic, comatose",
+                "Sympathomimetic": "Nl, agitated, psychotic",
+                "Sympatholytic^": "Nl, Lethargic, or Comatose",
+                "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+              },
+              {
+                "Finding": "Pupils",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Mydriatic",
+                "Sympathomimetic": "Mydriatic",
+                "Sympatholytic^": "Nl / Miotic",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Motor",
+                "Cholinergic": "Fasciculations, Flacid Paralysis",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl / Agitated",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Skin",
+                "Cholinergic": "Sweating (sig)",
+                "Anticholinergic": "Hot, dry",
+                "Sympathomimetic": "Sweating",
+                "Sympatholytic^": "Dry",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Lungs",
+                "Cholinergic": "Bronchospasm / rhinorrhea",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Bowel Sounds",
+                "Cholinergic": "Hyperactive (SLUDGE)",
+                "Anticholinergic": "↓ / Absent",
+                "Sympathomimetic": "Nl / ↓",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Toxidrome_Chart": {
+      "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Example",
+            "Cholinergic": "Organophosphates",
+            "Anticholinergic": "TCAs",
+            "Sympathomimetic": "Cocaine",
+            "Sympatholytic^": "Clonidine",
+            "Sedative/Hypnotic": "ETOH"
+          },
+          {
+            "Finding": "Temp",
+            "Cholinergic": "Nl",
+            "Anticholinergic": "Nl / ↑",
+            "Sympathomimetic": "Nl / ↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "RR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Nl / ↓",
+            "Sympathomimetic": "Variable",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "HR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑ (sig)",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "BP",
+            "Cholinergic": "↑",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "LOC",
+            "Cholinergic": "Nl / Lethargic",
+            "Anticholinergic": "Nl, agitated, psychotic, comatose",
+            "Sympathomimetic": "Nl, agitated, psychotic",
+            "Sympatholytic^": "Nl, Lethargic, or Comatose",
+            "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+          },
+          {
+            "Finding": "Pupils",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Mydriatic",
+            "Sympathomimetic": "Mydriatic",
+            "Sympatholytic^": "Nl / Miotic",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Motor",
+            "Cholinergic": "Fasciculations, Flacid Paralysis",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl / Agitated",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Skin",
+            "Cholinergic": "Sweating (sig)",
+            "Anticholinergic": "Hot, dry",
+            "Sympathomimetic": "Sweating",
+            "Sympatholytic^": "Dry",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Lungs",
+            "Cholinergic": "Bronchospasm / rhinorrhea",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Bowel Sounds",
+            "Cholinergic": "Hyperactive (SLUDGE)",
+            "Anticholinergic": "↓ / Absent",
+            "Sympathomimetic": "Nl / ↓",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work_Up": {
+          "text": "Laboratory\nFinger stick glucose (to rule out hypoglycemia)\nAcetaminophen and Salicylate level\nUrine Drug Screen (to verify toxic substance, do not delay treatment for results)\nSerum electrolytes\nSerum creatine phosphokinase\nCreatinine and BUN\nUrine analysis with myoglobin\nArterial or venous blood gas if respiratory symptoms present\nCardiac\nECG\nfor prolongation of QTc or QRS intervals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Work_Up": {
+      "text": "Laboratory\nFinger stick glucose (to rule out hypoglycemia)\nAcetaminophen and Salicylate level\nUrine Drug Screen (to verify toxic substance, do not delay treatment for results)\nSerum electrolytes\nSerum creatine phosphokinase\nCreatinine and BUN\nUrine analysis with myoglobin\nArterial or venous blood gas if respiratory symptoms present\nCardiac\nECG\nfor prolongation of QTc or QRS intervals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Use\nBenzodiazepines\nas first line agent for agitation, hypertension, and hyperthermia\nMay also use Nitroprusside or Phentolamine\nTreat with fluid resuscitation to avoid renal failure secondary to rhabdomyolysis (see below)",
+      "subsections": {
+        "Avoid": {
+          "text": "Avoid\nsuccinylcholine\ndue to potential for\nhyperkalemia\nin these patients\nAvoid antipyretics\nAvoid pure\nbeta-blockers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        }
+      ]
+    },
+    "Avoid": {
+      "text": "Avoid\nsuccinylcholine\ndue to potential for\nhyperkalemia\nin these patients\nAvoid antipyretics\nAvoid pure\nbeta-blockers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Rhabdomyolysis\nis common complication\n[1]\nBath Salts\n-  63%\n[1]\nAmphetamines\n- 40%\nCocaine\n- 33%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Bath Salts",
+          "url": "https://wikem.org/wiki/Bath_Salts"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Toxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "drug_name": "Subchorionic_hematoma",
+  "url": "https://wikem.org/wiki/Subchorionic_hematoma",
+  "scraped_at": "2026-01-10T08:02:50.418592",
+  "sections": {
+    "Background": {
+      "text": "Bleeding underneath the chorion membranes enclosing the fetus in the uterus\nMost common cause of vaginal bleeding in patients who are 10-20 weeks by gestational age, make up ~11% of cases\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vaginal bleeding\nIncreased risk of pregnancy loss, particularly when amounting to 25% or more of the gestational sac\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(<20wks)": {
+          "text": "Ectopic pregnancy\nSubchorionic hematoma\nFirst Trimester Abortion\nComplete Abortion\nIncomplete Abortion\nInevitable Abortion\nMissed Abortion\nSeptic abortion\nThreatened Abortion\nGestational trophoblastic disease\nConsider when pregnancy-induced hypertension is seen before 24 wks of gestation\nHeterotopic pregnancy\nImplantation bleeding\nMolar pregnancy\nNon-pregnancy related bleeding\nCervicitis\nFibroids\nImplantation bleeding",
+          "tables": []
+        },
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Fibroids",
+          "url": "https://wikem.org/wiki/Fibroids"
+        },
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Pregnancy test\nCBC\nType & screen",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically diagnosed on\npelvic ultrasound",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Pregnancy test\nCBC\nType & screen",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically diagnosed on\npelvic ultrasound",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically diagnosed on\npelvic ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "drug_name": "Sugammadex",
+  "url": "https://wikem.org/wiki/Sugammadex",
+  "scraped_at": "2026-01-10T08:02:54.857799",
+  "sections": {
+    "Administration": {
+      "text": "Type/Class: γ-cyclodextrin,\nantidote\nDosage Forms:\n200mg/2mL (100mg/mL)\n500mg/5mL (100mg/mL)\nRoutes of Administration: IV\nCommon Trade Names: Bridion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "IV bolus injection infused over 10 seconds via  central or peripheral line with 16 mg/kg will reverse a  single 1.2 mg/kg dose of\nrocuronium\nin approximately 3 minutes.\n[1]\n4 mg/kg if patient has no twitch responses to train-of-four and emergent reverse is not needed\n2mg/kg if patient has a second twitch after train of four and no emergent reversal is needed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "16 mg/kg for pediatric patients aged 2 years and older",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: There are no data on use in pregnant women\nLactation risk\n: Unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Unknown\nPediatric:  Unknown",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Unknown\nPediatric:  Unknown",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Unknown\nPediatric: Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Rocuronium\nor\nvecuronium\nreversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug and or prior documentation of hypersensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Adverse effects are described in the anesthesia literature and the most serious side effect is in patients with a known hypersensitivity to Sugammadex\n[2]",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\n(0.3%), hypersensitivity reaction\nBradycardia/Asystole (1-5%)\n[3]\nProlonged QT",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\nHeadache\nCoughing\nExtremity pain\nParosmia, hypoesthesia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\n(0.3%), hypersensitivity reaction\nBradycardia/Asystole (1-5%)\n[3]\nProlonged QT",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\nHeadache\nCoughing\nExtremity pain\nParosmia, hypoesthesia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\nHeadache\nCoughing\nExtremity pain\nParosmia, hypoesthesia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Onset of action: reverses paralysis in ~3 minutes\nHalf-life: 2h\nMetabolism:\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Encapsulates\nrocuronium\nor\nvecuronium\nin plasma, reducing the amount of neuromuscular blocking agent available to bind to nicotinic receptors in the neuromuscular junction and thereby reversing neuromuscular blockade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Comments": {
+      "text": "Sugammadex is only FDA approved for reversal for patients undergoing surgery.  The drug has been used in Europe since 2008\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

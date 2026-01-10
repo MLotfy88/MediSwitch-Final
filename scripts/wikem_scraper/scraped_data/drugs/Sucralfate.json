@@ -1,0 +1,176 @@
+{
+  "drug_name": "Sucralfate",
+  "url": "https://wikem.org/wiki/Sucralfate",
+  "scraped_at": "2026-01-10T08:02:53.330308",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms: suspension, tablet\nRoutes of Administration: PO\nCommon Trade Names: Carafate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Duodenal ulcer\nActive ulcer treatment: 1g PO 4 times daily x 4-8 weeks\nMaintenance therapy: 1g twice daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Duodenal ulcer",
+          "url": "https://wikem.org/wiki/Duodenal_ulcer"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Peptic ulcer disease\n: 40-80 mg/kg/day divided q6 hours, maximum 1000mg/dose\nEsophagitis\n3 months-6 years of age: 500mg PO 4 times daily\n>6 years: 1000mg/dose four times daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "B: Acceptable for use in pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Use considered acceptable",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Use caution in chronic renal failure or dialysis due to absorption of aluminum salts",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "B: Acceptable for use in pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Use considered acceptable",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Use caution in chronic renal failure or dialysis due to absorption of aluminum salts",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Use considered acceptable",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Use caution in chronic renal failure or dialysis due to absorption of aluminum salts",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Use caution in chronic renal failure or dialysis due to absorption of aluminum salts",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nBronchospasm, laryngeal/pharyngeal/pulmonary edema",
+          "tables": []
+        },
+        "Common": {
+          "text": "Constipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nBronchospasm, laryngeal/pharyngeal/pulmonary edema",
+      "subsections": {
+        "Common": {
+          "text": "Constipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Constipation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Acts locally in GI tract, minimally absorbed\nHalf-life:\nMetabolism: none\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to form complex with positively charged proteins in exudates, forming a viscous paste-like adhesive substance, which then selectively forms a protective coating that protects gastric lining against peptic acid, pepsin, and bile salts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "peptic ulcer disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        }
+      ]
+    },
+    "References": {
+      "text": "Uptodate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

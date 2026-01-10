@@ -1,0 +1,697 @@
+{
+  "drug_name": "Suppurative_parotitis",
+  "url": "https://wikem.org/wiki/Suppurative_parotitis",
+  "scraped_at": "2026-01-10T08:02:59.847763",
+  "sections": {
+    "Background": {
+      "text": "Serious bacterial infection of parotid gland that occurs in patients with decreased salivary flow\nCaused by retrograde migration of oral bacteria into salivary ducts and parenchyma\nUsually caused by staph, strep, anaerobes",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Dehydration\nPrematurity or advanced age\nSialolithiasis\nOral neoplasms\nSalivary duct strictures\nMeds (cause systemic dehydration or decrease salivary flow)\nDiuretics\nAntihistamines\nTCAs\nbeta-blockers\nChronic illnesses\nHIV\nSjögren Syndrome\nAnorexia nervosa\n/\nbulimia nervosa\nCystic fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "bulimia nervosa",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "Dehydration\nPrematurity or advanced age\nSialolithiasis\nOral neoplasms\nSalivary duct strictures\nMeds (cause systemic dehydration or decrease salivary flow)\nDiuretics\nAntihistamines\nTCAs\nbeta-blockers\nChronic illnesses\nHIV\nSjögren Syndrome\nAnorexia nervosa\n/\nbulimia nervosa\nCystic fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "bulimia nervosa",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rapid onset\nSkin over parotid gland is red and tender\nPurulent drainage from Stensen's duct\nFever\nTrismus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_Swelling": {
+          "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Facial_Swelling": {
+      "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Lymphadenitis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "Hydrate\nthe volume-depleted patient\nMassage and apply heat to the affected gland\nStimulate salivation using sialogogues such as lemon drops",
+          "tables": []
+        },
+        "Antibiotic_Options": {
+          "text": "Treatment targeted at S. aureus, gram negative bacilli, mumps, enteroviruses, and influenza virus\nAmoxicillin/Clavulanate\n875mg (45mg/kg) PO BID OR\nClindamycin\n450mg PO three times daily or 10mg/kg PO four times daily\nDicloxacillin\n500mg (7.5mg/kg) PO four times daily\nCephalexin\n500mg (12.5mg/kg) PO four times daily\nNafcillin\n2g IV six times daily  or 50mg/kg IV four times daily\nVancomycin\n15-20mg/kg IV BID daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrate",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "Hydrate\nthe volume-depleted patient\nMassage and apply heat to the affected gland\nStimulate salivation using sialogogues such as lemon drops",
+      "subsections": {
+        "Antibiotic_Options": {
+          "text": "Treatment targeted at S. aureus, gram negative bacilli, mumps, enteroviruses, and influenza virus\nAmoxicillin/Clavulanate\n875mg (45mg/kg) PO BID OR\nClindamycin\n450mg PO three times daily or 10mg/kg PO four times daily\nDicloxacillin\n500mg (7.5mg/kg) PO four times daily\nCephalexin\n500mg (12.5mg/kg) PO four times daily\nNafcillin\n2g IV six times daily  or 50mg/kg IV four times daily\nVancomycin\n15-20mg/kg IV BID daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrate",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Antibiotic_Options": {
+      "text": "Treatment targeted at S. aureus, gram negative bacilli, mumps, enteroviruses, and influenza virus\nAmoxicillin/Clavulanate\n875mg (45mg/kg) PO BID OR\nClindamycin\n450mg PO three times daily or 10mg/kg PO four times daily\nDicloxacillin\n500mg (7.5mg/kg) PO four times daily\nCephalexin\n500mg (12.5mg/kg) PO four times daily\nNafcillin\n2g IV six times daily  or 50mg/kg IV four times daily\nVancomycin\n15-20mg/kg IV BID daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Salivary gland diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    }
+  }
+}

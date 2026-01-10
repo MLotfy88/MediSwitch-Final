@@ -1,0 +1,326 @@
+{
+  "drug_name": "Syncope_(peds)",
+  "url": "https://wikem.org/wiki/Syncope_(peds)",
+  "scraped_at": "2026-01-10T08:03:03.901591",
+  "sections": {
+    "Intro": {
+      "text": "For adult patients see\nsyncope\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Usually because of an abrupt cerebral hypoperfusion (30-50% from baseline)\nPeak age: 15-19 years of age\nIn younger children, usually due to\nseizures\n,\nbreath-holding spell\nor cardiac disease",
+      "subsections": {
+        "Red_flags": {
+          "text": "Exercise-induced collapse\nChest pain\nPrevious cardiac surgery\nFamily history of:\nSudden Death\nCardiac disease at early age\nUnexplained deaths\nDeath due to single-vehicle accident\nDrowning\nSIDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Drowning",
+          "url": "https://wikem.org/wiki/Drowning"
+        },
+        {
+          "text": "SIDS",
+          "url": "https://wikem.org/wiki/SIDS"
+        }
+      ]
+    },
+    "Red_flags": {
+      "text": "Exercise-induced collapse\nChest pain\nPrevious cardiac surgery\nFamily history of:\nSudden Death\nCardiac disease at early age\nUnexplained deaths\nDeath due to single-vehicle accident\nDrowning\nSIDS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Drowning",
+          "url": "https://wikem.org/wiki/Drowning"
+        },
+        {
+          "text": "SIDS",
+          "url": "https://wikem.org/wiki/SIDS"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Abrupt loss of consciousness with full recovery after a short duration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Syncope_(peds)": {
+          "text": "Seizure\nBreath-holding spell\nHyperventilation syndrome\nPregnancy\n(especially\nectopic\n)\nHypoglycemia\nCardiac disease\nTet spell\nHypertrophic cardiomyopathy\nBrugada Syndrome\nDysrhythmias\nLong QT syndrome\nAnomalous coronary arteries\nToxicologic exposure\n(stimulants or depressant)\nCO poisoning\nEthanol toxicity\nDrugs of abuse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Cardiac disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Tet spell",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Anomalous coronary arteries",
+          "url": "https://wikem.org/wiki/Anomalous_coronary_arteries"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nUrine pregnancy (if age/sex appropriate)\nConsider based on history/symptoms\nCBC (or POC hemoglobin) & chemistry (or POC glucose)\nTSH\nTox screen\n(urine or serum – based on clinical scenario)\nBedside cardiac\nechocardiography\nCardiac hypertrophy or\npericardial effusion\nAssess the IVC for\ndehydration",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "ECG may show:\nWPW\n– short PR, Delta waves, wide QRS\nLong QT syndrome\n– QTc >0.450 sec\nHypertrophic cardiomyopathy\n– LVH, ST changes, T wave inversions, lateral leads needle like Q waves and absent R waves\nBrugada syndrome\n– incomplete RBBB with ST elevations in V1-3\nArrhythmogenic right ventricular dysplasia\n(ARVD) – incomplete RBBB with T waves inversion in V1-3, epsilon wave is pathognomonic (up-notching of a terminal Q wave)\nCatecholaminergic polymorphic ventricular tachycardia\n- May present with VT/VF due to emotional stress or a regular ECG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Tox screen",
+          "url": "https://wikem.org/wiki/Tox_screen"
+        },
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nUrine pregnancy (if age/sex appropriate)\nConsider based on history/symptoms\nCBC (or POC hemoglobin) & chemistry (or POC glucose)\nTSH\nTox screen\n(urine or serum – based on clinical scenario)\nBedside cardiac\nechocardiography\nCardiac hypertrophy or\npericardial effusion\nAssess the IVC for\ndehydration",
+      "subsections": {
+        "Diagnosis": {
+          "text": "ECG may show:\nWPW\n– short PR, Delta waves, wide QRS\nLong QT syndrome\n– QTc >0.450 sec\nHypertrophic cardiomyopathy\n– LVH, ST changes, T wave inversions, lateral leads needle like Q waves and absent R waves\nBrugada syndrome\n– incomplete RBBB with ST elevations in V1-3\nArrhythmogenic right ventricular dysplasia\n(ARVD) – incomplete RBBB with T waves inversion in V1-3, epsilon wave is pathognomonic (up-notching of a terminal Q wave)\nCatecholaminergic polymorphic ventricular tachycardia\n- May present with VT/VF due to emotional stress or a regular ECG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Tox screen",
+          "url": "https://wikem.org/wiki/Tox_screen"
+        },
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "ECG may show:\nWPW\n– short PR, Delta waves, wide QRS\nLong QT syndrome\n– QTc >0.450 sec\nHypertrophic cardiomyopathy\n– LVH, ST changes, T wave inversions, lateral leads needle like Q waves and absent R waves\nBrugada syndrome\n– incomplete RBBB with ST elevations in V1-3\nArrhythmogenic right ventricular dysplasia\n(ARVD) – incomplete RBBB with T waves inversion in V1-3, epsilon wave is pathognomonic (up-notching of a terminal Q wave)\nCatecholaminergic polymorphic ventricular tachycardia\n- May present with VT/VF due to emotional stress or a regular ECG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Directed towards reversing the cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission if any ECG abnormality found\nAdmission usually not warranted – consider admitting kids with eating disorder\nConsider discharge home with cardiology consult and strict activity restrictions if suspicion of hypertrophic cardiomyopathy in otherwise well patient with reliable caretakers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Syncope",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "References": {
+      "text": "Fischer and Cho. Pediatric Syncope: cases from the ED. Emerg Med clin N Am. Vol 28. 2010. Pp 501-516.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

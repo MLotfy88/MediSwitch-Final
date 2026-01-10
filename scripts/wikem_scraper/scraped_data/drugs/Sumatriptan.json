@@ -1,0 +1,200 @@
+{
+  "drug_name": "Sumatriptan",
+  "url": "https://wikem.org/wiki/Sumatriptan",
+  "scraped_at": "2026-01-10T08:02:56.821430",
+  "sections": {
+    "Administration": {
+      "text": "Type: Ergotamine anti-migraine drug\nDosage Forms:\nRoutes of Administration: Intranasal, oral, subcutanous, transdermal\nCommon Trade Names: Imitrex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Intranasal spray: 5-20 mg, may repeat dose if headache persists after 2 hours\nOral: Initial: 50 to 100 mg once. If initial dose was partially effective or headache recurs, may repeat a dose (usually same as first dose) after ≥2 hours. Maximum dose: 100 mg per dose; 200 mg per 24 hours.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Intranasal:\n5-17 years: 5mg-20mg administered in one nostril as a single dose\nSubQ:\n6-17 years: 3-6mg single dose\nEfficacy of oral dosing has not been demonstrated in patients <17 years old.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: infant risk minimal\nRenal dosing: no adjustment\nHepatic dosing: contraindicated in severe hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMAOI use concomitantly or within 2 weeks\nConcomitant use of ergotamine-containing/ergot-type medication within 24 hours\nUse of another 5-HT agonist within 24 hours\nHistory of cardiovascular (including arrythmias, CAD, uncontrolled hypertension), peripheral vascular, or ischemic bowel disease\nHistory of stroke/TIA or hemiplegic/basilar migraine\nSevere hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "MI\n,\nhypertensive crisis\n, ventricular arrhythmias, vasospasm\nSerotonin syndrome\nStroke\n,\nintracranial hemorrhage\n,\nseizure\nVisual loss",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\nNausea/vomiting\nURI\nsymptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypertensive crisis",
+          "url": "https://wikem.org/wiki/Hypertensive_crisis"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "MI\n,\nhypertensive crisis\n, ventricular arrhythmias, vasospasm\nSerotonin syndrome\nStroke\n,\nintracranial hemorrhage\n,\nseizure\nVisual loss",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness\nNausea/vomiting\nURI\nsymptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypertensive crisis",
+          "url": "https://wikem.org/wiki/Hypertensive_crisis"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Dizziness\nNausea/vomiting\nURI\nsymptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3 hours\nMetabolism: Hepatic via monamine oxidase (mostly MAO-A)\nExcretion: mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Cranial vessel constriction, 5HT agonist, inhibition of pro-inflammatory neuropeptide release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Headache\nSerotonin syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "drug_name": "Suprapubic_bladder_aspiration",
+  "url": "https://wikem.org/wiki/Suprapubic_bladder_aspiration",
+  "scraped_at": "2026-01-10T08:03:01.142579",
+  "sections": {
+    "Indications": {
+      "text": "Urine for\nbacteriology\nin children < 2\nPhimosis\nUrinary retention\nUrethral trauma\n/stricture\nChronic urethral or periurethral infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteriology",
+          "url": "https://wikem.org/wiki/UTI_(peds)"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Empty or unidentifiable bladder\nKnown bladder tumor\nLower abdominal wounds\nOverlying cellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment": {
+      "text": "Sterile gloves\nSkin prep\nLidocaine\nSterile syringe, 10 or 20 mL\nNeedle, 22 gauge (ga), 1.5 in, for pediatric patients\nSpinal needle, 22 ga, for adult patients\nDressing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Locate the full and distended bladder with ultrasound and palpation\nPrep skin\nPlace lidocaine wheal at point of planned entry (usually midline 2-4cm above superior edge of pubic symphisis), aim caudad, 60 degrees from horizontal plane of abdomen\nIn infants, insert and appropriate length 22G needle 10-20 degrees cephalad from perpendicular and aspirate until urine returns\nRemember, the bladder is an abdominal organ in newborns.\nBe prepared for a spontaneous void during stimulation of bladder\nIf no urine is obtained, withdraw to subQ tissue and redirect\nIn adults, insert a longer 22G needle 10-20 degrees caudad from true vertical and aspirate after the skin is entered",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Inability to aspirate urine\nHematuria (microscopic is common, gross is uncommon)\nPenetration of bowel (innocuous if entered with small needle only)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Urinary retention\nSuprapubic catheter placement\nSuprapubic catheter changing or replacement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Suprapubic catheter placement",
+          "url": "https://wikem.org/wiki/Suprapubic_catheter_placement"
+        },
+        {
+          "text": "Suprapubic catheter changing or replacement",
+          "url": "https://wikem.org/wiki/Suprapubic_catheter_changing_or_replacement"
+        }
+      ]
+    }
+  }
+}

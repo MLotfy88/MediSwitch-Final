@@ -1,0 +1,153 @@
+{
+  "drug_name": "Strongyloides_stercoralis",
+  "url": "https://wikem.org/wiki/Strongyloides_stercoralis",
+  "scraped_at": "2026-01-10T08:02:48.432534",
+  "sections": {
+    "Background": {
+      "text": "Intestinal nematode; roundworm\nEndemic in tropical/subtropical areas such as Africa, Southeast Asia, Central/South America\n[1]",
+      "subsections": {
+        "Life_Cycle": {
+          "text": "Present in contaminated soil → larvae penetrate skin of hosts walking barefoot → enter venous circulation, migrate to lungs, then are expectorated to pharynx and swallowed → larvae develop into females that lay eggs asexually into GI tract, which hatch into larvae and are excreted into stool\nLarvae either become sexually reproducing males/females or filariform larvae that can reinfect host\nAutoinfection: Unique to Strongyloides; GI larvae can migrate from GI tract to venous system, then to lungs and proceed with life cycle\nCan lead to dramatic increase in worm burden and hyperinfection in immunocompromised",
+          "tables": []
+        },
+        "Risk_factors": {
+          "text": "Corticosteroid\nuse, immunosuppression\nTransplantation\nHematologic neoplasm (e.g.\nleukemia\n)\nHuman T-lymphotropic virus-1 infection (HTLV-1)\nMalnutrition\nDiabetes\nChronic\nrenal failure\nChronic\nalcohol use",
+          "tables": []
+        },
+        "Clinical_significance": {
+          "text": "Chronic infection in immunosuppressed can lead to fulminant dissemination with case fatality rate as high as 70%; strong index of suspicion is needed in such cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Life_Cycle": {
+      "text": "Present in contaminated soil → larvae penetrate skin of hosts walking barefoot → enter venous circulation, migrate to lungs, then are expectorated to pharynx and swallowed → larvae develop into females that lay eggs asexually into GI tract, which hatch into larvae and are excreted into stool\nLarvae either become sexually reproducing males/females or filariform larvae that can reinfect host\nAutoinfection: Unique to Strongyloides; GI larvae can migrate from GI tract to venous system, then to lungs and proceed with life cycle\nCan lead to dramatic increase in worm burden and hyperinfection in immunocompromised",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Corticosteroid\nuse, immunosuppression\nTransplantation\nHematologic neoplasm (e.g.\nleukemia\n)\nHuman T-lymphotropic virus-1 infection (HTLV-1)\nMalnutrition\nDiabetes\nChronic\nrenal failure\nChronic\nalcohol use",
+          "tables": []
+        },
+        "Clinical_significance": {
+          "text": "Chronic infection in immunosuppressed can lead to fulminant dissemination with case fatality rate as high as 70%; strong index of suspicion is needed in such cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Corticosteroid\nuse, immunosuppression\nTransplantation\nHematologic neoplasm (e.g.\nleukemia\n)\nHuman T-lymphotropic virus-1 infection (HTLV-1)\nMalnutrition\nDiabetes\nChronic\nrenal failure\nChronic\nalcohol use",
+      "subsections": {
+        "Clinical_significance": {
+          "text": "Chronic infection in immunosuppressed can lead to fulminant dissemination with case fatality rate as high as 70%; strong index of suspicion is needed in such cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_significance": {
+      "text": "Chronic infection in immunosuppressed can lead to fulminant dissemination with case fatality rate as high as 70%; strong index of suspicion is needed in such cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic in up to 60% of those infected\n[2]\nNonspecific GI complaints are most common presentation\nWeight loss,\ndiarrhea\n,\nabdominal pain\n,\nvomiting",
+      "subsections": {
+        "Dermatologic": {
+          "text": "Larva currens: rapidly progressive pruritic linear eruption due to migration of larvae\nPerianal\npruritus\nFoot\npruritus\n(“ground itch”)",
+          "tables": []
+        },
+        "Respiratory": {
+          "text": "Dry\ncough\nWheezing\nLoeffler’s-like syndrome:\nfever\n,\nshortness of breath\n,\nwheezing\n, pulmonary infiltrates",
+          "tables": []
+        },
+        "Immunocompromised_patients": {
+          "text": "Respiratory and systemic symptoms such as fever will be more common\n[3]\nDisseminated disease will invade multiple organ systems, including liver and brain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dermatologic": {
+      "text": "Larva currens: rapidly progressive pruritic linear eruption due to migration of larvae\nPerianal\npruritus\nFoot\npruritus\n(“ground itch”)",
+      "subsections": {
+        "Respiratory": {
+          "text": "Dry\ncough\nWheezing\nLoeffler’s-like syndrome:\nfever\n,\nshortness of breath\n,\nwheezing\n, pulmonary infiltrates",
+          "tables": []
+        },
+        "Immunocompromised_patients": {
+          "text": "Respiratory and systemic symptoms such as fever will be more common\n[3]\nDisseminated disease will invade multiple organ systems, including liver and brain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Respiratory": {
+      "text": "Dry\ncough\nWheezing\nLoeffler’s-like syndrome:\nfever\n,\nshortness of breath\n,\nwheezing\n, pulmonary infiltrates",
+      "subsections": {
+        "Immunocompromised_patients": {
+          "text": "Respiratory and systemic symptoms such as fever will be more common\n[3]\nDisseminated disease will invade multiple organ systems, including liver and brain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Inflammatory bowel disease\nSchistosomiasis\nFilariasis\nHookworm\nToxocara canis\nAtopic dermatitis\nAsthma\nAllergic bronchopulmonary\naspergillosis\nCoccidioidomycosis\nHIV\nChurg-Strauss syndrome\nEosinophilic\nleukemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Establish possibility of infection (travel to endemic areas, etc)\nUncomplicated strongyloidiasis: 3 serial stool samples screened for ova and parasites, as well as ELISA for Strongyloides\nComplicated strongyloidiasis: blood/sputum cultures, in addition to above\nNotable\neosinophilia\nin up to 70% of cases, though can be absent in immunosuppressed\nGram negative bacteremia may be present in immunocompromised",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Uncomplicated_strongyloidiasis,_normal_immune_system": {
+          "text": "Ivermectin\n200 mcg/kg daily x 1-2d (drug of choice)\nOR\nAlbendazole\n400mg BID x 7d\nCan consider albendazole prophylaxis in immigrants from endemic regions with consistent clinical presentation",
+          "tables": []
+        },
+        "Immunosuppressed": {
+          "text": "Combination therapy:\nalbendazole\n400mg BID x 7d AND\nivermectin\n200 mcg/kg daily x 1-2d\n[4]\nAntibiotics may need to be continued until there is evidence that parasite is cleared\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uncomplicated_strongyloidiasis,_normal_immune_system": {
+      "text": "Ivermectin\n200 mcg/kg daily x 1-2d (drug of choice)\nOR\nAlbendazole\n400mg BID x 7d\nCan consider albendazole prophylaxis in immigrants from endemic regions with consistent clinical presentation",
+      "subsections": {
+        "Immunosuppressed": {
+          "text": "Combination therapy:\nalbendazole\n400mg BID x 7d AND\nivermectin\n200 mcg/kg daily x 1-2d\n[4]\nAntibiotics may need to be continued until there is evidence that parasite is cleared\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Immunosuppressed": {
+      "text": "Combination therapy:\nalbendazole\n400mg BID x 7d AND\nivermectin\n200 mcg/kg daily x 1-2d\n[4]\nAntibiotics may need to be continued until there is evidence that parasite is cleared\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge uncomplicated cases in those who are not immunosuppressed\nAdmit if immunocompromised or systemic symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

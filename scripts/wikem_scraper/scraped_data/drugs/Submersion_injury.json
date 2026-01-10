@@ -1,0 +1,644 @@
+{
+  "drug_name": "Submersion_injury",
+  "url": "https://wikem.org/wiki/Submersion_injury",
+  "scraped_at": "2026-01-10T08:02:52.331001",
+  "sections": {
+    "Background": {
+      "text": "Definition: \"The process of experiencing respiratory impairment from submersion/immersion in liquid\"\n[1]\nTerm \"near-drowning\" no longer used",
+      "subsections": {
+        "Consider_Secondary_Causes": {
+          "text": "Ethanol intoxication\nSyncope\nCardiac arrhythmia\nACS\nNon-accidental trauma",
+          "tables": []
+        },
+        "Drowning_Outcomes_by_Duration": {
+          "text": "^Signs of brain-stem injury predict death or severe neurological consequences",
+          "tables": [
+            [
+              {
+                "Duration of submersion": "0–5 min",
+                "Risk of death or poor outcome": "10%"
+              },
+              {
+                "Duration of submersion": "6–10 min",
+                "Risk of death or poor outcome": "56%"
+              },
+              {
+                "Duration of submersion": "11–25 min",
+                "Risk of death or poor outcome": "88%"
+              },
+              {
+                "Duration of submersion": ">25 min",
+                "Risk of death or poor outcome": "nearly 100%"
+              }
+            ]
+          ]
+        },
+        "Pathophysiology": {
+          "text": "Submersion → voluntary breath holding → aspiration → coughing/laryngospasm → aspiration continues → hypoxia → death\n[3]\nAspiration destroys surfactant which → alveolar collapse, atelectasis, non-cardiogenic pulmonary edema, and V-Q mismatch.\nFresh vs salt water has no clinical relevance\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol intoxication",
+          "url": "https://wikem.org/wiki/Ethanol_intoxication"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Non-accidental trauma",
+          "url": "https://wikem.org/wiki/Non-accidental_trauma"
+        }
+      ]
+    },
+    "Consider_Secondary_Causes": {
+      "text": "Ethanol intoxication\nSyncope\nCardiac arrhythmia\nACS\nNon-accidental trauma",
+      "subsections": {
+        "Drowning_Outcomes_by_Duration": {
+          "text": "^Signs of brain-stem injury predict death or severe neurological consequences",
+          "tables": [
+            [
+              {
+                "Duration of submersion": "0–5 min",
+                "Risk of death or poor outcome": "10%"
+              },
+              {
+                "Duration of submersion": "6–10 min",
+                "Risk of death or poor outcome": "56%"
+              },
+              {
+                "Duration of submersion": "11–25 min",
+                "Risk of death or poor outcome": "88%"
+              },
+              {
+                "Duration of submersion": ">25 min",
+                "Risk of death or poor outcome": "nearly 100%"
+              }
+            ]
+          ]
+        },
+        "Pathophysiology": {
+          "text": "Submersion → voluntary breath holding → aspiration → coughing/laryngospasm → aspiration continues → hypoxia → death\n[3]\nAspiration destroys surfactant which → alveolar collapse, atelectasis, non-cardiogenic pulmonary edema, and V-Q mismatch.\nFresh vs salt water has no clinical relevance\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol intoxication",
+          "url": "https://wikem.org/wiki/Ethanol_intoxication"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Non-accidental trauma",
+          "url": "https://wikem.org/wiki/Non-accidental_trauma"
+        }
+      ]
+    },
+    "Drowning_Outcomes_by_Duration": {
+      "text": "^Signs of brain-stem injury predict death or severe neurological consequences",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Submersion → voluntary breath holding → aspiration → coughing/laryngospasm → aspiration continues → hypoxia → death\n[3]\nAspiration destroys surfactant which → alveolar collapse, atelectasis, non-cardiogenic pulmonary edema, and V-Q mismatch.\nFresh vs salt water has no clinical relevance\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Duration of submersion": "0–5 min",
+            "Risk of death or poor outcome": "10%"
+          },
+          {
+            "Duration of submersion": "6–10 min",
+            "Risk of death or poor outcome": "56%"
+          },
+          {
+            "Duration of submersion": "11–25 min",
+            "Risk of death or poor outcome": "88%"
+          },
+          {
+            "Duration of submersion": ">25 min",
+            "Risk of death or poor outcome": "nearly 100%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Submersion → voluntary breath holding → aspiration → coughing/laryngospasm → aspiration continues → hypoxia → death\n[3]\nAspiration destroys surfactant which → alveolar collapse, atelectasis, non-cardiogenic pulmonary edema, and V-Q mismatch.\nFresh vs salt water has no clinical relevance\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pulmonary\n[5]\n[6]\n[7]\nHypoxemia\ndue to aspiration\nHypoxemia varies with severity but may be seen even with small volume aspiration (1-3mL) due to interference with alveolar gas exchange\n[8]\nShortness of breath\nCrackles\nWheezing\nMay progress to\npulmonary edema\nor\nARDS\ndespite adequate ventilation\nNeurologic\n[9]\nSystem most susceptible to hypoxemia\nCerebral edema\nElevated ICP\nSeverity worsened with prolonged hypoxia\nCardiovascular\n[10]\nHypoxemia and\nhypothermia\nmay cause\narrhythmias\nSinus tachycardia\n, sinus\nbradycardia\n,\na-fib\nMetabolic\nRespiratory /\nmetabolic acidosis\nElectrolyte disturbances\nare uncommon but may be seen with submersion in media with unusually high electrolyte concentrations (such as the dead sea)\n[11]\nHypothermia\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "a-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Electrolyte disturbances",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Water-related_injuries": {
+          "text": "Hypothermia\nImmersion pulmonary edema\nMarine toxins, envenomations, and bites\nScuba diving emergencies\nSubmersion injury\n(drowning and near-drowning)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Marine toxins, envenomations, and bites",
+          "url": "https://wikem.org/wiki/Marine_toxins,_envenomations,_and_bites"
+        },
+        {
+          "text": "Scuba diving emergencies",
+          "url": "https://wikem.org/wiki/Scuba_diving_emergencies"
+        }
+      ]
+    },
+    "Water-related_injuries": {
+      "text": "Hypothermia\nImmersion pulmonary edema\nMarine toxins, envenomations, and bites\nScuba diving emergencies\nSubmersion injury\n(drowning and near-drowning)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Marine toxins, envenomations, and bites",
+          "url": "https://wikem.org/wiki/Marine_toxins,_envenomations,_and_bites"
+        },
+        {
+          "text": "Scuba diving emergencies",
+          "url": "https://wikem.org/wiki/Scuba_diving_emergencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\n(on arrival and after 4 hours)\nABG\n-\nlactic acidosis\nSerum sodium does not correlate to fresh water vs. salt water drowning\nOther work-up generally not needed unless specifically indicated by history or exam\n[3]\n, but may consider:\nLabs,\nEKG\nCT head\n/C-spine (if history of trauma) - C-spine injury extremely unlikely without evidence or history of trauma (<0.5% in large cohort study)\n[13]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        },
+        "Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "0",
+                "Presentation": "Responds normally, lungs clear to auscultation, no cough",
+                "Recommended Treatment": "Do not transport",
+                "Survival": "100%"
+              },
+              {
+                "Grade": "1",
+                "Presentation": "Responds normally, lungs clear to auscultation, has a cough",
+                "Recommended Treatment": "Discharge",
+                "Survival": "100%"
+              },
+              {
+                "Grade": "2",
+                "Presentation": "Responds normally, rales in some lung fields, has a  cough",
+                "Recommended Treatment": "Nasal cannula, observe in ED",
+                "Survival": "99.4%"
+              },
+              {
+                "Grade": "3",
+                "Presentation": "Responds normally, rales in all lung fields, has a  cough, normotension",
+                "Recommended Treatment": "Non-rebreather, progress to positive pressure or intubation if needed, admit",
+                "Survival": "94.8%"
+              },
+              {
+                "Grade": "4",
+                "Presentation": "Responds normally, rales in all lung fields, has a  cough, hypotension",
+                "Recommended Treatment": "Non-rebreather with likely progression to positive pressure or intubation, IV fluids and pressors as needed, admit to ICU",
+                "Survival": "~80%%"
+              },
+              {
+                "Grade": "5",
+                "Presentation": "Unresponsive but has a pulse",
+                "Recommended Treatment": "Positive pressure ventilation with likely progression to intubation, IV fluids and vasopressors if needed, admit to ICU",
+                "Survival": "~60%"
+              },
+              {
+                "Grade": "6",
+                "Presentation": "Unresponsive with no pulse after 5 rescue breaths",
+                "Recommended Treatment": "ACLSprotocol",
+                "Survival": "7%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\n(on arrival and after 4 hours)\nABG\n-\nlactic acidosis\nSerum sodium does not correlate to fresh water vs. salt water drowning\nOther work-up generally not needed unless specifically indicated by history or exam\n[3]\n, but may consider:\nLabs,\nEKG\nCT head\n/C-spine (if history of trauma) - C-spine injury extremely unlikely without evidence or history of trauma (<0.5% in large cohort study)\n[13]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        },
+        "Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "0",
+                "Presentation": "Responds normally, lungs clear to auscultation, no cough",
+                "Recommended Treatment": "Do not transport",
+                "Survival": "100%"
+              },
+              {
+                "Grade": "1",
+                "Presentation": "Responds normally, lungs clear to auscultation, has a cough",
+                "Recommended Treatment": "Discharge",
+                "Survival": "100%"
+              },
+              {
+                "Grade": "2",
+                "Presentation": "Responds normally, rales in some lung fields, has a  cough",
+                "Recommended Treatment": "Nasal cannula, observe in ED",
+                "Survival": "99.4%"
+              },
+              {
+                "Grade": "3",
+                "Presentation": "Responds normally, rales in all lung fields, has a  cough, normotension",
+                "Recommended Treatment": "Non-rebreather, progress to positive pressure or intubation if needed, admit",
+                "Survival": "94.8%"
+              },
+              {
+                "Grade": "4",
+                "Presentation": "Responds normally, rales in all lung fields, has a  cough, hypotension",
+                "Recommended Treatment": "Non-rebreather with likely progression to positive pressure or intubation, IV fluids and pressors as needed, admit to ICU",
+                "Survival": "~80%%"
+              },
+              {
+                "Grade": "5",
+                "Presentation": "Unresponsive but has a pulse",
+                "Recommended Treatment": "Positive pressure ventilation with likely progression to intubation, IV fluids and vasopressors if needed, admit to ICU",
+                "Survival": "~60%"
+              },
+              {
+                "Grade": "6",
+                "Presentation": "Unresponsive with no pulse after 5 rescue breaths",
+                "Recommended Treatment": "ACLSprotocol",
+                "Survival": "7%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {
+        "Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "0",
+                "Presentation": "Responds normally, lungs clear to auscultation, no cough",
+                "Recommended Treatment": "Do not transport",
+                "Survival": "100%"
+              },
+              {
+                "Grade": "1",
+                "Presentation": "Responds normally, lungs clear to auscultation, has a cough",
+                "Recommended Treatment": "Discharge",
+                "Survival": "100%"
+              },
+              {
+                "Grade": "2",
+                "Presentation": "Responds normally, rales in some lung fields, has a  cough",
+                "Recommended Treatment": "Nasal cannula, observe in ED",
+                "Survival": "99.4%"
+              },
+              {
+                "Grade": "3",
+                "Presentation": "Responds normally, rales in all lung fields, has a  cough, normotension",
+                "Recommended Treatment": "Non-rebreather, progress to positive pressure or intubation if needed, admit",
+                "Survival": "94.8%"
+              },
+              {
+                "Grade": "4",
+                "Presentation": "Responds normally, rales in all lung fields, has a  cough, hypotension",
+                "Recommended Treatment": "Non-rebreather with likely progression to positive pressure or intubation, IV fluids and pressors as needed, admit to ICU",
+                "Survival": "~80%%"
+              },
+              {
+                "Grade": "5",
+                "Presentation": "Unresponsive but has a pulse",
+                "Recommended Treatment": "Positive pressure ventilation with likely progression to intubation, IV fluids and vasopressors if needed, admit to ICU",
+                "Survival": "~60%"
+              },
+              {
+                "Grade": "6",
+                "Presentation": "Unresponsive with no pulse after 5 rescue breaths",
+                "Recommended Treatment": "ACLSprotocol",
+                "Survival": "7%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade": "0",
+            "Presentation": "Responds normally, lungs clear to auscultation, no cough",
+            "Recommended Treatment": "Do not transport",
+            "Survival": "100%"
+          },
+          {
+            "Grade": "1",
+            "Presentation": "Responds normally, lungs clear to auscultation, has a cough",
+            "Recommended Treatment": "Discharge",
+            "Survival": "100%"
+          },
+          {
+            "Grade": "2",
+            "Presentation": "Responds normally, rales in some lung fields, has a  cough",
+            "Recommended Treatment": "Nasal cannula, observe in ED",
+            "Survival": "99.4%"
+          },
+          {
+            "Grade": "3",
+            "Presentation": "Responds normally, rales in all lung fields, has a  cough, normotension",
+            "Recommended Treatment": "Non-rebreather, progress to positive pressure or intubation if needed, admit",
+            "Survival": "94.8%"
+          },
+          {
+            "Grade": "4",
+            "Presentation": "Responds normally, rales in all lung fields, has a  cough, hypotension",
+            "Recommended Treatment": "Non-rebreather with likely progression to positive pressure or intubation, IV fluids and pressors as needed, admit to ICU",
+            "Survival": "~80%%"
+          },
+          {
+            "Grade": "5",
+            "Presentation": "Unresponsive but has a pulse",
+            "Recommended Treatment": "Positive pressure ventilation with likely progression to intubation, IV fluids and vasopressors if needed, admit to ICU",
+            "Survival": "~60%"
+          },
+          {
+            "Grade": "6",
+            "Presentation": "Unresponsive with no pulse after 5 rescue breaths",
+            "Recommended Treatment": "ACLSprotocol",
+            "Survival": "7%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Prehospital": {
+          "text": "Immediate resuscitation if indicated\n[15]\nAssess need for\nCPR\nbut do not delay removal from water\nVentilation is a higher priority in drowning victims in cardiac arrest than in other situations requiring CPR\nDeliver two rescue breaths immediately upon reaching shallow water or a stable surface; early breaths have been associated with improved survival\n[16]\nIf no response to rescue breaths with chest rise, continue to standard CPR algorithm\nAdminister high flow O2 and intubate apneic patients\nDo not routinely immobilize c-spine without suspicion based on mechanism or clinical signs\n[17]",
+          "tables": []
+        },
+        "Emergency_Department": {
+          "text": "Supportive care based on presentation is cornerstone of management\n[18]\nConsider\nCPAP\nif inadequate tidal volume with high flow O2\nOG tube for gastric distension\nIndications for\nintubation\n:\nComatose or unable to protect airway\nHypoxemia or hypercapnia on\nABG\ndespite high flow O2 (PaO2 below 60, PaCO2 above 50)\nContinue resuscitation efforts in hypothermic patients until core temperature rises to at least 30 C (not dead until warm and dead)\n[19]\nRoutine antibiotics in ED are not necessary, but broad spectrum coverage may be indicated for submersion in heavily contaminated water",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Prehospital": {
+      "text": "Immediate resuscitation if indicated\n[15]\nAssess need for\nCPR\nbut do not delay removal from water\nVentilation is a higher priority in drowning victims in cardiac arrest than in other situations requiring CPR\nDeliver two rescue breaths immediately upon reaching shallow water or a stable surface; early breaths have been associated with improved survival\n[16]\nIf no response to rescue breaths with chest rise, continue to standard CPR algorithm\nAdminister high flow O2 and intubate apneic patients\nDo not routinely immobilize c-spine without suspicion based on mechanism or clinical signs\n[17]",
+      "subsections": {
+        "Emergency_Department": {
+          "text": "Supportive care based on presentation is cornerstone of management\n[18]\nConsider\nCPAP\nif inadequate tidal volume with high flow O2\nOG tube for gastric distension\nIndications for\nintubation\n:\nComatose or unable to protect airway\nHypoxemia or hypercapnia on\nABG\ndespite high flow O2 (PaO2 below 60, PaCO2 above 50)\nContinue resuscitation efforts in hypothermic patients until core temperature rises to at least 30 C (not dead until warm and dead)\n[19]\nRoutine antibiotics in ED are not necessary, but broad spectrum coverage may be indicated for submersion in heavily contaminated water",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Emergency_Department": {
+      "text": "Supportive care based on presentation is cornerstone of management\n[18]\nConsider\nCPAP\nif inadequate tidal volume with high flow O2\nOG tube for gastric distension\nIndications for\nintubation\n:\nComatose or unable to protect airway\nHypoxemia or hypercapnia on\nABG\ndespite high flow O2 (PaO2 below 60, PaCO2 above 50)\nContinue resuscitation efforts in hypothermic patients until core temperature rises to at least 30 C (not dead until warm and dead)\n[19]\nRoutine antibiotics in ED are not necessary, but broad spectrum coverage may be indicated for submersion in heavily contaminated water",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge after 4-6 hours of observation if:\nNormal mental status, SpO2 >95% on room air, normal CXR and respiratory exam\nAdmit all others",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Water-related injuries\nImmersion pulmonary edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Water-related injuries",
+          "url": "https://wikem.org/wiki/Water-related_injuries"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        }
+      ]
+    }
+  }
+}

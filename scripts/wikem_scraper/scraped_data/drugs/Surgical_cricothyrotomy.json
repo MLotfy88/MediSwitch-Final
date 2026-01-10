@@ -1,0 +1,158 @@
+{
+  "drug_name": "Surgical_cricothyrotomy",
+  "url": "https://wikem.org/wiki/Surgical_cricothyrotomy",
+  "scraped_at": "2026-01-10T08:03:02.490965",
+  "sections": {
+    "Indications": {
+      "text": "'Can't intubate, can't ventilate'\nNeed to secure an airway and cannot do so by non-surgical means\nRelevant clinical scenarios:\nChoking event with food bolus located above cricothyroid membrane\nAnaphylaxis requiring airway intervention but unable to pass tube from above\nSevere facial trauma or burns with distorted anatomy\nFailed airway",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications in adults\n[1]\nIn infants and young children,\nNeedle Cricothyrotomy\nmay be preferred\nCutoff age is debated\nYoung as 5 in some sources\n[2]\n10 or 12 years of age in other",
+      "subsections": {
+        "Relative_Contraindications": {
+          "text": "Inability to identify the landmarks.\nUnderlying anatomical abnormality.\nTracheal transection or severe trauma.",
+          "tables": []
+        },
+        "Predictors_of_Difficult_Cricothyrotomy_(SHORT)": {
+          "text": "S\nurgery\nH\nematoma\nO\nbesity\nR\nadiation (Burn or other distortion)\nT\numor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Needle Cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_Cricothyrotomy"
+        }
+      ]
+    },
+    "Relative_Contraindications": {
+      "text": "Inability to identify the landmarks.\nUnderlying anatomical abnormality.\nTracheal transection or severe trauma.",
+      "subsections": {
+        "Predictors_of_Difficult_Cricothyrotomy_(SHORT)": {
+          "text": "S\nurgery\nH\nematoma\nO\nbesity\nR\nadiation (Burn or other distortion)\nT\numor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Materials": {
+      "text": "No. 11 blade scalpel\nTrousseau dilator\nTracheal hook\nBougie\nCuffed No. 4 Tracheostomy Tube or size 6 ETT\n4 x 4 gauze\nSurgical drape\nAntiseptic solution",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Scalpel-Bougie_Technique:": {
+          "text": "Note that this technique is preferred as it requires no specialized equipment and can be performed quickly relative to other techniques\nIdentify landmarks as in other techniques\nPrep the neck as in other techniques\nStabilize larynx with left hand\nMake a 4 cm vertical incision at neck midline over cricothyroid membrane\nPalpate cricothyroid membrane with left index finger\nMake a horizontal incision into the cricothyroid membrane and dilate using finger or scalpel\nInsert left index finger into trachea\nPass\nbougie\nover left index finger into trachea\nPass endotracheal tube over bougie just until balloon is no longer visible\nInflate balloon\nSecure tube and confirm placement as with other techniques",
+          "tables": []
+        },
+        "Standard_Technique:": {
+          "text": "Identify the Landmarks\nStarting at the Sternal Notch, palpate superiorly until the Laryngeal Prominence is felt. The Cricothyroid Membrane will be approximately one fingerbreadth below this.\nIf not palpable with the prior method, place four fingers longitudinally across the neck with the 5th finger on the Sternal Notch. The Cricothyroid Membrane will be below your Index finger.\nPrepare the Neck\nClean the neck with antiseptic. If time allows, infiltrate the skin and soft tissue with Lidocaine.\nStabilize the Larynx\nNote: This is ESSENTIAL to success.\nWith the thumb and middle finger of the non-dominant hand, grip the posterolateral aspects of the Larynx, while leaving your index finger free to re-palpate the Cricothyroid membrane at any time.\nIncise the Skin\nWith your dominant hand, make a 3.5 cm midline VERTICAL incision over the membrane.\nRe-identify the Membrane\nUse the non-dominant index finger to again relocate the membrane.\nIncise the Membrane\nMake a 1 cm HORIZONTAL incision on the lower edge of the membrane.\nNote: The Cricothyroid vessels lie on the superior edge of the membrane. Making a lower incision helps avoid these vessels.\nAim the scalpel caudally to avoid injuring the vocal cords.\nOnce you have made the incision, slide the index finger of your non-dominant hand into the incision so as to not lose the opening.\nInsert the Tracheal Hook\nWith your dominant hand, insert the hook TRANSVERSLY. Then, rotate it 90 degrees, so that the hook is oriented cephalad and lift the Larynx upward and cephalad. The hook may now be switched to your non-dominant hand or held by an assistant (preferable).\nInsert the Trousseau Dilator\nWith your dominant hand, insert the dilator into the incision and GENTLY enlarge the incision in a vertical direction.\nRemove the dilator place the tracheostomy (or endotracheal) tube over your finger and into the opening.\nNote: A gum elastic bougie may be used in place of the above tubes.\nInflate the cuff and confirm placement.",
+          "tables": []
+        },
+        "Four-Step_Technique:": {
+          "text": "Identify the landmarks (as in the Standard Technique)\nMake a 1-2 cm HORIZONTAL stab incision through both the skin and cricothyroid membrane.\nBEFORE removing the scalpel, insert a tracheal hook and direct it caudally.\nInsert the tracheostomy tube through the incision into the trachea.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        }
+      ]
+    },
+    "Scalpel-Bougie_Technique:": {
+      "text": "Note that this technique is preferred as it requires no specialized equipment and can be performed quickly relative to other techniques\nIdentify landmarks as in other techniques\nPrep the neck as in other techniques\nStabilize larynx with left hand\nMake a 4 cm vertical incision at neck midline over cricothyroid membrane\nPalpate cricothyroid membrane with left index finger\nMake a horizontal incision into the cricothyroid membrane and dilate using finger or scalpel\nInsert left index finger into trachea\nPass\nbougie\nover left index finger into trachea\nPass endotracheal tube over bougie just until balloon is no longer visible\nInflate balloon\nSecure tube and confirm placement as with other techniques",
+      "subsections": {
+        "Standard_Technique:": {
+          "text": "Identify the Landmarks\nStarting at the Sternal Notch, palpate superiorly until the Laryngeal Prominence is felt. The Cricothyroid Membrane will be approximately one fingerbreadth below this.\nIf not palpable with the prior method, place four fingers longitudinally across the neck with the 5th finger on the Sternal Notch. The Cricothyroid Membrane will be below your Index finger.\nPrepare the Neck\nClean the neck with antiseptic. If time allows, infiltrate the skin and soft tissue with Lidocaine.\nStabilize the Larynx\nNote: This is ESSENTIAL to success.\nWith the thumb and middle finger of the non-dominant hand, grip the posterolateral aspects of the Larynx, while leaving your index finger free to re-palpate the Cricothyroid membrane at any time.\nIncise the Skin\nWith your dominant hand, make a 3.5 cm midline VERTICAL incision over the membrane.\nRe-identify the Membrane\nUse the non-dominant index finger to again relocate the membrane.\nIncise the Membrane\nMake a 1 cm HORIZONTAL incision on the lower edge of the membrane.\nNote: The Cricothyroid vessels lie on the superior edge of the membrane. Making a lower incision helps avoid these vessels.\nAim the scalpel caudally to avoid injuring the vocal cords.\nOnce you have made the incision, slide the index finger of your non-dominant hand into the incision so as to not lose the opening.\nInsert the Tracheal Hook\nWith your dominant hand, insert the hook TRANSVERSLY. Then, rotate it 90 degrees, so that the hook is oriented cephalad and lift the Larynx upward and cephalad. The hook may now be switched to your non-dominant hand or held by an assistant (preferable).\nInsert the Trousseau Dilator\nWith your dominant hand, insert the dilator into the incision and GENTLY enlarge the incision in a vertical direction.\nRemove the dilator place the tracheostomy (or endotracheal) tube over your finger and into the opening.\nNote: A gum elastic bougie may be used in place of the above tubes.\nInflate the cuff and confirm placement.",
+          "tables": []
+        },
+        "Four-Step_Technique:": {
+          "text": "Identify the landmarks (as in the Standard Technique)\nMake a 1-2 cm HORIZONTAL stab incision through both the skin and cricothyroid membrane.\nBEFORE removing the scalpel, insert a tracheal hook and direct it caudally.\nInsert the tracheostomy tube through the incision into the trachea.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        }
+      ]
+    },
+    "Standard_Technique:": {
+      "text": "Identify the Landmarks\nStarting at the Sternal Notch, palpate superiorly until the Laryngeal Prominence is felt. The Cricothyroid Membrane will be approximately one fingerbreadth below this.\nIf not palpable with the prior method, place four fingers longitudinally across the neck with the 5th finger on the Sternal Notch. The Cricothyroid Membrane will be below your Index finger.\nPrepare the Neck\nClean the neck with antiseptic. If time allows, infiltrate the skin and soft tissue with Lidocaine.\nStabilize the Larynx\nNote: This is ESSENTIAL to success.\nWith the thumb and middle finger of the non-dominant hand, grip the posterolateral aspects of the Larynx, while leaving your index finger free to re-palpate the Cricothyroid membrane at any time.\nIncise the Skin\nWith your dominant hand, make a 3.5 cm midline VERTICAL incision over the membrane.\nRe-identify the Membrane\nUse the non-dominant index finger to again relocate the membrane.\nIncise the Membrane\nMake a 1 cm HORIZONTAL incision on the lower edge of the membrane.\nNote: The Cricothyroid vessels lie on the superior edge of the membrane. Making a lower incision helps avoid these vessels.\nAim the scalpel caudally to avoid injuring the vocal cords.\nOnce you have made the incision, slide the index finger of your non-dominant hand into the incision so as to not lose the opening.\nInsert the Tracheal Hook\nWith your dominant hand, insert the hook TRANSVERSLY. Then, rotate it 90 degrees, so that the hook is oriented cephalad and lift the Larynx upward and cephalad. The hook may now be switched to your non-dominant hand or held by an assistant (preferable).\nInsert the Trousseau Dilator\nWith your dominant hand, insert the dilator into the incision and GENTLY enlarge the incision in a vertical direction.\nRemove the dilator place the tracheostomy (or endotracheal) tube over your finger and into the opening.\nNote: A gum elastic bougie may be used in place of the above tubes.\nInflate the cuff and confirm placement.",
+      "subsections": {
+        "Four-Step_Technique:": {
+          "text": "Identify the landmarks (as in the Standard Technique)\nMake a 1-2 cm HORIZONTAL stab incision through both the skin and cricothyroid membrane.\nBEFORE removing the scalpel, insert a tracheal hook and direct it caudally.\nInsert the tracheostomy tube through the incision into the trachea.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Four-Step_Technique:": {
+      "text": "Identify the landmarks (as in the Standard Technique)\nMake a 1-2 cm HORIZONTAL stab incision through both the skin and cricothyroid membrane.\nBEFORE removing the scalpel, insert a tracheal hook and direct it caudally.\nInsert the tracheostomy tube through the incision into the trachea.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Incorrect placement\nBleeding\nEsophageal or mediastinal perforation\nAspiration\nVocal cord or laryngeal injury\nThyroid injury\nSubcutaneous emphysema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intubation\nDifficult airway algorithm\nSurgical airways",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Difficult airway algorithm",
+          "url": "https://wikem.org/wiki/Difficult_airway_algorithm"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - Surgical Airway\nemDocs - Bougie Nights: The Surgical Airway Revisited",
+      "subsections": {
+        "Videos": {
+          "text": "EMCrit (0:50)\nhttps://www.youtube.com/watch?v=Q0RVlgwC9rs&feature=emb_logo\nEMCrit (0:58)\nhttps://www.youtube.com/watch?v=WnTBm5f_ihQ&feature=emb_logo\nHenneman (6:59)\nhttps://www.youtube.com/watch?v=bIbl6zgWBjg&feature=emb_logo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "EMCrit (0:50)\nhttps://www.youtube.com/watch?v=Q0RVlgwC9rs&feature=emb_logo\nEMCrit (0:58)\nhttps://www.youtube.com/watch?v=WnTBm5f_ihQ&feature=emb_logo\nHenneman (6:59)\nhttps://www.youtube.com/watch?v=bIbl6zgWBjg&feature=emb_logo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

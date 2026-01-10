@@ -1,0 +1,372 @@
+{
+  "drug_name": "Sydenham%27s_chorea",
+  "url": "https://wikem.org/wiki/Sydenham%27s_chorea",
+  "scraped_at": "2026-01-10T08:03:00.073375",
+  "sections": {
+    "Background": {
+      "text": "Also known as rheumatic chorea\nOne clinical manifestation of acute\nrheumatic fever\nMost common type of acquired chorea in childhood\nMovement disorder characterized by chorea, emotional lability, and hypotonia",
+      "subsections": {
+        "Epidemiology": {
+          "text": "More common in resource limited settings\nChorea reported in 18-36% of cases of\nrheumatic fever\nin the US\n[1]\n[2]\n[3]\n[4]\nGreatest incidence in patients aged between 5-13\n[5]\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "More common in resource limited settings\nChorea reported in 18-36% of cases of\nrheumatic fever\nin the US\n[1]\n[2]\n[3]\n[4]\nGreatest incidence in patients aged between 5-13\n[5]\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Chorea\n: rapid, random, irregular movements of face and extremities, restlessness of the truck\nEmotional lability\nHypotonia\nSymptoms usually continuous while awake, worse with action, and improved with sleep\nTypically generalized, but may favor one side\nTypically gradual onset\nOnset usually between 1-8 months after inciting infection\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Behavioral": {
+          "text": "Tourette\nBehavioral or emotional disorders",
+          "tables": []
+        },
+        "Autoimmune_or_inflammatory": {
+          "text": "Sydenham's chorea\n(due to\nacute rheumatic fever\n)\nAntiphospholipid syndrome\nAutoimmune encephalitis\nBehçet's disease\nCeliac disease\nHashimoto encephalopathy\nPolyarteritis nodosa\nPrimary angiitis of CNS\nSarcoidosis\nSjögren syndrome\nLupus",
+          "tables": []
+        },
+        "Cerebrovascular": {
+          "text": "Arteriovenous malformation (CNS)\nIntracerebral hemorrhage\nIschemic stroke\nMoyamoya\ndisease\nPostpump chorea\n(in children after cardiac surgery)\nSubarachnoid hemorrhage\nPolycythemia vera",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "AIDS-related\nCruetzfeld-Jakob disease or other prion disease\nDiphtheria\nLegionnaire disease\nLyme disease\nMalaria\nNeurocysticercosis\nNeurosyphilis\nProgressive multifocal leukoencephalopathy\nToxoplasmosis\nTuberculosis",
+          "tables": []
+        },
+        "Metabolic/Endocrine": {
+          "text": "Derangements of calcium, glucose, sodium\nHypocalcemia\nHypoparathyroidism\nOral contraceptives\n[8]\nChorea gravidarum (usually 1st trimester)\n[9]\nNonketotic hyperglycemia\n[10]\nHyperthyroidism\n(rare)\nRenal Failure",
+          "tables": []
+        },
+        "Drugs_&_Toxins": {
+          "text": "Alcohol intoxication or withdrawal\nCarbon Monoxide\nIllicit Drugs\nCocaine\nMethamphetamines\nGlue sniffing\nDopamine Receptor Antagonists\nMetoclopramide\n(Reglan)\nCimetidine\nDigoxin\nIsoniazid\nVerapamil\nTheophylline",
+          "tables": []
+        },
+        "Paraneoplastic": {
+          "text": "Neoplasm with basal ganglia involvement\nSmall-cell lung cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Antiphospholipid syndrome",
+          "url": "https://wikem.org/wiki/Antiphospholipid_syndrome"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Arteriovenous malformation (CNS)",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation_(CNS)"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Moyamoya",
+          "url": "https://wikem.org/wiki/Moyamoya"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperosmolar_Hyperglycemic_State_(HHS)"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Methamphetamines",
+          "url": "https://wikem.org/wiki/Methamphetamines"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        }
+      ]
+    },
+    "Causes_of_Chorea": {
+      "text": "",
+      "subsections": {
+        "Behavioral": {
+          "text": "Tourette\nBehavioral or emotional disorders",
+          "tables": []
+        },
+        "Autoimmune_or_inflammatory": {
+          "text": "Sydenham's chorea\n(due to\nacute rheumatic fever\n)\nAntiphospholipid syndrome\nAutoimmune encephalitis\nBehçet's disease\nCeliac disease\nHashimoto encephalopathy\nPolyarteritis nodosa\nPrimary angiitis of CNS\nSarcoidosis\nSjögren syndrome\nLupus",
+          "tables": []
+        },
+        "Cerebrovascular": {
+          "text": "Arteriovenous malformation (CNS)\nIntracerebral hemorrhage\nIschemic stroke\nMoyamoya\ndisease\nPostpump chorea\n(in children after cardiac surgery)\nSubarachnoid hemorrhage\nPolycythemia vera",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "AIDS-related\nCruetzfeld-Jakob disease or other prion disease\nDiphtheria\nLegionnaire disease\nLyme disease\nMalaria\nNeurocysticercosis\nNeurosyphilis\nProgressive multifocal leukoencephalopathy\nToxoplasmosis\nTuberculosis",
+          "tables": []
+        },
+        "Metabolic/Endocrine": {
+          "text": "Derangements of calcium, glucose, sodium\nHypocalcemia\nHypoparathyroidism\nOral contraceptives\n[8]\nChorea gravidarum (usually 1st trimester)\n[9]\nNonketotic hyperglycemia\n[10]\nHyperthyroidism\n(rare)\nRenal Failure",
+          "tables": []
+        },
+        "Drugs_&_Toxins": {
+          "text": "Alcohol intoxication or withdrawal\nCarbon Monoxide\nIllicit Drugs\nCocaine\nMethamphetamines\nGlue sniffing\nDopamine Receptor Antagonists\nMetoclopramide\n(Reglan)\nCimetidine\nDigoxin\nIsoniazid\nVerapamil\nTheophylline",
+          "tables": []
+        },
+        "Paraneoplastic": {
+          "text": "Neoplasm with basal ganglia involvement\nSmall-cell lung cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Antiphospholipid syndrome",
+          "url": "https://wikem.org/wiki/Antiphospholipid_syndrome"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Arteriovenous malformation (CNS)",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation_(CNS)"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Moyamoya",
+          "url": "https://wikem.org/wiki/Moyamoya"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperosmolar_Hyperglycemic_State_(HHS)"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Methamphetamines",
+          "url": "https://wikem.org/wiki/Methamphetamines"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Typical neurological exam findings\nNormal mental status\nNormal cranial nerve and sensory exam\nMotor exam tests and findings\nSpooning - patient seated with arms fully extended forward from shoulders with pronated hands and fingers spread. Typical finding is symmetric hyperextension of the MCP joint (so the arms and hands look like spoons)\nTouchdown - patient raises arms and hands up fully extended with palms facing one another (as if making the \"touchdown\" sign). Typical finding is pronation of one or both hands and flexion of the elbows\nMilkmaid's grip - patient grips examiners index and middle fingers. Typical finding is partial release of grip and re-gripping, as if \"milking the cow\nDarting tongue - patient sticks tongue out from mouth. Typical finding is tongue alternately withdrawing and protruding because patient cannot maintain the motor command\nExam should also search for other manifestations of acute rheumatic fever including carditis, migratory polyarthritis, subcutaneous nodules, and erythema marginatum",
+          "tables": []
+        },
+        "Workup": {
+          "text": "Group A strep testing (i.e. with throat culture)\nSerum testing for antistreptolysin O and antideoxyribonuclease B\nCRP, ESR\nCardiac workup including EKG and echo\nConsider LP and/or neuroimaging if considering alternative diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physical_Exam": {
+      "text": "Typical neurological exam findings\nNormal mental status\nNormal cranial nerve and sensory exam\nMotor exam tests and findings\nSpooning - patient seated with arms fully extended forward from shoulders with pronated hands and fingers spread. Typical finding is symmetric hyperextension of the MCP joint (so the arms and hands look like spoons)\nTouchdown - patient raises arms and hands up fully extended with palms facing one another (as if making the \"touchdown\" sign). Typical finding is pronation of one or both hands and flexion of the elbows\nMilkmaid's grip - patient grips examiners index and middle fingers. Typical finding is partial release of grip and re-gripping, as if \"milking the cow\nDarting tongue - patient sticks tongue out from mouth. Typical finding is tongue alternately withdrawing and protruding because patient cannot maintain the motor command\nExam should also search for other manifestations of acute rheumatic fever including carditis, migratory polyarthritis, subcutaneous nodules, and erythema marginatum",
+      "subsections": {
+        "Workup": {
+          "text": "Group A strep testing (i.e. with throat culture)\nSerum testing for antistreptolysin O and antideoxyribonuclease B\nCRP, ESR\nCardiac workup including EKG and echo\nConsider LP and/or neuroimaging if considering alternative diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Group A strep testing (i.e. with throat culture)\nSerum testing for antistreptolysin O and antideoxyribonuclease B\nCRP, ESR\nCardiac workup including EKG and echo\nConsider LP and/or neuroimaging if considering alternative diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Chronic antibiotic therapy to minimize recurrence and risk of heart disease\nLength of therapy depending on risk of recurrence and severity of disease\nPenicillin G is preferred agent (usually given IM every 21-28 days)\n[11]\nChorea suppressing medication\nTypically low dose dopamine 2 receptor blocking agent such as fluphenazine, haloperidol, pimozide\nOther options include carbamazepine, clonidine, or guanfacine\nImmune-suppresing treatment may be considered\nOptions ranging from prednisone to IVIG and plasmapheresis in severe cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Neurology consultation or referral\nDecision regarding final disposition should be made based on overall clinical picture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Chorea\nAcute rheumatic fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        }
+      ]
+    }
+  }
+}

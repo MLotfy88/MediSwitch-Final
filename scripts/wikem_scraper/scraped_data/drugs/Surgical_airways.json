@@ -1,0 +1,58 @@
+{
+  "drug_name": "Surgical_airways",
+  "url": "https://wikem.org/wiki/Surgical_airways",
+  "scraped_at": "2026-01-10T08:03:00.862471",
+  "sections": {
+    "Surgical_Airways": {
+      "text": "Surgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Difficult airway algorithm\nTracheostomy complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Difficult airway algorithm",
+          "url": "https://wikem.org/wiki/Difficult_airway_algorithm"
+        },
+        {
+          "text": "Tracheostomy complications",
+          "url": "https://wikem.org/wiki/Tracheostomy_complications"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "Cricothyrotomy:\nEMCrit (0:50)\nhttps://www.youtube.com/watch?v=Q0RVlgwC9rs&feature=emb_logo\nEMCrit (0:58)\nhttps://www.youtube.com/watch?v=WnTBm5f_ihQ&feature=emb_logo\nHenneman (6:59)\nhttps://www.youtube.com/watch?v=bIbl6zgWBjg&feature=emb_logo\nJet ventilation:\nMDedge (1:52)\nhttps://www.youtube.com/watch?v=F_PV7N2c2pQ",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "Cricothyrotomy:\nEMCrit (0:50)\nhttps://www.youtube.com/watch?v=Q0RVlgwC9rs&feature=emb_logo\nEMCrit (0:58)\nhttps://www.youtube.com/watch?v=WnTBm5f_ihQ&feature=emb_logo\nHenneman (6:59)\nhttps://www.youtube.com/watch?v=bIbl6zgWBjg&feature=emb_logo\nJet ventilation:\nMDedge (1:52)\nhttps://www.youtube.com/watch?v=F_PV7N2c2pQ",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

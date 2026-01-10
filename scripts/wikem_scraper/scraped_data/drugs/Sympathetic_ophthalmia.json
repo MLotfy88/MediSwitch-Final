@@ -1,0 +1,125 @@
+{
+  "drug_name": "Sympathetic_ophthalmia",
+  "url": "https://wikem.org/wiki/Sympathetic_ophthalmia",
+  "scraped_at": "2026-01-10T08:03:01.720076",
+  "sections": {
+    "Background": {
+      "text": "Uveitis\nof both eyes, following trauma to one eye\nDue to autoimmune inflammatory response after introduction of immune system to ocular antigens during trauma\nCan develop within days to years of initial trauma\nAffects 0.03 per 100,000 persons per year\nPrevention\nBecause it is so rare, enucleation often not done immediately, if chance of regaining function",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms\nFloaters\nLoss of accommodation\nEye pain\n, photophobia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Floaters",
+          "url": "https://wikem.org/wiki/Floaters"
+        },
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Acute_onset_flashers_and_floaters": {
+      "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immunosuppressive therapy\nMild:\ntopical steroids\nand pupillary dilators\nSevere: Systemic\nsteroids\n, chlorambucil,\ncyclophosphamide\nEnucleation can reduce symptoms even after the condition has developed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rosen's Emergency Medicine\nSympathetic Ophthalmia:\nhttps://en.wikipedia.org/wiki/Sympathetic_ophthalmia\n. Updated on 17 September 2014.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

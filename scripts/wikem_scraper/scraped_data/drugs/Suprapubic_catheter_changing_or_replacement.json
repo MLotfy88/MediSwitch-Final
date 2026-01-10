@@ -1,0 +1,80 @@
+{
+  "drug_name": "Suprapubic_catheter_changing_or_replacement",
+  "url": "https://wikem.org/wiki/Suprapubic_catheter_changing_or_replacement",
+  "scraped_at": "2026-01-10T08:02:58.832145",
+  "sections": {
+    "Procedure": {
+      "text": "Using sterile procedure",
+      "subsections": {
+        "Preparation": {
+          "text": "Identify appropriate size catheter (past catheter size, if available)\nOpen standard Foley kit (catheters are the same as standard Foley catheters)\nAttach Foley to drainage catheter, if not already attached\nApply lubricant liberally to the first two inches of the catheter tip\nThere is no longer a need to test the catheter balloon prior to procedure and this is no longer recommended by the manufacturer\nAttach syringe to inflation port of new catheter (normally 10cc of normal saline)\nSterile prep including of patient and old catheter (if present)",
+          "tables": []
+        },
+        "Old_Catheter_Deflation_(if_still_present)": {
+          "text": "Have assistant (or wear a second pair of gloves for this part, if you have no assistant):\nDeflate balloon of old catheter\nRemove old catheter (you may feel some mild resistance. If you are sure the balloon is fully deflated, it’s alright to give it a little tug).\nNote how far old catheter length was inside patient\nIf you had no assistant, remove first pair of gloves afterwards\nAfterwards, move to next step quickly to minimize time that there is no catheter in fistula site",
+          "tables": []
+        },
+        "Insertion_of_New_Catheter": {
+          "text": "Pick up the pre-lubricated catheter and insert it.\nOnly push it in just slightly further than previous catheter was in\nWait until urine flows freely to confirm that catheter is in the correct position\nKeep holding the catheter in position and slowly inflate the balloon with 8cc of sterile water\nImmediately stop if the patient has significant pain during inflation and insert the Foley further",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Preparation": {
+      "text": "Identify appropriate size catheter (past catheter size, if available)\nOpen standard Foley kit (catheters are the same as standard Foley catheters)\nAttach Foley to drainage catheter, if not already attached\nApply lubricant liberally to the first two inches of the catheter tip\nThere is no longer a need to test the catheter balloon prior to procedure and this is no longer recommended by the manufacturer\nAttach syringe to inflation port of new catheter (normally 10cc of normal saline)\nSterile prep including of patient and old catheter (if present)",
+      "subsections": {
+        "Old_Catheter_Deflation_(if_still_present)": {
+          "text": "Have assistant (or wear a second pair of gloves for this part, if you have no assistant):\nDeflate balloon of old catheter\nRemove old catheter (you may feel some mild resistance. If you are sure the balloon is fully deflated, it’s alright to give it a little tug).\nNote how far old catheter length was inside patient\nIf you had no assistant, remove first pair of gloves afterwards\nAfterwards, move to next step quickly to minimize time that there is no catheter in fistula site",
+          "tables": []
+        },
+        "Insertion_of_New_Catheter": {
+          "text": "Pick up the pre-lubricated catheter and insert it.\nOnly push it in just slightly further than previous catheter was in\nWait until urine flows freely to confirm that catheter is in the correct position\nKeep holding the catheter in position and slowly inflate the balloon with 8cc of sterile water\nImmediately stop if the patient has significant pain during inflation and insert the Foley further",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Insertion_of_New_Catheter": {
+      "text": "Pick up the pre-lubricated catheter and insert it.\nOnly push it in just slightly further than previous catheter was in\nWait until urine flows freely to confirm that catheter is in the correct position\nKeep holding the catheter in position and slowly inflate the balloon with 8cc of sterile water\nImmediately stop if the patient has significant pain during inflation and insert the Foley further",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Urinary retention\nCoude catheter\nSuprapubic catheter placement\nSuprapubic bladder aspiration\nPost-obstructive diuresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Coude catheter",
+          "url": "https://wikem.org/wiki/Coude_catheter"
+        },
+        {
+          "text": "Suprapubic catheter placement",
+          "url": "https://wikem.org/wiki/Suprapubic_catheter_placement"
+        },
+        {
+          "text": "Suprapubic bladder aspiration",
+          "url": "https://wikem.org/wiki/Suprapubic_bladder_aspiration"
+        },
+        {
+          "text": "Post-obstructive diuresis",
+          "url": "https://wikem.org/wiki/Post-obstructive_diuresis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.youtube.com/watch?v=lRCtvr79trU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

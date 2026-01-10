@@ -1,0 +1,436 @@
+{
+  "drug_name": "Sulfasalazine",
+  "url": "https://wikem.org/wiki/Sulfasalazine",
+  "scraped_at": "2026-01-10T08:02:53.839968",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nSalicylate\nDosage Forms: Tab: 500mg; DR Tab: 500mg\nRoutes of Administration: Oral\nCommon Trade Names: Azulfidine, Azulfidine EN-tabs, Sulfazine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salicylate",
+          "url": "https://wikem.org/wiki/Salicylate"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Ulcerative_Colitis": {
+          "text": "500 mg PO q6h\nMax: 6 g/day",
+          "tables": []
+        },
+        "Rheumatoid_arthritis": {
+          "text": "1 g PO q12h\nMax 4 g/day",
+          "tables": []
+        },
+        "Crohn's_disease": {
+          "text": "500 mg PO q6h\nMax 6 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ulcerative_Colitis": {
+      "text": "500 mg PO q6h\nMax: 6 g/day",
+      "subsections": {
+        "Rheumatoid_arthritis": {
+          "text": "1 g PO q12h\nMax 4 g/day",
+          "tables": []
+        },
+        "Crohn's_disease": {
+          "text": "500 mg PO q6h\nMax 6 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rheumatoid_arthritis": {
+      "text": "1 g PO q12h\nMax 4 g/day",
+      "subsections": {
+        "Crohn's_disease": {
+          "text": "500 mg PO q6h\nMax 6 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Crohn's_disease": {
+      "text": "500 mg PO q6h\nMax 6 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Ulcerative_Colitis_2": {
+          "text": "6+ years old\n30-70 mg/kg/day PO divided q12h\nMax: 2 g/day",
+          "tables": []
+        },
+        "Juvenile_idiopathic_arthritis": {
+          "text": "6+ years old\n30-50 mg/kg/day PO divided q12h\nMax: 2 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ulcerative_Colitis_2": {
+      "text": "6+ years old\n30-70 mg/kg/day PO divided q12h\nMax: 2 g/day",
+      "subsections": {
+        "Juvenile_idiopathic_arthritis": {
+          "text": "6+ years old\n30-50 mg/kg/day PO divided q12h\nMax: 2 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Juvenile_idiopathic_arthritis": {
+      "text": "6+ years old\n30-50 mg/kg/day PO divided q12h\nMax: 2 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category B, benefits outweigh risk during pregnancy; low risk\nLactation risk: Caution advised; risk of infant diarrhea",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to\nsalicylates\nHypersensitivity to\nsulfonamides\nPorphyria\nGI Obstruction, GU obstruction\nFebrile viral infection (pts <20 yo)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction,\nanaphylaxis\nErythema multiforme\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nPulmonary toxicity, hepatotoxicity, nephrotoxicity\nPancreatitis\nSeizure\nMeningitis\nAgranulocytosis\n,\nAplastic anemia\n,\nhemolytic anemia\nInfertility, Oligospermia\nReye syndrome\nHypoglycemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Anorexia\nHeadache\n,\nNausea\n,\nVomiting\n,\nDizziness\nDyspepsia\n, stomatitis\nOligospermia\nRash\n,\nPruritus\n, Urticaria\nAbdominal pain\nFever\nLeukopenia\n,\nhemolytic anemia\nCyanosis\nCrystalluria,\nHematuria\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity reaction,\nanaphylaxis\nErythema multiforme\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nPulmonary toxicity, hepatotoxicity, nephrotoxicity\nPancreatitis\nSeizure\nMeningitis\nAgranulocytosis\n,\nAplastic anemia\n,\nhemolytic anemia\nInfertility, Oligospermia\nReye syndrome\nHypoglycemia",
+      "subsections": {
+        "Common": {
+          "text": "Anorexia\nHeadache\n,\nNausea\n,\nVomiting\n,\nDizziness\nDyspepsia\n, stomatitis\nOligospermia\nRash\n,\nPruritus\n, Urticaria\nAbdominal pain\nFever\nLeukopenia\n,\nhemolytic anemia\nCyanosis\nCrystalluria,\nHematuria\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Anorexia\nHeadache\n,\nNausea\n,\nVomiting\n,\nDizziness\nDyspepsia\n, stomatitis\nOligospermia\nRash\n,\nPruritus\n, Urticaria\nAbdominal pain\nFever\nLeukopenia\n,\nhemolytic anemia\nCyanosis\nCrystalluria,\nHematuria\nPhotosensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7.6 h (Active metabolites 10.4-14.8h)\nMetabolism: GI tract, liver\nExcretion: Urine 37% (15% unchanged), feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Blocks cyclooxygenase and inhibits prostaglandin production, producing anti-inflammatory effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

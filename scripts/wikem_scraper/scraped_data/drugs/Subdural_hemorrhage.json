@@ -1,0 +1,193 @@
+{
+  "drug_name": "Subdural_hemorrhage",
+  "url": "https://wikem.org/wiki/Subdural_hemorrhage",
+  "scraped_at": "2026-01-10T08:02:48.973053",
+  "sections": {
+    "Background": {
+      "text": "Can present as acute (<14 days) and chronic (>14 days)\nBoth types are caused by sudden acceleration-deceleration of the brain with resultant shearing of the bridging veins.\nBlood pools between the dura mater and arachnoid\nPatients with extreme atrophy are at increased risk (elderly, alcoholics)\nPatients less than 2 years old are also at increased risk\nSDH are often associated with other\nbrain injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "brain injuries",
+          "url": "https://wikem.org/wiki/TBI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Patients with acute SDH generally will present unconscious after a severe\ntrauma\nPatients with chronic SDH generally present with\naltered mental status\nor vague complaints\nHigh index of suspicion warranted in the aforementioned groups of patients at increased risk with any history of head trauma regardless of severity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Intracranial_Hemorrhage_Types": {
+          "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Intracranial_Hemorrhage_Types": {
+      "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[1]\nConsider cervical and/or facial CT\nNoncontrast\nCT\nbrain is the gold standard\nAcute SDH will show as a hyperdense (white) collection with a crescent-shaped appearance\nChronic SDH will show as a hypodense (dark grey/black) collection in a crescent-shape\nContrasted studies are useful in distinguishing acute, subacute, and chronic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[1]\nConsider cervical and/or facial CT\nNoncontrast\nCT\nbrain is the gold standard\nAcute SDH will show as a hyperdense (white) collection with a crescent-shaped appearance\nChronic SDH will show as a hypodense (dark grey/black) collection in a crescent-shape\nContrasted studies are useful in distinguishing acute, subacute, and chronic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nHead trauma (main)\nEmergent neurosurgical evacuation\nOperative intervention generally for patients with focal findings, >10mm hematoma, midline shift > 5mm, signs of increased intracranial pressure (ICP)\n[2]\n[3]\nManagement of\nICP\nHead of bed to 30 degrees\nShort-term use of hyperventilation\nHyperosmolar agents (\nMannitol\n,\n3% saline\n)\nReversal of anticoagulation\nTreat and prevent hypotension and hypoxia\nAssociated with significantly increased mortality\n[4]\nEmergency Department\nBurr hole\n, if indicated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "3% saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Reversal of anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal"
+        },
+        {
+          "text": "Burr hole",
+          "url": "https://wikem.org/wiki/Burr_hole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission to neurosurgery or trauma surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intracranial Hemorrhage (Main)\nHead Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial Hemorrhage (Main)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(Main)"
+        },
+        {
+          "text": "Head Trauma",
+          "url": "https://wikem.org/wiki/Head_Trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "SDH Radiographs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
