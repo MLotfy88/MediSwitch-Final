@@ -1,0 +1,566 @@
+{
+  "drug_name": "Systemic_lupus_erythematosus",
+  "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus",
+  "scraped_at": "2026-01-10T08:03:11.459004",
+  "sections": {
+    "Background": {
+      "text": "Autoimmune disorder affecting all systems\nAlso consider drug induced lupus",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Female:Male 10:1\nPeak in 20s-30s\nMore common in Black patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "Female:Male 10:1\nPeak in 20s-30s\nMore common in Black patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "SLICC Classification Criteria 2012\n[1]\nRequirements: >4 of the following criteria (at least 1 clinical and 1 laboratory)\nOR\nbiopsy proven lupus nephritis with \npositive ANA or Anti-dsDNA\nClinical criteria\nMalar\nrash\n, bullous lupus, photosensitivity\nDiscoid rash, hypertrophic lupus\nOral ulcers or nasal ulcers\nNon-scarring alopecia\nSynovitis\nSerositis\nNephritis\nCerebritis, myelitis, neuropathy\nHemolytic anemia\nLeukopenia\nor lymphopenia\nThrombocytopenia\nImmunological criteria\nANA\nAnti-dsDNA\nAnti-Sm\nAntiphospholipid antibody\nLow complement C3, low C4\nDirect Coombs' test in the absence of haemolytic anaemia\nOrgan system affected:\nCardiopulmonary\nPneumonia\nCover for\nListeria\nand\nPseudomonas\nCAD\nMore common and more complications post-PCI\nPE\nPericarditis\nEndocarditis\nInfectious and Libman-Sachs\nNeuropsychiatric/\nAltered mental status\nNon-convulsive\nstatus epilepticus\nCNS\nvasculitis\nStroke\nEncephalitis\nMeningitis\nMusculoskeletal\nArthritis\nUsually symmetric\nConsider\nseptic arthritis\nif there is a single inflamed joint\nCover for\nSalmonella\nin addition to standard coverage\nGI\nLupus enteritis (mesenteric\nvasculitis\n)\nMost common cause of acute\nabdominal pain\nPancreatitis\nPUD\nDermatologic\nMalar\nrash\nacross bridge of nose\nDiscoid rash, erythematous with scale\nRenal\nUsually a\nnephritis\nCan cause a glomerulonephrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PUD",
+          "url": "https://wikem.org/wiki/PUD"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "nephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Rheumatoid arthritis\nSjögren Syndrome\nDermatomyositis\nPolymyositis\nStevens-Johnson syndrome\nToxic Epidermal Necrolysis\nSeptic Arthritis\nLyme Disease\nVasculitis\nAcute Rheumatic Fever\nToxic Shock Syndrome\nTTP\nITP\nDIC",
+      "subsections": {
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        },
+        "Causes_of_Glomerulonephritis": {
+          "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens_Johnson_Syndrome_and_Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Stevens_Johnson_Syndrome_and_Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Septic Arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis"
+        },
+        {
+          "text": "Lyme Disease",
+          "url": "https://wikem.org/wiki/Lyme_Disease"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Acute Rheumatic Fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/Idiopathic_Thrombocytopenic_Purpura"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {
+        "Causes_of_Glomerulonephritis": {
+          "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Causes_of_Glomerulonephritis": {
+      "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Undiagnosed\nCBC\nChem 10\nUrine pregnancy\nANA\nESR\nUrinalysis\nBedside\nechocardiography\nif ill or hypotensive\n(Consider anti-DNA, anti-Smith, anti-Nuclear, anti-phospholipid, C3,C4, direct Coombs')\nFlare\nBedside echo if ill or hypotensive\nCBC\nChem\nUrinalysis\nUrine pregnancy\nAs directed by organ system involved\nDrug Induced Lupus\nAnti-histone-Ab positive 95% of the time\nMake sure to review medications\nHigh risk:\nProcainamide\n(antiarrhythmic)\nHydralazine\n(antihypertensive)\nModerate to low risk:\nInfliximab anti (TNF-α)\nEtanercept anti (TNF-α)\nIsoniazid\n(antibiotic)\nMinocycline\n(antibiotic)\nPyrazinamide\n(antibiotic)\nQuinidine\n(antiarrhythmic)\nD-\nPenicillamine\n(anti-inflammatory)\nCarbamazepine\n(anticonvulsant)\nOxcarbazepine\n(anticonvulsant)\nPhenytoin\n(anticonvulsant)\nPropafenone (antiarrhythmic)\nChlorpromazine\n(antipsychotic)",
+      "subsections": {
+        "Fever_in_SLE": {
+          "text": "Must differentiate disease activity (flare) from infection\nRisk Factors for Infection\n[2]\nNeutropenia\n/Lymphopenia\nHypocomplementemia\nImmunosuppressive therapy (especially\nazathioprine\n[3]\n)\nStudies\nCRP: sensitivity 100%, specificity 90% >1.35mg/dL\n[4]\nPCT: sensitivity 75%, specificity 75%\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "Pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Oxcarbazepine",
+          "url": "https://wikem.org/wiki/Oxcarbazepine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        }
+      ]
+    },
+    "Fever_in_SLE": {
+      "text": "Must differentiate disease activity (flare) from infection\nRisk Factors for Infection\n[2]\nNeutropenia\n/Lymphopenia\nHypocomplementemia\nImmunosuppressive therapy (especially\nazathioprine\n[3]\n)\nStudies\nCRP: sensitivity 100%, specificity 90% >1.35mg/dL\n[4]\nPCT: sensitivity 75%, specificity 75%\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Inflammatory complications\nMethylprednisolone\n1-2mg/kg in most cases\nInfectious\nStress dose\nsteroids\nwith\nhydrocortisone\n100mg IV Q8hr if on or recently on steroids\nDermatologic\nHydrocortisone\n1% cream\nIf drug induced lupus, stop medication and consider alternative",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Suspected new diagnosis can have out patient workup if well appearing\nMild flairs can have expedited out patient management\nMusculoskeletal symptoms can usually be managed as out patients\nChest pain\nrequires urgent\nACS\nevaluation\nInfections usually require admission for\nantibiotics\nand systemic\ncorticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Arthritis\nFever and Rash\nLupus Anticoagulant\nPericarditis\nPericardial Effusion and Tamponade\nAcute Renal Failure\nAdrenal Crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Fever and Rash",
+          "url": "https://wikem.org/wiki/Fever_and_Rash"
+        },
+        {
+          "text": "Lupus Anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_Anticoagulant"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Acute Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        }
+      ]
+    }
+  }
+}

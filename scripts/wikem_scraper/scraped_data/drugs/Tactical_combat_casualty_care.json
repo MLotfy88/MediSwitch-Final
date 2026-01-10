@@ -1,0 +1,72 @@
+{
+  "drug_name": "Tactical_combat_casualty_care",
+  "url": "https://wikem.org/wiki/Tactical_combat_casualty_care",
+  "scraped_at": "2026-01-10T08:03:10.351025",
+  "sections": {
+    "Background": {
+      "text": "Tactical Combat Casualty Care (TCCC) is a set of evidence-based guidelines for trauma care in a tactical or combat environment.\nDeveloped and updated by the Committee on Tactical Combat Casualty Care (CoTCCC), a division of the US Department of Defense Joint Trauma System (JTS).\nGoal is to reduce preventable combat deaths.\nGuidelines are divided into three \"phases of care\".",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Phases_of_Care": {
+      "text": "Care under fire\nTactical field care\nTactical evacuation care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Care under fire",
+          "url": "https://wikem.org/wiki/Care_under_fire"
+        },
+        {
+          "text": "Tactical field care",
+          "url": "https://wikem.org/wiki/Tactical_field_care"
+        },
+        {
+          "text": "Tactical evacuation care",
+          "url": "https://wikem.org/wiki/Tactical_evacuation_care"
+        }
+      ]
+    },
+    "Assessment_and_Triage": {
+      "text": "Rather than typical \"ABC\" approach to trauma assessment, TCCC prioritizes massive hemorrhage\nMARCH acronym is used to prioritize treatment:\nM\n- Massive hemorrhage\nEmphasize early recognition of significant bleeding. Apply limb\ntourniquets\nhigh, tight, and early. For junctional injuries, utilize direct pressure or hemostatic agents while waiting for OR.\nA\n- Airway\nConsider triage given limited management resources. May require surgical airway if significant facial or oropharyngeal injuries are present.\nR\n- Respiration\nRecognize and manage pneumothoraces with needle or chest tube thoracostomy. Consider chest seals for chest cavity wounds.\nC\n- Circulation\nReevaluate for peripheral pulses,\ntourniquets\nthat need to be replaced, and hemorrhage management deferred during \"M.\" Consider eFAST exam.\nH\n- Head/Hypothermia\nEvaluate for head injury, including mental status and GCS. Treat hypothermia.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tourniquets",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "tourniquets",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Combat triage\nNine line CASEVAC\nMilitary emergency medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Combat triage",
+          "url": "https://wikem.org/wiki/Combat_triage"
+        },
+        {
+          "text": "Nine line CASEVAC",
+          "url": "https://wikem.org/wiki/Nine_line_CASEVAC"
+        },
+        {
+          "text": "Military emergency medicine",
+          "url": "https://wikem.org/wiki/Military_emergency_medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Committee on Tactical Combat Casualty Care (CoTCCC)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

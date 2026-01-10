@@ -1,0 +1,106 @@
+{
+  "drug_name": "Tetracycline",
+  "url": "https://wikem.org/wiki/Tetracycline",
+  "scraped_at": "2026-01-10T08:03:22.454378",
+  "sections": {
+    "General": {
+      "text": "Type:\nTetracyclines\nDosage Forms:\nCommon Trade Names: Sumycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetracyclines",
+          "url": "https://wikem.org/wiki/Tetracyclines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "500mg PO q6-12hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">8yo: 25-50 mg/kg/day PO divided q6hr; not to exceed 3 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: Category D\nLactation: Short term use acceptable\nRenal Dosing: reduce dose\nHepatic Dosing: contraindicated in severe impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSevere hepatic dysfunction\nPregnancy 2nd and 3rd trimesters",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Calcium Deposits in Teeth and Bones\ncauses tetracycline to be contraindicated in pediatrics\nNephrogenic Diabetes Insipidus\nEsophageal ulceration\nHepatic toxicity, liver failure\nAngioedema\nAnyphilaxis\nPericarditis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Photosensitivity\nPseudo Tumor Cerebri\nMyopia\nNausea/vomiting, diarrhea, esophagitis, black hairy tongue, dysphagia\nRash, onycholysis\nElevated BUN\nSerum sickness-like reaction\nHemolytic anemia, thrombocytopenia, neutropenia, eosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudo Tumor Cerebri",
+          "url": "https://wikem.org/wiki/Pseudo_Tumor_Cerebri"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Calcium Deposits in Teeth and Bones\ncauses tetracycline to be contraindicated in pediatrics\nNephrogenic Diabetes Insipidus\nEsophageal ulceration\nHepatic toxicity, liver failure\nAngioedema\nAnyphilaxis\nPericarditis",
+      "subsections": {
+        "Common": {
+          "text": "Photosensitivity\nPseudo Tumor Cerebri\nMyopia\nNausea/vomiting, diarrhea, esophagitis, black hairy tongue, dysphagia\nRash, onycholysis\nElevated BUN\nSerum sickness-like reaction\nHemolytic anemia, thrombocytopenia, neutropenia, eosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudo Tumor Cerebri",
+          "url": "https://wikem.org/wiki/Pseudo_Tumor_Cerebri"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Photosensitivity\nPseudo Tumor Cerebri\nMyopia\nNausea/vomiting, diarrhea, esophagitis, black hairy tongue, dysphagia\nRash, onycholysis\nElevated BUN\nSerum sickness-like reaction\nHemolytic anemia, thrombocytopenia, neutropenia, eosinophilia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudo Tumor Cerebri",
+          "url": "https://wikem.org/wiki/Pseudo_Tumor_Cerebri"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8-11hr\nMetabolism:\nExcretion: Urine\nMechanism of Action: Inhibits bacterial protein synthesis by binding with 30S and possibly 50S ribosomal subunit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

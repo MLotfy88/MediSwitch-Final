@@ -1,0 +1,167 @@
+{
+  "drug_name": "Tetracaine",
+  "url": "https://wikem.org/wiki/Tetracaine",
+  "scraped_at": "2026-01-10T08:03:18.414426",
+  "sections": {
+    "General": {
+      "text": "Type:\nLocal anesthetics\nDosage Forms: ophthalmic, subcutaneous\nCommon Trade Names:",
+      "subsections": {
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Local anesthetics",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        }
+      ]
+    },
+    "Maximum_Doses_of_Anesthetic_Agents": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Lidocaine",
+            "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+            "WithEpinephrine": "7 mg/kg (max 500mg)",
+            "Duration": "30-90 min",
+            "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+          },
+          {
+            "Agent": "Mepivicaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "8 mg/kg",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Bupivicaine",
+            "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+            "WithEpinephrine": "3 mg/kg (max 225mg)",
+            "Duration": "6-8 hr",
+            "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+          },
+          {
+            "Agent": "Ropivacaine",
+            "WithoutEpinephrine": "3 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Prilocaine",
+            "WithoutEpinephrine": "6 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Tetracaine",
+            "WithoutEpinephrine": "1 mg/kg",
+            "WithEpinephrine": "1.5 mg/kg",
+            "Duration": "3hrs (10hrs with epi)",
+            "Notes": ""
+          },
+          {
+            "Agent": "Procaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "10 mg/kg",
+            "Duration": "30min (90min with epi)",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Local Anesthetic Systemic Toxicity (LAST)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)",
+          "url": "https://wikem.org/wiki/Local_Anesthetic_Systemic_Toxicity_(LAST)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "drug_name": "Tenecteplase",
+  "url": "https://wikem.org/wiki/Tenecteplase",
+  "scraped_at": "2026-01-10T08:03:17.567787",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nThrombolytic\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolytic",
+          "url": "https://wikem.org/wiki/Thrombolytic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Ischemic stroke\n0.25 mg/kg (max 25 mg)\n[1]\nThrombolysis for PE\n50 mg bolus or 0.5 mg/kg bolus\n[2]\n[3]\n[4]\nAcute myocardial infarction\n<60kg: 30mg IV bolus over 5s\n60-69kg: 35 mg IV bolus over 5s\n70-79 kg: 40 mg IV bolus over 5s\n80-89kg: 45 mg IV bolus over 5s\n>90 kg: 50 mg IV bolus over 5s",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        },
+        {
+          "text": "Acute myocardial infarction",
+          "url": "https://wikem.org/wiki/Acute_myocardial_infarction"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Pregnancy category C (fetal risk cannot be ruled out)",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Pregnancy category C (fetal risk cannot be ruled out)",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: not established",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nActive internal bleeding\nKnown bleeding diathesis\nRecent (<2m) intracranial or intraspinal surgery or trauma\nIntracranial neoplasm, AVM, or aneurysm\nHistory of CVA\nSevere, uncontrollable hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Upon coronary reperfusion:\nDysrhythmia\n, cholesterol embolus (rare)\nMajor hemorrhage,\nGI bleed\n,\nintracranial hemorrhage\n, renal artery hemorrhage\nCVA\nThromboembolism\nAnaphylaxis\n, hypersensitivity reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Minor hemorrhage: hematoma, GI bleed, renal artery hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Upon coronary reperfusion:\nDysrhythmia\n, cholesterol embolus (rare)\nMajor hemorrhage,\nGI bleed\n,\nintracranial hemorrhage\n, renal artery hemorrhage\nCVA\nThromboembolism\nAnaphylaxis\n, hypersensitivity reaction",
+      "subsections": {
+        "Common": {
+          "text": "Minor hemorrhage: hematoma, GI bleed, renal artery hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Minor hemorrhage: hematoma, GI bleed, renal artery hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 90-130m\nMetabolism: Hepatic\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds fibrin, converts plasminogen to plasmin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thrombolysis\nThrombolysis for PE\nThrombolytics in STEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        },
+        {
+          "text": "Thrombolytics in STEMI",
+          "url": "https://wikem.org/wiki/Thrombolytics_in_STEMI"
+        }
+      ]
+    }
+  }
+}

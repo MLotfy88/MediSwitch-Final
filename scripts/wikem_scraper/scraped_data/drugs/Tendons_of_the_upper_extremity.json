@@ -1,0 +1,47 @@
+{
+  "drug_name": "Tendons_of_the_upper_extremity",
+  "url": "https://wikem.org/wiki/Tendons_of_the_upper_extremity",
+  "scraped_at": "2026-01-10T08:03:17.359182",
+  "sections": {
+    "Intro": {
+      "text": "Fingers\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nThumb\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nWrist\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nMallet\n= DIP\nBoutonniere\n= PIP\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Tendons_of_the_upper_extremity_anatomy": {
+      "text": "Fingers\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nThumb\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nWrist\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mallet",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Boutonniere",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Tendons of the lower extremity\nHand and finger tendon injuries\nTendon injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tendons of the lower extremity",
+          "url": "https://wikem.org/wiki/Tendons_of_the_lower_extremity"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        }
+      ]
+    }
+  }
+}

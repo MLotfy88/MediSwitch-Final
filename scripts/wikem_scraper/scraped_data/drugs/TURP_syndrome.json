@@ -1,0 +1,181 @@
+{
+  "drug_name": "TURP_syndrome",
+  "url": "https://wikem.org/wiki/TURP_syndrome",
+  "scraped_at": "2026-01-10T08:03:09.865700",
+  "sections": {
+    "Background": {
+      "text": "Complication seen after transurethral resection of prostate when large volumes of glycine-based irrigation fluids absorbed through venous sinuses, causing volume overload and hyponatremia, as well as CNS effects due to glycine\nGlycine inhibits GABA receptors and potentiates NMDA receptors\nMore rare currently due to changes in irrigation fluid composition\nCan also be seen after other procedures that require large volume irrigation, such as hysteroscopy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Onset 15min-24h post-op\nMay range in severity from mild to life-threatening\nTypically lasts hours but neuro symptoms may last longer if complicated\nHeadache\n, restlessness\nBurning sensation in face/hands,\nTachypnea,\npulmonary edema\n,\nhypoxia\n,\nrespiratory distress\nNausea/vomiting\nHemolysis\nAKI\nBradycardia\n(reflex from fluid absorption),\ndysrhythmia\nVisual disturbances\n(\nvisual loss\n, fixed pupils)\nConfusion\n,\nseizure\n,\ncoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Metabolic panel\nHyponatremia\n, iso- or mildly hypo-osmolar (due to dilutional effect of large volume fluid as well as natriuresis)\nHypocalcemia\n(due to precipitation of calcium with metabolites of glycine as oxalate crystals)\nCBC\nHemodilution\n+/-\nhemolysis\nAmmonia\nElevated due to deamination of glycine and serine\nSerum osmolarity\nOsmolar gap elevated due to glycine\nCXR\n- Signs of volume overload, pulmonary edema\nECG\n- May have arrythmias in severe cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "ABCs - address\npulmonary edema\n,\ndysrhythmias\nVolume overload:\nfurosemide\nIV\nHyponatremia\n:\nHypertonic saline\nonly if severe neuro manifestations (e.g. seizures) AND serum osmolality <260\nGoal to raise Na+ by 10-12mmol over 24h\nRapid increase in Na+ not concerning (as may occur with glycine metabolism) UNLESS there is sudden change in osmolality\nSeizure\nBenzodiazepines\n+/-\nAEDs\nConsider\nmagnesium\n(NMDA receptor stabilization)\nHypocalcemia\n- replete\nMonitor hemoglobin, transfuse\npRBCs\nPRN\nMay require\ndialysis\nin severe cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyponatremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Life in the Fast Lane - TURP Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

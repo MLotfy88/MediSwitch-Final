@@ -1,0 +1,143 @@
+{
+  "drug_name": "Terbutaline",
+  "url": "https://wikem.org/wiki/Terbutaline",
+  "scraped_at": "2026-01-10T08:03:18.607576",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta 2 agonist\nDosage Forms: 1mg/mL injection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta 2 agonist",
+          "url": "https://wikem.org/wiki/Beta_2_agonist"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Preterm_labor": {
+          "text": "0.25mg sq q20-30 min, up to 4 doses PRN contractions",
+          "tables": []
+        },
+        "Asthma/Bronchoconstriction": {
+          "text": "0.25mg sq q20 min, up to 3 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Preterm_labor": {
+      "text": "0.25mg sq q20-30 min, up to 4 doses PRN contractions",
+      "subsections": {
+        "Asthma/Bronchoconstriction": {
+          "text": "0.25mg sq q20 min, up to 3 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma/Bronchoconstriction": {
+      "text": "0.25mg sq q20 min, up to 3 doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Asthma/Bronchoconstriction_2": {
+          "text": "0.005-0.01mg/kg to max 0.4mg SQ q15-20 min, up to 3 doses; may repeat in 2-6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma/Bronchoconstriction_2": {
+      "text": "0.005-0.01mg/kg to max 0.4mg SQ q15-20 min, up to 3 doses; may repeat in 2-6 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation: Not recommended\nRenal Dosing: n/a\nHepatic Dosing: n/a",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Black box warning against prolonged use for tocolysis (>48-72 hrs)\nCardiac arrhythmia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Agitation, tremor, hyperglycemia, hypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Black box warning against prolonged use for tocolysis (>48-72 hrs)\nCardiac arrhythmia",
+      "subsections": {
+        "Common": {
+          "text": "Agitation, tremor, hyperglycemia, hypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Agitation, tremor, hyperglycemia, hypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset: 6-15 minutes\nHalf-life: 11-16 hours\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action: Beta 2 agonist, smooth muscle relaxant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Asthma\n,\nPreterm Labor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Preterm Labor",
+          "url": "https://wikem.org/wiki/Preterm_Labor"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

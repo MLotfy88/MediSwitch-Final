@@ -1,0 +1,175 @@
+{
+  "drug_name": "Syringomyelia",
+  "url": "https://wikem.org/wiki/Syringomyelia",
+  "scraped_at": "2026-01-10T08:03:07.013877",
+  "sections": {
+    "Background": {
+      "text": "Fluid filled cyst (syrinx) within the spinal cord which can expand or elongate over time, destroying surrounding spinal cord tissue.\nCan be due to dilation of the neural tissue surrounding the central canal itself (which can lead to obstructive\nhydrocephalus\n), or it can arise from within the parenchyma of the spinal cord.\nTypically occurs in the C2 and T9 distribution.\nMost commonly occurs in patients with a pre-existing Chiari malformation.\nUsually seen in young adults\nMost commonly insidious in onset but the effects of the cyst may manifest suddenly after coughing or sneezing",
+      "subsections": {
+        "Types": {
+          "text": "Congenital\nSecondary to Arnold Chiari malformation\nAssociated with\nhydrocephalus\nAcquired\nSecondary to an insult to the brain or spinal cord\nExamples:\nstroke\n,\ntrauma\n,\nmeningitis\n, hemorrhage, or tumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Congenital\nSecondary to Arnold Chiari malformation\nAssociated with\nhydrocephalus\nAcquired\nSecondary to an insult to the brain or spinal cord\nExamples:\nstroke\n,\ntrauma\n,\nmeningitis\n, hemorrhage, or tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Insidious onset\n\"Cape-like\" distribution of:\nParalysis\nParesthesia\nPain\nStiffness of the back, shoulders, and extremities\nLoss of ability to sense extreme hot or cold in the hands\nProprioception and vibration- spared due to sparing of the dorsal column and medial lemniscus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Brain tumor\nGuillain-Barré Syndrome\nAcute myelopathy\nBrain\nstroke\nSpinal cord\nstroke\nCentral pontine myelinolysis\nPediatric ependymoma\nDiabetic neuropathy\nMultiple Sclerosis\nTransverse Myelitis\nMyasthenia Gravis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Guillain-Barré Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barr%C3%A9_Syndrome"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Central pontine myelinolysis",
+          "url": "https://wikem.org/wiki/Central_pontine_myelinolysis"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Imaging\nCT\nto rule out\nmass\n,\nbleed\n, and\nhydrocephalus\nMRI brain\nand spine will make the diagnosis though this may not be indicated in the ED setting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "bleed",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "MRI brain",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Ensure no respiratory involvement and consider intubation if severe\nAnalgesia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Assuming pain is controlled and no concern for respiratory compromise, discharge home.\nNeurology follow-up- to create and monitor pain management plan\nNeurosurgery- for potential surgical resection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epidural compression syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        }
+      ]
+    }
+  }
+}

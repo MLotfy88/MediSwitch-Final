@@ -1,0 +1,1118 @@
+{
+  "drug_name": "Syncope",
+  "url": "https://wikem.org/wiki/Syncope",
+  "scraped_at": "2026-01-10T08:03:06.728475",
+  "sections": {
+    "Intro": {
+      "text": "For pediatric patients patients see\nsyncope (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Transient loss of postural tone and consciousness due to cerebral hypoperfusion\nSyncope and pre-syncope assessed similarly\nImportant considerations:\nIs this true syncope or something else (eg,\nstroke\n,\nseizure\n,\nhead injury\n)?\nIf this is true syncope, is there a clear life-threatening cause?\nIf this is true syncope and the cause is not clear, is the patient at high risk for serious outcome?",
+      "subsections": {
+        "Risk_Factors_for_Serious_Cause": {
+          "text": "Exertion preceding the event\nNote that syncope during exertion much more concerning than syncope after exertion\nNo preceding symptoms\nConcerning for cardiac dysrhythmia\nHistory of cardiac disease in the patient\nFamily history of sudden death, deafness, or cardiac disease\nConsider unexplained deaths and deaths due to single vehicle accidents\nRecurrent episodes\nRecumbent episode\nProlonged loss of consciousness\nAssociated\nchest pain\n,\nshortness of breath\nor\npalpitations\nUse of medications that can alter cardiac conduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        }
+      ]
+    },
+    "Risk_Factors_for_Serious_Cause": {
+      "text": "Exertion preceding the event\nNote that syncope during exertion much more concerning than syncope after exertion\nNo preceding symptoms\nConcerning for cardiac dysrhythmia\nHistory of cardiac disease in the patient\nFamily history of sudden death, deafness, or cardiac disease\nConsider unexplained deaths and deaths due to single vehicle accidents\nRecurrent episodes\nRecumbent episode\nProlonged loss of consciousness\nAssociated\nchest pain\n,\nshortness of breath\nor\npalpitations\nUse of medications that can alter cardiac conduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Evaluate volume status\nEvaluate for\nhead\nand\nneck trauma\n(related to fall from syncopal event)\nFocus cardiac exam on detecting murmurs (\naortic stenosis\n,\nmitral regurgitation\n, tricuspid stenosis)\nEvaluate for signs of\nheart failure\nPalpate abdomen for pulsating mass (\nAAA\n)\nRectal exam to eval for\nGI bleed\nThorough\nneurologic exam\nExamine for possible sources of infection",
+          "tables": []
+        },
+        "Clinical_Features_by_Cause": {
+          "text": "Cardiovascular-mediated syncope\nUsually occurs without warning (absence of prodrome)\nHistory of structural heart disease\nFamily history of sudden cardiac death\nSyncope during exertion\nChest pain\nor\npalpitations\nassociated with syncope\nAbnormal\nECG\nNeurally mediated syncope\nTrigger event (fear/pain, prolonged standing, warm environment)\nProdrome of\nnausea/vomiting\n, tunnel vision,\nlightheadedness\n, diaphoresis, warmth\n[1]\nAssociated with head movement or pressure on neck\nOrthostatic hypotension-mediated syncope\nAfter standing up\nChange in medications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "neck trauma",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "lightheadedness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Evaluate volume status\nEvaluate for\nhead\nand\nneck trauma\n(related to fall from syncopal event)\nFocus cardiac exam on detecting murmurs (\naortic stenosis\n,\nmitral regurgitation\n, tricuspid stenosis)\nEvaluate for signs of\nheart failure\nPalpate abdomen for pulsating mass (\nAAA\n)\nRectal exam to eval for\nGI bleed\nThorough\nneurologic exam\nExamine for possible sources of infection",
+      "subsections": {
+        "Clinical_Features_by_Cause": {
+          "text": "Cardiovascular-mediated syncope\nUsually occurs without warning (absence of prodrome)\nHistory of structural heart disease\nFamily history of sudden cardiac death\nSyncope during exertion\nChest pain\nor\npalpitations\nassociated with syncope\nAbnormal\nECG\nNeurally mediated syncope\nTrigger event (fear/pain, prolonged standing, warm environment)\nProdrome of\nnausea/vomiting\n, tunnel vision,\nlightheadedness\n, diaphoresis, warmth\n[1]\nAssociated with head movement or pressure on neck\nOrthostatic hypotension-mediated syncope\nAfter standing up\nChange in medications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "neck trauma",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "lightheadedness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Clinical_Features_by_Cause": {
+      "text": "Cardiovascular-mediated syncope\nUsually occurs without warning (absence of prodrome)\nHistory of structural heart disease\nFamily history of sudden cardiac death\nSyncope during exertion\nChest pain\nor\npalpitations\nassociated with syncope\nAbnormal\nECG\nNeurally mediated syncope\nTrigger event (fear/pain, prolonged standing, warm environment)\nProdrome of\nnausea/vomiting\n, tunnel vision,\nlightheadedness\n, diaphoresis, warmth\n[1]\nAssociated with head movement or pressure on neck\nOrthostatic hypotension-mediated syncope\nAfter standing up\nChange in medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "lightheadedness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Syncope_Causes": {
+          "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        }
+      ]
+    },
+    "Syncope_Causes": {
+      "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "ACEP only recommends\nECG\nand H&P as must haves\nECG\nPerform on every patient, unless trigger clearly identified (i.e. following blood draw) and no risk factors\nUrine pregnancy\nConsider based on history/symptoms\nCBC (or POC hemoglobin) & chemistry (or POC glucose)\nTroponin\nNot recommended to rule out A\nMI\nin patients with isolated syncope\n[2]\nElevated troponin predicts adverse cardiac outcome in syncope\n[3]\nMay be useful for risk stratification\nCXR\nOrthostatics (symptomatic)\nGuaiac\nCT scan of head is not recommended in asymptomatic, insignificant trauma with normal neurologic examination\nPart of\nChoosing wisely ACEP\nDoes\nPE\nneed to be worked up?\nNEJM paper by Prandoni\n[4]\nshowed that 7.14% of patients admitted for syncope had a pulmonary embolism and of the cohort that were not low risk with a negative d-dimer, the risk was as high as 17.3%\n2018 systematic reviewed\n[5]\nshowed 0.8% of admitted ED pts with syncope had PE\nAlso supported by 2019 study showing prevalence of 2.3% in undifferentiated patients admitted with syncope\n[6]\n.\nBoth of these two studies refute the findings of the PESIT study listed first\nBedside\nUS\nPSL view may show thickened ventricular septum\nHigh sensitivity to rule out\nAAA",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Overall yield of testing is low\nCardiovascular findings and evidence of bleeding strongest predictors of adverse outcomes after syncope\n[7]\nECG\nfindings associated with adverse cardiac outcome in 30 days:\n[8]\n[9]\nNormal ECG has high NPV\n[10]\nMay show:\nischemia\nHeart block\nWPW\n- short PR, Delta waves, wide QRS\nLong QT\n(QTc >0.450 sec),\nshort QT\nBrugada\n- incomplete\nRBBB\nwith ST elevations in V1-3\nHOCM\n-\nLVH\n, ST changes, T wave inversions, lateral leads needle like Q waves and absent R waves\nArrhythmogenic right ventricular dysplasia\n– incomplete\nRBBB\nwith T waves inversion in V1-3, epsilon wave is pathognomonic (up-notching of a terminal Q wave)\nEarly repolarization\nlow voltage\n/\npericardial effusion\nRV strain pattern\nLBBB, 2nd degree Mobitz II, 3rd degree AV block, RBBB w/LAFP or LPFB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Choosing wisely ACEP",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism_(PE)"
+        },
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Ultrasound_(main)"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT",
+          "url": "https://wikem.org/wiki/Long_QT"
+        },
+        {
+          "text": "short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Brugada",
+          "url": "https://wikem.org/wiki/Brugada"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "low voltage",
+          "url": "https://wikem.org/wiki/Low_voltage_ECG"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "ACEP only recommends\nECG\nand H&P as must haves\nECG\nPerform on every patient, unless trigger clearly identified (i.e. following blood draw) and no risk factors\nUrine pregnancy\nConsider based on history/symptoms\nCBC (or POC hemoglobin) & chemistry (or POC glucose)\nTroponin\nNot recommended to rule out A\nMI\nin patients with isolated syncope\n[2]\nElevated troponin predicts adverse cardiac outcome in syncope\n[3]\nMay be useful for risk stratification\nCXR\nOrthostatics (symptomatic)\nGuaiac\nCT scan of head is not recommended in asymptomatic, insignificant trauma with normal neurologic examination\nPart of\nChoosing wisely ACEP\nDoes\nPE\nneed to be worked up?\nNEJM paper by Prandoni\n[4]\nshowed that 7.14% of patients admitted for syncope had a pulmonary embolism and of the cohort that were not low risk with a negative d-dimer, the risk was as high as 17.3%\n2018 systematic reviewed\n[5]\nshowed 0.8% of admitted ED pts with syncope had PE\nAlso supported by 2019 study showing prevalence of 2.3% in undifferentiated patients admitted with syncope\n[6]\n.\nBoth of these two studies refute the findings of the PESIT study listed first\nBedside\nUS\nPSL view may show thickened ventricular septum\nHigh sensitivity to rule out\nAAA",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Overall yield of testing is low\nCardiovascular findings and evidence of bleeding strongest predictors of adverse outcomes after syncope\n[7]\nECG\nfindings associated with adverse cardiac outcome in 30 days:\n[8]\n[9]\nNormal ECG has high NPV\n[10]\nMay show:\nischemia\nHeart block\nWPW\n- short PR, Delta waves, wide QRS\nLong QT\n(QTc >0.450 sec),\nshort QT\nBrugada\n- incomplete\nRBBB\nwith ST elevations in V1-3\nHOCM\n-\nLVH\n, ST changes, T wave inversions, lateral leads needle like Q waves and absent R waves\nArrhythmogenic right ventricular dysplasia\n– incomplete\nRBBB\nwith T waves inversion in V1-3, epsilon wave is pathognomonic (up-notching of a terminal Q wave)\nEarly repolarization\nlow voltage\n/\npericardial effusion\nRV strain pattern\nLBBB, 2nd degree Mobitz II, 3rd degree AV block, RBBB w/LAFP or LPFB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Choosing wisely ACEP",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism_(PE)"
+        },
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Ultrasound_(main)"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT",
+          "url": "https://wikem.org/wiki/Long_QT"
+        },
+        {
+          "text": "short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Brugada",
+          "url": "https://wikem.org/wiki/Brugada"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "low voltage",
+          "url": "https://wikem.org/wiki/Low_voltage_ECG"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Overall yield of testing is low\nCardiovascular findings and evidence of bleeding strongest predictors of adverse outcomes after syncope\n[7]\nECG\nfindings associated with adverse cardiac outcome in 30 days:\n[8]\n[9]\nNormal ECG has high NPV\n[10]\nMay show:\nischemia\nHeart block\nWPW\n- short PR, Delta waves, wide QRS\nLong QT\n(QTc >0.450 sec),\nshort QT\nBrugada\n- incomplete\nRBBB\nwith ST elevations in V1-3\nHOCM\n-\nLVH\n, ST changes, T wave inversions, lateral leads needle like Q waves and absent R waves\nArrhythmogenic right ventricular dysplasia\n– incomplete\nRBBB\nwith T waves inversion in V1-3, epsilon wave is pathognomonic (up-notching of a terminal Q wave)\nEarly repolarization\nlow voltage\n/\npericardial effusion\nRV strain pattern\nLBBB, 2nd degree Mobitz II, 3rd degree AV block, RBBB w/LAFP or LPFB",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT",
+          "url": "https://wikem.org/wiki/Long_QT"
+        },
+        {
+          "text": "short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Brugada",
+          "url": "https://wikem.org/wiki/Brugada"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "low voltage",
+          "url": "https://wikem.org/wiki/Low_voltage_ECG"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying cause, if known (~50% of patients do not have a firm diagnosis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Abnormal ECG\nCHF\nSuspicion of structural heart disease\nIschemic, dysrhythmic, obstructive, valvular\nHCT <30\nShortness of Breath\nHypotension\n(SBP <90)\nFamily history of sudden cardiac death\nAdvanced age\nEvidence of hemorrhage (occult blood)\nSyncope without prodrome\nExertional syncope in younger patients without an obvious benign cause",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "None of the above findings (esp if age <45)\nNo events on telemetry after period of observation (2-4 hours in the ED)\nConsider referral for holter or til-table test\nInstruct to avoid precipitating factors, such as extreme heat, dehydration, postexertional standing, alcohol and certain medications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Shortness of Breath",
+          "url": "https://wikem.org/wiki/Shortness_of_Breath"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "Abnormal ECG\nCHF\nSuspicion of structural heart disease\nIschemic, dysrhythmic, obstructive, valvular\nHCT <30\nShortness of Breath\nHypotension\n(SBP <90)\nFamily history of sudden cardiac death\nAdvanced age\nEvidence of hemorrhage (occult blood)\nSyncope without prodrome\nExertional syncope in younger patients without an obvious benign cause",
+      "subsections": {
+        "Discharge": {
+          "text": "None of the above findings (esp if age <45)\nNo events on telemetry after period of observation (2-4 hours in the ED)\nConsider referral for holter or til-table test\nInstruct to avoid precipitating factors, such as extreme heat, dehydration, postexertional standing, alcohol and certain medications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Shortness of Breath",
+          "url": "https://wikem.org/wiki/Shortness_of_Breath"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "None of the above findings (esp if age <45)\nNo events on telemetry after period of observation (2-4 hours in the ED)\nConsider referral for holter or til-table test\nInstruct to avoid precipitating factors, such as extreme heat, dehydration, postexertional standing, alcohol and certain medications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Additional_Risk_Stratification_Tools_for_Selecting_Low-Risk_patients_for_Discharge": {
+      "text": "",
+      "subsections": {
+        "Canadian_Syncope_Risk_Score[12]_MDCalc": {
+          "text": "Score < 0 associated with < 2% risk of serious adverse event at 30 days.\nExternally validated per data presented at SAEM 2018 and only 0.3% 30 day adverse events for very low risk patients in 2020 Jama study\n[13]",
+          "tables": [
+            [
+              {
+                "Category": "Predisposition to vasovagal symptoms (triggered by being in a warm crowded place, prolonged standing, fear, emotion, or pain)",
+                "No": "0",
+                "Yes": "-1"
+              },
+              {
+                "Category": "Heart disease history (CAD, afib, flutter, CHF, valvular disease)",
+                "No": "0",
+                "Yes": "1"
+              },
+              {
+                "Category": "SBP < 90 or > 180mmHg",
+                "No": "0",
+                "Yes": "2"
+              },
+              {
+                "Category": "Elevated troponin",
+                "No": "0",
+                "Yes": "2"
+              },
+              {
+                "Category": "Abnormal QRS axis",
+                "No": "0",
+                "Yes": "1"
+              },
+              {
+                "Category": "QRS > 130ms",
+                "No": "0",
+                "Yes": "1"
+              },
+              {
+                "Category": "Corrected QT interval >480ms",
+                "No": "0",
+                "Yes": "2"
+              },
+              {
+                "Category": "Vasovagal syncope (based on clinical impression",
+                "No": "0",
+                "Yes": "-2"
+              },
+              {
+                "Category": "Cardiac Syncope (based on clinical impression)",
+                "No": "0",
+                "Yes": "2"
+              }
+            ]
+          ]
+        },
+        "San_Francisco_Syncope_Rule": {
+          "text": "1.4% of patients who are rule-negative will have a 7-day serious outcome\n10% of patients meeting the below criteria will have a 7-day serious outcome\nCriteria (CHESS Pneumonic)\n[14]\nC\nHF\nHistory\nH\nct < 30%\nE\nCG\nAbnormality\nS\nOB history\nS\nBP < 90mmHg at triage",
+          "tables": []
+        },
+        "Limitations": {
+          "text": "Performed poorly on external validation\n[15]\nExternal validation of San Francisco Syncope Rule showed sensitivity 90% but only specificity of 33%\n[16]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure"
+        },
+        {
+          "text": "Hct < 30%",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "SOB history",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "SBP < 90mmHg at triage",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "San_Francisco_Syncope_Rule": {
+      "text": "1.4% of patients who are rule-negative will have a 7-day serious outcome\n10% of patients meeting the below criteria will have a 7-day serious outcome\nCriteria (CHESS Pneumonic)\n[14]\nC\nHF\nHistory\nH\nct < 30%\nE\nCG\nAbnormality\nS\nOB history\nS\nBP < 90mmHg at triage",
+      "subsections": {
+        "Limitations": {
+          "text": "Performed poorly on external validation\n[15]\nExternal validation of San Francisco Syncope Rule showed sensitivity 90% but only specificity of 33%\n[16]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure"
+        },
+        {
+          "text": "Hct < 30%",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "SOB history",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "SBP < 90mmHg at triage",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "The NNT: San Francisco Syncope Rule Criteria\nMDCalc Canadian Syncope Risk Score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dizziness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    }
+  }
+}

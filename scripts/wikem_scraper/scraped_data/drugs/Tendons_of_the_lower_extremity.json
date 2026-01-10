@@ -1,0 +1,34 @@
+{
+  "drug_name": "Tendons_of_the_lower_extremity",
+  "url": "https://wikem.org/wiki/Tendons_of_the_lower_extremity",
+  "scraped_at": "2026-01-10T08:03:15.362648",
+  "sections": {
+    "Intro": {
+      "text": "Extensor hallicis longus\nGreat to ext + ankle inversion\nTibialis anterior\nAnkle dorsiflex + inversion\nAchilles tendon\nAnkle plantarflex + inversion\nGreat to ext + ankle inversion\nAnkle dorsiflex + inversion\nAchilles tendon\nAnkle plantarflex + inversion\nAnkle plantarflex + inversion\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Tendons_of_the_lower_extremity": {
+      "text": "Extensor hallicis longus\nGreat to ext + ankle inversion\nTibialis anterior\nAnkle dorsiflex + inversion\nAchilles tendon\nAnkle plantarflex + inversion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tendons of the upper extremity\nTendon injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tendons of the upper extremity",
+          "url": "https://wikem.org/wiki/Tendons_of_the_upper_extremity"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        }
+      ]
+    }
+  }
+}

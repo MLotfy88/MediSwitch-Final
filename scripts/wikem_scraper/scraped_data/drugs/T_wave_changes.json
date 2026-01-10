@@ -1,0 +1,272 @@
+{
+  "drug_name": "T_wave_changes",
+  "url": "https://wikem.org/wiki/T_wave_changes",
+  "scraped_at": "2026-01-10T08:03:08.572691",
+  "sections": {
+    "Evaluation": {
+      "text": "Normally upright in 1, 2, V3-V6\nNormally inverted in AVR and V1\nSometimes inverted in III, aVF, aVL, V1\nNew upright T wave in V1 or T wave taller in V1 than in V6 is pathologic\nInversions in V2-V6 are usually pathologic\nException is persistent juvenile T-wave pattern, usually limited to V1-V3, classically young Afro-Caribbean women\nGreater than 2/3 height of R wave is abnormal\nMorphology\nInverted, symmetric,\nTransient changes suggests ischemia without infarction\nPersistent changes suggests infarction (\ntroponin\nelevation usually seen)\nPseudonormalization\nIn presence of baseline TWI (within 1 month), reocclusion causes normalization of TWI\nShould be interpreted as evidence of ischemia\nT wave alternans\nBeat-to-beat variability in the amplitude OR shape of T waves\nHighly suggestive of impending or recent\ntorsades",
+      "subsections": {
+        "New_Tall_T-wave_in_V1": {
+          "text": "Loss of precordial T-wave balance when upright TW in V1 > upright TW in V6\nA form of hyperacute T-wave\nNew Tall T-Wave in V1 (NTTV1) = upright T-wave in V1, especially with proven change from previous ECG\nConcerning for ischemia, especially with ACS symptomology\nPerform repeat ECGs\nNormal variants\nMisplaced leads\nLBBB\nLVH\nHigh left ventricular voltage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "LBBB",
+          "url": "https://wikem.org/wiki/LBBB"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        }
+      ]
+    },
+    "New_Tall_T-wave_in_V1": {
+      "text": "Loss of precordial T-wave balance when upright TW in V1 > upright TW in V6\nA form of hyperacute T-wave\nNew Tall T-Wave in V1 (NTTV1) = upright T-wave in V1, especially with proven change from previous ECG\nConcerning for ischemia, especially with ACS symptomology\nPerform repeat ECGs\nNormal variants\nMisplaced leads\nLBBB\nLVH\nHigh left ventricular voltage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LBBB",
+          "url": "https://wikem.org/wiki/LBBB"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "T_Wave_Inversions": {
+          "text": "Normal in pediatrics\nMyocardial infarct\n(NSTEMI)\nMyocardial ischemia (\nWellen's\n) - T waves go up, then down\nHypokalemia\n- T waves go down, then up (or camel humped, one upright TW and upright U-wave in severe hypokalemia)\nHyperkalemia\nPulmonary embolism\n(RV strain)\nPulmonary hypertension\n, acute or chronic\nPulmonary disease - hyperventilation,\npneumothorax\n,\npneumonia\nLVH\nwith strain pattern\nRVH\nBundle branch block\n(both left and right)\nWPW\nPericarditis\n(stage 3)\nCNS T waves (diffuse, deep)\nArrhythmogenic right ventricular dysplasia\n(may also have epsilon wave)\nHOCM\nPaced rhythm\nElevated intracranial pressure",
+          "tables": []
+        },
+        "Peaked_T-waves": {
+          "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarct",
+          "url": "https://wikem.org/wiki/Myocardial_infarct"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        },
+        {
+          "text": "De Winter's T waves",
+          "url": "https://wikem.org/wiki/De_Winter%27s_T_waves"
+        }
+      ]
+    },
+    "T_Wave_Inversions": {
+      "text": "Normal in pediatrics\nMyocardial infarct\n(NSTEMI)\nMyocardial ischemia (\nWellen's\n) - T waves go up, then down\nHypokalemia\n- T waves go down, then up (or camel humped, one upright TW and upright U-wave in severe hypokalemia)\nHyperkalemia\nPulmonary embolism\n(RV strain)\nPulmonary hypertension\n, acute or chronic\nPulmonary disease - hyperventilation,\npneumothorax\n,\npneumonia\nLVH\nwith strain pattern\nRVH\nBundle branch block\n(both left and right)\nWPW\nPericarditis\n(stage 3)\nCNS T waves (diffuse, deep)\nArrhythmogenic right ventricular dysplasia\n(may also have epsilon wave)\nHOCM\nPaced rhythm\nElevated intracranial pressure",
+      "subsections": {
+        "Peaked_T-waves": {
+          "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarct",
+          "url": "https://wikem.org/wiki/Myocardial_infarct"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        },
+        {
+          "text": "De Winter's T waves",
+          "url": "https://wikem.org/wiki/De_Winter%27s_T_waves"
+        }
+      ]
+    },
+    "Peaked_T-waves": {
+      "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        },
+        {
+          "text": "De Winter's T waves",
+          "url": "https://wikem.org/wiki/De_Winter%27s_T_waves"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG Basics\nMattu ECG Case: Aug 27, 2012",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG Basics",
+          "url": "https://wikem.org/wiki/ECG_Basics"
+        }
+      ]
+    }
+  }
+}

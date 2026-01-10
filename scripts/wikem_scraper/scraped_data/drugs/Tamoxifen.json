@@ -1,0 +1,316 @@
+{
+  "drug_name": "Tamoxifen",
+  "url": "https://wikem.org/wiki/Tamoxifen",
+  "scraped_at": "2026-01-10T08:03:11.826734",
+  "sections": {
+    "Administration": {
+      "text": "Type: SERM\nDosage Forms: Tab 10mg, 20mg\nRoutes of Administration: Oral\nCommon Trade Names: Soltamox",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Breast_Cancer": {
+          "text": "20 mg PO daily",
+          "tables": []
+        },
+        "Mastalgia": {
+          "text": "10 mg PO daily x4 months",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Breast_Cancer": {
+      "text": "20 mg PO daily",
+      "subsections": {
+        "Mastalgia": {
+          "text": "10 mg PO daily x4 months",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mastalgia": {
+      "text": "10 mg PO daily x4 months",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Precocious_Puberty": {
+          "text": "For 2-10 yo\n20 mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Precocious_Puberty": {
+      "text": "For 2-10 yo\n20 mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category D: avoid use during pregnancy\nRisk of teratogenicity and fetal death",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Avoid use while breastfeeding\nDecreased milk production",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category D: avoid use during pregnancy\nRisk of teratogenicity and fetal death",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Avoid use while breastfeeding\nDecreased milk production",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Avoid use while breastfeeding\nDecreased milk production",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy\nBreastfeeding\nUndiagnosed\nvaginal bleeding\nH/o thromboembolism\nWarfarin anticoagulation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Thromboembolism\nStroke\nEndometrial cancer\n,\nendometriosis\n, uterine sarcoma,\nuterine fibroid\n, ovarian cyst\nHypersensitivity,\nerythema multiforme\nThrombocytopenia\n,\nleukopenia\n, neutropenia,\npancytopenia\nHepatotoxicity\nRetinopathy, cataracts",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hot flashes, menstrual irregularities,\nvaginal bleeding\n, visual changes\nNausea\n/\nvomiting\n, lightheadedness,\ndizziness\nFatigue,\nheadache\n, visual acuity changes\nAnorexia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Thromboembolism\nStroke\nEndometrial cancer\n,\nendometriosis\n, uterine sarcoma,\nuterine fibroid\n, ovarian cyst\nHypersensitivity,\nerythema multiforme\nThrombocytopenia\n,\nleukopenia\n, neutropenia,\npancytopenia\nHepatotoxicity\nRetinopathy, cataracts",
+      "subsections": {
+        "Common": {
+          "text": "Hot flashes, menstrual irregularities,\nvaginal bleeding\n, visual changes\nNausea\n/\nvomiting\n, lightheadedness,\ndizziness\nFatigue,\nheadache\n, visual acuity changes\nAnorexia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hot flashes, menstrual irregularities,\nvaginal bleeding\n, visual changes\nNausea\n/\nvomiting\n, lightheadedness,\ndizziness\nFatigue,\nheadache\n, visual acuity changes\nAnorexia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-7 days; active metabolite 14 days\nMetabolism: Liver; CYP450: 2C9, 2D6, 3A4\nExcretion: Feces primarily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Selectively binds to estrogen receptors, producing estrogenic and anti-estrogenic effects\nEstrogen antagonist in breast cancer cells\nEstrogen antagonist in hypothalamus of premenopausal women\nUnknown mechanism in McCune-Albright syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Epocrates, UpToDate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

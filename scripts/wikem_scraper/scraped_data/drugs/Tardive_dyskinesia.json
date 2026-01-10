@@ -1,0 +1,58 @@
+{
+  "drug_name": "Tardive_dyskinesia",
+  "url": "https://wikem.org/wiki/Tardive_dyskinesia",
+  "scraped_at": "2026-01-10T08:03:12.703469",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Orofacial involuntary movements\nDescribed as grimacing, writhing and choreathetoid\nGrimacing, tongue movements, lip smacking, excessive eye blinking\nOften occurs after years of treatment with\nneuroleptic agents\nRisk factors:\nLonger duration of neuroleptic treatment\nConcomitant mood disorder\nPatient age, particularly elderly females",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neuroleptic agents",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "See DDX for\nchorea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Mild symptoms: cessation of the neuroleptic drug or decreasing the dose, which rarely reverses symptoms\nModerate to severe symptoms: reserpine and tetrabenazine\nNew drug approved 2017\nAustedo (\ndeutetrabenazine\n), previously approved for chorea due to Huntington's disease\n12-48 mg/day PO divided BID, starting at 6 mg BID, increased by 6 mg/day qwk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "References": {
+      "text": "Hockberger RS, Richards JR: Thought Disorders; in Marx JA, Hockberger RS, Walls RM, et al (eds): Rosen’s Emergency Medicine: Concepts and Clinical Practice, ed 8. St. Louis, Mosby, Inc., 2014, (Ch) 110: p 1460-1466",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

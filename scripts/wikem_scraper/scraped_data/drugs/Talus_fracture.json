@@ -1,0 +1,221 @@
+{
+  "drug_name": "Talus_fracture",
+  "url": "https://wikem.org/wiki/Talus_fracture",
+  "scraped_at": "2026-01-10T08:03:12.305539",
+  "sections": {
+    "Background": {
+      "text": "Almost always associated with other injuries, often misdiagnosed as ankle sprains\nTalar neck fracture most common (~50%)\nDorsiflexion with axial loading, snowboarders\nTalar body fracture (~20%)\nHindfoot in either supination or pronation, high energy trauma\nLateral process fracture (~10%)\nDorsiflexion with axial loading\nPosterior process, medial or lateral tubercle very commonly misdiagnosed as ankle sprains\nTalar head fracture least common",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Mid ankle pain/injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT often required for accurate diagnosis\nAP, lateral, possibly Canale view",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_&_Disposition": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific": {
+          "text": "Major fracture (talar neck and head)\nImmediate ortho consultation required (high rate of avascular necrosis)\nMinor fracture\nPosterior Ankle Splint\nNon-weight bearing, short leg cast if minimally displaced fracture\nOrtho referral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific": {
+          "text": "Major fracture (talar neck and head)\nImmediate ortho consultation required (high rate of avascular necrosis)\nMinor fracture\nPosterior Ankle Splint\nNon-weight bearing, short leg cast if minimally displaced fracture\nOrtho referral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "Specific": {
+      "text": "Major fracture (talar neck and head)\nImmediate ortho consultation required (high rate of avascular necrosis)\nMinor fracture\nPosterior Ankle Splint\nNon-weight bearing, short leg cast if minimally displaced fracture\nOrtho referral",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Foot Fractures\nFoot Diagnoses (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot Fractures",
+          "url": "https://wikem.org/wiki/Foot_Fractures"
+        },
+        {
+          "text": "Foot Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Foot_Diagnoses_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Weatherford B. Talar neck fractures. Orthobullets, last updated 12/19/14.\nhttp://www.orthobullets.com/trauma/1048/talar-neck-fractures\n.\nAiyer A, Moore D. Talus Fracture (other than neck), last updated 1secondary to7/14.\nhttp://www.orthobullets.com/trauma/1049/talus-fracture-other-than-neck\n.\nJudd DB, Kim DH. Foot Fractures Frequently Misdiagnosed as Ankle Sprains. Am Fam Physician. 2002 Sep 1;66(5):785-795.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

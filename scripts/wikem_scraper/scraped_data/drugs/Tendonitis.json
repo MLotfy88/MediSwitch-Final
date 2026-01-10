@@ -1,0 +1,205 @@
+{
+  "drug_name": "Tendonitis",
+  "url": "https://wikem.org/wiki/Tendonitis",
+  "scraped_at": "2026-01-10T08:03:17.415890",
+  "sections": {
+    "Background": {
+      "text": "Tendonitis (aka \"tendinitis\" or \"tendinopathy\") is an inflammation or irritation of a tendon\nCommonly occurs in athletes or middle-aged (or older) patients\nAssociated with excessive strain, repetitive trauma, or unaccustomed exercise\nFluoroquinolone antibiotics and statins may increase risk for tendinopathy\n[1]",
+      "subsections": {
+        "Tendinopathy_Types": {
+          "text": "Patellar tendonitis\nLateral epicondylitis\n(tennis elbow)\nMedial epicondylitis\n(golf elbow)\nPes anserine bursitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        }
+      ]
+    },
+    "Tendinopathy_Types": {
+      "text": "Patellar tendonitis\nLateral epicondylitis\n(tennis elbow)\nMedial epicondylitis\n(golf elbow)\nPes anserine bursitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain w/ movement, particularly at the insertion site.\nMild swelling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Muscle contusion\nLigamentous Injury\nNerve compression\nTumor\nBursitis\nOsteomyelitis\nCompartment syndrome\nRhabdomyolysis\nFracture\nArthritis\nMyositis\nFluoroquinolone\nuse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Exam techniques vary based on specific tendinopathy\nLateral epicondylitis\nMedial epicondylitis\nPatellar tendonitis\nDe Quervain tenosynovitis\nRotator cuff tendinitis\nBicipital tendinopathy\nPopliteus tendinopathy\nIliotibial band syndrome\nMedial tibial stress syndrome (\"shin splints\")",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Consider labs if concern for infection:\nCBC\nCRP/ESR",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Ultrasound\nMay aid the diagnosis\nFindings include tendon disruption, increased blood flow, hypoechoic areas, or tendon thickening\nX-Ray\nConsider if concern for fracture, foreign body, or avulsion injury\nMRI\nNot frequently used in ED; may be used by specialist or in outpatient setting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Exam techniques vary based on specific tendinopathy\nLateral epicondylitis\nMedial epicondylitis\nPatellar tendonitis\nDe Quervain tenosynovitis\nRotator cuff tendinitis\nBicipital tendinopathy\nPopliteus tendinopathy\nIliotibial band syndrome\nMedial tibial stress syndrome (\"shin splints\")",
+      "subsections": {
+        "Labs": {
+          "text": "Consider labs if concern for infection:\nCBC\nCRP/ESR",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Ultrasound\nMay aid the diagnosis\nFindings include tendon disruption, increased blood flow, hypoechoic areas, or tendon thickening\nX-Ray\nConsider if concern for fracture, foreign body, or avulsion injury\nMRI\nNot frequently used in ED; may be used by specialist or in outpatient setting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "Consider labs if concern for infection:\nCBC\nCRP/ESR",
+      "subsections": {
+        "Imaging": {
+          "text": "Ultrasound\nMay aid the diagnosis\nFindings include tendon disruption, increased blood flow, hypoechoic areas, or tendon thickening\nX-Ray\nConsider if concern for fracture, foreign body, or avulsion injury\nMRI\nNot frequently used in ED; may be used by specialist or in outpatient setting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Ultrasound\nMay aid the diagnosis\nFindings include tendon disruption, increased blood flow, hypoechoic areas, or tendon thickening\nX-Ray\nConsider if concern for fracture, foreign body, or avulsion injury\nMRI\nNot frequently used in ED; may be used by specialist or in outpatient setting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment specific to type of tendinopathy\nGeneral management for acute, movement-based tendinopathies:\nRest/load reduction\nIce/heat\nNSAIDS (\nIbuprofen\nfavored)\n[2]\nConsider:\nPhysical therapy referral\nOral steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most patients with tendinopathy can be discharged safely from the ED\nAdmit patients who may benefit from hospitalization or surgery (infection, associated fracture, tendon rupture)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

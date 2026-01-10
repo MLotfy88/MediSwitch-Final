@@ -1,0 +1,110 @@
+{
+  "drug_name": "Tar_burn",
+  "url": "https://wikem.org/wiki/Tar_burn",
+  "scraped_at": "2026-01-10T08:03:15.401528",
+  "sections": {
+    "Background": {
+      "text": "Tar is a product of the distillation of coal.\n[1]\nAsphalt (now more commonly used than tar) and tar are both forms of\nbitumen\nCurrently used mainly for roofing and road paving\nWhen used for these purposes, tar/asphalt is heated to between 140-190°C (for paving) and 210-270°C (for roofing)\n[1]\nInjuries limited almost exclusively to occupational exposure in these fields\nTar/asphalt is highly viscous and sticks to skin, making it difficult to remove and leading to more severe burns\nTar itself is sterile, but dead tissue underneath is not",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Viscous black substance on skin in setting of history of working with coal tar or asphalt\nMay be hardened or still relatively fluid on presentation to ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nWorkup should be based on clinical presentation, and may include:\nVBG, CBC, chem, total CK\nCXR\nECG\nUrinalysis\n(assess for myoglobinuria)\nSerial assessments for compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Immediate treatment\nCool tar with cold water until hardened to stop burning and limit tissue damage\nTake care to avoid hypothermia\nRemoval of tar/asphalt (unless small area, will generally occur in inpatient setting)\nNeeds to be dissolved as manual debridement of hardened tar/asphalt damages underlying tissue\n[2]\nThe best solvents are chemically similar to tar/asphalt (\"like dissolves like\") - suggested agents include baby oil, sunflower oil, butter, and mayonnaise\n[2]\n[1]\nNeosporin ointment has a petroleum base and is successful at slowly dissolving tar/asphalt (may also help prevent infection)\n[1]\nMineral oil has also been identified as a safe, non-toxic, and effective means of dissolving tar/asphalt\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit or transfer to burn center for:\n>10%\nTBSA\n(>5% for full thickness injury)\nBurns of face, eyes, ears, genitalia, joints\nCircumferential burns\nAirway involvement\nSignificant comorbidity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Burns",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "drug_name": "Systemic_inflammatory_response_syndrome",
+  "url": "https://wikem.org/wiki/Systemic_inflammatory_response_syndrome",
+  "scraped_at": "2026-01-10T08:03:06.673705",
+  "sections": {
+    "External_Links": {
+      "text": "MDCalc - SIRS, Sepsis, and Septic Shock Criteria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sepsis (Main)\nSepsis (Peds)\nInitial Antibiotics in Sepsis (Main)\nqSOFA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Sepsis (Peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(Peds)"
+        },
+        {
+          "text": "Initial Antibiotics in Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Initial_Antibiotics_in_Sepsis_(Main)"
+        },
+        {
+          "text": "qSOFA",
+          "url": "https://wikem.org/wiki/QSOFA"
+        }
+      ]
+    }
+  }
+}

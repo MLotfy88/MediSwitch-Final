@@ -1,0 +1,198 @@
+{
+  "drug_name": "Tacrolimus",
+  "url": "https://wikem.org/wiki/Tacrolimus",
+  "scraped_at": "2026-01-10T08:03:08.895440",
+  "sections": {
+    "Administration": {
+      "text": "Type: immunosuppressant\nDosage Forms: 0.5,1,5\nRoutes of Administration: PO, topical, IV\nCommon Trade Names:Prograf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Heart_transplant_rejection_prophylaxis": {
+          "text": "0.075mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+          "tables": []
+        },
+        "Liver_transplant_rejection_prophylaxis": {
+          "text": "0.1-0.15mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+          "tables": []
+        },
+        "Kidney_transplant_rejection_prophylaxis": {
+          "text": "0.1-0.2mg/kg/day PO divided q12h\nStart: within 24h post-transplant; delay if renal function not adequate; Info: adjust dose based on serum levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Heart_transplant_rejection_prophylaxis": {
+      "text": "0.075mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+      "subsections": {
+        "Liver_transplant_rejection_prophylaxis": {
+          "text": "0.1-0.15mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+          "tables": []
+        },
+        "Kidney_transplant_rejection_prophylaxis": {
+          "text": "0.1-0.2mg/kg/day PO divided q12h\nStart: within 24h post-transplant; delay if renal function not adequate; Info: adjust dose based on serum levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Liver_transplant_rejection_prophylaxis": {
+      "text": "0.1-0.15mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+      "subsections": {
+        "Kidney_transplant_rejection_prophylaxis": {
+          "text": "0.1-0.2mg/kg/day PO divided q12h\nStart: within 24h post-transplant; delay if renal function not adequate; Info: adjust dose based on serum levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Kidney_transplant_rejection_prophylaxis": {
+      "text": "0.1-0.2mg/kg/day PO divided q12h\nStart: within 24h post-transplant; delay if renal function not adequate; Info: adjust dose based on serum levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Liver_transplant_rejection_prophylaxis_2": {
+          "text": "0.15-0.2mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Liver_transplant_rejection_prophylaxis_2": {
+      "text": "0.15-0.2mg/kg/day PO divided q12h\nStart: >6h post-transplant; Info: adjust dose based on serum levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Pregnancy Category C\nLactation risk\n: possibly unsafe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nkidney transplant: give lowest recommended dose, may consider further dose decrease; postop oliguria: start 6-24h post-transplant; may delay until renal function adequate; HD: not defined\nall other transplants: give lowest recommended dose, may consider further dose decrease; HD: not defined\nPediatric: give lowest recommended dose, may consider further dose decrease; HD: not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: give lowest recommended dose, may consider further dose decrease; Child-Pugh Score >10: decrease dose, amount not defined\nPediatric: give lowest recommended dose, may consider further dose decrease; Child-Pugh Score >10: decrease dose, amount not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nkidney transplant: give lowest recommended dose, may consider further dose decrease; postop oliguria: start 6-24h post-transplant; may delay until renal function adequate; HD: not defined\nall other transplants: give lowest recommended dose, may consider further dose decrease; HD: not defined\nPediatric: give lowest recommended dose, may consider further dose decrease; HD: not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: give lowest recommended dose, may consider further dose decrease; Child-Pugh Score >10: decrease dose, amount not defined\nPediatric: give lowest recommended dose, may consider further dose decrease; Child-Pugh Score >10: decrease dose, amount not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: give lowest recommended dose, may consider further dose decrease; Child-Pugh Score >10: decrease dose, amount not defined\nPediatric: give lowest recommended dose, may consider further dose decrease; Child-Pugh Score >10: decrease dose, amount not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nhypersensitivity to castor oil derivatives (IV form)\nliver transplant use (ER cap form)\nelectrolyte abnormalities, uncorrected\ncongenital long QT syndrome\ncaution if QT prolongation\ncaution if\nQT prolongation\nfamily history\ncaution if torsades de pointes history\ncaution if ventricular arrhythmias\ncaution if bradycardia\ncaution if recent MI\ncaution if CHF\ncaution in female patients\ncaution in Black patients\ncaution in Hispanic patients\ncaution if renal impairment\ncaution if hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "immunosuppression\nmalignancy\nlymphoma\npost-transplant lymphoproliferative disorder\ninfection, severe\nCMV\nPML\nBK virus-assoc. nephropathy\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nanaphylaxis\nnephrotoxicity\nneurotoxicity\nposterior reversible encephalopathy syndrome\nseizures\nmyocardial hypertrophy\npericardial effusion\nQT prolongation\ntorsades de pointes\nhyperkalemia, severe\nhypertension, severe\ndiabetes mellitus\nmyelosuppression\nDIC\nthrombocytopenic purpura\nhemolytic anemia\npure red cell aplasia",
+          "tables": []
+        },
+        "Common": {
+          "text": "tremor\ndiarrhea\nheadache\nhypertension\nCreatinine increase\ninfection\nnausea/vomiting\ninsomnia\npain\nhypophosphatemia\nconstipation\nasthenia\nedema, peripheral\nhypomagnesemia\nfever\nanemia\ndiabetes mellitus/hyperglycemia\nparesthesia\nLFTs elevated\nhyperlipidemia\nhyperkalemia\nanorexia\ndyspepsia\narthralgia\ndyspnea\npruritus/rash\nhypokalemia\ndizziness\ncough\nleukopenia\nphotosensitivity\nbronchitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "immunosuppression\nmalignancy\nlymphoma\npost-transplant lymphoproliferative disorder\ninfection, severe\nCMV\nPML\nBK virus-assoc. nephropathy\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nanaphylaxis\nnephrotoxicity\nneurotoxicity\nposterior reversible encephalopathy syndrome\nseizures\nmyocardial hypertrophy\npericardial effusion\nQT prolongation\ntorsades de pointes\nhyperkalemia, severe\nhypertension, severe\ndiabetes mellitus\nmyelosuppression\nDIC\nthrombocytopenic purpura\nhemolytic anemia\npure red cell aplasia",
+      "subsections": {
+        "Common": {
+          "text": "tremor\ndiarrhea\nheadache\nhypertension\nCreatinine increase\ninfection\nnausea/vomiting\ninsomnia\npain\nhypophosphatemia\nconstipation\nasthenia\nedema, peripheral\nhypomagnesemia\nfever\nanemia\ndiabetes mellitus/hyperglycemia\nparesthesia\nLFTs elevated\nhyperlipidemia\nhyperkalemia\nanorexia\ndyspepsia\narthralgia\ndyspnea\npruritus/rash\nhypokalemia\ndizziness\ncough\nleukopenia\nphotosensitivity\nbronchitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "tremor\ndiarrhea\nheadache\nhypertension\nCreatinine increase\ninfection\nnausea/vomiting\ninsomnia\npain\nhypophosphatemia\nconstipation\nasthenia\nedema, peripheral\nhypomagnesemia\nfever\nanemia\ndiabetes mellitus/hyperglycemia\nparesthesia\nLFTs elevated\nhyperlipidemia\nhyperkalemia\nanorexia\ndyspepsia\narthralgia\ndyspnea\npruritus/rash\nhypokalemia\ndizziness\ncough\nleukopenia\nphotosensitivity\nbronchitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3.5-40.6h; 23.6h (heart transplant patients), 18.8h (kidney transplant patients), 11.7h (liver transplant patients); Info: prolonged half-life in hepatic impairment\nMetabolism: liver extensively; CYP450: 3A4 substrate\nExcretion:feces 92.4%, urine 2.3% (<1% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Macrolide calcineurin inhibitor, inhibits T-lymphocyte activation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications\nImmunocompromised antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        }
+      ]
+    },
+    "References": {
+      "text": "epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "drug_name": "Tendon_injury",
+  "url": "https://wikem.org/wiki/Tendon_injury",
+  "scraped_at": "2026-01-10T08:03:13.742429",
+  "sections": {
+    "Intro": {
+      "text": "See\nHand and finger tendon injuries\nfor injuries specific to those areas.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Tendons_of_the_upper_extremity_anatomy": {
+          "text": "Fingers\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nThumb\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nWrist\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)",
+          "tables": []
+        },
+        "Tendons_of_the_lower_extremity": {
+          "text": "Extensor hallicis longus\nGreat to ext + ankle inversion\nTibialis anterior\nAnkle dorsiflex + inversion\nAchilles tendon\nAnkle plantarflex + inversion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mallet",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Boutonniere",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Tendons_of_the_upper_extremity_anatomy": {
+      "text": "Fingers\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nThumb\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nWrist\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)",
+      "subsections": {
+        "Tendons_of_the_lower_extremity": {
+          "text": "Extensor hallicis longus\nGreat to ext + ankle inversion\nTibialis anterior\nAnkle dorsiflex + inversion\nAchilles tendon\nAnkle plantarflex + inversion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mallet",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Boutonniere",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Tendons_of_the_lower_extremity": {
+      "text": "Extensor hallicis longus\nGreat to ext + ankle inversion\nTibialis anterior\nAnkle dorsiflex + inversion\nAchilles tendon\nAnkle plantarflex + inversion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hand and finger tendon injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        }
+      ]
+    }
+  }
+}

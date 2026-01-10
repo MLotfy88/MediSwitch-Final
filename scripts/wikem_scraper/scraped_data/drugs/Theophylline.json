@@ -1,0 +1,100 @@
+{
+  "drug_name": "Theophylline",
+  "url": "https://wikem.org/wiki/Theophylline",
+  "scraped_at": "2026-01-10T08:03:22.517428",
+  "sections": {
+    "General": {
+      "text": "Type: Bronchodilator\nDosage Forms: Oral\nCommon Trade Names: Elixophyllin, Theo-24, Uniphyl",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "300-600mg PO q6-8h (immediate-release) or q12h (ER)\nIV theophylline no longer recommended for use inpatient or in the ED due to lack of added benefit over other treatments and high risk of adverse events\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Apnea in neonate: 4 mg/kg IV load, then 2 mg/kg IV q12h\nPediatric theophylline doses for asthma are very complicated, and with the narrow therapeutic window, probably not even worth trying it!",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Probably Safe\nRenal Dosing\nAdult: no adjustment\nPediatric: <3 mo: decrease dose amount not defined; >3 mo: no adjustment\nHepatic Dosing\nAdult: decrease dose amount not defined\nPediatric: decrease dose amount not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nKnown allergy to corn or corn products (IV form)\ncaution if PUD, active\ncaution if seizure disorder\ncaution if arrhythmias\ncaution if CHF\ncaution if pulmonary edema, acute\ncaution if cor pulmonale\ncaution if hepatic impairment\ncaution if hypothyroidism\ncaution if febrile\ncaution if sepsis with multi-organ failure\ncaution if shock\ncaution if smoking habit changes\ncaution if neonates or infants\ncaution in elderly patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "See\ntheophylline toxicity\nfor overdose information",
+      "subsections": {
+        "Serious": {
+          "text": "seizures\narrhythmias\nhypotension, shock\nexfoliative dermatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "nausea/vomiting, diarrhea\nheadache\ninsomnia, irritability, restlessness, tremor\ndiuresis, transient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "theophylline toxicity",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "seizures\narrhythmias\nhypotension, shock\nexfoliative dermatitis",
+      "subsections": {
+        "Common": {
+          "text": "nausea/vomiting, diarrhea\nheadache\ninsomnia, irritability, restlessness, tremor\ndiuresis, transient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "nausea/vomiting, diarrhea\nheadache\ninsomnia, irritability, restlessness, tremor\ndiuresis, transient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8h\nMetabolism: liver; CYP450: 1A2, 2E1, 3A3\nExcretion: urine (10% unchanged)\nMechanism of Action: exact mechanism unknown; increases cAMP; antagonizes adenosine receptors (methylxanthine)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Theophylline toxicity\nBronchodilators",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Theophylline toxicity",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        }
+      ]
+    }
+  }
+}

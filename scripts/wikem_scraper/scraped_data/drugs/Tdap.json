@@ -1,0 +1,127 @@
+{
+  "drug_name": "Tdap",
+  "url": "https://wikem.org/wiki/Tdap",
+  "scraped_at": "2026-01-10T08:03:13.630408",
+  "sections": {
+    "Background": {
+      "text": "DTaP: High concentration diphtheria, tetanus, and pertussis\nTdap: High concentration tetanus, low concentration diphtheria and pertussis\nDT: High concentration diphtheria and tetanus\ndT: High concentration tetanus, low concentration diphtheria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "",
+      "subsections": {
+        "Tetanus_Vaccine_Selection_Guide": {
+          "text": "Caveats\nAdolescents who have already gotten a booster dose of Td are encouraged to get a dose of Tdap as well. Waiting 5 years after their last Td is encouraged but not required. A period of at least 2 years between Td and Tdap is recommended in these cases.\nPregnancy is not a contraindication to Tdap. The only true contraindication to tetanus immunization is a history of neurologic or severe hypersensitivity to a previous dose.\nStable neurologic disorders and family history of vaccine reactions are not contraindications to receiving these vaccines.\nNo vaccine has ever been shown to play any role in the development of autism or autism spectrum disorders.",
+          "tables": [
+            [
+              {
+                "Age": "2mo - 7yrs",
+                "If No Pertussis Contraindications": "DTaP",
+                "If Pertussis Contraindicated": "DT",
+                "Comments": "DT available from pharmacy"
+              },
+              {
+                "Age": "7yrs - 10yrs",
+                "If No Pertussis Contraindications": "Td",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": ""
+              },
+              {
+                "Age": "10yrs",
+                "If No Pertussis Contraindications": "Tdap(Adacel)^",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "^Off label use, but appears safe and immunogenic"
+              },
+              {
+                "Age": "11yrs - 16yrs",
+                "If No Pertussis Contraindications": "Tdap(Adacel)",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": ""
+              },
+              {
+                "Age": "16yrs - 65",
+                "If No Pertussis Contraindications": "Tdap(Adacel)^^",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "^^Use Td if patient is known to have received prior Tdap"
+              },
+              {
+                "Age": "65yrs +",
+                "If No Pertussis Contraindications": "Td",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "Consider TIG for tetanus prone wound plus Td(tetanus immune globulin)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tetanus_Vaccine_Selection_Guide": {
+      "text": "Caveats\nAdolescents who have already gotten a booster dose of Td are encouraged to get a dose of Tdap as well. Waiting 5 years after their last Td is encouraged but not required. A period of at least 2 years between Td and Tdap is recommended in these cases.\nPregnancy is not a contraindication to Tdap. The only true contraindication to tetanus immunization is a history of neurologic or severe hypersensitivity to a previous dose.\nStable neurologic disorders and family history of vaccine reactions are not contraindications to receiving these vaccines.\nNo vaccine has ever been shown to play any role in the development of autism or autism spectrum disorders.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "2mo - 7yrs",
+            "If No Pertussis Contraindications": "DTaP",
+            "If Pertussis Contraindicated": "DT",
+            "Comments": "DT available from pharmacy"
+          },
+          {
+            "Age": "7yrs - 10yrs",
+            "If No Pertussis Contraindications": "Td",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": ""
+          },
+          {
+            "Age": "10yrs",
+            "If No Pertussis Contraindications": "Tdap(Adacel)^",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "^Off label use, but appears safe and immunogenic"
+          },
+          {
+            "Age": "11yrs - 16yrs",
+            "If No Pertussis Contraindications": "Tdap(Adacel)",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": ""
+          },
+          {
+            "Age": "16yrs - 65",
+            "If No Pertussis Contraindications": "Tdap(Adacel)^^",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "^^Use Td if patient is known to have received prior Tdap"
+          },
+          {
+            "Age": "65yrs +",
+            "If No Pertussis Contraindications": "Td",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "Consider TIG for tetanus prone wound plus Td(tetanus immune globulin)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tetanus (Prophylaxis)\nTetanus (Acute)\nPertussis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus (Prophylaxis)",
+          "url": "https://wikem.org/wiki/Tetanus_(Prophylaxis)"
+        },
+        {
+          "text": "Tetanus (Acute)",
+          "url": "https://wikem.org/wiki/Tetanus_(Acute)"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "drug_name": "Testicular_torsion",
+  "url": "https://wikem.org/wiki/Testicular_torsion",
+  "scraped_at": "2026-01-10T08:03:19.760130",
+  "sections": {
+    "Background": {
+      "text": "Must consider as a ddx in all acute scrotal pain\nMay lead to testicular ischemia and subsequent infertility\nA clear precipitating factor is not necessary identified; half occur during sleep\nBimodal incidence\nFirst peak in first year of life\nSecond peak at puberty",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Mechanical: Exertional/exercise, trauma\nTesticular masses\nUndescended testicle\nBell-clapper deformity\nSalvage Rates for Detorsion Times",
+          "tables": [
+            [
+              {
+                "Time": "<6 hrs",
+                "Rate": "90-100%"
+              },
+              {
+                "Time": "6-12 hrs",
+                "Rate": "20-50%"
+              },
+              {
+                "Time": ">24 hrs",
+                "Rate": "0-10%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Mechanical: Exertional/exercise, trauma\nTesticular masses\nUndescended testicle\nBell-clapper deformity\nSalvage Rates for Detorsion Times",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Time": "<6 hrs",
+            "Rate": "90-100%"
+          },
+          {
+            "Time": "6-12 hrs",
+            "Rate": "20-50%"
+          },
+          {
+            "Time": ">24 hrs",
+            "Rate": "0-10%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "History:\nAbrupt onset testicular pain associated with nausea or\nvomiting\nMay have previous similar intermittent, self-resolving episodes\nMay present after scrotal trauma with persistent pain\nMay present as lower abd pain; thus, inquire specifically about scrotal pain in males with abd pain\nPhysical exam:\nSwollen, tender, high-riding testis\nTransverse testicular lie\nAbsent cremasteric reflex on affected side (99% sensitivity)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Do not delay urologic consultation for work-up\nConsult urology immediately if strongly suspicious for torsion\nUrinalysis\nUltrasound\nfor equivocal cases\nBedside U/S has a SN 0.95 and SP 0.94 compared to a gold standard of radiology U/S\n[1]\nLab workup for surgery",
+          "tables": []
+        },
+        "TWIST_Score": {
+          "text": "Proposed score for assessing testicular torsion in children\nPPV 100% when >5 points (Suggesting stat urological consult)\nNPV 100% when <2 points (Suggesting clinical clearance)\n[2]\nScores from 2-5 patients require U/S for further assessment",
+          "tables": [
+            [
+              {
+                "Finding": "Testicular swelling",
+                "Points": "2"
+              },
+              {
+                "Finding": "Hard testicle",
+                "Points": "2"
+              },
+              {
+                "Finding": "Absent cremasteric reflex",
+                "Points": "1"
+              },
+              {
+                "Finding": "Nausea or vomiting",
+                "Points": "1"
+              },
+              {
+                "Finding": "High-riding testicle",
+                "Points": "1"
+              }
+            ]
+          ]
+        },
+        "Diagnosis": {
+          "text": "Ultrasound\nOnly indicated for equivocal cases\nUnilateral absence of blood flow",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Do not delay urologic consultation for work-up\nConsult urology immediately if strongly suspicious for torsion\nUrinalysis\nUltrasound\nfor equivocal cases\nBedside U/S has a SN 0.95 and SP 0.94 compared to a gold standard of radiology U/S\n[1]\nLab workup for surgery",
+      "subsections": {
+        "TWIST_Score": {
+          "text": "Proposed score for assessing testicular torsion in children\nPPV 100% when >5 points (Suggesting stat urological consult)\nNPV 100% when <2 points (Suggesting clinical clearance)\n[2]\nScores from 2-5 patients require U/S for further assessment",
+          "tables": [
+            [
+              {
+                "Finding": "Testicular swelling",
+                "Points": "2"
+              },
+              {
+                "Finding": "Hard testicle",
+                "Points": "2"
+              },
+              {
+                "Finding": "Absent cremasteric reflex",
+                "Points": "1"
+              },
+              {
+                "Finding": "Nausea or vomiting",
+                "Points": "1"
+              },
+              {
+                "Finding": "High-riding testicle",
+                "Points": "1"
+              }
+            ]
+          ]
+        },
+        "Diagnosis": {
+          "text": "Ultrasound\nOnly indicated for equivocal cases\nUnilateral absence of blood flow",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        }
+      ]
+    },
+    "TWIST_Score": {
+      "text": "Proposed score for assessing testicular torsion in children\nPPV 100% when >5 points (Suggesting stat urological consult)\nNPV 100% when <2 points (Suggesting clinical clearance)\n[2]\nScores from 2-5 patients require U/S for further assessment",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Ultrasound\nOnly indicated for equivocal cases\nUnilateral absence of blood flow",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Finding": "Testicular swelling",
+            "Points": "2"
+          },
+          {
+            "Finding": "Hard testicle",
+            "Points": "2"
+          },
+          {
+            "Finding": "Absent cremasteric reflex",
+            "Points": "1"
+          },
+          {
+            "Finding": "Nausea or vomiting",
+            "Points": "1"
+          },
+          {
+            "Finding": "High-riding testicle",
+            "Points": "1"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Ultrasound\nOnly indicated for equivocal cases\nUnilateral absence of blood flow",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Manual detorsion (temporizing measure)\nTypically done if surgical management is not immediately available\nUrological consultation for detorsion and orchipexy\nSurgical exploration is the gold standard; without surgery, difficult to determine if manual detorsion has worked",
+      "subsections": {
+        "Manual_Detorsion": {
+          "text": "Not definitive treatment. Temporizing measure if urologist not immediately available\nMay require conscious sedation or parenteral\nanalgesia\nif severe pain is anticipated\nMay perform cord block\nGrasp spermatic cord as it enters scrotum, track up to external ring, create skin wheal, and inject 10 mL\nlidocaine\ndirectly into the anterior, lateral, medial portions of cord\n[3]\n\"Open the book\" by twisting testicle outward and laterally\nGrasping testicle with thumb and forefinger, rotate 180 degrees in medial to lateral direction\nRepeat rotation 2 - 3 times until testicle is detorsed and pain decreases\nIf pain is worse after rotation or if rotation is not successful, attempt to rotate testicle in opposite direction\nIn a small percentage of cases, testis is actually laterally rotated and thus, medial rotation is needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Manual_Detorsion": {
+      "text": "Not definitive treatment. Temporizing measure if urologist not immediately available\nMay require conscious sedation or parenteral\nanalgesia\nif severe pain is anticipated\nMay perform cord block\nGrasp spermatic cord as it enters scrotum, track up to external ring, create skin wheal, and inject 10 mL\nlidocaine\ndirectly into the anterior, lateral, medial portions of cord\n[3]\n\"Open the book\" by twisting testicle outward and laterally\nGrasping testicle with thumb and forefinger, rotate 180 degrees in medial to lateral direction\nRepeat rotation 2 - 3 times until testicle is detorsed and pain decreases\nIf pain is worse after rotation or if rotation is not successful, attempt to rotate testicle in opposite direction\nIn a small percentage of cases, testis is actually laterally rotated and thus, medial rotation is needed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "To OR or urology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Testicular diagnoses\nTesticular ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_diagnoses"
+        },
+        {
+          "text": "Testicular ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        }
+      ]
+    }
+  }
+}

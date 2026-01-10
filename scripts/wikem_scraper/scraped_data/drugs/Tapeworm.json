@@ -1,0 +1,45 @@
+{
+  "drug_name": "Tapeworm",
+  "url": "https://wikem.org/wiki/Tapeworm",
+  "scraped_at": "2026-01-10T08:03:14.482187",
+  "sections": {
+    "Types": {
+      "text": "Pork tapeworm (\nTaenia solium\n)\nBeef tapeworm (\nTaenia saginata\n)\nFish tapeworm (\nDiphyllobothrium\nspp.)\nDwarf tapeworm (\nHymenolepis\nspp.)\nEchinococcosis\n(\nhydatid disease\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia solium",
+          "url": "https://wikem.org/wiki/Taenia_solium"
+        },
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Diphyllobothrium",
+          "url": "https://wikem.org/wiki/Diphyllobothrium"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "hydatid disease",
+          "url": "https://wikem.org/wiki/Hydatid_disease"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Worm Infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Worm Infections",
+          "url": "https://wikem.org/wiki/Worm_Infections"
+        }
+      ]
+    }
+  }
+}

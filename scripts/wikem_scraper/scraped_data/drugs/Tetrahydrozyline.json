@@ -1,0 +1,172 @@
+{
+  "drug_name": "Tetrahydrozyline",
+  "url": "https://wikem.org/wiki/Tetrahydrozyline",
+  "scraped_at": "2026-01-10T08:03:21.234294",
+  "sections": {
+    "Administration": {
+      "text": "Type: Adrenergic agonist,\ndecongestant\n, vasoconstrictor; imidazoline derivative\n[1]\n[2]\nDosage Forms: 0.05% solution, 0.1% solution\nRoutes of Administration: Nasal, ophthalmic\nCommon Trade Names: Tyzine Eye Drops, GoodSense Eye Drops, GoodSense Relief Eye Drops, Opti-Clear, Visine Advanced Relief",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "decongestant",
+          "url": "https://wikem.org/wiki/Decongestant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Nasal congestion\n2-4 drops or 3-4 sprays 0.1% solution into each nostril every 3-4 hours as needed\nOcular decongestant\n1-2 drops in affected eye up to 4 times a daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Nasal congestion:\nChildren 2-6 years: 2-3 drops 0.05% solution into each nostril every 406 hours as needed\nChildren >6 years: adult dosing\nOcular decongestant:\nChildren >6 years: adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\n0.5% solution is contraindicated in children <2; 0.1% solution is contraindicated in children <6",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Coma\n,\nbradycardia\n, respiratory depression, sedation in children with even small (1-1ml) ingestions",
+          "tables": []
+        },
+        "Common": {
+          "text": "Sneezing, stinging sensation in nose\nHypertension, palpitations, tachycardia\nHeadache\nTremor\nBlurred vision",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Coma\n,\nbradycardia\n, respiratory depression, sedation in children with even small (1-1ml) ingestions",
+      "subsections": {
+        "Common": {
+          "text": "Sneezing, stinging sensation in nose\nHypertension, palpitations, tachycardia\nHeadache\nTremor\nBlurred vision",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Sneezing, stinging sensation in nose\nHypertension, palpitations, tachycardia\nHeadache\nTremor\nBlurred vision",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: N/A\nMetabolism: N/A\nExcretion: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Alpha adrenergic agonist - arteriolar constriction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
