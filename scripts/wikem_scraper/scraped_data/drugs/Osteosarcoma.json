@@ -1,0 +1,152 @@
+{
+  "drug_name": "Osteosarcoma",
+  "url": "https://wikem.org/wiki/Osteosarcoma",
+  "scraped_at": "2026-01-10T07:58:56.791582",
+  "sections": {
+    "Background": {
+      "text": "Most common primary pediatric bone tumor\n3% of all childhood cancers\nAround two-thirds of those diagnosed with non-metastatic disease under the age of 40 will be long-term survivors or cured of the disease with appropriate treatment\nSurvival is less than 20% with metastatic disease\nOne-fifth will have metastases at presentation\nMost common metastatic site is lung followed by bone\nBimodal as it peaks in early adolescence and over the age of 65",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Overproduction of osteoid and immature bone by malignant osteoblasts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Often an adolescent during a growth spurt\nBone pain for several months that worsens with activity and is more painful at night\nAbsence of constitutional symptoms (e.g., fevers, weight loss, night sweats, and decreased appetite are typically absent)\nLarge soft tissue mass on exam that is tender to palpation\nOccurs at metaphysis of long bones\nMost commonly at the distal femur followed by the proximal tibia\nLess frequently presents as pathological fracture\nRisk factors include prior cancer treatment,\nPaget disease\nof bone, benign bone disease, Hereditary Retinoblastoma or Li-Fraumeni syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "X-ray\n\"Sunburst\" pattern on X-ray\nThis pattern  describes a lytic lesion with periosteal reaction and cortical disruption at or near the metaphysis\nCodman triangle\nNew subperiosteal bone formed when the periosteum is raised away from the bone\nElevated alkaline phosphatase\nElevated LDH\nHigh LDH associated with poor outcome\nElevated ESR\nMRI and biopsy for definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Pain control\nLimb sparing surgery or amputation, if needed\nDepends on location and extent of the primary tumor\nNeoadjuvant chemotherapy\nResponse is a major prognostic factor\nMAP therapy (methotrexate, doxorubicin, cisplatin) often regimen of choice for non-metastatic disease\nNo standard approach if metastatic\nTypically, radiation resistant\nIf at base of skull or sacrum can consider intensity-modulated radiation therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Home if patient can get expedited follow up\nAdmission and work-up if suspected delay in outpatient care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

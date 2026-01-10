@@ -1,0 +1,322 @@
+{
+  "drug_name": "Pancreas_transplant_complications",
+  "url": "https://wikem.org/wiki/Pancreas_transplant_complications",
+  "scraped_at": "2026-01-10T07:59:08.035650",
+  "sections": {
+    "Background": {
+      "text": "Pancreatic transplant indicated to treat Type 1\ndiabetes\nwith ESRD and/or brittle diabetes and/or hypoglycemia unawareness\nUsually done as combined kidney-pancreas transplant\nGrafted pancreas either bladder-drained (safer procedure, more late complications) or enterically drained",
+      "subsections": {
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Immunosuppressant_Medications": {
+      "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Complications_and_Clinical_Presentation": {
+      "text": "",
+      "subsections": {
+        "Surgical_Complications": {
+          "text": "More prone to surgical/technical complications than other solid transplanted organs\nGraft thrombosis\ndue to low blood flow to pancreas\nusually in first week post-op\nVenous thrombosis: swollen, tender graft site, hematuria, lower extremity edema, DVT\nArterial thrombosis: often asymptomatic\nSuspect if sudden increase in insulin requirements or sudden drop in urinary amylase\narterial pseudoaneurysm, AV fistulas\nIntraabdominal abscess, anastomotic leak\nBleeding\nGraft\npancreatitis\n(usually early post-op), fistulae, pseudocysts",
+          "tables": []
+        },
+        "Rejection": {
+          "text": "30% of pancreas transplant recipients will have rejection during first year\nSigns/symptoms: graft tenderness, unexplained\nfever\n,\nhyperglycemia\n(late finding)",
+          "tables": []
+        },
+        "Bladder-drained_Pancreas": {
+          "text": "irritation from pancreatic enzymes to urothelium →\ncystitis\n,\nhematuria\n,\ndysuria\nheavy loss of bicarbonate in pancreatic secretions→\ndehydration\n,\nmetabolic acidosis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "Increased risk of opportunistic/severe infections due to anti-rejection meds\nFever and other classic features may be absent due to immunosuppression",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Surgical_Complications": {
+      "text": "More prone to surgical/technical complications than other solid transplanted organs\nGraft thrombosis\ndue to low blood flow to pancreas\nusually in first week post-op\nVenous thrombosis: swollen, tender graft site, hematuria, lower extremity edema, DVT\nArterial thrombosis: often asymptomatic\nSuspect if sudden increase in insulin requirements or sudden drop in urinary amylase\narterial pseudoaneurysm, AV fistulas\nIntraabdominal abscess, anastomotic leak\nBleeding\nGraft\npancreatitis\n(usually early post-op), fistulae, pseudocysts",
+      "subsections": {
+        "Rejection": {
+          "text": "30% of pancreas transplant recipients will have rejection during first year\nSigns/symptoms: graft tenderness, unexplained\nfever\n,\nhyperglycemia\n(late finding)",
+          "tables": []
+        },
+        "Bladder-drained_Pancreas": {
+          "text": "irritation from pancreatic enzymes to urothelium →\ncystitis\n,\nhematuria\n,\ndysuria\nheavy loss of bicarbonate in pancreatic secretions→\ndehydration\n,\nmetabolic acidosis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "Increased risk of opportunistic/severe infections due to anti-rejection meds\nFever and other classic features may be absent due to immunosuppression",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Rejection": {
+      "text": "30% of pancreas transplant recipients will have rejection during first year\nSigns/symptoms: graft tenderness, unexplained\nfever\n,\nhyperglycemia\n(late finding)",
+      "subsections": {
+        "Bladder-drained_Pancreas": {
+          "text": "irritation from pancreatic enzymes to urothelium →\ncystitis\n,\nhematuria\n,\ndysuria\nheavy loss of bicarbonate in pancreatic secretions→\ndehydration\n,\nmetabolic acidosis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "Increased risk of opportunistic/severe infections due to anti-rejection meds\nFever and other classic features may be absent due to immunosuppression",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Bladder-drained_Pancreas": {
+      "text": "irritation from pancreatic enzymes to urothelium →\ncystitis\n,\nhematuria\n,\ndysuria\nheavy loss of bicarbonate in pancreatic secretions→\ndehydration\n,\nmetabolic acidosis",
+      "subsections": {
+        "Infection": {
+          "text": "Increased risk of opportunistic/severe infections due to anti-rejection meds\nFever and other classic features may be absent due to immunosuppression",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Infection": {
+      "text": "Increased risk of opportunistic/severe infections due to anti-rejection meds\nFever and other classic features may be absent due to immunosuppression",
+      "subsections": {
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medication_Adverse_Effects": {
+      "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications\nNeutropenic fever\nImmunocompromised antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        }
+      ]
+    }
+  }
+}

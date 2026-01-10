@@ -1,0 +1,81 @@
+{
+  "drug_name": "Paracoccidioidomycosis",
+  "url": "https://wikem.org/wiki/Paracoccidioidomycosis",
+  "scraped_at": "2026-01-10T07:59:09.887926",
+  "sections": {
+    "Background": {
+      "text": "Fungal infection caused by\nParacoccidioides brasiliensis\nFound in patients who have resided in Mexico, Central America, or South America\nPrimary infection likely occurs via inhalation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Long asymptomatic period after initial infection common\nHIV+ patients more likley to have extra-pulmonary dissemination and/or rapid progression of disease\nSOB\n,\ncough\nWeight loss, malaise,\nfever\nLymphadenopathy\nMay ulcerate and form draining sinuses\nMucosal ulcerations\nCutaneous papules, which may ulcerate and enlarge\n+/- destructive ulceration of uvula, epiglottis, and/or vocal cords\n+/- hepatosplenomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Routine labs usually nonspecific\nCXR\n- may show interstitial infiltrates\nDefinitive diagnosis made by visualizing yeast cells in tissue sample, sputum sample, or skin scrapings\nSerologic tests available in some areas of high endemicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Itraconazole\n100 mg PO BID- first line\nSecond line/alternatives\nTMP-SMX\n(480/1200 mg) PO BID\nVoriconazole\n200 mg PO BID\nAmphotericin B\nIV for severe/life-threatening infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

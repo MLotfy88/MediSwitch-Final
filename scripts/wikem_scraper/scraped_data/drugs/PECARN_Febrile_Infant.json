@@ -1,0 +1,245 @@
+{
+  "drug_name": "PECARN_Febrile_Infant",
+  "url": "https://wikem.org/wiki/PECARN_Febrile_Infant",
+  "scraped_at": "2026-01-10T07:59:04.455365",
+  "sections": {
+    "Clinical_Question": {
+      "text": "Can a clinical prediction rule using laboratory data identify febrile infants <60 days who are at low risk for serious bacterial infection or SBI (UTI, Bacteremia, Bacterial Meningitis) and reduce unnecessary lumbar punctures, antibiotics, and hospitalization?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Conclusion": {
+      "text": "This clinical decision rule based on urinalysis, absolute neutrophil count (ANC), and procalcitonin has a sensitivity of 97.7%, specificity of 60%, NPV of 99.6% and negative likelihood ratio of 0.04.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Major_Points": {
+      "text": "This rule was derived and validated in a multicenter PECARN study.\nThey identified three laboratory criteria:\nNormal urinalysis\npresence of leukocyte esterase, nitrite, >5 WBCs\nAbsolute Neutrophil Count (ANC) ≤4090/µL\nSerum procalcitonin ≤1.71 ng/mL\nIf all these criteria are met, the infant is at low risk of having SBI.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Study_Design": {
+      "text": "Prospective, observational study at 26 emergency departments between March 2011 and May 2013",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Population": {
+      "text": "N=1,821\nDerivation group: 908\nValidation group: 913",
+      "subsections": {
+        "Inclusion_Criteria": {
+          "text": "Febrile infants <60 days of age and had blood cultures obtained. Fever defined as rectal temp of ≥ 38°C in the ED, prior healthcare setting, or home within 24 hours.",
+          "tables": []
+        },
+        "Exclusion_Criteria": {
+          "text": "Infants who were critically ill, had antibiotics in previous 48 hours, history of prematurity (≤26 weeks gestation), pre-existing medical conditions, indwelling devices or soft tissue infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Patient_Demographics": {
+      "text": "",
+      "subsections": {
+        "Inclusion_Criteria": {
+          "text": "Febrile infants <60 days of age and had blood cultures obtained. Fever defined as rectal temp of ≥ 38°C in the ED, prior healthcare setting, or home within 24 hours.",
+          "tables": []
+        },
+        "Exclusion_Criteria": {
+          "text": "Infants who were critically ill, had antibiotics in previous 48 hours, history of prematurity (≤26 weeks gestation), pre-existing medical conditions, indwelling devices or soft tissue infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Inclusion_Criteria": {
+      "text": "Febrile infants <60 days of age and had blood cultures obtained. Fever defined as rectal temp of ≥ 38°C in the ED, prior healthcare setting, or home within 24 hours.",
+      "subsections": {
+        "Exclusion_Criteria": {
+          "text": "Infants who were critically ill, had antibiotics in previous 48 hours, history of prematurity (≤26 weeks gestation), pre-existing medical conditions, indwelling devices or soft tissue infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exclusion_Criteria": {
+      "text": "Infants who were critically ill, had antibiotics in previous 48 hours, history of prematurity (≤26 weeks gestation), pre-existing medical conditions, indwelling devices or soft tissue infections.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Interventions": {
+      "text": "ED physicians (including fellows) performed history and physical exam, Yale Observation Scale, clinical suspicion of SBI. Blood and urine testing was obtained. CSF was obtained based on clinician discretion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Outcomes": {
+      "text": "Serious bacterial infection (defined as urinary tract infection, bacteremia, bacterial meningitis)\nUTI definition\nAt least 1,000 cfu/mL for suprapubic aspiration samples\nAt least 50,000 cfu/mL for catharized samples\n10,000-50,000 cfu/mL for catharized samples associated with abnormal UA",
+      "subsections": {
+        "Prediction_Rule_Characteristics": {
+          "text": "Normal urinalysis\nAbsolute Neutrophil Count (ANC)≤4090/µL\nSerum procalcitonin ≤1.71 ng/mL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prediction_Rule_Characteristics": {
+      "text": "Normal urinalysis\nAbsolute Neutrophil Count (ANC)≤4090/µL\nSerum procalcitonin ≤1.71 ng/mL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Criticisms_&_Further_Discussion": {
+      "text": "",
+      "subsections": {
+        "Procalcitonin": {
+          "text": "Not all hospitals and emergency departments have access to procalcitonin testing. Additionally, procalcitonin results may not be available in a timely manner to help with decision-making.",
+          "tables": []
+        },
+        "Urinary_Tract_Infection_Definition": {
+          "text": "This study used a lower threshold for determining UTI than the American Academy of Pediatric guidelines. The reason for this was because sometimes young infants have lower colonies of bacteria in urine but does make this prediction rule more conservative",
+          "tables": []
+        },
+        "Young_and_Old_Babies": {
+          "text": "Most SBIs happened in the younger age group (≤28 days) compared to the older age group (>28 days). 13% vs 7.7%.",
+          "tables": []
+        },
+        "HSV": {
+          "text": "This study did not include viral testing. Infants ≤28 days may also be at risk for HSV which can have devastating consequences if missed. Be cautious in this age group.",
+          "tables": []
+        },
+        "Low_Prevalence_of_Disease": {
+          "text": "There was only a small number of patients with bacteremia and bacterial meningitis. This may affect confidence in application of this rule.",
+          "tables": []
+        },
+        "External_Validation": {
+          "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procalcitonin": {
+      "text": "Not all hospitals and emergency departments have access to procalcitonin testing. Additionally, procalcitonin results may not be available in a timely manner to help with decision-making.",
+      "subsections": {
+        "Urinary_Tract_Infection_Definition": {
+          "text": "This study used a lower threshold for determining UTI than the American Academy of Pediatric guidelines. The reason for this was because sometimes young infants have lower colonies of bacteria in urine but does make this prediction rule more conservative",
+          "tables": []
+        },
+        "Young_and_Old_Babies": {
+          "text": "Most SBIs happened in the younger age group (≤28 days) compared to the older age group (>28 days). 13% vs 7.7%.",
+          "tables": []
+        },
+        "HSV": {
+          "text": "This study did not include viral testing. Infants ≤28 days may also be at risk for HSV which can have devastating consequences if missed. Be cautious in this age group.",
+          "tables": []
+        },
+        "Low_Prevalence_of_Disease": {
+          "text": "There was only a small number of patients with bacteremia and bacterial meningitis. This may affect confidence in application of this rule.",
+          "tables": []
+        },
+        "External_Validation": {
+          "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Urinary_Tract_Infection_Definition": {
+      "text": "This study used a lower threshold for determining UTI than the American Academy of Pediatric guidelines. The reason for this was because sometimes young infants have lower colonies of bacteria in urine but does make this prediction rule more conservative",
+      "subsections": {
+        "Young_and_Old_Babies": {
+          "text": "Most SBIs happened in the younger age group (≤28 days) compared to the older age group (>28 days). 13% vs 7.7%.",
+          "tables": []
+        },
+        "HSV": {
+          "text": "This study did not include viral testing. Infants ≤28 days may also be at risk for HSV which can have devastating consequences if missed. Be cautious in this age group.",
+          "tables": []
+        },
+        "Low_Prevalence_of_Disease": {
+          "text": "There was only a small number of patients with bacteremia and bacterial meningitis. This may affect confidence in application of this rule.",
+          "tables": []
+        },
+        "External_Validation": {
+          "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Young_and_Old_Babies": {
+      "text": "Most SBIs happened in the younger age group (≤28 days) compared to the older age group (>28 days). 13% vs 7.7%.",
+      "subsections": {
+        "HSV": {
+          "text": "This study did not include viral testing. Infants ≤28 days may also be at risk for HSV which can have devastating consequences if missed. Be cautious in this age group.",
+          "tables": []
+        },
+        "Low_Prevalence_of_Disease": {
+          "text": "There was only a small number of patients with bacteremia and bacterial meningitis. This may affect confidence in application of this rule.",
+          "tables": []
+        },
+        "External_Validation": {
+          "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HSV": {
+      "text": "This study did not include viral testing. Infants ≤28 days may also be at risk for HSV which can have devastating consequences if missed. Be cautious in this age group.",
+      "subsections": {
+        "Low_Prevalence_of_Disease": {
+          "text": "There was only a small number of patients with bacteremia and bacterial meningitis. This may affect confidence in application of this rule.",
+          "tables": []
+        },
+        "External_Validation": {
+          "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Low_Prevalence_of_Disease": {
+      "text": "There was only a small number of patients with bacteremia and bacterial meningitis. This may affect confidence in application of this rule.",
+      "subsections": {
+        "External_Validation": {
+          "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "External_Validation": {
+      "text": "The PECARN team has presented results of an external validation of this clinical prediction rule at several conferences. This utilized rounded numbers:\nNegative UA\nANC < 4000 /µL\nProcalcitonin <0.5 ng/mL\nThey found similar results with sensitivity 97.6%, specificity 61.1%, NPV 99.6%, negative LR 0.04. Publication is still pending.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "ALiEM PECARN Febrile Infant\nFirst10EM: To LP, or not to LP\nTheSGEM: She's Got the Fever\nREBEL EM: A Clinical Prediction Rule for Febrile Infants",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Funding": {
+      "text": "This study was supported in part by grant H34MCO8509 from Health Resources and Services Administration, Emergency Services for Children and by the Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health (grant R01HD062477). This project was also supported in part by the Health Resources and Services Administration, Maternal and Child Health Bureau, Emergency Medical Services for ChildrenNetwork Development Demonstration Program under cooperative agreements U03MC00008, U03MC00001, U03MC00003, U03MC00006, U03MC00007, U03MC22684, and U03MC22685.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

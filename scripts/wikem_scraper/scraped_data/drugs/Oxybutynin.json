@@ -1,0 +1,122 @@
+{
+  "drug_name": "Oxybutynin",
+  "url": "https://wikem.org/wiki/Oxybutynin",
+  "scraped_at": "2026-01-10T07:59:02.152018",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antispasmodic, urinary\nDosage Forms: 5mg\nRoutes of Administration: Oral\nCommon Trade Names: Oxybutynin chloride",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "5mg 2-3 times daily, maximum 5mg 4 times daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "> 5 years and adolescent\n5mg twice daily, maximum 5mg 3 times daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Geriatric_Dosing": {
+      "text": "2.5mg 2-3 times daily, increase cautiously",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Not defined, use with caution when administered to a nursing woman",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRisk of narrow-angle glaucoma\nRisk of urinary retention\nRisk of gastric retention or severely decreased gastric motility",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Arrhythmia (sinus)\nHypotension\nHypertension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\nDrowsiness\nXerostomia (dose-related)\nConstipation\nNausea\nHeadache\nNervousness\nInsomnia\nUrinary hesitancy\nUrinary retention\nUrinary tract infection\nBlurred vision",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Arrhythmia (sinus)\nHypotension\nHypertension",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness\nDrowsiness\nXerostomia (dose-related)\nConstipation\nNausea\nHeadache\nNervousness\nInsomnia\nUrinary hesitancy\nUrinary retention\nUrinary tract infection\nBlurred vision",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Dizziness\nDrowsiness\nXerostomia (dose-related)\nConstipation\nNausea\nHeadache\nNervousness\nInsomnia\nUrinary hesitancy\nUrinary retention\nUrinary tract infection\nBlurred vision",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3 h\nMetabolism: Liver\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Direct antispasmodic effect on smooth muscle\nInhibit action of acetylcholine on smooth muscle; decreased frequency and urgent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

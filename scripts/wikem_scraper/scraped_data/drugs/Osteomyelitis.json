@@ -1,0 +1,376 @@
+{
+  "drug_name": "Osteomyelitis",
+  "url": "https://wikem.org/wiki/Osteomyelitis",
+  "scraped_at": "2026-01-10T07:58:56.169568",
+  "sections": {
+    "Background": {
+      "text": "Infection of the bone by\nbacteria\nor\nfungus\nEtiology\nContiguous spread (80%)\nHematogenous spread (20%)\nMore common in pediatric (long bones)\nLess common in adults (spine)",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Diabetic\npatients with one or more of the following:\nSkin ulceration >2cm\nPositive probe-to-bone test\nESR >70 (83-92% Sn)\nAbnormal x-ray",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "fungus",
+          "url": "https://wikem.org/wiki/Fungus"
+        },
+        {
+          "text": "Diabetic",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Diabetic\npatients with one or more of the following:\nSkin ulceration >2cm\nPositive probe-to-bone test\nESR >70 (83-92% Sn)\nAbnormal x-ray",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetic",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain at the site\nMay also have warmth, swelling, erythema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "X-ray\nMay be normal early in the course\nLater will show bone demineralization, periosteal elevation, lytic lesions\nChanges 10-21 days after infection\nSn 43-75%, Sp 75-83%\n[1]\nBlood culture\nCT\nSn 67%, Sp 50%\n[2]\nMRI\nis the standard for diagnosis (as early as 3-5 days after infection)\n[3]\nBone scan is sensitive, but lacks specificity vs. MRI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Mri"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Risk Factor": "Elderly, hematogenous spread",
+            "Likely Organism": "MRSA,MSSA,gram neg",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+          },
+          {
+            "Risk Factor": "Sickle Cell Disease",
+            "Likely Organism": "Salmonella,gram-negativebacteria",
+            "Initial Empiric Antibiotic Therapy'": "Ceftriaxone50mg/kg IV once daily ORCefotaxime50mg/kg IV three times daily, PLUSVancomycin15mg/kg IV  four times daily ORClindamycin10mg/kg IV PO four times daily ORNafcillin50 mg/kg IV four times daily to cover K. Kingae (common in daycare population)"
+          },
+          {
+            "Risk Factor": "DMor vascular insufficiency",
+            "Likely Organism": "Polymicrobial:Staph,strep, coliforms,anaerobes",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+          },
+          {
+            "Risk Factor": "IV druguser",
+            "Likely Organism": "MRSA,MSSA,pseudomonas",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+          },
+          {
+            "Risk Factor": "Newborn",
+            "Likely Organism": "MRSA,MSSA,GBS,Gram Negative",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin15mg/kg load, then reduce dose, ANDceftazidime30mg/kg IV q12 h"
+          },
+          {
+            "Risk Factor": "Children",
+            "Likely Organism": "MRSA,MSSA",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin10mg/kg q6 h ANDceftazidime50mg/kg q8hr"
+          },
+          {
+            "Risk Factor": "Postoperative (ortho)",
+            "Likely Organism": "MRSA,MSSA",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+          },
+          {
+            "Risk Factor": "Human bite",
+            "Likely Organism": "Strep,anaerobes, HACEK organism",
+            "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+          },
+          {
+            "Risk Factor": "Animal bites",
+            "Likely Organism": "Pasteurella,Eikenella, HACEK organism",
+            "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+          },
+          {
+            "Risk Factor": "Foot puncture wound",
+            "Likely Organism": "Pseudomonas",
+            "Initial Empiric Antibiotic Therapy'": "Anti-pseudomonal, staph coverage"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vertebral Osteomyelitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertebral Osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_Osteomyelitis"
+        }
+      ]
+    }
+  }
+}

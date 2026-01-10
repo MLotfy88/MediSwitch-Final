@@ -1,0 +1,115 @@
+{
+  "drug_name": "Orthostatic_hypotension",
+  "url": "https://wikem.org/wiki/Orthostatic_hypotension",
+  "scraped_at": "2026-01-10T07:58:57.086211",
+  "sections": {
+    "Background": {
+      "text": "More common in older patients\nSymptomatic orthostasis is clinically much more important than actual change in vitals\nClassically, drop in SBP ≥20 mm Hg or increase in HR ≥ 30 bpm when moving from lying to standing\nStudies show that orthostatic vitals common at baseline health, and not necessarily abnormal in moderate volume loss\n[1]\n[2]\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sudden postural changes resulting in cerebral hypoperfusion\nWeakness\n, lightheadedness, visual blurring\nOccasionally,\nsyncope",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Autonomic dysfunction\nParkinson's disease\nLewy Body Dementia\nShy-Drager Syndrome\nDiabetes\nAging\nVolume depletion\nDiuretics\nHemorrhage\nVomiting\n/\nDiarrhea\nMedications\nAntihypertensives\n, antiparkinsonism,\nbeta blockers\n, vasodilatory drugs\nAlcohol use\nSyncope\nSeizure\nPostural tachycardia syndrome (POTS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Volume depletion",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Antihypertensives",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        },
+        {
+          "text": "beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Review medication list\nHistory of potential volume loss\nCBC (anemia)\nBMP (electrolytes, BUN, Cr, glucose)\nEKG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Address the underlying cause\nFluids\n, blood\ntransfusion\nwhen appropriate\nConsider discontinuing at risk medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluids",
+          "url": "https://wikem.org/wiki/Fluids"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on patient's risk, etiology of orthostasis, secondary complications such as worsening hypovolemia, potential for falls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "drug_name": "Oxacillin",
+  "url": "https://wikem.org/wiki/Oxacillin",
+  "scraped_at": "2026-01-10T07:59:01.596627",
+  "sections": {
+    "General": {
+      "text": "Type: Anti-Staphylococcal\nPenicillin\nDosage Forms: IM; IV\nCommon Trade Names: Bactocill",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Mild-to-moderate infection\n250-500mg IM/IV q4-6 hours\nSevere infection\n1g IM/IV q4-6 hours",
+          "tables": []
+        },
+        "Endocarditis": {
+          "text": "2g IV q4 hours +\ngentamicin",
+          "tables": []
+        },
+        "Prosthetic_Joint_Infection": {
+          "text": "2g IV q4 hours +\nrifampin",
+          "tables": []
+        },
+        "MSSA": {
+          "text": "2g IV q4 hours\nExamples: brain abscess,\nbursitis\n,\nerysipelas\n,\nmastitis\n, mastoiditis,\nosteomyelitis\n, perinephric abscess,\npneumonia\n, pyomyositis, Scalded Skin Syndrome,\nToxic Shock Syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "Mild-to-moderate infection\n250-500mg IM/IV q4-6 hours\nSevere infection\n1g IM/IV q4-6 hours",
+      "subsections": {
+        "Endocarditis": {
+          "text": "2g IV q4 hours +\ngentamicin",
+          "tables": []
+        },
+        "Prosthetic_Joint_Infection": {
+          "text": "2g IV q4 hours +\nrifampin",
+          "tables": []
+        },
+        "MSSA": {
+          "text": "2g IV q4 hours\nExamples: brain abscess,\nbursitis\n,\nerysipelas\n,\nmastitis\n, mastoiditis,\nosteomyelitis\n, perinephric abscess,\npneumonia\n, pyomyositis, Scalded Skin Syndrome,\nToxic Shock Syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        }
+      ]
+    },
+    "Endocarditis": {
+      "text": "2g IV q4 hours +\ngentamicin",
+      "subsections": {
+        "Prosthetic_Joint_Infection": {
+          "text": "2g IV q4 hours +\nrifampin",
+          "tables": []
+        },
+        "MSSA": {
+          "text": "2g IV q4 hours\nExamples: brain abscess,\nbursitis\n,\nerysipelas\n,\nmastitis\n, mastoiditis,\nosteomyelitis\n, perinephric abscess,\npneumonia\n, pyomyositis, Scalded Skin Syndrome,\nToxic Shock Syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        }
+      ]
+    },
+    "Prosthetic_Joint_Infection": {
+      "text": "2g IV q4 hours +\nrifampin",
+      "subsections": {
+        "MSSA": {
+          "text": "2g IV q4 hours\nExamples: brain abscess,\nbursitis\n,\nerysipelas\n,\nmastitis\n, mastoiditis,\nosteomyelitis\n, perinephric abscess,\npneumonia\n, pyomyositis, Scalded Skin Syndrome,\nToxic Shock Syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        }
+      ]
+    },
+    "MSSA": {
+      "text": "2g IV q4 hours\nExamples: brain abscess,\nbursitis\n,\nerysipelas\n,\nmastitis\n, mastoiditis,\nosteomyelitis\n, perinephric abscess,\npneumonia\n, pyomyositis, Scalded Skin Syndrome,\nToxic Shock Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_3": {
+          "text": "Mild-to-moderate\n50mg/kg/day IM/IV divided q6 hours\nFirst Dose: 12.5mg/kg IM/IV x 1\nMax: 4 g/day\nSevere\n100mg/kg/day IM/IV divided q4-6 hours\nFirst Dose: 16.6-25mg/kg IM/IV x 1\nMax: 12 g/day",
+          "tables": []
+        },
+        "Community-Acquired_Pneumonia_(>3_Months)": {
+          "text": "150-200mg/kg/day divided q6-8 hours\nFirst Dose: 37.5-66.6mg/kg IV x 1\nFor\nMSSA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        }
+      ]
+    },
+    "General_3": {
+      "text": "Mild-to-moderate\n50mg/kg/day IM/IV divided q6 hours\nFirst Dose: 12.5mg/kg IM/IV x 1\nMax: 4 g/day\nSevere\n100mg/kg/day IM/IV divided q4-6 hours\nFirst Dose: 16.6-25mg/kg IM/IV x 1\nMax: 12 g/day",
+      "subsections": {
+        "Community-Acquired_Pneumonia_(>3_Months)": {
+          "text": "150-200mg/kg/day divided q6-8 hours\nFirst Dose: 37.5-66.6mg/kg IV x 1\nFor\nMSSA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Use caution\nRenal Dosing\nAdult: No adjustment\nPediatric:\nCrCl <10: Use lower end of dosing range\nHepatic Dosing\nAdult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nNon-anaphylactic hypersensitivity to beta-lactams\nHypersensitivity to corn\nAsthma\nRecent abx-associated colitis\nRenal impairment\nSodium restriction\nSeizure disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Fever\nRash\nNausea and Vomiting\nDiarrhea\nEosinophilia\nLeukopenia\nNeutropenia\nThrombocytopenia\nAgranulocytosis\nHepatotoxicity\nAST increased\nAcute interstitial nephritis\nHematuria\nSerum sickness-like reactions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Fever\nRash\nNausea and Vomiting\nDiarrhea\nEosinophilia\nLeukopenia\nNeutropenia\nThrombocytopenia\nAgranulocytosis\nHepatotoxicity\nAST increased\nAcute interstitial nephritis\nHematuria\nSerum sickness-like reactions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 20-60 minutes (prolonged in neonates and renal impairment)\nMetabolism: Liver 45%; active metabolite\nExcretion: Urine (55-60% unchanged), Bile 10%\nMechanism of Action: Bactericidal; inhibits cell wall mucopeptide synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    }
+  }
+}

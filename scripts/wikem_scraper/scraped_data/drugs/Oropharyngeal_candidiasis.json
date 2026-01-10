@@ -1,0 +1,383 @@
+{
+  "drug_name": "Oropharyngeal_candidiasis",
+  "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis",
+  "scraped_at": "2026-01-10T07:58:57.434691",
+  "sections": {
+    "Background": {
+      "text": "Also known as thrush\nTypically occurs when the normal host immunity or host flora are disrupted, allowing for overgrowth of\nCandida albicans\nMost commonly seen in infants, immunocompromised, older adults with dentures",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Extremes of age\nAntibiotics\nCorticosteroids\nImmunocompromised (\nAIDS\n, immunosuppressant medications)\nDiabetes\nMalignancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida albicans",
+          "url": "https://wikem.org/wiki/Candida_albicans"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Extremes of age\nAntibiotics\nCorticosteroids\nImmunocompromised (\nAIDS\n, immunosuppressant medications)\nDiabetes\nMalignancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "White curd-like (pseudomembraneus) plaques that are difficult to remove and leave behind an erythematous base on the oral mucosa, tongue, palate, or oropharynx\nUsually painless\nCotton sensation in mouth\nAngular cheilitis\nLoss of taste",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tongue_diagnoses": {
+          "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Tongue_diagnoses": {
+      "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Most cases are diagnosed clinically and need only one of the treatments listed below\n[1]\nMay consider KOH prep of skin scrapings (using a tongue depressor), if available\nConsider\nHIV\ntesting if no other etiology is determined or if risk factors are present",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment is targeted against Candida species\nTopical agents\nPatients with their first presentation of mild thrush\nAzole therapy\nPatients with moderate to severe oropharyngeal candidiasis or for those\nPatients with recurrent disease\nHIV-positive patients who are at risk of developing esophageal candidiasis (CD4 count <100 cells/microL)",
+      "subsections": {
+        "Antifungals": {
+          "text": "Voriconazole\n200mg BID up to 28 days until symptom resolution\nonly for Candida species resistant to fluconazole\nNystatin\noral suspension 400,000-600,000 units (swish and swallow) Q6H until 48 hours after symptoms disappear OR\nClotrimazole\n10 mg troches 5 times/day for 14 consecutive days OR\nFluconazole\n200 mg (Peds: 6 mg/kg) PO on day one, followed by 100 mg (Peds: 3 mg/kg_ daily for two weeks.\nFluconazole is reserved for moderate to severe disease",
+          "tables": []
+        },
+        "Pediatric_Dosing": {
+          "text": "If the patient is breast feeding it is important for the mother to treat her nipples before and after feeding\nNystatin\nOral Suspension\n100,000 units/ml for 14 days for all ages\nPremature infants should only have 0.5 - 1 mL given to each side of the mouth every 6 hours\nClotrimazole\n10mg PO five times daily for 14 days\nreserved for patients > 3 years old",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        }
+      ]
+    },
+    "Antifungals": {
+      "text": "Voriconazole\n200mg BID up to 28 days until symptom resolution\nonly for Candida species resistant to fluconazole\nNystatin\noral suspension 400,000-600,000 units (swish and swallow) Q6H until 48 hours after symptoms disappear OR\nClotrimazole\n10 mg troches 5 times/day for 14 consecutive days OR\nFluconazole\n200 mg (Peds: 6 mg/kg) PO on day one, followed by 100 mg (Peds: 3 mg/kg_ daily for two weeks.\nFluconazole is reserved for moderate to severe disease",
+      "subsections": {
+        "Pediatric_Dosing": {
+          "text": "If the patient is breast feeding it is important for the mother to treat her nipples before and after feeding\nNystatin\nOral Suspension\n100,000 units/ml for 14 days for all ages\nPremature infants should only have 0.5 - 1 mL given to each side of the mouth every 6 hours\nClotrimazole\n10mg PO five times daily for 14 days\nreserved for patients > 3 years old",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Thrush is typically self-limited and patients may be discharged home unless concomitant symptoms require further work-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tongue diagnoses\nCandidiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    }
+  }
+}

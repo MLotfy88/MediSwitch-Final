@@ -1,0 +1,126 @@
+{
+  "drug_name": "Oxygen_therapy",
+  "url": "https://wikem.org/wiki/Oxygen_therapy",
+  "scraped_at": "2026-01-10T07:59:05.069265",
+  "sections": {
+    "Standard_Administration_Options": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Device": "Nasal Cannula",
+            "L/min": "1",
+            "% Oxygen": "24%",
+            "Comments": ""
+          },
+          {
+            "Device": "",
+            "L/min": "2",
+            "% Oxygen": "28%",
+            "Comments": ""
+          },
+          {
+            "Device": "",
+            "L/min": "3",
+            "% Oxygen": "32%",
+            "Comments": ""
+          },
+          {
+            "Device": "",
+            "L/min": "4",
+            "% Oxygen": "36%",
+            "Comments": ""
+          },
+          {
+            "Device": "",
+            "L/min": "5",
+            "% Oxygen": "40%",
+            "Comments": ""
+          },
+          {
+            "Device": "",
+            "L/min": "6",
+            "% Oxygen": "44%",
+            "Comments": ""
+          },
+          {
+            "Device": "Venturi mask",
+            "L/min": "",
+            "% Oxygen": "24-50%",
+            "Comments": "Increasing flow will not alter FiO2"
+          },
+          {
+            "Device": "Oxygen tent",
+            "L/min": "10-15",
+            "% Oxygen": "21-50%",
+            "Comments": "Used mainly on children with croup or pneumonia"
+          },
+          {
+            "Device": "Simple mask",
+            "L/min": "5-15",
+            "% Oxygen": "35-55%",
+            "Comments": "Never used at flows less than 5 L/min to prevent rebreathing of CO2"
+          },
+          {
+            "Device": "Trach mask",
+            "L/min": "10-15",
+            "% Oxygen": "35-60%",
+            "Comments": "Adequate flow shown by mist flowing out the exhalation port at all times"
+          },
+          {
+            "Device": "Partial rebreathing mask",
+            "L/min": "8-15",
+            "% Oxygen": "35-60%",
+            "Comments": "Flow rate must be sufficient to keep bag 1/3 to 1/2 inflated at all times"
+          },
+          {
+            "Device": "Aerosol mask",
+            "L/min": "8-15",
+            "% Oxygen": "21-99%",
+            "Comments": ""
+          },
+          {
+            "Device": "Non-rebreathing mask",
+            "L/min": "8-15 (or max)",
+            "% Oxygen": "60-99%",
+            "Comments": "Flow rate must be sufficient to keep bag 1/3 to 1/2 inflated at all times"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "High-flow_Nasal_Cannula": {
+      "text": "Different Setup to low-flow O2 therapy\nGood for hypoxemic respiratory failure\nEvery 10L/min is similar to 1mmHg PEEP\nSet flow and FiO2%\nAdults\nFlow - start with 0.5 L/kg/min (Max 60L)\nFiO2 - start with 100% and taper down from there\nPediatrics\nFiO2 - Start 40% and titrate up\nFlow - based on weight (table below)\n[1]\n.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weight (kg)": "Starting flow rate",
+            "<=12": "2 l/min/kg",
+            "13-15": "25-30 l/min",
+            "16-30": "35 l/min",
+            "31-50": "40 l/min",
+            ">50": "50 l/min"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Oxygen toxicity\nHigh altitude medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "High altitude medicine",
+          "url": "https://wikem.org/wiki/High_altitude_medicine"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "drug_name": "Paget%27s_disease_of_bone",
+  "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone",
+  "scraped_at": "2026-01-10T07:59:09.731201",
+  "sections": {
+    "Background": {
+      "text": "Characterized by areas of bone with excessive osteolytic activity and subsequent increased ostoblastic activity, resulting in disorganized bone formation\nResults in osteolytic lesions and weakened bone\nEventually, affected bones may be abnormally enlarged\nExact etiology unknown, likely genetic component\nPrevalence increases with age, more common in people of European descent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Initially asymptomatic or mild pain\nBone pain at affected sites, often worse at night\nPathologic\nfractures\nIf skull involved, may report increased hat size,\nheadache\n, decreased hearing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Bone tumor (e.g.\nosteosarcoma\nor metastesis)\nMultiple myeloma\n,\nmyelofibrosis\nFibrous dysplasia\nIntramedullary osteosclerosis\nSickle cell disease",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Imaging to evaluate for\nfractures\nInitial lesion may be destructive, radiolucent (especially in skull)\nInvolved bones may be expanded, abnormally dense\nMay have multiple fissure fractures in long bones\nAlk phos typically very high\nSerum calcium may be high",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat\nfractures\nPain control\nBisphosphonates (e.g. Zoledronate) are treatment of choice for patients with severe symptoms or advanced disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Pain control",
+          "url": "https://wikem.org/wiki/Pain_control"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge uncomplicated patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

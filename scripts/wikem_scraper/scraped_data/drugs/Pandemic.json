@@ -1,0 +1,162 @@
+{
+  "drug_name": "Pandemic",
+  "url": "https://wikem.org/wiki/Pandemic",
+  "scraped_at": "2026-01-10T07:59:10.954871",
+  "sections": {
+    "Intro": {
+      "text": "Defined by the World Health Organization to include 6 stages of development.  At stage 6, a pandemic is is reached.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Definition": {
+      "text": "A pandemic is the rapid spread of disease to a large population spread across a large region outside of normal local boundaries within a short period of time (1-2 weeks)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Development": {
+      "text": "",
+      "subsections": {
+        "Phase_I": {
+          "text": "Phase I is the period before any new infectious subtypes have been detected in animals, a stage that is often missed since new subtypes are occur yearly",
+          "tables": []
+        },
+        "Phase_II": {
+          "text": "Phase II  begins after the new virus has been shown to infect humans",
+          "tables": []
+        },
+        "Phase_III": {
+          "text": "Phase 3 begins when cases of the new virus appear in humans throughout the world for example during H5NI virus, or avian flu, a disease that spread from birds to humans but not from humans to humans.\n[1]",
+          "tables": []
+        },
+        "Phase_IV": {
+          "text": "Phase IV occurs when the virus can easily transmit between humans and results in this results in community-level epidemics",
+          "tables": []
+        },
+        "Phase_V": {
+          "text": "Phase V involves disease spread across continents and WHO regions\n[2]\nand often is inevitibel until true pandemic is reached.",
+          "tables": []
+        },
+        "Phase_VI": {
+          "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phase_I": {
+      "text": "Phase I is the period before any new infectious subtypes have been detected in animals, a stage that is often missed since new subtypes are occur yearly",
+      "subsections": {
+        "Phase_II": {
+          "text": "Phase II  begins after the new virus has been shown to infect humans",
+          "tables": []
+        },
+        "Phase_III": {
+          "text": "Phase 3 begins when cases of the new virus appear in humans throughout the world for example during H5NI virus, or avian flu, a disease that spread from birds to humans but not from humans to humans.\n[1]",
+          "tables": []
+        },
+        "Phase_IV": {
+          "text": "Phase IV occurs when the virus can easily transmit between humans and results in this results in community-level epidemics",
+          "tables": []
+        },
+        "Phase_V": {
+          "text": "Phase V involves disease spread across continents and WHO regions\n[2]\nand often is inevitibel until true pandemic is reached.",
+          "tables": []
+        },
+        "Phase_VI": {
+          "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phase_II": {
+      "text": "Phase II  begins after the new virus has been shown to infect humans",
+      "subsections": {
+        "Phase_III": {
+          "text": "Phase 3 begins when cases of the new virus appear in humans throughout the world for example during H5NI virus, or avian flu, a disease that spread from birds to humans but not from humans to humans.\n[1]",
+          "tables": []
+        },
+        "Phase_IV": {
+          "text": "Phase IV occurs when the virus can easily transmit between humans and results in this results in community-level epidemics",
+          "tables": []
+        },
+        "Phase_V": {
+          "text": "Phase V involves disease spread across continents and WHO regions\n[2]\nand often is inevitibel until true pandemic is reached.",
+          "tables": []
+        },
+        "Phase_VI": {
+          "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phase_III": {
+      "text": "Phase 3 begins when cases of the new virus appear in humans throughout the world for example during H5NI virus, or avian flu, a disease that spread from birds to humans but not from humans to humans.\n[1]",
+      "subsections": {
+        "Phase_IV": {
+          "text": "Phase IV occurs when the virus can easily transmit between humans and results in this results in community-level epidemics",
+          "tables": []
+        },
+        "Phase_V": {
+          "text": "Phase V involves disease spread across continents and WHO regions\n[2]\nand often is inevitibel until true pandemic is reached.",
+          "tables": []
+        },
+        "Phase_VI": {
+          "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phase_IV": {
+      "text": "Phase IV occurs when the virus can easily transmit between humans and results in this results in community-level epidemics",
+      "subsections": {
+        "Phase_V": {
+          "text": "Phase V involves disease spread across continents and WHO regions\n[2]\nand often is inevitibel until true pandemic is reached.",
+          "tables": []
+        },
+        "Phase_VI": {
+          "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phase_V": {
+      "text": "Phase V involves disease spread across continents and WHO regions\n[2]\nand often is inevitibel until true pandemic is reached.",
+      "subsections": {
+        "Phase_VI": {
+          "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phase_VI": {
+      "text": "Phase VI is the definition of a pandemic and requires documentation of the disease in multiple continents or two WHO regions\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Influenza",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    }
+  }
+}

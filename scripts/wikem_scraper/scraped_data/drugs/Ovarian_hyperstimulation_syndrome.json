@@ -1,0 +1,828 @@
+{
+  "drug_name": "Ovarian_hyperstimulation_syndrome",
+  "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome",
+  "scraped_at": "2026-01-10T07:59:04.305993",
+  "sections": {
+    "Background": {
+      "text": "Fertility treatments causing development of multiple follicles at once\nExaggerated ovarian response to ovulation induction (esp in IVF when HCG is used to stimulate)\nFluid shifts out of vasculature (third spacing)\nTypically 5-10d after 1st dose\nRanges in severity from mild to severe multiorgan dysfunction, relating in part to massive intravascular fluid shifts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Ovarian enlargement\nMovement of fluid out of vasculature\nAscites\nPleural effusions\nPericardial effusion\nHypotension\nElectrolyte imbalances\nDIC\nThromboembolism\nBoth venous and arterial\nHypervolemic\nhyponatremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Pleural effusions",
+          "url": "https://wikem.org/wiki/Pleural_effusions"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Electrolyte imbalances",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalances"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Ectopic pregnancy\nMolar pregnancy\nSepsis\nPulmonary embolism in pregnancy",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[1]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[1]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Urine or serum pregnancy\nBeta-HCG\nmay be positive if\nbeta-HCG\ninjection given as part of fertility treatment, consider obtaining beta quantitative instead of qualitative\nCBC\nChem 10\nPT/PTT\nPelvic ultrasound\nConsider:\nCXR\n(rule out\npleural effusion\n)\nCardiac\nultrasound\n(rule out\npericardial effusion\n)\nProgesterone level\nEstradiol level\nFibrinogen (rule out\nDIC\n)",
+          "tables": []
+        },
+        "Evaluation[2].": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Classification": "Mild",
+                "Clinical features": "Abdominal distention/discomfortMildnausea/vomitingDiarrheaEnlarged ovaries",
+                "Lab findings": "Normal"
+              },
+              {
+                "Classification": "Moderate",
+                "Clinical features": "Above plus:Ultrasonographic evidence ofascites",
+                "Lab findings": "Elevated hematocrit (>41%)Elevated WBC (>15,000/mL)Hypoproteinemia"
+              },
+              {
+                "Classification": "Severe",
+                "Clinical features": "Above plus:Clinical evidence of ascites (can be tense ascites)Severeabdominal painIntractablenausea and vomitingRapid weight gain (>1 kg in 24 hours)Pleural effusionSeveredyspneaOliguria/anuriaLow blood/central venous pressureSyncopeVenous thrombosis",
+                "Lab findings": "Hemoconcentration (hematocrit >55%)WBC >25,000/mLSerum creatinine >1.6mg/dLCreatinine clearance <50 mL/minHyponatremia(Na+ <135 mEq/L)Hyperkalemia(K+ >5 mEq/L)Elevated liver enzymes"
+              },
+              {
+                "Classification": "Critical",
+                "Clinical features": "Above plus:Anuria/acute renal failureArrhythmiaPericardial effusionMassive hydrothoraxThromboembolismArterial thrombosisARDSSepsis",
+                "Lab findings": "Worsening findings"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        },
+        {
+          "text": "beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Urine or serum pregnancy\nBeta-HCG\nmay be positive if\nbeta-HCG\ninjection given as part of fertility treatment, consider obtaining beta quantitative instead of qualitative\nCBC\nChem 10\nPT/PTT\nPelvic ultrasound\nConsider:\nCXR\n(rule out\npleural effusion\n)\nCardiac\nultrasound\n(rule out\npericardial effusion\n)\nProgesterone level\nEstradiol level\nFibrinogen (rule out\nDIC\n)",
+      "subsections": {
+        "Evaluation[2].": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Classification": "Mild",
+                "Clinical features": "Abdominal distention/discomfortMildnausea/vomitingDiarrheaEnlarged ovaries",
+                "Lab findings": "Normal"
+              },
+              {
+                "Classification": "Moderate",
+                "Clinical features": "Above plus:Ultrasonographic evidence ofascites",
+                "Lab findings": "Elevated hematocrit (>41%)Elevated WBC (>15,000/mL)Hypoproteinemia"
+              },
+              {
+                "Classification": "Severe",
+                "Clinical features": "Above plus:Clinical evidence of ascites (can be tense ascites)Severeabdominal painIntractablenausea and vomitingRapid weight gain (>1 kg in 24 hours)Pleural effusionSeveredyspneaOliguria/anuriaLow blood/central venous pressureSyncopeVenous thrombosis",
+                "Lab findings": "Hemoconcentration (hematocrit >55%)WBC >25,000/mLSerum creatinine >1.6mg/dLCreatinine clearance <50 mL/minHyponatremia(Na+ <135 mEq/L)Hyperkalemia(K+ >5 mEq/L)Elevated liver enzymes"
+              },
+              {
+                "Classification": "Critical",
+                "Clinical features": "Above plus:Anuria/acute renal failureArrhythmiaPericardial effusionMassive hydrothoraxThromboembolismArterial thrombosisARDSSepsis",
+                "Lab findings": "Worsening findings"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        },
+        {
+          "text": "beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Pregnant patients must be followed very closely, as they are likely to worsen\nUrgent GYN consultation for all",
+      "subsections": {
+        "Mild": {
+          "text": "Pain control\nAcetaminophen\n,\nNorco\n, or\nmorphine\nEncourage oral fluids (1-2 liters/day)\nAmbulate, but avoid other physical activity. Avoid sexual intercourse",
+          "tables": []
+        },
+        "Moderate": {
+          "text": "IV fluids\n(e.g normal saline)\nTherapeutic\nparacentesis\nif\nascites\n(aspirate 0.5-4 L)\nThromboembolic prophylaxis (e.g.\nLMWH\n)\nAll hospitalized patients\nOutpatients with 2-3 risk factors:\nAge >35 years\nObesity\nImmobility\nPersonal or family history of thrombosis\nThrombophilias\nPregnancy",
+          "tables": []
+        },
+        "Severe": {
+          "text": "As above + consider need to drain\npleural\nor\npericardial effusion",
+          "tables": []
+        },
+        "Critical": {
+          "text": "As above + resuscitative care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Norco",
+          "url": "https://wikem.org/wiki/Norco"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IV_fluids"
+        },
+        {
+          "text": "paracentesis",
+          "url": "https://wikem.org/wiki/Paracentesis"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "pleural",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Mild": {
+      "text": "Pain control\nAcetaminophen\n,\nNorco\n, or\nmorphine\nEncourage oral fluids (1-2 liters/day)\nAmbulate, but avoid other physical activity. Avoid sexual intercourse",
+      "subsections": {
+        "Moderate": {
+          "text": "IV fluids\n(e.g normal saline)\nTherapeutic\nparacentesis\nif\nascites\n(aspirate 0.5-4 L)\nThromboembolic prophylaxis (e.g.\nLMWH\n)\nAll hospitalized patients\nOutpatients with 2-3 risk factors:\nAge >35 years\nObesity\nImmobility\nPersonal or family history of thrombosis\nThrombophilias\nPregnancy",
+          "tables": []
+        },
+        "Severe": {
+          "text": "As above + consider need to drain\npleural\nor\npericardial effusion",
+          "tables": []
+        },
+        "Critical": {
+          "text": "As above + resuscitative care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Norco",
+          "url": "https://wikem.org/wiki/Norco"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IV_fluids"
+        },
+        {
+          "text": "paracentesis",
+          "url": "https://wikem.org/wiki/Paracentesis"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "pleural",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Moderate": {
+      "text": "IV fluids\n(e.g normal saline)\nTherapeutic\nparacentesis\nif\nascites\n(aspirate 0.5-4 L)\nThromboembolic prophylaxis (e.g.\nLMWH\n)\nAll hospitalized patients\nOutpatients with 2-3 risk factors:\nAge >35 years\nObesity\nImmobility\nPersonal or family history of thrombosis\nThrombophilias\nPregnancy",
+      "subsections": {
+        "Severe": {
+          "text": "As above + consider need to drain\npleural\nor\npericardial effusion",
+          "tables": []
+        },
+        "Critical": {
+          "text": "As above + resuscitative care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IV_fluids"
+        },
+        {
+          "text": "paracentesis",
+          "url": "https://wikem.org/wiki/Paracentesis"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "pleural",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "As above + consider need to drain\npleural\nor\npericardial effusion",
+      "subsections": {
+        "Critical": {
+          "text": "As above + resuscitative care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pleural",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Critical": {
+      "text": "As above + resuscitative care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Mild: outpatient\nAvoid heavy physical activity\nReturn for\nWorsening abdominal pain\nWeight gain (>1 kg/day)\nIncreasing abdominal girth\nModerate: outpatient if close follow-up (discuss with GYN)\nSevere: admit\nCritical: ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Ovarian torsion\nVenous thromboembolism\nHydrothorax\nPericardial effusion\nArterial thrombosis\nPulmonary embolism\nSepsis\nAcute renal failure\nAcute respiratory distress syndrome\n(ARDS)\nDisseminated intravascular coagulation\n(DIC)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        },
+        {
+          "text": "Hydrothorax",
+          "url": "https://wikem.org/wiki/Hydrothorax"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Disseminated intravascular coagulation",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Ectopic Pregnancy\nShock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    }
+  }
+}

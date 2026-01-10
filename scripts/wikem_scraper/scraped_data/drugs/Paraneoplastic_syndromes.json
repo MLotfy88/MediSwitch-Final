@@ -1,0 +1,117 @@
+{
+  "drug_name": "Paraneoplastic_syndromes",
+  "url": "https://wikem.org/wiki/Paraneoplastic_syndromes",
+  "scraped_at": "2026-01-10T07:59:11.506358",
+  "sections": {
+    "Background": {
+      "text": "Syndrome associated with cancer, but not due to direct, local effects of neoplasm\nResult of hormones/substances secreted by malignant cells or immune response to cancer cells/products",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Examples": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Syndrome": "Cushing syndrome",
+            "Main causal cancers": "Small cell lung cancer, pancreatic carcinoma, neural tumors, thymoma",
+            "Mechanism": "Ectopic ACTH/ACTH-like substance production"
+          },
+          {
+            "Syndrome": "SIADH",
+            "Main causal cancers": "Small cell lung cancer, CNS malignancies",
+            "Mechanism": "Ectopic ADH production"
+          },
+          {
+            "Syndrome": "Hypercalcemia",
+            "Main causal cancers": "Lung (esp.SCC), breast, renal/bladder, ovarian,multiple myeloma, adult T cellleukemia/lymphoma,squamous cell carcinoma",
+            "Mechanism": ""
+          },
+          {
+            "Syndrome": "Hypoglycemia",
+            "Main causal cancers": "Sarcomas, insulinoma,hepatocellular carcinoma",
+            "Mechanism": "Insulin/IGF production"
+          },
+          {
+            "Syndrome": "Carcinoid syndrome",
+            "Main causal cancers": "Bronchial adenoma, pancreatic and gastric carcinoma",
+            "Mechanism": "Serotonin or bradykinin production"
+          },
+          {
+            "Syndrome": "Hyperaldosteronism",
+            "Main causal cancers": "Adrenal adenoma,non-Hodgkin's lymphoma, ovarian carcinoma, lung cancer",
+            "Mechanism": "increased/ectopic aldosterone production"
+          },
+          {
+            "Syndrome": "Lambert-Eaton myasthenic syndrome",
+            "Main causal cancers": "Small cell lung cancer",
+            "Mechanism": "Immune-mediated"
+          },
+          {
+            "Syndrome": "Paraneoplastic cerebellar degeneration",
+            "Main causal cancers": "Lung, ovarian, breast cancers,Hodgkin's lymphoma",
+            "Mechanism": ""
+          },
+          {
+            "Syndrome": "Opsoclonusmyoclonus syndrome",
+            "Main causal cancers": "Neuroblastoma(occurs in 2-3% of peds cases), breast, ovarian, small-cell carcinoma",
+            "Mechanism": "Autoimmune; s/sx include opsoclonus/myoclonus and other cerebellar dysfunction, aphasia, lethargy/irritability"
+          },
+          {
+            "Syndrome": "Brain-stem orlimbic encephalitis",
+            "Main causal cancers": "Small cell lung cancer, germ-cell testicular tumors",
+            "Mechanism": "Autoantibodies against intracellular neuronal proteins"
+          },
+          {
+            "Syndrome": "Anti-NMDA receptor encephalitis",
+            "Main causal cancers": "Gyn tumors (esp. teratomas)",
+            "Mechanism": "Anti-NMDA receptor auto-antibodies"
+          },
+          {
+            "Syndrome": "Polymyositis/Dermatomyositis",
+            "Main causal cancers": "Lymphoma, lung, pancreatic, stomach, bladder, ovarian",
+            "Mechanism": "autoimmune"
+          },
+          {
+            "Syndrome": "Acanthosis nigricans",
+            "Main causal cancers": "Gastric, lung, uterine",
+            "Mechanism": "Epidermal growth factor secretion"
+          },
+          {
+            "Syndrome": "Misc. derm conditions (Sweet's syndrome, Leser-Trelat sign,pyoderma gangrenosum, florid cutaneous papillomatosis, necrolytic migratory erythema, hypertrichosis)",
+            "Main causal cancers": "lung, GI adenocarcinomas, breast and GU cancers,lymphoma",
+            "Mechanism": ""
+          },
+          {
+            "Syndrome": "VTE,thrombophlebitis",
+            "Main causal cancers": "any advanced cancer. Pancreatic and bronchogenic carcinomas associated w/trousseau's sign",
+            "Mechanism": "Hypercoagulability"
+          },
+          {
+            "Syndrome": "Polycythemia",
+            "Main causal cancers": "Renal cell carcinoma, cerebellar hemangioma,hepatocellular carcinoma",
+            "Mechanism": "Increased erythropoietin production"
+          },
+          {
+            "Syndrome": "Granulocytosis",
+            "Main causal cancers": "various",
+            "Mechanism": "C-GSF"
+          },
+          {
+            "Syndrome": "Membranousglomerulonephritis",
+            "Main causal cancers": "",
+            "Mechanism": "tumor antigens/immune complexes"
+          },
+          {
+            "Syndrome": "Thymoma-associated multiorgan autoimmunity",
+            "Main causal cancers": "Thymoma",
+            "Mechanism": "similar toGVHD"
+          }
+        ]
+      ],
+      "links": []
+    }
+  }
+}

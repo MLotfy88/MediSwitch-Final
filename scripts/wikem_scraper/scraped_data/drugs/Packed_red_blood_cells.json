@@ -1,0 +1,268 @@
+{
+  "drug_name": "Packed_red_blood_cells",
+  "url": "https://wikem.org/wiki/Packed_red_blood_cells",
+  "scraped_at": "2026-01-10T07:59:08.712784",
+  "sections": {
+    "General": {
+      "text": "Type:\nBlood components\nDosage Forms: IV, IO\nCommon Trade Names: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood components",
+          "url": "https://wikem.org/wiki/Blood_components"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "One unit (250mL) raises hemoglobin by 1 g/dl\nMust transfuse no slower than 1 unit/4hr\nIf require slower transfusion (e.g. risk for volume overload) the pRBC can be split",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "15 mL/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: N/A\nLactation: N/A\nRenal Dosing: N/A\nHepatic Dosing: N/A",
+      "subsections": {
+        "Leukocyte_Irradiated_and_Reduced_(Depleted)_Blood_Products": {
+          "text": "Leukocyte reduced: Prevents sensitization in patients who may require bone marrow transplant\nIrradiated: Eliminates capacity of T-cells to proliferate (prevents\nTransfusion-associated graft-versus-host disease\n)\nIf tranfusion required for crashing patient, do not delay tranfusion of uncrossed blood to irradiate products beforehand\nRequires minimum 25 Gy irradiation, not to exceed 50 Gy for all:\nPacked red cells\nPlatelets\nGranulocyte components, regardless of immunocompetency\nFirst or second degree relatives, regardless of immunocompetency\nHLA-selected components, regardless of immunocompetency\nIrradiated products should be administered shortly after irradiation\nThose products not used for intended recipient may be returned safely to stock for others not requiring irradiated components, though with reduced shelf life\nNot necessary to irradiate FFP, cryoprecipitate, fractioned plasma products\nImmunocompromised stem cell recipients\nOrgan transplant recipients\nPatients undergoing marrow transplantation\nIntrauterine transfusion\nNeonatal exchange transfusions\nPremature and low birthweight neonates\nHodgkin lymphoma\nCongenital cell-mediated immunodeficiencies (DiGeorge, Wiskott-Aldrich, Leiner's, 5'-nucelotidase deficiency)\nAcquired immunodeficiencies to include:\nLeukemia, CLL\nAplastic anemia\nNeutropenia\nPatients receiving:\nPurine analogue chemotherapies (fludarabine, cladribine, deoxycoformicin, bendamustine, clofarabine, etc.)\nCertain biologic immunosuppresants (alemtuzumab)\nDonations from biologic relatives\nDonations from HLA-matched donors\nGenetically homogenous populations\nProbably indicated int:\nHematologic malignancies other than Hodgkin lymphoma\nSolid tumors treated with cytotoxic agents\nChronically transfused\nCardiac surgery\nSolid organ or stem cell transplant recipients, before and after\nPrevious febrile nonhemolytic transfusion reactions\nCMV seronegative patients at risk",
+          "tables": []
+        },
+        "Not_Routinely_Needing_Irradiated_Products": {
+          "text": "HIV, AIDS\nConcurrent, non-severe common viral infection\nRituximab treatment\nRoutine solid organ transplant\nRoutine infant cardiac surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Hgb <6 g/dL: Recommended except in exceptional circumstances\nHgb 6 to 7 g/dL: generally likely to be indicated\nHgb 7 to 8 g/dL: should be considered in postoperative surgical patients, including those with stable cardiovascular disease, after evaluating the patient’s clinical status\nHgb 8 to 10 g/dL: generally not indicated, but should be considered for some populations (eg, those with symptomatic anemia, ongoing bleeding, acute coronary syndrome with ischemia)\nHgb >10 g/dL: generally not indicated except in exceptional circumstances",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypocalcemia\ndue to citrate (massive transfusion protocols) - check ionized calcium levels",
+          "tables": []
+        },
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypocalcemia\ndue to citrate (massive transfusion protocols) - check ionized calcium levels",
+      "subsections": {
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Transfusion_Reaction_Types": {
+      "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: N/A\nMetabolism: N/A\nExcretion: N/A\nMechanism of Action: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Can give type O Rh-positive pRBCs to a man or woman no longer of child-bearing age",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Blood products\nMassive transfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        }
+      ]
+    }
+  }
+}

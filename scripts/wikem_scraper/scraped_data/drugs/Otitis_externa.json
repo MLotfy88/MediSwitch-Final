@@ -1,0 +1,564 @@
+{
+  "drug_name": "Otitis_externa",
+  "url": "https://wikem.org/wiki/Otitis_externa",
+  "scraped_at": "2026-01-10T07:59:01.880011",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of the external auditory canal (EAC), often due to bacterial infection\nCommon in all age groups, but in the US commonly present in childhood\n[1]\nIn rare cases, immunocompromised patients may have fungal otitis external from Aspergillus or Candida",
+      "subsections": {
+        "Microbiology": {
+          "text": "Pseudomonas\n(most common)\nStaph\n/\nStrep\nEnterobacter\nProteus mirabilis\nFungus (may present after antibiotic treatment or in immunocompromised patient)\nAspergillus\nCandida",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Swimming\nExcessive Q-tip (or other instrument) use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Enterobacter",
+          "url": "https://wikem.org/wiki/Enterobacter"
+        },
+        {
+          "text": "Proteus mirabilis",
+          "url": "https://wikem.org/wiki/Proteus_mirabilis"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Microbiology": {
+      "text": "Pseudomonas\n(most common)\nStaph\n/\nStrep\nEnterobacter\nProteus mirabilis\nFungus (may present after antibiotic treatment or in immunocompromised patient)\nAspergillus\nCandida",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Swimming\nExcessive Q-tip (or other instrument) use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Enterobacter",
+          "url": "https://wikem.org/wiki/Enterobacter"
+        },
+        {
+          "text": "Proteus mirabilis",
+          "url": "https://wikem.org/wiki/Proteus_mirabilis"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Swimming\nExcessive Q-tip (or other instrument) use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Rapid onset (generally within 48 hours) in the past 3 weeks,\nAND\n.\n[2]\nSymptoms\nOtalgia\nFullness or itching of the ear\nHearing loss\nJaw pain\nSigns\nTenderness of the pinaa and/or tragus\nDiffuse ear canal edema, erythema, and possibly debris\nTympanic membrane may not be visualized due to EAC edema\nOtorrhea\nLocal\nlymphadenitis\nTympanic membrane erythema, or\nCellulitis\nof the pinna and adjacent skin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otalgia",
+          "url": "https://wikem.org/wiki/Earache"
+        },
+        {
+          "text": "Hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Normally clinical\nRoutine labwork or EAC cultures typically not necessary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Hygiene": {
+          "text": "Clean the ear canal (\nGrade C\n)\nCerumen wire loop or cotton swab usually works best\n1:1 dilution of 3% hydrogen peroxide if tympanic membrane is visible and intact\nAcetic acid wash for debridement of dead skin\nPlace a wick if the ear canal is fully obstructed\nInstruct patient that the wick should fall out spontaneously in 3 days as swelling decreases; a clinician may remove it otherwise",
+          "tables": []
+        },
+        "Analgesia": {
+          "text": "NSAIDs\nAcetaminophen",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Keep ear canal dry\nAbstain from water sports for 7-10 days\nCounsel patient to avoid Q-tip or other foreign objects in the ear",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Ofloxacin\n(Floxin otic): 5 drops in affected ear BID x 7 days\n[2]\nSafe with perforations\nCiprofloxacin-hydrocortisone\n(Cipro HC): 3 drops in affected ear BID x 7 days\nContains hydrocortisone to promote faster healing\nNot recommended for perforation since non-sterile preparation\nCiprofloxacin-dexamthasone\n(Ciprodex): 4 drops in affected ear BID x 7 days\nSimilar to Cipro HC but safe for perforations\nOften more expensive\nCortisporin otic\n(neomycin/polymixin B/hydrocortisone): 4 drops in ear TID-QID x 7days\nUse\nsuspension\n(NOT solution) if possibility of perforation\nAnimal studies suggest possible toxicity from the neomycin although rigorous data is lacking\n[3]\nInstruct the patient to instill the medication into the ear while laying on their side and hold position for 3-5 minutes\nTypically a least 4 drops are needed to fill the entire ear canal\nConsider systemic antibiotics in specific cases:\nImmunosuppressed (HIV, poorly controlled diabetes, chemotherapy, chronic high dose corticosteroid use, immunosuppressive drugs, neutropenia) give systemic antibiotic (\nciprofloxacin\nor\nofloxacin\n)\n[4]\nIf TMs are able to be visualized and suggest otitis media\nIf there is a suspicion of malignant otitis externa",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Grade C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-hydrocortisone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-dexamthasone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cortisporin otic",
+          "url": "https://wikem.org/wiki/Cortisporin_otic"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        }
+      ]
+    },
+    "Hygiene": {
+      "text": "Clean the ear canal (\nGrade C\n)\nCerumen wire loop or cotton swab usually works best\n1:1 dilution of 3% hydrogen peroxide if tympanic membrane is visible and intact\nAcetic acid wash for debridement of dead skin\nPlace a wick if the ear canal is fully obstructed\nInstruct patient that the wick should fall out spontaneously in 3 days as swelling decreases; a clinician may remove it otherwise",
+      "subsections": {
+        "Analgesia": {
+          "text": "NSAIDs\nAcetaminophen",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Keep ear canal dry\nAbstain from water sports for 7-10 days\nCounsel patient to avoid Q-tip or other foreign objects in the ear",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Ofloxacin\n(Floxin otic): 5 drops in affected ear BID x 7 days\n[2]\nSafe with perforations\nCiprofloxacin-hydrocortisone\n(Cipro HC): 3 drops in affected ear BID x 7 days\nContains hydrocortisone to promote faster healing\nNot recommended for perforation since non-sterile preparation\nCiprofloxacin-dexamthasone\n(Ciprodex): 4 drops in affected ear BID x 7 days\nSimilar to Cipro HC but safe for perforations\nOften more expensive\nCortisporin otic\n(neomycin/polymixin B/hydrocortisone): 4 drops in ear TID-QID x 7days\nUse\nsuspension\n(NOT solution) if possibility of perforation\nAnimal studies suggest possible toxicity from the neomycin although rigorous data is lacking\n[3]\nInstruct the patient to instill the medication into the ear while laying on their side and hold position for 3-5 minutes\nTypically a least 4 drops are needed to fill the entire ear canal\nConsider systemic antibiotics in specific cases:\nImmunosuppressed (HIV, poorly controlled diabetes, chemotherapy, chronic high dose corticosteroid use, immunosuppressive drugs, neutropenia) give systemic antibiotic (\nciprofloxacin\nor\nofloxacin\n)\n[4]\nIf TMs are able to be visualized and suggest otitis media\nIf there is a suspicion of malignant otitis externa",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Grade C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-hydrocortisone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-dexamthasone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cortisporin otic",
+          "url": "https://wikem.org/wiki/Cortisporin_otic"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        }
+      ]
+    },
+    "Analgesia": {
+      "text": "NSAIDs\nAcetaminophen",
+      "subsections": {
+        "Prevention": {
+          "text": "Keep ear canal dry\nAbstain from water sports for 7-10 days\nCounsel patient to avoid Q-tip or other foreign objects in the ear",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Ofloxacin\n(Floxin otic): 5 drops in affected ear BID x 7 days\n[2]\nSafe with perforations\nCiprofloxacin-hydrocortisone\n(Cipro HC): 3 drops in affected ear BID x 7 days\nContains hydrocortisone to promote faster healing\nNot recommended for perforation since non-sterile preparation\nCiprofloxacin-dexamthasone\n(Ciprodex): 4 drops in affected ear BID x 7 days\nSimilar to Cipro HC but safe for perforations\nOften more expensive\nCortisporin otic\n(neomycin/polymixin B/hydrocortisone): 4 drops in ear TID-QID x 7days\nUse\nsuspension\n(NOT solution) if possibility of perforation\nAnimal studies suggest possible toxicity from the neomycin although rigorous data is lacking\n[3]\nInstruct the patient to instill the medication into the ear while laying on their side and hold position for 3-5 minutes\nTypically a least 4 drops are needed to fill the entire ear canal\nConsider systemic antibiotics in specific cases:\nImmunosuppressed (HIV, poorly controlled diabetes, chemotherapy, chronic high dose corticosteroid use, immunosuppressive drugs, neutropenia) give systemic antibiotic (\nciprofloxacin\nor\nofloxacin\n)\n[4]\nIf TMs are able to be visualized and suggest otitis media\nIf there is a suspicion of malignant otitis externa",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-hydrocortisone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-dexamthasone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cortisporin otic",
+          "url": "https://wikem.org/wiki/Cortisporin_otic"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Keep ear canal dry\nAbstain from water sports for 7-10 days\nCounsel patient to avoid Q-tip or other foreign objects in the ear",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Ofloxacin\n(Floxin otic): 5 drops in affected ear BID x 7 days\n[2]\nSafe with perforations\nCiprofloxacin-hydrocortisone\n(Cipro HC): 3 drops in affected ear BID x 7 days\nContains hydrocortisone to promote faster healing\nNot recommended for perforation since non-sterile preparation\nCiprofloxacin-dexamthasone\n(Ciprodex): 4 drops in affected ear BID x 7 days\nSimilar to Cipro HC but safe for perforations\nOften more expensive\nCortisporin otic\n(neomycin/polymixin B/hydrocortisone): 4 drops in ear TID-QID x 7days\nUse\nsuspension\n(NOT solution) if possibility of perforation\nAnimal studies suggest possible toxicity from the neomycin although rigorous data is lacking\n[3]\nInstruct the patient to instill the medication into the ear while laying on their side and hold position for 3-5 minutes\nTypically a least 4 drops are needed to fill the entire ear canal\nConsider systemic antibiotics in specific cases:\nImmunosuppressed (HIV, poorly controlled diabetes, chemotherapy, chronic high dose corticosteroid use, immunosuppressive drugs, neutropenia) give systemic antibiotic (\nciprofloxacin\nor\nofloxacin\n)\n[4]\nIf TMs are able to be visualized and suggest otitis media\nIf there is a suspicion of malignant otitis externa",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-hydrocortisone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-dexamthasone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cortisporin otic",
+          "url": "https://wikem.org/wiki/Cortisporin_otic"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Ofloxacin\n(Floxin otic): 5 drops in affected ear BID x 7 days\n[2]\nSafe with perforations\nCiprofloxacin-hydrocortisone\n(Cipro HC): 3 drops in affected ear BID x 7 days\nContains hydrocortisone to promote faster healing\nNot recommended for perforation since non-sterile preparation\nCiprofloxacin-dexamthasone\n(Ciprodex): 4 drops in affected ear BID x 7 days\nSimilar to Cipro HC but safe for perforations\nOften more expensive\nCortisporin otic\n(neomycin/polymixin B/hydrocortisone): 4 drops in ear TID-QID x 7days\nUse\nsuspension\n(NOT solution) if possibility of perforation\nAnimal studies suggest possible toxicity from the neomycin although rigorous data is lacking\n[3]\nInstruct the patient to instill the medication into the ear while laying on their side and hold position for 3-5 minutes\nTypically a least 4 drops are needed to fill the entire ear canal\nConsider systemic antibiotics in specific cases:\nImmunosuppressed (HIV, poorly controlled diabetes, chemotherapy, chronic high dose corticosteroid use, immunosuppressive drugs, neutropenia) give systemic antibiotic (\nciprofloxacin\nor\nofloxacin\n)\n[4]\nIf TMs are able to be visualized and suggest otitis media\nIf there is a suspicion of malignant otitis externa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-hydrocortisone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin-dexamthasone",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cortisporin otic",
+          "url": "https://wikem.org/wiki/Cortisporin_otic"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge\nFollow up with PCP or ENT in 1-2 weeks for patients with moderate disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Otitis Media (Peds)\nMalignant Otitis Externa\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis Media (Peds)",
+          "url": "https://wikem.org/wiki/Otitis_Media_(Peds)"
+        },
+        {
+          "text": "Malignant Otitis Externa",
+          "url": "https://wikem.org/wiki/Malignant_Otitis_Externa"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Ear Wick Placement for Otitis Externa\nPLAIN LANGUAGE SUMMARY: Acute Otitis Externa (Swimmer’s Ear)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

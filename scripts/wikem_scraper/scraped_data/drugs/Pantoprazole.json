@@ -1,0 +1,137 @@
+{
+  "drug_name": "Pantoprazole",
+  "url": "https://wikem.org/wiki/Pantoprazole",
+  "scraped_at": "2026-01-10T07:59:11.433089",
+  "sections": {
+    "General": {
+      "text": "Type:\nProton-pump inhibitor\nDosage Forms:\nCommon Trade Names: Protonix, Somac, Forppi, Pantoloc, Pantozol, Pantomed, Zurcal, Zentro, Pan, Controloc, Tecta",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Proton-pump inhibitor",
+          "url": "https://wikem.org/wiki/Proton-pump_inhibitor"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Upper_gastrointestinal_bleeding": {
+          "text": "80mg IV x 1; then 8mg/hr OR 80mg IV BID\nIntermittent dosing is comparable to bolus then continuous drip\n[1]",
+          "tables": []
+        },
+        "GERD,_Peptic_ulcer_disease,_Esophagitis": {
+          "text": "40mg IV or PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Upper_gastrointestinal_bleeding": {
+      "text": "80mg IV x 1; then 8mg/hr OR 80mg IV BID\nIntermittent dosing is comparable to bolus then continuous drip\n[1]",
+      "subsections": {
+        "GERD,_Peptic_ulcer_disease,_Esophagitis": {
+          "text": "40mg IV or PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "GERD,_Peptic_ulcer_disease,_Esophagitis": {
+      "text": "40mg IV or PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "<5yo: safety/efficacy not established\n>5yo\n15 kg to <40 kg: 20 mg PO qDay\n40 kg or greater: 40 mg PO qDay",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation:\nPantoprazole is present in breast milk\nRenal Dosing\nAdult\nNo adjustment necessary\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNo adjustment necessary\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nSJS/TEN\nRenal impairment\nPancreatitis\nHepatic impairment",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nabdominal pain\nnausea/vomiting/diarrhea\nAST/ALT elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "SJS/TEN",
+          "url": "https://wikem.org/wiki/SJS/TEN"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nSJS/TEN\nRenal impairment\nPancreatitis\nHepatic impairment",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nabdominal pain\nnausea/vomiting/diarrhea\nAST/ALT elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "SJS/TEN",
+          "url": "https://wikem.org/wiki/SJS/TEN"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\nabdominal pain\nnausea/vomiting/diarrhea\nAST/ALT elevation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1 hour\nMetabolism: Hepatic - CYP450\nExcretion: Urine/Feces\nMechanism of Action: inhibits gastric parietal cell H+/K+ ATPase",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "drug_name": "Parainfluenza",
+  "url": "https://wikem.org/wiki/Parainfluenza",
+  "scraped_at": "2026-01-10T07:59:10.713165",
+  "sections": {
+    "Background": {
+      "text": "An enveloped, negative-sense, single-stranded RNA virus\n[1]\nRelated to but of a different family classification as the\ninfluenza\nvirus.\nThere are 4 known serotypes.\n[2]\nCapable of causing both upper and lower airway disease\nMost commonly known as a causative agent of\ncroup\n(laryngotracheobronchitis).\n[3]",
+      "subsections": {
+        "High_Risk_Groups": {
+          "text": "Young children (<5 years old)\nRelatively narrow airway passages\nImmunocompromised\nUnderlying chronic cardiac or respiratory conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        }
+      ]
+    },
+    "High_Risk_Groups": {
+      "text": "Young children (<5 years old)\nRelatively narrow airway passages\nImmunocompromised\nUnderlying chronic cardiac or respiratory conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Can result in a large number of varied presentations",
+      "subsections": {
+        "Pediatric_Patients": {
+          "text": "Croup\n: Peak age is 1-2 years, with boys slightly more likely to present than girls. Infection begins in upper airway but often lower airway signs (wheezing, air trapping)\nBronchiolitis\n:\nCausative agent in 10-20% of diagnosed bronchiolitis. Initially fever and congestion for 1-3 days followed by lower airway symptoms, including cough and wheezing. Most recover within 21 days, though children with underlying pulmonary conditions are a risk of prolonged course and greater complications\nPneumonia\n: Indistinct from other presentations of viral pneumonia with a similar overall disease course as bronchiolitis.\nTracheobronchitis\n: Inflammation of only the large airways in the absence of evidence of croup or pneumonia.\nUp to half of the above are complicated by concurrent\notitis media",
+          "tables": []
+        },
+        "Adult_Patients_(Immunocompetent)": {
+          "text": "Generally mild\nURI\ncold symptoms, though can also initiate exacerbation of\nCOPD\n,\nasthma\n, or\nCHF",
+          "tables": []
+        },
+        "Adult_Patients_(Immunocompromised)": {
+          "text": "Often initially\nURI\ncold symptoms but high risk to progress to\npneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Pediatric_Patients": {
+      "text": "Croup\n: Peak age is 1-2 years, with boys slightly more likely to present than girls. Infection begins in upper airway but often lower airway signs (wheezing, air trapping)\nBronchiolitis\n:\nCausative agent in 10-20% of diagnosed bronchiolitis. Initially fever and congestion for 1-3 days followed by lower airway symptoms, including cough and wheezing. Most recover within 21 days, though children with underlying pulmonary conditions are a risk of prolonged course and greater complications\nPneumonia\n: Indistinct from other presentations of viral pneumonia with a similar overall disease course as bronchiolitis.\nTracheobronchitis\n: Inflammation of only the large airways in the absence of evidence of croup or pneumonia.\nUp to half of the above are complicated by concurrent\notitis media",
+      "subsections": {
+        "Adult_Patients_(Immunocompetent)": {
+          "text": "Generally mild\nURI\ncold symptoms, though can also initiate exacerbation of\nCOPD\n,\nasthma\n, or\nCHF",
+          "tables": []
+        },
+        "Adult_Patients_(Immunocompromised)": {
+          "text": "Often initially\nURI\ncold symptoms but high risk to progress to\npneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Patients_2": {
+          "text": "Foreign object airway obstruction\nOther viral infection (including RSV, influenza virus, adenovirus, rhinovirus, COVID)\nBacterial respiratory infection",
+          "tables": []
+        },
+        "Adult_Patients": {
+          "text": "COPD exacerbation\nAsthma exacerbation\nOther viral infection\nBacterial respiratory infection",
+          "tables": []
+        },
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Pediatric_Patients_2": {
+      "text": "Foreign object airway obstruction\nOther viral infection (including RSV, influenza virus, adenovirus, rhinovirus, COVID)\nBacterial respiratory infection",
+      "subsections": {
+        "Adult_Patients": {
+          "text": "COPD exacerbation\nAsthma exacerbation\nOther viral infection\nBacterial respiratory infection",
+          "tables": []
+        },
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Adult_Patients": {
+      "text": "COPD exacerbation\nAsthma exacerbation\nOther viral infection\nBacterial respiratory infection",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Chest X-ray\nOften helpful in confirming diagnosis of a viral syndrome,\nThe canonic \"steeple sign\" is not a unique finding to parainfluenza infection.\nIn the absence of signs of dehydration or other concurrent conditions (immunocompromised, COPD exacerbation, asthma exacerbation, CHF exacerbation), additional workup is not typically needed.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Presentation shares many characteristics with other viruses, including\nRSV\nand\ninfluenza\nvirus. It must also be distinguished from bacterial causes of upper and lower respiratory infections. In general, in the absence of warning signs it is not especially important to specifically diagnose a parainfluenza virus infection.\nIn the emergency department context, PCR assays are the most likely confirmatory testing to yield results in a reasonable timeframe.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest X-ray",
+          "url": "https://wikem.org/wiki/Chest_X-ray"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Chest X-ray\nOften helpful in confirming diagnosis of a viral syndrome,\nThe canonic \"steeple sign\" is not a unique finding to parainfluenza infection.\nIn the absence of signs of dehydration or other concurrent conditions (immunocompromised, COPD exacerbation, asthma exacerbation, CHF exacerbation), additional workup is not typically needed.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Presentation shares many characteristics with other viruses, including\nRSV\nand\ninfluenza\nvirus. It must also be distinguished from bacterial causes of upper and lower respiratory infections. In general, in the absence of warning signs it is not especially important to specifically diagnose a parainfluenza virus infection.\nIn the emergency department context, PCR assays are the most likely confirmatory testing to yield results in a reasonable timeframe.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest X-ray",
+          "url": "https://wikem.org/wiki/Chest_X-ray"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Presentation shares many characteristics with other viruses, including\nRSV\nand\ninfluenza\nvirus. It must also be distinguished from bacterial causes of upper and lower respiratory infections. In general, in the absence of warning signs it is not especially important to specifically diagnose a parainfluenza virus infection.\nIn the emergency department context, PCR assays are the most likely confirmatory testing to yield results in a reasonable timeframe.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Assure airway stability\nAny signs of airway compromise should be addressed aggressively up to and including intubation.\nWhile wheezing is often a hallmark, as with other airway conditions the absence of wheezing may suggest significant airway obstruction and should not necessarily be viewed as a reassuring sign.\nSymptomatic management\nSee\ncroup\nfor treatment of that entity\nThere are not currently any antiviral agents available for treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally, pediatric patients without signs of respiratory distress may be discharged and managed symptomatically in the outpatient setting.\nImmunocompromised adults and those with concurrent\nCOPD exacerbation\n,\nasthma exacerbation\n, or\nCHF\nexacerbation typically require admission for monitoring and management of symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_exacerbation"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Croup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        }
+      ]
+    }
+  }
+}

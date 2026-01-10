@@ -1,0 +1,112 @@
+{
+  "drug_name": "Oxymetazoline",
+  "url": "https://wikem.org/wiki/Oxymetazoline",
+  "scraped_at": "2026-01-10T07:59:02.894673",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDecongestant\n; Adrenergic Agonist Agent; Imidazoline derivative\nDosage Forms: Solution; Nasal spray\nRoutes of Administration: Intranasal\nCommon Trade Names: 12-Hour Nasal Relieve Spray, Afrin, Mucinex, Distran, Neo-synephrine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decongestant",
+          "url": "https://wikem.org/wiki/Decongestant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Instill 2-3 sprays for each nostrils twice daily for ≤3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Children ≥6 years: Instill 2-3 sprays for each nostrils twice daily for ≤3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Safety during pregnancy has not been studied.\nLactation risk\n: Not available",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not needed\nPediatric: Not needed",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not needed\nPediatric: Not needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not needed\nPediatric: Not needed",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not needed\nPediatric: Not needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not needed\nPediatric: Not needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Warnings/Precautions": {
+      "text": "Use with caution in patients with hypertension, heart failure or coronary artery disease\nUse with caution in patients with diabetes mellitus\nUse with caution in patients with hyperthyroidism\nUse with caution in patients with benign prostatic hyperplasia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Rebound nasal congestion may occur with extended use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Rebound nasal congestion may occur with extended use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: not available\nMetabolism: not available\nExcretion: not available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Stimulates α-adrenergic recepter in arterioles of nasal mucosa, produce vasoconstriction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

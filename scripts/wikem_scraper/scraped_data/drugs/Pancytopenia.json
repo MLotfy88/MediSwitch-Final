@@ -1,0 +1,501 @@
+{
+  "drug_name": "Pancytopenia",
+  "url": "https://wikem.org/wiki/Pancytopenia",
+  "scraped_at": "2026-01-10T07:59:08.737801",
+  "sections": {
+    "Background": {
+      "text": "Anemia\n+\nThrombocytopenia\n+\nLeukopenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs/symptoms of anemia (e.g.\nfatigue\n,\ndyspnea\n,\ntachycardia\n, pallor)\nSigns/symptoms of thrombocytopenia (e.g.\npetechiae\n/\npurpura\n, mucosal bleeding,\nGI bleed\n,\nhematuria\n,\nintracranial hemorrhage\n)\nSigns/symptoms of leukopenia (e.g. recurrent, severe, or opportunistic\ninfection\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pancytopenia_Causes": {
+          "text": "Acute leukemia\nMyelodysplastic syndrome\n,\nmyelofibrosis\nAplastic anemia\nInfiltrative disease (e.g.\nlymphoma\n,\nmultiple myeloma\n, metastatic carcinoma)\nParoxysmal nocturnal hemoglobinuria\nDrugs/treatments (*drugs more commonly associated with pancytopenia)\nBone marrow irradiation*\nChemotherapy*(especially anthracyclines,\nmethotrexate\n)\nAnti-inflammatories (\nrituximab\n*, sulfasalazine*,\ncolchicine\n,\nazathioprine\n,\nmethotrexate\n)\nAntimicrobials (\nchloramphenicol\n,\nganciclovir\n,\npenicillin G\n*,\ndapsone\n*,\nquinine\nThiomides (\npropylthiouracil\n*,\nmethimazole\n*, carbimazole)\nAntipsychotics\n(\nclozapine\n*,\nolanzapine\nProcainamide\n*\nCyclophosphamide\nAntiepileptics\n(\nphenytoin\n,\ncarbamazepine\n,\nphenobarbital\n)\nInfection\nTuberculosis\nAIDS\nLeishmaniasis\n,\nbrucellosis\n,\nhistoplasmosis\n.\nViruses causing\naplastic anemia\n(\nviral hepatitis\n,\nEpstein-Barr virus\n,\nHIV\n,\nparvovirus B19\n)\nSystemic lupus erythematosus\nHypersplenism\nAcute radiation syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        },
+        {
+          "text": "colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        }
+      ]
+    },
+    "Pancytopenia_Causes": {
+      "text": "Acute leukemia\nMyelodysplastic syndrome\n,\nmyelofibrosis\nAplastic anemia\nInfiltrative disease (e.g.\nlymphoma\n,\nmultiple myeloma\n, metastatic carcinoma)\nParoxysmal nocturnal hemoglobinuria\nDrugs/treatments (*drugs more commonly associated with pancytopenia)\nBone marrow irradiation*\nChemotherapy*(especially anthracyclines,\nmethotrexate\n)\nAnti-inflammatories (\nrituximab\n*, sulfasalazine*,\ncolchicine\n,\nazathioprine\n,\nmethotrexate\n)\nAntimicrobials (\nchloramphenicol\n,\nganciclovir\n,\npenicillin G\n*,\ndapsone\n*,\nquinine\nThiomides (\npropylthiouracil\n*,\nmethimazole\n*, carbimazole)\nAntipsychotics\n(\nclozapine\n*,\nolanzapine\nProcainamide\n*\nCyclophosphamide\nAntiepileptics\n(\nphenytoin\n,\ncarbamazepine\n,\nphenobarbital\n)\nInfection\nTuberculosis\nAIDS\nLeishmaniasis\n,\nbrucellosis\n,\nhistoplasmosis\n.\nViruses causing\naplastic anemia\n(\nviral hepatitis\n,\nEpstein-Barr virus\n,\nHIV\n,\nparvovirus B19\n)\nSystemic lupus erythematosus\nHypersplenism\nAcute radiation syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        },
+        {
+          "text": "colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC Findings: Low hemoglobin/hematocrit, platelets, and white blood cell count",
+      "subsections": {
+        "Additional_Considerations": {
+          "text": "Evaluate for causes of pancytopenia\nDrug history, infectious work-up, smear, malignancy work-up\nEvaluate for dangerous sequelae\nSee evaluation of\nanemia\n,\nthrombocytopenia\n,\nneutropenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Additional_Considerations": {
+      "text": "Evaluate for causes of pancytopenia\nDrug history, infectious work-up, smear, malignancy work-up\nEvaluate for dangerous sequelae\nSee evaluation of\nanemia\n,\nthrombocytopenia\n,\nneutropenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See management of\nanemia\n,\nthrombocytopenia\n,\nneutropenia\nConsider appropriate consults (e.g. heme/onc, infectious disease)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anemia\nThrombocytopenia\nNeutropenia\n,\nLeukopenia\nImmunocompromised antibiotics\nAplastic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        }
+      ]
+    }
+  }
+}

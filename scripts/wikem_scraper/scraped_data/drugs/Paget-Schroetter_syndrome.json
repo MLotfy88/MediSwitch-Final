@@ -1,0 +1,147 @@
+{
+  "drug_name": "Paget-Schroetter_syndrome",
+  "url": "https://wikem.org/wiki/Paget-Schroetter_syndrome",
+  "scraped_at": "2026-01-10T07:59:07.134041",
+  "sections": {
+    "Background": {
+      "text": "Thrombosis\nof the axillary and/or subclavian vein associated with repetitive movements of the upper extremity, such as those with sporting events (e.g. swimming, wrestling, etc)\n[1]\nUsually affects dominant arm\nMay be acute, subacute or chronic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombosis",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Arm swelling, pain\nRedness\nof the upper extremity\nDilated, visible veins around the shoulder (Urschel’s sign)\nMost patients report a precipitating event, generally sports-related arm exertion\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Redness",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Upper_extremity_swelling": {
+          "text": "Cellulitis\nDeep venous thrombosis\nPaget-Schroetter syndrome\nLymphatic obstruction\nNecrotizing fasciitis\nSuperficial thrombophlebitis\nSVC Syndrome\nThoracic outlet obstruction\n/Pancoast tumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        },
+        {
+          "text": "SVC Syndrome",
+          "url": "https://wikem.org/wiki/SVC_Syndrome"
+        },
+        {
+          "text": "Thoracic outlet obstruction",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_obstruction"
+        }
+      ]
+    },
+    "Upper_extremity_swelling": {
+      "text": "Cellulitis\nDeep venous thrombosis\nPaget-Schroetter syndrome\nLymphatic obstruction\nNecrotizing fasciitis\nSuperficial thrombophlebitis\nSVC Syndrome\nThoracic outlet obstruction\n/Pancoast tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        },
+        {
+          "text": "SVC Syndrome",
+          "url": "https://wikem.org/wiki/SVC_Syndrome"
+        },
+        {
+          "text": "Thoracic outlet obstruction",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_obstruction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Doppler ultrasound\nis preferred test\nCTV or MRV have higher sensitivity/specificity if continued clinical concern\nMay also consider:\nCXR\nto evaluate for causes of\nthoracic outlet obstruction\nLaboratory testing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doppler ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_DVT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "thoracic outlet obstruction",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_obstruction"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Catheter-directed\nthrombolysis\nis first-line treatment for acute disease (<2-6 weeks duration)\n[1]\nConsider surgical thoracic outlet decompression (TOD) for chronic disease or failure of catheter-directed thrombolysis\nAnticoagulation alone is not recommended due to high rates of morbidity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Deep venous thrombosis\nDVT ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "DVT ultrasound",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        }
+      ]
+    }
+  }
+}

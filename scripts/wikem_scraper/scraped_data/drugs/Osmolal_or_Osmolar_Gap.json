@@ -1,0 +1,105 @@
+{
+  "drug_name": "Osmolal_or_Osmolar_Gap",
+  "url": "https://wikem.org/wiki/Osmolal_or_Osmolar_Gap",
+  "scraped_at": "2026-01-10T07:58:56.312835",
+  "sections": {
+    "Definitions": {
+      "text": "Osmolarity = the total number of particles in solution per liter\nOsmolality = the number of particles per kilogram of solvent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Calculations": {
+      "text": "",
+      "subsections": {
+        "Calculated_Osm": {
+          "text": "Calculated Osm = 2 x Na + (glu/18) + (BUN/2.8) + (ethanol/4.6) + (methanol/2.6) + (ethylene glycol/5) + (acetone/5.5) + (isopropanol/5.9)\nNormal = 275-295",
+          "tables": []
+        },
+        "Osmolal_Gap": {
+          "text": "Osmolal Gap = measured osm - calculated osm\nNormal = +/- 14-10 mOsm/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Calculated_Osm": {
+      "text": "Calculated Osm = 2 x Na + (glu/18) + (BUN/2.8) + (ethanol/4.6) + (methanol/2.6) + (ethylene glycol/5) + (acetone/5.5) + (isopropanol/5.9)\nNormal = 275-295",
+      "subsections": {
+        "Osmolal_Gap": {
+          "text": "Osmolal Gap = measured osm - calculated osm\nNormal = +/- 14-10 mOsm/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Osmolal_Gap": {
+      "text": "Osmolal Gap = measured osm - calculated osm\nNormal = +/- 14-10 mOsm/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "EtOH\nEthylene glycol\nMethanol\nIsopropyl alcohol toxicity\nDiethylene glycol\nPropylene glycol\nMannitol\nGlycerol\nSmaller gaps possible in:\nKetoacidosis\nLactic acidosis\nChronic kidney disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol toxicity",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Ketoacidosis",
+          "url": "https://wikem.org/wiki/Ketonemia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anion Gap and Osmolar Gap (High)\nAnion Gap (High)\nToxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anion Gap and Osmolar Gap (High)",
+          "url": "https://wikem.org/wiki/Anion_Gap_and_Osmolar_Gap_(High)"
+        },
+        {
+          "text": "Anion Gap (High)",
+          "url": "https://wikem.org/wiki/Anion_Gap_(High)"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Serum Osmolality/Osmolarity\nMDCalc - Anion Gap",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

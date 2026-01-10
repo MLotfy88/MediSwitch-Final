@@ -1,0 +1,83 @@
+{
+  "drug_name": "Osteogenesis_imperfecta",
+  "url": "https://wikem.org/wiki/Osteogenesis_imperfecta",
+  "scraped_at": "2026-01-10T07:58:57.104307",
+  "sections": {
+    "Background": {
+      "text": "Also called brittle bone disease.\n[1]\nMost commonly secondary to a genetic defect in type I collagen with autosomal dominant inheritance.\n[1]\nPresentation age varies by severity and subtype. May be discovered en utero or go undetected until middle age.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Type I: Osteogenesis imperfecta tarda\nFragile bones with fractures occurring after minimal trauma.\nPresents in early infancy\nBlue sclera\nHearing loss (50%)\nDentinogenesis imperfecta in some (opalescent or yellow-brown discoloration of tooth enamel)\nType II:  Osteogenesis imperfecta congenita\nLethal perinatally or before 1st year of life\nMost common cause of death is pulmonary hypoplasia\nSevere deformity\nType III\nFragile bones with fractures occurring after minimal trauma.\nBone deformity (progressive)\nBlue sclera (variable, may fade with age)\nHearing loss\nDentinogenesis imperfecta\nShort stature\nType IV\nFragile bones with fractures occurring after minimal trauma.\nBone deformity\nShort stature (variable)\nHearing loss in some\nWhite or blue sclera\nDentiogenesis Imperfecta in some",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Child abuse\nPrimary juvenile osteoporosis\nHypogonadism\nMalignancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Family history\nPlain films\nDEXA scan and collagen studies (as outpatient)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fracture reduction and splinting\n[2]\nPhysical therapy\n[3]\nFracture risk reduction with activity restriction\n[4]\nRecommendation for genetic counseling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Cardiopulmonary\nKyphoscoliosis causing restrictive lung disease\nPneumonia\nCor pulmonale\nTricuspid regurgitation\nAortic root dilation\nLeft ventricular hypertrophy\nNeurological\nHydrocephalus\nBasilar Invagination (\nheadache\n,\ndysphagia\n,\nataxia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Home after splinting\nMay admit if surgical fixation is required",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

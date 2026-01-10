@@ -1,0 +1,167 @@
+{
+  "drug_name": "Papilledema",
+  "url": "https://wikem.org/wiki/Papilledema",
+  "scraped_at": "2026-01-10T07:59:11.482000",
+  "sections": {
+    "Background": {
+      "text": "Bilateral optic disc swelling due to increased ICP\nThis may sometimes be a presenting complaint, referred by an eye care provider, though will usually have associated symptoms such as headache, altered mental status, or vision changes.",
+      "subsections": {
+        "Etiology": {
+          "text": "All causes of\nelevated intracranial pressure\nIntracranial mass\nDecreased CSF outflow or resorption\nIncreased CSF production or cerebral blood flow\nMost commonly caused by\nIdiopathic intracranial hypertension\nin individuals under 50.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "All causes of\nelevated intracranial pressure\nIntracranial mass\nDecreased CSF outflow or resorption\nIncreased CSF production or cerebral blood flow\nMost commonly caused by\nIdiopathic intracranial hypertension\nin individuals under 50.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Increased ICP\nsymptoms:\nHeadache\n(esp with recumbency and in the morning)\nNausea and vomiting\nVisual disturbance\nVisual acuity is usually normal or near-normal in the acute phase\nMay have transient visual obscurations (blurriness or white out) that last seconds, then clear completely.\n[1]\nThese may be triggered by position change or Valsalva",
+      "subsections": {
+        "Fundoscopy": {
+          "text": "Loss of spontaneous venous pulsations\nDisc margin blurring\nCup is diminished or absent",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        }
+      ]
+    },
+    "Fundoscopy": {
+      "text": "Loss of spontaneous venous pulsations\nDisc margin blurring\nCup is diminished or absent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Idiopathic intracranial hypertension\n(other causes must be excluded)\nIntracranial mass\nHydrocephalus\nCerebral venous thrombosis\nCerebral edema\nIschemic stroke\nTraumatic brain injury\nSalicylate toxicity\nMeningitis\nEncephalitis\nPosterior reversible encephalopathy syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Traumatic brain injury",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Careful\nneurologic exam\nincluding level of consciousness, pupils, and cranial nerves (especially CN VI-Abducens)\nFundoscopic exam without dilation is often difficult - consider\nocular ultrasound\nto assess optic nerve diameter\nBrain MRI\nwith MR venography to identify secondary causes of elevated ICP\nNon-contrast head CT with CT venography may be a reasonable alternative depending on practice setting and patient urgency. Follow-up MRI may be required.\nLumbar Puncture\n(if neuroimaging normal)\nOpening pressure >25 considered abnormal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "Brain MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Increased ICP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    }
+  }
+}

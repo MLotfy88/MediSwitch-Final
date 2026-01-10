@@ -1,0 +1,303 @@
+{
+  "drug_name": "Otomycosis",
+  "url": "https://wikem.org/wiki/Otomycosis",
+  "scraped_at": "2026-01-10T07:58:58.511027",
+  "sections": {
+    "Background": {
+      "text": "Also known as fungal otitis externa or \"Singapore Ear\"\nA superficial\nfungal infection\nof the outer ear canal\nFound in 9% of\notitis externa\ncases, and as many as 30.4% of cases of symptoms of otitis\n[1]\nMore common in tropical/subtropical countries.\nCommon causes:\nAspergillus\nniger\nand\nCandida albicans\n[1]\nRisk factors:\nRecent use of topical otic\nantibiotics\nTopical or systemic\nsteroids\nHearing aid use\nPregnancy\nLocal\ntrauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fungal infection",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "Candida albicans",
+          "url": "https://wikem.org/wiki/Candida_albicans"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Similar to\notitis externa\n, but with more itching than pain\nCharacteristic appearance on exam - appears like \"mold growing on spoiled food\"\nOtalgia\nOtorrhea\nHearing loss\nPruritus\nTinnitus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otalgia",
+          "url": "https://wikem.org/wiki/Otalgia"
+        },
+        {
+          "text": "Hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical examination",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Aural hygiene\nTopical\nantifungal\nClotrimazole\n- most effective agent (also has some antibacterial effect)\nKetoconazole\nFluconazole\nNystatin\nAdd PO antifungal treatment if poor response to topical treatment or severe disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections\nEar diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Ear diagnoses",
+          "url": "https://wikem.org/wiki/Ear_diagnoses"
+        }
+      ]
+    }
+  }
+}

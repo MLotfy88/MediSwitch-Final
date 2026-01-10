@@ -1,0 +1,97 @@
+{
+  "drug_name": "Ottawa_ankle_rules",
+  "url": "https://wikem.org/wiki/Ottawa_ankle_rules",
+  "scraped_at": "2026-01-10T07:59:01.848320",
+  "sections": {
+    "Background": {
+      "text": "Nearly 100% sensitive\n[1]\n98.5% sensitive in the pediatric population\n[2]\nCan reduce ED utilization of x-rays\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Criteria": {
+      "text": "",
+      "subsections": {
+        "Ottawa_ankle_rule": {
+          "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+          "tables": []
+        },
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        },
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_ankle_rule": {
+      "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+      "subsections": {
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        },
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_foot_rules": {
+      "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+      "subsections": {
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exceptions": {
+      "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "MDCalc - Ottawa Ankle Rules",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ankle (Main)\nAnkle Fracture\nFoot Diagnoses\nOttawa Ankle Rule Study\nOttawa Knee Rules",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle (Main)",
+          "url": "https://wikem.org/wiki/Ankle_(Main)"
+        },
+        {
+          "text": "Ankle Fracture",
+          "url": "https://wikem.org/wiki/Ankle_Fracture"
+        },
+        {
+          "text": "Foot Diagnoses",
+          "url": "https://wikem.org/wiki/Foot_Diagnoses"
+        },
+        {
+          "text": "Ottawa Ankle Rule Study",
+          "url": "https://wikem.org/wiki/EBQ:Ottawa_Ankle_Rule_Study"
+        },
+        {
+          "text": "Ottawa Knee Rules",
+          "url": "https://wikem.org/wiki/Ottawa_Knee_Rules"
+        }
+      ]
+    }
+  }
+}

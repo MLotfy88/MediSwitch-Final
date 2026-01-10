@@ -1,0 +1,299 @@
+{
+  "drug_name": "P450",
+  "url": "https://wikem.org/wiki/P450",
+  "scraped_at": "2026-01-10T07:59:03.985094",
+  "sections": {
+    "Background": {
+      "text": "Coumadin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        }
+      ]
+    },
+    "Antimicrobials": {
+      "text": "",
+      "subsections": {
+        "Avoid_/P450_Inhibitors": {
+          "text": "Quinolones\n, especially\nlevofloxacin\nMacrolides\n, especially\nerythromycin\nBactrim\nand sulfonamides\nFlagyl\nNafcillin\n,\noxacillin",
+          "tables": []
+        },
+        "Use": {
+          "text": "Azithromycin\nGentamicin\nCephalosporin\n,\naminopenicillins\nNitrofurantoin\nClindamycin\nVancomycin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Flagyl",
+          "url": "https://wikem.org/wiki/Flagyl"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminopenicillins",
+          "url": "https://wikem.org/wiki/Aminopenicillins"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Avoid_/P450_Inhibitors": {
+      "text": "Quinolones\n, especially\nlevofloxacin\nMacrolides\n, especially\nerythromycin\nBactrim\nand sulfonamides\nFlagyl\nNafcillin\n,\noxacillin",
+      "subsections": {
+        "Use": {
+          "text": "Azithromycin\nGentamicin\nCephalosporin\n,\naminopenicillins\nNitrofurantoin\nClindamycin\nVancomycin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Flagyl",
+          "url": "https://wikem.org/wiki/Flagyl"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminopenicillins",
+          "url": "https://wikem.org/wiki/Aminopenicillins"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Use": {
+      "text": "Azithromycin\nGentamicin\nCephalosporin\n,\naminopenicillins\nNitrofurantoin\nClindamycin\nVancomycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminopenicillins",
+          "url": "https://wikem.org/wiki/Aminopenicillins"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Significant_P450_Inhibitors_in_General": {
+      "text": "Grapefruit juice\nValproate\n]\nINH\nProtease inhibitors (-navir, i.e. ritonavir)\nSSRIs\n, except escitalopram\nAmiodarone\nFluoroquinolones\nSulfonamides\nMacrolides\nCimetidine\nOmeprazole\nKetoconazole\nAcute\nETOH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "Sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        }
+      ]
+    },
+    "Significant_P450_Inducers_in_General": {
+      "text": "Phenytoin\nCarbamazepine\nEthosuximide\nQuinidine\n/\nquinine\nRifampin\nGriseofulvin\nGlucocorticoids\nBarbiturates\nSt. John's wort\nChronic EtOH\nTobacco\nsmoking",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Ethosuximide",
+          "url": "https://wikem.org/wiki/Ethosuximide"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "drug_name": "Palpitations",
+  "url": "https://wikem.org/wiki/Palpitations",
+  "scraped_at": "2026-01-10T07:59:09.990449",
+  "sections": {
+    "Background": {
+      "text": "Sensation of rapid or irregular heart rate",
+      "subsections": {
+        "Red_flags": {
+          "text": "Cardiac disease\nKnown\nECG\nabnormality\nSyncope\n/pre-syncope\nExertional palpitations\nHypotension\nor relative hypotension\nHeart failure\nsymptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "Red_flags": {
+      "text": "Cardiac disease\nKnown\nECG\nabnormality\nSyncope\n/pre-syncope\nExertional palpitations\nHypotension\nor relative hypotension\nHeart failure\nsymptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sensation of rapid or irregular heart rate\nSyncope\nor pre-syncope\nShortness of breath\nAnxiety",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Palpitations": {
+      "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "ECG\nCBC\nBMP\nTSH\nCXR\nTroponin\nin patients with suspicion for underlying heart disease or failure\nConsider extended electrolytes (Mg/Phos)\nConsider toxicologic work-up if concern for intoxications",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Thyroid exam\nCareful cardiac exam for murmurs\nCardiac monitoring\nConsider walk test if palpitations primarily present with exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "ECG\nCBC\nBMP\nTSH\nCXR\nTroponin\nin patients with suspicion for underlying heart disease or failure\nConsider extended electrolytes (Mg/Phos)\nConsider toxicologic work-up if concern for intoxications",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Thyroid exam\nCareful cardiac exam for murmurs\nCardiac monitoring\nConsider walk test if palpitations primarily present with exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Thyroid exam\nCareful cardiac exam for murmurs\nCardiac monitoring\nConsider walk test if palpitations primarily present with exertion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Etiology specific",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Etiology specific\nConsideration for Holter monitoring (or similar) with outpatient cardiologist if clinically stable for discharge home\nRecommend avoidance of stimulants and alcohol pending outpatient follow-up\nCriteria for admission from Management of patients with palpitations: a position paper from the European Heart Rhythm Association\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Atrial Fibrillation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial Fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation"
+        }
+      ]
+    }
+  }
+}

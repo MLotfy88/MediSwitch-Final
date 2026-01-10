@@ -1,0 +1,569 @@
+{
+  "drug_name": "Osteoarthritis",
+  "url": "https://wikem.org/wiki/Osteoarthritis",
+  "scraped_at": "2026-01-10T07:59:01.181082",
+  "sections": {
+    "Background": {
+      "text": "Osteoarthritis is a chronic arthropathy characterized by degeneration of joint cartilage and underlying bone\nAlternatively called arthrosis\n[1]\nMost common progressive joint disease\nJoints in the hands, knees, hips, and spine are the most frequently affected.",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Age (almost exclusively in elderly)\nFemale versus male sex\nObesity\nLack of osteoporosis\nOccupation\nPrevious injury\nMuscle weakness\nGenetic elements",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Age (almost exclusively in elderly)\nFemale versus male sex\nObesity\nLack of osteoporosis\nOccupation\nPrevious injury\nMuscle weakness\nGenetic elements",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Commonly affected joints\nCervical and lumbar spine\nFirst carpometacarpal joint\nProximal interphalangeal joint\nDistal interphalangeal joint\nHip\nKnee\nSubtalar joint\nFirst metatarsophalangeal joint\nUncommonly affected joints\nShoulder\nWrist\nElbow\nMetacarpophalangeal joint",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Monoarticular_arthritis": {
+          "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Monoarticular_arthritis": {
+      "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+      "subsections": {
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Greater than 50 years of age\nMorning stiffness for less than 30 minutes\nCrepitus on active motion of the knee\nBony tenderness\nBony enlargement\nNo palpable warmth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Nonpharmacological": {
+          "text": "Weight loss\nIce/warm packs\nPhysical therapy\nOccupational therapy\nExercise",
+          "tables": []
+        },
+        "Pharmacological_": {
+          "text": "Topical\ncapsaicin\nTopical\nNSAIDs\nOral\nNSAIDs\nTylenol\nSteroid injections\nTramadol",
+          "tables": []
+        },
+        "AAOS_Decision_Tool_for_Knee_OA": {
+          "text": "Refer to this helpful tool from the American Academy of Orthopedic Surgeons for management and disposition options\nLink to knee osteoarthritis tool",
+          "tables": []
+        },
+        "Surgical": {
+          "text": "Arthroscopy for removal of meniscal tears or loose foreign bodies\nNo additional benefit compared to PT and medical therapy in routine OA\n[3]\nOsteotomy in young patients with misalignment of knee or hip joint\nArthroplasty\nIf all other modalities are ineffective\nProthetic knee/hip/shoulder usually has 10-15 year viability\nInfection,\nPulmonary embolism\nare biggest risks\nJoint fusion\nRelieves pain but prevents motion\nMay be used in small foot/ankle bones or after failed arthroplasties",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Nonpharmacological": {
+      "text": "Weight loss\nIce/warm packs\nPhysical therapy\nOccupational therapy\nExercise",
+      "subsections": {
+        "Pharmacological_": {
+          "text": "Topical\ncapsaicin\nTopical\nNSAIDs\nOral\nNSAIDs\nTylenol\nSteroid injections\nTramadol",
+          "tables": []
+        },
+        "AAOS_Decision_Tool_for_Knee_OA": {
+          "text": "Refer to this helpful tool from the American Academy of Orthopedic Surgeons for management and disposition options\nLink to knee osteoarthritis tool",
+          "tables": []
+        },
+        "Surgical": {
+          "text": "Arthroscopy for removal of meniscal tears or loose foreign bodies\nNo additional benefit compared to PT and medical therapy in routine OA\n[3]\nOsteotomy in young patients with misalignment of knee or hip joint\nArthroplasty\nIf all other modalities are ineffective\nProthetic knee/hip/shoulder usually has 10-15 year viability\nInfection,\nPulmonary embolism\nare biggest risks\nJoint fusion\nRelieves pain but prevents motion\nMay be used in small foot/ankle bones or after failed arthroplasties",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Pharmacological_": {
+      "text": "Topical\ncapsaicin\nTopical\nNSAIDs\nOral\nNSAIDs\nTylenol\nSteroid injections\nTramadol",
+      "subsections": {
+        "AAOS_Decision_Tool_for_Knee_OA": {
+          "text": "Refer to this helpful tool from the American Academy of Orthopedic Surgeons for management and disposition options\nLink to knee osteoarthritis tool",
+          "tables": []
+        },
+        "Surgical": {
+          "text": "Arthroscopy for removal of meniscal tears or loose foreign bodies\nNo additional benefit compared to PT and medical therapy in routine OA\n[3]\nOsteotomy in young patients with misalignment of knee or hip joint\nArthroplasty\nIf all other modalities are ineffective\nProthetic knee/hip/shoulder usually has 10-15 year viability\nInfection,\nPulmonary embolism\nare biggest risks\nJoint fusion\nRelieves pain but prevents motion\nMay be used in small foot/ankle bones or after failed arthroplasties",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "AAOS_Decision_Tool_for_Knee_OA": {
+      "text": "Refer to this helpful tool from the American Academy of Orthopedic Surgeons for management and disposition options\nLink to knee osteoarthritis tool",
+      "subsections": {
+        "Surgical": {
+          "text": "Arthroscopy for removal of meniscal tears or loose foreign bodies\nNo additional benefit compared to PT and medical therapy in routine OA\n[3]\nOsteotomy in young patients with misalignment of knee or hip joint\nArthroplasty\nIf all other modalities are ineffective\nProthetic knee/hip/shoulder usually has 10-15 year viability\nInfection,\nPulmonary embolism\nare biggest risks\nJoint fusion\nRelieves pain but prevents motion\nMay be used in small foot/ankle bones or after failed arthroplasties",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Surgical": {
+      "text": "Arthroscopy for removal of meniscal tears or loose foreign bodies\nNo additional benefit compared to PT and medical therapy in routine OA\n[3]\nOsteotomy in young patients with misalignment of knee or hip joint\nArthroplasty\nIf all other modalities are ineffective\nProthetic knee/hip/shoulder usually has 10-15 year viability\nInfection,\nPulmonary embolism\nare biggest risks\nJoint fusion\nRelieves pain but prevents motion\nMay be used in small foot/ankle bones or after failed arthroplasties",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with PCP follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merck Manual - Osteoarthritis (OA)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "drug_name": "PERC_rule",
+  "url": "https://wikem.org/wiki/PERC_rule",
+  "scraped_at": "2026-01-10T07:59:06.620233",
+  "sections": {
+    "Background": {
+      "text": "Use only if you would be confident in excluding\nPE\nwith a neg D-dimer\nIf all are present AND low suspicion for PE, no D-dimer needed:",
+      "subsections": {
+        "PERC_Rule_Calculator": {
+          "text": "Check all of the following that are true:\nAge <50yr\nPulse ox >94% (room air)\nHR <100\nNo prior PE or DVT\nNo recent surgery or trauma (within prior 4wk)\nNo hemoptysis\nNo estrogen use\nNo unilateral leg swelling\nIn patients with low suspicion for\nPE\n(best-guess pre-test probability <15%) AND all are true, only 0.9% had\nPE\n(n=7527) and it can be ruled-out without further testing (i.e. no need for d-dimer)\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "PERC_Rule_Calculator": {
+      "text": "Check all of the following that are true:\nAge <50yr\nPulse ox >94% (room air)\nHR <100\nNo prior PE or DVT\nNo recent surgery or trauma (within prior 4wk)\nNo hemoptysis\nNo estrogen use\nNo unilateral leg swelling\nIn patients with low suspicion for\nPE\n(best-guess pre-test probability <15%) AND all are true, only 0.9% had\nPE\n(n=7527) and it can be ruled-out without further testing (i.e. no need for d-dimer)\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Validation": {
+      "text": "Validated on 7527 patients\nOnly 0.9% had\nPE\nwhen PERC negative, no deaths",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pulmonary Embolism (PE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Embolism (PE)",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism_(PE)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - PERC for Pulmonary Embolism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also_2": {
+      "text": "EBQ:PERC Rule Validation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:PERC Rule Validation",
+          "url": "https://wikem.org/wiki/EBQ:PERC_Rule_Validation"
+        }
+      ]
+    }
+  }
+}

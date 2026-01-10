@@ -1,0 +1,107 @@
+{
+  "drug_name": "Oxalic_acid_toxicity",
+  "url": "https://wikem.org/wiki/Oxalic_acid_toxicity",
+  "scraped_at": "2026-01-10T07:59:01.188830",
+  "sections": {
+    "Background": {
+      "text": "Used in bleach and rust removers\nAlso found in some species of plants",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Solution form:\nIrritative and Corrosive\nCauses\nhypocalcemia\nand formation of calcium oxalate crystals that can deposit in brain, heart, and kidneys.\nInsoluble form:\nLocal mucous membrane irritation",
+          "tables": []
+        },
+        "Toxic_Dose": {
+          "text": "5-15 g can be lethal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Solution form:\nIrritative and Corrosive\nCauses\nhypocalcemia\nand formation of calcium oxalate crystals that can deposit in brain, heart, and kidneys.\nInsoluble form:\nLocal mucous membrane irritation",
+      "subsections": {
+        "Toxic_Dose": {
+          "text": "5-15 g can be lethal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Toxic_Dose": {
+      "text": "5-15 g can be lethal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Direct contact with skin/eyes\nSkin and eye irritation and burning\nInhalation\nSore throat\n,\ncough\n,\nwheezing\n,\npulmonary edema\nIngestion\nWeakness\n, tetany,\ncardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical\nNo specific levels for oxalic acid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Protect the airway\nDecontamination\nCalcium chloride\nor\ncalcium gluconate\nto reverse hypocalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

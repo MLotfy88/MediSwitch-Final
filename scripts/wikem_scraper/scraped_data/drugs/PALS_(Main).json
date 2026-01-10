@@ -1,0 +1,139 @@
+{
+  "drug_name": "PALS_(Main)",
+  "url": "https://wikem.org/wiki/PALS_(Main)",
+  "scraped_at": "2026-01-10T07:59:02.286308",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses and equipment size by weight.\nThis page is for\npediatric\npatients. For adult patients, see:\nACLS (Main)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Algorithms": {
+      "text": "BLS\nPediatric Pulseless Arrest\nPALS: Bradycardia\nUse\nPediatric Pulseless Arrest\nalgorithm if no pulse = PEA\nPALS: Tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BLS",
+          "url": "https://wikem.org/wiki/BLS"
+        },
+        {
+          "text": "Pediatric Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Pediatric_Pulseless_Arrest"
+        },
+        {
+          "text": "PALS: Bradycardia",
+          "url": "https://wikem.org/wiki/PALS:_Bradycardia"
+        },
+        {
+          "text": "Pediatric Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Pediatric_Pulseless_Arrest"
+        },
+        {
+          "text": "PALS: Tachycardia",
+          "url": "https://wikem.org/wiki/PALS:_Tachycardia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "AHA Recommendation Changes by Year\nSynchronized cardioversion\nPost Cardiac Arrest\nACLS (Main)\nACLS (Treatable Conditions)",
+      "subsections": {
+        "Pediatric_Critical_Care": {
+          "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AHA Recommendation Changes by Year",
+          "url": "https://wikem.org/wiki/AHA_Recommendation_Changes_by_Year"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Post Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Post_Cardiac_Arrest"
+        },
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "ACLS (Treatable Conditions)",
+          "url": "https://wikem.org/wiki/ACLS_(Treatable_Conditions)"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        }
+      ]
+    },
+    "Pediatric_Critical_Care": {
+      "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "2020 AHA Guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "AHA 2010 Guidelines for PALS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

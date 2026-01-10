@@ -1,0 +1,85 @@
+{
+  "drug_name": "Pancuronium",
+  "url": "https://wikem.org/wiki/Pancuronium",
+  "scraped_at": "2026-01-10T07:59:07.480266",
+  "sections": {
+    "General": {
+      "text": "Type:\nNeuromuscular blocker\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuromuscular blocker",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Calculate based on ideal body weight\nIntubation dose: bolus 0.06-0.1 mg/kg IV\nMaintenance: 0.015-0.1 mg/kg IV q30-60min OR continuous infusion: 0.1 mg/kg/hr IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Neonates\nLoad: 0.02 mg/kg IV\nMaintenance: 0.05-0.1 mg/kg IV q0.5-4hr PRN\n>1mo\nLoad: 0.04-0.1 mg/kg IV\nMaintenance: 0.015-0.1 mg/kg IV q30-60min OR continual infusion: 0.1 mg/kg/hr IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Unknown\nRenal Dosing\nCrCl 10-50 mL/min: Administer 50% normal dose\nCrCl <10 mL/min: Do not use\nHepatic Dosing: Use caution",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug or bromides\nCaution if:\nFollowing opioid, sedative or anesthetic agent (additive/synergistic effects)\nPoor renal perfusion or severe renal disease\nPreexisting tachycardia\n>25% TBSA burns\nHyperMg, hypoK, hypoCa (increased sensitivity)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nTachycardia, dose related\nBronchospasm\nHypotension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Tachycardia\nHypertension\nExcessive salivation\nExcessive sweating\nRash\nWheezing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nTachycardia, dose related\nBronchospasm\nHypotension",
+      "subsections": {
+        "Common": {
+          "text": "Tachycardia\nHypertension\nExcessive salivation\nExcessive sweating\nRash\nWheezing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Tachycardia\nHypertension\nExcessive salivation\nExcessive sweating\nRash\nWheezing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2h\nMetabolism: primarily none\nExcretion: Urinary\nMechanism of Action: Non-depolarizing skeletal muscle relaxant; cholinergic receptor antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

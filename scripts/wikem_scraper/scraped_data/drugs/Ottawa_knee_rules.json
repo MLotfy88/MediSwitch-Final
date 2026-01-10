@@ -1,0 +1,57 @@
+{
+  "drug_name": "Ottawa_knee_rules",
+  "url": "https://wikem.org/wiki/Ottawa_knee_rules",
+  "scraped_at": "2026-01-10T07:59:01.475396",
+  "sections": {
+    "Background": {
+      "text": "98.5% sensitive and 48.6% specific in determining knee fracture\n[1]\nCan be applied to pediatric population\n[2]\nRule has been retrospectively and retrospectively validated\n[3]\n[4]\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Criteria": {
+      "text": "",
+      "subsections": {
+        "Ottawa_knee_rules": {
+          "text": "X-ray is only required in patients who have an acute injury\nand\none or more of the following:\nAge >55\nIsolated tenderness of the patella\nTenderness at the fibular head\nInability flex to 90 degrees\nInability to walk 4 steps BOTH immediately after the injury and in the ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_knee_rules": {
+      "text": "X-ray is only required in patients who have an acute injury\nand\none or more of the following:\nAge >55\nIsolated tenderness of the patella\nTenderness at the fibular head\nInability flex to 90 degrees\nInability to walk 4 steps BOTH immediately after the injury and in the ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Caveats": {
+      "text": "99% sensitive in children OVER age 5\n[6]\nBeware of the Tillaux Fracture in adolescents with anteromedial ankle pain, as they would not qualify for imaging according to this rule.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "MDCalc - Ottawa Knee Rules",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute knee injury\nOttawa Ankle Rules",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute knee injury",
+          "url": "https://wikem.org/wiki/Acute_knee_injury"
+        },
+        {
+          "text": "Ottawa Ankle Rules",
+          "url": "https://wikem.org/wiki/Ottawa_Ankle_Rules"
+        }
+      ]
+    }
+  }
+}

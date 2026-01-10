@@ -1,0 +1,153 @@
+{
+  "drug_name": "Palliative_medicine",
+  "url": "https://wikem.org/wiki/Palliative_medicine",
+  "scraped_at": "2026-01-10T07:59:07.292807",
+  "sections": {
+    "Palliative_Care_in_the_ED": {
+      "text": "Palliative care is defined as specialized medical care for patients suffering from severe illness\nFocused on alleviating symptoms and psychosocial distress, with truly patient-centered approach\nPalliative and curative care are\nnot\nmutually exclusive\nGiven misconceptions that palliative care = hospice, important to introduce role of pall care team to patient/family as specialists in symptom control, communication, and psychosocial support\nE.g. \"Have you ever heard of a specialty called palliative care? I recommend it for all my patients who have a serious disease like [yours]. While your [oncologist focuses on killing cancer, cardiologist optimizes your heart etc.], the palliative care doctors really focuses on symptoms and side effects, and they tend to be great communicators and really good at making sure that what's most important to\nyou\nand your family is front-and-center during all of your medical care\"\nConsider palliative care team consultation/referral particularly for patients at the end of life, with poor prognosis, or with overwhelming symptom burden",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dyspnea": {
+      "text": "Opioids are the first-line treatment for palliation of dyspnea.\nOpioids decrease the chemoreceptor response to hypercapnia, thereby depressing the central respiratory drive and mitigating anxiety\n[1]\nIn Patients who are already taking opioids regularly, administer 5% of their total daily morphine dose to manage dyspnea.\n[2]\nAdmit to hospital or hospice inpatient when a a patient is experiencing refractory dyspnea despite initial palliative resuscitation\nNot a time to reclarify goals of care\nReassurance is key to family\nO2\n,\nNIPPV\nBedside Fan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "NIPPV",
+          "url": "https://wikem.org/wiki/BiPAP"
+        }
+      ]
+    },
+    "Dehydration": {
+      "text": "Anorexia does\nnot\ncause distress, no evidence for IVF, TPN\nNormal to decrease PO intake in last weeks of life\nSwabs on mouth/lips to prevent dry lips\nArtificial tears for dry eyes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Delirium": {
+      "text": "Reassurance in normal part of dying process, not \"going crazy at the end\"\nCommon to see deceased relatives\nQuiet, well lit room, windows preferable, familiar faces present\nHaloperidol\n0.5-1mg IVP show to be useful,\nbenzodiazepines\nas additional adjunct",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Secretions": {
+      "text": "\"Death Rattle\"\nRefers to the sound that is made when air passes through a dying patient's pooled secretions within the posterior oropharynx\nNot harmful but distressing symptoms to the family.\nProper positioning\nAggressive suctioning should be avoided, as comfort of the patient is the goal.\nGlycopyrrolate 0.1mg IV or 0.2mg PO\nPrevents new secretions & reduces respiratory gurgling.\nDoes not cross blood-brain barrier & therefore does not contribute to terminal delirium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Acute_Pain": {
+      "text": "Opioids are the principle treatment for pain in terminally ill patients.\nBe cautious with morphine in terminally ill patients who have renal impairment as this can lead to opioid induce neurotoxicity.\nUse hydromorphone or fentanyl.\nMorphine: 4mg IV x 1 and IV folus q 15 minutes PRN\nHydromorphone: 1mg IV x 1 and 1 mg IV bolus q 15 minutes PRN\nFentanyl: 25mcg IV x 1 and 25 mcg IV bolus q 15 minutes PRN\nIf pain is unrelieved for 30 minutes, increase bolus dose by 50-100%\nIf not opioid-naive, give up to 20% of total daily opioid dose.\nReferral to Palliative Care for refractory to pain control despite appropriate medications.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Agitation/Restlessness/Confusion": {
+      "text": "Full examination - look for sources of pain/distress including constipation, urinary retention, pressure ulcers\nReview medication list and delete all non-essential medication to reduce anticholinergic burden: American Geriatrics Society 2019 Updated AGS Beers Criteria® for Potentially Inappropriate Medication Use in Older Adults\nPain is a leading cause of delirium (see Acute Pain protocol).  If not effective then…\nHaloperidol (Haldol).\nHaloperidol has the best data in treating agitation or delirium in this patient population.\nHaloperidol 1mg IVP q1 hour PRN\nBenzodiazepines\nCaution needed with benzodiazepines because they can cause paradoxical agitation in elderly patients.\nLorazepam 1mg PO or SQ q 1 hour PRN\nDelirium refractory to initial medications then referral to Palliative Care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Nausea/Vomiting": {
+      "text": "Reverse underlying cause if possible (GI obstruction, vertigo, constipation, medication)\nTreat empirically with metoclopramide (Reglan) or ondansetron (Zofran). If not effective then…\nHaloperidol (Haldol).  If not effective then…\nLorazepam.  If not effective then…\nReferral to Palliative Care 6",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Constipation": {
+      "text": "Rule out impaction/obstruction\nStart Senna 2 tabs or polyethylene glycol (Miralax) powder: 17g in any liquid every day. If no daily bowel movement, can increase up to 3 times daily Miralax or 2 tabs Senna twice daily.  If not effective after 48 hours…\nDulcolax suppository: 1 or 2 per rectum every morning after breakfast.  If not effective after 48 hours…\nEnema - warm tap water, repeat until results (DO NOT use Fleets because of risk of hyperphosphatemia, hypocalcemia, arrhythmia).  If no effect…\nReferral to Palliative Care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition_at_End_of_Life": {
+      "text": "All life sustaining care desired\nSelf explanatory\nComfort + limited life sustaining interventions\nAdmit with time limited trial (establish this beforehand) for antibiotics or NIPPV\nComfort measures only\nAdmit to hospice unit/palliative care service or manage acute symptoms in ED then dc with home hospice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Rescue_Medications_for_Symptom_Distress": {
+      "text": "Once acute symptoms are controlled, switch to standing (around the clock) regimen of the effective dosage, every 4 hours for morphine, every 6 hours for haloperidol, lorazepam, and metoclopramide",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Haloperidol",
+            "Indication": "RestlessnessAnxietyAgitationConfusionNausea/Vomiting",
+            "Route": "Oral SublingualIV",
+            "Starting Dose": "0.5 mg",
+            "Starting Frequency": "Every 1 hour until calm.  Increase to 1 mg if no relief from starting dose."
+          },
+          {
+            "Drug": "Lorazepam",
+            "Indication": "RestlessnessAnxietyAgitationNausea/Vomiting",
+            "Route": "OralIVSC",
+            "Starting Dose": "0.5 mg",
+            "Starting Frequency": "Every 1 hour until calm.  Increase to 1 mg if no relief from starting dose."
+          },
+          {
+            "Drug": "Metoclopramide",
+            "Indication": "Nausea/Vomiting",
+            "Route": "OralIV",
+            "Starting Dose": "5-10 mg",
+            "Starting Frequency": "Every 6 hours"
+          },
+          {
+            "Drug": "Ondansetron",
+            "Indication": "Nausea/Vomiting",
+            "Route": "OralIV",
+            "Starting Dose": "4 mg",
+            "Starting Frequency": "Every 8 hours.  Increase to 8 mg if no relief from starting dose.If using for opioid-induced nausea, give 30 minutes before morphine to prevent nausea"
+          },
+          {
+            "Drug": "Morphine Sulfate",
+            "Indication": "PainDyspnea",
+            "Route": "Oral",
+            "Starting Dose": "5-10 mg",
+            "Starting Frequency": "Every 3-4 hours.Increase dose by 50% for pain unrelieved by starting dose at 1 hour for oral and 15 minutes for IV dose.Introduce laxative"
+          },
+          {
+            "Drug": "Morphine Sulfate",
+            "Indication": "PainDyspnea",
+            "Route": "IV",
+            "Starting Dose": "2-4 mg",
+            "Starting Frequency": "Every 3-4 hours.Increase dose by 50% for pain unrelieved by starting dose at 1 hour for oral and 15 minutes for IV dose.Introduce laxative"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "External_Resources": {
+      "text": "Fast Facts\n: great quick-reference resource for practical/specific info on myriad palliative care topics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pain control",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pain control",
+          "url": "https://wikem.org/wiki/Pain_control"
+        }
+      ]
+    }
+  }
+}
