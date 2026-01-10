@@ -1,0 +1,127 @@
+{
+  "drug_name": "Aplastic_crisis",
+  "url": "https://wikem.org/wiki/Aplastic_crisis",
+  "scraped_at": "2026-01-10T07:48:00.621607",
+  "sections": {
+    "Background": {
+      "text": "Also called Reticulocytopenia: abnormal decrease of reticulocytes in the body\nClinically common in\nSickle cell crisis\nand\nHereditary Spherocytosis (HS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Hereditary Spherocytosis (HS)",
+          "url": "https://wikem.org/wiki/Hereditary_Spherocytosis_(HS)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sickle cell crisis\nAnemia\nIncreased\nfatigue\n, pallor\nActivity intolerance\nShortness of breath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Erythema Infectiosum (Fifth disease)\nInvades and destroys red blood cell precursors and halts the red cell production\nEBV\nStrep\ninfection\nUse of\nhydroxyurea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema Infectiosum (Fifth disease)",
+          "url": "https://wikem.org/wiki/Erythema_Infectiosum_(Fifth_disease)"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "CBC with retic count\nDecrease from baseline hemoglobin/hematocrit\nPrecipitous drop in reticulocyte count (or lack of response)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decrease from baseline hemoglobin/hematocrit",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Transfusion\nusing extended antigen-typed, leuko-depleted pRBCs\nDroplet precautions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Recovery_Phase": {
+      "text": "Typically in 1-2 weeks\nOften marked by hyperbilirubinemia, and called a “hyperhemolytic” phase\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Also_See": {
+      "text": "Erythema Infectiosum (Fifth disease)\nHereditary Spherocytosis (HS)\nSickle cell crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema Infectiosum (Fifth disease)",
+          "url": "https://wikem.org/wiki/Erythema_Infectiosum_(Fifth_disease)"
+        },
+        {
+          "text": "Hereditary Spherocytosis (HS)",
+          "url": "https://wikem.org/wiki/Hereditary_Spherocytosis_(HS)"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Janz TJ, Hamilton GC: Anemia, Polycythemia, and White Blood Cell Disorders, in Marx JA, Hockberger RS, Walls RM, et al (eds): Rosen’s Emergency Medicine: Concepts and Clinical Practice, ed 7. St. Louis, Mosby, Inc., 2010, (Ch) 119:p 1568-1574.\nhttp://www.ihtc.org/medical-professionals/blood-disorders/sickle-cell-disease/aplastic-crisis-intervention/\n- last accessed 1/6/15",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

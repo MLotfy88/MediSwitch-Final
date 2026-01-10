@@ -1,0 +1,110 @@
+{
+  "drug_name": "Anticonvulsants",
+  "url": "https://wikem.org/wiki/Anticonvulsants",
+  "scraped_at": "2026-01-10T07:47:53.433668",
+  "sections": {
+    "Intro": {
+      "text": "Carbamazepine\n(Tegretol)\nClobazam\n(Onfi)\nDiazepam\n(Valium)\nEthosuximide\nFosphenytoin\nGabapentin\n(Neurontin)\nLacosamide\n(Vimpat)\nLamotrigine\n(Lamictal)\nLevetiracetam\n(Keppra)\nLorazepam\n(Ativan)\nMidazolam\n(Versed)\nOxcarbazepine\n(Trileptal)\nPentobarbital\nPhenobarbital\nPhenytoin\n(Dilantin)\nPropofol\nTopiramate\n(Topamax)\nValproate\n(Depakote)\nZonisamide\n60 mg/kg/dose IV/IO\nMAX: 4500 mg/dose\n20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IM\nMAX: 1000 PE/dose\n40 mg/kg/dose IV/IO\nMAX: 3000 mg/dose\n20 mg/kg/dose IV/IO\nMAX: 1000 mg/dose\n20 mg/kg/dose IV/IO\nMAX: 1000 mg/dose\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Levetiracetam",
+            "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+            "Infusion Rate (Minutes)": "≥5",
+            "Age": "Any",
+            "Comments/Cautions": "Most commonly used agent"
+          },
+          {
+            "Drug": "Fosphenytoin",
+            "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Valproic acid",
+            "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "≥2 years",
+            "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+          },
+          {
+            "Drug": "Phenytoin",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Phenobarbital",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "<6 months",
+            "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pediatric_Anticonvulsants_Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Levetiracetam",
+            "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+            "Infusion Rate (Minutes)": "≥5",
+            "Age": "Any",
+            "Comments/Cautions": "Most commonly used agent"
+          },
+          {
+            "Drug": "Fosphenytoin",
+            "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Valproic acid",
+            "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "≥2 years",
+            "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+          },
+          {
+            "Drug": "Phenytoin",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Phenobarbital",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "<6 months",
+            "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    }
+  }
+}

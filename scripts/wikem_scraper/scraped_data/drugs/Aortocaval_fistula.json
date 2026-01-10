@@ -1,0 +1,295 @@
+{
+  "drug_name": "Aortocaval_fistula",
+  "url": "https://wikem.org/wiki/Aortocaval_fistula",
+  "scraped_at": "2026-01-10T07:47:59.580481",
+  "sections": {
+    "Background": {
+      "text": "Complication of\nabdominal aortic aneurysm\nRare (<1% of all AAAs, ~3% of ruptured AAAs) but life-threatening (mortality ~50%)\nCaused by inflammation around aorta → adherence of aorta to vein → pressure and erosion into vein → fistula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Presentation depends on origin, size, and location of fistula\nSigns/symptoms of\nAAA\n(\nabdominal\n/\nflank\n/\nback pain\n,\nshock\nif ruptured)\nHigh-output heart failure\nPedal edema\n(due to venous hypertension)\nRenal insufficiency (due to reduced perfusion to kidneys)\nHematuria\nBruit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "flank",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "High-output heart failure",
+          "url": "https://wikem.org/wiki/High-output_heart_failure"
+        },
+        {
+          "text": "Pedal edema",
+          "url": "https://wikem.org/wiki/Pedal_edema"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "US\nto identify AAA\nCT angio",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Ultrasound:_AAA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat\nhypovolemia\n/\nshock\nEmergent surgical repair",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal aortic aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    }
+  }
+}

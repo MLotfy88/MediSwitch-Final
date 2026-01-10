@@ -1,0 +1,62 @@
+{
+  "drug_name": "Antiplatelet_medications",
+  "url": "https://wikem.org/wiki/Antiplatelet_medications",
+  "scraped_at": "2026-01-10T07:47:57.949744",
+  "sections": {
+    "List": {
+      "text": "Irreversible\ncyclooxygenase inhibitors\nAspirin\nTriflusal\n(Disgren)\nAdenosine diphosphate (ADP) receptor inhibitors\nClopidogrel\n(Plavix)\nPrasugrel\n(Effient)\nTicagrelor\n(Brilinta)\nTiclopidine\n(Ticlid)\nPhosphodiesterase inhibitors\nCilostazol\n(Pletal)\nProtease-activated receptor-1 (PAR-1) antagonists\nVorapaxar\n(Zontivity)\nGlycoprotein IIB/IIIA inhibitors\n(intravenous use only)\nAbciximab\n(ReoPro)\nEptifibatide\n(Integrilin)\nTirofiban\n(Aggrastat)\nAdenosine reuptake inhibitors\nDipyridamole\n(Persantine)\nThromboxane inhibitors\nThromboxane synthase inhibitors\nThromboxane receptor antagonists\nTerutroban",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Cilostazol",
+          "url": "https://wikem.org/wiki/Cilostazol"
+        },
+        {
+          "text": "Vorapaxar",
+          "url": "https://wikem.org/wiki/Vorapaxar"
+        },
+        {
+          "text": "Glycoprotein IIB/IIIA inhibitors",
+          "url": "https://wikem.org/wiki/Glycoprotein_IIB/IIIA_inhibitor"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        }
+      ]
+    }
+  }
+}

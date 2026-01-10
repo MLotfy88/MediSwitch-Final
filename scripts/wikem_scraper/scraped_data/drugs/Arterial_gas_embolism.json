@@ -1,0 +1,363 @@
+{
+  "drug_name": "Arterial_gas_embolism",
+  "url": "https://wikem.org/wiki/Arterial_gas_embolism",
+  "scraped_at": "2026-01-10T07:48:08.006594",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"air embolism\"\nMay be fatal when air entry reaches 200-300 mL (pressure gradient of 5 mmHg across 14 ga catheter entrains air at 100 mL/sec)\n[1]\nDialysis related\nDue to negative intrathoracic pressure from spontaneous breathing\nDiving related\nResults from pulmonary barotrauma (most common) and decompression sickness, most commonly in last 10m of ascent.\nClassically presents as LOC within 2 minutes of surfacing, can lead to stroke-like symptoms.",
+      "subsections": {
+        "Prevention": {
+          "text": "Positive pressure mechanical ventilation reduces positive pressure gradient\nTrendelenburg for insertion/removal of IJV and subclav lines\nReverse Trendelenburg for femoral\nSlow and controlled ascent when diving, with special precaution to exhale during ascent in the last 10m so the lungs do not over-pressurize.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Positive pressure mechanical ventilation reduces positive pressure gradient\nTrendelenburg for insertion/removal of IJV and subclav lines\nReverse Trendelenburg for femoral\nSlow and controlled ascent when diving, with special precaution to exhale during ascent in the last 10m so the lungs do not over-pressurize.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic\nMild:\ndyspnea\n,\ncough\nCardiogenic shock\n:\nhypotension\n, oliguria,\naltered mental status\n,\nchest pain\nDialysis\nrelated\nAcute\ndyspnea\n,\nchest tightness\n,\nLOC\n,\ncardiac arrest\n,\narrhythmia\n[2]\nScuba related\nSymptoms develop during ascent or immediately upon surfacing\nCauses variety of\nstroke syndromes\ndepending on part of brain affected\nImmediate\ndeath\n,\nloss of consciousness\n,\nseizure\n,\nblindness\n,\nhemiplegia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest tightness",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "stroke syndromes",
+          "url": "https://wikem.org/wiki/Stroke_syndromes"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diving_Emergencies": {
+          "text": "Barotrauma of descent\nOtic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)\nBarotrauma of ascent\nPulmonary barotrauma\n(\npulmonary overpressurization syndrome\n)\nDecompression sickness\n(DCS)\nArterial gas embolism\nAlternobaric vertigo\nFacial baroparesis (Bells Palsy)\nAt depth injuries\nOxygen toxicity\nNitrogen narcosis\nHypothermia\nContaminated gas mixture (e.g.\nCO toxicity\n)\nCaustic cocktail\nfrom rebreathing circuit",
+          "tables": []
+        },
+        "Dialysis_Complications": {
+          "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "pulmonary overpressurization syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_overpressurization_syndrome"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "CO toxicity",
+          "url": "https://wikem.org/wiki/CO_toxicity"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        },
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Diving_Emergencies": {
+      "text": "Barotrauma of descent\nOtic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)\nBarotrauma of ascent\nPulmonary barotrauma\n(\npulmonary overpressurization syndrome\n)\nDecompression sickness\n(DCS)\nArterial gas embolism\nAlternobaric vertigo\nFacial baroparesis (Bells Palsy)\nAt depth injuries\nOxygen toxicity\nNitrogen narcosis\nHypothermia\nContaminated gas mixture (e.g.\nCO toxicity\n)\nCaustic cocktail\nfrom rebreathing circuit",
+      "subsections": {
+        "Dialysis_Complications": {
+          "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "pulmonary overpressurization syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_overpressurization_syndrome"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "CO toxicity",
+          "url": "https://wikem.org/wiki/CO_toxicity"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        },
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Dialysis_Complications": {
+      "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Low ETCO2 in significant venous air embolism\nTEE\n: most sensitive, invasive not available in emergencies\nDoppler US: noninvasive; air in chamber = high pitch sound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TEE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Dialysis_Related": {
+      "text": "Prevent any further air entry\nImmediately cover puncture site with saline soaked gauze",
+      "subsections": {
+        "Diving_Related": {
+          "text": "IVF\n(increases tissue perfusion)\nRapid recompression,\nhyperbaric oxygen therapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hyperbaric oxygen therapy",
+          "url": "https://wikem.org/wiki/Hyperbaric_medicine"
+        }
+      ]
+    },
+    "Diving_Related": {
+      "text": "IVF\n(increases tissue perfusion)\nRapid recompression,\nhyperbaric oxygen therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hyperbaric oxygen therapy",
+          "url": "https://wikem.org/wiki/Hyperbaric_medicine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Likely admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications\nScuba diving emergencies\nDiving medicine\nHyperbaric medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "Scuba diving emergencies",
+          "url": "https://wikem.org/wiki/Scuba_diving_emergencies"
+        },
+        {
+          "text": "Diving medicine",
+          "url": "https://wikem.org/wiki/Diving_medicine"
+        },
+        {
+          "text": "Hyperbaric medicine",
+          "url": "https://wikem.org/wiki/Hyperbaric_medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merck Manual - Arterial Gas Embolism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

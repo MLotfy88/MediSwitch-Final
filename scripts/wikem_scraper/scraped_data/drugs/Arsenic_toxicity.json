@@ -1,0 +1,955 @@
+{
+  "drug_name": "Arsenic_toxicity",
+  "url": "https://wikem.org/wiki/Arsenic_toxicity",
+  "scraped_at": "2026-01-10T07:48:07.936795",
+  "sections": {
+    "Background": {
+      "text": "Heavy metal\nReadily absorbed via GI tract and inhalation, poorly via skin\nTasteless and odorless\nOrganic trioxide form used as chemotherapeutic agent\nTrivalent form, As3+, is toxic to over 200 intracellular enzymes\nKnown carcinogen: skin, lung, other\nIngestion fatal dose: 100-200mg",
+      "subsections": {
+        "Sources_of_Exposure": {
+          "text": "Poisoning\nContaminated drinking water\nEruptions\nMetal and semiconductor industry\nWood preservatives\nseafood arsenic (felt to be organic form which is NONTOXIC and cleared from body in few days)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heavy metal",
+          "url": "https://wikem.org/wiki/Heavy_metal"
+        }
+      ]
+    },
+    "Sources_of_Exposure": {
+      "text": "Poisoning\nContaminated drinking water\nEruptions\nMetal and semiconductor industry\nWood preservatives\nseafood arsenic (felt to be organic form which is NONTOXIC and cleared from body in few days)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute_ingestion": {
+          "text": "Garlic smell of breath and tissues\nGI symptoms that can resemble\ncholera\nVomiting may be bloody\n\"Rice water\" like diarrhea\nDehydration\nPulmonary Edema\nShock\nRhabdomyolysis\nAltered mental status\nSeizure\nComa\nDeath\nCardiovascular instability",
+          "tables": []
+        },
+        "Arsine_gas_exposure": {
+          "text": "Hemolysis causing abdominal pain\nHematuria\n, urine often looks black\nJaundice\nShaking chills\nCan lead to\naltered mental status\nImmediately lethal at 250 ppm",
+          "tables": []
+        },
+        "Subacute_or_chronic_poisoning": {
+          "text": "Anemia\nPeripheral neuropathy\nTypically symmetric \"glove and stocking\" distribution\nSkin changes\nWhite lines on the finger nails known as \"Mees lines\"\nAtaxia\nCNS Depression\nRisk factor for\nsquamous cell carcinoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cholera",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "CNS Depression",
+          "url": "https://wikem.org/wiki/CNS_Depression"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        }
+      ]
+    },
+    "Acute_ingestion": {
+      "text": "Garlic smell of breath and tissues\nGI symptoms that can resemble\ncholera\nVomiting may be bloody\n\"Rice water\" like diarrhea\nDehydration\nPulmonary Edema\nShock\nRhabdomyolysis\nAltered mental status\nSeizure\nComa\nDeath\nCardiovascular instability",
+      "subsections": {
+        "Arsine_gas_exposure": {
+          "text": "Hemolysis causing abdominal pain\nHematuria\n, urine often looks black\nJaundice\nShaking chills\nCan lead to\naltered mental status\nImmediately lethal at 250 ppm",
+          "tables": []
+        },
+        "Subacute_or_chronic_poisoning": {
+          "text": "Anemia\nPeripheral neuropathy\nTypically symmetric \"glove and stocking\" distribution\nSkin changes\nWhite lines on the finger nails known as \"Mees lines\"\nAtaxia\nCNS Depression\nRisk factor for\nsquamous cell carcinoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cholera",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "CNS Depression",
+          "url": "https://wikem.org/wiki/CNS_Depression"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        }
+      ]
+    },
+    "Arsine_gas_exposure": {
+      "text": "Hemolysis causing abdominal pain\nHematuria\n, urine often looks black\nJaundice\nShaking chills\nCan lead to\naltered mental status\nImmediately lethal at 250 ppm",
+      "subsections": {
+        "Subacute_or_chronic_poisoning": {
+          "text": "Anemia\nPeripheral neuropathy\nTypically symmetric \"glove and stocking\" distribution\nSkin changes\nWhite lines on the finger nails known as \"Mees lines\"\nAtaxia\nCNS Depression\nRisk factor for\nsquamous cell carcinoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "CNS Depression",
+          "url": "https://wikem.org/wiki/CNS_Depression"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        }
+      ]
+    },
+    "Subacute_or_chronic_poisoning": {
+      "text": "Anemia\nPeripheral neuropathy\nTypically symmetric \"glove and stocking\" distribution\nSkin changes\nWhite lines on the finger nails known as \"Mees lines\"\nAtaxia\nCNS Depression\nRisk factor for\nsquamous cell carcinoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "CNS Depression",
+          "url": "https://wikem.org/wiki/CNS_Depression"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "",
+      "subsections": {
+        "Workup_2": {
+          "text": "Urine arsenic level\nECG\nto eval for\nQT Prolongation\nin acute exposure\nCBC and retic count, expect hemolytic anemia\nBMP, Mg, Phos, Ca, LFTs, CK\nType and screen for possible transfusion in arsine gas exposure\nCXR\nif respiratory symptoms\nConsider other ingestion labs including acetaminophen and salicylate level in intentional ingestions",
+          "tables": []
+        },
+        "Diagnosis_2": {
+          "text": "Urine arsenic level (usual normal level is <50mcg/L); both urine spot test and 24h urine collection\nLab must differentiate inorganic from organic arsenic (treat for inorganic exposure only)\nBlood arsenic level not helpful (cleared within 2 hrs of exposure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup_2": {
+      "text": "Urine arsenic level\nECG\nto eval for\nQT Prolongation\nin acute exposure\nCBC and retic count, expect hemolytic anemia\nBMP, Mg, Phos, Ca, LFTs, CK\nType and screen for possible transfusion in arsine gas exposure\nCXR\nif respiratory symptoms\nConsider other ingestion labs including acetaminophen and salicylate level in intentional ingestions",
+      "subsections": {
+        "Diagnosis_2": {
+          "text": "Urine arsenic level (usual normal level is <50mcg/L); both urine spot test and 24h urine collection\nLab must differentiate inorganic from organic arsenic (treat for inorganic exposure only)\nBlood arsenic level not helpful (cleared within 2 hrs of exposure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Diagnosis_2": {
+      "text": "Urine arsenic level (usual normal level is <50mcg/L); both urine spot test and 24h urine collection\nLab must differentiate inorganic from organic arsenic (treat for inorganic exposure only)\nBlood arsenic level not helpful (cleared within 2 hrs of exposure)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_2": {
+      "text": "Supportive care, ABCs, IV, O2, monitor\nRemoval from exposure\nNO\nCharcoal\nif co-ingestion is not suspected - adsorbs poorly to arsenic\nConsider\nWhole Bowel Irrigation\nif large radiopaque material in GI tract on xray\nAirway management and mechanical\nventilation\nif acute inhalation of arsine gas and respiratory distress\nIV fluids\nCHELATION therapy: if severe symptoms present\nDimercaprol\n(BAL). 3-5mg/kg IM Q4-6h",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Whole Bowel Irrigation",
+          "url": "https://wikem.org/wiki/Whole_Bowel_Irrigation"
+        },
+        {
+          "text": "ventilation",
+          "url": "https://wikem.org/wiki/Ventilation"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        }
+      ]
+    },
+    "Disposition_2": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Admit patient to intensive care setting if symptomatic from acute exposure",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Asymptomatic/mildly symptomatic patients or those with suspected chronic exposures may be discharged w/ outpatient follow-up after initial ED observation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Admit patient to intensive care setting if symptomatic from acute exposure",
+      "subsections": {
+        "Discharge": {
+          "text": "Asymptomatic/mildly symptomatic patients or those with suspected chronic exposures may be discharged w/ outpatient follow-up after initial ED observation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Asymptomatic/mildly symptomatic patients or those with suspected chronic exposures may be discharged w/ outpatient follow-up after initial ED observation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also_2": {
+      "text": "Toxicology (Main)\nHeavy Metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "drug_name": "Anticoagulants",
+  "url": "https://wikem.org/wiki/Anticoagulants",
+  "scraped_at": "2026-01-10T07:47:55.215090",
+  "sections": {
+    "Contraindications_to_Anticoagulation": {
+      "text": "Absolute:\nActive bleeding\nSevere bleeding diathesis or platelet count <20K\nNeurosurgery, ocular surgery, or intracranial bleeding in the last 10 days\nRelative:\nMild-to-moderate bleeding diathesis or thrombocytopenia\nBrain metastases\nRecent major trauma\nMajor abdominal surgery within the past 2 days\nGI or GU bleeding within the past 14 days\nEndocarditis\nSevere hypertension (>200/120mmHg) at presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Vitamin_K_Antagonist": {
+      "text": "Blocks activation of vitamin K dependent prothrombotic factors II, VII, IX, X and blocks synthesis of vitamin K dependent ANTI-thrombotic proteins C and S\nWarfarin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Heparins": {
+      "text": "Bind to and activate antithrombin, which in turns inactivates factor Xa and thrombin\nUnfractionated heparin\nLow molecular weight heparin\nEnoxaparin\n(Lovenox)\nDalteparin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        }
+      ]
+    },
+    "Parenteral_Factor_Xa_Inhibitors": {
+      "text": "Fondaparinux",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        }
+      ]
+    },
+    "Factor_Xa_Inhibitors": {
+      "text": "Inhibits Factor Xa, leading to inactivation of thrombin\nRivaroxaban\n(Xarelto)\nApixaban\n(Eliquis)\nEdoxaban",
+      "subsections": {
+        "Direct_Thrombin_Inhibitors": {
+          "text": "Directly inhibits thrombin\nDabigatran\nArgatroban\nBivalirudin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "Dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        }
+      ]
+    },
+    "Direct_Thrombin_Inhibitors": {
+      "text": "Directly inhibits thrombin\nDabigatran\nArgatroban\nBivalirudin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anticoagulant reversal for life-threatening bleeds\nAntiplatelet medications\nProcedures in patients with coagulopathies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Procedures in patients with coagulopathies",
+          "url": "https://wikem.org/wiki/Procedures_in_patients_with_coagulopathies"
+        }
+      ]
+    }
+  }
+}

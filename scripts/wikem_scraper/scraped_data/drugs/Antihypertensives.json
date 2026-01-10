@@ -1,0 +1,221 @@
+{
+  "drug_name": "Antihypertensives",
+  "url": "https://wikem.org/wiki/Antihypertensives",
+  "scraped_at": "2026-01-10T07:47:53.346896",
+  "sections": {
+    "Antihypertensive_types": {
+      "text": "Diuretics\nCalcium channel blockers\nACE inhibitors\nAngiotensin II receptor antagonists\n(ARBs)\nAdrenergic receptor antagonists\nBeta blockers\nAlpha-1 blockers\nAlpha-2 agonists",
+      "subsections": {
+        "Initial_outpatient_hypertension_medications": {
+          "text": "First line for people without comorbidities\nHydrochlorothiazide\n12.5mg, max 25mg\nNeed labs before starting, does not work in people with CKD\nFirst line for people with\nDM\nand/or\nproteinuria\nACEi\n/ARB:\nLisinopril\neither Qday or BID\nNeed Chem 10 before and after starting to check for\nhyperkalemia\nand creatinine\nStart 10mg lisinopril QD\nAnyone with CAD,\nCHF\nBeta-Blocker\n(do not need labs)\nAmlodipine\nfor anyone, except for people with LE edema (do not need labs)\nStart amlodipine 5mg QD\nDiltiazem\nfor\nproteinuria\nin people unable to tolerate\nACEi\n(do not need labs)\nLasix\nfor\nCHF\nand/or lower extremity edema secondary to\nproteinuria\nJNC 8 Recommendations\n[1]",
+          "tables": [
+            [
+              {
+                "Population": "General population",
+                "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+                "Black Patients": "thiazide or CCB"
+              },
+              {
+                "Population": "CKD",
+                "Non-black Patients": "ACEI or ARB",
+                "Black Patients": "ACEI or ARB"
+              },
+              {
+                "Population": "DM",
+                "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+                "Black Patients": "thiazide or CCB"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "ACE inhibitors",
+          "url": "https://wikem.org/wiki/ACE_inhibitors"
+        },
+        {
+          "text": "Angiotensin II receptor antagonists",
+          "url": "https://wikem.org/wiki/Angiotensin_II_receptor_antagonists"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Alpha-1 blockers",
+          "url": "https://wikem.org/wiki/Alpha_blockers"
+        },
+        {
+          "text": "Alpha-2 agonists",
+          "url": "https://wikem.org/wiki/Alpha-2_agonists"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Initial_outpatient_hypertension_medications": {
+      "text": "First line for people without comorbidities\nHydrochlorothiazide\n12.5mg, max 25mg\nNeed labs before starting, does not work in people with CKD\nFirst line for people with\nDM\nand/or\nproteinuria\nACEi\n/ARB:\nLisinopril\neither Qday or BID\nNeed Chem 10 before and after starting to check for\nhyperkalemia\nand creatinine\nStart 10mg lisinopril QD\nAnyone with CAD,\nCHF\nBeta-Blocker\n(do not need labs)\nAmlodipine\nfor anyone, except for people with LE edema (do not need labs)\nStart amlodipine 5mg QD\nDiltiazem\nfor\nproteinuria\nin people unable to tolerate\nACEi\n(do not need labs)\nLasix\nfor\nCHF\nand/or lower extremity edema secondary to\nproteinuria\nJNC 8 Recommendations\n[1]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Population": "General population",
+            "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+            "Black Patients": "thiazide or CCB"
+          },
+          {
+            "Population": "CKD",
+            "Non-black Patients": "ACEI or ARB",
+            "Black Patients": "ACEI or ARB"
+          },
+          {
+            "Population": "DM",
+            "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+            "Black Patients": "thiazide or CCB"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypertension (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension (main)",
+          "url": "https://wikem.org/wiki/Hypertension_(main)"
+        }
+      ]
+    }
+  }
+}

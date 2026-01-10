@@ -1,0 +1,179 @@
+{
+  "drug_name": "Antipsychotics",
+  "url": "https://wikem.org/wiki/Antipsychotics",
+  "scraped_at": "2026-01-10T07:47:56.441190",
+  "sections": {
+    "First-generation": {
+      "text": "",
+      "subsections": {
+        "Butyrophenones": {
+          "text": "Haloperidol",
+          "tables": []
+        },
+        "Diphenylbutylpiperidine": {
+          "text": "Pimozide",
+          "tables": []
+        },
+        "Phenothiazines": {
+          "text": "Chlorpromazine\nFluphenazine\nPerazine\nPerphenazine\nProchlorperazine\nPromethazine\nTrifluoperazine",
+          "tables": []
+        },
+        "Thioxanthenes": {
+          "text": "Clopenthixol\nThiothixene",
+          "tables": []
+        },
+        "Others": {
+          "text": "Loxapine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Butyrophenones": {
+      "text": "Haloperidol",
+      "subsections": {
+        "Diphenylbutylpiperidine": {
+          "text": "Pimozide",
+          "tables": []
+        },
+        "Phenothiazines": {
+          "text": "Chlorpromazine\nFluphenazine\nPerazine\nPerphenazine\nProchlorperazine\nPromethazine\nTrifluoperazine",
+          "tables": []
+        },
+        "Thioxanthenes": {
+          "text": "Clopenthixol\nThiothixene",
+          "tables": []
+        },
+        "Others": {
+          "text": "Loxapine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Diphenylbutylpiperidine": {
+      "text": "Pimozide",
+      "subsections": {
+        "Phenothiazines": {
+          "text": "Chlorpromazine\nFluphenazine\nPerazine\nPerphenazine\nProchlorperazine\nPromethazine\nTrifluoperazine",
+          "tables": []
+        },
+        "Thioxanthenes": {
+          "text": "Clopenthixol\nThiothixene",
+          "tables": []
+        },
+        "Others": {
+          "text": "Loxapine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Phenothiazines": {
+      "text": "Chlorpromazine\nFluphenazine\nPerazine\nPerphenazine\nProchlorperazine\nPromethazine\nTrifluoperazine",
+      "subsections": {
+        "Thioxanthenes": {
+          "text": "Clopenthixol\nThiothixene",
+          "tables": []
+        },
+        "Others": {
+          "text": "Loxapine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Thioxanthenes": {
+      "text": "Clopenthixol\nThiothixene",
+      "subsections": {
+        "Others": {
+          "text": "Loxapine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Others": {
+      "text": "Loxapine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antipsychotic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotic toxicity",
+          "url": "https://wikem.org/wiki/Antipsychotic_toxicity"
+        }
+      ]
+    }
+  }
+}

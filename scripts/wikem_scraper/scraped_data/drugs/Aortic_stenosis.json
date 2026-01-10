@@ -1,0 +1,433 @@
+{
+  "drug_name": "Aortic_stenosis",
+  "url": "https://wikem.org/wiki/Aortic_stenosis",
+  "scraped_at": "2026-01-10T07:48:07.054596",
+  "sections": {
+    "Background": {
+      "text": "Younger patients: usually from a congenital bicuspid valve\nOlder patients: usually from calcifications on aortic valve\nRheumatic heart disease is the next most common\nSignificant obstruction when orifice <1 cm or pressure grad is >50 mmHg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dyspnea\n,\nchest pain\n,\nsyncope\nOnce symptoms present mean survival is 2-3yr\nNatural history is\nangina\n, then\nsyncope\n, then dyspnea from\nCHF\nwhich is late stage\nEjection systolic\nmurmur\nradiating to carotids\nPulsus parvus et tardus\n- slow to rise and late peaking\nNarrowed pulse pressure\nSoft 2nd heart sound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        },
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Echocardiography\n, TTE findings\nMinimal excursion of the aortic valve leaflet\nCalcifications of AV\nSystolic \"doming\" on parasternal long\nTurbulent flow through AV on color doppler\nLV hypertrophy\nNumber of leaflets (unicuspid, bicuspid, tricuspid, quadricuspid)\n[2]\nRaphe in bicuspid aortic valve in diastole may false negatively appear like trileaflet valve\nOnly comment on the number of leaflets in\nsystole\nin parasternal short axis\nSeverity by continuous wave (CW) Doppler peak velocity (m/s)\n[3]\nAS is unlikely if peak CW velocity well below 2.5 m/s, and AVA measurements may not be necessary\nEnsure parallel intercept angle across aortic valve in apical view\n< 2.5 = aortic sclerosis\n2.6 - 2.9 = mild\n3.0 - 4.0 = moderate\n> 4.0 = severe\nAortic valve area (AVA) requires LVOT diameter (D) and velocity time integral (VTI) at LVOT and AV in the continuity equation\nMore reliable than CW doppler peak velocity\nObtain LVOT diameter just apical to AV in PSL at maximal systole\nObtain the following in apical view at the aortic valve\nas parallel to flow as possible\nto avoid falsely low values\nAV VTI (continuous wave doppler), gate at tips of AV opening in systole, tracing below the line in systole\nLVOT VTI (pulse wave doppler), gate in LVOT just apical to AV, tracing below the line in systole\nAortic stenosis valve area severity\n[4]\nNormal, > 2.5 cm²\nMild, 2.5 - 1.5 cm²\nModerate, 1.0 - 1.5 cm²\nSevere, < 1.0 cm²\nCaveats in TTE for AS\nEccentric mitral regurgitation jets may interfere with AV flows\nAtrial fibrillation poses different levels of diastolic and systolic filling, requiring multiple tracings\nPoor LV function may reduce velocities upon measuring, while AS may still be present",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Avoid\nnegative inotropes such as beta-blockers, calcium-channel blockers\nAfterload reduction is controversial and in decompensated AS should only be conducted in a monitored setting\nConsider cardiology consult\nAS +\nA-fib\n= emergency\nConsider emergent\ncardioversion\nPulmonary edema\nDiuretics\n,\nNIV\n, and\nintubation\nif necessary\nEtomidate\nis the induction agent of choice\nExtreme caution with use of nitrates/vasodilators (preload reducers)\nBlood transfusions may cause flash pulmonary edema\nFluid administration\ntakes precedence over worsening pulmonary edema in order to increase preload in patients who are hypotensive\nVasopressors\nPhenylephrine\nis the vasopressor of choice\n[5]\nIncrease in afterload  and diastolic blood pressure increases perfusion of coronary arteries\nReflex bradycardia may also be beneficial\nNorepinephrine\nis a reasonable choice\nAvoid\nepinephrine\nas beta-1 agonism may increase tachycardia and myocardial perfusion demand\nIn critical cases, particularly in those unstable to undergo emergent surgery, balloon aortic valvuloplasty may be an option as bridge to AVR or palliative care in nonsurgical candidates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "NIV",
+          "url": "https://wikem.org/wiki/NIPPV"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Fluid administration",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Severe\nheart failure\nsymptoms resistant to medical management require urgent surgery\nClass I indications for AVR:\nSevere AS in symptomatic pt\nSevere AS undergoing CABG, aortic, or valve surgery\nSevere AS with LV dysfunction, EF < 50%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Valvular emergencies\nHeart murmurs\nCardiogenic shock\nSee\nIntro to Aortic Stenosis by Joseph Minardi on YouTube",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valvular emergencies",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Heart murmurs",
+          "url": "https://wikem.org/wiki/Heart_murmurs"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMRA: The Crashing Patient with Critical Aortic Stenosis\nemDocs - Pocus for Aortic Stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

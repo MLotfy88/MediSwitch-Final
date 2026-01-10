@@ -1,0 +1,128 @@
+{
+  "drug_name": "Argatroban",
+  "url": "https://wikem.org/wiki/Argatroban",
+  "scraped_at": "2026-01-10T07:48:04.447821",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticoagulant\n(Direct thrombin inhibitor)\nDosage Forms: injectable solution, ready-to-use injectable\nDosage Strengths: injectable solution: 100mg/mL; ready-to-use injectable: 50mg/50mL 0.9% NaCl, 125mg/125mL 0.9% NaCl\nRoutes of Administration: IV\nCommon Trade Names: Acova",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "HIT\nwith thrombosis: 2 mcg/kg/min IV infusion, titrate to aPTT 1.5-3x baseline value\nMyocardial infarction: 100 mcg/kg IV bolus + 1-3mcg/kg/min IV infusion x 6-72 hours; goal aPTT 50-85 seconds\nCerebral thrombosis: 60 mg/day continuous IV infusion x 2 days, then 10mg IV BID x 5 days\nCoronary thrombosis prophylaxis after PCI (in patients at risk for\nHIT\n): 350 mcg/kg IV bolus + 25 mcg/kg/min IV continuous infusion; titrate to maintain activated clotting time 300-450 seconds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established\nHIT\n: 0.75 mcg/kg/min IV infusion; titrate in increments of 0.1-0.25 mcg/kg/min to goal aPTT 1.5-3x baseline level",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: more frequent dosage adjustments may be needed. For\nHIT\ntreatment in moderate-severe liver disease, initial dose 0.5mcg/kg/min",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMajor bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Major bleeding: GI bleeding, retroperitoneal hemorrhage, intracranial hemorrhage, coronary artery hemorrhage, hematuria\nAngina, coronary artery thrombosis, aortic valve stenosis, MI, cardiac arrest\nSepsis\nPulmonary edema",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nChest pain\nNausea/vomiting, diarrhea\nHeadache, backache\nDyspnea\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Major bleeding: GI bleeding, retroperitoneal hemorrhage, intracranial hemorrhage, coronary artery hemorrhage, hematuria\nAngina, coronary artery thrombosis, aortic valve stenosis, MI, cardiac arrest\nSepsis\nPulmonary edema",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nChest pain\nNausea/vomiting, diarrhea\nHeadache, backache\nDyspnea\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Hypotension\nChest pain\nNausea/vomiting, diarrhea\nHeadache, backache\nDyspnea\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30-51min, prolonged in hepatic impairment\nMetabolism: Hepatic\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to and directly inhibits thrombin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (main)\nAnticoagulant reversal for life-threatening bleeds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        }
+      ]
+    }
+  }
+}

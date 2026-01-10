@@ -1,0 +1,115 @@
+{
+  "drug_name": "Aortic_ultrasound",
+  "url": "https://wikem.org/wiki/Aortic_ultrasound",
+  "scraped_at": "2026-01-10T07:48:04.816858",
+  "sections": {
+    "Background": {
+      "text": "Aortic ultrasound should be utilized to assess for aneurysm or dissection\nAneurysm is defined as 3cm (150% the upper limit of normal) at the level of the renal arteries (L1-2 vertebral body level)\nRisk of\nAAA\nrupture significantly increases at 5cm but should be ruled out in the proper clinical setting when >3cm\nAAA’s are most commonly infrarenal\nEM providers have an accuracy of 100% in assessing for AAA\n[1]\nAn intimal flap is 67–80% sensitive and 99–100% specific for dissection\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Classic triad for\nAAA\nis pain, hypotension, and pulsatile mass",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "",
+      "subsections": {
+        "5-Point_Assessment": {
+          "text": "Select probe\nCurvilinear/large convex probe (phased array probe may substitute)\nLocation\nStart at the superior aspect of the abdomen below the xyphoid process\nVisualize aorta on the patient’s left, IVC on the right, and vertebral shadow posteriorly\nTransverse views\nProximal aorta\nMid-aorta\nDistal aorta\nAortic bifurcation\nLongitudinal view\nDistal aorta (to assess for saccular aneurysms)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "5-Point_Assessment": {
+      "text": "Select probe\nCurvilinear/large convex probe (phased array probe may substitute)\nLocation\nStart at the superior aspect of the abdomen below the xyphoid process\nVisualize aorta on the patient’s left, IVC on the right, and vertebral shadow posteriorly\nTransverse views\nProximal aorta\nMid-aorta\nDistal aorta\nAortic bifurcation\nLongitudinal view\nDistal aorta (to assess for saccular aneurysms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "AAA identified when diameter measured from outer wall to outer wall (including mural thrombus if present) is >3cm\nIliac vessels at bifurcation, outer wall to outer wall <1.5 cm\n[3]\nAbdominal aortic dissection can be identified as an intimal flap",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Measurements should be done in a transverse view of the aorta for best wall to wall measurement\nAvoid oblique measurements which can be falsely large\nIVC can be differentiated by aorta as it is on the patient’s right, thin-walled, nonpulsatile, and compressible (depending on habitus)\nConstant gentle pressure and jiggling the probe can help to move bowel gas to visualize the aorta\nIn the setting of ruptured AAA, blood may not show up in a fast exam if the bleeding is retroperitoneal\nAAA vs Dissection\nDissections will continue while AAA typically are located in single area\nDissections can be a normal diameter\nMural thrombus can cause falsely small measurements\nUtrasound generally cannot differentiate ruptured from an intact AAA. The distinction is made based on clinical context.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for AAA with clinical indications of hypotension and lower back pain. The aorta was assessed at 4 locations in the transverse plane – proximal, mid, distal, and aortic bifurcation. Additionally, the distal aorta was viewed in the sagittal plane. No sonographic evidence of AAA at these sites.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for AAA with clinical indications of hypotension and lower back pain. The aorta was assessed at 4 locations in the transverse plane – proximal, mid, distal, and aortic bifurcation. Additionally, the distal aorta was viewed in the sagittal plane. A 5.5cm AAA was discovered in the distal aorta.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for AAA with clinical indications of hypotension and lower back pain. The aorta was assessed at 4 locations in the transverse plane – proximal, mid, distal, and aortic bifurcation. Additionally, the distal aorta was viewed in the sagittal plane. No sonographic evidence of AAA at these sites.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for AAA with clinical indications of hypotension and lower back pain. The aorta was assessed at 4 locations in the transverse plane – proximal, mid, distal, and aortic bifurcation. Additionally, the distal aorta was viewed in the sagittal plane. A 5.5cm AAA was discovered in the distal aorta.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for AAA with clinical indications of hypotension and lower back pain. The aorta was assessed at 4 locations in the transverse plane – proximal, mid, distal, and aortic bifurcation. Additionally, the distal aorta was viewed in the sagittal plane. A 5.5cm AAA was discovered in the distal aorta.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "ACEP Focus On: Bedside Ultrasound of the Abdominal Aorta",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (main)\nAAA\nAortic dissection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(main)"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        }
+      ]
+    }
+  }
+}

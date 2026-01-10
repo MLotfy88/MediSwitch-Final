@@ -1,0 +1,130 @@
+{
+  "drug_name": "Antidotes",
+  "url": "https://wikem.org/wiki/Antidotes",
+  "scraped_at": "2026-01-10T07:47:52.176229",
+  "sections": {
+    "Intro": {
+      "text": "N-Acetylcysteine\n150mg/kg IV load over 60min; followed by 50mg/kg IV over 4hr and then 100mg/kg IV over 16hr\nFlumazenil\nAdult: 0.2mg IV\nPeds: 0.01mg/kg IV\nGlucagon\nAdult: 3-10mg IV\nPeds: 50-150mcg/kg IV\nCalcium chloride\n10%\nAdult: 10 mL IV\nPeds: 0.2-0.25 mL/kg IV\nHigh Dose Insulin (1 unit/kg/hr)\nNaloxone\nAdult: 0.4-2mg IV\nPeds: 0.1mg/kg IV (max 2mg)\nHydroxocobalamin\nOR\nCyanokit\n(Amyl Nitrite, Sodium Nitrite, and Sodium Thiosulfate)\nFomepizole\n15mg/kg IV; then 10mg/kg q12h\n4-factor\nPCC\nProtamine sulfate\nAdult: 25-50mg IV (empiric dose) over 10 minutes\nPeds: 0.6mg/kg IV (empiric dose)\nNote: Rapid protamine infusion causes hypotension\n[1]\nPyridoxine\n(Vit B6)\nAdult: 5gm IV\nPeds: 1gm/kg regardless of age\n[2]\nFomepizole\n15mi/kg IV; then 10mg/kg q12h\nOctreotide\nAdult: 50–100mcg SC q6hr\nPeds: 1mcg/kg SC q6hr\nBicarbonate\n1-2mEq/kg IV bolus followed by 2mEq/kg/hr IV infusion\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "TOXIN": "Acetaminophen",
+            "ANTIDOTE": "N-Acetylcysteine150mg/kg IV load over 60min; followed by 50mg/kg IV over 4hr and then 100mg/kg IV over 16hr"
+          },
+          {
+            "TOXIN": "Anticholinergics",
+            "ANTIDOTE": "Physostigmine"
+          },
+          {
+            "TOXIN": "Arsenic",
+            "ANTIDOTE": "Dimercaprol(BAL)"
+          },
+          {
+            "TOXIN": "Benzodiazepines",
+            "ANTIDOTE": "FlumazenilAdult: 0.2mg IVPeds: 0.01mg/kg IV"
+          },
+          {
+            "TOXIN": "Beta blockers",
+            "ANTIDOTE": "GlucagonAdult: 3-10mg IVPeds: 50-150mcg/kg IV"
+          },
+          {
+            "TOXIN": "Ca channel blockers",
+            "ANTIDOTE": "Calcium chloride10%Adult: 10 mL IVPeds: 0.2-0.25 mL/kg IVHigh Dose Insulin (1 unit/kg/hr)"
+          },
+          {
+            "TOXIN": "Clonidine",
+            "ANTIDOTE": "NaloxoneAdult: 0.4-2mg IVPeds: 0.1mg/kg IV (max 2mg)"
+          },
+          {
+            "TOXIN": "Cyanide",
+            "ANTIDOTE": "HydroxocobalaminORCyanokit(Amyl Nitrite, Sodium Nitrite, and Sodium Thiosulfate)"
+          },
+          {
+            "TOXIN": "Dabigatran",
+            "ANTIDOTE": "Idarucizumab5mg IV"
+          },
+          {
+            "TOXIN": "Digoxin",
+            "ANTIDOTE": "Dig Immune Fab"
+          },
+          {
+            "TOXIN": "Ethylene glycol",
+            "ANTIDOTE": "Fomepizole15mg/kg IV; then 10mg/kg q12h"
+          },
+          {
+            "TOXIN": "Factor Xa Inhibitor (e.g.apixaban,rivaroxaban",
+            "ANTIDOTE": "Andexanet alfa4-factorPCC"
+          },
+          {
+            "TOXIN": "Fluoride",
+            "ANTIDOTE": "Calcium gluconate"
+          },
+          {
+            "TOXIN": "Heparin",
+            "ANTIDOTE": "Protamine sulfateAdult: 25-50mg IV (empiric dose) over 10 minutesPeds: 0.6mg/kg IV (empiric dose)Note: Rapid protamine infusion causes hypotension[1]"
+          },
+          {
+            "TOXIN": "Iron",
+            "ANTIDOTE": "Deferoxamine"
+          },
+          {
+            "TOXIN": "Isoniazid(INH)",
+            "ANTIDOTE": "Pyridoxine(Vit B6)Adult: 5gm IVPeds: 1gm/kg regardless of age[2]"
+          },
+          {
+            "TOXIN": "Lead",
+            "ANTIDOTE": "EDTA,succimer"
+          },
+          {
+            "TOXIN": "Mercury",
+            "ANTIDOTE": "Dimercaprol(BAL)"
+          },
+          {
+            "TOXIN": "Methanol",
+            "ANTIDOTE": "Fomepizole15mi/kg IV; then 10mg/kg q12h"
+          },
+          {
+            "TOXIN": "Methemoglobinemia",
+            "ANTIDOTE": "Methylene blue"
+          },
+          {
+            "TOXIN": "Methotrexate toxicity",
+            "ANTIDOTE": "Glucarpidase"
+          },
+          {
+            "TOXIN": "Opioids",
+            "ANTIDOTE": "Naloxone"
+          },
+          {
+            "TOXIN": "Organophosphates",
+            "ANTIDOTE": "Atropine+Pralidoxime"
+          },
+          {
+            "TOXIN": "Sulfonylurea",
+            "ANTIDOTE": "OctreotideAdult: 50–100mcg SC q6hrPeds: 1mcg/kg SC q6hr"
+          },
+          {
+            "TOXIN": "Tricyclic (TCA) Toxicity",
+            "ANTIDOTE": "Bicarbonate1-2mEq/kg IV bolus followed by 2mEq/kg/hr IV infusion"
+          },
+          {
+            "TOXIN": "Valproate",
+            "ANTIDOTE": "L-carnitine"
+          },
+          {
+            "TOXIN": "Warfarin",
+            "ANTIDOTE": "Vitamin K,FFP,Prothrombin complex concentrate"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "References": {
+      "text": "<references>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

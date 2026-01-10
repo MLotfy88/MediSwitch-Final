@@ -1,0 +1,296 @@
+{
+  "drug_name": "Antipsychotic_toxicity",
+  "url": "https://wikem.org/wiki/Antipsychotic_toxicity",
+  "scraped_at": "2026-01-10T07:47:58.621667",
+  "sections": {
+    "Background": {
+      "text": "Isolated overdose of antipsychotics is rarely fatal\nToxicity results in blockade of some or all of the following receptors:\nDopamine - extrapyramidal symptoms\nα-1 - orthostatic hypotension, reflex tachycardia\nMuscarinic - anticholinergic symptoms\nHistamine - sedation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Extrapyramidal\nAcute\ndystonic reaction\nTongue protrusion, facial grimacing, trismus, oculogyric crisis\nAkathisia\nCNS\nLethargy, ataxia, dyarthria, confusion, coma\nSeizure\n(1%)\nAnticholinergic Effects\nTachycardia, dry mucous membranes, dry skin, decreased bowel sounds, delirium\nECG\nchanges\nSinus tachycardia\nQT prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Extrapyramidal",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Anticholinergic_toxicity_Causes": {
+      "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "POC Glucose\nECG\n(QT interval)\nCo-ingestions: serum acetaminophen, salicylate, EtOH level, other known drug levels\nUrine toxicology screen\nChemistry (metabolic acidosis, electrolytes, renal function)\nLFT (hepatotoxicity)\nCK (rhabdomyolysis)\nSerum osmolarity (osmolar gap)\nABG (carboxyhemoglobin, methemoglobin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "POC Glucose\nECG\n(QT interval)\nCo-ingestions: serum acetaminophen, salicylate, EtOH level, other known drug levels\nUrine toxicology screen\nChemistry (metabolic acidosis, electrolytes, renal function)\nLFT (hepatotoxicity)\nCK (rhabdomyolysis)\nSerum osmolarity (osmolar gap)\nABG (carboxyhemoglobin, methemoglobin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive": {
+          "text": "Hypotension\nIVF\nNorepinephrine\nQT prolongation\nTreat all with QTc >500ms with\nmagnesium\n2-4gm IV over 10min",
+          "tables": []
+        },
+        "Extrapyramidal": {
+          "text": "Diphenhydramine\n25-50mg IV/IM\nOR\nbenztropine\n1-2mg IV/IM\nOral therapy with either of above meds should be continued for 2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        }
+      ]
+    },
+    "Supportive": {
+      "text": "Hypotension\nIVF\nNorepinephrine\nQT prolongation\nTreat all with QTc >500ms with\nmagnesium\n2-4gm IV over 10min",
+      "subsections": {
+        "Extrapyramidal": {
+          "text": "Diphenhydramine\n25-50mg IV/IM\nOR\nbenztropine\n1-2mg IV/IM\nOral therapy with either of above meds should be continued for 2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        }
+      ]
+    },
+    "Extrapyramidal": {
+      "text": "Diphenhydramine\n25-50mg IV/IM\nOR\nbenztropine\n1-2mg IV/IM\nOral therapy with either of above meds should be continued for 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge after 6hr as long as there are all of the following:\nNo mental status changes\nNormal HR/BP\nNo orthostatic hypotension\nNormal QT interval",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antipsychotics\nToxicology (main)\nNeuroleptic Malignant Syndrome (NMS)\nTardive dyskinesia\nBeta-Blocker Toxicity\nCalcium Channel Blocker Toxicity\nExtrapyramidal reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome (NMS)",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome_(NMS)"
+        },
+        {
+          "text": "Tardive dyskinesia",
+          "url": "https://wikem.org/wiki/Tardive_dyskinesia"
+        },
+        {
+          "text": "Beta-Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Beta-Blocker_Toxicity"
+        },
+        {
+          "text": "Calcium Channel Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Atypical Antipsychotic Overdose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

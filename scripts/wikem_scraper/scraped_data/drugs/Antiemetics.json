@@ -1,0 +1,53 @@
+{
+  "drug_name": "Antiemetics",
+  "url": "https://wikem.org/wiki/Antiemetics",
+  "scraped_at": "2026-01-10T07:47:55.365143",
+  "sections": {
+    "Antiemetic_Medications": {
+      "text": "Dexamethasone\n[1]\nDroperidol\nMetoclopramide\nOndansetron\n(Zofran)\nProchlorperazine\nPromethazine\nTrimethobenzamide\n(Tigan)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Trimethobenzamide",
+          "url": "https://wikem.org/wiki/Trimethobenzamide"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Nausea and vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        }
+      ]
+    }
+  }
+}

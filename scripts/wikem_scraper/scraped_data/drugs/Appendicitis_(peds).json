@@ -1,0 +1,1108 @@
+{
+  "drug_name": "Appendicitis_(peds)",
+  "url": "https://wikem.org/wiki/Appendicitis_(peds)",
+  "scraped_at": "2026-01-10T07:48:09.857915",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nappendicitis\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common between 9-12yr\nPerforation rate 90% in children <4yr\nNPV of 98% achieved if:\nLack of nausea (or emesis or anorexia)\nLack of maximal TTP in the RLQ\nLack of neutrophil count > 6750",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Local tenderness + McBurney's point rigidity most reliable clinical sign",
+      "subsections": {
+        "Neonates": {
+          "text": "History\nVomiting\nIrritability/\nlethargy\nPhysical\nAbdominal distention",
+          "tables": []
+        },
+        "Infants_(30_days_-_2_yrs)": {
+          "text": "History\nVomiting\nAbdominal pain\nFever\nPhysical\nDiffuse abdominal tenderness\nLocalized RLQ TTP occurs <50%",
+          "tables": []
+        },
+        "Preschool_(2_-_5yrs)": {
+          "text": "History\nVomiting\n(often precedes pain)\nAbdominal pain\nFever\nAnorexia\nPhysical\nRLQ tenderness",
+          "tables": []
+        },
+        "School-age_(6_-_12yrs)": {
+          "text": "History\nVomiting\nAbdominal pain\nFever\nAnorexia\nPhysical\nRLQ tenderness",
+          "tables": []
+        },
+        "Adolescents_(>12yrs)": {
+          "text": "Present similar to adults\nRLQ pain\nVomiting\n(occurs after onset of abdominal pain)\nAnorexia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "RLQ tenderness",
+          "url": "https://wikem.org/wiki/RLQ_tenderness"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Neonates": {
+      "text": "History\nVomiting\nIrritability/\nlethargy\nPhysical\nAbdominal distention",
+      "subsections": {
+        "Infants_(30_days_-_2_yrs)": {
+          "text": "History\nVomiting\nAbdominal pain\nFever\nPhysical\nDiffuse abdominal tenderness\nLocalized RLQ TTP occurs <50%",
+          "tables": []
+        },
+        "Preschool_(2_-_5yrs)": {
+          "text": "History\nVomiting\n(often precedes pain)\nAbdominal pain\nFever\nAnorexia\nPhysical\nRLQ tenderness",
+          "tables": []
+        },
+        "School-age_(6_-_12yrs)": {
+          "text": "History\nVomiting\nAbdominal pain\nFever\nAnorexia\nPhysical\nRLQ tenderness",
+          "tables": []
+        },
+        "Adolescents_(>12yrs)": {
+          "text": "Present similar to adults\nRLQ pain\nVomiting\n(occurs after onset of abdominal pain)\nAnorexia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "RLQ tenderness",
+          "url": "https://wikem.org/wiki/RLQ_tenderness"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    },
+    "Pediatric_Abdominal_Pain": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Appendicitis_Score": {
+          "text": "Score ≤ 2\nLow risk (0-2.5%)\nConsider discharge home with close follow up\nScore 3-6\nIndeterminate risk\nConsider serial exams, consultation, or imaging\nScore ≥ 7\nHigh risk\nConsider surgical consultation",
+          "tables": [
+            [
+              {
+                "Nausea/vomiting": "Anorexia",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Migration of pain to RLQ",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Fever",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Cough/percussion/hopping tenderness",
+                "+1": "+2"
+              },
+              {
+                "Nausea/vomiting": "RLQ tenderness",
+                "+1": "+2"
+              },
+              {
+                "Nausea/vomiting": "Leucocytosis (WBC > 10,000)",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Neutrophilia (ANC > 7,500)",
+                "+1": "+1"
+              }
+            ]
+          ]
+        },
+        "Pediatric_Appendicitis_Risk_Calculator_(pARC)": {
+          "text": "pARC score shown to outperform Pediatric Appendicitis Score. pARC score accurately assesses risk of appendicitis in children age 5 years and older in community EDs\n[2]",
+          "tables": []
+        },
+        "Alvarado_Clinical_Scoring_System": {
+          "text": "Clinical scoring system, where a score (Total=10) is composed on presence/absence of 3 signs, 3 symptoms and 2 lab values to help guide in case management.\n≤3 = Appendicitis unlikely\n≥7 = Surgical consultation\n4-6 = Consider CT\nMANTRELS\nMnemonic:\nM\nigration to the right iliac fossa,\nA\nnorexia,\nN\nausea/Vomiting,\nT\nenderness in the right iliac fossa,\nR\nebound pain,\nE\nlevated temperature (fever),\nL\neukocytosis, and\nS\nhift of leukocytes to the left (factors listed in the same order as presented above).",
+          "tables": [
+            [
+              {
+                "Right Lower Quadrant Tenderness": "Elevated Temperature (37.3°C or 99.1°F)",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Rebound Tenderness",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Migration of Pain to the Right Lower Quadrant",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Anorexia",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Nausea or Vomiting",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocytosis > 10,000",
+                "+2": "+2"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocyte Left Shift",
+                "+2": "+1"
+              }
+            ]
+          ]
+        },
+        "Laboratory_Findings": {
+          "text": "Abdominal panel\nCBC\n<10K is a negative predictor of appendicitis\nHowever, normal WBC does not rule-out appendicitis\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider urine pregnancy test (age appropriate)\nUrinalysis\n7-25% of patients with appendicitis have\nsterile pyuria\nConsider\nserum lactate",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider in intermediate or higher risk patients\nUltrasound\nSn: 88%, Sp: 94%\nConsider as 1st choice in non-obese children\nIndeterminate\nultrasound\nand an Alvarado <5 (see below) has an NPV of 99.6%\n[3]\nCT with IV contrast\nSn: 94%, Sp: 95%\nConsider if ultrasound is equivocal\nOR\nstrong suspicion despite normal ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Patients can be ruled out via a combination of history, physical, labs, and imaging.\nConfirmatory diagnosis is typically made on imaging\nUltrasound is typically performed first:\nIf appendix is positive, appendicitis is ruled in\nIf appendix is visualized and negative, appendicitis is ruled out\nIf appendix is unable to be visualized (i.e., indeterminant), then post-test probability is unchanged. Re-examine and consider CT as next diagnostic study.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "serum lactate",
+          "url": "https://wikem.org/wiki/Serum_lactate"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Pediatric_Risk_Scores": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Appendicitis_Score": {
+          "text": "Score ≤ 2\nLow risk (0-2.5%)\nConsider discharge home with close follow up\nScore 3-6\nIndeterminate risk\nConsider serial exams, consultation, or imaging\nScore ≥ 7\nHigh risk\nConsider surgical consultation",
+          "tables": [
+            [
+              {
+                "Nausea/vomiting": "Anorexia",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Migration of pain to RLQ",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Fever",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Cough/percussion/hopping tenderness",
+                "+1": "+2"
+              },
+              {
+                "Nausea/vomiting": "RLQ tenderness",
+                "+1": "+2"
+              },
+              {
+                "Nausea/vomiting": "Leucocytosis (WBC > 10,000)",
+                "+1": "+1"
+              },
+              {
+                "Nausea/vomiting": "Neutrophilia (ANC > 7,500)",
+                "+1": "+1"
+              }
+            ]
+          ]
+        },
+        "Pediatric_Appendicitis_Risk_Calculator_(pARC)": {
+          "text": "pARC score shown to outperform Pediatric Appendicitis Score. pARC score accurately assesses risk of appendicitis in children age 5 years and older in community EDs\n[2]",
+          "tables": []
+        },
+        "Alvarado_Clinical_Scoring_System": {
+          "text": "Clinical scoring system, where a score (Total=10) is composed on presence/absence of 3 signs, 3 symptoms and 2 lab values to help guide in case management.\n≤3 = Appendicitis unlikely\n≥7 = Surgical consultation\n4-6 = Consider CT\nMANTRELS\nMnemonic:\nM\nigration to the right iliac fossa,\nA\nnorexia,\nN\nausea/Vomiting,\nT\nenderness in the right iliac fossa,\nR\nebound pain,\nE\nlevated temperature (fever),\nL\neukocytosis, and\nS\nhift of leukocytes to the left (factors listed in the same order as presented above).",
+          "tables": [
+            [
+              {
+                "Right Lower Quadrant Tenderness": "Elevated Temperature (37.3°C or 99.1°F)",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Rebound Tenderness",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Migration of Pain to the Right Lower Quadrant",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Anorexia",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Nausea or Vomiting",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocytosis > 10,000",
+                "+2": "+2"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocyte Left Shift",
+                "+2": "+1"
+              }
+            ]
+          ]
+        },
+        "Laboratory_Findings": {
+          "text": "Abdominal panel\nCBC\n<10K is a negative predictor of appendicitis\nHowever, normal WBC does not rule-out appendicitis\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider urine pregnancy test (age appropriate)\nUrinalysis\n7-25% of patients with appendicitis have\nsterile pyuria\nConsider\nserum lactate",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider in intermediate or higher risk patients\nUltrasound\nSn: 88%, Sp: 94%\nConsider as 1st choice in non-obese children\nIndeterminate\nultrasound\nand an Alvarado <5 (see below) has an NPV of 99.6%\n[3]\nCT with IV contrast\nSn: 94%, Sp: 95%\nConsider if ultrasound is equivocal\nOR\nstrong suspicion despite normal ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Patients can be ruled out via a combination of history, physical, labs, and imaging.\nConfirmatory diagnosis is typically made on imaging\nUltrasound is typically performed first:\nIf appendix is positive, appendicitis is ruled in\nIf appendix is visualized and negative, appendicitis is ruled out\nIf appendix is unable to be visualized (i.e., indeterminant), then post-test probability is unchanged. Re-examine and consider CT as next diagnostic study.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "serum lactate",
+          "url": "https://wikem.org/wiki/Serum_lactate"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Laboratory_Findings": {
+          "text": "Abdominal panel\nCBC\n<10K is a negative predictor of appendicitis\nHowever, normal WBC does not rule-out appendicitis\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider urine pregnancy test (age appropriate)\nUrinalysis\n7-25% of patients with appendicitis have\nsterile pyuria\nConsider\nserum lactate",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider in intermediate or higher risk patients\nUltrasound\nSn: 88%, Sp: 94%\nConsider as 1st choice in non-obese children\nIndeterminate\nultrasound\nand an Alvarado <5 (see below) has an NPV of 99.6%\n[3]\nCT with IV contrast\nSn: 94%, Sp: 95%\nConsider if ultrasound is equivocal\nOR\nstrong suspicion despite normal ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Patients can be ruled out via a combination of history, physical, labs, and imaging.\nConfirmatory diagnosis is typically made on imaging\nUltrasound is typically performed first:\nIf appendix is positive, appendicitis is ruled in\nIf appendix is visualized and negative, appendicitis is ruled out\nIf appendix is unable to be visualized (i.e., indeterminant), then post-test probability is unchanged. Re-examine and consider CT as next diagnostic study.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "serum lactate",
+          "url": "https://wikem.org/wiki/Serum_lactate"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Patients can be ruled out via a combination of history, physical, labs, and imaging.\nConfirmatory diagnosis is typically made on imaging\nUltrasound is typically performed first:\nIf appendix is positive, appendicitis is ruled in\nIf appendix is visualized and negative, appendicitis is ruled out\nIf appendix is unable to be visualized (i.e., indeterminant), then post-test probability is unchanged. Re-examine and consider CT as next diagnostic study.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_Management": {
+          "text": "NPO status\nFluid resuscitation\nIVF\n(20 mL/kg boluses)\nAnalgesia\n/\nantiemetics\n(e.g.,\nmorphine\n,\nondansetron\n)",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Ampicillin/sulbactam\nOR\ncefoxitin\nPenicillin allergy?\nGentamicin\n+ (\nclindamycin\nOR\nmetronidazole\n)\nPerforation or complicated appendicitis\n[4]\nIV antibiotic regimen as below:\nAmpicillin\n100 mg/kg/d q6hr, max 8 g per dose\nAND\nGentamicin\n5 mg/kg QD, max 300 mg\nAND\nMetronidazole\n30 mg/kg/d q8hr, max 1.5 g\nDaily doses of\nceftriaxone\nand\nmetronidazole\njust as effective:\nCeftriaxone\n50 mg/kg, max 2 g QD\nAND\nMetronidazole\n30 mg/kg, max 1.5 g QD",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Surgical consult, NPO, surgical pre-op labs if appropriate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Ampicillin/sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/sulbactam"
+        },
+        {
+          "text": "cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Supportive_Management": {
+      "text": "NPO status\nFluid resuscitation\nIVF\n(20 mL/kg boluses)\nAnalgesia\n/\nantiemetics\n(e.g.,\nmorphine\n,\nondansetron\n)",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Ampicillin/sulbactam\nOR\ncefoxitin\nPenicillin allergy?\nGentamicin\n+ (\nclindamycin\nOR\nmetronidazole\n)\nPerforation or complicated appendicitis\n[4]\nIV antibiotic regimen as below:\nAmpicillin\n100 mg/kg/d q6hr, max 8 g per dose\nAND\nGentamicin\n5 mg/kg QD, max 300 mg\nAND\nMetronidazole\n30 mg/kg/d q8hr, max 1.5 g\nDaily doses of\nceftriaxone\nand\nmetronidazole\njust as effective:\nCeftriaxone\n50 mg/kg, max 2 g QD\nAND\nMetronidazole\n30 mg/kg, max 1.5 g QD",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Surgical consult, NPO, surgical pre-op labs if appropriate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Ampicillin/sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/sulbactam"
+        },
+        {
+          "text": "cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Ampicillin/sulbactam\nOR\ncefoxitin\nPenicillin allergy?\nGentamicin\n+ (\nclindamycin\nOR\nmetronidazole\n)\nPerforation or complicated appendicitis\n[4]\nIV antibiotic regimen as below:\nAmpicillin\n100 mg/kg/d q6hr, max 8 g per dose\nAND\nGentamicin\n5 mg/kg QD, max 300 mg\nAND\nMetronidazole\n30 mg/kg/d q8hr, max 1.5 g\nDaily doses of\nceftriaxone\nand\nmetronidazole\njust as effective:\nCeftriaxone\n50 mg/kg, max 2 g QD\nAND\nMetronidazole\n30 mg/kg, max 1.5 g QD",
+      "subsections": {
+        "Surgery": {
+          "text": "Surgical consult, NPO, surgical pre-op labs if appropriate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin/sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/sulbactam"
+        },
+        {
+          "text": "cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Surgery": {
+      "text": "Surgical consult, NPO, surgical pre-op labs if appropriate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal pain (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain (peds)",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        }
+      ]
+    }
+  }
+}

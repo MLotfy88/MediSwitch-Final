@@ -1,0 +1,1058 @@
+{
+  "drug_name": "Appendicitis",
+  "url": "https://wikem.org/wiki/Appendicitis",
+  "scraped_at": "2026-01-10T07:48:05.097540",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\nThis page is for\nadult\npatients. For pediatric patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Acute inflammation of the vermiform appendix\nMost common non-obstetric surgical emergency in pregnancy\nMost common abdominal surgical emergency in patients <50\nMost common between 10-30 years, but no age is exempt\nMost commonly caused by luminal obstruction by a fecalith\nThere are no historical or physical exam findings that can definitively rule out appendicitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Early on primarily malaise, indigestion, anorexia\nLater patient develops\nabdominal pain\nInitially vague, periumbilical (visceral innervation)\nLater migrates to McBurney point (parietal innervation)\n<50% of patients have this typical presentation\nNausea\n, with or with out emesis, typically follows onset of pain\nFever\nmay or not occur\nUrinary symptoms common given proximity of appendix to urinary tract (sterile pyuria)\nSudden improvement suggests perforation\n33% of patients have atypical presentation\nRetrocecal appendix can cause\nflank\nor\npelvic pain\nGravid uterus sometimes displaces appendix superiorly →\nRUQ pain",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "McBurney's: maximal tenderness to palpation 2/3 of the way between umbilicus and right anterior superior iliac spine\nRovsing sign (palpation of LLQ worsens RLQ pain)\nPsoas sign (extension of right leg at hip while patient lies on left side elicits abdominal pain)\nObturator sign (internal and external rotation of thigh at hip elicits pain\nPeritonitis\nsuggested by:\nRight heel strike elicits pain\nGuarding\nRebound\nRigidity",
+          "tables": []
+        },
+        "Clinical_Examination_Operating_Characteristics": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Procedure": "RLQ pain",
+                "LR+": "7.3-8.4",
+                "LR-": "0-0.28"
+              },
+              {
+                "Procedure": "Rigidity",
+                "LR+": "3.76",
+                "LR-": "0.82"
+              },
+              {
+                "Procedure": "Migration",
+                "LR+": "3.18",
+                "LR-": "0.50"
+              },
+              {
+                "Procedure": "Pain before vomiting",
+                "LR+": "2.76",
+                "LR-": "NA"
+              },
+              {
+                "Procedure": "Psoas sign",
+                "LR+": "2.38",
+                "LR-": "0.90"
+              },
+              {
+                "Procedure": "Fever",
+                "LR+": "1.94",
+                "LR-": "0.58"
+              },
+              {
+                "Procedure": "Rebound",
+                "LR+": "1.1-6.3",
+                "LR-": "0-0.86"
+              },
+              {
+                "Procedure": "Guarding",
+                "LR+": "1.65-1.78",
+                "LR-": "0-0.54"
+              },
+              {
+                "Procedure": "No similar pain previously",
+                "LR+": "1.5",
+                "LR-": "0.32"
+              },
+              {
+                "Procedure": "Anorexia",
+                "LR+": "1.27",
+                "LR-": "0.64"
+              },
+              {
+                "Procedure": "Nausea",
+                "LR+": "0.69-1.2",
+                "LR-": "0.70-0.84"
+              },
+              {
+                "Procedure": "Vomiting",
+                "LR+": "0.92",
+                "LR-": "1.12"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Early on primarily malaise, indigestion, anorexia\nLater patient develops\nabdominal pain\nInitially vague, periumbilical (visceral innervation)\nLater migrates to McBurney point (parietal innervation)\n<50% of patients have this typical presentation\nNausea\n, with or with out emesis, typically follows onset of pain\nFever\nmay or not occur\nUrinary symptoms common given proximity of appendix to urinary tract (sterile pyuria)\nSudden improvement suggests perforation\n33% of patients have atypical presentation\nRetrocecal appendix can cause\nflank\nor\npelvic pain\nGravid uterus sometimes displaces appendix superiorly →\nRUQ pain",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "McBurney's: maximal tenderness to palpation 2/3 of the way between umbilicus and right anterior superior iliac spine\nRovsing sign (palpation of LLQ worsens RLQ pain)\nPsoas sign (extension of right leg at hip while patient lies on left side elicits abdominal pain)\nObturator sign (internal and external rotation of thigh at hip elicits pain\nPeritonitis\nsuggested by:\nRight heel strike elicits pain\nGuarding\nRebound\nRigidity",
+          "tables": []
+        },
+        "Clinical_Examination_Operating_Characteristics": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Procedure": "RLQ pain",
+                "LR+": "7.3-8.4",
+                "LR-": "0-0.28"
+              },
+              {
+                "Procedure": "Rigidity",
+                "LR+": "3.76",
+                "LR-": "0.82"
+              },
+              {
+                "Procedure": "Migration",
+                "LR+": "3.18",
+                "LR-": "0.50"
+              },
+              {
+                "Procedure": "Pain before vomiting",
+                "LR+": "2.76",
+                "LR-": "NA"
+              },
+              {
+                "Procedure": "Psoas sign",
+                "LR+": "2.38",
+                "LR-": "0.90"
+              },
+              {
+                "Procedure": "Fever",
+                "LR+": "1.94",
+                "LR-": "0.58"
+              },
+              {
+                "Procedure": "Rebound",
+                "LR+": "1.1-6.3",
+                "LR-": "0-0.86"
+              },
+              {
+                "Procedure": "Guarding",
+                "LR+": "1.65-1.78",
+                "LR-": "0-0.54"
+              },
+              {
+                "Procedure": "No similar pain previously",
+                "LR+": "1.5",
+                "LR-": "0.32"
+              },
+              {
+                "Procedure": "Anorexia",
+                "LR+": "1.27",
+                "LR-": "0.64"
+              },
+              {
+                "Procedure": "Nausea",
+                "LR+": "0.69-1.2",
+                "LR-": "0.70-0.84"
+              },
+              {
+                "Procedure": "Vomiting",
+                "LR+": "0.92",
+                "LR-": "1.12"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physical_Exam": {
+      "text": "McBurney's: maximal tenderness to palpation 2/3 of the way between umbilicus and right anterior superior iliac spine\nRovsing sign (palpation of LLQ worsens RLQ pain)\nPsoas sign (extension of right leg at hip while patient lies on left side elicits abdominal pain)\nObturator sign (internal and external rotation of thigh at hip elicits pain\nPeritonitis\nsuggested by:\nRight heel strike elicits pain\nGuarding\nRebound\nRigidity",
+      "subsections": {
+        "Clinical_Examination_Operating_Characteristics": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Procedure": "RLQ pain",
+                "LR+": "7.3-8.4",
+                "LR-": "0-0.28"
+              },
+              {
+                "Procedure": "Rigidity",
+                "LR+": "3.76",
+                "LR-": "0.82"
+              },
+              {
+                "Procedure": "Migration",
+                "LR+": "3.18",
+                "LR-": "0.50"
+              },
+              {
+                "Procedure": "Pain before vomiting",
+                "LR+": "2.76",
+                "LR-": "NA"
+              },
+              {
+                "Procedure": "Psoas sign",
+                "LR+": "2.38",
+                "LR-": "0.90"
+              },
+              {
+                "Procedure": "Fever",
+                "LR+": "1.94",
+                "LR-": "0.58"
+              },
+              {
+                "Procedure": "Rebound",
+                "LR+": "1.1-6.3",
+                "LR-": "0-0.86"
+              },
+              {
+                "Procedure": "Guarding",
+                "LR+": "1.65-1.78",
+                "LR-": "0-0.54"
+              },
+              {
+                "Procedure": "No similar pain previously",
+                "LR+": "1.5",
+                "LR-": "0.32"
+              },
+              {
+                "Procedure": "Anorexia",
+                "LR+": "1.27",
+                "LR-": "0.64"
+              },
+              {
+                "Procedure": "Nausea",
+                "LR+": "0.69-1.2",
+                "LR-": "0.70-0.84"
+              },
+              {
+                "Procedure": "Vomiting",
+                "LR+": "0.92",
+                "LR-": "1.12"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Examination_Operating_Characteristics": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Procedure": "RLQ pain",
+            "LR+": "7.3-8.4",
+            "LR-": "0-0.28"
+          },
+          {
+            "Procedure": "Rigidity",
+            "LR+": "3.76",
+            "LR-": "0.82"
+          },
+          {
+            "Procedure": "Migration",
+            "LR+": "3.18",
+            "LR-": "0.50"
+          },
+          {
+            "Procedure": "Pain before vomiting",
+            "LR+": "2.76",
+            "LR-": "NA"
+          },
+          {
+            "Procedure": "Psoas sign",
+            "LR+": "2.38",
+            "LR-": "0.90"
+          },
+          {
+            "Procedure": "Fever",
+            "LR+": "1.94",
+            "LR-": "0.58"
+          },
+          {
+            "Procedure": "Rebound",
+            "LR+": "1.1-6.3",
+            "LR-": "0-0.86"
+          },
+          {
+            "Procedure": "Guarding",
+            "LR+": "1.65-1.78",
+            "LR-": "0-0.54"
+          },
+          {
+            "Procedure": "No similar pain previously",
+            "LR+": "1.5",
+            "LR-": "0.32"
+          },
+          {
+            "Procedure": "Anorexia",
+            "LR+": "1.27",
+            "LR-": "0.64"
+          },
+          {
+            "Procedure": "Nausea",
+            "LR+": "0.69-1.2",
+            "LR-": "0.70-0.84"
+          },
+          {
+            "Procedure": "Vomiting",
+            "LR+": "0.92",
+            "LR-": "1.12"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "RLQ_Pain": {
+      "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Alvarado_Clinical_Scoring_System": {
+          "text": "Clinical scoring system, where a score (Total=10) is composed on presence/absence of 3 signs, 3 symptoms and 2 lab values to help guide in case management.\n≤3 = Appendicitis unlikely\n≥7 = Surgical consultation\n4-6 = Consider CT\nMANTRELS\nMnemonic:\nM\nigration to the right iliac fossa,\nA\nnorexia,\nN\nausea/Vomiting,\nT\nenderness in the right iliac fossa,\nR\nebound pain,\nE\nlevated temperature (fever),\nL\neukocytosis, and\nS\nhift of leukocytes to the left (factors listed in the same order as presented above).",
+          "tables": [
+            [
+              {
+                "Right Lower Quadrant Tenderness": "Elevated Temperature (37.3°C or 99.1°F)",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Rebound Tenderness",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Migration of Pain to the Right Lower Quadrant",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Anorexia",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Nausea or Vomiting",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocytosis > 10,000",
+                "+2": "+2"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocyte Left Shift",
+                "+2": "+1"
+              }
+            ]
+          ]
+        },
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nNormal WBC does not rule-out appendicitis\nOnly 80% of patients will have leukocytosis with left shift\n[2]\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nUrine pregnancy\nUrinalysis\nLeukocytes will be present in 40% of patients\n[3]\nConsider\nserum lactate\nDoes not necessarily define level of severity (if appendicitis is present.)\nCan aid in trending effective resuscitation once the diagnosis is made.\nConsider CRP\nNormal CRP AND WBC makes appendicitis unlikely",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Early surgical consultation should be obtained before imaging in straightforward cases\nNot universally necessary; consider in:\nWomen of reproductive age\nMen with equivocal presentation\nPerforation may result in false negative study\nImaging modalities\nUltrasound\nFirst choice for pregnant women and children\nLimitations: operator-dependent, difficult to visualize with obesity, gravid uterus, bowel gas, guarding, lack of patient cooperation\nFindings: noncompressible appendix >6mm in diameter, wall thickness greater or equal to 3 mm\nOther supportive findings: aperistalsis, distinct wall layers, target appearance in axial view, appendicolith, periappendiceal fluid, prominent echogenic periappendiceal fat\nCT\nFirst choice for adult males and nonpregnant women with equivocal cases\nWomen derive the greatest benefit from preoperative imaging (lower neg appy rate)\nContrast (both PO and IV) is unnecessary but typically ordered\nMRI\nWhen unable to identify appendix in children or pregnant women",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Appendicitis_Risk_Scores": {
+      "text": "",
+      "subsections": {
+        "Alvarado_Clinical_Scoring_System": {
+          "text": "Clinical scoring system, where a score (Total=10) is composed on presence/absence of 3 signs, 3 symptoms and 2 lab values to help guide in case management.\n≤3 = Appendicitis unlikely\n≥7 = Surgical consultation\n4-6 = Consider CT\nMANTRELS\nMnemonic:\nM\nigration to the right iliac fossa,\nA\nnorexia,\nN\nausea/Vomiting,\nT\nenderness in the right iliac fossa,\nR\nebound pain,\nE\nlevated temperature (fever),\nL\neukocytosis, and\nS\nhift of leukocytes to the left (factors listed in the same order as presented above).",
+          "tables": [
+            [
+              {
+                "Right Lower Quadrant Tenderness": "Elevated Temperature (37.3°C or 99.1°F)",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Rebound Tenderness",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Migration of Pain to the Right Lower Quadrant",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Anorexia",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Nausea or Vomiting",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocytosis > 10,000",
+                "+2": "+2"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocyte Left Shift",
+                "+2": "+1"
+              }
+            ]
+          ]
+        },
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nNormal WBC does not rule-out appendicitis\nOnly 80% of patients will have leukocytosis with left shift\n[2]\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nUrine pregnancy\nUrinalysis\nLeukocytes will be present in 40% of patients\n[3]\nConsider\nserum lactate\nDoes not necessarily define level of severity (if appendicitis is present.)\nCan aid in trending effective resuscitation once the diagnosis is made.\nConsider CRP\nNormal CRP AND WBC makes appendicitis unlikely",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Early surgical consultation should be obtained before imaging in straightforward cases\nNot universally necessary; consider in:\nWomen of reproductive age\nMen with equivocal presentation\nPerforation may result in false negative study\nImaging modalities\nUltrasound\nFirst choice for pregnant women and children\nLimitations: operator-dependent, difficult to visualize with obesity, gravid uterus, bowel gas, guarding, lack of patient cooperation\nFindings: noncompressible appendix >6mm in diameter, wall thickness greater or equal to 3 mm\nOther supportive findings: aperistalsis, distinct wall layers, target appearance in axial view, appendicolith, periappendiceal fluid, prominent echogenic periappendiceal fat\nCT\nFirst choice for adult males and nonpregnant women with equivocal cases\nWomen derive the greatest benefit from preoperative imaging (lower neg appy rate)\nContrast (both PO and IV) is unnecessary but typically ordered\nMRI\nWhen unable to identify appendix in children or pregnant women",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "Abdominal panel\nCBC\nNormal WBC does not rule-out appendicitis\nOnly 80% of patients will have leukocytosis with left shift\n[2]\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nUrine pregnancy\nUrinalysis\nLeukocytes will be present in 40% of patients\n[3]\nConsider\nserum lactate\nDoes not necessarily define level of severity (if appendicitis is present.)\nCan aid in trending effective resuscitation once the diagnosis is made.\nConsider CRP\nNormal CRP AND WBC makes appendicitis unlikely",
+      "subsections": {
+        "Imaging": {
+          "text": "Early surgical consultation should be obtained before imaging in straightforward cases\nNot universally necessary; consider in:\nWomen of reproductive age\nMen with equivocal presentation\nPerforation may result in false negative study\nImaging modalities\nUltrasound\nFirst choice for pregnant women and children\nLimitations: operator-dependent, difficult to visualize with obesity, gravid uterus, bowel gas, guarding, lack of patient cooperation\nFindings: noncompressible appendix >6mm in diameter, wall thickness greater or equal to 3 mm\nOther supportive findings: aperistalsis, distinct wall layers, target appearance in axial view, appendicolith, periappendiceal fluid, prominent echogenic periappendiceal fat\nCT\nFirst choice for adult males and nonpregnant women with equivocal cases\nWomen derive the greatest benefit from preoperative imaging (lower neg appy rate)\nContrast (both PO and IV) is unnecessary but typically ordered\nMRI\nWhen unable to identify appendix in children or pregnant women",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Early surgical consultation should be obtained before imaging in straightforward cases\nNot universally necessary; consider in:\nWomen of reproductive age\nMen with equivocal presentation\nPerforation may result in false negative study\nImaging modalities\nUltrasound\nFirst choice for pregnant women and children\nLimitations: operator-dependent, difficult to visualize with obesity, gravid uterus, bowel gas, guarding, lack of patient cooperation\nFindings: noncompressible appendix >6mm in diameter, wall thickness greater or equal to 3 mm\nOther supportive findings: aperistalsis, distinct wall layers, target appearance in axial view, appendicolith, periappendiceal fluid, prominent echogenic periappendiceal fat\nCT\nFirst choice for adult males and nonpregnant women with equivocal cases\nWomen derive the greatest benefit from preoperative imaging (lower neg appy rate)\nContrast (both PO and IV) is unnecessary but typically ordered\nMRI\nWhen unable to identify appendix in children or pregnant women",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_Management": {
+          "text": "NPO status\nFluid resuscitation\nAnalgesia\n/\nantiemetics",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Coverage should extend to\nE. coli\n,\nKlebsiella\n,\nProteus\n, and\nBacteroides\n(an anaerobe)",
+          "tables": []
+        },
+        "Adult_Simple_Appendicitis": {
+          "text": "Antibiotic prophylaxis should be coordinated with surgical consult\nOptions:\nCefoxitin\n2g IV q6 hours OR\nCefotetan\n2g IV q12 hours OR\nMoxifloxacin\n400mg IV once daily OR\nErtapenem\n1g IV once daily",
+          "tables": []
+        },
+        "Pediatric_Simple_Appendicitis": {
+          "text": "Options:\nCefoxitin\n40mg/kg IV q6 hours\nCefotetan\n40mg/kg IV q12 hours\nGentamicin\n2.5mg/kg IV q8hrs +\nMetronidazole\n7.5mg/kg IV 16hrs OR\nClindamycin\n10mg/kg IV q8hrs",
+          "tables": []
+        },
+        "Complicated_Appendicitis": {
+          "text": "Defined as perforation, abscess, or phlegmon\nOptions:\nMetronidazole\n500 mg IV q8hrs +\nCefepime\n50 mg/kg IV q12hrs OR\nCiprofloxacin\n400 mg IV q12hrs OR\nLevofloxacin\n750 mg IV q24hrs OR\nAztreonam\n30 mg/kg IV q8hrs\nImipenem/Cilastatin\n25 mg/kg IV q6hrs (max 500mg)\nMeropenem\n20 mg/kg IV q8hrs (max 1g)\nPiperacillin/Tazobactam\n100 mg/kg (max 4.5g) IV q8hrs\nCautious use should be applied to use of\nfluoroquinolones\nin complicated pediatric appendicitis due to the risk of tendon injury",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Open laparotomy or laparoscopy\nPatients who present <72 hours after the onset of symptoms usually undergo immediate appendectomy\nPatients who present >72hrs and have perforated appendix may be treated initially with antibiotics, intravenous fluids, and bowel rest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Supportive_Management": {
+      "text": "NPO status\nFluid resuscitation\nAnalgesia\n/\nantiemetics",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Coverage should extend to\nE. coli\n,\nKlebsiella\n,\nProteus\n, and\nBacteroides\n(an anaerobe)",
+          "tables": []
+        },
+        "Adult_Simple_Appendicitis": {
+          "text": "Antibiotic prophylaxis should be coordinated with surgical consult\nOptions:\nCefoxitin\n2g IV q6 hours OR\nCefotetan\n2g IV q12 hours OR\nMoxifloxacin\n400mg IV once daily OR\nErtapenem\n1g IV once daily",
+          "tables": []
+        },
+        "Pediatric_Simple_Appendicitis": {
+          "text": "Options:\nCefoxitin\n40mg/kg IV q6 hours\nCefotetan\n40mg/kg IV q12 hours\nGentamicin\n2.5mg/kg IV q8hrs +\nMetronidazole\n7.5mg/kg IV 16hrs OR\nClindamycin\n10mg/kg IV q8hrs",
+          "tables": []
+        },
+        "Complicated_Appendicitis": {
+          "text": "Defined as perforation, abscess, or phlegmon\nOptions:\nMetronidazole\n500 mg IV q8hrs +\nCefepime\n50 mg/kg IV q12hrs OR\nCiprofloxacin\n400 mg IV q12hrs OR\nLevofloxacin\n750 mg IV q24hrs OR\nAztreonam\n30 mg/kg IV q8hrs\nImipenem/Cilastatin\n25 mg/kg IV q6hrs (max 500mg)\nMeropenem\n20 mg/kg IV q8hrs (max 1g)\nPiperacillin/Tazobactam\n100 mg/kg (max 4.5g) IV q8hrs\nCautious use should be applied to use of\nfluoroquinolones\nin complicated pediatric appendicitis due to the risk of tendon injury",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Open laparotomy or laparoscopy\nPatients who present <72 hours after the onset of symptoms usually undergo immediate appendectomy\nPatients who present >72hrs and have perforated appendix may be treated initially with antibiotics, intravenous fluids, and bowel rest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Coverage should extend to\nE. coli\n,\nKlebsiella\n,\nProteus\n, and\nBacteroides\n(an anaerobe)",
+      "subsections": {
+        "Adult_Simple_Appendicitis": {
+          "text": "Antibiotic prophylaxis should be coordinated with surgical consult\nOptions:\nCefoxitin\n2g IV q6 hours OR\nCefotetan\n2g IV q12 hours OR\nMoxifloxacin\n400mg IV once daily OR\nErtapenem\n1g IV once daily",
+          "tables": []
+        },
+        "Pediatric_Simple_Appendicitis": {
+          "text": "Options:\nCefoxitin\n40mg/kg IV q6 hours\nCefotetan\n40mg/kg IV q12 hours\nGentamicin\n2.5mg/kg IV q8hrs +\nMetronidazole\n7.5mg/kg IV 16hrs OR\nClindamycin\n10mg/kg IV q8hrs",
+          "tables": []
+        },
+        "Complicated_Appendicitis": {
+          "text": "Defined as perforation, abscess, or phlegmon\nOptions:\nMetronidazole\n500 mg IV q8hrs +\nCefepime\n50 mg/kg IV q12hrs OR\nCiprofloxacin\n400 mg IV q12hrs OR\nLevofloxacin\n750 mg IV q24hrs OR\nAztreonam\n30 mg/kg IV q8hrs\nImipenem/Cilastatin\n25 mg/kg IV q6hrs (max 500mg)\nMeropenem\n20 mg/kg IV q8hrs (max 1g)\nPiperacillin/Tazobactam\n100 mg/kg (max 4.5g) IV q8hrs\nCautious use should be applied to use of\nfluoroquinolones\nin complicated pediatric appendicitis due to the risk of tendon injury",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Open laparotomy or laparoscopy\nPatients who present <72 hours after the onset of symptoms usually undergo immediate appendectomy\nPatients who present >72hrs and have perforated appendix may be treated initially with antibiotics, intravenous fluids, and bowel rest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Surgery": {
+      "text": "Open laparotomy or laparoscopy\nPatients who present <72 hours after the onset of symptoms usually undergo immediate appendectomy\nPatients who present >72hrs and have perforated appendix may be treated initially with antibiotics, intravenous fluids, and bowel rest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Infection": {
+          "text": "Either a simple wound infection or an intraabdominal abscess\nTypically in patients with perforated appendicitis",
+          "tables": []
+        },
+        "Recurrent_appendicitis": {
+          "text": "Occurs in approximately 1:50,000 appendectomies\n[4]\nTypically caused by inflammation of the remaining appendiceal stump\nCan also be caused by a retained piece of the appendix not removed during surgery\n[5]\nCan present similar to primary appendicitis\nTreatment similar to that of primary appendicitis and likely requires surgical revision of the appendiceal stump or removal of retained tissue\nDelay in diagnosis and treatment can result in perforation and sepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infection": {
+      "text": "Either a simple wound infection or an intraabdominal abscess\nTypically in patients with perforated appendicitis",
+      "subsections": {
+        "Recurrent_appendicitis": {
+          "text": "Occurs in approximately 1:50,000 appendectomies\n[4]\nTypically caused by inflammation of the remaining appendiceal stump\nCan also be caused by a retained piece of the appendix not removed during surgery\n[5]\nCan present similar to primary appendicitis\nTreatment similar to that of primary appendicitis and likely requires surgical revision of the appendiceal stump or removal of retained tissue\nDelay in diagnosis and treatment can result in perforation and sepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Recurrent_appendicitis": {
+      "text": "Occurs in approximately 1:50,000 appendectomies\n[4]\nTypically caused by inflammation of the remaining appendiceal stump\nCan also be caused by a retained piece of the appendix not removed during surgery\n[5]\nCan present similar to primary appendicitis\nTreatment similar to that of primary appendicitis and likely requires surgical revision of the appendiceal stump or removal of retained tissue\nDelay in diagnosis and treatment can result in perforation and sepsis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Appendicitis (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "CHOP Appendicitis Pathway\nACEP Clinical Policy Statement\nemDocs - Appendicitis: Why Do We Miss It, and How Do We Improve?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

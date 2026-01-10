@@ -1,0 +1,71 @@
+{
+  "drug_name": "Aortic_endograft_complications",
+  "url": "https://wikem.org/wiki/Aortic_endograft_complications",
+  "scraped_at": "2026-01-10T07:48:02.880083",
+  "sections": {
+    "Background": {
+      "text": "Patients with Endovascular Aortic Repair (EVAR) can have unique complications that are not discussed in most emergency medicine literature.\nEVAR has largely replaced open aortic repair as the gold standard for the treatment of Abdominal Aortic Aneurysm (AAA).\nCommon complications including aortoenteric fistula, endoleaks, and graft thrombosis can present in a similar fashion to other common ED diagnoses.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "The presentation can vary based on the underlying issue with the graft. Most symptoms are non-specific and include nausea, vomiting, abdominal pain, hematochezia, and back pain.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "EVAR_Complications": {
+          "text": "Aortoenteric Fistula (most common)- expect symptoms of GI bleeding.\nEndoleaks- Vascular flow outside of the graft that is still contained in the aortic aneurysm. This can lead to worsening AAA and ultimately rupture.\nType 1: the seal of the graft fails\nType 2: a collateral vessel leaks\nType 3: graft tear or failure\nType 4: porosity of the graft\nType 5: endotension/unidentifiable source\nLimb ischemia- via embolism from the graft\nGraft thrombosis\nThis usually occurs in the first 6 months following graft implantation\nGraft infection\nA rare complication but with a mortality approaching 40%. Symptoms are non-specific.\nRenal artery occlusion\nColonic ischemia\nSpinal cord ischemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "EVAR_Complications": {
+      "text": "Aortoenteric Fistula (most common)- expect symptoms of GI bleeding.\nEndoleaks- Vascular flow outside of the graft that is still contained in the aortic aneurysm. This can lead to worsening AAA and ultimately rupture.\nType 1: the seal of the graft fails\nType 2: a collateral vessel leaks\nType 3: graft tear or failure\nType 4: porosity of the graft\nType 5: endotension/unidentifiable source\nLimb ischemia- via embolism from the graft\nGraft thrombosis\nThis usually occurs in the first 6 months following graft implantation\nGraft infection\nA rare complication but with a mortality approaching 40%. Symptoms are non-specific.\nRenal artery occlusion\nColonic ischemia\nSpinal cord ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Physical\nThere are no exam findings which reliably rule in or out these diagnoses.\nLabs\nCBC, CMP, Lipase, Type and Screen, UA, +/- Blood cultures(graft infection), +/- Lactate(suspected mesenteric ischemia)\nImaging\nCT- for the highest sensitivity a\ntriple phase CT scan (non-contrast, arterial phase, delayed phase)\nis required. Usually you want to talk with radiology prior to this study.\nUltrasound- both point of care ultrasound and duplex ultrasound do not detect EVAR complications with high enough sensitivity to be use routinely.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Coordination of care with vascular surgery is recommended when a graft issue is suspected- consult early\nBalanced resuscitation and early antibiotics if infection is suspected.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Knowing the unique complications of EVAR is the first and most important step in the management of these patients.\nUnfortunately, while CT is sensitive for most complications of EVAR it does NOT definitively exclude Aortoenteric Fistula, Graft infection or endoleaks. Maintain a high index of suspicion when a EVAR issue is suspected and always lean toward conservative management/early specialist consultation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Post-surgical complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-surgical complications",
+          "url": "https://wikem.org/wiki/Post-surgical_complications"
+        }
+      ]
+    },
+    "References": {
+      "text": "Slama R, Long B, Koyfman A,: The Emergency medicine approach to abdominal vascular graft complications. AJEM 2016; 34: pp. 2014-2017",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

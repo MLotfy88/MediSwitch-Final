@@ -1,0 +1,271 @@
+{
+  "drug_name": "Antiphospholipid_syndrome",
+  "url": "https://wikem.org/wiki/Antiphospholipid_syndrome",
+  "scraped_at": "2026-01-10T07:47:56.696154",
+  "sections": {
+    "Background": {
+      "text": "APS definition (need 1 from each category):\nPresence of at least 1 of the following:\nDVT\n,\narterial thrombosis\n, or pregnancy morbidity (eg fetal loss, preterm)\nPresence of at least 1 of the following antiphospholipid antibodies (aPL): lupus anticoagulant (LA), anticardiolipin (aCL), β2-glycoprotein-1 (β2-GP-1)\nAPS can occur as a primary condition or in setting of underlying disease (eg\nSLE\n)\nLifelong anticoagulation with\nwarfarin\n, with the following target INRs\n[1]\n2.0-3.0 for venous\n3.0 for arterial\n3.0-4.0 recurrent thrombosis\nASA\nplus\nwarfarin\nfor severe/refractory cases",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Currently accepted theory: Susceptible patients (eg SLE) develop aPL after infection. After development of aPL, “second hit” stress required to develop full-blown APS. aPL affects coagulation by interacting with protein C, annexin V, platelets, proteases, tissue factor, and impairing fibrinolysis\n“Second hit” stressors: smoking, prolonged immobilization, pregnancy, exogenous estrogen, malignancy, nephrotic syndrome, hypertension, hyperlipidemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "arterial thrombosis",
+          "url": "https://wikem.org/wiki/Arterial_thrombosis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Currently accepted theory: Susceptible patients (eg SLE) develop aPL after infection. After development of aPL, “second hit” stress required to develop full-blown APS. aPL affects coagulation by interacting with protein C, annexin V, platelets, proteases, tissue factor, and impairing fibrinolysis\n“Second hit” stressors: smoking, prolonged immobilization, pregnancy, exogenous estrogen, malignancy, nephrotic syndrome, hypertension, hyperlipidemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Thrombocytopenia\n,\nincreased PT/INR and aPTT\nMicroangiopathic Hemolytic Anemia (MAHA)\nDVT\n/PE\nFetal loss\nHeart\nvalve disease\naPL-nephropathy\nStroke\n/\nTIA\n, other neuro symptoms\nLivedo reticularis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "increased PT/INR and aPTT",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "valve disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_(MAHA)": {
+          "text": "Disseminated Intravascular Coagulation (DIC)\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nHELLP syndrome\nHeparin-Induced Thrombocytopenia (HIT)\nHereditary spherocytosis\nParoxysmal nocturnal hemoglobinuria\n(PNH)\nMalignant hypertension\nScleroderma\nAntiphospholipid Syndrome (APS)\nOther medical causes: malignancy, renal allograft rejection, vasculitides like\npolyarteritis nodosa\nand\nWegener's granulomatosis\nDrugs: chemotherapy;\nClopidogrel\n(Plavix) associated with\nTTP\nNonvascular causes: prosthetic valve (more common with mechanical, more common at aortic valve),\nLVAD\n,\nTIPS\n, coil embolization, patched AV shunt,\nAVM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Heparin-Induced Thrombocytopenia (HIT)",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "LVAD",
+          "url": "https://wikem.org/wiki/LVAD"
+        },
+        {
+          "text": "TIPS",
+          "url": "https://wikem.org/wiki/TIPS"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Anticoagulation\n(\nunfractionated heparin\n,\nLMWH\n, or\nwarfarin\n)\nNo benefit in treatment or prophylaxis using\nASA\nor\nplavix\nAdd\nhydroxychloroquine\nif patient has SLE\nWarfarin contraindicated in pregnancy!\nDOACs (such as rivaroxaban, apixaban, and dabigatran) have not been shown to be effective in APS\nIVIG\n,\nplasmapheresis\n, and steroids have\nnot\nbeen proven to be of benefit in APS",
+      "subsections": {
+        "Catastrophic_APS_Treatment": {
+          "text": "Treat stress that precipitated catastrophic APS (eg infection), anticoagulation, high dose\nsteroids\nIf evidence of microangiopathy (\nthrombocytopenia\n,\nMAHA\n), add\nIVIG\nand\nplasma exchange\nto above regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "plavix",
+          "url": "https://wikem.org/wiki/Plavix"
+        },
+        {
+          "text": "hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "MAHA",
+          "url": "https://wikem.org/wiki/MAHA"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        }
+      ]
+    },
+    "Catastrophic_APS_Treatment": {
+      "text": "Treat stress that precipitated catastrophic APS (eg infection), anticoagulation, high dose\nsteroids\nIf evidence of microangiopathy (\nthrombocytopenia\n,\nMAHA\n), add\nIVIG\nand\nplasma exchange\nto above regimen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "MAHA",
+          "url": "https://wikem.org/wiki/MAHA"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Acute complications, admission with hematology consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Catastrophic APS: widespread thrombotic disease with multiorgan failure precipitated by some stress (eg infection)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

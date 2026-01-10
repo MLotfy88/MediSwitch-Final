@@ -1,0 +1,82 @@
+{
+  "drug_name": "Arbovirus",
+  "url": "https://wikem.org/wiki/Arbovirus",
+  "scraped_at": "2026-01-10T07:48:03.960474",
+  "sections": {
+    "Background": {
+      "text": "Infections spread by mosquitos, ticks, flies.\nDengue fever is the most common causes of arboviral disease around the world.\nIncreased incidence in warmer months.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most commonly manifest as four syndromes (that may overlap:)\nFever and myalgia\nArthritis and rash\nEncephalitis\nViral hemorrhagic fever\nHeadache common part of all syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Fever and rash\nEncephalitis\nViral hemorrhagic fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever and rash",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Detailed travel and exposure history\nLocal epidemiologic patterns helpful\nSpecific serologic testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Symptomatic management\nExclude other causes if serious presentation\nConsider empiric\nacyclovir\nand\nantibiotics\nuntil\nHSV\nand\nbacterial meningitis\n/encephalitis ruled out.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "bacterial meningitis",
+          "url": "https://wikem.org/wiki/Bacterial_meningitis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Takhar SS, Moran GJ. Disseminated Viral Infections. In: Tintinalli JE, Stapczynski J, Ma O, Cline DM, Cydulka RK, Meckler GD, T. eds. Tintinalli's Emergency Medicine: A Comprehensive Study Guide. New York, NY: McGraw-Hill; 2011.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "drug_name": "Antivirals",
+  "url": "https://wikem.org/wiki/Antivirals",
+  "scraped_at": "2026-01-10T07:48:01.233715",
+  "sections": {
+    "Anti-herpetic_agents": {
+      "text": "Acyclovir\nFamciclovir\nFoscarnet\nGanciclovir\nValacyclovir\nValganciclovir",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Valganciclovir",
+          "url": "https://wikem.org/wiki/Valganciclovir"
+        }
+      ]
+    },
+    "Anti-influenza_agents": {
+      "text": "",
+      "subsections": {
+        "Adamantane_Derivatives": {
+          "text": "Amantadine\nRimantadine",
+          "tables": []
+        },
+        "Neuraminidase_Inhibitors": {
+          "text": "Oseltamivir\nPeramivir\nZanamivir",
+          "tables": []
+        },
+        "Endonuclease_Inhibitors": {
+          "text": "Baloxavir marboxil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "Rimantadine",
+          "url": "https://wikem.org/wiki/Rimantadine"
+        },
+        {
+          "text": "Oseltamivir",
+          "url": "https://wikem.org/wiki/Oseltamivir"
+        },
+        {
+          "text": "Peramivir",
+          "url": "https://wikem.org/wiki/Peramivir"
+        },
+        {
+          "text": "Zanamivir",
+          "url": "https://wikem.org/wiki/Zanamivir"
+        },
+        {
+          "text": "Baloxavir marboxil",
+          "url": "https://wikem.org/wiki/Baloxavir_marboxil"
+        }
+      ]
+    },
+    "Adamantane_Derivatives": {
+      "text": "Amantadine\nRimantadine",
+      "subsections": {
+        "Neuraminidase_Inhibitors": {
+          "text": "Oseltamivir\nPeramivir\nZanamivir",
+          "tables": []
+        },
+        "Endonuclease_Inhibitors": {
+          "text": "Baloxavir marboxil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "Rimantadine",
+          "url": "https://wikem.org/wiki/Rimantadine"
+        },
+        {
+          "text": "Oseltamivir",
+          "url": "https://wikem.org/wiki/Oseltamivir"
+        },
+        {
+          "text": "Peramivir",
+          "url": "https://wikem.org/wiki/Peramivir"
+        },
+        {
+          "text": "Zanamivir",
+          "url": "https://wikem.org/wiki/Zanamivir"
+        },
+        {
+          "text": "Baloxavir marboxil",
+          "url": "https://wikem.org/wiki/Baloxavir_marboxil"
+        }
+      ]
+    },
+    "Neuraminidase_Inhibitors": {
+      "text": "Oseltamivir\nPeramivir\nZanamivir",
+      "subsections": {
+        "Endonuclease_Inhibitors": {
+          "text": "Baloxavir marboxil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oseltamivir",
+          "url": "https://wikem.org/wiki/Oseltamivir"
+        },
+        {
+          "text": "Peramivir",
+          "url": "https://wikem.org/wiki/Peramivir"
+        },
+        {
+          "text": "Zanamivir",
+          "url": "https://wikem.org/wiki/Zanamivir"
+        },
+        {
+          "text": "Baloxavir marboxil",
+          "url": "https://wikem.org/wiki/Baloxavir_marboxil"
+        }
+      ]
+    },
+    "Endonuclease_Inhibitors": {
+      "text": "Baloxavir marboxil",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Baloxavir marboxil",
+          "url": "https://wikem.org/wiki/Baloxavir_marboxil"
+        }
+      ]
+    },
+    "Interferons": {
+      "text": "Interferon-α",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        }
+      ]
+    },
+    "HAART": {
+      "text": "HIV regimen that typically consists of combination of 2 nucleoside and/or non-nucleoside reverse transcriptase inhibitors PLUS a protease inhibitor, reverse-transcriptase inhibitor, or integrase inhibitor\nUS DHHS first-line regimens\nEmtricitabine/tenofovir\n(Truvada) + raltegravir\nEmtricitabine/tenofovir\n+ dolutegravir\nAbacavir/lamivudine\n(Epzicom) + dolutegravir\nOR\nabacavir/lamivudine\n/dolutegravir (Triumeq)\nEmtricitabine/tenofovir\n/elvitegravir/cobicistat (Stribild)\nEmtricitabine/tenofovir\n+ ritonavir + darunavir\nWHO first-line regimen\nEmtricitabine/tenofovir\n/efavirenz (Atripla)\nTenofovir + lamivudine + efavirenz",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Abacavir/lamivudine",
+          "url": "https://wikem.org/wiki/Abacavir/lamivudine"
+        },
+        {
+          "text": "abacavir/lamivudine",
+          "url": "https://wikem.org/wiki/Abacavir/lamivudine"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Ribavirin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ribavirin",
+          "url": "https://wikem.org/wiki/Ribavirin"
+        }
+      ]
+    }
+  }
+}

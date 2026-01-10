@@ -1,0 +1,215 @@
+{
+  "drug_name": "Aortic_regurgitation",
+  "url": "https://wikem.org/wiki/Aortic_regurgitation",
+  "scraped_at": "2026-01-10T07:48:01.607941",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "Endocarditis\nAortic dissection\nAlways suspect in acute aortic regurgitation\nBlunt\nchest trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "chest trauma",
+          "url": "https://wikem.org/wiki/Chest_trauma"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Endocarditis\nAortic dissection\nAlways suspect in acute aortic regurgitation\nBlunt\nchest trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "chest trauma",
+          "url": "https://wikem.org/wiki/Chest_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pulmonary edema\nWide pulse pressure\nDyspnea\nHypotension\n(may progress to cardiogenic shock)\nDecrescendo diastolic\nmurmur\nheard immediately after S2",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider the following tests\nCXR\nmay be helpful\nMay see pulmonary edema with out cardiac enlargement\nLeft ventricular hypertrophy and dilated aorta\nTransthoracic echo\nwill provide a more definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Transthoracic echo",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Immediate surgical intervention\nReduce afterload\nNitroprusside\nInotropic support\nDobutamine\nDiuretics and nitrates do\nnot\nwork\nDo\nnot\nuse β-blockers (block compensatory tachycardia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Immediate surgical intervention\nReduce afterload\nNitroprusside\nInotropic support\nDobutamine\nDiuretics and nitrates do\nnot\nwork\nDo\nnot\nuse β-blockers (block compensatory tachycardia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Immediate surgical intervention\nReduce afterload\nNitroprusside\nInotropic support\nDobutamine\nDiuretics and nitrates do\nnot\nwork\nDo\nnot\nuse β-blockers (block compensatory tachycardia)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Valvular emergencies\nHeart murmurs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valvular emergencies",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Heart murmurs",
+          "url": "https://wikem.org/wiki/Heart_murmurs"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Acute Valvular Emergencies: Pearls and Pitfalls\nRECAP EM - Diagnosis and Management of Severe Aortic Regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

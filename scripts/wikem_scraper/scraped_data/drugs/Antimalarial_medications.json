@@ -1,0 +1,13 @@
+{
+  "drug_name": "Antimalarial_medications",
+  "url": "https://wikem.org/wiki/Antimalarial_medications",
+  "scraped_at": "2026-01-10T07:47:55.547641",
+  "sections": {
+    "Intro": {
+      "text": "Recommended therapy for malaria depends on species, regional resistance patterns, and disease severity. Many treatment regimens include a combination of agents\nMedications listed in most recent CDC guidelines\n[1]\ninclude:\nAtovaquone-proguanil\n(Malarone)\nArtemether-lumefantrine\nArtesunate\nQuinine\n,\nQuinidine\nChloroquine\n,\nHydroxychloroquine\nPrimaquine\nArtesunate (not currently licensed in the US)\nClindamycin\n,\ndoxycycline\n,\ntetracycline\n(used in combination with quinine/quinidine)\nOther antimalarials:\nPyrimethamine\nDapsone\nAtovaquone\nAmodiaquine\nDihydroartemisinin\nPiperaquine\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

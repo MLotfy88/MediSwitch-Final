@@ -1,0 +1,111 @@
+{
+  "drug_name": "Apgar_score",
+  "url": "https://wikem.org/wiki/Apgar_score",
+  "scraped_at": "2026-01-10T07:48:02.458405",
+  "sections": {
+    "Background": {
+      "text": "Performed at 1 and 5 minutes of life\nScore range = 0 - 10\nDesigned to assess newborn's condition at birth\n[1]\nReal-time use only - not a predictive score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Criteria": {
+      "text": "",
+      "subsections": {
+        "Apgar_score": {
+          "text": "Score at 1 minute and 5 minutes post delivery.",
+          "tables": [
+            [
+              {
+                "": "Appearance",
+                "Score of 0": "blue or pale all over(central cyanosis)",
+                "Score of 1": "peripheral cyanosis (acrocyanosis)body pink",
+                "Score of 2": "no cyanosisbody and extremities pink"
+              },
+              {
+                "": "Pulse",
+                "Score of 0": "absent",
+                "Score of 1": "<100 beats per minute",
+                "Score of 2": "≥100 beats per minute"
+              },
+              {
+                "": "Grimace",
+                "Score of 0": "no response to stimulation",
+                "Score of 1": "grimace on suction or aggressive stimulation",
+                "Score of 2": "cry on stimulation"
+              },
+              {
+                "": "Activity",
+                "Score of 0": "none",
+                "Score of 1": "some flexion",
+                "Score of 2": "flexed arms and legs that resist extension"
+              },
+              {
+                "": "Respiration",
+                "Score of 0": "absent",
+                "Score of 1": "weak, irregular, gasping",
+                "Score of 2": "strong, lusty cry"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Apgar_score": {
+      "text": "Score at 1 minute and 5 minutes post delivery.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Appearance",
+            "Score of 0": "blue or pale all over(central cyanosis)",
+            "Score of 1": "peripheral cyanosis (acrocyanosis)body pink",
+            "Score of 2": "no cyanosisbody and extremities pink"
+          },
+          {
+            "": "Pulse",
+            "Score of 0": "absent",
+            "Score of 1": "<100 beats per minute",
+            "Score of 2": "≥100 beats per minute"
+          },
+          {
+            "": "Grimace",
+            "Score of 0": "no response to stimulation",
+            "Score of 1": "grimace on suction or aggressive stimulation",
+            "Score of 2": "cry on stimulation"
+          },
+          {
+            "": "Activity",
+            "Score of 0": "none",
+            "Score of 1": "some flexion",
+            "Score of 2": "flexed arms and legs that resist extension"
+          },
+          {
+            "": "Respiration",
+            "Score of 0": "absent",
+            "Score of 1": "weak, irregular, gasping",
+            "Score of 2": "strong, lusty cry"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Emergent delivery\nNewborn resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        }
+      ]
+    }
+  }
+}

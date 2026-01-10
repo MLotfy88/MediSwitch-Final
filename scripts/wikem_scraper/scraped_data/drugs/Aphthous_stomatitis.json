@@ -1,0 +1,160 @@
+{
+  "drug_name": "Aphthous_stomatitis",
+  "url": "https://wikem.org/wiki/Aphthous_stomatitis",
+  "scraped_at": "2026-01-10T07:48:03.475098",
+  "sections": {
+    "Background": {
+      "text": "Affects 20% of the normal population\nUnclear etiology. Common triggers: stress, hormonal changes, smoking, certain food such as coffee, chocolate.\nResolve spontaneously in 10-14d",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Involves the nonkeratinized epithelium (especially labial and buccal mucosa)\nBegins as erythematous macule that ulcerates and forms a central fibropurulent eschar\nLesions measure from 2-3mm to several cm in diameter",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Topical corticosteroids\nBetamethasone\nsyrup\nOR\nDexamethasone\n0.01% elixir as mouth rinse\nOR\nFluocinonide 0.05% gel applied topically to isolated lesions\nBiopsy to evaluate for malignancy or immune-mediated disease is recommended if lesion does not respond appropriately to steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical corticosteroids",
+          "url": "https://wikem.org/wiki/Topical_corticosteroids"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    }
+  }
+}

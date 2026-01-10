@@ -1,0 +1,462 @@
+{
+  "drug_name": "Aortoenteric_fisulta/en",
+  "url": "https://wikem.org/wiki/Aortoenteric_fisulta/en",
+  "scraped_at": "2026-01-10T07:48:03.310807",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Fistula formed between aorta and intestines\nCan be primary or secondary (often due to\nAAA\nrepair)\nCan form fistula anytime within life of\nAAA\ngraft repair\nHigher risk with recent graft placement\nInvolves the duodenum (ADF) in most cases\n[1]\nIncidence of primary aortoenteric fistulas is estimated to be about 0.007 per million while secondary aortoenteric fistulas is about 0.6-2%\nMortality of 100% if left untreated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Classic triad:\nabdominal pain\n,\nGI bleeding\nand pulsatile abdominal mass\nPresent in 23% of patients\nLow grade\nfever\nAbdominal pain\nBack pain\nHistory of\nAAA\ngraft\nBRBPR\nor\nmelena\nHerald bleed - initial melena or hematochezia with few hemodynamic changes; then followed by severe bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Upper_gastrointestinal_bleeding": {
+          "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+          "tables": []
+        },
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        },
+        "Undifferentiated_lower_gastrointestinal_bleeding": {
+          "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Upper_gastrointestinal_bleeding": {
+      "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+      "subsections": {
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        },
+        "Undifferentiated_lower_gastrointestinal_bleeding": {
+          "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Undifferentiated_lower_gastrointestinal_bleeding": {
+      "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "If suspicion high, involve vascular surgery early\nCBC\nChem 10\nType and Cross\nPT/INR/PTT\nBlood culture if fever - high risk for infections with secondary fistulas (ie grafts)\nAortic ultrasound\nand\nFAST exam\nto assess for AAA and Free Fluid\nCXR\nfor pre-op, if patient stable\nECG\nfor pre-op\nCTA of abdomen/pelvis, highly sensitive, if patient stable\nPatient may need gastroduodenal endoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fluid resuscitation\nTransfuse\npRBCs\nas needed\nSurgical Intervention\nTransfer if not available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

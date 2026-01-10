@@ -1,0 +1,325 @@
+{
+  "drug_name": "Antifungal",
+  "url": "https://wikem.org/wiki/Antifungal",
+  "scraped_at": "2026-01-10T07:47:52.451529",
+  "sections": {
+    "Classes": {
+      "text": "",
+      "subsections": {
+        "Polyene_anti_fungals": {
+          "text": "Amphotericin B\nCandicidin\nFilipin\nHamycin\nNatamycin\nNystatin\nRimocidin",
+          "tables": []
+        },
+        "Imidazoles": {
+          "text": "Bifonazole\nButoconazole\nClotrimazole\nEconazole\nFenticonazole\nIsoconazole\nKetoconazole\nLuliconazole\nMiconazole\nOmoconazole\nOxiconazole\nSertaconazole\nSulconazole\nTioconazole",
+          "tables": []
+        },
+        "Triazoles": {
+          "text": "Albaconazole\nEfinaconazole\nEpoxiconazole\nFluconazole\nIsavuconazole\nItraconazole\nPosaconazole\nPropiconazole\nRavuconazole\nTerconazole\nVoriconazole",
+          "tables": []
+        },
+        "Thiazoles": {
+          "text": "Abafungin",
+          "tables": []
+        },
+        "Allylamines": {
+          "text": "Inhibit squalene epoxidase, an enzyme required for ergosterol synthesis.\nAmorolfin\nButenafine\nNaftifine\nTerbinafine",
+          "tables": []
+        },
+        "Echinocandins": {
+          "text": "May be used for systemic fungal infections in immunocompromised patients; inhibit the synthesis of glucan in the cell wall via the enzyme Beta (1-3) glucan synthase; are poorly absorbed when administered orally\nAnidulafungin\nCaspofungin\nMicafungin",
+          "tables": []
+        },
+        "Others": {
+          "text": "Benzoic acid\nCiclopirox\nFlucytosine\nGriseofulvin\nTolnaftate\nUndecylenic acid\nCrystal violet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Polyene_anti_fungals": {
+      "text": "Amphotericin B\nCandicidin\nFilipin\nHamycin\nNatamycin\nNystatin\nRimocidin",
+      "subsections": {
+        "Imidazoles": {
+          "text": "Bifonazole\nButoconazole\nClotrimazole\nEconazole\nFenticonazole\nIsoconazole\nKetoconazole\nLuliconazole\nMiconazole\nOmoconazole\nOxiconazole\nSertaconazole\nSulconazole\nTioconazole",
+          "tables": []
+        },
+        "Triazoles": {
+          "text": "Albaconazole\nEfinaconazole\nEpoxiconazole\nFluconazole\nIsavuconazole\nItraconazole\nPosaconazole\nPropiconazole\nRavuconazole\nTerconazole\nVoriconazole",
+          "tables": []
+        },
+        "Thiazoles": {
+          "text": "Abafungin",
+          "tables": []
+        },
+        "Allylamines": {
+          "text": "Inhibit squalene epoxidase, an enzyme required for ergosterol synthesis.\nAmorolfin\nButenafine\nNaftifine\nTerbinafine",
+          "tables": []
+        },
+        "Echinocandins": {
+          "text": "May be used for systemic fungal infections in immunocompromised patients; inhibit the synthesis of glucan in the cell wall via the enzyme Beta (1-3) glucan synthase; are poorly absorbed when administered orally\nAnidulafungin\nCaspofungin\nMicafungin",
+          "tables": []
+        },
+        "Others": {
+          "text": "Benzoic acid\nCiclopirox\nFlucytosine\nGriseofulvin\nTolnaftate\nUndecylenic acid\nCrystal violet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Imidazole,_triazole,_and_thiazole_antifungals": {
+      "text": "",
+      "subsections": {
+        "Imidazoles": {
+          "text": "Bifonazole\nButoconazole\nClotrimazole\nEconazole\nFenticonazole\nIsoconazole\nKetoconazole\nLuliconazole\nMiconazole\nOmoconazole\nOxiconazole\nSertaconazole\nSulconazole\nTioconazole",
+          "tables": []
+        },
+        "Triazoles": {
+          "text": "Albaconazole\nEfinaconazole\nEpoxiconazole\nFluconazole\nIsavuconazole\nItraconazole\nPosaconazole\nPropiconazole\nRavuconazole\nTerconazole\nVoriconazole",
+          "tables": []
+        },
+        "Thiazoles": {
+          "text": "Abafungin",
+          "tables": []
+        },
+        "Allylamines": {
+          "text": "Inhibit squalene epoxidase, an enzyme required for ergosterol synthesis.\nAmorolfin\nButenafine\nNaftifine\nTerbinafine",
+          "tables": []
+        },
+        "Echinocandins": {
+          "text": "May be used for systemic fungal infections in immunocompromised patients; inhibit the synthesis of glucan in the cell wall via the enzyme Beta (1-3) glucan synthase; are poorly absorbed when administered orally\nAnidulafungin\nCaspofungin\nMicafungin",
+          "tables": []
+        },
+        "Others": {
+          "text": "Benzoic acid\nCiclopirox\nFlucytosine\nGriseofulvin\nTolnaftate\nUndecylenic acid\nCrystal violet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Miconazole",
+          "url": "https://wikem.org/wiki/Miconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Allylamines": {
+      "text": "Inhibit squalene epoxidase, an enzyme required for ergosterol synthesis.\nAmorolfin\nButenafine\nNaftifine\nTerbinafine",
+      "subsections": {
+        "Echinocandins": {
+          "text": "May be used for systemic fungal infections in immunocompromised patients; inhibit the synthesis of glucan in the cell wall via the enzyme Beta (1-3) glucan synthase; are poorly absorbed when administered orally\nAnidulafungin\nCaspofungin\nMicafungin",
+          "tables": []
+        },
+        "Others": {
+          "text": "Benzoic acid\nCiclopirox\nFlucytosine\nGriseofulvin\nTolnaftate\nUndecylenic acid\nCrystal violet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Echinocandins": {
+      "text": "May be used for systemic fungal infections in immunocompromised patients; inhibit the synthesis of glucan in the cell wall via the enzyme Beta (1-3) glucan synthase; are poorly absorbed when administered orally\nAnidulafungin\nCaspofungin\nMicafungin",
+      "subsections": {
+        "Others": {
+          "text": "Benzoic acid\nCiclopirox\nFlucytosine\nGriseofulvin\nTolnaftate\nUndecylenic acid\nCrystal violet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Others": {
+      "text": "Benzoic acid\nCiclopirox\nFlucytosine\nGriseofulvin\nTolnaftate\nUndecylenic acid\nCrystal violet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fungal infections\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

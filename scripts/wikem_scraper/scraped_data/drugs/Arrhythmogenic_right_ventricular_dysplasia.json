@@ -1,0 +1,1045 @@
+{
+  "drug_name": "Arrhythmogenic_right_ventricular_dysplasia",
+  "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia",
+  "scraped_at": "2026-01-10T07:48:07.505635",
+  "sections": {
+    "Background": {
+      "text": "Second most common cause of sudden cardiac death in young patients\n[1]\nUp to 20% of sudden cardiac deaths in young people\nUsually occurs in people of Greek or Italian descent\nMale:Female = 3:1\n1:1000-10,000 in the US\nFibro-fatty replacement of right ventricular myocardium\nTwo forms:\nAutosomal dominant\nVariable penetrance\nAutosomal recessive\nNaxos disease (Palmoplantar keratoderma)\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Palpitations\n(27%)\nSyncope\n(26%)\nVentricular dysrhythmias\n/\ncardiac arrest\n(23%)\nEspecially occurring during exercise\nFamily history of unexplained syncope or sudden death\nDysrhythmias\nrefractory to antidysrhythmic meds\nAsymptomatic (40%)\nUsually these patients are identified through genetic testing of an affected or symptomatic family member\nRight ventricular failure\n(6%)\nDilated cardiomyopathy\nDyspnea\nAtypical\nchest pain\n(6%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Right ventricular failure",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiomyopathy": {
+          "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+          "tables": []
+        },
+        "Syncope_Causes": {
+          "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+          "tables": []
+        },
+        "T_Wave_Inversions": {
+          "text": "Normal in pediatrics\nMyocardial infarct\n(NSTEMI)\nMyocardial ischemia (\nWellen's\n) - T waves go up, then down\nHypokalemia\n- T waves go down, then up (or camel humped, one upright TW and upright U-wave in severe hypokalemia)\nHyperkalemia\nPulmonary embolism\n(RV strain)\nPulmonary hypertension\n, acute or chronic\nPulmonary disease - hyperventilation,\npneumothorax\n,\npneumonia\nLVH\nwith strain pattern\nRVH\nBundle branch block\n(both left and right)\nWPW\nPericarditis\n(stage 3)\nCNS T waves (diffuse, deep)\nArrhythmogenic right ventricular dysplasia\n(may also have epsilon wave)\nHOCM\nPaced rhythm\nElevated intracranial pressure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Myocardial infarct",
+          "url": "https://wikem.org/wiki/Myocardial_infarct"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        }
+      ]
+    },
+    "Cardiomyopathy": {
+      "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+      "subsections": {
+        "Syncope_Causes": {
+          "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+          "tables": []
+        },
+        "T_Wave_Inversions": {
+          "text": "Normal in pediatrics\nMyocardial infarct\n(NSTEMI)\nMyocardial ischemia (\nWellen's\n) - T waves go up, then down\nHypokalemia\n- T waves go down, then up (or camel humped, one upright TW and upright U-wave in severe hypokalemia)\nHyperkalemia\nPulmonary embolism\n(RV strain)\nPulmonary hypertension\n, acute or chronic\nPulmonary disease - hyperventilation,\npneumothorax\n,\npneumonia\nLVH\nwith strain pattern\nRVH\nBundle branch block\n(both left and right)\nWPW\nPericarditis\n(stage 3)\nCNS T waves (diffuse, deep)\nArrhythmogenic right ventricular dysplasia\n(may also have epsilon wave)\nHOCM\nPaced rhythm\nElevated intracranial pressure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Myocardial infarct",
+          "url": "https://wikem.org/wiki/Myocardial_infarct"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        }
+      ]
+    },
+    "Syncope_Causes": {
+      "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+      "subsections": {
+        "T_Wave_Inversions": {
+          "text": "Normal in pediatrics\nMyocardial infarct\n(NSTEMI)\nMyocardial ischemia (\nWellen's\n) - T waves go up, then down\nHypokalemia\n- T waves go down, then up (or camel humped, one upright TW and upright U-wave in severe hypokalemia)\nHyperkalemia\nPulmonary embolism\n(RV strain)\nPulmonary hypertension\n, acute or chronic\nPulmonary disease - hyperventilation,\npneumothorax\n,\npneumonia\nLVH\nwith strain pattern\nRVH\nBundle branch block\n(both left and right)\nWPW\nPericarditis\n(stage 3)\nCNS T waves (diffuse, deep)\nArrhythmogenic right ventricular dysplasia\n(may also have epsilon wave)\nHOCM\nPaced rhythm\nElevated intracranial pressure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Myocardial infarct",
+          "url": "https://wikem.org/wiki/Myocardial_infarct"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        }
+      ]
+    },
+    "T_Wave_Inversions": {
+      "text": "Normal in pediatrics\nMyocardial infarct\n(NSTEMI)\nMyocardial ischemia (\nWellen's\n) - T waves go up, then down\nHypokalemia\n- T waves go down, then up (or camel humped, one upright TW and upright U-wave in severe hypokalemia)\nHyperkalemia\nPulmonary embolism\n(RV strain)\nPulmonary hypertension\n, acute or chronic\nPulmonary disease - hyperventilation,\npneumothorax\n,\npneumonia\nLVH\nwith strain pattern\nRVH\nBundle branch block\n(both left and right)\nWPW\nPericarditis\n(stage 3)\nCNS T waves (diffuse, deep)\nArrhythmogenic right ventricular dysplasia\n(may also have epsilon wave)\nHOCM\nPaced rhythm\nElevated intracranial pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarct",
+          "url": "https://wikem.org/wiki/Myocardial_infarct"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ECG": {
+          "text": "Epsilon wave\nSeen in 30-50% of cases\nMost specific finding\nSmall positive deflection at the end of the QRS complex\nV1-V3 T wave inversions\nSeen in 85% of cases\nEspecially in patients >14 yrs old)\nLocalised QRS widening\n110 ms in V1-V3\nSudden VT episodes with LBBB morphology\nProlonged S-wave upstroke\n55 ms in V1-3\nSeen in 95% of cases",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Major and minor criteria rely on echo and cardiac MRI\nEchocardiography\nHypokinetic and dilated right ventricle\nDilation of RVOT\nCardiac MRI\n[3]\nFibro-fatty infiltration\nThinning of right ventricular myocardium\nRV aneurysm\nRV dilatation\nRegional wall motion abnormalities\nGlobal systolic dysfunction\nHistological studies provide post-mortem diagnosis\nMay prompt testing in family members",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "ECG": {
+      "text": "Epsilon wave\nSeen in 30-50% of cases\nMost specific finding\nSmall positive deflection at the end of the QRS complex\nV1-V3 T wave inversions\nSeen in 85% of cases\nEspecially in patients >14 yrs old)\nLocalised QRS widening\n110 ms in V1-V3\nSudden VT episodes with LBBB morphology\nProlonged S-wave upstroke\n55 ms in V1-3\nSeen in 95% of cases",
+      "subsections": {
+        "Imaging": {
+          "text": "Major and minor criteria rely on echo and cardiac MRI\nEchocardiography\nHypokinetic and dilated right ventricle\nDilation of RVOT\nCardiac MRI\n[3]\nFibro-fatty infiltration\nThinning of right ventricular myocardium\nRV aneurysm\nRV dilatation\nRegional wall motion abnormalities\nGlobal systolic dysfunction\nHistological studies provide post-mortem diagnosis\nMay prompt testing in family members",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Major and minor criteria rely on echo and cardiac MRI\nEchocardiography\nHypokinetic and dilated right ventricle\nDilation of RVOT\nCardiac MRI\n[3]\nFibro-fatty infiltration\nThinning of right ventricular myocardium\nRV aneurysm\nRV dilatation\nRegional wall motion abnormalities\nGlobal systolic dysfunction\nHistological studies provide post-mortem diagnosis\nMay prompt testing in family members",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Beta blockers\nor\namiodarone\nto suppress ventricular dysrhythmias\nSotalol\nis preferred\nICD implantation if high-risk features\nAblation of conduction pathways\nTreat\nheart failure\nwith\ndiuretics\n,\nACE inhibitors\nHeart transplant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "ACE inhibitors",
+          "url": "https://wikem.org/wiki/ACE_inhibitors"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission under cardiology if symptomatic\nAdmission under cardiology if high-risk features\n[4]\n:\nSyncope due to cardiac arrest\nRecurrent dysrhythmias not suppressed by drug therapy\nCardiac arrest in first-degree relative\nIncidental finding: Cardiology follow-up for further risk assessment and possible ICD placement or ablation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Anderson EL. Arrhythmogenic right ventricular dysplasia. Am Fam Physician. 2006 Apr 15;73(8):1391-8.\nPerez Diez D, Brugada J. Diagnosis and Management of Arrhythmogenic Right Ventricular Dysplasia. E-Journal of the ESC Council for Cardiology Practice, European Society of Cardiology 2008.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "drug_name": "Arthritis",
+  "url": "https://wikem.org/wiki/Arthritis",
+  "scraped_at": "2026-01-10T07:48:08.550588",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Monoarticular_arthritis": {
+          "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        },
+        "Oligoarthritis": {
+          "text": "Ankylosing spondylitis\nGonococcal arthritis\nLyme disease\nPsoriatic arthritis\nReactive arthritis\nRheumatic fever\nRheumatoid arthritis\nSystemic lupus erythematosus",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        },
+        "Migratory_Arthritis": {
+          "text": "Gonococcal arthritis\nLyme disease\nRheumatic fever\nSystemic lupus erythematosus\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Monoarticular_arthritis": {
+      "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+      "subsections": {
+        "Oligoarthritis": {
+          "text": "Ankylosing spondylitis\nGonococcal arthritis\nLyme disease\nPsoriatic arthritis\nReactive arthritis\nRheumatic fever\nRheumatoid arthritis\nSystemic lupus erythematosus",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        },
+        "Migratory_Arthritis": {
+          "text": "Gonococcal arthritis\nLyme disease\nRheumatic fever\nSystemic lupus erythematosus\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Oligoarthritis": {
+      "text": "Ankylosing spondylitis\nGonococcal arthritis\nLyme disease\nPsoriatic arthritis\nReactive arthritis\nRheumatic fever\nRheumatoid arthritis\nSystemic lupus erythematosus",
+      "subsections": {
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        },
+        "Migratory_Arthritis": {
+          "text": "Gonococcal arthritis\nLyme disease\nRheumatic fever\nSystemic lupus erythematosus\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {
+        "Migratory_Arthritis": {
+          "text": "Gonococcal arthritis\nLyme disease\nRheumatic fever\nSystemic lupus erythematosus\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Migratory_Arthritis": {
+      "text": "Gonococcal arthritis\nLyme disease\nRheumatic fever\nSystemic lupus erythematosus\nViral arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Arthrocentesis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    }
+  }
+}

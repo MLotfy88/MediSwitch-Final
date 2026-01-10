@@ -1,0 +1,417 @@
+{
+  "drug_name": "Anterior_shoulder_dislocation",
+  "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation",
+  "scraped_at": "2026-01-10T07:47:52.544746",
+  "sections": {
+    "Background": {
+      "text": "Shoulder dislocations account for 50% of all major joint dislocations; 90-98% are anterior\n[1]\nMajority of anterior shoulder dislocations are due to trauma, such as FOOSH incident or motor vehicle accident\nImportant to rule out neurological injury; it is critical to assess pre- and post-reduction neuro status\nAxillary nerve injury\nis common and may be present in 42% of anterior dislocations\n[2]\nMost common finding is 'military patch' (deltoid) anesthesia\nBrachial plexus injury is possible, leading to weak/absent elbow flexion (C5-6), wrist extension (C6), or finger abduction/adduction (C8-T1)\n[3]\nMost nerve injuries are due to traction/neuropraxia, and true nerve transection is rare\nArterial injury, such as axillary artery injury, is rare but also important to rule out\n[4]",
+      "subsections": {
+        "Shoulder_dislocation_types": {
+          "text": "Anterior shoulder dislocation\n(~95%)\nPosterior shoulder dislocation\n(~5%)\nInferior shoulder dislocation\n(<1%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Axillary nerve injury",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Shoulder_dislocation_types": {
+      "text": "Anterior shoulder dislocation\n(~95%)\nPosterior shoulder dislocation\n(~5%)\nInferior shoulder dislocation\n(<1%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain\nArm maintained in abduction and external rotation\nShoulder appears 'squared off' (loss of normal rounded appearance with stretching of the deltoid muscle)\nDifficulty touching affected arm to contralateral shoulder due to pain",
+      "subsections": {
+        "Chronic_Anterior_Dislocation": {
+          "text": "Risk of axillary artery rupture with reduction of chronic dislocation\n[5]\n[6]\nPatient with shoulder dislocated 3-4 weeks should be reduced only with orthopedic consultation, and likely in the operating theatre\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_Anterior_Dislocation": {
+      "text": "Risk of axillary artery rupture with reduction of chronic dislocation\n[5]\n[6]\nPatient with shoulder dislocated 3-4 weeks should be reduced only with orthopedic consultation, and likely in the operating theatre\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Shoulder_and_Upper_Arm_Diagnoses": {
+          "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Shoulder_and_Upper_Arm_Diagnoses": {
+      "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "Plain film X-ray of shoulder\nAt least 3 views, which include AP, orthogonal, and modified axillary view\nAxillary lateral or scapular \"Y\" view can help distinguish between anterior and posterior dislocation\nRule out associated fractures, such as Hill Sach's lesion or Bankart lesion\nMay forego imaging if:\nAge <40\nAtraumatic mechanism\nMultiple past dislocations\nClinically consistent with dislocation\nBedside\nultrasound\ncan be used to assess for both dislocation and successful reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Joint"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Plain film X-ray of shoulder\nAt least 3 views, which include AP, orthogonal, and modified axillary view\nAxillary lateral or scapular \"Y\" view can help distinguish between anterior and posterior dislocation\nRule out associated fractures, such as Hill Sach's lesion or Bankart lesion\nMay forego imaging if:\nAge <40\nAtraumatic mechanism\nMultiple past dislocations\nClinically consistent with dislocation\nBedside\nultrasound\ncan be used to assess for both dislocation and successful reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Joint"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Closed reduction (see techniques below)\nNote: do not reduce chronic dislocations (>4 weeks) in the ED due to risk of arterial injury\nConsult orthopedics for cautious attempt at closed reduction or open reduction\nProcedural sedation\noften required\nConsider intra-articular lidocaine (10-20mL) as alternative to procedural sedation\n[8]",
+      "subsections": {
+        "Techniques_that_generally_do_not_require_sedation": {
+          "text": "FARES (Fast, Reliable, and Safe) Method:\nPlace the patient supine or prone\nGrasp the affected arm at the wrist\nGently oscillate the arm anteriorly and posteriorly (up and down as the patient is supine)\nApply gentle traction to the arm and slowly abduct\nOnce abducted to 90 degrees, externally rotate\nContinue with ongoing traction and oscillation until reduction is achieved (generally with 120 degrees of abduction)\nCunningham Technique:\nvideo\nand second\nvideo\nStand in front of the seated patient\nHold the patient's affected arm adducted with the elbow flexed to 90 degrees\nMassage trapezius, deltoid and bicipital muscles\nInstruct the patient to move the shoulder superiorly and posteriorly to facilitate humeral head reduction (bring shoulder back and chest out)\n[9]\nDavos Technique\n[10]\n,\n[11]\n:\nPlace the patient in a seated position on an examination table\nInstruct the patient to flex the knee ipsilateral to the affected shoulder\nAsk the patient to hold the wrist of the affected arm in the hand of the unaffected arm with both looped around the fully flexed knee\nTie the affected and unaffected wrists together around the fully flexed knee\nSit on the patient's foot to stabilize\nKeeping the elbows adducted, ask the patient to slowly lean head back and allow shoulder to roll forward\nNeck extension creates traction on the injured shoulder, which allows it to reduce\nSnowbird Technique\nPlace patient in an upright sitting position\nAdduct the affected arm and flex the elbow to 90 degrees\nCreate a loop of stockinette\nHang the loop of stockinette over the flexed elbow\nPosition an assistant behind the patient with arms under the axillae to provide countertraction\nUsing your hands to maintain flexion of the elbow, place your foot in the loop of stockinette and apply downward pressure to create traction on the elbow",
+          "tables": []
+        },
+        "Techniques_that_typically_require_sedation": {
+          "text": "Kocher\n[1]\n:\nvideo\nPlace patient supine seated on exam table\nAdduct affected arm and flex 90 degrees at the elbow\nExternally rotate the shoulder (70-85 degrees) until resistance is felt\nLift arm anteriorly as far as possible\nInternally rotate shoulder, moving hand towards contralateral shoulder\nHumeral head should slip back into place\nNote that a modified Kocher technique avoids abduction and internal rotation and reduces the dislocated shoulder through external rotation alone\nMilch\n[12]\nPlace patient supine on exam table\n[13]\nGrasp the wrist of the affected arm\nSlowly abduct and externally rotate the arm until it is in the overhead position\nUsing your free hand, manipulate the humeral head laterally and superiorly to achieve reduction\nScapular manipulation\nPosition yourself behind the patient\nStabilize the superior aspect of the shoulders with your fingers\nPlacing your hands on the patient's back, push the inferior tip of the scapular medially and dorsally with your thumbs\nStimson\nPlace patient prone on edge of table (affected shoulder closest to table edge)\nNote that this is not an ideal technique as it requires a sedated patient to lay face-down, potentially leading to suffocation on the exam table\nAllow hand to drop off table perpendicular to body\nAttach 5 kg weight to arm\nMaintain position for 20 - 30 minutes as needed\nProvide additional scapular manipulation or gentle external and internal rotation to promote reduction\nTraction-Countertraction\nPlace patient in a supine position with a sheet wrapped around the torso and under the axilla of the affected arm\nWhile an assistant provides countertraction by pulling on the sheet, apply longitudinal traction to the affected arm, manipulating the shoulder into reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Reduction_Techniques": {
+      "text": "",
+      "subsections": {
+        "Techniques_that_generally_do_not_require_sedation": {
+          "text": "FARES (Fast, Reliable, and Safe) Method:\nPlace the patient supine or prone\nGrasp the affected arm at the wrist\nGently oscillate the arm anteriorly and posteriorly (up and down as the patient is supine)\nApply gentle traction to the arm and slowly abduct\nOnce abducted to 90 degrees, externally rotate\nContinue with ongoing traction and oscillation until reduction is achieved (generally with 120 degrees of abduction)\nCunningham Technique:\nvideo\nand second\nvideo\nStand in front of the seated patient\nHold the patient's affected arm adducted with the elbow flexed to 90 degrees\nMassage trapezius, deltoid and bicipital muscles\nInstruct the patient to move the shoulder superiorly and posteriorly to facilitate humeral head reduction (bring shoulder back and chest out)\n[9]\nDavos Technique\n[10]\n,\n[11]\n:\nPlace the patient in a seated position on an examination table\nInstruct the patient to flex the knee ipsilateral to the affected shoulder\nAsk the patient to hold the wrist of the affected arm in the hand of the unaffected arm with both looped around the fully flexed knee\nTie the affected and unaffected wrists together around the fully flexed knee\nSit on the patient's foot to stabilize\nKeeping the elbows adducted, ask the patient to slowly lean head back and allow shoulder to roll forward\nNeck extension creates traction on the injured shoulder, which allows it to reduce\nSnowbird Technique\nPlace patient in an upright sitting position\nAdduct the affected arm and flex the elbow to 90 degrees\nCreate a loop of stockinette\nHang the loop of stockinette over the flexed elbow\nPosition an assistant behind the patient with arms under the axillae to provide countertraction\nUsing your hands to maintain flexion of the elbow, place your foot in the loop of stockinette and apply downward pressure to create traction on the elbow",
+          "tables": []
+        },
+        "Techniques_that_typically_require_sedation": {
+          "text": "Kocher\n[1]\n:\nvideo\nPlace patient supine seated on exam table\nAdduct affected arm and flex 90 degrees at the elbow\nExternally rotate the shoulder (70-85 degrees) until resistance is felt\nLift arm anteriorly as far as possible\nInternally rotate shoulder, moving hand towards contralateral shoulder\nHumeral head should slip back into place\nNote that a modified Kocher technique avoids abduction and internal rotation and reduces the dislocated shoulder through external rotation alone\nMilch\n[12]\nPlace patient supine on exam table\n[13]\nGrasp the wrist of the affected arm\nSlowly abduct and externally rotate the arm until it is in the overhead position\nUsing your free hand, manipulate the humeral head laterally and superiorly to achieve reduction\nScapular manipulation\nPosition yourself behind the patient\nStabilize the superior aspect of the shoulders with your fingers\nPlacing your hands on the patient's back, push the inferior tip of the scapular medially and dorsally with your thumbs\nStimson\nPlace patient prone on edge of table (affected shoulder closest to table edge)\nNote that this is not an ideal technique as it requires a sedated patient to lay face-down, potentially leading to suffocation on the exam table\nAllow hand to drop off table perpendicular to body\nAttach 5 kg weight to arm\nMaintain position for 20 - 30 minutes as needed\nProvide additional scapular manipulation or gentle external and internal rotation to promote reduction\nTraction-Countertraction\nPlace patient in a supine position with a sheet wrapped around the torso and under the axilla of the affected arm\nWhile an assistant provides countertraction by pulling on the sheet, apply longitudinal traction to the affected arm, manipulating the shoulder into reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge after successful reduction and subsequent confirmatory XR\nMaintain\nsling +/- swath\nor shoulder immobilizer (shoulder in adduction and internal rotation) until seen in follow-up by orthopedic surgery within 1 week\nAfter 1-3 weeks of shoulder immobilization, if pain-free, can slowly return to activity as tolerated\n[14]\nOrthopedic consult indicated for associated humeral fracture, subacute dislocation, or failure to reduce by the emergency physician",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sling +/- swath",
+          "url": "https://wikem.org/wiki/Sling_%2B/-_swath"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Recurrent dislocation\n39% risk of recurrence after traumatic dislocation\n[15]\nRisk factors:\nAge <40 (approximately 90% recurrence rate in patients less than 20)\nMale sex\nHyperlaxity\nBony Bankart lesion\nOccupation\nBony injuries\nHill-Sachs lesion\nCompression fracture of humeral head\n40% of cases\nMost likely with recurrent anterior dislocation\nBankart lesion\nInjury to inferior glenoid labrum\n10-20% of cases\nBony Bankart lesion\n[16]\nFracture of anteroinferior glenoid rim\nAxillary nerve injury\nUp to 14% of cases\nUsually self-resolves\nAxillary artery rupture\nRare\nIncreased risk in chronic dislocation\nRotator cuff tear",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Axillary nerve injury",
+          "url": "https://wikem.org/wiki/Axillary_nerve_injury"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Shoulder dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        }
+      ]
+    }
+  }
+}

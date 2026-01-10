@@ -1,0 +1,188 @@
+{
+  "drug_name": "Antihistamines",
+  "url": "https://wikem.org/wiki/Antihistamines",
+  "scraped_at": "2026-01-10T07:47:53.943003",
+  "sections": {
+    "Background": {
+      "text": "Also known as histamine antagonists\nIn common use, the term antihistamine refers only to compounds that inhibit action at the H\n1\nreceptor (and not H\n2\n, etc.).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "H1_antagonists": {
+          "text": "Brompheniramine\n(Dimetane)\nCetirizine\n(Zyrtec)\nDimenhydrinate\nDiphenhydramine\n(Benadryl)\nDoxylamine\nFexofenadine\n(Allegra)\nHydroxyzine\n(Vistaril)\nLoratadine\n(Claritin)\nMeclizine",
+          "tables": []
+        },
+        "H2_antagonists": {
+          "text": "Cimetidine\nFamotidine\nNizatidine\nRanitidine\nRoxatidine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cetirizine",
+          "url": "https://wikem.org/wiki/Cetirizine"
+        },
+        {
+          "text": "Dimenhydrinate",
+          "url": "https://wikem.org/wiki/Dimenhydrinate"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Doxylamine",
+          "url": "https://wikem.org/wiki/Doxylamine"
+        },
+        {
+          "text": "Hydroxyzine",
+          "url": "https://wikem.org/wiki/Hydroxyzine"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        }
+      ]
+    },
+    "H1_antagonists": {
+      "text": "Brompheniramine\n(Dimetane)\nCetirizine\n(Zyrtec)\nDimenhydrinate\nDiphenhydramine\n(Benadryl)\nDoxylamine\nFexofenadine\n(Allegra)\nHydroxyzine\n(Vistaril)\nLoratadine\n(Claritin)\nMeclizine",
+      "subsections": {
+        "H2_antagonists": {
+          "text": "Cimetidine\nFamotidine\nNizatidine\nRanitidine\nRoxatidine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cetirizine",
+          "url": "https://wikem.org/wiki/Cetirizine"
+        },
+        {
+          "text": "Dimenhydrinate",
+          "url": "https://wikem.org/wiki/Dimenhydrinate"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Doxylamine",
+          "url": "https://wikem.org/wiki/Doxylamine"
+        },
+        {
+          "text": "Hydroxyzine",
+          "url": "https://wikem.org/wiki/Hydroxyzine"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        }
+      ]
+    },
+    "H2_antagonists": {
+      "text": "Cimetidine\nFamotidine\nNizatidine\nRanitidine\nRoxatidine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "H\n1\nantagonists\nAllergic reactions\nInsomnia\nVertigo\nMotion sickness\nNausea and vomiting in pregnancy\nH\n2\nantagonists\nGERD\n/\npeptic ulcers\nAllergic reactions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Motion sickness",
+          "url": "https://wikem.org/wiki/Motion_sickness"
+        },
+        {
+          "text": "Nausea and vomiting in pregnancy",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_in_pregnancy"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "peptic ulcers",
+          "url": "https://wikem.org/wiki/Peptic_ulcers"
+        },
+        {
+          "text": "Allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        }
+      ]
+    },
+    "Side_Effects": {
+      "text": "Sedation\nSecond-generation antihistamines cross the blood–brain barrier to a much lower degree (therefore are less sedating), however high doses can still induce the drowsiness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticholinergic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    }
+  }
+}

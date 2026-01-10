@@ -1,0 +1,285 @@
+{
+  "drug_name": "Arterial_blood_gas_analysis",
+  "url": "https://wikem.org/wiki/Arterial_blood_gas_analysis",
+  "scraped_at": "2026-01-10T07:48:07.614831",
+  "sections": {
+    "Basics": {
+      "text": "",
+      "subsections": {
+        "pH": {
+          "text": "Measurement of acidity or alkalinity of solution . The normal range is 7.35 to 7.45\npH > 7.45 =\nalkalosis\npH< 7.35 =\nacidosis",
+          "tables": []
+        },
+        "PaO2": {
+          "text": "The partial pressure of oxygen that is dissolved in the arterial serum that is\nnot\ncarried by hemoglobin. The normal range is 80 to 100 mm Hg.\nUsed to assess alveolar-arterial (A-a) gradient, or [[P\na\nO\n2\n/FiO\n2\nratio]].",
+          "tables": []
+        },
+        "SaO2": {
+          "text": "The arterial oxygen saturation\nThe normal range is 95% to 100%.",
+          "tables": []
+        },
+        "pCO2": {
+          "text": "The amount of carbon dioxide dissolved in arterial blood\nThe normal range is 35 to 45 mm Hg.\npCO\n2\n>45 = primary\nrespiratory acidosis\npCO\n2\n<35 = primary\nrespiratory alkalosis",
+          "tables": []
+        },
+        "HCO3": {
+          "text": "The calculated value of the amount of bicarbonate in the bloodstream\nThe normal range is 22 to 26 mEq/liter\nHCO3 > 26 =\nalkalosis\nHCO3 < 22 =\nacidosis",
+          "tables": []
+        },
+        "B.E.": {
+          "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "pH": {
+      "text": "Measurement of acidity or alkalinity of solution . The normal range is 7.35 to 7.45\npH > 7.45 =\nalkalosis\npH< 7.35 =\nacidosis",
+      "subsections": {
+        "PaO2": {
+          "text": "The partial pressure of oxygen that is dissolved in the arterial serum that is\nnot\ncarried by hemoglobin. The normal range is 80 to 100 mm Hg.\nUsed to assess alveolar-arterial (A-a) gradient, or [[P\na\nO\n2\n/FiO\n2\nratio]].",
+          "tables": []
+        },
+        "SaO2": {
+          "text": "The arterial oxygen saturation\nThe normal range is 95% to 100%.",
+          "tables": []
+        },
+        "pCO2": {
+          "text": "The amount of carbon dioxide dissolved in arterial blood\nThe normal range is 35 to 45 mm Hg.\npCO\n2\n>45 = primary\nrespiratory acidosis\npCO\n2\n<35 = primary\nrespiratory alkalosis",
+          "tables": []
+        },
+        "HCO3": {
+          "text": "The calculated value of the amount of bicarbonate in the bloodstream\nThe normal range is 22 to 26 mEq/liter\nHCO3 > 26 =\nalkalosis\nHCO3 < 22 =\nacidosis",
+          "tables": []
+        },
+        "B.E.": {
+          "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "PaO2": {
+      "text": "The partial pressure of oxygen that is dissolved in the arterial serum that is\nnot\ncarried by hemoglobin. The normal range is 80 to 100 mm Hg.\nUsed to assess alveolar-arterial (A-a) gradient, or [[P\na\nO\n2\n/FiO\n2\nratio]].",
+      "subsections": {
+        "SaO2": {
+          "text": "The arterial oxygen saturation\nThe normal range is 95% to 100%.",
+          "tables": []
+        },
+        "pCO2": {
+          "text": "The amount of carbon dioxide dissolved in arterial blood\nThe normal range is 35 to 45 mm Hg.\npCO\n2\n>45 = primary\nrespiratory acidosis\npCO\n2\n<35 = primary\nrespiratory alkalosis",
+          "tables": []
+        },
+        "HCO3": {
+          "text": "The calculated value of the amount of bicarbonate in the bloodstream\nThe normal range is 22 to 26 mEq/liter\nHCO3 > 26 =\nalkalosis\nHCO3 < 22 =\nacidosis",
+          "tables": []
+        },
+        "B.E.": {
+          "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "SaO2": {
+      "text": "The arterial oxygen saturation\nThe normal range is 95% to 100%.",
+      "subsections": {
+        "pCO2": {
+          "text": "The amount of carbon dioxide dissolved in arterial blood\nThe normal range is 35 to 45 mm Hg.\npCO\n2\n>45 = primary\nrespiratory acidosis\npCO\n2\n<35 = primary\nrespiratory alkalosis",
+          "tables": []
+        },
+        "HCO3": {
+          "text": "The calculated value of the amount of bicarbonate in the bloodstream\nThe normal range is 22 to 26 mEq/liter\nHCO3 > 26 =\nalkalosis\nHCO3 < 22 =\nacidosis",
+          "tables": []
+        },
+        "B.E.": {
+          "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "pCO2": {
+      "text": "The amount of carbon dioxide dissolved in arterial blood\nThe normal range is 35 to 45 mm Hg.\npCO\n2\n>45 = primary\nrespiratory acidosis\npCO\n2\n<35 = primary\nrespiratory alkalosis",
+      "subsections": {
+        "HCO3": {
+          "text": "The calculated value of the amount of bicarbonate in the bloodstream\nThe normal range is 22 to 26 mEq/liter\nHCO3 > 26 =\nalkalosis\nHCO3 < 22 =\nacidosis",
+          "tables": []
+        },
+        "B.E.": {
+          "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "HCO3": {
+      "text": "The calculated value of the amount of bicarbonate in the bloodstream\nThe normal range is 22 to 26 mEq/liter\nHCO3 > 26 =\nalkalosis\nHCO3 < 22 =\nacidosis",
+      "subsections": {
+        "B.E.": {
+          "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "B.E.": {
+      "text": "The base excess indicates the amount of excess or insufficient level of bicarbonate in the system.\nThe normal range is -2 to +2 mEq/liter.\nA negative base excess indicates a base deficit in the blood.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "ABG_in_Hypothermia": {
+      "text": "Blood gas analyzers typically warm blood to 37°C before making calculations however physicians should simply interpret the values as given by the lab\nAt any temperature, a pH of 7.4 and a PCO2 of 40 mm Hg represent normal acid-base balance\nThe best (simplest) approach is to use uncorrected ABG values compared with the normal values at 37°C\n[1]",
+      "subsections": {
+        "TEMPERATURE_CORRECTION_OF_PO2_and_PCO2": {
+          "text": "Oxygen and carbon dioxide increase in solubility as water temperature lowers, so warmed ABGs from hypothermic patients with show a  higher PaO2, higher PaCO2 and a lower pH than what is actually present in the patient’s blood although the clinical implications of this change is not significant.\n[2]\nPO2 is 5 mmHg lower for each degree below 37C°\nPCO2 is 2mmHg lower for each degree below 37C°",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "TEMPERATURE_CORRECTION_OF_PO2_and_PCO2": {
+      "text": "Oxygen and carbon dioxide increase in solubility as water temperature lowers, so warmed ABGs from hypothermic patients with show a  higher PaO2, higher PaCO2 and a lower pH than what is actually present in the patient’s blood although the clinical implications of this change is not significant.\n[2]\nPO2 is 5 mmHg lower for each degree below 37C°\nPCO2 is 2mmHg lower for each degree below 37C°",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "ABG_after_Cardiac_Arrest": {
+      "text": "pH of blood dependent on:\ncause of arrest\nduration of arrest when ABG is taken\nthe quality of the CPR and ventilation the patient is receiving\ntemperature of the patient when ABG taken\ndrugs administered during arrest (ie. Adrenaline and NaHCO3)\nElevated pCO\n2\noften due to inadequate ventilation during resuscitation\nLow PaO2\ninsufficient oxygenation during resuscitation\naspiration\npulmonary edema\nPE\nprimary respiratory pathology\nHyperkalemia\nCauses\ncell death\nloss of cell membrane integrity and acidosis\nother sources such as missed dialysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    }
+  }
+}

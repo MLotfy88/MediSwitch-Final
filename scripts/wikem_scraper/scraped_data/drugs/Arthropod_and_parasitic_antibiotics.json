@@ -1,0 +1,644 @@
+{
+  "drug_name": "Arthropod_and_parasitic_antibiotics",
+  "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics",
+  "scraped_at": "2026-01-10T07:48:06.688930",
+  "sections": {
+    "Lice": {
+      "text": "",
+      "subsections": {
+        "Over_the_Counter_(OTC)": {
+          "text": "Permethrin\n1% lotion shampoo (if >2 months old)\n[1]\nWash hair with non-conditioned shampoo\nApply Permethrin for 10 min and rinse\nRepeat on day 9\nPyrethrin lotion\nApply to affected areas and wash off after 10 min\nRepeat in 7 days\nDimethicone therapy\nFirst, apply the product to dry hair, then wait 10 min. Next, with product still in the hair, separate hair into small sections and comb hair to remove lice and eggs. Use a lice comb to remove lice and their eggs from hair. Finally, shampoo hair thoroughly with regular shampoo and warm water. Repeat as needed.\n[2]",
+          "tables": []
+        },
+        "Prescription": {
+          "text": "Reserved for failed OTC treatment\nSpinosad\n0.9% topical suspension (if >6 months old)\nApply to scalp and air and wash off after 10 min.\nRepeat in 10 days\nMalathion\n0.5% lotion (if >6 years old)\nApplied to affected areas and wash after 8 hrs\nRepeat in 7 days\nBenzyl Alcohol 5% lotion (> 6 months old)\nApply to dry hair and wash off after 10 min\nRepeat in 7 days\nIvermectin\n400mcg/kg PO\nOnce on day 1 THEN once in 7 days\nReserved for patients failing topical treatment\nLindane\ntherapy\nOnly consider if patient has failed two prior prescription treatments\nAvoid in children <50 kg due to seizure association",
+          "tables": []
+        },
+        "Eyelash_Infestation": {
+          "text": "Apply ophthalmic petroleum jelly q12hrs x 10 days",
+          "tables": []
+        },
+        "Pediatrics_<2yo": {
+          "text": "Wet combing is an alternative to medical therapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Spinosad",
+          "url": "https://wikem.org/wiki/Spinosad"
+        },
+        {
+          "text": "Malathion",
+          "url": "https://wikem.org/wiki/Malathion"
+        },
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        },
+        {
+          "text": "Lindane",
+          "url": "https://wikem.org/wiki/Lindane"
+        }
+      ]
+    },
+    "Prescription": {
+      "text": "Reserved for failed OTC treatment\nSpinosad\n0.9% topical suspension (if >6 months old)\nApply to scalp and air and wash off after 10 min.\nRepeat in 10 days\nMalathion\n0.5% lotion (if >6 years old)\nApplied to affected areas and wash after 8 hrs\nRepeat in 7 days\nBenzyl Alcohol 5% lotion (> 6 months old)\nApply to dry hair and wash off after 10 min\nRepeat in 7 days\nIvermectin\n400mcg/kg PO\nOnce on day 1 THEN once in 7 days\nReserved for patients failing topical treatment\nLindane\ntherapy\nOnly consider if patient has failed two prior prescription treatments\nAvoid in children <50 kg due to seizure association",
+      "subsections": {
+        "Eyelash_Infestation": {
+          "text": "Apply ophthalmic petroleum jelly q12hrs x 10 days",
+          "tables": []
+        },
+        "Pediatrics_<2yo": {
+          "text": "Wet combing is an alternative to medical therapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinosad",
+          "url": "https://wikem.org/wiki/Spinosad"
+        },
+        {
+          "text": "Malathion",
+          "url": "https://wikem.org/wiki/Malathion"
+        },
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        },
+        {
+          "text": "Lindane",
+          "url": "https://wikem.org/wiki/Lindane"
+        }
+      ]
+    },
+    "Eyelash_Infestation": {
+      "text": "Apply ophthalmic petroleum jelly q12hrs x 10 days",
+      "subsections": {
+        "Pediatrics_<2yo": {
+          "text": "Wet combing is an alternative to medical therapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatrics_<2yo": {
+      "text": "Wet combing is an alternative to medical therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pinworm": {
+      "text": "Treatment targeted against Enterobius vermicularis; All family members should be treated at the same time",
+      "subsections": {
+        "Adult": {
+          "text": "Mebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nOkay during breastfeeding\n[3]\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\nPyrantel Pamoate\n(Pin-x) 11mg/kg (max 1g), THEN repeat in 2 weeks\nFirst choice for pregnant patients\nTreat in pregnancy only if the infection is compromising the pregnancy (i.e. weight loss, sleeplessness); withhold until the 3rd trimester if possible.\n[4]",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "2 years or older:\nMebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\n<2 years\nAlbendazole\n200 mg PO once, THEN repeat in 2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Pyrantel Pamoate",
+          "url": "https://wikem.org/wiki/Pyrantel_Pamoate"
+        },
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Adult": {
+      "text": "Mebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nOkay during breastfeeding\n[3]\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\nPyrantel Pamoate\n(Pin-x) 11mg/kg (max 1g), THEN repeat in 2 weeks\nFirst choice for pregnant patients\nTreat in pregnancy only if the infection is compromising the pregnancy (i.e. weight loss, sleeplessness); withhold until the 3rd trimester if possible.\n[4]",
+      "subsections": {
+        "Pediatric": {
+          "text": "2 years or older:\nMebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\n<2 years\nAlbendazole\n200 mg PO once, THEN repeat in 2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Pyrantel Pamoate",
+          "url": "https://wikem.org/wiki/Pyrantel_Pamoate"
+        },
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "2 years or older:\nMebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\n<2 years\nAlbendazole\n200 mg PO once, THEN repeat in 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Scabies": {
+      "text": "",
+      "subsections": {
+        "Adults": {
+          "text": "Permethrin\n5% cream for all family members\n[5]\nApply from neck down\nLeave on for 8-12hr before washing off\nHas 95-98% success rate, may reapply in 1-2wks if incomplete effect\nIvermectin\n200 mcg/kg may be necessary for severe infection\nAlso viable option in adolescent or adult with insecure social situation\nSuccess rate 70%, increases if give repeat dose 2wks after\nContraindicated in lactating women and children < 15kg",
+          "tables": []
+        },
+        "Infants": {
+          "text": "Permethrin\n5% is FDA approved for > 2 months of age although still recommended for neonatal scabies\n[6]\nMay require application head to toe (avoid mucus membranes)\nLeave on for 8-12 hours, then wash off",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        },
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        }
+      ]
+    },
+    "Adults": {
+      "text": "Permethrin\n5% cream for all family members\n[5]\nApply from neck down\nLeave on for 8-12hr before washing off\nHas 95-98% success rate, may reapply in 1-2wks if incomplete effect\nIvermectin\n200 mcg/kg may be necessary for severe infection\nAlso viable option in adolescent or adult with insecure social situation\nSuccess rate 70%, increases if give repeat dose 2wks after\nContraindicated in lactating women and children < 15kg",
+      "subsections": {
+        "Infants": {
+          "text": "Permethrin\n5% is FDA approved for > 2 months of age although still recommended for neonatal scabies\n[6]\nMay require application head to toe (avoid mucus membranes)\nLeave on for 8-12 hours, then wash off",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        },
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        }
+      ]
+    },
+    "Infants": {
+      "text": "Permethrin\n5% is FDA approved for > 2 months of age although still recommended for neonatal scabies\n[6]\nMay require application head to toe (avoid mucus membranes)\nLeave on for 8-12 hours, then wash off",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        }
+      ]
+    },
+    "Babesiosis": {
+      "text": "Each regimin is for 10 days duration and option 1 is often used for mild parasitemia <4% with option two for sever cases with >4% parasite load",
+      "subsections": {
+        "Option_1": {
+          "text": "Atovaquone (750mg BID) and\nAzithromycin\n(500-1000mg on first day, 250-1000mg on subsequent days)\n[7]",
+          "tables": []
+        },
+        "Option_2": {
+          "text": "Clindamycin\n600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Option_1": {
+      "text": "Atovaquone (750mg BID) and\nAzithromycin\n(500-1000mg on first day, 250-1000mg on subsequent days)\n[7]",
+      "subsections": {
+        "Option_2": {
+          "text": "Clindamycin\n600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Option_2": {
+      "text": "Clindamycin\n600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+      "subsections": {
+        "Pediatrics": {
+          "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Ehrlichiosis": {
+      "text": "Antibiotics should be continued for 5 days after the last recorded\nfever\n.\nAdults:\nDoxycycline\n100mg PO/IV BID x 14 days\nPediatrics: under 45 kg use\nDoxycycline\n2.2mg/kg PO/IV twice a day\nPregnant:\nRifampin\n300mg PO every 12 hours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Malaria": {
+      "text": "For specific dosing see the\nCDC Recommendations\nor call the Malaria CDC Hotline(855) 856-4713",
+      "subsections": {
+        "Uncomplicated_Malaria": {
+          "text": "Uncomplicated:\nNo evidence of organ dysfunction\nParasitemia <5%\nAble to tolerate PO\nHospitalize:\nSevere clinical manifestations in non-immune host for P. falciparum or P. knowlesi\nReport to state health department\nFor non-pregnant patients (3 day course)\nArtemether + lumefantrine\nArtesunate + amodiaquine\nArtesunate + mefloquine\nDihydroartemisinin + piperaquine\nArtesunate + sulfadoxine–pyrimethamine (SP)\nFor pregnant (1st trimester)\nQuinine\n+\nclindamycin\nx 7 days\nAdditional considerations\nAvoid artesunate + SP in HIV/AIDS patients taking co-trimoxazole\nAvoid artesunate + amodiaquine in HIV/AIDS patients taking efavirenz or zidovudine\nP. vivax\nand\nP. ovale\nhave dormant hypnozoites in the liver which require treatment with primaquine phosphate for complete eradication",
+          "tables": []
+        },
+        "Severe_Malaria": {
+          "text": "Do not delay treatment in the unstable patient if strong suspicion for malaria as initial smear may be falsely negative\nTreatment (IV for ≥24 hours then 3 days PO course)\nArtesunate (IV)\nClears malaria faster than quinine\nDistributed only through CDC\nQuinidine (IV) also appropriate choice; more available in US",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Uncomplicated_Malaria": {
+      "text": "Uncomplicated:\nNo evidence of organ dysfunction\nParasitemia <5%\nAble to tolerate PO\nHospitalize:\nSevere clinical manifestations in non-immune host for P. falciparum or P. knowlesi\nReport to state health department\nFor non-pregnant patients (3 day course)\nArtemether + lumefantrine\nArtesunate + amodiaquine\nArtesunate + mefloquine\nDihydroartemisinin + piperaquine\nArtesunate + sulfadoxine–pyrimethamine (SP)\nFor pregnant (1st trimester)\nQuinine\n+\nclindamycin\nx 7 days\nAdditional considerations\nAvoid artesunate + SP in HIV/AIDS patients taking co-trimoxazole\nAvoid artesunate + amodiaquine in HIV/AIDS patients taking efavirenz or zidovudine\nP. vivax\nand\nP. ovale\nhave dormant hypnozoites in the liver which require treatment with primaquine phosphate for complete eradication",
+      "subsections": {
+        "Severe_Malaria": {
+          "text": "Do not delay treatment in the unstable patient if strong suspicion for malaria as initial smear may be falsely negative\nTreatment (IV for ≥24 hours then 3 days PO course)\nArtesunate (IV)\nClears malaria faster than quinine\nDistributed only through CDC\nQuinidine (IV) also appropriate choice; more available in US",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Severe_Malaria": {
+      "text": "Do not delay treatment in the unstable patient if strong suspicion for malaria as initial smear may be falsely negative\nTreatment (IV for ≥24 hours then 3 days PO course)\nArtesunate (IV)\nClears malaria faster than quinine\nDistributed only through CDC\nQuinidine (IV) also appropriate choice; more available in US",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Neurocysticercosis": {
+      "text": "",
+      "subsections": {
+        "Albendazole": {
+          "text": "15mg/kg/day divided in 2 doses\n[8]\nFirst line therapy",
+          "tables": []
+        },
+        "Praziquantel": {
+          "text": "Second line therapy\n50-100mg/kg/day divided in 3 doses\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Albendazole": {
+      "text": "15mg/kg/day divided in 2 doses\n[8]\nFirst line therapy",
+      "subsections": {
+        "Praziquantel": {
+          "text": "Second line therapy\n50-100mg/kg/day divided in 3 doses\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Praziquantel": {
+      "text": "Second line therapy\n50-100mg/kg/day divided in 3 doses\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Rocky_Mountain_Spotted_Fever": {
+      "text": "Doxycycline\n100 mg BID for 5-7 days\n[10]\nIndicated also in children at 2.2mg/kg BID\nChloramphenicol\n(CAM) 50-100 mg/kg/day div Q6hr (Max dose = 4g/day)\nPreferred agent in pregnancy. May cause\naplastic anemia\nand\nGrey baby syndrome\n, more common in near term or 3rd trimester\n[11]\nConsideration should be made for doxycycline over CAM in the 3rd trimester",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Grey baby syndrome",
+          "url": "https://wikem.org/wiki/Grey_baby_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "drug_name": "Arteriovenous_malformation_(CNS)",
+  "url": "https://wikem.org/wiki/Arteriovenous_malformation_(CNS)",
+  "scraped_at": "2026-01-10T07:48:05.550386",
+  "sections": {
+    "Background": {
+      "text": "Focal abnormal conglomerations of dilated arteries and veins in the brain parenchyma\nArterial blood flows directly into draining veins without capillary beds creating high pressure channels\nMay rupture, causing intracerebral hemorrhage +/- intraventricular hemorrhage.  Mechanism of rupture incompletely understood.\nPrevalence 0.14%\nCongenital lesions\nMajority are sporadic, not familial\nAssociated with Osler- Weber-Rendu disease and Sturge-Weber syndrome\nLifelong risk of bleeding\n2-4% per year, cumulative",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hemorrhage\n(most common)\n42-72% of clinically apparent AVMs\nUsually by age 20-49\nSeizures\nIschemia (by vascular steal – rare)\nHeadaches",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Headaches",
+          "url": "https://wikem.org/wiki/Headaches"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Venous angioma\nCavernous malformation\nCapillary telangiectasia",
+      "subsections": {
+        "Intracranial_Mass": {
+          "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        }
+      ]
+    },
+    "Intracranial_Mass": {
+      "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT\n/CTA\nCT delineates acute hemorrhage, CTA to show abnormal vasculature\nMRI\n/MRA\nVessels appear as abnormal flow voids\nBoth better than CT for visualizing structures in relation to AVM\nAngiography\nGold standard to evaluate the architecture including arterial feeding, venous drainage, and AVM-associated aneurysms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Surgical Resection\nTraditionally treatment of choice\nRadiosurgery (Gamma Knife or CyberKnife)\nEmbolization (usually an adjunct treatment)\nCombination of above three in some cases\nDecision is based on AVM size, location, and patient factors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "In cases of acute hemorrhage or neurological decline, obvious need for immediate neurosurgical consultation\nIf patient presents with headache or seizure and lesion is then found, may simply warrant outpatient neurosurgical evaluation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ICH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    }
+  }
+}

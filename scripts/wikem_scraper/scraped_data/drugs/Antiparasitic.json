@@ -1,0 +1,362 @@
+{
+  "drug_name": "Antiparasitic",
+  "url": "https://wikem.org/wiki/Antiparasitic",
+  "scraped_at": "2026-01-10T07:47:57.722754",
+  "sections": {
+    "Broad_Spectrum": {
+      "text": "Nitazoxanide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitazoxanide",
+          "url": "https://wikem.org/wiki/Nitazoxanide"
+        }
+      ]
+    },
+    "Antiprotazoal_Agents": {
+      "text": "",
+      "subsections": {
+        "Antimalarials": {
+          "text": "Atovaquone-proguanil\n(Malarone)\nArtemether-lumefantrine\nArtesunate\nQuinine\n,\nQuinidine\nChloroquine\n,\nHydroxychloroquine\nPrimaquine\nArtesunate (not currently licensed in the US)\nClindamycin\n,\ndoxycycline\n,\ntetracycline\n(used in combination with quinine/quinidine)\nPyrimethamine\nDapsone\nAtovaquone\nAmodiaquine\nDihydroartemisinin\nPiperaquine",
+          "tables": []
+        },
+        "Other_Antiprotazoals": {
+          "text": "TMP/SMX\nPyrimethamine\nSulfadiazine\nleucovorin\nMalarsoprol\nEflornithine\nPentamidine\nNitroimidazole\nAmphotericin B\nStibogluconate or Meglumine antimoniate\nMiltefosine\nMetronidazole\nTinidazole\nParomomycin\nIodoquinol\nQuinacrine\nBenznidazole\nNifurtimox",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atovaquone-proguanil",
+          "url": "https://wikem.org/wiki/Atovaquone-proguanil"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "Hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "Primaquine",
+          "url": "https://wikem.org/wiki/Primaquine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Atovaquone",
+          "url": "https://wikem.org/wiki/Atovaquone"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        },
+        {
+          "text": "Benznidazole",
+          "url": "https://wikem.org/wiki/Benznidazole"
+        },
+        {
+          "text": "Nifurtimox",
+          "url": "https://wikem.org/wiki/Nifurtimox"
+        }
+      ]
+    },
+    "Antimalarials": {
+      "text": "Atovaquone-proguanil\n(Malarone)\nArtemether-lumefantrine\nArtesunate\nQuinine\n,\nQuinidine\nChloroquine\n,\nHydroxychloroquine\nPrimaquine\nArtesunate (not currently licensed in the US)\nClindamycin\n,\ndoxycycline\n,\ntetracycline\n(used in combination with quinine/quinidine)\nPyrimethamine\nDapsone\nAtovaquone\nAmodiaquine\nDihydroartemisinin\nPiperaquine",
+      "subsections": {
+        "Other_Antiprotazoals": {
+          "text": "TMP/SMX\nPyrimethamine\nSulfadiazine\nleucovorin\nMalarsoprol\nEflornithine\nPentamidine\nNitroimidazole\nAmphotericin B\nStibogluconate or Meglumine antimoniate\nMiltefosine\nMetronidazole\nTinidazole\nParomomycin\nIodoquinol\nQuinacrine\nBenznidazole\nNifurtimox",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atovaquone-proguanil",
+          "url": "https://wikem.org/wiki/Atovaquone-proguanil"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "Hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "Primaquine",
+          "url": "https://wikem.org/wiki/Primaquine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Atovaquone",
+          "url": "https://wikem.org/wiki/Atovaquone"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        },
+        {
+          "text": "Benznidazole",
+          "url": "https://wikem.org/wiki/Benznidazole"
+        },
+        {
+          "text": "Nifurtimox",
+          "url": "https://wikem.org/wiki/Nifurtimox"
+        }
+      ]
+    },
+    "Other_Antiprotazoals": {
+      "text": "TMP/SMX\nPyrimethamine\nSulfadiazine\nleucovorin\nMalarsoprol\nEflornithine\nPentamidine\nNitroimidazole\nAmphotericin B\nStibogluconate or Meglumine antimoniate\nMiltefosine\nMetronidazole\nTinidazole\nParomomycin\nIodoquinol\nQuinacrine\nBenznidazole\nNifurtimox",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        },
+        {
+          "text": "Benznidazole",
+          "url": "https://wikem.org/wiki/Benznidazole"
+        },
+        {
+          "text": "Nifurtimox",
+          "url": "https://wikem.org/wiki/Nifurtimox"
+        }
+      ]
+    },
+    "Antihelminthic_Agents": {
+      "text": "Benzimidazoles\nMebendazole\nAlbendazole\nThiabendazole\nTriclabendazole\nDiethylcarbamazine\nIvermectin\nPyrantel Pamoate\nNiclosamide\nPraziquantel\nBithionol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        },
+        {
+          "text": "Pyrantel Pamoate",
+          "url": "https://wikem.org/wiki/Pyrantel_Pamoate"
+        },
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        }
+      ]
+    },
+    "Antiamoebic_Agents": {
+      "text": "Rifampin\nAmphotericin\nMepacrine\nTinidazole\nMetronidazole\nParomomycin\nDiloxanide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Parasitic diseases\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

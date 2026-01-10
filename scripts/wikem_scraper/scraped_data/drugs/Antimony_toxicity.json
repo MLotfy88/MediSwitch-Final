@@ -1,0 +1,470 @@
+{
+  "drug_name": "Antimony_toxicity",
+  "url": "https://wikem.org/wiki/Antimony_toxicity",
+  "scraped_at": "2026-01-10T07:47:53.640259",
+  "sections": {
+    "Background": {
+      "text": "Antimony is a metalloid and will react as a metal and nonmetal\nShares many similar properties with\narsenic\nUsed to treat\nleishmaniasis\nand\nschistosomiasis\nMost reported cases are due to complication of treatment\nMost common forms used for treatment are trivalent and pentavalent compounds\nAdditional exposure occur from industrial exposures as inhalation of antimony dusts or fumes during processing\nAntimony is thought to exert its toxic effects due to inactivation of various thiol-containing proteins and enzymes",
+      "subsections": {
+        "Stibine": {
+          "text": "Most toxic form of antimony\nColorless gas that is formed when antimony reacts with hydrogen\nCan result when mixing drain cleaners containing sodium hydroxide in areas with antimony ore\nCan result in massive hemolysis",
+          "tables": []
+        },
+        "Toxicokinetics": {
+          "text": "Absorption\nInhalation\nIngestion\nTranscutaneous\nBioavailability is 15-50%\nDistribution\nPredominately in highly vascular organs\nTrivalent form seen in red blood cells\nPentavalent form accumulates in the liver\nMetabolism\nPentavalent form is converted to trivalent form in the liver\nExcretion\nTrivalent form undergoes enterohepatic recirculation\nRenal\nTrivalent has a slow elimination with approximately 10% cleared within the first 24 hours\nPentavalent will have approximately 50-60% cleared within the first 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Stibine": {
+      "text": "Most toxic form of antimony\nColorless gas that is formed when antimony reacts with hydrogen\nCan result when mixing drain cleaners containing sodium hydroxide in areas with antimony ore\nCan result in massive hemolysis",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "Absorption\nInhalation\nIngestion\nTranscutaneous\nBioavailability is 15-50%\nDistribution\nPredominately in highly vascular organs\nTrivalent form seen in red blood cells\nPentavalent form accumulates in the liver\nMetabolism\nPentavalent form is converted to trivalent form in the liver\nExcretion\nTrivalent form undergoes enterohepatic recirculation\nRenal\nTrivalent has a slow elimination with approximately 10% cleared within the first 24 hours\nPentavalent will have approximately 50-60% cleared within the first 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxicokinetics": {
+      "text": "Absorption\nInhalation\nIngestion\nTranscutaneous\nBioavailability is 15-50%\nDistribution\nPredominately in highly vascular organs\nTrivalent form seen in red blood cells\nPentavalent form accumulates in the liver\nMetabolism\nPentavalent form is converted to trivalent form in the liver\nExcretion\nTrivalent form undergoes enterohepatic recirculation\nRenal\nTrivalent has a slow elimination with approximately 10% cleared within the first 24 hours\nPentavalent will have approximately 50-60% cleared within the first 24 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical features can range from mild local irritation to organ dysfunction\nGI\nAnorexia\nNausea/vomiting\nLeading to profound\nvolume depletion\nAbdominal pain\nDiarrhea\nHemorrhagic\ngastritis\nPancreatitis\nCan react with water in salvia, producing sufficient hydrochloric acid to cause GI\nburns\nCV\nDecreases myocardial contraction\nDecreased systolic pressure\nthrough decreased coronary vasomotor tone\nBradycardia\nEKG changes\nMore common in pentavalent preparations\nProlonged QT\nInversion or flattening of T waves\nTorsades de pointes\nPulmonary\nLocal irritation\nLaryngitis\nand Tracheitis\nAntimony\npneumoconiosis\nChronic exposure\nCough\n,\nwheezing\n, and exertional\ndyspnea\nCXR\nshowing diffuse, dense, punctate non-confluent opacities in the middle and lower lobes\nRenal\nProteinuria\nIncreased BUN\nATN\nRenal failure\nHepatic\nElevated aminotransferase\nHepatic necrosis\nHematologic\nThrombocytopenia\nLeukopenia\nSevere\nanemia\nseen in HIV patients being treated for leishmaniasis\nDermatologic\nAntimony Spots\nPapules and pustules around sweat glands\nCan resemble varicella\nEczema\nLichenification\nMusculoskeletal\nMyalgias\nArthralgias\nReproductive\nIncreased risk of\nspontaneous abortion\nand\npremature labor\nOcular\nLocal irritation\nConjunctivitis\nPhotophobia\nCorneal burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "volume depletion",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Decreased systolic pressure",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "pneumoconiosis",
+          "url": "https://wikem.org/wiki/Pneumoconiosis"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "premature labor",
+          "url": "https://wikem.org/wiki/Premature_labor"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "BMP\nCBC\nUrinalysis\nEKG\nto look for cardiac affects of antimony\nCardiac monitor to assess for arrhythmia\nCXR\nCases of stibine\nAdd type and cross, and coagulation factors as transfusions are likely required\nSerum level 0.8 - 3 μg/L (6.6-24.6 nmol/L)\nUrine level (24 hr)  0.5-6.2 μg/L (4.1-50.1 nmol/L)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management_2": {
+      "text": "Consult Toxicology or\npoison control\nDecontamination\nGastric lavage\nmay be of benefit\nActivated charcoal\nAdditionally may use multi-dose activated charcoal due to enterohepatic circulation\nDermal exposure\nIrrigation with soap and water\nSupportive Care\nFluid resuscitation\nElectrolyte repletion\nMonitor I/Os\nAntiemetics\nBlood transfusions\nbased on institutional criteria\nChelation\nDimercaprol\n200-600mg/d IM shown in a case series to increase urinary excretion of antimony\n1\nSuccimer\nDimercaptopropane-sulfonic acid (DMPS)\nAll have shown improved survival in animal models",
+      "subsections": {
+        "Stibine_2": {
+          "text": "Place on high flow\noxygen\nConsider need for\nexchange transfusion\nto remove stibine-hemoglobin complexes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "Electrolyte repletion",
+          "url": "https://wikem.org/wiki/Electrolyte_repletion"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "Blood transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        },
+        {
+          "text": "Succimer",
+          "url": "https://wikem.org/wiki/Succimer"
+        },
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        }
+      ]
+    },
+    "Stibine_2": {
+      "text": "Place on high flow\noxygen\nConsider need for\nexchange transfusion\nto remove stibine-hemoglobin complexes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        }
+      ]
+    },
+    "Disposition_2": {
+      "text": "Will require admission to a monitored bed, likely ICU.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also_2": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Tarabar, A.  Antimony. In: Goldfrank's Toxicologic Emergencies. 9th Ed. New York: McGraw-Hill; 2011: 1207-1213\n1. Lauwers LF, Roelants A, Rosseel PM, et al. Oral antimony intoxications in man. Crit Care Med. 1990;18:324-326.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
