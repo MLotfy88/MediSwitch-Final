@@ -1,0 +1,421 @@
+{
+  "drug_name": "Neonatal_hypoglycemia",
+  "url": "https://wikem.org/wiki/Neonatal_hypoglycemia",
+  "scraped_at": "2026-01-10T07:58:14.479125",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nneonatal\nhypoglycemia. See\nhypoglycemia\nfor adult patients or\nnon-neonatal hypoglycemia (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "3 births per 1000 with hypoglycemia",
+      "subsections": {
+        "Risks": {
+          "text": "Maternal\nDM\n(hyperinsulin)\nPremies (cannot store glycogen)\nSick kids (depleted glycogen)\nGrowth restricted babies (depleted glycogen)\nMacrosomic kids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Risks": {
+      "text": "Maternal\nDM\n(hyperinsulin)\nPremies (cannot store glycogen)\nSick kids (depleted glycogen)\nGrowth restricted babies (depleted glycogen)\nMacrosomic kids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Jitteriness and irritability\nApnea and cyanosis\nHypotonia\nConvulsions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Apnea and cyanosis",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Convulsions",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neonatal_hypoglycemia": {
+          "text": "Decreased substrate availability\nIntra-uterine growth retardation\nGlycogen storage disease\nInborn errors of metabolism\n(e.g., fructose intolerance)\nPrematurity\nProlonged fasting without IV glucose\nHyperinsulinemia:\nInfant of\ndiabetic mother\nIslet cell hyperplasia\nErythroblastosis fetalis\nExchange transfusion\nBeckwith-Wiedemann Syndrome\nMaternal beta-mimetic\ntocolytic agents\n?High? umbilical arterial catheter\nAbrupt cessation of IV\nglucose\nOther endocrine abnormalities:\nPan-hypopituitarism\nHypothyroidism\nAdrenal insufficiency\nIncreased glucose utilization:\nCold stress/\nhypothermia\nIncreased\nwork of breathing\nSepsis\nPerinatal asphyxia\nMiscellaneous conditions:\nPolycythemia\nCongenital heart disease\nCNS abnormalities",
+          "tables": []
+        },
+        "Persistent_neonatal_hypoglycemia": {
+          "text": "Too much insulin:\nIdiopathic, asphyxia, rhesus diagnoses, Beckwith-Weiderman, Nesiodoblastosis (autosomal recessive hyperinsulinism)\nNot enough anti-insulin:\nHypopituitarism,\nadrenal hyperplasia\nInborn errors of metabolism\nGlycogen storage disease, fatty oxidation errors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "diabetic mother",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "tocolytic agents",
+          "url": "https://wikem.org/wiki/Tocolysis"
+        },
+        {
+          "text": "glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "work of breathing",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Neonatal_hypoglycemia": {
+      "text": "Decreased substrate availability\nIntra-uterine growth retardation\nGlycogen storage disease\nInborn errors of metabolism\n(e.g., fructose intolerance)\nPrematurity\nProlonged fasting without IV glucose\nHyperinsulinemia:\nInfant of\ndiabetic mother\nIslet cell hyperplasia\nErythroblastosis fetalis\nExchange transfusion\nBeckwith-Wiedemann Syndrome\nMaternal beta-mimetic\ntocolytic agents\n?High? umbilical arterial catheter\nAbrupt cessation of IV\nglucose\nOther endocrine abnormalities:\nPan-hypopituitarism\nHypothyroidism\nAdrenal insufficiency\nIncreased glucose utilization:\nCold stress/\nhypothermia\nIncreased\nwork of breathing\nSepsis\nPerinatal asphyxia\nMiscellaneous conditions:\nPolycythemia\nCongenital heart disease\nCNS abnormalities",
+      "subsections": {
+        "Persistent_neonatal_hypoglycemia": {
+          "text": "Too much insulin:\nIdiopathic, asphyxia, rhesus diagnoses, Beckwith-Weiderman, Nesiodoblastosis (autosomal recessive hyperinsulinism)\nNot enough anti-insulin:\nHypopituitarism,\nadrenal hyperplasia\nInborn errors of metabolism\nGlycogen storage disease, fatty oxidation errors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "diabetic mother",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "tocolytic agents",
+          "url": "https://wikem.org/wiki/Tocolysis"
+        },
+        {
+          "text": "glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "work of breathing",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Persistent_neonatal_hypoglycemia": {
+      "text": "Too much insulin:\nIdiopathic, asphyxia, rhesus diagnoses, Beckwith-Weiderman, Nesiodoblastosis (autosomal recessive hyperinsulinism)\nNot enough anti-insulin:\nHypopituitarism,\nadrenal hyperplasia\nInborn errors of metabolism\nGlycogen storage disease, fatty oxidation errors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Blood glucose level\nblood glucose <40mg/dL (preterm infants repeated levels below <50)\nThere is a normal fall in glucose @ 2-4hr of life\nIf no obvious precipitant, consider workup for\ninborn errors of metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        },
+        "General_Treatment": {
+          "text": "Glucometer reading 20-40mg/dL, infant is term and is able to feed:\nDraw blood for stat blood glucose.\nFeed 5 mL/kg of D5W.\nRepeat blood glucose or Glucometer 20 min after feeding.\nGlucometer reading:\n<20mg/dL or\n<40mg/dL and NPO or preterm or\n<40mg/dL after feeding or\n<40mg/dL and symptomatic\nDraw blood for stat glucose measurement.\nGive IV bolus of 2-3 mL/kg of D10W.\nBegin continuous infusion of D10W at 4-6mg/kg/min.\nIf infant of diabetic mother, begin D10W at 8-10mg/kg/min (100-125 cc/kg/d).\nRepeat blood glucose in 20 min and pursue treatment until blood sugar >40mg/dL.\nFor persistent hypoglycemia despite above measures:\nIncrease rate of glucose infusion stepwise in 2mg/kg/min*increments up to 12-15mg/kg/min glucose. Use increased volume with caution in infants where volume overload is a concern. Maximal concentration of glucose in peripheral IV is D12.5.\nIf infant requires IV dextrose concentrations >12.5%, insert central venous catheter.\nDo not use D25W or D50W IV or large IV volume boluses as this creates rebound hypoglycemia in infants who are hyperinsulinemic. In addition, administration of D25W or D50W can cause dangerous increase in plasma osmolarity.\nIf hypoglycemia is not controlled with above measures:\nObtain Endocrine Consult to guide further diagnostic evaluation and management.\nWhile awaiting consult, send blood (while blood sugar is low) for glucose, plasma cortisol, growth hormone and insulin concentrations\nFurther management may include\nglucocorticoids\n,\ndiazoxide\n, somatostatin or pancreatectomy.",
+          "tables": []
+        },
+        "Calculate_rate_of_glucose_administration": {
+          "text": "Use either of the following formulas:\n(% glucose x mL/kg/d)/144 = glucose infusion rate (mg/kg/min)\n(% glucose x mL/h)/(6 x body weight in kg) = glucose infusion rate (mg/kg/min)",
+          "tables": []
+        },
+        "Persistent_Hypoglycemia": {
+          "text": "Check insulin, c-peptide, GH, cortisol, beta hydroxybutyrate, UA\nIncrease volume by 30cc/kg/d\nIncrease glucose to 12.5%\nIf continues for >3 d: consult endocrinology, or sooner",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "diazoxide",
+          "url": "https://wikem.org/wiki/Diazoxide"
+        }
+      ]
+    },
+    "Pediatric_Hypoglycemia_Dextrose_Chart": {
+      "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+      "subsections": {
+        "General_Treatment": {
+          "text": "Glucometer reading 20-40mg/dL, infant is term and is able to feed:\nDraw blood for stat blood glucose.\nFeed 5 mL/kg of D5W.\nRepeat blood glucose or Glucometer 20 min after feeding.\nGlucometer reading:\n<20mg/dL or\n<40mg/dL and NPO or preterm or\n<40mg/dL after feeding or\n<40mg/dL and symptomatic\nDraw blood for stat glucose measurement.\nGive IV bolus of 2-3 mL/kg of D10W.\nBegin continuous infusion of D10W at 4-6mg/kg/min.\nIf infant of diabetic mother, begin D10W at 8-10mg/kg/min (100-125 cc/kg/d).\nRepeat blood glucose in 20 min and pursue treatment until blood sugar >40mg/dL.\nFor persistent hypoglycemia despite above measures:\nIncrease rate of glucose infusion stepwise in 2mg/kg/min*increments up to 12-15mg/kg/min glucose. Use increased volume with caution in infants where volume overload is a concern. Maximal concentration of glucose in peripheral IV is D12.5.\nIf infant requires IV dextrose concentrations >12.5%, insert central venous catheter.\nDo not use D25W or D50W IV or large IV volume boluses as this creates rebound hypoglycemia in infants who are hyperinsulinemic. In addition, administration of D25W or D50W can cause dangerous increase in plasma osmolarity.\nIf hypoglycemia is not controlled with above measures:\nObtain Endocrine Consult to guide further diagnostic evaluation and management.\nWhile awaiting consult, send blood (while blood sugar is low) for glucose, plasma cortisol, growth hormone and insulin concentrations\nFurther management may include\nglucocorticoids\n,\ndiazoxide\n, somatostatin or pancreatectomy.",
+          "tables": []
+        },
+        "Calculate_rate_of_glucose_administration": {
+          "text": "Use either of the following formulas:\n(% glucose x mL/kg/d)/144 = glucose infusion rate (mg/kg/min)\n(% glucose x mL/h)/(6 x body weight in kg) = glucose infusion rate (mg/kg/min)",
+          "tables": []
+        },
+        "Persistent_Hypoglycemia": {
+          "text": "Check insulin, c-peptide, GH, cortisol, beta hydroxybutyrate, UA\nIncrease volume by 30cc/kg/d\nIncrease glucose to 12.5%\nIf continues for >3 d: consult endocrinology, or sooner",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Category": "Neonatal",
+            "Age": "<2mo",
+            "Glucose": "<40",
+            "Treatment": "D10W",
+            "Initial IV Bolus": "2.5-5 mL/kg",
+            "Maintenance Dose": "6 mL/kg/h"
+          },
+          {
+            "Category": "Pediatric",
+            "Age": "2mo-8yrs",
+            "Glucose": "<60",
+            "Treatment": "D25W",
+            "Initial IV Bolus": "2 mL/kg",
+            "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+          },
+          {
+            "Category": "Adult",
+            "Age": ">8yrs",
+            "Glucose": "<70",
+            "Treatment": "D50W",
+            "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+            "Maintenance Dose": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "diazoxide",
+          "url": "https://wikem.org/wiki/Diazoxide"
+        }
+      ]
+    },
+    "General_Treatment": {
+      "text": "Glucometer reading 20-40mg/dL, infant is term and is able to feed:\nDraw blood for stat blood glucose.\nFeed 5 mL/kg of D5W.\nRepeat blood glucose or Glucometer 20 min after feeding.\nGlucometer reading:\n<20mg/dL or\n<40mg/dL and NPO or preterm or\n<40mg/dL after feeding or\n<40mg/dL and symptomatic\nDraw blood for stat glucose measurement.\nGive IV bolus of 2-3 mL/kg of D10W.\nBegin continuous infusion of D10W at 4-6mg/kg/min.\nIf infant of diabetic mother, begin D10W at 8-10mg/kg/min (100-125 cc/kg/d).\nRepeat blood glucose in 20 min and pursue treatment until blood sugar >40mg/dL.\nFor persistent hypoglycemia despite above measures:\nIncrease rate of glucose infusion stepwise in 2mg/kg/min*increments up to 12-15mg/kg/min glucose. Use increased volume with caution in infants where volume overload is a concern. Maximal concentration of glucose in peripheral IV is D12.5.\nIf infant requires IV dextrose concentrations >12.5%, insert central venous catheter.\nDo not use D25W or D50W IV or large IV volume boluses as this creates rebound hypoglycemia in infants who are hyperinsulinemic. In addition, administration of D25W or D50W can cause dangerous increase in plasma osmolarity.\nIf hypoglycemia is not controlled with above measures:\nObtain Endocrine Consult to guide further diagnostic evaluation and management.\nWhile awaiting consult, send blood (while blood sugar is low) for glucose, plasma cortisol, growth hormone and insulin concentrations\nFurther management may include\nglucocorticoids\n,\ndiazoxide\n, somatostatin or pancreatectomy.",
+      "subsections": {
+        "Calculate_rate_of_glucose_administration": {
+          "text": "Use either of the following formulas:\n(% glucose x mL/kg/d)/144 = glucose infusion rate (mg/kg/min)\n(% glucose x mL/h)/(6 x body weight in kg) = glucose infusion rate (mg/kg/min)",
+          "tables": []
+        },
+        "Persistent_Hypoglycemia": {
+          "text": "Check insulin, c-peptide, GH, cortisol, beta hydroxybutyrate, UA\nIncrease volume by 30cc/kg/d\nIncrease glucose to 12.5%\nIf continues for >3 d: consult endocrinology, or sooner",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "diazoxide",
+          "url": "https://wikem.org/wiki/Diazoxide"
+        }
+      ]
+    },
+    "Calculate_rate_of_glucose_administration": {
+      "text": "Use either of the following formulas:\n(% glucose x mL/kg/d)/144 = glucose infusion rate (mg/kg/min)\n(% glucose x mL/h)/(6 x body weight in kg) = glucose infusion rate (mg/kg/min)",
+      "subsections": {
+        "Persistent_Hypoglycemia": {
+          "text": "Check insulin, c-peptide, GH, cortisol, beta hydroxybutyrate, UA\nIncrease volume by 30cc/kg/d\nIncrease glucose to 12.5%\nIf continues for >3 d: consult endocrinology, or sooner",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Persistent_Hypoglycemia": {
+      "text": "Check insulin, c-peptide, GH, cortisol, beta hydroxybutyrate, UA\nIncrease volume by 30cc/kg/d\nIncrease glucose to 12.5%\nIf continues for >3 d: consult endocrinology, or sooner",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit\nWeaning IV dextrose infusion: When blood glucose has been stable for 12-24 h, begin decreasing IV infusion by 1-2 mL/hr q3-4 hours if blood glucose remains >60mg/dL.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes Mellitus (Main)\nHypoglycemia (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Mellitus (Main)",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus_(Main)"
+        },
+        {
+          "text": "Hypoglycemia (Peds)",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Peds)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "drug_name": "Nasal_septal_hematoma",
+  "url": "https://wikem.org/wiki/Nasal_septal_hematoma",
+  "scraped_at": "2026-01-10T07:58:02.550192",
+  "sections": {
+    "Background": {
+      "text": "Submucosal vessels disrupted\nBlood accumulates between perichondrium and cartilaginous septum\nRequires immediate incision and drainage to prevent nasal septum necrosis\nCan lead to saddle nose deformity, nasal septum abscess\nMay be complicated by necrosis and perforation\nSuspect septum\nabscess\nin patient who presents late after\nfacial trauma\nwith systemic symptoms\nEnsure thorough examination of both nares - Nasal septum cartilage easily fractures (form bilateral hematomas)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Adults present with significant\nfacial trauma\nand\nnasal fracture\nDark purple hematoma against septum\nCommon symptoms in peds, usually within first 24-72 hrs with even minor nasal trauma, include:\nNasal obstruction (95%)\nPain (50%)\nRhinorrhea\n(25%)\nFever\n(25%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical\nOxymetazoline\nwill not change size of hematoma, as opposed to typical soft tissue edema from trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Place\nlidocaine\n-soaked cotton pledgets in nose for 5min\nAchieve visualization with nasal speculum\nMake horizontal incision superficially through the mucosa and the perichondrium\nEnsure that you do not incise the cartilagenous septum\nEvacuate clot with Frazier suction or forceps\nInsert single 1/8in iodoform gauze wick into the incision to avoid premature closure\nPerform bilateral anterior nasal packing with nasal tampons coated with topical antibiotics\nPrevents reaccumulation of clot and keeps septum midline\nGive oral\nantibiotics\n(cover\nS. aureus\n,\nH. flu\n,\nS. pneumo\n)\nAmoxicillin-clavulanate\nfor uncomplicated\nClindamycin\nif\nabscess\nsuspected",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "H. flu",
+          "url": "https://wikem.org/wiki/H._flu"
+        },
+        {
+          "text": "S. pneumo",
+          "url": "https://wikem.org/wiki/S._pneumo"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with 24hr ENT or ED follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nasal fracture\nMaxillofacial trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "NEJM procedure video:\nhttps://www.youtube.com/watch?v=J5xzYyxgQ0g",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

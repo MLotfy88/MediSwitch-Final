@@ -1,0 +1,1498 @@
+{
+  "drug_name": "Narrow-complex_tachycardia",
+  "url": "https://wikem.org/wiki/Narrow-complex_tachycardia",
+  "scraped_at": "2026-01-10T07:58:04.776213",
+  "sections": {
+    "Background": {
+      "text": "Heart rate > 100 bpm\nOriginates above the ventricles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Heart rate > 100 bpm\nMay have:\nPalpitations\nSyncope\nor pre-syncope\nChest pain\nDyspnea\nAltered level of consciousness\nDelayed capillary refill",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Narrow-complex_tachycardia": {
+          "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+          "tables": []
+        },
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Narrow-complex_tachycardia": {
+      "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Flutter vs coarse AFib: determine atrial regularity by taking big bites",
+          "tables": []
+        },
+        "Narrow-complex_tachycardia_comparison_table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Differential": "A fib",
+                "A.Rhythm": "Irregular",
+                "A.rate": ">350",
+                "A.morphology": "Fibrillatory (V1)",
+                "Vagal/adenosine": "Incr. AV block"
+              },
+              {
+                "Differential": "A Flutter",
+                "A.Rhythm": "Regular",
+                "A.rate": ">250, <350",
+                "A.morphology": "Sawtooth (II, III, AVF)",
+                "Vagal/adenosine": "Incr. AV block"
+              },
+              {
+                "Differential": "A Tach",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100",
+                "A.morphology": "Neg in II, III, AVF",
+                "Vagal/adenosine": "Nothing"
+              },
+              {
+                "Differential": "AVNRT(SVT)",
+                "A.Rhythm": "Regular",
+                "A.rate": ">160",
+                "A.morphology": "No p's",
+                "Vagal/adenosine": "→ NSR"
+              },
+              {
+                "Differential": "Junctional",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100, <150",
+                "A.morphology": "No p's or retrograde p's",
+                "Vagal/adenosine": "Nothing"
+              },
+              {
+                "Differential": "MAT",
+                "A.Rhythm": "Irregular",
+                "A.rate": ">100",
+                "A.morphology": ">3 distinct p shapes",
+                "Vagal/adenosine": "Transient slowing"
+              },
+              {
+                "Differential": "Sinus tachycardia",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100 <180",
+                "A.morphology": "Normal",
+                "Vagal/adenosine": "Transient slowing"
+              }
+            ]
+          ]
+        },
+        "Narrow-Complex_Tachycardia_Examples": {
+          "text": "PSVT\nSinus tachycardia\n]]\nAtrial flutter\n(with alternating 2:1 and 3:1 block).\nAtrial flutter\n(with variable block)\nPACs\nAtrial fibrillation\nMultifocal atrial tachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Flutter vs coarse AFib: determine atrial regularity by taking big bites",
+          "tables": []
+        },
+        "Narrow-complex_tachycardia_comparison_table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Differential": "A fib",
+                "A.Rhythm": "Irregular",
+                "A.rate": ">350",
+                "A.morphology": "Fibrillatory (V1)",
+                "Vagal/adenosine": "Incr. AV block"
+              },
+              {
+                "Differential": "A Flutter",
+                "A.Rhythm": "Regular",
+                "A.rate": ">250, <350",
+                "A.morphology": "Sawtooth (II, III, AVF)",
+                "Vagal/adenosine": "Incr. AV block"
+              },
+              {
+                "Differential": "A Tach",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100",
+                "A.morphology": "Neg in II, III, AVF",
+                "Vagal/adenosine": "Nothing"
+              },
+              {
+                "Differential": "AVNRT(SVT)",
+                "A.Rhythm": "Regular",
+                "A.rate": ">160",
+                "A.morphology": "No p's",
+                "Vagal/adenosine": "→ NSR"
+              },
+              {
+                "Differential": "Junctional",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100, <150",
+                "A.morphology": "No p's or retrograde p's",
+                "Vagal/adenosine": "Nothing"
+              },
+              {
+                "Differential": "MAT",
+                "A.Rhythm": "Irregular",
+                "A.rate": ">100",
+                "A.morphology": ">3 distinct p shapes",
+                "Vagal/adenosine": "Transient slowing"
+              },
+              {
+                "Differential": "Sinus tachycardia",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100 <180",
+                "A.morphology": "Normal",
+                "Vagal/adenosine": "Transient slowing"
+              }
+            ]
+          ]
+        },
+        "Narrow-Complex_Tachycardia_Examples": {
+          "text": "PSVT\nSinus tachycardia\n]]\nAtrial flutter\n(with alternating 2:1 and 3:1 block).\nAtrial flutter\n(with variable block)\nPACs\nAtrial fibrillation\nMultifocal atrial tachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Flutter vs coarse AFib: determine atrial regularity by taking big bites",
+      "subsections": {
+        "Narrow-complex_tachycardia_comparison_table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Differential": "A fib",
+                "A.Rhythm": "Irregular",
+                "A.rate": ">350",
+                "A.morphology": "Fibrillatory (V1)",
+                "Vagal/adenosine": "Incr. AV block"
+              },
+              {
+                "Differential": "A Flutter",
+                "A.Rhythm": "Regular",
+                "A.rate": ">250, <350",
+                "A.morphology": "Sawtooth (II, III, AVF)",
+                "Vagal/adenosine": "Incr. AV block"
+              },
+              {
+                "Differential": "A Tach",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100",
+                "A.morphology": "Neg in II, III, AVF",
+                "Vagal/adenosine": "Nothing"
+              },
+              {
+                "Differential": "AVNRT(SVT)",
+                "A.Rhythm": "Regular",
+                "A.rate": ">160",
+                "A.morphology": "No p's",
+                "Vagal/adenosine": "→ NSR"
+              },
+              {
+                "Differential": "Junctional",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100, <150",
+                "A.morphology": "No p's or retrograde p's",
+                "Vagal/adenosine": "Nothing"
+              },
+              {
+                "Differential": "MAT",
+                "A.Rhythm": "Irregular",
+                "A.rate": ">100",
+                "A.morphology": ">3 distinct p shapes",
+                "Vagal/adenosine": "Transient slowing"
+              },
+              {
+                "Differential": "Sinus tachycardia",
+                "A.Rhythm": "Regular",
+                "A.rate": ">100 <180",
+                "A.morphology": "Normal",
+                "Vagal/adenosine": "Transient slowing"
+              }
+            ]
+          ]
+        },
+        "Narrow-Complex_Tachycardia_Examples": {
+          "text": "PSVT\nSinus tachycardia\n]]\nAtrial flutter\n(with alternating 2:1 and 3:1 block).\nAtrial flutter\n(with variable block)\nPACs\nAtrial fibrillation\nMultifocal atrial tachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        }
+      ]
+    },
+    "Narrow-complex_tachycardia_comparison_table": {
+      "text": "",
+      "subsections": {
+        "Narrow-Complex_Tachycardia_Examples": {
+          "text": "PSVT\nSinus tachycardia\n]]\nAtrial flutter\n(with alternating 2:1 and 3:1 block).\nAtrial flutter\n(with variable block)\nPACs\nAtrial fibrillation\nMultifocal atrial tachycardia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Differential": "A fib",
+            "A.Rhythm": "Irregular",
+            "A.rate": ">350",
+            "A.morphology": "Fibrillatory (V1)",
+            "Vagal/adenosine": "Incr. AV block"
+          },
+          {
+            "Differential": "A Flutter",
+            "A.Rhythm": "Regular",
+            "A.rate": ">250, <350",
+            "A.morphology": "Sawtooth (II, III, AVF)",
+            "Vagal/adenosine": "Incr. AV block"
+          },
+          {
+            "Differential": "A Tach",
+            "A.Rhythm": "Regular",
+            "A.rate": ">100",
+            "A.morphology": "Neg in II, III, AVF",
+            "Vagal/adenosine": "Nothing"
+          },
+          {
+            "Differential": "AVNRT(SVT)",
+            "A.Rhythm": "Regular",
+            "A.rate": ">160",
+            "A.morphology": "No p's",
+            "Vagal/adenosine": "→ NSR"
+          },
+          {
+            "Differential": "Junctional",
+            "A.Rhythm": "Regular",
+            "A.rate": ">100, <150",
+            "A.morphology": "No p's or retrograde p's",
+            "Vagal/adenosine": "Nothing"
+          },
+          {
+            "Differential": "MAT",
+            "A.Rhythm": "Irregular",
+            "A.rate": ">100",
+            "A.morphology": ">3 distinct p shapes",
+            "Vagal/adenosine": "Transient slowing"
+          },
+          {
+            "Differential": "Sinus tachycardia",
+            "A.Rhythm": "Regular",
+            "A.rate": ">100 <180",
+            "A.morphology": "Normal",
+            "Vagal/adenosine": "Transient slowing"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        }
+      ]
+    },
+    "Narrow-Complex_Tachycardia_Examples": {
+      "text": "PSVT\nSinus tachycardia\n]]\nAtrial flutter\n(with alternating 2:1 and 3:1 block).\nAtrial flutter\n(with variable block)\nPACs\nAtrial fibrillation\nMultifocal atrial tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Narrow_Regular_Tachycardia": {
+          "text": "Sinus tachycardia\nTreat underlying cause\nSVT\nVagal maneuvers\n(convert up to 25%)\nAdenosine\n6mg rapid IV push if patient hemodynamically stable (unstable should proceed directly to electrical cardioversion)\nCan follow with repeat dose of 6 mg or 12mg if initially fails\nIf\nadenosine\nfails, initiate rate control with calcium channel blocker or beta blocker or use synchronized cardioversion\nDiltiazem\n15-20mg IV, followed by infusion of 5-15mg/hr\nMetoprolol\n5mg IVP x 3 followed by 50mg PO\nSynchronized\ncardioversion\n(50-100J)\nProvide sedation prior to synchronized cardioversion if patient is hemodynamically stable\nAtrial flutter\nStable: Consider rate control to HR < 110 bpm\nUnstable: Synchronized\ncardioversion\n; start at 50J",
+          "tables": []
+        },
+        "Narrow_Irregular_Tachycardia": {
+          "text": "Multi-focal atrial tachycardia\n(MAT)\nTreat underlying cause (hypokalemia, hypomagnesemia)\nConsider\ndiltiazem\nAvoid beta blockers unless they are already known to be tolerated, as airway disease often co-morbid\nIf not symptomatic and rate < 110/120 bpm, may not require treatment (e.g., patient with MAT secondary to COPD)\nSinus tachycardia\nwith frequent\nPACs\nTreat underlying cause\nA fib\n/\nA Flutter\nwith variable conduction (see also\nAtrial Fibrillation with RVR\n)\nCheck if patient has taken usual rate-control meds\nIf missed dose, may provide dose of home medication and observe for resolution\nDetermine whether patient is better candidate for rate control or rhythm control\n[1]\nRate control preferred with:\nPersistent\nA fib\nLess symptomatic patients\nAge 65 or older\nHypertension\nNo heart failure\nPrevious failure to cardiovert\nPatient preference\nRhythm control preferred with:\nParoxysmal or new\nA fib\nMore symptomatic patients\nAge < 65 years\nHeart failure clearly exacerbated by\nA fib\nNo history of rhythm control failure\nPatient preference\nRate control with:\nDiltiazem\nMetoprolol\nAmiodarone\n(good in setting of hypotension, CHF)\nDigoxin\n(good in setting of CHF)\nRhythm conversion with:\nSynchronized\nCardioversion\n(120-200 J)\nBest performed on patients with new onset\nA fib\nor patients fully therapeutically anti-coagulated for > 3 weeks\nProcainamide\nper\nOttawa Aggressive ED Cardioversion Protocol",
+          "tables": []
+        },
+        "Atrial_fibrillation_with_RVR/flutter": {
+          "text": "Rate control:\nDiltiazem\n,\nmetoprolol\n,\ndigoxin\nDig usually only helpful when already with a block (e.g. 2:1)\nCardioversion:\nSotalol\n,\nelectric",
+          "tables": []
+        },
+        "Junctional_tachycardia": {
+          "text": "Treat underlying cause\nConsider:\nAmiodarone\nBeta-blocker\nCalcium-channel blocker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Vagal maneuvers",
+          "url": "https://wikem.org/wiki/Vagal_maneuvers"
+        },
+        {
+          "text": "Adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Multi-focal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multi-focal_atrial_tachycardia"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A Flutter",
+          "url": "https://wikem.org/wiki/A_Flutter"
+        },
+        {
+          "text": "Atrial Fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_with_RVR"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ottawa Aggressive ED Cardioversion Protocol",
+          "url": "https://wikem.org/wiki/EBQ:Ottawa_Aggressive_ED_Cardioversion_Protocol"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "electric",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        }
+      ]
+    },
+    "Narrow_Regular_Tachycardia": {
+      "text": "Sinus tachycardia\nTreat underlying cause\nSVT\nVagal maneuvers\n(convert up to 25%)\nAdenosine\n6mg rapid IV push if patient hemodynamically stable (unstable should proceed directly to electrical cardioversion)\nCan follow with repeat dose of 6 mg or 12mg if initially fails\nIf\nadenosine\nfails, initiate rate control with calcium channel blocker or beta blocker or use synchronized cardioversion\nDiltiazem\n15-20mg IV, followed by infusion of 5-15mg/hr\nMetoprolol\n5mg IVP x 3 followed by 50mg PO\nSynchronized\ncardioversion\n(50-100J)\nProvide sedation prior to synchronized cardioversion if patient is hemodynamically stable\nAtrial flutter\nStable: Consider rate control to HR < 110 bpm\nUnstable: Synchronized\ncardioversion\n; start at 50J",
+      "subsections": {
+        "Narrow_Irregular_Tachycardia": {
+          "text": "Multi-focal atrial tachycardia\n(MAT)\nTreat underlying cause (hypokalemia, hypomagnesemia)\nConsider\ndiltiazem\nAvoid beta blockers unless they are already known to be tolerated, as airway disease often co-morbid\nIf not symptomatic and rate < 110/120 bpm, may not require treatment (e.g., patient with MAT secondary to COPD)\nSinus tachycardia\nwith frequent\nPACs\nTreat underlying cause\nA fib\n/\nA Flutter\nwith variable conduction (see also\nAtrial Fibrillation with RVR\n)\nCheck if patient has taken usual rate-control meds\nIf missed dose, may provide dose of home medication and observe for resolution\nDetermine whether patient is better candidate for rate control or rhythm control\n[1]\nRate control preferred with:\nPersistent\nA fib\nLess symptomatic patients\nAge 65 or older\nHypertension\nNo heart failure\nPrevious failure to cardiovert\nPatient preference\nRhythm control preferred with:\nParoxysmal or new\nA fib\nMore symptomatic patients\nAge < 65 years\nHeart failure clearly exacerbated by\nA fib\nNo history of rhythm control failure\nPatient preference\nRate control with:\nDiltiazem\nMetoprolol\nAmiodarone\n(good in setting of hypotension, CHF)\nDigoxin\n(good in setting of CHF)\nRhythm conversion with:\nSynchronized\nCardioversion\n(120-200 J)\nBest performed on patients with new onset\nA fib\nor patients fully therapeutically anti-coagulated for > 3 weeks\nProcainamide\nper\nOttawa Aggressive ED Cardioversion Protocol",
+          "tables": []
+        },
+        "Atrial_fibrillation_with_RVR/flutter": {
+          "text": "Rate control:\nDiltiazem\n,\nmetoprolol\n,\ndigoxin\nDig usually only helpful when already with a block (e.g. 2:1)\nCardioversion:\nSotalol\n,\nelectric",
+          "tables": []
+        },
+        "Junctional_tachycardia": {
+          "text": "Treat underlying cause\nConsider:\nAmiodarone\nBeta-blocker\nCalcium-channel blocker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Vagal maneuvers",
+          "url": "https://wikem.org/wiki/Vagal_maneuvers"
+        },
+        {
+          "text": "Adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Multi-focal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multi-focal_atrial_tachycardia"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A Flutter",
+          "url": "https://wikem.org/wiki/A_Flutter"
+        },
+        {
+          "text": "Atrial Fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_with_RVR"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ottawa Aggressive ED Cardioversion Protocol",
+          "url": "https://wikem.org/wiki/EBQ:Ottawa_Aggressive_ED_Cardioversion_Protocol"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "electric",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        }
+      ]
+    },
+    "Narrow_Irregular_Tachycardia": {
+      "text": "Multi-focal atrial tachycardia\n(MAT)\nTreat underlying cause (hypokalemia, hypomagnesemia)\nConsider\ndiltiazem\nAvoid beta blockers unless they are already known to be tolerated, as airway disease often co-morbid\nIf not symptomatic and rate < 110/120 bpm, may not require treatment (e.g., patient with MAT secondary to COPD)\nSinus tachycardia\nwith frequent\nPACs\nTreat underlying cause\nA fib\n/\nA Flutter\nwith variable conduction (see also\nAtrial Fibrillation with RVR\n)\nCheck if patient has taken usual rate-control meds\nIf missed dose, may provide dose of home medication and observe for resolution\nDetermine whether patient is better candidate for rate control or rhythm control\n[1]\nRate control preferred with:\nPersistent\nA fib\nLess symptomatic patients\nAge 65 or older\nHypertension\nNo heart failure\nPrevious failure to cardiovert\nPatient preference\nRhythm control preferred with:\nParoxysmal or new\nA fib\nMore symptomatic patients\nAge < 65 years\nHeart failure clearly exacerbated by\nA fib\nNo history of rhythm control failure\nPatient preference\nRate control with:\nDiltiazem\nMetoprolol\nAmiodarone\n(good in setting of hypotension, CHF)\nDigoxin\n(good in setting of CHF)\nRhythm conversion with:\nSynchronized\nCardioversion\n(120-200 J)\nBest performed on patients with new onset\nA fib\nor patients fully therapeutically anti-coagulated for > 3 weeks\nProcainamide\nper\nOttawa Aggressive ED Cardioversion Protocol",
+      "subsections": {
+        "Atrial_fibrillation_with_RVR/flutter": {
+          "text": "Rate control:\nDiltiazem\n,\nmetoprolol\n,\ndigoxin\nDig usually only helpful when already with a block (e.g. 2:1)\nCardioversion:\nSotalol\n,\nelectric",
+          "tables": []
+        },
+        "Junctional_tachycardia": {
+          "text": "Treat underlying cause\nConsider:\nAmiodarone\nBeta-blocker\nCalcium-channel blocker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multi-focal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multi-focal_atrial_tachycardia"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A Flutter",
+          "url": "https://wikem.org/wiki/A_Flutter"
+        },
+        {
+          "text": "Atrial Fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_with_RVR"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ottawa Aggressive ED Cardioversion Protocol",
+          "url": "https://wikem.org/wiki/EBQ:Ottawa_Aggressive_ED_Cardioversion_Protocol"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "electric",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        }
+      ]
+    },
+    "Atrial_fibrillation_with_RVR/flutter": {
+      "text": "Rate control:\nDiltiazem\n,\nmetoprolol\n,\ndigoxin\nDig usually only helpful when already with a block (e.g. 2:1)\nCardioversion:\nSotalol\n,\nelectric",
+      "subsections": {
+        "Junctional_tachycardia": {
+          "text": "Treat underlying cause\nConsider:\nAmiodarone\nBeta-blocker\nCalcium-channel blocker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "electric",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        }
+      ]
+    },
+    "Junctional_tachycardia": {
+      "text": "Treat underlying cause\nConsider:\nAmiodarone\nBeta-blocker\nCalcium-channel blocker",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Stable patients without serious comorbid illness who are adequately rate or rhythm controlled can be discharged home with follow-up\nPatients with acute underlying cause may require admission\nPatients who cannot achieve asymptomatic rate or rhythm control may require admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tachycardia\nACLS: Tachycardia\nV Tach vs. SVT\nSVT\nAtrial Fibrillation (RVR)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "ACLS: Tachycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Tachycardia"
+        },
+        {
+          "text": "V Tach vs. SVT",
+          "url": "https://wikem.org/wiki/V_Tach_vs._SVT"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Atrial Fibrillation (RVR)",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_(RVR)"
+        }
+      ]
+    }
+  }
+}

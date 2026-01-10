@@ -1,0 +1,673 @@
+{
+  "drug_name": "Necrotizing_fasciitis",
+  "url": "https://wikem.org/wiki/Necrotizing_fasciitis",
+  "scraped_at": "2026-01-10T07:58:09.539863",
+  "sections": {
+    "Background": {
+      "text": "A rapidly progressive infection primarily involving the fascia and subcutaneous tissue\nFormerly a rare diagnosis, frequency has risen due to an increase in immunocompromised patients with significant risk factors\n[1]\nGas-formation is NOT a requirement for diagnosis, and radiographical lack of the classically taught gas formation should NEVER rule out necrotizing infection\n[2]\nMost severe form of soft tissue infection and potentially limb and life threatening\nEarly recognition and aggressive debridement are major prognostic determinants and delay increases mortality\n[3]",
+      "subsections": {
+        "Categories": {
+          "text": "Type I, polymicrobial\nType II,\ngroup A streptococcal\nType III, gas gangrene or\nclostridial\nmyonecrosis",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "DM\nDrug use\nObesity\nImmunosuppression\nRecent surgery\nTraumatic wounds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "group A streptococcal",
+          "url": "https://wikem.org/wiki/Group_A_streptococcal"
+        },
+        {
+          "text": "clostridial",
+          "url": "https://wikem.org/wiki/Clostridial"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Categories": {
+      "text": "Type I, polymicrobial\nType II,\ngroup A streptococcal\nType III, gas gangrene or\nclostridial\nmyonecrosis",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "DM\nDrug use\nObesity\nImmunosuppression\nRecent surgery\nTraumatic wounds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "group A streptococcal",
+          "url": "https://wikem.org/wiki/Group_A_streptococcal"
+        },
+        {
+          "text": "clostridial",
+          "url": "https://wikem.org/wiki/Clostridial"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "DM\nDrug use\nObesity\nImmunosuppression\nRecent surgery\nTraumatic wounds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Skin exam\nErythema (without sharp margins)\nExquisitely tender (pain out of proportion to exam)\nCaveat - some patients present with \"la belle indifference\"\nMay be a result of ischemic, insensate tissue\n[4]\nSkip lesions\nHemorrhagic bullae (violaceous bullae)\nMay be preceded by skin anesthesia (destruction of superficial nerves)\nCrepitus (in type I infections)\nLymphangitis and lymphadenopathy are absent in necrotizing fasciitis alone\n[5]\n[6]\nLymphangitis is seen in\ncellulitis\nFascia has no lymph drainage\nSwelling/edema may produce compartment syndrome\nConstitutional or toxic shock-like syndrome\n[7]\nFever\nTachycardia\nSystemic toxicity,\nsepsis\nConjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        },
+        "Necrotizing_rashes": {
+          "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Warfarin-induced skin necrosis",
+          "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        },
+        "Necrotizing_rashes": {
+          "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Warfarin-induced skin necrosis",
+          "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {
+        "Necrotizing_rashes": {
+          "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Warfarin-induced skin necrosis",
+          "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis"
+        }
+      ]
+    },
+    "Necrotizing_rashes": {
+      "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Warfarin-induced skin necrosis",
+          "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nChem\nPT/PTT/INR\nCK\nLactate",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Surgical exploration is the ONLY way to definitively establish the diagnosis of necrotizing infection\nImaging\nShould not delay surgical exploration\nCT is study of choice - soft tissue gas, edema and fluid collections, fascial thickening with fat stranding\nUS may show thickened fascial planes, fluid between fascial planes, irregularity of the fascia, subcutaneous emphysema. The study may be limited by soft tissue gas. Video lecture\n[8]\n.\nMRI - T2 subcutaneous, intramuscular, and fascial edema\nAbsence of gas on imaging\ndoes not\nexclude diagnosis, as gas may be occult and/or certain organisms do not classically produce gas (i.e.\nGroup A Strep\n)",
+          "tables": []
+        },
+        "Laboratory_Risk_Indicator_for_Necrotizing_Fasciitis_(LRINEC)_Score": {
+          "text": "Has not been prospectively validated, index of suspicion is key and 10% of the patients with a score < 6 had Necrotizing Fasciitis. A score > 6 has\nPPV of 92%\nand\nNPV of 96%\nfor necrotizing fasciitis.\nCRP (mg/L) ≥150:\n4 points\nWBC count (×10\n3\n/mm\n3\n)\n<15:\n0 points\n15–25:\n1 point\n>25:\n2 points\nHemoglobin (g/dL)\n>13.5:\n0 points\n11–13.5:\n1 point\n<11:\n2 points\nSodium (mmol/L) <135:\n2 points\nCreatinine (umol/L) >141:\n2 points\nGlucose >180 mg/dL (10 mmol/L):\n1 point",
+          "tables": []
+        },
+        "Grouping_by_Scores": {
+          "text": "Low Risk: score 5 (10% of pts with score < 6 still had nec fasc)\nModerate Risk: score 6– 7\nHigh Risk: score >8\nProposed algorithm",
+          "tables": []
+        },
+        "HUCLA_NF_vs_Non-NF_Criteria:": {
+          "text": "Retrospective study discovered:\nWBC count\n>15.4\n(x10\n3\n/mm\n3\n) OR\nNa\n<135\n(mmol/L)\nAssociated with NF and combo of both increased likelihood of NF\nPPV 26%/NPV 99%\nUseful tool to rule out NF, not a good tool for confirming presence of NF\nHelps distinguish NF from non-NF infection, when classic 'hard' signs of NF are absent however clinical judgment should still be used in patient with high suspicion of the disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC\nChem\nPT/PTT/INR\nCK\nLactate",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Surgical exploration is the ONLY way to definitively establish the diagnosis of necrotizing infection\nImaging\nShould not delay surgical exploration\nCT is study of choice - soft tissue gas, edema and fluid collections, fascial thickening with fat stranding\nUS may show thickened fascial planes, fluid between fascial planes, irregularity of the fascia, subcutaneous emphysema. The study may be limited by soft tissue gas. Video lecture\n[8]\n.\nMRI - T2 subcutaneous, intramuscular, and fascial edema\nAbsence of gas on imaging\ndoes not\nexclude diagnosis, as gas may be occult and/or certain organisms do not classically produce gas (i.e.\nGroup A Strep\n)",
+          "tables": []
+        },
+        "Laboratory_Risk_Indicator_for_Necrotizing_Fasciitis_(LRINEC)_Score": {
+          "text": "Has not been prospectively validated, index of suspicion is key and 10% of the patients with a score < 6 had Necrotizing Fasciitis. A score > 6 has\nPPV of 92%\nand\nNPV of 96%\nfor necrotizing fasciitis.\nCRP (mg/L) ≥150:\n4 points\nWBC count (×10\n3\n/mm\n3\n)\n<15:\n0 points\n15–25:\n1 point\n>25:\n2 points\nHemoglobin (g/dL)\n>13.5:\n0 points\n11–13.5:\n1 point\n<11:\n2 points\nSodium (mmol/L) <135:\n2 points\nCreatinine (umol/L) >141:\n2 points\nGlucose >180 mg/dL (10 mmol/L):\n1 point",
+          "tables": []
+        },
+        "Grouping_by_Scores": {
+          "text": "Low Risk: score 5 (10% of pts with score < 6 still had nec fasc)\nModerate Risk: score 6– 7\nHigh Risk: score >8\nProposed algorithm",
+          "tables": []
+        },
+        "HUCLA_NF_vs_Non-NF_Criteria:": {
+          "text": "Retrospective study discovered:\nWBC count\n>15.4\n(x10\n3\n/mm\n3\n) OR\nNa\n<135\n(mmol/L)\nAssociated with NF and combo of both increased likelihood of NF\nPPV 26%/NPV 99%\nUseful tool to rule out NF, not a good tool for confirming presence of NF\nHelps distinguish NF from non-NF infection, when classic 'hard' signs of NF are absent however clinical judgment should still be used in patient with high suspicion of the disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Surgical exploration is the ONLY way to definitively establish the diagnosis of necrotizing infection\nImaging\nShould not delay surgical exploration\nCT is study of choice - soft tissue gas, edema and fluid collections, fascial thickening with fat stranding\nUS may show thickened fascial planes, fluid between fascial planes, irregularity of the fascia, subcutaneous emphysema. The study may be limited by soft tissue gas. Video lecture\n[8]\n.\nMRI - T2 subcutaneous, intramuscular, and fascial edema\nAbsence of gas on imaging\ndoes not\nexclude diagnosis, as gas may be occult and/or certain organisms do not classically produce gas (i.e.\nGroup A Strep\n)",
+      "subsections": {
+        "Laboratory_Risk_Indicator_for_Necrotizing_Fasciitis_(LRINEC)_Score": {
+          "text": "Has not been prospectively validated, index of suspicion is key and 10% of the patients with a score < 6 had Necrotizing Fasciitis. A score > 6 has\nPPV of 92%\nand\nNPV of 96%\nfor necrotizing fasciitis.\nCRP (mg/L) ≥150:\n4 points\nWBC count (×10\n3\n/mm\n3\n)\n<15:\n0 points\n15–25:\n1 point\n>25:\n2 points\nHemoglobin (g/dL)\n>13.5:\n0 points\n11–13.5:\n1 point\n<11:\n2 points\nSodium (mmol/L) <135:\n2 points\nCreatinine (umol/L) >141:\n2 points\nGlucose >180 mg/dL (10 mmol/L):\n1 point",
+          "tables": []
+        },
+        "Grouping_by_Scores": {
+          "text": "Low Risk: score 5 (10% of pts with score < 6 still had nec fasc)\nModerate Risk: score 6– 7\nHigh Risk: score >8\nProposed algorithm",
+          "tables": []
+        },
+        "HUCLA_NF_vs_Non-NF_Criteria:": {
+          "text": "Retrospective study discovered:\nWBC count\n>15.4\n(x10\n3\n/mm\n3\n) OR\nNa\n<135\n(mmol/L)\nAssociated with NF and combo of both increased likelihood of NF\nPPV 26%/NPV 99%\nUseful tool to rule out NF, not a good tool for confirming presence of NF\nHelps distinguish NF from non-NF infection, when classic 'hard' signs of NF are absent however clinical judgment should still be used in patient with high suspicion of the disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        }
+      ]
+    },
+    "Grouping_by_Scores": {
+      "text": "Low Risk: score 5 (10% of pts with score < 6 still had nec fasc)\nModerate Risk: score 6– 7\nHigh Risk: score >8\nProposed algorithm",
+      "subsections": {
+        "HUCLA_NF_vs_Non-NF_Criteria:": {
+          "text": "Retrospective study discovered:\nWBC count\n>15.4\n(x10\n3\n/mm\n3\n) OR\nNa\n<135\n(mmol/L)\nAssociated with NF and combo of both increased likelihood of NF\nPPV 26%/NPV 99%\nUseful tool to rule out NF, not a good tool for confirming presence of NF\nHelps distinguish NF from non-NF infection, when classic 'hard' signs of NF are absent however clinical judgment should still be used in patient with high suspicion of the disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HUCLA_NF_vs_Non-NF_Criteria:": {
+      "text": "Retrospective study discovered:\nWBC count\n>15.4\n(x10\n3\n/mm\n3\n) OR\nNa\n<135\n(mmol/L)\nAssociated with NF and combo of both increased likelihood of NF\nPPV 26%/NPV 99%\nUseful tool to rule out NF, not a good tool for confirming presence of NF\nHelps distinguish NF from non-NF infection, when classic 'hard' signs of NF are absent however clinical judgment should still be used in patient with high suspicion of the disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgical exploration and debridement is both the definitive diagnostic modality and the definitive treatment\nIndicated in setting of severe pain, toxicity, fever, elevated CK (with or without radiographic evidence)\nAntibiotics\nMust cover\ngram positives\n,\ngram negatives\n, and\nanaerobes\n(especially\nGAS\nand\nclostridium\n)\nPiperacillin-Tazobactam\n3.375-4.5g q6hr AND\nclindamycin\n600-900mg q8hr AND\nvancomycin\n1gm IV q12hr (consider weight base dosing of 20 mg/kg)\nPiperacillin-Tazobactam\n3.375-4.5g q6hr and\nlinezolid\n600mg q12hr is an alternative regimen\n[11]\nIn diabetics, maintain strict glycemic control (with\nIVFs\nand IV\ninsulin\nif necessary)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "gram positives",
+          "url": "https://wikem.org/wiki/Gram_positives"
+        },
+        {
+          "text": "gram negatives",
+          "url": "https://wikem.org/wiki/Gram_negatives"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "GAS",
+          "url": "https://wikem.org/wiki/GAS"
+        },
+        {
+          "text": "clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "IVFs",
+          "url": "https://wikem.org/wiki/IVFs"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Necrotizing soft tissue infections\nLaboratory Risk Indicator for Necrotizing Fasciitis (LRINEC) Score\nEBQ:LRINEC Score",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Laboratory Risk Indicator for Necrotizing Fasciitis (LRINEC) Score",
+          "url": "https://wikem.org/wiki/LRINEC_score"
+        },
+        {
+          "text": "EBQ:LRINEC Score",
+          "url": "https://wikem.org/wiki/EBQ:LRINEC_Score"
+        }
+      ]
+    }
+  }
+}

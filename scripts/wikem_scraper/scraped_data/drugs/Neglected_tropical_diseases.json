@@ -1,0 +1,145 @@
+{
+  "drug_name": "Neglected_tropical_diseases",
+  "url": "https://wikem.org/wiki/Neglected_tropical_diseases",
+  "scraped_at": "2026-01-10T07:58:08.228167",
+  "sections": {
+    "Background": {
+      "text": "Group of diseases that disproportionately affects the poorest populations in the world\nWorldwide they affect about 1 in 6 people\nCause significant disability and developmental delays → as such, they often perpetuate the cycle of poverty\nEstimated to be the cause of about half a million deaths per year\nAlso cause the loss of more than 57million DALY's yearly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "List_of_Diseases": {
+      "text": "List varies by source - this list aims to be comprehensive of all lists referenced\nBolded entries are the diseases on the WHO list\nAmebiasis\nBalantidiasis\nBartonella henselae\nBuruli ulcer\nChagas Disease\nCholera\nDengue Fever\nDracunculiasis\n(Guinea Worm disease)\nEchinococcosis\nFascioliasis\nFood borne trematodes\n(flatworms)\nGiardia\nHuman African Trypansomiasis\n(Sleeping sickness)\nLoa Loa\nLeishmaniasis\nLeprosy\nLeptospirosis\nLymphatic filariasis\nOnchocerciasis (river blindness)\nRabies\nRift Valley Fever\nSchistosomiasis\nSoil transmitted helminths\nAscariasis\nHookworm\nTrichuriasis\nStrongyloides\nTaenia\n/\nCysticercosis\nTrachoma\nYaws\nYellow fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Balantidiasis",
+          "url": "https://wikem.org/wiki/Balantidiasis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Chagas Disease",
+          "url": "https://wikem.org/wiki/Chagas_Disease"
+        },
+        {
+          "text": "Cholera",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Dengue Fever",
+          "url": "https://wikem.org/wiki/Dengue_Fever"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "Giardia",
+          "url": "https://wikem.org/wiki/Giardia"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Onchocerciasis (river blindness)",
+          "url": "https://wikem.org/wiki/Onchocerciasis_(river_blindness)"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Rift Valley Fever",
+          "url": "https://wikem.org/wiki/Rift_Valley_Fever"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Soil transmitted helminths",
+          "url": "https://wikem.org/wiki/Soil_transmitted_helminths"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Taenia",
+          "url": "https://wikem.org/wiki/Taenia"
+        },
+        {
+          "text": "Cysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Trachoma",
+          "url": "https://wikem.org/wiki/Trachoma"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Travel medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel medicine",
+          "url": "https://wikem.org/wiki/Travel_medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Wikipedia:Neglected Tropical Disease Research and Development\nWikipedia:Neglected diseases\nCDC: Neglected Tropical Diseases\nUSAIDS: NTD Program\nGlobal Network: Neglected Tropical Diseases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

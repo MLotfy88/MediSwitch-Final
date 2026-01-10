@@ -1,0 +1,383 @@
+{
+  "drug_name": "Neonatal_jaundice",
+  "url": "https://wikem.org/wiki/Neonatal_jaundice",
+  "scraped_at": "2026-01-10T07:58:14.989430",
+  "sections": {
+    "Background": {
+      "text": "Neonatal jaundice can affect up to 84% of term newborns and is often a benign process that is quickly corrected once identified. It is also the most common cause for hospital readmission for neonates post birth.\n[1]\nThe most important piece of the evaluation is distinguishing between unconjugated and conjugated\nhyperbilirubinemia\nsince a conjugated (direct) hyperbilirubinemia is always pathologic and often more severe",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Isoimmune hemolytic disease\nG6PD deficiency\nAsphyxia\nSignificant lethargy\nTemperature instability\nSepsis\nAcidosis\nPrematurity\nPoor PO intake",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        },
+        {
+          "text": "G6PD deficiency",
+          "url": "https://wikem.org/wiki/G6PD_deficiency"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Isoimmune hemolytic disease\nG6PD deficiency\nAsphyxia\nSignificant lethargy\nTemperature instability\nSepsis\nAcidosis\nPrematurity\nPoor PO intake",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD deficiency",
+          "url": "https://wikem.org/wiki/G6PD_deficiency"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General_neonatal_jaundice_features": {
+          "text": "Jaundice\nwithin the first 4-7 days of life\nScleral icterus\nLethargy, if progression to severe elevation\nUnlikely when caused by a benign process (e.g.\nbreast milk jaundice\n,\nbreast feeding jaundice\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "breast milk jaundice",
+          "url": "https://wikem.org/wiki/Breast_milk_jaundice"
+        },
+        {
+          "text": "breast feeding jaundice",
+          "url": "https://wikem.org/wiki/Breast_feeding_jaundice"
+        }
+      ]
+    },
+    "General_neonatal_jaundice_features": {
+      "text": "Jaundice\nwithin the first 4-7 days of life\nScleral icterus\nLethargy, if progression to severe elevation\nUnlikely when caused by a benign process (e.g.\nbreast milk jaundice\n,\nbreast feeding jaundice\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "breast milk jaundice",
+          "url": "https://wikem.org/wiki/Breast_milk_jaundice"
+        },
+        {
+          "text": "breast feeding jaundice",
+          "url": "https://wikem.org/wiki/Breast_feeding_jaundice"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Indirect_(Unconjugated)_Hyperbilirubinemia": {
+          "text": "More common causes are listed first, followed by less common causes\nBreast milk jaundice\nDue to substances in milk that inhibits glucuronyl transferase. It may start as early as 3rd day and reaches peak by 3rd week of life. It is unlikely to cause kernicterus\nBreast feeding jaundice\nPatient does not receive adequate oral intake which then causes reduced bowel movement/bilirubin excretion. Best diagnosed by looking for signs of dehydration and comparing weight to birth weight.\nBlood group incompatibility: ABO, Rh factor, minor antigens\nDiabetic mother\n/gestational diabetes\nInternal\nhemorrhage\nPhysiologic jaundice\nPolycythemia\nSepsis\nHemoglobinopathies:\nthalassemia\nRed blood cell enzyme defects:\nG6PD Deficiency\n, pyruvate kinase\nRed blood cell membrane disorders: spherocytosis, ovalocytosis\nHypothyroidism\nImmune thrombocytopenic purpura\nMutations of glucuronyl transferase (i.e., Crigler-Najjar syndrome, Gilbert syndrome)",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Conjugated bilirubinemia implies a hepatic or post hepatic cause. More common causes are listed first.\nHyperalimentation cholestasis\nNeonatal\nhepatitis\nCytomegalovirus\ninfection\nSepsis\nTORCH infection (\ntoxoplasma\n, other/\nsyphilis\n,\nrubella\n,\nCMV\n,\nHSV\n)\nBiliary atresia\nCystic fibrosis\nHepatic infarction\nInborn errors of metabolism\n(e.g., galactosemia, tyrosinosis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Breast milk jaundice",
+          "url": "https://wikem.org/wiki/Breast_milk_jaundice"
+        },
+        {
+          "text": "Breast feeding jaundice",
+          "url": "https://wikem.org/wiki/Breast_feeding_jaundice"
+        },
+        {
+          "text": "Diabetic mother",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "G6PD Deficiency",
+          "url": "https://wikem.org/wiki/G6PD_Deficiency"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Immune thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Immune_thrombocytopenic_purpura"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "toxoplasma",
+          "url": "https://wikem.org/wiki/Toxoplasma"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Biliary atresia",
+          "url": "https://wikem.org/wiki/Biliary_atresia"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Neonatal_jaundice_workup": {
+          "text": "The most important component of the workup is differention of direct vs indirect bilirubinemia\nTotal and direct bilirubin levels (\"neonatal bilirubin\")\nCBC (for evaluation of hemolytic anemia or\npolycythemia vera\n)\nConsider coombs or T&S (mom & baby)",
+          "tables": []
+        },
+        "Neonatal_jaundice_diagnosis": {
+          "text": "Determine if there are red flags or obvious diagnosis based on history and exam\nMother's blood type (important if mother is RH negative or O blood type)\nAssess for any signs of decreasing oral intake or signs of dehydration?\nBaby's general appearance (well appearing? evidence of sepsis?)\nDetermine bilirubinemia type: direct vs indirect\nDirect\nAdmit\nIndirect\nDetermine risk category\nSee table below\nDetermine if patient is above of below bilirubin cutoff by age and risk category\nSee table below or use\nBiliTool\nor\nphototherapy guide",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "phototherapy guide",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice#Phototherapy_Guidelines"
+        }
+      ]
+    },
+    "Neonatal_jaundice_workup": {
+      "text": "The most important component of the workup is differention of direct vs indirect bilirubinemia\nTotal and direct bilirubin levels (\"neonatal bilirubin\")\nCBC (for evaluation of hemolytic anemia or\npolycythemia vera\n)\nConsider coombs or T&S (mom & baby)",
+      "subsections": {
+        "Neonatal_jaundice_diagnosis": {
+          "text": "Determine if there are red flags or obvious diagnosis based on history and exam\nMother's blood type (important if mother is RH negative or O blood type)\nAssess for any signs of decreasing oral intake or signs of dehydration?\nBaby's general appearance (well appearing? evidence of sepsis?)\nDetermine bilirubinemia type: direct vs indirect\nDirect\nAdmit\nIndirect\nDetermine risk category\nSee table below\nDetermine if patient is above of below bilirubin cutoff by age and risk category\nSee table below or use\nBiliTool\nor\nphototherapy guide",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "phototherapy guide",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice#Phototherapy_Guidelines"
+        }
+      ]
+    },
+    "Neonatal_jaundice_diagnosis": {
+      "text": "Determine if there are red flags or obvious diagnosis based on history and exam\nMother's blood type (important if mother is RH negative or O blood type)\nAssess for any signs of decreasing oral intake or signs of dehydration?\nBaby's general appearance (well appearing? evidence of sepsis?)\nDetermine bilirubinemia type: direct vs indirect\nDirect\nAdmit\nIndirect\nDetermine risk category\nSee table below\nDetermine if patient is above of below bilirubin cutoff by age and risk category\nSee table below or use\nBiliTool\nor\nphototherapy guide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "phototherapy guide",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice#Phototherapy_Guidelines"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Breast Milk Jaundice\nDo not need to routinely stop breast-feeding\nIf bilirubin elevated beyond 10 mg/dL:\nStop feeding for 1-2 days, substitute with bottle, and then resume breast milk\nRecurrence of prior hyperbilirubinemia is uncommon upon resuming\nTreat with phototherapy when levels exceed 20 mg/dL\nBreast-Feeding Jaundice (Starvation Jaundice)\nSupplement with expressed breast milk or formula\nExchange transfusion\nConsider if signs of bilirubin encephalopathy, typically only occurs when the indirect bili level exceeds 25\nHypertonia, arching, retrocollis, opisthotonos",
+      "subsections": {
+        "Phototherapy_guidelines_for_neonatal_jaundice": {
+          "text": "Low Risk: ≥38 weeks + no risk factors\nMedium Risk: (≥38 weeks + risk factors) or (35-37 weeks and no risk factors)\nHigh Risk: 35-37 weeks + risk factors\nPhototherapy is only used for an indirect hyperbilirubinemia",
+          "tables": [
+            [
+              {
+                "Age": "Birth",
+                "Low Risk": "7.0",
+                "Medium Risk": "5.0",
+                "High Risk": "4.0"
+              },
+              {
+                "Age": "24h",
+                "Low Risk": "11.5",
+                "Medium Risk": "9.0",
+                "High Risk": "8.0"
+              },
+              {
+                "Age": "48h",
+                "Low Risk": "15",
+                "Medium Risk": "14",
+                "High Risk": "10"
+              },
+              {
+                "Age": "72h",
+                "Low Risk": "17.5",
+                "Medium Risk": "15",
+                "High Risk": "14"
+              },
+              {
+                "Age": "96h",
+                "Low Risk": "20",
+                "Medium Risk": "17.5",
+                "High Risk": "14.5"
+              },
+              {
+                "Age": "5+days",
+                "Low Risk": "21",
+                "Medium Risk": "17.5",
+                "High Risk": "15"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        }
+      ]
+    },
+    "Phototherapy_guidelines_for_neonatal_jaundice": {
+      "text": "Low Risk: ≥38 weeks + no risk factors\nMedium Risk: (≥38 weeks + risk factors) or (35-37 weeks and no risk factors)\nHigh Risk: 35-37 weeks + risk factors\nPhototherapy is only used for an indirect hyperbilirubinemia",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Birth",
+            "Low Risk": "7.0",
+            "Medium Risk": "5.0",
+            "High Risk": "4.0"
+          },
+          {
+            "Age": "24h",
+            "Low Risk": "11.5",
+            "Medium Risk": "9.0",
+            "High Risk": "8.0"
+          },
+          {
+            "Age": "48h",
+            "Low Risk": "15",
+            "Medium Risk": "14",
+            "High Risk": "10"
+          },
+          {
+            "Age": "72h",
+            "Low Risk": "17.5",
+            "Medium Risk": "15",
+            "High Risk": "14"
+          },
+          {
+            "Age": "96h",
+            "Low Risk": "20",
+            "Medium Risk": "17.5",
+            "High Risk": "14.5"
+          },
+          {
+            "Age": "5+days",
+            "Low Risk": "21",
+            "Medium Risk": "17.5",
+            "High Risk": "15"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Direct hyperbilirubinemia\nIf new diagnosis, always admit to the hospital for further evaluation\nIndirect hyperbilirubinemia\nAdmit if septic or concerning disease process\nTypically determined by need for phototherapy (see chart above)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal jaundice\nNeonatal resuscitation\nJaundice\nKernicterus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Kernicterus",
+          "url": "https://wikem.org/wiki/Kernicterus"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "BiliTool\nPediTools",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

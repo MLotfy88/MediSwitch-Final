@@ -1,0 +1,154 @@
+{
+  "drug_name": "Nephrogenic_systemic_fibrosis",
+  "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis",
+  "scraped_at": "2026-01-10T07:58:14.022003",
+  "sections": {
+    "Background": {
+      "text": "Rare but serious scleroderma-like condition associated with gadolinium (MRI contrast) exposure in patients with renal impairment (e.g. hemodialysis, peritoneal dialysis, transplant)\nRisk with any renal impairment, acute or chronic, does not have to have ESRD\nPoorly understood pathogenesis\nChronic, progressive condition with rare cases of resolution in cases of return of renal function",
+      "subsections": {
+        "Associated_Illnesses": {
+          "text": "SLE\nHepatitis\nEosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        }
+      ]
+    },
+    "Associated_Illnesses": {
+      "text": "SLE\nHepatitis\nEosinophilia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of HD, PD, renal transplant\nGadolinium exposure, with timeline of symptom onset variable\nDevelops days to years after gadolinium exposure\nChronic, progressive\nSkin becomes tight, thick, shiny, and indurated skin, with fibrotic nodules and plaques and brawny hyperpigmentation\nPainful, pruritic\nPeau d'orange appearance\nExtremities most commonly affected, followed by trunk. Face rarely involved\nFlexion contractures when lesions overlie joints, limited range of motion\nHand stiffening\nExtremities more commonly affected than trunk\nNeuromuscular involvement can occur\nIn most severe cases, fibrosis involves internal organs (heart, lungs, liver)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Scleroderma\n, morphea\nCalciphylaxis\n, which may coexist\nCellulitis\nNecrotizing fasciitis\nPorphyria\nEosinophilic fasciitis",
+      "subsections": {
+        "Contrast_induced_complications": {
+          "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        }
+      ]
+    },
+    "Contrast_induced_complications": {
+      "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "No particular lab or imaging diagnostics\nDeep skin biopsy, including dermis, subQ fat, fascia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No specific management, supportive care\nTreatments anecdotal and of minimal benefit\nExtracorporeal photopheresis (ECP)\nUV phototherapy\nImmunotherapy\nNo surgical role except renal transplant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge (does not inherently require inpatient care)\nFollow up with dermatologist for deep skin biopsy\nFollow up with nephrologist for renal disease management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "MRI contraindications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI contraindications",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "References": {
+      "text": "Scheinfeld NS et Al. Nephrogenic systemic fibrosis. eMedicine. Updated Feb 8, 2016.\nhttp://emedicine.medscape.com/article/1097889-overview\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

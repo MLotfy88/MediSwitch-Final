@@ -1,0 +1,76 @@
+{
+  "drug_name": "Nasogastric_tube_placement",
+  "url": "https://wikem.org/wiki/Nasogastric_tube_placement",
+  "scraped_at": "2026-01-10T07:58:07.152176",
+  "sections": {
+    "Indications": {
+      "text": "Gastric decompression\nPost-\nintubation\nBowel obstruction\n/\nileus\nAcute gastric distension\nAspiration of gastric contents\nDiagnosis/therapy of\nGI bleed\n)\nGastric lavage in\nacute poisonings\n(largely abandoned due to lack of efficacy)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Severe\nfacial trauma\n(due to possible cribriform plate disruption)",
+      "subsections": {
+        "Relative_Contraindications": {
+          "text": "Severe\ncoagulopathy\nGastric bypass\nand\nlap band procedures\nEsophageal varices\n/strictures\nHistory of\nalkali ingestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative_Contraindications": {
+      "text": "Severe\ncoagulopathy\nGastric bypass\nand\nlap band procedures\nEsophageal varices\n/strictures\nHistory of\nalkali ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "PPE\nNG Tube- typically a 16F or 18F Sump\nSyringe/Bulb - 50-60cc\nTape\nEmesis basin\nCup of water with straw",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Consent by informing patient of risk, benefits, and alternatives\nPosition patient upright\nPlace towel over patient's gown and emesis basin in lap\nEstimate length of insertion\nA standard of 56cm is reasonable\n[1]\n)\nAlternatively measure from tip of nose to earlobe to xyphoid and then add 15cm\nCheck nares for obstruction and pass through the most widely patent nare\nProvide relief from discomfort\nTopical vasoconstrictors to both nares\nOxymetazoline\nor\nphenylephrine\nTopical Anesthetics (5 min prior to procedure)\nBenzocaine\n,\ntetracaine\n, nebulized\nlidocaine\n(4 or 10%), lidocaine jelly\nAnesthetize oropharynx, as well, to prevent gagging\nAntiemetics\nOndansetron\nor\nmetoclopramide\n15 min prior may reduce gagging and nausea\nInsert tube along floor of nose under inferior turbinate\nPause when NGT is in OP\nFlex neck to decrease chance of tracheal passage\nAdvance into esophagus\nSipping water may aid in esophageal passage\nWithdraw to OP promptly if excessive coughing, gagging, choking or voice change\nOnce NGT is in esophagus, rapidly insert rest of tube to pre-measured length\nConfirm placement\nInsufflate air while listening over stomach\nOne study shows this discovers only 6% of malplacement\n[2]\nShould not be primary confirmation technique\n[3]\nObtain abdominal xray\nCheck pH of aspirate\npH<5.5 in 99% of cases and has sen of 0.78 and spec of 0.86 at or below this level\n[4]\nSecure to patients nose with tape\nAttach to desired suction, not to exceed 120 mmHg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Pulmonary placement\nIntracranial placement\nIncreased cervical and cranial pressures with gagging/vomiting\nEpistaxis\nInvagination of stomach lumen into eyes of NGT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Upper gastrointestinal bleeding\nSmall bowel obstruction\nEBQ:Nasogastric aspiration and lavage in emergency department patients with hematochezia or melena without hematemesis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:Nasogastric aspiration and lavage in emergency department patients with hematochezia or melena without hematemesis",
+          "url": "https://wikem.org/wiki/EBQ:Nasogastric_aspiration_and_lavage_in_emergency_department_patients_with_hematochezia_or_melena_without_hematemesis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "LITFL: Nasogastric and Orogastric Tubes\nMerk Manual - How To Insert a Nasogastric Tube",
+      "subsections": {
+        "Videos": {
+          "text": "Insertion\nTulane (2:55)\nhttps://www.youtube.com/watch?v=1OakmxZDa5c\nUnclogging NG Tube:\nProvidence Health (3:53)\nhttps://www.youtube.com/results?search_query=unclogging+g+tube+emergency+medicine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "Insertion\nTulane (2:55)\nhttps://www.youtube.com/watch?v=1OakmxZDa5c\nUnclogging NG Tube:\nProvidence Health (3:53)\nhttps://www.youtube.com/results?search_query=unclogging+g+tube+emergency+medicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

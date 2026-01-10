@@ -1,0 +1,81 @@
+{
+  "drug_name": "Neutropenia",
+  "url": "https://wikem.org/wiki/Neutropenia",
+  "scraped_at": "2026-01-10T07:58:19.515964",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Neutropenia": {
+          "text": "ANC = (total WBC) x (%segs + %bands)\nNadir usually occurs 5-10 days after chemotherapy\nDuration of neutropenia depends on type of cancer treatment\nSolid tumor treatments: <5 days\nHematologic malignancies: 14 days or longer\n(\nLeukemia\nor\nlymphoma\n) + chemo most commonly associated with neutropenia",
+          "tables": []
+        },
+        "Neutropenic_fever_definition": {
+          "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Neutropenia": {
+      "text": "ANC = (total WBC) x (%segs + %bands)\nNadir usually occurs 5-10 days after chemotherapy\nDuration of neutropenia depends on type of cancer treatment\nSolid tumor treatments: <5 days\nHematologic malignancies: 14 days or longer\n(\nLeukemia\nor\nlymphoma\n) + chemo most commonly associated with neutropenia",
+      "subsections": {
+        "Neutropenic_fever_definition": {
+          "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Neutropenic_fever_definition": {
+      "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Neutropenic fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        }
+      ]
+    }
+  }
+}

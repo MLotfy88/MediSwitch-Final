@@ -1,0 +1,82 @@
+{
+  "drug_name": "Needle_thoracostomy",
+  "url": "https://wikem.org/wiki/Needle_thoracostomy",
+  "scraped_at": "2026-01-10T07:58:08.266556",
+  "sections": {
+    "Indications": {
+      "text": "Suspected\ntension pneumothorax\nneeding immediate decompression\nBlunt\nchest trauma\n,\nshortness of breath\n, asymmetric lung sounds, deviated trachea, crepitance,\nhypotension\nHemodynamically unstable",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "chest trauma",
+          "url": "https://wikem.org/wiki/Chest_trauma"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hemodynamically unstable",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "5cm 14 to 16 gauge IV needle/catheter\n5 or 10mL syringe",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Insert 5 cm 14 to 16 gauge IV needle catheter attached to syringe along superior margin of 2nd or 3rd rib in midclavicular line\nEvidence suggests lowest failure rate of needle decompression is at the 4th/5th rib space along the anterior axillary line\n[1]\nAdvance needle until air is aspirated to syringe\nWithdraw needle\nLeave angiocatheter open to air\nImmediate rush of air out of chest = tension pneumothorax\nFollow immediately with standard thoracostomy tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Kinking of catheter\nDislodgement\nRecurrence of\ntension pneumothorax\nLung laceration\nAir embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Tension pneumothorax\nFinger Thoracostomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Finger Thoracostomy",
+          "url": "https://wikem.org/wiki/Finger_Thoracostomy"
+        }
+      ]
+    },
+    "References": {
+      "text": "Roberts, 179\nWolfson, 82, 129",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "drug_name": "Neonatal_abstinence_syndrome",
+  "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome",
+  "scraped_at": "2026-01-10T07:58:12.651046",
+  "sections": {
+    "Background": {
+      "text": "Condition caused by neonatal withdrawal from substance exposure in utero\nWithdrawal within first 24-48 hrs → fetal\nalcohol\nsyndrome\nWithdrawal within 48-72 hrs →\nheroin\nWithdrawal at 7-14 days →\nmethadone\nIncidence has quadrupled since 1999 from 1.5 per 1000 hospital births to 6.0 per 1000 in 2013\n[1]\nPolysubstance withdrawal must also be considered",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Agitated - high-pitched cry, restlessness,\ntremors\n, hypertonia,\nconvulsions\nVasomotor - sweating,\nfever\nRespiratory - nasal congestion, persistent sneezing,\nRR > 60/min\n, nasal flaring\nMetabolic -\npoor feeding\n,\nvomiting\n,\nloose stools",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tremors",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "convulsions",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "RR > 60/min",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "poor feeding",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "loose stools",
+          "url": "https://wikem.org/wiki/Diarrhea_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Neonatal sepsis\nHyperthyroidism\n/\nhypothyroidism\nHypocalcemia\nHypoglycemia\nVertically transmitted diseases (\nviral hepatitis\nHIV\n, etc.)\nOther withdrawal (\ncaffeine\n,\ncocaine\n, nicotine,\namphetamines\n,\nSSRIs\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine_withdrawal"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_withdrawal"
+        },
+        {
+          "text": "amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pharmacologic treatment when 3 consecutive ≥ 8 on NAS(\nFinnegan scale\nEnzyme immunoassay, urine toxicology, meconium analysis\nConsider cranial\nultrasound\nfor cocaine-exposed neonates with abnormal neurologic signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive - swaddling to decrease sensory stimulation, frequent small feedings of 24 cal/oz formula\nOpioids\nwhen supportive measures fail\nMorphine\nis 1st line for infants exposed to\nboth\nopioids and benzos\nNeonatal morphine 0.4mg/ml PO sln\nWatch for side effect limiting dose (\nurinary retention\n)\nWithdrawal symptoms need to be stabilized for 3-5 days before taper\nMother's\nmethadone\n< 50mg (or other opiate)\nStart morphine PO sln 0.1mg/kg q3hrs with feeds\nIncrease by 0.1mg/kg hourly if NAS score ≥ 8, max 1mg/kg\nMother's methadone > 50mg\nStart 0.2mg/kg q3hrs\nIncrease by 0.2mg/kg hourly if NAS score ≥ 8, max 1mg/kg\nIf NPO, use preservative free morphine at 50 mcg/ml\nLoad 30 mcg/kg over 1hr, then infusion at 2 mcg/kg/hr\nIncrease by 1 mcg/kg/hr hourly until NAS < 8, max 6 mcg/kg/hr\nLonger acting\nbuprenorphine\nmay significantly reduce hospital admission and treatment duration as compared to morphine\n[2]\nMorphine q4 hours vs. buprenorphine q8 hours if NAS scale > 12\nBuprenorphine\ndosed initially at 5 mcg/kg q8 hrs to max dose of 20 mcg/kg q8 hrs\nBenzodiazepine withdrawal\ntreatment\nMidazolam\n0.1mg/kg IV q3hrs or 0.3mg/kg PO q3hrs\nOR\nphenobarbital\n3mg/kg IV or PO q24hrs\nPhenobarbital\nfor seizures OR side effect limiting morphine effects OR max morphine dose reached\n16mg/kg load divided into two consecutive feedings for day 1\n24 hrs later, use 2-8mg/kg/day maintenance dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioid withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    }
+  }
+}

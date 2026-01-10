@@ -1,0 +1,356 @@
+{
+  "drug_name": "Nematocysts",
+  "url": "https://wikem.org/wiki/Nematocysts",
+  "scraped_at": "2026-01-10T07:58:13.385197",
+  "sections": {
+    "Background": {
+      "text": "Jellyfish;\nbox jellyfish\nis most deadly\nMost toxic: Australia and other Indo-Pacific waters\nBox jellyfish\nCoral reef\nPortuguese Man-O-War\n{Physalia physalis)\nA selection of various\nsea anemones",
+      "subsections": {
+        "Nematocyst_Mechanism": {
+          "text": "Physical contact or osmotic gradient  causes discharge of nematocysts\nA spring loaded venom delivery system\nOnce opened, a nematocyst releases all of its contained venom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "Portuguese Man-O-War",
+          "url": "https://wikem.org/wiki/Portuguese_Man-O-War"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        }
+      ]
+    },
+    "Nematocyst_Mechanism": {
+      "text": "Physical contact or osmotic gradient  causes discharge of nematocysts\nA spring loaded venom delivery system\nOnce opened, a nematocyst releases all of its contained venom",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Isolated stinging, pain\nSevere\nLimb\nparalysis\nRespiratory paralysis\nCardiovascular collapse\nDeath",
+      "subsections": {
+        "Irukandji_syndrome": {
+          "text": "Usually develops within 2 hours of envenomation & can last up to 2 days\nRare but potentially fatal complication. It often involves intense pain, diffuse muscle cramps, vasconstriction and marked hypertension due to a catacholamine surge.\nBeware of\nhypertensive emergency\n: Look for signs of end organ damage (ie ACS, CHF, intracranial hemorrhage, renal injury)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Respiratory paralysis",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Death",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        }
+      ]
+    },
+    "Irukandji_syndrome": {
+      "text": "Usually develops within 2 hours of envenomation & can last up to 2 days\nRare but potentially fatal complication. It often involves intense pain, diffuse muscle cramps, vasconstriction and marked hypertension due to a catacholamine surge.\nBeware of\nhypertensive emergency\n: Look for signs of end organ damage (ie ACS, CHF, intracranial hemorrhage, renal injury)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Marine_toxins,_envenomations,_and_bites": {
+          "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        }
+      ]
+    },
+    "Marine_toxins,_envenomations,_and_bites": {
+      "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove tentacles and nematocysts\nHot salt water immersion (inactivates heat labile toxins), submerging the area in 45 ℃ water for 20 minutes has been shown to provide significant pain relief\n[2]\nStingose is a topical solution composed of 20% aluminum sulfate and 1.1% surfactant.\nUsed for pain control, venom removal via osmosis, & venom neutralization via denaturation of proteins and polysaccharides through interactions with the aluminum ion.\n[3]\nConsider topical\nlidocaine\nConsider oral or parenteral\nanalgesia\nfor severe pain\nIn general, avoid acetic acid (vinegar) since it mostly increases the firing of nematocysts and therefore increases pain.\n[4]\nSome evidence that it does inhibit nematocyst discharge in the Australian Box Jellyfish species\n[5]\nBox Jellyfish: 4-5% acetic acid solution should be applied to the injured area for at least 30 seconds.\n[6]\nSymptomatic treatment for\nIrukandji syndrome\nConsider\nfentanyl\nfor pain and antihypertensives such as magnesium sulfate and nitroglycerin\nAntivenom is only readily available in Australia for severe\nbox jellyfish\nsting",
+      "subsections": {
+        "Avoid": {
+          "text": "Urine, ethanol, ammonia,\nAcetic acid/vinegar (unless box jellyfish)\n[7]\nFresh or tap water (causes nematocyst discharge via the osmotic gradient)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        }
+      ]
+    },
+    "Avoid": {
+      "text": "Urine, ethanol, ammonia,\nAcetic acid/vinegar (unless box jellyfish)\n[7]\nFresh or tap water (causes nematocyst discharge via the osmotic gradient)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Marine toxins and envenomations\nSea wasp",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp"
+        }
+      ]
+    },
+    "References": {
+      "text": "Ward NT, Darracq MA, Tomaszewski C, et al.  Evidence based treatment of jellyfish stings in North America and Hawaii.  Ann Emerg Med. 2012;60(4):339-414.\nCegolon L, Heymann WC, Lange JH, et al. Jellyfish stings and their management: a review. Mar Drugs. 2013;11(2): 523-50",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

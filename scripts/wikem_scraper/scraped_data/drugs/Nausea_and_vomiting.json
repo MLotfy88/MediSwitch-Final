@@ -1,0 +1,568 @@
+{
+  "drug_name": "Nausea_and_vomiting",
+  "url": "https://wikem.org/wiki/Nausea_and_vomiting",
+  "scraped_at": "2026-01-10T07:58:06.467863",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nausea and/or vomiting\nAdditional features of underlying process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "ACS/MI\nBoerhaave's\nDKA\nIntracranial hemorrhage\nIschemic bowel\nMeningitis\nSepsis",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Acute radiation syndrome\nAcute gastric dilation\nAdrenal insufficiency\nAppendicitis\nBowel obstruction\n/ileus\nCarbon monoxide poisoning\nCholecystitis\nCNS tumor\nElectrolyte abnormalities\nElevated ICP\nGastric outlet obstruction,\ngastric volvulus\nHyperemesis gravidarum\nMedication related\nAcetaminophen toxicity\nAspirin toxicity\nDigoxin toxicity\nTheophylline toxicity\nGLP-1 receptor agonist toxicity\nPancreatitis\nPeritonitis\nRuptured viscus\nTesticular torsion\n/\novarian torsion",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Acute gastroenteritis\nBiliary colic\nCannabinoid hyperemesis syndrome\nChemotherapy\nCyclic vomiting syndrome\nETOH\nGastritis\nGastroenteritis\nGastroparesis\nHepatitis\nLabyrinthitis\nMigraine\nMedication related\nDisulfiram effect\nErythromycin\nIbuprofen\nIpecac toxicity\nMotion sickness\nNarcotic withdrawal\nThyroid\nPregnancy\nPeptic ulcer disease\nRenal colic\nUTI",
+          "tables": []
+        },
+        "GI": {
+          "text": "Peptic ulcer disease\nObstruction\nAdhesion\nSmall bowel obstruction\n/LBO\nSMA syndrome\nGastric outlet obstruction\nGastric volvulus\nBezoar\nPancreatitis\nGastroparesis\nAppendicitis\nCholecystitis\nCholangitis\nAcute Hepatitis\nIBD\nIntussusception\nTumor\nStrangulated\nhernia\nVolvulus\nMesenteric ischemia\nEsophageal disorders (e.g.\nachalasia\n)\nFunctional disorders\nPsychogenic\nIBS\nPyloric Stenosis",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Head injury\nCVA\nIdiopathic intracranial hypertension\nHydrocephalus\nMass lesion\nMeningitis\nMigraine\nLabyrinthitis\nMeniere's disease\nMotion sickness\nCannabinoid hyperemesis syndrome",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Bacterial\ntoxins\nPneumonia\nSBP\nUTI\nViruses (\nadenovirus\n,\nnorovirus\n,\nrotavirus\n)",
+          "tables": []
+        },
+        "Drugs/Toxins": {
+          "text": "Toxic doses\nDigoxin toxicity\nAspirin toxicity\nAcetaminophen toxicity\nIpecac toxicity\nNSAIDs\nOpioids\nAlcohol\nAnticonvulsants\nAntibiotics\nAntiarrhythmics\nToxins\nOrganophosphates\nCarbon monoxide\nRicin\nAcute radiation syndrome",
+          "tables": []
+        },
+        "Endocrine": {
+          "text": "Pregnancy\n,\nhyperemesis gravidarum\nHyponatremia\nAdrenal insufficiency\nDKA\nThyroid\n/parathyroid disorders\nUremia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "ACS\novarian\n/\ntesticular torsion\nNephrolithiasis\nPain\nAcute angle-closure glaucoma\nAnorexia nervosa\n/\nbulimia nervosa\nDepression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS/MI",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Boerhaave's",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Ischemic bowel",
+          "url": "https://wikem.org/wiki/Ischemic_bowel"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        },
+        {
+          "text": "Acute gastric dilation",
+          "url": "https://wikem.org/wiki/Acute_gastric_dilation"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "gastric volvulus",
+          "url": "https://wikem.org/wiki/Gastric_volvulus"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Aspirin toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Theophylline toxicity",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "GLP-1 receptor agonist toxicity",
+          "url": "https://wikem.org/wiki/GLP-1_receptor_agonist_toxicity"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Cannabinoid hyperemesis syndrome",
+          "url": "https://wikem.org/wiki/Cannabinoid_hyperemesis_syndrome"
+        },
+        {
+          "text": "Cyclic vomiting syndrome",
+          "url": "https://wikem.org/wiki/Cyclic_vomiting_syndrome"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Disulfiram effect",
+          "url": "https://wikem.org/wiki/Disulfiram_effect"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Ipecac toxicity",
+          "url": "https://wikem.org/wiki/Ipecac_toxicity"
+        },
+        {
+          "text": "Motion sickness",
+          "url": "https://wikem.org/wiki/Motion_sickness"
+        },
+        {
+          "text": "Narcotic withdrawal",
+          "url": "https://wikem.org/wiki/Narcotic_withdrawal"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Renal colic",
+          "url": "https://wikem.org/wiki/Renal_colic"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Nausea_and_vomiting": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "ACS/MI\nBoerhaave's\nDKA\nIntracranial hemorrhage\nIschemic bowel\nMeningitis\nSepsis",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Acute radiation syndrome\nAcute gastric dilation\nAdrenal insufficiency\nAppendicitis\nBowel obstruction\n/ileus\nCarbon monoxide poisoning\nCholecystitis\nCNS tumor\nElectrolyte abnormalities\nElevated ICP\nGastric outlet obstruction,\ngastric volvulus\nHyperemesis gravidarum\nMedication related\nAcetaminophen toxicity\nAspirin toxicity\nDigoxin toxicity\nTheophylline toxicity\nGLP-1 receptor agonist toxicity\nPancreatitis\nPeritonitis\nRuptured viscus\nTesticular torsion\n/\novarian torsion",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Acute gastroenteritis\nBiliary colic\nCannabinoid hyperemesis syndrome\nChemotherapy\nCyclic vomiting syndrome\nETOH\nGastritis\nGastroenteritis\nGastroparesis\nHepatitis\nLabyrinthitis\nMigraine\nMedication related\nDisulfiram effect\nErythromycin\nIbuprofen\nIpecac toxicity\nMotion sickness\nNarcotic withdrawal\nThyroid\nPregnancy\nPeptic ulcer disease\nRenal colic\nUTI",
+          "tables": []
+        },
+        "GI": {
+          "text": "Peptic ulcer disease\nObstruction\nAdhesion\nSmall bowel obstruction\n/LBO\nSMA syndrome\nGastric outlet obstruction\nGastric volvulus\nBezoar\nPancreatitis\nGastroparesis\nAppendicitis\nCholecystitis\nCholangitis\nAcute Hepatitis\nIBD\nIntussusception\nTumor\nStrangulated\nhernia\nVolvulus\nMesenteric ischemia\nEsophageal disorders (e.g.\nachalasia\n)\nFunctional disorders\nPsychogenic\nIBS\nPyloric Stenosis",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Head injury\nCVA\nIdiopathic intracranial hypertension\nHydrocephalus\nMass lesion\nMeningitis\nMigraine\nLabyrinthitis\nMeniere's disease\nMotion sickness\nCannabinoid hyperemesis syndrome",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Bacterial\ntoxins\nPneumonia\nSBP\nUTI\nViruses (\nadenovirus\n,\nnorovirus\n,\nrotavirus\n)",
+          "tables": []
+        },
+        "Drugs/Toxins": {
+          "text": "Toxic doses\nDigoxin toxicity\nAspirin toxicity\nAcetaminophen toxicity\nIpecac toxicity\nNSAIDs\nOpioids\nAlcohol\nAnticonvulsants\nAntibiotics\nAntiarrhythmics\nToxins\nOrganophosphates\nCarbon monoxide\nRicin\nAcute radiation syndrome",
+          "tables": []
+        },
+        "Endocrine": {
+          "text": "Pregnancy\n,\nhyperemesis gravidarum\nHyponatremia\nAdrenal insufficiency\nDKA\nThyroid\n/parathyroid disorders\nUremia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "ACS\novarian\n/\ntesticular torsion\nNephrolithiasis\nPain\nAcute angle-closure glaucoma\nAnorexia nervosa\n/\nbulimia nervosa\nDepression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS/MI",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Boerhaave's",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Ischemic bowel",
+          "url": "https://wikem.org/wiki/Ischemic_bowel"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        },
+        {
+          "text": "Acute gastric dilation",
+          "url": "https://wikem.org/wiki/Acute_gastric_dilation"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "gastric volvulus",
+          "url": "https://wikem.org/wiki/Gastric_volvulus"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Aspirin toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Theophylline toxicity",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "GLP-1 receptor agonist toxicity",
+          "url": "https://wikem.org/wiki/GLP-1_receptor_agonist_toxicity"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Cannabinoid hyperemesis syndrome",
+          "url": "https://wikem.org/wiki/Cannabinoid_hyperemesis_syndrome"
+        },
+        {
+          "text": "Cyclic vomiting syndrome",
+          "url": "https://wikem.org/wiki/Cyclic_vomiting_syndrome"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Disulfiram effect",
+          "url": "https://wikem.org/wiki/Disulfiram_effect"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Ipecac toxicity",
+          "url": "https://wikem.org/wiki/Ipecac_toxicity"
+        },
+        {
+          "text": "Motion sickness",
+          "url": "https://wikem.org/wiki/Motion_sickness"
+        },
+        {
+          "text": "Narcotic withdrawal",
+          "url": "https://wikem.org/wiki/Narcotic_withdrawal"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Renal colic",
+          "url": "https://wikem.org/wiki/Renal_colic"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "By_organ_system": {
+      "text": "",
+      "subsections": {
+        "GI": {
+          "text": "Peptic ulcer disease\nObstruction\nAdhesion\nSmall bowel obstruction\n/LBO\nSMA syndrome\nGastric outlet obstruction\nGastric volvulus\nBezoar\nPancreatitis\nGastroparesis\nAppendicitis\nCholecystitis\nCholangitis\nAcute Hepatitis\nIBD\nIntussusception\nTumor\nStrangulated\nhernia\nVolvulus\nMesenteric ischemia\nEsophageal disorders (e.g.\nachalasia\n)\nFunctional disorders\nPsychogenic\nIBS\nPyloric Stenosis",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Head injury\nCVA\nIdiopathic intracranial hypertension\nHydrocephalus\nMass lesion\nMeningitis\nMigraine\nLabyrinthitis\nMeniere's disease\nMotion sickness\nCannabinoid hyperemesis syndrome",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Bacterial\ntoxins\nPneumonia\nSBP\nUTI\nViruses (\nadenovirus\n,\nnorovirus\n,\nrotavirus\n)",
+          "tables": []
+        },
+        "Drugs/Toxins": {
+          "text": "Toxic doses\nDigoxin toxicity\nAspirin toxicity\nAcetaminophen toxicity\nIpecac toxicity\nNSAIDs\nOpioids\nAlcohol\nAnticonvulsants\nAntibiotics\nAntiarrhythmics\nToxins\nOrganophosphates\nCarbon monoxide\nRicin\nAcute radiation syndrome",
+          "tables": []
+        },
+        "Endocrine": {
+          "text": "Pregnancy\n,\nhyperemesis gravidarum\nHyponatremia\nAdrenal insufficiency\nDKA\nThyroid\n/parathyroid disorders\nUremia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "ACS\novarian\n/\ntesticular torsion\nNephrolithiasis\nPain\nAcute angle-closure glaucoma\nAnorexia nervosa\n/\nbulimia nervosa\nDepression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Varies widely depending on clinical presentation\nCBC\nChemistry\nUrine pregnancy\nLFTs\nLipase\nAPAP, ASA, digoxin levels\nUrinalysis\n?\nAbdominal xray\n?CT\n?\nUltrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying pathology\nAddress\nelectrolyte derangements\nand\ndehydration\nas needed\nAntiemetics\nInhaled isopropyl alcohol (sniffing an alcohol wipe) has been shown to reduce mild to moderate nausea and vomiting\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on cause\nMost non-specific episodes of acute nausea and vomiting may be discharged, if:\nNo emergent/urgent cause identified or suspected\nPatient tolerating fluids after treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Hypovolemia\nMetabolic alkalosis\nHypokalemia\nMallory-Weiss\n(tear)\nBoerhaave\n(rupture)\nAspiration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nausea and vomiting (peds)\nNausea and vomiting of pregnancy\nAntiemetics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

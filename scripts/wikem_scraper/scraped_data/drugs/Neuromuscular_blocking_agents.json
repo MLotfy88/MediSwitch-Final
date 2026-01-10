@@ -1,0 +1,63 @@
+{
+  "drug_name": "Neuromuscular_blocking_agents",
+  "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents",
+  "scraped_at": "2026-01-10T07:58:20.435787",
+  "sections": {
+    "Background": {
+      "text": "Non-depolarizing\nCompetitively block binding of ACh to its receptors\nDepolarizing\nDepolarizing skeletal muscle fiber\nPersistent depolarization makes the muscle fiber resistant to further stimulation by ACh",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Depolarizing"
+          },
+          {
+            "Agent": "Succinylcholine",
+            "Time to onset(seconds)": "",
+            "Duration(minutes)": "",
+            "Side effects": "fasciculations, post-operative pain"
+          },
+          {
+            "Agent": "Non-Depolarizing"
+          },
+          {
+            "Agent": "Vecuronium(Norcuron)",
+            "Time to onset(seconds)": "60",
+            "Duration(minutes)": "30–40",
+            "Side effects": "Few, may cause prolonged paralysis and promote muscarinic block"
+          },
+          {
+            "Agent": "Rocuronium(Zemuron)",
+            "Time to onset(seconds)": "75",
+            "Duration(minutes)": "45–70",
+            "Side effects": "may promote muscarinic block"
+          },
+          {
+            "Agent": "Pancuronium(Pavulon)",
+            "Time to onset(seconds)": "90",
+            "Duration(minutes)": "180 or more",
+            "Side effects": "tachycardia(slight)(nohypotension)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Reversal agent:\nSugammadex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sugammadex",
+          "url": "https://wikem.org/wiki/Sugammadex"
+        }
+      ]
+    }
+  }
+}

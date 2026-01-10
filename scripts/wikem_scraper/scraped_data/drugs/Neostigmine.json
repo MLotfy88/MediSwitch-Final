@@ -1,0 +1,118 @@
+{
+  "drug_name": "Neostigmine",
+  "url": "https://wikem.org/wiki/Neostigmine",
+  "scraped_at": "2026-01-10T07:58:15.051411",
+  "sections": {
+    "Administration": {
+      "text": "Type: Cholinesterase inhibitor\nDosage Forms:\nRoutes of Administration: IV, oral (not FDA-approved)\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Reversal of non-depolarizing\nneuromuscular blocking agents\n:\nInitial: 0.03-0.07 mg/kg IV, if no efffect, repeat q1 min up to max total dose of 0.07mg/kg or 5mg\nMyasthenia gravis\n: 15-375mg PO daily (Not FDA-approved)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neuromuscular blocking agents",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not well-established in peds, but generally same weight-based dosing as adults",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C, Fetal risk cannot be ruled out\nLactation risk\n: Avoid breastfeeding\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMechanical bowel or urinary tract obstruction\nPeritonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bradyarrythmia, Atrioventricular block\nSeizure, loss of conciousness",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nNausea, vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Bradyarrythmia, Atrioventricular block\nSeizure, loss of conciousness",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nNausea, vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Hypotension\nNausea, vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 40-75 min\nMetabolism: Hepatic (extensive)\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Competitive cholinesterase inhibitor→ less breakdown of acetylcholine→ more acetylcholine in synapses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neuromuscular blocking agents\nMyasthenia gravis\nPyridostigmine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuromuscular blocking agents",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    }
+  }
+}

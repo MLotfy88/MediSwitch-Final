@@ -1,0 +1,355 @@
+{
+  "drug_name": "Neck_pain",
+  "url": "https://wikem.org/wiki/Neck_pain",
+  "scraped_at": "2026-01-10T07:58:02.842101",
+  "sections": {
+    "Background": {
+      "text": "Two types:\nMusculoskeletal\nRadiculopathy/myelopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Musculoskeletal": {
+          "text": "Pain is deep, dull ache, episodic\nHistory of excessive or unaccustomed activity\nPain is localized and asymmetric\nReferred pain: head (upper cervical segments), limb girdle (lower cervical segments)\nSymptoms aggravated by neck movement, relieved by rest",
+          "tables": []
+        },
+        "Radiculopathy": {
+          "text": "Pain is sharp or burning\nRadiates to trapzezial and periscapular areas or down arm\nNumbness/weakness in myotomal distribution\nHeadache may occur if upper cervical roots are involved\nSymptoms aggravated by neck hyperextension (esp when head is toward affected extremity)\nGradual onset of shocklike sensations spreading down spine to extremities\nMost common at level of 5th cervical vertebra (shoulder abduction, external rotation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Musculoskeletal": {
+      "text": "Pain is deep, dull ache, episodic\nHistory of excessive or unaccustomed activity\nPain is localized and asymmetric\nReferred pain: head (upper cervical segments), limb girdle (lower cervical segments)\nSymptoms aggravated by neck movement, relieved by rest",
+      "subsections": {
+        "Radiculopathy": {
+          "text": "Pain is sharp or burning\nRadiates to trapzezial and periscapular areas or down arm\nNumbness/weakness in myotomal distribution\nHeadache may occur if upper cervical roots are involved\nSymptoms aggravated by neck hyperextension (esp when head is toward affected extremity)\nGradual onset of shocklike sensations spreading down spine to extremities\nMost common at level of 5th cervical vertebra (shoulder abduction, external rotation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Radiculopathy": {
+      "text": "Pain is sharp or burning\nRadiates to trapzezial and periscapular areas or down arm\nNumbness/weakness in myotomal distribution\nHeadache may occur if upper cervical roots are involved\nSymptoms aggravated by neck hyperextension (esp when head is toward affected extremity)\nGradual onset of shocklike sensations spreading down spine to extremities\nMost common at level of 5th cervical vertebra (shoulder abduction, external rotation)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neck_pain": {
+          "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+          "tables": []
+        },
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Cervical disk herniation",
+          "url": "https://wikem.org/wiki/Cervical_disk_herniation"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_pain": {
+      "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Cervical disk herniation",
+          "url": "https://wikem.org/wiki/Cervical_disk_herniation"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Musculoskeletal pain\nPain occurs on side away from head movement\nRadiculopathy\nSpurling test\nApply gentle pressure to patient's head during extension and lateral rotation\nMay reproduce patient's radicular pain with radiation into ipsilateral upper extremity\nAbduction relief sign\nPlacing hand of affected extremity on top of head leads to relief\nIndicates soft disk protrusion",
+      "subsections": {
+        "Imaging": {
+          "text": "Consider x-ray for:\nChronic neck pain (weeks-months)\nHistory of malignancy\nHistory of RA, ankylosing spondylitis, psoriatic spondyloarthropathy\nConsider MRI for:\nNeurologic signs/symptoms\nPlain films show bone or disk margin destruction\nCervical instability\nEpidural\nabscess\nis suspected",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Consider x-ray for:\nChronic neck pain (weeks-months)\nHistory of malignancy\nHistory of RA, ankylosing spondylitis, psoriatic spondyloarthropathy\nConsider MRI for:\nNeurologic signs/symptoms\nPlain films show bone or disk margin destruction\nCervical instability\nEpidural\nabscess\nis suspected",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Management": {
+      "text": "NSAIDs\nor\nacetaminophen\n1st line therapy\nTrigger point injections may be useful for trapezius muscle spasm\nOpioids\nAppropriate for moderate-severe pain but only for limited duration\nMuscle relaxants\nEfficacy appears equal to NSAIDs\nDiazepam\n5-10mg PO q6-8hr OR methocarbamol 1000-1500mg PO QID",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge unless concerning etiology exists",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neck Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neck Diagnoses",
+          "url": "https://wikem.org/wiki/Neck_Diagnoses"
+        }
+      ]
+    }
+  }
+}

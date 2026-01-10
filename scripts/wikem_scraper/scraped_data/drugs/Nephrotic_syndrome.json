@@ -1,0 +1,545 @@
+{
+  "drug_name": "Nephrotic_syndrome",
+  "url": "https://wikem.org/wiki/Nephrotic_syndrome",
+  "scraped_at": "2026-01-10T07:58:15.770959",
+  "sections": {
+    "Background": {
+      "text": "Increased permeability of glomerular capillary wall\nProteinuria\n,\nhypoproteinemia\n(albumin <3), edema, hyperlipidemia\nLife-threatening complications are\ninfection\nand\nthromboembolic events",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "hypoproteinemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "thromboembolic events",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Edema (face, periphery)\nShortness of breath\n, cough (\npleural effusion\n,\npulmonary edema\n)\nOliguria",
+      "subsections": {
+        "Complications": {
+          "text": "Chronic high dose steroid adverse effects\nPulmonary embolism\nRenal vein thrombosis\nHypovolemic\ncrisis\nAcute kidney injury\nInfection\nCardiovascular issues (hyperlipidemia)\nAnemia\nHypocalcemia\nHypothyroidism\nIntussusception",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Hypovolemic",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Chronic high dose steroid adverse effects\nPulmonary embolism\nRenal vein thrombosis\nHypovolemic\ncrisis\nAcute kidney injury\nInfection\nCardiovascular issues (hyperlipidemia)\nAnemia\nHypocalcemia\nHypothyroidism\nIntussusception",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Hypovolemic",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Primary nephrotic syndrome\nMinimal-change, membranoproliferative\nSecondary nephrotic syndrome\nSLE\n,\nHSP\n,\nSCD\nClassical characteristics/risk factors:\nMinimal change disease - children, preceded by\nURI\nFocal segmental glomerulosclerosis - Black patients,\nHIV\n/\nIVDA\n, specific anabolic steroids\nMembranous nephropathy - Caucasian patients - primary etiology,\nHBV\n,\nHCV\n,\nSLE\n, gold,\npenicillamine\n, malignancy\nType 1 MPGN -\nHBV\n,\nHCV\nType 2 MPGN - ↓ C3",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "SCD",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "IVDA",
+          "url": "https://wikem.org/wiki/IVDA"
+        },
+        {
+          "text": "HBV",
+          "url": "https://wikem.org/wiki/HBV"
+        },
+        {
+          "text": "HCV",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "HBV",
+          "url": "https://wikem.org/wiki/HBV"
+        },
+        {
+          "text": "HCV",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Periorbital_swelling": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Urinalysis\nProteinuria\n> 3.5 g/24 hr, no hematuria\nSpot urine protein : urine creatinine ratio of > 3 - 3.5mg/mg (300 - 350mg/mmol)\nCBC\nCMP\nPseudohyponatremia due to elevated triglycerides\nSerum albumin < 25 g/L\nLipid panel, with total cholesterol > 380mg/dL (10 mmol/L)\nANA, C3, C4,\nviral hepatitis\npanel, HIV, SPEP, SIFE, UPEP, ANCA, free light chains, PLA2R\nCXR\n(only if suspect pleural effusion / pulmonary edema)\nRenal ultrasound\nOnly if suspect renal vein thrombosis -\nhematuria\n,\nflank pain\n,\nAKI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Give\nIV fluids\nif evidence of\nhypovolemic\nshock\n(even if edema is severe)\nVolume overload\nTreat with\nfurosemide\n1-2mg/kg\nMay require correction of\nhypoalbuminemia\nfirst; 0.5-1gm/kg\nSteroids\nEffective for minimal-change disease\nPrednisone\n2mg/kg/d in 2-3 divided doses x 6 weeks\nLow-salt diet\nProphylactic anticoagulation for thromboembolic events not recommended, unless patient had previous thrombotic events",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IV_fluids"
+        },
+        {
+          "text": "hypovolemic",
+          "url": "https://wikem.org/wiki/Hypovolemic"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Volume overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Severe edema\nPulmonary effusion or respiratory symptoms\nInfection or thrombotic complications",
+          "tables": []
+        },
+        "Outpatient_nephrology_follow_up": {
+          "text": "Mild-moderate edema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Severe edema\nPulmonary effusion or respiratory symptoms\nInfection or thrombotic complications",
+      "subsections": {
+        "Outpatient_nephrology_follow_up": {
+          "text": "Mild-moderate edema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Outpatient_nephrology_follow_up": {
+      "text": "Mild-moderate edema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Kodner C. Nephrotic Syndrome in Adults: Diagnosis and Management. Am Fam Physician. 2009 Nov 15;80(10):1129-1134.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

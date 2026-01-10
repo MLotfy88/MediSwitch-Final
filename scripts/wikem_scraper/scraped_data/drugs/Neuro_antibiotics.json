@@ -1,0 +1,871 @@
+{
+  "drug_name": "Neuro_antibiotics",
+  "url": "https://wikem.org/wiki/Neuro_antibiotics",
+  "scraped_at": "2026-01-10T07:58:16.213500",
+  "sections": {
+    "Bell's_Palsy": {
+      "text": "",
+      "subsections": {
+        "Eye_Protection": {
+          "text": "Cornea eye protection (\nLevel X\n)\n[1]\nArtificial tears qhr while patient is awake\nOphthalmic ointment at night\nEye should be taped shut at night\nProtective glasses or goggles",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be started within 72hrs of symptom onset\n[2]\nPrednisone\n60-80mg qday x1wk\n[3]\n(\nLevel B Evidence\n)\n[4]",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Most likely no added benefit when combined with steroids.\n[5]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[4]\nValacyclovir\n1000mg TID x1 week\n[3]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level X",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Level B Evidence",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Eye_Protection": {
+      "text": "Cornea eye protection (\nLevel X\n)\n[1]\nArtificial tears qhr while patient is awake\nOphthalmic ointment at night\nEye should be taped shut at night\nProtective glasses or goggles",
+      "subsections": {
+        "Steroids": {
+          "text": "Should be started within 72hrs of symptom onset\n[2]\nPrednisone\n60-80mg qday x1wk\n[3]\n(\nLevel B Evidence\n)\n[4]",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Most likely no added benefit when combined with steroids.\n[5]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[4]\nValacyclovir\n1000mg TID x1 week\n[3]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level X",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Level B Evidence",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Should be started within 72hrs of symptom onset\n[2]\nPrednisone\n60-80mg qday x1wk\n[3]\n(\nLevel B Evidence\n)\n[4]",
+      "subsections": {
+        "Antivirals": {
+          "text": "Most likely no added benefit when combined with steroids.\n[5]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[4]\nValacyclovir\n1000mg TID x1 week\n[3]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Level B Evidence",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Most likely no added benefit when combined with steroids.\n[5]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[4]\nValacyclovir\n1000mg TID x1 week\n[3]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Brain_abscess": {
+      "text": "",
+      "subsections": {
+        "Otogenic_source": {
+          "text": "Cefotaxime\n2gm IV q6hr +\nmetronidazole\n500mg IV q6hr",
+          "tables": []
+        },
+        "Sinogenic_or_odontogenic_source": {
+          "text": "Cefotaxime\n2gm IV q6hr +\nmetronidazole\n500mg IV q6hr",
+          "tables": []
+        },
+        "Penetrating_trauma_or_neurosurgical_procedures": {
+          "text": "Vancomycin\n15mg/kg IV q12hr +\nceftazidime\n2gm IV q8hr",
+          "tables": []
+        },
+        "Hematogenous_source": {
+          "text": "Cefotaxime\n2gm IV q6hr +\nmetronidazole\n500mg IV q6hr",
+          "tables": []
+        },
+        "No_obvious_source": {
+          "text": "Cefotaxime\n2gm IV q6hr +\nmetronidazole\n500mg IV q6hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Encephalitis": {
+      "text": "Often it is unclear which type of encephalitis is present and starting\nAcyclovir\nempirically is appropriate. In addition to the pathogens below, possible causes can include\nWest Nile Virus\n,\nEBV\n,\nHIV\n,\ntoxoplasmosis\n, or\nrabies\n.",
+      "subsections": {
+        "HSV_encephalitis": {
+          "text": "Acyclovir\n10mg/kg (10-15mg/kg for pediatrics) every 8hrs",
+          "tables": []
+        },
+        "HZV_encephalitis": {
+          "text": "Acyclovir\n10mg/kg every 8hr",
+          "tables": []
+        },
+        "CMV_encephalitis": {
+          "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+          "tables": []
+        },
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "West Nile Virus",
+          "url": "https://wikem.org/wiki/West_Nile_Virus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "HSV_encephalitis": {
+      "text": "Acyclovir\n10mg/kg (10-15mg/kg for pediatrics) every 8hrs",
+      "subsections": {
+        "HZV_encephalitis": {
+          "text": "Acyclovir\n10mg/kg every 8hr",
+          "tables": []
+        },
+        "CMV_encephalitis": {
+          "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+          "tables": []
+        },
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "HZV_encephalitis": {
+      "text": "Acyclovir\n10mg/kg every 8hr",
+      "subsections": {
+        "CMV_encephalitis": {
+          "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+          "tables": []
+        },
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "CMV_encephalitis": {
+      "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+      "subsections": {
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Epidural_Abscess": {
+      "text": "Target\nStaph\n,\nStrep\n, and\nGram-negative bacilli\n[6]\nVancomycin\n15-20mg/kg BID +\nmetronidazole\n500mg (7.5mg/kg) q6 hrs + (\nCefotaxime\nor\nCeftriaxone\nor\nCeftazidime\n)\nCeftazidime\nis preferred if\npseudomonas\nis considered likely\nCan substitute\nNafcillin\nor\nOxacillin\nfor\nVancomycin\nif not\nMRSA\nTreat for 6-8 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staphylococcus_Species"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep_Species"
+        },
+        {
+          "text": "Gram-negative bacilli",
+          "url": "https://wikem.org/wiki/Gram_Negatives"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        }
+      ]
+    },
+    "Meningitis": {
+      "text": "",
+      "subsections": {
+        "Neonates_(up_to_1_month_of_age)": {
+          "text": "MRSA\nis uncommon in the neonate\nAmpicillin\n75mg/kg IV q6hrs\nPLUS\nCefotaxime\n50mg/kg IV q6hrs\nOR\nGentamicin\n2.5mg/kg IV q8hrs\nPer AAP,\nceftazidime\n50mg/kg IV (q12hr for babies < 8 days of age, q8hr for >7 days old) is a reasonable alternative to cefotaxime, offering virtually the same coverage for enteric bacilli and is FDA approved for all age groups\n[8]\nIf suspecting\nS. pneumoniae\nor\nMRSA\n, add\nVancomycin\nConsider\nacyclovir\nfor\nHSV",
+          "tables": []
+        },
+        ">_1_month_old": {
+          "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nVancomycin\nis for resistant\nPneumococcus",
+          "tables": []
+        },
+        "Adult_<_50_yr": {
+          "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nVancomycin\nis for resistant\nPneumococcus",
+          "tables": []
+        },
+        "Adult_>_50_yr_and_Immunocompromised": {
+          "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nPLUS\nAmpicillin\n2gm IV q4h (hourly if listeria suspected)\n[12]",
+          "tables": []
+        },
+        "Post_Procedural_(or_penetrating_trauma)": {
+          "text": "Vancomycin\n15-20mg/kg IV BID daily\nPLUS\nCefepime\n2g (50mg/kg) IV q8 hours daily\nOR\nCeftazidime\n2g (50mg/kg) IV q8 hours daily\nOR\nMeropenem\n2gm (40mg/kg) IV q8 hours daily",
+          "tables": []
+        },
+        "Cryptococcosis_Meningitis": {
+          "text": "Options\nAmphotericin B\n1mg/kg IV once daily\nAND\nFlucytosine 25mg/kg PO q6hrs daily\nAmphotericin B\n5mg/kg IV once daily\nAND\nFlucytosine 25mg/kg PO q6hrs daily",
+          "tables": []
+        },
+        "Meningitis_with_severe_PCN_allergy": {
+          "text": "Chloramphenicol\n1g IV q6h +\nVancomycin\n15mg/kg q8-12hr",
+          "tables": []
+        },
+        "Meningitis_with_VP_shunt": {
+          "text": "Coverage for skin contaminants (\nS. epidermis\n,\nS. aureus\n)\nVancomycin\nplus\nceftriaxone\nplus shunt removal",
+          "tables": []
+        },
+        "Neisseria_meningitidis_Prophylaxis": {
+          "text": "Ceftriaxone\n250mg IM once (if less than 15yr then 125mg IM)\nCiprofloxacin\n500mg PO once\nRifampin\n600 mg PO BID x 2 days\nif < 1 month old then 5mg/kg PO BID x 2 days\nif ≥ 1 month old then 10mg/kg (max at 600mg) PO BID x 2 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "S. epidermis",
+          "url": "https://wikem.org/wiki/S._epidermis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Neisseria_meningitidis_Prophylaxis": {
+      "text": "Ceftriaxone\n250mg IM once (if less than 15yr then 125mg IM)\nCiprofloxacin\n500mg PO once\nRifampin\n600 mg PO BID x 2 days\nif < 1 month old then 5mg/kg PO BID x 2 days\nif ≥ 1 month old then 10mg/kg (max at 600mg) PO BID x 2 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Tetanus": {
+      "text": "Metronidazole\n:\n500 mg  IV every 6 hours",
+      "subsections": {
+        "(<1200g)": {
+          "text": "7.5 mg/kg PO/IV q48h\nFirst Dose: 7.5 mg/kg PO/IV x 1",
+          "tables": []
+        },
+        "(>1200g_AND_<1_Month_Old)": {
+          "text": "<7 days old\n7.5-15 mg/kg/day PO/IV q12-24h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1\n>7 days old\n15-30 mg/kg/day PO/IV q12h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1",
+          "tables": []
+        },
+        "(>1_Month_Old)": {
+          "text": "30 mg/kg/day PO/IV q6h\nFirst Dose: 7.5 mg/kg PO/IV x 1\nMax: 4 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

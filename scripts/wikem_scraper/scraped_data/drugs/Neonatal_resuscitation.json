@@ -1,0 +1,733 @@
+{
+  "drug_name": "Neonatal_resuscitation",
+  "url": "https://wikem.org/wiki/Neonatal_resuscitation",
+  "scraped_at": "2026-01-10T07:58:11.846789",
+  "sections": {
+    "Intro": {
+      "text": "Use this note for the non-delivery related resuscitation of the newborn; see\nnewborn resuscitation\nfor immediate after-delivery resuscitation. See\nnewborn critical care quick reference\nfor vital signs and drug doses, and equipment sizes.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Neonate <1mo age",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Neonate in\nshock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Blood glucose (stat)\nSepsis\nworkup\nBlood gas\nECG\nTreatable conditions include\nSVT\nAmmonia, pyruvate and\nlactate\nto  rule in\ninborn errors of metabolism\nNeed to look up values for neonate. Ammonia is high as liver is immature (i.e. that's why neonates are jaundice). Ammonia > 200 requires dialysis",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "If\nhypoxic\nor evidence of CHF assume CHD\nCHF\nin neonate =\nhepatomegaly\n,\nwheezing\n, gallop\nif unclear, do Hyperoxia test\nplace infant on 100% O2 for 10 minutes\ncheck ABG, if O2<100 torr, highly predictive of CHD\nsome use Pulse Ox <95%, less sensitive\nAbdominal xrays\nmay help rule in intestinal disaster early",
+          "tables": []
+        },
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Abdominal xrays",
+          "url": "https://wikem.org/wiki/KUB"
+        },
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Blood glucose (stat)\nSepsis\nworkup\nBlood gas\nECG\nTreatable conditions include\nSVT\nAmmonia, pyruvate and\nlactate\nto  rule in\ninborn errors of metabolism\nNeed to look up values for neonate. Ammonia is high as liver is immature (i.e. that's why neonates are jaundice). Ammonia > 200 requires dialysis",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "If\nhypoxic\nor evidence of CHF assume CHD\nCHF\nin neonate =\nhepatomegaly\n,\nwheezing\n, gallop\nif unclear, do Hyperoxia test\nplace infant on 100% O2 for 10 minutes\ncheck ABG, if O2<100 torr, highly predictive of CHD\nsome use Pulse Ox <95%, less sensitive\nAbdominal xrays\nmay help rule in intestinal disaster early",
+          "tables": []
+        },
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Abdominal xrays",
+          "url": "https://wikem.org/wiki/KUB"
+        },
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "If\nhypoxic\nor evidence of CHF assume CHD\nCHF\nin neonate =\nhepatomegaly\n,\nwheezing\n, gallop\nif unclear, do Hyperoxia test\nplace infant on 100% O2 for 10 minutes\ncheck ABG, if O2<100 torr, highly predictive of CHD\nsome use Pulse Ox <95%, less sensitive\nAbdominal xrays\nmay help rule in intestinal disaster early",
+      "subsections": {
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Abdominal xrays",
+          "url": "https://wikem.org/wiki/KUB"
+        },
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Pediatric_Hypoglycemia_Dextrose_Chart": {
+      "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Neonatal",
+            "Age": "<2mo",
+            "Glucose": "<40",
+            "Treatment": "D10W",
+            "Initial IV Bolus": "2.5-5 mL/kg",
+            "Maintenance Dose": "6 mL/kg/h"
+          },
+          {
+            "Category": "Pediatric",
+            "Age": "2mo-8yrs",
+            "Glucose": "<60",
+            "Treatment": "D25W",
+            "Initial IV Bolus": "2 mL/kg",
+            "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+          },
+          {
+            "Category": "Adult",
+            "Age": ">8yrs",
+            "Glucose": "<70",
+            "Treatment": "D50W",
+            "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+            "Maintenance Dose": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Full\nsepsis\nwork-up\nIV\nantibiotics\nand\nfluids\nPressors\nif CHD suspected\nIntubate\nand give\nPGE\nSides effects of\nPGE\ninclude apnea (10%)\nIf\ninborn error of metabolism\nsuspected\nIV\ndextrose\nat 1.5 maintenance\nDialysis\nif ammonia >200",
+      "subsections": {
+        "Empiric_Treatment_for_Unstable_Neonates": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medication/Intervention": "Glucose",
+                "Indication": "Hypoglycemia",
+                "Dose/Size (for neonate)": "5–10 mL/kg of10% dextrose in waterIV"
+              },
+              {
+                "Medication/Intervention": "3% normal saline",
+                "Indication": "Symptomatichyponatremia",
+                "Dose/Size (for neonate)": "3–5 mL/kg bolus IV"
+              },
+              {
+                "Medication/Intervention": "Calcium",
+                "Indication": "Hypocalcemia",
+                "Dose/Size (for neonate)": "50–100 milligrams/kgcalcium gluconateor 20 milligrams/kgcalcium chlorideIV"
+              },
+              {
+                "Medication/Intervention": "Cefotaxime",
+                "Indication": "Infection",
+                "Dose/Size (for neonate)": "50 milligrams/kg IV"
+              },
+              {
+                "Medication/Intervention": "Ampicillin",
+                "Indication": "Infection",
+                "Dose/Size (for neonate)": "50 milligrams/kg IV"
+              },
+              {
+                "Medication/Intervention": "Gentamicin",
+                "Indication": "Infection",
+                "Dose/Size (for neonate)": "2.5 milligrams/kg IV"
+              },
+              {
+                "Medication/Intervention": "Packed red blood cells",
+                "Indication": "Anemia",
+                "Dose/Size (for neonate)": "10 mL/kg IV"
+              },
+              {
+                "Medication/Intervention": "Normal saline",
+                "Indication": "Hypotension,dehydration",
+                "Dose/Size (for neonate)": "5-10 mL/kg IV aliquots (up to 60-80 mL/kg)"
+              },
+              {
+                "Medication/Intervention": "10%dextrosein one fourth normal saline",
+                "Indication": "Metabolic disease",
+                "Dose/Size (for neonate)": "1.5 maintenance (6 mL/kg/h for the first 10 kg)"
+              },
+              {
+                "Medication/Intervention": "Endotrachealintubation",
+                "Indication": "Hypoventilation or frequent apnea",
+                "Dose/Size (for neonate)": "<3mm for preemie; 3mm for term neonate, 3.5mm for older infant; cuffed tube prefered if not premature"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/Fluids"
+        },
+        {
+          "text": "Pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        },
+        {
+          "text": "PGE",
+          "url": "https://wikem.org/wiki/PGE"
+        },
+        {
+          "text": "PGE",
+          "url": "https://wikem.org/wiki/PGE"
+        },
+        {
+          "text": "inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        }
+      ]
+    },
+    "Empiric_Treatment_for_Unstable_Neonates": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication/Intervention": "Glucose",
+            "Indication": "Hypoglycemia",
+            "Dose/Size (for neonate)": "5–10 mL/kg of10% dextrose in waterIV"
+          },
+          {
+            "Medication/Intervention": "3% normal saline",
+            "Indication": "Symptomatichyponatremia",
+            "Dose/Size (for neonate)": "3–5 mL/kg bolus IV"
+          },
+          {
+            "Medication/Intervention": "Calcium",
+            "Indication": "Hypocalcemia",
+            "Dose/Size (for neonate)": "50–100 milligrams/kgcalcium gluconateor 20 milligrams/kgcalcium chlorideIV"
+          },
+          {
+            "Medication/Intervention": "Cefotaxime",
+            "Indication": "Infection",
+            "Dose/Size (for neonate)": "50 milligrams/kg IV"
+          },
+          {
+            "Medication/Intervention": "Ampicillin",
+            "Indication": "Infection",
+            "Dose/Size (for neonate)": "50 milligrams/kg IV"
+          },
+          {
+            "Medication/Intervention": "Gentamicin",
+            "Indication": "Infection",
+            "Dose/Size (for neonate)": "2.5 milligrams/kg IV"
+          },
+          {
+            "Medication/Intervention": "Packed red blood cells",
+            "Indication": "Anemia",
+            "Dose/Size (for neonate)": "10 mL/kg IV"
+          },
+          {
+            "Medication/Intervention": "Normal saline",
+            "Indication": "Hypotension,dehydration",
+            "Dose/Size (for neonate)": "5-10 mL/kg IV aliquots (up to 60-80 mL/kg)"
+          },
+          {
+            "Medication/Intervention": "10%dextrosein one fourth normal saline",
+            "Indication": "Metabolic disease",
+            "Dose/Size (for neonate)": "1.5 maintenance (6 mL/kg/h for the first 10 kg)"
+          },
+          {
+            "Medication/Intervention": "Endotrachealintubation",
+            "Indication": "Hypoventilation or frequent apnea",
+            "Dose/Size (for neonate)": "<3mm for preemie; 3mm for term neonate, 3.5mm for older infant; cuffed tube prefered if not premature"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Critical_Care": {
+          "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        }
+      ]
+    },
+    "Pediatric_Critical_Care": {
+      "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: The Undifferentiated Sick Infant\nThe Undifferentiated Sick Infant (mp3 only)\nEM Cases - Neonatal Resuscitation May 2020\nJustin Morgenstern, \"Resuscitation of the crashing infant (pediatric resuscitation)\", First10EM blog, October 24, 2016. Available at:\nhttps://first10em.com/crashing-infant/\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

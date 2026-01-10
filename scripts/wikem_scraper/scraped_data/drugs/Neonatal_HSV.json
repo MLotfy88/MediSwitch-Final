@@ -1,0 +1,710 @@
+{
+  "drug_name": "Neonatal_HSV",
+  "url": "https://wikem.org/wiki/Neonatal_HSV",
+  "scraped_at": "2026-01-10T07:58:09.521680",
+  "sections": {
+    "Background": {
+      "text": "Causative agent:\nHSV-1\nor\nHSV-2\nDefinition – “infection acquired peri-natally or postnatally without clinical manifestations at birth or in the first 24 hours of life but with subsequent clinical manifestations in the neonatal period (age less than 29 days)”\n[1]\nED prevalence:\n0.2% all neonates\n0.3% febrile neonates\n0.5% neonates undergoing LP\nPrevalence similar to meningitis (0.4%) in neonates presenting for SBI workup\n[2]\nRisk associated with age <3 weeks, primary maternal HSV infection at delivery",
+      "subsections": {
+        "Classification": {
+          "text": "Whitney-Kimberlin disease categories\nDisseminated (liver, lung, adrenal glands, skin, eye, brain) - 25%\n2/3 have CNS involvement\nCNS - 30%\nSEM (skin, eye, mouth) - 45%\nConjunctival disease or minor skin lesions may be only manifestation\nMay go on to CNS, disseminated disease - workup and treat the same",
+          "tables": []
+        },
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        },
+        "Historical_Features": {
+          "text": "Not sensitive (maternal history of HSV), nor specific (maternal fever, vaginal delivery, preterm birth)\n[1]\n80% of mothers have no history of genital lesions\n[3]\nVesicular lesions\nmost specific, present in <1/2\n[1]\nNote: absence of vesicular rash does not rule out\nMay be well appearing\n- maintain high clinical suspicion\nAsk about:\nTemperature instability (\nfever\n,\nhypothermia\n)\nIrritability\nLethargy\nSeizures\nRespiratory distress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV-1",
+          "url": "https://wikem.org/wiki/HSV-1"
+        },
+        {
+          "text": "HSV-2",
+          "url": "https://wikem.org/wiki/HSV-2"
+        },
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Vesicular lesions",
+          "url": "https://wikem.org/wiki/Vesiculobullous_rashes"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "Whitney-Kimberlin disease categories\nDisseminated (liver, lung, adrenal glands, skin, eye, brain) - 25%\n2/3 have CNS involvement\nCNS - 30%\nSEM (skin, eye, mouth) - 45%\nConjunctival disease or minor skin lesions may be only manifestation\nMay go on to CNS, disseminated disease - workup and treat the same",
+      "subsections": {
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        },
+        "Historical_Features": {
+          "text": "Not sensitive (maternal history of HSV), nor specific (maternal fever, vaginal delivery, preterm birth)\n[1]\n80% of mothers have no history of genital lesions\n[3]\nVesicular lesions\nmost specific, present in <1/2\n[1]\nNote: absence of vesicular rash does not rule out\nMay be well appearing\n- maintain high clinical suspicion\nAsk about:\nTemperature instability (\nfever\n,\nhypothermia\n)\nIrritability\nLethargy\nSeizures\nRespiratory distress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Vesicular lesions",
+          "url": "https://wikem.org/wiki/Vesiculobullous_rashes"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Herpes_Virus_Types": {
+      "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+      "subsections": {
+        "Historical_Features": {
+          "text": "Not sensitive (maternal history of HSV), nor specific (maternal fever, vaginal delivery, preterm birth)\n[1]\n80% of mothers have no history of genital lesions\n[3]\nVesicular lesions\nmost specific, present in <1/2\n[1]\nNote: absence of vesicular rash does not rule out\nMay be well appearing\n- maintain high clinical suspicion\nAsk about:\nTemperature instability (\nfever\n,\nhypothermia\n)\nIrritability\nLethargy\nSeizures\nRespiratory distress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Vesicular lesions",
+          "url": "https://wikem.org/wiki/Vesiculobullous_rashes"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Historical_Features": {
+      "text": "Not sensitive (maternal history of HSV), nor specific (maternal fever, vaginal delivery, preterm birth)\n[1]\n80% of mothers have no history of genital lesions\n[3]\nVesicular lesions\nmost specific, present in <1/2\n[1]\nNote: absence of vesicular rash does not rule out\nMay be well appearing\n- maintain high clinical suspicion\nAsk about:\nTemperature instability (\nfever\n,\nhypothermia\n)\nIrritability\nLethargy\nSeizures\nRespiratory distress",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vesicular lesions",
+          "url": "https://wikem.org/wiki/Vesiculobullous_rashes"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "General\nTemperature instability (\nfebrile\nor\nhypothermic\n)\nMay be well appearing in SEM\nDisseminated\nNeutropenia\nThrombocytopenia\nHepatitis\nPneumonitis\nDIC\n+/- CNS disease\nCNS\nHypotonia\nSeizures\nAbnormal brain imaging\nAbnormal EEG\nCSF pleocytosis and/or proteinosis\nSEM\nCharacteristic\nskin lesions\nof HSV – skin, eye (kerato-conjunctivitis), or mouth\nNo evidence of systemic or CNS infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "febrile",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "hypothermic",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "skin lesions",
+          "url": "https://wikem.org/wiki/Neonatal_rashes"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Should include the following\n[3]\nCBC with differential\nChem (if starting acyclovir)\nLFTs\nWhole blood HSV PCR\nBlood, urine culture, urinalysis\nLP\nwith CSF studies including HSV PCR\nPerform PCR/culture of:\nAny visible lesions\nConjunctiva, nasopharynx, mouth, anus\nEven in the absence of lesions\nConsider\nCXR\nfor respiratory symptoms\nSuspected CNS disease should undergo EEG, with discussion of imaging with infectious disease and neurology consultants (does not need to be completed in the ED unless there is an abnormal neuro exam)\nSuspected ocular involvement should get optho consult",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Always consider neonatal HSV and perform appropriate work-up and treatment if:\nEvidence of vesicular rash (even if minor)\nKeratoconjunctivitis\nSeizure\nPoor feeding\nLethargy\nIrritability\nRespiratory distress\nSepsis\nTemperature instability\nCSF pleocytosis\nThrombocytopenia\nTransaminitis\nWorking up for serious bacterial illness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Should include the following\n[3]\nCBC with differential\nChem (if starting acyclovir)\nLFTs\nWhole blood HSV PCR\nBlood, urine culture, urinalysis\nLP\nwith CSF studies including HSV PCR\nPerform PCR/culture of:\nAny visible lesions\nConjunctiva, nasopharynx, mouth, anus\nEven in the absence of lesions\nConsider\nCXR\nfor respiratory symptoms\nSuspected CNS disease should undergo EEG, with discussion of imaging with infectious disease and neurology consultants (does not need to be completed in the ED unless there is an abnormal neuro exam)\nSuspected ocular involvement should get optho consult",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Always consider neonatal HSV and perform appropriate work-up and treatment if:\nEvidence of vesicular rash (even if minor)\nKeratoconjunctivitis\nSeizure\nPoor feeding\nLethargy\nIrritability\nRespiratory distress\nSepsis\nTemperature instability\nCSF pleocytosis\nThrombocytopenia\nTransaminitis\nWorking up for serious bacterial illness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Always consider neonatal HSV and perform appropriate work-up and treatment if:\nEvidence of vesicular rash (even if minor)\nKeratoconjunctivitis\nSeizure\nPoor feeding\nLethargy\nIrritability\nRespiratory distress\nSepsis\nTemperature instability\nCSF pleocytosis\nThrombocytopenia\nTransaminitis\nWorking up for serious bacterial illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Management_Considerations": {
+          "text": "Acyclovir\nif\n[4]\n[5]\n[6]\nProven HSV disease\nSuspected HSV disease (see clinical features) pending studies\nAt risk due to exposure (active genital lesions in mother or history of cold sores in a contact)\nMany recommend acyclovir empirically in ill-appearing neonates with fever (including hypothermia) or aspetic meningitis until results of work-up are known\nAcyclovir\n20 mg/kg IV every 8 hours (duration depends on classification)\nIf ocular involvement:\n1% trifluridine, 0.1% iododeoxyuridine, or 3% vidarabine\nOptho consult\nAs for any febrile neonate SBI evaluation:\nAmpicillin\n+\ngentamycin\nMay substitute\ngentamycin\nwith\ncefotaxime\n/\nceftazidime",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        }
+      ]
+    },
+    "Management_Considerations": {
+      "text": "Acyclovir\nif\n[4]\n[5]\n[6]\nProven HSV disease\nSuspected HSV disease (see clinical features) pending studies\nAt risk due to exposure (active genital lesions in mother or history of cold sores in a contact)\nMany recommend acyclovir empirically in ill-appearing neonates with fever (including hypothermia) or aspetic meningitis until results of work-up are known\nAcyclovir\n20 mg/kg IV every 8 hours (duration depends on classification)\nIf ocular involvement:\n1% trifluridine, 0.1% iododeoxyuridine, or 3% vidarabine\nOptho consult\nAs for any febrile neonate SBI evaluation:\nAmpicillin\n+\ngentamycin\nMay substitute\ngentamycin\nwith\ncefotaxime\n/\nceftazidime",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Any neonate with suspected HSV (especially if CSF pleocytosis) should be treated and admitted\nConsider covering all febrile neonates regardless pending CSF and culture studies",
+      "subsections": {
+        "Outcomes": {
+          "text": "SEM with treatment - all survive\n[1]\nIf untreated 50-60% with SEM go on to CNS or disseminated disease\nMortality high with CNS (4%) or disseminated (29%) disease even with treatment\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Outcomes": {
+      "text": "SEM with treatment - all survive\n[1]\nIf untreated 50-60% with SEM go on to CNS or disseminated disease\nMortality high with CNS (4%) or disseminated (29%) disease even with treatment\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal conjunctivitis\nPediatric fever of uncertain source\nHerpes viruses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Pediatric fever of uncertain source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Herpes viruses",
+          "url": "https://wikem.org/wiki/Herpes_viruses"
+        }
+      ]
+    }
+  }
+}

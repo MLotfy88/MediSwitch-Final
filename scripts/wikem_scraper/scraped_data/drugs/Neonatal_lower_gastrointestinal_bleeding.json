@@ -1,0 +1,49 @@
+{
+  "drug_name": "Neonatal_lower_gastrointestinal_bleeding",
+  "url": "https://wikem.org/wiki/Neonatal_lower_gastrointestinal_bleeding",
+  "scraped_at": "2026-01-10T07:58:13.859135",
+  "sections": {
+    "Background": {
+      "text": "Acute GI bleeding in children carries\nlow\nmortality and is often a self-limited condition in infants\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Bloody stool\n+/- additional features of underlying condition\n+/- signs of\nanemia\n,\nshock\nif significant bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Emergent: typically do not present with isolated hematochezia\nNecrotizing enterocolitis\nMalrotation with\nvolvulus\nHirschsprung's disease\nCoagulopathy\n(see other bleeding symptoms (cephalohematoma, mucocutaneous bleeding, petechiae)\nVitamin K deficiency\n(if not given after delivery)\nMaternal\nthrombocytopenia\nDIC\nInfectious\ncolitis\nFPIES\nOther conditions\nSwallowed maternal blood (e.g. from chapped nipples)\nMilk protein enterocolitis\nPerianal/rectal\nfissure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Examine stool directly and test for blood\nApt test: distinguishes maternal versus infant's blood (fetal Hgb is resistant to alkali and stays pink, adult Hgb hydrolyzed by alkali--> yellow/brown)\nEvaluate for underlying emergent etiology if sick or suggestive presentation\nabnormal abdominal exam (distension, tenderness, abnormal bowel sounds):\nabdominal plain film",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying condition, resuscitate prn\nIf well-appearing with low-moderate blood and suspect milk or soy protein induced colitis, trial eliminating milk/soy  are well appearing, stools with low-moderate blood, trial eliminating milk and soy from the diet",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dependant on degree of bleeding and underlying etiology; most can be discharged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "https://pedemmorsels.com/neonate-with-bloody-stool/\nhttps://www.uptodate.com/contents/lower-gastrointestinal-bleeding-in-children-causes-and-diagnostic-approach",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

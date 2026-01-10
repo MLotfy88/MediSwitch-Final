@@ -1,0 +1,962 @@
+{
+  "drug_name": "Neutropenic_fever",
+  "url": "https://wikem.org/wiki/Neutropenic_fever",
+  "scraped_at": "2026-01-10T07:58:19.199868",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Neutropenia": {
+          "text": "ANC = (total WBC) x (%segs + %bands)\nNadir usually occurs 5-10 days after chemotherapy\nDuration of neutropenia depends on type of cancer treatment\nSolid tumor treatments: <5 days\nHematologic malignancies: 14 days or longer\n(\nLeukemia\nor\nlymphoma\n) + chemo most commonly associated with neutropenia",
+          "tables": []
+        },
+        "Common_Causes": {
+          "text": "Definitive cause only found in 30%\nEndogenous flora 80%\nE. Coli\n,\nEnterobacter\n,\nanaerobes\nSkin\nStaph\n,\nstrep\nRespiratory tract\nStep pneumonia\n,\nklebsiella\n,\ncorynebacterium\n,\npseudomonas\nOther\nC. diff\n,\nmycobacterium\n,\ncandida\n,\nAspergillus",
+          "tables": []
+        },
+        "High-Risk/Special_Infections": {
+          "text": "Neutropenic enterocolitis (typhlitis)\nMucormycosis\nHepatosplenic\nCandidiasis\nOccurs after neutropenic fever resolves and ANC has come up allowing abscess formation\nTreat with\namphotericin B",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "E. Coli",
+          "url": "https://wikem.org/wiki/E._Coli"
+        },
+        {
+          "text": "Enterobacter",
+          "url": "https://wikem.org/wiki/Enterobacter"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Step pneumonia",
+          "url": "https://wikem.org/wiki/Step_pneumonia"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "corynebacterium",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "mycobacterium",
+          "url": "https://wikem.org/wiki/Mycobacterium"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Neutropenia": {
+      "text": "ANC = (total WBC) x (%segs + %bands)\nNadir usually occurs 5-10 days after chemotherapy\nDuration of neutropenia depends on type of cancer treatment\nSolid tumor treatments: <5 days\nHematologic malignancies: 14 days or longer\n(\nLeukemia\nor\nlymphoma\n) + chemo most commonly associated with neutropenia",
+      "subsections": {
+        "Common_Causes": {
+          "text": "Definitive cause only found in 30%\nEndogenous flora 80%\nE. Coli\n,\nEnterobacter\n,\nanaerobes\nSkin\nStaph\n,\nstrep\nRespiratory tract\nStep pneumonia\n,\nklebsiella\n,\ncorynebacterium\n,\npseudomonas\nOther\nC. diff\n,\nmycobacterium\n,\ncandida\n,\nAspergillus",
+          "tables": []
+        },
+        "High-Risk/Special_Infections": {
+          "text": "Neutropenic enterocolitis (typhlitis)\nMucormycosis\nHepatosplenic\nCandidiasis\nOccurs after neutropenic fever resolves and ANC has come up allowing abscess formation\nTreat with\namphotericin B",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "E. Coli",
+          "url": "https://wikem.org/wiki/E._Coli"
+        },
+        {
+          "text": "Enterobacter",
+          "url": "https://wikem.org/wiki/Enterobacter"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Step pneumonia",
+          "url": "https://wikem.org/wiki/Step_pneumonia"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "corynebacterium",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "mycobacterium",
+          "url": "https://wikem.org/wiki/Mycobacterium"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Common_Causes": {
+      "text": "Definitive cause only found in 30%\nEndogenous flora 80%\nE. Coli\n,\nEnterobacter\n,\nanaerobes\nSkin\nStaph\n,\nstrep\nRespiratory tract\nStep pneumonia\n,\nklebsiella\n,\ncorynebacterium\n,\npseudomonas\nOther\nC. diff\n,\nmycobacterium\n,\ncandida\n,\nAspergillus",
+      "subsections": {
+        "High-Risk/Special_Infections": {
+          "text": "Neutropenic enterocolitis (typhlitis)\nMucormycosis\nHepatosplenic\nCandidiasis\nOccurs after neutropenic fever resolves and ANC has come up allowing abscess formation\nTreat with\namphotericin B",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. Coli",
+          "url": "https://wikem.org/wiki/E._Coli"
+        },
+        {
+          "text": "Enterobacter",
+          "url": "https://wikem.org/wiki/Enterobacter"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Step pneumonia",
+          "url": "https://wikem.org/wiki/Step_pneumonia"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "corynebacterium",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "mycobacterium",
+          "url": "https://wikem.org/wiki/Mycobacterium"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "High-Risk/Special_Infections": {
+      "text": "Neutropenic enterocolitis (typhlitis)\nMucormycosis\nHepatosplenic\nCandidiasis\nOccurs after neutropenic fever resolves and ANC has come up allowing abscess formation\nTreat with\namphotericin B",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nClassic manifestations of infection are frequently NOT seen\nCheck skin, oral cavity, perianal area, entry sites of indwelling cath sites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Transfusion reaction\nMedication allergies and toxicities\nTumor-related fever",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Oncologic_Emergencies": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Patient should be placed and maintained on neutropenic isolation precautions during there stay in the ED and while in the hospital",
+      "subsections": {
+        "Workup": {
+          "text": "AVOID rectal temp or digital rectal exam\nCBC\nChemistry\nLFTs\nUrinalysis\n/Urine culture\nMay not show WBCs or leuk esterase given neutropenia\nSputum studies\nGram stain\nCulture\nBlood culture\nx 2\nTake at least one sample from central line, if present\nCulture any indwelling catheters\nLP\nIf neuro findings or suspicious\nSite-specific specimens\nNasopharyngeal wash (in patients with URI)\nRSV\n,\ninfluenza\nStool (if indicated)\nC dif\nO&P\nCultures\nCXR\nCT (not required in all patients)\nSinuses\nChest\nAbdomen/Pelvis\nShould have high suspicion, given risk of\ntyphlitis",
+          "tables": []
+        },
+        "Neutropenic_fever_definition": {
+          "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "C dif",
+          "url": "https://wikem.org/wiki/C_dif"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "typhlitis",
+          "url": "https://wikem.org/wiki/Typhlitis"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "AVOID rectal temp or digital rectal exam\nCBC\nChemistry\nLFTs\nUrinalysis\n/Urine culture\nMay not show WBCs or leuk esterase given neutropenia\nSputum studies\nGram stain\nCulture\nBlood culture\nx 2\nTake at least one sample from central line, if present\nCulture any indwelling catheters\nLP\nIf neuro findings or suspicious\nSite-specific specimens\nNasopharyngeal wash (in patients with URI)\nRSV\n,\ninfluenza\nStool (if indicated)\nC dif\nO&P\nCultures\nCXR\nCT (not required in all patients)\nSinuses\nChest\nAbdomen/Pelvis\nShould have high suspicion, given risk of\ntyphlitis",
+      "subsections": {
+        "Neutropenic_fever_definition": {
+          "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "C dif",
+          "url": "https://wikem.org/wiki/C_dif"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "typhlitis",
+          "url": "https://wikem.org/wiki/Typhlitis"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neutropenic_fever_definition": {
+          "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Neutropenic_fever_definition": {
+      "text": "ANC <500 OR <1000 with predicted nadir of <500 in 48h AND\nFever ≥ 38.3˚C (100.9˚F) once OR sustained temperature ≥38 (100.4) for >1hr\nOral temperature (do not obtain rectal temp; risk of inducing\nbacteremia\n[1]\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Therapy is aimed at treating multiple flora that include\nGram Negatives\n,\nGram Positive Bacteria\n,\nPseudomonas\nand if there is an indwelling catheter or high risk, then\nMRSA\n.",
+      "subsections": {
+        "Inpatient": {
+          "text": "Monotherapy appears to be as good as dual-drug therapy\n[2]\nCefepime\n2g IV q8hr or\nCeftazidime\n2g IV q8hr OR\nImipenem/Cilastin\n1gm IV q8hr or\nMeropenem\n1gm IV q8hr OR\nPiperacillin/Tazobactam\n4.5gm IV q 6hr\nConsider adding\nVancomycin\nto above regimen for:\n[3]\nSevere mucositis\nSigns of catheter site infection\nFluoroquinolone\nprophylaxis was recently used against\ngram-negative bacteremia\nHypotension\nis present\nInstitutions with hospital-associated\nMRSA\nPatient has known colonization with resistant\ngram-positive organisms",
+          "tables": []
+        },
+        "Outpatient": {
+          "text": "Ciprofloxacin\n750mg PO q12hrs AND\nAmoxicillin/Clavulanate\n875mg PO q12hrs x7d OR\n[2]\nCiprofloxacin\n750mg PO q12hrs AND\nClindamycin\n450mg PO q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram Negatives",
+          "url": "https://wikem.org/wiki/Gram_Negatives"
+        },
+        {
+          "text": "Gram Positive Bacteria",
+          "url": "https://wikem.org/wiki/Gram_Positive_Bacteria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Imipenem/Cilastin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastin"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "gram-negative bacteremia",
+          "url": "https://wikem.org/wiki/Gram-negative_bacteremia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "gram-positive organisms",
+          "url": "https://wikem.org/wiki/Gram-positive_organisms"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Inpatient": {
+      "text": "Monotherapy appears to be as good as dual-drug therapy\n[2]\nCefepime\n2g IV q8hr or\nCeftazidime\n2g IV q8hr OR\nImipenem/Cilastin\n1gm IV q8hr or\nMeropenem\n1gm IV q8hr OR\nPiperacillin/Tazobactam\n4.5gm IV q 6hr\nConsider adding\nVancomycin\nto above regimen for:\n[3]\nSevere mucositis\nSigns of catheter site infection\nFluoroquinolone\nprophylaxis was recently used against\ngram-negative bacteremia\nHypotension\nis present\nInstitutions with hospital-associated\nMRSA\nPatient has known colonization with resistant\ngram-positive organisms",
+      "subsections": {
+        "Outpatient": {
+          "text": "Ciprofloxacin\n750mg PO q12hrs AND\nAmoxicillin/Clavulanate\n875mg PO q12hrs x7d OR\n[2]\nCiprofloxacin\n750mg PO q12hrs AND\nClindamycin\n450mg PO q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Imipenem/Cilastin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastin"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "gram-negative bacteremia",
+          "url": "https://wikem.org/wiki/Gram-negative_bacteremia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "gram-positive organisms",
+          "url": "https://wikem.org/wiki/Gram-positive_organisms"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Outpatient": {
+      "text": "Ciprofloxacin\n750mg PO q12hrs AND\nAmoxicillin/Clavulanate\n875mg PO q12hrs x7d OR\n[2]\nCiprofloxacin\n750mg PO q12hrs AND\nClindamycin\n450mg PO q8hrs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Low risk patients\nBrief (<7d duration) of neutropenia with few comorbidities\n[4]\nConsider discharge it patient scores ≥21 using the MASCC risk index scoring system\nScore ≥21 associated with <5% risk for severe complications and mortality <1%",
+      "subsections": {
+        "MASCC_Risk_Index": {
+          "text": "The MASCC study was an international collaboration to derive and validate a scoring system to identify low-risk patients for complications of febrile neutropenia.\n[5]",
+          "tables": [
+            [
+              {
+                "Characteristic": "No or Mild SymptomsModerate SymptomsSevere Symptoms",
+                "Points": "530"
+              },
+              {
+                "Characteristic": "NoHypotension(SBP<90)",
+                "Points": "5"
+              },
+              {
+                "Characteristic": "No COPD",
+                "Points": "4"
+              },
+              {
+                "Characteristic": "Solid tumorORno previous fungal infection",
+                "Points": "4"
+              },
+              {
+                "Characteristic": "No dehydration requiring IV fluids",
+                "Points": "3"
+              },
+              {
+                "Characteristic": "Outpatient status at fever onset",
+                "Points": "3"
+              },
+              {
+                "Characteristic": "Age <60yr",
+                "Points": "2"
+              }
+            ]
+          ]
+        },
+        "CISNE": {
+          "text": "Clinical Index of Stable febrile Neutropenia\n230 febrile neutropenia, chemo-therapy induced, retrospective analysis of MASCC vs. CISNE\n[6]\nMASCC was ~55% specific and CISNE was ~98% specific with PPV ~98%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MASCC_Risk_Index": {
+      "text": "The MASCC study was an international collaboration to derive and validate a scoring system to identify low-risk patients for complications of febrile neutropenia.\n[5]",
+      "subsections": {
+        "CISNE": {
+          "text": "Clinical Index of Stable febrile Neutropenia\n230 febrile neutropenia, chemo-therapy induced, retrospective analysis of MASCC vs. CISNE\n[6]\nMASCC was ~55% specific and CISNE was ~98% specific with PPV ~98%",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Characteristic": "No or Mild SymptomsModerate SymptomsSevere Symptoms",
+            "Points": "530"
+          },
+          {
+            "Characteristic": "NoHypotension(SBP<90)",
+            "Points": "5"
+          },
+          {
+            "Characteristic": "No COPD",
+            "Points": "4"
+          },
+          {
+            "Characteristic": "Solid tumorORno previous fungal infection",
+            "Points": "4"
+          },
+          {
+            "Characteristic": "No dehydration requiring IV fluids",
+            "Points": "3"
+          },
+          {
+            "Characteristic": "Outpatient status at fever onset",
+            "Points": "3"
+          },
+          {
+            "Characteristic": "Age <60yr",
+            "Points": "2"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "CISNE": {
+      "text": "Clinical Index of Stable febrile Neutropenia\n230 febrile neutropenia, chemo-therapy induced, retrospective analysis of MASCC vs. CISNE\n[6]\nMASCC was ~55% specific and CISNE was ~98% specific with PPV ~98%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neutropenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.mdcalc.com/calc/3913/mascc-risk-index-febrile-neutropenia\nhttps://www.mdcalc.com/calc/3997/clinical-index-stable-febrile-neutropenia-cisne",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "drug_name": "Neoplastic_meningitis",
+  "url": "https://wikem.org/wiki/Neoplastic_meningitis",
+  "scraped_at": "2026-01-10T07:58:16.546796",
+  "sections": {
+    "Background": {
+      "text": "Also known as Leptomeningeal Carcinomatosis or leptomeningeal metastasis (LM)\nUncommon and late complication of solid tumors and hematological cancers, approximately 5-8% and 5-15% respectively\nMost common primary tumors associated with LM are breast, lung, and melanoma\nCommonly misdiagnosed due to symptoms mimicking infectious\nmeningitis\nand chronic\nheadache",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Multiple routes tumor cells can gain access to CSF\nMost commonly thought to be through hematogenous spread via arachnoid vessels or direct extension from brain parenchyma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Multiple routes tumor cells can gain access to CSF\nMost commonly thought to be through hematogenous spread via arachnoid vessels or direct extension from brain parenchyma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Chronic\nheadache\nNausea and vomiting\nFever\nNuchal rigidity\nAltered mental status\nSeizure\nSpinal cord compression (non-traumatic)\nLimb weakness\nDermatomal sensory loss\nRadicular pain\nBladder and bowel dysfunction\nCranial nerve abnormalities\nDiplopia\nFacial weakness\nHearing loss\nAtaxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cranial nerve abnormalities",
+          "url": "https://wikem.org/wiki/Cranial_nerve_abnormalities"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CT brain is not sensitive or specific, may show intracranial mass\nMRI brain and spine with contrast preferred (70% sensitivity, 77-100% specificity)\nLeptomeningeal enhancement\nHydrocephalus\nSubependymal nodules or deposits\nLumbar Puncture\n-mainly to rule out infectious etiology in ED\nElevated opening pressure\nGlucose, protein, cell count and cytology can be abnormal\nMalignant cells on CSF smear",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Leptomeningeal enhancement or lesions on MRI\nMalignant cells on CSF smear",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CT brain is not sensitive or specific, may show intracranial mass\nMRI brain and spine with contrast preferred (70% sensitivity, 77-100% specificity)\nLeptomeningeal enhancement\nHydrocephalus\nSubependymal nodules or deposits\nLumbar Puncture\n-mainly to rule out infectious etiology in ED\nElevated opening pressure\nGlucose, protein, cell count and cytology can be abnormal\nMalignant cells on CSF smear",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Leptomeningeal enhancement or lesions on MRI\nMalignant cells on CSF smear",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Leptomeningeal enhancement or lesions on MRI\nMalignant cells on CSF smear",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Control seizures\nBenzodiazepines\nAntiepileptics\nIntubation if\nstatus epilepticus\nPain management if headache, radicular pain\nSteroids may be indicated depending on severity of symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Shin Ahn, Kyung Soo Lim, \"Three Cases of Neoplastic Meningitis Initially Diagnosed with Infectious Meningitis in Emergency Department\", Case Reports in Emergency Medicine, vol. 2013, Article ID 561475, 4 pages, 2013.\nBatool A, Kasi A. Leptomeningeal Carcinomatosis. [Updated 2020 Apr 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2020 Jan-. Available from:\nhttps://www.ncbi.nlm.nih.gov/books/NBK499862/\nCooney DR, Cooney NL. Meningeal carcinomatosis diagnosed during stroke evaluation in the emergency department. Int J Emerg Med. 2011;4:52. Published 2011 Aug 9. doi:10.1186/1865-1380-4-52",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

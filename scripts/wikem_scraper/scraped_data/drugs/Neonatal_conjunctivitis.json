@@ -1,0 +1,589 @@
+{
+  "drug_name": "Neonatal_conjunctivitis",
+  "url": "https://wikem.org/wiki/Neonatal_conjunctivitis",
+  "scraped_at": "2026-01-10T07:58:15.597603",
+  "sections": {
+    "Intro": {
+      "text": "This page is for neonatal patients; for non-neonatal pediatric see\nconjunctivitis (peds)\nand adult patients see\nconjunctivitis\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Neonatal conjunctivitis = ophthalmia neonatorum\nFirst 30 days of life\nChemical,\nGonococcal\n,\nChlamydial\n, other bacterial, and viral\nBacterial causes typically are transmitted during vaginal delivery process (vertical transmission)\nPer USPSTF, Topical erythromycin for the neonate at birth is recommended as prevention for gonococcal conjunctivitis",
+      "subsections": {
+        "Chemical": {
+          "text": "Historically due to ocular prophylaxis with silver nitrate\nOccurs on 1st day of life, resolves within 48 hrs\nLess common now with\nerythromycin\nointment replacing\nsilver nitrate",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Presents at 2-7 days of life (peak 3-5)\nBilateral conjunctival erythema, chemosis, and eyelid edema\nCopious purulent discharge\nHas potential to cause loss of vision due to corneal ulceration\nIf untreated, may lead to meningitis and bacteremia",
+          "tables": []
+        },
+        "Chlamydia": {
+          "text": "Similar exam to gonoccocal but starts at 7-14 days of age\nPeaks from 1 week to 1 month after birth\nLeading cause of preventable blindness in the world\nChlamydia conjunctivitis is more common than gonococcal\nMay present with otitis and chlamydial pneumonia with staccato cough",
+          "tables": []
+        },
+        "Herpetic": {
+          "text": "Peaks at 6-14 days of life\nPresents with inflammation and edema, less likely purulence\nLook for other mucocutaneous vesicular lesions and assess mother for herpes\nMay lead to keratitis and disseminated infection\nVesicles + conjunctivitis = acyclovir + full sepsis w/u, including for disseminated herpes",
+          "tables": []
+        },
+        "Streptococcus/S._Aureus": {
+          "text": "5 weeks to 5 yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Chemical": {
+          "text": "Historically due to ocular prophylaxis with silver nitrate\nOccurs on 1st day of life, resolves within 48 hrs\nLess common now with\nerythromycin\nointment replacing\nsilver nitrate",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Presents at 2-7 days of life (peak 3-5)\nBilateral conjunctival erythema, chemosis, and eyelid edema\nCopious purulent discharge\nHas potential to cause loss of vision due to corneal ulceration\nIf untreated, may lead to meningitis and bacteremia",
+          "tables": []
+        },
+        "Chlamydia": {
+          "text": "Similar exam to gonoccocal but starts at 7-14 days of age\nPeaks from 1 week to 1 month after birth\nLeading cause of preventable blindness in the world\nChlamydia conjunctivitis is more common than gonococcal\nMay present with otitis and chlamydial pneumonia with staccato cough",
+          "tables": []
+        },
+        "Herpetic": {
+          "text": "Peaks at 6-14 days of life\nPresents with inflammation and edema, less likely purulence\nLook for other mucocutaneous vesicular lesions and assess mother for herpes\nMay lead to keratitis and disseminated infection\nVesicles + conjunctivitis = acyclovir + full sepsis w/u, including for disseminated herpes",
+          "tables": []
+        },
+        "Streptococcus/S._Aureus": {
+          "text": "5 weeks to 5 yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Chlamydia_2": {
+          "text": "Can range from mild to severe hyperemia with thick mucopurulent discharge",
+          "tables": []
+        },
+        "Gonococcal_2": {
+          "text": "May present as typical conjunctivitis or with severe lid edema, cornea ulceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chlamydia_2": {
+      "text": "Can range from mild to severe hyperemia with thick mucopurulent discharge",
+      "subsections": {
+        "Gonococcal_2": {
+          "text": "May present as typical conjunctivitis or with severe lid edema, cornea ulceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gonococcal_2": {
+      "text": "May present as typical conjunctivitis or with severe lid edema, cornea ulceration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neonatal_eye_problems": {
+          "text": "Nasolacrimal duct obstruction\nDacrocystitis\nConjunctivitis\nChemical\nGonococcal\nChlamydia\nHerpetic\nStreptococcus\n/\nS. Aureus\nEarly onset\nglaucoma\nUveitis\nOcular foreign body\nCorneal abrasion\nOcular trauma\nIngrown eyelash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasolacrimal duct obstruction",
+          "url": "https://wikem.org/wiki/Nasolacrimal_duct_obstruction"
+        },
+        {
+          "text": "Dacrocystitis",
+          "url": "https://wikem.org/wiki/Dacrocystitis"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Herpetic",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Ocular trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        }
+      ]
+    },
+    "Neonatal_eye_problems": {
+      "text": "Nasolacrimal duct obstruction\nDacrocystitis\nConjunctivitis\nChemical\nGonococcal\nChlamydia\nHerpetic\nStreptococcus\n/\nS. Aureus\nEarly onset\nglaucoma\nUveitis\nOcular foreign body\nCorneal abrasion\nOcular trauma\nIngrown eyelash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasolacrimal duct obstruction",
+          "url": "https://wikem.org/wiki/Nasolacrimal_duct_obstruction"
+        },
+        {
+          "text": "Dacrocystitis",
+          "url": "https://wikem.org/wiki/Dacrocystitis"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Herpetic",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Ocular trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Obtain information about maternal infectious diseases screening during pregnancy\nGram stain/culture to rule out\nN. gonorrhea\nand\nC. trachomatis\nGram stain followed by culture is important for gonorrhea\nChlamydia is obligate intracellular, so a direct swab and PCR of scleral or palpebral conjunctivitis is needed\nIf chlamydia is detected, should prompt evaluation for possible gonorrhea co-infection\nIf\nHSV\nis suspected, send vesicular fluid for PCR +/- viral culture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "N. gonorrhea",
+          "url": "https://wikem.org/wiki/N._gonorrhea"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Prophylaxis": {
+          "text": "Erythromycin\n0.5% ointment x1 or\ntetracycline\n1% or silver nitrate 1% x1 topical (rarely used because of its potential for causing chemical conjunctivitis), applied at birth.",
+          "tables": []
+        },
+        "Chemical_2": {
+          "text": "Watchful waiting",
+          "tables": []
+        },
+        "Gonococcal_(onset_2-4_days)": {
+          "text": "Cefotaxime\n100mg/kg IV or IM OR\nceftriaxone\n25-50mg/kg IV or IM x1 (not to exceed 125mg)\nCefotaxime is preferred because it does not displace bilirubin\nDisseminated disease should be suspected until CSF is negative\nTreat mother and partners\nIrrigate eyes with saline (topical antibiotics are insufficient and unnecessary)",
+          "tables": []
+        },
+        "Chlamydia_(onset_5-10_days)": {
+          "text": "Erythromycin\nophthalmic ointment plus one of the following\nAzithromycin\n20mg/kg PO once daily x 3 days OR\nErythromycin\n50mg/kg PO QD in 4 divided doses x 14 days\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Herpetic_(onset_6-14_days)": {
+          "text": "Acyclovir\n20mg/kg IV q8hr x 14-21d\nTopical antiviral\nDo not give steroids\nFull\nneonatal sepsis\nevaluation\nImmediate ophtho consult\nNB:\nFor conjunctivitis starting >2 weeks of age, most likely pathogens include\nS. aureus\n,\nS. epi\n,\nE. coli\n,\npseudomonas\n, and non-typable\nH. Flu\n.\nNo systemic therapy necessary, treat w/ bacitracin-polymyxin ointment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. epi",
+          "url": "https://wikem.org/wiki/S._epi"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "Erythromycin\n0.5% ointment x1 or\ntetracycline\n1% or silver nitrate 1% x1 topical (rarely used because of its potential for causing chemical conjunctivitis), applied at birth.",
+      "subsections": {
+        "Chemical_2": {
+          "text": "Watchful waiting",
+          "tables": []
+        },
+        "Gonococcal_(onset_2-4_days)": {
+          "text": "Cefotaxime\n100mg/kg IV or IM OR\nceftriaxone\n25-50mg/kg IV or IM x1 (not to exceed 125mg)\nCefotaxime is preferred because it does not displace bilirubin\nDisseminated disease should be suspected until CSF is negative\nTreat mother and partners\nIrrigate eyes with saline (topical antibiotics are insufficient and unnecessary)",
+          "tables": []
+        },
+        "Chlamydia_(onset_5-10_days)": {
+          "text": "Erythromycin\nophthalmic ointment plus one of the following\nAzithromycin\n20mg/kg PO once daily x 3 days OR\nErythromycin\n50mg/kg PO QD in 4 divided doses x 14 days\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Herpetic_(onset_6-14_days)": {
+          "text": "Acyclovir\n20mg/kg IV q8hr x 14-21d\nTopical antiviral\nDo not give steroids\nFull\nneonatal sepsis\nevaluation\nImmediate ophtho consult\nNB:\nFor conjunctivitis starting >2 weeks of age, most likely pathogens include\nS. aureus\n,\nS. epi\n,\nE. coli\n,\npseudomonas\n, and non-typable\nH. Flu\n.\nNo systemic therapy necessary, treat w/ bacitracin-polymyxin ointment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. epi",
+          "url": "https://wikem.org/wiki/S._epi"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        }
+      ]
+    },
+    "Chemical_2": {
+      "text": "Watchful waiting",
+      "subsections": {
+        "Gonococcal_(onset_2-4_days)": {
+          "text": "Cefotaxime\n100mg/kg IV or IM OR\nceftriaxone\n25-50mg/kg IV or IM x1 (not to exceed 125mg)\nCefotaxime is preferred because it does not displace bilirubin\nDisseminated disease should be suspected until CSF is negative\nTreat mother and partners\nIrrigate eyes with saline (topical antibiotics are insufficient and unnecessary)",
+          "tables": []
+        },
+        "Chlamydia_(onset_5-10_days)": {
+          "text": "Erythromycin\nophthalmic ointment plus one of the following\nAzithromycin\n20mg/kg PO once daily x 3 days OR\nErythromycin\n50mg/kg PO QD in 4 divided doses x 14 days\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Herpetic_(onset_6-14_days)": {
+          "text": "Acyclovir\n20mg/kg IV q8hr x 14-21d\nTopical antiviral\nDo not give steroids\nFull\nneonatal sepsis\nevaluation\nImmediate ophtho consult\nNB:\nFor conjunctivitis starting >2 weeks of age, most likely pathogens include\nS. aureus\n,\nS. epi\n,\nE. coli\n,\npseudomonas\n, and non-typable\nH. Flu\n.\nNo systemic therapy necessary, treat w/ bacitracin-polymyxin ointment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. epi",
+          "url": "https://wikem.org/wiki/S._epi"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Gonococcal\nAdmit all infants for evaluation of disseminated disease (\nBCx\n,\nUA\n/\nUCx\n,\nCSF\n) and ophthalmology consult given high risk\nHerpetic\nAdmit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BCx",
+          "url": "https://wikem.org/wiki/BCx"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "UCx",
+          "url": "https://wikem.org/wiki/UCx"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Conjunctivitis",
+      "subsections": {
+        "Eye_Algorithms": {
+          "text": "Red eye\nBilateral red eyes\nUnilateral red eye\nRed eye (by symptoms)\nRed eye (peds)\nNeonatal conjunctivitis\nPeriorbital swelling\nAcute vision loss (noninflamed)\nAcute onset flashers and floaters\nPainful eyes with normal exam\nNeonatal eye problems",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Bilateral red eyes",
+          "url": "https://wikem.org/wiki/Bilateral_red_eyes"
+        },
+        {
+          "text": "Unilateral red eye",
+          "url": "https://wikem.org/wiki/Unilateral_red_eye"
+        },
+        {
+          "text": "Red eye (by symptoms)",
+          "url": "https://wikem.org/wiki/Red_eye_(by_symptoms)"
+        },
+        {
+          "text": "Red eye (peds)",
+          "url": "https://wikem.org/wiki/Red_eye_(peds)"
+        },
+        {
+          "text": "Periorbital swelling",
+          "url": "https://wikem.org/wiki/Periorbital_swelling"
+        },
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        },
+        {
+          "text": "Acute onset flashers and floaters",
+          "url": "https://wikem.org/wiki/Acute_onset_flashers_and_floaters"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Neonatal eye problems",
+          "url": "https://wikem.org/wiki/Neonatal_eye_problems"
+        }
+      ]
+    },
+    "Eye_Algorithms": {
+      "text": "Red eye\nBilateral red eyes\nUnilateral red eye\nRed eye (by symptoms)\nRed eye (peds)\nNeonatal conjunctivitis\nPeriorbital swelling\nAcute vision loss (noninflamed)\nAcute onset flashers and floaters\nPainful eyes with normal exam\nNeonatal eye problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bilateral red eyes",
+          "url": "https://wikem.org/wiki/Bilateral_red_eyes"
+        },
+        {
+          "text": "Unilateral red eye",
+          "url": "https://wikem.org/wiki/Unilateral_red_eye"
+        },
+        {
+          "text": "Red eye (by symptoms)",
+          "url": "https://wikem.org/wiki/Red_eye_(by_symptoms)"
+        },
+        {
+          "text": "Red eye (peds)",
+          "url": "https://wikem.org/wiki/Red_eye_(peds)"
+        },
+        {
+          "text": "Periorbital swelling",
+          "url": "https://wikem.org/wiki/Periorbital_swelling"
+        },
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        },
+        {
+          "text": "Acute onset flashers and floaters",
+          "url": "https://wikem.org/wiki/Acute_onset_flashers_and_floaters"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Neonatal eye problems",
+          "url": "https://wikem.org/wiki/Neonatal_eye_problems"
+        }
+      ]
+    }
+  }
+}

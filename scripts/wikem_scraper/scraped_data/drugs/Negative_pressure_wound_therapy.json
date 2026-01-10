@@ -1,0 +1,46 @@
+{
+  "drug_name": "Negative_pressure_wound_therapy",
+  "url": "https://wikem.org/wiki/Negative_pressure_wound_therapy",
+  "scraped_at": "2026-01-10T07:58:07.550091",
+  "sections": {
+    "Background": {
+      "text": "Also known as a \"wound vac\"\nA technique for treating acute and chronic wounds by using a sealed wound dressing attached to a vacuum pump.\nThe vacuum creates a negative pressure gradient that draws out fluid and increases blood flow to the area.\nOften applied to wounds that are expected to heal poorly, such as diabetic foot ulcers, pressure ulcers, or very large tissue defects.",
+      "subsections": {
+        "Efficacy": {
+          "text": "High quality evidence exists for improved outcomes in the treatment of\ndiabetic foot ulcers\n.\nPoor quality or insufficient evidence suggests may improve treatment of bedsores, large tissue defects, or other wounds.\nThere is little evidence to suggest an increased risk of complications, so wound vacs are often applied to many other kinds of wounds.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetic foot ulcers",
+          "url": "https://wikem.org/wiki/Diabetic_foot_ulcers"
+        }
+      ]
+    },
+    "Efficacy": {
+      "text": "High quality evidence exists for improved outcomes in the treatment of\ndiabetic foot ulcers\n.\nPoor quality or insufficient evidence suggests may improve treatment of bedsores, large tissue defects, or other wounds.\nThere is little evidence to suggest an increased risk of complications, so wound vacs are often applied to many other kinds of wounds.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetic foot ulcers",
+          "url": "https://wikem.org/wiki/Diabetic_foot_ulcers"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Malignancy in the wound\nUntreated osteomyelitis\nNon-enteric or unexplored fistulas\nPresence of an eschar\nDirect exposure of blood vessels, anastamoses, internal organs, or nerves.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Troubleshooting": {
+      "text": "Most ER visits regarding wound vacs will be due to \"the machine beeping\". This is often due to loss of negative pressure in the circuit.\nThis can usually be fixed by re-packing the wound and placing a new occlusive dressing over it.\nMay require special supplies not available in the ER. If that is the case, most patients can still be discharged if they have expedited follow up with a home health nurse or PCP that can provide supplies.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

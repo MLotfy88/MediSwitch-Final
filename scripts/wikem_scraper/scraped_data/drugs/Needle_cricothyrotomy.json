@@ -1,0 +1,69 @@
+{
+  "drug_name": "Needle_cricothyrotomy",
+  "url": "https://wikem.org/wiki/Needle_cricothyrotomy",
+  "scraped_at": "2026-01-10T07:58:09.993587",
+  "sections": {
+    "Indications": {
+      "text": "Failed airway in adults or children\nPreferred method of rescue airway in infants and children (cutoff 5-12 years of age, depending on source\n[1]\n)\nTemporizing measure until definitive airway management\nWill provide adequate oxygenation, but will NOT provide adequate ventilation\nObstruction above the level of the cricothryoid membrane",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "When used as a rescue airway, no absolute contraindications.\nRelative Contraindications\nInability to identify landmarks\nTracheal transection or severe trauma\nUnderlying tumor, abscess/infection, or other known abnormality",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment": {
+      "text": "Povidone iodine\nSterile drapes, gloves, gown, gauze\n12-14 G angiocath\n3mL syringe x 2\nAdapter to 7-0 ETT or adapter to 3-0 ETT\nBVM appropriate for size of patient\nCan also use jet vet ventilation setup in adults\nHigh flow O2 source, 50 PSI\nO2 tubing\nValve-3 way stop cock or cut holes in O2 tubing\nDepending on O2 source, calculate time valve must be open for tidal volume\nBVM setup does not allow adequate exhalation in adults",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Prep and drape\nLocate cricothyroid membrane\nPierce membrane with angiocath directed 30-45 deg caudal\nAttach 3mL syringe with saline, aspirate as you enter\nAdvance until air is aspirated in syringe\nAdvance catheter over needle, hub to skin\nRemove needle\nAttach 3-0 ETT adapter directly to angiocath (best option)\nOR attach 3 mL syringe to catheter, then attach 7-0 ETT adapter to syringe\nOR attach 10 mL syringe to catheter, then insert actual 7-0 ETT (works best with cut down ETT) into syringe and blow up balloon so that ETT does not move\nAttach BVM to ETT adapter\nSecure system\nVentilate with BVM or high flow O2 setup\nOBTAIN DEFINITIVE AIRWAY\nShould be used for < 45 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Hemorrhage\nInfection\nTracheal stenosis\nSubcutaneous emphysema\nPosterior tracheal perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intubation\nSurgical airways",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit: Needle vs Knife: Part I",
+      "subsections": {
+        "Videos": {
+          "text": "EMCrit (0:50)\nhttps://www.youtube.com/watch?v=Q0RVlgwC9rs&feature=emb_logo\nEMCrit (0:58)\nhttps://www.youtube.com/watch?v=WnTBm5f_ihQ&feature=emb_logo\nHenneman (6:59)\nhttps://www.youtube.com/watch?v=bIbl6zgWBjg&feature=emb_logo\n{{#widget:YouTube|id=a4I0MEwtXFY}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "EMCrit (0:50)\nhttps://www.youtube.com/watch?v=Q0RVlgwC9rs&feature=emb_logo\nEMCrit (0:58)\nhttps://www.youtube.com/watch?v=WnTBm5f_ihQ&feature=emb_logo\nHenneman (6:59)\nhttps://www.youtube.com/watch?v=bIbl6zgWBjg&feature=emb_logo\n{{#widget:YouTube|id=a4I0MEwtXFY}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "drug_name": "Nasopharyngeal_airway",
+  "url": "https://wikem.org/wiki/Nasopharyngeal_airway",
+  "scraped_at": "2026-01-10T07:58:02.469710",
+  "sections": {
+    "Overview": {
+      "text": "Nasopharyngeal airways are tubular, soft, flexible airway devices\nNPA's provide an open airway through the nasopharynx rather than the oropharynx\nThe widened opening which remains outside the nose gives the device its common moniker \"Nasal trumpet\"\nNPA's are supraglottic by definition and generally do not stimulate the gag reflex when placed\nNPA are not contraindicated in the conscious or semi-conscious patient whose gag reflex is intact\nOxygen therapy and/or pressurized respiratory therapies by nasal cannula, simple masks, non-rebreather masks, CPAP, and BiPAP may be used with an NPA in place\nPresence of an NPA in the posterior pharynx may interfere with intubation; they generally should be removed prior to laryngoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Need to ensure an open airway",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Suspected or known maxillofacial fractures\nSuspected or known septal hematoma on the same side",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "1x NPA device, appropriately sized\nLubricant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Gently insert the well-lubricated tip end of the NPA device with the bevel oriented toward the septum, pushing the tip directly backward (not upward) into the nasopharynx\nDepending on the orientation of the bevel, you may need to progressively rotate the device so that the natural curvature aligns with the caudal curvature of the device while in place\nInsert the device fully, until the \"trumpet\" end is in contact with, or very near, the nare",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Epistaxis\nDevice intrusion through fracture lines if placed in patient with facial trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Demonstration Video",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

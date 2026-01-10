@@ -1,0 +1,361 @@
+{
+  "drug_name": "Neck_mass",
+  "url": "https://wikem.org/wiki/Neck_mass",
+  "scraped_at": "2026-01-10T07:58:05.014107",
+  "sections": {
+    "Background": {
+      "text": "Common complaint seen in primary care medicine\nImportant to recognize acutely life threatening etiologies, treatable disease, and potential for malignancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Anatomy helpful in determining etiology\nAnterior and posterior cervical triangles divided by SCM\nAssociated symptoms based on etiology:\nPain\nSkin changes\nStridor\nHoarseness\nFever\nURI\nsymptoms\nWeight loss/night sweats\nImportant to distinguish chronicity\nAssess for chronicity, associated symptoms, exposures (cats, undercook meat)\nPhysical Examination\nBenign reactive lymph nodes\nMobile, firm, and mildly tender\nClinical diagnosis\nLymphadenitis\n/suppurative disease\nPainful, erythema, possibly fluctuant\nClinical diagnosis\nCT imaging if concerns for deep space infection: trismus,\ntorticollis\n,\nstridor\n, drooling\nExtrapulmonary form of\nmycobacterium tuberculosis\n(cervical adenopathy)\nMultiple bilateral lymph nodes\nFixed, firm, non-tender, located typically in posterior triangle\nCystic masses\nSoft, mobile, ballotable\nThyroglossal duct cyst: midline, adjacent to hyoid, rises with swallowing\nBranchial cleft\ncyst: lateral, mandibular angle anterior to SCM\nDermoid cyst: submental triangle\nMalignant lesions\nHard, non-tender, and possible immobile\nSialoadenitis\nTenderness to affected salivary gland and pus at the duct orifice\nParotid gland- stensen duct\nSubmandibular gland- wharton duct",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "mycobacterium tuberculosis",
+          "url": "https://wikem.org/wiki/Mycobacterium_tuberculosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Reactive\nlymphadenopathy\n- most common\nViral\nURI\nEBV\nCMV\nStrep\n/\nstaph\nHIV\nToxoplasmosis\nBartonella henselae\n- kitten or flea exposure\nTuberculous lymphadenitis\n(scrofula)\nDescending infections from oral cavity\nLudwig's angina\nSialoadenitis\n(can also be chronic)\nTrauma\n-related\nHematoma\nPseudoaneurysm or AV fistula",
+          "tables": []
+        },
+        "Subacute_(weeks_to_months)": {
+          "text": "Cancer\nHPV\n-related squamous cell carcinoma\nUpper aerodigestive tract squamous cell carcinoma\nMetastatic disease\nLymphoma\nParotid tumors\nSystemic diseases\nAmyloidosis\nSarcoidosis\nSjögren syndrome",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Thyroid\nnodules or cancer\nGoiters\nGraves' disease\nHashimoto\nthyroiditis\nIodine deficiency\nLithium\nuse\nToxic multinodular\nCongenital cysts\nBranchial cleft\ncyst\nThyroglossal duct cyst- 2nd most common benign neck mass\nDermoid cyst\nCarotid body tumor\nGlomus jugulare or vagale tumor\nLaryngocele\nLipoma/liposarcoma\nParathyroid cysts or cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/HPV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        }
+      ]
+    },
+    "Neck_mass": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Reactive\nlymphadenopathy\n- most common\nViral\nURI\nEBV\nCMV\nStrep\n/\nstaph\nHIV\nToxoplasmosis\nBartonella henselae\n- kitten or flea exposure\nTuberculous lymphadenitis\n(scrofula)\nDescending infections from oral cavity\nLudwig's angina\nSialoadenitis\n(can also be chronic)\nTrauma\n-related\nHematoma\nPseudoaneurysm or AV fistula",
+          "tables": []
+        },
+        "Subacute_(weeks_to_months)": {
+          "text": "Cancer\nHPV\n-related squamous cell carcinoma\nUpper aerodigestive tract squamous cell carcinoma\nMetastatic disease\nLymphoma\nParotid tumors\nSystemic diseases\nAmyloidosis\nSarcoidosis\nSjögren syndrome",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Thyroid\nnodules or cancer\nGoiters\nGraves' disease\nHashimoto\nthyroiditis\nIodine deficiency\nLithium\nuse\nToxic multinodular\nCongenital cysts\nBranchial cleft\ncyst\nThyroglossal duct cyst- 2nd most common benign neck mass\nDermoid cyst\nCarotid body tumor\nGlomus jugulare or vagale tumor\nLaryngocele\nLipoma/liposarcoma\nParathyroid cysts or cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/HPV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT or\nultrasound\nonly if diagnosis is unclear",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Reactive\nlymphadenopathy\n: see specific diagnosis\nTypically self resolving, supportive only except if related to bacterial disease\nLymphadenitis\nTrial antibiotics with either first-generation\ncephalosporins\n, amoxicillin/clavulanate (\nAugmentin\n), or\nclindamycin\nSuppurative\nlymphadenitis\n/\nabscess\nHead and neck consultation may be necessary for drainage\nSialoadenitis\nSialogogues, gentle massage, express gland through duct",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most commonly outpatient treatment either with trial antibiotics or supportive care only if inflammatory/infectious related\nInpatient admission reserved for severe infections, surgical drainage, or concerns for airway compromise\nFollow up important to ensure appropriate resolution and further need for advanced imaging or biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sore throat",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        }
+      ]
+    },
+    "References": {
+      "text": "Haynes J, Arnold KR, Aguirre-Oskins C, and Chandra S. Evaluation of neck masses in adults.\nAm Fam Physician\n. 2015 May 15;91(10):698-706./\nKentab OY, Qureshi N. Chapter 118. Neck Masses in Children. In: Tintinalli JE, Stapczynski J, Ma O, Cline DM, Cydulka RK, Meckler GD, T. eds. Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 7e. New York, NY: McGraw-Hill; 2011.\nhttp://accessmedicine.mhmedical.com/content.aspx?bookid=348&Sectionid=40381590\n. Accessed August 11, 2016./",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
