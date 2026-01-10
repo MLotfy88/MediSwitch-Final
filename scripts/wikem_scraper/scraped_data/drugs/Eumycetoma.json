@@ -1,0 +1,86 @@
+{
+  "drug_name": "Eumycetoma",
+  "url": "https://wikem.org/wiki/Eumycetoma",
+  "scraped_at": "2026-01-10T07:53:04.644475",
+  "sections": {
+    "Background": {
+      "text": "Also known as “mycotic mycetoma” and \"Madura foot\"\nChronic subcutaneous fungal skin and soft tissue infection\nCaused by many different types of molds\nInfection occurs following inoculation of conidia into skin or subcutaneous tissue\nUsually confined to subcutaneous tissue but can spread to fascia, bone, and lymph nodes via continguous dissemination\n[1]",
+      "subsections": {
+        "Microbiology": {
+          "text": "There are at least 41 organisms capable of causing eumycetoma\nMost frequent pathogens include\nMadurella mycetomatis\nNigrograna mackinnonii\nTrematosphaeria grisea\nFalciformispora senegalensis\nScedosporium apiospermum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Microbiology": {
+      "text": "There are at least 41 organisms capable of causing eumycetoma\nMost frequent pathogens include\nMadurella mycetomatis\nNigrograna mackinnonii\nTrematosphaeria grisea\nFalciformispora senegalensis\nScedosporium apiospermum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Located in uncovered areas that have been traumatized (mostly feet, legs, and hands)\nMost often affects lower extremities (typically a single foot)\n[2]\nCharacteristic triad is tumor, sinus tracts, and macroscopic grains\nProgression\nInitial lesions are painless, often begin as slowly growing indurated subcutaneous nodules\nExtension occurs due to nodule swelling and coalescence, resulting in large tumors that can evolve into necrotic abscesses with sinus tracts\nMay progress over months to many years\nCan extend from skin and subcutaneous tissue to muscle, bone, and lymphatic vessels\nPain is usually associated with secondary bacterial infection",
+      "subsections": {
+        "Complications": {
+          "text": "Fibrosis\nAnkylosis\nLymphedema\nJoint destruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Fibrosis\nAnkylosis\nLymphedema\nJoint destruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Actinomycosis\nBotryomycosis\nNocardiosis\nForeign body granuloma\nSoft tissue tumor\nCyst\nFolliculitis\nSporotrichosis\nChromoblastomycosis\nCutaneous\nleishmaniasis\nCutaneous\ntuberculosis\nElephantiasis\nPodoconiosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Physical exam looking for characteristic triad (tumor, sinus tract, and macroscopic grains)\nMicroscopy of grains using 20% potassium hydroxide solution\nGram stain can be considered to evaluate for alternative diagnoses\nDeep biopsy with culture\nImaging: CT or MRI (although MRI more sensitive) to determine bony involvement and extent of soft tissue involvement\nPCR can be done to evaluate for specific causative pathogens",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Extended antifungal therapy, depending on causative agent, generally at least 12 months (3 months after clinical and radiographic resolution)\nPossibilities include itraconazole, voriconazole, posaconazole\nSurgery is not first line as relapse rates are high (109),if performed it should be done in conjunction with antifungal therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Disposition will depend on severity of lesion and overall clinical status of patient\nProviders should consider possibility of secondary bacterial infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

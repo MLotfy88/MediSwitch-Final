@@ -1,0 +1,94 @@
+{
+  "drug_name": "Explosive_incident_response",
+  "url": "https://wikem.org/wiki/Explosive_incident_response",
+  "scraped_at": "2026-01-10T07:53:03.576643",
+  "sections": {
+    "Background": {
+      "text": "Explosive incident response is divided among three stages:",
+      "subsections": {
+        "Pre-Blast_Incidents": {
+          "text": "Refers to an explosive device that has not yet detonated. Pre-blast perimeters should be established based on local protocols, procedures, and guidelines.",
+          "tables": []
+        },
+        "Post-Blast_Response": {
+          "text": "Refers to an incident involving a device that has already exploded. Decisions are based on the destruction caused by the blast (i.e., the amount of explosives used). First, decide where to establish the inner perimeter; perimeter decisions should include the possibility of additional explosive devices.\nTriage\ncan then begin, which may require rescues from a collapsed building.",
+          "tables": []
+        },
+        "Continuing_Explosive_Incident": {
+          "text": "These are incidents where a threat from additional explosive devices exists. Responders should seek shelter and safe distance until area is deemed safe for triage and rescue.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        }
+      ]
+    },
+    "Pre-Blast_Incidents": {
+      "text": "Refers to an explosive device that has not yet detonated. Pre-blast perimeters should be established based on local protocols, procedures, and guidelines.",
+      "subsections": {
+        "Post-Blast_Response": {
+          "text": "Refers to an incident involving a device that has already exploded. Decisions are based on the destruction caused by the blast (i.e., the amount of explosives used). First, decide where to establish the inner perimeter; perimeter decisions should include the possibility of additional explosive devices.\nTriage\ncan then begin, which may require rescues from a collapsed building.",
+          "tables": []
+        },
+        "Continuing_Explosive_Incident": {
+          "text": "These are incidents where a threat from additional explosive devices exists. Responders should seek shelter and safe distance until area is deemed safe for triage and rescue.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        }
+      ]
+    },
+    "Post-Blast_Response": {
+      "text": "Refers to an incident involving a device that has already exploded. Decisions are based on the destruction caused by the blast (i.e., the amount of explosives used). First, decide where to establish the inner perimeter; perimeter decisions should include the possibility of additional explosive devices.\nTriage\ncan then begin, which may require rescues from a collapsed building.",
+      "subsections": {
+        "Continuing_Explosive_Incident": {
+          "text": "These are incidents where a threat from additional explosive devices exists. Responders should seek shelter and safe distance until area is deemed safe for triage and rescue.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        }
+      ]
+    },
+    "Continuing_Explosive_Incident": {
+      "text": "These are incidents where a threat from additional explosive devices exists. Responders should seek shelter and safe distance until area is deemed safe for triage and rescue.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "According to the National Fire Protection Association (NFPA) 472, Section A.4.2.1 (20):\n[1]\nEvaluate the scene for likely areas where additional devices could be placed.\nVisually scan the operating areas (a 360-degree scan from the windshield of a vehicle is preferable).\nAvoid touching or moving anything that might conceal an explosive device.\nDesignate and enforce scene control zones.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Explosions\nMass casualty incidents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        },
+        {
+          "text": "Mass casualty incidents",
+          "url": "https://wikem.org/wiki/Mass_casualty_incidents"
+        }
+      ]
+    }
+  }
+}

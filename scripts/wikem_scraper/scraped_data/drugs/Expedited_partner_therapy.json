@@ -1,0 +1,56 @@
+{
+  "drug_name": "Expedited_partner_therapy",
+  "url": "https://wikem.org/wiki/Expedited_partner_therapy",
+  "scraped_at": "2026-01-10T07:53:04.251053",
+  "sections": {
+    "Background": {
+      "text": "Treatment of sex partners of patients diagnosed with\nchlamydia\nor\ngonorrhea\nby providing treatment or medications to the patient to take to his/her partner without the health care provider examining the partner.\nDecreases recurrence\nLegal in most states. Potentially permissible in some. Prohibited in a few (FL, KY, OH, WV)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "gonorrhea",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Male partner: give allergy instructions\nFemale partner: needs pregnancy test first\nMSM: need\nHIV\ntest (↑HIV rate)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sexually Transmitted Diseases (STD)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually Transmitted Diseases (STD)",
+          "url": "https://wikem.org/wiki/Sexually_Transmitted_Diseases_(STD)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Legal Status of EPT by state",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "1.\nCDC: Expedited Partner Therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

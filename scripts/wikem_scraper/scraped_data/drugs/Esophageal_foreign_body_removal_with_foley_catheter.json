@@ -1,0 +1,72 @@
+{
+  "drug_name": "Esophageal_foreign_body_removal_with_foley_catheter",
+  "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter",
+  "scraped_at": "2026-01-10T07:52:57.928445",
+  "sections": {
+    "Background": {
+      "text": "85-100% success rates\n0-2% complication rates\nIdeal for coins\nNo reports of airway compromise",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Recently\ningested\n(<24-48h), smooth, blunt, radiographically opaque objects\nButton batteries ingested <2h with no endoscopy available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Total esophageal obstruction\nAir-Fluid levels on XR or esophagogram\nPatient unable to handle secretions\nPresence of FB greater than 24-48h (higher risk of pressure necrosis)\nEvidence of esophageal perforation\nAirway distress\nMultiple FB's\nSharp FB's\nButton battery present >2 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Airway equipment and suction\nMagill and bayonet forceps\nFoley size 10-16F with 5cc to 10cc balloon\nTopical anesthetics\nSedation meds\nPediatric restraint devices",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Localize FB on XR or Fluoro, if available\nGive sedation as needed (ketamine is ideal in kids)\nPlace patient in Trendelenberg, supine, lat decub, or prone\nCheck balloon for symmetric inflation\nFor a child, advance a 12-16F foley orally with balloon deflated\nAdvance tip distal to object (if fluoro is used, inject with contrast to view tip)\nInflate balloon with 3-5 cc saline\nStop inflation if patient complains of pain\nApply gentle traction to bring coin proximally\nTerminate attempt if there is excessive friction\nIf the balloon slips past the object, try again with an additional 1-2cc saline in balloon\nOnce coin is in mouth grab with forceps or ask patient to expectorate it\nIf no FB is removed, obtain another XR to see if the object passed to the stomach or moved.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Most are due to passage of foley through nose\nNosebleed\nDisplacement of FB to nasopharynx\nLaryngospasm and aspiration\nFailure to remove FB",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "No follow up needed for pediatric patients, if FB successfully removed and patient remains asymptomatic\nArrange follow up for gastric FB's\nIf unsuccessful, refer for immediate endoscopy\nAll adults should be referred for endoscopy to rule out esophageal pathology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Esophageal foreign body\nForeign bodies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=k9cG1T20kl0}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=k9cG1T20kl0}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

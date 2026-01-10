@@ -1,0 +1,1626 @@
+{
+  "drug_name": "Ethanol_toxicity",
+  "url": "https://wikem.org/wiki/Ethanol_toxicity",
+  "scraped_at": "2026-01-10T07:52:57.867481",
+  "sections": {
+    "Background": {
+      "text": "Alcohol (ethanol) is a CNS depressant that can cause respiratory depression, coma, or death when consumed rapidly or in large quantities.\nRate of ETOH elimination is 15-30mg/dL/hr (depending on degree of chronic alcohol intake)\nEthanol is involved in 30-50% of all traumatic injuries in the US\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Classic_Features": {
+          "text": "Diminished fine motor control\nImpaired judgement and coordination\nSlurred speech\nNystagmus\nAtaxia\nNausea and vomiting\nAlcohol odor on breath\nRespiratory depression\nLethargy\nComa",
+          "tables": []
+        },
+        "Other_Features": {
+          "text": "Hypoglycemia\n, particularly in young children due to gluconeogenesis inhibition by ethanol metabolism\nKetoacidosis\nLactic acidosis\nEpigastric pain\n(\npancreatitis\n)",
+          "tables": []
+        },
+        "Mellanby_effect": {
+          "text": "Impairment is greater at a given blood alcohol concentration when the level is rising than when it is falling.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Classic_Features": {
+      "text": "Diminished fine motor control\nImpaired judgement and coordination\nSlurred speech\nNystagmus\nAtaxia\nNausea and vomiting\nAlcohol odor on breath\nRespiratory depression\nLethargy\nComa",
+      "subsections": {
+        "Other_Features": {
+          "text": "Hypoglycemia\n, particularly in young children due to gluconeogenesis inhibition by ethanol metabolism\nKetoacidosis\nLactic acidosis\nEpigastric pain\n(\npancreatitis\n)",
+          "tables": []
+        },
+        "Mellanby_effect": {
+          "text": "Impairment is greater at a given blood alcohol concentration when the level is rising than when it is falling.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Other_Features": {
+      "text": "Hypoglycemia\n, particularly in young children due to gluconeogenesis inhibition by ethanol metabolism\nKetoacidosis\nLactic acidosis\nEpigastric pain\n(\npancreatitis\n)",
+      "subsections": {
+        "Mellanby_effect": {
+          "text": "Impairment is greater at a given blood alcohol concentration when the level is rising than when it is falling.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Mellanby_effect": {
+      "text": "Impairment is greater at a given blood alcohol concentration when the level is rising than when it is falling.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ethanol_related_disease_processes": {
+          "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+          "tables": []
+        },
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        },
+        "Diffuse_brain_dysfunction": {
+          "text": "Hypoxic\nencephalopathy\nAcute toxic-metabolic encephalopathy (Delirium)\nHypoglycemia\nHyperosmolar state (e.g.,\nhyperglycemia\n)\nElectrolyte Abnormalities\n(\nhypernatremia\nor\nhyponatremia\n,\nhypercalcemia\n)\nOrgan system failure\nHepatic Encephalopathy\nUremia\n/\nRenal Failure\nEndocrine (\nAddison's disease\n,\nCushing syndrome\n,\nhypothyroidism\n,\nmyxedema coma\n,\nthyroid storm\n)\nHypoxia\nCO2 narcosis\nHypertensive Encephalopathy\nToxins\nTTP\n/\nThrombotic thrombocytopenic purpura\nAlcohol withdrawal\nDrug reactions (\nNMS\n,\nSerotonin Syndrome\n)\nEnvironmental causes\nHypothermia\nHyperthermia\nDeficiency state\nWernicke encephalopathy\nSubacute Combined Degeneration of Spinal Cord (\nB12 deficiency\n)\nVitamin D Deficiency\nZinc Deficiency\nSepsis\nOsmotic demyelination syndrome\n(central pontine myelinolysis)\nLimbic encephalitis",
+          "tables": []
+        },
+        "Primary_CNS_disease_or_trauma": {
+          "text": "Direct CNS trauma\nDiffuse axonal injury\nSubdural\n/\nepidural hematoma\nVascular disease\nIntraparenchymal hemorrhage\nSAH\nStroke\nHemispheric, brainstem\nCNS infections\nEncephalitis\nAnti-NMDA receptor encephalitis\nMeningitis\nNeoplasms\nParaneoplastic\nLimbic encephalitis\nMalignant Meningitis\nPancreatic\nInsulinoma\nSeizures\nNonconvulsive\nstatus epilepticus\nPostictal state\nDementia\nAlzheimer's\nLewy Body Dementia\nFrontotemporal Dementia",
+          "tables": []
+        },
+        "Psychiatric": {
+          "text": "Acute psychosis\nCatatonia\nExcited delirium\nMalingering\nSteroid induced psychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute toxic-metabolic encephalopathy (Delirium)",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO2 narcosis",
+          "url": "https://wikem.org/wiki/CO2_narcosis"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Encephalopathy"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Vitamin D Deficiency",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Osmotic demyelination syndrome",
+          "url": "https://wikem.org/wiki/Osmotic_demyelination_syndrome"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Intraparenchymal hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Frontotemporal Dementia",
+          "url": "https://wikem.org/wiki/Frontotemporal_Dementia"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Catatonia",
+          "url": "https://wikem.org/wiki/Catatonia"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Steroid induced psychosis",
+          "url": "https://wikem.org/wiki/Steroid_induced_psychosis"
+        }
+      ]
+    },
+    "Ethanol_related_disease_processes": {
+      "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        },
+        "Diffuse_brain_dysfunction": {
+          "text": "Hypoxic\nencephalopathy\nAcute toxic-metabolic encephalopathy (Delirium)\nHypoglycemia\nHyperosmolar state (e.g.,\nhyperglycemia\n)\nElectrolyte Abnormalities\n(\nhypernatremia\nor\nhyponatremia\n,\nhypercalcemia\n)\nOrgan system failure\nHepatic Encephalopathy\nUremia\n/\nRenal Failure\nEndocrine (\nAddison's disease\n,\nCushing syndrome\n,\nhypothyroidism\n,\nmyxedema coma\n,\nthyroid storm\n)\nHypoxia\nCO2 narcosis\nHypertensive Encephalopathy\nToxins\nTTP\n/\nThrombotic thrombocytopenic purpura\nAlcohol withdrawal\nDrug reactions (\nNMS\n,\nSerotonin Syndrome\n)\nEnvironmental causes\nHypothermia\nHyperthermia\nDeficiency state\nWernicke encephalopathy\nSubacute Combined Degeneration of Spinal Cord (\nB12 deficiency\n)\nVitamin D Deficiency\nZinc Deficiency\nSepsis\nOsmotic demyelination syndrome\n(central pontine myelinolysis)\nLimbic encephalitis",
+          "tables": []
+        },
+        "Primary_CNS_disease_or_trauma": {
+          "text": "Direct CNS trauma\nDiffuse axonal injury\nSubdural\n/\nepidural hematoma\nVascular disease\nIntraparenchymal hemorrhage\nSAH\nStroke\nHemispheric, brainstem\nCNS infections\nEncephalitis\nAnti-NMDA receptor encephalitis\nMeningitis\nNeoplasms\nParaneoplastic\nLimbic encephalitis\nMalignant Meningitis\nPancreatic\nInsulinoma\nSeizures\nNonconvulsive\nstatus epilepticus\nPostictal state\nDementia\nAlzheimer's\nLewy Body Dementia\nFrontotemporal Dementia",
+          "tables": []
+        },
+        "Psychiatric": {
+          "text": "Acute psychosis\nCatatonia\nExcited delirium\nMalingering\nSteroid induced psychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute toxic-metabolic encephalopathy (Delirium)",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO2 narcosis",
+          "url": "https://wikem.org/wiki/CO2_narcosis"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Encephalopathy"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Vitamin D Deficiency",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Osmotic demyelination syndrome",
+          "url": "https://wikem.org/wiki/Osmotic_demyelination_syndrome"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Intraparenchymal hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Frontotemporal Dementia",
+          "url": "https://wikem.org/wiki/Frontotemporal_Dementia"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Catatonia",
+          "url": "https://wikem.org/wiki/Catatonia"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Steroid induced psychosis",
+          "url": "https://wikem.org/wiki/Steroid_induced_psychosis"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {
+        "Diffuse_brain_dysfunction": {
+          "text": "Hypoxic\nencephalopathy\nAcute toxic-metabolic encephalopathy (Delirium)\nHypoglycemia\nHyperosmolar state (e.g.,\nhyperglycemia\n)\nElectrolyte Abnormalities\n(\nhypernatremia\nor\nhyponatremia\n,\nhypercalcemia\n)\nOrgan system failure\nHepatic Encephalopathy\nUremia\n/\nRenal Failure\nEndocrine (\nAddison's disease\n,\nCushing syndrome\n,\nhypothyroidism\n,\nmyxedema coma\n,\nthyroid storm\n)\nHypoxia\nCO2 narcosis\nHypertensive Encephalopathy\nToxins\nTTP\n/\nThrombotic thrombocytopenic purpura\nAlcohol withdrawal\nDrug reactions (\nNMS\n,\nSerotonin Syndrome\n)\nEnvironmental causes\nHypothermia\nHyperthermia\nDeficiency state\nWernicke encephalopathy\nSubacute Combined Degeneration of Spinal Cord (\nB12 deficiency\n)\nVitamin D Deficiency\nZinc Deficiency\nSepsis\nOsmotic demyelination syndrome\n(central pontine myelinolysis)\nLimbic encephalitis",
+          "tables": []
+        },
+        "Primary_CNS_disease_or_trauma": {
+          "text": "Direct CNS trauma\nDiffuse axonal injury\nSubdural\n/\nepidural hematoma\nVascular disease\nIntraparenchymal hemorrhage\nSAH\nStroke\nHemispheric, brainstem\nCNS infections\nEncephalitis\nAnti-NMDA receptor encephalitis\nMeningitis\nNeoplasms\nParaneoplastic\nLimbic encephalitis\nMalignant Meningitis\nPancreatic\nInsulinoma\nSeizures\nNonconvulsive\nstatus epilepticus\nPostictal state\nDementia\nAlzheimer's\nLewy Body Dementia\nFrontotemporal Dementia",
+          "tables": []
+        },
+        "Psychiatric": {
+          "text": "Acute psychosis\nCatatonia\nExcited delirium\nMalingering\nSteroid induced psychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute toxic-metabolic encephalopathy (Delirium)",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO2 narcosis",
+          "url": "https://wikem.org/wiki/CO2_narcosis"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Encephalopathy"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Vitamin D Deficiency",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Osmotic demyelination syndrome",
+          "url": "https://wikem.org/wiki/Osmotic_demyelination_syndrome"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Intraparenchymal hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Frontotemporal Dementia",
+          "url": "https://wikem.org/wiki/Frontotemporal_Dementia"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Catatonia",
+          "url": "https://wikem.org/wiki/Catatonia"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Steroid induced psychosis",
+          "url": "https://wikem.org/wiki/Steroid_induced_psychosis"
+        }
+      ]
+    },
+    "Altered_mental_status": {
+      "text": "",
+      "subsections": {
+        "Diffuse_brain_dysfunction": {
+          "text": "Hypoxic\nencephalopathy\nAcute toxic-metabolic encephalopathy (Delirium)\nHypoglycemia\nHyperosmolar state (e.g.,\nhyperglycemia\n)\nElectrolyte Abnormalities\n(\nhypernatremia\nor\nhyponatremia\n,\nhypercalcemia\n)\nOrgan system failure\nHepatic Encephalopathy\nUremia\n/\nRenal Failure\nEndocrine (\nAddison's disease\n,\nCushing syndrome\n,\nhypothyroidism\n,\nmyxedema coma\n,\nthyroid storm\n)\nHypoxia\nCO2 narcosis\nHypertensive Encephalopathy\nToxins\nTTP\n/\nThrombotic thrombocytopenic purpura\nAlcohol withdrawal\nDrug reactions (\nNMS\n,\nSerotonin Syndrome\n)\nEnvironmental causes\nHypothermia\nHyperthermia\nDeficiency state\nWernicke encephalopathy\nSubacute Combined Degeneration of Spinal Cord (\nB12 deficiency\n)\nVitamin D Deficiency\nZinc Deficiency\nSepsis\nOsmotic demyelination syndrome\n(central pontine myelinolysis)\nLimbic encephalitis",
+          "tables": []
+        },
+        "Primary_CNS_disease_or_trauma": {
+          "text": "Direct CNS trauma\nDiffuse axonal injury\nSubdural\n/\nepidural hematoma\nVascular disease\nIntraparenchymal hemorrhage\nSAH\nStroke\nHemispheric, brainstem\nCNS infections\nEncephalitis\nAnti-NMDA receptor encephalitis\nMeningitis\nNeoplasms\nParaneoplastic\nLimbic encephalitis\nMalignant Meningitis\nPancreatic\nInsulinoma\nSeizures\nNonconvulsive\nstatus epilepticus\nPostictal state\nDementia\nAlzheimer's\nLewy Body Dementia\nFrontotemporal Dementia",
+          "tables": []
+        },
+        "Psychiatric": {
+          "text": "Acute psychosis\nCatatonia\nExcited delirium\nMalingering\nSteroid induced psychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute toxic-metabolic encephalopathy (Delirium)",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO2 narcosis",
+          "url": "https://wikem.org/wiki/CO2_narcosis"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Encephalopathy"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Vitamin D Deficiency",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Osmotic demyelination syndrome",
+          "url": "https://wikem.org/wiki/Osmotic_demyelination_syndrome"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Intraparenchymal hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Frontotemporal Dementia",
+          "url": "https://wikem.org/wiki/Frontotemporal_Dementia"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Catatonia",
+          "url": "https://wikem.org/wiki/Catatonia"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Steroid induced psychosis",
+          "url": "https://wikem.org/wiki/Steroid_induced_psychosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis. No specific workup required when there is clear evidence of alcohol intake, but the following may be considered based on clinical picture/gestalt:\nFingerstick glucose (recommended as minimum workup in all patients with\nAMS\n)\nConsider blood alcohol level (BAL) when a good history cannot be obtained or patient fails to improve as expected\nCorrelates poorly with degree of intoxication\n[3]\nThiamine deficiency can cause an elevated lactic acid level, and IV thiamine should be administered (in addition to considering other etiologies including toxic alcohol ingestions)\n[4]\nMaintain low threshold for imaging in intoxicated patient with signs of trauma",
+      "subsections": {
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        }
+      ]
+    },
+    "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (if ketoacidosis)",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "+",
+            "Reduced vision": "-",
+            "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+ (early on, then disappears)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "-",
+            "Anion gap": "-",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+ (initially)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (converted to lactate)",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "-",
+            "Management": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care is mainstay of ED treatment and is based on clinical presentation\nManage ABCs\nBenzodiazepines\nor\nhaloperidol\nfor agitation\nIV fluids are commonly used but do not hasten ETOH elimination or reduce length of stay\n[5]\n[6]",
+      "subsections": {
+        "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+          "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+          "tables": []
+        },
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[7]\n[8]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+      "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+      "subsections": {
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[7]\n[8]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Caution should be taken when BAL is measured on arrival as clinical exam cannot be used alone for discharge\nCan be discharged once patient at baseline mental status, able to tolerate PO and ambulate without assistance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxic alcohols\nBeer Potomania Syndrome\nAlcoholic ketoacidosis\nEthanol withdrawal\nAlcohol withdrawal seizures\nAltered mental status\nDelerium tremens\nEBQ:Outpatient use of benzodiazepines for the treatment of acute alcohol withdrawal\nSedative/Hypnotic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Beer Potomania Syndrome",
+          "url": "https://wikem.org/wiki/Beer_Potomania_Syndrome"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Ethanol withdrawal",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "EBQ:Outpatient use of benzodiazepines for the treatment of acute alcohol withdrawal",
+          "url": "https://wikem.org/wiki/EBQ:Outpatient_use_of_benzodiazepines_for_the_treatment_of_acute_alcohol_withdrawal"
+        },
+        {
+          "text": "Sedative/Hypnotic",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotic"
+        }
+      ]
+    }
+  }
+}

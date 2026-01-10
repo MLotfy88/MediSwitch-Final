@@ -1,0 +1,58 @@
+{
+  "drug_name": "Exotic_pet_infections",
+  "url": "https://wikem.org/wiki/Exotic_pet_infections",
+  "scraped_at": "2026-01-10T07:53:02.523719",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "Hedgehogs: T. Mentagrophtes, saliva-induced urticaria,\nsalmonella\n, mycobacteria\nIguanas:\nSalmonella\n,\nserratia\n(resistant strains: use quinolone)\nFlying Squirrels:\nRickettsia prowazekii\n(epidemic typhus),\nstaph\nGerbils:\nLeishmania\n,\ngiardia\n,\nstaph aureus\n, avian mites\nPraire dogs: Monkeypox,\nYersinia\n,\ntularemia\nCockatoos and macaws:\nCryptococcus neoformans",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "Rickettsia prowazekii",
+          "url": "https://wikem.org/wiki/Rickettsia_prowazekii"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Leishmania",
+          "url": "https://wikem.org/wiki/Leishmania"
+        },
+        {
+          "text": "giardia",
+          "url": "https://wikem.org/wiki/Giardia"
+        },
+        {
+          "text": "staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Cryptococcus neoformans",
+          "url": "https://wikem.org/wiki/Cryptococcus_neoformans"
+        }
+      ]
+    }
+  }
+}

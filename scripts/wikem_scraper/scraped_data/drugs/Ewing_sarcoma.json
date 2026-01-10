@@ -1,0 +1,149 @@
+{
+  "drug_name": "Ewing_sarcoma",
+  "url": "https://wikem.org/wiki/Ewing_sarcoma",
+  "scraped_at": "2026-01-10T07:53:04.613307",
+  "sections": {
+    "Background": {
+      "text": "Highly aggressive malignant bone or soft tissue tumor arising from cells of the neuroectoderm\nOne-fourth of patients will have metastasis at the time of presentation\nIt is assumed that almost all patients have subclinical metastasis\nPresence and location of metastasis is the major prognostic factor for survival\nMetastasis is most frequently seen in bone (spine most common) and lungs\nAround 70 to 80 percent survival in those with non-metastatic disease\nMore common in males",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Constant pain for months over site of malignancy\nWorse with exercise and at night\nSite will be edematous and tender to palpation\nMass can sometimes be appreciated\nMost often found in pelvis, axial skeleton, or diaphysis of femur with a small minority arising in soft tissues\nPelvic tumors are more regularly associated with metastatic disease\nFever, weight loss, fatigue, night sweats occur in less than 20 percent of patients\nPathological fractures can occur",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Appearance on plain radiographs often described as “onion peel” or “moth-eaten” appearance referring to the respective periosteal bone formation and osseous destruction\nLDH is a prognostic factor\nDefinitive diagnosis is made with biopsy\nWork-up often includes PET scan for metastatic disease\nt(11;22) translocation is often seen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Pain control\nNeoadjuvant and adjuvant chemotherapy\nSurgery and/or radiation therapy for local control of disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Home with outpatient follow up\nAdmission if necessary for pain control or significant disease burden",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

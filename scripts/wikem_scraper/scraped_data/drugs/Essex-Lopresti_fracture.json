@@ -1,0 +1,283 @@
+{
+  "drug_name": "Essex-Lopresti_fracture",
+  "url": "https://wikem.org/wiki/Essex-Lopresti_fracture",
+  "scraped_at": "2026-01-10T07:52:58.145084",
+  "sections": {
+    "Background": {
+      "text": "Triad of\nradial head fracture\n, disruption of interosseous membrane, and\ndistal radioulnar joint disruption",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Unstable and painful forearm\nAxial force from wrist to elbow after fall on outstretched hand\nGrip weakness and difficulty pronating wrist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Radiograph-Positive": {
+          "text": "Distal humerus fracture\nRadial head fracture\nEssex-Lopresti fracture\nCapitellum fracture\nOlecranon fracture\nElbow dislocation",
+          "tables": []
+        },
+        "Radiograph-Negative": {
+          "text": "Biceps tendon rupture\n/dislocation\nLateral epicondylitis\nMedial epicondylitis\nOlecranon bursitis (nonseptic)\nPronator teres syndrome\nSeptic bursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Nursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture\nMedial epicondyle fracture\nOlecranon fracture\nRadial head fracture\nSalter-Harris fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        }
+      ]
+    },
+    "Elbow_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "Radiograph-Positive": {
+          "text": "Distal humerus fracture\nRadial head fracture\nEssex-Lopresti fracture\nCapitellum fracture\nOlecranon fracture\nElbow dislocation",
+          "tables": []
+        },
+        "Radiograph-Negative": {
+          "text": "Biceps tendon rupture\n/dislocation\nLateral epicondylitis\nMedial epicondylitis\nOlecranon bursitis (nonseptic)\nPronator teres syndrome\nSeptic bursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Nursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture\nMedial epicondyle fracture\nOlecranon fracture\nRadial head fracture\nSalter-Harris fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "PA and lateral radiography of the elbow and forearm (may only show a\nradial head fracture\n)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "The injury can be difficult to diagnose initially, as the attention is focused on the injury to the radial head, leading to the distal radio-ulnar injury being overlooked.\nThe examination finding of tenderness of the distal radio-ulnar joint suggests an Essex-Lopresti injury in patients who have sustained high energy forearm trauma.\nPlain radiography shows the radial head fracture, with dorsal subluxation of the ulna often seen on lateral view of the pronated wrist\nRadial pull test: >3mm displacement dorsal/volar is consistent with Essex-Lopresti\nMay require CT to evaluate subtle fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "PA and lateral radiography of the elbow and forearm (may only show a\nradial head fracture\n)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "The injury can be difficult to diagnose initially, as the attention is focused on the injury to the radial head, leading to the distal radio-ulnar injury being overlooked.\nThe examination finding of tenderness of the distal radio-ulnar joint suggests an Essex-Lopresti injury in patients who have sustained high energy forearm trauma.\nPlain radiography shows the radial head fracture, with dorsal subluxation of the ulna often seen on lateral view of the pronated wrist\nRadial pull test: >3mm displacement dorsal/volar is consistent with Essex-Lopresti\nMay require CT to evaluate subtle fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "The injury can be difficult to diagnose initially, as the attention is focused on the injury to the radial head, leading to the distal radio-ulnar injury being overlooked.\nThe examination finding of tenderness of the distal radio-ulnar joint suggests an Essex-Lopresti injury in patients who have sustained high energy forearm trauma.\nPlain radiography shows the radial head fracture, with dorsal subluxation of the ulna often seen on lateral view of the pronated wrist\nRadial pull test: >3mm displacement dorsal/volar is consistent with Essex-Lopresti\nMay require CT to evaluate subtle fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Orthopedic referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Per ortho - usually outpatient operative management (radial head arthroplasty)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Radial head fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        }
+      ]
+    },
+    "References": {
+      "text": "Williams D. Wrist and forearm. In: Rosen's Emergency Medicine: Concepts and Clinical Practice. 8th ed. Philadelphia, PA: Elsevier; 2014.\nhttps://www.orthobullets.com/trauma/1019/radial-head-fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "drug_name": "Exchange_transfusion",
+  "url": "https://wikem.org/wiki/Exchange_transfusion",
+  "scraped_at": "2026-01-10T07:53:03.515815",
+  "sections": {
+    "Overview": {
+      "text": "Technically, \"exchange transfusion\" can refer to any blood product, but typically Involves removing patient's RBCs and replacing with donor RBCs\nWhen treating neonatal polycythemia, RBCs are replaced with normal saline, albumin, or plasma rather than donor RBCs\nIn contrast to simple transfusion, avoids hyperviscosity and volume overload\nErythrocytapheresis: involves separating out patients RBCs from other blood components extracorporeally in a centrifuge, then returning the rest of the patient's blood to them with the donor RBCs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Severe complications of\nsickle cell disease\nStroke\nAcute chest syndrome\n(reserved for severe cases)\nPriapism\n(conflicting evidence for benefit)\nOther complications requiring transfusion when Hb >10\nToxicities\nSulfhemoglobinemia\n, severe\nMethemoglobinemia\nin patients with\nG6PD\nor with methemoglobinemia due to nitrite treatment of cyanide\nSevere\nhemolysis\ndue to formic acid toxicity\nSevere\nhemolysis\ndue to\nmalaria\nor\nbabesiosis\nNeonatal hyperbilirubinemia\n, extremely severe or unresponsive to phototherapy\nNeonatal\npolycythemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "Sulfhemoglobinemia",
+          "url": "https://wikem.org/wiki/Sulfhemoglobinemia"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Neonatal hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Hemodynamic instability\n,\nsepsis\n, or otherwise unable to tolerate fluid shifts\nSevere\nhypocalcemia\n(citrate anticoagulant can worsen hypocalcemia)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemodynamic instability",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Supplies for\nvascular access\nPacked\nRBCs\nfor transfusion\nApheresis centrifuge (and any associated supplies) if planning erythrocytapheresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vascular access",
+          "url": "https://wikem.org/wiki/Vascular_access"
+        },
+        {
+          "text": "RBCs",
+          "url": "https://wikem.org/wiki/RBCs"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Exact steps dependent on whether blood will be exchanged via an apheresis machine and specific model\nApheresis may require large-bore\ncentral venous catheter\n(e.g. HD line or pheresis catheter)\nIf no apheresis machine available:\nPlace at least two peripheral IVs\nSlowly remove 5-20mL of patient's blood\nReplace phlebotomized blood with warmed RBCs (or saline/albumin/plasma) in equal or greater amounts\nRepeat prior steps until desired amount transfused",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "central venous catheter",
+          "url": "https://wikem.org/wiki/Central_venous_catheter"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Hypovolemia\n,\nshock\n(if more blood removed than transfused)\nAcute\ntransfusion reactions\nIntravascular hemolytic transfusion reaction\nFebrile nonhemolytic transfusion reaction\nAllergic transfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed transfusion reactions\nExtravascular hemolytic transfusion reaction\nGraft-vs-host disease\nInfection\nPE\n/\nDVT\nHypokalemia\n,\nhyperkalemia\n,\nhypocalcemia\n,\nhypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "transfusion reactions",
+          "url": "https://wikem.org/wiki/Transfusion_reactions"
+        },
+        {
+          "text": "Intravascular hemolytic transfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic transfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Allergic transfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_transfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic transfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Transfusion\nSickle cell disease\nPlasmapheresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    }
+  }
+}

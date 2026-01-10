@@ -1,0 +1,1406 @@
+{
+  "drug_name": "Ethylene_glycol_toxicity",
+  "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity",
+  "scraped_at": "2026-01-10T07:53:01.346414",
+  "sections": {
+    "Background": {
+      "text": "Component of antifreeze, automobile coolants, de-icing agents, industrial solvents and hydraulic brake fluid.\nFluoresces yellow/green under Wood's lamp (neither Sn nor Sp)\nSweet taste\nParent compound causes inebriation; metabolite (glycolic acid) causes toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Peak serum concentration 1-4 hours, elimination half-life ~9 hours\nEthanol coingestion roughly doubles ethylene glycol half-life\nMinimum lethal dose 1-1.5 mL/kg\nVolume depends on percentage of ethylene glycol in solution, typically 0.6 g/mL\n60 kg patient lethal dose ~ 100 mL\nMetabolites (eg. oxalate acid, glycolic acid) cause toxicity, but do NOT cause osmolal gap",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Stage_1_-_CNS": {
+          "text": "30min-12hr after ingestion\nAppears intoxicated (\nnausea/vomiting\n, slurred speech,\nnystagmus\n,\nataxia\n, stupor,\nseizure\n,\ncoma\n)",
+          "tables": []
+        },
+        "Stage_2_-_Cardiopulmonary": {
+          "text": "12-24hr after ingestion\nMost deaths occur during this stage\nHypertension\n,\ntachycardia\n,\nCHF\nARDS\n, pulmonary infiltrates, hypoxia\nHyperventilation\n(compensation for severe metabolic acidosis)\nHypocalcemia\n(chelation by oxalate)\nMyositis\n& CK elevation\nArrhythmias, prolonged QT\nMulti-organ system failure",
+          "tables": []
+        },
+        "Stage_3_-_Renal": {
+          "text": "24-72hr after ingestion\nFlank pain\n, CVA tenderness\nHematuria\n,\nproteinuria\n, calcium oxalate crystals (50%)\nOliguria or anuria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Stage_1_-_CNS": {
+      "text": "30min-12hr after ingestion\nAppears intoxicated (\nnausea/vomiting\n, slurred speech,\nnystagmus\n,\nataxia\n, stupor,\nseizure\n,\ncoma\n)",
+      "subsections": {
+        "Stage_2_-_Cardiopulmonary": {
+          "text": "12-24hr after ingestion\nMost deaths occur during this stage\nHypertension\n,\ntachycardia\n,\nCHF\nARDS\n, pulmonary infiltrates, hypoxia\nHyperventilation\n(compensation for severe metabolic acidosis)\nHypocalcemia\n(chelation by oxalate)\nMyositis\n& CK elevation\nArrhythmias, prolonged QT\nMulti-organ system failure",
+          "tables": []
+        },
+        "Stage_3_-_Renal": {
+          "text": "24-72hr after ingestion\nFlank pain\n, CVA tenderness\nHematuria\n,\nproteinuria\n, calcium oxalate crystals (50%)\nOliguria or anuria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Stage_2_-_Cardiopulmonary": {
+      "text": "12-24hr after ingestion\nMost deaths occur during this stage\nHypertension\n,\ntachycardia\n,\nCHF\nARDS\n, pulmonary infiltrates, hypoxia\nHyperventilation\n(compensation for severe metabolic acidosis)\nHypocalcemia\n(chelation by oxalate)\nMyositis\n& CK elevation\nArrhythmias, prolonged QT\nMulti-organ system failure",
+      "subsections": {
+        "Stage_3_-_Renal": {
+          "text": "24-72hr after ingestion\nFlank pain\n, CVA tenderness\nHematuria\n,\nproteinuria\n, calcium oxalate crystals (50%)\nOliguria or anuria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Stage_3_-_Renal": {
+      "text": "24-72hr after ingestion\nFlank pain\n, CVA tenderness\nHematuria\n,\nproteinuria\n, calcium oxalate crystals (50%)\nOliguria or anuria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Chemistry": {
+          "text": "May see:\nAnion gap acidosis\nWill not be present immediately after exposure (only metabolite causes acidosis)\nHypocalcemia\nsecondary to formation of calcium oxalate crystals\nRenal failure\nGlucose - may be low in setting of decreased caloric intake",
+          "tables": []
+        },
+        "Serum_osmolality": {
+          "text": "Osm gap:\nCalculated serum osm - measured serum osm\nCalculated serum osm = 2Na(mEq/L) + (BUN[mg/dL])/2.8 + (Glucose[mg/dL])/18 + (Ethanol[mg/dL])/3.7\n[2]\nNormal < 10\n>50 highly suggestive of toxic alcohol poisoning\nNote: Cannot rule out toxic ingestion with a \"normal\" osmol gap\nOnly parent alcohol is osmotically active\nDelayed presentation may mean that much of it is already metabolized",
+          "tables": []
+        },
+        "Alcohol_levels": {
+          "text": "May be useful however even if elevated, patients can still have ingested a toxic alcohol",
+          "tables": []
+        },
+        "Urinalysis": {
+          "text": "Hematuria, proteinuria, pyuria\nCalcium oxalate crystals (late finding; only seen in 50%)\nUrinary fluorescence (may be seen 6 hours after ingestion), but lacks sensitivity and specificity",
+          "tables": []
+        },
+        "Total_CK": {
+          "text": "Useful to assess for signs of\nrhabdomyolysis\nespecially if the patient was found laying down",
+          "tables": []
+        },
+        "Venous_blood_gas": {
+          "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+          "tables": []
+        },
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Chemistry": {
+      "text": "May see:\nAnion gap acidosis\nWill not be present immediately after exposure (only metabolite causes acidosis)\nHypocalcemia\nsecondary to formation of calcium oxalate crystals\nRenal failure\nGlucose - may be low in setting of decreased caloric intake",
+      "subsections": {
+        "Serum_osmolality": {
+          "text": "Osm gap:\nCalculated serum osm - measured serum osm\nCalculated serum osm = 2Na(mEq/L) + (BUN[mg/dL])/2.8 + (Glucose[mg/dL])/18 + (Ethanol[mg/dL])/3.7\n[2]\nNormal < 10\n>50 highly suggestive of toxic alcohol poisoning\nNote: Cannot rule out toxic ingestion with a \"normal\" osmol gap\nOnly parent alcohol is osmotically active\nDelayed presentation may mean that much of it is already metabolized",
+          "tables": []
+        },
+        "Alcohol_levels": {
+          "text": "May be useful however even if elevated, patients can still have ingested a toxic alcohol",
+          "tables": []
+        },
+        "Urinalysis": {
+          "text": "Hematuria, proteinuria, pyuria\nCalcium oxalate crystals (late finding; only seen in 50%)\nUrinary fluorescence (may be seen 6 hours after ingestion), but lacks sensitivity and specificity",
+          "tables": []
+        },
+        "Total_CK": {
+          "text": "Useful to assess for signs of\nrhabdomyolysis\nespecially if the patient was found laying down",
+          "tables": []
+        },
+        "Venous_blood_gas": {
+          "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+          "tables": []
+        },
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Serum_osmolality": {
+      "text": "Osm gap:\nCalculated serum osm - measured serum osm\nCalculated serum osm = 2Na(mEq/L) + (BUN[mg/dL])/2.8 + (Glucose[mg/dL])/18 + (Ethanol[mg/dL])/3.7\n[2]\nNormal < 10\n>50 highly suggestive of toxic alcohol poisoning\nNote: Cannot rule out toxic ingestion with a \"normal\" osmol gap\nOnly parent alcohol is osmotically active\nDelayed presentation may mean that much of it is already metabolized",
+      "subsections": {
+        "Alcohol_levels": {
+          "text": "May be useful however even if elevated, patients can still have ingested a toxic alcohol",
+          "tables": []
+        },
+        "Urinalysis": {
+          "text": "Hematuria, proteinuria, pyuria\nCalcium oxalate crystals (late finding; only seen in 50%)\nUrinary fluorescence (may be seen 6 hours after ingestion), but lacks sensitivity and specificity",
+          "tables": []
+        },
+        "Total_CK": {
+          "text": "Useful to assess for signs of\nrhabdomyolysis\nespecially if the patient was found laying down",
+          "tables": []
+        },
+        "Venous_blood_gas": {
+          "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+          "tables": []
+        },
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Alcohol_levels": {
+      "text": "May be useful however even if elevated, patients can still have ingested a toxic alcohol",
+      "subsections": {
+        "Urinalysis": {
+          "text": "Hematuria, proteinuria, pyuria\nCalcium oxalate crystals (late finding; only seen in 50%)\nUrinary fluorescence (may be seen 6 hours after ingestion), but lacks sensitivity and specificity",
+          "tables": []
+        },
+        "Total_CK": {
+          "text": "Useful to assess for signs of\nrhabdomyolysis\nespecially if the patient was found laying down",
+          "tables": []
+        },
+        "Venous_blood_gas": {
+          "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+          "tables": []
+        },
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Urinalysis": {
+      "text": "Hematuria, proteinuria, pyuria\nCalcium oxalate crystals (late finding; only seen in 50%)\nUrinary fluorescence (may be seen 6 hours after ingestion), but lacks sensitivity and specificity",
+      "subsections": {
+        "Total_CK": {
+          "text": "Useful to assess for signs of\nrhabdomyolysis\nespecially if the patient was found laying down",
+          "tables": []
+        },
+        "Venous_blood_gas": {
+          "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+          "tables": []
+        },
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Total_CK": {
+      "text": "Useful to assess for signs of\nrhabdomyolysis\nespecially if the patient was found laying down",
+      "subsections": {
+        "Venous_blood_gas": {
+          "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+          "tables": []
+        },
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Venous_blood_gas": {
+      "text": "Needed to assess degree of acidosis. An ABG is not necessary since pH can be approximated with a clinical degree via a VBG",
+      "subsections": {
+        "ECG": {
+          "text": "QT prolongation\n~\nhypocalcemia",
+          "tables": []
+        },
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "ECG": {
+      "text": "QT prolongation\n~\nhypocalcemia",
+      "subsections": {
+        "Acetaminophen_or_Aspirin_levels": {
+          "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Acetaminophen_or_Aspirin_levels": {
+      "text": "Useful to discern the cause of the anion gap as well as assess for other toxic ingestion",
+      "subsections": {
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (if ketoacidosis)",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "+",
+            "Reduced vision": "-",
+            "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+ (early on, then disappears)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "-",
+            "Anion gap": "-",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+ (initially)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (converted to lactate)",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "-",
+            "Management": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "ADH_enzyme_blockade": {
+          "text": "Fomepizole:\nIndications:\nEthylene glycol level >20mg/dL\nSuspected significant ethylene glycol ingestion with ETOH level <100mg/dL\nComa or altered mental status in patient with unclear history and osm gap >10\nComa or altered mental status in patient with unclear history and unexplained met acidosis and ETOH level <100\nDosing\n15mg/kg IV over 30min; follow by 10mg/kg q12hr until level <20 or acidosis resolves\nEthanol:\nEthanol drips are rarely used\nBAL of 100-150 completely saturates alcohol dehydrogenase\nDosing:\nIV: load 800mg/kg; then give 100mg/kg/hr\nOral: 3-4 1-oz \"shots\" of 80-proof liquor); then give 1-2 \"shots\" per hour",
+          "tables": []
+        },
+        "Correction_of_metabolic_acidosis": {
+          "text": "Acidemia leads to protonation of oxalate which increases penetration to end organ tissues and causes more damage\nBicarbonate infusion is an option however the patient will need to compensate with an increased respiratory rate (or mechanical ventilation which is frequently unsafe in severely acidotic patients) - otherwise a concomitant respiratory acidosis will ensue\nBicarbonate\n1-2mEq/kg IV bolus to attain pH = 7.45-7.50\nFollow by infusion of 150mEq/L in D5 @ 1.5-2 times maintenance fluid rate\nMonitor for worsening\nhypocalcemia\nMust correct hypocalcemia, but be cautious of increased calcium oxalate crystal production",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indications:\nRefractory metabolic acidosis (pH <7.25) with AG >30 and base deficit < -15\nRenal insufficiency (serum Cr >3.0 mg/dL or increase in Cr by 1.0 mg/dL)\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nEthylene glycol level >50mg/dL (controversial)\nGlycolic acid level > 8 mmol/L (glycolic acid is metabolite that causes anion gap acidosis)",
+          "tables": []
+        },
+        "Decrease_oxalate_production": {
+          "text": "Thiamine\n100mg IV q6hr x2d\nMay promote glyoxalate conversion to alpha-hydroxy-beta-ketoadipate\nPyridoxine\n50mg q6hr x2d\nMay inhibit metabolism of glyoxalate to oxalate\nMagnesium\n2gm IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        }
+      ]
+    },
+    "ADH_enzyme_blockade": {
+      "text": "Fomepizole:\nIndications:\nEthylene glycol level >20mg/dL\nSuspected significant ethylene glycol ingestion with ETOH level <100mg/dL\nComa or altered mental status in patient with unclear history and osm gap >10\nComa or altered mental status in patient with unclear history and unexplained met acidosis and ETOH level <100\nDosing\n15mg/kg IV over 30min; follow by 10mg/kg q12hr until level <20 or acidosis resolves\nEthanol:\nEthanol drips are rarely used\nBAL of 100-150 completely saturates alcohol dehydrogenase\nDosing:\nIV: load 800mg/kg; then give 100mg/kg/hr\nOral: 3-4 1-oz \"shots\" of 80-proof liquor); then give 1-2 \"shots\" per hour",
+      "subsections": {
+        "Correction_of_metabolic_acidosis": {
+          "text": "Acidemia leads to protonation of oxalate which increases penetration to end organ tissues and causes more damage\nBicarbonate infusion is an option however the patient will need to compensate with an increased respiratory rate (or mechanical ventilation which is frequently unsafe in severely acidotic patients) - otherwise a concomitant respiratory acidosis will ensue\nBicarbonate\n1-2mEq/kg IV bolus to attain pH = 7.45-7.50\nFollow by infusion of 150mEq/L in D5 @ 1.5-2 times maintenance fluid rate\nMonitor for worsening\nhypocalcemia\nMust correct hypocalcemia, but be cautious of increased calcium oxalate crystal production",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indications:\nRefractory metabolic acidosis (pH <7.25) with AG >30 and base deficit < -15\nRenal insufficiency (serum Cr >3.0 mg/dL or increase in Cr by 1.0 mg/dL)\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nEthylene glycol level >50mg/dL (controversial)\nGlycolic acid level > 8 mmol/L (glycolic acid is metabolite that causes anion gap acidosis)",
+          "tables": []
+        },
+        "Decrease_oxalate_production": {
+          "text": "Thiamine\n100mg IV q6hr x2d\nMay promote glyoxalate conversion to alpha-hydroxy-beta-ketoadipate\nPyridoxine\n50mg q6hr x2d\nMay inhibit metabolism of glyoxalate to oxalate\nMagnesium\n2gm IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        }
+      ]
+    },
+    "Correction_of_metabolic_acidosis": {
+      "text": "Acidemia leads to protonation of oxalate which increases penetration to end organ tissues and causes more damage\nBicarbonate infusion is an option however the patient will need to compensate with an increased respiratory rate (or mechanical ventilation which is frequently unsafe in severely acidotic patients) - otherwise a concomitant respiratory acidosis will ensue\nBicarbonate\n1-2mEq/kg IV bolus to attain pH = 7.45-7.50\nFollow by infusion of 150mEq/L in D5 @ 1.5-2 times maintenance fluid rate\nMonitor for worsening\nhypocalcemia\nMust correct hypocalcemia, but be cautious of increased calcium oxalate crystal production",
+      "subsections": {
+        "Dialysis": {
+          "text": "Indications:\nRefractory metabolic acidosis (pH <7.25) with AG >30 and base deficit < -15\nRenal insufficiency (serum Cr >3.0 mg/dL or increase in Cr by 1.0 mg/dL)\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nEthylene glycol level >50mg/dL (controversial)\nGlycolic acid level > 8 mmol/L (glycolic acid is metabolite that causes anion gap acidosis)",
+          "tables": []
+        },
+        "Decrease_oxalate_production": {
+          "text": "Thiamine\n100mg IV q6hr x2d\nMay promote glyoxalate conversion to alpha-hydroxy-beta-ketoadipate\nPyridoxine\n50mg q6hr x2d\nMay inhibit metabolism of glyoxalate to oxalate\nMagnesium\n2gm IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        }
+      ]
+    },
+    "Dialysis": {
+      "text": "Indications:\nRefractory metabolic acidosis (pH <7.25) with AG >30 and base deficit < -15\nRenal insufficiency (serum Cr >3.0 mg/dL or increase in Cr by 1.0 mg/dL)\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nEthylene glycol level >50mg/dL (controversial)\nGlycolic acid level > 8 mmol/L (glycolic acid is metabolite that causes anion gap acidosis)",
+      "subsections": {
+        "Decrease_oxalate_production": {
+          "text": "Thiamine\n100mg IV q6hr x2d\nMay promote glyoxalate conversion to alpha-hydroxy-beta-ketoadipate\nPyridoxine\n50mg q6hr x2d\nMay inhibit metabolism of glyoxalate to oxalate\nMagnesium\n2gm IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        }
+      ]
+    },
+    "Decrease_oxalate_production": {
+      "text": "Thiamine\n100mg IV q6hr x2d\nMay promote glyoxalate conversion to alpha-hydroxy-beta-ketoadipate\nPyridoxine\n50mg q6hr x2d\nMay inhibit metabolism of glyoxalate to oxalate\nMagnesium\n2gm IV x1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consult nephrology\nAdmit ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedative/hypnotic toxicity\nToxic alcohols\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative/hypnotic toxicity",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

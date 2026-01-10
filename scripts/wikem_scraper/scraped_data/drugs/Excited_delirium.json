@@ -1,0 +1,277 @@
+{
+  "drug_name": "Excited_delirium",
+  "url": "https://wikem.org/wiki/Excited_delirium",
+  "scraped_at": "2026-01-10T07:53:06.286147",
+  "sections": {
+    "Background": {
+      "text": "Also known as agitated delirium\nControversial diagnosis, not recognized by DSM 4/5 or ICD 9/10\nRecognized by ACEP in 2009\n[1]\nAgitation, aggression, acute distress, often in pre-hospital setting including police custody\n[2]\nAssociate with hyperthermia, drug use and sometimes death\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Triad of\ndelirium\n, psychomotor\nagitation\nand physiological excitation\nAssociated with drug use:\ncocaine\n(#1),\nmethamphetamine\n,\nalcohol\n,\nPCP\n,\nLSD\nAssociated with mental health disease\nTypically male, mean age 30's\nViolent, combative, belligerent, bizarre behavior\nResistant to physical restraint, superhuman strength\nAssociated with cardiopulmonary arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "LSD",
+          "url": "https://wikem.org/wiki/LSD"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Neuroleptic Malignant Syndrome (NMS)\nHyperthermia\nAltered Mental Status (AMS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuroleptic Malignant Syndrome (NMS)",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome_(NMS)"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Altered Mental Status (AMS)",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typical clinical features associated with\nTachycardia\nTachypnea\nHyperthermia\nAcidosis\nRhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_care": {
+          "text": "Evaluation for reversible clinical and lab abnormalities\nHyperthermia\n: Remove clothing, misting/airflow, ice packs , cold IV fluids\nAcidosis\n: IV fluids; bicarb controversial\nRhabdomyolysis\n: IV fluids\nHyperkalemia",
+          "tables": []
+        },
+        "Agitation_Reduction": {
+          "text": "Prioritize chemical sedation although some physical restraint is always required\nBenzodiazepines\n,\nNeuroleptics\nKetamine\nuse increasingly described\n[3]\nbut may be related with increased side effects such as intubation when used at max IM dosing\n[4]\n4-5mg/kg IM\n1-2mg/kg IV\nConsider IV\nolanzapine\n2.5-5mg IV q5-10min to max dose of 20mg\nIn place of IV\nhaloperidol\n, which is approximately half as potent (~5-10mg\nhaloperidol\n= ~2.5-5mg olanzapine)\nMay be safer in patients with prolonged QTc or those too agitated to obtain ECG\nIV\nolanzapine\nmay be as safe or safer than IM, with faster onset",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Neuroleptics",
+          "url": "https://wikem.org/wiki/Neuroleptics"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "Evaluation for reversible clinical and lab abnormalities\nHyperthermia\n: Remove clothing, misting/airflow, ice packs , cold IV fluids\nAcidosis\n: IV fluids; bicarb controversial\nRhabdomyolysis\n: IV fluids\nHyperkalemia",
+      "subsections": {
+        "Agitation_Reduction": {
+          "text": "Prioritize chemical sedation although some physical restraint is always required\nBenzodiazepines\n,\nNeuroleptics\nKetamine\nuse increasingly described\n[3]\nbut may be related with increased side effects such as intubation when used at max IM dosing\n[4]\n4-5mg/kg IM\n1-2mg/kg IV\nConsider IV\nolanzapine\n2.5-5mg IV q5-10min to max dose of 20mg\nIn place of IV\nhaloperidol\n, which is approximately half as potent (~5-10mg\nhaloperidol\n= ~2.5-5mg olanzapine)\nMay be safer in patients with prolonged QTc or those too agitated to obtain ECG\nIV\nolanzapine\nmay be as safe or safer than IM, with faster onset",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Neuroleptics",
+          "url": "https://wikem.org/wiki/Neuroleptics"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        }
+      ]
+    },
+    "Agitation_Reduction": {
+      "text": "Prioritize chemical sedation although some physical restraint is always required\nBenzodiazepines\n,\nNeuroleptics\nKetamine\nuse increasingly described\n[3]\nbut may be related with increased side effects such as intubation when used at max IM dosing\n[4]\n4-5mg/kg IM\n1-2mg/kg IV\nConsider IV\nolanzapine\n2.5-5mg IV q5-10min to max dose of 20mg\nIn place of IV\nhaloperidol\n, which is approximately half as potent (~5-10mg\nhaloperidol\n= ~2.5-5mg olanzapine)\nMay be safer in patients with prolonged QTc or those too agitated to obtain ECG\nIV\nolanzapine\nmay be as safe or safer than IM, with faster onset",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Neuroleptics",
+          "url": "https://wikem.org/wiki/Neuroleptics"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Based on severity of clinical presentation and response to treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "LITFL: Crazy….Then Dead!\nPulmCrit: Intravenous olanzapine: Faster than IM olanzapine, safer than IV\nhaloperidol\n?",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Altered mental status\nAgitated or combative patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Agitated or combative patient",
+          "url": "https://wikem.org/wiki/Agitated_or_combative_patient"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1008 @@
+{
+  "drug_name": "Esophageal_varices",
+  "url": "https://wikem.org/wiki/Esophageal_varices",
+  "scraped_at": "2026-01-10T07:52:58.235030",
+  "sections": {
+    "Background": {
+      "text": "Common cause of death among\nalcoholics",
+      "subsections": {
+        "Sites_of_Portalcaval_Anastomosis": {
+          "text": "Clinical presentations of portal hypertension include:\nA dilated inferior mesenteric vein may or may not be related to portal hypertension.\nOther areas of anastomosis include the bare area of the liver as it connects to the diaphragm, the posterior portion of the gastrointestinal tract as it touches the posterior abdominal wall, the posterior surface of the pancreas, and the inferior part of the esophagus.",
+          "tables": [
+            [
+              {
+                "Region": "Esophageal",
+                "Name of clinical condition": "Esophageal varices",
+                "Portal circulation": "Esophageal branch of left gastric vein",
+                "Systemic circulation": "Esophageal branches of azygos vein"
+              },
+              {
+                "Region": "Rectal",
+                "Name of clinical condition": "Rectal varices",
+                "Portal circulation": "Superior rectal vein",
+                "Systemic circulation": "Middle rectal veins and inferior rectal veins"
+              },
+              {
+                "Region": "Paraumbilical",
+                "Name of clinical condition": "Caput medusae",
+                "Portal circulation": "Paraumbilical veins",
+                "Systemic circulation": "Superficial epigastric vein"
+              },
+              {
+                "Region": "Retroperitoneal",
+                "Name of clinical condition": "Splenorenal shunt",
+                "Portal circulation": "Splenic vein",
+                "Systemic circulation": "Renal vein, suprarenal vein, paravertebral vein, and gonadal vein"
+              },
+              {
+                "Region": "(no clinical name)",
+                "Name of clinical condition": "Right colic vein, middle colic vein, left colic vein",
+                "Portal circulation": "Retroperitoneal veins of Retzius"
+              },
+              {
+                "Region": "Intrahepatic",
+                "Name of clinical condition": "Hepatic pseudolesions",
+                "Portal circulation": "Perihepatic veins of Sappey",
+                "Systemic circulation": "Superior epigastric vein"
+              },
+              {
+                "Region": "Patent ductus venosus",
+                "Name of clinical condition": "Left branch of portal vein",
+                "Portal circulation": "Inferior vena cava"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sites_of_Portalcaval_Anastomosis": {
+      "text": "Clinical presentations of portal hypertension include:\nA dilated inferior mesenteric vein may or may not be related to portal hypertension.\nOther areas of anastomosis include the bare area of the liver as it connects to the diaphragm, the posterior portion of the gastrointestinal tract as it touches the posterior abdominal wall, the posterior surface of the pancreas, and the inferior part of the esophagus.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Region": "Esophageal",
+            "Name of clinical condition": "Esophageal varices",
+            "Portal circulation": "Esophageal branch of left gastric vein",
+            "Systemic circulation": "Esophageal branches of azygos vein"
+          },
+          {
+            "Region": "Rectal",
+            "Name of clinical condition": "Rectal varices",
+            "Portal circulation": "Superior rectal vein",
+            "Systemic circulation": "Middle rectal veins and inferior rectal veins"
+          },
+          {
+            "Region": "Paraumbilical",
+            "Name of clinical condition": "Caput medusae",
+            "Portal circulation": "Paraumbilical veins",
+            "Systemic circulation": "Superficial epigastric vein"
+          },
+          {
+            "Region": "Retroperitoneal",
+            "Name of clinical condition": "Splenorenal shunt",
+            "Portal circulation": "Splenic vein",
+            "Systemic circulation": "Renal vein, suprarenal vein, paravertebral vein, and gonadal vein"
+          },
+          {
+            "Region": "(no clinical name)",
+            "Name of clinical condition": "Right colic vein, middle colic vein, left colic vein",
+            "Portal circulation": "Retroperitoneal veins of Retzius"
+          },
+          {
+            "Region": "Intrahepatic",
+            "Name of clinical condition": "Hepatic pseudolesions",
+            "Portal circulation": "Perihepatic veins of Sappey",
+            "Systemic circulation": "Superior epigastric vein"
+          },
+          {
+            "Region": "Patent ductus venosus",
+            "Name of clinical condition": "Left branch of portal vein",
+            "Portal circulation": "Inferior vena cava"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Hematemesis\nCoffee-ground emesis\nVomiting\n+ retching followed by hematemesis is more likely Mallory-Weiss (esophageal)\nDark, tarry stools\nSyncope\nor pre-syncope\nDyspepsia\n,\nepigastric pain\nor heartburn",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Tachycardia\n,\nhypotension\nLiver disease\nSpider angiomata, palmar erythema, jaundice, gynecomastia\nCoagulopathy\nPetechiae\n/\npurpura\nMelena",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Hematemesis\nCoffee-ground emesis\nVomiting\n+ retching followed by hematemesis is more likely Mallory-Weiss (esophageal)\nDark, tarry stools\nSyncope\nor pre-syncope\nDyspepsia\n,\nepigastric pain\nor heartburn",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Tachycardia\n,\nhypotension\nLiver disease\nSpider angiomata, palmar erythema, jaundice, gynecomastia\nCoagulopathy\nPetechiae\n/\npurpura\nMelena",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physical_Exam": {
+      "text": "Tachycardia\n,\nhypotension\nLiver disease\nSpider angiomata, palmar erythema, jaundice, gynecomastia\nCoagulopathy\nPetechiae\n/\npurpura\nMelena",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Upper_gastrointestinal_bleeding": {
+          "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+          "tables": []
+        },
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Upper_gastrointestinal_bleeding": {
+      "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+      "subsections": {
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "2 large bore IVs (or\nsheath introducer\n)\nType and cross\nCBC & serial hemoglobin\nChemistry\nBUN/creatinine >30 suggests UGI if no history of renal failure (increased absorption/digestion of hb)\nCoags\nLFTs\nFibrinogen\nGuiac\nMore useful for diagnosing chronic occult bleeding (it could be positive for up to 2 weeks after an acute bleed)\nFalse-positive: vitamin C, red meat, methylene blue, bromide preparations, turnips, horseradish\nECG\n(if >40 yo or if suspicious for silent MI, especially from demand ischemia)\nCXR\n(if suspect perforation)",
+          "tables": []
+        },
+        "NG_Lavage_Controversy": {
+          "text": "Pros\n[1]\nPositive aspirate proves strong evidence for an upper GI source of bleeding\nCan assess presence of ongoing active bleeding\nCan prepare patient for endoscopy\nCons\n[1]\nUncomfortable\nNegative aspirate does not conclusively exclude upper GI source\nProvides useful information in only minority of patients without hematemesis\nErythromycin\n200mg IV can provide equal endoscopy conditions as lavage\n[2]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Endoscopy frequently required for definitive diagnosis of underlying etiology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "2 large bore IVs (or\nsheath introducer\n)\nType and cross\nCBC & serial hemoglobin\nChemistry\nBUN/creatinine >30 suggests UGI if no history of renal failure (increased absorption/digestion of hb)\nCoags\nLFTs\nFibrinogen\nGuiac\nMore useful for diagnosing chronic occult bleeding (it could be positive for up to 2 weeks after an acute bleed)\nFalse-positive: vitamin C, red meat, methylene blue, bromide preparations, turnips, horseradish\nECG\n(if >40 yo or if suspicious for silent MI, especially from demand ischemia)\nCXR\n(if suspect perforation)",
+      "subsections": {
+        "NG_Lavage_Controversy": {
+          "text": "Pros\n[1]\nPositive aspirate proves strong evidence for an upper GI source of bleeding\nCan assess presence of ongoing active bleeding\nCan prepare patient for endoscopy\nCons\n[1]\nUncomfortable\nNegative aspirate does not conclusively exclude upper GI source\nProvides useful information in only minority of patients without hematemesis\nErythromycin\n200mg IV can provide equal endoscopy conditions as lavage\n[2]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Endoscopy frequently required for definitive diagnosis of underlying etiology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "NG_Lavage_Controversy": {
+      "text": "Pros\n[1]\nPositive aspirate proves strong evidence for an upper GI source of bleeding\nCan assess presence of ongoing active bleeding\nCan prepare patient for endoscopy\nCons\n[1]\nUncomfortable\nNegative aspirate does not conclusively exclude upper GI source\nProvides useful information in only minority of patients without hematemesis\nErythromycin\n200mg IV can provide equal endoscopy conditions as lavage\n[2]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Endoscopy frequently required for definitive diagnosis of underlying etiology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Endoscopy frequently required for definitive diagnosis of underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Resuscitation": {
+          "text": "Place 2 large bore IVs (or\nsheath introducer\n/\nrapid infusion catheter\n) and monitor airway status\nCrystalloid\nIVF\ncan be used for initial resuscitation but should be limited due to the dilutional anemia and coagulopathy that can result (i.e. IV fluid use in non-compressible hemorrhage)",
+          "tables": []
+        },
+        "Proton_pump_inhibitor": {
+          "text": "Pantoprazole\nor esomeprazole 80mg x 1; then 8mg/hr\nIntermittent dosing of pantoprazole, esomeprazole, or omeprazole 40 mg IV BID not inferior to continuous infusion dosing\n[3]\nReduces the rate of re-bleeding and need for surgery if there is an ulcer, but does not reduce morbidity or mortality\n[4]\n[5]\nThere is a mortality benefit in Asian patients\n[6]",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "For short-term prophylaxis against SBP and bacteremia\n[7]\nCeftriaxone\n1gm daily x 7 days (first line)\n[8]\nOR\nciprofloxacin\nIV or PO 500mg BID x7 days\nIndicated for:\nPatients with cirrhosis or history of\nETOH abuse\n(regardless of whether bleeding is variceal or not)\nPrior to endoscopy or as soon as possible after endoscopy",
+          "tables": []
+        },
+        "Other_Medications": {
+          "text": "Consider\noctreotide\n(50 mcg IV bolus, then 50 mcg/hr continuous, maintained at 2-5 days in patients with concern for variceal bleeding)\n[9]\nConsider\nvasopressin\n0.4 unit bolus, then infuse at 0.4 - 1 unit/min\n[10]\nGive with IV nitroglycerin at 10 - 50 mcg/min to bolster portal hypotension and reduce vasopressin systemic effects\n[11]\nAssociated with many vasoconstrictive complications to include peripheral necrosis, dysrhythmias, myocardial ischemia\n[12]\nTerlipressin (analog of\nvasopressin\n, available outside U.S.)\nAlternative to\nvasopressin\nwith mortality benefit\nGiven as 2mg IV q4 hrs, then decrease to 1mg IV q4 hrs until bleeding stops\n[13]\ntranexamic acid\n(TXA) initially thought to help, NNT = 30, no one harmed\n[14]\n; but HALT-IT trial RCT\n[15]\nfound it did not reduce death from GI bleeding\n[16]",
+          "tables": []
+        },
+        "Packed_red_blood_cell_transfusion": {
+          "text": "Indications:\nHemoglobin <7 g/dl\nIn hemodynamically stable patients, the\ngoal transfusion threshold should be 7 g/dl\n; NICE guidelines recommend avoidance of over-transfusion\n[17]\nContinued active bleeding\nFailure to improve perfusion and vital signs after infusion of 2L NS\nKnown varicele bleeding\n[18]",
+          "tables": []
+        },
+        "Other_Blood_Products": {
+          "text": "Consider initiating\nmassive transfusion\nprotocol\nProthrombin complex concentrates\n[19]\nCryoprecipitate\nto raise fibrinogen (goal >120mg/dL)\nPlatelets\n(goal >50-100k/μL)\nFFP\ncan be used to correct anticoagulated patients, but is not indicated in cirrhotics with variceal bleeding\n[20]\nMonitor for\nhypocalcemia",
+          "tables": []
+        },
+        "Balloon_tamponade_(e.g.,_Sengstaken-Blakemore_or_Minnesota_Tubes)": {
+          "text": "For life-threatening hemorrhage if endoscopy is not available\nAdverse reactions are frequent:\nMucosal ulceration\nEsophageal/gastric rupture\nTracheal compression (consider intubation prior to balloon insertion)",
+          "tables": []
+        },
+        "Endoscopy": {
+          "text": "Should be performed at the discretion of the gastroenterologist; within 12 hrs for variceal bleeding\n[21]\nEarly endoscopy does not necessarily improve clinical outcomes\n[22]\nConsider\nerythromycin\n3mg/kg IV over 20-30min, 30-90min prior to endoscopy\nAchieves endoscopy conditions equal to lavage\n[23]",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Protection of airway from massive aspiration, especially prior to endoscopy; does not protect against pneumonia or cardiopulmonary events\n[24]\nNO CHRISTMAS\n[25]\nHave bed-side\npush-dose pressors\non hand\nN\nGT (\nsalem sump\nto remove stomach contents)\nVarices not contraindication to NGT\nConsider\nmetoclopramide\n10mg IV\nIncreases tone of lower esophageal sphincter\n[26]\nGood pre-\nO\nxygenation critical\nC\nhest and\nH\nOB elevation to 45 degrees - consider intubating from 45 degrees to prevent gastric contents coming up\nR\nSI - consider halving sedation dosages for lost blood volume\nEtomidate\nor\nketamine\nfor sedation\nSuccinylcholine\nand\nvecuronium\nincreases LES tone\nI\nntubation with strong chance for first pass\nS\nlow and gentle BVM breaths at 10 breaths/min if first pass fails\nT\nrendelenberg if vomiting, keeping emesis out of lungs (have many suctions available before this happens)\nM\neconium aspirator may be hooked up to ETT for large bore suction\nA\nntibiotics not needed in early phase of aspiration\nChemical pneumonitis in first 24 hours, not bacterial pneumonia\nEarly antibiotics may predispose patient to resistant bacterial superinfection\nS\nIRS-like response often occurs from aspiration, but otherwise not sepsis if there is no other concerning source or suspicion\nMay require pressors and fluids\nConsider withholding early antibiotics, but doing the rest of the sepsis treatments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "goal transfusion threshold should be 7 g/dl",
+          "url": "https://wikem.org/wiki/EBQ:Transfusion_strategies_for_acute_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "push-dose pressors",
+          "url": "https://wikem.org/wiki/Push-dose_pressors"
+        },
+        {
+          "text": "salem sump",
+          "url": "https://wikem.org/wiki/Nasogastric_tube_placement"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Resuscitation": {
+      "text": "Place 2 large bore IVs (or\nsheath introducer\n/\nrapid infusion catheter\n) and monitor airway status\nCrystalloid\nIVF\ncan be used for initial resuscitation but should be limited due to the dilutional anemia and coagulopathy that can result (i.e. IV fluid use in non-compressible hemorrhage)",
+      "subsections": {
+        "Proton_pump_inhibitor": {
+          "text": "Pantoprazole\nor esomeprazole 80mg x 1; then 8mg/hr\nIntermittent dosing of pantoprazole, esomeprazole, or omeprazole 40 mg IV BID not inferior to continuous infusion dosing\n[3]\nReduces the rate of re-bleeding and need for surgery if there is an ulcer, but does not reduce morbidity or mortality\n[4]\n[5]\nThere is a mortality benefit in Asian patients\n[6]",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "For short-term prophylaxis against SBP and bacteremia\n[7]\nCeftriaxone\n1gm daily x 7 days (first line)\n[8]\nOR\nciprofloxacin\nIV or PO 500mg BID x7 days\nIndicated for:\nPatients with cirrhosis or history of\nETOH abuse\n(regardless of whether bleeding is variceal or not)\nPrior to endoscopy or as soon as possible after endoscopy",
+          "tables": []
+        },
+        "Other_Medications": {
+          "text": "Consider\noctreotide\n(50 mcg IV bolus, then 50 mcg/hr continuous, maintained at 2-5 days in patients with concern for variceal bleeding)\n[9]\nConsider\nvasopressin\n0.4 unit bolus, then infuse at 0.4 - 1 unit/min\n[10]\nGive with IV nitroglycerin at 10 - 50 mcg/min to bolster portal hypotension and reduce vasopressin systemic effects\n[11]\nAssociated with many vasoconstrictive complications to include peripheral necrosis, dysrhythmias, myocardial ischemia\n[12]\nTerlipressin (analog of\nvasopressin\n, available outside U.S.)\nAlternative to\nvasopressin\nwith mortality benefit\nGiven as 2mg IV q4 hrs, then decrease to 1mg IV q4 hrs until bleeding stops\n[13]\ntranexamic acid\n(TXA) initially thought to help, NNT = 30, no one harmed\n[14]\n; but HALT-IT trial RCT\n[15]\nfound it did not reduce death from GI bleeding\n[16]",
+          "tables": []
+        },
+        "Packed_red_blood_cell_transfusion": {
+          "text": "Indications:\nHemoglobin <7 g/dl\nIn hemodynamically stable patients, the\ngoal transfusion threshold should be 7 g/dl\n; NICE guidelines recommend avoidance of over-transfusion\n[17]\nContinued active bleeding\nFailure to improve perfusion and vital signs after infusion of 2L NS\nKnown varicele bleeding\n[18]",
+          "tables": []
+        },
+        "Other_Blood_Products": {
+          "text": "Consider initiating\nmassive transfusion\nprotocol\nProthrombin complex concentrates\n[19]\nCryoprecipitate\nto raise fibrinogen (goal >120mg/dL)\nPlatelets\n(goal >50-100k/μL)\nFFP\ncan be used to correct anticoagulated patients, but is not indicated in cirrhotics with variceal bleeding\n[20]\nMonitor for\nhypocalcemia",
+          "tables": []
+        },
+        "Balloon_tamponade_(e.g.,_Sengstaken-Blakemore_or_Minnesota_Tubes)": {
+          "text": "For life-threatening hemorrhage if endoscopy is not available\nAdverse reactions are frequent:\nMucosal ulceration\nEsophageal/gastric rupture\nTracheal compression (consider intubation prior to balloon insertion)",
+          "tables": []
+        },
+        "Endoscopy": {
+          "text": "Should be performed at the discretion of the gastroenterologist; within 12 hrs for variceal bleeding\n[21]\nEarly endoscopy does not necessarily improve clinical outcomes\n[22]\nConsider\nerythromycin\n3mg/kg IV over 20-30min, 30-90min prior to endoscopy\nAchieves endoscopy conditions equal to lavage\n[23]",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Protection of airway from massive aspiration, especially prior to endoscopy; does not protect against pneumonia or cardiopulmonary events\n[24]\nNO CHRISTMAS\n[25]\nHave bed-side\npush-dose pressors\non hand\nN\nGT (\nsalem sump\nto remove stomach contents)\nVarices not contraindication to NGT\nConsider\nmetoclopramide\n10mg IV\nIncreases tone of lower esophageal sphincter\n[26]\nGood pre-\nO\nxygenation critical\nC\nhest and\nH\nOB elevation to 45 degrees - consider intubating from 45 degrees to prevent gastric contents coming up\nR\nSI - consider halving sedation dosages for lost blood volume\nEtomidate\nor\nketamine\nfor sedation\nSuccinylcholine\nand\nvecuronium\nincreases LES tone\nI\nntubation with strong chance for first pass\nS\nlow and gentle BVM breaths at 10 breaths/min if first pass fails\nT\nrendelenberg if vomiting, keeping emesis out of lungs (have many suctions available before this happens)\nM\neconium aspirator may be hooked up to ETT for large bore suction\nA\nntibiotics not needed in early phase of aspiration\nChemical pneumonitis in first 24 hours, not bacterial pneumonia\nEarly antibiotics may predispose patient to resistant bacterial superinfection\nS\nIRS-like response often occurs from aspiration, but otherwise not sepsis if there is no other concerning source or suspicion\nMay require pressors and fluids\nConsider withholding early antibiotics, but doing the rest of the sepsis treatments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "goal transfusion threshold should be 7 g/dl",
+          "url": "https://wikem.org/wiki/EBQ:Transfusion_strategies_for_acute_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "push-dose pressors",
+          "url": "https://wikem.org/wiki/Push-dose_pressors"
+        },
+        {
+          "text": "salem sump",
+          "url": "https://wikem.org/wiki/Nasogastric_tube_placement"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Medications": {
+      "text": "",
+      "subsections": {
+        "Proton_pump_inhibitor": {
+          "text": "Pantoprazole\nor esomeprazole 80mg x 1; then 8mg/hr\nIntermittent dosing of pantoprazole, esomeprazole, or omeprazole 40 mg IV BID not inferior to continuous infusion dosing\n[3]\nReduces the rate of re-bleeding and need for surgery if there is an ulcer, but does not reduce morbidity or mortality\n[4]\n[5]\nThere is a mortality benefit in Asian patients\n[6]",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "For short-term prophylaxis against SBP and bacteremia\n[7]\nCeftriaxone\n1gm daily x 7 days (first line)\n[8]\nOR\nciprofloxacin\nIV or PO 500mg BID x7 days\nIndicated for:\nPatients with cirrhosis or history of\nETOH abuse\n(regardless of whether bleeding is variceal or not)\nPrior to endoscopy or as soon as possible after endoscopy",
+          "tables": []
+        },
+        "Other_Medications": {
+          "text": "Consider\noctreotide\n(50 mcg IV bolus, then 50 mcg/hr continuous, maintained at 2-5 days in patients with concern for variceal bleeding)\n[9]\nConsider\nvasopressin\n0.4 unit bolus, then infuse at 0.4 - 1 unit/min\n[10]\nGive with IV nitroglycerin at 10 - 50 mcg/min to bolster portal hypotension and reduce vasopressin systemic effects\n[11]\nAssociated with many vasoconstrictive complications to include peripheral necrosis, dysrhythmias, myocardial ischemia\n[12]\nTerlipressin (analog of\nvasopressin\n, available outside U.S.)\nAlternative to\nvasopressin\nwith mortality benefit\nGiven as 2mg IV q4 hrs, then decrease to 1mg IV q4 hrs until bleeding stops\n[13]\ntranexamic acid\n(TXA) initially thought to help, NNT = 30, no one harmed\n[14]\n; but HALT-IT trial RCT\n[15]\nfound it did not reduce death from GI bleeding\n[16]",
+          "tables": []
+        },
+        "Packed_red_blood_cell_transfusion": {
+          "text": "Indications:\nHemoglobin <7 g/dl\nIn hemodynamically stable patients, the\ngoal transfusion threshold should be 7 g/dl\n; NICE guidelines recommend avoidance of over-transfusion\n[17]\nContinued active bleeding\nFailure to improve perfusion and vital signs after infusion of 2L NS\nKnown varicele bleeding\n[18]",
+          "tables": []
+        },
+        "Other_Blood_Products": {
+          "text": "Consider initiating\nmassive transfusion\nprotocol\nProthrombin complex concentrates\n[19]\nCryoprecipitate\nto raise fibrinogen (goal >120mg/dL)\nPlatelets\n(goal >50-100k/μL)\nFFP\ncan be used to correct anticoagulated patients, but is not indicated in cirrhotics with variceal bleeding\n[20]\nMonitor for\nhypocalcemia",
+          "tables": []
+        },
+        "Balloon_tamponade_(e.g.,_Sengstaken-Blakemore_or_Minnesota_Tubes)": {
+          "text": "For life-threatening hemorrhage if endoscopy is not available\nAdverse reactions are frequent:\nMucosal ulceration\nEsophageal/gastric rupture\nTracheal compression (consider intubation prior to balloon insertion)",
+          "tables": []
+        },
+        "Endoscopy": {
+          "text": "Should be performed at the discretion of the gastroenterologist; within 12 hrs for variceal bleeding\n[21]\nEarly endoscopy does not necessarily improve clinical outcomes\n[22]\nConsider\nerythromycin\n3mg/kg IV over 20-30min, 30-90min prior to endoscopy\nAchieves endoscopy conditions equal to lavage\n[23]",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Protection of airway from massive aspiration, especially prior to endoscopy; does not protect against pneumonia or cardiopulmonary events\n[24]\nNO CHRISTMAS\n[25]\nHave bed-side\npush-dose pressors\non hand\nN\nGT (\nsalem sump\nto remove stomach contents)\nVarices not contraindication to NGT\nConsider\nmetoclopramide\n10mg IV\nIncreases tone of lower esophageal sphincter\n[26]\nGood pre-\nO\nxygenation critical\nC\nhest and\nH\nOB elevation to 45 degrees - consider intubating from 45 degrees to prevent gastric contents coming up\nR\nSI - consider halving sedation dosages for lost blood volume\nEtomidate\nor\nketamine\nfor sedation\nSuccinylcholine\nand\nvecuronium\nincreases LES tone\nI\nntubation with strong chance for first pass\nS\nlow and gentle BVM breaths at 10 breaths/min if first pass fails\nT\nrendelenberg if vomiting, keeping emesis out of lungs (have many suctions available before this happens)\nM\neconium aspirator may be hooked up to ETT for large bore suction\nA\nntibiotics not needed in early phase of aspiration\nChemical pneumonitis in first 24 hours, not bacterial pneumonia\nEarly antibiotics may predispose patient to resistant bacterial superinfection\nS\nIRS-like response often occurs from aspiration, but otherwise not sepsis if there is no other concerning source or suspicion\nMay require pressors and fluids\nConsider withholding early antibiotics, but doing the rest of the sepsis treatments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "goal transfusion threshold should be 7 g/dl",
+          "url": "https://wikem.org/wiki/EBQ:Transfusion_strategies_for_acute_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "push-dose pressors",
+          "url": "https://wikem.org/wiki/Push-dose_pressors"
+        },
+        {
+          "text": "salem sump",
+          "url": "https://wikem.org/wiki/Nasogastric_tube_placement"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Blood_products": {
+      "text": "",
+      "subsections": {
+        "Packed_red_blood_cell_transfusion": {
+          "text": "Indications:\nHemoglobin <7 g/dl\nIn hemodynamically stable patients, the\ngoal transfusion threshold should be 7 g/dl\n; NICE guidelines recommend avoidance of over-transfusion\n[17]\nContinued active bleeding\nFailure to improve perfusion and vital signs after infusion of 2L NS\nKnown varicele bleeding\n[18]",
+          "tables": []
+        },
+        "Other_Blood_Products": {
+          "text": "Consider initiating\nmassive transfusion\nprotocol\nProthrombin complex concentrates\n[19]\nCryoprecipitate\nto raise fibrinogen (goal >120mg/dL)\nPlatelets\n(goal >50-100k/μL)\nFFP\ncan be used to correct anticoagulated patients, but is not indicated in cirrhotics with variceal bleeding\n[20]\nMonitor for\nhypocalcemia",
+          "tables": []
+        },
+        "Balloon_tamponade_(e.g.,_Sengstaken-Blakemore_or_Minnesota_Tubes)": {
+          "text": "For life-threatening hemorrhage if endoscopy is not available\nAdverse reactions are frequent:\nMucosal ulceration\nEsophageal/gastric rupture\nTracheal compression (consider intubation prior to balloon insertion)",
+          "tables": []
+        },
+        "Endoscopy": {
+          "text": "Should be performed at the discretion of the gastroenterologist; within 12 hrs for variceal bleeding\n[21]\nEarly endoscopy does not necessarily improve clinical outcomes\n[22]\nConsider\nerythromycin\n3mg/kg IV over 20-30min, 30-90min prior to endoscopy\nAchieves endoscopy conditions equal to lavage\n[23]",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Protection of airway from massive aspiration, especially prior to endoscopy; does not protect against pneumonia or cardiopulmonary events\n[24]\nNO CHRISTMAS\n[25]\nHave bed-side\npush-dose pressors\non hand\nN\nGT (\nsalem sump\nto remove stomach contents)\nVarices not contraindication to NGT\nConsider\nmetoclopramide\n10mg IV\nIncreases tone of lower esophageal sphincter\n[26]\nGood pre-\nO\nxygenation critical\nC\nhest and\nH\nOB elevation to 45 degrees - consider intubating from 45 degrees to prevent gastric contents coming up\nR\nSI - consider halving sedation dosages for lost blood volume\nEtomidate\nor\nketamine\nfor sedation\nSuccinylcholine\nand\nvecuronium\nincreases LES tone\nI\nntubation with strong chance for first pass\nS\nlow and gentle BVM breaths at 10 breaths/min if first pass fails\nT\nrendelenberg if vomiting, keeping emesis out of lungs (have many suctions available before this happens)\nM\neconium aspirator may be hooked up to ETT for large bore suction\nA\nntibiotics not needed in early phase of aspiration\nChemical pneumonitis in first 24 hours, not bacterial pneumonia\nEarly antibiotics may predispose patient to resistant bacterial superinfection\nS\nIRS-like response often occurs from aspiration, but otherwise not sepsis if there is no other concerning source or suspicion\nMay require pressors and fluids\nConsider withholding early antibiotics, but doing the rest of the sepsis treatments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "goal transfusion threshold should be 7 g/dl",
+          "url": "https://wikem.org/wiki/EBQ:Transfusion_strategies_for_acute_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "push-dose pressors",
+          "url": "https://wikem.org/wiki/Push-dose_pressors"
+        },
+        {
+          "text": "salem sump",
+          "url": "https://wikem.org/wiki/Nasogastric_tube_placement"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Other_Interventions": {
+      "text": "",
+      "subsections": {
+        "Balloon_tamponade_(e.g.,_Sengstaken-Blakemore_or_Minnesota_Tubes)": {
+          "text": "For life-threatening hemorrhage if endoscopy is not available\nAdverse reactions are frequent:\nMucosal ulceration\nEsophageal/gastric rupture\nTracheal compression (consider intubation prior to balloon insertion)",
+          "tables": []
+        },
+        "Endoscopy": {
+          "text": "Should be performed at the discretion of the gastroenterologist; within 12 hrs for variceal bleeding\n[21]\nEarly endoscopy does not necessarily improve clinical outcomes\n[22]\nConsider\nerythromycin\n3mg/kg IV over 20-30min, 30-90min prior to endoscopy\nAchieves endoscopy conditions equal to lavage\n[23]",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Protection of airway from massive aspiration, especially prior to endoscopy; does not protect against pneumonia or cardiopulmonary events\n[24]\nNO CHRISTMAS\n[25]\nHave bed-side\npush-dose pressors\non hand\nN\nGT (\nsalem sump\nto remove stomach contents)\nVarices not contraindication to NGT\nConsider\nmetoclopramide\n10mg IV\nIncreases tone of lower esophageal sphincter\n[26]\nGood pre-\nO\nxygenation critical\nC\nhest and\nH\nOB elevation to 45 degrees - consider intubating from 45 degrees to prevent gastric contents coming up\nR\nSI - consider halving sedation dosages for lost blood volume\nEtomidate\nor\nketamine\nfor sedation\nSuccinylcholine\nand\nvecuronium\nincreases LES tone\nI\nntubation with strong chance for first pass\nS\nlow and gentle BVM breaths at 10 breaths/min if first pass fails\nT\nrendelenberg if vomiting, keeping emesis out of lungs (have many suctions available before this happens)\nM\neconium aspirator may be hooked up to ETT for large bore suction\nA\nntibiotics not needed in early phase of aspiration\nChemical pneumonitis in first 24 hours, not bacterial pneumonia\nEarly antibiotics may predispose patient to resistant bacterial superinfection\nS\nIRS-like response often occurs from aspiration, but otherwise not sepsis if there is no other concerning source or suspicion\nMay require pressors and fluids\nConsider withholding early antibiotics, but doing the rest of the sepsis treatments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "push-dose pressors",
+          "url": "https://wikem.org/wiki/Push-dose_pressors"
+        },
+        {
+          "text": "salem sump",
+          "url": "https://wikem.org/wiki/Nasogastric_tube_placement"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Upper GI bleeding\nUpper GI Bleed Guidelines\nBalloon tamponade",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

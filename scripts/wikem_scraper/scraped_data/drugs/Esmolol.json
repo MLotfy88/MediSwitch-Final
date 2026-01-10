@@ -1,0 +1,87 @@
+{
+  "drug_name": "Esmolol",
+  "url": "https://wikem.org/wiki/Esmolol",
+  "scraped_at": "2026-01-10T07:52:53.724744",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta blockers\nDosage Forms:\nCommon Trade Names: Brevibloc",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Loading dose = 500mcg/kg bolus over 1min\nFollow this with infusion at 50mcg/kg/min for 4min\nIf no response give another 500 bolus, increased infusion to 100\nIf no response give another 500 bolus, increased infusion to 200\nSymptomatic AAA (controversial)\n500mcg/kg bolus\nInfusion of 50-200mcg/kg/min titrated to goal SBP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Unknown if excreted in breast milk\nRenal Dosing\nAdult: No adjustment required\nHepatic Dosing\nAdult: No adjustment required",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCardiogenic shock\n2nd or 3rd AV block",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Supraventricular arrhythmias\nHeart rate and blood pressure control in Symptomatic Aortic Aneurysm (titrate to HR <60 bmp)\nOff label use: refractory\nVF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VF",
+          "url": "https://wikem.org/wiki/VF"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "Hypotension\nBronchospasm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Adults - 9min Children 18mo-16yrs 2.7-4.8min\nMetabolism: Red Blood Cell Esterase\nExcretion: Renal\nMechanism of Action:  Class II - Short-acting Beta1 blocker\nOnset of action = 1-4min\nDuration of action = <30min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta-blockers\nBeta-blocker toxicity\nAntiarrhythmics\nAntihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    }
+  }
+}

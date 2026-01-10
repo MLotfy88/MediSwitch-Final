@@ -1,0 +1,118 @@
+{
+  "drug_name": "Escharotomy",
+  "url": "https://wikem.org/wiki/Escharotomy",
+  "scraped_at": "2026-01-10T07:52:53.757123",
+  "sections": {
+    "Indications": {
+      "text": "Circumferential eschar with any of:\nRestricted ventilation (torso)\nVascular compromise\nCompartment syndrome\n(compartment pressure > 30 mmHg)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Considerations": {
+      "text": "Irreversible ischemia of a gangrenous limb may render escharotomy futile\nElevated INR\nGive\nVitamin K\n+/-\nFFP\nbut do not delay procedure\nThrombocytopenia\nTransfuse\nplatelets\n, but do not delay procedure\nSkin infection\nNot a contraindication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elevated INR",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Sterile prep equipment\nScalpel or electrocautery\nElectrocautery preferred when available\nBurn dressings\nTopical antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Document neuro-vascular status\nConsider Doppler ultrasound and compartment pressure if there is suspected need for an extension of the escharotomy or simultaneous fasciotomy\nIncise eschar with scalpel or electrocautery, extending at least 1 cm into normal, unburned skin\nDepth of incision controversial\nMost recommend incision into subcutaneous fat\nApply burn dressing\nSilver sulfadiazine or antibiotic ointment with petroleum gauze\nNote that local anaesthetic is usually unnecessary as full thickness burns are insensate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Specific_Techniques": {
+      "text": "",
+      "subsections": {
+        "Torso": {
+          "text": "Incise at anterior axillary line from level of 2nd rib to 12th rib bilaterally\nJoin incisions transversly with one incision slightly inferior to the clavicle and a second along the upper abdomen",
+          "tables": []
+        },
+        "Extremities": {
+          "text": "Extensive escarotomies of the limbs should be carried to thenar and hypothenar eminences for upper extremities, and great and little toes for lower extremities\nIdentify superficial veins and avoid if possible\nIf possible, digital escharotomy should be performed by a hand surgeon\nIf plastic surgery expertise is not immediately available, incise along the mid-lateral portion of fingers and toes\nAvoid the posterior to medial malleoli of the ankle due to superficial neurovascular structures\nAvoid flexor surfaces of elbows, wrists, and knees\nEscharotomy must still be performed over joints, as these are susceptible areas of high tension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Torso": {
+      "text": "Incise at anterior axillary line from level of 2nd rib to 12th rib bilaterally\nJoin incisions transversly with one incision slightly inferior to the clavicle and a second along the upper abdomen",
+      "subsections": {
+        "Extremities": {
+          "text": "Extensive escarotomies of the limbs should be carried to thenar and hypothenar eminences for upper extremities, and great and little toes for lower extremities\nIdentify superficial veins and avoid if possible\nIf possible, digital escharotomy should be performed by a hand surgeon\nIf plastic surgery expertise is not immediately available, incise along the mid-lateral portion of fingers and toes\nAvoid the posterior to medial malleoli of the ankle due to superficial neurovascular structures\nAvoid flexor surfaces of elbows, wrists, and knees\nEscharotomy must still be performed over joints, as these are susceptible areas of high tension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extremities": {
+      "text": "Extensive escarotomies of the limbs should be carried to thenar and hypothenar eminences for upper extremities, and great and little toes for lower extremities\nIdentify superficial veins and avoid if possible\nIf possible, digital escharotomy should be performed by a hand surgeon\nIf plastic surgery expertise is not immediately available, incise along the mid-lateral portion of fingers and toes\nAvoid the posterior to medial malleoli of the ankle due to superficial neurovascular structures\nAvoid flexor surfaces of elbows, wrists, and knees\nEscharotomy must still be performed over joints, as these are susceptible areas of high tension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Actually have minimal bleeding due to full thickness burns",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.youtube.com/watch?v=puU4aDuhc0g",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

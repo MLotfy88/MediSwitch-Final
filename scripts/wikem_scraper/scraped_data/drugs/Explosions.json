@@ -1,0 +1,244 @@
+{
+  "drug_name": "Explosions",
+  "url": "https://wikem.org/wiki/Explosions",
+  "scraped_at": "2026-01-10T07:53:04.279331",
+  "sections": {
+    "Incendiary/Thermal_Effects": {
+      "text": "",
+      "subsections": {
+        "Effects_based_on_blast_pressure": {
+          "text": "Incendiary/Thermal effects are the fire and heat effects that occur in the immediate vicinity of the explosion.",
+          "tables": [
+            [
+              {
+                "Potential Injury": "Loss of balance/temporary ear damage",
+                "Pressure (PSI)": "0.5-3 psi",
+                "Structural Effects": "Glass shatters; facade fails"
+              },
+              {
+                "Potential Injury": "Slight chance of eardrum rupture",
+                "Pressure (PSI)": "5-6 psi",
+                "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+              },
+              {
+                "Potential Injury": "50% chance of eardrum rupture",
+                "Pressure (PSI)": "15 psi",
+                "Structural Effects": "Structural failure of typical construction"
+              },
+              {
+                "Potential Injury": "Lung collapse/damage",
+                "Pressure (PSI)": "30 psi",
+                "Structural Effects": "Reinforced construction failure"
+              },
+              {
+                "Potential Injury": "Fatal injuries",
+                "Pressure (PSI)": "100 + psi*",
+                "Structural Effects": "Structural failure"
+              }
+            ]
+          ]
+        },
+        "Low_explosives": {
+          "text": "Produce longer incendiary thermal effects than high explosives.",
+          "tables": []
+        },
+        "High_explosive": {
+          "text": "Produces higher temperatures but for a shorter time.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Effects_based_on_blast_pressure": {
+      "text": "Incendiary/Thermal effects are the fire and heat effects that occur in the immediate vicinity of the explosion.",
+      "subsections": {
+        "Low_explosives": {
+          "text": "Produce longer incendiary thermal effects than high explosives.",
+          "tables": []
+        },
+        "High_explosive": {
+          "text": "Produces higher temperatures but for a shorter time.",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Potential Injury": "Loss of balance/temporary ear damage",
+            "Pressure (PSI)": "0.5-3 psi",
+            "Structural Effects": "Glass shatters; facade fails"
+          },
+          {
+            "Potential Injury": "Slight chance of eardrum rupture",
+            "Pressure (PSI)": "5-6 psi",
+            "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+          },
+          {
+            "Potential Injury": "50% chance of eardrum rupture",
+            "Pressure (PSI)": "15 psi",
+            "Structural Effects": "Structural failure of typical construction"
+          },
+          {
+            "Potential Injury": "Lung collapse/damage",
+            "Pressure (PSI)": "30 psi",
+            "Structural Effects": "Reinforced construction failure"
+          },
+          {
+            "Potential Injury": "Fatal injuries",
+            "Pressure (PSI)": "100 + psi*",
+            "Structural Effects": "Structural failure"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Low_explosives": {
+      "text": "Produce longer incendiary thermal effects than high explosives.",
+      "subsections": {
+        "High_explosive": {
+          "text": "Produces higher temperatures but for a shorter time.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "High_explosive": {
+      "text": "Produces higher temperatures but for a shorter time.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Fragmentation": {
+      "text": "Fragmentation occurs when pieces of the explosive device or its container come apart and are driven outward from the center of the blast. Shrapnel may be added to the device to increase the number of projectiles created by the blast. Shrapnel includes nails, marbles, ball bearings, or other materials placed in and around the device.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Blast_Effects": {
+      "text": "Blast-pressure effect includes a positive-pressure phase and a negative-pressure phase.",
+      "subsections": {
+        "Positive_pressure": {
+          "text": "Moves rapidly from the point of origin of the explosion, pushing the air away from it and delivering violent force to everything in its path.",
+          "tables": []
+        },
+        "Negative_pressure": {
+          "text": "A vacuum/suction phase, which accounts for much of the debris near the area of greatest damage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Positive_pressure": {
+      "text": "Moves rapidly from the point of origin of the explosion, pushing the air away from it and delivering violent force to everything in its path.",
+      "subsections": {
+        "Negative_pressure": {
+          "text": "A vacuum/suction phase, which accounts for much of the debris near the area of greatest damage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Negative_pressure": {
+      "text": "A vacuum/suction phase, which accounts for much of the debris near the area of greatest damage.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ground_Shock": {
+      "text": "Ground and/or water shock is produced by the explosive shockwave being transmitted through the ground and/or water or through anything the explosive device is in contact with or buried within. If the device is in contact with a building, the shock transmits through the building walls.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Post_Blast_Response_Hazards": {
+      "text": "",
+      "subsections": {
+        "Structural_Hazards": {
+          "text": "Post-blast structural hazards include glass, fragment, and collapse:\nGlass hazards include projected, falling, and static hazards.\nFragments include concrete, steel, and other structural components that dislodge from structures or a debris field.\nCollapse hazards are created by the catastrophic failure of structural components resulting from the blast pressure. This, in turn, may result in the progressive collapse (i.e., pancaking) of a structure.",
+          "tables": []
+        },
+        "Other_Hazards": {
+          "text": "Natural gas, electrical lines, and other utilities can be severed by an explosion\nContaminants, such as body fluids, may contain pathogensm.\nConventional explosives can be used to disseminate or mask dissemination of other\nChemical\n,\nBiological\n,\nRadiological\n, or Nuclear hazards.\n•Additional devices could be anywhere and may be placed specifically to target individuals. Terrorists use these additional devices to generate fear and panic.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical",
+          "url": "https://wikem.org/wiki/Chemical_Weapons"
+        },
+        {
+          "text": "Biological",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Radiological",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        }
+      ]
+    },
+    "Structural_Hazards": {
+      "text": "Post-blast structural hazards include glass, fragment, and collapse:\nGlass hazards include projected, falling, and static hazards.\nFragments include concrete, steel, and other structural components that dislodge from structures or a debris field.\nCollapse hazards are created by the catastrophic failure of structural components resulting from the blast pressure. This, in turn, may result in the progressive collapse (i.e., pancaking) of a structure.",
+      "subsections": {
+        "Other_Hazards": {
+          "text": "Natural gas, electrical lines, and other utilities can be severed by an explosion\nContaminants, such as body fluids, may contain pathogensm.\nConventional explosives can be used to disseminate or mask dissemination of other\nChemical\n,\nBiological\n,\nRadiological\n, or Nuclear hazards.\n•Additional devices could be anywhere and may be placed specifically to target individuals. Terrorists use these additional devices to generate fear and panic.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical",
+          "url": "https://wikem.org/wiki/Chemical_Weapons"
+        },
+        {
+          "text": "Biological",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Radiological",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        }
+      ]
+    },
+    "Other_Hazards": {
+      "text": "Natural gas, electrical lines, and other utilities can be severed by an explosion\nContaminants, such as body fluids, may contain pathogensm.\nConventional explosives can be used to disseminate or mask dissemination of other\nChemical\n,\nBiological\n,\nRadiological\n, or Nuclear hazards.\n•Additional devices could be anywhere and may be placed specifically to target individuals. Terrorists use these additional devices to generate fear and panic.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical",
+          "url": "https://wikem.org/wiki/Chemical_Weapons"
+        },
+        {
+          "text": "Biological",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Radiological",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Blast injuries\nExplosive incident response",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blast injuries",
+          "url": "https://wikem.org/wiki/Blast_injuries"
+        },
+        {
+          "text": "Explosive incident response",
+          "url": "https://wikem.org/wiki/Explosive_incident_response"
+        }
+      ]
+    }
+  }
+}

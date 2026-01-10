@@ -1,0 +1,113 @@
+{
+  "drug_name": "Etomidate",
+  "url": "https://wikem.org/wiki/Etomidate",
+  "scraped_at": "2026-01-10T07:52:58.237786",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Type:\nSedative\nDosage Forms: IV\nCommon Trade Names: Amidate, Tomvi",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative",
+          "url": "https://wikem.org/wiki/Sedation"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "RSI": {
+          "text": "0.3mg/kg bolus IV\nAverage: 20mg\nConsider half-dose (0.15mg/kg) for obtunded patients",
+          "tables": []
+        },
+        "Procedural_Sedation": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "RSI": {
+      "text": "0.3mg/kg bolus IV\nAverage: 20mg\nConsider half-dose (0.15mg/kg) for obtunded patients",
+      "subsections": {
+        "Procedural_Sedation": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedural_Sedation": {
+      "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\nChildren < 10 years\n0.2-0.3 mg/kg IV\nChildren > 10 years\n0.3 mg/kg IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: etomidate is present in breast milk\nRenal Dosing\nAdult\nNot defined however higher risk of toxicity with renal impairment\nPediatric\nNot defined however higher risk of toxicity with renal impairment\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Myoclonus\nNausea/Vomiting\nPain at injection site\napnea",
+      "subsections": {
+        "Controversy": {
+          "text": "May suppress adrenal function in critically ill patient\n\"The available evidence suggests that etomidate suppresses adrenal function transiently without\ndemonstrating a significant effect on mortality. However, no studies to date have been powered to detect a difference in hospital, ventilator, or ICU length of stay or in mortality.\"\n[1]\nMeta-analysis in 2023 showed increased mortality in critically ill patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Controversy": {
+      "text": "May suppress adrenal function in critically ill patient\n\"The available evidence suggests that etomidate suppresses adrenal function transiently without\ndemonstrating a significant effect on mortality. However, no studies to date have been powered to detect a difference in hospital, ventilator, or ICU length of stay or in mortality.\"\n[1]\nMeta-analysis in 2023 showed increased mortality in critically ill patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 75 minutes\nMetabolism: Liver\nExcretion: Urine\nMechanism of Action: GABA agonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Etomidate: Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "drug_name": "Esophagitis",
+  "url": "https://wikem.org/wiki/Esophagitis",
+  "scraped_at": "2026-01-10T07:53:00.825928",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of the esophagus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Odynophagia and/or\ndysphagia\nCommonly causes\ndehydration\nChest pain\nNausea\nDyspepsia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Esophagitis_Types": {
+          "text": "Inflammatory\nGERD\nAllergic (eosinophilic)\nInfectious\nMainly seen in patients w/ immunosuppression (\nHIV\n/AIDS, cancer,\nsteroids\n)\nEsophageal candidiasis\n: often an\nAIDS\ndefining lesion\nHSV\nCMV esophagitis\naphthous ulceration\nMedication-induced (i.e. \"pill\") esophagitis, common culprits:\nDoxycycline\nTetracycline\nClindamycin\nNSAIDs\nASA\nBisphosphonates\nFerrous sulfate\nPotassium chloride\nAscorbic acid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CMV esophagitis",
+          "url": "https://wikem.org/wiki/CMV_esophagitis"
+        },
+        {
+          "text": "aphthous ulceration",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "Esophagitis_Types": {
+      "text": "Inflammatory\nGERD\nAllergic (eosinophilic)\nInfectious\nMainly seen in patients w/ immunosuppression (\nHIV\n/AIDS, cancer,\nsteroids\n)\nEsophageal candidiasis\n: often an\nAIDS\ndefining lesion\nHSV\nCMV esophagitis\naphthous ulceration\nMedication-induced (i.e. \"pill\") esophagitis, common culprits:\nDoxycycline\nTetracycline\nClindamycin\nNSAIDs\nASA\nBisphosphonates\nFerrous sulfate\nPotassium chloride\nAscorbic acid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CMV esophagitis",
+          "url": "https://wikem.org/wiki/CMV_esophagitis"
+        },
+        {
+          "text": "aphthous ulceration",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nCMP\nConsider\nHIV\nworkup if unknown causation, risk factors",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Generally clinical diagnosis in ED (requires EGD for conclusive diagnosis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "CBC\nCMP\nConsider\nHIV\nworkup if unknown causation, risk factors",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Generally clinical diagnosis in ED (requires EGD for conclusive diagnosis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Generally clinical diagnosis in ED (requires EGD for conclusive diagnosis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "PPI\nfor\nGERD\n-induced esophagitis\nIV fluids\nfor dehydration\nCandida infection\n[1]\nFluconazole\n: 200mg PO loading dose x1 followed by 100-200 mg PO for 7-14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if unable to tolerate PO or if underlying immunosuppression (e.g. HIV)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV - AIDS (Main)\nEsophageal candidiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

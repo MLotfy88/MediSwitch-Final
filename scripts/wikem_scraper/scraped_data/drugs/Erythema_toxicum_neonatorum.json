@@ -1,0 +1,168 @@
+{
+  "drug_name": "Erythema_toxicum_neonatorum",
+  "url": "https://wikem.org/wiki/Erythema_toxicum_neonatorum",
+  "scraped_at": "2026-01-10T07:52:53.474085",
+  "sections": {
+    "Background": {
+      "text": "Benign, self-limited (1wk) rash that occurs in 50% of newborns\nThought to be problem with sebaceous glands within hair follicles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Erythematous\nmacules\ndevelop on face, trunk, extremities\nSpares palms and soles\nMost common with full term infants, with incidence declining with decreasing gestational age",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "macules",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neonatal_Rashes": {
+          "text": "Acne\nAtopic dermatitis\nCandidiasis\nContact dermatitis\nDiaper dermatitis\nErythema toxicum neonatorum\nImpetigo\nMastitis\nMilia\nMiliaria\nMongolian spots\nOmphalitis\nPerianal streptococcal dermatitis\nPsoriasis\nPustular melanosis\nSeborrheic dermatitis\nSucking blisters\nTinea capitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acne",
+          "url": "https://wikem.org/wiki/Neonatal_acne"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Neonatal_mastitis"
+        },
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Neonatal_Rashes": {
+      "text": "Acne\nAtopic dermatitis\nCandidiasis\nContact dermatitis\nDiaper dermatitis\nErythema toxicum neonatorum\nImpetigo\nMastitis\nMilia\nMiliaria\nMongolian spots\nOmphalitis\nPerianal streptococcal dermatitis\nPsoriasis\nPustular melanosis\nSeborrheic dermatitis\nSucking blisters\nTinea capitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acne",
+          "url": "https://wikem.org/wiki/Neonatal_acne"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Neonatal_mastitis"
+        },
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Normally clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No treatment necessary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal Rashes",
+          "url": "https://wikem.org/wiki/Neonatal_Rashes"
+        }
+      ]
+    }
+  }
+}

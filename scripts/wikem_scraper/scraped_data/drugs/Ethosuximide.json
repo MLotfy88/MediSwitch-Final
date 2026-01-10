@@ -1,0 +1,317 @@
+{
+  "drug_name": "Ethosuximide",
+  "url": "https://wikem.org/wiki/Ethosuximide",
+  "scraped_at": "2026-01-10T07:52:59.596739",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticonvulsant\nDosage Forms: 250; 250/5mL\nRoutes of Administration: oral tablet, oral syrup\nCommon Trade Names: Zarontin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsant",
+          "url": "https://wikem.org/wiki/Anticonvulsant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Seizure,_absence": {
+          "text": "Start: 250mg PO bid\nMay increase 250mg/day q4-7 days\nTaper dose based on tx response to D/C\nMax: 1.5 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizure,_absence": {
+      "text": "Start: 250mg PO bid\nMay increase 250mg/day q4-7 days\nTaper dose based on tx response to D/C\nMax: 1.5 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Seizure,_absence_2": {
+          "text": "3-6 yo\n20 mg/kg/day PO divided bid\nStart: 250 mg PO QD\nMax: 1.5 g/day\nTaper dose based on tx response to D/C\n6+ yo\n20 mg/kg/day PO divided bid\nStart: 250 mg PO QD\nMax: 1.5 g/day\nTaper dose based on tx response to D/C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizure,_absence_2": {
+      "text": "3-6 yo\n20 mg/kg/day PO divided bid\nStart: 250 mg PO QD\nMax: 1.5 g/day\nTaper dose based on tx response to D/C\n6+ yo\n20 mg/kg/day PO divided bid\nStart: 250 mg PO QD\nMax: 1.5 g/day\nTaper dose based on tx response to D/C",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: L3",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <10: Decrease dose 25%\nHD: Give after dialysis\nPD: No adjustment\nPediatric:\nCrCl <10: Decrease dose 25%\nHD: Give after dialysis\nPD: No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl <10: Decrease dose 25%\nHD: Give after dialysis\nPD: No adjustment\nPediatric:\nCrCl <10: Decrease dose 25%\nHD: Give after dialysis\nPD: No adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Agranulocytosis\nPancytopenia\nLeukopenia\nBlood dyscrasias\nLupus\nerythematosus\nAggressive behavior\nSuicidality\nDepression\nParanoid psychosis\nStevens-Johnson syndrome\nHypersensitivity reaction\nWithdrawal seizures if abrupt D/C",
+          "tables": []
+        },
+        "Common": {
+          "text": "Anorexia\nDyspepsia\nNausea\n/\nVomiting\nAbdominal pain\nWeight loss\nDiarrhea\nDrowsiness\nHeadache\nDizziness\nEuphoria\nHiccups\nIrritability\nHyperactivity\nAtaxia\nSleep disturbance\nImpaired concentration\nRash\nPruritus\nHirsutism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Agranulocytosis\nPancytopenia\nLeukopenia\nBlood dyscrasias\nLupus\nerythematosus\nAggressive behavior\nSuicidality\nDepression\nParanoid psychosis\nStevens-Johnson syndrome\nHypersensitivity reaction\nWithdrawal seizures if abrupt D/C",
+      "subsections": {
+        "Common": {
+          "text": "Anorexia\nDyspepsia\nNausea\n/\nVomiting\nAbdominal pain\nWeight loss\nDiarrhea\nDrowsiness\nHeadache\nDizziness\nEuphoria\nHiccups\nIrritability\nHyperactivity\nAtaxia\nSleep disturbance\nImpaired concentration\nRash\nPruritus\nHirsutism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Anorexia\nDyspepsia\nNausea\n/\nVomiting\nAbdominal pain\nWeight loss\nDiarrhea\nDrowsiness\nHeadache\nDizziness\nEuphoria\nHiccups\nIrritability\nHyperactivity\nAtaxia\nSleep disturbance\nImpaired concentration\nRash\nPruritus\nHirsutism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 56-60 hr\nMetabolism: Liver extensively; CYP450: 3A4 substrate\nExcretion: Urine primarily (<20% unchanged), bile/feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Depresses motor cortex\nElevates CNS convulsive stimuli threshold",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    }
+  }
+}

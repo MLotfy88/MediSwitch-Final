@@ -1,0 +1,98 @@
+{
+  "drug_name": "Excipients",
+  "url": "https://wikem.org/wiki/Excipients",
+  "scraped_at": "2026-01-10T07:53:01.237073",
+  "sections": {
+    "Background": {
+      "text": "Many additives, or excipients are \"non active\" components of many medications but have potential adverse effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Toxicity_by_System": {
+      "text": "Additives can be classified by their effect on various organ systems",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Chlorobutanol\nPropylene glycol",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Sorbitol\nNeurologic\nBenzyl alcohol\nChlorobutanol\nPropylene glycol",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Benzalkonium chloride\nChlorobutanol",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Polyethylene glycol\nPropylene glycol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiovascular": {
+      "text": "Chlorobutanol\nPropylene glycol",
+      "subsections": {
+        "Gastrointestinal": {
+          "text": "Sorbitol\nNeurologic\nBenzyl alcohol\nChlorobutanol\nPropylene glycol",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Benzalkonium chloride\nChlorobutanol",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Polyethylene glycol\nPropylene glycol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gastrointestinal": {
+      "text": "Sorbitol\nNeurologic\nBenzyl alcohol\nChlorobutanol\nPropylene glycol",
+      "subsections": {
+        "Ophthalmic": {
+          "text": "Benzalkonium chloride\nChlorobutanol",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Polyethylene glycol\nPropylene glycol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ophthalmic": {
+      "text": "Benzalkonium chloride\nChlorobutanol",
+      "subsections": {
+        "Renal": {
+          "text": "Polyethylene glycol\nPropylene glycol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal": {
+      "text": "Polyethylene glycol\nPropylene glycol",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    }
+  }
+}

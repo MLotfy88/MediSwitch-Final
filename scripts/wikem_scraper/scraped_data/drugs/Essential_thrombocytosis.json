@@ -1,0 +1,392 @@
+{
+  "drug_name": "Essential_thrombocytosis",
+  "url": "https://wikem.org/wiki/Essential_thrombocytosis",
+  "scraped_at": "2026-01-10T07:52:58.878857",
+  "sections": {
+    "Background": {
+      "text": "Rare, chronic\nmyeloproliferative neoplasm\nAbnormal proliferation is seen in megakaryocytic line only\nTypically in elderly\nGenerally asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myeloproliferative neoplasm",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Leukocytosis\nAnemia\nSplenomegaly\nClotting or\nbleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Myelofibrosis\nChronic myelogenous leukemia\n(CML)\nPolycythemia vera\n(PV)",
+      "subsections": {
+        "Reactive_thrombocytosis": {
+          "text": "Acute\nblood loss\nAcute\nhemolytic anemia\nIron deficiency\nanemia\nTreatment of\nvitamin B12 deficiency\nRebound effect after\nthrombocytopenia\ntreatment\nMetastatic cancer\nLymphoma\nRheumatologic disorders\nIBD\nCeliac disease\nKawasaki disease\nNephrotic syndrome\nPOEMS syndrome\nThermal\nburn\nMI\nSevere\ntrauma\nAcute pancreatitis\nPost-surgery, especially\nsplenectomy\nCABG\nTB\nAcute\nbacterial\n/\nviral\ninfections\nAsplenia\nAllergic reaction\nMedication reactions: vincristine,\nepinephrine\n,\nglucocorticoids\n, IL-1B, ATRA, thrombopoietin,\nLMWH\n[1]",
+          "tables": []
+        },
+        "Autonomous_thrombocytosis": {
+          "text": "Essential thrombocytosis\nPolycythemia vera\nMixed\nmyelodysplastic\nand/or\nmyeloproliferative syndrome",
+          "tables": []
+        },
+        "Spurious_(false)_thrombocytosis": {
+          "text": "Mixed cryoglobulinemia\nCytoplasmic fragments\nBacteremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "Chronic myelogenous leukemia",
+          "url": "https://wikem.org/wiki/Chronic_myelogenous_leukemia"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "blood loss",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Acute pancreatitis",
+          "url": "https://wikem.org/wiki/Acute_pancreatitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "bacterial",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Asplenia",
+          "url": "https://wikem.org/wiki/Asplenic_patient"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "myelodysplastic",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative syndrome",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Reactive_thrombocytosis": {
+      "text": "Acute\nblood loss\nAcute\nhemolytic anemia\nIron deficiency\nanemia\nTreatment of\nvitamin B12 deficiency\nRebound effect after\nthrombocytopenia\ntreatment\nMetastatic cancer\nLymphoma\nRheumatologic disorders\nIBD\nCeliac disease\nKawasaki disease\nNephrotic syndrome\nPOEMS syndrome\nThermal\nburn\nMI\nSevere\ntrauma\nAcute pancreatitis\nPost-surgery, especially\nsplenectomy\nCABG\nTB\nAcute\nbacterial\n/\nviral\ninfections\nAsplenia\nAllergic reaction\nMedication reactions: vincristine,\nepinephrine\n,\nglucocorticoids\n, IL-1B, ATRA, thrombopoietin,\nLMWH\n[1]",
+      "subsections": {
+        "Autonomous_thrombocytosis": {
+          "text": "Essential thrombocytosis\nPolycythemia vera\nMixed\nmyelodysplastic\nand/or\nmyeloproliferative syndrome",
+          "tables": []
+        },
+        "Spurious_(false)_thrombocytosis": {
+          "text": "Mixed cryoglobulinemia\nCytoplasmic fragments\nBacteremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood loss",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Acute pancreatitis",
+          "url": "https://wikem.org/wiki/Acute_pancreatitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "bacterial",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Asplenia",
+          "url": "https://wikem.org/wiki/Asplenic_patient"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "myelodysplastic",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative syndrome",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Autonomous_thrombocytosis": {
+      "text": "Essential thrombocytosis\nPolycythemia vera\nMixed\nmyelodysplastic\nand/or\nmyeloproliferative syndrome",
+      "subsections": {
+        "Spurious_(false)_thrombocytosis": {
+          "text": "Mixed cryoglobulinemia\nCytoplasmic fragments\nBacteremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "myelodysplastic",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative syndrome",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChem 7\nESR\nBone marrow biopsy sometimes needed",
+          "tables": []
+        },
+        "Evaluation": {
+          "text": "Per the WHO guidelines, diagnosis of ET requires all of the following:",
+          "tables": [
+            [
+              {
+                "Major criteria": "Thrombocytosis ≥ 450 x 109L"
+              },
+              {
+                "Major criteria": "Megakaryocyte proliferation with little to no granulocyte or erythroid proliferation"
+              },
+              {
+                "Major criteria": "Not meeting criteria for CML, PV, PMF, MDS or other myeloid neoplasm"
+              },
+              {
+                "Major criteria": "No evidence of reactive thrombocytosis or presence of JAK2V617F or other clonal marker"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nChem 7\nESR\nBone marrow biopsy sometimes needed",
+      "subsections": {
+        "Evaluation": {
+          "text": "Per the WHO guidelines, diagnosis of ET requires all of the following:",
+          "tables": [
+            [
+              {
+                "Major criteria": "Thrombocytosis ≥ 450 x 109L"
+              },
+              {
+                "Major criteria": "Megakaryocyte proliferation with little to no granulocyte or erythroid proliferation"
+              },
+              {
+                "Major criteria": "Not meeting criteria for CML, PV, PMF, MDS or other myeloid neoplasm"
+              },
+              {
+                "Major criteria": "No evidence of reactive thrombocytosis or presence of JAK2V617F or other clonal marker"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "ASA\n81mg\nMyelosuppressive agents (\nhydroxyurea\n, Interferon-α)\nAnagrelide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        }
+      ]
+    }
+  }
+}

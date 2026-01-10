@@ -1,0 +1,521 @@
+{
+  "drug_name": "Epistaxis",
+  "url": "https://wikem.org/wiki/Epistaxis",
+  "scraped_at": "2026-01-10T07:52:52.521140",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Types": {
+          "text": "Anterior\n90% of nosebleeds\nOccur in anterior septum (Kiesselbach plexus)\nCan visualize with anterior rhinoscopy\nPosterior\n10% of nosebleeds\nOccur from nasopalatine branch of sphenopalatine artery\nCannot visualize without endoscope",
+          "tables": []
+        },
+        "Risk_factors": {
+          "text": "Digital trauma (i.e. nose-picking)\nRhino\nsinusitis\nAnticoagulant\n/\nantiplatelet\nuse\nTrauma\nNeoplasia,\njuvenile nasopharyngeal angiofibroma\nDried mucus membranes\nHypertension\n(does not cause bleeding but prolongs existing bleeding)\nOsler-Weber-Rendu (\nHereditary hemorrhagic telangiectasia\n)",
+          "tables": []
+        },
+        "Essential_Equipment": {
+          "text": "Light source\nNasal speculum\nSuction\nAirway equipment\nPacking or constrictive devices",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hereditary hemorrhagic telangiectasia",
+          "url": "https://wikem.org/wiki/Hereditary_hemorrhagic_telangiectasia"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Anterior\n90% of nosebleeds\nOccur in anterior septum (Kiesselbach plexus)\nCan visualize with anterior rhinoscopy\nPosterior\n10% of nosebleeds\nOccur from nasopalatine branch of sphenopalatine artery\nCannot visualize without endoscope",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Digital trauma (i.e. nose-picking)\nRhino\nsinusitis\nAnticoagulant\n/\nantiplatelet\nuse\nTrauma\nNeoplasia,\njuvenile nasopharyngeal angiofibroma\nDried mucus membranes\nHypertension\n(does not cause bleeding but prolongs existing bleeding)\nOsler-Weber-Rendu (\nHereditary hemorrhagic telangiectasia\n)",
+          "tables": []
+        },
+        "Essential_Equipment": {
+          "text": "Light source\nNasal speculum\nSuction\nAirway equipment\nPacking or constrictive devices",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hereditary hemorrhagic telangiectasia",
+          "url": "https://wikem.org/wiki/Hereditary_hemorrhagic_telangiectasia"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "Digital trauma (i.e. nose-picking)\nRhino\nsinusitis\nAnticoagulant\n/\nantiplatelet\nuse\nTrauma\nNeoplasia,\njuvenile nasopharyngeal angiofibroma\nDried mucus membranes\nHypertension\n(does not cause bleeding but prolongs existing bleeding)\nOsler-Weber-Rendu (\nHereditary hemorrhagic telangiectasia\n)",
+      "subsections": {
+        "Essential_Equipment": {
+          "text": "Light source\nNasal speculum\nSuction\nAirway equipment\nPacking or constrictive devices",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hereditary hemorrhagic telangiectasia",
+          "url": "https://wikem.org/wiki/Hereditary_hemorrhagic_telangiectasia"
+        }
+      ]
+    },
+    "Essential_Equipment": {
+      "text": "Light source\nNasal speculum\nSuction\nAirway equipment\nPacking or constrictive devices",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Epistaxis\nAnterior: more likely from one nares\nPosterior: more likely from two nares",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Facial trauma\nCoagulopathy\nNasal tumor\nJuvenile Nasopharyngeal Angiofibroma (JNA)\nHemophilia\nArteriovenous malformation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+          "url": "https://wikem.org/wiki/Juvenile_Nasopharyngeal_Angiofibroma_(JNA)"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Anterior_versus_posterior_hemorrhage": {
+          "text": "Assume posterior if measures to control anterior bleeding fail\nPosterior bleeding associated with:\nCoagulopathy\nSignificant hemorrhage visible in posterior nasopharynx\nSensation of blood dripping down throat\nHemorrhage from bilateral nares\nEpistaxis uncontrolled with either anterior rhinoscopy or anterior pack",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Anterior_versus_posterior_hemorrhage": {
+      "text": "Assume posterior if measures to control anterior bleeding fail\nPosterior bleeding associated with:\nCoagulopathy\nSignificant hemorrhage visible in posterior nasopharynx\nSensation of blood dripping down throat\nHemorrhage from bilateral nares\nEpistaxis uncontrolled with either anterior rhinoscopy or anterior pack",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Proceed down a stepwise fashion from pressure to vasoconstriction and topical devices to packing while considering risk factors that initiated the event. When initially visualizing, place the patient in the \"sniffing position” with the patient slightly leaning forward. Use the speculum in the superior-inferior orientation to avoid septal trauma.  Evaluate for polyps, masses, trauma, and bleeding sources.\n[1]",
+      "subsections": {
+        "Direct_Nasal_Pressure": {
+          "text": "Have patient blow nose or use suction to expel clots\nInstill topical vasoconstrictor (\noxymetazoline\nor\nphenylephrine\n)\nHave patient apply direct pressure over cartilaginous area of nasal bridge (not the bony area)\nCan use 2 tongue depressors taped together on one end to create a makeshift device to pinch the nose\nAttempt direct pressure for at least 20 minutes before moving to additional modalities\nPatient must lean forward to avoid blood draining down nasopharynx thus preventing desired tamponade",
+          "tables": []
+        },
+        "Chemical_Cauterization": {
+          "text": "Generally only effective if acute bleeding has stopped and friable site of bleeding can be adequately visualized.  Less effective in acute hemorrhage\nUsually Kesselbach's plexus for anterior bleeds\nAnesthetize with cotton pledgets soaked in 1:1 mix of 0.05% oxymetazoline:4% lidocaine\nOnce bloodless field obtained, place silver nitrate just proximal to bleeding source\nLeave on for a few seconds at most\nNever cauterize both sides of the septum at one go (risk of septal perforation)\nVideo of silver nitrate cauterization\n.",
+          "tables": []
+        },
+        "Thrombogenic_Foams": {
+          "text": "Apply Gelfoam or Surgicel on visualized bleeding mucosa\nThese materials are bioabsorbable so removal/antibiotics not needed",
+          "tables": []
+        },
+        "Anterior_Nasal_Packing": {
+          "text": "Only use if all of the above have failed\nRapid Rhino\nSoak balloon with water (NOT saline) and insert along the floor of the nasal cavity\nInflate slowly with air (NOT saline or water) until the bleeding stops\nMerocel\nAbsorbent nasal tampon\nCoat tampon with water-soluble antibiotics ointment and insert along floor of nasal cavity\nIf tampon has not expanded within 30s of placement, irrigate it in place with NS\nMoisten three times per day with saline or water until removal\nTraditional Packing\nApply ribbon gauze in accordion-like manner",
+          "tables": []
+        },
+        "Posterior_Nasal_Packing": {
+          "text": "90% of epistaxis is anterior.  Only consider posterior packing if all of the above have failed.\nAssociated with higher complication rates (pressure necrosis, infection, hypoxia)\nTemporizing measure while awaiting ENT support\nConsider nasal block as posterior packing is often very uncomfortable\nAll posterior packing should be accompanied by anterior packing\nRapid Rhino-rocket 7.5 cm +.  Also a dual chamber 9 cm packing available.  Inflate posterior then anterior baloons\nFoley catheter with 30-cc balloon if dedicated posterior packing not available\nLubricate with topical antibiotic\nAdvance transnasally until visualized in posterior oropharynx\nInflate balloon with 7cc of saline; retract 2-3cm until lodged in post nasopharynx\nInflate with additional 5-7cc of saline to complete the pack\nKeep packing for 72-96 hours, <48 hours associated with increased re-bleed.",
+          "tables": []
+        },
+        "Tranexamic_acid": {
+          "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Direct_Nasal_Pressure": {
+      "text": "Have patient blow nose or use suction to expel clots\nInstill topical vasoconstrictor (\noxymetazoline\nor\nphenylephrine\n)\nHave patient apply direct pressure over cartilaginous area of nasal bridge (not the bony area)\nCan use 2 tongue depressors taped together on one end to create a makeshift device to pinch the nose\nAttempt direct pressure for at least 20 minutes before moving to additional modalities\nPatient must lean forward to avoid blood draining down nasopharynx thus preventing desired tamponade",
+      "subsections": {
+        "Chemical_Cauterization": {
+          "text": "Generally only effective if acute bleeding has stopped and friable site of bleeding can be adequately visualized.  Less effective in acute hemorrhage\nUsually Kesselbach's plexus for anterior bleeds\nAnesthetize with cotton pledgets soaked in 1:1 mix of 0.05% oxymetazoline:4% lidocaine\nOnce bloodless field obtained, place silver nitrate just proximal to bleeding source\nLeave on for a few seconds at most\nNever cauterize both sides of the septum at one go (risk of septal perforation)\nVideo of silver nitrate cauterization\n.",
+          "tables": []
+        },
+        "Thrombogenic_Foams": {
+          "text": "Apply Gelfoam or Surgicel on visualized bleeding mucosa\nThese materials are bioabsorbable so removal/antibiotics not needed",
+          "tables": []
+        },
+        "Anterior_Nasal_Packing": {
+          "text": "Only use if all of the above have failed\nRapid Rhino\nSoak balloon with water (NOT saline) and insert along the floor of the nasal cavity\nInflate slowly with air (NOT saline or water) until the bleeding stops\nMerocel\nAbsorbent nasal tampon\nCoat tampon with water-soluble antibiotics ointment and insert along floor of nasal cavity\nIf tampon has not expanded within 30s of placement, irrigate it in place with NS\nMoisten three times per day with saline or water until removal\nTraditional Packing\nApply ribbon gauze in accordion-like manner",
+          "tables": []
+        },
+        "Posterior_Nasal_Packing": {
+          "text": "90% of epistaxis is anterior.  Only consider posterior packing if all of the above have failed.\nAssociated with higher complication rates (pressure necrosis, infection, hypoxia)\nTemporizing measure while awaiting ENT support\nConsider nasal block as posterior packing is often very uncomfortable\nAll posterior packing should be accompanied by anterior packing\nRapid Rhino-rocket 7.5 cm +.  Also a dual chamber 9 cm packing available.  Inflate posterior then anterior baloons\nFoley catheter with 30-cc balloon if dedicated posterior packing not available\nLubricate with topical antibiotic\nAdvance transnasally until visualized in posterior oropharynx\nInflate balloon with 7cc of saline; retract 2-3cm until lodged in post nasopharynx\nInflate with additional 5-7cc of saline to complete the pack\nKeep packing for 72-96 hours, <48 hours associated with increased re-bleed.",
+          "tables": []
+        },
+        "Tranexamic_acid": {
+          "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Chemical_Cauterization": {
+      "text": "Generally only effective if acute bleeding has stopped and friable site of bleeding can be adequately visualized.  Less effective in acute hemorrhage\nUsually Kesselbach's plexus for anterior bleeds\nAnesthetize with cotton pledgets soaked in 1:1 mix of 0.05% oxymetazoline:4% lidocaine\nOnce bloodless field obtained, place silver nitrate just proximal to bleeding source\nLeave on for a few seconds at most\nNever cauterize both sides of the septum at one go (risk of septal perforation)\nVideo of silver nitrate cauterization\n.",
+      "subsections": {
+        "Thrombogenic_Foams": {
+          "text": "Apply Gelfoam or Surgicel on visualized bleeding mucosa\nThese materials are bioabsorbable so removal/antibiotics not needed",
+          "tables": []
+        },
+        "Anterior_Nasal_Packing": {
+          "text": "Only use if all of the above have failed\nRapid Rhino\nSoak balloon with water (NOT saline) and insert along the floor of the nasal cavity\nInflate slowly with air (NOT saline or water) until the bleeding stops\nMerocel\nAbsorbent nasal tampon\nCoat tampon with water-soluble antibiotics ointment and insert along floor of nasal cavity\nIf tampon has not expanded within 30s of placement, irrigate it in place with NS\nMoisten three times per day with saline or water until removal\nTraditional Packing\nApply ribbon gauze in accordion-like manner",
+          "tables": []
+        },
+        "Posterior_Nasal_Packing": {
+          "text": "90% of epistaxis is anterior.  Only consider posterior packing if all of the above have failed.\nAssociated with higher complication rates (pressure necrosis, infection, hypoxia)\nTemporizing measure while awaiting ENT support\nConsider nasal block as posterior packing is often very uncomfortable\nAll posterior packing should be accompanied by anterior packing\nRapid Rhino-rocket 7.5 cm +.  Also a dual chamber 9 cm packing available.  Inflate posterior then anterior baloons\nFoley catheter with 30-cc balloon if dedicated posterior packing not available\nLubricate with topical antibiotic\nAdvance transnasally until visualized in posterior oropharynx\nInflate balloon with 7cc of saline; retract 2-3cm until lodged in post nasopharynx\nInflate with additional 5-7cc of saline to complete the pack\nKeep packing for 72-96 hours, <48 hours associated with increased re-bleed.",
+          "tables": []
+        },
+        "Tranexamic_acid": {
+          "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Thrombogenic_Foams": {
+      "text": "Apply Gelfoam or Surgicel on visualized bleeding mucosa\nThese materials are bioabsorbable so removal/antibiotics not needed",
+      "subsections": {
+        "Anterior_Nasal_Packing": {
+          "text": "Only use if all of the above have failed\nRapid Rhino\nSoak balloon with water (NOT saline) and insert along the floor of the nasal cavity\nInflate slowly with air (NOT saline or water) until the bleeding stops\nMerocel\nAbsorbent nasal tampon\nCoat tampon with water-soluble antibiotics ointment and insert along floor of nasal cavity\nIf tampon has not expanded within 30s of placement, irrigate it in place with NS\nMoisten three times per day with saline or water until removal\nTraditional Packing\nApply ribbon gauze in accordion-like manner",
+          "tables": []
+        },
+        "Posterior_Nasal_Packing": {
+          "text": "90% of epistaxis is anterior.  Only consider posterior packing if all of the above have failed.\nAssociated with higher complication rates (pressure necrosis, infection, hypoxia)\nTemporizing measure while awaiting ENT support\nConsider nasal block as posterior packing is often very uncomfortable\nAll posterior packing should be accompanied by anterior packing\nRapid Rhino-rocket 7.5 cm +.  Also a dual chamber 9 cm packing available.  Inflate posterior then anterior baloons\nFoley catheter with 30-cc balloon if dedicated posterior packing not available\nLubricate with topical antibiotic\nAdvance transnasally until visualized in posterior oropharynx\nInflate balloon with 7cc of saline; retract 2-3cm until lodged in post nasopharynx\nInflate with additional 5-7cc of saline to complete the pack\nKeep packing for 72-96 hours, <48 hours associated with increased re-bleed.",
+          "tables": []
+        },
+        "Tranexamic_acid": {
+          "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Anterior_Nasal_Packing": {
+      "text": "Only use if all of the above have failed\nRapid Rhino\nSoak balloon with water (NOT saline) and insert along the floor of the nasal cavity\nInflate slowly with air (NOT saline or water) until the bleeding stops\nMerocel\nAbsorbent nasal tampon\nCoat tampon with water-soluble antibiotics ointment and insert along floor of nasal cavity\nIf tampon has not expanded within 30s of placement, irrigate it in place with NS\nMoisten three times per day with saline or water until removal\nTraditional Packing\nApply ribbon gauze in accordion-like manner",
+      "subsections": {
+        "Posterior_Nasal_Packing": {
+          "text": "90% of epistaxis is anterior.  Only consider posterior packing if all of the above have failed.\nAssociated with higher complication rates (pressure necrosis, infection, hypoxia)\nTemporizing measure while awaiting ENT support\nConsider nasal block as posterior packing is often very uncomfortable\nAll posterior packing should be accompanied by anterior packing\nRapid Rhino-rocket 7.5 cm +.  Also a dual chamber 9 cm packing available.  Inflate posterior then anterior baloons\nFoley catheter with 30-cc balloon if dedicated posterior packing not available\nLubricate with topical antibiotic\nAdvance transnasally until visualized in posterior oropharynx\nInflate balloon with 7cc of saline; retract 2-3cm until lodged in post nasopharynx\nInflate with additional 5-7cc of saline to complete the pack\nKeep packing for 72-96 hours, <48 hours associated with increased re-bleed.",
+          "tables": []
+        },
+        "Tranexamic_acid": {
+          "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Posterior_Nasal_Packing": {
+      "text": "90% of epistaxis is anterior.  Only consider posterior packing if all of the above have failed.\nAssociated with higher complication rates (pressure necrosis, infection, hypoxia)\nTemporizing measure while awaiting ENT support\nConsider nasal block as posterior packing is often very uncomfortable\nAll posterior packing should be accompanied by anterior packing\nRapid Rhino-rocket 7.5 cm +.  Also a dual chamber 9 cm packing available.  Inflate posterior then anterior baloons\nFoley catheter with 30-cc balloon if dedicated posterior packing not available\nLubricate with topical antibiotic\nAdvance transnasally until visualized in posterior oropharynx\nInflate balloon with 7cc of saline; retract 2-3cm until lodged in post nasopharynx\nInflate with additional 5-7cc of saline to complete the pack\nKeep packing for 72-96 hours, <48 hours associated with increased re-bleed.",
+      "subsections": {
+        "Tranexamic_acid": {
+          "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Tranexamic_acid": {
+      "text": "*The NoPAC trial showed no difference in anterior packing rates with or without topical\nTXA\n. Higher quality evidence than prior studies.\n[2]\n500mg\nTXA\napplied to topical foam or non-absorbable packing and inserted into nares.\n[3]\nInjectable form of tranexamic acid (500mg/5mL), not the dilute form\nCan consider adding Epinephrine to non-absorbable packing to assist with vasoconstriction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Anterior_Epistaxis": {
+          "text": "Consider checking hemoglobin to ensure no significant blood loss anemia\nDischarge after 1 hour of observation\nPatients on Warfarin with therapeutic INR may continue medication\nDiscontinue\nNSAIDs\nfor 3-4 days\nPossible\namoxicillin-clavulanate\nif anterior packing was placed as prophylaxis for bacterial sinus infection or\nToxic shock syndrome\nalthough no robust evidence base\n[4]\nENT or ED follow-up in 2-3d for removal of nonbiodegradable packing\nAdmit if bilateral packing, symptomatic\nanemia\n, or anemia requiring\ntransfusion",
+          "tables": []
+        },
+        "Posterior_Epistaxis": {
+          "text": "Admission to telemetry is strongly advised\nPosterior packing causes vagal stimulation, increasing risk of\ndysrhythmia\nand bronchoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        }
+      ]
+    },
+    "Anterior_Epistaxis": {
+      "text": "Consider checking hemoglobin to ensure no significant blood loss anemia\nDischarge after 1 hour of observation\nPatients on Warfarin with therapeutic INR may continue medication\nDiscontinue\nNSAIDs\nfor 3-4 days\nPossible\namoxicillin-clavulanate\nif anterior packing was placed as prophylaxis for bacterial sinus infection or\nToxic shock syndrome\nalthough no robust evidence base\n[4]\nENT or ED follow-up in 2-3d for removal of nonbiodegradable packing\nAdmit if bilateral packing, symptomatic\nanemia\n, or anemia requiring\ntransfusion",
+      "subsections": {
+        "Posterior_Epistaxis": {
+          "text": "Admission to telemetry is strongly advised\nPosterior packing causes vagal stimulation, increasing risk of\ndysrhythmia\nand bronchoconstriction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        }
+      ]
+    },
+    "Posterior_Epistaxis": {
+      "text": "Admission to telemetry is strongly advised\nPosterior packing causes vagal stimulation, increasing risk of\ndysrhythmia\nand bronchoconstriction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Recurrent unilateral epistaxis has been described in association with malignancy\n[5]\n[6]\nToxic Shock Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "In-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

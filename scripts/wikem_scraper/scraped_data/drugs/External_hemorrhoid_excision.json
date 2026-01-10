@@ -1,0 +1,60 @@
+{
+  "drug_name": "External_hemorrhoid_excision",
+  "url": "https://wikem.org/wiki/External_hemorrhoid_excision",
+  "scraped_at": "2026-01-10T07:53:04.565416",
+  "sections": {
+    "Indications": {
+      "text": "Acute (<72 hours) thrombosed\nexternal hemorrhoid\nPain/discomfort affects daily life",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Immunocompromised patient\nPediatric patient\nPregnant patient\nPortal hypertension\nCoagulopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Scalpel\nLocal anesthetic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Place patient in side-lying or prone position\nApply lidocaine/prilocaine cream 1 hr prior to procedure\nApply tape to each buttock with force directed laterally for better visualization\nInject local anesthetic (e.g.\nbupivacaine\n0.5% with epi) with 30-gauge needle directly into dome of hemorrhoid as a\nsingle\ninjection\nAlternatively, a\nperianal block\ncan be used for local analgesia\nMake elliptical incision in overlying skin to expose the thrombosis\nRemove the clot and the overlying skin through the incision site\nControl bleeding by tucking corner of a small piece of gauze into the wound and tape buttocks together\nLeave in place for a few hours\nApply pressure dressing have patient remove 6-12 hr later when takes first stiz bath\nPatient may apply soothing ointments (preparation H, Anusol HC,\nLidocaine\nointment) after dressing is removed\nProvide follow up in 24-48hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Continued bleeding\nRecurrence\nInfection\nFistula\nAbscess\nSkin tags",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hemorrhoids\nAnorectal disorders\nInternal hemorrhoid\nExternal hemorrhoid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Do Hemorrhoidal Thrombectomy",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=KU1c1JfpJHM}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=KU1c1JfpJHM}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

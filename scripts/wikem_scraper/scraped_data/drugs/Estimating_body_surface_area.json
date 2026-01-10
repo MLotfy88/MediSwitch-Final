@@ -1,0 +1,276 @@
+{
+  "drug_name": "Estimating_body_surface_area",
+  "url": "https://wikem.org/wiki/Estimating_body_surface_area",
+  "scraped_at": "2026-01-10T07:53:00.297805",
+  "sections": {
+    "Rule_of_Nines": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Anatomic structure": "Anterior Head",
+            "Surface area": "4.5%"
+          },
+          {
+            "Anatomic structure": "Posterior Head",
+            "Surface area": "4.5%"
+          },
+          {
+            "Anatomic structure": "Anterior Torso",
+            "Surface area": "18%"
+          },
+          {
+            "Anatomic structure": "Posterior Torso",
+            "Surface area": "18%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Leg",
+            "Surface area": "9%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Leg",
+            "Surface area": "9%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Arm",
+            "Surface area": "4.5%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Arm",
+            "Surface area": "4.5%"
+          },
+          {
+            "Anatomic structure": "Genitalia/Perineum",
+            "Surface area": "1%"
+          }
+        ],
+        [
+          {
+            "Anatomic structure": "Anterior Head",
+            "Surface area": "9%"
+          },
+          {
+            "Anatomic structure": "Posterior Head",
+            "Surface area": "9%"
+          },
+          {
+            "Anatomic structure": "Anterior Torso",
+            "Surface area": "18%"
+          },
+          {
+            "Anatomic structure": "Posterior Torso",
+            "Surface area": "18%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Leg",
+            "Surface area": "6.5%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Leg",
+            "Surface area": "6.5%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Arm",
+            "Surface area": "4.5%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Arm",
+            "Surface area": "4.5%"
+          },
+          {
+            "Anatomic structure": "Genitalia/Perineum",
+            "Surface area": "1%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Rule_of_Palms": {
+      "text": "Patient's entire hand (palm+fingers) = about 1% TBSA\nUse to estimate scatter burns\nAlso use for local burns up to 10% BSA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Lund-Browder_Classification": {
+      "text": "An alternative method of estimate burn surface area\nMore accurate than \"Rule of Nines,\" especially in pediatric patients",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Anatomic structure": "Anterior Head",
+            "0 Yr": "9.5%",
+            "1 Yr": "8.5%",
+            "5 Yrs": "6.5%",
+            "10 Yrs": "5.5%",
+            "15 Yrs": "4.5%"
+          },
+          {
+            "Anatomic structure": "Posterior Head",
+            "0 Yr": "9.5%",
+            "1 Yr": "8.5%",
+            "5 Yrs": "6.5%",
+            "10 Yrs": "5.5%",
+            "15 Yrs": "4.5%"
+          },
+          {
+            "Anatomic structure": "Anterior Neck",
+            "0 Yr": "1%",
+            "1 Yr": "1%",
+            "5 Yrs": "1%",
+            "10 Yrs": "1%",
+            "15 Yrs": "1%"
+          },
+          {
+            "Anatomic structure": "Posterior Neck",
+            "0 Yr": "1%",
+            "1 Yr": "1%",
+            "5 Yrs": "1%",
+            "10 Yrs": "1%",
+            "15 Yrs": "1%"
+          },
+          {
+            "Anatomic structure": "Anterior Torso",
+            "0 Yr": "13%",
+            "1 Yr": "13%",
+            "5 Yrs": "13%",
+            "10 Yrs": "13%",
+            "15 Yrs": "13%"
+          },
+          {
+            "Anatomic structure": "Posterior Torso",
+            "0 Yr": "13%",
+            "1 Yr": "13%",
+            "5 Yrs": "13%",
+            "10 Yrs": "13%",
+            "15 Yrs": "13%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Upper Leg",
+            "0 Yr": "2.75%",
+            "1 Yr": "3.25%",
+            "5 Yrs": "4%",
+            "10 Yrs": "4.25%",
+            "15 Yrs": "4.5%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Upper Leg",
+            "0 Yr": "2.75%",
+            "1 Yr": "3.25%",
+            "5 Yrs": "4%",
+            "10 Yrs": "4.25%",
+            "15 Yrs": "4.5%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Lower Leg",
+            "0 Yr": "2.5%",
+            "1 Yr": "2.5%",
+            "5 Yrs": "2.75%",
+            "10 Yrs": "3%",
+            "15 Yrs": "3.25%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Lower Leg",
+            "0 Yr": "2.5%",
+            "1 Yr": "2.5%",
+            "5 Yrs": "2.75%",
+            "10 Yrs": "3%",
+            "15 Yrs": "3.25%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Upper Arm",
+            "0 Yr": "2%",
+            "1 Yr": "2%",
+            "5 Yrs": "2%",
+            "10 Yrs": "2%",
+            "15 Yrs": "2%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Upper Arm",
+            "0 Yr": "2%",
+            "1 Yr": "2%",
+            "5 Yrs": "2%",
+            "10 Yrs": "2%",
+            "15 Yrs": "2%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Lower Arm",
+            "0 Yr": "1.5%",
+            "1 Yr": "1.5%",
+            "5 Yrs": "1.5%",
+            "10 Yrs": "1.5%",
+            "15 Yrs": "1.5%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Lower Arm",
+            "0 Yr": "1.5%",
+            "1 Yr": "1.5%",
+            "5 Yrs": "1.5%",
+            "10 Yrs": "1.5%",
+            "15 Yrs": "1.5%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Hand",
+            "0 Yr": "1.5%",
+            "1 Yr": "1.5%",
+            "5 Yrs": "1.5%",
+            "10 Yrs": "1.5%",
+            "15 Yrs": "1.5%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Hand",
+            "0 Yr": "1.5%",
+            "1 Yr": "1.5%",
+            "5 Yrs": "1.5%",
+            "10 Yrs": "1.5%",
+            "15 Yrs": "1.5%"
+          },
+          {
+            "Anatomic structure": "Each Anterior Foot/Ankle",
+            "0 Yr": "1.75%",
+            "1 Yr": "1.75%",
+            "5 Yrs": "1.75%",
+            "10 Yrs": "1.75%",
+            "15 Yrs": "1.75%"
+          },
+          {
+            "Anatomic structure": "Each Posterior Foot/Ankle",
+            "0 Yr": "1.75%",
+            "1 Yr": "1.75%",
+            "5 Yrs": "1.75%",
+            "10 Yrs": "1.75%",
+            "15 Yrs": "1.75%"
+          },
+          {
+            "Anatomic structure": "Each Buttock",
+            "0 Yr": "2.5%",
+            "1 Yr": "2.5%",
+            "5 Yrs": "2.5%",
+            "10 Yrs": "2.5%",
+            "15 Yrs": "2.5%"
+          },
+          {
+            "Anatomic structure": "Genitalia/Perineum",
+            "0 Yr": "1%",
+            "1 Yr": "1%",
+            "5 Yrs": "1%",
+            "10 Yrs": "1%",
+            "15 Yrs": "1%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    }
+  }
+}

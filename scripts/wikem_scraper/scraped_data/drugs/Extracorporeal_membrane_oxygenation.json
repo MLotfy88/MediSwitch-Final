@@ -1,0 +1,65 @@
+{
+  "drug_name": "Extracorporeal_membrane_oxygenation",
+  "url": "https://wikem.org/wiki/Extracorporeal_membrane_oxygenation",
+  "scraped_at": "2026-01-10T07:53:05.103821",
+  "sections": {
+    "Overview": {
+      "text": "Abbreviation: ECMO\nExtracorporeal life support (ECLS) becoming a more common term\nExtracorporeal circuit that oxygenates blood and removes carbon dioxide (functions as an out-of-body lung)\nCan be high flow or low flow\nSimilar (but not identical) to cardiopulmonary bypass machine\nRequires lower levels of anticoagulation and allows longer duration of treatment (time on pump)\nEmerging therapy in Emergency Medicine (eCPR) but not yet well studied in this context",
+      "subsections": {
+        "Types": {
+          "text": "Veno-venous (VV)\nMost common\nBlood drained from central vein → oxygenator → vein near RA\nSupports severe respiratory failure without cardiac dysfunction\nVeno-arterial (VA): can be peripheral or central\nBlood drained from central vein → oxygenator → aorta\nSupports cardiac failure with or without respiratory failure\nVeno-pulmonary artery\nBlood drained from central vein → oxygenator → pulmonary artery\nShort term right ventricular/respiratory support after LVAD placement\nHybrid (VVA or VAV)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Veno-venous (VV)\nMost common\nBlood drained from central vein → oxygenator → vein near RA\nSupports severe respiratory failure without cardiac dysfunction\nVeno-arterial (VA): can be peripheral or central\nBlood drained from central vein → oxygenator → aorta\nSupports cardiac failure with or without respiratory failure\nVeno-pulmonary artery\nBlood drained from central vein → oxygenator → pulmonary artery\nShort term right ventricular/respiratory support after LVAD placement\nHybrid (VVA or VAV)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Acute, severe respiratory or cardiac failure + REVERSIBLE cause + refractory to usual treatment + high risk of death\nPoor gas exchange\nCompliance < 0.5ml/cmH20/kg\nP:F Ratio <100\nShunt fraction >30%\nVeno-venous (VV)\nPneumonia\n,\nARDS\n, acute\nGVHD\n,\npulmonary contusion\n, smoke inhalation, status asthmaticus, airway obstruction, drowning, bridge to lung transplant\nVeno-arterial (VA)\nMassive PE, nonischemic cardiogenic shock, failure of transplanted heart or heart-lung, cardiac or great vessel trauma, massive pulmonary hemorrhage/trauma, sepsis, anaphylaxis, drug overdose, bridge to LVAD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Absolute\nunwitnessed cardiac arrest\nnon-reversible, progressive cardiac disease in a patient who is not a transplant candidate\nnon-reversible, progressive respiratory disease\nsevere, chronic pulmonary hypertension\nadvanced cancer\nRelative\nolder than 75 years\nmultisystem trauma\nCNS injury\nmultiple organ failure\nVV\nunsupported cardiac failure, cardiac arrest, severe pulmonary hypertension, significant immunosupression\nVA\nAortic dissection or severe aortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Clot formation\nBleeding\nSuck down and kicking (vessel collapse around access cannula)\nCircut rupture, deccannulation, oxygenator failure, pump failure\nVA can → left ventricle overdistension → cardiac damage, pulmonary bleed or infarction, aortic thrombosis, cardiac or cerebral hypoxia\nNorth-South syndrome (cephalad hypoxia/cyanosis) may occur in patients with femoral-femoral cannulation for VA support",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Extracorporeal Life Support Organization (ELSO)\nED ECMO Podcast",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
