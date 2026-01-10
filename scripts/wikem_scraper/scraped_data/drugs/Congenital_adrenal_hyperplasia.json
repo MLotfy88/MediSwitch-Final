@@ -1,0 +1,346 @@
+{
+  "drug_name": "Congenital_adrenal_hyperplasia",
+  "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia",
+  "scraped_at": "2026-01-10T07:51:00.834662",
+  "sections": {
+    "Background": {
+      "text": "95% of cases due to deficiency of 21-hydroxylase\nLeads to cortisol deficiency, aldosterone deficiency, virilization\nPatients present during 2nd-5th week of life in crisis\nAlthough congenital adrenal hyperplasia is part of the normal neonatal screening, results might not be available for 3 to 4 weeks.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Patient presents in 2nd week of life in crisis\nLethargy\n, irritability, poor feeding,\nvomiting\n,\ndehydration\n,\nshock\nSalt-wasting\nHyponatremia\n,\nhyperkalemia\nVirilization: The development of male-pattern physical traits in females\nBrown hue skin color\nPartial CAH may present later and less dramatically with irregular menses in adolescence",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Adrenal salt-wasting crisis",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        },
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Adrenal_crisis": {
+      "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Bedside glucose\nChemistry\nHyponatremia\nHyperkalemia\n- rarely causes cardiac dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Bedside glucose\nChemistry\nHyponatremia\nHyperkalemia\n- rarely causes cardiac dysfunction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "NS\n10-20mL/kg bolus 0.9% saline solution or 5% dextrose in normal saline\nHypotonic saline or 5% dextrose without addition of NS should not be used as can worsen hyponatremia\nSteroid\nreplacement\nNeonates:\nHydrocortisone\n25mg IV/IO\nObtain blood sample for steroid hormone measurement\nMost importantly 17-OHP (17-hydroxyprogesterone) to evaluate for 21-hydroxylase deficiency\nprior\nto administering hydrocortisone\nHypoglycemia\nIf significant hypoglycemia, given IV bolus 5-10mL/kg of 10% dextrose (0.5-1.0 g/kg) or 2-4mL/kg of 25% dextrose (D25) infused slowly at rate of 2-3 mL/min\nHyperkalemia\nTypically improves promptly after hydrocortisone\nRare occasionally for severe and symptomatic hyperkalemia, administration of glucose and insulin is needed to manage hyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Neonatal_hypoglycemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Adrenal Crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        }
+      ]
+    }
+  }
+}

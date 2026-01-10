@@ -1,0 +1,154 @@
+{
+  "drug_name": "Contact_vulvovaginitis",
+  "url": "https://wikem.org/wiki/Contact_vulvovaginitis",
+  "scraped_at": "2026-01-10T07:51:04.984074",
+  "sections": {
+    "Background": {
+      "text": "Contact dermatitis\ndue to exposure of vulvar epithelium and vaginal mucosa to irritant or allergen\nDoes not require history of sexual activity",
+      "subsections": {
+        "Causes": {
+          "text": "Chemicals (bubble baths)\nPoor hygiene\nAllergic dermatitis\nParasitic infestation (pinworms)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Chemicals (bubble baths)\nPoor hygiene\nAllergic dermatitis\nParasitic infestation (pinworms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Vulvovaginitis": {
+      "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis of exclusion\nRule-out infectious cause first",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider\ntopical corticosteroids\napplied BID-TID x2-3d",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "topical corticosteroids",
+          "url": "https://wikem.org/wiki/Topical_corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vulvovaginitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    }
+  }
+}

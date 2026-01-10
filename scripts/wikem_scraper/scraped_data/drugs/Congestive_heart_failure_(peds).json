@@ -1,0 +1,429 @@
+{
+  "drug_name": "Congestive_heart_failure_(peds)",
+  "url": "https://wikem.org/wiki/Congestive_heart_failure_(peds)",
+  "scraped_at": "2026-01-10T07:51:01.886458",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\ncongestive heart failure\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Pediatric congestive heart failure (CHF) affects 12,000-35,000 children in the United States each year\n[1]\nThe causes and clinical presentation varies differently compared to adults",
+      "subsections": {
+        "Causes": {
+          "text": "Structural\nCongenital Heart Disease\nAcquired\nArrhythmia\nCardiomyopathy\nMyocarditis (peds)\nMyocardial ischemia\n(rare)\nDrugs/\ntoxins\nSystemic lupus erythematosus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital Heart Disease",
+          "url": "https://wikem.org/wiki/Congenital_Heart_Disease"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Structural\nCongenital Heart Disease\nAcquired\nArrhythmia\nCardiomyopathy\nMyocarditis (peds)\nMyocardial ischemia\n(rare)\nDrugs/\ntoxins\nSystemic lupus erythematosus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital Heart Disease",
+          "url": "https://wikem.org/wiki/Congenital_Heart_Disease"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms": {
+          "text": "Difficulty breathing\nFeeding difficulty - irritability with feeding, prolonged feeding time, refusal to feed\nIf an infant has to decide between feeding and breathing, he/she will choose to breathe\nSweating with feeds\n\"Exercise intolerance\"\nFailure to thrive\nFussiness\nOlder children: fatigue, exercise intolerance, dyspnea, orthopnea, abdominal pain, dependent edema\n[3]",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Tachycardia\nTachypnea with labored breathing and accessory muscle use\nGrunting with nasal flaring\nRales\nS3 gallop\nHepatomegaly\nCyanosis, cool/mottled extremities\nDecreased capillary refill\nEdema of face and limbs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Symptoms": {
+      "text": "Difficulty breathing\nFeeding difficulty - irritability with feeding, prolonged feeding time, refusal to feed\nIf an infant has to decide between feeding and breathing, he/she will choose to breathe\nSweating with feeds\n\"Exercise intolerance\"\nFailure to thrive\nFussiness\nOlder children: fatigue, exercise intolerance, dyspnea, orthopnea, abdominal pain, dependent edema\n[3]",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Tachycardia\nTachypnea with labored breathing and accessory muscle use\nGrunting with nasal flaring\nRales\nS3 gallop\nHepatomegaly\nCyanosis, cool/mottled extremities\nDecreased capillary refill\nEdema of face and limbs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physical_Exam": {
+      "text": "Tachycardia\nTachypnea with labored breathing and accessory muscle use\nGrunting with nasal flaring\nRales\nS3 gallop\nHepatomegaly\nCyanosis, cool/mottled extremities\nDecreased capillary refill\nEdema of face and limbs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\n,\nangioedema\nAspirated foreign body\nAsthma exacerbation\nPneumonia\nPneumothorax\nRespiratory distress syndrome\nMeconium aspiration syndrome\nBronchiolitis (peds)\n,\nURI\nPertussis\nBronchopulmonary dysplasia\nCroup\nEpiglottitis\nBacterial tracheitis\nTracheomalacia\nCystic fibrosis\nexacerbation\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nInhalation exposure\nRib fractures\n,\nFlail chest\n,\npulmonary contusion\nNonaccidental trauma",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nFever (Peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Blood Work\nCBC\nBMP\nMg\nLFT\nBNP\nTroponin\nBlood gas\nInflammatory markers such as ESR/CRP if concern for myocarditis, although these are nonspecific\nEKG\nSinus tachycardia - most common\nMay find other etiologies to CHF such as ECG abnormalities pointing towards myocarditis, restrictive cardiomyopathy, heart block, arrhythmias\nCXR\nWill help assess for cardiomegaly, pulmonary congestion, interstitial edema, pleural effusions\nEchocardiography",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis typically via\nechocardiography",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Blood Work\nCBC\nBMP\nMg\nLFT\nBNP\nTroponin\nBlood gas\nInflammatory markers such as ESR/CRP if concern for myocarditis, although these are nonspecific\nEKG\nSinus tachycardia - most common\nMay find other etiologies to CHF such as ECG abnormalities pointing towards myocarditis, restrictive cardiomyopathy, heart block, arrhythmias\nCXR\nWill help assess for cardiomegaly, pulmonary congestion, interstitial edema, pleural effusions\nEchocardiography",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Definitive diagnosis typically via\nechocardiography",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Definitive diagnosis typically via\nechocardiography",
+      "subsections": {
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Lung_ultrasound_of_pulmonary_edema": {
+      "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Management tailored to severity of disease\nNoninvasive ventilation\nHFNC\nCPAP\nBiPAP\nDiuretics\nFurosemide\nInotropes/Catecholamines\nTo be used if cardiac function significantly depressed\nDopamine\n(preferred drug for decompensated CHF)\nLow dose\nEpinephrine\nfor refractory hypotension\nPediatric Cardiology consult",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "In general CHF exacerbation will require admission\nNICU/PICU if unstable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5105230/\nhttps://www.pedscases.com/congenital-congestive-heart-failure\nhttps://pedemmorsels.com/tag/congenital-heart-disease/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "drug_name": "Compartment_syndrome",
+  "url": "https://wikem.org/wiki/Compartment_syndrome",
+  "scraped_at": "2026-01-10T07:50:57.020979",
+  "sections": {
+    "Background": {
+      "text": "Most commonly caused by tibia fracture (anterior compartment)",
+      "subsections": {
+        "Compartment_Syndrome_Indications": {
+          "text": "Consider whenever pain or paresthesia occurs in an extremity after:\nfracture\n(most common risk factor)\n- can occur with open fracture\ncrush injury\nimmobilization\nsnake bites\nburns\nprolonged\ntourniquet\napplication\nfluid extravasation into a limb\nsoft tissue infection\nextreme exertion\nImmediate threat is viability of nerve and muscle; later threat is infection,\ngangrene\n,\nrhabdomyolysis\n,\nrenal failure",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Tissue perfusion is difference between diastolic BP and compartment pressure\nAs compartment pressure increases, tissue perfusion decreases",
+          "tables": []
+        },
+        "Etiologies": {
+          "text": "Orthopedic\nTibial fracture\nForearm fracture\nVascular\nIschemic-reperfusion injury\nHemorrhage\nCan be spontaneous in anticoagulated patients\nIatrogenic\nVascular puncture in anticoagulated patients\nIV/intra-arterial drug injection\nConstrictive casts\nSoft tissue injury\nProlonged limb compression\nCrush injury\nBurn\nSnake bite\nExpanding hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "soft tissue infection",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        },
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Tibial fracture",
+          "url": "https://wikem.org/wiki/Tibial_fracture"
+        },
+        {
+          "text": "Forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Snake bite",
+          "url": "https://wikem.org/wiki/Snake_bite"
+        }
+      ]
+    },
+    "Compartment_Syndrome_Indications": {
+      "text": "Consider whenever pain or paresthesia occurs in an extremity after:\nfracture\n(most common risk factor)\n- can occur with open fracture\ncrush injury\nimmobilization\nsnake bites\nburns\nprolonged\ntourniquet\napplication\nfluid extravasation into a limb\nsoft tissue infection\nextreme exertion\nImmediate threat is viability of nerve and muscle; later threat is infection,\ngangrene\n,\nrhabdomyolysis\n,\nrenal failure",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Tissue perfusion is difference between diastolic BP and compartment pressure\nAs compartment pressure increases, tissue perfusion decreases",
+          "tables": []
+        },
+        "Etiologies": {
+          "text": "Orthopedic\nTibial fracture\nForearm fracture\nVascular\nIschemic-reperfusion injury\nHemorrhage\nCan be spontaneous in anticoagulated patients\nIatrogenic\nVascular puncture in anticoagulated patients\nIV/intra-arterial drug injection\nConstrictive casts\nSoft tissue injury\nProlonged limb compression\nCrush injury\nBurn\nSnake bite\nExpanding hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "soft tissue infection",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        },
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Tibial fracture",
+          "url": "https://wikem.org/wiki/Tibial_fracture"
+        },
+        {
+          "text": "Forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Snake bite",
+          "url": "https://wikem.org/wiki/Snake_bite"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Tissue perfusion is difference between diastolic BP and compartment pressure\nAs compartment pressure increases, tissue perfusion decreases",
+      "subsections": {
+        "Etiologies": {
+          "text": "Orthopedic\nTibial fracture\nForearm fracture\nVascular\nIschemic-reperfusion injury\nHemorrhage\nCan be spontaneous in anticoagulated patients\nIatrogenic\nVascular puncture in anticoagulated patients\nIV/intra-arterial drug injection\nConstrictive casts\nSoft tissue injury\nProlonged limb compression\nCrush injury\nBurn\nSnake bite\nExpanding hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial fracture",
+          "url": "https://wikem.org/wiki/Tibial_fracture"
+        },
+        {
+          "text": "Forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Snake bite",
+          "url": "https://wikem.org/wiki/Snake_bite"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Orthopedic\nTibial fracture\nForearm fracture\nVascular\nIschemic-reperfusion injury\nHemorrhage\nCan be spontaneous in anticoagulated patients\nIatrogenic\nVascular puncture in anticoagulated patients\nIV/intra-arterial drug injection\nConstrictive casts\nSoft tissue injury\nProlonged limb compression\nCrush injury\nBurn\nSnake bite\nExpanding hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial fracture",
+          "url": "https://wikem.org/wiki/Tibial_fracture"
+        },
+        {
+          "text": "Forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Snake bite",
+          "url": "https://wikem.org/wiki/Snake_bite"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General_Symptoms": {
+          "text": "Compartment is swollen, firm, tender with squeezing\nUsually develops soon after significant trauma\nMay be delayed up to 48hr after the event",
+          "tables": []
+        },
+        "5_P's": {
+          "text": "Classic signs of disruption in arterial flow, not of compartment syndrome\nOnly found once arterial flow has stopped (very late finding)\nPain (early finding)\nSevere, out of proportion to physical findings\nWorse with passive stretch of distal body part such as toes or fingers (muscle extension > increased volume > increased pressure)\nOften the presenting symptom.\nParesthesia (early finding)\nOccurs in sensory distribution of affected nerve\nPallor\nParalysis: late finding\nPulselessness: late finding",
+          "tables": []
+        },
+        "Lower_Leg_Specific_Syndromes": {
+          "text": "Anterior\nNerve: deep fibular (peroneal): sensation of 1st webspace\nMuscle: tibialis anterior: foot/ankle dorsiflexion\nLateral\nNerve: superficial fibular (peroneal) nerve: sensation of lateral aspect of lower leg, dorsum of foot\nMuscle: peroneus longus and brevis: foot plantarflexion\nDeep posterior\nNerve: posterior tibial nerve: sensation of plantar aspect of foot\nMuscle: tibialis posterior/flexor hallucis longus/flexor digitorum longus: Pain with passive extension of the toes\nSuperficial posterior\nNerve: sural cutaneous nerve: sensation of lateral aspect of foot\nMuscle: gastrocnemius/soleus/plantaris: weakness of plantar flexion",
+          "tables": []
+        },
+        "Hand": {
+          "text": "Crush injury, with or with out associated fracture\nInvolved compartments: thenar, hypothenar, adductor pollicis, and 4 interossei muscles\nDiagnosis\nClinical, not based on actual compartment pressure\nPain\nDeep, constant, poorly localized, out of proportion to exam\n\"Intrinsic minus\" position at rest\nMCP joint extended with proximal IP joint slightly flexed\nPain with passive stretch of involved compartmental muscles\nInterosseus: performed with MCP joint extended and PIP jionts fully flexed\nThenar, hypothenar: performed by extension of MCP joint\nTense swelling of affected compartment",
+          "tables": []
+        },
+        "Forearm": {
+          "text": "Associated with supracondylar fracture (peds), distal radius fracture (adults)\nCompartments\nDorsal (highest risk)\nVolar",
+          "tables": []
+        },
+        "Foot": {
+          "text": "Number of compartments is controversial, but at least 4, up to 9\nMedial, lateral, central, interosseous, adductor\nMechanism - crush injuries\nOther mechanisms - foot surgery, Lisfranc fracture, cast immobilization, prolonged extremity positioning, snake bites, severe ankle sprains with arterial disruption\n[1]\n5-17% of calcaneus fractures result in compartment syndrome\nDiagnosis\nPain out of proprtion\nPain worse with passive dorsiflexion (stretching intrinsic musculature of foot); concurrent metatarsal fracture cloud this finding\nDo not rely on absent pulse or complete anesthesia, which are late findings\nMeasure absolute compartment pressures in\ninsertion sites found here\nTreatment\nElevate extremity to level of heart (above the heart, and there will be reduction of O2 perfusion)\nSCDs may help decrease interstitial pressure, improve venous return/arterial flow\nFasciotomy within 24 hrs of injury if pressures > 30 mmHg",
+          "tables": []
+        },
+        "Lumbar_Paraspinal": {
+          "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_Symptoms": {
+      "text": "Compartment is swollen, firm, tender with squeezing\nUsually develops soon after significant trauma\nMay be delayed up to 48hr after the event",
+      "subsections": {
+        "5_P's": {
+          "text": "Classic signs of disruption in arterial flow, not of compartment syndrome\nOnly found once arterial flow has stopped (very late finding)\nPain (early finding)\nSevere, out of proportion to physical findings\nWorse with passive stretch of distal body part such as toes or fingers (muscle extension > increased volume > increased pressure)\nOften the presenting symptom.\nParesthesia (early finding)\nOccurs in sensory distribution of affected nerve\nPallor\nParalysis: late finding\nPulselessness: late finding",
+          "tables": []
+        },
+        "Lower_Leg_Specific_Syndromes": {
+          "text": "Anterior\nNerve: deep fibular (peroneal): sensation of 1st webspace\nMuscle: tibialis anterior: foot/ankle dorsiflexion\nLateral\nNerve: superficial fibular (peroneal) nerve: sensation of lateral aspect of lower leg, dorsum of foot\nMuscle: peroneus longus and brevis: foot plantarflexion\nDeep posterior\nNerve: posterior tibial nerve: sensation of plantar aspect of foot\nMuscle: tibialis posterior/flexor hallucis longus/flexor digitorum longus: Pain with passive extension of the toes\nSuperficial posterior\nNerve: sural cutaneous nerve: sensation of lateral aspect of foot\nMuscle: gastrocnemius/soleus/plantaris: weakness of plantar flexion",
+          "tables": []
+        },
+        "Hand": {
+          "text": "Crush injury, with or with out associated fracture\nInvolved compartments: thenar, hypothenar, adductor pollicis, and 4 interossei muscles\nDiagnosis\nClinical, not based on actual compartment pressure\nPain\nDeep, constant, poorly localized, out of proportion to exam\n\"Intrinsic minus\" position at rest\nMCP joint extended with proximal IP joint slightly flexed\nPain with passive stretch of involved compartmental muscles\nInterosseus: performed with MCP joint extended and PIP jionts fully flexed\nThenar, hypothenar: performed by extension of MCP joint\nTense swelling of affected compartment",
+          "tables": []
+        },
+        "Forearm": {
+          "text": "Associated with supracondylar fracture (peds), distal radius fracture (adults)\nCompartments\nDorsal (highest risk)\nVolar",
+          "tables": []
+        },
+        "Foot": {
+          "text": "Number of compartments is controversial, but at least 4, up to 9\nMedial, lateral, central, interosseous, adductor\nMechanism - crush injuries\nOther mechanisms - foot surgery, Lisfranc fracture, cast immobilization, prolonged extremity positioning, snake bites, severe ankle sprains with arterial disruption\n[1]\n5-17% of calcaneus fractures result in compartment syndrome\nDiagnosis\nPain out of proprtion\nPain worse with passive dorsiflexion (stretching intrinsic musculature of foot); concurrent metatarsal fracture cloud this finding\nDo not rely on absent pulse or complete anesthesia, which are late findings\nMeasure absolute compartment pressures in\ninsertion sites found here\nTreatment\nElevate extremity to level of heart (above the heart, and there will be reduction of O2 perfusion)\nSCDs may help decrease interstitial pressure, improve venous return/arterial flow\nFasciotomy within 24 hrs of injury if pressures > 30 mmHg",
+          "tables": []
+        },
+        "Lumbar_Paraspinal": {
+          "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lower_Leg_Specific_Syndromes": {
+      "text": "Anterior\nNerve: deep fibular (peroneal): sensation of 1st webspace\nMuscle: tibialis anterior: foot/ankle dorsiflexion\nLateral\nNerve: superficial fibular (peroneal) nerve: sensation of lateral aspect of lower leg, dorsum of foot\nMuscle: peroneus longus and brevis: foot plantarflexion\nDeep posterior\nNerve: posterior tibial nerve: sensation of plantar aspect of foot\nMuscle: tibialis posterior/flexor hallucis longus/flexor digitorum longus: Pain with passive extension of the toes\nSuperficial posterior\nNerve: sural cutaneous nerve: sensation of lateral aspect of foot\nMuscle: gastrocnemius/soleus/plantaris: weakness of plantar flexion",
+      "subsections": {
+        "Hand": {
+          "text": "Crush injury, with or with out associated fracture\nInvolved compartments: thenar, hypothenar, adductor pollicis, and 4 interossei muscles\nDiagnosis\nClinical, not based on actual compartment pressure\nPain\nDeep, constant, poorly localized, out of proportion to exam\n\"Intrinsic minus\" position at rest\nMCP joint extended with proximal IP joint slightly flexed\nPain with passive stretch of involved compartmental muscles\nInterosseus: performed with MCP joint extended and PIP jionts fully flexed\nThenar, hypothenar: performed by extension of MCP joint\nTense swelling of affected compartment",
+          "tables": []
+        },
+        "Forearm": {
+          "text": "Associated with supracondylar fracture (peds), distal radius fracture (adults)\nCompartments\nDorsal (highest risk)\nVolar",
+          "tables": []
+        },
+        "Foot": {
+          "text": "Number of compartments is controversial, but at least 4, up to 9\nMedial, lateral, central, interosseous, adductor\nMechanism - crush injuries\nOther mechanisms - foot surgery, Lisfranc fracture, cast immobilization, prolonged extremity positioning, snake bites, severe ankle sprains with arterial disruption\n[1]\n5-17% of calcaneus fractures result in compartment syndrome\nDiagnosis\nPain out of proprtion\nPain worse with passive dorsiflexion (stretching intrinsic musculature of foot); concurrent metatarsal fracture cloud this finding\nDo not rely on absent pulse or complete anesthesia, which are late findings\nMeasure absolute compartment pressures in\ninsertion sites found here\nTreatment\nElevate extremity to level of heart (above the heart, and there will be reduction of O2 perfusion)\nSCDs may help decrease interstitial pressure, improve venous return/arterial flow\nFasciotomy within 24 hrs of injury if pressures > 30 mmHg",
+          "tables": []
+        },
+        "Lumbar_Paraspinal": {
+          "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand": {
+      "text": "Crush injury, with or with out associated fracture\nInvolved compartments: thenar, hypothenar, adductor pollicis, and 4 interossei muscles\nDiagnosis\nClinical, not based on actual compartment pressure\nPain\nDeep, constant, poorly localized, out of proportion to exam\n\"Intrinsic minus\" position at rest\nMCP joint extended with proximal IP joint slightly flexed\nPain with passive stretch of involved compartmental muscles\nInterosseus: performed with MCP joint extended and PIP jionts fully flexed\nThenar, hypothenar: performed by extension of MCP joint\nTense swelling of affected compartment",
+      "subsections": {
+        "Forearm": {
+          "text": "Associated with supracondylar fracture (peds), distal radius fracture (adults)\nCompartments\nDorsal (highest risk)\nVolar",
+          "tables": []
+        },
+        "Foot": {
+          "text": "Number of compartments is controversial, but at least 4, up to 9\nMedial, lateral, central, interosseous, adductor\nMechanism - crush injuries\nOther mechanisms - foot surgery, Lisfranc fracture, cast immobilization, prolonged extremity positioning, snake bites, severe ankle sprains with arterial disruption\n[1]\n5-17% of calcaneus fractures result in compartment syndrome\nDiagnosis\nPain out of proprtion\nPain worse with passive dorsiflexion (stretching intrinsic musculature of foot); concurrent metatarsal fracture cloud this finding\nDo not rely on absent pulse or complete anesthesia, which are late findings\nMeasure absolute compartment pressures in\ninsertion sites found here\nTreatment\nElevate extremity to level of heart (above the heart, and there will be reduction of O2 perfusion)\nSCDs may help decrease interstitial pressure, improve venous return/arterial flow\nFasciotomy within 24 hrs of injury if pressures > 30 mmHg",
+          "tables": []
+        },
+        "Lumbar_Paraspinal": {
+          "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Forearm": {
+      "text": "Associated with supracondylar fracture (peds), distal radius fracture (adults)\nCompartments\nDorsal (highest risk)\nVolar",
+      "subsections": {
+        "Foot": {
+          "text": "Number of compartments is controversial, but at least 4, up to 9\nMedial, lateral, central, interosseous, adductor\nMechanism - crush injuries\nOther mechanisms - foot surgery, Lisfranc fracture, cast immobilization, prolonged extremity positioning, snake bites, severe ankle sprains with arterial disruption\n[1]\n5-17% of calcaneus fractures result in compartment syndrome\nDiagnosis\nPain out of proprtion\nPain worse with passive dorsiflexion (stretching intrinsic musculature of foot); concurrent metatarsal fracture cloud this finding\nDo not rely on absent pulse or complete anesthesia, which are late findings\nMeasure absolute compartment pressures in\ninsertion sites found here\nTreatment\nElevate extremity to level of heart (above the heart, and there will be reduction of O2 perfusion)\nSCDs may help decrease interstitial pressure, improve venous return/arterial flow\nFasciotomy within 24 hrs of injury if pressures > 30 mmHg",
+          "tables": []
+        },
+        "Lumbar_Paraspinal": {
+          "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Foot": {
+      "text": "Number of compartments is controversial, but at least 4, up to 9\nMedial, lateral, central, interosseous, adductor\nMechanism - crush injuries\nOther mechanisms - foot surgery, Lisfranc fracture, cast immobilization, prolonged extremity positioning, snake bites, severe ankle sprains with arterial disruption\n[1]\n5-17% of calcaneus fractures result in compartment syndrome\nDiagnosis\nPain out of proprtion\nPain worse with passive dorsiflexion (stretching intrinsic musculature of foot); concurrent metatarsal fracture cloud this finding\nDo not rely on absent pulse or complete anesthesia, which are late findings\nMeasure absolute compartment pressures in\ninsertion sites found here\nTreatment\nElevate extremity to level of heart (above the heart, and there will be reduction of O2 perfusion)\nSCDs may help decrease interstitial pressure, improve venous return/arterial flow\nFasciotomy within 24 hrs of injury if pressures > 30 mmHg",
+      "subsections": {
+        "Lumbar_Paraspinal": {
+          "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lumbar_Paraspinal": {
+      "text": "Compartment enclosed on the lateral, dorsal and ventral aspects by thoracolumbar fascia and medial aspect by spinous processes and interspinous ligaments\nMechanisms\nDirect trauma\nAtraumatic mechanism (Heavy weight lifting)\nTypically males in their 20's and 30's\nRecent surgery causing compromised blood supply\nCharacteristics\nPain of the low back refractory to analgesia\nRadiation of pain to the groin\nTender and tense lumbar paraspinal muscles\nLoss of normal lumbar lordosis\nWorsening of pain with hip flexion\nConcurrent ileus in some cases\nDiagnosis\nElevated CK\nElevated compartment pressures\nImaging not required\nIf imaging is performed, MRI is the test of choice\nMRI will demonstrate enhancement of the paraspinal muscles on T2-weighted images\nCT is less helpful, but can exclude other causes of low-back pain such as fracture\nTreatment is with emergent fasciotomy and with fluid resuscitation for any concurrent rhabdomyolysis\n[2]",
+      "subsections": {
+        "Other": {
+          "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Other": {
+      "text": "Thigh (quadriceps compartment)\nButtock (gluteal compartment)\nArm (deltoid, biceps compartments)\nAbdominal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        },
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Calf_pain": {
+      "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "X-ray to evaluate for fracture\nCompartment pressure measurement\n(take serial measurements if needed)\nTotal CK (\nrhabdomyolysis\n)\nChemistry (\nhyperkalemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment pressure measurement",
+          "url": "https://wikem.org/wiki/Compartment_pressure_measurement"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "X-ray to evaluate for fracture\nCompartment pressure measurement\n(take serial measurements if needed)\nTotal CK (\nrhabdomyolysis\n)\nChemistry (\nhyperkalemia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment pressure measurement",
+          "url": "https://wikem.org/wiki/Compartment_pressure_measurement"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Interpretation_of_Compartment_Pressure": {
+      "text": "Normal is <10 mm Hg\nPressures <20 mmHg can be tolerated w/o significant damage\nExact level of pressure elevation that causes cell death is unclear.  It was previously thought pressure >30 mmHg was toxic although the \"delta pressure\" may be better predictor than absolute pressure\nΔPressure = [Diastolic Pressure] – [Compartment Pressure]\n[3]\nΔPressure < 30 mm Hg  is suggestive of compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fasciotomy\nPerform as soon as diagnosis is made by history/physical or by measurement\nPermanent damage results from >8hr of ischemia\nRefer here for technique:\nhttp://www.wheelessonline.com/ortho/12806\nSupport blood pressure in hypotensive patient\nPlace affected limb at the level of the heart or slightly dependent\nAVOID ice (will further compromise microcirculation)\nBivalve or remove cast if present\nAdequate analgesia\nManagement for associated\nrhabdomyolysis\nif present",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Compartment Pressure Measurement\nBurns\nRhabdomyolysis\nFractures (Main)\nAbdominal compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment Pressure Measurement",
+          "url": "https://wikem.org/wiki/Compartment_Pressure_Measurement"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        }
+      ]
+    }
+  }
+}

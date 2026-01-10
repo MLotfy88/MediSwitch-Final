@@ -1,0 +1,70 @@
+{
+  "drug_name": "Conducted_energy_device_dart_removal",
+  "url": "https://wikem.org/wiki/Conducted_energy_device_dart_removal",
+  "scraped_at": "2026-01-10T07:50:54.996883",
+  "sections": {
+    "Overview": {
+      "text": "Conducted Energy Devices\n(e.g. Tasers) are used by law enforcement to help secure and control individuals\nConducted Energy Devices can:\nTemporarily incapacitate a person\nCause serious injury and rarely death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conducted Energy Devices",
+          "url": "https://wikem.org/wiki/Taser"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "History of Conducted Energy Device (CED) deployment with CED probe dart remaining in patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Specialist consultation may be required if dart is embedded in face, neck, groin, or eye",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Trauma shears\nGloves\nSterile dressing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Ensure CED is longer applying electrical charge prior to contact with patient, darts, or wires\nUse trauma shears to cut wire at base of each dart cylinder to disconnect the dart(s) from the CED\nMay cut at longer length and wrap around hand for greater grip\nWhile wearing gloves grasp the cylinder of the dart between thumb and index finger of one hand while stabilizing penetration location by holding skin taut with other hand\nRemove dart with a quick, firm pull directed perpendicular to skin surface\nDispose of dart in sharps container as would for any contaminated sharp unless law enforcement requests them as evidence then place in puncture proof specimen cup\nRepeat for each embedded dart in patient\nCleanse wound and surrounding skin with saline or alcohol\nCover small puncture wound with sterile dressing\nUpdate\ntetanus vaccination\nstatus of individual -- if not current administer tetanus shot within 72 hours of removal\nGive wound care instructions to include that patient should seek medical attention if any signs of infection such as fever, increased pain, redness, warmth, swelling, or purulent discharge develops around one or more of the wounds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetanus vaccination",
+          "url": "https://wikem.org/wiki/Tetanus_vaccination"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Immediate - none\nDelayed - wound infection, tetanus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation_Requirements": {
+      "text": "Patient's presenting signs/symptoms, vital signs, and level of consciousness\nIndications for removal\nTime of removal\nLocation of dart(s) embedment\nFindings/results of dart removal\nRepeat assessment including vital signs, level of consciousness after removal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conducted Energy Device",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conducted Energy Device",
+          "url": "https://wikem.org/wiki/Conducted_Energy_Device"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "drug_name": "Condylar_fracture",
+  "url": "https://wikem.org/wiki/Condylar_fracture",
+  "scraped_at": "2026-01-10T07:50:58.939830",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Humerus_Fracture_Types": {
+          "text": "Adult\nProximal\nShaft\nDistal\nCapitellum\nTrochlea\nCondylar\nPediatric\nProximal\nShaft\nDistal\nSupracondylar\nLateral epicondyle\nMedial epicondyle",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture"
+        },
+        {
+          "text": "Capitellum",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Trochlea",
+          "url": "https://wikem.org/wiki/Trochlea_fracture"
+        },
+        {
+          "text": "Pediatric",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture_(peds)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture_(peds)"
+        },
+        {
+          "text": "Supracondylar",
+          "url": "https://wikem.org/wiki/Supracondylar_Fracture"
+        },
+        {
+          "text": "Lateral epicondyle",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        }
+      ]
+    },
+    "Humerus_Fracture_Types": {
+      "text": "Adult\nProximal\nShaft\nDistal\nCapitellum\nTrochlea\nCondylar\nPediatric\nProximal\nShaft\nDistal\nSupracondylar\nLateral epicondyle\nMedial epicondyle",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture"
+        },
+        {
+          "text": "Capitellum",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Trochlea",
+          "url": "https://wikem.org/wiki/Trochlea_fracture"
+        },
+        {
+          "text": "Pediatric",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture_(peds)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture_(peds)"
+        },
+        {
+          "text": "Supracondylar",
+          "url": "https://wikem.org/wiki/Supracondylar_Fracture"
+        },
+        {
+          "text": "Lateral epicondyle",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Radiograph-Positive": {
+          "text": "Distal humerus fracture\nRadial head fracture\nEssex-Lopresti fracture\nCapitellum fracture\nOlecranon fracture\nElbow dislocation",
+          "tables": []
+        },
+        "Radiograph-Negative": {
+          "text": "Biceps tendon rupture\n/dislocation\nLateral epicondylitis\nMedial epicondylitis\nOlecranon bursitis (nonseptic)\nPronator teres syndrome\nSeptic bursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Nursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture\nMedial epicondyle fracture\nOlecranon fracture\nRadial head fracture\nSalter-Harris fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Essex-Lopresti fracture",
+          "url": "https://wikem.org/wiki/Essex-Lopresti_fracture"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        }
+      ]
+    },
+    "Elbow_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "Radiograph-Positive": {
+          "text": "Distal humerus fracture\nRadial head fracture\nEssex-Lopresti fracture\nCapitellum fracture\nOlecranon fracture\nElbow dislocation",
+          "tables": []
+        },
+        "Radiograph-Negative": {
+          "text": "Biceps tendon rupture\n/dislocation\nLateral epicondylitis\nMedial epicondylitis\nOlecranon bursitis (nonseptic)\nPronator teres syndrome\nSeptic bursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Nursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture\nMedial epicondyle fracture\nOlecranon fracture\nRadial head fracture\nSalter-Harris fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Essex-Lopresti fracture",
+          "url": "https://wikem.org/wiki/Essex-Lopresti_fracture"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Humerus fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        }
+      ]
+    }
+  }
+}

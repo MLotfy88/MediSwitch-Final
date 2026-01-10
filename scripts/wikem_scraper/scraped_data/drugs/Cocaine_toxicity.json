@@ -1,0 +1,762 @@
+{
+  "drug_name": "Cocaine_toxicity",
+  "url": "https://wikem.org/wiki/Cocaine_toxicity",
+  "scraped_at": "2026-01-10T07:50:49.632447",
+  "sections": {
+    "Background": {
+      "text": "Works via blockade of presynaptic reuptake of norepinephrine, dopamine, and serotonin\nA\nsympathomimetic\nstimulant derived from an alkaloid paste made from the leaves of the coca plant\nBoth a legitimate medical drug and a drug of abuse",
+      "subsections": {
+        "Forms_of_Abuse": {
+          "text": "Cocaine can be smoked, snorted, injected or ingested\nSmoked form is often in a free-base or crack form",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        }
+      ]
+    },
+    "Forms_of_Abuse": {
+      "text": "Cocaine can be smoked, snorted, injected or ingested\nSmoked form is often in a free-base or crack form",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sympathomimetic toxidrome:\nTachycardia, diaphoresis, mydriasis, hypertension, hyperthermia, agitation\nCocaine-associated chest pain\n\"\nCrack lung\n\"\n\"Crack dancing\" (choreoathetoid movement disorder)\nMay be associated with end organ damage:\nDysrhythmias\nAortic dissection\nPulmonary edema\nMI\nEncephalopathy\nICH\nCVA\nIntestinal ischemia\nRenal failure (\nrhabdomyolysis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Crack lung",
+          "url": "https://wikem.org/wiki/Crack_lung"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        },
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Sympathomimetics": {
+      "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+      "subsections": {
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Drugs_of_abuse": {
+      "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Glucose\nChemistry\nECG\nTroponin\nTotal CK\nLFT\nCoags\nConsider CT/LP if concern for ICH\nConsider lactate/CTA if concern for bowel ischemia",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Generally clinical and historical diagnosis\nSee\nToxidromes\nUrine toxicology screen\nis rarely helpful\nCan be potentially positive up to 72hr post-ingestion\nOften negative in acute ingestion\nECG\nMay show QRS,\nQT prolongation",
+          "tables": []
+        },
+        "Detection": {
+          "text": "Unreliable in very acute intoxication\n[1]\nQualitative urine detection of cocaine metabolite benzoylecgonine at cut-off of 300 ng/ml\nOn average, shows up in urine 24-48 hrs after use\nUp to 22 days in chronic users",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Glucose\nChemistry\nECG\nTroponin\nTotal CK\nLFT\nCoags\nConsider CT/LP if concern for ICH\nConsider lactate/CTA if concern for bowel ischemia",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Generally clinical and historical diagnosis\nSee\nToxidromes\nUrine toxicology screen\nis rarely helpful\nCan be potentially positive up to 72hr post-ingestion\nOften negative in acute ingestion\nECG\nMay show QRS,\nQT prolongation",
+          "tables": []
+        },
+        "Detection": {
+          "text": "Unreliable in very acute intoxication\n[1]\nQualitative urine detection of cocaine metabolite benzoylecgonine at cut-off of 300 ng/ml\nOn average, shows up in urine 24-48 hrs after use\nUp to 22 days in chronic users",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Generally clinical and historical diagnosis\nSee\nToxidromes\nUrine toxicology screen\nis rarely helpful\nCan be potentially positive up to 72hr post-ingestion\nOften negative in acute ingestion\nECG\nMay show QRS,\nQT prolongation",
+      "subsections": {
+        "Detection": {
+          "text": "Unreliable in very acute intoxication\n[1]\nQualitative urine detection of cocaine metabolite benzoylecgonine at cut-off of 300 ng/ml\nOn average, shows up in urine 24-48 hrs after use\nUp to 22 days in chronic users",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Detection": {
+      "text": "Unreliable in very acute intoxication\n[1]\nQualitative urine detection of cocaine metabolite benzoylecgonine at cut-off of 300 ng/ml\nOn average, shows up in urine 24-48 hrs after use\nUp to 22 days in chronic users",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Sedation\n[2]\nDiazepam\n5-10mg IV OR lorazepam 2mg IV q5min PRN agitation\nAvoid\nhaldol\nif patient has abnormal vital signs (lowers seizure threshold, contributes to dysrhythmias, hyperthermia)\nCooling (if needed)\nAspirin\nHypertensive emergency\nBenzos\nPhentolamine 2.5-5mg IV (direct α-adrenergic antagonist, anti-hypertensive of choice)\n[3]\nOR nitroprusside 0.3mcg/kg/min\nBeta-blockers\ncontraindicated\nMay cause paradoxical hypertension\nIV crystalloid replacement (most patients have salt and water depletion)",
+      "subsections": {
+        "Dysrhythmias": {
+          "text": "Tachycardias usually respond to\nbenzodiazepines\nWide complex tachycardia (deviation from ACLS)\nTreat with bicarbonate 1-2 mEq/kg IV bolus; titrate to pH 7.45-7.55\nCocaine has sodium-channel blockade effect (similar to\nTCA\ntoxicity)\nConsider lidocaine IV if refractory to NaHCO3 (controversial)",
+          "tables": []
+        },
+        "STEMI": {
+          "text": "Cardiac cath is safest option; consult (if possible) before using thrombolytics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "haldol",
+          "url": "https://wikem.org/wiki/Haldol"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        }
+      ]
+    },
+    "Dysrhythmias": {
+      "text": "Tachycardias usually respond to\nbenzodiazepines\nWide complex tachycardia (deviation from ACLS)\nTreat with bicarbonate 1-2 mEq/kg IV bolus; titrate to pH 7.45-7.55\nCocaine has sodium-channel blockade effect (similar to\nTCA\ntoxicity)\nConsider lidocaine IV if refractory to NaHCO3 (controversial)",
+      "subsections": {
+        "STEMI": {
+          "text": "Cardiac cath is safest option; consult (if possible) before using thrombolytics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        }
+      ]
+    },
+    "STEMI": {
+      "text": "Cardiac cath is safest option; consult (if possible) before using thrombolytics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patients who do not develop complications may be discharged to home\nPatients demonstrating end organ dysfunction (e.g. CHF) should be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Cocaine-associated chest pain\nLevamisole toxicity\n(rash, neutropenia, vasculitis)\nUp to 70% of US cocaine contaminated\nAcute pulmonary toxicity from crack cocaine\n(Crack lung)\nBody packing\nMultiple packets of cocaine inserted in latex bags, ingested to cross borders\nEach packet potentially toxic dose of cocaine (death likely if bag bursts)\nConsider whole bowel irrigation, via NGT at 2L per hour\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated for any evidence of cocaine toxicity\nDo not discharge until all packets removed or 3 packet-free stools\nDo not use oil based laxatives, they reduce the tensile strength of packets\nBody stuffing\nIngestion of illicit drugs while pursued by law enforcement; usually small quantity\nConsider\nactivated charcoal\n, 1g/kg (up to 50g) PO q4hours for several doses\nConsider whole bowel irrigation if develop toxicity\nConsider discharge if do not develop toxicity after 4hr obs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Acute pulmonary toxicity from crack cocaine",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_toxicity_from_crack_cocaine"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Body stuffing",
+          "url": "https://wikem.org/wiki/Body_stuffing"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Cocaine-associated chest pain\nSympathomimetic qualities\nTachycardia\nFever\nAgitation\nDiaphoresis\nPulmonary Complications:\n\"\nCrack lung\n\"\n[4]\nDiffuse alveolar hemorrhage\n[5]\nARDS\nAcute eosinophilic pneumonia\nPneumothorax\nPneumomediastinum\nThermal epiglottitis - hot cocaine\nOther Complications\nRhabdomyolysis\nAngle closure glaucoma",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Atherosclerosis\nCardiomyopathy\nNasal Septum damage\nUp to 70% of US cocaine tainted with\nlevamisole\n, potentially leading to\nneutropenia\n,\nvasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Crack lung",
+          "url": "https://wikem.org/wiki/Crack_lung"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Angle closure glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "levamisole",
+          "url": "https://wikem.org/wiki/Levamisole"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Cocaine-associated chest pain\nSympathomimetic qualities\nTachycardia\nFever\nAgitation\nDiaphoresis\nPulmonary Complications:\n\"\nCrack lung\n\"\n[4]\nDiffuse alveolar hemorrhage\n[5]\nARDS\nAcute eosinophilic pneumonia\nPneumothorax\nPneumomediastinum\nThermal epiglottitis - hot cocaine\nOther Complications\nRhabdomyolysis\nAngle closure glaucoma",
+      "subsections": {
+        "Chronic": {
+          "text": "Atherosclerosis\nCardiomyopathy\nNasal Septum damage\nUp to 70% of US cocaine tainted with\nlevamisole\n, potentially leading to\nneutropenia\n,\nvasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Crack lung",
+          "url": "https://wikem.org/wiki/Crack_lung"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Angle closure glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "levamisole",
+          "url": "https://wikem.org/wiki/Levamisole"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Atherosclerosis\nCardiomyopathy\nNasal Septum damage\nUp to 70% of US cocaine tainted with\nlevamisole\n, potentially leading to\nneutropenia\n,\nvasculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "levamisole",
+          "url": "https://wikem.org/wiki/Levamisole"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nCocaine-associated chest pain\nAcute pulmonary toxicity from crack cocaine\nCocaine Withdrawal\nCocaine\nLevamisole toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Acute pulmonary toxicity from crack cocaine",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_toxicity_from_crack_cocaine"
+        },
+        {
+          "text": "Cocaine Withdrawal",
+          "url": "https://wikem.org/wiki/Cocaine_Withdrawal"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        }
+      ]
+    }
+  }
+}

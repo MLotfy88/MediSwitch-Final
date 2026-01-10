@@ -1,0 +1,134 @@
+{
+  "drug_name": "Conducted_energy_device",
+  "url": "https://wikem.org/wiki/Conducted_energy_device",
+  "scraped_at": "2026-01-10T07:50:57.706399",
+  "sections": {
+    "Background": {
+      "text": "Conducted Energy Device, Conducted Energy Weapon, Electronic Control Device, Electrical Control Device, and Electronic Control Weapon all refer to same thing\nCommonly referred to as Tasers by lay public\nPurpose of a Conducted Energy Device (CED) is to provide law enforcement officers with broader choices on use of force spectrum\nUsed to control combative individuals\n99.75% of time no significant injury as result of using device per Department of Justice (DOJ) study\n[1]",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Either through direct contact or with fired probes, which penetrate up to 1/2 inch into body a\ncurrent\nis delivered which causes neuromuscular interference resulting in temporary\nparalysis\nfor seconds which often results in uncontrolled fall.\nElectrical current captures skeletal muscle and tends to stay on outside of muscle\nImmediate relief occurs after application of energy ceases.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "current",
+          "url": "https://wikem.org/wiki/Electric_shock"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Either through direct contact or with fired probes, which penetrate up to 1/2 inch into body a\ncurrent\nis delivered which causes neuromuscular interference resulting in temporary\nparalysis\nfor seconds which often results in uncontrolled fall.\nElectrical current captures skeletal muscle and tends to stay on outside of muscle\nImmediate relief occurs after application of energy ceases.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "current",
+          "url": "https://wikem.org/wiki/Electric_shock"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Consider underlying reason why CEDs was used i.e. medical crisis, serious physiological distress,\ndrug\n/\nalcohol intoxication\n,\naltered mental status\n, combative individual\nPain\nsecondary to induced forceful muscle contracture\nPuncture\nwound and often minor\nburn\nfrom barbs\n+/- signs/symptoms of\ntrauma\nfrom uncontrolled fall\nNo clinically relevant changes in ventilation, acid-base status, electrolyte concentrations, troponin I level or EKG noted\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "drug",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Puncture",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Altered mental status\nExcited delirium\nSubstance abuse\nDrug or\nalcohol intoxication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Substance abuse",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Routine history and physical examination\nConsider history of cardiac disease\nConsider history of pacemaker/defibrillator\nConsider drug or alcohol intoxication, psychiatric disturbance, altered mental status\nLook for direct injury from barb and indirect injury from fall\nNo need for routine performance of labs, EKGs, or prolonged observation after CED exposure in otherwise awake and alert patient\nMore extensive testing and evaluation may be appropriate in individual cases based on history and physical examination i.e. EKG if chest pain, palpitations, or cardiac history",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Barb removal\nthen wound care for small puncture wound and minor burn at barb site",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Barb removal",
+          "url": "https://wikem.org/wiki/Conducted_energy_device_dart_removal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most healthy individuals may be discharged (often to the custody of law enforcement) after barb removal\nAppropriate medical intervention/consultation if barb in vulnerable area such as mouth, eyes, neck, groin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conducted energy device dart removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conducted energy device dart removal",
+          "url": "https://wikem.org/wiki/Conducted_energy_device_dart_removal"
+        }
+      ]
+    }
+  }
+}

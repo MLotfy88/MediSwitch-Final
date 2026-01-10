@@ -1,0 +1,200 @@
+{
+  "drug_name": "Coccidioidomycosis",
+  "url": "https://wikem.org/wiki/Coccidioidomycosis",
+  "scraped_at": "2026-01-10T07:50:47.306683",
+  "sections": {
+    "Background": {
+      "text": "Fungal infection caused by\nCoccidioides immitis\nand\nC. posadasii\nOrganisms found in soil in arid climates of southwestern US and nearby areas\nTransmitted by inhalation of airborne spores\nAlso known as Valley Fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Often asymptomatic\nMost commonly affects lungs\nMild ILI 1-4 weeks after exposure\nFever\nSore throat\nCough\nHeadache\nFatigue\nPleuritic chest pain\nMore severe presentation\nFever\nArthralgias\nErythema nodosum\nor\nerythema multiforme\nChest pain\nRarely, respiratory failure\nDisseminated disease, more common in immunosuppressed\nDramatic sweats\nDyspnea at rest\nFever\nWeight loss\n50% develop\nmeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgias"
+        },
+        {
+          "text": "Erythema nodosum",
+          "url": "https://wikem.org/wiki/Erythema_nodosum"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Acute respiratory distress syndrome\nBlastomycosis\nEnteropathic arthropathies\nEosinophilic pneumonia\nHistoplasmosis\nLung abscess\nLung cancer\nLymphoma\nMyelophthisic anemia\nOld granuloma\nParacoccidioidomycosis\nPericarditis\n(acute or chronic)\nPneumocystis jirovecii pneumonia\nSarcoidosis\nSolitary pulmonary nodule\nTB",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Paracoccidioidomycosis",
+          "url": "https://wikem.org/wiki/Paracoccidioidomycosis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Basic workup\nTypically normal WBC count or mild lymphocytosis, monocytosis, and/or\neosinophilia\n(>5%)\nElevated ESR\nCXR\nLP\nif suspect\nmeningitis\nSpecial testing\nImmunoglobulin testing\nCulture\nPCR testing\nSkin testing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Basic workup\nTypically normal WBC count or mild lymphocytosis, monocytosis, and/or\neosinophilia\n(>5%)\nElevated ESR\nCXR\nLP\nif suspect\nmeningitis\nSpecial testing\nImmunoglobulin testing\nCulture\nPCR testing\nSkin testing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Often self-limited mild disease not requiring treatment\nAzoles\nfirst line\nTreatment options\nItraconazole\n- 200mg 2-3 times/day orally\nFluconazole\n- 400-800mg/day orally or IV\nKetoconazole\n- 400mg/day orally\nAmphotericin B\ndeoxycholate - 0.5-1.5mg/kg/day IV\nLipid formulations of\namphotericin B\n- 2-5mg/kg/day IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fungal infections\nAntifungals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    }
+  }
+}

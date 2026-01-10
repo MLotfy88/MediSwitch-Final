@@ -1,0 +1,465 @@
+{
+  "drug_name": "Complex_regional_pain_syndrome",
+  "url": "https://wikem.org/wiki/Complex_regional_pain_syndrome",
+  "scraped_at": "2026-01-10T07:50:55.640658",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Abbreviation": {
+          "text": "CRPS",
+          "tables": []
+        },
+        "Other_Names": {
+          "text": "Reflex sympathetic dystrophy (RSD)\nCausalgia\nReflex neurovascular dystrophy (RND)\nAmplified musculoskeletal pain syndrome (AMPS)",
+          "tables": []
+        },
+        "Definition": {
+          "text": "Disorder of the extremities characterized by regional pain that is disproportionate in time or degree to the usual course of any known trauma or other lesion\nPain is not in a specific nerve territory or dermatome\nPain usually has a distal predominance of abnormal sensory, motor, sudomotor, vasomotor, and/or trophic findings\nCRPS often worsens over time\n35% of patients report symptoms throughout their whole body.\n[1]",
+          "tables": []
+        },
+        "Sub-Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type I": "Type II",
+                "NO evidence of peripheral nerve injury (edema, erythema, numbness), 90% of clinical presentations": "YES evidence of peripheral nerve injury, considered more serve type"
+              }
+            ]
+          ]
+        },
+        "Causes": {
+          "text": "Generally unknown\nInciting event\nFound in about 90% of cases - usually begin 4-6wks after fractures, crush injuries, sprains, and surgery.\n[2]\nProposed mechanisms\nClassic inflammation, neurogenic inflammation, and maladaptive changes in pain perception at the level of the central nervous system",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abbreviation": {
+      "text": "CRPS",
+      "subsections": {
+        "Other_Names": {
+          "text": "Reflex sympathetic dystrophy (RSD)\nCausalgia\nReflex neurovascular dystrophy (RND)\nAmplified musculoskeletal pain syndrome (AMPS)",
+          "tables": []
+        },
+        "Definition": {
+          "text": "Disorder of the extremities characterized by regional pain that is disproportionate in time or degree to the usual course of any known trauma or other lesion\nPain is not in a specific nerve territory or dermatome\nPain usually has a distal predominance of abnormal sensory, motor, sudomotor, vasomotor, and/or trophic findings\nCRPS often worsens over time\n35% of patients report symptoms throughout their whole body.\n[1]",
+          "tables": []
+        },
+        "Sub-Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type I": "Type II",
+                "NO evidence of peripheral nerve injury (edema, erythema, numbness), 90% of clinical presentations": "YES evidence of peripheral nerve injury, considered more serve type"
+              }
+            ]
+          ]
+        },
+        "Causes": {
+          "text": "Generally unknown\nInciting event\nFound in about 90% of cases - usually begin 4-6wks after fractures, crush injuries, sprains, and surgery.\n[2]\nProposed mechanisms\nClassic inflammation, neurogenic inflammation, and maladaptive changes in pain perception at the level of the central nervous system",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Other_Names": {
+      "text": "Reflex sympathetic dystrophy (RSD)\nCausalgia\nReflex neurovascular dystrophy (RND)\nAmplified musculoskeletal pain syndrome (AMPS)",
+      "subsections": {
+        "Definition": {
+          "text": "Disorder of the extremities characterized by regional pain that is disproportionate in time or degree to the usual course of any known trauma or other lesion\nPain is not in a specific nerve territory or dermatome\nPain usually has a distal predominance of abnormal sensory, motor, sudomotor, vasomotor, and/or trophic findings\nCRPS often worsens over time\n35% of patients report symptoms throughout their whole body.\n[1]",
+          "tables": []
+        },
+        "Sub-Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type I": "Type II",
+                "NO evidence of peripheral nerve injury (edema, erythema, numbness), 90% of clinical presentations": "YES evidence of peripheral nerve injury, considered more serve type"
+              }
+            ]
+          ]
+        },
+        "Causes": {
+          "text": "Generally unknown\nInciting event\nFound in about 90% of cases - usually begin 4-6wks after fractures, crush injuries, sprains, and surgery.\n[2]\nProposed mechanisms\nClassic inflammation, neurogenic inflammation, and maladaptive changes in pain perception at the level of the central nervous system",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definition": {
+      "text": "Disorder of the extremities characterized by regional pain that is disproportionate in time or degree to the usual course of any known trauma or other lesion\nPain is not in a specific nerve territory or dermatome\nPain usually has a distal predominance of abnormal sensory, motor, sudomotor, vasomotor, and/or trophic findings\nCRPS often worsens over time\n35% of patients report symptoms throughout their whole body.\n[1]",
+      "subsections": {
+        "Sub-Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type I": "Type II",
+                "NO evidence of peripheral nerve injury (edema, erythema, numbness), 90% of clinical presentations": "YES evidence of peripheral nerve injury, considered more serve type"
+              }
+            ]
+          ]
+        },
+        "Causes": {
+          "text": "Generally unknown\nInciting event\nFound in about 90% of cases - usually begin 4-6wks after fractures, crush injuries, sprains, and surgery.\n[2]\nProposed mechanisms\nClassic inflammation, neurogenic inflammation, and maladaptive changes in pain perception at the level of the central nervous system",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sub-Types": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "Generally unknown\nInciting event\nFound in about 90% of cases - usually begin 4-6wks after fractures, crush injuries, sprains, and surgery.\n[2]\nProposed mechanisms\nClassic inflammation, neurogenic inflammation, and maladaptive changes in pain perception at the level of the central nervous system",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Type I": "Type II",
+            "NO evidence of peripheral nerve injury (edema, erythema, numbness), 90% of clinical presentations": "YES evidence of peripheral nerve injury, considered more serve type"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Causes": {
+      "text": "Generally unknown\nInciting event\nFound in about 90% of cases - usually begin 4-6wks after fractures, crush injuries, sprains, and surgery.\n[2]\nProposed mechanisms\nClassic inflammation, neurogenic inflammation, and maladaptive changes in pain perception at the level of the central nervous system",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Pain": "Sensory",
+            "burning, stinging, or tearing sensation that is felt deep inside the limb, usually continuous but can be paroxysmal.[4]": "hyperalgesia, allodynia, or hypesthesia"
+          },
+          {
+            "Pain": "Motor",
+            "burning, stinging, or tearing sensation that is felt deep inside the limb, usually continuous but can be paroxysmal.[4]": "weakness, occasional tremor, myoclonus, or dystonic postures"
+          },
+          {
+            "Pain": "Skin",
+            "burning, stinging, or tearing sensation that is felt deep inside the limb, usually continuous but can be paroxysmal.[4]": "warmth, skin color changes, sweating, or edema, other skin/hair/nail changes"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Cellulitis\nDVT\nInfection\nCompartment syndrome\nPeripheral vascular disease\nPeripheral neuropathy\nThoracic outlet syndrome\nRheumatoid arthritis\nChronic inflammatory autoimmune disease\nRaynaud phenomenon\nErythromelalgia\nConversion disorder\nFactitious disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Peripheral vascular disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Raynaud phenomenon",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Factitious disorder",
+          "url": "https://wikem.org/wiki/Factitious_disorder"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Clinical:_Budapest_consensus_criteria:": {
+          "text": "At least 1 symptom in three of the following four categories:\nAnd, there is no other diagnosis that better explains the signs and symptoms",
+          "tables": [
+            [
+              {
+                "Sensory": "Vasomotor",
+                "allodynia, hyperalgesia": "temperature asymmetry, skin color changes, skin color asymmetry"
+              },
+              {
+                "Sensory": "Sudomotor",
+                "allodynia, hyperalgesia": "edema, sweating"
+              },
+              {
+                "Sensory": "Motor/trophic",
+                "allodynia, hyperalgesia": "decreased ROM, weakness, tremor, dystonia, trophic changes (hair, nail, skin)"
+              }
+            ]
+          ]
+        },
+        "Rule-Out_Emergent_Etiologies": {
+          "text": "XR\nCBC\nUltrasound",
+          "tables": []
+        },
+        "Other_Imaging": {
+          "text": "CT/MRI/XR are all NOT diagnostic for CRPS\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Clinical:_Budapest_consensus_criteria:": {
+      "text": "At least 1 symptom in three of the following four categories:\nAnd, there is no other diagnosis that better explains the signs and symptoms",
+      "subsections": {
+        "Rule-Out_Emergent_Etiologies": {
+          "text": "XR\nCBC\nUltrasound",
+          "tables": []
+        },
+        "Other_Imaging": {
+          "text": "CT/MRI/XR are all NOT diagnostic for CRPS\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Sensory": "Vasomotor",
+            "allodynia, hyperalgesia": "temperature asymmetry, skin color changes, skin color asymmetry"
+          },
+          {
+            "Sensory": "Sudomotor",
+            "allodynia, hyperalgesia": "edema, sweating"
+          },
+          {
+            "Sensory": "Motor/trophic",
+            "allodynia, hyperalgesia": "decreased ROM, weakness, tremor, dystonia, trophic changes (hair, nail, skin)"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Rule-Out_Emergent_Etiologies": {
+      "text": "XR\nCBC\nUltrasound",
+      "subsections": {
+        "Other_Imaging": {
+          "text": "CT/MRI/XR are all NOT diagnostic for CRPS\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Other_Imaging": {
+      "text": "CT/MRI/XR are all NOT diagnostic for CRPS\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Ketamine_for_Flare-Ups": {
+          "text": "Initial bolus - 0.2–0.3 mg/kg of infused over 10mins.\n[3]\nAvoid IV push - could cause dissociative side effects.\nDiagnostic- pain should resolve by the end of the 10min bolus and if so, continue\nInfusion - 0.2 mg/kg/hr over 4-6hrs.",
+          "tables": []
+        },
+        "No_discharge_prescription_usually_required._If_needed:": {
+          "text": "Ibuprofen\n- 400-800 mg TID or\nnaproxen\n250-500 mg BID\n[5]\nAmitriptyline\nor\nnortriptyline\n- 10-25 mg at bedtime as initial dose for both\n[4]\nGabapentin\n- 100 mg-300 mg at bed time\nTopical\nlidocaine\ncream - 2-5% or topical\ncapsaicin\ncream 0.075%\nOpioids\nshould NOT be used for chronic or acute CRPS. Patient education on this is important.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Ketamine_for_Flare-Ups": {
+      "text": "Initial bolus - 0.2–0.3 mg/kg of infused over 10mins.\n[3]\nAvoid IV push - could cause dissociative side effects.\nDiagnostic- pain should resolve by the end of the 10min bolus and if so, continue\nInfusion - 0.2 mg/kg/hr over 4-6hrs.",
+      "subsections": {
+        "No_discharge_prescription_usually_required._If_needed:": {
+          "text": "Ibuprofen\n- 400-800 mg TID or\nnaproxen\n250-500 mg BID\n[5]\nAmitriptyline\nor\nnortriptyline\n- 10-25 mg at bedtime as initial dose for both\n[4]\nGabapentin\n- 100 mg-300 mg at bed time\nTopical\nlidocaine\ncream - 2-5% or topical\ncapsaicin\ncream 0.075%\nOpioids\nshould NOT be used for chronic or acute CRPS. Patient education on this is important.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "No_discharge_prescription_usually_required._If_needed:": {
+      "text": "Ibuprofen\n- 400-800 mg TID or\nnaproxen\n250-500 mg BID\n[5]\nAmitriptyline\nor\nnortriptyline\n- 10-25 mg at bedtime as initial dose for both\n[4]\nGabapentin\n- 100 mg-300 mg at bed time\nTopical\nlidocaine\ncream - 2-5% or topical\ncapsaicin\ncream 0.075%\nOpioids\nshould NOT be used for chronic or acute CRPS. Patient education on this is important.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient follow-up with pain management\nReferral for PT/OT - important for all CRPS patients\nConsider psychiatric referral if warranted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute pain management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP - Tips for Managing CRPS\nNIH - Validation of Budapest Criteria for CRPS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

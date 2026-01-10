@@ -1,0 +1,74 @@
+{
+  "drug_name": "Cocaine_withdrawal",
+  "url": "https://wikem.org/wiki/Cocaine_withdrawal",
+  "scraped_at": "2026-01-10T07:50:48.382752",
+  "sections": {
+    "Background": {
+      "text": "Uncomfortable, but not life-threatening",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Irritability\nParanoid ideation\nDepression\n/ anhedonia\nAnxiety\nFatigue\nDifficulty concentrating\nIncreased appetite\nIncreased sleep and increased dreaming (due to increased REM sleep)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care is mainstay of treatment\nBenzodiazepines\nfor symptom management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cocaine toxicity\nCocaine-associated chest pain\nCocaine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine toxicity",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        }
+      ]
+    }
+  }
+}

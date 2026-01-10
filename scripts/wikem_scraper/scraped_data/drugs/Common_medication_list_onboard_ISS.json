@@ -1,0 +1,4026 @@
+{
+  "drug_name": "Common_medication_list_onboard_ISS",
+  "url": "https://wikem.org/wiki/Common_medication_list_onboard_ISS",
+  "scraped_at": "2026-01-10T07:50:54.535470",
+  "sections": {
+    "Intro": {
+      "text": "The list below is based on 2023 packing data\n[1]\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Convenience_medication_pack": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Bacitracin\n500 u/gm, 0.9 unit dose pack N/A N/A N/A N/A",
+          "tables": []
+        },
+        "Antidiarrheal": {
+          "text": "Loperamide\n(Imodium) 2 mg Tablet N/A",
+          "tables": []
+        },
+        "Antihistamine": {
+          "text": "Fexofenadine\n(Allegra) 180 mg Tablet\nLoratadine\n(Claritin) 10 mg Tablet\nOlopatadine\n(Pataday) 0.2%, 2.5 mL bottle",
+          "tables": []
+        },
+        "Decongestant": {
+          "text": "Oxymetazoline\n(Afrin) 0.05%, 15 mL bottle\nPseudoephedrine\n(Sudafed 12 hour) 120 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief": {
+          "text": "Dextromethorphan\n(Robitussin) 15 mg Capsule",
+          "tables": []
+        },
+        "Lubricant": {
+          "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+          "tables": []
+        },
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Bacitracin\n500 u/gm, 0.9 unit dose pack N/A N/A N/A N/A",
+      "subsections": {
+        "Antidiarrheal": {
+          "text": "Loperamide\n(Imodium) 2 mg Tablet N/A",
+          "tables": []
+        },
+        "Antihistamine": {
+          "text": "Fexofenadine\n(Allegra) 180 mg Tablet\nLoratadine\n(Claritin) 10 mg Tablet\nOlopatadine\n(Pataday) 0.2%, 2.5 mL bottle",
+          "tables": []
+        },
+        "Decongestant": {
+          "text": "Oxymetazoline\n(Afrin) 0.05%, 15 mL bottle\nPseudoephedrine\n(Sudafed 12 hour) 120 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief": {
+          "text": "Dextromethorphan\n(Robitussin) 15 mg Capsule",
+          "tables": []
+        },
+        "Lubricant": {
+          "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+          "tables": []
+        },
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Antidiarrheal": {
+      "text": "Loperamide\n(Imodium) 2 mg Tablet N/A",
+      "subsections": {
+        "Antihistamine": {
+          "text": "Fexofenadine\n(Allegra) 180 mg Tablet\nLoratadine\n(Claritin) 10 mg Tablet\nOlopatadine\n(Pataday) 0.2%, 2.5 mL bottle",
+          "tables": []
+        },
+        "Decongestant": {
+          "text": "Oxymetazoline\n(Afrin) 0.05%, 15 mL bottle\nPseudoephedrine\n(Sudafed 12 hour) 120 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief": {
+          "text": "Dextromethorphan\n(Robitussin) 15 mg Capsule",
+          "tables": []
+        },
+        "Lubricant": {
+          "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+          "tables": []
+        },
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Antihistamine": {
+      "text": "Fexofenadine\n(Allegra) 180 mg Tablet\nLoratadine\n(Claritin) 10 mg Tablet\nOlopatadine\n(Pataday) 0.2%, 2.5 mL bottle",
+      "subsections": {
+        "Decongestant": {
+          "text": "Oxymetazoline\n(Afrin) 0.05%, 15 mL bottle\nPseudoephedrine\n(Sudafed 12 hour) 120 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief": {
+          "text": "Dextromethorphan\n(Robitussin) 15 mg Capsule",
+          "tables": []
+        },
+        "Lubricant": {
+          "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+          "tables": []
+        },
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Decongestant": {
+      "text": "Oxymetazoline\n(Afrin) 0.05%, 15 mL bottle\nPseudoephedrine\n(Sudafed 12 hour) 120 mg Tablet",
+      "subsections": {
+        "Cough_Relief": {
+          "text": "Dextromethorphan\n(Robitussin) 15 mg Capsule",
+          "tables": []
+        },
+        "Lubricant": {
+          "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+          "tables": []
+        },
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Cough_Relief": {
+      "text": "Dextromethorphan\n(Robitussin) 15 mg Capsule",
+      "subsections": {
+        "Lubricant": {
+          "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+          "tables": []
+        },
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Lubricant": {
+      "text": "Carboxymethylcellulose Sodium\n(Refresh Plus) 0.5%, 0.4 mL unit dose pack\nDextran, Glycerin and Hypromellose (GenTeal Tears) 0.1% and 0.2%, 0.3%, 15 mL bottle\nMineral Oil and White Petrolatum (Refresh PM) 42.5%; 57.3%, 3.5 gm tube\nSodium Chloride 0.9%\n, 22 mL bottle",
+      "subsections": {
+        "Pain_Reliever": {
+          "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+          "tables": []
+        },
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Pain_Reliever": {
+      "text": "Acetaminophen\n(Tylenol) 325 mg Tablet\nAspirin\n325 mg Tablet\nIbuprofen\n(Motrin) 400 mg Tablet\nMelatonin\n3 mg Tablet\nZaleplon\n(Sonata) 10 mg Bottle\nZolpidem\n(Ambien) 5 mg Tablet",
+      "subsections": {
+        "Steroid": {
+          "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+          "tables": []
+        },
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Steroid": {
+      "text": "Hydrocortisone\n1%, 0.9 gm unit dose pack\nMometasone\n(Nasonex) 50 mcg, 17 gm Bottle",
+      "subsections": {
+        "Stimulant": {
+          "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+          "tables": []
+        },
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Stimulant": {
+      "text": "Caffeine\n(Vivarin) 200 mg Tablet\nModafinil\n(Provigil) 200 mg Tablet",
+      "subsections": {
+        "Stool_Softener": {
+          "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Stool_Softener": {
+      "text": "Bisacodyl\n(Dulcolax) 5 mg Tablet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        }
+      ]
+    },
+    "Emergency_Treatments": {
+      "text": "Epinephrine\n0.1 mg/ 10 mL syringe",
+      "subsections": {
+        "Overdose_treatment": {
+          "text": "Flumazenil\n(Romazicon) 0.1 mg/mL, 10 mL vial\nNaloxone\n(Narcan) 1 mg/mL, 2 mL syringe",
+          "tables": []
+        },
+        "Allergic_reaction": {
+          "text": "Epinephrine\n(EpiPen) 0.3 mg/0.3 mL autoinjector",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Flumazenil",
+          "url": "https://wikem.org/wiki/Flumazenil"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Overdose_treatment": {
+      "text": "Flumazenil\n(Romazicon) 0.1 mg/mL, 10 mL vial\nNaloxone\n(Narcan) 1 mg/mL, 2 mL syringe",
+      "subsections": {
+        "Allergic_reaction": {
+          "text": "Epinephrine\n(EpiPen) 0.3 mg/0.3 mL autoinjector",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Flumazenil",
+          "url": "https://wikem.org/wiki/Flumazenil"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Allergic_reaction": {
+      "text": "Epinephrine\n(EpiPen) 0.3 mg/0.3 mL autoinjector",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Oral_Medication_Packs": {
+      "text": "",
+      "subsections": {
+        "Altitude_sickness": {
+          "text": "Acetazolamide\n(Diamox) 250 mg Tablet",
+          "tables": []
+        },
+        "Antibiotics_2": {
+          "text": "Amoxicillin\n(Amoxil) 500 mg Capsule\nAzithromycin\n(Zithromax) 250 mg Tablet\nClindamycin\n(Cleocin) 300 mg Capsule\nDoxycycline\n(Vibramycin) 100 mg Capsule\nLevofloxacin\n(Levaquin) 500 mg Tablet\nMetronidazole\n(Flagyl) 500 mg Tablet\nSulfamethoxazole/Trimethoprim\n(Bactrim DS) 800/160 mg Tablet",
+          "tables": []
+        },
+        "Antifungal": {
+          "text": "Fluconazole\n(Diflucan) 150 mg Tablet",
+          "tables": []
+        },
+        "Antihistamine_2": {
+          "text": "Diphenhydramine\n(Benadryl) 25 mg Capsule\nFexofenadine\n(Allegra) 180 mg Tablet",
+          "tables": []
+        },
+        "Anti-epileptics": {
+          "text": "Levetiracetam\n(Keppra) 500 mg Tablet",
+          "tables": []
+        },
+        "Antiviral": {
+          "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+          "tables": []
+        },
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Altitude_sickness": {
+      "text": "Acetazolamide\n(Diamox) 250 mg Tablet",
+      "subsections": {
+        "Antibiotics_2": {
+          "text": "Amoxicillin\n(Amoxil) 500 mg Capsule\nAzithromycin\n(Zithromax) 250 mg Tablet\nClindamycin\n(Cleocin) 300 mg Capsule\nDoxycycline\n(Vibramycin) 100 mg Capsule\nLevofloxacin\n(Levaquin) 500 mg Tablet\nMetronidazole\n(Flagyl) 500 mg Tablet\nSulfamethoxazole/Trimethoprim\n(Bactrim DS) 800/160 mg Tablet",
+          "tables": []
+        },
+        "Antifungal": {
+          "text": "Fluconazole\n(Diflucan) 150 mg Tablet",
+          "tables": []
+        },
+        "Antihistamine_2": {
+          "text": "Diphenhydramine\n(Benadryl) 25 mg Capsule\nFexofenadine\n(Allegra) 180 mg Tablet",
+          "tables": []
+        },
+        "Anti-epileptics": {
+          "text": "Levetiracetam\n(Keppra) 500 mg Tablet",
+          "tables": []
+        },
+        "Antiviral": {
+          "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+          "tables": []
+        },
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Antibiotics_2": {
+      "text": "Amoxicillin\n(Amoxil) 500 mg Capsule\nAzithromycin\n(Zithromax) 250 mg Tablet\nClindamycin\n(Cleocin) 300 mg Capsule\nDoxycycline\n(Vibramycin) 100 mg Capsule\nLevofloxacin\n(Levaquin) 500 mg Tablet\nMetronidazole\n(Flagyl) 500 mg Tablet\nSulfamethoxazole/Trimethoprim\n(Bactrim DS) 800/160 mg Tablet",
+      "subsections": {
+        "Antifungal": {
+          "text": "Fluconazole\n(Diflucan) 150 mg Tablet",
+          "tables": []
+        },
+        "Antihistamine_2": {
+          "text": "Diphenhydramine\n(Benadryl) 25 mg Capsule\nFexofenadine\n(Allegra) 180 mg Tablet",
+          "tables": []
+        },
+        "Anti-epileptics": {
+          "text": "Levetiracetam\n(Keppra) 500 mg Tablet",
+          "tables": []
+        },
+        "Antiviral": {
+          "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+          "tables": []
+        },
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Antifungal": {
+      "text": "Fluconazole\n(Diflucan) 150 mg Tablet",
+      "subsections": {
+        "Antihistamine_2": {
+          "text": "Diphenhydramine\n(Benadryl) 25 mg Capsule\nFexofenadine\n(Allegra) 180 mg Tablet",
+          "tables": []
+        },
+        "Anti-epileptics": {
+          "text": "Levetiracetam\n(Keppra) 500 mg Tablet",
+          "tables": []
+        },
+        "Antiviral": {
+          "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+          "tables": []
+        },
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Antihistamine_2": {
+      "text": "Diphenhydramine\n(Benadryl) 25 mg Capsule\nFexofenadine\n(Allegra) 180 mg Tablet",
+      "subsections": {
+        "Anti-epileptics": {
+          "text": "Levetiracetam\n(Keppra) 500 mg Tablet",
+          "tables": []
+        },
+        "Antiviral": {
+          "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+          "tables": []
+        },
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Anti-epileptics": {
+      "text": "Levetiracetam\n(Keppra) 500 mg Tablet",
+      "subsections": {
+        "Antiviral": {
+          "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+          "tables": []
+        },
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Antiviral": {
+      "text": "Valacyclovir\n(Valtrex) 1 g Tablet",
+      "subsections": {
+        "Behavioral_Health": {
+          "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Behavioral_Health": {
+      "text": "Aripiprazole\n(Abilify) 5 mg Tablet\nLorazepam\n(Ativan) 1 mg Tablet\nSertraline\n(Zoloft) 50 mg Tablet\nVenlafaxine\n(Effexor XR) 75 mg Tablet",
+      "subsections": {
+        "Cardiac": {
+          "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+          "tables": []
+        },
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Cardiac": {
+      "text": "Lisinopril\n(Zestril) 10 mg Tablet\nMetoprolol\nXL (Toprol XL) 50 mg Tablet\nNitroglycerin\n(Nitrostat) 0.4 mg Tablet",
+      "subsections": {
+        "Decongestant_2": {
+          "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+          "tables": []
+        },
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Decongestant_2": {
+      "text": "Pseudoephedrine\n(Sudafed) 30 mg Tablet",
+      "subsections": {
+        "Cough_Relief_2": {
+          "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+          "tables": []
+        },
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Cough_Relief_2": {
+      "text": "Benzonatate\n(Tessalon Perles) 100 mg Softgel",
+      "subsections": {
+        "Hormones": {
+          "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+          "tables": []
+        },
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Hormones": {
+      "text": "Medroxyprogesterone\n(Provera) 10 mg Tablet\nNorethindrone and Ethinyl Estradiol\n(Ortho Novum) 1 mg and 0.035 mg dose pack (21)",
+      "subsections": {
+        "Pain_Reliever_2": {
+          "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+          "tables": []
+        },
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Medroxyprogesterone",
+          "url": "https://wikem.org/wiki/Medroxyprogesterone"
+        },
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Pain_Reliever_2": {
+      "text": "Hydrocodone/Acetaminophen\n(Vicodin HP) 10 mg/300 mg Tablet",
+      "subsections": {
+        "Motion_Sickness/Anti-Nausea": {
+          "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocodone/Acetaminophen",
+          "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Motion_Sickness/Anti-Nausea": {
+      "text": "Meclizine\n(Antivert) 25 mg Tablet\nOndansteron\n(Zofran ODT) 8 mg Tablet\nPromethazine\n(Phenergan) 25 mg Tablet",
+      "subsections": {
+        "Steroids": {
+          "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+          "tables": []
+        },
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Methylprednisolone\n(Medrol) 4 mg dose pack (21)\nPrednisone\n(Deltasone) 10 mg Tablet",
+      "subsections": {
+        "Antacids": {
+          "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+          "tables": []
+        },
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Antacids": {
+      "text": "Bismuth Subsalicylate\n(Pepto Bismol) 262 mg Chewable\nOmeprazole\n(Prilosec) 20 mg Capsule\nFamotidine\n(Pepcid) 20 mg Tablet",
+      "subsections": {
+        "Urinary": {
+          "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Urinary": {
+      "text": "Tamsulosin\n(Flomax) 0.4 mg Capsule\nNitrofurantoin Monohydrate\n(Macrobid) 100 mg Capsule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Anesthetics": {
+      "text": "",
+      "subsections": {
+        "Dental": {
+          "text": "Benzocaine\nSwabstick 20%, 0.15 mL Swab",
+          "tables": []
+        },
+        "Eye": {
+          "text": "Tetracaine\n0.5%, 15 mL bottle",
+          "tables": []
+        },
+        "Local": {
+          "text": "Lidocaine with Epinephrine\n(Xylocaine and Epinephrine) 2% with 1:100,000 Epi, 20 mL multi-dose vial\nLidocaine\n(Xylocaine) 1%, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Urinary_2": {
+          "text": "Lidocaine Jelly\n2%, 30 mL Tube",
+          "tables": []
+        },
+        "Antibiotic": {
+          "text": "Bacitracin\n500 u/gm, 28 gm Tube\nCeftriaxone\n(Rocephin) 1 g single-dose vial N/A\nCiprofloxacin/Dexamethasone\n(Ciprodex) 0.3%/0.1%, 7.5 mL bottle\nErtapenem\n(Invanz) 1 g single-dose vial\nErythromycin\n0.5%, 3.5 g Tube\nMoxifloxacin\n(Vigamox) 0.5%, 3 mL Bottle\nMupirocin\n(Bactroban) 2%, 22 g Tube\nTobramycin/Dexamethasone\n(Tobradex) 0.3%/0.1%, 10 mL Bottle",
+          "tables": []
+        },
+        "Antifungal_2": {
+          "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+          "tables": []
+        },
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "Tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Dental": {
+      "text": "Benzocaine\nSwabstick 20%, 0.15 mL Swab",
+      "subsections": {
+        "Eye": {
+          "text": "Tetracaine\n0.5%, 15 mL bottle",
+          "tables": []
+        },
+        "Local": {
+          "text": "Lidocaine with Epinephrine\n(Xylocaine and Epinephrine) 2% with 1:100,000 Epi, 20 mL multi-dose vial\nLidocaine\n(Xylocaine) 1%, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Urinary_2": {
+          "text": "Lidocaine Jelly\n2%, 30 mL Tube",
+          "tables": []
+        },
+        "Antibiotic": {
+          "text": "Bacitracin\n500 u/gm, 28 gm Tube\nCeftriaxone\n(Rocephin) 1 g single-dose vial N/A\nCiprofloxacin/Dexamethasone\n(Ciprodex) 0.3%/0.1%, 7.5 mL bottle\nErtapenem\n(Invanz) 1 g single-dose vial\nErythromycin\n0.5%, 3.5 g Tube\nMoxifloxacin\n(Vigamox) 0.5%, 3 mL Bottle\nMupirocin\n(Bactroban) 2%, 22 g Tube\nTobramycin/Dexamethasone\n(Tobradex) 0.3%/0.1%, 10 mL Bottle",
+          "tables": []
+        },
+        "Antifungal_2": {
+          "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+          "tables": []
+        },
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "Tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Eye": {
+      "text": "Tetracaine\n0.5%, 15 mL bottle",
+      "subsections": {
+        "Local": {
+          "text": "Lidocaine with Epinephrine\n(Xylocaine and Epinephrine) 2% with 1:100,000 Epi, 20 mL multi-dose vial\nLidocaine\n(Xylocaine) 1%, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Urinary_2": {
+          "text": "Lidocaine Jelly\n2%, 30 mL Tube",
+          "tables": []
+        },
+        "Antibiotic": {
+          "text": "Bacitracin\n500 u/gm, 28 gm Tube\nCeftriaxone\n(Rocephin) 1 g single-dose vial N/A\nCiprofloxacin/Dexamethasone\n(Ciprodex) 0.3%/0.1%, 7.5 mL bottle\nErtapenem\n(Invanz) 1 g single-dose vial\nErythromycin\n0.5%, 3.5 g Tube\nMoxifloxacin\n(Vigamox) 0.5%, 3 mL Bottle\nMupirocin\n(Bactroban) 2%, 22 g Tube\nTobramycin/Dexamethasone\n(Tobradex) 0.3%/0.1%, 10 mL Bottle",
+          "tables": []
+        },
+        "Antifungal_2": {
+          "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+          "tables": []
+        },
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Local": {
+      "text": "Lidocaine with Epinephrine\n(Xylocaine and Epinephrine) 2% with 1:100,000 Epi, 20 mL multi-dose vial\nLidocaine\n(Xylocaine) 1%, 10 mL multi-dose vial",
+      "subsections": {
+        "Urinary_2": {
+          "text": "Lidocaine Jelly\n2%, 30 mL Tube",
+          "tables": []
+        },
+        "Antibiotic": {
+          "text": "Bacitracin\n500 u/gm, 28 gm Tube\nCeftriaxone\n(Rocephin) 1 g single-dose vial N/A\nCiprofloxacin/Dexamethasone\n(Ciprodex) 0.3%/0.1%, 7.5 mL bottle\nErtapenem\n(Invanz) 1 g single-dose vial\nErythromycin\n0.5%, 3.5 g Tube\nMoxifloxacin\n(Vigamox) 0.5%, 3 mL Bottle\nMupirocin\n(Bactroban) 2%, 22 g Tube\nTobramycin/Dexamethasone\n(Tobradex) 0.3%/0.1%, 10 mL Bottle",
+          "tables": []
+        },
+        "Antifungal_2": {
+          "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+          "tables": []
+        },
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Urinary_2": {
+      "text": "Lidocaine Jelly\n2%, 30 mL Tube",
+      "subsections": {
+        "Antibiotic": {
+          "text": "Bacitracin\n500 u/gm, 28 gm Tube\nCeftriaxone\n(Rocephin) 1 g single-dose vial N/A\nCiprofloxacin/Dexamethasone\n(Ciprodex) 0.3%/0.1%, 7.5 mL bottle\nErtapenem\n(Invanz) 1 g single-dose vial\nErythromycin\n0.5%, 3.5 g Tube\nMoxifloxacin\n(Vigamox) 0.5%, 3 mL Bottle\nMupirocin\n(Bactroban) 2%, 22 g Tube\nTobramycin/Dexamethasone\n(Tobradex) 0.3%/0.1%, 10 mL Bottle",
+          "tables": []
+        },
+        "Antifungal_2": {
+          "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+          "tables": []
+        },
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Antibiotic": {
+      "text": "Bacitracin\n500 u/gm, 28 gm Tube\nCeftriaxone\n(Rocephin) 1 g single-dose vial N/A\nCiprofloxacin/Dexamethasone\n(Ciprodex) 0.3%/0.1%, 7.5 mL bottle\nErtapenem\n(Invanz) 1 g single-dose vial\nErythromycin\n0.5%, 3.5 g Tube\nMoxifloxacin\n(Vigamox) 0.5%, 3 mL Bottle\nMupirocin\n(Bactroban) 2%, 22 g Tube\nTobramycin/Dexamethasone\n(Tobradex) 0.3%/0.1%, 10 mL Bottle",
+      "subsections": {
+        "Antifungal_2": {
+          "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+          "tables": []
+        },
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Antifungal_2": {
+      "text": "Clotrimazole\n(Lotrimin) 1%, 30 g Tube",
+      "subsections": {
+        "Antihistamine_3": {
+          "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Antihistamine_3": {
+      "text": "Cromolyn\n(Nasalcrom) 5.2 mg, 26 mL Bottle\nDiphenhydramine\n(Benadryl) 50 mg/mL, 1 mL single-dose vial",
+      "subsections": {
+        "Behavioral_health_2": {
+          "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Behavioral_health_2": {
+      "text": "Diazepam\n(Valium) 5 mg/mL, 2 mL syringe\nZiprasidone\n(Geodon) Medication Kit\n]]Ziprasidone]] (Geodon) 20 mg/mL, 1.2 mL single-dose vial\nSterile Water Injection, 10 mL single-dose vial",
+      "subsections": {
+        "Breathing": {
+          "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+          "tables": []
+        },
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Breathing": {
+      "text": "Albuterol\n(Proventil HFA) 90 mcg, 6.7 g Inhaler\nFluticasone\n(Flovent HFA) 220 mcg, 12 g Inhaler\nSalmeterol\n(Serevent) 50 mcg Inhaler",
+      "subsections": {
+        "Dental_2": {
+          "text": "Eugenol\n1 mL Oral Syringe",
+          "tables": []
+        },
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Dental_2": {
+      "text": "Eugenol\n1 mL Oral Syringe",
+      "subsections": {
+        "Earwax_Removal": {
+          "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+          "tables": []
+        },
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Earwax_Removal": {
+      "text": "Carbamide Peroxide\n(Debrox) 6.5%, 15 mL Bottle",
+      "subsections": {
+        "Ophthalmic": {
+          "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Ophthalmic": {
+      "text": "Cyclopentolate\n(Cyclogyl) 1%, 15 mL Bottle\nFluorescein\nStrip 1 mg Strip\nTropicamide\n(Mydriacyl) 1%, 15 mL Bottle",
+      "subsections": {
+        "Intubation": {
+          "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+          "tables": []
+        },
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Intubation": {
+      "text": "Glycopyrrolate\n(Robinul) 0.2 mg/mL, 2 mL single-dose vial\nKetamine\n(Ketalar) 50 mg/mL, 10 mL multi-dose vial",
+      "subsections": {
+        "Analgesic": {
+          "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+          "tables": []
+        },
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Analgesic": {
+      "text": "Hydromorphone\n(Dilaudid) 2 mg/mL, 1 mL Syringe\nKetorolac\n(Toradol) 30 mg/mL, 2 mL single-dose vial",
+      "subsections": {
+        "Space_motion_sickness": {
+          "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+          "tables": []
+        },
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Space_motion_sickness": {
+      "text": "Promethazine\n(Phenergan) 25 mg/mL, 1 mL single-dose vial",
+      "subsections": {
+        "Steroid_2": {
+          "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+          "tables": []
+        },
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Steroid_2": {
+      "text": "Dexamethasone (Decadron) 10 mg/mL, 1 mL single-dose vial\nFlucinonide (Lidex) 0.05%, 30 g Tube\nDesoximetasone (Topicort) 0.05%, 60 g Tube",
+      "subsections": {
+        "Wound_care": {
+          "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Wound_care": {
+      "text": "Silver Nitrate\n75%; 25% Each 60\nCyanoacrylate\n(Dermabond) 0.7 mL Swab",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Space medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Space medicine",
+          "url": "https://wikem.org/wiki/Space_medicine"
+        }
+      ]
+    }
+  }
+}

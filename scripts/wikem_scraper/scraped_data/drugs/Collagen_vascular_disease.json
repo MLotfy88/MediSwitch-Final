@@ -1,0 +1,42 @@
+{
+  "drug_name": "Collagen_vascular_disease",
+  "url": "https://wikem.org/wiki/Collagen_vascular_disease",
+  "scraped_at": "2026-01-10T07:50:50.768455",
+  "sections": {
+    "Background": {
+      "text": "Heterogenous group of autoimmune disorders, which include:\nSystemic lupus erythematosus\n(SLE)\nRheumatoid arthritis\n(RA)\nDermatomyositis\nPolymyositis\nAnkylosing spondylitis\nSjögren syndrome\nProgressive systemic sclerosis (\nScleroderma\n)\nMixed connective-tissue disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "drug_name": "Commercial_in-flight_medical_emergencies",
+  "url": "https://wikem.org/wiki/Commercial_in-flight_medical_emergencies",
+  "scraped_at": "2026-01-10T07:50:57.125563",
+  "sections": {
+    "Background": {
+      "text": "Incidence of in-flight emergencies: 1 per 604 flights\n[1]\n(0.3% of cases died)\nFor reference, there are ~29,000 commercial flights per day in the US alone\n[2]\nAs the population ages and people travel longer distances, this number is likely to increase\n[3]",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Syncope\nor presyncope (37.4%)\nRespiratory symptoms\n(12.1%)\nNausea or vomiting\n(9.5%)\nCardiac symptoms\n(7.7%)\nSeizures\n(5.8%)\nAbdominal pain\n(4.1%)\nInfectious disease\n(2.8%)\nAgitation\nor psychiatric symptoms (2.4%)\nAllergic reaction\n(2.2%)\nPossible\nstroke\n(2.0%)\nTrauma\n, not otherwise specified (1.8%)\nDiabetic complication\n(1.6%)\nHeadache\n(1.0%)\nArm or leg pain or injury (1.0%)\nObstetrical or gynecologic symptoms(0.5%)\nEar pain\n(0.4%)\nCardiac arrest\n(0.3%)\nLaceration\n(0.3%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Respiratory symptoms",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Nausea or vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Cardiac symptoms",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Infectious disease",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Diabetic complication",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Ear pain",
+          "url": "https://wikem.org/wiki/Earache"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Syncope\nor presyncope (37.4%)\nRespiratory symptoms\n(12.1%)\nNausea or vomiting\n(9.5%)\nCardiac symptoms\n(7.7%)\nSeizures\n(5.8%)\nAbdominal pain\n(4.1%)\nInfectious disease\n(2.8%)\nAgitation\nor psychiatric symptoms (2.4%)\nAllergic reaction\n(2.2%)\nPossible\nstroke\n(2.0%)\nTrauma\n, not otherwise specified (1.8%)\nDiabetic complication\n(1.6%)\nHeadache\n(1.0%)\nArm or leg pain or injury (1.0%)\nObstetrical or gynecologic symptoms(0.5%)\nEar pain\n(0.4%)\nCardiac arrest\n(0.3%)\nLaceration\n(0.3%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Respiratory symptoms",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Nausea or vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Cardiac symptoms",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Infectious disease",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Diabetic complication",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Ear pain",
+          "url": "https://wikem.org/wiki/Earache"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        }
+      ]
+    },
+    "Emergency_Medical_Kit": {
+      "text": "The FAA requires all aircraft with >30 passengers to carry an Emergency Medical Kit and an AED\n[4]\nThis requirement is the \"minimum acceptable\", but some airlines carry more extensive kits",
+      "subsections": {
+        "Common_Airline_Emergency_Medical_Kit_Contents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medications": "Epinephrine1:1000",
+                "Equipment": "Stethoscope"
+              },
+              {
+                "Medications": "Antihistamine, inj",
+                "Equipment": "Sphygmomanometer"
+              },
+              {
+                "Medications": "Dextrose50%, inj. 50 ml",
+                "Equipment": "Airways, oropharyngeal (appropriate range of sizes)"
+              },
+              {
+                "Medications": "Nitroglycerintablets or spray",
+                "Equipment": "Syringes (appropriate range of sizes)"
+              },
+              {
+                "Medications": "Majoranalgesic, inj. or oral",
+                "Equipment": "Needles (appropriate range of sizes)"
+              },
+              {
+                "Medications": "Sedativeanticonvulsant, inj.",
+                "Equipment": "IV Catheters (appropriate range of sizes)"
+              },
+              {
+                "Medications": "Antiemetic, inj.",
+                "Equipment": "Antiseptic wipes"
+              },
+              {
+                "Medications": "Bronchodilatorinhaler",
+                "Equipment": "Disposable gloves"
+              },
+              {
+                "Medications": "Atropine, inj.",
+                "Equipment": "Sharps  box"
+              },
+              {
+                "Medications": "Adrenocorticalsteroid, inj.",
+                "Equipment": "Urinary catheter"
+              },
+              {
+                "Medications": "Diuretic, inj.",
+                "Equipment": "System for delivering intravenous fluid"
+              },
+              {
+                "Medications": "Medication for postpartum bleeding",
+                "Equipment": "Venous tourniquet"
+              },
+              {
+                "Medications": "Sodium chloride0.9% (minimum 250 ml)",
+                "Equipment": "Sponge gauze"
+              },
+              {
+                "Medications": "Acetyl Salicylic Acidfor oral use",
+                "Equipment": "Tape adhesive"
+              },
+              {
+                "Medications": "Oralbeta blocker",
+                "Equipment": "Surgical mask"
+              },
+              {
+                "Medications": "",
+                "Equipment": "Flashlight and batteries"
+              },
+              {
+                "Medications": "",
+                "Equipment": "Thermometer (non-mercury)"
+              },
+              {
+                "Medications": "",
+                "Equipment": "Umbilical cord clamp"
+              },
+              {
+                "Medications": "",
+                "Equipment": "Basic Life Support cards"
+              },
+              {
+                "Medications": "",
+                "Equipment": "List of equipment"
+              },
+              {
+                "Medications": "",
+                "Equipment": "Advanced Life Support Guides"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common_Airline_Emergency_Medical_Kit_Contents": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medications": "Epinephrine1:1000",
+            "Equipment": "Stethoscope"
+          },
+          {
+            "Medications": "Antihistamine, inj",
+            "Equipment": "Sphygmomanometer"
+          },
+          {
+            "Medications": "Dextrose50%, inj. 50 ml",
+            "Equipment": "Airways, oropharyngeal (appropriate range of sizes)"
+          },
+          {
+            "Medications": "Nitroglycerintablets or spray",
+            "Equipment": "Syringes (appropriate range of sizes)"
+          },
+          {
+            "Medications": "Majoranalgesic, inj. or oral",
+            "Equipment": "Needles (appropriate range of sizes)"
+          },
+          {
+            "Medications": "Sedativeanticonvulsant, inj.",
+            "Equipment": "IV Catheters (appropriate range of sizes)"
+          },
+          {
+            "Medications": "Antiemetic, inj.",
+            "Equipment": "Antiseptic wipes"
+          },
+          {
+            "Medications": "Bronchodilatorinhaler",
+            "Equipment": "Disposable gloves"
+          },
+          {
+            "Medications": "Atropine, inj.",
+            "Equipment": "Sharps  box"
+          },
+          {
+            "Medications": "Adrenocorticalsteroid, inj.",
+            "Equipment": "Urinary catheter"
+          },
+          {
+            "Medications": "Diuretic, inj.",
+            "Equipment": "System for delivering intravenous fluid"
+          },
+          {
+            "Medications": "Medication for postpartum bleeding",
+            "Equipment": "Venous tourniquet"
+          },
+          {
+            "Medications": "Sodium chloride0.9% (minimum 250 ml)",
+            "Equipment": "Sponge gauze"
+          },
+          {
+            "Medications": "Acetyl Salicylic Acidfor oral use",
+            "Equipment": "Tape adhesive"
+          },
+          {
+            "Medications": "Oralbeta blocker",
+            "Equipment": "Surgical mask"
+          },
+          {
+            "Medications": "",
+            "Equipment": "Flashlight and batteries"
+          },
+          {
+            "Medications": "",
+            "Equipment": "Thermometer (non-mercury)"
+          },
+          {
+            "Medications": "",
+            "Equipment": "Umbilical cord clamp"
+          },
+          {
+            "Medications": "",
+            "Equipment": "Basic Life Support cards"
+          },
+          {
+            "Medications": "",
+            "Equipment": "List of equipment"
+          },
+          {
+            "Medications": "",
+            "Equipment": "Advanced Life Support Guides"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Approach": {
+          "text": "Flight crew is responsible for responding to medical emergencies in flight - your role is to offer assistance, not to take control\n[6]\nIdentify yourself and level of medical training to the crew\nAsk a flight attendant to obtain the emergency medical kit (EMK)",
+          "tables": []
+        },
+        "Patient_Assessment": {
+          "text": "Identify chief complaint and perform HPI and appropriate focused physical exam\nObtain vital signs - emergency medical kit will have sphygomomanometer\nMeasuring BP by palpation may be easier than auscultation in flight\nIf the patient is unresponsive or in cardiac arrest, obtain and apply an automated external defibrillator (AED)",
+          "tables": []
+        },
+        "Management_Options": {
+          "text": "Goal is to keep patient stable until the flight lands\n[6]\nManagement should be based on your assessment and evidence-based best practices, but within the confines of the resources available on board\ne.g. angina/chest pain may be given\naspirin\n(±\nNTG\n), hypoglycemic episodes may be given PO or IV\ndextrose\n, vasovagal syncope may be given PO fluids or placed in leg-elevated position, etc.\nBe aware of available options\nEmergency medical kit, oxygen, and AED\nMay ask crew to lower altitude of plane (increases cabin pressure)\n[6]\nMay request to speak with ground-based physician consult service\nMay request diversion of flight to closer airport (ultimate decision rests with captain)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NTG",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        }
+      ]
+    },
+    "General_Approach": {
+      "text": "Flight crew is responsible for responding to medical emergencies in flight - your role is to offer assistance, not to take control\n[6]\nIdentify yourself and level of medical training to the crew\nAsk a flight attendant to obtain the emergency medical kit (EMK)",
+      "subsections": {
+        "Patient_Assessment": {
+          "text": "Identify chief complaint and perform HPI and appropriate focused physical exam\nObtain vital signs - emergency medical kit will have sphygomomanometer\nMeasuring BP by palpation may be easier than auscultation in flight\nIf the patient is unresponsive or in cardiac arrest, obtain and apply an automated external defibrillator (AED)",
+          "tables": []
+        },
+        "Management_Options": {
+          "text": "Goal is to keep patient stable until the flight lands\n[6]\nManagement should be based on your assessment and evidence-based best practices, but within the confines of the resources available on board\ne.g. angina/chest pain may be given\naspirin\n(±\nNTG\n), hypoglycemic episodes may be given PO or IV\ndextrose\n, vasovagal syncope may be given PO fluids or placed in leg-elevated position, etc.\nBe aware of available options\nEmergency medical kit, oxygen, and AED\nMay ask crew to lower altitude of plane (increases cabin pressure)\n[6]\nMay request to speak with ground-based physician consult service\nMay request diversion of flight to closer airport (ultimate decision rests with captain)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NTG",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        }
+      ]
+    },
+    "Patient_Assessment": {
+      "text": "Identify chief complaint and perform HPI and appropriate focused physical exam\nObtain vital signs - emergency medical kit will have sphygomomanometer\nMeasuring BP by palpation may be easier than auscultation in flight\nIf the patient is unresponsive or in cardiac arrest, obtain and apply an automated external defibrillator (AED)",
+      "subsections": {
+        "Management_Options": {
+          "text": "Goal is to keep patient stable until the flight lands\n[6]\nManagement should be based on your assessment and evidence-based best practices, but within the confines of the resources available on board\ne.g. angina/chest pain may be given\naspirin\n(±\nNTG\n), hypoglycemic episodes may be given PO or IV\ndextrose\n, vasovagal syncope may be given PO fluids or placed in leg-elevated position, etc.\nBe aware of available options\nEmergency medical kit, oxygen, and AED\nMay ask crew to lower altitude of plane (increases cabin pressure)\n[6]\nMay request to speak with ground-based physician consult service\nMay request diversion of flight to closer airport (ultimate decision rests with captain)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NTG",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        }
+      ]
+    },
+    "Management_Options": {
+      "text": "Goal is to keep patient stable until the flight lands\n[6]\nManagement should be based on your assessment and evidence-based best practices, but within the confines of the resources available on board\ne.g. angina/chest pain may be given\naspirin\n(±\nNTG\n), hypoglycemic episodes may be given PO or IV\ndextrose\n, vasovagal syncope may be given PO fluids or placed in leg-elevated position, etc.\nBe aware of available options\nEmergency medical kit, oxygen, and AED\nMay ask crew to lower altitude of plane (increases cabin pressure)\n[6]\nMay request to speak with ground-based physician consult service\nMay request diversion of flight to closer airport (ultimate decision rests with captain)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NTG",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        }
+      ]
+    },
+    "Medicolegal_Issues": {
+      "text": "Responding to a request for assistance creates a \"doctor-patient\" relationship\n[7]\nDuty to respond\n[4]\nThere is no legal duty for a physician to respond to an in-flight emergency in the USA, Canada, and the UK (in the absence of a pre-existing doctor-patient relationship)\nIn Australia and many European countries, there is a legal duty to respond\nLegal jurisdiction is usually determined by the country in which the aircraft is registered, but the location of the incident may apply as well\n[7]",
+      "subsections": {
+        "United_States": {
+          "text": "The Aviation Medical Assistance Act (AMAA) of 1998 provides liability coverage for \"medically qualified individuals\" who provide medical care aboard an aircraft and imposes a standard of \"gross negligence or willful misconduct\"\nCovers a wide range of medically trained passengers, including physicians, nurses, PAs, paramedics, EMTs, etc.\nProvider is not prohibited from accepting compensation in order to receive liability protection under the AMAA\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "United_States": {
+      "text": "The Aviation Medical Assistance Act (AMAA) of 1998 provides liability coverage for \"medically qualified individuals\" who provide medical care aboard an aircraft and imposes a standard of \"gross negligence or willful misconduct\"\nCovers a wide range of medically trained passengers, including physicians, nurses, PAs, paramedics, EMTs, etc.\nProvider is not prohibited from accepting compensation in order to receive liability protection under the AMAA\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "High altitude medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "High altitude medicine",
+          "url": "https://wikem.org/wiki/High_altitude_medicine"
+        }
+      ]
+    }
+  }
+}

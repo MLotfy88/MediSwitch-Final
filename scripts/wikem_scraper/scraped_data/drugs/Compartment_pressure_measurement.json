@@ -1,0 +1,189 @@
+{
+  "drug_name": "Compartment_pressure_measurement",
+  "url": "https://wikem.org/wiki/Compartment_pressure_measurement",
+  "scraped_at": "2026-01-10T07:50:56.098371",
+  "sections": {
+    "Indications": {
+      "text": "",
+      "subsections": {
+        "Compartment_Syndrome_Indications": {
+          "text": "Consider whenever pain or paresthesia occurs in an extremity after:\nfracture\n(most common risk factor)\n- can occur with open fracture\ncrush injury\nimmobilization\nsnake bites\nburns\nprolonged\ntourniquet\napplication\nfluid extravasation into a limb\nsoft tissue infection\nextreme exertion\nImmediate threat is viability of nerve and muscle; later threat is infection,\ngangrene\n,\nrhabdomyolysis\n,\nrenal failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "soft tissue infection",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        },
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Compartment_Syndrome_Indications": {
+      "text": "Consider whenever pain or paresthesia occurs in an extremity after:\nfracture\n(most common risk factor)\n- can occur with open fracture\ncrush injury\nimmobilization\nsnake bites\nburns\nprolonged\ntourniquet\napplication\nfluid extravasation into a limb\nsoft tissue infection\nextreme exertion\nImmediate threat is viability of nerve and muscle; later threat is infection,\ngangrene\n,\nrhabdomyolysis\n,\nrenal failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "soft tissue infection",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        },
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Avoid areas of cellulitis.\nNo absolute contraindications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "All cases\nChloroprep or other skin prep solution\nLidocaine\n1% without epi\n5cc syringe\n22g or 25g needle with enough length to reach compartment\nStryker available\nStryker Intra-Compartmental Pressure Monitor\nPrefilled syringe with saline\nArterial line transducer\nIntracompartment needle (simple 18-gauge needle or 18-gauge spinal needle)\nHigh-pressure tubing\nPressure transducer with cable\nPressure monitor/module\n1L NS with pressure bag\nTwo 3-way stopcocks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Contents of the pressure measurement kit\nRemove contents from wrapping\nAttach chamber to the pre-filled saline syringe\nPlace the aforementioned into the monitor/unit\nPlace needle onto chamber\nEject excess air, if present, from syringe\nZero the assembled unit at the angle you will be entering compartment\nDetermine the appropriate\nsite of injection\nto measure the desired compartment pressure\nClean the area with alcohol prep or chlorhexidine.\nInsert, inject 2-3 drops of saline, and await measurement",
+      "subsections": {
+        "Technique": {
+          "text": "should be performed within 5cm of fracture site\nanterior compartment\nentry point: 1 cm lateral to anterior border of tibia\nneedle should be perpendicular to skin\ndeep posterior compartment\nentry point: just posterior to the medial border of tibia\nadvance needle perpendicular to skin towards fibula\nlateral compartment\nentry point: just anterior to the posterior border of fibula\nsuperficial posterior\nentry point: middle of calf",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "site of injection",
+          "url": "https://wikem.org/wiki/Limb_Compartments"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "should be performed within 5cm of fracture site\nanterior compartment\nentry point: 1 cm lateral to anterior border of tibia\nneedle should be perpendicular to skin\ndeep posterior compartment\nentry point: just posterior to the medial border of tibia\nadvance needle perpendicular to skin towards fibula\nlateral compartment\nentry point: just anterior to the posterior border of fibula\nsuperficial posterior\nentry point: middle of calf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Interpretation_of_Compartment_Pressure": {
+      "text": "Normal is <10 mm Hg\nPressures <20 mmHg can be tolerated w/o significant damage\nExact level of pressure elevation that causes cell death is unclear.  It was previously thought pressure >30 mmHg was toxic although the \"delta pressure\" may be better predictor than absolute pressure\nΔPressure = [Diastolic Pressure] – [Compartment Pressure]\n[1]\nΔPressure < 30 mm Hg  is suggestive of compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Infection\nLow risk\nMinimized by strict sterile technique\nPain\nMinimized by local lidocaine infiltration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Compartment Syndrome\nBurns\nRhabdomyolysis\nFractures (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Wheeles Textbook - Compartment Syndrome\nMerk Manual - How To Measure Compartment Pressure in a Forearm\nMerk Manual - How To Measure Compartment Pressure in the Lower Leg",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=XXp0EtKtlF8}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=XXp0EtKtlF8}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

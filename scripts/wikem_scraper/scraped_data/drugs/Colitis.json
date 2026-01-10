@@ -1,0 +1,259 @@
+{
+  "drug_name": "Colitis",
+  "url": "https://wikem.org/wiki/Colitis",
+  "scraped_at": "2026-01-10T07:50:51.205895",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Colitis": {
+          "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Colitis": {
+      "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Colitis_2": {
+          "text": "Viral gastroenteritis\nBacterial gastroenteritis\nCampylobacter\ninfections\nClostridium difficile\ncolitis\nColon cancer\nCrohn disease\nCryptosporidiosis\nMycobacterium Avium-Intracellulare\nToxic megacolon\nUlcerative colitis\nIschemic bowel disease (e.g.\nmesenteric ischemia\n, strangulated\nhernia\n)\nPseudomembranous enterocolitis\nLymphoma\nIleocecal\namebiasis\nSarcoidosis\nYersinia\nCampylobacter",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral gastroenteritis",
+          "url": "https://wikem.org/wiki/Viral_gastroenteritis"
+        },
+        {
+          "text": "Bacterial gastroenteritis",
+          "url": "https://wikem.org/wiki/Bacterial_gastroenteritis"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Crohn disease",
+          "url": "https://wikem.org/wiki/Crohn_disease"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Mycobacterium Avium-Intracellulare",
+          "url": "https://wikem.org/wiki/Mycobacterium_Avium-Intracellulare"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Pseudomembranous enterocolitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        }
+      ]
+    },
+    "Colitis_2": {
+      "text": "Viral gastroenteritis\nBacterial gastroenteritis\nCampylobacter\ninfections\nClostridium difficile\ncolitis\nColon cancer\nCrohn disease\nCryptosporidiosis\nMycobacterium Avium-Intracellulare\nToxic megacolon\nUlcerative colitis\nIschemic bowel disease (e.g.\nmesenteric ischemia\n, strangulated\nhernia\n)\nPseudomembranous enterocolitis\nLymphoma\nIleocecal\namebiasis\nSarcoidosis\nYersinia\nCampylobacter",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral gastroenteritis",
+          "url": "https://wikem.org/wiki/Viral_gastroenteritis"
+        },
+        {
+          "text": "Bacterial gastroenteritis",
+          "url": "https://wikem.org/wiki/Bacterial_gastroenteritis"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Crohn disease",
+          "url": "https://wikem.org/wiki/Crohn_disease"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Mycobacterium Avium-Intracellulare",
+          "url": "https://wikem.org/wiki/Mycobacterium_Avium-Intracellulare"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Pseudomembranous enterocolitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

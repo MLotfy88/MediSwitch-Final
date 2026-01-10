@@ -1,0 +1,174 @@
+{
+  "drug_name": "Colchicine",
+  "url": "https://wikem.org/wiki/Colchicine",
+  "scraped_at": "2026-01-10T07:50:49.023436",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antigout, anti-inflammatory\nDosage Forms: Capsules, Tablets\nRoutes of Administration: Oral\nCommon Trade Names: Colcris; Mitigare (US), Jamp-Colchicine; PMS-Colchicine (Canadian)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Gout": {
+          "text": "Flare treatment: Initial: 1.2mg and then  0.6mg  in an hour (maximum 1.8mg within 1 hour). In patient receiving prophylaxis treatment wait for 12 h after flare dosing before resuming prophylaxis dose. Do not repeat treatment for at least 3 days (Canadian labelling recommendation)\nProphylaxis Treatment: 0.6mg twice daily (maximum 1.2mg/day) for 3 months (without tophi) to 6 months (≥1 tophi) after reaching target serum uric acid levels\n[1]",
+          "tables": []
+        },
+        "Familial_Mediterranean_Fever": {
+          "text": "1.2mg to 2.4mg per day in 1-2 decided dose. Titrate (increase or decrease) 0.3mg daily increment based on efficacy and adverse effects.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gout": {
+      "text": "Flare treatment: Initial: 1.2mg and then  0.6mg  in an hour (maximum 1.8mg within 1 hour). In patient receiving prophylaxis treatment wait for 12 h after flare dosing before resuming prophylaxis dose. Do not repeat treatment for at least 3 days (Canadian labelling recommendation)\nProphylaxis Treatment: 0.6mg twice daily (maximum 1.2mg/day) for 3 months (without tophi) to 6 months (≥1 tophi) after reaching target serum uric acid levels\n[1]",
+      "subsections": {
+        "Familial_Mediterranean_Fever": {
+          "text": "1.2mg to 2.4mg per day in 1-2 decided dose. Titrate (increase or decrease) 0.3mg daily increment based on efficacy and adverse effects.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Familial_Mediterranean_Fever": {
+      "text": "1.2mg to 2.4mg per day in 1-2 decided dose. Titrate (increase or decrease) 0.3mg daily increment based on efficacy and adverse effects.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Familial_Mediterranean_Fever_2": {
+          "text": "Children 4 to 6 years: 0.3 to 1.8mg daily in 1-2 divided doses\nChildren 6 to 12 years: 0.9 to 1.8mg daily in 1-2 divided doses\nAdolescents >12 years: Adult dosing",
+          "tables": []
+        },
+        "Gout_2": {
+          "text": "Prophylaxis/treatment: Adult dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Familial_Mediterranean_Fever_2": {
+      "text": "Children 4 to 6 years: 0.3 to 1.8mg daily in 1-2 divided doses\nChildren 6 to 12 years: 0.9 to 1.8mg daily in 1-2 divided doses\nAdolescents >12 years: Adult dosing",
+      "subsections": {
+        "Gout_2": {
+          "text": "Prophylaxis/treatment: Adult dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gout_2": {
+      "text": "Prophylaxis/treatment: Adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Colchicine enters breast milk, caution should  be used when administering in a nursing woman.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nGout flare treatment:\nUse colchicine to treat acute route flare is\ncontraindicated\nin patients with renal impairment who are receiving colchicine for prophylaxis.\nCrCl 30-80 mL/minute: dose adjustment not required, monitor closely for adverse effects.\nCrCl <30 mL/minute: consider dose reduction, should not repeat dose more frequently that every 14 days.\nDialysis: A single dose of 0.6mg, should not repeat dose more frequently that every 14 days.\nGout prophylaxis:\nCrCl 30-80 mL/minute: dose adjustment not required, monitor closely for adverse effects.\nCrCl <30 mL/minute: nitial dose: 0.3mg daily, titrate with caution, monitor closely for adverse effects.\nDialysis: 0.3mg twice weekly, monitor closely for adverse effects.\nFMF:\nCrCl 30-80 mL/minute: monitor closely for adverse effects, consider dosage reduction.\nCrCl <30mL/minute: Initial dose: 0.3mg daily, titrate with caution, monitor closely for adverse effects.\nDialysis: a single dose of 0.3mg, titrate with caution, monitor closely for adverse effects.\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild to moderate impairment: use with caution, closely monitor for adverse effects.\nSevere impairment: consider dosage adjustment.\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nGout flare treatment:\nUse colchicine to treat acute route flare is\ncontraindicated\nin patients with renal impairment who are receiving colchicine for prophylaxis.\nCrCl 30-80 mL/minute: dose adjustment not required, monitor closely for adverse effects.\nCrCl <30 mL/minute: consider dose reduction, should not repeat dose more frequently that every 14 days.\nDialysis: A single dose of 0.6mg, should not repeat dose more frequently that every 14 days.\nGout prophylaxis:\nCrCl 30-80 mL/minute: dose adjustment not required, monitor closely for adverse effects.\nCrCl <30 mL/minute: nitial dose: 0.3mg daily, titrate with caution, monitor closely for adverse effects.\nDialysis: 0.3mg twice weekly, monitor closely for adverse effects.\nFMF:\nCrCl 30-80 mL/minute: monitor closely for adverse effects, consider dosage reduction.\nCrCl <30mL/minute: Initial dose: 0.3mg daily, titrate with caution, monitor closely for adverse effects.\nDialysis: a single dose of 0.3mg, titrate with caution, monitor closely for adverse effects.\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild to moderate impairment: use with caution, closely monitor for adverse effects.\nSevere impairment: consider dosage adjustment.\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nMild to moderate impairment: use with caution, closely monitor for adverse effects.\nSevere impairment: consider dosage adjustment.\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcomitant use with P-glycoprotein or strong CYP3A4 inhibitor in patients with renal or hepatic impairment\nPatient with both renal and hepatic impairment\nSerious gastrointestinal or cardiac disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious_(<1%)": {
+          "text": "Bone marrow suppression\nDisseminated intravascular coagulation\nToxic neuromuscular disease\nRhabdomyolysis\nHepatotoxicity\nHypersensitivity reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhoea\nNausea\nVomiting\nAbdominal cramp/abdominal pain\nGout\nPharyngolaryngeal pain\nFatigue\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Diarrhoea\nNausea\nVomiting\nAbdominal cramp/abdominal pain\nGout\nPharyngolaryngeal pain\nFatigue\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 27 to 31 hours (multiple dose; young, healthy volunteers)\nMetabolism: Hepatic (CYP3A4)\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Disrupts cytoskeleton function: inhibit beta-tubulin polymerization into microtubules.\nPrevent activation, migration and degranulation of neutrophils mediating some gout symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Toxicity": {
+      "text": "Rapidly absorbed and extensively distributed\nMaximum therapeutic dose: 8-10 mg in 1 day\nNausea, vomiting, abdominal pain, bloody diarrhea\nBone marrow suppression, renal failure\nLactic Acidosis\nDelirium, seizures, coma\nDeath within 8-36 hours caused by respiratory failure or arrhythmia\nAggressive supportive care (colchicine-specific antibodies are not available in U.S.)\nIf survival, can see rebound leukocytosis and transient alopecia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Colchicine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colchicine toxicity",
+          "url": "https://wikem.org/wiki/Colchicine_toxicity"
+        }
+      ]
+    }
+  }
+}

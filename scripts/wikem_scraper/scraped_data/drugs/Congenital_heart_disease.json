@@ -1,0 +1,726 @@
+{
+  "drug_name": "Congenital_heart_disease",
+  "url": "https://wikem.org/wiki/Congenital_heart_disease",
+  "scraped_at": "2026-01-10T07:50:59.955776",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Clinical Presentation": "Cyanosis",
+            "Causative Conditions in Neonates": "Transpositionof the great arteries,TOF, tricuspid atresia,truncus arteriosus, total anomalous pulmonary venous return",
+            "Causative Conditions in Infants and Children": "TOF, Eisenmenger complex"
+          },
+          {
+            "Clinical Presentation": "Cardiovascular shock",
+            "Causative Conditions in Neonates": "Criticalaortic stenosis,coarctation of the aorta,HLHS",
+            "Causative Conditions in Infants and Children": "Coarctation of the aorta (infants)"
+          },
+          {
+            "Clinical Presentation": "Congestive heart failure",
+            "Causative Conditions in Neonates": "Rare: PDA, HLHS",
+            "Causative Conditions in Infants and Children": "PDA,VSD,ASD, atrioventricular canal"
+          },
+          {
+            "Clinical Presentation": "Murmur",
+            "Causative Conditions in Neonates": "PDA, valvular defects (AS, PS)",
+            "Causative Conditions in Infants and Children": "VSD,ASD,PDA, outflow obstructions, valvular defects (AS, PS)"
+          },
+          {
+            "Clinical Presentation": "Syncope",
+            "Causative Conditions in Neonates": "—",
+            "Causative Conditions in Infants and Children": "AS, PS, Eisenmenger complex"
+          },
+          {
+            "Clinical Presentation": "Hypertension",
+            "Causative Conditions in Neonates": "—",
+            "Causative Conditions in Infants and Children": "Coarctation of the aorta"
+          },
+          {
+            "Clinical Presentation": "Arrhythmias",
+            "Causative Conditions in Neonates": "—",
+            "Causative Conditions in Infants and Children": "ASD, Ebstein anomaly, postsurgical complication after repair of congenital heart defect"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[2]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[2]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Cyanotic": {
+          "text": "Can use the \"5 T's' mnemonic:\n[3]\n1 vessel: Truncus arteriosus\n2 vessels switched: Transposition of the great vessels\n3=TRIcuspid: Tricuspid atresia\n4 defects: Tetralogy of Fallot\n5 letters: Total anomalous pulmonary vascular return (TAPVR)",
+          "tables": [
+            [
+              {
+                "Cardiac Lesion": "Tetralogy of Fallot",
+                "Chest Radiograph": "Boot-shaped heart, normal-sized heart, decreased pulmonary vascular markings",
+                "ECG": "Right axis deviation, right ventricular hypertrophy"
+              },
+              {
+                "Cardiac Lesion": "Transposition of the great arteries",
+                "Chest Radiograph": "Egg-shaped heart, narrow mediastinum, increased pulmonary vascular marking",
+                "ECG": "Right axis deviation, right ventricular hypertrophy"
+              },
+              {
+                "Cardiac Lesion": "Total anomalous pulmonary venous return",
+                "Chest Radiograph": "Snowman sign, significant cardiomegaly, increased pulmonary vascular markings",
+                "ECG": "Right axis deviation, right ventricular hypertrophy, right atrial enlargement"
+              },
+              {
+                "Cardiac Lesion": "Tricuspid atresia",
+                "Chest Radiograph": "Heart of normal to slightly increased size, decreased pulmonary vascular markings",
+                "ECG": "Superior QRS axis with right atrial hypertrophy, left atrial hypertrophy, left ventricular hypertrophy"
+              },
+              {
+                "Cardiac Lesion": "Truncus arteriosus",
+                "Chest Radiograph": "Cardiomegaly, increased pulmonary vascular markings",
+                "ECG": "Biventricular hypertrophy"
+              }
+            ]
+          ]
+        },
+        "Acyanotic_(duct-dependent)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Coarctation of the aorta": "",
+                "Cardiomegaly with pulmonary edema (neonate)": "Rib notching and collateral vascularity (child)",
+                "RVH, right bundle-branch block (neonate)": "LVH (child)"
+              },
+              {
+                "Coarctation of the aorta": "Hypoplastic left heart syndrome",
+                "Cardiomegaly with pulmonary edema (neonate)": "Cardiomegaly",
+                "RVH, right bundle-branch block (neonate)": "Right atrial enlargement, RVH, peaked P waves"
+              },
+              {
+                "Coarctation of the aorta": "Aortic stenosis",
+                "Cardiomegaly with pulmonary edema (neonate)": "Cardiomegaly",
+                "RVH, right bundle-branch block (neonate)": "LVH in severe cases"
+              }
+            ]
+          ]
+        },
+        "Acyanotic_non-duct_dependent_(i.e._CHF)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Atrial septal defect": "VSD",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly with increased vascular markings",
+                "Right axis deviation,RVH,RBBB": "LAH,LVH, (RVHwith larger VSDs)"
+              },
+              {
+                "Atrial septal defect": "PDA",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly with increased vascular markings",
+                "Right axis deviation,RVH,RBBB": "LVH,RVHwith larger PDAs"
+              },
+              {
+                "Atrial septal defect": "Endocardial cushion defect",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly with increased vascular markings",
+                "Right axis deviation,RVH,RBBB": "Superior QRS axis withRVH,RBBB,LVH, prolonged PR interval"
+              },
+              {
+                "Atrial septal defect": "Anomalous origin of the left coronary artery",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly",
+                "Right axis deviation,RVH,RBBB": "Abnormally deep and wide Q waves with precordial ST segment changes"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cyanotic": {
+      "text": "Can use the \"5 T's' mnemonic:\n[3]\n1 vessel: Truncus arteriosus\n2 vessels switched: Transposition of the great vessels\n3=TRIcuspid: Tricuspid atresia\n4 defects: Tetralogy of Fallot\n5 letters: Total anomalous pulmonary vascular return (TAPVR)",
+      "subsections": {
+        "Acyanotic_(duct-dependent)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Coarctation of the aorta": "",
+                "Cardiomegaly with pulmonary edema (neonate)": "Rib notching and collateral vascularity (child)",
+                "RVH, right bundle-branch block (neonate)": "LVH (child)"
+              },
+              {
+                "Coarctation of the aorta": "Hypoplastic left heart syndrome",
+                "Cardiomegaly with pulmonary edema (neonate)": "Cardiomegaly",
+                "RVH, right bundle-branch block (neonate)": "Right atrial enlargement, RVH, peaked P waves"
+              },
+              {
+                "Coarctation of the aorta": "Aortic stenosis",
+                "Cardiomegaly with pulmonary edema (neonate)": "Cardiomegaly",
+                "RVH, right bundle-branch block (neonate)": "LVH in severe cases"
+              }
+            ]
+          ]
+        },
+        "Acyanotic_non-duct_dependent_(i.e._CHF)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Atrial septal defect": "VSD",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly with increased vascular markings",
+                "Right axis deviation,RVH,RBBB": "LAH,LVH, (RVHwith larger VSDs)"
+              },
+              {
+                "Atrial septal defect": "PDA",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly with increased vascular markings",
+                "Right axis deviation,RVH,RBBB": "LVH,RVHwith larger PDAs"
+              },
+              {
+                "Atrial septal defect": "Endocardial cushion defect",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly with increased vascular markings",
+                "Right axis deviation,RVH,RBBB": "Superior QRS axis withRVH,RBBB,LVH, prolonged PR interval"
+              },
+              {
+                "Atrial septal defect": "Anomalous origin of the left coronary artery",
+                "Cardiomegaly with increased vascular markings": "Cardiomegaly",
+                "Right axis deviation,RVH,RBBB": "Abnormally deep and wide Q waves with precordial ST segment changes"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Cardiac Lesion": "Tetralogy of Fallot",
+            "Chest Radiograph": "Boot-shaped heart, normal-sized heart, decreased pulmonary vascular markings",
+            "ECG": "Right axis deviation, right ventricular hypertrophy"
+          },
+          {
+            "Cardiac Lesion": "Transposition of the great arteries",
+            "Chest Radiograph": "Egg-shaped heart, narrow mediastinum, increased pulmonary vascular marking",
+            "ECG": "Right axis deviation, right ventricular hypertrophy"
+          },
+          {
+            "Cardiac Lesion": "Total anomalous pulmonary venous return",
+            "Chest Radiograph": "Snowman sign, significant cardiomegaly, increased pulmonary vascular markings",
+            "ECG": "Right axis deviation, right ventricular hypertrophy, right atrial enlargement"
+          },
+          {
+            "Cardiac Lesion": "Tricuspid atresia",
+            "Chest Radiograph": "Heart of normal to slightly increased size, decreased pulmonary vascular markings",
+            "ECG": "Superior QRS axis with right atrial hypertrophy, left atrial hypertrophy, left ventricular hypertrophy"
+          },
+          {
+            "Cardiac Lesion": "Truncus arteriosus",
+            "Chest Radiograph": "Cardiomegaly, increased pulmonary vascular markings",
+            "ECG": "Biventricular hypertrophy"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Shock_(duct-dependent_lesion)": {
+          "text": "PGE1\n0.1mcg/kg/min IV/IO\nSide Effects:\nApnea (\nintubate\n)\nHypotension\nBradycardia\nFlushing\nNS\n10cc/kg\nDobutamine",
+          "tables": []
+        },
+        "Tet_Spell": {
+          "text": "Knee chest position\nIncreased venous return to heart, increased SVR (decreased R>L shunting)\nO2\nMorphine\nor\nNS\nto increase preload\nSodium bicarbonate\n2mEq/kg IV bolus (promotes vasodilation)\nPropranolol\n0.2mg/kg IV (relieves infundibular spasm)\nPhenylephrine\n2-10mcg/kg/min to increased SVR",
+          "tables": []
+        },
+        "CHF": {
+          "text": "O2\n(give only if SpO2 <95%)\nFurosemide\n1-2mg/kg IV\nDopamine\n5-10mcg/kg/min\nDobutamine\n5-10mcg/kg/min",
+          "tables": []
+        },
+        "Thrombolysis_for_Surgical_Shunt_Obstruction": {
+          "text": "Blalock-Taussig shunt should maintain flow murmur\nLoss of flow murmur alongside profound hypoxia relative to baseline saturations should prompt consideration for shunt obstruction\nDefinitive treatment is surgical, but systemic recombinant tPA may be considered as salvage intervention when other options are not readily available\n[4]\nHeparin bolus 50-100 u/kg\nNotify cardiology, CT surgeon, ECMO\n0.01 mg/kg bolus r-tPA, then 0.03 - 0.06 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PGE1",
+          "url": "https://wikem.org/wiki/PGE1"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "Tet_Spell": {
+      "text": "Knee chest position\nIncreased venous return to heart, increased SVR (decreased R>L shunting)\nO2\nMorphine\nor\nNS\nto increase preload\nSodium bicarbonate\n2mEq/kg IV bolus (promotes vasodilation)\nPropranolol\n0.2mg/kg IV (relieves infundibular spasm)\nPhenylephrine\n2-10mcg/kg/min to increased SVR",
+      "subsections": {
+        "CHF": {
+          "text": "O2\n(give only if SpO2 <95%)\nFurosemide\n1-2mg/kg IV\nDopamine\n5-10mcg/kg/min\nDobutamine\n5-10mcg/kg/min",
+          "tables": []
+        },
+        "Thrombolysis_for_Surgical_Shunt_Obstruction": {
+          "text": "Blalock-Taussig shunt should maintain flow murmur\nLoss of flow murmur alongside profound hypoxia relative to baseline saturations should prompt consideration for shunt obstruction\nDefinitive treatment is surgical, but systemic recombinant tPA may be considered as salvage intervention when other options are not readily available\n[4]\nHeparin bolus 50-100 u/kg\nNotify cardiology, CT surgeon, ECMO\n0.01 mg/kg bolus r-tPA, then 0.03 - 0.06 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "CHF": {
+      "text": "O2\n(give only if SpO2 <95%)\nFurosemide\n1-2mg/kg IV\nDopamine\n5-10mcg/kg/min\nDobutamine\n5-10mcg/kg/min",
+      "subsections": {
+        "Thrombolysis_for_Surgical_Shunt_Obstruction": {
+          "text": "Blalock-Taussig shunt should maintain flow murmur\nLoss of flow murmur alongside profound hypoxia relative to baseline saturations should prompt consideration for shunt obstruction\nDefinitive treatment is surgical, but systemic recombinant tPA may be considered as salvage intervention when other options are not readily available\n[4]\nHeparin bolus 50-100 u/kg\nNotify cardiology, CT surgeon, ECMO\n0.01 mg/kg bolus r-tPA, then 0.03 - 0.06 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "Thrombolysis_for_Surgical_Shunt_Obstruction": {
+      "text": "Blalock-Taussig shunt should maintain flow murmur\nLoss of flow murmur alongside profound hypoxia relative to baseline saturations should prompt consideration for shunt obstruction\nDefinitive treatment is surgical, but systemic recombinant tPA may be considered as salvage intervention when other options are not readily available\n[4]\nHeparin bolus 50-100 u/kg\nNotify cardiology, CT surgeon, ECMO\n0.01 mg/kg bolus r-tPA, then 0.03 - 0.06 mg/kg/hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Innocent Murmurs (Peds)\nCongenital Heart Defects - Surgical Procedures\nwww.pted.org - list of congenital heart diseases, overviews, management strategies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Innocent Murmurs (Peds)",
+          "url": "https://wikem.org/wiki/Innocent_Murmurs_(Peds)"
+        },
+        {
+          "text": "Congenital Heart Defects - Surgical Procedures",
+          "url": "https://wikem.org/wiki/Congenital_Heart_Defects_-_Surgical_Procedures"
+        }
+      ]
+    }
+  }
+}

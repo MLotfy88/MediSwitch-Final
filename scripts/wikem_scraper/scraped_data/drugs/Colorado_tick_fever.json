@@ -1,0 +1,133 @@
+{
+  "drug_name": "Colorado_tick_fever",
+  "url": "https://wikem.org/wiki/Colorado_tick_fever",
+  "scraped_at": "2026-01-10T07:50:51.144609",
+  "sections": {
+    "Bakground": {
+      "text": "Abbreviation: CTF\nAlso called mountain tick fever, American tick fever\nCaused by RNA virus of genus\nColtivirus\nin family Reoviridae\nPrincipal vector is Rocky Mountain wood tick (\nDermacentor andersoni\n)\nPrincipal zoonotic reservoirs include deer, marmots, porcupines\nEndemic in western mountainous regions of the U.S. and Canada (e.g. Colorado, Idaho)\nDevelops March to September, most cases occur in April, May, June\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_features": {
+      "text": "Incubation time ranges from 1-14 days\nOnset of illness characterized by fever (\nmay be biphasic\n), chills, headache, myalgias, malaise, photophobia\nLess commonly sore throat, vomiting, abdominal pain, skin rash (macular or petechial)\nRarely, patients may develop severe illness that affects central nervous system with symptoms including neck stiffness and confusion\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Tick borne illnesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick borne illnesses",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "drug_name": "Comorbid_diseases_in_pregnancy",
+  "url": "https://wikem.org/wiki/Comorbid_diseases_in_pregnancy",
+  "scraped_at": "2026-01-10T07:50:56.041646",
+  "sections": {
+    "UTI": {
+      "text": "Treat all bacteriuria during pregnancy, even if patient is asymptomatic (reduces risk of pyelo)\nCystitis\nNitrofurantoin\n100mg PO BID x3-10d is agent of choice\nPyelonephritis\nAdmit and treat with\ncephalosporin\nor\nampicillin\n+\ngentamicin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "DKA": {
+      "text": "Any pregnant diabetic presenting to ED who is ill appearing and/or has blood glucose > 180 should be screened for DKA\nManagement guidelines for pregnant women with DKA are the same as for nonpregnant patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Hyperthyroidism": {
+      "text": "Thyrotoxicosis\nin pregnancy may present as\nhyperemesis gravidarum\nAll such patients should receive a screening TSH\nThyroid storm\nis treated similarly to non-pregnant patients\nMethimazole\npreferred over\nPTU\nin 2nd/3rd trimester, and lowest dose possible should be used",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "PTU",
+          "url": "https://wikem.org/wiki/PTU"
+        }
+      ]
+    },
+    "Hypertensive_emergency": {
+      "text": "Labetalol\nis agent of choice",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "Thromboembolism": {
+      "text": "Warfarin\nis\ncontraindicated\nduring pregnancy\nThe highest daily risk of VTE is during the postpartum period\nDVT\n90% occur in the left leg\nPulmonary embolism in pregnancy\nMost common cause of maternal death in the developed world\nIf suspect and lower extremity ultrasound shows DVT,  treat empirically for PE\nIf suspect and lower extremity\nultrasound\nis negative obtain CT chest\nRisk to fetus of childhood cancer from single scan is <1 case per million",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Asthma_Exacerbation": {
+      "text": "Treatment is similar to non-pregnant patients except only use\nepinephrine\nif critically ill\nConcern about potential vasoconstriction of uteroplacental circulation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Sickle_Cell_Disease": {
+      "text": "Maternal complications are most common during 3rd trimester and postpartum period:\nCerebral venous thrombosis\n,\npneumonia\n,\nsepsis\n,\npyelonephritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "Manage similar to non-pregnant patients except avoid\nNSAIDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        }
+      ]
+    },
+    "Seizure": {
+      "text": "Manage similar to non-pregnant patient\nAggressively treat\nstatus epilepticus\n(intubation)\nTreat with\nMagnesium\nif at risk for\neclampsia\n(>20wks gestation or <4wks postpartum\nLoad 4-6g IV over 15min followed by 2-3gm/hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pregnancy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy (Main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "drug_name": "Conjunctival_abrasion",
+  "url": "https://wikem.org/wiki/Conjunctival_abrasion",
+  "scraped_at": "2026-01-10T07:50:59.022789",
+  "sections": {
+    "Background": {
+      "text": "Conjunctiva has less innervation than cornea so patients are far less symptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Foreign body sensation\nMild\npain\nPhotophobia (rare)\nSubconjunctival hemorrhage\n(rare)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Slit-lamp\nexam with fluorescein\nSeidel test to role-out globe perforation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Slit-lamp",
+          "url": "https://wikem.org/wiki/Slit-lamp"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Remove\nconjunctival foreign bodies\nErythromycin\nointment 0.5% QID x2-3d\nSuture of lacerations is almost never required",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "conjunctival foreign bodies",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Corneal Abrasion and Foreign Body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal Abrasion and Foreign Body",
+          "url": "https://wikem.org/wiki/Corneal_Abrasion_and_Foreign_Body"
+        }
+      ]
+    }
+  }
+}

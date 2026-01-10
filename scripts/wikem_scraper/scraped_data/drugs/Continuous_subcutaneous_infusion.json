@@ -1,0 +1,76 @@
+{
+  "drug_name": "Continuous_subcutaneous_infusion",
+  "url": "https://wikem.org/wiki/Continuous_subcutaneous_infusion",
+  "scraped_at": "2026-01-10T07:51:04.449912",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: CSCI\nCommon method of medication administration in palliative medicine, especially for patients near the end of their life.\nThese patients typically require parenteral medications as they lose the ability to take PO meds.\nSubcutaneous route has many advantages over IV\n[1]\nNo risk of phlebitis or air embolus\nAllows patient to retain more mobility (IV site typically on hand or arm; subcutaneous sites include chest, thigh, abdomen)\nMore comfortable for patient\nLess susceptible to occlusion or dislodgement\nSimpler method of administration\nSeen as kinder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Generally used when oral route is unavailable, e.g.\n[2]\nWeakness, drowsiness or coma\nSevere nausea/vomiting\nSevere dysphagia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comparative_Dosing": {
+      "text": "Dexamethasone\n: 4mg orally = 4mg SC (use as stat doses)\nDiclofenac\n: 150mg oral = 75mg SC (use only as CSCI as tissue necrosis has been reported with stat doses)\nHaloperidol\n: 2mg oral = 1mg SC\nHydromorphone\n: 3mg oral = 1mg SC\nLevetiracetam\n: 250mg oral = 250mg SC (use only as CSCI)\nLevomepromazine: 25mg oral = 12.5mg SC\nMethadone\n: 10mg oral = 5mg SC (typically used as a stat dose rather than via CSCI)\nMorphine\n: 30mg oral = 10mg SC (use as stat doses for break-through pain and via CSCI for background pain)\nOndansetron\n: 8mg oral = 4mg SC (typically used as a stat dose rather than via CSCI)\nOxycodone\n: 10mg oral = 5mg SC (use as stat doses for break-through pain and via CSCI for background pain)\nRanitidine\n: 100mg oral = 50mg SC\nValproate\n: 200mg oral = 200mg SC (use as CSCI)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        }
+      ]
+    },
+    "Combinations": {
+      "text": "Mixing mediations in subcutaneous infusions can cause problems if there are drug incompatibilities that cause reactions. Look for crystallization when mixing medications.\nSome common compatible combinations include:\nMorphine (or oxycodone) plus\nHaloperidol\nLevomepromazine\nMetoclopramide\nHaloperidol plus hyoscine butylbromide\nHaloperidol plus midazolam\nHaloperidol plus octreotide\nHaloperidol plus midazolam plus hyoscine butylbromide\nHaloperidol plus midazolam plus metoclopramide\nHaloperidol plus midazolam plus hyoscine butylbromide\nFentanyl plus\nHaloperidol\nHyoscine butylbromide\nMetoclopramide\nHaloperidol plus midazolam\nHaloperidol plus midaozolam plus hyoscine butylbromide\nOpioid-free combinations\nHaloperidol plus ondansetron\nHaloperidol plus hyoscine butylbromide plus octreotide plus ranitidine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "drug_name": "Conversion_disorder",
+  "url": "https://wikem.org/wiki/Conversion_disorder",
+  "scraped_at": "2026-01-10T07:51:04.172240",
+  "sections": {
+    "Background": {
+      "text": "Neurologic symptoms believed to be related to a psychiatric condition\n[1]\nSymptoms are not intentionally produced\nPatient is often unconcerned or neutral to the neural deficit\nRecurrence is common, but good prognosis with single episode\nLikelihood of recovery exceeds that of other somatoform disorders\nGood prognostic indicators include\ngood premorbid health\nabsence of organic illness or concomitant major psychiatric syndromes\nacute and recent onset\ndefinite precipitation by a stressful event\npresenting symptoms of paralysis, aphonia, or blindness.\nDiagnosis of exclusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "A. One or more symptoms of altered voluntary motor or sensory function\n[2]\nB. Clinical findings provide evidence of incompatibility between the symptom and recog­nized neurological or medical conditions\nC. The symptom or deficit is not better explained by another medical or mental disorder\nD. The symptom or deficit causes clinically significant distress or impairment in social, oc­cupational, or other important areas of functioning or warrants medical evaluation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Malingering\nHypokalemic Periodic Paralysis\nComplex regional pain syndrome\nMultiple Sclerosis\nMyasthenia Gravis\nStroke\nGuillain-Barre Syndrome\nSpinal Impingement/Epidural Abscess",
+      "subsections": {
+        "General_Psychiatric": {
+          "text": "Organic causes\nDelirium\nDementia\nOverdose\nPsychiatric causes\nDepression\nAnxiety\nConversion disorder\nBipolar disorder\nAcute psychosis\nPanic attack\nSchizophrenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemic Periodic Paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Complex regional pain syndrome",
+          "url": "https://wikem.org/wiki/Complex_regional_pain_syndrome"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Guillain-Barre Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_Syndrome"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "General_Psychiatric": {
+      "text": "Organic causes\nDelirium\nDementia\nOverdose\nPsychiatric causes\nDepression\nAnxiety\nConversion disorder\nBipolar disorder\nAcute psychosis\nPanic attack\nSchizophrenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "All test will be negative: should consider CT, CBC, CHEM 10, LP, Possible MRI if concerned for spinal pathology\nOptokinetic drum\nin situations of factitious blindness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No current treatment, often symptoms will resolve if psychiatric connection is made to patient\nPsych will sometimes recommend acute rehab as outpatient to work on specific presenting symptoms\nCo-treatment of associated psychiatric syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Can often be discharged from ED if good support system, consider admission for psychiatric evaluation\nSet up close psychiatric or neurology follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

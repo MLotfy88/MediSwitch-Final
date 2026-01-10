@@ -1,0 +1,283 @@
+{
+  "drug_name": "Colles%27_fracture",
+  "url": "https://wikem.org/wiki/Colles%27_fracture",
+  "scraped_at": "2026-01-10T07:50:54.715099",
+  "sections": {
+    "Background": {
+      "text": "Distal radial metaphysis fracture that is dorsally displaced and angulated\nFracture line may extend into radioulnar or radiocarpal joint (\"die-punch\" fracture)\nOccurs due to FOOSH\nUlnar styloid fracture is often present and suggests injury to TFCC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Characteristic dorsiflexion or \"dinner-fork\" deformity\nPalmar paresthesias (pressure on median nerve)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_radius_fractures": {
+          "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+          "tables": []
+        },
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fractures": {
+      "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+      "subsections": {
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fracture_eponyms": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Eponyms": "Barton's",
+            "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+          },
+          {
+            "Eponyms": "Chauffer's",
+            "Description": "Fracture of radial styloid"
+          },
+          {
+            "Eponyms": "Colles'",
+            "Description": "Dorsally displaced, extra-articular fracture"
+          },
+          {
+            "Eponyms": "Die-punch",
+            "Description": "Depressed fracture of the lunate fossa (articular surface)"
+          },
+          {
+            "Eponyms": "Smith's",
+            "Description": "Volar displaced, extra-articular fracture"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "PA\nDistal metaphyseal fracture that often appears shortened from angulation or comminution\nLateral\nProvides best view of dorsal angulation and comminution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "PA\nDistal metaphyseal fracture that often appears shortened from angulation or comminution\nLateral\nProvides best view of dorsal angulation and comminution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Unstable Fracture - Immediate ortho referral\n>20 degrees angulation\nIntra-articular involvement\nMarked comminution\n>2/3 displacement\n5mm shortening of the radius\nStable Fracture\nUse\nProcedural sedation\nor\nHematoma block\nHang 10 lb weight with finger traps or otherwise provide longitudinal traction\nRecreate the injury by extending wrist to 90 degrees while elbow is flexed\nPull distal segment back, up, and then out; use both thumbs to apply volar pressure\nImmobilize wrist with\nsugar tong splint\nat 15 degrees of flexion, 20 degrees of ulnar deviation, and slight pronation\n[1]\nGoals for post-reduction X rays: normal radius length, normal radial inclination of 15-30 degrees and volar tilt of 10-15 degrees",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Unstable Fracture - Immediate ortho referral\n>20 degrees angulation\nIntra-articular involvement\nMarked comminution\n>2/3 displacement\n5mm shortening of the radius\nStable Fracture\nUse\nProcedural sedation\nor\nHematoma block\nHang 10 lb weight with finger traps or otherwise provide longitudinal traction\nRecreate the injury by extending wrist to 90 degrees while elbow is flexed\nPull distal segment back, up, and then out; use both thumbs to apply volar pressure\nImmobilize wrist with\nsugar tong splint\nat 15 degrees of flexion, 20 degrees of ulnar deviation, and slight pronation\n[1]\nGoals for post-reduction X rays: normal radius length, normal radial inclination of 15-30 degrees and volar tilt of 10-15 degrees",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Unstable Fracture - Immediate ortho referral\n>20 degrees angulation\nIntra-articular involvement\nMarked comminution\n>2/3 displacement\n5mm shortening of the radius\nStable Fracture\nUse\nProcedural sedation\nor\nHematoma block\nHang 10 lb weight with finger traps or otherwise provide longitudinal traction\nRecreate the injury by extending wrist to 90 degrees while elbow is flexed\nPull distal segment back, up, and then out; use both thumbs to apply volar pressure\nImmobilize wrist with\nsugar tong splint\nat 15 degrees of flexion, 20 degrees of ulnar deviation, and slight pronation\n[1]\nGoals for post-reduction X rays: normal radius length, normal radial inclination of 15-30 degrees and volar tilt of 10-15 degrees",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient with ortho follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Distal radius fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        }
+      ]
+    }
+  }
+}

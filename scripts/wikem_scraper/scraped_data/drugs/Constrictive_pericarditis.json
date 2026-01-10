@@ -1,0 +1,447 @@
+{
+  "drug_name": "Constrictive_pericarditis",
+  "url": "https://wikem.org/wiki/Constrictive_pericarditis",
+  "scraped_at": "2026-01-10T07:51:04.607812",
+  "sections": {
+    "Background": {
+      "text": "Occurs when normally elastic pericardium becomes thickened and fibrotic (i.e., loss of elasticiticty)\n[1]\nCan be infectious, post-cardiac surgery, inflammatory, idiopathic or related to radiation exposure\n[2]\nImpairs diastolic filling of heart\nMust distinguish from\nrestrictive cardiomyopathy\nTypically chronic complication of\npericarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pleuritic chest pain\nMalaise\nSymptoms similar to\ncongestive heart failure\n, especially right sided\nDyspnea\nLower extremity edema\nJugular venous distention\nCharacteristic symptoms of\npericarditis\nless frequent in recurrent presentations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiomyopathy": {
+          "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+          "tables": []
+        },
+        "Congestive_heart_failure": {
+          "text": "Cardiovascular\nACS\nAcute valve dysfunction\nAortic dissection\nDysrhthymia\nEndocarditis\nHypertensive emergency\nPericardial tamponade\nConstrictive pericarditis\nPulmonary\nCOPD\nPulmonary embolism\nPneumonia\nPneumothorax\nOther\nPure volume overload\nRenal failure\nPost-\nTransfusion\nSepsis\nAnaphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Acute valve dysfunction",
+          "url": "https://wikem.org/wiki/Acute_valve_dysfunction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Dysrhthymia",
+          "url": "https://wikem.org/wiki/Dysrhthymia"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Cardiomyopathy": {
+      "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+      "subsections": {
+        "Congestive_heart_failure": {
+          "text": "Cardiovascular\nACS\nAcute valve dysfunction\nAortic dissection\nDysrhthymia\nEndocarditis\nHypertensive emergency\nPericardial tamponade\nConstrictive pericarditis\nPulmonary\nCOPD\nPulmonary embolism\nPneumonia\nPneumothorax\nOther\nPure volume overload\nRenal failure\nPost-\nTransfusion\nSepsis\nAnaphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Acute valve dysfunction",
+          "url": "https://wikem.org/wiki/Acute_valve_dysfunction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Dysrhthymia",
+          "url": "https://wikem.org/wiki/Dysrhthymia"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Congestive_heart_failure": {
+      "text": "Cardiovascular\nACS\nAcute valve dysfunction\nAortic dissection\nDysrhthymia\nEndocarditis\nHypertensive emergency\nPericardial tamponade\nConstrictive pericarditis\nPulmonary\nCOPD\nPulmonary embolism\nPneumonia\nPneumothorax\nOther\nPure volume overload\nRenal failure\nPost-\nTransfusion\nSepsis\nAnaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Acute valve dysfunction",
+          "url": "https://wikem.org/wiki/Acute_valve_dysfunction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Dysrhthymia",
+          "url": "https://wikem.org/wiki/Dysrhthymia"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Initial evaluation:\nCBC\nChemistry\nECG\nNo pathognomonic findings, however may be associated with nonspecific ST and T wave changes, atrial fibrillation, and low voltage\n[3]\nCXR\nRing of calcification around the heart, however the majority of patients will not have this\nTroponin\n/CK\nBNP\nUltrasound\nFormal\nTTE/TEE\nAdvanced evaluation\nCardiac CT/MR\nInvasive hemodynamic evaluation",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "No single diagnostic imaging/evaluation parameter\nMust be differentiated from\ntamponade\nand disorders such as\nrestrictive cardiomyopathy\nas management is different for each of these pathologies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "TTE/TEE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Initial evaluation:\nCBC\nChemistry\nECG\nNo pathognomonic findings, however may be associated with nonspecific ST and T wave changes, atrial fibrillation, and low voltage\n[3]\nCXR\nRing of calcification around the heart, however the majority of patients will not have this\nTroponin\n/CK\nBNP\nUltrasound\nFormal\nTTE/TEE\nAdvanced evaluation\nCardiac CT/MR\nInvasive hemodynamic evaluation",
+      "subsections": {
+        "Diagnosis": {
+          "text": "No single diagnostic imaging/evaluation parameter\nMust be differentiated from\ntamponade\nand disorders such as\nrestrictive cardiomyopathy\nas management is different for each of these pathologies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "TTE/TEE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "No single diagnostic imaging/evaluation parameter\nMust be differentiated from\ntamponade\nand disorders such as\nrestrictive cardiomyopathy\nas management is different for each of these pathologies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "If no signs of chronic process: Medical management (Colchicine, NSAIDs for 2-3 months)\nChronic signs: Anasarca, cachexia,\natrial fibrillation\n, hepatic dysfunction, pericardial calcification\nIf chronic process: Pericardiectomy\n[4]\nDefinitive treatment is surgical pericardiectomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Restrictive cardiomyopathy\nCardiomyopathy\nCongestive heart failure\nPericarditis\nPulsus paradoxus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pulsus paradoxus",
+          "url": "https://wikem.org/wiki/Pulsus_paradoxus"
+        }
+      ]
+    }
+  }
+}

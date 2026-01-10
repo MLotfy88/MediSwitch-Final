@@ -1,0 +1,490 @@
+{
+  "drug_name": "Colchicine_toxicity",
+  "url": "https://wikem.org/wiki/Colchicine_toxicity",
+  "scraped_at": "2026-01-10T07:50:48.646309",
+  "sections": {
+    "Background": {
+      "text": "Derived from C. autumnale (wild saffron, meadow saffron, autum crocus, naked lady) and G. superba (glory lily)\nC. autumnale resembles wild garlic\nC. autumnale\nG. superba may be confused for sweet potatoes\nG. superba\nFirst published in the first century in\nPedanius Dioscorides De Materia Medica",
+      "subsections": {
+        "Uses": {
+          "text": "Gout\nFamilial Mediterranean fever\nPericarditis",
+          "tables": []
+        },
+        "Toxicokinetics": {
+          "text": "Inhibitor of microtubule formation and function\nRapidly absorbed in the jenjunum and ileum\nBioavaiability of 25-50%\nLipid soluble\nVolume of distribution from 2.2-12L/kg, may increase to 21L/kg in overdose\n50% bound to plasma proteins\nPeak serum concentration in 1-3 hours\nMetabolized by liver via CYP3A4\nUndergoes enterohepatic recirculation\nSerum half-life 9-108 minutes\nToxicity usually occurs at levels >3ng/ml",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uses": {
+      "text": "Gout\nFamilial Mediterranean fever\nPericarditis",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "Inhibitor of microtubule formation and function\nRapidly absorbed in the jenjunum and ileum\nBioavaiability of 25-50%\nLipid soluble\nVolume of distribution from 2.2-12L/kg, may increase to 21L/kg in overdose\n50% bound to plasma proteins\nPeak serum concentration in 1-3 hours\nMetabolized by liver via CYP3A4\nUndergoes enterohepatic recirculation\nSerum half-life 9-108 minutes\nToxicity usually occurs at levels >3ng/ml",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxicokinetics": {
+      "text": "Inhibitor of microtubule formation and function\nRapidly absorbed in the jenjunum and ileum\nBioavaiability of 25-50%\nLipid soluble\nVolume of distribution from 2.2-12L/kg, may increase to 21L/kg in overdose\n50% bound to plasma proteins\nPeak serum concentration in 1-3 hours\nMetabolized by liver via CYP3A4\nUndergoes enterohepatic recirculation\nSerum half-life 9-108 minutes\nToxicity usually occurs at levels >3ng/ml",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Triphasic": {
+          "text": "Phase I\nOnset 12-24 hours post ingestion\nGI manifestations\nPhase II\n24 hours- several days\nWide spread organ dysfunction\nPhase III\nRecovery or death\nLasts approximately 1 week",
+          "tables": []
+        },
+        "GI": {
+          "text": "Vomiting and diarrhea\nAbdominal pain",
+          "tables": []
+        },
+        "Hematopoietic": {
+          "text": "Peripheral leukocytosis followed by profound leukopenia\nPancytopenia within 48-72 hours\nRecovery of all cell lines occurs if patient survives",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Dysrhythmias\nCardiac arrest\nOccurs within 24-36 hours",
+          "tables": []
+        },
+        "Pulmonology": {
+          "text": "Acute respiratory distress syndrome",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Triphasic": {
+      "text": "Phase I\nOnset 12-24 hours post ingestion\nGI manifestations\nPhase II\n24 hours- several days\nWide spread organ dysfunction\nPhase III\nRecovery or death\nLasts approximately 1 week",
+      "subsections": {
+        "GI": {
+          "text": "Vomiting and diarrhea\nAbdominal pain",
+          "tables": []
+        },
+        "Hematopoietic": {
+          "text": "Peripheral leukocytosis followed by profound leukopenia\nPancytopenia within 48-72 hours\nRecovery of all cell lines occurs if patient survives",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Dysrhythmias\nCardiac arrest\nOccurs within 24-36 hours",
+          "tables": []
+        },
+        "Pulmonology": {
+          "text": "Acute respiratory distress syndrome",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "GI": {
+      "text": "Vomiting and diarrhea\nAbdominal pain",
+      "subsections": {
+        "Hematopoietic": {
+          "text": "Peripheral leukocytosis followed by profound leukopenia\nPancytopenia within 48-72 hours\nRecovery of all cell lines occurs if patient survives",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Dysrhythmias\nCardiac arrest\nOccurs within 24-36 hours",
+          "tables": []
+        },
+        "Pulmonology": {
+          "text": "Acute respiratory distress syndrome",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Hematopoietic": {
+      "text": "Peripheral leukocytosis followed by profound leukopenia\nPancytopenia within 48-72 hours\nRecovery of all cell lines occurs if patient survives",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Dysrhythmias\nCardiac arrest\nOccurs within 24-36 hours",
+          "tables": []
+        },
+        "Pulmonology": {
+          "text": "Acute respiratory distress syndrome",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Dysrhythmias\nCardiac arrest\nOccurs within 24-36 hours",
+      "subsections": {
+        "Pulmonology": {
+          "text": "Acute respiratory distress syndrome",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Pulmonology": {
+      "text": "Acute respiratory distress syndrome",
+      "subsections": {
+        "Neurologic": {
+          "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Neurologic": {
+      "text": "Myopathy\nNeuropathy\nMyoneuropathy\nSeizures",
+      "subsections": {
+        "Musculoskeletal": {
+          "text": "Rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Musculoskeletal": {
+      "text": "Rhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Heavy_metal_toxicity": {
+          "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorous toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorous toxicity",
+          "url": "https://wikem.org/wiki/Phosphorous_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Heavy_metal_toxicity": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorous toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorous toxicity",
+          "url": "https://wikem.org/wiki/Phosphorous_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Colchicine levels do not return in a timely manner\nNo correlation with severity of illness\n>3.0ng/ml generally associated with toxicity\nBMP\nIncluding calcium, magnesium, and phosphorus\nLFTs\nCBC\nCoagulation factors\nCPK\nUrinalysis\nEKG\nCXR\nDepending on clinical situation\nTroponin\nABG\nLactate\nFibrinogen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care\nGI Decontamination\nOro\ngastric lavage\nin patients who present within 1-2 hours without vomiting\nActivated charcoal\nand consider\nMultidose activated charcoal\nAntidotal therapy\nColchine-specific Fab fragments\nNot commercially available\nGranulocyte-colony stimulating factor (G-CSF)\nuseful in treating patients who develop leukopenia and thrombocytopenia\nExtracorporeal elimination\nNo benefit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "All symptomatic patients require admission to ICU\nPatients who do not develop GI symptoms within 8-12 hours after ingestion likely have not developed significant poisoning\nConsult Toxicology or\npoison control",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        }
+      ]
+    },
+    "References": {
+      "text": "Schier, J. Colchicine, Podophyllin and the Vinca Alkaloids. In: Goldfrank's Toxicologic Emergencies. 9th Ed. New York: McGraw-Hill; 2011: 537-547",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

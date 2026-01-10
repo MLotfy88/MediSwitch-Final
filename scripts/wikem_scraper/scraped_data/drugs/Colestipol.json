@@ -1,0 +1,119 @@
+{
+  "drug_name": "Colestipol",
+  "url": "https://wikem.org/wiki/Colestipol",
+  "scraped_at": "2026-01-10T07:50:48.582933",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Type: Bile Acid Binder\nDosage Forms: 1 g tab; 5 g/scoop granules; 5 g granule packet\nRoutes of Administration: Oral\nCommon Trade Names: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Digoxin toxicity\n, adjunct tx\nGranules: 5 g PO q6-8h\nStart: 10 g PO x1 within 1-3h after last oral digoxin ingestion\nMax: 30 g/day\nGallbladder surgery-associated\ndiarrhea\n, adjunct tx\nTabs: 2-16 g/day PO divided QD-QID\nStart: 2 g PO QD-bid\nMax: 16 g/day.\nDo not crush/cut/chew\nGranules:5-30 g/day PO divided QD-QID\nStart: 5 g PO QD-bid\nMax: 30 g/day\nHypercholesterolemia\nTabs: 2-16 g/day PO divided QD-QID\nStart: 2 g PO QD-bid\nMax: 16 g/day.\nDo not crush/cut/chew\nGranules:5-30 g/day PO divided QD-QID\nStart: 5 g PO QD-bid\nMax: 30 g/day\nPruritus\nsecondary to biliary obstruction\nTabs: 2-16 g/day PO divided QD-QID\nStart: 2 g PO QD-bid\nMax: 16 g/day.\nDo not crush/cut/chew\nGranules:5-30 g/day PO divided QD-QID\nStart: 5 g PO QD-bid\nMax: 30 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Pediatric dosing currently unavailable.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Inadequate data to assess risk\nLactation risk: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined.\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution if constipation\nCaution if prolonged use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Fecal impaction\nPUD\nCholecystitis\nCholelithiasis\nEsophageal obstruction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Constipation\nAbdominal pain\nAbdominal cramps\nAbdominal distention\nFlatulence\nDyspepsia\nLoose stool/\nDiarrhea\nNausea\n/\nVomiting\nALT, AST elevation\nAlk Phos. elevation\nBleeding\nhemorrhoids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Fecal impaction\nPUD\nCholecystitis\nCholelithiasis\nEsophageal obstruction",
+      "subsections": {
+        "Common": {
+          "text": "Constipation\nAbdominal pain\nAbdominal cramps\nAbdominal distention\nFlatulence\nDyspepsia\nLoose stool/\nDiarrhea\nNausea\n/\nVomiting\nALT, AST elevation\nAlk Phos. elevation\nBleeding\nhemorrhoids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Constipation\nAbdominal pain\nAbdominal cramps\nAbdominal distention\nFlatulence\nDyspepsia\nLoose stool/\nDiarrhea\nNausea\n/\nVomiting\nALT, AST elevation\nAlk Phos. elevation\nBleeding\nhemorrhoids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: N/A\nExcretion: Feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds intestinal bile acids for excretion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Digoxin toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

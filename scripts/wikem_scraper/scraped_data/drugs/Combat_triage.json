@@ -1,0 +1,127 @@
+{
+  "drug_name": "Combat_triage",
+  "url": "https://wikem.org/wiki/Combat_triage",
+  "scraped_at": "2026-01-10T07:50:57.219336",
+  "sections": {
+    "Background": {
+      "text": "Triage refers to sorting of patients by immediate medical need\nIn a combat scenario, there are limited resources for treatment and transport, as well as tactical considerations for medical care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Principles": {
+      "text": "Accomplish the greatest good for the greatest number of casualties\nEmploy the most efficient use of available resources\nReturn personnel to duty as soon as possible",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Combat_Triage_Categories": {
+      "text": "",
+      "subsections": {
+        "Green": {
+          "text": "Also MINIMAL\nThese are the walking wounded\nThese should be treated by self-aid or Combat Life Saver\nThey can be used to continue the mission but may need to play an augmented role\nInjuries may include small burns, lacerations, abrasions, and small fractures",
+          "tables": []
+        },
+        "Yellow": {
+          "text": "Also DELAYED\nThese patients are more seriously injuried\nThey may eventually need surgical intervention\nTheir general condition allows for treatment to be delays without endangering life or limb\nMedical treatment (splinting, pain control, etc.) will be required but it can wait\nInjuries may include hemodynamically stable patients with large soft tissue wounds, long bone fractures, intra-abdominal or thoracic wounds, or burns to less than 20% of total body surface area",
+          "tables": []
+        },
+        "Red": {
+          "text": "Also IMMEDIATE\nThese patients require immediate life saving intervention\nLocate these individuals as quickly as possible\nIf not triaged and treated, they will die\nInjuries may include hemodynamically unstable patients with airway involvement, chest or abdominal injuries, massive external bleeding, or shock",
+          "tables": []
+        },
+        "Black": {
+          "text": "Also EXPECTANT\nIn these patients, survival would be highly unlikely\nIf able, they should receive comfort measures, pain medications\nInjuries may include penetrating or blunt head wounds and those with absent radial pulses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Green": {
+      "text": "Also MINIMAL\nThese are the walking wounded\nThese should be treated by self-aid or Combat Life Saver\nThey can be used to continue the mission but may need to play an augmented role\nInjuries may include small burns, lacerations, abrasions, and small fractures",
+      "subsections": {
+        "Yellow": {
+          "text": "Also DELAYED\nThese patients are more seriously injuried\nThey may eventually need surgical intervention\nTheir general condition allows for treatment to be delays without endangering life or limb\nMedical treatment (splinting, pain control, etc.) will be required but it can wait\nInjuries may include hemodynamically stable patients with large soft tissue wounds, long bone fractures, intra-abdominal or thoracic wounds, or burns to less than 20% of total body surface area",
+          "tables": []
+        },
+        "Red": {
+          "text": "Also IMMEDIATE\nThese patients require immediate life saving intervention\nLocate these individuals as quickly as possible\nIf not triaged and treated, they will die\nInjuries may include hemodynamically unstable patients with airway involvement, chest or abdominal injuries, massive external bleeding, or shock",
+          "tables": []
+        },
+        "Black": {
+          "text": "Also EXPECTANT\nIn these patients, survival would be highly unlikely\nIf able, they should receive comfort measures, pain medications\nInjuries may include penetrating or blunt head wounds and those with absent radial pulses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Yellow": {
+      "text": "Also DELAYED\nThese patients are more seriously injuried\nThey may eventually need surgical intervention\nTheir general condition allows for treatment to be delays without endangering life or limb\nMedical treatment (splinting, pain control, etc.) will be required but it can wait\nInjuries may include hemodynamically stable patients with large soft tissue wounds, long bone fractures, intra-abdominal or thoracic wounds, or burns to less than 20% of total body surface area",
+      "subsections": {
+        "Red": {
+          "text": "Also IMMEDIATE\nThese patients require immediate life saving intervention\nLocate these individuals as quickly as possible\nIf not triaged and treated, they will die\nInjuries may include hemodynamically unstable patients with airway involvement, chest or abdominal injuries, massive external bleeding, or shock",
+          "tables": []
+        },
+        "Black": {
+          "text": "Also EXPECTANT\nIn these patients, survival would be highly unlikely\nIf able, they should receive comfort measures, pain medications\nInjuries may include penetrating or blunt head wounds and those with absent radial pulses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Red": {
+      "text": "Also IMMEDIATE\nThese patients require immediate life saving intervention\nLocate these individuals as quickly as possible\nIf not triaged and treated, they will die\nInjuries may include hemodynamically unstable patients with airway involvement, chest or abdominal injuries, massive external bleeding, or shock",
+      "subsections": {
+        "Black": {
+          "text": "Also EXPECTANT\nIn these patients, survival would be highly unlikely\nIf able, they should receive comfort measures, pain medications\nInjuries may include penetrating or blunt head wounds and those with absent radial pulses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Black": {
+      "text": "Also EXPECTANT\nIn these patients, survival would be highly unlikely\nIf able, they should receive comfort measures, pain medications\nInjuries may include penetrating or blunt head wounds and those with absent radial pulses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Tips": {
+      "text": "Patients who can ambulate and follow instructions usually will fall into the minimal category\nStatements such as “If you hear me, move behind this wall\" can triage a large portion of the casualties in a short time\nPatients with obvious signs of death should be considered Expectant\nMassive bleeding can be life threatening and may need a\ntourniquet\n, a\nhemostatic agent\n, or a pressure bandage\nOnce life saving intervention is completed, they can be re-triaged",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "hemostatic agent",
+          "url": "https://wikem.org/wiki/Hemostatic_agents"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Field trauma triage\nMass casualty incident triage\nTactical combat casualty care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Field trauma triage",
+          "url": "https://wikem.org/wiki/Field_trauma_triage"
+        },
+        {
+          "text": "Mass casualty incident triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        },
+        {
+          "text": "Tactical combat casualty care",
+          "url": "https://wikem.org/wiki/Tactical_combat_casualty_care"
+        }
+      ]
+    }
+  }
+}
