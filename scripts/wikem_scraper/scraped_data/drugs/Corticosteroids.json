@@ -1,0 +1,502 @@
+{
+  "drug_name": "Corticosteroids",
+  "url": "https://wikem.org/wiki/Corticosteroids",
+  "scraped_at": "2026-01-10T07:51:09.576796",
+  "sections": {
+    "Systemic_Agents": {
+      "text": "",
+      "subsections": {
+        "Oral_Agents": {
+          "text": "Prednisolone\nPrednisone\nDexamethasone\nFludrocortisone\nCortisone\n,\nHydrocortisone",
+          "tables": []
+        },
+        "Parenteral_Agents": {
+          "text": "Methylprednisolone\nDexamethasone\nCortisone\n,\nHydrocortisone\nBetamethasone\nSodium Phosphate/Betamethasone Acetate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Fludrocortisone",
+          "url": "https://wikem.org/wiki/Fludrocortisone"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        }
+      ]
+    },
+    "Oral_Agents": {
+      "text": "Prednisolone\nPrednisone\nDexamethasone\nFludrocortisone\nCortisone\n,\nHydrocortisone",
+      "subsections": {
+        "Parenteral_Agents": {
+          "text": "Methylprednisolone\nDexamethasone\nCortisone\n,\nHydrocortisone\nBetamethasone\nSodium Phosphate/Betamethasone Acetate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Fludrocortisone",
+          "url": "https://wikem.org/wiki/Fludrocortisone"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        }
+      ]
+    },
+    "Parenteral_Agents": {
+      "text": "Methylprednisolone\nDexamethasone\nCortisone\n,\nHydrocortisone\nBetamethasone\nSodium Phosphate/Betamethasone Acetate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        }
+      ]
+    },
+    "Inhalational_Agents": {
+      "text": "Flunisolide\nFluticasone furoate\n,\nFluticasone propionate\nTriamcinolone acetonide\nBeclomethasone\nBudesonide\n(Pulmicort)\nCiclesonide\nMometasone\n(Nasonex)\nCombination inhalers\nAzelastine hydrochloride\n/\nFluticasone propionate\n*\nFluticasone propionate\n/\nsalmeterol\nxinafoate\nBudesonide/Formoterol\nMometasone furoate/Formoterol fumarate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Beclomethasone",
+          "url": "https://wikem.org/wiki/Beclomethasone"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ciclesonide",
+          "url": "https://wikem.org/wiki/Ciclesonide"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Budesonide/Formoterol",
+          "url": "https://wikem.org/wiki/Budesonide/Formoterol"
+        },
+        {
+          "text": "Mometasone furoate/Formoterol fumarate",
+          "url": "https://wikem.org/wiki/Mometasone_furoate/Formoterol_fumarate"
+        }
+      ]
+    },
+    "Topical_Agents": {
+      "text": "",
+      "subsections": {
+        "Topical_steroids,_Dermatologic": {
+          "text": "Clobetasol\nBetamethasone\nHalobetasol\nDiflorasone diacetate\nFluocinonide\nHalcinonide\nAmcinonide\nDesoximetasone\nTriamcinolone\nMometasone\nFluticasone\nHalometasone\nFluocinolone\nHydrocortisone\nFlurandrenolide\nDesonide\nAlclometasone",
+          "tables": []
+        },
+        "Ophthalmic_Steroids": {
+          "text": "Loteprednol\n((Alrex, Lotemax)\nDexamethasone\nophthalmic\nDifluprednate ophthalmic (Durezol)\nFluorometholone\nPrednisolone\nacetate (Omnipred, PredFort), prednisolone sodium phosphate\nRimexolone (Vexol)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clobetasol",
+          "url": "https://wikem.org/wiki/Clobetasol"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Triamcinolone",
+          "url": "https://wikem.org/wiki/Triamcinolone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Topical_steroids,_Dermatologic": {
+      "text": "Clobetasol\nBetamethasone\nHalobetasol\nDiflorasone diacetate\nFluocinonide\nHalcinonide\nAmcinonide\nDesoximetasone\nTriamcinolone\nMometasone\nFluticasone\nHalometasone\nFluocinolone\nHydrocortisone\nFlurandrenolide\nDesonide\nAlclometasone",
+      "subsections": {
+        "Ophthalmic_Steroids": {
+          "text": "Loteprednol\n((Alrex, Lotemax)\nDexamethasone\nophthalmic\nDifluprednate ophthalmic (Durezol)\nFluorometholone\nPrednisolone\nacetate (Omnipred, PredFort), prednisolone sodium phosphate\nRimexolone (Vexol)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clobetasol",
+          "url": "https://wikem.org/wiki/Clobetasol"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Triamcinolone",
+          "url": "https://wikem.org/wiki/Triamcinolone"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Ophthalmic_Steroids": {
+      "text": "Loteprednol\n((Alrex, Lotemax)\nDexamethasone\nophthalmic\nDifluprednate ophthalmic (Durezol)\nFluorometholone\nPrednisolone\nacetate (Omnipred, PredFort), prednisolone sodium phosphate\nRimexolone (Vexol)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Relative_Strengths": {
+      "text": "",
+      "subsections": {
+        "Comparative_Steroid_Potencies": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Cortisol (hydrocortisone)",
+                "Glucocorticoid potency": "1",
+                "Mineralocorticoid potency": "1",
+                "Duration of action (t1/2in hours)": "8"
+              },
+              {
+                "Name": "Cortisone",
+                "Glucocorticoid potency": "0.8",
+                "Mineralocorticoid potency": "0.8",
+                "Duration of action (t1/2in hours)": "oral 8, intramuscular 18+"
+              },
+              {
+                "Name": "Prednisone",
+                "Glucocorticoid potency": "3.5-5",
+                "Mineralocorticoid potency": "0.8",
+                "Duration of action (t1/2in hours)": "16-36"
+              },
+              {
+                "Name": "Prednisolone",
+                "Glucocorticoid potency": "4",
+                "Mineralocorticoid potency": "0.8",
+                "Duration of action (t1/2in hours)": "16-36"
+              },
+              {
+                "Name": "Methylprednisolone",
+                "Glucocorticoid potency": "5-7.5",
+                "Mineralocorticoid potency": "0.5",
+                "Duration of action (t1/2in hours)": "18-40"
+              },
+              {
+                "Name": "Dexamethasone",
+                "Glucocorticoid potency": "25-80",
+                "Mineralocorticoid potency": "0",
+                "Duration of action (t1/2in hours)": "36-54"
+              },
+              {
+                "Name": "Betamethasone",
+                "Glucocorticoid potency": "25-30",
+                "Mineralocorticoid potency": "0",
+                "Duration of action (t1/2in hours)": "36-54"
+              },
+              {
+                "Name": "Triamcinolone",
+                "Glucocorticoid potency": "5",
+                "Mineralocorticoid potency": "0",
+                "Duration of action (t1/2in hours)": "12-36"
+              },
+              {
+                "Name": "Beclometasone",
+                "Glucocorticoid potency": "8 puffs 4 times a dayequals 14 mg oralprednisone once a day",
+                "Mineralocorticoid potency": "-",
+                "Duration of action (t1/2in hours)": "-"
+              },
+              {
+                "Name": "Fludrocortisoneacetate",
+                "Glucocorticoid potency": "15",
+                "Mineralocorticoid potency": "200",
+                "Duration of action (t1/2in hours)": "24"
+              },
+              {
+                "Name": "Deoxycorticosteroneacetate (DOCA)",
+                "Glucocorticoid potency": "0",
+                "Mineralocorticoid potency": "20",
+                "Duration of action (t1/2in hours)": "-"
+              },
+              {
+                "Name": "Aldosterone",
+                "Glucocorticoid potency": "0.3",
+                "Mineralocorticoid potency": "200-1000",
+                "Duration of action (t1/2in hours)": "-"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Comparative_Steroid_Potencies": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Name": "Cortisol (hydrocortisone)",
+            "Glucocorticoid potency": "1",
+            "Mineralocorticoid potency": "1",
+            "Duration of action (t1/2in hours)": "8"
+          },
+          {
+            "Name": "Cortisone",
+            "Glucocorticoid potency": "0.8",
+            "Mineralocorticoid potency": "0.8",
+            "Duration of action (t1/2in hours)": "oral 8, intramuscular 18+"
+          },
+          {
+            "Name": "Prednisone",
+            "Glucocorticoid potency": "3.5-5",
+            "Mineralocorticoid potency": "0.8",
+            "Duration of action (t1/2in hours)": "16-36"
+          },
+          {
+            "Name": "Prednisolone",
+            "Glucocorticoid potency": "4",
+            "Mineralocorticoid potency": "0.8",
+            "Duration of action (t1/2in hours)": "16-36"
+          },
+          {
+            "Name": "Methylprednisolone",
+            "Glucocorticoid potency": "5-7.5",
+            "Mineralocorticoid potency": "0.5",
+            "Duration of action (t1/2in hours)": "18-40"
+          },
+          {
+            "Name": "Dexamethasone",
+            "Glucocorticoid potency": "25-80",
+            "Mineralocorticoid potency": "0",
+            "Duration of action (t1/2in hours)": "36-54"
+          },
+          {
+            "Name": "Betamethasone",
+            "Glucocorticoid potency": "25-30",
+            "Mineralocorticoid potency": "0",
+            "Duration of action (t1/2in hours)": "36-54"
+          },
+          {
+            "Name": "Triamcinolone",
+            "Glucocorticoid potency": "5",
+            "Mineralocorticoid potency": "0",
+            "Duration of action (t1/2in hours)": "12-36"
+          },
+          {
+            "Name": "Beclometasone",
+            "Glucocorticoid potency": "8 puffs 4 times a dayequals 14 mg oralprednisone once a day",
+            "Mineralocorticoid potency": "-",
+            "Duration of action (t1/2in hours)": "-"
+          },
+          {
+            "Name": "Fludrocortisoneacetate",
+            "Glucocorticoid potency": "15",
+            "Mineralocorticoid potency": "200",
+            "Duration of action (t1/2in hours)": "24"
+          },
+          {
+            "Name": "Deoxycorticosteroneacetate (DOCA)",
+            "Glucocorticoid potency": "0",
+            "Mineralocorticoid potency": "20",
+            "Duration of action (t1/2in hours)": "-"
+          },
+          {
+            "Name": "Aldosterone",
+            "Glucocorticoid potency": "0.3",
+            "Mineralocorticoid potency": "200-1000",
+            "Duration of action (t1/2in hours)": "-"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Topical steroids\nInhaled steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "Inhaled steroids",
+          "url": "https://wikem.org/wiki/Inhaled_steroids"
+        }
+      ]
+    }
+  }
+}

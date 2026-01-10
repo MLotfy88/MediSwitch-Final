@@ -1,0 +1,599 @@
+{
+  "drug_name": "Conus_medullaris_syndrome",
+  "url": "https://wikem.org/wiki/Conus_medullaris_syndrome",
+  "scraped_at": "2026-01-10T07:51:05.135772",
+  "sections": {
+    "Background": {
+      "text": "The conus medularis (tapered end of the spinal cord) is proximal to the cauda equina.\n[1]",
+      "subsections": {
+        "Epidural_compression_syndromes": {
+          "text": "Syndromes\nSpinal cord injury\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nCauses\nSpinal cord injury\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nSyringomyelia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Syringomyelia",
+          "url": "https://wikem.org/wiki/Syringomyelia"
+        }
+      ]
+    },
+    "Epidural_compression_syndromes": {
+      "text": "Syndromes\nSpinal cord injury\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nCauses\nSpinal cord injury\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nSyringomyelia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Syringomyelia",
+          "url": "https://wikem.org/wiki/Syringomyelia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Epidural_compression_syndromes_table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Syndrome": "Location of lesion",
+                "Spinal cord compression": "",
+                "Conus medullaris syndrome": "Lesions at vertebral level L2",
+                "Cauda equina syndrome": ""
+              },
+              {
+                "Syndrome": "Spontaneous pain",
+                "Spinal cord compression": "",
+                "Conus medullaris syndrome": "Unusual and not severe; bilateral and symmetrical in perineum or thighs",
+                "Cauda equina syndrome": "Often very prominent and severe, asymmetrical, radicular"
+              },
+              {
+                "Syndrome": "Motor findings",
+                "Spinal cord compression": "Deficits usually affect both legs but are often asymmetric",
+                "Conus medullaris syndrome": "Not severe, symmetrical; rarely twitches",
+                "Cauda equina syndrome": "May be severe, asymmetrical, fibrillary twitches of paralyzed muscles are common"
+              },
+              {
+                "Syndrome": "Sensory findings",
+                "Spinal cord compression": "Weakness in lower extremities, paresthesias/sensory deficits, gait difficulty",
+                "Conus medullaris syndrome": "Saddle distribution, bilateral, symmetrical, disassociated sensory loss (impaired pain and temperature with sparing of tactile)",
+                "Cauda equina syndrome": "Saddle distribution  (75% pts), may be asymmetrical, no dissociation of sensory loss"
+              },
+              {
+                "Syndrome": "Reflexchanges",
+                "Spinal cord compression": "",
+                "Conus medullaris syndrome": "Achilles reflex may be absent",
+                "Cauda equina syndrome": "Patellar and Achilles reflexes may be absent"
+              },
+              {
+                "Syndrome": "Sphincter disturbance",
+                "Spinal cord compression": "Bladder and rectal sphincter paralysis usually reflect the involvement of S3-S5 nerve roots",
+                "Conus medullaris syndrome": "Early and marked (both urinary and fecal)",
+                "Cauda equina syndrome": "Late and less severe (60-80% pts)"
+              },
+              {
+                "Syndrome": "Male sexual function",
+                "Spinal cord compression": "",
+                "Conus medullaris syndrome": "Impaired early",
+                "Cauda equina syndrome": "Impairment less severe"
+              },
+              {
+                "Syndrome": "Onset",
+                "Spinal cord compression": "",
+                "Conus medullaris syndrome": "Sudden and bilateral",
+                "Cauda equina syndrome": "Gradual and unilateral"
+              },
+              {
+                "Syndrome": "Other",
+                "Spinal cord compression": "",
+                "Conus medullaris syndrome": "",
+                "Cauda equina syndrome": "Urinary retention with or without overflow incontinence (Sn 90%, Sp 95%)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidural_compression_syndromes_table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Syndrome": "Location of lesion",
+            "Spinal cord compression": "",
+            "Conus medullaris syndrome": "Lesions at vertebral level L2",
+            "Cauda equina syndrome": ""
+          },
+          {
+            "Syndrome": "Spontaneous pain",
+            "Spinal cord compression": "",
+            "Conus medullaris syndrome": "Unusual and not severe; bilateral and symmetrical in perineum or thighs",
+            "Cauda equina syndrome": "Often very prominent and severe, asymmetrical, radicular"
+          },
+          {
+            "Syndrome": "Motor findings",
+            "Spinal cord compression": "Deficits usually affect both legs but are often asymmetric",
+            "Conus medullaris syndrome": "Not severe, symmetrical; rarely twitches",
+            "Cauda equina syndrome": "May be severe, asymmetrical, fibrillary twitches of paralyzed muscles are common"
+          },
+          {
+            "Syndrome": "Sensory findings",
+            "Spinal cord compression": "Weakness in lower extremities, paresthesias/sensory deficits, gait difficulty",
+            "Conus medullaris syndrome": "Saddle distribution, bilateral, symmetrical, disassociated sensory loss (impaired pain and temperature with sparing of tactile)",
+            "Cauda equina syndrome": "Saddle distribution  (75% pts), may be asymmetrical, no dissociation of sensory loss"
+          },
+          {
+            "Syndrome": "Reflexchanges",
+            "Spinal cord compression": "",
+            "Conus medullaris syndrome": "Achilles reflex may be absent",
+            "Cauda equina syndrome": "Patellar and Achilles reflexes may be absent"
+          },
+          {
+            "Syndrome": "Sphincter disturbance",
+            "Spinal cord compression": "Bladder and rectal sphincter paralysis usually reflect the involvement of S3-S5 nerve roots",
+            "Conus medullaris syndrome": "Early and marked (both urinary and fecal)",
+            "Cauda equina syndrome": "Late and less severe (60-80% pts)"
+          },
+          {
+            "Syndrome": "Male sexual function",
+            "Spinal cord compression": "",
+            "Conus medullaris syndrome": "Impaired early",
+            "Cauda equina syndrome": "Impairment less severe"
+          },
+          {
+            "Syndrome": "Onset",
+            "Spinal cord compression": "",
+            "Conus medullaris syndrome": "Sudden and bilateral",
+            "Cauda equina syndrome": "Gradual and unilateral"
+          },
+          {
+            "Syndrome": "Other",
+            "Spinal cord compression": "",
+            "Conus medullaris syndrome": "",
+            "Cauda equina syndrome": "Urinary retention with or without overflow incontinence (Sn 90%, Sp 95%)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        },
+        "Spinal_Cord_Syndromes": {
+          "text": "Complete spinal cord transection syndrome\nAnterior cord syndrome\nCentral cord syndrome\nBrown-Séquard syndrome\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Complete spinal cord transection syndrome",
+          "url": "https://wikem.org/wiki/Complete_spinal_cord_transection_syndrome"
+        },
+        {
+          "text": "Anterior cord syndrome",
+          "url": "https://wikem.org/wiki/Anterior_cord_syndrome"
+        },
+        {
+          "text": "Central cord syndrome",
+          "url": "https://wikem.org/wiki/Central_cord_syndrome"
+        },
+        {
+          "text": "Brown-Séquard syndrome",
+          "url": "https://wikem.org/wiki/Brown-S%C3%A9quard_syndrome"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {
+        "Spinal_Cord_Syndromes": {
+          "text": "Complete spinal cord transection syndrome\nAnterior cord syndrome\nCentral cord syndrome\nBrown-Séquard syndrome\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Complete spinal cord transection syndrome",
+          "url": "https://wikem.org/wiki/Complete_spinal_cord_transection_syndrome"
+        },
+        {
+          "text": "Anterior cord syndrome",
+          "url": "https://wikem.org/wiki/Anterior_cord_syndrome"
+        },
+        {
+          "text": "Central cord syndrome",
+          "url": "https://wikem.org/wiki/Central_cord_syndrome"
+        },
+        {
+          "text": "Brown-Séquard syndrome",
+          "url": "https://wikem.org/wiki/Brown-S%C3%A9quard_syndrome"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        }
+      ]
+    },
+    "Spinal_Cord_Syndromes": {
+      "text": "Complete spinal cord transection syndrome\nAnterior cord syndrome\nCentral cord syndrome\nBrown-Séquard syndrome\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Complete spinal cord transection syndrome",
+          "url": "https://wikem.org/wiki/Complete_spinal_cord_transection_syndrome"
+        },
+        {
+          "text": "Anterior cord syndrome",
+          "url": "https://wikem.org/wiki/Anterior_cord_syndrome"
+        },
+        {
+          "text": "Central cord syndrome",
+          "url": "https://wikem.org/wiki/Central_cord_syndrome"
+        },
+        {
+          "text": "Brown-Séquard syndrome",
+          "url": "https://wikem.org/wiki/Brown-S%C3%A9quard_syndrome"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Emergent\nMRI\nIf considering compression due to neoplasm obtain scan of entire spine\nConsider Bladder scan/\nultrasound\nfor bladder volume (post-void residual)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Mri"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Epidural_Compression_Syndrome_Management": {
+          "text": "Dexamethasone\n: at least 16 mg IV as soon as possible after assessment\n[3]\nNote:\ndexamethasone\ncan be used to reduce compressive edema from epidural metastases, but is more likely to worsen an infection from spinal epidural abscess.\nConsult spine service\nConsider foley for bladder decompression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "General_Epidural_Compression_Syndrome_Management": {
+      "text": "Dexamethasone\n: at least 16 mg IV as soon as possible after assessment\n[3]\nNote:\ndexamethasone\ncan be used to reduce compressive edema from epidural metastases, but is more likely to worsen an infection from spinal epidural abscess.\nConsult spine service\nConsider foley for bladder decompression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epidural compression syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        }
+      ]
+    }
+  }
+}

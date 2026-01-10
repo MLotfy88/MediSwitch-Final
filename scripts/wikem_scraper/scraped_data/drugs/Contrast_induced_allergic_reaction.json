@@ -1,0 +1,350 @@
+{
+  "drug_name": "Contrast_induced_allergic_reaction",
+  "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction",
+  "scraped_at": "2026-01-10T07:51:07.053411",
+  "sections": {
+    "Background": {
+      "text": "Approximately 75 million doses of iodinated contrast agents are given worldwide each year\nMany patients will report allergies to shellfish, iodine, or prior contrast infusions\nPrior allergic or\nanaphylactic reaction\nto contrast infusion (whether low osmolality or high osmolality) is a contraindication to future contrast administration",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Asthma\n(most common)\nCHF\nBeta blocker\nuse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylactic reaction",
+          "url": "https://wikem.org/wiki/Anaphylactic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Asthma\n(most common)\nCHF\nBeta blocker\nuse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Similar to\nAllergic Reaction\n-\nAnaphylaxis\n(depending on severity)\nUrticaria\nPruritus\nAirway edema\nShortness of breath\nHypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic Reaction",
+          "url": "https://wikem.org/wiki/Allergic_Reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        },
+        "Contrast_induced_complications": {
+          "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {
+        "Contrast_induced_complications": {
+          "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Contrast_induced_complications": {
+      "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_treatment": {
+          "text": "Treatment is similar to\nAnaphylaxis\nAdminister IV fluids\nPO or IV\nsteroid\nNebulized\nalbuterol\nor\nEpinephrine\nmay be beneficial for airway edema\nEpinephrine\nshould be administered for any signs of\nAnaphylaxis",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Patients often report various allergies and there is controversy over the best way to prevent possible contrast induced allergic reaction\nShellfish Allergy\nThis allergy is specific to shellfish and does not cross react due to the Iodine rich nature of fish and the fish's tropomyosins and parvalbumin\n[1]\nNo pretreatment is necessary for shellfish allergies\nIodine\nThere is no Iodine allergies which are compatible with life due to the existence of iodine in human thyroid tissue and distribution throughout the body\nPrior Contrast Allergies\nPretreatment should not be attempted in these patients since there is a strong association between a prior contrast reaction and future anaphylactic contrast reactions\n[2]\nPretreatment with Steroids\nThere has been no difference found between ionic agents alone versus ionic agents with steroids in preventing allergic reactions.  Non ionic (low osmolality) contrast agents are the preferred agent and do reduce the risk of allergic reactions.\n[3]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Acute_treatment": {
+      "text": "Treatment is similar to\nAnaphylaxis\nAdminister IV fluids\nPO or IV\nsteroid\nNebulized\nalbuterol\nor\nEpinephrine\nmay be beneficial for airway edema\nEpinephrine\nshould be administered for any signs of\nAnaphylaxis",
+      "subsections": {
+        "Prevention": {
+          "text": "Patients often report various allergies and there is controversy over the best way to prevent possible contrast induced allergic reaction\nShellfish Allergy\nThis allergy is specific to shellfish and does not cross react due to the Iodine rich nature of fish and the fish's tropomyosins and parvalbumin\n[1]\nNo pretreatment is necessary for shellfish allergies\nIodine\nThere is no Iodine allergies which are compatible with life due to the existence of iodine in human thyroid tissue and distribution throughout the body\nPrior Contrast Allergies\nPretreatment should not be attempted in these patients since there is a strong association between a prior contrast reaction and future anaphylactic contrast reactions\n[2]\nPretreatment with Steroids\nThere has been no difference found between ionic agents alone versus ionic agents with steroids in preventing allergic reactions.  Non ionic (low osmolality) contrast agents are the preferred agent and do reduce the risk of allergic reactions.\n[3]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Patients often report various allergies and there is controversy over the best way to prevent possible contrast induced allergic reaction\nShellfish Allergy\nThis allergy is specific to shellfish and does not cross react due to the Iodine rich nature of fish and the fish's tropomyosins and parvalbumin\n[1]\nNo pretreatment is necessary for shellfish allergies\nIodine\nThere is no Iodine allergies which are compatible with life due to the existence of iodine in human thyroid tissue and distribution throughout the body\nPrior Contrast Allergies\nPretreatment should not be attempted in these patients since there is a strong association between a prior contrast reaction and future anaphylactic contrast reactions\n[2]\nPretreatment with Steroids\nThere has been no difference found between ionic agents alone versus ionic agents with steroids in preventing allergic reactions.  Non ionic (low osmolality) contrast agents are the preferred agent and do reduce the risk of allergic reactions.\n[3]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Any contrast reaction that is mild such as pruritus or mild urticaria can be observed in the emergency room for recurrent reactions\nSevere anaphylactic reactions requiring multiple administrations of epinephrine should be admitted.\nPatients receiving a single dose of epinephrine should have clinical judgment applied as to observation or discharge\nAll patients should be prescribed an\nEpinephrine\nAuto Injector regardless of disposition",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anaphylaxis\nContrast-induced nephropathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        }
+      ]
+    }
+  }
+}

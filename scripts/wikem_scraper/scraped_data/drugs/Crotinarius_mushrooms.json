@@ -1,0 +1,172 @@
+{
+  "drug_name": "Crotinarius_mushrooms",
+  "url": "https://wikem.org/wiki/Crotinarius_mushrooms",
+  "scraped_at": "2026-01-10T07:51:16.296546",
+  "sections": {
+    "Overview": {
+      "text": "Contain toxin Orellanine\nCortinarius rainierensis in America\nC. orellanus or C. speciosissimus in Europe",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Headache, chills, malaise, nausea and vomiting over days\nCan see delayed renal failure 1-3 weeks after exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mushroom_toxicity_by_Type": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Mushroom": "Amanita",
+                "Toxin": "Amatoxin",
+                "Pathologic Effect": "Hepatotoxicity"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Coprine",
+                "Pathologic Effect": "Disulfiram-like"
+              },
+              {
+                "Mushroom": "Crotinarius",
+                "Toxin": "Orellanine",
+                "Pathologic Effect": "Delayed renal failure"
+              },
+              {
+                "Mushroom": "Gyromitra",
+                "Toxin": "Gyromitrin",
+                "Pathologic Effect": "Seizures"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Ibotenic Acid",
+                "Pathologic Effect": "Anticholinergic"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Muscarine",
+                "Pathologic Effect": "Cholinergic"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Orellanin",
+                "Pathologic Effect": "Nephrotoxicity"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Psilocybin",
+                "Pathologic Effect": "Hallucinations"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mushroom_toxicity_by_Type": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Mushroom": "Amanita",
+            "Toxin": "Amatoxin",
+            "Pathologic Effect": "Hepatotoxicity"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Coprine",
+            "Pathologic Effect": "Disulfiram-like"
+          },
+          {
+            "Mushroom": "Crotinarius",
+            "Toxin": "Orellanine",
+            "Pathologic Effect": "Delayed renal failure"
+          },
+          {
+            "Mushroom": "Gyromitra",
+            "Toxin": "Gyromitrin",
+            "Pathologic Effect": "Seizures"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Ibotenic Acid",
+            "Pathologic Effect": "Anticholinergic"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Muscarine",
+            "Pathologic Effect": "Cholinergic"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Orellanin",
+            "Pathologic Effect": "Nephrotoxicity"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Psilocybin",
+            "Pathologic Effect": "Hallucinations"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Urinalysis\nwith microscopy\nUrine electrolytes\nUrine eosinophils",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Urinalysis\nwith microscopy\nUrine electrolytes\nUrine eosinophils",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive\nIf renal failure from mushroom exposure, recovery can take several weeks\nMay need temporary hemodialysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Mushroom toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Diaz JH. Syndromic diagnosis and management of confirmed mushroom poisonings. Crit Care Med. 2005 Feb. 33(2):427-36.\nKarlson-Stiber C, Persson H: Cytotoxic fungi—An overview. Toxicon 2003; 42:339–349.\nDanel VC, Saviuc PF, Garon D: Main features of Cortinarius spp. poisoning: A literature review. Toxicon 2001; 39:1053–1060.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "drug_name": "Cushing%27s_syndrome",
+  "url": "https://wikem.org/wiki/Cushing%27s_syndrome",
+  "scraped_at": "2026-01-10T07:51:16.948595",
+  "sections": {
+    "Background": {
+      "text": "Hypercortisolism producing an array of non-specific symptoms\n[1]\nExclude exogenous glucocorticoids and pregnancy\nCalled \"Cushing disease\" if caused by pituitary tumor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Cardiovascular:\nHypertension\nCutaneous: easy bruising, friable, striae,\nhyperpigmentation\n, poor wound healing\nEndocrine\nAndrogen excess causing hirsutism, amenorrhea, oily skin, increased libido\nGlucose intolerance\nObesity\nMetabolic: progressive\nobesity\n(esp. buffalo hump and supraclavicular fat pads obscuring clavicles)\nMusculoskeletal: proximal muscle atrophy,\nweakness\n, osteoporosis\nOphthalmologic: cataracts, increased\nintraocular pressure\nPsychologic: emotional lability, depression, irritability, anxiety, panic attacks, mild paranoia and mania",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperpigmentation",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Glucose intolerance",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "obesity",
+          "url": "https://wikem.org/wiki/The_Obese_Patient"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "intraocular pressure",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Iatrogenic\nPituitary adenoma\nAdrenal tumor\nAdrenal hyperplasia\nEctopic ACTH secretion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Outpatient: 24h urinary free cortisol or dexamethasone suppression test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat complications (e.g.\nhyperglycemia\n) as appropriate\nTypically outpatient/non-ED management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "drug_name": "Crying_infant",
+  "url": "https://wikem.org/wiki/Crying_infant",
+  "scraped_at": "2026-01-10T07:51:17.743386",
+  "sections": {
+    "Background": {
+      "text": "Mean duration of crying is approximately 2 hrs/day for the first 6 wks\n[1]\nThis decreases to 72 mins/day by age 10-12 wks\nAs many as 43% of infants experience excessive crying\n[2]\n5% of crying infants are found to have underlying disease\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Crying and inconsolable infant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Crying_Infant": {
+          "text": "Occult infection\nSepsis\nMeningitis\nUTI\nOtitis media\nPneumonia\nGI\nIntussusception\nGERD\nIncarcerated\nhernia\nMilk protein intolerance\nAnal fissure\nOphtho\nCorneal abrasion\nOccult trauma\nHair tourniquet\n(on extremities, penis)\nNon-accidental trauma\nDiaper pin\nInsect bites\nBurns\nin mouth\nMisc\nColic\nScorpion envenomation\nSVT\nTesticular torsion\nDrug exposure/\noverdose\n(commonly\nmethamphetamine\nor\ncocaine\n)\nNeonatal abstinence syndrome\n, drug withdrawal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI_(peds)"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Hair tourniquet",
+          "url": "https://wikem.org/wiki/Hair_tourniquet"
+        },
+        {
+          "text": "Non-accidental trauma",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "overdose",
+          "url": "https://wikem.org/wiki/Overdose"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        }
+      ]
+    },
+    "Crying_Infant": {
+      "text": "Occult infection\nSepsis\nMeningitis\nUTI\nOtitis media\nPneumonia\nGI\nIntussusception\nGERD\nIncarcerated\nhernia\nMilk protein intolerance\nAnal fissure\nOphtho\nCorneal abrasion\nOccult trauma\nHair tourniquet\n(on extremities, penis)\nNon-accidental trauma\nDiaper pin\nInsect bites\nBurns\nin mouth\nMisc\nColic\nScorpion envenomation\nSVT\nTesticular torsion\nDrug exposure/\noverdose\n(commonly\nmethamphetamine\nor\ncocaine\n)\nNeonatal abstinence syndrome\n, drug withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI_(peds)"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Hair tourniquet",
+          "url": "https://wikem.org/wiki/Hair_tourniquet"
+        },
+        {
+          "text": "Non-accidental trauma",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "overdose",
+          "url": "https://wikem.org/wiki/Overdose"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Ocular\nFlourescein staining to rule out\ncorneal abrasions\nFundoscopic exam\nSkin\nInspect digits for\nhair tourniquet\nInspect GU area\nMuscluloskeletal\nExamine all bones/joints to rule out\nfracture\n,\nosteomyelitis\nor\nseptic joint\nConsider skeletal survey & head CT in suspected\nchild abuse\nRule out badness above including\nshaken baby syndrome\nInfection\nExamine ears to rule out\notitis\nConsider occult sepsis\nEvaluate abdomen to rule out surgical abdomen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "corneal abrasions",
+          "url": "https://wikem.org/wiki/Corneal_abrasions"
+        },
+        {
+          "text": "hair tourniquet",
+          "url": "https://wikem.org/wiki/Hair_tourniquet"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Ocular\nFlourescein staining to rule out\ncorneal abrasions\nFundoscopic exam\nSkin\nInspect digits for\nhair tourniquet\nInspect GU area\nMuscluloskeletal\nExamine all bones/joints to rule out\nfracture\n,\nosteomyelitis\nor\nseptic joint\nConsider skeletal survey & head CT in suspected\nchild abuse\nRule out badness above including\nshaken baby syndrome\nInfection\nExamine ears to rule out\notitis\nConsider occult sepsis\nEvaluate abdomen to rule out surgical abdomen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corneal abrasions",
+          "url": "https://wikem.org/wiki/Corneal_abrasions"
+        },
+        {
+          "text": "hair tourniquet",
+          "url": "https://wikem.org/wiki/Hair_tourniquet"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        }
+      ]
+    },
+    "Management": {
+      "text": "If no underlying cause is found attempt the \"5 Ss\"\nS\nwaddling\nS\nide/\nS\ntomach position while awake\nS\nhhhhing to provide soothing sound\nS\nwinging the baby in parent's arms\nS\nucking on breast or pacifier\n4% benefit from change to soy formula\nrocking, warm compresses to belly feeding, frequent burping, diaper changes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "May discharge home with precautions if infant becomes consolable and has reassuring exam (and studies, if indicated)\nAdmit if infant is persistently inconsolable, will not tolerate POs, or has concern for specific pathology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Colic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        }
+      ]
+    }
+  }
+}

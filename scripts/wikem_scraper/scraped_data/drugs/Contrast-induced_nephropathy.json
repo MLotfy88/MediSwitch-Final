@@ -1,0 +1,374 @@
+{
+  "drug_name": "Contrast-induced_nephropathy",
+  "url": "https://wikem.org/wiki/Contrast-induced_nephropathy",
+  "scraped_at": "2026-01-10T07:51:06.310573",
+  "sections": {
+    "Intro": {
+      "text": "This page only applies to contrast agents usually used for CT scans. MRIs with contrast use gadolinium, which can cause\nnephrogenic systemic fibrosis\nin patients with renal dysfunction.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Often defined as\ncreatinine rise\nof more than 0.5mg/dL or ≥25% above baseline\n[1]\nVasoconstriction leading to ischemia in the deeper portion of the outer medulla\nToxic to kidney tubular cells, inducing vacuolization, change in mitochondrial function, and apoptosis\nLess likely to occur with low and iso-osmolar contrast agents",
+      "subsections": {
+        "Healthy_Patients": {
+          "text": "Not likely to occur in patients with a Cr<1.5 or a GFR >60ml/min\n[2]\n[3]",
+          "tables": []
+        },
+        "Impaired_Renal_Function": {
+          "text": "Administration should follow your local hospital protocols\nLess likely to occur in iso-osmolar contrast agents (iodixanol/Visipaque) and contrary to traditional teaching, maybe not even an occurrence in patients with creatinine greater than 2.0mg/dL.\n[4]",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Renal disease\nRecent contrast study within 72 hrs\nHypotension\nDehydration\nDM\nMultiple myeloma\nAge > 70\nHypertension\nHyperuricemia\nDiuretics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "creatinine rise",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hyperuricemia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    },
+    "Healthy_Patients": {
+      "text": "Not likely to occur in patients with a Cr<1.5 or a GFR >60ml/min\n[2]\n[3]",
+      "subsections": {
+        "Impaired_Renal_Function": {
+          "text": "Administration should follow your local hospital protocols\nLess likely to occur in iso-osmolar contrast agents (iodixanol/Visipaque) and contrary to traditional teaching, maybe not even an occurrence in patients with creatinine greater than 2.0mg/dL.\n[4]",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Renal disease\nRecent contrast study within 72 hrs\nHypotension\nDehydration\nDM\nMultiple myeloma\nAge > 70\nHypertension\nHyperuricemia\nDiuretics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hyperuricemia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    },
+    "Impaired_Renal_Function": {
+      "text": "Administration should follow your local hospital protocols\nLess likely to occur in iso-osmolar contrast agents (iodixanol/Visipaque) and contrary to traditional teaching, maybe not even an occurrence in patients with creatinine greater than 2.0mg/dL.\n[4]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Renal disease\nRecent contrast study within 72 hrs\nHypotension\nDehydration\nDM\nMultiple myeloma\nAge > 70\nHypertension\nHyperuricemia\nDiuretics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hyperuricemia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Renal disease\nRecent contrast study within 72 hrs\nHypotension\nDehydration\nDM\nMultiple myeloma\nAge > 70\nHypertension\nHyperuricemia\nDiuretics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hyperuricemia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Decreased urine output\n0.5mg/dl absolute or >25% relative increase in serum creatinine 48-72hrs after contrast exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Poor renal perfusion\nNephrotoxic medications",
+      "subsections": {
+        "Contrast_induced_complications": {
+          "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Contrast_induced_complications": {
+      "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Same as for\nAKI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Work-up"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Hallmark of management is prevention in at-risk patients.",
+      "subsections": {
+        "Hydration": {
+          "text": "Isotonic hydration with\nnormal saline\n1-1.5L (15ml/kg) prior to the contrast load in patients with impaired renal function may lessen the chances of developing CIN\n[5]\n[6]\n[7]\nIf suspect the development or confirm the diagnosis continue adequate hydration to maintain urine output of 0.7cc-1cc/kg\nEarly research suggests a potential benefit for forced\nfurosemide\ndiuresis (300ml/h) while continuing\nintravenous hydration fluids\n(0.5mg/kg) but should be performed in consult with radiologist and nephrologist\n[8]",
+          "tables": []
+        },
+        "N-acetylcysteine": {
+          "text": "Is not useful for preventing CIN\n[9]\n[7]",
+          "tables": []
+        },
+        "Other_Measures": {
+          "text": "Low osmolar contrast agents\nBicarbonate\ninfusion\nHypertonic saline",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "intravenous hydration fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Hydration": {
+      "text": "Isotonic hydration with\nnormal saline\n1-1.5L (15ml/kg) prior to the contrast load in patients with impaired renal function may lessen the chances of developing CIN\n[5]\n[6]\n[7]\nIf suspect the development or confirm the diagnosis continue adequate hydration to maintain urine output of 0.7cc-1cc/kg\nEarly research suggests a potential benefit for forced\nfurosemide\ndiuresis (300ml/h) while continuing\nintravenous hydration fluids\n(0.5mg/kg) but should be performed in consult with radiologist and nephrologist\n[8]",
+      "subsections": {
+        "N-acetylcysteine": {
+          "text": "Is not useful for preventing CIN\n[9]\n[7]",
+          "tables": []
+        },
+        "Other_Measures": {
+          "text": "Low osmolar contrast agents\nBicarbonate\ninfusion\nHypertonic saline",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "intravenous hydration fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "N-acetylcysteine": {
+      "text": "Is not useful for preventing CIN\n[9]\n[7]",
+      "subsections": {
+        "Other_Measures": {
+          "text": "Low osmolar contrast agents\nBicarbonate\ninfusion\nHypertonic saline",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Other_Measures": {
+      "text": "Low osmolar contrast agents\nBicarbonate\ninfusion\nHypertonic saline",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "MRI contraindications\nCT contrast media extravasation‎\nContrast induced allergic reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI contraindications",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        },
+        {
+          "text": "CT contrast media extravasation‎",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        }
+      ]
+    }
+  }
+}

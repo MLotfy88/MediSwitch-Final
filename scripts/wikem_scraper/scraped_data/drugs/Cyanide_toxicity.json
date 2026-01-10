@@ -1,0 +1,911 @@
+{
+  "drug_name": "Cyanide_toxicity",
+  "url": "https://wikem.org/wiki/Cyanide_toxicity",
+  "scraped_at": "2026-01-10T07:51:19.490888",
+  "sections": {
+    "Background": {
+      "text": "Burning of nitrogen-containing polymers (plastics, wool, silk)\nGaseous\nchemical weapon\nknown as prussic acid, hydrogen cyanide, or hydrocyanic acid\nProlonged use of\nnitroprusside\nPits of peaches, pears, apricots, crab apples\nIntentional poisoning",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Binds to cytochrome oxidase in mitochondria; leads to cessation of electron transport\nCauses switch from aerobic to anaerobic metabolism despite adequate O2",
+          "tables": []
+        },
+        "Paris_Fire_Brigade_Protocol": {
+          "text": "Paris Fire Brigade protocol recommend hydroxocobalamin administration patients who have had known smoke inhalation in an enclosed space with any of the following:\n[1]\n[2]\nAltered mental status\nSoot in the nares or mouth\nFull arrest without full body burns incompatible with life. They found 50% ROSC in fire victims in full arrest when hydroxycobalamin was administered.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chemical weapon",
+          "url": "https://wikem.org/wiki/Chemical_weapon"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Binds to cytochrome oxidase in mitochondria; leads to cessation of electron transport\nCauses switch from aerobic to anaerobic metabolism despite adequate O2",
+      "subsections": {
+        "Paris_Fire_Brigade_Protocol": {
+          "text": "Paris Fire Brigade protocol recommend hydroxocobalamin administration patients who have had known smoke inhalation in an enclosed space with any of the following:\n[1]\n[2]\nAltered mental status\nSoot in the nares or mouth\nFull arrest without full body burns incompatible with life. They found 50% ROSC in fire victims in full arrest when hydroxycobalamin was administered.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Paris_Fire_Brigade_Protocol": {
+      "text": "Paris Fire Brigade protocol recommend hydroxocobalamin administration patients who have had known smoke inhalation in an enclosed space with any of the following:\n[1]\n[2]\nAltered mental status\nSoot in the nares or mouth\nFull arrest without full body burns incompatible with life. They found 50% ROSC in fire victims in full arrest when hydroxycobalamin was administered.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute_Intoxication": {
+          "text": "Affected by dose, route, formulation and exposure pattern\nInhaled toxins more rapid than ingested\nInhalation exposure may cause\nsyncope\nand death after only a few breaths\nEarly signs\nCNS stimulation (\nHeadache\n, anxiety,\nconfusion\n)\nTachycardia\n,\npalpitations\nand\nhypotension\nTachypnea\nCherry-red color (rarely seen)\nLate signs\nNausea\n, vomiting\nBradycardia\n, hypotension,\narrhythmias\n, asystole\nComa\n,\nseizures\n(rare), Mydriasis\nBradypnea and\npulmonary edema\n(non-cardiogenic), apnea\nRenal failure\nHepatic Necrosis\nCyanosis\nRhabdo\n, bright red venules seen on fundoscopy",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Retrobulbar Optic Atropy (proposed)\nHeavy smokers\nAtaxic peripheral neuropathy\nKonzo\nSpastic upper motor neuron paraparesis seen in chronic ingestion of inadequately cooked casava",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        }
+      ]
+    },
+    "Acute_Intoxication": {
+      "text": "Affected by dose, route, formulation and exposure pattern\nInhaled toxins more rapid than ingested\nInhalation exposure may cause\nsyncope\nand death after only a few breaths\nEarly signs\nCNS stimulation (\nHeadache\n, anxiety,\nconfusion\n)\nTachycardia\n,\npalpitations\nand\nhypotension\nTachypnea\nCherry-red color (rarely seen)\nLate signs\nNausea\n, vomiting\nBradycardia\n, hypotension,\narrhythmias\n, asystole\nComa\n,\nseizures\n(rare), Mydriasis\nBradypnea and\npulmonary edema\n(non-cardiogenic), apnea\nRenal failure\nHepatic Necrosis\nCyanosis\nRhabdo\n, bright red venules seen on fundoscopy",
+      "subsections": {
+        "Chronic": {
+          "text": "Retrobulbar Optic Atropy (proposed)\nHeavy smokers\nAtaxic peripheral neuropathy\nKonzo\nSpastic upper motor neuron paraparesis seen in chronic ingestion of inadequately cooked casava",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Retrobulbar Optic Atropy (proposed)\nHeavy smokers\nAtaxic peripheral neuropathy\nKonzo\nSpastic upper motor neuron paraparesis seen in chronic ingestion of inadequately cooked casava",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Lactate\n(normal lactate highly suggests another diagnosis)\nSerum lactate >8 mmol/L has 94% sensitivity\nVBG\nand\nABG\n(narrowing of the venous-arterial PO2 gradient, causes venous hyperoxemia/increased redness -- as does\nCO poisoning\n)\nCo-oximetry\nChemistry (\nanion gap acidosis\n)\nRBC or serum cyanide levels (unlikely to return in time to be clinically useful)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Smell of bitter almonds (only 60-80% of population can detect this)\nSevere unexplained metabolic acidosis (lactic)\nPO2 of venous blood similar to arterial blood\nNormal SpO2 (same as CO poisoning)\nCherry-red skin color is uncommon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Lactate\n(normal lactate highly suggests another diagnosis)\nSerum lactate >8 mmol/L has 94% sensitivity\nVBG\nand\nABG\n(narrowing of the venous-arterial PO2 gradient, causes venous hyperoxemia/increased redness -- as does\nCO poisoning\n)\nCo-oximetry\nChemistry (\nanion gap acidosis\n)\nRBC or serum cyanide levels (unlikely to return in time to be clinically useful)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Smell of bitter almonds (only 60-80% of population can detect this)\nSevere unexplained metabolic acidosis (lactic)\nPO2 of venous blood similar to arterial blood\nNormal SpO2 (same as CO poisoning)\nCherry-red skin color is uncommon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Smell of bitter almonds (only 60-80% of population can detect this)\nSevere unexplained metabolic acidosis (lactic)\nPO2 of venous blood similar to arterial blood\nNormal SpO2 (same as CO poisoning)\nCherry-red skin color is uncommon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care\nO2\n100% NRB\nIVF\nand vasopressors for hypotension\nBicarb for acidemia (enchances of effect of nitrite and thiosulfate)\nAntidote",
+      "subsections": {
+        "Cyanokit_(Hydroxocobalamin)[3]": {
+          "text": "1st line therapy\nGive empirically if cyanide poisoning is suspected",
+          "tables": []
+        },
+        "Mechanism_of_action": {
+          "text": "Directly binds cyanide forming cyanocobalamin which is readily excreted in the urine",
+          "tables": []
+        },
+        "Administration": {
+          "text": "Give 70mg/kg IV over 15min (5g is standard adult dose); may repeat 5g once as needed\nAlso give 25%\nsodium thiosulfate\n1.65ml/kg IV (12.5g max dose) over 10min; may repeat at half original dose if needed",
+          "tables": []
+        },
+        "Adverse_Effects": {
+          "text": "May cause temporary reddish discoloration of skin, plasma, urine, mucous membranes\nInterferes with colorimetric tests\n-- Pulse ox, Hemoglobin, Carboyxhemoglobin, methemeglobin, oxyhemoglobin, Serum Cr, AST/ALT, bilirubin, magnesium for 2-3 days\n[5]\nOBTAIN Co-ox and labs prior to Hydroxocobalamin administration",
+          "tables": []
+        },
+        "Cyanide_Antidote_Package_(Lilly_kit)": {
+          "text": "Composed of two drugs(2 nitrites and a thiosulfate). The nitrites convert the iron in hemoglobin from the ferrous to the ferric form, creating methemoglobinemia. The thiosulfate is a sulfate donor, which allows the enzyme rhodanese to convert the cyanide to thiocyanate that can be renally excreted.\n2nd line therapy - use if Cyanokit unavailable\n[6]\nConsider using only Na thiosulfate (no nitrites) in cases where concern for CO poisoning since nitrate administration will severely decrease oxygen carrying capacity",
+          "tables": []
+        },
+        "Mechanism_of_action_2": {
+          "text": "Nitrites: form metHb which binds cyanide more avidly than cytochrome oxidase\nThiosulfate: donates its sulfur group to cyanide to form thiocyanate (less toxic than CN)",
+          "tables": []
+        },
+        "Warnings": {
+          "text": "Nitrites are relatively contraindicated in patients with concomitant CO toxicity\nInduction of metHb further decreases O2 delivery\nAvoid nitrites in presence of severe hypotension if diagnosis is unclear",
+          "tables": []
+        },
+        "Administration_2": {
+          "text": "Amyl nitrite\nInhaled by patient (only use if unavailable to obtain IV)\nHold under patient's nose for 30s of each minute, for 3 minutes\nSodium nitrite\n10mg/kg IV over 5min (use instead of amyl nitrite if IV is available)\nLack of measurable MetHb levels after administration confirms CN presence\nMonitor MetHb and keep level <30%\nPediatric dosing is based on Hemoblogin (see Peds dosing below)\n25%\nSodium thiosulfate\n1.65ml/kg IV (12.5g max dose) over 10min\nmay repeat at 1/2 original dose if needed",
+          "tables": []
+        },
+        "Sodium_nitrite_(Pediatric_Dosing)": {
+          "text": "Max dose should not exceed 10mL\nDo not give faster than 5mL/min (to avoid hypotension)",
+          "tables": [
+            [
+              {
+                "Hb Level (g/dL)": "7",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.19"
+              },
+              {
+                "Hb Level (g/dL)": "8",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.22"
+              },
+              {
+                "Hb Level (g/dL)": "9",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.25"
+              },
+              {
+                "Hb Level (g/dL)": "10",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.27"
+              },
+              {
+                "Hb Level (g/dL)": "11",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.30"
+              },
+              {
+                "Hb Level (g/dL)": "12",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.33"
+              },
+              {
+                "Hb Level (g/dL)": "13",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.36"
+              },
+              {
+                "Hb Level (g/dL)": "14",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.39"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "sodium thiosulfate",
+          "url": "https://wikem.org/wiki/Sodium_thiosulfate"
+        },
+        {
+          "text": "Amyl nitrite",
+          "url": "https://wikem.org/wiki/Amyl_nitrite"
+        },
+        {
+          "text": "Sodium nitrite",
+          "url": "https://wikem.org/wiki/Sodium_nitrite"
+        },
+        {
+          "text": "Sodium thiosulfate",
+          "url": "https://wikem.org/wiki/Sodium_thiosulfate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all patients for observation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Carbon Monoxide (CO)\nHydrogen Sulfide\nBurns\nAcrylonitrile",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon Monoxide (CO)",
+          "url": "https://wikem.org/wiki/Carbon_Monoxide_(CO)"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Acrylonitrile",
+          "url": "https://wikem.org/wiki/Acrylonitrile"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "drug_name": "Cycloplegic",
+  "url": "https://wikem.org/wiki/Cycloplegic",
+  "scraped_at": "2026-01-10T07:51:20.605653",
+  "sections": {
+    "Background": {
+      "text": "Generally\nanticholinergics\n: specifically antimuscarinic\nBlock the responses of the sphincter muscle of the iris and stimulation of ciliary body muscle, leading to cycloplegia and mydriasis (dilated pupils)\nOften used for symptomatic relief in the treatment of\nuveitis\nTopical agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        }
+      ]
+    },
+    "Examples": {
+      "text": "Cyclopentolate\nAtropine\nHomatropine\nScopolamine\nTropicamide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Homatropine",
+          "url": "https://wikem.org/wiki/Homatropine"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "Tropicamide",
+          "url": "https://wikem.org/wiki/Tropicamide"
+        }
+      ]
+    }
+  }
+}

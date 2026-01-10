@@ -1,0 +1,565 @@
+{
+  "drug_name": "Corneal_ulcer",
+  "url": "https://wikem.org/wiki/Corneal_ulcer",
+  "scraped_at": "2026-01-10T07:51:10.830730",
+  "sections": {
+    "Intro": {
+      "text": "A corneal ulcer is also often referred to as\nbacterial keratitis\n, although these terms are not directly interchangeable because a cornea may harbor a bacterial infection (i.e\nbacterial keratitis\n) without having a loss of tissue (an ulcer), and a cornea may have an ulcer without a bacterial infection.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Major cause of impaired vision and blindness worldwide\nBreak in epithelial layer allows infectious agents to gain access to the underlying stroma\nRisk factors include:  incomplete lid closure (e.g. secondary to\nBell's palsy\n) and soft\ncontact lens\nuse (especially sleeping in contacts)",
+      "subsections": {
+        "Causes": {
+          "text": "Bacteria\nPseudomonas\nStrep pneumo\nStaph\nMoraxella\nViruses\nHerpes simplex\nVaricella-zoster\nFungi\nCandida\nAspergillus\nPenicillium\nCephalosporium",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "contact lens",
+          "url": "https://wikem.org/wiki/Contact_lens"
+        },
+        {
+          "text": "Bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Strep pneumo",
+          "url": "https://wikem.org/wiki/Strep_pneumo"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Moraxella",
+          "url": "https://wikem.org/wiki/Moraxella"
+        },
+        {
+          "text": "Viruses",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Bacteria\nPseudomonas\nStrep pneumo\nStaph\nMoraxella\nViruses\nHerpes simplex\nVaricella-zoster\nFungi\nCandida\nAspergillus\nPenicillium\nCephalosporium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Strep pneumo",
+          "url": "https://wikem.org/wiki/Strep_pneumo"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Moraxella",
+          "url": "https://wikem.org/wiki/Moraxella"
+        },
+        {
+          "text": "Viruses",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Redness\nand swelling of lids and conjunctiva\nOcular pain\nor foreign body sensation\nDecreased visual acuity\n(if located in central visual axis or uveal tract is inflamed)\nPhotophobia\nGray/white corneal lesion (will have fluorescein uptake)\nRequires careful physical exam as 40% of lesions < 5mm\nHypopyon\nmay be present\nIritis\nsigns may be present (miotic pupil, consensual photophobia)",
+      "subsections": {
+        "Complications": {
+          "text": "Corneal scarring\nCorneal perforation\nAnterior/posterior synechiae\nGlaucoma\nCataracts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Redness",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "Ocular pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Decreased visual acuity",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        },
+        {
+          "text": "Iritis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Corneal scarring\nCorneal perforation\nAnterior/posterior synechiae\nGlaucoma\nCataracts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nGrey white corneal lesion on gross vs slit lamp examination\nFluorescein uptake\nVisual Acuity\nTopical anesthetic (ie proparacaine or tetracaine) may assist in patient cooperation with exam once open globe excluded.\nRepeated doses or Rx for topical anesthesia is contraindicated given concerns for impaired healing",
+      "subsections": {
+        "Corneal_abrasion_vs._corneal_ulcer": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Characteristic": "History",
+                "Corneal abrasion": "*Acute pain immediately after injury",
+                "Corneal ulcer": "*Delayed pain frequently 2-3 days or more after initial event"
+              },
+              {
+                "Characteristic": "Lesion viewable on fluorescein exam",
+                "Corneal abrasion": "*Yes",
+                "Corneal ulcer": "*Yes"
+              },
+              {
+                "Characteristic": "Lesion viewable on white light exam",
+                "Corneal abrasion": "*No",
+                "Corneal ulcer": "*Yes"
+              },
+              {
+                "Characteristic": "Lesion morphology",
+                "Corneal abrasion": "*Frequently linear, punctate, patterned, and/or irregular",
+                "Corneal ulcer": "*Commonly circular"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Corneal_abrasion_vs._corneal_ulcer": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Characteristic": "History",
+            "Corneal abrasion": "*Acute pain immediately after injury",
+            "Corneal ulcer": "*Delayed pain frequently 2-3 days or more after initial event"
+          },
+          {
+            "Characteristic": "Lesion viewable on fluorescein exam",
+            "Corneal abrasion": "*Yes",
+            "Corneal ulcer": "*Yes"
+          },
+          {
+            "Characteristic": "Lesion viewable on white light exam",
+            "Corneal abrasion": "*No",
+            "Corneal ulcer": "*Yes"
+          },
+          {
+            "Characteristic": "Lesion morphology",
+            "Corneal abrasion": "*Frequently linear, punctate, patterned, and/or irregular",
+            "Corneal ulcer": "*Commonly circular"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Emergent ophtho consultation\nTopical antibiotics\nVigamox 1 drop qhour\nOR\nCiprofloxacin\n2gtt q15 min x6 hours, then q30min x18h, then q1h x1 day, then q4h x12d\nConsider\nantiviral\nor\nantifungal\nif high suspicion for viral or fungal cause (rare)\nCycloplegic\nmay help if iritis present\nCyclopentolate\n1%\nDo not patch the eye\nTdap update is not strictly required\nConsider gentle irrigation and if there is suspicion for contamination",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        },
+        {
+          "text": "antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        },
+        {
+          "text": "Cycloplegic",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with ophtho followup within 24-48 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bacterial keratitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial keratitis",
+          "url": "https://wikem.org/wiki/Bacterial_keratitis"
+        }
+      ]
+    }
+  }
+}

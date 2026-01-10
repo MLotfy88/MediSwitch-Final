@@ -1,0 +1,978 @@
+{
+  "drug_name": "Conjunctivitis",
+  "url": "https://wikem.org/wiki/Conjunctivitis",
+  "scraped_at": "2026-01-10T07:51:06.668856",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nconjunctivitis (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common cause of\nacute red eye\nViral infection is usual etiology",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acute red eye",
+          "url": "https://wikem.org/wiki/Acute_red_eye"
+        },
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Injected conjunctiva with peri-limbal sparing\nRarely painful; more irritated",
+      "subsections": {
+        "Conjunctivitis_Images": {
+          "text": "Bacterial conjunctivitis\nViral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nChlamydial conjunctivitis\nGonorrheal conjunctivitis\nAcute\nallergic conjunctivitis\nChronic\nallergic conjunctivitis\nContact\nblepharoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Chlamydial conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "blepharoconjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Images": {
+      "text": "Bacterial conjunctivitis\nViral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nChlamydial conjunctivitis\nGonorrheal conjunctivitis\nAcute\nallergic conjunctivitis\nChronic\nallergic conjunctivitis\nContact\nblepharoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Chlamydial conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "blepharoconjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        },
+        "Bilateral_red_eyes": {
+          "text": "Painful\nCaustic keratoconjunctivitis\nOcular foreign body\nOrbital trauma\nContact lens problems\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease\nCarotid-cavernous fistula\nPainless\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Contact lens problems",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "Carotid-cavernous fistula",
+          "url": "https://wikem.org/wiki/Carotid-cavernous_fistula"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {
+        "Bilateral_red_eyes": {
+          "text": "Painful\nCaustic keratoconjunctivitis\nOcular foreign body\nOrbital trauma\nContact lens problems\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease\nCarotid-cavernous fistula\nPainless\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Contact lens problems",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "Carotid-cavernous fistula",
+          "url": "https://wikem.org/wiki/Carotid-cavernous_fistula"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        }
+      ]
+    },
+    "Bilateral_red_eyes": {
+      "text": "Painful\nCaustic keratoconjunctivitis\nOcular foreign body\nOrbital trauma\nContact lens problems\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease\nCarotid-cavernous fistula\nPainless\nConjunctivitis\nBlepharitis\nAllergic reaction\nThyroid disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Contact lens problems",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "Carotid-cavernous fistula",
+          "url": "https://wikem.org/wiki/Carotid-cavernous_fistula"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically clinical",
+      "subsections": {
+        "Clinical_diagnosis_of_conjunctivitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Bilateral",
+                "Bacterial": "50%",
+                "Viral": "25%",
+                "Allergic": "Mostly"
+              },
+              {
+                "": "Discharge",
+                "Bacterial": "Mucopurulent",
+                "Viral": "Clear, Watery",
+                "Allergic": "Cobblestoning, none"
+              },
+              {
+                "": "Redness",
+                "Bacterial": "Yes",
+                "Viral": "Yes",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Pruritis",
+                "Bacterial": "Rarely",
+                "Viral": "Rarely",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Additional",
+                "Bacterial": "Treatment: Antibiotics",
+                "Viral": "Treatment: Hygiene",
+                "Allergic": "Seasonal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_diagnosis_of_conjunctivitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Bilateral",
+            "Bacterial": "50%",
+            "Viral": "25%",
+            "Allergic": "Mostly"
+          },
+          {
+            "": "Discharge",
+            "Bacterial": "Mucopurulent",
+            "Viral": "Clear, Watery",
+            "Allergic": "Cobblestoning, none"
+          },
+          {
+            "": "Redness",
+            "Bacterial": "Yes",
+            "Viral": "Yes",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Pruritis",
+            "Bacterial": "Rarely",
+            "Viral": "Rarely",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Additional",
+            "Bacterial": "Treatment: Antibiotics",
+            "Viral": "Treatment: Hygiene",
+            "Allergic": "Seasonal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Viral infections - most common cause of conjunctivitis, but difficult to differentiate viral from bacterial\nSome clinicians treat all presentations as bacterial conjunctivitis\nTreatment considerations:\nOintments - soothing effect, but interfere with vision\nDrops - no interference with vision",
+      "subsections": {
+        "Antibiotics_for_Bacterial_Causes": {
+          "text": "Treatment for bacterial organisms is targeted toward\nS. aureus\n,\nS. pneumoniae\n,\nH. influenzae\n,\nPseudomonas\n,\nN. gonorrhea\n,\nC. trachomatis\nContact lens wearers should be given coverage for\nPseudomonas\nwith one of the\nfluoroquinolone\ndrops.\nContact lens wearers should be advised to not wear their contacts until asymptomatic",
+          "tables": []
+        },
+        "Bacterial_Conjunctivitis": {
+          "text": "Counsel patient/family on importance of hand hygiene/avoiding touching face to prevent spread!\nApply warm or cool compresses (for comfort and cleansing) every 4 hours, followed by instillation of ophthalmic antibiotic solutions\nThese options do not cover gonococcal or chlamydial infections\nPolymyxin B/Trimethoprim (Polytrim) 2 drops every 6 hours for 7 days OR\nErythromycin\napplied to the conjunctiva q6hrs for 7 days OR\nLevofloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nMoxifloxacin\n0.5% ophthalmic 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nGatifloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN 1 drop every 6 hours for 5 days OR\nAzithromycin\n1% ophthalmic solution 1 drop BID for 2 days THEN 1 drop daily for 5 days\nChloramphenicol\n0.5% ophthalmic solution 1 drop QID for 7 days\nNB: levofloxacin is preferred for contact lens wearers for coverage of pseudomonas. Advise not to wear contacts for duration of treatment",
+          "tables": []
+        },
+        "Chlamydial": {
+          "text": "Doxycycline\n100mg PO BID for 7 days OR\nAzithromycin\n1g (20mg/kg) PO one time dose\nNewborn Treatment:\nAzithromycin\n20mg/kg PO once daily x 3 days or erythromycin PO 50 mg/kg/day in 4 divided doses for 14 days\n[1]\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Due to increasing resistance, CDC recommends dual therapy with Ceftriaxone and Azithromycin (even if patient is negative for Chlamydia).\nCeftriaxone\n250mg IM one dose PLUS\nAzithromycin\n1g PO one dose\nNewborn Treatment:\nProphylaxis:\nErythromycin\nophthalmic 0.5% x1\nDisease manifests 1st 5 days post delivery (early onset)\nTreatment\nCeftriaxone\n25-50mg IV or IM, max 125mg or cefotaxime single dose of 100 mg/kg (preferred if the patient has hyperbilirubinemia)\nAlso requires evaluation for disseminated disease (meningitis, arthritis, etc.)",
+          "tables": []
+        },
+        "Contraindicated": {
+          "text": "Corticosteroids have no benefit and can cause sight threatening injuries, especially in HSV or fungal causes of red eye\nEye patching thought to exacerbate the infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "N. gonorrhea",
+          "url": "https://wikem.org/wiki/N._gonorrhea"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Antibiotics_for_Bacterial_Causes": {
+      "text": "Treatment for bacterial organisms is targeted toward\nS. aureus\n,\nS. pneumoniae\n,\nH. influenzae\n,\nPseudomonas\n,\nN. gonorrhea\n,\nC. trachomatis\nContact lens wearers should be given coverage for\nPseudomonas\nwith one of the\nfluoroquinolone\ndrops.\nContact lens wearers should be advised to not wear their contacts until asymptomatic",
+      "subsections": {
+        "Bacterial_Conjunctivitis": {
+          "text": "Counsel patient/family on importance of hand hygiene/avoiding touching face to prevent spread!\nApply warm or cool compresses (for comfort and cleansing) every 4 hours, followed by instillation of ophthalmic antibiotic solutions\nThese options do not cover gonococcal or chlamydial infections\nPolymyxin B/Trimethoprim (Polytrim) 2 drops every 6 hours for 7 days OR\nErythromycin\napplied to the conjunctiva q6hrs for 7 days OR\nLevofloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nMoxifloxacin\n0.5% ophthalmic 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nGatifloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN 1 drop every 6 hours for 5 days OR\nAzithromycin\n1% ophthalmic solution 1 drop BID for 2 days THEN 1 drop daily for 5 days\nChloramphenicol\n0.5% ophthalmic solution 1 drop QID for 7 days\nNB: levofloxacin is preferred for contact lens wearers for coverage of pseudomonas. Advise not to wear contacts for duration of treatment",
+          "tables": []
+        },
+        "Chlamydial": {
+          "text": "Doxycycline\n100mg PO BID for 7 days OR\nAzithromycin\n1g (20mg/kg) PO one time dose\nNewborn Treatment:\nAzithromycin\n20mg/kg PO once daily x 3 days or erythromycin PO 50 mg/kg/day in 4 divided doses for 14 days\n[1]\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Due to increasing resistance, CDC recommends dual therapy with Ceftriaxone and Azithromycin (even if patient is negative for Chlamydia).\nCeftriaxone\n250mg IM one dose PLUS\nAzithromycin\n1g PO one dose\nNewborn Treatment:\nProphylaxis:\nErythromycin\nophthalmic 0.5% x1\nDisease manifests 1st 5 days post delivery (early onset)\nTreatment\nCeftriaxone\n25-50mg IV or IM, max 125mg or cefotaxime single dose of 100 mg/kg (preferred if the patient has hyperbilirubinemia)\nAlso requires evaluation for disseminated disease (meningitis, arthritis, etc.)",
+          "tables": []
+        },
+        "Contraindicated": {
+          "text": "Corticosteroids have no benefit and can cause sight threatening injuries, especially in HSV or fungal causes of red eye\nEye patching thought to exacerbate the infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "N. gonorrhea",
+          "url": "https://wikem.org/wiki/N._gonorrhea"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Contraindicated": {
+      "text": "Corticosteroids have no benefit and can cause sight threatening injuries, especially in HSV or fungal causes of red eye\nEye patching thought to exacerbate the infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal conjunctivitis\nConjunctivitis (Peds)\nEye Algorithms (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Conjunctivitis (Peds)",
+          "url": "https://wikem.org/wiki/Conjunctivitis_(Peds)"
+        },
+        {
+          "text": "Eye Algorithms (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithms_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Mahmood, Narang. Diagnosis & management of acute red eye. Emerg Med Clin N Am 2008;26",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

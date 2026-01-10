@@ -1,0 +1,297 @@
+{
+  "drug_name": "Cor_triatriatum",
+  "url": "https://wikem.org/wiki/Cor_triatriatum",
+  "scraped_at": "2026-01-10T07:51:06.122423",
+  "sections": {
+    "Background": {
+      "text": "Congenital anomaly: heart with three atria\nEither LA or RA can be divided into 2 compartments (cor triatriatum sinistrum or cor triatriatum dextrum)\nCan be associated with other congenital syndromes including\ntetralogy of Fallot\n, double outlet RV,\ncoarctation of the aorta\n,\nVSD\n, AV septal defect\n0.1-0.4% incidence in USA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetralogy of Fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        },
+        {
+          "text": "coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sinistrum variant most associated with other congenital cardiovascular defects in symptomatic infants\nCan be incidental finding in adults as either isolated finding or in association with PFO, ASD, persistent left superior vena cava\nSymptoms depend on size of opening in accessory membrane between the atria\nSymptoms include\ndyspnea\non exertion, orthopnea, easy fatiguability, low exercise tolerance,\npalpitations\nIncreased risk of thrombus formation in LA\nMurmur\nElevated JVD\nHepatomegaly\nAscites\nPeripheral edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pericarditis\nPulmonary Hypertension\nRight\nheart failure\nAtrial Myxoma\nMitral Stenosis\nTricuspid Stenosis",
+      "subsections": {
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Mitral Stenosis",
+          "url": "https://wikem.org/wiki/Mitral_Stenosis"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Initial workup may include:\nECG\n: Atrial premature complexes, Left or Right atrial abnormalities, Right axis deviation, Right heart strain\nCXR\nEchocardiography\nRight heart cath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "As associated with major cyanotic or acyanotic congenital heart lesions, mortality can be up to 75% in untreated symptomatic infants\nTreat increased pulmonary vascular resistance,\nheart failure\nInotropic agents (eg,\ndopamine\n,\ndobutamine\n),\ndiuretics\nManage\nhypoxia\n, fluid status, rate in\nafib\nDVT\n/PE prophylaxis\nCardiac surgery consultation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Congenital heart disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "drug_name": "Coude_catheter",
+  "url": "https://wikem.org/wiki/Coude_catheter",
+  "scraped_at": "2026-01-10T07:51:10.259941",
+  "sections": {
+    "Indications/Contraindications": {
+      "text": "Same as for Foley catheter placement (but typically used after failure of Foley placement) in a man with an enlarged prostate. Coude catheter navigates the S-shaped curve of the bulbous urethra, which is exaggerated in\nBPH\n.\nAlmost never used in pediatric patients\nHistory of urethral strictures is contraindication - higher risk for false tracts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Use Urojet lidocaine and inject tip into the meatus / distal urethra\nInsert with curved tip pointing up (cephalad). Pearl - If the balloon port or small knob at drainage end of the catheter is pointed up, the curved tip will be pointed up.\nGentle but continuous pressure past the resistance point\nAdvanced until the hub is at the glans with urine return through catheter. If no urine return, attempt urine aspiration.\nInflate balloon (10 mL of saline) once urine return confirmed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Creation or extension of false tracts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Urinary retention\nTraumatic foley catheter removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Evaluation and treatment of acute urinary retention. J Emerg Med. 2008:  35:193-198",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

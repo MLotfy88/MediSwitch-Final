@@ -1,0 +1,572 @@
+{
+  "drug_name": "Cor_pulmonale",
+  "url": "https://wikem.org/wiki/Cor_pulmonale",
+  "scraped_at": "2026-01-10T07:51:05.264985",
+  "sections": {
+    "Background": {
+      "text": "Remodeling of right ventricle in response to pulmonary pathology\nOften caused by\nCOPD\n,\npulmonary hypertension\n,\nPE\n,\nARDS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Pulmonary vasoconstriction (\nhypoxia\n,\nacidemia\n)\nDestruction of pulmonary vasculature by emphysema,\ninterstitial lung disease\nIncreased blood viscosity (\nsickle cell disease\n,\npolycythemia\n)",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "RVH",
+          "tables": []
+        },
+        "Acute": {
+          "text": "RV dilation",
+          "tables": []
+        },
+        "Signs_and_Symptoms": {
+          "text": "Cough\nDyspnea\nTachypnea\nHemoptysis\nSyncope\nPeripheral edema\nCyanosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Pulmonary vasoconstriction (\nhypoxia\n,\nacidemia\n)\nDestruction of pulmonary vasculature by emphysema,\ninterstitial lung disease\nIncreased blood viscosity (\nsickle cell disease\n,\npolycythemia\n)",
+      "subsections": {
+        "Chronic": {
+          "text": "RVH",
+          "tables": []
+        },
+        "Acute": {
+          "text": "RV dilation",
+          "tables": []
+        },
+        "Signs_and_Symptoms": {
+          "text": "Cough\nDyspnea\nTachypnea\nHemoptysis\nSyncope\nPeripheral edema\nCyanosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "RVH",
+      "subsections": {
+        "Acute": {
+          "text": "RV dilation",
+          "tables": []
+        },
+        "Signs_and_Symptoms": {
+          "text": "Cough\nDyspnea\nTachypnea\nHemoptysis\nSyncope\nPeripheral edema\nCyanosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "RV dilation",
+      "subsections": {
+        "Signs_and_Symptoms": {
+          "text": "Cough\nDyspnea\nTachypnea\nHemoptysis\nSyncope\nPeripheral edema\nCyanosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Signs_and_Symptoms": {
+      "text": "Cough\nDyspnea\nTachypnea\nHemoptysis\nSyncope\nPeripheral edema\nCyanosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cardiovascular\nACS\nAcute Valve Dysfunction\nAortic Dissection\nDysrhythmia\nEndocarditis\nHypertensive Emergency\nPericardial Tamponade\nPulmonary\nCOPD\nPE\npneumonia\nOther\nPure\nvolume overload\nRenal Failure\nPost-\nTransfusion\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Acute Valve Dysfunction",
+          "url": "https://wikem.org/wiki/Acute_Valve_Dysfunction"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive Emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_Emergency"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "volume overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Blood_tests": {
+          "text": "CBC (\npolycythemia\n)\nABG\n(oxygenation, acid-base status)\nα-1-antitrypsin\nANA\nCoagulation studies (protein C/S, factor V Leiden etc)",
+          "tables": []
+        },
+        "CXR": {
+          "text": "Enlarged pulmonary arteries\nCardiomegaly\nDecreased retrosternal air space",
+          "tables": []
+        },
+        "ECG": {
+          "text": "RVH\nRight axis deviation\nRight bundle branch block\nR:S ratio > 1 in V1\nTWI in V1-3 in acute right heart strain (as opposed to upright t-waves in posterior MI)\nS1 Q3 T3 in acute right heart strain\nLarge P wave in II, III, aVF\nArrhythmia\n(\nPAC\n,\nSVT\n, MFAT,\nA-fib\n, A-\nflutter\n)",
+          "tables": []
+        },
+        "Echocardiography": {
+          "text": "Increased RV thickness\nRV dilation\nTricuspid insufficiency\nHigh estimated PA pressures\nSeptal bowing into LV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "PAC",
+          "url": "https://wikem.org/wiki/PAC"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Flutter"
+        }
+      ]
+    },
+    "Blood_tests": {
+      "text": "CBC (\npolycythemia\n)\nABG\n(oxygenation, acid-base status)\nα-1-antitrypsin\nANA\nCoagulation studies (protein C/S, factor V Leiden etc)",
+      "subsections": {
+        "CXR": {
+          "text": "Enlarged pulmonary arteries\nCardiomegaly\nDecreased retrosternal air space",
+          "tables": []
+        },
+        "ECG": {
+          "text": "RVH\nRight axis deviation\nRight bundle branch block\nR:S ratio > 1 in V1\nTWI in V1-3 in acute right heart strain (as opposed to upright t-waves in posterior MI)\nS1 Q3 T3 in acute right heart strain\nLarge P wave in II, III, aVF\nArrhythmia\n(\nPAC\n,\nSVT\n, MFAT,\nA-fib\n, A-\nflutter\n)",
+          "tables": []
+        },
+        "Echocardiography": {
+          "text": "Increased RV thickness\nRV dilation\nTricuspid insufficiency\nHigh estimated PA pressures\nSeptal bowing into LV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "PAC",
+          "url": "https://wikem.org/wiki/PAC"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Flutter"
+        }
+      ]
+    },
+    "CXR": {
+      "text": "Enlarged pulmonary arteries\nCardiomegaly\nDecreased retrosternal air space",
+      "subsections": {
+        "ECG": {
+          "text": "RVH\nRight axis deviation\nRight bundle branch block\nR:S ratio > 1 in V1\nTWI in V1-3 in acute right heart strain (as opposed to upright t-waves in posterior MI)\nS1 Q3 T3 in acute right heart strain\nLarge P wave in II, III, aVF\nArrhythmia\n(\nPAC\n,\nSVT\n, MFAT,\nA-fib\n, A-\nflutter\n)",
+          "tables": []
+        },
+        "Echocardiography": {
+          "text": "Increased RV thickness\nRV dilation\nTricuspid insufficiency\nHigh estimated PA pressures\nSeptal bowing into LV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "PAC",
+          "url": "https://wikem.org/wiki/PAC"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Flutter"
+        }
+      ]
+    },
+    "ECG": {
+      "text": "RVH\nRight axis deviation\nRight bundle branch block\nR:S ratio > 1 in V1\nTWI in V1-3 in acute right heart strain (as opposed to upright t-waves in posterior MI)\nS1 Q3 T3 in acute right heart strain\nLarge P wave in II, III, aVF\nArrhythmia\n(\nPAC\n,\nSVT\n, MFAT,\nA-fib\n, A-\nflutter\n)",
+      "subsections": {
+        "Echocardiography": {
+          "text": "Increased RV thickness\nRV dilation\nTricuspid insufficiency\nHigh estimated PA pressures\nSeptal bowing into LV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "PAC",
+          "url": "https://wikem.org/wiki/PAC"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Flutter"
+        }
+      ]
+    },
+    "Echocardiography": {
+      "text": "Increased RV thickness\nRV dilation\nTricuspid insufficiency\nHigh estimated PA pressures\nSeptal bowing into LV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying disease\nFluids,\nvasoconstrictors\nto support BP in acute setting\nOxygen therapy\n: decreases pulmonary vasoconstriction\nDiuretics\n: decrease RV filling volume\nCalcium channel blockers\n: vasodilate the pulmonary arteries\nBeta agonists (\nepoprostenol\n, iloprost): bronchodilate\nPhlebotomy for severe hypoxia leading to polycythemia\nLung transplant or heart-lung transplant as last resort",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vasoconstrictors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Oxygen therapy",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "epoprostenol",
+          "url": "https://wikem.org/wiki/Epoprostenol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pulmonary Embolism\nCOPD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "drug_name": "Cough",
+  "url": "https://wikem.org/wiki/Cough",
+  "scraped_at": "2026-01-10T07:51:12.593924",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Cough": {
+      "text": "",
+      "subsections": {
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    }
+  }
+}

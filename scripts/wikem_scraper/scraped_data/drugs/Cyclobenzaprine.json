@@ -1,0 +1,127 @@
+{
+  "drug_name": "Cyclobenzaprine",
+  "url": "https://wikem.org/wiki/Cyclobenzaprine",
+  "scraped_at": "2026-01-10T07:51:20.376549",
+  "sections": {
+    "Toxicity": {
+      "text": "Similar to\nTricyclic antidepressant toxicity\n, molecular structure similar and urine testing can be positive for TCAs\nCan have anticholinergic toxidrome in overdose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tricyclic antidepressant toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_toxicity"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Type: muscle relaxant\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names: Flexeril",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "5-10mg PO 1-3 times per day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">15 y/o\n5-10 mg TID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Titrate slowly\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Titrate slowly\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Titrate slowly\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMAOI use, concomitantly or within 14 days\nHeart block or other serious arrhythmias, CHF",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Neuroleptic malignant syndrome\nSerotonin syndrome\nStroke\nDysrhythmias, heart block\nBone marrow depression\nHepatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Somnolence, dizziness\nNausea, constipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Neuroleptic malignant syndrome\nSerotonin syndrome\nStroke\nDysrhythmias, heart block\nBone marrow depression\nHepatitis",
+      "subsections": {
+        "Common": {
+          "text": "Somnolence, dizziness\nNausea, constipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Somnolence, dizziness\nNausea, constipation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: ~18h for immediate release, 32h for extended release\nMetabolism: hepatic\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts on CNS to reduce tonic somatic motor activity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

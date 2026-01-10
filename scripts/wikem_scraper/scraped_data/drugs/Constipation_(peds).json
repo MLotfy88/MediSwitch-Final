@@ -1,0 +1,796 @@
+{
+  "drug_name": "Constipation_(peds)",
+  "url": "https://wikem.org/wiki/Constipation_(peds)",
+  "scraped_at": "2026-01-10T07:51:07.143277",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients; for adult patients see\nconstipation\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Functional constipation is the most common, but must evaluate for concerning/organic causes (see DDX)\nThere is a wide range of normal frequency of stools and no widely-accepted definition of pediatric constipation.\nIn general, stool frequency decreases with age, ranging from 3 per day in neonates/infants to 1.5 per day in young children, reaching adult frequency by roughly 3 yo.\n[1]\nPrevalence ranges from 1-30%\n[2]\nand comprises a significant proportion of pediatric ED visits.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most patients note some combination of withholding/infrequent defecation, painful defecation, or crampy abdominal pain\nThis can include stools that are too large, too hard, and/or painful to pass\nMay be associated with\nabdominal cramping\n, rectal discomfort, withholding behavior, encopresis\nMay be complicated by\nrectal bleeding\n,\nanal fissures\n,\nfecal impaction\nShould have a benign \"soft\" abdominal exam (vs. more concerning abdominal pathologies)",
+      "subsections": {
+        "Red_flags": {
+          "text": "Significant or constant/unrelenting\nabdominal pain\nFailure to thrive\nDelayed meconium passage\nBilious vomiting\nMelena\nSevere abdominal distention\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Red_flags": {
+      "text": "Significant or constant/unrelenting\nabdominal pain\nFailure to thrive\nDelayed meconium passage\nBilious vomiting\nMelena\nSevere abdominal distention\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infant_Constipation": {
+          "text": "Constipation\nHirschsprung's disease\nCongenital anorectal malformations\nImperforate anus\nBowel obstruction\nNeurologic disorders\nEncephalopathy\nSpinal cord abnormalities: myelomeningocele, spina bifida, tethered cord\nMeconium ileus\nCystic fibrosis\nMetabolic causes\nHypothyroidism\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nHeavy-metal poisoning\nMedication side effects",
+          "tables": []
+        },
+        "Children_(older_than_1_year)_Constipation": {
+          "text": "Functional constipation (>95% of cases)\nOrganic causes\nHirschsprung's disease\nMetabolic causes\nHypothyroidism\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nDiabetes Mellitus\nCystic fibrosis\nGluten enteropathy\nSpinal cord trauma or abnormalities\nNeurofibromatosis\nHeavy-metal poisoning\nMedication side effects\nDevelopmental delays\nSexual abuse",
+          "tables": []
+        },
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Heavy-metal poisoning",
+          "url": "https://wikem.org/wiki/Heavy-metal_poisoning"
+        },
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    },
+    "Infant_Constipation": {
+      "text": "Constipation\nHirschsprung's disease\nCongenital anorectal malformations\nImperforate anus\nBowel obstruction\nNeurologic disorders\nEncephalopathy\nSpinal cord abnormalities: myelomeningocele, spina bifida, tethered cord\nMeconium ileus\nCystic fibrosis\nMetabolic causes\nHypothyroidism\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nHeavy-metal poisoning\nMedication side effects",
+      "subsections": {
+        "Children_(older_than_1_year)_Constipation": {
+          "text": "Functional constipation (>95% of cases)\nOrganic causes\nHirschsprung's disease\nMetabolic causes\nHypothyroidism\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nDiabetes Mellitus\nCystic fibrosis\nGluten enteropathy\nSpinal cord trauma or abnormalities\nNeurofibromatosis\nHeavy-metal poisoning\nMedication side effects\nDevelopmental delays\nSexual abuse",
+          "tables": []
+        },
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Heavy-metal poisoning",
+          "url": "https://wikem.org/wiki/Heavy-metal_poisoning"
+        },
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    },
+    "Pediatric_Abdominal_Pain": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Use of a KUB to diagnose constipation in pediatric patients is generally NOT indicated, as\nacute appendicitis\nand other serious pathology may also result in increased stool burden. If the abdominal exam is concerning, proceed to ultrasound/CT.\nIn many cases, may require no workup and diagnosis can be made clinically\nConsider digital rectal exam\nAlthough generally not necessary, this may be done to assess for organic causes or to assess for disimpaction success\nConsider abdominal labs\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nCoagulation studies (PT, PTT, INR), as a marker of liver function\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nConsider diagnostic imaging\nConstipation should not cause abdominal tenderness on exam\nUltrasound if concern for\nintussception\n, biliary pathology, and/or beginning of\nappendicitis\nworkup\nCT abdomen/pelvis with IV contrast if concern for surgical abdomen\nCT may show stool burden in colon/rectum",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Note that the emergency physician's primary role is to rule out organic and life-threatening causes of constipation\nAcute appendicitis\nand other causes of surgical abdomen may present as constipation, in which case the primary emergency medicine goal is ruling out these other conditions\nPediatric constipation is frequently a clinical diagnosis; the ROME IV criteria may be utilized to diagnose pediatric constipation, but this is not necessary to do in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Use of a KUB to diagnose constipation in pediatric patients is generally NOT indicated, as\nacute appendicitis\nand other serious pathology may also result in increased stool burden. If the abdominal exam is concerning, proceed to ultrasound/CT.\nIn many cases, may require no workup and diagnosis can be made clinically\nConsider digital rectal exam\nAlthough generally not necessary, this may be done to assess for organic causes or to assess for disimpaction success\nConsider abdominal labs\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nCoagulation studies (PT, PTT, INR), as a marker of liver function\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nConsider diagnostic imaging\nConstipation should not cause abdominal tenderness on exam\nUltrasound if concern for\nintussception\n, biliary pathology, and/or beginning of\nappendicitis\nworkup\nCT abdomen/pelvis with IV contrast if concern for surgical abdomen\nCT may show stool burden in colon/rectum",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Note that the emergency physician's primary role is to rule out organic and life-threatening causes of constipation\nAcute appendicitis\nand other causes of surgical abdomen may present as constipation, in which case the primary emergency medicine goal is ruling out these other conditions\nPediatric constipation is frequently a clinical diagnosis; the ROME IV criteria may be utilized to diagnose pediatric constipation, but this is not necessary to do in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Note that the emergency physician's primary role is to rule out organic and life-threatening causes of constipation\nAcute appendicitis\nand other causes of surgical abdomen may present as constipation, in which case the primary emergency medicine goal is ruling out these other conditions\nPediatric constipation is frequently a clinical diagnosis; the ROME IV criteria may be utilized to diagnose pediatric constipation, but this is not necessary to do in ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "While acute disimpaction (oral, rectal, or both) in the ED may be helpful, maintenance therapy (to prevent stool re-impaction) and family education is equally important and may prevent future ED visits.",
+      "subsections": {
+        "Infants": {
+          "text": "Dietary interventions\nNot yet begun solid foods\nSorbitol-containing juices (eg, apple, prune, or pear), which help increase stool water content and frequency\nFor infants four months and older, starting dose: 2-4 ounces of 100-percent fruit juice per day\nKaro syrup, add 1 tsp to 4 oz cooled, boiled water; give 1 oz of solution to baby just before feeds twice a day until stool softens\nWho have begun solid foods\n[3]\nSorbitol-containing fruit purees (e.g. pureed prunes).\nSubstitute multigrain or barley cereal for rice cereal\nRecommended fiber intake in grams = child's age in years + 5\n[4]\nDisimpaction\nRectal: Consider glycerin suppositories or lubricated rectal thermometer as forms of rectal disimpaction; however, this may create tolerance if used frequently\nPO: Consider\nPolyethylene glycol 3350\n0.4 g/kg/day PO as a first-line agent, followed by\nLactulose\n1 mL/kg PO as a second-line agent\nNote that enemas are often not recommended for infants < 2 years due to increased risk of iatrogenic electrolyte derangements or rectal perforation.\n[5]",
+          "tables": []
+        },
+        "Toddlers_and_children": {
+          "text": "WITHOUT withholding behavior, bleeding, or\nanal fissure\nFiber: age + (5 to 10) grams daily\nAdequate fluid intake: 32-64 ounces [960-1920 mL] per day\nWITH withholding behavior, pain while defecating,\nrectal bleeding\nor\nanal fissure\nPolyethylene glycol 3350\n(e.g., Miralax) is the first-line treatment 0.4 g/kg/day MAX 6 days or\nLactulose\n1 mL/kg PO\nEnemas\nSaline enema, 5-10 mL/kg\nMineral oil enema, 15-30 mL/year\nSodium phosphate (Fleet) enema, approximately 1 oz for 2-4 yo, 2.25 oz for 5-11 yo, 4.5 oz for > 12 yo\n[6]\nStimulants such as\nBisacodyl\n(Dulcolax) PO/suppository and\nSenna\ncan be used as short term medications but are less studied in clinical trials compared to polyethylene glycol\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infants": {
+      "text": "Dietary interventions\nNot yet begun solid foods\nSorbitol-containing juices (eg, apple, prune, or pear), which help increase stool water content and frequency\nFor infants four months and older, starting dose: 2-4 ounces of 100-percent fruit juice per day\nKaro syrup, add 1 tsp to 4 oz cooled, boiled water; give 1 oz of solution to baby just before feeds twice a day until stool softens\nWho have begun solid foods\n[3]\nSorbitol-containing fruit purees (e.g. pureed prunes).\nSubstitute multigrain or barley cereal for rice cereal\nRecommended fiber intake in grams = child's age in years + 5\n[4]\nDisimpaction\nRectal: Consider glycerin suppositories or lubricated rectal thermometer as forms of rectal disimpaction; however, this may create tolerance if used frequently\nPO: Consider\nPolyethylene glycol 3350\n0.4 g/kg/day PO as a first-line agent, followed by\nLactulose\n1 mL/kg PO as a second-line agent\nNote that enemas are often not recommended for infants < 2 years due to increased risk of iatrogenic electrolyte derangements or rectal perforation.\n[5]",
+      "subsections": {
+        "Toddlers_and_children": {
+          "text": "WITHOUT withholding behavior, bleeding, or\nanal fissure\nFiber: age + (5 to 10) grams daily\nAdequate fluid intake: 32-64 ounces [960-1920 mL] per day\nWITH withholding behavior, pain while defecating,\nrectal bleeding\nor\nanal fissure\nPolyethylene glycol 3350\n(e.g., Miralax) is the first-line treatment 0.4 g/kg/day MAX 6 days or\nLactulose\n1 mL/kg PO\nEnemas\nSaline enema, 5-10 mL/kg\nMineral oil enema, 15-30 mL/year\nSodium phosphate (Fleet) enema, approximately 1 oz for 2-4 yo, 2.25 oz for 5-11 yo, 4.5 oz for > 12 yo\n[6]\nStimulants such as\nBisacodyl\n(Dulcolax) PO/suppository and\nSenna\ncan be used as short term medications but are less studied in clinical trials compared to polyethylene glycol\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toddlers_and_children": {
+      "text": "WITHOUT withholding behavior, bleeding, or\nanal fissure\nFiber: age + (5 to 10) grams daily\nAdequate fluid intake: 32-64 ounces [960-1920 mL] per day\nWITH withholding behavior, pain while defecating,\nrectal bleeding\nor\nanal fissure\nPolyethylene glycol 3350\n(e.g., Miralax) is the first-line treatment 0.4 g/kg/day MAX 6 days or\nLactulose\n1 mL/kg PO\nEnemas\nSaline enema, 5-10 mL/kg\nMineral oil enema, 15-30 mL/year\nSodium phosphate (Fleet) enema, approximately 1 oz for 2-4 yo, 2.25 oz for 5-11 yo, 4.5 oz for > 12 yo\n[6]\nStimulants such as\nBisacodyl\n(Dulcolax) PO/suppository and\nSenna\ncan be used as short term medications but are less studied in clinical trials compared to polyethylene glycol\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient pediatrician follow-up\nConsider urgent vs nonurgent referral to a pediatric gastroenterologist if red-flag symptoms are present",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation\nTables on neonatal constipation differential and normal stool/urine output\n[8]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

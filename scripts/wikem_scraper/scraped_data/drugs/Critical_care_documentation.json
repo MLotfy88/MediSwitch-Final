@@ -1,0 +1,59 @@
+{
+  "drug_name": "Critical_care_documentation",
+  "url": "https://wikem.org/wiki/Critical_care_documentation",
+  "scraped_at": "2026-01-10T07:51:13.196054",
+  "sections": {
+    "Background": {
+      "text": "Delivery of critical care is common in the ED setting.\nMultiple components must be satisfied and appropriately documented in the medical record when delivering critical care in the ED.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Elements_of_Critical_Care_Time": {
+      "text": "Critical illness or injury\n= illness or injury that impairs one or more \"one or more vital organ systems such that there is a high probability of imminent or life threatening deterioration in the patient’s condition.”\nCritical care services\n= direct medical care for the patient that involves “high complexity decision making to assess, manipulate, and support vital organ system failure.”\nCMS additionally mandates that for medicare patients, \"the failure to initiate these interventions on an urgent basis would likely result in sudden, clinically significant or life threatening deterioration in the patient's condition\".\nTime\n= total time spent evaluating, managing, and providing care to a critically ill patient. Does not have to be continuous. Includes direct patient care at bedside as well as time spent reviewing test results, discussing the case with consultants or family members, and documenting in the patient's chart.",
+      "subsections": {
+        "Time_Calculation": {
+          "text": "Time spent in critical care activities must exceed 30 minutes in order to bill for critical care time.\nCPT Code 99291 is used for the first 30-74 minutes of critical care time\nCPT Code 99292 is used for additional blocks of time of up to 30 minutes beyond the first 74 minutes of critical care time\nMust document either a specific time or, e.g., \"in excess of 30 minutes\".\nCalculated time must exclude all separately billable procedures\nThese include (but are not limited to): central line or transvenous pacemaker placement, chest tube placement, endotracheal intubation, CPR.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Time_Calculation": {
+      "text": "Time spent in critical care activities must exceed 30 minutes in order to bill for critical care time.\nCPT Code 99291 is used for the first 30-74 minutes of critical care time\nCPT Code 99292 is used for additional blocks of time of up to 30 minutes beyond the first 74 minutes of critical care time\nMust document either a specific time or, e.g., \"in excess of 30 minutes\".\nCalculated time must exclude all separately billable procedures\nThese include (but are not limited to): central line or transvenous pacemaker placement, chest tube placement, endotracheal intubation, CPR.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Sample_Documentation": {
+      "text": "Critical Care Procedure Note\nAuthorized and Performed by:\nMD Name\nTotal critical care time: Approximately\n36\nminutes\nDue to a high probability of clinically significant, life threatening deterioration, the patient required my highest level of preparedness to intervene emergently and I personally spent this critical care time directly and personally managing the patient. This critical care time included obtaining a history; examining the patient; pulse oximetry; ordering and review of studies; arranging urgent treatment with development of a management plan; evaluation of patient's response to treatment; frequent reassessment; and, discussions with other providers.\nThis critical care time was performed to assess and manage the high probability of imminent, life-threatening deterioration that could result in multi-organ failure. It was exclusive of separately billable procedures and treating other patients and teaching time.\nPlease see MDM section and the rest of the note for further information on patient assessment and treatment.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Common_Clinical_Conditions_Consistent_with_Critical_Care": {
+      "text": "Must be first diagnosis\nAcidosis with aggressive management\nAcute Coronary Syndrome (ACS-possible MI) with progressive pain management\nActive bleed with admit to OR\nAnaphylactic shock\nAngina, unstable, aggressive management\nAtrial fibrillation with tachycardia not responding immediately to treatment\nAsthma, aggressive treatments/frequent monitoring\nComatose/unconscious, unknown cause at presentation\nCOPD/CHF severe exacerbation\nDehydration with significant metabolic/ chemistry changes\nHead injury, severe, unresponsive\nHyperkalemia with insulin/bicarb treatment\nHypernatremia with mental status change\nOverdose, aggressive treatment, lavage or acute vital sign changes\nPneumothorax with at least mild/moderate respiratory distress\nPulmonary edema or emboli\nRapid heart rate requiring IV therapies and/or close monitoring in ED\nSeizure, new onset or with disorder hx, postictal with intensive drug management\nSepsis/septicemia with hypotensive management\nSevere bleeding requiring transfusion\nShock-unresponsive patient\nStatus Asthmaticus – defined as patient’s inability to respond during an asthma attack\nStatus Epilepticus\nStroke, acute, with paralysis not just parasthesia\nSubdural, subarachnoid, bleeding into the brain\nSuicidal ideation, clear & immediate threat, requiring chemical/physical restraints\nTrauma, altered consciousness, life or limb threatened\nUnstable vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Documentation for emergency physicians",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Documentation for emergency physicians",
+          "url": "https://wikem.org/wiki/Documentation_for_emergency_physicians"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.acep.org/administration/reimbursement/reimbursement-faqs/critical-care-faq/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

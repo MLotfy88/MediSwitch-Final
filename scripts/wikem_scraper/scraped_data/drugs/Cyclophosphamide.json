@@ -1,0 +1,90 @@
+{
+  "drug_name": "Cyclophosphamide",
+  "url": "https://wikem.org/wiki/Cyclophosphamide",
+  "scraped_at": "2026-01-10T07:51:20.923979",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antineoplastic/immune modulating agent\nDosage Forms:\nRoutes of Administration: IV, oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Vasculitis: 2 mg/kg PO daily\nOR\n15mg/kg IV q2 weeks x3 then q3 weeks. Adjust dose to avoid severe leukopenia\nLupus nephritis: 1g/m(2) IV monthly\nNeuropsychiatric lupus:  0.75 g/m(2) IV q1mo x 1 year, then q3mo x 3 years\nOncologic uses: Typically much higher doses (e.g. 40 to 50 mg/kg IV over several days)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: Infant risk has been demonstrated\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nUrinary outflow obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Malignancy: leukemia, bladder, renal pelvis, dermis, angiosarcoma\nPericardial effusion, cardiac tamponade\nCardiac toxicity, CHF\nSJS/TEN\nInterstitial pneumonia, pulmonary fibrosis\nInfection/sepsis\nBladder fibrosis/contracture, hemorrhagic cystitis,\nAzoospermia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Alopecia, skin pigmentation changes, rash, nail damage\nNausea/vomiting, diarrhea, anorexia\nLeukopenia, neutropenia\nAmenorrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Malignancy: leukemia, bladder, renal pelvis, dermis, angiosarcoma\nPericardial effusion, cardiac tamponade\nCardiac toxicity, CHF\nSJS/TEN\nInterstitial pneumonia, pulmonary fibrosis\nInfection/sepsis\nBladder fibrosis/contracture, hemorrhagic cystitis,\nAzoospermia",
+      "subsections": {
+        "Common": {
+          "text": "Alopecia, skin pigmentation changes, rash, nail damage\nNausea/vomiting, diarrhea, anorexia\nLeukopenia, neutropenia\nAmenorrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Alopecia, skin pigmentation changes, rash, nail damage\nNausea/vomiting, diarrhea, anorexia\nLeukopenia, neutropenia\nAmenorrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-12h\nMetabolism: Hepatic\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Alkylating agent, cross-links strands of DNA and RNA, inhibits protein synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Amant F, Deckers S, Van Calsteren K, et al. Breast cancer in pregnancy: recommendations of an international consensus meeting. Eur J Cancer. 2010;46(18):3158-3168. [PubMed 20932740]\nAnderson JE, Appelbaum FR, Schoch G, et al, “Allogeneic Marrow Transplantation for Myelodysplastic Syndrome With Advanced Disease Morphology: A Phase II Study of Busulfan, Cyclophosphamide, and Total Body-Irradiation and Analysis of Prognostic Factors,” J Clin Oncol, 1996, 14(1):220-6. [PubMed 8558201]\nArndt C, Hawkins, D, Anderson JR, et al. Age is a Risk Factor for Chemotherapy-Induced Hepatopathy With Vincristine, Dactinomycin and Cyclophosphamide. J Clin Oncol. 2004;22(10):1894-1901. [PubMed 15143082]\nArndt CA, Stoner JA, Hawkins DS, et al. Vincristine, actinomycin, and cyclophosphamide compared with vincristine, actinomycin, and cyclophosphamide alternating with vincristine, topotecan, and cyclophosphamide for intermediate-risk rhabdomyosarcoma: children's oncology group study D9803. J Clin Oncol. 2009;27(31):5182-5188. doi: 10.1200/JCO.2009.22.3768. [PubMed 19770373]\nAronoff GR, Bennett WM, Berns JS, et al, Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children, 5th ed. Philadelphia, PA: American College of Physicians; 2007, p 97, 170.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

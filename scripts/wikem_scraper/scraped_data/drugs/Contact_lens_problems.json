@@ -1,0 +1,48 @@
+{
+  "drug_name": "Contact_lens_problems",
+  "url": "https://wikem.org/wiki/Contact_lens_problems",
+  "scraped_at": "2026-01-10T07:51:05.698435",
+  "sections": {
+    "Background": {
+      "text": "Contact lens wearers are at increased risk of unique ocular complications. A thorough ophthalmic exam should be performed in patients presenting with ocular complaints.\n[1]\nMechanisms of complications include\n[2]\n:\nDirect trauma\nDecreased corneal oxygenation\nReduced corneal/conjunctival wetting\nAllergic/inflammatory responses\nInfection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Presentation of various problems may be complicated by hypoesthesia in chronic contact lense wearers\nPain, photophobia, foreign body sensation, decreased visual acuity, discharge, and burning are common.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Contact lens wearers are at increased risk of:\nInfectious corneal infiltrate or ulceration\nbacterial(pseudomonas in particular), fungal, and acanthamoeba\nKeratoconjunctivitis\nHypersensitivity to contact lens solution\noften secondary to a new solution or inadequate lens rinsing\nContact lens induced Giant Papillary Conjunctivitis\nAllergic conjunctivitis\nCorneal edema, distortion\nSterile infiltrates\nNeovascularization\nDisplaced contact lens\nif displaced it is usually in the superior fornix",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "History\ntype of contacts, duration of wear, quality of symptoms, associated vision loss, prior contact lens complications, prior ocular surgeries\nExam\nVisual acuity with visual fields as indicated\nif photophobia is it direct or consensual?\nIritis/uveitis are present with consensual photobia\nOcular Pressure\nRemove lens and perform slit lamp exam with fluorescein\nAtraumatic epithelial defect with fluorescein uptake should raise concern for ulceration\nPseudodendrites could indicate HSV or Acanthamoeba- consult ophtho\nInvert lids\nretained Foreign body or contact lens could be present.\nEvaluate anterior chamber\nAny infectious/inflammatory cause could produce anterior cells and flare.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Corneal Ulceration (ulcerative keratitis)- Infiltrate + epithelial defect + Anterior chamber reaction + Pain\n< 24 hour ophtho followup\nIntensive topical Antibiotics- differing opinions but a safe option is 1-2 drops into the affected eye every 15 minutes for the first two hours and then hourly until seen by ophthalmology.\nNEVER patch a contact lens wearer for comfort as this can accelerate infection\nThe provider must stress the importance of strict adherence to the dosing protocol\nCorneal Abrasion\nurgent ophtho followup\ntreat aggressively as above if ulcer cannot be excluded.\nfluroquinolones (4-8 times daily) and lens removal are reasonable if uncomplicated abrasion expected.\nhypersensitivity\ndiscontinue contact lens wear and prescribe preservative free drops\nroutine ophtho followup\nContact lens deposits, neovascularization, corneal warpage, Chronic epithelial changes, dry eye are all diagnoses of exclusion and should not be made definitively in the emergency department- refer to ophtho and treat aggressively if infection is suspected.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Always instruct patients to remove contact lenses until cleared by an ophthalmologist.\nif the above conditions are uncomplicated( no corneal perforation, vision loss, endophthalmitis, or other permanent visual threat) these patients may be discharged with next day ophthalmology followup.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

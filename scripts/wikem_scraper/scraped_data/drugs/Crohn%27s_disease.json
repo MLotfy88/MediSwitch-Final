@@ -1,0 +1,414 @@
+{
+  "drug_name": "Crohn%27s_disease",
+  "url": "https://wikem.org/wiki/Crohn%27s_disease",
+  "scraped_at": "2026-01-10T07:51:17.368542",
+  "sections": {
+    "Background": {
+      "text": "Can involve any part of the GI tract from the mouth to the anus\nBimodal distribution: 15-22yr, 55-60yr\nPathology\nAll layers of the bowel are involved\nReason why fistulas and abscesses are common complications\n\"Skip lesions\" are common",
+      "subsections": {
+        "Crohn's_disease_vs._ulcerative_colitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finding": "Depth of inflammation",
+                "Crohn's disease": "May be transmural, deep into tissues",
+                "Ulcerative colitis": "Shallow, mucosal"
+              },
+              {
+                "Finding": "Distribution of disease",
+                "Crohn's disease": "Patchy areas of inflammation (skip lesions)",
+                "Ulcerative colitis": "Continuous area of inflammation"
+              },
+              {
+                "Finding": "Terminal ileum involvement",
+                "Crohn's disease": "Commonly",
+                "Ulcerative colitis": "Seldom"
+              },
+              {
+                "Finding": "Colon involvement",
+                "Crohn's disease": "Usually",
+                "Ulcerative colitis": "Always"
+              },
+              {
+                "Finding": "Rectum involvement",
+                "Crohn's disease": "Seldom",
+                "Ulcerative colitis": "Usually (95%)"
+              },
+              {
+                "Finding": "Involvement around anus",
+                "Crohn's disease": "Common",
+                "Ulcerative colitis": "Seldom"
+              },
+              {
+                "Finding": "Stenosis",
+                "Crohn's disease": "Common",
+                "Ulcerative colitis": "Seldom"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Crohn's_disease_vs._ulcerative_colitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Depth of inflammation",
+            "Crohn's disease": "May be transmural, deep into tissues",
+            "Ulcerative colitis": "Shallow, mucosal"
+          },
+          {
+            "Finding": "Distribution of disease",
+            "Crohn's disease": "Patchy areas of inflammation (skip lesions)",
+            "Ulcerative colitis": "Continuous area of inflammation"
+          },
+          {
+            "Finding": "Terminal ileum involvement",
+            "Crohn's disease": "Commonly",
+            "Ulcerative colitis": "Seldom"
+          },
+          {
+            "Finding": "Colon involvement",
+            "Crohn's disease": "Usually",
+            "Ulcerative colitis": "Always"
+          },
+          {
+            "Finding": "Rectum involvement",
+            "Crohn's disease": "Seldom",
+            "Ulcerative colitis": "Usually (95%)"
+          },
+          {
+            "Finding": "Involvement around anus",
+            "Crohn's disease": "Common",
+            "Ulcerative colitis": "Seldom"
+          },
+          {
+            "Finding": "Stenosis",
+            "Crohn's disease": "Common",
+            "Ulcerative colitis": "Seldom"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "GI_Symptoms": {
+          "text": "Abdominal pain\nDiarrhea\nWeight loss\nPerianal fissures\nor\nfistulas",
+          "tables": []
+        },
+        "Extraintestinal_Symptoms_(50%)": {
+          "text": "Arthritis\nPeripheral\narthritis\nMigratory monoarticular or polyarticular\nAnkylosing spondylitis\nPain/stiffness of spine, hips, neck, rib cage\nSacroiliitis\nLow\nback pain\nwith morning stiffness\nOcular\nUveitis\nAcute blurring of vision, photophobia, pain, perilimbic scleral injection\nEpiscleritis\nEye burning or itching with out visual changes or pain; scleral and conj hyperemia\nDermatologic\nErythema nodosum\nPainful, red, raised nodules on extensor surfaces of arms/legs\nPyoderma gangrenosum\nViolaceous, ulcerative lesions with necrotic center found in pretibial region or trunk\nHepatobiliary\nCholelithiasis\n(33%)\nFatty liver\nAutoimmune hepatitis\nPrimary sclerosing cholangitis\nCholangiocarcinoma\nRenal\nIncreased risk for calcium oxalate\nstones\ndue to hyperoxaluria\nVascular\nThromboembolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "GI_Symptoms": {
+      "text": "Abdominal pain\nDiarrhea\nWeight loss\nPerianal fissures\nor\nfistulas",
+      "subsections": {
+        "Extraintestinal_Symptoms_(50%)": {
+          "text": "Arthritis\nPeripheral\narthritis\nMigratory monoarticular or polyarticular\nAnkylosing spondylitis\nPain/stiffness of spine, hips, neck, rib cage\nSacroiliitis\nLow\nback pain\nwith morning stiffness\nOcular\nUveitis\nAcute blurring of vision, photophobia, pain, perilimbic scleral injection\nEpiscleritis\nEye burning or itching with out visual changes or pain; scleral and conj hyperemia\nDermatologic\nErythema nodosum\nPainful, red, raised nodules on extensor surfaces of arms/legs\nPyoderma gangrenosum\nViolaceous, ulcerative lesions with necrotic center found in pretibial region or trunk\nHepatobiliary\nCholelithiasis\n(33%)\nFatty liver\nAutoimmune hepatitis\nPrimary sclerosing cholangitis\nCholangiocarcinoma\nRenal\nIncreased risk for calcium oxalate\nstones\ndue to hyperoxaluria\nVascular\nThromboembolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Colitis": {
+          "text": "Viral gastroenteritis\nBacterial gastroenteritis\nCampylobacter\ninfections\nClostridium difficile\ncolitis\nColon cancer\nCrohn disease\nCryptosporidiosis\nMycobacterium Avium-Intracellulare\nToxic megacolon\nUlcerative colitis\nIschemic bowel disease (e.g.\nmesenteric ischemia\n, strangulated\nhernia\n)\nPseudomembranous enterocolitis\nLymphoma\nIleocecal\namebiasis\nSarcoidosis\nYersinia\nCampylobacter",
+          "tables": []
+        },
+        "Other": {
+          "text": "Appendicitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral gastroenteritis",
+          "url": "https://wikem.org/wiki/Viral_gastroenteritis"
+        },
+        {
+          "text": "Bacterial gastroenteritis",
+          "url": "https://wikem.org/wiki/Bacterial_gastroenteritis"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Crohn disease",
+          "url": "https://wikem.org/wiki/Crohn_disease"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Mycobacterium Avium-Intracellulare",
+          "url": "https://wikem.org/wiki/Mycobacterium_Avium-Intracellulare"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Pseudomembranous enterocolitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        }
+      ]
+    },
+    "Colitis": {
+      "text": "Viral gastroenteritis\nBacterial gastroenteritis\nCampylobacter\ninfections\nClostridium difficile\ncolitis\nColon cancer\nCrohn disease\nCryptosporidiosis\nMycobacterium Avium-Intracellulare\nToxic megacolon\nUlcerative colitis\nIschemic bowel disease (e.g.\nmesenteric ischemia\n, strangulated\nhernia\n)\nPseudomembranous enterocolitis\nLymphoma\nIleocecal\namebiasis\nSarcoidosis\nYersinia\nCampylobacter",
+      "subsections": {
+        "Other": {
+          "text": "Appendicitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral gastroenteritis",
+          "url": "https://wikem.org/wiki/Viral_gastroenteritis"
+        },
+        {
+          "text": "Bacterial gastroenteritis",
+          "url": "https://wikem.org/wiki/Bacterial_gastroenteritis"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Crohn disease",
+          "url": "https://wikem.org/wiki/Crohn_disease"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Mycobacterium Avium-Intracellulare",
+          "url": "https://wikem.org/wiki/Mycobacterium_Avium-Intracellulare"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Pseudomembranous enterocolitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Appendicitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Rule out alternate etiologies for symptoms\nEvaluate for complications (e.g. fistulae, abscess, obstruction)\nLabs\nCBC\nChemistry\nLFTs/lipase\nMay additionally consider:\nESR/CRP\nType and screen (if concern for significant bleeding)\nFecal calprotectin (sensitive indicator of intestinal inflammation, unreliable in select Crohn's patients)\n[1]\nC.diff\ntoxin\nConsider imaging:\nCT A/P if concern for\nsmall bowel obstruction\n, perforation, or toxic megacolon\nMost useful diagnostic test in patients with acute symptoms who have known or suspected Crohn\nFindings: bowel wall thickening, mesenteric edema, local abscess, fistulas",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Rule out alternate etiologies for symptoms\nEvaluate for complications (e.g. fistulae, abscess, obstruction)\nLabs\nCBC\nChemistry\nLFTs/lipase\nMay additionally consider:\nESR/CRP\nType and screen (if concern for significant bleeding)\nFecal calprotectin (sensitive indicator of intestinal inflammation, unreliable in select Crohn's patients)\n[1]\nC.diff\ntoxin\nConsider imaging:\nCT A/P if concern for\nsmall bowel obstruction\n, perforation, or toxic megacolon\nMost useful diagnostic test in patients with acute symptoms who have known or suspected Crohn\nFindings: bowel wall thickening, mesenteric edema, local abscess, fistulas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_Flare_Management": {
+          "text": "IVF\nBowel rest\nAnalgesia\nElectrolyte correction\nConsider\nsteroid\nburst\nMethylprednisolone\n(e.g., 30mg IV bid) or\nprednisone\n(e.g., 60 mg day 1, then 40 mg daily x 4 days), OR\nBudesonide\nfor mild to moderate disease due to fewer systemic side effects\nAntidiarrheals are contraindicated",
+          "tables": []
+        },
+        "Chronic_Treatment": {
+          "text": "Alterations should be discussed with GI\nAminosalicylates (5-ASA) - Mild-to-moderate Crohn's disease. Give with probiotics.\nSulfasalazine\n3-5gm/day PO (sulfa drug)\nCaution: Can cause\nfolate deficiency\nso give with\nfolic acid\n, and can cause\nhemolytic anemia\nin\nG6PD\npatients\nMesalamine\n4gm/day PO\nActive moiety of sulfasalazine, and formed from prodrug balsalazide\nBalsalazide or Olsalazine - Bypasses small intestine to deliver drug into large intestine (better for UC)\nAnti-diarrheal - Use caution in patients with active inflammation as can precipitate toxic megacolon\nLoperamide\n4-16mg/day\nDiphenoxylate\n5-20mg/day\nCholestyramine 4g once to six times daily\nGlucocorticoids\n- Symptomatic relief (course not altered)\nPrednisone\n- 40-60mg/day with taper once remission induced\nMethylprednisolone\n20mg IV q6hr\nHydrocortisone\n100mg q8hr\nDo not start if any suspicion of infection (ie\nC. diff\ncolitis)\nDouble edge sword: Reduction of bone density in addition to underlying disease process(decreased Ca absorption)\nAntibiotics - Induce remission\nCiprofloxacin\n500mg q8-12hr\nOR\nMetronidazole\n500mg q6hr\nOR\nRifaximin\n800mg BID\nImmunomodulators - Steroid-sparing agents used in fistulas and patients with surgical contraindication. Slower onset.\n6-Mercaptopurine 1-1.5mg/kg/day → Start at 50mg daily\nAzathioprine\n2-2.5mg/kg/day → Start at 50mg daily\nMethotrexate\nIM\nAnti-TNF - Medically resistant moderate-to-severe Crohn's disease\nInfliximab (Remicade) 5mg/kg IV\nAdalimumab (Humira), Natalizumab or certolizumab pegol can also be used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_Flare_Management": {
+      "text": "IVF\nBowel rest\nAnalgesia\nElectrolyte correction\nConsider\nsteroid\nburst\nMethylprednisolone\n(e.g., 30mg IV bid) or\nprednisone\n(e.g., 60 mg day 1, then 40 mg daily x 4 days), OR\nBudesonide\nfor mild to moderate disease due to fewer systemic side effects\nAntidiarrheals are contraindicated",
+      "subsections": {
+        "Chronic_Treatment": {
+          "text": "Alterations should be discussed with GI\nAminosalicylates (5-ASA) - Mild-to-moderate Crohn's disease. Give with probiotics.\nSulfasalazine\n3-5gm/day PO (sulfa drug)\nCaution: Can cause\nfolate deficiency\nso give with\nfolic acid\n, and can cause\nhemolytic anemia\nin\nG6PD\npatients\nMesalamine\n4gm/day PO\nActive moiety of sulfasalazine, and formed from prodrug balsalazide\nBalsalazide or Olsalazine - Bypasses small intestine to deliver drug into large intestine (better for UC)\nAnti-diarrheal - Use caution in patients with active inflammation as can precipitate toxic megacolon\nLoperamide\n4-16mg/day\nDiphenoxylate\n5-20mg/day\nCholestyramine 4g once to six times daily\nGlucocorticoids\n- Symptomatic relief (course not altered)\nPrednisone\n- 40-60mg/day with taper once remission induced\nMethylprednisolone\n20mg IV q6hr\nHydrocortisone\n100mg q8hr\nDo not start if any suspicion of infection (ie\nC. diff\ncolitis)\nDouble edge sword: Reduction of bone density in addition to underlying disease process(decreased Ca absorption)\nAntibiotics - Induce remission\nCiprofloxacin\n500mg q8-12hr\nOR\nMetronidazole\n500mg q6hr\nOR\nRifaximin\n800mg BID\nImmunomodulators - Steroid-sparing agents used in fistulas and patients with surgical contraindication. Slower onset.\n6-Mercaptopurine 1-1.5mg/kg/day → Start at 50mg daily\nAzathioprine\n2-2.5mg/kg/day → Start at 50mg daily\nMethotrexate\nIM\nAnti-TNF - Medically resistant moderate-to-severe Crohn's disease\nInfliximab (Remicade) 5mg/kg IV\nAdalimumab (Humira), Natalizumab or certolizumab pegol can also be used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_Treatment": {
+      "text": "Alterations should be discussed with GI\nAminosalicylates (5-ASA) - Mild-to-moderate Crohn's disease. Give with probiotics.\nSulfasalazine\n3-5gm/day PO (sulfa drug)\nCaution: Can cause\nfolate deficiency\nso give with\nfolic acid\n, and can cause\nhemolytic anemia\nin\nG6PD\npatients\nMesalamine\n4gm/day PO\nActive moiety of sulfasalazine, and formed from prodrug balsalazide\nBalsalazide or Olsalazine - Bypasses small intestine to deliver drug into large intestine (better for UC)\nAnti-diarrheal - Use caution in patients with active inflammation as can precipitate toxic megacolon\nLoperamide\n4-16mg/day\nDiphenoxylate\n5-20mg/day\nCholestyramine 4g once to six times daily\nGlucocorticoids\n- Symptomatic relief (course not altered)\nPrednisone\n- 40-60mg/day with taper once remission induced\nMethylprednisolone\n20mg IV q6hr\nHydrocortisone\n100mg q8hr\nDo not start if any suspicion of infection (ie\nC. diff\ncolitis)\nDouble edge sword: Reduction of bone density in addition to underlying disease process(decreased Ca absorption)\nAntibiotics - Induce remission\nCiprofloxacin\n500mg q8-12hr\nOR\nMetronidazole\n500mg q6hr\nOR\nRifaximin\n800mg BID\nImmunomodulators - Steroid-sparing agents used in fistulas and patients with surgical contraindication. Slower onset.\n6-Mercaptopurine 1-1.5mg/kg/day → Start at 50mg daily\nAzathioprine\n2-2.5mg/kg/day → Start at 50mg daily\nMethotrexate\nIM\nAnti-TNF - Medically resistant moderate-to-severe Crohn's disease\nInfliximab (Remicade) 5mg/kg IV\nAdalimumab (Humira), Natalizumab or certolizumab pegol can also be used",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Inpatient_Admission": {
+          "text": "Significant metabolic derangements (i.e.\nelectrolyte imbalance\nor severe\ndehydration\n)\nFulminate\ncolitis\nObstruction\nPeritonitis\nSignificant\nhemorrhage",
+          "tables": []
+        },
+        "Surgical_Intervention": {
+          "text": "Consult EARLY if any of the following suspicions\nPerforation\nAbscess/fistula formation\nToxic megacolon\nSignificant\nhemorrhage\nPerianal disease\nFailed medical management",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Inpatient_Admission": {
+      "text": "Significant metabolic derangements (i.e.\nelectrolyte imbalance\nor severe\ndehydration\n)\nFulminate\ncolitis\nObstruction\nPeritonitis\nSignificant\nhemorrhage",
+      "subsections": {
+        "Surgical_Intervention": {
+          "text": "Consult EARLY if any of the following suspicions\nPerforation\nAbscess/fistula formation\nToxic megacolon\nSignificant\nhemorrhage\nPerianal disease\nFailed medical management",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Surgical_Intervention": {
+      "text": "Consult EARLY if any of the following suspicions\nPerforation\nAbscess/fistula formation\nToxic megacolon\nSignificant\nhemorrhage\nPerianal disease\nFailed medical management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Bowel obstruction\nDue to stricture or bowel wall edema\nAbscess\nCan be intraperitoneal, retroperitoneal, interloop, or intramesenteric\nMore severe abdominal pain than usual\nFever\nHip\nor\nback pain\nand difficulty walking (retroperitoneal abscess)\nFistula\nOccurs due to extension of intestinal fissure into adjacent structures\nSuspect if changes in patient's symptoms (e.g. BM frequency, amt of pain, wt loss)\nPerianal disease\nAbscess\n,\nfissures\n,\nfistulas\n,\nrectal prolapse\nHemorrhage\nErosion into a bowel wall vesel\nToxic megacolon\nCan be associated with massive GI bleeding",
+      "subsections": {
+        "Therapy_complications": {
+          "text": "Leukopenia\n/\nthrombocytopenia\nFever\n/infection\nPancreatitis\nRenal\n/\nliver failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Therapy_complications": {
+      "text": "Leukopenia\n/\nthrombocytopenia\nFever\n/infection\nPancreatitis\nRenal\n/\nliver failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ulcerative Colitis\nColitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "1. Thomas N, Wu AW. Large intestine. In: Walls RM, Hockberger RS, Gausche-Hill M, et al., eds. Rosen’s Emergency Medicine: Concepts and Clinical Practice. 10th ed. Elsevier; 2023.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

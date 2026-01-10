@@ -1,0 +1,769 @@
+{
+  "drug_name": "Constipation",
+  "url": "https://wikem.org/wiki/Constipation",
+  "scraped_at": "2026-01-10T07:51:06.039848",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients; for pediatric patients see\nconstipation (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Acute constipation is intestinal obstruction until proven otherwise",
+      "subsections": {
+        "Red_flags": {
+          "text": "Weight loss\nRectal bleeding\n/melena\nNausea/vomiting\nFever\nRectal pain\nChange in stool caliber",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Red_flags": {
+      "text": "Weight loss\nRectal bleeding\n/melena\nNausea/vomiting\nFever\nRectal pain\nChange in stool caliber",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Decreased frequency of bowel movements\nHard, dry, and/or difficult to pass stool",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        },
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        }
+      ]
+    },
+    "Constipation": {
+      "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work_up": {
+          "text": "Digital rectal exam\nAbdominal panel\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nConsider\nlactate\nif concern for\nstercoral colitis\nCT if abdominal tenderness, elderly, or severe presentation\nConstipation should not cause abdominal tenderness on exam\nCT may show stool burden in colon/rectum",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is frequently clinical\nIn patients with concerning symptoms/risk factors, CT can confirm diagnosis and rule out more emergent conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work_up": {
+      "text": "Digital rectal exam\nAbdominal panel\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nConsider\nlactate\nif concern for\nstercoral colitis\nCT if abdominal tenderness, elderly, or severe presentation\nConstipation should not cause abdominal tenderness on exam\nCT may show stool burden in colon/rectum",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is frequently clinical\nIn patients with concerning symptoms/risk factors, CT can confirm diagnosis and rule out more emergent conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is frequently clinical\nIn patients with concerning symptoms/risk factors, CT can confirm diagnosis and rule out more emergent conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Adequate fluid (1.5L per day)\nFiber (10gm per day)\nBran: 1 cup daily\nPsyllium\n(Metamucil): 1-2 teaspoon TID\nExercise",
+      "subsections": {
+        "Medication_options": {
+          "text": "Emollient\nDocusate\n(Colace): 100mg QD-BID (facilitates mixture of stool fat and water)\nMineral oil (long term use causes malabsorption)\nStimulants\nBisacodyl\n(Dulcolax): 10mg PR TID\nSenna\n: Two tab PO QD-BID\nSaline laxative\nMilk of mangesia: 15-30 mL QD-BID\nMagnesium citrate: 100-240 mL QD-BID\nHyperosmolar agents\nLactulose\n15-30 mL QD-BID\nPEG\n: 1 gallon/4h\nPEG\n(Miralax): 17gm\nGlycerin: 1 adult suppository PR, onset of action 15-30 min, then 1-2 doses per day\nEnemas\nSoap suds, saline, tap water enema (rectal distention, causing evacuation)\n[1]\nMay add 50-100 mg of docusate liquid to saline or water enema\nFleet Phospho-soda: 118 ml single enema dose, with maximum of x2 doses at least 1 hr apart\nNo more than 2 doses in a 24 hr period may be administered without serum phos, mag, calcium levels\n[2]\nMay observe\nhyperphosphatemia\n,\nhypocalcemia\n,\nhypomagnesemia\nHigh risk patients: renal impairement, abnormal gut motility,\nIBD\n, elderly, cardiac co-morbidities\n[3]\n[4]",
+          "tables": []
+        },
+        "Gastrografin_PO": {
+          "text": "Gastrografin through NG or OG decreases bowel wall edema and increases bowel motility\n[5]\nDiagnostic and therapeutic\n[6]\n100 cc of gastrografin through NG tube\nTransit may be observed through serial radiographs\nContrast within the large bowel within 24 hrs suggest partial\nsmall bowel obstruction\nContrast failing to reach large bowel within 24-48 hrs suggests complete obstruction, requiring laparotomy\nTherapeutic, may reduce necessary operative rate by ~75%\n[7]\nAvoid barium as it becomes inspissated in bowel, causing complete obstruction\n[8]\nIf perforation occurs with barium, leakage can be lethal\nGastrografin is water-soluble and relatively safer if perforation occurs\nBe aware that anaphylactoid reactions and serious aspirations have occurred rarely with Gastrografin, however\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medication_options": {
+      "text": "Emollient\nDocusate\n(Colace): 100mg QD-BID (facilitates mixture of stool fat and water)\nMineral oil (long term use causes malabsorption)\nStimulants\nBisacodyl\n(Dulcolax): 10mg PR TID\nSenna\n: Two tab PO QD-BID\nSaline laxative\nMilk of mangesia: 15-30 mL QD-BID\nMagnesium citrate: 100-240 mL QD-BID\nHyperosmolar agents\nLactulose\n15-30 mL QD-BID\nPEG\n: 1 gallon/4h\nPEG\n(Miralax): 17gm\nGlycerin: 1 adult suppository PR, onset of action 15-30 min, then 1-2 doses per day\nEnemas\nSoap suds, saline, tap water enema (rectal distention, causing evacuation)\n[1]\nMay add 50-100 mg of docusate liquid to saline or water enema\nFleet Phospho-soda: 118 ml single enema dose, with maximum of x2 doses at least 1 hr apart\nNo more than 2 doses in a 24 hr period may be administered without serum phos, mag, calcium levels\n[2]\nMay observe\nhyperphosphatemia\n,\nhypocalcemia\n,\nhypomagnesemia\nHigh risk patients: renal impairement, abnormal gut motility,\nIBD\n, elderly, cardiac co-morbidities\n[3]\n[4]",
+      "subsections": {
+        "Gastrografin_PO": {
+          "text": "Gastrografin through NG or OG decreases bowel wall edema and increases bowel motility\n[5]\nDiagnostic and therapeutic\n[6]\n100 cc of gastrografin through NG tube\nTransit may be observed through serial radiographs\nContrast within the large bowel within 24 hrs suggest partial\nsmall bowel obstruction\nContrast failing to reach large bowel within 24-48 hrs suggests complete obstruction, requiring laparotomy\nTherapeutic, may reduce necessary operative rate by ~75%\n[7]\nAvoid barium as it becomes inspissated in bowel, causing complete obstruction\n[8]\nIf perforation occurs with barium, leakage can be lethal\nGastrografin is water-soluble and relatively safer if perforation occurs\nBe aware that anaphylactoid reactions and serious aspirations have occurred rarely with Gastrografin, however\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Normally outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

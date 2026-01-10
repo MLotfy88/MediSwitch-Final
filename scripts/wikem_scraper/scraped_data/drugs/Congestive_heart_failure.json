@@ -1,0 +1,1555 @@
+{
+  "drug_name": "Congestive_heart_failure",
+  "url": "https://wikem.org/wiki/Congestive_heart_failure",
+  "scraped_at": "2026-01-10T07:51:05.939442",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\ncongestive heart failure (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Assume\nvalvular problem\nin new-onset CHF\nAssume valve thrombosis in CHF with a prosthetic valve\nDo not give vasodilators in\naortic stenosis\n,\nHOCM\n; yes in\nmitral regurgitation",
+      "subsections": {
+        "Classification": {
+          "text": "Systolic: poor contraction (↓EF) and decreased forward flow\nDiastolic: good contraction (normal EF) but stiff ventricles and poor filling\nLeft-sided: LV failure, poor organ perfusion, dyspnea from backup in lung\nRight-sided: peripheral edema, JVD, hepatomegaly\nMost common cause is left-sided failure",
+          "tables": []
+        },
+        "NYHA_Classes": {
+          "text": "No symptoms\nSymptoms with every day activity\nSeverely limits activity or symptoms with minimal activity\nSymptoms at rest",
+          "tables": []
+        },
+        "Etiology": {
+          "text": "Acute coronary syndrome\n(CAD)\nHypertension\nCardiomyopathy\nValvular emergency\nHigh-output heart failure\nPeripartum cardiomyopathy\nCardiac tamponade\nDysrhythmias",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "valvular problem",
+          "url": "https://wikem.org/wiki/Valvular_disease"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Valvular emergency",
+          "url": "https://wikem.org/wiki/Valvular_emergency"
+        },
+        {
+          "text": "High-output heart failure",
+          "url": "https://wikem.org/wiki/High-output_heart_failure"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "Systolic: poor contraction (↓EF) and decreased forward flow\nDiastolic: good contraction (normal EF) but stiff ventricles and poor filling\nLeft-sided: LV failure, poor organ perfusion, dyspnea from backup in lung\nRight-sided: peripheral edema, JVD, hepatomegaly\nMost common cause is left-sided failure",
+      "subsections": {
+        "NYHA_Classes": {
+          "text": "No symptoms\nSymptoms with every day activity\nSeverely limits activity or symptoms with minimal activity\nSymptoms at rest",
+          "tables": []
+        },
+        "Etiology": {
+          "text": "Acute coronary syndrome\n(CAD)\nHypertension\nCardiomyopathy\nValvular emergency\nHigh-output heart failure\nPeripartum cardiomyopathy\nCardiac tamponade\nDysrhythmias",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Valvular emergency",
+          "url": "https://wikem.org/wiki/Valvular_emergency"
+        },
+        {
+          "text": "High-output heart failure",
+          "url": "https://wikem.org/wiki/High-output_heart_failure"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        }
+      ]
+    },
+    "NYHA_Classes": {
+      "text": "No symptoms\nSymptoms with every day activity\nSeverely limits activity or symptoms with minimal activity\nSymptoms at rest",
+      "subsections": {
+        "Etiology": {
+          "text": "Acute coronary syndrome\n(CAD)\nHypertension\nCardiomyopathy\nValvular emergency\nHigh-output heart failure\nPeripartum cardiomyopathy\nCardiac tamponade\nDysrhythmias",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Valvular emergency",
+          "url": "https://wikem.org/wiki/Valvular_emergency"
+        },
+        {
+          "text": "High-output heart failure",
+          "url": "https://wikem.org/wiki/High-output_heart_failure"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Acute coronary syndrome\n(CAD)\nHypertension\nCardiomyopathy\nValvular emergency\nHigh-output heart failure\nPeripartum cardiomyopathy\nCardiac tamponade\nDysrhythmias",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Valvular emergency",
+          "url": "https://wikem.org/wiki/Valvular_emergency"
+        },
+        {
+          "text": "High-output heart failure",
+          "url": "https://wikem.org/wiki/High-output_heart_failure"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History_&_Physical_Examination": {
+          "text": "Different types of presentations:\nHypotensive Heart Failure (\ncardiogenic shock\n)\nLeast common, worst prognosis\nshortness of breath\n,\npulmonary edema\n, narrow pulse pressure, signs of poor end-organ perfusion,\naltered mental status\n, cool peripheries, decreased urine output, increased HR, sBP < 90 mmHg\nNormotensive Heart Failure\nDevelops over days to weeks\nWeight gain, peripheral edema, less shortness of breath, +/- rales\nHypertensive Heart Failure\nMost common, presses rapidly\nsBP > 140 mmHg, preserved LV function, marked shortness of breath, minimal weight gain, rales, increased HR, pulmonary edema on CXR\nAcute (Flash) Pulmonary Edema\nSevere respiratory distress, relative hypertension, cool dipahoretic skin, +/- rales, JVD (94% specific, 39% sensitive), +/- peripheral edema, S3 (99% specific)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "History_&_Physical_Examination": {
+      "text": "Different types of presentations:\nHypotensive Heart Failure (\ncardiogenic shock\n)\nLeast common, worst prognosis\nshortness of breath\n,\npulmonary edema\n, narrow pulse pressure, signs of poor end-organ perfusion,\naltered mental status\n, cool peripheries, decreased urine output, increased HR, sBP < 90 mmHg\nNormotensive Heart Failure\nDevelops over days to weeks\nWeight gain, peripheral edema, less shortness of breath, +/- rales\nHypertensive Heart Failure\nMost common, presses rapidly\nsBP > 140 mmHg, preserved LV function, marked shortness of breath, minimal weight gain, rales, increased HR, pulmonary edema on CXR\nAcute (Flash) Pulmonary Edema\nSevere respiratory distress, relative hypertension, cool dipahoretic skin, +/- rales, JVD (94% specific, 39% sensitive), +/- peripheral edema, S3 (99% specific)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Congestive_heart_failure": {
+          "text": "Cardiovascular\nACS\nAcute valve dysfunction\nAortic dissection\nDysrhthymia\nEndocarditis\nHypertensive emergency\nPericardial tamponade\nConstrictive pericarditis\nPulmonary\nCOPD\nPulmonary embolism\nPneumonia\nPneumothorax\nOther\nPure volume overload\nRenal failure\nPost-\nTransfusion\nSepsis\nAnaphylaxis",
+          "tables": []
+        },
+        "Causes_of_CHF_Decompensation": {
+          "text": "Medication noncompliance\nDietary noncompliance\nUncontrolled\nhypertension\nMI\nValvular Dysfunction\nArrhythmias\nInfection\nInappropriate medications (e.g., negative inotropes)\nFluid overload\nMissed dialysis\nThyrotoxicosis\nAnemia\nAlcohol Withdrawal\nor\nalcohol intoxication\nSympathomimetic\nexcess\nAcute\nhypoxia\nor other respiratory problems\nMyocarditis\nPulmonary embolism\nExcessive exertion or trauma",
+          "tables": []
+        },
+        "Elevated_BNP": {
+          "text": "CHF\n/\nACS\n/\nCardiogenic shock\nPulmonary embolism\nPulmonary hypertension\nRenal failure\nLeft ventricular hypertrophy\nSepsis\n[2]\nSubarachnoid hemorrhage\nLiver cirrhosis\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Acute valve dysfunction",
+          "url": "https://wikem.org/wiki/Acute_valve_dysfunction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Dysrhthymia",
+          "url": "https://wikem.org/wiki/Dysrhthymia"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "Constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Valvular Dysfunction",
+          "url": "https://wikem.org/wiki/Valvular_Dysfunction"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Missed dialysis",
+          "url": "https://wikem.org/wiki/Missed_dialysis"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Alcohol Withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_Withdrawal"
+        },
+        {
+          "text": "alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Liver cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Congestive_heart_failure": {
+      "text": "Cardiovascular\nACS\nAcute valve dysfunction\nAortic dissection\nDysrhthymia\nEndocarditis\nHypertensive emergency\nPericardial tamponade\nConstrictive pericarditis\nPulmonary\nCOPD\nPulmonary embolism\nPneumonia\nPneumothorax\nOther\nPure volume overload\nRenal failure\nPost-\nTransfusion\nSepsis\nAnaphylaxis",
+      "subsections": {
+        "Causes_of_CHF_Decompensation": {
+          "text": "Medication noncompliance\nDietary noncompliance\nUncontrolled\nhypertension\nMI\nValvular Dysfunction\nArrhythmias\nInfection\nInappropriate medications (e.g., negative inotropes)\nFluid overload\nMissed dialysis\nThyrotoxicosis\nAnemia\nAlcohol Withdrawal\nor\nalcohol intoxication\nSympathomimetic\nexcess\nAcute\nhypoxia\nor other respiratory problems\nMyocarditis\nPulmonary embolism\nExcessive exertion or trauma",
+          "tables": []
+        },
+        "Elevated_BNP": {
+          "text": "CHF\n/\nACS\n/\nCardiogenic shock\nPulmonary embolism\nPulmonary hypertension\nRenal failure\nLeft ventricular hypertrophy\nSepsis\n[2]\nSubarachnoid hemorrhage\nLiver cirrhosis\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Acute valve dysfunction",
+          "url": "https://wikem.org/wiki/Acute_valve_dysfunction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Dysrhthymia",
+          "url": "https://wikem.org/wiki/Dysrhthymia"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "Constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Valvular Dysfunction",
+          "url": "https://wikem.org/wiki/Valvular_Dysfunction"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Missed dialysis",
+          "url": "https://wikem.org/wiki/Missed_dialysis"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Alcohol Withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_Withdrawal"
+        },
+        {
+          "text": "alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Liver cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Causes_of_CHF_Decompensation": {
+      "text": "Medication noncompliance\nDietary noncompliance\nUncontrolled\nhypertension\nMI\nValvular Dysfunction\nArrhythmias\nInfection\nInappropriate medications (e.g., negative inotropes)\nFluid overload\nMissed dialysis\nThyrotoxicosis\nAnemia\nAlcohol Withdrawal\nor\nalcohol intoxication\nSympathomimetic\nexcess\nAcute\nhypoxia\nor other respiratory problems\nMyocarditis\nPulmonary embolism\nExcessive exertion or trauma",
+      "subsections": {
+        "Elevated_BNP": {
+          "text": "CHF\n/\nACS\n/\nCardiogenic shock\nPulmonary embolism\nPulmonary hypertension\nRenal failure\nLeft ventricular hypertrophy\nSepsis\n[2]\nSubarachnoid hemorrhage\nLiver cirrhosis\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Valvular Dysfunction",
+          "url": "https://wikem.org/wiki/Valvular_Dysfunction"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Missed dialysis",
+          "url": "https://wikem.org/wiki/Missed_dialysis"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Alcohol Withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_Withdrawal"
+        },
+        {
+          "text": "alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Liver cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Elevated_BNP": {
+      "text": "CHF\n/\nACS\n/\nCardiogenic shock\nPulmonary embolism\nPulmonary hypertension\nRenal failure\nLeft ventricular hypertrophy\nSepsis\n[2]\nSubarachnoid hemorrhage\nLiver cirrhosis\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Liver cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC (rule out anemia)\nChemistry\nECG\nDigoxin\nlevel\nCXR\nCephalization\nKerley B lines (thick and horizontal)\nInterstitial edema\nPulmonary venous congestion\nPleural effusion\nAlveolar edema\nCardiomegaly\nTroponin\n/CK\nUltrasound\nBedside to assess\nglobal function\n,\nB lines\n,\nassessment of IVC\nFormal TTE/TEE",
+      "subsections": {
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[5]",
+          "tables": []
+        },
+        "NT-proBNP[6][7]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "global function",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "B lines",
+          "url": "https://wikem.org/wiki/Ultrasound:_lungs"
+        },
+        {
+          "text": "assessment of IVC",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Lung_ultrasound_of_pulmonary_edema": {
+      "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_Pulmonary_Edema_and_Hypertensive_Heart_Failure": {
+          "text": "See\nPulmonary Edema\nor\nSympathetic crashing acute pulmonary edema (SCAPE)",
+          "tables": []
+        },
+        "Hypotensive_Heart_Failure": {
+          "text": "See\nCardiogenic Shock\nInotropic Agents\nDobutamine\ngenerally first line\nMilrinone\nif patient on beta-blockers\nConsider in severe LV dysfunction and low output syndrome\nDiminished peripheral perfusion and end organ damage\nVasodilatory treatment inadequate response or limited by symptomatic hypotension\nMust have obvious evidence of elevated filling pressures\nJVD, noncollapsing IVC, etc\nInotropes are not indicated in setting of preserved systolic function",
+          "tables": []
+        },
+        "Heart_Failure_Without_Pulmonary_Edema": {
+          "text": "UNLOAD+\nUpright Position\nNitrates\nDo not use with\nsildenafil\n, severe AS, or if right-sided MI\nStart sublingual\nnitroglycerin\n0.4mg delivered over 4 min = 0.10mg/min\nIf no improvement IV\nnitroglycerin\ndrip, start 0.3-0.5mcg/kg/min, but may increase to 3-5mcg/kg/min\nKeep BP >95\nConsider\nnitroprusside\n0.3 mcg/kg/min if hypertension or\nnitroglycerin\nineffective\nLasix\nHold if no symptoms of fluid overload\nGive nitrates first\nGive double home dose, or up to 2.5x dose.\nIf lasix 40mg po QD, then lasix 40-100mg IV\nOxygen\nCPAP\n/\nBiPAP\nIncreases intrathoracic pressure and thus reduces preload\nACEI\nAfterload reduction\nEnalaprilat\nat 0.004mg/kg as IVB or 1mg drip over 2hr\nAvoid in pregnancy, hyperK+, angioedema\nDigoxin\nDecompensated HF\nDigoxin\nand\nAmiodarone\nare the only medications indicated for use in decompensated HF for rate control if needed\n[9]\nEvidence suggests that treating rate in acutely ill patients including CHF leads to worse outcomes\n[10]\nCompensated HF (not acutely symptomatic from failure)\nMay benefit from a fib rate control, but calcium-channel blockers and beta-blockers first line, goal of < 85 bpm per RACE II trial\nDiltiazem\nlow and slow at 5mg/hr\nAVOID in severe heart failure, preexcitation syndrome\nAVOID in significant hypotension\nMetoprolol\n2.5 - 5.0mg over 2 min, then q5 as needed to max of 15mg\nEsmolol\n0.5mg/kg bolus over 1 min, then 50 mcg/kg/min, may increase q30 min by 50 mcg/kg/min",
+          "tables": []
+        },
+        "Medications_to_Avoid": {
+          "text": "Anti-dysrhythmics other than\ndigoxin\nand\namiodarone\nCalcium-channel blockers\n- worsen HF\nNSAIDs\n- sodium retention, worsen toxicity of diuretics and ACE-I\nThiazolidinediones\n- worsen HF\nMorphine\n- chart reviews show increased morbidity in ADHF patients\n[11]\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Sympathetic crashing acute pulmonary edema (SCAPE)",
+          "url": "https://wikem.org/wiki/Sympathetic_crashing_acute_pulmonary_edema_(SCAPE)"
+        },
+        {
+          "text": "Cardiogenic Shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_Shock"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "Enalaprilat",
+          "url": "https://wikem.org/wiki/Enalaprilat"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Decompensated HF",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        }
+      ]
+    },
+    "Acute_Pulmonary_Edema_and_Hypertensive_Heart_Failure": {
+      "text": "See\nPulmonary Edema\nor\nSympathetic crashing acute pulmonary edema (SCAPE)",
+      "subsections": {
+        "Hypotensive_Heart_Failure": {
+          "text": "See\nCardiogenic Shock\nInotropic Agents\nDobutamine\ngenerally first line\nMilrinone\nif patient on beta-blockers\nConsider in severe LV dysfunction and low output syndrome\nDiminished peripheral perfusion and end organ damage\nVasodilatory treatment inadequate response or limited by symptomatic hypotension\nMust have obvious evidence of elevated filling pressures\nJVD, noncollapsing IVC, etc\nInotropes are not indicated in setting of preserved systolic function",
+          "tables": []
+        },
+        "Heart_Failure_Without_Pulmonary_Edema": {
+          "text": "UNLOAD+\nUpright Position\nNitrates\nDo not use with\nsildenafil\n, severe AS, or if right-sided MI\nStart sublingual\nnitroglycerin\n0.4mg delivered over 4 min = 0.10mg/min\nIf no improvement IV\nnitroglycerin\ndrip, start 0.3-0.5mcg/kg/min, but may increase to 3-5mcg/kg/min\nKeep BP >95\nConsider\nnitroprusside\n0.3 mcg/kg/min if hypertension or\nnitroglycerin\nineffective\nLasix\nHold if no symptoms of fluid overload\nGive nitrates first\nGive double home dose, or up to 2.5x dose.\nIf lasix 40mg po QD, then lasix 40-100mg IV\nOxygen\nCPAP\n/\nBiPAP\nIncreases intrathoracic pressure and thus reduces preload\nACEI\nAfterload reduction\nEnalaprilat\nat 0.004mg/kg as IVB or 1mg drip over 2hr\nAvoid in pregnancy, hyperK+, angioedema\nDigoxin\nDecompensated HF\nDigoxin\nand\nAmiodarone\nare the only medications indicated for use in decompensated HF for rate control if needed\n[9]\nEvidence suggests that treating rate in acutely ill patients including CHF leads to worse outcomes\n[10]\nCompensated HF (not acutely symptomatic from failure)\nMay benefit from a fib rate control, but calcium-channel blockers and beta-blockers first line, goal of < 85 bpm per RACE II trial\nDiltiazem\nlow and slow at 5mg/hr\nAVOID in severe heart failure, preexcitation syndrome\nAVOID in significant hypotension\nMetoprolol\n2.5 - 5.0mg over 2 min, then q5 as needed to max of 15mg\nEsmolol\n0.5mg/kg bolus over 1 min, then 50 mcg/kg/min, may increase q30 min by 50 mcg/kg/min",
+          "tables": []
+        },
+        "Medications_to_Avoid": {
+          "text": "Anti-dysrhythmics other than\ndigoxin\nand\namiodarone\nCalcium-channel blockers\n- worsen HF\nNSAIDs\n- sodium retention, worsen toxicity of diuretics and ACE-I\nThiazolidinediones\n- worsen HF\nMorphine\n- chart reviews show increased morbidity in ADHF patients\n[11]\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Sympathetic crashing acute pulmonary edema (SCAPE)",
+          "url": "https://wikem.org/wiki/Sympathetic_crashing_acute_pulmonary_edema_(SCAPE)"
+        },
+        {
+          "text": "Cardiogenic Shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_Shock"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "Enalaprilat",
+          "url": "https://wikem.org/wiki/Enalaprilat"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Decompensated HF",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        }
+      ]
+    },
+    "Hypotensive_Heart_Failure": {
+      "text": "See\nCardiogenic Shock\nInotropic Agents\nDobutamine\ngenerally first line\nMilrinone\nif patient on beta-blockers\nConsider in severe LV dysfunction and low output syndrome\nDiminished peripheral perfusion and end organ damage\nVasodilatory treatment inadequate response or limited by symptomatic hypotension\nMust have obvious evidence of elevated filling pressures\nJVD, noncollapsing IVC, etc\nInotropes are not indicated in setting of preserved systolic function",
+      "subsections": {
+        "Heart_Failure_Without_Pulmonary_Edema": {
+          "text": "UNLOAD+\nUpright Position\nNitrates\nDo not use with\nsildenafil\n, severe AS, or if right-sided MI\nStart sublingual\nnitroglycerin\n0.4mg delivered over 4 min = 0.10mg/min\nIf no improvement IV\nnitroglycerin\ndrip, start 0.3-0.5mcg/kg/min, but may increase to 3-5mcg/kg/min\nKeep BP >95\nConsider\nnitroprusside\n0.3 mcg/kg/min if hypertension or\nnitroglycerin\nineffective\nLasix\nHold if no symptoms of fluid overload\nGive nitrates first\nGive double home dose, or up to 2.5x dose.\nIf lasix 40mg po QD, then lasix 40-100mg IV\nOxygen\nCPAP\n/\nBiPAP\nIncreases intrathoracic pressure and thus reduces preload\nACEI\nAfterload reduction\nEnalaprilat\nat 0.004mg/kg as IVB or 1mg drip over 2hr\nAvoid in pregnancy, hyperK+, angioedema\nDigoxin\nDecompensated HF\nDigoxin\nand\nAmiodarone\nare the only medications indicated for use in decompensated HF for rate control if needed\n[9]\nEvidence suggests that treating rate in acutely ill patients including CHF leads to worse outcomes\n[10]\nCompensated HF (not acutely symptomatic from failure)\nMay benefit from a fib rate control, but calcium-channel blockers and beta-blockers first line, goal of < 85 bpm per RACE II trial\nDiltiazem\nlow and slow at 5mg/hr\nAVOID in severe heart failure, preexcitation syndrome\nAVOID in significant hypotension\nMetoprolol\n2.5 - 5.0mg over 2 min, then q5 as needed to max of 15mg\nEsmolol\n0.5mg/kg bolus over 1 min, then 50 mcg/kg/min, may increase q30 min by 50 mcg/kg/min",
+          "tables": []
+        },
+        "Medications_to_Avoid": {
+          "text": "Anti-dysrhythmics other than\ndigoxin\nand\namiodarone\nCalcium-channel blockers\n- worsen HF\nNSAIDs\n- sodium retention, worsen toxicity of diuretics and ACE-I\nThiazolidinediones\n- worsen HF\nMorphine\n- chart reviews show increased morbidity in ADHF patients\n[11]\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic Shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_Shock"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "Enalaprilat",
+          "url": "https://wikem.org/wiki/Enalaprilat"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Decompensated HF",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        }
+      ]
+    },
+    "Heart_Failure_Without_Pulmonary_Edema": {
+      "text": "UNLOAD+\nUpright Position\nNitrates\nDo not use with\nsildenafil\n, severe AS, or if right-sided MI\nStart sublingual\nnitroglycerin\n0.4mg delivered over 4 min = 0.10mg/min\nIf no improvement IV\nnitroglycerin\ndrip, start 0.3-0.5mcg/kg/min, but may increase to 3-5mcg/kg/min\nKeep BP >95\nConsider\nnitroprusside\n0.3 mcg/kg/min if hypertension or\nnitroglycerin\nineffective\nLasix\nHold if no symptoms of fluid overload\nGive nitrates first\nGive double home dose, or up to 2.5x dose.\nIf lasix 40mg po QD, then lasix 40-100mg IV\nOxygen\nCPAP\n/\nBiPAP\nIncreases intrathoracic pressure and thus reduces preload\nACEI\nAfterload reduction\nEnalaprilat\nat 0.004mg/kg as IVB or 1mg drip over 2hr\nAvoid in pregnancy, hyperK+, angioedema\nDigoxin\nDecompensated HF\nDigoxin\nand\nAmiodarone\nare the only medications indicated for use in decompensated HF for rate control if needed\n[9]\nEvidence suggests that treating rate in acutely ill patients including CHF leads to worse outcomes\n[10]\nCompensated HF (not acutely symptomatic from failure)\nMay benefit from a fib rate control, but calcium-channel blockers and beta-blockers first line, goal of < 85 bpm per RACE II trial\nDiltiazem\nlow and slow at 5mg/hr\nAVOID in severe heart failure, preexcitation syndrome\nAVOID in significant hypotension\nMetoprolol\n2.5 - 5.0mg over 2 min, then q5 as needed to max of 15mg\nEsmolol\n0.5mg/kg bolus over 1 min, then 50 mcg/kg/min, may increase q30 min by 50 mcg/kg/min",
+      "subsections": {
+        "Medications_to_Avoid": {
+          "text": "Anti-dysrhythmics other than\ndigoxin\nand\namiodarone\nCalcium-channel blockers\n- worsen HF\nNSAIDs\n- sodium retention, worsen toxicity of diuretics and ACE-I\nThiazolidinediones\n- worsen HF\nMorphine\n- chart reviews show increased morbidity in ADHF patients\n[11]\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "Enalaprilat",
+          "url": "https://wikem.org/wiki/Enalaprilat"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Decompensated HF",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        }
+      ]
+    },
+    "Medications_to_Avoid": {
+      "text": "Anti-dysrhythmics other than\ndigoxin\nand\namiodarone\nCalcium-channel blockers\n- worsen HF\nNSAIDs\n- sodium retention, worsen toxicity of diuretics and ACE-I\nThiazolidinediones\n- worsen HF\nMorphine\n- chart reviews show increased morbidity in ADHF patients\n[11]\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission_Criteria": {
+          "text": "CCORT - Emergent Heart Failure Mortality Risk Grade Calculator\n7 day mortality risk score calculator for patients presenting to the ED with decompensated HF\nhttps://ehmrg.ices.on.ca\nAHCPR '00\nACS\nPulmonary edema/respiratory distress\nO2 sat < 90% on room air\nSevere complicating illness\nCHF\nrefractory to outpatient therapy\nAnasarca\nSymptomatic hypotension or syncope\nArrhythmia (e.g. new a. fib)\nInadequate outpatient support",
+          "tables": []
+        },
+        "CHF_Drug_Target_Doses": {
+          "text": "ACE inhibitor\nLisinopril\n5mg QD start; 20mg QD goal\nCaptopril\n25mg tid start; 100mg tid goal\nBenazepril\n10mg QD start; 40mg QD goal\nARB\nLosartan\n25mg BID start; 50mg BID goal\nValsartan\n80mg QD start; 160mg QD goal\nBeta-blocker\nCarvedilol\n3.125mg BID start; 25mg BID goal (50mg BID goal if weight > 85 kg)\nMetoprolol\nER 12.5mg QD start; 190mg QD goal\nOthers\nHydralazine\n/\nisosorbid\ndinitrate 10-20mg (1 tab) tid start; 100-80mg (5 tabs) goal for black patients with NYHA III-IV already on BB and ACEi\nSpironolactone\n25mg QD start; 50mg QD goal for indications:\nLVEF < 30% with NYHA II\nLVEF < 35% with NYHA III-IV\nLVEF < 40% post-MI, goal ACE-I, symptomatic CHF, or DM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        }
+      ]
+    },
+    "Admission_Criteria": {
+      "text": "CCORT - Emergent Heart Failure Mortality Risk Grade Calculator\n7 day mortality risk score calculator for patients presenting to the ED with decompensated HF\nhttps://ehmrg.ices.on.ca\nAHCPR '00\nACS\nPulmonary edema/respiratory distress\nO2 sat < 90% on room air\nSevere complicating illness\nCHF\nrefractory to outpatient therapy\nAnasarca\nSymptomatic hypotension or syncope\nArrhythmia (e.g. new a. fib)\nInadequate outpatient support",
+      "subsections": {
+        "CHF_Drug_Target_Doses": {
+          "text": "ACE inhibitor\nLisinopril\n5mg QD start; 20mg QD goal\nCaptopril\n25mg tid start; 100mg tid goal\nBenazepril\n10mg QD start; 40mg QD goal\nARB\nLosartan\n25mg BID start; 50mg BID goal\nValsartan\n80mg QD start; 160mg QD goal\nBeta-blocker\nCarvedilol\n3.125mg BID start; 25mg BID goal (50mg BID goal if weight > 85 kg)\nMetoprolol\nER 12.5mg QD start; 190mg QD goal\nOthers\nHydralazine\n/\nisosorbid\ndinitrate 10-20mg (1 tab) tid start; 100-80mg (5 tabs) goal for black patients with NYHA III-IV already on BB and ACEi\nSpironolactone\n25mg QD start; 50mg QD goal for indications:\nLVEF < 30% with NYHA II\nLVEF < 35% with NYHA III-IV\nLVEF < 40% post-MI, goal ACE-I, symptomatic CHF, or DM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        }
+      ]
+    },
+    "CHF_Drug_Target_Doses": {
+      "text": "ACE inhibitor\nLisinopril\n5mg QD start; 20mg QD goal\nCaptopril\n25mg tid start; 100mg tid goal\nBenazepril\n10mg QD start; 40mg QD goal\nARB\nLosartan\n25mg BID start; 50mg BID goal\nValsartan\n80mg QD start; 160mg QD goal\nBeta-blocker\nCarvedilol\n3.125mg BID start; 25mg BID goal (50mg BID goal if weight > 85 kg)\nMetoprolol\nER 12.5mg QD start; 190mg QD goal\nOthers\nHydralazine\n/\nisosorbid\ndinitrate 10-20mg (1 tab) tid start; 100-80mg (5 tabs) goal for black patients with NYHA III-IV already on BB and ACEi\nSpironolactone\n25mg QD start; 50mg QD goal for indications:\nLVEF < 30% with NYHA II\nLVEF < 35% with NYHA III-IV\nLVEF < 40% post-MI, goal ACE-I, symptomatic CHF, or DM",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pulmonary Edema\nCHF Meds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "CHF Meds",
+          "url": "https://wikem.org/wiki/CHF_Meds"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Emergency Heart Failure Mortality Risk Grade (EHMRG)\nemDocs - ED Management of Heart Failure: Pearls and Pitfalls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

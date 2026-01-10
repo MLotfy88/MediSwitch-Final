@@ -1,0 +1,58 @@
+{
+  "drug_name": "Cryoprecipitate_transfusion",
+  "url": "https://wikem.org/wiki/Cryoprecipitate_transfusion",
+  "scraped_at": "2026-01-10T07:51:14.901814",
+  "sections": {
+    "Features": {
+      "text": "Cold insoluble protein fraction of\nFFP\nContains: fibrinogen, vWF, and factor VIII\n1 bag (10ml) has 50-500 units of factor 8 activity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Bleeding with fibrinogen level of <100 milligrams/dL\nDysfibrinogenemia\nBleeding in vWD that is unresponsive to DDAVP and Factor VIII is unavailable (can also use\nHumate-P\n,\nFFP\ndoes not work well)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Humate-P",
+          "url": "https://wikem.org/wiki/Humate-P"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "Dose": {
+      "text": "1 unit/5kg (usually 10 units are given at a time)\nWill raise fibrinogen level by 75",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transfusions\nFFP\nPCC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        }
+      ]
+    }
+  }
+}

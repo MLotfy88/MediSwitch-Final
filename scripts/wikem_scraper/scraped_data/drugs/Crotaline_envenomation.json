@@ -1,0 +1,677 @@
+{
+  "drug_name": "Crotaline_envenomation",
+  "url": "https://wikem.org/wiki/Crotaline_envenomation",
+  "scraped_at": "2026-01-10T07:51:15.174351",
+  "sections": {
+    "Background": {
+      "text": "The Crotalinae subfamily of Viperidae classifies the new world vipers, or\npit vipers\n. The snakes have a pitlike depression behind the nostril that contains a heat-sensing organ used to find prey.\nIncludes rattlesnakes and copperheads\nVenom causes local tissue injury,\ncoagulopathy\n,and\nthrombocytopenia\nUp to 25% of bites are dry bites",
+      "subsections": {
+        "Common_Crotaline_(Pit_Viper)_snake_names": {
+          "text": "Rattlesnake\nCottonmouth\nCopperhead\nSidewinder\nWater moccasin\nMassasauga",
+          "tables": []
+        },
+        "Venom": {
+          "text": "Venom form a Crotaline mainly damages local tissue via metalloproteinases and hyaluronidase which cause swelling edema and damage to capillaries.\nClinical effects consist of:\nLocal tissue damage\nCoagulopathies\n(pro and anti effects)\nPlatelet dysfunction\nNeurotoxic effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Platelet dysfunction",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Venom": {
+      "text": "Venom form a Crotaline mainly damages local tissue via metalloproteinases and hyaluronidase which cause swelling edema and damage to capillaries.\nClinical effects consist of:\nLocal tissue damage\nCoagulopathies\n(pro and anti effects)\nPlatelet dysfunction\nNeurotoxic effects",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Platelet dysfunction",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fang marks, localized pain, progressive edema extending from bite site\nNausea/vomiting\nOral\nnumbness\n/tingling\nDizziness\nMuscle fasciculations\nCoagulopathy\nEcchymoses may appear within minutes to hours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Necrotizing fasciitis\nCellulitis\nAllergic Reaction",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Allergic Reaction",
+          "url": "https://wikem.org/wiki/Allergic_Reaction"
+        },
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Local injury (pain, progressive swelling,\ncompartment syndrome\n, lymphangitic spread with pain in the axillae for upper extremity bites or pain in the inguinal region for lower extremity)\nTrack progressive edema of the bitten extremity Q2H until progression stops\nMark on the patient a point in the mid-foot, mid-calf, and mid-thigh (lower extremity bite) vs mid-hand, mid-forearm, and mid-humerus (upper extremity bites) to ensure consistency between measurements.\nHematologic abnormality (\nthrombocytopenia\n, prolonged PT, hypofibrinogenemia) -\nDIC\n-like syndrome\nSystemic effects (\nhypotension\nresulting from third spacing)",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nCoags\nFibrinogen\nChemistry",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC\nCoags\nFibrinogen\nChemistry",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Local_Care": {
+          "text": "Do:\nRemove all jewelry\nMark the leading edge of erythema/edema\nDo not:\nAttempt to suck out the venom\nPlace the affected part in cold water\nUse a tourniquet or wrap\nAntivenom is first line treatment for compartment syndrome; fasciotomy is last resort if elevated pressures persist.",
+          "tables": []
+        },
+        "Antivenom_administration": {
+          "text": "See below",
+          "tables": []
+        },
+        "Supportive_care": {
+          "text": "IVF\nand\nvasopressors\nif needed for hypotension\nBlood products rarely needed\nConsider early intubation for head and neck envenomations. High risk for edema and airway compromise.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Local_Care": {
+      "text": "Do:\nRemove all jewelry\nMark the leading edge of erythema/edema\nDo not:\nAttempt to suck out the venom\nPlace the affected part in cold water\nUse a tourniquet or wrap\nAntivenom is first line treatment for compartment syndrome; fasciotomy is last resort if elevated pressures persist.",
+      "subsections": {
+        "Antivenom_administration": {
+          "text": "See below",
+          "tables": []
+        },
+        "Supportive_care": {
+          "text": "IVF\nand\nvasopressors\nif needed for hypotension\nBlood products rarely needed\nConsider early intubation for head and neck envenomations. High risk for edema and airway compromise.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Antivenom_administration": {
+      "text": "See below",
+      "subsections": {
+        "Supportive_care": {
+          "text": "IVF\nand\nvasopressors\nif needed for hypotension\nBlood products rarely needed\nConsider early intubation for head and neck envenomations. High risk for edema and airway compromise.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "IVF\nand\nvasopressors\nif needed for hypotension\nBlood products rarely needed\nConsider early intubation for head and neck envenomations. High risk for edema and airway compromise.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "The following are criteria for administration after Crotalidae bite\n[1]\nProgression of swelling\nAbnormal results on lab tests (platelet < 100,000 or fibrinogen < 100)\nSystemic manifestations (unstable vitals or altered mental status)",
+      "subsections": {
+        "Initial_Administration": {
+          "text": "Initial dose: 6 vials\n[2]\nTypically diluted into 250 cc or 1 L of normal saline and infused over an hour\nSame dose for both adults and pediatrics (may have to adjust the dilution of CroFab for small children so that they are not volume overloaded)",
+          "tables": []
+        },
+        "Maintenance_therapy": {
+          "text": "May repeat dose (2 vials) at 6, 12, and 18 hours later if symptoms not controlled\n[3]\nMaintance therapy may be indicated after initial dosing based on local protocols even if control is achieved.\n[4]",
+          "tables": []
+        },
+        "Envenomation_control_measurement": {
+          "text": "Observe for progression of envenomation during and after antivenom infusion\nMeasure limb circumference at several sites above and below bite\nMark advancing border of edema q30min\nRepeat labs q4hr or after each course of antivenom (whichever is more frequent)",
+          "tables": []
+        },
+        "Side_Effects": {
+          "text": "Acute\nallergic reactions\noccur in <10% pts\nIf occurs stop infusion and give epinephrine/antihistamines if needed\nRecurrent\nthrombocytopenia\nhas been described up to 2 weeks after transfusion with FabAV and is likely a result of isolated renal clearance of FabAV and persistent presence of actual venom in serum.\n[5]\nWarrants close monitoring of platelets by primary physician or return visit after discharge\nSerum sickness\nis unlikely but precautions should be given to patents upon discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Initial_Administration": {
+      "text": "Initial dose: 6 vials\n[2]\nTypically diluted into 250 cc or 1 L of normal saline and infused over an hour\nSame dose for both adults and pediatrics (may have to adjust the dilution of CroFab for small children so that they are not volume overloaded)",
+      "subsections": {
+        "Maintenance_therapy": {
+          "text": "May repeat dose (2 vials) at 6, 12, and 18 hours later if symptoms not controlled\n[3]\nMaintance therapy may be indicated after initial dosing based on local protocols even if control is achieved.\n[4]",
+          "tables": []
+        },
+        "Envenomation_control_measurement": {
+          "text": "Observe for progression of envenomation during and after antivenom infusion\nMeasure limb circumference at several sites above and below bite\nMark advancing border of edema q30min\nRepeat labs q4hr or after each course of antivenom (whichever is more frequent)",
+          "tables": []
+        },
+        "Side_Effects": {
+          "text": "Acute\nallergic reactions\noccur in <10% pts\nIf occurs stop infusion and give epinephrine/antihistamines if needed\nRecurrent\nthrombocytopenia\nhas been described up to 2 weeks after transfusion with FabAV and is likely a result of isolated renal clearance of FabAV and persistent presence of actual venom in serum.\n[5]\nWarrants close monitoring of platelets by primary physician or return visit after discharge\nSerum sickness\nis unlikely but precautions should be given to patents upon discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Maintenance_therapy": {
+      "text": "May repeat dose (2 vials) at 6, 12, and 18 hours later if symptoms not controlled\n[3]\nMaintance therapy may be indicated after initial dosing based on local protocols even if control is achieved.\n[4]",
+      "subsections": {
+        "Envenomation_control_measurement": {
+          "text": "Observe for progression of envenomation during and after antivenom infusion\nMeasure limb circumference at several sites above and below bite\nMark advancing border of edema q30min\nRepeat labs q4hr or after each course of antivenom (whichever is more frequent)",
+          "tables": []
+        },
+        "Side_Effects": {
+          "text": "Acute\nallergic reactions\noccur in <10% pts\nIf occurs stop infusion and give epinephrine/antihistamines if needed\nRecurrent\nthrombocytopenia\nhas been described up to 2 weeks after transfusion with FabAV and is likely a result of isolated renal clearance of FabAV and persistent presence of actual venom in serum.\n[5]\nWarrants close monitoring of platelets by primary physician or return visit after discharge\nSerum sickness\nis unlikely but precautions should be given to patents upon discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Envenomation_control_measurement": {
+      "text": "Observe for progression of envenomation during and after antivenom infusion\nMeasure limb circumference at several sites above and below bite\nMark advancing border of edema q30min\nRepeat labs q4hr or after each course of antivenom (whichever is more frequent)",
+      "subsections": {
+        "Side_Effects": {
+          "text": "Acute\nallergic reactions\noccur in <10% pts\nIf occurs stop infusion and give epinephrine/antihistamines if needed\nRecurrent\nthrombocytopenia\nhas been described up to 2 weeks after transfusion with FabAV and is likely a result of isolated renal clearance of FabAV and persistent presence of actual venom in serum.\n[5]\nWarrants close monitoring of platelets by primary physician or return visit after discharge\nSerum sickness\nis unlikely but precautions should be given to patents upon discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Side_Effects": {
+      "text": "Acute\nallergic reactions\noccur in <10% pts\nIf occurs stop infusion and give epinephrine/antihistamines if needed\nRecurrent\nthrombocytopenia\nhas been described up to 2 weeks after transfusion with FabAV and is likely a result of isolated renal clearance of FabAV and persistent presence of actual venom in serum.\n[5]\nWarrants close monitoring of platelets by primary physician or return visit after discharge\nSerum sickness\nis unlikely but precautions should be given to patents upon discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Observe all snakebite patients for at least 6hr before determining patient disposition\nBites that initially appear innocuous and labs normal at presentation can be deceptive\nDischarge if symptom-free after 6hr\nAdmit all patients receiving antivenom to the ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Snake bites\nEnvenomations, bites and stings\nCrotalidae polyvalent immune Fab (Crofab)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Envenomations, bites and stings",
+          "url": "https://wikem.org/wiki/Envenomations,_bites_and_stings"
+        },
+        {
+          "text": "Crotalidae polyvalent immune Fab (Crofab)",
+          "url": "https://wikem.org/wiki/Crotalidae_polyvalent_immune_Fab_(Crofab)"
+        }
+      ]
+    }
+  }
+}

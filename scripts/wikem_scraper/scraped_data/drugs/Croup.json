@@ -1,0 +1,1266 @@
+{
+  "drug_name": "Croup",
+  "url": "https://wikem.org/wiki/Croup",
+  "scraped_at": "2026-01-10T07:51:19.875935",
+  "sections": {
+    "Background": {
+      "text": "Also known as laryngotracheobronchitis\nTypically affects ages 6 mo-3 yr (peak in 2nd year)\nMay affect older children\nMost common in fall & winter\n300k annual ED visits with significant hospitalization rates\n[1]\nPathophysiology: Infection leading to inflammation of any structure inferior to larynx, including larynx, trachea, or bronchi; swelling leads to airway obstruction and characteristic stridor and cough",
+      "subsections": {
+        "Etiologies": {
+          "text": "Viral\nParainfluenza\n(50% - 75%)\nInfluenza\nA and B (usually more severe clinical picture)\nRSV\nRhinovirus\n,\nadenovirus\nBacterial (\nBacterial tracheitis\n)\nSame organisms as sinopulmonary infections:\nStreptococcus pneumoniae\n,\nHaemophilus influenzae\n,\nMoraxella catarrhalis\n,\nStaphylococcus aureus\n[2]\nConsider\nDiphtheria\nif not immunized\nSpasmodic croup\nSudden onset of barking cough/stridor\nNo viral prodrome, unlike typical croup\nDifficult to differentiate from typical croup\nMust rule out\nforeign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Viral\nParainfluenza\n(50% - 75%)\nInfluenza\nA and B (usually more severe clinical picture)\nRSV\nRhinovirus\n,\nadenovirus\nBacterial (\nBacterial tracheitis\n)\nSame organisms as sinopulmonary infections:\nStreptococcus pneumoniae\n,\nHaemophilus influenzae\n,\nMoraxella catarrhalis\n,\nStaphylococcus aureus\n[2]\nConsider\nDiphtheria\nif not immunized\nSpasmodic croup\nSudden onset of barking cough/stridor\nNo viral prodrome, unlike typical croup\nDifficult to differentiate from typical croup\nMust rule out\nforeign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "1-3 days of nonspecific\nURI\nsymptoms, followed by 3-4 days of \"barking\"\ncough\n, hoarse voice,\nstridor\n, and\nacute dyspnea\nUsually most severe on days 3-4\nLow-grade\nfever\nRarely drooling or dysphagia; consider alternate etiology if present",
+      "subsections": {
+        "Mild": {
+          "text": "85% of cases\nIntermittent barking\ncough\nStridor\nwith agitation\nMild\ntachypnea\nMild\ntachycardia",
+          "tables": []
+        },
+        "Moderate": {
+          "text": "Fussy but alert, interactive, consolable by parents\nStridor\nat rest\nWorsening stridor with agitation\nIncreased\nwork of breathing",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Hypoxia\nTachypnea and marked retractions\nAltered mental status\nLess than 1% of cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "acute dyspnea",
+          "url": "https://wikem.org/wiki/Acute_dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "tachypnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "work of breathing",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Mild": {
+      "text": "85% of cases\nIntermittent barking\ncough\nStridor\nwith agitation\nMild\ntachypnea\nMild\ntachycardia",
+      "subsections": {
+        "Moderate": {
+          "text": "Fussy but alert, interactive, consolable by parents\nStridor\nat rest\nWorsening stridor with agitation\nIncreased\nwork of breathing",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Hypoxia\nTachypnea and marked retractions\nAltered mental status\nLess than 1% of cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "tachypnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "work of breathing",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Moderate": {
+      "text": "Fussy but alert, interactive, consolable by parents\nStridor\nat rest\nWorsening stridor with agitation\nIncreased\nwork of breathing",
+      "subsections": {
+        "Severe": {
+          "text": "Hypoxia\nTachypnea and marked retractions\nAltered mental status\nLess than 1% of cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "work of breathing",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "Hypoxia\nTachypnea and marked retractions\nAltered mental status\nLess than 1% of cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        },
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_stridor": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        },
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_Shortness_of_Breath": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Typically a clinical diagnosis\nConsider CXR if concerned about alternative diagnoses causing stridor\nIn typical cases, imaging is not needed and does not change management\nSteeple sign (subglottic narrowing) on AP neck XR; note that this is not specific nor sensitive\nConsider nasal pharyngeal swab for viral panel\nIV insertion or other exam steps may lead to agitation and further airway obstruction",
+          "tables": []
+        },
+        "Westley_Croup_Score[6]": {
+          "text": "Helps to stratify patients into mild moderate and severe and guide treatment\nAssessment\n<2 Very mild\n2-6 Mild to moderately severe\n7-11 Severe croup\n≥ 12 Respiratory failure",
+          "tables": [
+            [
+              {
+                "Feature": "0",
+                "Number of points assigned for this feature": "1"
+              },
+              {
+                "Feature": "Chest wall retraction",
+                "Number of points assigned for this feature": "None"
+              },
+              {
+                "Feature": "Stridor",
+                "Number of points assigned for this feature": "None"
+              },
+              {
+                "Feature": "Cyanosis",
+                "Number of points assigned for this feature": "None"
+              },
+              {
+                "Feature": "Level of consciousness",
+                "Number of points assigned for this feature": "Normal"
+              },
+              {
+                "Feature": "Air entry",
+                "Number of points assigned for this feature": "Normal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "Typically a clinical diagnosis\nConsider CXR if concerned about alternative diagnoses causing stridor\nIn typical cases, imaging is not needed and does not change management\nSteeple sign (subglottic narrowing) on AP neck XR; note that this is not specific nor sensitive\nConsider nasal pharyngeal swab for viral panel\nIV insertion or other exam steps may lead to agitation and further airway obstruction",
+      "subsections": {
+        "Westley_Croup_Score[6]": {
+          "text": "Helps to stratify patients into mild moderate and severe and guide treatment\nAssessment\n<2 Very mild\n2-6 Mild to moderately severe\n7-11 Severe croup\n≥ 12 Respiratory failure",
+          "tables": [
+            [
+              {
+                "Feature": "0",
+                "Number of points assigned for this feature": "1"
+              },
+              {
+                "Feature": "Chest wall retraction",
+                "Number of points assigned for this feature": "None"
+              },
+              {
+                "Feature": "Stridor",
+                "Number of points assigned for this feature": "None"
+              },
+              {
+                "Feature": "Cyanosis",
+                "Number of points assigned for this feature": "None"
+              },
+              {
+                "Feature": "Level of consciousness",
+                "Number of points assigned for this feature": "Normal"
+              },
+              {
+                "Feature": "Air entry",
+                "Number of points assigned for this feature": "Normal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supplemental oxygen\nConsider utilizing blow-by oxygen to decrease agitation\nHumidified air may provide symptomatic treatment for patients with ongoing stridor\n[8]\nSteroids\nFirst-line treatment and standard of care for any severity of croup\nDexamethasone\n0.15-0.6mg/kg PO/IV/IM (max 10mg)\n[9]\n[10]\nTypically one dose is sufficient\nNo differences between intramuscular and oral dexamethasone\n[11]\nOnset 6 hrs, duration 72 hrs\nRecent study showing non-inferiority of low dose (0.15mg/kg) dexamethasone and prednisolone at 1mg/kg\n[12]\n.\nNebulized\nEpinephrine\nUse in moderate to severe cases based on the croup scores. Use either Racemic or Standard L-Epinephrine\n[13]\nSymptomatic relief via local vasoconstriction\nRacemic Epi (2.25%)\n: 0.05 mL per kg (maximal dose: 0.5 mL) of racemic epinephrine 2.25%\n[14]\nEpinephrine\n(1:1,000)\n: 0.5 mL per kg (maximal dose: 5 mL)  via nebulizer\nOnset up to 30 min, duration 2 hrs\nWatch child 2-3 hrs after administration to ensure no return of stridor at rest\nTreatment may be repeated, but frequent dosing requires admission to ICU for cardiac monitoring\nIntubation\nRarely needed but if so, use tube that is one-half size smaller than normal for age/size of patient, considering the presumed upper airway edema",
+      "subsections": {
+        "Contraindicated": {
+          "text": "Do NOT\ngive albuterol (may worsen edema (vasodilation))",
+          "tables": []
+        },
+        "No_Evidence": {
+          "text": "Heliox\nMixture of helium and oxygen (with not less than 20% oxygen)\nLow viscosity and low specific gravity facilitates laminar airflow through the respiratory tract.\nCurrently there is a lack of evidence to establish the effect of heliox inhalation in the treatment of croup in children\n[15]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Contraindicated": {
+      "text": "Do NOT\ngive albuterol (may worsen edema (vasodilation))",
+      "subsections": {
+        "No_Evidence": {
+          "text": "Heliox\nMixture of helium and oxygen (with not less than 20% oxygen)\nLow viscosity and low specific gravity facilitates laminar airflow through the respiratory tract.\nCurrently there is a lack of evidence to establish the effect of heliox inhalation in the treatment of croup in children\n[15]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "No_Evidence": {
+      "text": "Heliox\nMixture of helium and oxygen (with not less than 20% oxygen)\nLow viscosity and low specific gravity facilitates laminar airflow through the respiratory tract.\nCurrently there is a lack of evidence to establish the effect of heliox inhalation in the treatment of croup in children\n[15]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Consider_Discharge_if": {
+          "text": "2-3hr since last\nepinephrine\nand no return of stridor at rest, remains well appearing\nAble to tolerate PO\nNontoxic appearance",
+          "tables": []
+        },
+        "Admit": {
+          "text": "Persistent respiratory symptoms/signs\nInability to tolerate PO\n≥2 treatments with\nepinephrine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Consider_Discharge_if": {
+      "text": "2-3hr since last\nepinephrine\nand no return of stridor at rest, remains well appearing\nAble to tolerate PO\nNontoxic appearance",
+      "subsections": {
+        "Admit": {
+          "text": "Persistent respiratory symptoms/signs\nInability to tolerate PO\n≥2 treatments with\nepinephrine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "Persistent respiratory symptoms/signs\nInability to tolerate PO\n≥2 treatments with\nepinephrine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Bronchiolitis (RSV)\nPrehospital protocol croup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchiolitis (RSV)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(RSV)"
+        },
+        {
+          "text": "Prehospital protocol croup",
+          "url": "https://wikem.org/wiki/Prehospital_protocol_croup"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Westley Croup Score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

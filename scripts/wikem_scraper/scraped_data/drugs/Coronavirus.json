@@ -1,0 +1,181 @@
+{
+  "drug_name": "Coronavirus",
+  "url": "https://wikem.org/wiki/Coronavirus",
+  "scraped_at": "2026-01-10T07:51:12.045776",
+  "sections": {
+    "Background": {
+      "text": "Enveloped, positive-sense single-stranded RNA viruses with nucleocapsid\nVery common cause of\nupper respiratory infection\n, especially during fall and winter, and some diarrhea in pediatric patients\nEmerging pathogen for respiratory disease outbreaks\nProbably originated from bats, then spread to other mammalian hosts\nSARS\n-CoV – Himalayan palm civets\nMERS\n-CoV – Dromedary camels\nSARS-CoV-2\n– Suspected to be from pangolins",
+      "subsections": {
+        "Specific_Coronavirus_Sub-Types_of_Clinical_Importance": {
+          "text": "MERS\n-CoV\nSARS\n-CoV\nSARS-CoV-2 (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Specific_Coronavirus_Sub-Types_of_Clinical_Importance": {
+      "text": "MERS\n-CoV\nSARS\n-CoV\nSARS-CoV-2 (\nCOVID-19\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Incubation period: 2-4 days\nUpper respiratory symptoms\nRhinorrhea\n,\ncough\n,\nsore throat\n, earache,\nfever\n, malaise\nRespiratory symptoms may be more severe in elderly/immunocompromised (e.g.\npneumonia\n, secondary bacterial\npneumonia\n)\nGI symptoms -\nvomiting\n,\ndiarrhea\n,\nNecrotizing enterocolitis\n(in neonates)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Rhinovirus\n: most common cold virus.  Causes around 40% colds.\nas opposed to Coronavirus, this causes cold in other seasons besides winter.\nRhinovirus is NOT encapsulated as opposed to Coronavirus.\nrespiratory syncytial virus\n(RSV)\ninfluenza\nparainfluenza",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "PCR Testing\nShould be obtained on nasopharyngeal swab preferably one with synthetic fibers and plastic tip and under isolation\nCriteria for who to test is constantly evolving at this time. The CDC currently recommends clinicians to refer to local and/or institutional guidelines and test availability when deciding who should be tested.\nLaboratory Abnormalities\nLymphocytosis\nPresent in 70-80% of patients\n[1]\nSeverity of lymphocytosis and leukopenia shown to be associated with severe of illness\n[1]\n[2]\nThrombocytopenia, elevated lactate dehydrogenase, elevated C-reactive protein, and prolonged prothrombin time have been reported\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "There is no specific treatment for Coronavirus, since most infections spontaneously resolve.\nSupportive care, no specific treatment\nRest, hydration,\nanalgesia\n, antipyretics\nHand hygiene to prevent spread",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "The first vaccines produced against a coronavirus were developed during the\nCOVID-19\npandemic\nMeasures to reduce risk of transmission: fully wash hands, do not touch face without washing hands, avoid close contact with sick contacts.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Upper respiratory infection\nFever\nCOVID-19",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.cdc.gov/coronavirus/about/\nhttps://en.wikipedia.org/wiki/Coronavirus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

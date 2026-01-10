@@ -1,0 +1,181 @@
+{
+  "drug_name": "Coup_contrecoup_injury",
+  "url": "https://wikem.org/wiki/Coup_contrecoup_injury",
+  "scraped_at": "2026-01-10T07:51:13.323387",
+  "sections": {
+    "Background": {
+      "text": "Type of\nTBI\nCoup: injury site on the side of the blunt force mechanism\nContrecoup: opposing side injury from movement of the brain and cerebral spinal fluid shift from translational forces",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TBI",
+          "url": "https://wikem.org/wiki/TBI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "TBI\nlike symptoms\nHeadache\nVisionary discomfort\nNausea/vomiting\nDizziness\nFatigue\nUneven gait",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TBI",
+          "url": "https://wikem.org/wiki/TBI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Visionary discomfort",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Uneven gait",
+          "url": "https://wikem.org/wiki/Ataxia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Concussion\nSkull Fracture",
+      "subsections": {
+        "Intracranial_Hemorrhage_Types": {
+          "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Intracranial_Hemorrhage_Types": {
+      "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs_and_Imaging": {
+          "text": "Trauma Labs depending on history (or lack there of)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Labs_and_Imaging": {
+      "text": "Trauma Labs depending on history (or lack there of)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Assess for additional injuries\nAnalgesia\nConsider neurosurgery, trauma consult depending on degree of injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Often kept for observation\nHome if at baseline, no additional injuries\nInform about post-concussive symptoms\nOutpatient concussion/head trauma clinic if available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Head trauma (main)\nConcussion\nHead CT in Trauma (Clinical Decision Rules)\nHead CT interpretation\nEBQ:Canadian Head CT Rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Head CT in Trauma (Clinical Decision Rules)",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "Head CT interpretation",
+          "url": "https://wikem.org/wiki/Head_CT_interpretation"
+        },
+        {
+          "text": "EBQ:Canadian Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:Canadian_Head_CT_Rule"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "drug_name": "Copper_toxicity",
+  "url": "https://wikem.org/wiki/Copper_toxicity",
+  "scraped_at": "2026-01-10T07:51:06.930324",
+  "sections": {
+    "Background": {
+      "text": "Widely available metal\nObtained from various foods including nuts, fish, and green vegetables\nNumerous poisonings from copper pipes\nOccurs from storage of acidic substances (lemon/orange juice), pipes exposed to carbon dioxide from carbonation process, stagnant, and hot water which leach out copper from pipes",
+      "subsections": {
+        "Copper_Uses": {
+          "text": "Pipes\nCookware\nElectrical wire\nMedical devices (copper IUD)\nDietary supplements\nBordeaux solution (used as a pesticide)",
+          "tables": []
+        },
+        "Toxicokinetics": {
+          "text": "Absorbed in the GI tract\nBound by ceruoplasmin\nElimination via biliary system\nMinimal renal elimination\nV\nD\n: 2L/kg\nCopper sulfate\nMost common acute poisoning\nLethal dose is 0.15-0.3g/kg\nToxicity is caused through redox reactions\nFenton reaction\nHaber-Weiss cycle\nGenerates oxidative stress, inhibiting key metabolic enzymes, particularly in cell membranes and mitochondria\nOrgan specific damage\nErythrocytes\nMembran dysfunction resulting in hemolysis\nOccurs within the first 24 hours\nHepatic\nExcess copper not bound by metallothionein participates in redox reactions and cause lipid peroxidation\nCentrilobular necrosis\nAfter necrosis there is a release of massive amounts of copper into the blood causing a secondary hemolysis\nRenal\nATN with hemoglobin casts, likely from hemolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Copper_Uses": {
+      "text": "Pipes\nCookware\nElectrical wire\nMedical devices (copper IUD)\nDietary supplements\nBordeaux solution (used as a pesticide)",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "Absorbed in the GI tract\nBound by ceruoplasmin\nElimination via biliary system\nMinimal renal elimination\nV\nD\n: 2L/kg\nCopper sulfate\nMost common acute poisoning\nLethal dose is 0.15-0.3g/kg\nToxicity is caused through redox reactions\nFenton reaction\nHaber-Weiss cycle\nGenerates oxidative stress, inhibiting key metabolic enzymes, particularly in cell membranes and mitochondria\nOrgan specific damage\nErythrocytes\nMembran dysfunction resulting in hemolysis\nOccurs within the first 24 hours\nHepatic\nExcess copper not bound by metallothionein participates in redox reactions and cause lipid peroxidation\nCentrilobular necrosis\nAfter necrosis there is a release of massive amounts of copper into the blood causing a secondary hemolysis\nRenal\nATN with hemoglobin casts, likely from hemolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxicokinetics": {
+      "text": "Absorbed in the GI tract\nBound by ceruoplasmin\nElimination via biliary system\nMinimal renal elimination\nV\nD\n: 2L/kg\nCopper sulfate\nMost common acute poisoning\nLethal dose is 0.15-0.3g/kg\nToxicity is caused through redox reactions\nFenton reaction\nHaber-Weiss cycle\nGenerates oxidative stress, inhibiting key metabolic enzymes, particularly in cell membranes and mitochondria\nOrgan specific damage\nErythrocytes\nMembran dysfunction resulting in hemolysis\nOccurs within the first 24 hours\nHepatic\nExcess copper not bound by metallothionein participates in redox reactions and cause lipid peroxidation\nCentrilobular necrosis\nAfter necrosis there is a release of massive amounts of copper into the blood causing a secondary hemolysis\nRenal\nATN with hemoglobin casts, likely from hemolysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "GI irritation\nEmesis (may be blue based on copper compound, but is not pathognomonic)\nAbdominal pain\nGastroduodenal hemorrhage, ulceration, and perforation\nMetallic taste\nHepatic\nJaundice\nHematologic\nHemolysis\nMay see methemoglobinemia\nRenal\nRenal failure uncommon\nHypotension and cardiovascular collapse\nLikely multifactorial",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Wilson's disease\nCNS\nAtaxia\nTremor\nParkinsonism\nDysphagia\nDystonia\nBehavioral\nMood changes\nOccular\nKayser-Fleischer rings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "GI irritation\nEmesis (may be blue based on copper compound, but is not pathognomonic)\nAbdominal pain\nGastroduodenal hemorrhage, ulceration, and perforation\nMetallic taste\nHepatic\nJaundice\nHematologic\nHemolysis\nMay see methemoglobinemia\nRenal\nRenal failure uncommon\nHypotension and cardiovascular collapse\nLikely multifactorial",
+      "subsections": {
+        "Chronic": {
+          "text": "Wilson's disease\nCNS\nAtaxia\nTremor\nParkinsonism\nDysphagia\nDystonia\nBehavioral\nMood changes\nOccular\nKayser-Fleischer rings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Wilson's disease\nCNS\nAtaxia\nTremor\nParkinsonism\nDysphagia\nDystonia\nBehavioral\nMood changes\nOccular\nKayser-Fleischer rings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Also seen in\nWilson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis, as copper levels will likely take days to result\nBMP\nHepatic function tests\nCBC\nPT/PTT/INR\nCopper and ceruloplasmin level\nAbdominal films to assess for foreign bodies",
+      "subsections": {
+        "Copper_level": {
+          "text": "No set number that establishes a prognosis\n[1]\nWhole blood = 70–140 μg/dL (11–22 μmol/L)\nTotal serum = 120–145 μg/dL (18.8–22.8 μmol/L)\nFree serum  = 4–7 μg/dL (0.63–1.1 μmol/L)\nCeruloplasmin = 25–50 μg/dL (3.9–7.8 μmol/L)\nUrine = 5–25 μg/24 h (.078–3.9 nmol/L)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Copper_level": {
+      "text": "No set number that establishes a prognosis\n[1]\nWhole blood = 70–140 μg/dL (11–22 μmol/L)\nTotal serum = 120–145 μg/dL (18.8–22.8 μmol/L)\nFree serum  = 4–7 μg/dL (0.63–1.1 μmol/L)\nCeruloplasmin = 25–50 μg/dL (3.9–7.8 μmol/L)\nUrine = 5–25 μg/24 h (.078–3.9 nmol/L)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_2": {
+      "text": "",
+      "subsections": {
+        "Supportive_care": {
+          "text": "Antiemetics\nFluid and electrolyte repletion\nGI decontamination unlikely to benefit\nActivated charcoal contraindicated",
+          "tables": []
+        },
+        "Chelation": {
+          "text": "Recommended in cases with hematologic or hepatic complications\nMost commonly used are BAL and D-penicillamine\nBritish anti-Lewisite\n(BAL)\nBeneficial in patients with vomiting who are unable to take D-penicillamine\nUseful in those with renal failure\nD-penicillamine\nShould be started as soon as able to tolerate PO\nBegin simultaneously with BAL or soon after\nPrevents copper induced hemolysis in patients with wilson disease\nUndergoes renal clearance\n1.0-1.5 g/d given PO in 4 divided doses\nCan be used for acute and chronic copper poisoning\nComplications\nWorsening of neurologic findings\nAplastic anemia\nAgranulocytosis\nRenal and pulmonary disease\nHypersensitivity reactions in 25% of patients with pencillin allergies\nCongenital abnormaliies in pregnenancy\nCaNa\n2\nEDTA\nWill reduce oxidative damage\nDoes not enhance elimination\nSuccimer\nIneffective copper chelator\nDoes increase copper elimination in murine models\nDose is the same as lead dosing\nDMPS\nNot recommended for treatment of copper poisoning\nCan worsen copper induced hemolysis\nTrientine\nSecond line chelator for wilson disease\nNo reports in acute copper poisoning\nTetrathiomolybdate\nFDA chelating agent with orphan drug status\nNo human studies but showed benefits in animal models",
+          "tables": []
+        },
+        "Extracorporeal_Elimination": {
+          "text": "Unlikely to benefit\nExchange transfustion\nLimited benefit\nHemodialysis\nNot recommended\nMembranes allow copper ions to cross\nUnlikely to be clinnicall useful\nMay also lyse erythrocytes release stored copper causing worsening toxicity\nMolecular adsorbents recirculating system (MARS) and Single Pass Albumin Dialysis (SPAD)\nRapidly and substantially lower serum copper concentraions\nRisk of hemolysis\nPlasma Exchange\nEnhanced elimination of copper by 3-12 mg\nUnclear if benficial after large ingestions\nRisk of hemolysis\nPeritoneal Dialysis\nNot useful",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Succimer",
+          "url": "https://wikem.org/wiki/Succimer"
+        },
+        {
+          "text": "Trientine",
+          "url": "https://wikem.org/wiki/Trientine"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "Antiemetics\nFluid and electrolyte repletion\nGI decontamination unlikely to benefit\nActivated charcoal contraindicated",
+      "subsections": {
+        "Chelation": {
+          "text": "Recommended in cases with hematologic or hepatic complications\nMost commonly used are BAL and D-penicillamine\nBritish anti-Lewisite\n(BAL)\nBeneficial in patients with vomiting who are unable to take D-penicillamine\nUseful in those with renal failure\nD-penicillamine\nShould be started as soon as able to tolerate PO\nBegin simultaneously with BAL or soon after\nPrevents copper induced hemolysis in patients with wilson disease\nUndergoes renal clearance\n1.0-1.5 g/d given PO in 4 divided doses\nCan be used for acute and chronic copper poisoning\nComplications\nWorsening of neurologic findings\nAplastic anemia\nAgranulocytosis\nRenal and pulmonary disease\nHypersensitivity reactions in 25% of patients with pencillin allergies\nCongenital abnormaliies in pregnenancy\nCaNa\n2\nEDTA\nWill reduce oxidative damage\nDoes not enhance elimination\nSuccimer\nIneffective copper chelator\nDoes increase copper elimination in murine models\nDose is the same as lead dosing\nDMPS\nNot recommended for treatment of copper poisoning\nCan worsen copper induced hemolysis\nTrientine\nSecond line chelator for wilson disease\nNo reports in acute copper poisoning\nTetrathiomolybdate\nFDA chelating agent with orphan drug status\nNo human studies but showed benefits in animal models",
+          "tables": []
+        },
+        "Extracorporeal_Elimination": {
+          "text": "Unlikely to benefit\nExchange transfustion\nLimited benefit\nHemodialysis\nNot recommended\nMembranes allow copper ions to cross\nUnlikely to be clinnicall useful\nMay also lyse erythrocytes release stored copper causing worsening toxicity\nMolecular adsorbents recirculating system (MARS) and Single Pass Albumin Dialysis (SPAD)\nRapidly and substantially lower serum copper concentraions\nRisk of hemolysis\nPlasma Exchange\nEnhanced elimination of copper by 3-12 mg\nUnclear if benficial after large ingestions\nRisk of hemolysis\nPeritoneal Dialysis\nNot useful",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Succimer",
+          "url": "https://wikem.org/wiki/Succimer"
+        },
+        {
+          "text": "Trientine",
+          "url": "https://wikem.org/wiki/Trientine"
+        }
+      ]
+    },
+    "Chelation": {
+      "text": "Recommended in cases with hematologic or hepatic complications\nMost commonly used are BAL and D-penicillamine\nBritish anti-Lewisite\n(BAL)\nBeneficial in patients with vomiting who are unable to take D-penicillamine\nUseful in those with renal failure\nD-penicillamine\nShould be started as soon as able to tolerate PO\nBegin simultaneously with BAL or soon after\nPrevents copper induced hemolysis in patients with wilson disease\nUndergoes renal clearance\n1.0-1.5 g/d given PO in 4 divided doses\nCan be used for acute and chronic copper poisoning\nComplications\nWorsening of neurologic findings\nAplastic anemia\nAgranulocytosis\nRenal and pulmonary disease\nHypersensitivity reactions in 25% of patients with pencillin allergies\nCongenital abnormaliies in pregnenancy\nCaNa\n2\nEDTA\nWill reduce oxidative damage\nDoes not enhance elimination\nSuccimer\nIneffective copper chelator\nDoes increase copper elimination in murine models\nDose is the same as lead dosing\nDMPS\nNot recommended for treatment of copper poisoning\nCan worsen copper induced hemolysis\nTrientine\nSecond line chelator for wilson disease\nNo reports in acute copper poisoning\nTetrathiomolybdate\nFDA chelating agent with orphan drug status\nNo human studies but showed benefits in animal models",
+      "subsections": {
+        "Extracorporeal_Elimination": {
+          "text": "Unlikely to benefit\nExchange transfustion\nLimited benefit\nHemodialysis\nNot recommended\nMembranes allow copper ions to cross\nUnlikely to be clinnicall useful\nMay also lyse erythrocytes release stored copper causing worsening toxicity\nMolecular adsorbents recirculating system (MARS) and Single Pass Albumin Dialysis (SPAD)\nRapidly and substantially lower serum copper concentraions\nRisk of hemolysis\nPlasma Exchange\nEnhanced elimination of copper by 3-12 mg\nUnclear if benficial after large ingestions\nRisk of hemolysis\nPeritoneal Dialysis\nNot useful",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Succimer",
+          "url": "https://wikem.org/wiki/Succimer"
+        },
+        {
+          "text": "Trientine",
+          "url": "https://wikem.org/wiki/Trientine"
+        }
+      ]
+    },
+    "Extracorporeal_Elimination": {
+      "text": "Unlikely to benefit\nExchange transfustion\nLimited benefit\nHemodialysis\nNot recommended\nMembranes allow copper ions to cross\nUnlikely to be clinnicall useful\nMay also lyse erythrocytes release stored copper causing worsening toxicity\nMolecular adsorbents recirculating system (MARS) and Single Pass Albumin Dialysis (SPAD)\nRapidly and substantially lower serum copper concentraions\nRisk of hemolysis\nPlasma Exchange\nEnhanced elimination of copper by 3-12 mg\nUnclear if benficial after large ingestions\nRisk of hemolysis\nPeritoneal Dialysis\nNot useful",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition_2": {
+      "text": "Consult Toxicology or\npoison control",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        }
+      ]
+    },
+    "See_Also_2": {
+      "text": "Toxicology (main)\nHeavy Metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "References": {
+      "text": "Nelson, L. Copper. In: Goldfrank's Toxicologic Emergencies. 9th Ed. New York: McGraw-Hill; 2011: 1256-1265",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "drug_name": "Corneal_abrasion",
+  "url": "https://wikem.org/wiki/Corneal_abrasion",
+  "scraped_at": "2026-01-10T07:51:09.068252",
+  "sections": {
+    "Background": {
+      "text": "Must rule-out intra\nocular foreign body\nand corneal laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Foreign body sensation\nPhotophobia (+/- consensual)\nDecreased vision\nIf associated iritis or if abrasion occurs in visual axis\nEye pain\nRelief of\npain\nwith topical anesthesia\nVirtually diagnostic of corneal abrasion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decreased vision",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "A complete\neye exam\nshould be conducted\nEyelid Exam\nFlip upper lid and exam lower lid for foreign body\nIf concern for foreign body despite normal exam, consider orbital CT or MRI if certain foreign body is nonmetallic\nFluorescein Exam\nApply 1 gtt of flourescein or use strip with anesthetic\nUse Wood's lamp or\nslit lamp\nwith cobalt blue light\nFluorescein will fill corneal defects and glow\nMultiple vertical abrasions suggests foreign body embedded under the upper lid\nTopical anesthetic (ie proparacaine or tetracaine) may assist in patient cooperation with exam once open globe excluded.\nRepeated doses or Rx for topical anesthesia is controversial given concerns for impaired healing",
+      "subsections": {
+        "Additional_Considerations": {
+          "text": "Contact lens\nwearer\nIf white spot or opacity on exam concerning for infiltrate or\nCorneal ulcer\nrefer for same day ophtho appt\nFluorescein Examination\nSeidel sign (streaming of fluorescein) indicates\npenetrating trauma\nBranching/Dendritic pattern suggests possible\nHerpes Zoster Ophthalmicus\nVisual acuity\nIf poor, consider corneal edema versus infectious infiltrate\nPupil shape and reactivity\nIrregular or nonreactive pupil suggests pupillary sphincter injury and possible penetrating trauma\nHyphema\nor\nhypopyon\nHyphema suggests possible penetrating injury\nIf present then same same-day ophtho consult is required\nExtruded ocular contents\nIf yes then place eye shield and obtain emergent ophtho referral\nCorneal Ulcer\nGrayish white lesion\nWorsening symptoms >1day",
+          "tables": []
+        },
+        "Corneal_abrasion_vs._corneal_ulcer": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Characteristic": "History",
+                "Corneal abrasion": "*Acute pain immediately after injury",
+                "Corneal ulcer": "*Delayed pain frequently 2-3 days or more after initial event"
+              },
+              {
+                "Characteristic": "Lesion viewable on fluorescein exam",
+                "Corneal abrasion": "*Yes",
+                "Corneal ulcer": "*Yes"
+              },
+              {
+                "Characteristic": "Lesion viewable on white light exam",
+                "Corneal abrasion": "*No",
+                "Corneal ulcer": "*Yes"
+              },
+              {
+                "Characteristic": "Lesion morphology",
+                "Corneal abrasion": "*Frequently linear, punctate, patterned, and/or irregular",
+                "Corneal ulcer": "*Commonly circular"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "eye exam",
+          "url": "https://wikem.org/wiki/Eye_Exam"
+        },
+        {
+          "text": "slit lamp",
+          "url": "https://wikem.org/wiki/Slit_lamp"
+        },
+        {
+          "text": "Contact lens",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "penetrating trauma",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "Hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        },
+        {
+          "text": "Extruded ocular contents",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Corneal Ulcer",
+          "url": "https://wikem.org/wiki/Corneal_Ulcer"
+        }
+      ]
+    },
+    "Additional_Considerations": {
+      "text": "Contact lens\nwearer\nIf white spot or opacity on exam concerning for infiltrate or\nCorneal ulcer\nrefer for same day ophtho appt\nFluorescein Examination\nSeidel sign (streaming of fluorescein) indicates\npenetrating trauma\nBranching/Dendritic pattern suggests possible\nHerpes Zoster Ophthalmicus\nVisual acuity\nIf poor, consider corneal edema versus infectious infiltrate\nPupil shape and reactivity\nIrregular or nonreactive pupil suggests pupillary sphincter injury and possible penetrating trauma\nHyphema\nor\nhypopyon\nHyphema suggests possible penetrating injury\nIf present then same same-day ophtho consult is required\nExtruded ocular contents\nIf yes then place eye shield and obtain emergent ophtho referral\nCorneal Ulcer\nGrayish white lesion\nWorsening symptoms >1day",
+      "subsections": {
+        "Corneal_abrasion_vs._corneal_ulcer": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Characteristic": "History",
+                "Corneal abrasion": "*Acute pain immediately after injury",
+                "Corneal ulcer": "*Delayed pain frequently 2-3 days or more after initial event"
+              },
+              {
+                "Characteristic": "Lesion viewable on fluorescein exam",
+                "Corneal abrasion": "*Yes",
+                "Corneal ulcer": "*Yes"
+              },
+              {
+                "Characteristic": "Lesion viewable on white light exam",
+                "Corneal abrasion": "*No",
+                "Corneal ulcer": "*Yes"
+              },
+              {
+                "Characteristic": "Lesion morphology",
+                "Corneal abrasion": "*Frequently linear, punctate, patterned, and/or irregular",
+                "Corneal ulcer": "*Commonly circular"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Contact lens",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "penetrating trauma",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "Hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        },
+        {
+          "text": "Extruded ocular contents",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Corneal Ulcer",
+          "url": "https://wikem.org/wiki/Corneal_Ulcer"
+        }
+      ]
+    },
+    "Corneal_abrasion_vs._corneal_ulcer": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Characteristic": "History",
+            "Corneal abrasion": "*Acute pain immediately after injury",
+            "Corneal ulcer": "*Delayed pain frequently 2-3 days or more after initial event"
+          },
+          {
+            "Characteristic": "Lesion viewable on fluorescein exam",
+            "Corneal abrasion": "*Yes",
+            "Corneal ulcer": "*Yes"
+          },
+          {
+            "Characteristic": "Lesion viewable on white light exam",
+            "Corneal abrasion": "*No",
+            "Corneal ulcer": "*Yes"
+          },
+          {
+            "Characteristic": "Lesion morphology",
+            "Corneal abrasion": "*Frequently linear, punctate, patterned, and/or irregular",
+            "Corneal ulcer": "*Commonly circular"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Does_Not_Wear_Contact_Lens": {
+          "text": "Erythromycin\nointment qid x 3-5d\nOR\nCiprofloxacin\n0.3% ophthalmic solution 2 drops q6 hours\nOR\nOfloxacin\n0.3% solution 2 drops q6 hours\nOR\nSulfacetamide\n10% ophthalmic ointment q6 hours",
+          "tables": []
+        },
+        "Wears_Contact_Lens": {
+          "text": "Antibiotics should cover pseudomonas and favor 3rd or 4th generation fluoroquinolones\nLevofloxacin\n0.5% solution 2 drops ever 2 hours for 2 days THEN q6hrs for 5 days\nOR\nMoxifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nTobramycin\n0.3% solution 2 drops q6hrs for 5 days\nOR\nGatifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nGentamicin\n0.3% solution 2 drops six times for 5 days",
+          "tables": []
+        },
+        "Analgesia": {
+          "text": "Systemic\nNSAIDs\nor\nopioids\nCycloplegics\ncan be consider for patients with large abrasions (>2mm) and/or severe pain\nCyclopentolate\n1% 1 drop q6-8hr\nOphthalmic\nNSAIDs\nKetorolac\n0.4% 1 drop q6hr x 2-3d\nTopical anesthetics\nTetracaine\n1% 1 drop q30min has been found to be safe in the first 24 hrs\n[1]\nProparacaine 0.05% ophthalmic (dilute 1 mL of proparacaine 0.5% with 9 mL of NS in flush syringe then place 3 mL in bottle) 1-2 drops in eye Q30 min PRN pain for 24-48 hours only\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Tetanus prophylaxis\nnot indicated (unless penetrating injury)\n[3]\nPatch is not routinely recommended\n[4]\nand can prolong healing time\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Sulfacetamide",
+          "url": "https://wikem.org/wiki/Sulfacetamide"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Does_Not_Wear_Contact_Lens": {
+          "text": "Erythromycin\nointment qid x 3-5d\nOR\nCiprofloxacin\n0.3% ophthalmic solution 2 drops q6 hours\nOR\nOfloxacin\n0.3% solution 2 drops q6 hours\nOR\nSulfacetamide\n10% ophthalmic ointment q6 hours",
+          "tables": []
+        },
+        "Wears_Contact_Lens": {
+          "text": "Antibiotics should cover pseudomonas and favor 3rd or 4th generation fluoroquinolones\nLevofloxacin\n0.5% solution 2 drops ever 2 hours for 2 days THEN q6hrs for 5 days\nOR\nMoxifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nTobramycin\n0.3% solution 2 drops q6hrs for 5 days\nOR\nGatifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nGentamicin\n0.3% solution 2 drops six times for 5 days",
+          "tables": []
+        },
+        "Analgesia": {
+          "text": "Systemic\nNSAIDs\nor\nopioids\nCycloplegics\ncan be consider for patients with large abrasions (>2mm) and/or severe pain\nCyclopentolate\n1% 1 drop q6-8hr\nOphthalmic\nNSAIDs\nKetorolac\n0.4% 1 drop q6hr x 2-3d\nTopical anesthetics\nTetracaine\n1% 1 drop q30min has been found to be safe in the first 24 hrs\n[1]\nProparacaine 0.05% ophthalmic (dilute 1 mL of proparacaine 0.5% with 9 mL of NS in flush syringe then place 3 mL in bottle) 1-2 drops in eye Q30 min PRN pain for 24-48 hours only\n[2]",
+          "tables": []
+        },
+        "Other": {
+          "text": "Tetanus prophylaxis\nnot indicated (unless penetrating injury)\n[3]\nPatch is not routinely recommended\n[4]\nand can prolong healing time\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Sulfacetamide",
+          "url": "https://wikem.org/wiki/Sulfacetamide"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Analgesia": {
+      "text": "Systemic\nNSAIDs\nor\nopioids\nCycloplegics\ncan be consider for patients with large abrasions (>2mm) and/or severe pain\nCyclopentolate\n1% 1 drop q6-8hr\nOphthalmic\nNSAIDs\nKetorolac\n0.4% 1 drop q6hr x 2-3d\nTopical anesthetics\nTetracaine\n1% 1 drop q30min has been found to be safe in the first 24 hrs\n[1]\nProparacaine 0.05% ophthalmic (dilute 1 mL of proparacaine 0.5% with 9 mL of NS in flush syringe then place 3 mL in bottle) 1-2 drops in eye Q30 min PRN pain for 24-48 hours only\n[2]",
+      "subsections": {
+        "Other": {
+          "text": "Tetanus prophylaxis\nnot indicated (unless penetrating injury)\n[3]\nPatch is not routinely recommended\n[4]\nand can prolong healing time\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Tetanus prophylaxis\nnot indicated (unless penetrating injury)\n[3]\nPatch is not routinely recommended\n[4]\nand can prolong healing time\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Ophtho follow up in 48h for routine cases\nMinor abrasions will heal in 48-72h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye Algorithms (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Algorithms (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithms_(Main)"
+        }
+      ]
+    }
+  }
+}

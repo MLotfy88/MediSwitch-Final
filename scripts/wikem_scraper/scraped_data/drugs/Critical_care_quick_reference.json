@@ -1,0 +1,147 @@
+{
+  "drug_name": "Critical_care_quick_reference",
+  "url": "https://wikem.org/wiki/Critical_care_quick_reference",
+  "scraped_at": "2026-01-10T07:51:13.735109",
+  "sections": {
+    "Intro": {
+      "text": "ACLS (Main)\nPALS (Main)\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Adult": "Category"
+          },
+          {
+            "Adult": "Large adult"
+          },
+          {
+            "Adult": "ADULT"
+          },
+          {
+            "Adult": "Small adult"
+          },
+          {
+            "Adult": "Pediatric"
+          },
+          {
+            "Adult": "Broslow Color"
+          },
+          {
+            "Adult": "Green"
+          },
+          {
+            "Adult": "Orange"
+          },
+          {
+            "Adult": "Blue"
+          },
+          {
+            "Adult": "White"
+          },
+          {
+            "Adult": "Yellow"
+          },
+          {
+            "Adult": "Purple"
+          },
+          {
+            "Adult": "Red"
+          },
+          {
+            "Adult": "Pink"
+          },
+          {
+            "Adult": "Gray"
+          },
+          {
+            "Adult": "3.5kg (newborn)"
+          },
+          {
+            "Adult": "Preemie"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Quick_Reference_Groups": {
+      "text": "ACLS (Main)\nPALS (Main)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Adult": "Category"
+          },
+          {
+            "Adult": "Large adult"
+          },
+          {
+            "Adult": "ADULT"
+          },
+          {
+            "Adult": "Small adult"
+          },
+          {
+            "Adult": "Pediatric"
+          },
+          {
+            "Adult": "Broslow Color"
+          },
+          {
+            "Adult": "Green"
+          },
+          {
+            "Adult": "Orange"
+          },
+          {
+            "Adult": "Blue"
+          },
+          {
+            "Adult": "White"
+          },
+          {
+            "Adult": "Yellow"
+          },
+          {
+            "Adult": "Purple"
+          },
+          {
+            "Adult": "Red"
+          },
+          {
+            "Adult": "Pink"
+          },
+          {
+            "Adult": "Gray"
+          },
+          {
+            "Adult": "3.5kg (newborn)"
+          },
+          {
+            "Adult": "Preemie"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Medication Drip Doses (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medication Drip Doses (Peds)",
+          "url": "https://wikem.org/wiki/Medication_Drip_Doses_(Peds)"
+        }
+      ]
+    }
+  }
+}
