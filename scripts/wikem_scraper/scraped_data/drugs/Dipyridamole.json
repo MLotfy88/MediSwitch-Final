@@ -1,0 +1,149 @@
+{
+  "drug_name": "Dipyridamole",
+  "url": "https://wikem.org/wiki/Dipyridamole",
+  "scraped_at": "2026-01-10T03:15:01.618387",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Stress_Testing": {
+          "text": "0.142 mg/kg/min IV x4min",
+          "tables": []
+        },
+        "Thromboembolism_prevention_adjunct_for_cardiac_valve": {
+          "text": "75-100 mg PO qid",
+          "tables": []
+        },
+        "Thromboembolism_prevention": {
+          "text": "50=100 mg PO qid",
+          "tables": []
+        },
+        "Angina_prophylaxis": {
+          "text": "50 mg PO tid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Thromboembolism_prevention_adjunct_for_cardiac_valve_2": {
+          "text": "2-5 mg/kg/day PO divided tid\nGive with\nwarfarin\nor\naspirin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Caution advised during pregnancy\nRisk of increased maternal bleeding during delivery",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\nBronchospasm, IV use\nMyocardial infarction\n, IV use\nArrhythmia\n, IV use",
+          "tables": []
+        },
+        "Common": {
+          "text": "Angina\nexacerbation\nDizziness\n,\nHypotension\n,\nNausea\n,\nHeadache\nFlushing\n,\nRash\nVomiting\n,\nDiarrhea\n,\nAbdominal pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 10 hours\nMetabolism: Liver\nExcretion: Bile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

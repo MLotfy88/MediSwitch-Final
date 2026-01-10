@@ -1,0 +1,78 @@
+{
+  "drug_name": "Dicyclomine",
+  "url": "https://wikem.org/wiki/Dicyclomine",
+  "scraped_at": "2026-01-10T03:14:07.944189",
+  "sections": {
+    "General": {
+      "text": "Type: antispasmodic,\nanticholinergics\n(antimuscarinic)\nIndication: FDA approved for irritable bowel syndrome. Used off-label for cramping associated with opioid withdrawal\nDosage Forms: PO, IM\nDO NOT GIVE IV\nCommon Trade Names: Bentyl",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "10-20 mg PO or IM q6 PRN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Infant risk has been demonstrated\nRenal Dosing: not defined\nHepatic Dosing: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAge <6 mo\nBreastfeeding\nGI obstruction\nObstructive uropathy\nReflux esophagitis\nSevere ulcerative colitis\nMyasthenia gravis\nGlaucoma\nUnstable hemodynamics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "See\nAnticholinergic toxicity\nSyncope, poor muscle tone\nDyspnea, apnea, respiratory arrest\nAnaphylaxis, angioedema\nSeizure, coma\nImpaired sweating/thermoregulation\nParalytic ileus, intestinal perforation, pseudo-obstruction, toxic megacolon\nPsychosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea, xerostomia\nAsthenia, dizziness, somnolence, nervousness\nBlurred vision",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: ~2 hours\nExcretion: Urine ~80%, ~10% feces\nMechanism of Action: antimuscarinic, direct smooth muscle antagonism of bradykinin and histamine-induced muscular spasms, which\natropine\ndoes not",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    }
+  }
+}

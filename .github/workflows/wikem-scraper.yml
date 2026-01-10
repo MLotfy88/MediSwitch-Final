@@ -85,10 +85,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ -f scripts/wikem_scraper/checkpoints/progress.json ]; then
             echo "### Progress" >> $GITHUB_STEP_SUMMARY
-            SCRAPED=$(cat scripts/wikem_scraper/checkpoints/progress.json | grep -o '"total_scraped": [0-9]*' | grep -o '[0-9]*')
-            FAILED=$(cat scripts/wikem_scraper/checkpoints/progress.json | grep -o '"total_failed": [0-9]*' | grep -o '[0-9]*')
-            echo "- **Scraped:** $SCRAPED" >> $GITHUB_STEP_SUMMARY
-            echo "- **Failed:** $FAILED" >> $GITHUB_STEP_SUMMARY
+            python3 scripts/wikem_scraper/generate_summary.py
           fi
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Download Results" >> $GITHUB_STEP_SUMMARY

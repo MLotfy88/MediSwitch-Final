@@ -1,0 +1,104 @@
+{
+  "drug_name": "Diphenhydramine",
+  "url": "https://wikem.org/wiki/Diphenhydramine",
+  "scraped_at": "2026-01-10T03:14:49.613432",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntihistamines\n/ H1 blocker\nDosage Forms: Oral, IM, IV\nCommon Trade Names: Benadryl",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Allergic reaction\nOral: 25-50mg q4-8h, max 300mg/day\nIM/IV: 10-50mg/dose\nParkinsonian symptoms\nOral: 25-50mg tid-QID\nIM/IV: 10-50mg/dose\nInsomnia\n: 50mg PO qhs\nInjectable 1% diphenhydramine (10 mg/mL) can be used as a local anesthestic alternative to ester/amide anesthetics\n[1]\nSodium channel blocker mechanism\n1-2 mL of 1% diphenhydramine at a time, to not exceed excessive sedation dose\nTypical vial is 50 mg/mL, so to make 10 mg/mL:\n10 mL NS removed from 50 mL vial\nAdd 10 mL of 50 mg/mL diphenhydramine to 40 mL of NS\nSedation is dose related and is similar to what would be expected for IM doses\nRelative contraindications are the same for IM diphenhydramine administration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Allergic reaction\nOral/IM/IV: 5mg/kg/day divided q6-8h (1.25-1.67mg/kg/dose)\nAlternate PO dosing\n2-6 yo: 6.25mg q4-6h\n6-12 yo: 12-25mg q4-6h\n>12 yo: Adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation Risk: Enters breast milk\nRenal Dosing: n/a\nHepatic Dosing: n/a",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anticholinergic toxicity\nCNS depression\nCardiac arrthymias (Sodium channel blockade)\nSeizures",
+          "tables": []
+        },
+        "Common": {
+          "text": "Sedation",
+          "tables": []
+        },
+        "Overdose_related": {
+          "text": "Opsoclonus\n- conjugate irregular and nonrhythmical jerking movements of the eyes was reported in a 20-year-old woman who had ingested 5 grams\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Opsoclonus",
+          "url": "https://wikem.org/wiki/Opsoclonus"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Children 5 hours, Adults 9 hours, Elderly 13.5 hours\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action:\nAntihistamines\n/ H1 blocker",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        }
+      ]
+    }
+  }
+}
