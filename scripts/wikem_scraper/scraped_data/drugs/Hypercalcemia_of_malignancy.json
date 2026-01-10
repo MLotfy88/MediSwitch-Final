@@ -1,0 +1,838 @@
+{
+  "drug_name": "Hypercalcemia_of_malignancy",
+  "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy",
+  "scraped_at": "2026-01-10T07:55:07.644941",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "PTHrP release\nSCC\n(particularly of the head and neck), breast renal, endometrial cancer\nLocal osteolysis\nAssociated primarily with bone mets\nMultiple myeloma\n, lung, breast cancer\nProduction of vitamin D analogues\nLymphoma\n(Hodgkin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SCC",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "PTHrP release\nSCC\n(particularly of the head and neck), breast renal, endometrial cancer\nLocal osteolysis\nAssociated primarily with bone mets\nMultiple myeloma\n, lung, breast cancer\nProduction of vitamin D analogues\nLymphoma\n(Hodgkin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SCC",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms_of_hypercalcemia": {
+          "text": "Mnemonic: Stones, Bones, Groans, Moans, Thrones, Psychic Overtones\n\"Stones\"\nRenal calculi\nRenal failure\n\"Bones\"\nBone pain/destruction\n\"Groans\"\nAbdominal pain\n,\nvomiting\nDehydration\nPancreatitis\n\"Thrones\"\nPolyuria\n/polydipsia (\nRenal insufficiency\n)\nConstipation\n\"Psychic Overtones\"\nLethargy\n/\nconfusion\n/\nhallucinations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal calculi",
+          "url": "https://wikem.org/wiki/Renal_calculi"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        },
+        {
+          "text": "Renal insufficiency",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        }
+      ]
+    },
+    "Symptoms_of_hypercalcemia": {
+      "text": "Mnemonic: Stones, Bones, Groans, Moans, Thrones, Psychic Overtones\n\"Stones\"\nRenal calculi\nRenal failure\n\"Bones\"\nBone pain/destruction\n\"Groans\"\nAbdominal pain\n,\nvomiting\nDehydration\nPancreatitis\n\"Thrones\"\nPolyuria\n/polydipsia (\nRenal insufficiency\n)\nConstipation\n\"Psychic Overtones\"\nLethargy\n/\nconfusion\n/\nhallucinations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal calculi",
+          "url": "https://wikem.org/wiki/Renal_calculi"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        },
+        {
+          "text": "Renal insufficiency",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_Hypercalcemia": {
+          "text": "Addison's disease\nCalciphylaxis\nExcess vitamin D\nHypercalcemia of malignancy\nHyperparathyroidism\nHyperthyroidism\nHypothyroidism\nLithium\nMilk-alkali syndrome\nPaget disease\nSarcoidosis\nThiazide\ndiuretics",
+          "tables": []
+        },
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Milk-alkali syndrome",
+          "url": "https://wikem.org/wiki/Milk-alkali_syndrome"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Causes_of_Hypercalcemia": {
+      "text": "Addison's disease\nCalciphylaxis\nExcess vitamin D\nHypercalcemia of malignancy\nHyperparathyroidism\nHyperthyroidism\nHypothyroidism\nLithium\nMilk-alkali syndrome\nPaget disease\nSarcoidosis\nThiazide\ndiuretics",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Milk-alkali syndrome",
+          "url": "https://wikem.org/wiki/Milk-alkali_syndrome"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Oncologic_Emergencies": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Chemistry\nIonized Ca\nCBC\nLFTs\n(alk phos, albumin)\nECG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic_or_Ca_<12_mg/dL": {
+          "text": "Does not require immediate treatment\nAdvise to avoid factors that can aggravate hypercalcemia (thiazide diuretics, Li, volume depletion, prolonged inactivity, high Ca diet)",
+          "tables": []
+        },
+        "Mildly_symptomatic_Ca_12-14_mg/dL": {
+          "text": "May not require immediate therapy; however, an acute rise may cause symptoms necessitating treatment as described for severe hypercalcemia (see below)",
+          "tables": []
+        },
+        "Symptomatic_or_Severe_hypercalcemia_(Ca_>14_mg/dL)": {
+          "text": "Patients are likely dehydrated and require\nsaline\nhydration as initial therapy",
+          "tables": []
+        },
+        "Hydration": {
+          "text": "Isotonic\nsaline\nat 200-300 mL/hour; adjust to maintain urine output at 100-150 mL/hour",
+          "tables": []
+        },
+        "Calcitonin": {
+          "text": "Consider adding calcitonin 4 units/kg SC or IV q12hr in patients w/ Ca >14 mg/dL (3.5 mmol/L) who are also symptomatic (lowers Ca w/in 2-4hr)\nTachyphylaxis limits use long term, but is a great choice for emergent cases",
+          "tables": []
+        },
+        "Bisphosphonates": {
+          "text": "Give for severe hypercalcemia due to excessive bone resorption (lowers Ca within 12-48hr)[≥12 mg/dL][≥3 mmol/L]\n[1]\nPamidronate 90mg IV over 24 hours OR\nZoledronate\n4mg IV over 15 minutes\nCaution in renal failure, though bisphosphonates have been safely used in pts with pre-existing renal failure\n[2]",
+          "tables": []
+        },
+        "Electrolyte_Repletion": {
+          "text": "Correct\nhypokalemia\nCorrect\nhypomagnesemia",
+          "tables": []
+        },
+        "Diuresis": {
+          "text": "Furosemide\nis NOT routinely recommended\nOnly consider in patients with renal insufficiency or heart failure and volume overload",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Consider if patient:\nAnuric with\nrenal failure\nFailing all other therapy\nSevere\nhypervolemia\nnot amenable to diuresis\nSerum Calcium level >18mg/dL\nNeurologic symptoms\nHeart failure with reduced ejection fraction (unable to provide fluids)",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Decrease Ca mobilization from bone and are helpful with steroid-sensitive tumors (e.g. lymphoma, MM)\nPrednisone\n60mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hypervolemia",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Asymptomatic_or_Ca_<12_mg/dL": {
+      "text": "Does not require immediate treatment\nAdvise to avoid factors that can aggravate hypercalcemia (thiazide diuretics, Li, volume depletion, prolonged inactivity, high Ca diet)",
+      "subsections": {
+        "Mildly_symptomatic_Ca_12-14_mg/dL": {
+          "text": "May not require immediate therapy; however, an acute rise may cause symptoms necessitating treatment as described for severe hypercalcemia (see below)",
+          "tables": []
+        },
+        "Symptomatic_or_Severe_hypercalcemia_(Ca_>14_mg/dL)": {
+          "text": "Patients are likely dehydrated and require\nsaline\nhydration as initial therapy",
+          "tables": []
+        },
+        "Hydration": {
+          "text": "Isotonic\nsaline\nat 200-300 mL/hour; adjust to maintain urine output at 100-150 mL/hour",
+          "tables": []
+        },
+        "Calcitonin": {
+          "text": "Consider adding calcitonin 4 units/kg SC or IV q12hr in patients w/ Ca >14 mg/dL (3.5 mmol/L) who are also symptomatic (lowers Ca w/in 2-4hr)\nTachyphylaxis limits use long term, but is a great choice for emergent cases",
+          "tables": []
+        },
+        "Bisphosphonates": {
+          "text": "Give for severe hypercalcemia due to excessive bone resorption (lowers Ca within 12-48hr)[≥12 mg/dL][≥3 mmol/L]\n[1]\nPamidronate 90mg IV over 24 hours OR\nZoledronate\n4mg IV over 15 minutes\nCaution in renal failure, though bisphosphonates have been safely used in pts with pre-existing renal failure\n[2]",
+          "tables": []
+        },
+        "Electrolyte_Repletion": {
+          "text": "Correct\nhypokalemia\nCorrect\nhypomagnesemia",
+          "tables": []
+        },
+        "Diuresis": {
+          "text": "Furosemide\nis NOT routinely recommended\nOnly consider in patients with renal insufficiency or heart failure and volume overload",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Consider if patient:\nAnuric with\nrenal failure\nFailing all other therapy\nSevere\nhypervolemia\nnot amenable to diuresis\nSerum Calcium level >18mg/dL\nNeurologic symptoms\nHeart failure with reduced ejection fraction (unable to provide fluids)",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Decrease Ca mobilization from bone and are helpful with steroid-sensitive tumors (e.g. lymphoma, MM)\nPrednisone\n60mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hypervolemia",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Mildly_symptomatic_Ca_12-14_mg/dL": {
+      "text": "May not require immediate therapy; however, an acute rise may cause symptoms necessitating treatment as described for severe hypercalcemia (see below)",
+      "subsections": {
+        "Symptomatic_or_Severe_hypercalcemia_(Ca_>14_mg/dL)": {
+          "text": "Patients are likely dehydrated and require\nsaline\nhydration as initial therapy",
+          "tables": []
+        },
+        "Hydration": {
+          "text": "Isotonic\nsaline\nat 200-300 mL/hour; adjust to maintain urine output at 100-150 mL/hour",
+          "tables": []
+        },
+        "Calcitonin": {
+          "text": "Consider adding calcitonin 4 units/kg SC or IV q12hr in patients w/ Ca >14 mg/dL (3.5 mmol/L) who are also symptomatic (lowers Ca w/in 2-4hr)\nTachyphylaxis limits use long term, but is a great choice for emergent cases",
+          "tables": []
+        },
+        "Bisphosphonates": {
+          "text": "Give for severe hypercalcemia due to excessive bone resorption (lowers Ca within 12-48hr)[≥12 mg/dL][≥3 mmol/L]\n[1]\nPamidronate 90mg IV over 24 hours OR\nZoledronate\n4mg IV over 15 minutes\nCaution in renal failure, though bisphosphonates have been safely used in pts with pre-existing renal failure\n[2]",
+          "tables": []
+        },
+        "Electrolyte_Repletion": {
+          "text": "Correct\nhypokalemia\nCorrect\nhypomagnesemia",
+          "tables": []
+        },
+        "Diuresis": {
+          "text": "Furosemide\nis NOT routinely recommended\nOnly consider in patients with renal insufficiency or heart failure and volume overload",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Consider if patient:\nAnuric with\nrenal failure\nFailing all other therapy\nSevere\nhypervolemia\nnot amenable to diuresis\nSerum Calcium level >18mg/dL\nNeurologic symptoms\nHeart failure with reduced ejection fraction (unable to provide fluids)",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Decrease Ca mobilization from bone and are helpful with steroid-sensitive tumors (e.g. lymphoma, MM)\nPrednisone\n60mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hypervolemia",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Ca <12\nHome with follow up if oncology concurs\nCa>12\nAdmit\nECG\nchanges\nAdmit with telemetry",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypercalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        }
+      ]
+    }
+  }
+}

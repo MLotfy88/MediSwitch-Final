@@ -1,0 +1,122 @@
+{
+  "drug_name": "Hydrocortisone_topical",
+  "url": "https://wikem.org/wiki/Hydrocortisone_topical",
+  "scraped_at": "2026-01-10T07:55:02.859940",
+  "sections": {
+    "General": {
+      "text": "Type:\nTopical steroid\nDosage Forms: 0.5%, 1%, 2.5% crm, lotion, oint\nCommon Trade Names: Cortizone, Cortaid, Hytone, Texacort",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroid",
+          "url": "https://wikem.org/wiki/Topical_steroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Dermatoses,_steroid-responsive": {
+          "text": "Apply bid-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dermatoses,_steroid-responsive": {
+      "text": "Apply bid-QID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Dermatoses,_steroid-responsive_2": {
+          "text": "Apply bid-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dermatoses,_steroid-responsive_2": {
+      "text": "Apply bid-QID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Excretion in milk unknown; use with caution\nRenal Dosing: None\nHepatic Dosing: None",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ncaution if skin infection\ncaution in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "HPA axis suppresion\nCushing syndrome\nhyperglycemia\nintracranial hypertension (pediatric patients)",
+          "tables": []
+        },
+        "Common": {
+          "text": "burning\npruritus\nirritation\ndryness\nfolliculitis\nhypertrichosis\nacneiform dermatitis\nhypopigmentation\nperioral dermatitis\nallergic contact dermatitis\nmaceration\nsecondary infection\nskin atrophy\nstriae\nmiliaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "HPA axis suppresion\nCushing syndrome\nhyperglycemia\nintracranial hypertension (pediatric patients)",
+      "subsections": {
+        "Common": {
+          "text": "burning\npruritus\nirritation\ndryness\nfolliculitis\nhypertrichosis\nacneiform dermatitis\nhypopigmentation\nperioral dermatitis\nallergic contact dermatitis\nmaceration\nsecondary infection\nskin atrophy\nstriae\nmiliaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "burning\npruritus\nirritation\ndryness\nfolliculitis\nhypertrichosis\nacneiform dermatitis\nhypopigmentation\nperioral dermatitis\nallergic contact dermatitis\nmaceration\nsecondary infection\nskin atrophy\nstriae\nmiliaria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8-12h\nMetabolism: liver primarily; CYP450\nExcretion: urine\nMechanism of Action: exact mechanim of anti-inflammatory action unknown; inhibits multiple inflammatory cytokines; produces multiple gluocorticoid and mineralocorticoid effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Stress dose steroids\nHydrocortisone (systemic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stress dose steroids",
+          "url": "https://wikem.org/wiki/Stress_dose_steroids"
+        },
+        {
+          "text": "Hydrocortisone (systemic)",
+          "url": "https://wikem.org/wiki/Hydrocortisone_(systemic)"
+        }
+      ]
+    }
+  }
+}

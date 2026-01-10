@@ -1,0 +1,87 @@
+{
+  "drug_name": "Illness_anxiety_disorder",
+  "url": "https://wikem.org/wiki/Illness_anxiety_disorder",
+  "scraped_at": "2026-01-10T07:55:18.935683",
+  "sections": {
+    "Background": {
+      "text": "A preoccupation with having or acquiring a serious, undiagnosed medical illness. Previously referred to as hypochondriasis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "A. Preoccupation with having or acquiring a serious illness.\n[1]\nB. Somatic symptoms are not present or, if present, are only mild in  intensity. If another medical condition is present or there is a high risk for developing a medical condition (e.g., strong family history is present), the preoccupation is clearly excessive or disproportionate.\nC. There is a high level of anxiety about health, and the individual is easily alarmed about personal health status.\nD. The individual performs excessive health-related behaviors (e.g., repeatedly checks his or her body for signs of illness) or exhibits maladaptive avoidance (e.g., avoids doctor appointments and hospitals).\nE. Illness preoccupation has been present for at least 6 months, but the specific illness that is feared may change over that period of time.\nF. The illness-related preoccupation is not better explained by another mental disorder, such as somatic symptom disorder, panic disorder, generalized anxiety disorder, body dysmor­phic disorder, obsessive-compulsive disorder, or delusional disorder, somatic type.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Panic disorder\nGeneralized anxiety disorder\nDepressive disorders\nFactitious disorder\nSomatic symptom disorder\nMalingering\nConversion disorder\nDelusional disorder\nBody dysmorphic disorder\nObsessive-compulsive disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Panic disorder",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Depressive disorders",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Factitious disorder",
+          "url": "https://wikem.org/wiki/Factitious_disorder"
+        },
+        {
+          "text": "Somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Delusional disorder",
+          "url": "https://wikem.org/wiki/Delusional_disorder"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Difficult to diagnose, as often a diagnosis of exclusion. Refer to the patient's medical record for indication of repeated visits or recurrent testing.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Reassure patient, but set clear, reasonable boundaries on extent of workup to be provided in the ED\nClose outpatient psychotherapy focused on establishing and maintaining a relationship with the patient.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Factitious disorder\nSomatic symptom disorder\nConversion disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Factitious disorder",
+          "url": "https://wikem.org/wiki/Factitious_disorder"
+        },
+        {
+          "text": "Somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        }
+      ]
+    }
+  }
+}

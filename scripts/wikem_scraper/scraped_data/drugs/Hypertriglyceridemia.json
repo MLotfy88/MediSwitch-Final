@@ -1,0 +1,346 @@
+{
+  "drug_name": "Hypertriglyceridemia",
+  "url": "https://wikem.org/wiki/Hypertriglyceridemia",
+  "scraped_at": "2026-01-10T07:55:13.404628",
+  "sections": {
+    "Background": {
+      "text": "~5% of acute\npancreatitis\ncaused by high triglycerides\n[1]\nEtiologies\nFamilial hypertriglyceridemia, autosomal dominant with variable penetrance\nSecondary forms\nDM\n, obesity,\nEtOH\n, estrogen therapy\nHypothyroidism\n, ESRD, nephrotic syndrome,\nHIV\n, anti-HIV meds\nTG levels > 2000mg/dL almost always have both secondary and genetic form\n[2]\n1.7% of US estimated to have [TG] between 500-2000\n[3]\nMay present with normal serum lipase levels",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Excess TG hydrolyzed by increased concentration of pancreatic lipase\nProduces increased concentration of free fatty acids that exceeds binding capacity of albumin\nMicelles are formed that attack platelets, vascular endothelium and acinar cells\nIschemia and pancreatic injury result\nAn acidic environment potentiates free fatty acid toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Excess TG hydrolyzed by increased concentration of pancreatic lipase\nProduces increased concentration of free fatty acids that exceeds binding capacity of albumin\nMicelles are formed that attack platelets, vascular endothelium and acinar cells\nIschemia and pancreatic injury result\nAn acidic environment potentiates free fatty acid toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Most are generally asymptomatic until sequelae present\nEruptive xanthoma may be found on dermatologic exam",
+          "tables": []
+        },
+        "Hypertriglyceridemic_Pancreatitis": {
+          "text": "Signs/symptoms of pancreatitis\nPain\nis the most common symptom and is often characterized by:\nPersistent\nLocalizes to epigastric area, around waist, RUQ, or occasionally LUQ\nRadiates to back\nThe onset may be less abrupt and the pain poorly localized\nNausea/vomiting\nnoted in most\nAbdominal distention is frequent complaint\nCullen sign\n(ecchymosis of periumbilical region) - intrabdominal hemorrhage\nTurner sign (ecchymosis of flanks) - retroperitoneal hemorrhage\nPulmonary Findings\nHypoxemia\n,\nARDS\n, tachypnea\nIndicates severe pancreatitis\nDiaphragmatic inflammation, pancreatico-pleural fistula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Most are generally asymptomatic until sequelae present\nEruptive xanthoma may be found on dermatologic exam",
+      "subsections": {
+        "Hypertriglyceridemic_Pancreatitis": {
+          "text": "Signs/symptoms of pancreatitis\nPain\nis the most common symptom and is often characterized by:\nPersistent\nLocalizes to epigastric area, around waist, RUQ, or occasionally LUQ\nRadiates to back\nThe onset may be less abrupt and the pain poorly localized\nNausea/vomiting\nnoted in most\nAbdominal distention is frequent complaint\nCullen sign\n(ecchymosis of periumbilical region) - intrabdominal hemorrhage\nTurner sign (ecchymosis of flanks) - retroperitoneal hemorrhage\nPulmonary Findings\nHypoxemia\n,\nARDS\n, tachypnea\nIndicates severe pancreatitis\nDiaphragmatic inflammation, pancreatico-pleural fistula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertriglyceridemic_Pancreatitis": {
+      "text": "Signs/symptoms of pancreatitis\nPain\nis the most common symptom and is often characterized by:\nPersistent\nLocalizes to epigastric area, around waist, RUQ, or occasionally LUQ\nRadiates to back\nThe onset may be less abrupt and the pain poorly localized\nNausea/vomiting\nnoted in most\nAbdominal distention is frequent complaint\nCullen sign\n(ecchymosis of periumbilical region) - intrabdominal hemorrhage\nTurner sign (ecchymosis of flanks) - retroperitoneal hemorrhage\nPulmonary Findings\nHypoxemia\n,\nARDS\n, tachypnea\nIndicates severe pancreatitis\nDiaphragmatic inflammation, pancreatico-pleural fistula",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Triglycerides; Severely elevated (at least >500 mg/dL, generally >1,000 mg/dL)\nLipids in serum may interfere with other lab tests\nFalsely low Na+, amylase",
+      "subsections": {
+        "Pancreatitis_workup": {
+          "text": "Rule out other causes of pancreatitis (e.g.\ngallstone pancreatitis\n)\nIn general, if triglycerides >1000, can assume this is cause of pancreatitis\nLipase level >3x upper limit of normal\nSensitivity 82-100%, specificity 82-100%\n[4]\nNegative lipase does not exclude pancreatitis in chronic/recurrent disease\nAbsolute value not associated with prognosis or severity\nCharacteristic findings on\nultrasound\nor CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pancreatitis_workup": {
+      "text": "Rule out other causes of pancreatitis (e.g.\ngallstone pancreatitis\n)\nIn general, if triglycerides >1000, can assume this is cause of pancreatitis\nLipase level >3x upper limit of normal\nSensitivity 82-100%, specificity 82-100%\n[4]\nNegative lipase does not exclude pancreatitis in chronic/recurrent disease\nAbsolute value not associated with prognosis or severity\nCharacteristic findings on\nultrasound\nor CT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Management_of_acute_pancreatitis_in_the_setting_of_hypertriglyceridemia": {
+          "text": "Evidence for management based on case series and reports\n[5]\n[6]\nInsulin\ndrip - most dramatic and rapid intervention, with reduction within 24 hrs\nInitiate at 0.1 units/kg/hr (similar to treatment for DKA)\nGoal is to reduce triglycerides to < 500\nAdd D5NS if glucose drops < 200\n[7]\nMonitor BMP q2 hr\nManage potassium\nK < 3.2 stop insulin and replete K\nK 3.3 to 5 add 20 mEq K/Lto IVF\nK > 5 no extra potassium\nIVF as for standard pancreatitis treatment, add potassium as per above\nTreat concurrent\nhypothyroidism\nif present\nPain control\nNiacin\n500mg QD\nGemfibrozil\nor\nfenofibrate\nMax dose statin, 81mg\nASA\nHeparin\nq8 SC, effect short-lived\nNPO initially\nMay advance diet starting at TG level < 1000mg/dL with resolution of abdominal pain/pancreatitis symptoms\nNo fat diet\nLow calorie diet",
+          "tables": []
+        },
+        "Plasma_exchange": {
+          "text": "Therapeutic plasma exchange, for 1-3 days (sickest patients)\nGenerally indicated for hypocalcemia, persistent elevated lactic acidosis, other signs of worsening organ dysfunction\nFor euglycemic patients, not routine first line\nRequires central venous access",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management_of_acute_pancreatitis_in_the_setting_of_hypertriglyceridemia": {
+      "text": "Evidence for management based on case series and reports\n[5]\n[6]\nInsulin\ndrip - most dramatic and rapid intervention, with reduction within 24 hrs\nInitiate at 0.1 units/kg/hr (similar to treatment for DKA)\nGoal is to reduce triglycerides to < 500\nAdd D5NS if glucose drops < 200\n[7]\nMonitor BMP q2 hr\nManage potassium\nK < 3.2 stop insulin and replete K\nK 3.3 to 5 add 20 mEq K/Lto IVF\nK > 5 no extra potassium\nIVF as for standard pancreatitis treatment, add potassium as per above\nTreat concurrent\nhypothyroidism\nif present\nPain control\nNiacin\n500mg QD\nGemfibrozil\nor\nfenofibrate\nMax dose statin, 81mg\nASA\nHeparin\nq8 SC, effect short-lived\nNPO initially\nMay advance diet starting at TG level < 1000mg/dL with resolution of abdominal pain/pancreatitis symptoms\nNo fat diet\nLow calorie diet",
+      "subsections": {
+        "Plasma_exchange": {
+          "text": "Therapeutic plasma exchange, for 1-3 days (sickest patients)\nGenerally indicated for hypocalcemia, persistent elevated lactic acidosis, other signs of worsening organ dysfunction\nFor euglycemic patients, not routine first line\nRequires central venous access",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Asymptomatic hypertriglyceridemia is treated as an outpatient\nFor acute pancreatitis, ICU or step-down for frequent labs, insulin drip",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute pancreatitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

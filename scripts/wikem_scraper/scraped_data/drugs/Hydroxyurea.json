@@ -1,0 +1,189 @@
+{
+  "drug_name": "Hydroxyurea",
+  "url": "https://wikem.org/wiki/Hydroxyurea",
+  "scraped_at": "2026-01-10T07:55:05.810569",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antineoplastic\nDosage Forms:\nRoutes of Administration: oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Cytoreduction in\nleukostasis and hyperleukocytosis\n/\nhyperviscosity syndrome\n50 to 100 mg/kg/day\nSickle cell disease\n15-35 mg/kg/day\nCML\n, squamous cell head and neck cancer\n15mg/kg/day initially",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "CML",
+          "url": "https://wikem.org/wiki/CML"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Off label for sickle cell, 10-35mg/kg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "D",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruledout",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Reduce dose if CrCl <60. Administer after dialysis on HD days",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "D",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruledout",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Reduce dose if CrCl <60. Administer after dialysis on HD days",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Infant risk cannot be ruledout",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Reduce dose if CrCl <60. Administer after dialysis on HD days",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Reduce dose if CrCl <60. Administer after dialysis on HD days",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Skin ulceration, skin cancer, gangrene\nGenetic mutations w/longterm use\nParvovirus infection",
+          "tables": []
+        },
+        "Common": {
+          "text": "Myelosupression,\nneutropenia\n,\nthrombocytopenia\n, decreased reticulocyte count",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Skin ulceration, skin cancer, gangrene\nGenetic mutations w/longterm use\nParvovirus infection",
+      "subsections": {
+        "Common": {
+          "text": "Myelosupression,\nneutropenia\n,\nthrombocytopenia\n, decreased reticulocyte count",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Myelosupression,\nneutropenia\n,\nthrombocytopenia\n, decreased reticulocyte count",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-4.5 hours\nMetabolism: Hepatic 60%\nExcretion: Renal(40%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits DNA synthesis by acting as a ribonucleotide reductase inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

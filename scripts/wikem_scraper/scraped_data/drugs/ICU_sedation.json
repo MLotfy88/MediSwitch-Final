@@ -1,0 +1,89 @@
+{
+  "drug_name": "ICU_sedation",
+  "url": "https://wikem.org/wiki/ICU_sedation",
+  "scraped_at": "2026-01-10T07:55:16.303352",
+  "sections": {
+    "Background": {
+      "text": "Sedation is commonly used for ICU patients\nAgent choice determined by side effect profile and disease process\nCommon ICU uses\nControl agitation\nImprove patient-ventilator synchrony\nDecreases O2 consumption\nDecrease intracranial pressure\nFor intubated and mechanically ventilated patients who are unable to clearly communicate the source of agitation, analgesia should always be provided first\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Agents": {
+      "text": "Propofol\nOpioids\nFentanyl\nMorphine\nBenzodiazepines\nMidazolam\nLorazepam\nDexmedetomidine\n→ useful as adjunct treatment for severe alcohol withdrawal in the ICU; associated with a reduction in short-term alcohol withdrawal symptoms in ICU patients\n[2]\nKetamine\nHaloperidol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        }
+      ]
+    },
+    "Adverse_Effects": {
+      "text": "Drug and dose dependent, but generally include:\nHypotension\nRespiratory depression\nWithdrawal\nDelirium\nArrhythmias",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Monitoring_of_Sedation": {
+      "text": "Several sedation monitoring scales are validated\nRichmond Agitation and Sedation Scale (RASS) most commonly used (\nRASS\n)\nThe\nCOMFORT scale\nis a valid and reliable system for assessing sedation, distress, and pain in nonverbal pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Considerations": {
+      "text": "Lighter sedation associated with shorter ICU stay, decreased time on ventilator\n[3]\nDeeper sedation associated with prolonged ICU stay, increased 6 month mortality\n[4]\nDexmedetomidine or propofol sedation may reduce ICU stay, time on ventilator, when compared with benzodiazepines\n[5]\nSCCM Recommendation, level 2B (weak recommendation)\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedation (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation (main)",
+          "url": "https://wikem.org/wiki/Sedation_(main)"
+        }
+      ]
+    }
+  }
+}

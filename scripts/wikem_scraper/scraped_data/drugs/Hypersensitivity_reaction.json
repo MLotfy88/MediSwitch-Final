@@ -1,0 +1,53 @@
+{
+  "drug_name": "Hypersensitivity_reaction",
+  "url": "https://wikem.org/wiki/Hypersensitivity_reaction",
+  "scraped_at": "2026-01-10T07:55:07.546152",
+  "sections": {
+    "Background": {
+      "text": "Uncomfortable, damaging, and sometimes fatal reactions produced by the normal immune system including allergies and autoimmunity.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "I: Allergy, Immediate",
+            "Mechanism": "IgE-mediated degranulation of mast cells and basophils; usually happens after a first exposure which causes sensitization",
+            "Example": "Urticaria,anaphylaxis,angioedema"
+          },
+          {
+            "Type": "II: Cytotoxic, Antibody Dependant",
+            "Mechanism": "IgG or IgM antibodies react with cell antigens with resultant complement activation",
+            "Example": "Myasthenia gravis,goodpasture syndrome, erythroblastalis fetalis, AI hemolytic anemia, Graves disease"
+          },
+          {
+            "Type": "III: Immune Complex",
+            "Mechanism": "IgG immune complex deposition and subsequent complement activation",
+            "Example": "Serum sickness, RA,SLE,poststreptococcal glomerulonephritis"
+          },
+          {
+            "Type": "IV: Cell-mediated, Delayed",
+            "Mechanism": "Activated T cells against cell surface antigens",
+            "Example": "TB skin test, chronic transplant rejection, delayed drug rashes,contact dermatitis"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute allergic reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute allergic reaction",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        }
+      ]
+    }
+  }
+}

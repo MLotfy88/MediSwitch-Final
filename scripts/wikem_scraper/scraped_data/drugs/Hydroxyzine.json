@@ -1,0 +1,160 @@
+{
+  "drug_name": "Hydroxyzine",
+  "url": "https://wikem.org/wiki/Hydroxyzine",
+  "scraped_at": "2026-01-10T07:55:04.991441",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntihistamines\n/ H1 blocker\nDosage Forms: Oral, IM\nCommon Trade Names: Atarax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Anxiety\nPO: 50-100mg q6h PRN\nIM: 50-100mg q4-6h PRN\nAllergic reaction\nor\nPruritus\nPO: 25mg q6-8h\nNausea\n/\nVomiting\nIM: 25-100mg q6-8h PRN\nInsomnia\nPO: 50-100mg PO qhs\nIM: 50mg qhs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Anxiety\nor\nPruritus\n<6 yo\nPO: 50mg/day divided into q6-8h PRN\n6-12 yo\nPO: 50-100mg/day divided into q6-8h PRN\n>12 yo\nSee adult dosing\nNausea\n/\nVomiting\nIM: 1.1mg/kg/dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: No human data available\nRenal Dosing: CrCl <50: decrease usual dose by 50%\nHepatic Dosing: n/a",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nElderly patients\nQT prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anticholinergic toxicity\nCNS depression\nSeizures\nTorsades de pointes",
+          "tables": []
+        },
+        "Common": {
+          "text": "Sedation\nDizziness\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anticholinergic toxicity\nCNS depression\nSeizures\nTorsades de pointes",
+      "subsections": {
+        "Common": {
+          "text": "Sedation\nDizziness\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Sedation\nDizziness\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Children 7 hours, Adults 3-20 hours, Elderly >20 hours\nMetabolism: Hepatic, CYP450\nExcretion: Urine\nMechanism of Action: Nonselective antagonism of central/peripheral H1 receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antihistamines\nAnticholinergic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    }
+  }
+}

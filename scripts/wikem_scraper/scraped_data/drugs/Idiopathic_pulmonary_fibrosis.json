@@ -1,0 +1,239 @@
+{
+  "drug_name": "Idiopathic_pulmonary_fibrosis",
+  "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis",
+  "scraped_at": "2026-01-10T07:55:20.667815",
+  "sections": {
+    "Background": {
+      "text": "Normal lung parenchyma is interspersed with areas of decrease compliance\nUnlike\nARDS\n, in which lung injury more uniform\nMechanical ventilation strategies learned from ARDS not completely transferrable\nMedian survival time 3 yrs after diagnosis\nPrevalence about 10-20 cases per 100,000 people\nAE-IPF = Acute Exacerbation of IPF\nAcute exacerbations carry mortality up to 80%\n60% die from idiopathic pulmonary fibrosis, others die from:\nVTE\nCardiovascular (\nACS\n,\nCHF\n)\nInfection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Diagnosis of exclusion\nPresentations with rapid deterioration without obvious cause common\nMay co-exist with\npulmonary hypertension\nand\nheart failure",
+      "subsections": {
+        "Acute_exacerbation_of_IPF": {
+          "text": "Diagnosis of IPF\nUnexplained worsening of\ndyspnea\nwithin 30 days\nHypoxemia deviated from baseline ABG\nNo evidence of pulmonary infection\nExclusion of alternative causes (i.e. VTE)\nCT with bilateral ground-glass abnormalities/consolidation on a background reticular/honeycomb pattern consistent with interstitial\npneumonia\n[1]\n100% have bilateral ground-glass opacities\n~70% have consolidation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Acute_exacerbation_of_IPF": {
+      "text": "Diagnosis of IPF\nUnexplained worsening of\ndyspnea\nwithin 30 days\nHypoxemia deviated from baseline ABG\nNo evidence of pulmonary infection\nExclusion of alternative causes (i.e. VTE)\nCT with bilateral ground-glass abnormalities/consolidation on a background reticular/honeycomb pattern consistent with interstitial\npneumonia\n[1]\n100% have bilateral ground-glass opacities\n~70% have consolidation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_Fibrosis": {
+          "text": "Interstitial pneumonias (acute, lymphocytic)\nLung malignancy\nAspiration pneumonia or pneumonitis\nBacterial, viral, or fungal\npneumonia\nCryptogenic organizing pneumonia\nInterstitial lung disease\nassociated with\ncollagen vascular disease\nDrug-induced pulmonary toxicity (\namiodarone\n, bleomycin,\namphotericin B\n,\ncarbamazepine\n, etc.)\nEosinophilic granuloma (Histiocytosis X)\nRadiation pneumonitis\nSarcoidosis\nPneumoconiosis\n(Workplace exposure)\nAsbestosis\nBerylliosis\nChemical worker's lung\nCoal worker's pneumoconiosis\nSilicosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspiration pneumonia or pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Pneumoconiosis",
+          "url": "https://wikem.org/wiki/Pneumoconiosis"
+        }
+      ]
+    },
+    "Pulmonary_Fibrosis": {
+      "text": "Interstitial pneumonias (acute, lymphocytic)\nLung malignancy\nAspiration pneumonia or pneumonitis\nBacterial, viral, or fungal\npneumonia\nCryptogenic organizing pneumonia\nInterstitial lung disease\nassociated with\ncollagen vascular disease\nDrug-induced pulmonary toxicity (\namiodarone\n, bleomycin,\namphotericin B\n,\ncarbamazepine\n, etc.)\nEosinophilic granuloma (Histiocytosis X)\nRadiation pneumonitis\nSarcoidosis\nPneumoconiosis\n(Workplace exposure)\nAsbestosis\nBerylliosis\nChemical worker's lung\nCoal worker's pneumoconiosis\nSilicosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspiration pneumonia or pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Pneumoconiosis",
+          "url": "https://wikem.org/wiki/Pneumoconiosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC, leukocytosis\nCRP elevated\nLDH elevated\nABG with hypoxemia, hypercapnea\nECG\nCXR\nwith likely need for CT\nEcho to assess for pulmonary hypertension, rule out CHF\nBAL in ICU to rule out infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "All treatments controversial and of questionable efficacy\nMethylprednisolone\n500-1000mg QD for 3 days\n[2]\n[3]\nHeparin\ndrip\nAlveolar injury predisposes to prothrombotic state\nPrevents further vascular injury\nCyclosporine\nA 1-2mg/kg/day with steroids\n[4]",
+      "subsections": {
+        "Mechanical_Ventilation_Strategies": {
+          "text": "Current strategies controversial, with some contending mechanical ventilation adds insult to AE-IPF\nNon-invasive may be use as a temporizing measure\nLow TVs at 6 cc/kg\nPermissive hypercapnea may be necessary\nMaintaining minute ventilations\nHigh respiratory rates may be necessary\nHeavy sedation with possible paralysis with cisatricurium\nDeviations from ARDS treatment strategies\nMust restrict PEEP given to AE-IPF\nNo place for\nrecruitment maneuver\nor prone postioning\nQuestionable benefit of\nAPRV\n(BiVent) and high-frequency oscillation ventilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "APRV",
+          "url": "https://wikem.org/wiki/APRV"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Strategies": {
+      "text": "Current strategies controversial, with some contending mechanical ventilation adds insult to AE-IPF\nNon-invasive may be use as a temporizing measure\nLow TVs at 6 cc/kg\nPermissive hypercapnea may be necessary\nMaintaining minute ventilations\nHigh respiratory rates may be necessary\nHeavy sedation with possible paralysis with cisatricurium\nDeviations from ARDS treatment strategies\nMust restrict PEEP given to AE-IPF\nNo place for\nrecruitment maneuver\nor prone postioning\nQuestionable benefit of\nAPRV\n(BiVent) and high-frequency oscillation ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "APRV",
+          "url": "https://wikem.org/wiki/APRV"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "ICU\nECMO has been used as a bridge to lung transplant\nTransfer to transplant center if candidate\nLung transplant is the only proven therapy to increase long term survival",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    }
+  }
+}

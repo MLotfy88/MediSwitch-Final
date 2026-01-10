@@ -1,0 +1,219 @@
+{
+  "drug_name": "Hypoparathyroidism",
+  "url": "https://wikem.org/wiki/Hypoparathyroidism",
+  "scraped_at": "2026-01-10T07:55:11.289525",
+  "sections": {
+    "Background": {
+      "text": "Parathyroid hormone (PTH) increases osteolysis, renal tubular resorption of calcium, and renal synthesis of 1,25-dihydroxycholecalciferol AND inhibits renal tubular reabsorption of phosphate and bicarbonate, leading to net INCREASE in serum calcium\nHypoparathyroid thus results in\nhypocalcemia\nwith\nhyperphosphatemia",
+      "subsections": {
+        "Causes": {
+          "text": "Iatrogenic:\nAnterior neck surgery or radiation (e.g. resection of multiple parathyroid adenomas, thyroidectomy); may be transient\nsteroids, diuretics, antiepilptics\nCongenital (e.g.\nDiGeorge syndrome\n)\nMalignancy\nAutoimmune\nDamage from\nHeavy metals\n(e.g. copper in\nWilson's disease\n)\nFunctional hypoPTH from\nhypomagnesemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "DiGeorge syndrome",
+          "url": "https://wikem.org/wiki/DiGeorge_syndrome"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Iatrogenic:\nAnterior neck surgery or radiation (e.g. resection of multiple parathyroid adenomas, thyroidectomy); may be transient\nsteroids, diuretics, antiepilptics\nCongenital (e.g.\nDiGeorge syndrome\n)\nMalignancy\nAutoimmune\nDamage from\nHeavy metals\n(e.g. copper in\nWilson's disease\n)\nFunctional hypoPTH from\nhypomagnesemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DiGeorge syndrome",
+          "url": "https://wikem.org/wiki/DiGeorge_syndrome"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "See\nHypocalcemia\n,\nhyperphosphatemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Vitamin D deficiency\nPseudohypoparathyroidism (renal resistance to PTH)\nKidney disease\nMalabsorption\nIatrogenic:\nAnterior neck surgery or radiation (e.g. resection of multiple parathyroid adenomas, thyroidectomy); may be transient\nsteroids, diuretics, antiepilptics\nCongenital (e.g.\nDiGeorge syndrome\n)\nMalignancy\nAutoimmune\nDamage from\nHeavy metals\n(e.g. copper in\nWilson's disease\n)\nFunctional hypoPTH from\nhypomagnesemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "DiGeorge syndrome",
+          "url": "https://wikem.org/wiki/DiGeorge_syndrome"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CMP\nLow serum calcium\nNormal alk phos\nPTH (low or inappropriately normal in setting of hypocalcemia)\nEKG\nMagnesium levels\nPhosphate levels (high)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying condition",
+      "subsections": {
+        "Hypocalcemia": {
+          "text": "Avoid empiric treatment in patients taking digoxin due to risk for\nStone Heart\nAsymptomatic\nCalcium gluconate\n1 gm PO Q6hrs\nVitamin D (calcitriol) 0.2 mcg BID\nSymptomatic\nCalcium gluconate\n/\nchloride\n10mL of 10% soln IV over 10min\nCorrect\nhypomag\nat same time (otherwise PTH is inhibited)\nAvoid phenothiazine\nantipsychotics\n(may precipitate extrapyramidal symptoms)\nAvoid\nfurosemide\n(may worsen hypocalcemia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stone Heart",
+          "url": "https://wikem.org/wiki/Stone_Heart"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hypomag",
+          "url": "https://wikem.org/wiki/Hypomag"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        }
+      ]
+    },
+    "Hypocalcemia": {
+      "text": "Avoid empiric treatment in patients taking digoxin due to risk for\nStone Heart\nAsymptomatic\nCalcium gluconate\n1 gm PO Q6hrs\nVitamin D (calcitriol) 0.2 mcg BID\nSymptomatic\nCalcium gluconate\n/\nchloride\n10mL of 10% soln IV over 10min\nCorrect\nhypomag\nat same time (otherwise PTH is inhibited)\nAvoid phenothiazine\nantipsychotics\n(may precipitate extrapyramidal symptoms)\nAvoid\nfurosemide\n(may worsen hypocalcemia)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stone Heart",
+          "url": "https://wikem.org/wiki/Stone_Heart"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hypomag",
+          "url": "https://wikem.org/wiki/Hypomag"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic\nhypocalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypocalcemia\n,\nhyperphosphatemia\nElectrolyte Abnormalities (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities (Main)",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities_(Main)"
+        }
+      ]
+    }
+  }
+}

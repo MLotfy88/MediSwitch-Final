@@ -1,0 +1,293 @@
+{
+  "drug_name": "Hypoplastic_left_heart_syndrome",
+  "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome",
+  "scraped_at": "2026-01-10T07:55:12.528008",
+  "sections": {
+    "Background": {
+      "text": "A\ncongenital heart defect\nin which the left heart is severely underdeveloped\nAccounts for 2 to 3% of all\ncongenital heart disease\n[1]",
+      "subsections": {
+        "Physiology": {
+          "text": "With a diminutive LV, the RV must perfuse both pulmonary and systemic circulations\nSurvival is dependent on:\nPDA\n(for systemic perfusion from RV to the aorta)\nNonrestrictive\nASD\nto ensure adequate mixing of oxygenated and deoxygenated blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "congenital heart defect",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "PDA",
+          "url": "https://wikem.org/wiki/PDA"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        }
+      ]
+    },
+    "Physiology": {
+      "text": "With a diminutive LV, the RV must perfuse both pulmonary and systemic circulations\nSurvival is dependent on:\nPDA\n(for systemic perfusion from RV to the aorta)\nNonrestrictive\nASD\nto ensure adequate mixing of oxygenated and deoxygenated blood",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PDA",
+          "url": "https://wikem.org/wiki/PDA"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic at birth because of adequate systemic perfusion through a PDA and initially high pulmonary vascular resistance\nAs the PDA begins to close and pulmonary vascular resistance decreases, may develop:\nHypotension\nAcidosis\nRespiratory distress\nSymptoms can rapidly progress from cyanosis, increased respiratory distress, and poor feeding to\nheart failure\nand\ncardiogenic shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[2]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[2]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nRight axis deviation, RV hypertrophy\nChest x-ray\nCardiomegaly, increased pulmonary vasculature\nEchocardiography",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Stabilize cardiopulmonary function prior to surgery\nMaintain PDA to provide sufficient mixing of oxygenated and deoxygenated blood, and adequate systemic perfusion\nProstaglandin E1\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension and apnea\nSide Effects: Hypotension, Bradycardia, Seizures and Apnea\nStaged surgical repair\nFirst stage (Norwood procedure) performed in neonates\nSpO2 ranges in mid 70s-80s\nSecond stage (bidirectional Glenn procedure) performed at 3-6 months\nSpO2 ranges in mid 70s-80s\nThird stage (Fontan procedure) performed at 18-30 months\nPreload dependent with SpO2 ranging from low to high 90s",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Prostaglandin E1",
+          "url": "https://wikem.org/wiki/Prostaglandin_E1"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital heart disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Animation of Norwood Procedure\nAnimation of Glenn procedure\nAnimation of Fontan procedure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

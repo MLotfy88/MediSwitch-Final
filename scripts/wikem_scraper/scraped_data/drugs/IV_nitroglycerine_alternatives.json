@@ -1,0 +1,68 @@
+{
+  "drug_name": "IV_nitroglycerine_alternatives",
+  "url": "https://wikem.org/wiki/IV_nitroglycerine_alternatives",
+  "scraped_at": "2026-01-10T07:55:18.753870",
+  "sections": {
+    "Background": {
+      "text": "Suggestions for substitution during the IV shortage",
+      "subsections": {
+        "Nitroglycerine_Bioavailability": {
+          "text": "Oral\n[1]\n:     <1%\nSublingual\n[1]\n: 38% (15-40%)\nTopical\n[1]\n: 72%\nHalf-life\n[2]\n: 0.05 h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nitroglycerine_Bioavailability": {
+      "text": "Oral\n[1]\n:     <1%\nSublingual\n[1]\n: 38% (15-40%)\nTopical\n[1]\n: 72%\nHalf-life\n[2]\n: 0.05 h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Suggested_Substitutions": {
+      "text": "Sublingual nitroglycerin, 1-2 tabs or sprays every 5 minutes as needed\nOnce controlled\nNitroprusside\nOR\nIsordil\nPO (nitro paste or longer acting NTG)\nIf not well controlled\nIV\nenalapril\n0.625-1.25mg IV bolus\nIV\nhydralazine\n5-10mg IV bolus\nIV\nnitroprusside",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypertensive emergency\nCongestive heart failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        }
+      ]
+    },
+    "References": {
+      "text": "<references>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

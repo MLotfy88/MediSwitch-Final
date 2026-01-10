@@ -1,0 +1,123 @@
+{
+  "drug_name": "Hypercapnia",
+  "url": "https://wikem.org/wiki/Hypercapnia",
+  "scraped_at": "2026-01-10T07:55:05.228605",
+  "sections": {
+    "Background": {
+      "text": "PaCO2 >45\nExclusively caused by alveolar hypoventilation\nResults from decrease in respiratory rate, tidal volume, or increase in dead space",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Headache\n,\nconfusion\n,\nlethargy\n,\nseizure\n,\ncoma\nExtreme hypercapnia (acute elevation >100) can result in\ncardiovascular collapse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Depressed central respiratory drive\nStructural CNS disease: brainstem lesions\nDrug depression of respiratory center:\nopioids\n,\nsedatives\n, anesthetics\nEndogenous toxins:\ntetanus\nThoracic cage disorders\nKyphoscoliosis\nMorbid\nobesity\nNeuromuscular impairment\nNeuromuscular disease:\nmyasthenia gravis\n,\nGuillain-Barre\nNeuromuscular toxin:\norganophosphate toxicity\n,\nbotulism\nIntrinsic lung disease associated with increased dead space\nCOPD\nUpper airway obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "obesity",
+          "url": "https://wikem.org/wiki/The_obese_patient"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ABG\nHCO3 increases 1 mEq/L for each 10mmHg increase in PaCO2 (acute)\nHCO3 increases 3.5 mEq/L for each 10mmHg increase in PaCO2 (chronic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Increase minute ventilation (rate and/or tidal volume)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypoxemia\nShortness of breath\nRespiratory acidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        }
+      ]
+    }
+  }
+}

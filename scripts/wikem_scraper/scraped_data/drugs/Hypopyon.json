@@ -1,0 +1,62 @@
+{
+  "drug_name": "Hypopyon",
+  "url": "https://wikem.org/wiki/Hypopyon",
+  "scraped_at": "2026-01-10T07:55:12.084264",
+  "sections": {
+    "Clinical_Features": {
+      "text": "A leukocytic exudate, seen in the anterior chamber on\nslit-lamp\nexam\nA sign of inflammation of the anterior uvea and iris\nThe exudate settles at the dependent aspect of the eye due to gravity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "slit-lamp",
+          "url": "https://wikem.org/wiki/Slit-lamp"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Corneal ulcer\nUveitis\nTraumatic iritis\n(severe case)\nBehcet's disease\nEndophthalmitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Behcet's disease",
+          "url": "https://wikem.org/wiki/Behcet%27s_disease"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Emergent optho consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyphema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyphema",
+          "url": "https://wikem.org/wiki/Hyphema"
+        }
+      ]
+    }
+  }
+}

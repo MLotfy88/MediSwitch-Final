@@ -1,0 +1,958 @@
+{
+  "drug_name": "Hypertensive_emergency",
+  "url": "https://wikem.org/wiki/Hypertensive_emergency",
+  "scraped_at": "2026-01-10T07:55:09.080558",
+  "sections": {
+    "Intro": {
+      "text": "High blood pressure without symptoms is NOT hypertensive emergency (see\nasymptomatic hypertension\n)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Definition: end-organ damage due to hypertension\nBlood pressure is generally >180/120 (usually > 220/130), but presence of end-organ damage defines disease (not absolute blood pressure number)\n1%-6% of all ED patients will present with severe hypertension, but less than half of those will have target organ damage\n[1]",
+      "subsections": {
+        "Etiology": {
+          "text": "Idiopathic\nSympathomimetic\ndrug use\nPreeclampsia\nAcute\nglomerulonephritis",
+          "tables": []
+        },
+        "Prehospital": {
+          "text": "Prehospital BP measurements should be considered reliable\n[2]\nAcute lowering of BP is not typically recommended\nFocus on ABCs (assess need for\nintubation\nor\nrespiratory support\n)\nProvide care of treatable etiologies\nCHF\nRespiratory failure\nfrom\npulmonary edema\nAcute pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "respiratory support",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Idiopathic\nSympathomimetic\ndrug use\nPreeclampsia\nAcute\nglomerulonephritis",
+      "subsections": {
+        "Prehospital": {
+          "text": "Prehospital BP measurements should be considered reliable\n[2]\nAcute lowering of BP is not typically recommended\nFocus on ABCs (assess need for\nintubation\nor\nrespiratory support\n)\nProvide care of treatable etiologies\nCHF\nRespiratory failure\nfrom\npulmonary edema\nAcute pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "respiratory support",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Prehospital": {
+      "text": "Prehospital BP measurements should be considered reliable\n[2]\nAcute lowering of BP is not typically recommended\nFocus on ABCs (assess need for\nintubation\nor\nrespiratory support\n)\nProvide care of treatable etiologies\nCHF\nRespiratory failure\nfrom\npulmonary edema\nAcute pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "respiratory support",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "End-Organ Dysfunction\n[3]\nAcute kidney injury\nOften with microscopic hematuria\nPulmonary edema\nType-II\nmyocardial infarction\nHypertensive encephalopathy\nVisual disturbances\nSeizure\nDelirium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Hypertensive encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_encephalopathy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider any of the following based on the patient's clinical presentation\n[4]\nCBC with peripheral smear- assess for microangiopathic hemolytic anemia\nChem 8 - assess renal failure and possible secondary causes\nCardiac enzymes\nUrinalysis\n- Assess renal failure, glomerulonephritis, preeclampsia\nECG\n-\nLVH\n,\nischemia\nUltrasound\n- evaluate for aortic dissection, bladder outlet obstruction, or depressed myocardial function\nFundoscopic Exam\n- evaluate for hypertensive retinopathy or papilledema\nCXR\n- evaluate for pulmonary edema or dissection\nCT head\n- in hypertensive encephalopathy, may not show acute hemorrhage or other acute pathology\nHypertensive encephalopathy is thought to be secondary to alteration in cerebral auto-regulation leading to\nposterior reversible encephalopathy syndrome\n(now called reversible posterior leukoencephalopathy). Most patients will show changes on MRI, although this is not necessarily indicated in the emergency department.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Must have evidence of end-organ dysfunction\nHigh blood pressure without symptoms is NOT hypertensive emergency (see\nasymptomatic hypertension\n)\nSymptoms such as headache, epistaxis and dizziness are not evidence of acute end-organ damage and they are not indication for acute BP reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac enzymes",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Fundoscopic Exam",
+          "url": "https://wikem.org/wiki/Fundoscopic_Exam"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider any of the following based on the patient's clinical presentation\n[4]\nCBC with peripheral smear- assess for microangiopathic hemolytic anemia\nChem 8 - assess renal failure and possible secondary causes\nCardiac enzymes\nUrinalysis\n- Assess renal failure, glomerulonephritis, preeclampsia\nECG\n-\nLVH\n,\nischemia\nUltrasound\n- evaluate for aortic dissection, bladder outlet obstruction, or depressed myocardial function\nFundoscopic Exam\n- evaluate for hypertensive retinopathy or papilledema\nCXR\n- evaluate for pulmonary edema or dissection\nCT head\n- in hypertensive encephalopathy, may not show acute hemorrhage or other acute pathology\nHypertensive encephalopathy is thought to be secondary to alteration in cerebral auto-regulation leading to\nposterior reversible encephalopathy syndrome\n(now called reversible posterior leukoencephalopathy). Most patients will show changes on MRI, although this is not necessarily indicated in the emergency department.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Must have evidence of end-organ dysfunction\nHigh blood pressure without symptoms is NOT hypertensive emergency (see\nasymptomatic hypertension\n)\nSymptoms such as headache, epistaxis and dizziness are not evidence of acute end-organ damage and they are not indication for acute BP reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac enzymes",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Fundoscopic Exam",
+          "url": "https://wikem.org/wiki/Fundoscopic_Exam"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Must have evidence of end-organ dysfunction\nHigh blood pressure without symptoms is NOT hypertensive emergency (see\nasymptomatic hypertension\n)\nSymptoms such as headache, epistaxis and dizziness are not evidence of acute end-organ damage and they are not indication for acute BP reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Management": {
+      "text": "High blood pressure without end organ damage is NOT hypertensive emergency (see\nasymptomatic hypertension\n)\nGoal: Lower mean arterial or systolic pressure by no more than 10-20% in the first hour\n[5]\nThen lower by an additional 5-15% over the next 23 hours for no more than 25% in the first 24 hours\nException is\naortic dissection\nwhich requires rapid reduction to systolic BP to 100-120 mmHg\nBe careful of lowering BP in patients with\nCVA",
+      "subsections": {
+        "By_Drug": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Nitroprusside",
+                "Dose": "0.3-0.5 mcg/kg/min IV initial infusionIncrease by 0.5 mcg/kg/min up to 2mcg/kg/min",
+                "Mechanism": "Arterial > venodilator",
+                "Pros": "1. Very effective2. Immediate onset/offset",
+                "Cons": "1. Cyanide Toxicity2. Coronary steal?3. Increased HR",
+                "Notes": "1. Avoid in liver/renal failure2. Avoid with increased ICP3. Avoid in pregnancy"
+              },
+              {
+                "Drug": "Nitroglycerin",
+                "Dose": "Start 5-100 mcg/min",
+                "Mechanism": "Veno>arteriodilation",
+                "Pros": "1. Rapid on/offset2. Increases coronary flow",
+                "Cons": "Causes tachycardia",
+                "Notes": "Drug of choice in patients with cardiac ischemia,LV dysfunction, or pulmonary edema"
+              },
+              {
+                "Drug": "Labetalol",
+                "Dose": "20-80mg IV bolus q10 minOR0.5-2 mg/min IV infusion or200mg to 400mg PO BID",
+                "Mechanism": "Beta>α-blocker",
+                "Pros": "1. No change in HR, cerebral flow\n2. Rapid onset",
+                "Cons": "Avoid in COPD, CHF and heart block",
+                "Notes": "1. Consider in ACS\n2. Consider in ischemic CVA"
+              },
+              {
+                "Drug": "Esmolol",
+                "Dose": "Load 250-500 mcg/kg over 2minInfuse 50 mcg/kg/min over 4min- if ineffective repeat load, increase infusion rate by  50mcg/kg/min up to 300mcg/kg/min",
+                "Mechanism": "Beta selective",
+                "Pros": "Rapid on/offset",
+                "Cons": "Avoid in COPD, CHFbradycardia",
+                "Notes": "Consider in ACS"
+              },
+              {
+                "Drug": "Nicardipine",
+                "Dose": "Start 5mg/hIf ineffective after 15min increased in 2.5mg/hr interval up to 15mg/hr",
+                "Mechanism": "Decreases PVR",
+                "Pros": "Good for intracranial pathology",
+                "Cons": "Slower onset/offset",
+                "Notes": "Avoid in CHF, ACS"
+              },
+              {
+                "Drug": "Phentolamine",
+                "Dose": "5-15mg IV bolus q5-15minOR0.2-0.5mg/min IV infusion",
+                "Mechanism": "α-blocker",
+                "Pros": "",
+                "Cons": "",
+                "Notes": "Used for catecholamine-induced hypertension"
+              },
+              {
+                "Drug": "Enalaprilat",
+                "Dose": "Bolus 1.25mg over 5min q6hr, titrate at 30min intervals to max of 5mg q6hr",
+                "Mechanism": "Decreases HR, SV, systemic arterial pressure",
+                "Pros": "Does not impair cerebral flow",
+                "Cons": "Variable response",
+                "Notes": "1. Used in patients at risk for cerebral hypotension, CHF2. Avoid in pregnancy"
+              },
+              {
+                "Drug": "Clonidine",
+                "Dose": "0.1 - 0.3 mg PO q12 scheduled; For hypertensive emergency, 0.2 mg x1, then 0.1 mg q1 hr PRN, max 0.6 mg total",
+                "Mechanism": "α-2 agonist, BP effects within 30-60 min after PO dose",
+                "Pros": "",
+                "Cons": "",
+                "Notes": "Reduced CNS sympathetic flow, decreasing SVR, HR, BP; no renal blood flow changes; tolerance/tachyphylaxis develop quickly"
+              },
+              {
+                "Drug": "Hydralazine",
+                "Dose": "10 - 20 mg slow IV/IM bolus q4-6 hr PRN, max 40 mg/dose",
+                "Mechanism": "Peripheral vasodilator, with fall in BP beginning within 30 min, lasting 2-4 hrs",
+                "Pros": "",
+                "Cons": "",
+                "Notes": "Decrease in DBP > SBP; has increased HR, stroke volume and cardiac outpt; preferential vasodilation > venodilation"
+              }
+            ]
+          ]
+        },
+        "Aortic_Dissection": {
+          "text": "Rapidly reduce sys BP to 100-120; HR 60-80 within 20min\nAdequate analgesia will decrease sympathetic drive and assist with BP and HR control\nAvoid volume depletion\nPrevent reflex tachycardia\nLabetalol alone\nNitroprusside or nicardipine AFTER metoprolol or esmolol",
+          "tables": []
+        },
+        "Pulmonary_Edema": {
+          "text": "Reduce BP by 20-30%\nPromote diuresis AFTER vasodilation",
+          "tables": []
+        },
+        "ACS": {
+          "text": "No more than 20-30% reduction for SBP >160\nConsider NTG, beta-blocker",
+          "tables": []
+        },
+        "Cocaine/Amphetamine_Toxicitiy": {
+          "text": "Benzos\nMixed α + B blockade\nPhentolamine\nOR\nnitroprusside AND β-blocker",
+          "tables": []
+        },
+        "Renal_Failure": {
+          "text": "Reduce BP by no more than 20%\nAvoid nitroprusside (renal metabolism)\nLabetalol or nicardipine",
+          "tables": []
+        },
+        "Eclampsia/Pre-eclampsia": {
+          "text": "Goal BP <160/110\nLabetalol or nicardipine\nMagnesium",
+          "tables": []
+        },
+        "Hypertensive_emergency": {
+          "text": "Decrease MAP by 15-20%\nAvoid overly aggressive lowering\nNicardipine\nor\nlabetalol",
+          "tables": []
+        },
+        "CVA": {
+          "text": "SAH\nSee\nSubarachnoid Hemorrhage (SAH)\nICH\nSee\ncurrent guidelines\nfor best practice\nLabetalol\nor\nNicardipine\nor\nEsmolol\nIschemic\nIf thrombolytic treatment is planned then goal systolic blood pressure 185 mm Hg and diastolic blood pressure 110 mm Hg\n[6]\nIf no thrombolytics then consider blood pressure control if SBP >220 mmHg or DBP >120 mmgHg\nLabetalol\nor\nNicardipine\nare both effective and safe",
+          "tables": []
+        },
+        "Pheochromocytoma": {
+          "text": "Phentolamine\nOR\n(nitroprusside AND β-blocker)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "current guidelines",
+          "url": "https://wikem.org/wiki/ICH#Guidelines"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Ischemic",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        }
+      ]
+    },
+    "By_Drug": {
+      "text": "",
+      "subsections": {
+        "Aortic_Dissection": {
+          "text": "Rapidly reduce sys BP to 100-120; HR 60-80 within 20min\nAdequate analgesia will decrease sympathetic drive and assist with BP and HR control\nAvoid volume depletion\nPrevent reflex tachycardia\nLabetalol alone\nNitroprusside or nicardipine AFTER metoprolol or esmolol",
+          "tables": []
+        },
+        "Pulmonary_Edema": {
+          "text": "Reduce BP by 20-30%\nPromote diuresis AFTER vasodilation",
+          "tables": []
+        },
+        "ACS": {
+          "text": "No more than 20-30% reduction for SBP >160\nConsider NTG, beta-blocker",
+          "tables": []
+        },
+        "Cocaine/Amphetamine_Toxicitiy": {
+          "text": "Benzos\nMixed α + B blockade\nPhentolamine\nOR\nnitroprusside AND β-blocker",
+          "tables": []
+        },
+        "Renal_Failure": {
+          "text": "Reduce BP by no more than 20%\nAvoid nitroprusside (renal metabolism)\nLabetalol or nicardipine",
+          "tables": []
+        },
+        "Eclampsia/Pre-eclampsia": {
+          "text": "Goal BP <160/110\nLabetalol or nicardipine\nMagnesium",
+          "tables": []
+        },
+        "Hypertensive_emergency": {
+          "text": "Decrease MAP by 15-20%\nAvoid overly aggressive lowering\nNicardipine\nor\nlabetalol",
+          "tables": []
+        },
+        "CVA": {
+          "text": "SAH\nSee\nSubarachnoid Hemorrhage (SAH)\nICH\nSee\ncurrent guidelines\nfor best practice\nLabetalol\nor\nNicardipine\nor\nEsmolol\nIschemic\nIf thrombolytic treatment is planned then goal systolic blood pressure 185 mm Hg and diastolic blood pressure 110 mm Hg\n[6]\nIf no thrombolytics then consider blood pressure control if SBP >220 mmHg or DBP >120 mmgHg\nLabetalol\nor\nNicardipine\nare both effective and safe",
+          "tables": []
+        },
+        "Pheochromocytoma": {
+          "text": "Phentolamine\nOR\n(nitroprusside AND β-blocker)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Drug": "Nitroprusside",
+            "Dose": "0.3-0.5 mcg/kg/min IV initial infusionIncrease by 0.5 mcg/kg/min up to 2mcg/kg/min",
+            "Mechanism": "Arterial > venodilator",
+            "Pros": "1. Very effective2. Immediate onset/offset",
+            "Cons": "1. Cyanide Toxicity2. Coronary steal?3. Increased HR",
+            "Notes": "1. Avoid in liver/renal failure2. Avoid with increased ICP3. Avoid in pregnancy"
+          },
+          {
+            "Drug": "Nitroglycerin",
+            "Dose": "Start 5-100 mcg/min",
+            "Mechanism": "Veno>arteriodilation",
+            "Pros": "1. Rapid on/offset2. Increases coronary flow",
+            "Cons": "Causes tachycardia",
+            "Notes": "Drug of choice in patients with cardiac ischemia,LV dysfunction, or pulmonary edema"
+          },
+          {
+            "Drug": "Labetalol",
+            "Dose": "20-80mg IV bolus q10 minOR0.5-2 mg/min IV infusion or200mg to 400mg PO BID",
+            "Mechanism": "Beta>α-blocker",
+            "Pros": "1. No change in HR, cerebral flow\n2. Rapid onset",
+            "Cons": "Avoid in COPD, CHF and heart block",
+            "Notes": "1. Consider in ACS\n2. Consider in ischemic CVA"
+          },
+          {
+            "Drug": "Esmolol",
+            "Dose": "Load 250-500 mcg/kg over 2minInfuse 50 mcg/kg/min over 4min- if ineffective repeat load, increase infusion rate by  50mcg/kg/min up to 300mcg/kg/min",
+            "Mechanism": "Beta selective",
+            "Pros": "Rapid on/offset",
+            "Cons": "Avoid in COPD, CHFbradycardia",
+            "Notes": "Consider in ACS"
+          },
+          {
+            "Drug": "Nicardipine",
+            "Dose": "Start 5mg/hIf ineffective after 15min increased in 2.5mg/hr interval up to 15mg/hr",
+            "Mechanism": "Decreases PVR",
+            "Pros": "Good for intracranial pathology",
+            "Cons": "Slower onset/offset",
+            "Notes": "Avoid in CHF, ACS"
+          },
+          {
+            "Drug": "Phentolamine",
+            "Dose": "5-15mg IV bolus q5-15minOR0.2-0.5mg/min IV infusion",
+            "Mechanism": "α-blocker",
+            "Pros": "",
+            "Cons": "",
+            "Notes": "Used for catecholamine-induced hypertension"
+          },
+          {
+            "Drug": "Enalaprilat",
+            "Dose": "Bolus 1.25mg over 5min q6hr, titrate at 30min intervals to max of 5mg q6hr",
+            "Mechanism": "Decreases HR, SV, systemic arterial pressure",
+            "Pros": "Does not impair cerebral flow",
+            "Cons": "Variable response",
+            "Notes": "1. Used in patients at risk for cerebral hypotension, CHF2. Avoid in pregnancy"
+          },
+          {
+            "Drug": "Clonidine",
+            "Dose": "0.1 - 0.3 mg PO q12 scheduled; For hypertensive emergency, 0.2 mg x1, then 0.1 mg q1 hr PRN, max 0.6 mg total",
+            "Mechanism": "α-2 agonist, BP effects within 30-60 min after PO dose",
+            "Pros": "",
+            "Cons": "",
+            "Notes": "Reduced CNS sympathetic flow, decreasing SVR, HR, BP; no renal blood flow changes; tolerance/tachyphylaxis develop quickly"
+          },
+          {
+            "Drug": "Hydralazine",
+            "Dose": "10 - 20 mg slow IV/IM bolus q4-6 hr PRN, max 40 mg/dose",
+            "Mechanism": "Peripheral vasodilator, with fall in BP beginning within 30 min, lasting 2-4 hrs",
+            "Pros": "",
+            "Cons": "",
+            "Notes": "Decrease in DBP > SBP; has increased HR, stroke volume and cardiac outpt; preferential vasodilation > venodilation"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "current guidelines",
+          "url": "https://wikem.org/wiki/ICH#Guidelines"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Ischemic",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        }
+      ]
+    },
+    "By_Disease": {
+      "text": "",
+      "subsections": {
+        "Aortic_Dissection": {
+          "text": "Rapidly reduce sys BP to 100-120; HR 60-80 within 20min\nAdequate analgesia will decrease sympathetic drive and assist with BP and HR control\nAvoid volume depletion\nPrevent reflex tachycardia\nLabetalol alone\nNitroprusside or nicardipine AFTER metoprolol or esmolol",
+          "tables": []
+        },
+        "Pulmonary_Edema": {
+          "text": "Reduce BP by 20-30%\nPromote diuresis AFTER vasodilation",
+          "tables": []
+        },
+        "ACS": {
+          "text": "No more than 20-30% reduction for SBP >160\nConsider NTG, beta-blocker",
+          "tables": []
+        },
+        "Cocaine/Amphetamine_Toxicitiy": {
+          "text": "Benzos\nMixed α + B blockade\nPhentolamine\nOR\nnitroprusside AND β-blocker",
+          "tables": []
+        },
+        "Renal_Failure": {
+          "text": "Reduce BP by no more than 20%\nAvoid nitroprusside (renal metabolism)\nLabetalol or nicardipine",
+          "tables": []
+        },
+        "Eclampsia/Pre-eclampsia": {
+          "text": "Goal BP <160/110\nLabetalol or nicardipine\nMagnesium",
+          "tables": []
+        },
+        "Hypertensive_emergency": {
+          "text": "Decrease MAP by 15-20%\nAvoid overly aggressive lowering\nNicardipine\nor\nlabetalol",
+          "tables": []
+        },
+        "CVA": {
+          "text": "SAH\nSee\nSubarachnoid Hemorrhage (SAH)\nICH\nSee\ncurrent guidelines\nfor best practice\nLabetalol\nor\nNicardipine\nor\nEsmolol\nIschemic\nIf thrombolytic treatment is planned then goal systolic blood pressure 185 mm Hg and diastolic blood pressure 110 mm Hg\n[6]\nIf no thrombolytics then consider blood pressure control if SBP >220 mmHg or DBP >120 mmgHg\nLabetalol\nor\nNicardipine\nare both effective and safe",
+          "tables": []
+        },
+        "Pheochromocytoma": {
+          "text": "Phentolamine\nOR\n(nitroprusside AND β-blocker)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "current guidelines",
+          "url": "https://wikem.org/wiki/ICH#Guidelines"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Ischemic",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nPatients receiving titratable antihypertensive therapies will likely require admission to critical care unit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension (main)\nAsymptomatic hypertension\nIV nitroglycerine alternatives",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension (main)",
+          "url": "https://wikem.org/wiki/Hypertension_(main)"
+        },
+        {
+          "text": "Asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        },
+        {
+          "text": "IV nitroglycerine alternatives",
+          "url": "https://wikem.org/wiki/IV_nitroglycerine_alternatives"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Hypertensive Emergency: Pearls and Pitfalls for the ED Physician\nEMCrit - Hypertensive Emergency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

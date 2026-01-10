@@ -1,0 +1,300 @@
+{
+  "drug_name": "IVC_ultrasound",
+  "url": "https://wikem.org/wiki/IVC_ultrasound",
+  "scraped_at": "2026-01-10T07:55:19.126897",
+  "sections": {
+    "Background": {
+      "text": "Though controversial, IVC measurement by ultrasound can estimate volume status, fluid responsiveness, and fluid tolerance\nThere is evidence to support that IVC diameter is consistently low in hypovolemia versus euvolemia\n[1]\nIVC change can estimate fluid responsiveness with sensitivity of 0.78 and specificity of 0.86\n[2]\nCan use as a dynamic assessment after intervention such as giving fluids or passive leg raise\nDynamic changes is probably best measured in intubated patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Differentiate causes of shock\nDifferentiate causes of shortness of breath\nEstablish likelihood of fluid responsiveness\nAssess response to interventions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Select probe\nCurvilinear or phased array probe\nLocation\nIn subxyphoid cardiac view (epigastric), fan probe laterally to view the IVC draining and identify it draining into the right atrium\nMay start with subxyphoid view, place right atrium in center of screen and rotate probe 90 degrees clockwise to find IVC\nLongitudinal view\nM-mode to measure IVC collapse during inspiration or estimation can be made in 2D with IVC in longitudinal axis\nMeasure both absolute diameter of IVC and percent collapse during inspiration of spontaneously breathing patients\nDynamic measurements\nRepeat measurements can be made after passive leg raise or IVF bolus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "",
+      "subsections": {
+        "Classic_Ultrasound_Findings_For_Critically_Ill_Patients": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Disease": "MI",
+                "IVC": "↑",
+                "Cardiac": "Focal WMAMod/Poor squeeze",
+                "Lung (Phased Array)": "NL or B-lines",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "Tamponade",
+                "IVC": "↑",
+                "Cardiac": "RA collapse with fillingRV collapse with filling",
+                "Lung (Phased Array)": "NL",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "PTX",
+                "IVC": "↑",
+                "Cardiac": "NL or Hyperdynamic",
+                "Lung (Phased Array)": "Lung pointConsolidated lung",
+                "Lung (Linear)": "Absent lung sliding"
+              },
+              {
+                "Disease": "Sepsis",
+                "IVC": "↓",
+                "Cardiac": "Hyperdynamic squeeze",
+                "Lung (Phased Array)": "NL (see pneumonia)",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "Pneumonia",
+                "IVC": "NL or ↓",
+                "Cardiac": "Hyperdynamic squeeze",
+                "Lung (Phased Array)": "Unilateral B-lines",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "Decompensated HF",
+                "IVC": "↑",
+                "Cardiac": "Mod/Poor squeeze",
+                "Lung (Phased Array)": "Bilateral B-lines",
+                "Lung (Linear)": "Sliding"
+              },
+              {
+                "Disease": "PE",
+                "IVC": "↑",
+                "Cardiac": "RV > LVMcConnell's sign",
+                "Lung (Phased Array)": "NL or Unilateral B-lines",
+                "Lung (Linear)": "Sliding"
+              }
+            ]
+          ]
+        },
+        "Correlations_Between_IVC_Size_and_CVP": {
+          "text": "Measure 2cm from IVC/RA junction or 1cm from IVC/hepatic vein junction",
+          "tables": [
+            [
+              {
+                "IVC (cm)": "<1.5",
+                "Respiratory Change": "Total collapse",
+                "CVP (cm H2O)": "0-5"
+              },
+              {
+                "IVC (cm)": "1.5-2.5",
+                "Respiratory Change": ">50% collapse",
+                "CVP (cm H2O)": "6-10"
+              },
+              {
+                "IVC (cm)": "1.5-2.5",
+                "Respiratory Change": "<50% collapse",
+                "CVP (cm H2O)": "11-15"
+              },
+              {
+                "IVC (cm)": ">2.5",
+                "Respiratory Change": "<50% collapse",
+                "CVP (cm H2O)": "16-20"
+              },
+              {
+                "IVC (cm)": ">2.5",
+                "Respiratory Change": "No change",
+                "CVP (cm H2O)": ">20"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classic_Ultrasound_Findings_For_Critically_Ill_Patients": {
+      "text": "",
+      "subsections": {
+        "Correlations_Between_IVC_Size_and_CVP": {
+          "text": "Measure 2cm from IVC/RA junction or 1cm from IVC/hepatic vein junction",
+          "tables": [
+            [
+              {
+                "IVC (cm)": "<1.5",
+                "Respiratory Change": "Total collapse",
+                "CVP (cm H2O)": "0-5"
+              },
+              {
+                "IVC (cm)": "1.5-2.5",
+                "Respiratory Change": ">50% collapse",
+                "CVP (cm H2O)": "6-10"
+              },
+              {
+                "IVC (cm)": "1.5-2.5",
+                "Respiratory Change": "<50% collapse",
+                "CVP (cm H2O)": "11-15"
+              },
+              {
+                "IVC (cm)": ">2.5",
+                "Respiratory Change": "<50% collapse",
+                "CVP (cm H2O)": "16-20"
+              },
+              {
+                "IVC (cm)": ">2.5",
+                "Respiratory Change": "No change",
+                "CVP (cm H2O)": ">20"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Disease": "MI",
+            "IVC": "↑",
+            "Cardiac": "Focal WMAMod/Poor squeeze",
+            "Lung (Phased Array)": "NL or B-lines",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "Tamponade",
+            "IVC": "↑",
+            "Cardiac": "RA collapse with fillingRV collapse with filling",
+            "Lung (Phased Array)": "NL",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "PTX",
+            "IVC": "↑",
+            "Cardiac": "NL or Hyperdynamic",
+            "Lung (Phased Array)": "Lung pointConsolidated lung",
+            "Lung (Linear)": "Absent lung sliding"
+          },
+          {
+            "Disease": "Sepsis",
+            "IVC": "↓",
+            "Cardiac": "Hyperdynamic squeeze",
+            "Lung (Phased Array)": "NL (see pneumonia)",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "Pneumonia",
+            "IVC": "NL or ↓",
+            "Cardiac": "Hyperdynamic squeeze",
+            "Lung (Phased Array)": "Unilateral B-lines",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "Decompensated HF",
+            "IVC": "↑",
+            "Cardiac": "Mod/Poor squeeze",
+            "Lung (Phased Array)": "Bilateral B-lines",
+            "Lung (Linear)": "Sliding"
+          },
+          {
+            "Disease": "PE",
+            "IVC": "↑",
+            "Cardiac": "RV > LVMcConnell's sign",
+            "Lung (Phased Array)": "NL or Unilateral B-lines",
+            "Lung (Linear)": "Sliding"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Correlations_Between_IVC_Size_and_CVP": {
+      "text": "Measure 2cm from IVC/RA junction or 1cm from IVC/hepatic vein junction",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "IVC (cm)": "<1.5",
+            "Respiratory Change": "Total collapse",
+            "CVP (cm H2O)": "0-5"
+          },
+          {
+            "IVC (cm)": "1.5-2.5",
+            "Respiratory Change": ">50% collapse",
+            "CVP (cm H2O)": "6-10"
+          },
+          {
+            "IVC (cm)": "1.5-2.5",
+            "Respiratory Change": "<50% collapse",
+            "CVP (cm H2O)": "11-15"
+          },
+          {
+            "IVC (cm)": ">2.5",
+            "Respiratory Change": "<50% collapse",
+            "CVP (cm H2O)": "16-20"
+          },
+          {
+            "IVC (cm)": ">2.5",
+            "Respiratory Change": "No change",
+            "CVP (cm H2O)": ">20"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Aorta can be confused for IVC, ensure you visualize the vessel entering the atrium\nEnsure the vessel is viewed in full longitudinal axis as being off-center will give falsely narrow measurements",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside IVC ultrasound was performed to assess volume status in setting of dehydration. The IVC was identified in longitudinal access. The IVC was neither flat nor plethoric. There was less than 50% collapse with respirophasic measurements. This does not imply that the patient is not volume responsive but rather further testing is needed.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside IVC ultrasound was performed to assess volume status in setting of dehydration. The IVC was identified in longitudinal access. The IVC was flat with over 50% collapse with respirophasic measurements. There was evidence of volume depletion and fluid tolerance.\nA bedside IVC ultrasound was performed to assess volume status in setting of fluid overload. The IVC was identified in longitudinal access. The IVC was plethoric with less than 50% collapse with respirophasic measurements. There was evidence of volume overload.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside IVC ultrasound was performed to assess volume status in setting of dehydration. The IVC was identified in longitudinal access. The IVC was neither flat nor plethoric. There was less than 50% collapse with respirophasic measurements. This does not imply that the patient is not volume responsive but rather further testing is needed.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside IVC ultrasound was performed to assess volume status in setting of dehydration. The IVC was identified in longitudinal access. The IVC was flat with over 50% collapse with respirophasic measurements. There was evidence of volume depletion and fluid tolerance.\nA bedside IVC ultrasound was performed to assess volume status in setting of fluid overload. The IVC was identified in longitudinal access. The IVC was plethoric with less than 50% collapse with respirophasic measurements. There was evidence of volume overload.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside IVC ultrasound was performed to assess volume status in setting of dehydration. The IVC was identified in longitudinal access. The IVC was flat with over 50% collapse with respirophasic measurements. There was evidence of volume depletion and fluid tolerance.\nA bedside IVC ultrasound was performed to assess volume status in setting of fluid overload. The IVC was identified in longitudinal access. The IVC was plethoric with less than 50% collapse with respirophasic measurements. There was evidence of volume overload.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Life in the Fastlane - SMACC: The Dark Art of IVC Ultrasound\nACEP Focus On: Inferior Vena Cava Ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        }
+      ]
+    }
+  }
+}

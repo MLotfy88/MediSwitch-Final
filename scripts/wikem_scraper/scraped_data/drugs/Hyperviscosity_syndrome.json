@@ -1,0 +1,415 @@
+{
+  "drug_name": "Hyperviscosity_syndrome",
+  "url": "https://wikem.org/wiki/Hyperviscosity_syndrome",
+  "scraped_at": "2026-01-10T07:55:10.043005",
+  "sections": {
+    "Background": {
+      "text": "Increased serum viscosity due to:\nIncreased blood products (\npolycythemia\n, thrombocytosis,\nleukemia\n)\nImmunoglobulins (Waldenstrom's, IgA myeloma,\nmultiple myeloma\n)\nSymptoms arise from poor capillary flow and organ congestion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "General:\nfever\n,\nfatigue\nCNS:\nheadache\n,\nblurred vision\n,\naltered mental status\n,\nfocal neurologic deficits\nPulm:\ndyspnea\n,\nhypoxia\nCardiac:\nchest pain\n,\nCHF\nHeme: mucosal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Detailed differential can be found on each page\nStroke\nAltered mental status\nChest pain\nHypoxemia\nDyspnea",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Oncologic_Emergencies": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC, coags, type and screen, chem 10\nUrinalysis\nCT head\nif neuro symptoms\nCXR\nConsider initiating inpatient testing with: Total protein, albumin, SPEP, UPEP, IgA, IgG, IgM\nNote:\nABGs\nmight have SaO2 vs. SpO2 discrepancies\nCausing spurious hypoxemia on ABG, with low PaO2 (as opposed to\ndyshemoglobinemia\n)\nDue to \"leukocyte larceny,\" \"platelet larceny\"\n[1]\n[2]\n[3]\nExcessive O2 consumption by WBCs or platelets following blood sample collection",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Symptoms of hyperviscosity can appear when one of the following occur:\nRed cell mass > 25% of normal\n[4]\nPlatelets >600,000/µL\n[5]\nLeukocytosis >100,000\nSerum viscosity >4-5cP (normal 1.4-1.8cP)\n[6]\nor Globulin gap (Total protein - albumin) > 4",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABGs",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "dyshemoglobinemia",
+          "url": "https://wikem.org/wiki/Dyshemoglobinemia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC, coags, type and screen, chem 10\nUrinalysis\nCT head\nif neuro symptoms\nCXR\nConsider initiating inpatient testing with: Total protein, albumin, SPEP, UPEP, IgA, IgG, IgM\nNote:\nABGs\nmight have SaO2 vs. SpO2 discrepancies\nCausing spurious hypoxemia on ABG, with low PaO2 (as opposed to\ndyshemoglobinemia\n)\nDue to \"leukocyte larceny,\" \"platelet larceny\"\n[1]\n[2]\n[3]\nExcessive O2 consumption by WBCs or platelets following blood sample collection",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Symptoms of hyperviscosity can appear when one of the following occur:\nRed cell mass > 25% of normal\n[4]\nPlatelets >600,000/µL\n[5]\nLeukocytosis >100,000\nSerum viscosity >4-5cP (normal 1.4-1.8cP)\n[6]\nor Globulin gap (Total protein - albumin) > 4",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABGs",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "dyshemoglobinemia",
+          "url": "https://wikem.org/wiki/Dyshemoglobinemia"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Symptoms of hyperviscosity can appear when one of the following occur:\nRed cell mass > 25% of normal\n[4]\nPlatelets >600,000/µL\n[5]\nLeukocytosis >100,000\nSerum viscosity >4-5cP (normal 1.4-1.8cP)\n[6]\nor Globulin gap (Total protein - albumin) > 4",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "ABCs\nIVF\n, supportive care\nIg mediated/Dysproteinemia\nPlasmapheresis\nLeukostasis\nLeukapheresis\nThrombocytosis\nPlateletpheresis\nConsider\nASA\nPolycythemia\nPhlebotomy\nIf pheresis is not unavailable, phlebotomize 2-3 units, give 2-3 L IVF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically require admission if symptomatic\nHem/Onc consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Oncologic emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        }
+      ]
+    }
+  }
+}

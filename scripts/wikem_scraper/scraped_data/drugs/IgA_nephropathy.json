@@ -1,0 +1,181 @@
+{
+  "drug_name": "IgA_nephropathy",
+  "url": "https://wikem.org/wiki/IgA_nephropathy",
+  "scraped_at": "2026-01-10T07:55:18.708823",
+  "sections": {
+    "Background": {
+      "text": "Nephritic syndrome, form of chronic\nglomerulonephritis\ncaused by deposition of IgA immune complexes in glomeruli\nSlowly progressive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hematuria\n, persistent or recurrent, macroscopic or asymptomatic microscopic\nGross hematuria initially begins a few days after febrile illness, thus mimicking acute postinfectious glomerulonephritis\nMild\nproteinuria\n+/-\nflank pain\n,\nfever\nduring acute episodes\nUsually slowly progressive, but rapidly progressive glomerulonephritis manifests initially in <10% of patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hematuria": {
+          "text": "Pediatric patients\nGlomerulonephritis\nUTI\nCongenital urinary tract anomaly\nYounger adults\nUTI\nNephrolithiasis\nOlder adults\nUTI\nNeoplasm\nBPH\nAny age\nSchistosomiasis\n(most common cause worldwide)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/BPH"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Hematuria": {
+      "text": "Pediatric patients\nGlomerulonephritis\nUTI\nCongenital urinary tract anomaly\nYounger adults\nUTI\nNephrolithiasis\nOlder adults\nUTI\nNeoplasm\nBPH\nAny age\nSchistosomiasis\n(most common cause worldwide)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/BPH"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "UA\nHematuria\n, usually with dysmorphic RBCs, occasional RBC casts\nMild\nproteinuria\nBMP\nCreatinine usually normal unless progressed\nDefinitive diagnosis with renal biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Usually no treatment required in ED\nACEi\nor\nARB\nfor hypertension, Cr >1.2, or macroalbuminuria\nCorticosteroids\nand/or\ncyclophosphamide\nfor advanced or rapidly progressive disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Glomerulonephritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "References": {
+      "text": "https://www.merckmanuals.com/professional/genitourinary-disorders/glomerular-disorders/immunoglobulin-a-nephropathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

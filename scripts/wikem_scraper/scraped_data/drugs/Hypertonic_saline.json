@@ -1,0 +1,178 @@
+{
+  "drug_name": "Hypertonic_saline",
+  "url": "https://wikem.org/wiki/Hypertonic_saline",
+  "scraped_at": "2026-01-10T07:55:12.670168",
+  "sections": {
+    "Administration": {
+      "text": "Type: Osmotherapy, electrolyte/IVF\nDosage Forms:\n3% (513mEq/L)\n5% (856mEq/L)\n23.4% (4000mEq/L)\nNebulized (as adjunct for\nbronchiolitis\n,\ncystic fibrosis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Symptomatic_Hyponatremia": {
+          "text": "Bolus 100-250mL 3% NS 100cc bolus over 10min; repeat after 10min x1 if no improvement",
+          "tables": []
+        },
+        "Elevated_ICP": {
+          "text": "Most studies used 250 mL bolus of 7.5% HTS with dextran\n[1]\nInitial 250mL bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget Na 145-155 meq/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Symptomatic_Hyponatremia": {
+      "text": "Bolus 100-250mL 3% NS 100cc bolus over 10min; repeat after 10min x1 if no improvement",
+      "subsections": {
+        "Elevated_ICP": {
+          "text": "Most studies used 250 mL bolus of 7.5% HTS with dextran\n[1]\nInitial 250mL bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget Na 145-155 meq/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elevated_ICP": {
+      "text": "Most studies used 250 mL bolus of 7.5% HTS with dextran\n[1]\nInitial 250mL bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget Na 145-155 meq/dL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Symptomatic\nhyponatremia\n: 2mL/kg of 3% over 10-60 minutes, repeat of up to 3 times\nElevated ICP\n3% NS: 3-10 mL/kg over 10-60 minutes\n[2]\nTitrate to serum Na 145-150",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypernatremia\nChronic hyponatremia\nSevere CHF (theoretical), volume overload",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\n(infusion rate-related)\nMetabolic acidosis\nHypernatraemia\nHypokalemia\nVolume overload\nRenal failure\nCoagulopathy\nPhlebitis, tissue necrosis if extravasates (need central line for concentrations >3%\nIf Na+ corrected too quickly, central pontine myelinosis, seizure, encephalopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypotension\n(infusion rate-related)\nMetabolic acidosis\nHypernatraemia\nHypokalemia\nVolume overload\nRenal failure\nCoagulopathy\nPhlebitis, tissue necrosis if extravasates (need central line for concentrations >3%\nIf Na+ corrected too quickly, central pontine myelinosis, seizure, encephalopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: rapid onset of action (~10min), effect lasts ~1hr\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Raises serum Na+, osmotherapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Head trauma (main)\n,\nPediatric head trauma\nElevated intracranial pressure\nHyponatremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        }
+      ]
+    }
+  }
+}

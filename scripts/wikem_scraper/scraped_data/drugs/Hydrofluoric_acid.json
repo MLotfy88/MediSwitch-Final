@@ -1,0 +1,419 @@
+{
+  "drug_name": "Hydrofluoric_acid",
+  "url": "https://wikem.org/wiki/Hydrofluoric_acid",
+  "scraped_at": "2026-01-10T07:55:03.817060",
+  "sections": {
+    "Background": {
+      "text": "Used in both commercial and home setting\nRust remover (most common home use)\nGlass etching, chrome and other metal cleaning, petroleum processing\nOral ingestion has very high mortality rate\nOnset and severity of symptoms correlated with concentration\nDilute solutions (<20%) may have delayed onset up to 24hr post-exposure\nModerate solutions (20-50%) develop symptoms within 1-8hr\nConcentrated solutions (>50%) develop symptoms immediately\nThese patients are at highest risk for systemic toxicity/death\nPain immediately (even if wound appears minor) implies severe injury\nBurn itself may appear relatively minor\nToxicity caused by binding of calcium and magnesium leading to electrolyte derangement and myocardial dysfunction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Skin exposure\nBurns\nPain out of proportion to extent of burn\nOphthalmic exposure\nEye pain\nErythema\nIngestion\nNausea and vomiting\nAbdominal pain\nInhalation\nShortness of breath\nThroat pain\n/burning\nSigns/symptoms of\nhypocalcemia\nand\nhypomagnesemia\nCan lead to QTc interval prolongation and cardiac arrhythmias, the primary cause of death in HF burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Throat pain",
+          "url": "https://wikem.org/wiki/Throat_pain"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nTrend calcium, magnesium, and potassium levels\nHydrofluoric acid chelates calcium and poisons the Na+/K+ pump\nExpect\nhypocalcemia\n,\nhypomagnesemia\n, and\nhyperkalemia\nMonitor EKG for signs of electrolyte abnormality\nQTc prolongation\nVentricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "Ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Decontamination: remove soiled clothing and irrigate thoroughly.\nMainstay of treatment is application of calcium to affected area.",
+      "subsections": {
+        "Minor_injuries_(<50_cm2_from_dilute_solutions_<20%)": {
+          "text": "Application of gel paste of Ca gluconate or benzalkonium Cl\nRub into affected area for 10-15min with pain relief being used as end-point of treatment\nCalcium gel is commercially available (found in industrial first-aid kits)\nCalcium gel can be made:\nMix calcium gluconate powder 3.5gm with 150mL water-soluble lubricant (KY-Jelly)\nOR\nMix 25mL 10% calcium gluconate solution with 75mL water-soluble lubricant (KY-Jelly)\nBenzalkonium Cl is commercially available\nIf calcium gluconate is not available calcium chloride can be used",
+          "tables": []
+        },
+        "Severe_injuries": {
+          "text": "Treat with intradermal injections of 5% calcium gluconate\nPrepare by diluting conventional 10% Ca gluconate with sterile NS in 1:1 ratio\nInject in and around the burned area in amount not to exceed 0.5mL per cm2",
+          "tables": []
+        },
+        "Refractory_injuries": {
+          "text": "Treat with intravenous infusion of calcium gluconate using Bier block\nPlace tourniquet proximal to exposure site on affected extremity and inject though IV distal to tourniquet\nInject 10 mL of 10% Ca gluconate diluted in 40 mL of saline and remove tourniquet after 20 min of dwell time\nIn severe refractory cases may also infuse intra-arterial calcium gluconate\nDeliver via arterial line placed proximal to injury in the same limb\nInfuse 10 mL of 10% Ca gluconate diluted in 40mL of saline over 4 hr",
+          "tables": []
+        },
+        "Ocular_burns": {
+          "text": "Irrigate with saline for at least 5 min\nIf persistent pain administer 1% calcium gluconate to eye (dilute 10% calcium gluconate with normal saline)\nConsult ophthalmology due to irritation effect of calcium salts to eye",
+          "tables": []
+        },
+        "Ingestion": {
+          "text": "If <1hr of ingestion, may consider NG tube for suction and gastric lavage\nFollow lavage by 300mL 10% Ca gluconate down NGT\nConsider intubation for airway protection",
+          "tables": []
+        },
+        "Inhalation": {
+          "text": "Consider in any patient with facial burns or exposure to HF in confined space\nOxygen via NRB\nNebulized 2.5% calcium gluconate\nIntubation may be required in severe cases",
+          "tables": []
+        },
+        "Systemic_toxicity": {
+          "text": "Administer\ncalcium gluconate\n100mg IV (10 mL of a 10% solution) over 2-3 minutes\nMay also need to replete\nmagnesium\n(4g IV over 20 minutes)\nMay see\nQTc prolongation\n,\ncardiac arrhythmia\n, or obvious systemic illness\nTreat\nhyperkalemia\nas needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Cutaneous_Burns": {
+      "text": "",
+      "subsections": {
+        "Minor_injuries_(<50_cm2_from_dilute_solutions_<20%)": {
+          "text": "Application of gel paste of Ca gluconate or benzalkonium Cl\nRub into affected area for 10-15min with pain relief being used as end-point of treatment\nCalcium gel is commercially available (found in industrial first-aid kits)\nCalcium gel can be made:\nMix calcium gluconate powder 3.5gm with 150mL water-soluble lubricant (KY-Jelly)\nOR\nMix 25mL 10% calcium gluconate solution with 75mL water-soluble lubricant (KY-Jelly)\nBenzalkonium Cl is commercially available\nIf calcium gluconate is not available calcium chloride can be used",
+          "tables": []
+        },
+        "Severe_injuries": {
+          "text": "Treat with intradermal injections of 5% calcium gluconate\nPrepare by diluting conventional 10% Ca gluconate with sterile NS in 1:1 ratio\nInject in and around the burned area in amount not to exceed 0.5mL per cm2",
+          "tables": []
+        },
+        "Refractory_injuries": {
+          "text": "Treat with intravenous infusion of calcium gluconate using Bier block\nPlace tourniquet proximal to exposure site on affected extremity and inject though IV distal to tourniquet\nInject 10 mL of 10% Ca gluconate diluted in 40 mL of saline and remove tourniquet after 20 min of dwell time\nIn severe refractory cases may also infuse intra-arterial calcium gluconate\nDeliver via arterial line placed proximal to injury in the same limb\nInfuse 10 mL of 10% Ca gluconate diluted in 40mL of saline over 4 hr",
+          "tables": []
+        },
+        "Ocular_burns": {
+          "text": "Irrigate with saline for at least 5 min\nIf persistent pain administer 1% calcium gluconate to eye (dilute 10% calcium gluconate with normal saline)\nConsult ophthalmology due to irritation effect of calcium salts to eye",
+          "tables": []
+        },
+        "Ingestion": {
+          "text": "If <1hr of ingestion, may consider NG tube for suction and gastric lavage\nFollow lavage by 300mL 10% Ca gluconate down NGT\nConsider intubation for airway protection",
+          "tables": []
+        },
+        "Inhalation": {
+          "text": "Consider in any patient with facial burns or exposure to HF in confined space\nOxygen via NRB\nNebulized 2.5% calcium gluconate\nIntubation may be required in severe cases",
+          "tables": []
+        },
+        "Systemic_toxicity": {
+          "text": "Administer\ncalcium gluconate\n100mg IV (10 mL of a 10% solution) over 2-3 minutes\nMay also need to replete\nmagnesium\n(4g IV over 20 minutes)\nMay see\nQTc prolongation\n,\ncardiac arrhythmia\n, or obvious systemic illness\nTreat\nhyperkalemia\nas needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Ocular_burns": {
+      "text": "Irrigate with saline for at least 5 min\nIf persistent pain administer 1% calcium gluconate to eye (dilute 10% calcium gluconate with normal saline)\nConsult ophthalmology due to irritation effect of calcium salts to eye",
+      "subsections": {
+        "Ingestion": {
+          "text": "If <1hr of ingestion, may consider NG tube for suction and gastric lavage\nFollow lavage by 300mL 10% Ca gluconate down NGT\nConsider intubation for airway protection",
+          "tables": []
+        },
+        "Inhalation": {
+          "text": "Consider in any patient with facial burns or exposure to HF in confined space\nOxygen via NRB\nNebulized 2.5% calcium gluconate\nIntubation may be required in severe cases",
+          "tables": []
+        },
+        "Systemic_toxicity": {
+          "text": "Administer\ncalcium gluconate\n100mg IV (10 mL of a 10% solution) over 2-3 minutes\nMay also need to replete\nmagnesium\n(4g IV over 20 minutes)\nMay see\nQTc prolongation\n,\ncardiac arrhythmia\n, or obvious systemic illness\nTreat\nhyperkalemia\nas needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Ingestion": {
+      "text": "If <1hr of ingestion, may consider NG tube for suction and gastric lavage\nFollow lavage by 300mL 10% Ca gluconate down NGT\nConsider intubation for airway protection",
+      "subsections": {
+        "Inhalation": {
+          "text": "Consider in any patient with facial burns or exposure to HF in confined space\nOxygen via NRB\nNebulized 2.5% calcium gluconate\nIntubation may be required in severe cases",
+          "tables": []
+        },
+        "Systemic_toxicity": {
+          "text": "Administer\ncalcium gluconate\n100mg IV (10 mL of a 10% solution) over 2-3 minutes\nMay also need to replete\nmagnesium\n(4g IV over 20 minutes)\nMay see\nQTc prolongation\n,\ncardiac arrhythmia\n, or obvious systemic illness\nTreat\nhyperkalemia\nas needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Inhalation": {
+      "text": "Consider in any patient with facial burns or exposure to HF in confined space\nOxygen via NRB\nNebulized 2.5% calcium gluconate\nIntubation may be required in severe cases",
+      "subsections": {
+        "Systemic_toxicity": {
+          "text": "Administer\ncalcium gluconate\n100mg IV (10 mL of a 10% solution) over 2-3 minutes\nMay also need to replete\nmagnesium\n(4g IV over 20 minutes)\nMay see\nQTc prolongation\n,\ncardiac arrhythmia\n, or obvious systemic illness\nTreat\nhyperkalemia\nas needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Systemic_toxicity": {
+      "text": "Administer\ncalcium gluconate\n100mg IV (10 mL of a 10% solution) over 2-3 minutes\nMay also need to replete\nmagnesium\n(4g IV over 20 minutes)\nMay see\nQTc prolongation\n,\ncardiac arrhythmia\n, or obvious systemic illness\nTreat\nhyperkalemia\nas needed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "cardiac arrhythmia",
+          "url": "https://wikem.org/wiki/Cardiac_arrhythmia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consultation with poison center and burn center transfer per\nBurn center criteria\nAdmission for all patients with arrhythmia on ECG or severe electrolyte disturbance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burn center criteria",
+          "url": "https://wikem.org/wiki/Burn_center_criteria"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Caustics\nBurn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustics",
+          "url": "https://wikem.org/wiki/Caustics"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        }
+      ]
+    }
+  }
+}

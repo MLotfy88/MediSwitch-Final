@@ -1,0 +1,309 @@
+{
+  "drug_name": "Hypertensive_urgency",
+  "url": "https://wikem.org/wiki/Hypertensive_urgency",
+  "scraped_at": "2026-01-10T07:55:10.201211",
+  "sections": {
+    "Intro": {
+      "text": "Do not use this diagnosis, see\nasymptomatic hypertension\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Elevation in BP without acute end-organ damage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Categorization_of_Hypertension": {
+          "text": "Asymptomatic hypertension\nSystolic BP 140-179 or diastolic BP 90-109\nAsymptomatic\nHypertensive urgency\n^\nSystolic BP ≥ 180 or diastolic BP ≥ 110\nNo evidence of end-organ dysfunction\nHypertensive emergency\nSystolic BP ≥ 180 or diastolic BP ≥ 110\nEvidence of end-organ dysfunction\n^\nMany emergency physicians do not use the diagnosis of \"hypertensive urgency,\" but utilize instead only\nhypertensive emergency\n(signs of end organ dysfunction) or\nasymptomatic hypertension\n(all others)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Categorization_of_Hypertension": {
+      "text": "Asymptomatic hypertension\nSystolic BP 140-179 or diastolic BP 90-109\nAsymptomatic\nHypertensive urgency\n^\nSystolic BP ≥ 180 or diastolic BP ≥ 110\nNo evidence of end-organ dysfunction\nHypertensive emergency\nSystolic BP ≥ 180 or diastolic BP ≥ 110\nEvidence of end-organ dysfunction\n^\nMany emergency physicians do not use the diagnosis of \"hypertensive urgency,\" but utilize instead only\nhypertensive emergency\n(signs of end organ dysfunction) or\nasymptomatic hypertension\n(all others)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nasymptomatic hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nasymptomatic hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "See\nasymptomatic hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asymptomatic hypertension",
+          "url": "https://wikem.org/wiki/Asymptomatic_hypertension"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "drug_name": "Hyperamylasemia",
+  "url": "https://wikem.org/wiki/Hyperamylasemia",
+  "scraped_at": "2026-01-10T07:55:05.172034",
+  "sections": {
+    "Background": {
+      "text": "Amylase is secreted by the pancreas into the duodenum where it aids the catabolism of carbohydrates to simple sugars\n[1]\nDamage to the pancreas or obstruction to the pancreatic duct causes the enzyme to enter the bloodstream.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain in the middle of the chest that radiates to the back\nFever\nLoss of appetite\nNausea\nVomiting\nSweating\nWeakness\nJaundice\nRapid pulse\nSteatorrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Pancreatic:\nAcute pancreatitis\nChronic pancreatitis\n(can have normal or mildly elevated levels)\nPancreatic pseudocyst\nPancreatic duct obstruction\nPancreatic trauma or neoplasm\nNon-Pancreatic:\nSalivary gland disease (e.g.,\nparotitis\n)\nPerforated peptic ulcer\nBowel obstruction\nor infarction\nCholecystitis\nEctopic pregnancy\nRuptured aortic aneurysm\nMacroamylasemia\nRenal failure (impaired clearance)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Serum amylase and lipase (lipase is more specific for pancreatitis)\nCBC, CMP (assess electrolytes, renal function, LFTs)\nLiver enzymes, bilirubin, alkaline phosphatase\nCRP (to assess inflammation)\nAbdominal ultrasound (to evaluate gallstones, ductal dilation)\nCT abdomen with contrast (gold standard if pancreatitis is suspected)\nPregnancy test in females of childbearing age\nUrinalysis (to evaluate renal excretion and exclude other causes)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Hyperamylasemia is typically defined as serum amylase >100 U/dL, although labs may vary by reference range.\nLevels >3x normal are suggestive of acute pancreatitis when correlated with clinical presentation.\nIsolated hyperamylasemia without supportive clinical features does not confirm pancreatitis and warrants evaluation for alternative causes.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Serum amylase and lipase (lipase is more specific for pancreatitis)\nCBC, CMP (assess electrolytes, renal function, LFTs)\nLiver enzymes, bilirubin, alkaline phosphatase\nCRP (to assess inflammation)\nAbdominal ultrasound (to evaluate gallstones, ductal dilation)\nCT abdomen with contrast (gold standard if pancreatitis is suspected)\nPregnancy test in females of childbearing age\nUrinalysis (to evaluate renal excretion and exclude other causes)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Hyperamylasemia is typically defined as serum amylase >100 U/dL, although labs may vary by reference range.\nLevels >3x normal are suggestive of acute pancreatitis when correlated with clinical presentation.\nIsolated hyperamylasemia without supportive clinical features does not confirm pancreatitis and warrants evaluation for alternative causes.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Hyperamylasemia is typically defined as serum amylase >100 U/dL, although labs may vary by reference range.\nLevels >3x normal are suggestive of acute pancreatitis when correlated with clinical presentation.\nIsolated hyperamylasemia without supportive clinical features does not confirm pancreatitis and warrants evaluation for alternative causes.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Acute pancreatitis:\nNPO, IV fluids, electrolyte repletion\nPain control (e.g., IV opioids)\nMonitor for complications (e.g., necrosis, sepsis, pseudocyst)\nAntibiotics only if infected necrosis is suspected\nNon-pancreatic causes:\nTailored to condition (e.g., surgery for perforation, supportive care for parotitis)\nMacroamylasemia:\nBenign; no treatment needed\nAddress underlying conditions contributing to pancreatic ischemia (e.g., hypotension, trauma)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if:\nSuspected or confirmed acute pancreatitis\nOngoing abdominal pain, vomiting, or systemic toxicity\nNeed for IV hydration, monitoring, or further imaging\nEvidence of complications (e.g., pseudocyst, cholangitis, organ dysfunction)\nDischarge may be appropriate if:\nMild, incidental hyperamylasemia without systemic signs\nIdentified non-critical cause (e.g., resolved salivary gland infection)\nReliable outpatient follow-up available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Pancreatitis\nAbdominal Pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

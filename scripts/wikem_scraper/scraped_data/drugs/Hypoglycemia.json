@@ -1,0 +1,628 @@
+{
+  "drug_name": "Hypoglycemia",
+  "url": "https://wikem.org/wiki/Hypoglycemia",
+  "scraped_at": "2026-01-10T07:55:13.306335",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\nhypoglycemia. See\nnon-neonatal hypoglycemia (peds)\nor\nneonatal hypoglycemia\nfor pediatric patients.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Brain depends on glucose as primary source of energy, but is unable to synthesize or store glucose",
+      "subsections": {
+        "Common_Anti-hyperglycemic_Drugs_and_Pharmacology": {
+          "text": "See also\nGLP-1 agonists",
+          "tables": [
+            [
+              {
+                "Drug": "Onset",
+                "Pharmacology": "Peak"
+              },
+              {
+                "Drug": "Rapid-acting insulinAspart (Novolog)Lispro (Humalog)",
+                "Pharmacology": "15-30min"
+              },
+              {
+                "Drug": "Short-acting insulinRegular",
+                "Pharmacology": "30-60min"
+              },
+              {
+                "Drug": "Intermediate-acting insulinNPH (Humulin, Novolin)",
+                "Pharmacology": "1-3h"
+              },
+              {
+                "Drug": "Long-acting insulinGlargine (Lantus)",
+                "Pharmacology": "2-4h"
+              },
+              {
+                "Drug": "SulfonylureaGlimepirideGlipizide (Glucotrol)Glyburide (Glycron, Micronase)",
+                "Pharmacology": "–"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GLP-1 agonists",
+          "url": "https://wikem.org/wiki/GLP-1_agonists"
+        }
+      ]
+    },
+    "Common_Anti-hyperglycemic_Drugs_and_Pharmacology": {
+      "text": "See also\nGLP-1 agonists",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Onset",
+            "Pharmacology": "Peak"
+          },
+          {
+            "Drug": "Rapid-acting insulinAspart (Novolog)Lispro (Humalog)",
+            "Pharmacology": "15-30min"
+          },
+          {
+            "Drug": "Short-acting insulinRegular",
+            "Pharmacology": "30-60min"
+          },
+          {
+            "Drug": "Intermediate-acting insulinNPH (Humulin, Novolin)",
+            "Pharmacology": "1-3h"
+          },
+          {
+            "Drug": "Long-acting insulinGlargine (Lantus)",
+            "Pharmacology": "2-4h"
+          },
+          {
+            "Drug": "SulfonylureaGlimepirideGlipizide (Glucotrol)Glyburide (Glycron, Micronase)",
+            "Pharmacology": "–"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "GLP-1 agonists",
+          "url": "https://wikem.org/wiki/GLP-1_agonists"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Neuroglycopenic": {
+          "text": "Altered mental status\n, lethargy, confusion\nFocal neurologic deficits\n, visual disturbances\nSeizure\nUnresponsiveness",
+          "tables": []
+        },
+        "Autonomic": {
+          "text": "Glucose levels < 55 mg/dL cause catecholamine surge\n[2]\nAnxiety\n, nervousness, irritability\nNausea and vomiting\nPalpitations\nTremor\nChanges in pupil size\nTachycardia\nor\nbradycardia\nSalivation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Neuroglycopenic": {
+      "text": "Altered mental status\n, lethargy, confusion\nFocal neurologic deficits\n, visual disturbances\nSeizure\nUnresponsiveness",
+      "subsections": {
+        "Autonomic": {
+          "text": "Glucose levels < 55 mg/dL cause catecholamine surge\n[2]\nAnxiety\n, nervousness, irritability\nNausea and vomiting\nPalpitations\nTremor\nChanges in pupil size\nTachycardia\nor\nbradycardia\nSalivation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Autonomic": {
+      "text": "Glucose levels < 55 mg/dL cause catecholamine surge\n[2]\nAnxiety\n, nervousness, irritability\nNausea and vomiting\nPalpitations\nTremor\nChanges in pupil size\nTachycardia\nor\nbradycardia\nSalivation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Drugs": {
+          "text": "Anti-hyperglycemic\nInsulin\nOral secretagogue\nSulfonylurea toxicity\nOther\nEtOH\nB-blocker\nACEI\nAcetaminophen (OD)",
+          "tables": []
+        },
+        "Systemic_Illness": {
+          "text": "Critical Illness\nSepsis\nMI\nOrgan Failure\nHepatic failure\nRenal failure\nEndocrinopathy\nAdrenal insufficiency\nSeizure\nInborn errors of metabolism",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Insulinoma\nNon-islet cell\nInsulin/receptor autoantibodies\nHigh tumor burden",
+          "tables": []
+        },
+        "Other": {
+          "text": "Artifactual\nSpecimen collection\nConsumption\nLeukemia\nErythrocytosis\nHemolytic disease\nPost-surgical\nGastric bypass\nGastrectomy\nPyloroplasty\nStarvation\nAnorexia nervosa",
+          "tables": []
+        },
+        "Precipitants_of_anti-hyperglycemic_induced_hypoglycemia": {
+          "text": "Decreased glucose\nMissed meal\nConsumption (exercise, illness)\nIncreased drug\nError (patient, provider)\nIntentional overdose\nIncreased availability\nHepatic failure\nRenal failure\nDrug interaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Sulfonylurea toxicity",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/B-blocker"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Acetaminophen (OD)",
+          "url": "https://wikem.org/wiki/Acetaminophen_Overdose"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Hemolytic disease",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Gastric bypass",
+          "url": "https://wikem.org/wiki/Gastric_bypass_surgery"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Hypoglycemia": {
+      "text": "",
+      "subsections": {
+        "Drugs": {
+          "text": "Anti-hyperglycemic\nInsulin\nOral secretagogue\nSulfonylurea toxicity\nOther\nEtOH\nB-blocker\nACEI\nAcetaminophen (OD)",
+          "tables": []
+        },
+        "Systemic_Illness": {
+          "text": "Critical Illness\nSepsis\nMI\nOrgan Failure\nHepatic failure\nRenal failure\nEndocrinopathy\nAdrenal insufficiency\nSeizure\nInborn errors of metabolism",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Insulinoma\nNon-islet cell\nInsulin/receptor autoantibodies\nHigh tumor burden",
+          "tables": []
+        },
+        "Other": {
+          "text": "Artifactual\nSpecimen collection\nConsumption\nLeukemia\nErythrocytosis\nHemolytic disease\nPost-surgical\nGastric bypass\nGastrectomy\nPyloroplasty\nStarvation\nAnorexia nervosa",
+          "tables": []
+        },
+        "Precipitants_of_anti-hyperglycemic_induced_hypoglycemia": {
+          "text": "Decreased glucose\nMissed meal\nConsumption (exercise, illness)\nIncreased drug\nError (patient, provider)\nIntentional overdose\nIncreased availability\nHepatic failure\nRenal failure\nDrug interaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Sulfonylurea toxicity",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/B-blocker"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Acetaminophen (OD)",
+          "url": "https://wikem.org/wiki/Acetaminophen_Overdose"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Hemolytic disease",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Gastric bypass",
+          "url": "https://wikem.org/wiki/Gastric_bypass_surgery"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Patients with known diabetes who are not systemically ill and can identify a clear precipitant, no extensive workup is required.\nIn severely ill patients, consider:\nBMP\nLFT\nEtOH\nInfectious workup:\nCXR\n, UA, urine and blood cultures\nECG\n,\ntroponin\nOther studies (not normally done in ED): insulin, C-peptide, pro-insulin, glucagon, growth hormone, cortisol, B-OH, insulin antibodies\nExogenous insulin shows suppressed C-peptide levels (artificial insulin does not contain C-peptide)\nMEN-1 genetic testing for insulinoma suspicion\n[3]\nElevated proinsulin and C-peptide during hypoglycemic episode in context of insulinoma",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "\"Whipple's Triad\"\nSymptoms suggestive of hypoglycemia\nSee\nClinical Features\nLow glucose\nSerum glucose <60mg/dL\nGenerally symptomatic at <55mg/dL though threshold is variable depending on chronicity\nResolution of symptoms after administration of glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Patients with known diabetes who are not systemically ill and can identify a clear precipitant, no extensive workup is required.\nIn severely ill patients, consider:\nBMP\nLFT\nEtOH\nInfectious workup:\nCXR\n, UA, urine and blood cultures\nECG\n,\ntroponin\nOther studies (not normally done in ED): insulin, C-peptide, pro-insulin, glucagon, growth hormone, cortisol, B-OH, insulin antibodies\nExogenous insulin shows suppressed C-peptide levels (artificial insulin does not contain C-peptide)\nMEN-1 genetic testing for insulinoma suspicion\n[3]\nElevated proinsulin and C-peptide during hypoglycemic episode in context of insulinoma",
+      "subsections": {
+        "Diagnosis": {
+          "text": "\"Whipple's Triad\"\nSymptoms suggestive of hypoglycemia\nSee\nClinical Features\nLow glucose\nSerum glucose <60mg/dL\nGenerally symptomatic at <55mg/dL though threshold is variable depending on chronicity\nResolution of symptoms after administration of glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "\"Whipple's Triad\"\nSymptoms suggestive of hypoglycemia\nSee\nClinical Features\nLow glucose\nSerum glucose <60mg/dL\nGenerally symptomatic at <55mg/dL though threshold is variable depending on chronicity\nResolution of symptoms after administration of glucose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If awake and able to tolerate POs\nOral glucose\nIf\naltered mental status\nor otherwise unable to tolerate POs\nDextrose\n50% 50mL bolus IV (equals \"one amp\")\nContains 25g glucose\nGlucagon\n1mg SC or IM (if unable to achieve IV access)\n[5]\nOnset of action slower than IV dextrose (7-10min)\nEfficacy dependent on hepatic glycogen stores (less effective in chronic ETOH, cirrhosis, malnourished, neonate, in-born errors, glycogen storage disease, etc.)\n[6]",
+      "subsections": {
+        "Activated_charcoal": {
+          "text": "Administer activated charcoal, preferably within 1 hr of ingestion\nMultiple doses may be beneficial, especially for glipizide",
+          "tables": []
+        },
+        "Glucose_Treatment": {
+          "text": "Initial therapy regardless of known cause\nAdults\n50mL\nD50W\nbolus\nStart a D10 1/2NS drip  (100mL/hr)\nChildren\n1mL/kg of D50W OR\n2mL/kg D25W OR 5-10mL/kg D10W\nNeonate: 5-10 mL/kg D10W",
+          "tables": []
+        },
+        "Octreotide": {
+          "text": "Theoretical benefit to reduce risk of recurrent hypoglycemia\nHyperpolarization of the beta cell results in inhibition of Ca influx and prevents insulin release\n50-100 mcg subcutaneous in adults with repeat dosing Q6hrs\n2 mcg/kg (max 150mcg) subcutaneously Q6hrs should be used in children\nContinuous infusion of 50-125 mcg/hr is an alternative in adults\nAdminister octreotide for 24 hours, then after discontinuing, monitor for hypoglycemia for another 24 hours",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Glucagon\n5mg IM may be used as temporizing measure, e.g. while obtaining IV access\nDependent on glycogen stores which may be depleted in prolonged hypoglycemia\nAlso short duration of action\nCaution in using\nglucagon\ndrip\nGlucagon\nalso has an insulin-releasing effect\nMay subsequently cause initial paradoxical hypoglycemia",
+          "tables": []
+        },
+        "Hypoglycemia_from_Long_Acting_Insulin": {
+          "text": "Similar treatment as for Sulfonylureas except no role for Octreotide\nTreatment should include oral intake as well as maintenance glucose containing drip either D5 or D10",
+          "tables": []
+        },
+        "Insulinoma": {
+          "text": "Symptomatic management as above\nShort acting octreotide, start at 50 μg SC TID, max 1500 μg per day\nSSTR2 and SSTR5 receptors at various levels on insulinomas, producing different response levels\nOctreotide can inhibit growth hormone and glucagon secretion, thereby worsening hypoglycemia in some pts\n[12]\nLong term medical management prior to surgery\nDiazoxide\n, start at 50 mg TID, max 400 mg per day, effective in ~50% of pts\nLong acting\noctreotide\n, 30 mg IM q28 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Diazoxide",
+          "url": "https://wikem.org/wiki/Diazoxide"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        }
+      ]
+    },
+    "Hypoglycemia_from_Long_Acting_Insulin": {
+      "text": "Similar treatment as for Sulfonylureas except no role for Octreotide\nTreatment should include oral intake as well as maintenance glucose containing drip either D5 or D10",
+      "subsections": {
+        "Insulinoma": {
+          "text": "Symptomatic management as above\nShort acting octreotide, start at 50 μg SC TID, max 1500 μg per day\nSSTR2 and SSTR5 receptors at various levels on insulinomas, producing different response levels\nOctreotide can inhibit growth hormone and glucagon secretion, thereby worsening hypoglycemia in some pts\n[12]\nLong term medical management prior to surgery\nDiazoxide\n, start at 50 mg TID, max 400 mg per day, effective in ~50% of pts\nLong acting\noctreotide\n, 30 mg IM q28 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diazoxide",
+          "url": "https://wikem.org/wiki/Diazoxide"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        }
+      ]
+    },
+    "Insulinoma": {
+      "text": "Symptomatic management as above\nShort acting octreotide, start at 50 μg SC TID, max 1500 μg per day\nSSTR2 and SSTR5 receptors at various levels on insulinomas, producing different response levels\nOctreotide can inhibit growth hormone and glucagon secretion, thereby worsening hypoglycemia in some pts\n[12]\nLong term medical management prior to surgery\nDiazoxide\n, start at 50 mg TID, max 400 mg per day, effective in ~50% of pts\nLong acting\noctreotide\n, 30 mg IM q28 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diazoxide",
+          "url": "https://wikem.org/wiki/Diazoxide"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission or observation for oral anti-hyperglycemic agent or intermediate- to long-acting insulin. Consider discharge after 4h uneventful observation if:\n[13]\nHypoglycemia\nfully and rapidly reversed without continuous infusion of dextrose\nTolerated a full meal in ED\nClear and innocuous cause identified with recurrence unlikely\nAdequate patient understanding, home support/monitoring, and ability to detect/prevent recurrence with close primary care follow-up",
+      "subsections": {
+        "Insulinoma": {
+          "text": "Admission for 48-72 hrs of monitored fasting with q4 BGLs, insulin, C-peptide, proinsulin\nThen localization studies with US, CT, or MRI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes Mellitus (Main)\nHypoglycemia (peds)\nNeonatal hypoglycemia\nCritical care quick reference",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Mellitus (Main)",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus_(Main)"
+        },
+        {
+          "text": "Hypoglycemia (peds)",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Neonatal hypoglycemia",
+          "url": "https://wikem.org/wiki/Neonatal_hypoglycemia"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    }
+  }
+}

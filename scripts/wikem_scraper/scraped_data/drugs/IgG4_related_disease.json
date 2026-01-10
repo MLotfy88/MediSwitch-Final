@@ -1,0 +1,48 @@
+{
+  "drug_name": "IgG4_related_disease",
+  "url": "https://wikem.org/wiki/IgG4_related_disease",
+  "scraped_at": "2026-01-10T07:55:20.318694",
+  "sections": {
+    "Background": {
+      "text": "IgG4-related disease (IgG4-RD) is a systemic fibroinflammatory illness of unknown etiology\nIt's a multi organ disease that most commonly affects the pancreas, kidneys, retroperitoneum, salivary glands and orbits",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "No specific symptoms as it is dependent on which organs are affected\nAutoimmune pancreatitis is the most common presentation of IgG4-RD and can be mistaken for malignancy\n[1]\nPatients do not typically experience generalized symptoms such as fevers or night sweats",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Pancreatic cancer\nSjogren's syndrome\nPrimary sclerosing cholangitis\nRetroperitoneal fibrosis\nCastleman disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Typically, diagnosis not made in the ED",
+      "subsections": {
+        "Outpatient_Workup": {
+          "text": "Tissue biopsy with IgG stain is required for diagnosis\nSerum IgG4 levels are usually elevated and helpful for diagnosis and also helpful for serial monitoring\nC3 and C4 complement levels may be decreased\nTotal serum IgG levels may also be elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Outpatient_Workup": {
+      "text": "Tissue biopsy with IgG stain is required for diagnosis\nSerum IgG4 levels are usually elevated and helpful for diagnosis and also helpful for serial monitoring\nC3 and C4 complement levels may be decreased\nTotal serum IgG levels may also be elevated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Prednisone at higher doses is the current standard treatment\nFurther immunosuppression may be warranted based on response to prednisone\nConsultation with a rheumatologist is usually necessary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

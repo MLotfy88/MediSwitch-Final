@@ -1,0 +1,730 @@
+{
+  "drug_name": "Hyoscyamine",
+  "url": "https://wikem.org/wiki/Hyoscyamine",
+  "scraped_at": "2026-01-10T07:55:03.961000",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticholinergic\nDosage Forms: TAB 0.125mg; SL TAB: 0.125mg; INJ: 0.5 mg/mL; Drops 0.125 mg/mL\nRoutes of Administration: Oral, sublingual, IM/IV\nCommon Trade Names: Levsin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "GI_Tract_spasm": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Bladder_spasm": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "IBS,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "PUD,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Parkinson's_disease,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Biliary_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "GI_Tract_spasm": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "Bladder_spasm": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "IBS,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "PUD,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Parkinson's_disease,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Biliary_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bladder_spasm": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "IBS,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "PUD,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Parkinson's_disease,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Biliary_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IBS,_adjunct_tx": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "PUD,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Parkinson's_disease,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Biliary_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "PUD,_adjunct_tx": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "Parkinson's_disease,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Biliary_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parkinson's_disease,_adjunct_tx": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "Biliary_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Biliary_colic,_adjunct_tx": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "Renal_colic,_adjunct_tx": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_colic,_adjunct_tx": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "Rhinitis": {
+          "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+          "tables": []
+        },
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rhinitis": {
+      "text": "0.125-0.25 mg PO/SL q4h prn\nMax: 1.5 mg/day",
+      "subsections": {
+        "Diagnostic_procedures": {
+          "text": "0.25-0.5mg SC/IM/IV x1",
+          "tables": []
+        },
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnostic_procedures": {
+      "text": "0.25-0.5mg SC/IM/IV x1",
+      "subsections": {
+        "Anesthesia_adjunct": {
+          "text": "5mcg/kg SC/IM/IV x1",
+          "tables": []
+        },
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anesthesia_adjunct": {
+      "text": "5mcg/kg SC/IM/IV x1",
+      "subsections": {
+        "Surgery_adjunct": {
+          "text": "0.125 mg IV prn",
+          "tables": []
+        },
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Surgery_adjunct": {
+      "text": "0.125 mg IV prn",
+      "subsections": {
+        "Cholinesterase_overdose": {
+          "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cholinesterase_overdose": {
+      "text": "Give 0.3-0.6 mg IV for each 0.5-2 mg neostigmine or physostigmine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Colic,_infantile": {
+          "text": "<2 yo, 3.4-4.9 kg\n4 drops PO q4h prn\n<2 yo, 5-6.9 kg\n5 drops PO q4h prn\n<2 yo, 7-9.9 kg\n6 drops PO q4h prn\n<2 yo, >10 kg\n8 drops PO q4h prn",
+          "tables": []
+        },
+        "Bladder_or_GI_Tract_spasm": {
+          "text": "2-11 yo\n0.0625-0.125 mg PO/SL q4h prn\n12+ yo\n0.125-0.25 mg PO/SL q4h prn",
+          "tables": []
+        },
+        "Anesthesia_adjunct_2": {
+          "text": ">2 yo\n5 mcg/kg SC/IM/IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Colic,_infantile": {
+      "text": "<2 yo, 3.4-4.9 kg\n4 drops PO q4h prn\n<2 yo, 5-6.9 kg\n5 drops PO q4h prn\n<2 yo, 7-9.9 kg\n6 drops PO q4h prn\n<2 yo, >10 kg\n8 drops PO q4h prn",
+      "subsections": {
+        "Bladder_or_GI_Tract_spasm": {
+          "text": "2-11 yo\n0.0625-0.125 mg PO/SL q4h prn\n12+ yo\n0.125-0.25 mg PO/SL q4h prn",
+          "tables": []
+        },
+        "Anesthesia_adjunct_2": {
+          "text": ">2 yo\n5 mcg/kg SC/IM/IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bladder_or_GI_Tract_spasm": {
+      "text": "2-11 yo\n0.0625-0.125 mg PO/SL q4h prn\n12+ yo\n0.125-0.25 mg PO/SL q4h prn",
+      "subsections": {
+        "Anesthesia_adjunct_2": {
+          "text": ">2 yo\n5 mcg/kg SC/IM/IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anesthesia_adjunct_2": {
+      "text": ">2 yo\n5 mcg/kg SC/IM/IV x1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Caution advised",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Caution advised\nPediatric: Caution advised",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised\nPediatric: Caution advised",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Caution advised\nPediatric: Caution advised",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised\nPediatric: Caution advised",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Caution advised\nPediatric: Caution advised",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nGlaucoma\nGI obstruction or ileus\nIntestinal atony in elderly pts\nUlcerative colitis\nObstructive uropathy\nProstatic hypertrophy\nMI\nUnstable cardiovascular status\nAutonomic neuropathy\nToxic megacolon\nMyasthenia gravis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nHeat stroke\nIOP increase\nPsychosis\n, anticholinergic\nHallucinations",
+          "tables": []
+        },
+        "Common": {
+          "text": "Xerostermia\nDry eyes, blurred vision, mydriasis, cycloplegia\nUrinary retention,\nconstipation\n,\nnausea\n,\nvomiting\nConfusion, impaired memory, excitement, nervousness\nTachycardia\n,\npalpitations\nAnhidrosis, flushing\nLoss of taste\nHeadache\n,\nDizziness\nAtaxia\nDrowsiness, weakness, insomnia\nFever\nImpotence, lactation suppression\nUrticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "Hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nHeat stroke\nIOP increase\nPsychosis\n, anticholinergic\nHallucinations",
+      "subsections": {
+        "Common": {
+          "text": "Xerostermia\nDry eyes, blurred vision, mydriasis, cycloplegia\nUrinary retention,\nconstipation\n,\nnausea\n,\nvomiting\nConfusion, impaired memory, excitement, nervousness\nTachycardia\n,\npalpitations\nAnhidrosis, flushing\nLoss of taste\nHeadache\n,\nDizziness\nAtaxia\nDrowsiness, weakness, insomnia\nFever\nImpotence, lactation suppression\nUrticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "Hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Xerostermia\nDry eyes, blurred vision, mydriasis, cycloplegia\nUrinary retention,\nconstipation\n,\nnausea\n,\nvomiting\nConfusion, impaired memory, excitement, nervousness\nTachycardia\n,\npalpitations\nAnhidrosis, flushing\nLoss of taste\nHeadache\n,\nDizziness\nAtaxia\nDrowsiness, weakness, insomnia\nFever\nImpotence, lactation suppression\nUrticaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3.5 hr (7.5 hr ER form)\nMetabolism: Liver\nExcretion: Urine primarily (30-50% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Antagonizes acetylcholine receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

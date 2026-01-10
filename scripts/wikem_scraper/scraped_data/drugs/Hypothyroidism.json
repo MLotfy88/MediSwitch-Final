@@ -1,0 +1,580 @@
+{
+  "drug_name": "Hypothyroidism",
+  "url": "https://wikem.org/wiki/Hypothyroidism",
+  "scraped_at": "2026-01-10T07:55:14.180233",
+  "sections": {
+    "Background": {
+      "text": "3-10x more common in females\nPeak incidence age >60\nEmergent manifestation of severe hypothyroid =\nmyxedema coma",
+      "subsections": {
+        "Etiology": {
+          "text": "Primary\nAutoimmune (Hashimoto)\nThyroiditis\n(subacute, silent, postpartum)\nOften preceded by hyperthyroid phase\nIodine deficiency\nAfter ablation (surgical, radioiodine)\nAfter external radiation\nInfiltrative disease (lymphoma, sarcoid, amyloid,\nTB\n)\nCongenital\nMeds\nAmiodarone\n,\nlithium\n, iodine,\nInterferon-α\n, interleukin\nIdiopathic\nSecondary\nPanhypopituitarism\nPituitary adenoma\nInfiltrative causes (e.g.,\nhemochromatosis\n,\nsarcoidosis\n)\nTumors\nimpinging on the hypothalamus\nHistory of brain irradiation\nInfection (e.g.,\ntuberculosis\n)",
+          "tables": []
+        },
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Tumors",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Primary\nAutoimmune (Hashimoto)\nThyroiditis\n(subacute, silent, postpartum)\nOften preceded by hyperthyroid phase\nIodine deficiency\nAfter ablation (surgical, radioiodine)\nAfter external radiation\nInfiltrative disease (lymphoma, sarcoid, amyloid,\nTB\n)\nCongenital\nMeds\nAmiodarone\n,\nlithium\n, iodine,\nInterferon-α\n, interleukin\nIdiopathic\nSecondary\nPanhypopituitarism\nPituitary adenoma\nInfiltrative causes (e.g.,\nhemochromatosis\n,\nsarcoidosis\n)\nTumors\nimpinging on the hypothalamus\nHistory of brain irradiation\nInfection (e.g.,\ntuberculosis\n)",
+      "subsections": {
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Tumors",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Spectrum_of_Thyroid_Disease": {
+      "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Constitutional\nCold intolerance,\nhypothermia\nWeight gain\nWeakness\nor fatigue\nLethargy\nHoarse voice\nConstipation\nDysfunctional\nuterine bleeding\nNeuropsychiatric\nDelayed relaxation of DTRs\nParesthesias\nCardiopulmonary\nBradycardia\nHypoventilation\nPericardial\n/\npleural effusions\nDermatologic\nHair loss\nNon-pitting edema (periorbital, extremities)\nFacial swelling",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "uterine bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Pericardial",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "pleural effusions",
+          "url": "https://wikem.org/wiki/Pleural_effusions"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Addison's disease\nChronic fatigue syndrome\nConstipation\nDepression\nSick Euthyroidism\nHypopituitarism\nHypothermia\nIodine Deficiency",
+      "subsections": {
+        "Symptomatic_bradycardia": {
+          "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        }
+      ]
+    },
+    "Symptomatic_bradycardia": {
+      "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "TSH\nTotal and Free T4\nTotal and Free T3\nThyroid Binding Globulin (TBG)\nAuto-antibodies (anti-TPO, anti-microsomal, anti-Tg)\nThyroid ultrasound\nECG\n- bradycardia, low voltage\nVBG\n- hypercapnia from hypoventilation, possibly compensated if chronic",
+          "tables": []
+        },
+        "Categorization": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Primary",
+                "Cause": "Failure of thyroid",
+                "TSH": "Elevated",
+                "FT4": "Low"
+              },
+              {
+                "Type": "Secondary",
+                "Cause": "Failure of pituitary",
+                "TSH": "Low",
+                "FT4": "Low"
+              },
+              {
+                "Type": "Tertiary",
+                "Cause": "Failure of hypothalamus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "TSH\nTotal and Free T4\nTotal and Free T3\nThyroid Binding Globulin (TBG)\nAuto-antibodies (anti-TPO, anti-microsomal, anti-Tg)\nThyroid ultrasound\nECG\n- bradycardia, low voltage\nVBG\n- hypercapnia from hypoventilation, possibly compensated if chronic",
+      "subsections": {
+        "Categorization": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Primary",
+                "Cause": "Failure of thyroid",
+                "TSH": "Elevated",
+                "FT4": "Low"
+              },
+              {
+                "Type": "Secondary",
+                "Cause": "Failure of pituitary",
+                "TSH": "Low",
+                "FT4": "Low"
+              },
+              {
+                "Type": "Tertiary",
+                "Cause": "Failure of hypothalamus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        }
+      ]
+    },
+    "Categorization": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Primary",
+            "Cause": "Failure of thyroid",
+            "TSH": "Elevated",
+            "FT4": "Low"
+          },
+          {
+            "Type": "Secondary",
+            "Cause": "Failure of pituitary",
+            "TSH": "Low",
+            "FT4": "Low"
+          },
+          {
+            "Type": "Tertiary",
+            "Cause": "Failure of hypothalamus"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Depends on etiology\n[1]\n[2]\nIf treatment started, initiate low dose as daily doses too high may lead to\nthyroid storm",
+      "subsections": {
+        "Primary_(Central)_Hypothyroidism": {
+          "text": "Consider starting low dose\nlevothyroxine\nat 25mcg daily\nClose follow-up with primary care or endocrinology",
+          "tables": []
+        },
+        "Subclinical_Hypothyroidism": {
+          "text": "TSH ≥10 mU/L\nStart low dose\nlevothyroxine\nat 25mcg daily with close outpatient follow up\nPatients are at higher risk for atherosclerosis, myocardial infarction, and risk of progression to overt hypothyroidism\nThe American Thyroid Association (ATA), American Association of Clinical Endocrinologists (AACE) and the European Thyroid Association guidelines recommend initiating treatment\n[3]\n[4]\nTSH 7.0 to 9.9 mU/L\n<65 years old\nStart low dose\nlevothyroxine\nat 25mcg daily with close outpatient follow up\n>65 years old\nRisk of over treatment vs. benefit is unclear\n[5]\nIf patient has signs and symptoms of hypothyroidism, consider endocrinology consult prior to initiating treatment\nTSH between upper limit of normal to 6.9 mU/L\n<65 years old\nInitiate low dose\nlevothyroxine\nat 25mcg daily only if patient has signs and symptoms of hypothyroidism\n>65 years old\nMay be normal for older age, do not initiate treatment\nClose outpatient follow-up for repeat labs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        }
+      ]
+    },
+    "Subclinical_Hypothyroidism": {
+      "text": "TSH ≥10 mU/L\nStart low dose\nlevothyroxine\nat 25mcg daily with close outpatient follow up\nPatients are at higher risk for atherosclerosis, myocardial infarction, and risk of progression to overt hypothyroidism\nThe American Thyroid Association (ATA), American Association of Clinical Endocrinologists (AACE) and the European Thyroid Association guidelines recommend initiating treatment\n[3]\n[4]\nTSH 7.0 to 9.9 mU/L\n<65 years old\nStart low dose\nlevothyroxine\nat 25mcg daily with close outpatient follow up\n>65 years old\nRisk of over treatment vs. benefit is unclear\n[5]\nIf patient has signs and symptoms of hypothyroidism, consider endocrinology consult prior to initiating treatment\nTSH between upper limit of normal to 6.9 mU/L\n<65 years old\nInitiate low dose\nlevothyroxine\nat 25mcg daily only if patient has signs and symptoms of hypothyroidism\n>65 years old\nMay be normal for older age, do not initiate treatment\nClose outpatient follow-up for repeat labs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most hypothyroidism is treated as an outpatient\nAdmit and treat severe hypothyroidism or\nmyxedema coma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Myxedema coma\nThyroid (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Thyroid (Main)",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        }
+      ]
+    }
+  }
+}

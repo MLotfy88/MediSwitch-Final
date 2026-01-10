@@ -1,0 +1,134 @@
+{
+  "drug_name": "Hypermagnesemia",
+  "url": "https://wikem.org/wiki/Hypermagnesemia",
+  "scraped_at": "2026-01-10T07:55:06.038937",
+  "sections": {
+    "Background": {
+      "text": "High >3.5\nMagnesium is an effective calcium channel blocker both extracellularly and intracellularly\n[1]\nIntracellular magnesium profoundly blocks several cardiac potassium channels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nausea and vomiting\nLoss of reflexes and\ndiaphragmatic paralysis\n(at very high levels)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Mg Level": "2-3",
+            "Signs/Symptoms": "Nausea"
+          },
+          {
+            "Mg Level": "3-4",
+            "Signs/Symptoms": "Somnolence"
+          },
+          {
+            "Mg Level": "4-8",
+            "Signs/Symptoms": "Loss of DTRs, muscle weakness"
+          },
+          {
+            "Mg Level": "8-12",
+            "Signs/Symptoms": "Respiratory depression"
+          },
+          {
+            "Mg Level": "12-15",
+            "Signs/Symptoms": "Hypotension,heart block,Cardiac Arrest, death"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "diaphragmatic paralysis",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Renal Failure\nLithium\nVolume depletion\nRhabdo\nIV Mg (goal in PET/\neclampsia\n5-7 mEq/L)\nMassive PO intake (\nlaxative abusers\n, accidental Epsom salts)\nMagnesium enemas\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Volume depletion",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "laxative abusers",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Magnesium level >3.5",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IVF\nFurosemide\n20-40mg IV\nCalcium chloride\n10% 5-10mL IV or\ncalcium gluconate\n10% 15-30mL IV  over 5min\nConsider hemodialysis for Mg >8 or poor renal function",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Electrolyte Abnormalities (Main)\nHypomagnesemia\nPreeclampsia\nQT prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Electrolyte Abnormalities (Main)",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities_(Main)"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    }
+  }
+}

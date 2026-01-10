@@ -1,0 +1,538 @@
+{
+  "drug_name": "Hypoxemia",
+  "url": "https://wikem.org/wiki/Hypoxemia",
+  "scraped_at": "2026-01-10T07:55:14.654590",
+  "sections": {
+    "Background": {
+      "text": "Defined as PaO2 <60 mm Hg\nAmount of oxygen available is a function of the arterial oxygen content and blood flow\nOccurs in states of low CO, low hemoglobin, or low SaO2 (arterial oxygen saturation)\nRelative Hypoxemia\nPaO2 is < expected for given level of inhaled O2 (e.g. PaO2 of 100 on FiO2 100%)\nCan calculate amount of relative hypoxemia by A-a gradient\nP(A-a)O2 = 145 – PaCO2 – PaO2 (normal is <10 in young, healthy patients)",
+      "subsections": {
+        "Causes": {
+          "text": "Hypoventilation\nAlways associated with increased PaCO2\nNormal A-a gradient\nRight-to-left shunt\nOccurs when blood enters the systemic arteries with out traversing ventilated lung\nOccurs with pulmonary consolidation, atelectasis\nHallmark is failure of arterial O2 levels to increase with supplemental O2 (increased A-a)\nV/Q mismatch\nPE, pneumonia, asthma, COPD\nImproves with supplemental O2\nA-a gradient increased\nDiffusion impairment\nImproves with supplemental O2\nA-a gradient increased\nLow inspired O2\nImproves with supplemental O2\nA-a gradient normal",
+          "tables": []
+        },
+        "Compensation": {
+          "text": "Increased minute ventilation\nPulmonary arterial vasoconstriction\nIncreased sympathetic tone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Hypoventilation\nAlways associated with increased PaCO2\nNormal A-a gradient\nRight-to-left shunt\nOccurs when blood enters the systemic arteries with out traversing ventilated lung\nOccurs with pulmonary consolidation, atelectasis\nHallmark is failure of arterial O2 levels to increase with supplemental O2 (increased A-a)\nV/Q mismatch\nPE, pneumonia, asthma, COPD\nImproves with supplemental O2\nA-a gradient increased\nDiffusion impairment\nImproves with supplemental O2\nA-a gradient increased\nLow inspired O2\nImproves with supplemental O2\nA-a gradient normal",
+      "subsections": {
+        "Compensation": {
+          "text": "Increased minute ventilation\nPulmonary arterial vasoconstriction\nIncreased sympathetic tone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Compensation": {
+      "text": "Increased minute ventilation\nPulmonary arterial vasoconstriction\nIncreased sympathetic tone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Acute_dyspnea": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Shortness of breath\nHypercapnia\nPost-hypoxic myoclonus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        }
+      ]
+    }
+  }
+}

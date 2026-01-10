@@ -1,0 +1,96 @@
+{
+  "drug_name": "IVC_filter",
+  "url": "https://wikem.org/wiki/IVC_filter",
+  "scraped_at": "2026-01-10T07:55:16.887109",
+  "sections": {
+    "Background": {
+      "text": "not meant to treat anything, just prevent PE\n>10 differents filters now in use\nmost new ones are retrievable\nrecent marked increase in IVC filter use (since 2003 introduction of retrievable filters)\nprophylactic filter uses expanding in spinal surgery, bariatric surgery and percutaneous endovenous intervention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "",
+      "subsections": {
+        "American_College_of_Chest_Physicians_(ACCP)": {
+          "text": "acute proximal\nDVTor\nPE\nwhere anticoagulation not possible because of bleeding risk (Grade 1B)\nacute\nDVTin\nchildren with contraindication to anticoagulation (2C)\nselected patients with DVT/PE despite adequate anticoagualation\nrecommend AGAINST placing filter in severe trauma patients for primary VTE prophylaxis (2C)\nrecommend AGAINST placing in major ortho surgery for primary VTE prophylaxis (2B)\nrecommned AGAINST placing filter and anticoagulation for high risk patients with documented DVT/PE (1B)",
+          "tables": []
+        },
+        "Eastern_Association_for_the_Surgery_of_Trauma_(EAST)_Guidelines": {
+          "text": "differ from ACCP guidelines in recommend IVC filter for trauma patients immobilized for prolonged period:\nsevere closed head injury (GCS<8)\nspinal cord injury (paraplegia, quadriplegia)\ncomplex pelvic fractures with long bone fractures\nmultiple long bone fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVTor",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVTin",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Early": {
+          "text": "puncture site hematoma\nmalposition or tilting of device\ndelivery system complications (guidewire mishap)\nfailure to open completely",
+          "tables": []
+        },
+        "Late": {
+          "text": "many retrievable IVC filters are placed with no systems mechanism for the timely removal placing patients are increased risk of delays complications:\ntilting of device (making it less effective)\nmigration of filter (to SVC or heart)\nfracturing of structs with embolization\nIVC perforation\nretroperitoneal hematoma\naortic pseudoaneurysms\nduodenal perforation\npenetration of pancreas, iliopsoas, vertebral body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Early": {
+      "text": "puncture site hematoma\nmalposition or tilting of device\ndelivery system complications (guidewire mishap)\nfailure to open completely",
+      "subsections": {
+        "Late": {
+          "text": "many retrievable IVC filters are placed with no systems mechanism for the timely removal placing patients are increased risk of delays complications:\ntilting of device (making it less effective)\nmigration of filter (to SVC or heart)\nfracturing of structs with embolization\nIVC perforation\nretroperitoneal hematoma\naortic pseudoaneurysms\nduodenal perforation\npenetration of pancreas, iliopsoas, vertebral body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Late": {
+      "text": "many retrievable IVC filters are placed with no systems mechanism for the timely removal placing patients are increased risk of delays complications:\ntilting of device (making it less effective)\nmigration of filter (to SVC or heart)\nfracturing of structs with embolization\nIVC perforation\nretroperitoneal hematoma\naortic pseudoaneurysms\nduodenal perforation\npenetration of pancreas, iliopsoas, vertebral body",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evidence_Based_Outcomes": {
+      "text": "the one randomized controlled study of IVC filters failed to show a mortality difference (out to 8yrs), although the IVC filter group did have a lower incidence of PE\nA clinical trial of vena cava filters in the prevention of pulmonary embolism in patients with proximal deep vein thrombosis. N Engl J Med. 1998 Feb 12;338(7):409-15",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary Embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rogers FB et al. Venous Thromboembolism: Role of Vena Cava Filters in Prophylaxis and Treatment of Pulmonary Embolism. J Trauma. 53(1):142-162;2002\nGuyatt GH et al. Executive Summary: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012 Feb;141:7-47.\nA clinical trial of vena cava filters in the prevention of pulmonary embolism in patients with proximal deep vein thrombosis. N Engl J Med. 1998 Feb 12;338(7):409-15",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

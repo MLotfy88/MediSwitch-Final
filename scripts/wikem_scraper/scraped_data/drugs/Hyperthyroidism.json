@@ -1,0 +1,893 @@
+{
+  "drug_name": "Hyperthyroidism",
+  "url": "https://wikem.org/wiki/Hyperthyroidism",
+  "scraped_at": "2026-01-10T07:55:13.727066",
+  "sections": {
+    "Background": {
+      "text": "Hyperthyroidism: Excess circulating hormone resulting from thyroid gland hyperfunction\nThyrotoxicosis\n: Excess circulating thyroid hormone originating from any cause",
+      "subsections": {
+        "Causes": {
+          "text": "Primary Hyperthyroidism\nGraves disease (toxic diffuse goitre)\nMost common cause of hyperthyroidism (85% of cases)\nAutoantibodies bind to TSH receptor and stimulate thyroid hormone production and release\n[1]\nAssociated with diffuse goitre, ophthalmopathy, local dermopathy\nStrong genetic relationship, often found with other autoimmune disorders\n[2]\nToxic multinodular goitre\n2nd most common cause\nMultiple autonomously functioning nodules\n[3]\nMilder, more gradual disease than Graves' hyperthyroidism\nToxic nodular (adenoma) goitre\nSingle hyperfunctioning nodule\nSimilar presentation to multinodular goitre, but less common\n[4]\nSecondary Hyperthyroidism\nThyrotropin-secreting pituitary adenoma\nThyroiditis\nHashimoto thyroiditis\nAutoimmune disorder\nThyroid antibodies and lymphocytic infiltration\n[5]\nPainless goitre\nInitially gland is overactive (hyperthyroidism state) followed by hypothyroidism\nSubacute painful thyroiditis (de Quervain thyroiditis)\n[6]\nMay be caused by viral infection\nViral prodrome followed by anterior neck pain\nTender thyroid (palpation, head movement, swallowing)\n50% have symptoms of hyperthyroid lasting 3 - 6 weeks\n1/3 have hypothyroidism for up to 6 months\nSubacute painless thyroiditis\n[7]\nSmall, non-tender goitre\nMild symptoms\nAutoimmune\nPostpartum thyroiditis\n[8]\n3 phases:\nThyrotoxic phase 2 -6 months postpartum (20-30% have only this phase)\nHypothyroid phase lasting 2 -3 months (but may be permanent) (40% have this phase only)\nEuthyroid phase within first postpartum year\nSome women develop permanent hypothyroidism\n70% recurrence in subsequent pregnancies\nSuppurative thyroiditis\n[9]\nRare\nLife-threatening\nInfection usually bacterial, but can be parasitic, mycobacterial, or fungal\nUsually have pre-existing thyroid disorder and immune compromise\nRadiation thyroiditis\nOther causes:\nApathetic thyrotoxicosis (elderly, masking comorbidities)\nMetastatic thyroid cancer\nIodine-induced thyrotoxicosis\nAmiodarone\n-induced thyroiditis\n[10]\nPossible mechanisms:\nDrug-induced destructive thyroiditis\nHyperthyroidism caused by iodine load (amiodarone contains a large amount of iodine)\nDrug-induced thyroiditis may also occur with interleukin-2,\nInterferon-α\n,\nlithium\n, tyrosine kinase inhibitors, HAART\nMolar pregnancy",
+          "tables": []
+        },
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Primary Hyperthyroidism\nGraves disease (toxic diffuse goitre)\nMost common cause of hyperthyroidism (85% of cases)\nAutoantibodies bind to TSH receptor and stimulate thyroid hormone production and release\n[1]\nAssociated with diffuse goitre, ophthalmopathy, local dermopathy\nStrong genetic relationship, often found with other autoimmune disorders\n[2]\nToxic multinodular goitre\n2nd most common cause\nMultiple autonomously functioning nodules\n[3]\nMilder, more gradual disease than Graves' hyperthyroidism\nToxic nodular (adenoma) goitre\nSingle hyperfunctioning nodule\nSimilar presentation to multinodular goitre, but less common\n[4]\nSecondary Hyperthyroidism\nThyrotropin-secreting pituitary adenoma\nThyroiditis\nHashimoto thyroiditis\nAutoimmune disorder\nThyroid antibodies and lymphocytic infiltration\n[5]\nPainless goitre\nInitially gland is overactive (hyperthyroidism state) followed by hypothyroidism\nSubacute painful thyroiditis (de Quervain thyroiditis)\n[6]\nMay be caused by viral infection\nViral prodrome followed by anterior neck pain\nTender thyroid (palpation, head movement, swallowing)\n50% have symptoms of hyperthyroid lasting 3 - 6 weeks\n1/3 have hypothyroidism for up to 6 months\nSubacute painless thyroiditis\n[7]\nSmall, non-tender goitre\nMild symptoms\nAutoimmune\nPostpartum thyroiditis\n[8]\n3 phases:\nThyrotoxic phase 2 -6 months postpartum (20-30% have only this phase)\nHypothyroid phase lasting 2 -3 months (but may be permanent) (40% have this phase only)\nEuthyroid phase within first postpartum year\nSome women develop permanent hypothyroidism\n70% recurrence in subsequent pregnancies\nSuppurative thyroiditis\n[9]\nRare\nLife-threatening\nInfection usually bacterial, but can be parasitic, mycobacterial, or fungal\nUsually have pre-existing thyroid disorder and immune compromise\nRadiation thyroiditis\nOther causes:\nApathetic thyrotoxicosis (elderly, masking comorbidities)\nMetastatic thyroid cancer\nIodine-induced thyrotoxicosis\nAmiodarone\n-induced thyroiditis\n[10]\nPossible mechanisms:\nDrug-induced destructive thyroiditis\nHyperthyroidism caused by iodine load (amiodarone contains a large amount of iodine)\nDrug-induced thyroiditis may also occur with interleukin-2,\nInterferon-α\n,\nlithium\n, tyrosine kinase inhibitors, HAART\nMolar pregnancy",
+      "subsections": {
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Spectrum_of_Thyroid_Disease": {
+      "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Constitutional signs:\nLethargy\nDiaphoresis\nWeakness\nFever\nHeat intolerance\nWeight loss\nNeuropsychiatric:\nEmotional lability\nFine\ntremor\nAnxiety\nMuscle wasting\nConfusion\nHyperreflexia\nComa\nPeriodic paralysis\nPsychosis\nOphthalmologic:\nDiplopia\nLid lag\nEye irritation\nExophthalmos\nOphthalmoplegia\nEndocrine:\nNeck fullness/tenderness (thyroid gland)\nCardiorespiratory:\nDyspnea\nWidened pulse pressure\nPalpitations\nSystolic\nhypertension\nChest pain\nSinus tachycardia\nAtrial fibrillation\nOccurs in 10-20% of patients and can revert to sinus rhythm when hyperthyroidism treated\nAtrial flutter\nCHF\nGI:\nDiarrhea\nHyperactive bowel sounds\nReproductive:\nOligomenorrhea\nGynecomastia\nTelangiectasia\nGynecologic:\nMenorrhagia\nSparse pubic hair\nHematologic:\nAnemia\nLeukocytosis\nDermatologic:\nHair loss\nPretibial myxedema\nWarm, moist skin\nPalmar erythema\nOnycholysis\nApathetic hyperthyroidism:\n(elderly patients)\n[11]\nPlacid apathetic facies\nDepression\nLethargy\nMuscular weakness and wasting\nExcessive weight loss\nCardiac\ndysrhythmias\nAbsent or small goiter\nAbsence of ocular symptoms\nAgitation\nand\nconfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Hair loss",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tachycardia": {
+          "text": "Anemia\nDehydration\nFever\nInfection\n,\nSepsis\nAnion gap acidosis\nHyperthyroid\nArrhythmia\nPE\nCHF\nMI\nTamponade\nMyocardial contusion\nCardiac\nvalvular disease\nHyper/\nhypoglycemia\nDrug intoxication\nDrug withdrawal\nToxicity\nASA\nTCA\nAnticholinergic\nTheophylline\nPain\nPsych (anger, fear)",
+          "tables": []
+        },
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroid"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Myocardial contusion",
+          "url": "https://wikem.org/wiki/Myocardial_contusion"
+        },
+        {
+          "text": "valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Drug intoxication",
+          "url": "https://wikem.org/wiki/Drug_overdose"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Tachycardia": {
+      "text": "Anemia\nDehydration\nFever\nInfection\n,\nSepsis\nAnion gap acidosis\nHyperthyroid\nArrhythmia\nPE\nCHF\nMI\nTamponade\nMyocardial contusion\nCardiac\nvalvular disease\nHyper/\nhypoglycemia\nDrug intoxication\nDrug withdrawal\nToxicity\nASA\nTCA\nAnticholinergic\nTheophylline\nPain\nPsych (anger, fear)",
+      "subsections": {
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroid"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Myocardial contusion",
+          "url": "https://wikem.org/wiki/Myocardial_contusion"
+        },
+        {
+          "text": "valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Drug intoxication",
+          "url": "https://wikem.org/wiki/Drug_overdose"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Palpitations": {
+      "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "TSH (↓)\nFree T4 (↑)\nFree T3 (↑)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "TSH (↓)\nFree T4 (↑)\nFree T3 (↑)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If asymptomatic or mild symptoms, no treatment required in ED\nIf symptomatic, consider\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If asymptomatic or no thyroid storm, discharge with outpatient follow-up.\nAdmit for significant symptoms or thyroid storm.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thyroid storm\nThyroid (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Thyroid (Main)",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        }
+      ]
+    }
+  }
+}

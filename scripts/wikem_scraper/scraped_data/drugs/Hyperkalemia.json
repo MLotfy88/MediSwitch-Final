@@ -1,0 +1,1079 @@
+{
+  "drug_name": "Hyperkalemia",
+  "url": "https://wikem.org/wiki/Hyperkalemia",
+  "scraped_at": "2026-01-10T07:55:09.375538",
+  "sections": {
+    "Background": {
+      "text": "Defined as >5.5 mEq/L\nPotassium secretion is proportional to flow rate and sodium delivery through distal nephron\nThus, loop & thiazide\ndiuretics\ncause\nhypo\nkalmia\nMost common cause is hemolysis from blood draw (pseudohyperkalemia)",
+      "subsections": {
+        "Alter_transmembrane_potassium_movement": {
+          "text": "β blockers\nDigoxin\nPotassium-containing drugs\nPotassium supplements\nSalt substitutes\nHyperosmolar solutions (\nmannitol\n,\nglucose\n)\nSuxamethonium\nIntravenous cationic amino acids\nStored\nred blood cells\n(haemolysis releases potassium)\nHerbal medicines (such as alfalfa, dandelion, horsetail, milkweed, and nettle)",
+          "tables": []
+        },
+        "Reduce_aldosterone_secretion": {
+          "text": "ACE inhibitors\n;\nAngiotensin II receptor blockers\nNSAIDs\nHeparin\nAntifungals\n(\nketoconazole\n,\nfluconazole\n,\nitraconazole\n)\nCyclosporine\nTacrolimus",
+          "tables": []
+        },
+        "Block_aldosterone_binding_to_mineralocorticoid_receptors": {
+          "text": "Spironolactone\nEplerenone\nDrospirenone\nPotassium sparing\ndiuretics\n(amiloride, triamterene)\nTrimethoprim\nPentamidine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "β blockers",
+          "url": "https://wikem.org/wiki/%CE%92_blockers"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "red blood cells",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "ACE inhibitors",
+          "url": "https://wikem.org/wiki/ACE_inhibitors"
+        },
+        {
+          "text": "Angiotensin II receptor blockers",
+          "url": "https://wikem.org/wiki/Angiotensin_II_receptor_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Trimethoprim",
+          "url": "https://wikem.org/wiki/Trimethoprim"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        }
+      ]
+    },
+    "Medication_Causes": {
+      "text": "",
+      "subsections": {
+        "Alter_transmembrane_potassium_movement": {
+          "text": "β blockers\nDigoxin\nPotassium-containing drugs\nPotassium supplements\nSalt substitutes\nHyperosmolar solutions (\nmannitol\n,\nglucose\n)\nSuxamethonium\nIntravenous cationic amino acids\nStored\nred blood cells\n(haemolysis releases potassium)\nHerbal medicines (such as alfalfa, dandelion, horsetail, milkweed, and nettle)",
+          "tables": []
+        },
+        "Reduce_aldosterone_secretion": {
+          "text": "ACE inhibitors\n;\nAngiotensin II receptor blockers\nNSAIDs\nHeparin\nAntifungals\n(\nketoconazole\n,\nfluconazole\n,\nitraconazole\n)\nCyclosporine\nTacrolimus",
+          "tables": []
+        },
+        "Block_aldosterone_binding_to_mineralocorticoid_receptors": {
+          "text": "Spironolactone\nEplerenone\nDrospirenone\nPotassium sparing\ndiuretics\n(amiloride, triamterene)\nTrimethoprim\nPentamidine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "β blockers",
+          "url": "https://wikem.org/wiki/%CE%92_blockers"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "red blood cells",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "ACE inhibitors",
+          "url": "https://wikem.org/wiki/ACE_inhibitors"
+        },
+        {
+          "text": "Angiotensin II receptor blockers",
+          "url": "https://wikem.org/wiki/Angiotensin_II_receptor_blockers"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Trimethoprim",
+          "url": "https://wikem.org/wiki/Trimethoprim"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Typically non-specific\nMuscle weakness\nLethargy\n,\nfatigue\nParesthesias\nNausea and Vomiting\nDifficulty breathing\nPalpitations\n,\nchest pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Muscle weakness",
+          "url": "https://wikem.org/wiki/Muscle_weakness"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Difficulty breathing",
+          "url": "https://wikem.org/wiki/Difficulty_breathing"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperkalemia": {
+          "text": "Pseudohyperkalemia: hemolyzed specimen, prolonged\ntourniquet\nuse prior to blood draw, thrombocytosis or leukocytosis\nRedistribution (shift from intracellular to extracellular space)\nAcidemia (see\nDKA\n)\nCellular breakdown: see\nRhabdomyolysis\n/\nCrush syndrome\n, electrical/thermal\nburn\n, hemolysis, see\nTumor lysis syndrome\nIncreased total body potassium\nInadequate excretion: Acute/chronic renal failure, Addison's disease, type 4 RTA\nDrug-induced: potassium-sparing diuretic (spironolactone), angiotensin converting enzyme inhibitors (ACE-I), nonsteroidal anti-inflammatory drugs (\nNSAIDs\n)\nExcessive intake: diet, blood transfusion\nOther causes:\nsuccinylcholine\n,\ndigitalis\n,\nbeta-blockers",
+          "tables": []
+        },
+        "Peaked_T-waves": {
+          "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+          "tables": []
+        },
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "digitalis",
+          "url": "https://wikem.org/wiki/Digitalis"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        },
+        {
+          "text": "De Winter's T waves",
+          "url": "https://wikem.org/wiki/De_Winter%27s_T_waves"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Hyperkalemia": {
+      "text": "Pseudohyperkalemia: hemolyzed specimen, prolonged\ntourniquet\nuse prior to blood draw, thrombocytosis or leukocytosis\nRedistribution (shift from intracellular to extracellular space)\nAcidemia (see\nDKA\n)\nCellular breakdown: see\nRhabdomyolysis\n/\nCrush syndrome\n, electrical/thermal\nburn\n, hemolysis, see\nTumor lysis syndrome\nIncreased total body potassium\nInadequate excretion: Acute/chronic renal failure, Addison's disease, type 4 RTA\nDrug-induced: potassium-sparing diuretic (spironolactone), angiotensin converting enzyme inhibitors (ACE-I), nonsteroidal anti-inflammatory drugs (\nNSAIDs\n)\nExcessive intake: diet, blood transfusion\nOther causes:\nsuccinylcholine\n,\ndigitalis\n,\nbeta-blockers",
+      "subsections": {
+        "Peaked_T-waves": {
+          "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+          "tables": []
+        },
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "digitalis",
+          "url": "https://wikem.org/wiki/Digitalis"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        },
+        {
+          "text": "De Winter's T waves",
+          "url": "https://wikem.org/wiki/De_Winter%27s_T_waves"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Peaked_T-waves": {
+      "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        },
+        {
+          "text": "De Winter's T waves",
+          "url": "https://wikem.org/wiki/De_Winter%27s_T_waves"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nChem 10 (including potassium, magnesium, and phosphorus)\nConsider point-of-care lab testing for more rapid result\nConsider\nABG\n/\nVBG\nto evaluate pH",
+          "tables": []
+        },
+        "ECG": {
+          "text": "Changes NOT always predictable and sequential\n6.5 - 7.5 mEq/L: peaked T waves, prolonged PR interval, shortened QT interval\n7.5 - 8.0 mEq/L: widened QRS interval, flattened P waves\n10 - 12 mEq/L: sine wave, ventricular fibrillation, heart block",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on lab testing (>5.5 mEq/L), although ECG may provide earlier information\nConsider pseudohyperkalemia (e.g. from hemolysis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nChem 10 (including potassium, magnesium, and phosphorus)\nConsider point-of-care lab testing for more rapid result\nConsider\nABG\n/\nVBG\nto evaluate pH",
+      "subsections": {
+        "ECG": {
+          "text": "Changes NOT always predictable and sequential\n6.5 - 7.5 mEq/L: peaked T waves, prolonged PR interval, shortened QT interval\n7.5 - 8.0 mEq/L: widened QRS interval, flattened P waves\n10 - 12 mEq/L: sine wave, ventricular fibrillation, heart block",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on lab testing (>5.5 mEq/L), although ECG may provide earlier information\nConsider pseudohyperkalemia (e.g. from hemolysis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        }
+      ]
+    },
+    "ECG": {
+      "text": "Changes NOT always predictable and sequential\n6.5 - 7.5 mEq/L: peaked T waves, prolonged PR interval, shortened QT interval\n7.5 - 8.0 mEq/L: widened QRS interval, flattened P waves\n10 - 12 mEq/L: sine wave, ventricular fibrillation, heart block",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Based on lab testing (>5.5 mEq/L), although ECG may provide earlier information\nConsider pseudohyperkalemia (e.g. from hemolysis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Based on lab testing (>5.5 mEq/L), although ECG may provide earlier information\nConsider pseudohyperkalemia (e.g. from hemolysis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Stabilize_cardiac_membranes": {
+          "text": "Indicated if there are any ECG changes or evidence of arrhythmias. Consider if K >7 mEq/L\nEither one of the following:\nCalcium gluconate\n: Give 10ml of a 10% solution (1 gram) over 5-10 mins. In severe cases may have to start with higher dose of 3 grams (30 mLs) and repeat doses (up to 9-15 grams total).\nOnly 1/3 the elemental calcium compared to calcium chloride.\nCan cause hypotension due to osmotic shift\nCalcium chloride\n1 gram IV\nGive over 1 - 2 minutes\nExtravasation is bad: use a good IV\nUsually given in code situations\nTakes effect in 15-30 minutes\n[1]\n(If given for hyperkalemic cardiac arrest, need to continue resuscitation for at least 30 minutes)\nDuration of action: 30 - 60 minutes\n[2]\nUse caution in patients taking\nDigoxin\nalthough risk of\nStone heart\nmay be unsubstantiated\n[3]\nDo serial\nECGs\nto track progress: may need to give multiple doses",
+          "tables": []
+        },
+        "Shift_K+_intracellularly": {
+          "text": "Intravenous\ninsulin\n+\ndextrose\nGive 10 units regular insulin intravenously with 25 to 50 grams (1 - 2 50 mL ampules) of 50% dextrose (D50)\nMay withhold dextrose if blood sugar >300mg/dl (>17 mmol/L)\nDuration of effect: 4 - 6 hours\nConsider mixing in 10 cc NS syringe to ensure small volume of 10 units insulin fully administered via IV\nInsulin cleared renally, be careful about inducing hypoglycemia (ESRD patients).\nIn a\nsmall 2017 retrospective cohort study\n, researchers found that giving 5 units of insulin instead of 10 units reduced serum potassium to the same extent as 10 units, with a lower rate of hypoglycemia.\nConsider decreasing to 5 units or increasing dextrose dose to 50g with following risk factors: pretreatment blood glucose <150, acute kidney injury/chronic kidney disease, no history of DM, weight <60kg, female sex\n[4]\nNebulized\nalbuterol\n15 - 20mg\nResponse is dose-dependent\nPeak effect: 30 minutes\nDuration of effect: 2 hours\nSodium bicarbonate\nGenerally not considered unless pH <7.1\nPushing \"ampules of hypertonic bicarbonate have been proven to be ineffective in RCTs\"\n[5]\nFor\nnormovolemic or hypovolemic\npatients with\nmetabolic acidosis\n:\nGive three amps of bicarbonate in a liter of D5W or sterile water",
+          "tables": []
+        },
+        "Remove_K+_from_body": {
+          "text": "Intravenous\nfurosemide\n(Lasix) 40 - 80mg\nEnsure adequate urine output first\nDecreases the potassium in three ways: dilution, shifting of potassium into muscle cells, and promotion of renal potassium excretion by alkalosis\n[6]\nMore on how to use Lasix:\nIBCC Hyperkalemia Chapter\nSodium polystyrene sulfonate\n(Kayexalate): 30 gm oral or per rectum\nVery Controversial, High Risk of Bowel Perforation\n, see:\nEBQ: Use of Kayexylate in Hyperkalemia\nSodium zirconium cyclosilicate\n(Lokelma)\nPotassium binder, similar to\nKayexalate\nbut without risk of bowel perforation\n[7]\n10 mg PO TID for up to 48 hours, then 10-15 mg PO QD for maintenance\nIntravenous lactated ringers solution for volume expansion if dehydrated, rhabdomyolysis, diabetic ketoacidosis or other acidosis (avoid NS, causes hyperchloremic acidosis which shifts potassium out of cells increasing level)\nconsider isotonic bicarbonate if significant acidosis (D5W with 3 amps of bicarb per liter), can calculate bicarbonate deficit then divide by 150mEq/L to estimate number of liters of isotonic bicarbonate required)\n[8]\nHydrocortisone\nif suspicious for\nadrenal insufficiency\nDefinitive treatment is\nhemodialysis",
+          "tables": []
+        },
+        "IV_Fluid_Choice": {
+          "text": "LR is preferred over NS, even in renal failure\n[9]\nThe small amount of 4 mEq/L of potassium in lactated ringers does not contribute to worsening hyperkalemia\nHyperkalemia worsens with metabolic acidosis, and large volume normal saline administration increases risk of hyperchloremic non-anion gap metabolic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digitalis_Toxicity"
+        },
+        {
+          "text": "Stone heart",
+          "url": "https://wikem.org/wiki/Stone_heart"
+        },
+        {
+          "text": "ECGs",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "EBQ: Use of Kayexylate in Hyperkalemia",
+          "url": "https://wikem.org/wiki/EBQ:Use_of_Kayexylate_in_Hyperkalemia"
+        },
+        {
+          "text": "Sodium zirconium cyclosilicate",
+          "url": "https://wikem.org/wiki/Sodium_zirconium_cyclosilicate"
+        },
+        {
+          "text": "Kayexalate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Stabilize_cardiac_membranes": {
+      "text": "Indicated if there are any ECG changes or evidence of arrhythmias. Consider if K >7 mEq/L\nEither one of the following:\nCalcium gluconate\n: Give 10ml of a 10% solution (1 gram) over 5-10 mins. In severe cases may have to start with higher dose of 3 grams (30 mLs) and repeat doses (up to 9-15 grams total).\nOnly 1/3 the elemental calcium compared to calcium chloride.\nCan cause hypotension due to osmotic shift\nCalcium chloride\n1 gram IV\nGive over 1 - 2 minutes\nExtravasation is bad: use a good IV\nUsually given in code situations\nTakes effect in 15-30 minutes\n[1]\n(If given for hyperkalemic cardiac arrest, need to continue resuscitation for at least 30 minutes)\nDuration of action: 30 - 60 minutes\n[2]\nUse caution in patients taking\nDigoxin\nalthough risk of\nStone heart\nmay be unsubstantiated\n[3]\nDo serial\nECGs\nto track progress: may need to give multiple doses",
+      "subsections": {
+        "Shift_K+_intracellularly": {
+          "text": "Intravenous\ninsulin\n+\ndextrose\nGive 10 units regular insulin intravenously with 25 to 50 grams (1 - 2 50 mL ampules) of 50% dextrose (D50)\nMay withhold dextrose if blood sugar >300mg/dl (>17 mmol/L)\nDuration of effect: 4 - 6 hours\nConsider mixing in 10 cc NS syringe to ensure small volume of 10 units insulin fully administered via IV\nInsulin cleared renally, be careful about inducing hypoglycemia (ESRD patients).\nIn a\nsmall 2017 retrospective cohort study\n, researchers found that giving 5 units of insulin instead of 10 units reduced serum potassium to the same extent as 10 units, with a lower rate of hypoglycemia.\nConsider decreasing to 5 units or increasing dextrose dose to 50g with following risk factors: pretreatment blood glucose <150, acute kidney injury/chronic kidney disease, no history of DM, weight <60kg, female sex\n[4]\nNebulized\nalbuterol\n15 - 20mg\nResponse is dose-dependent\nPeak effect: 30 minutes\nDuration of effect: 2 hours\nSodium bicarbonate\nGenerally not considered unless pH <7.1\nPushing \"ampules of hypertonic bicarbonate have been proven to be ineffective in RCTs\"\n[5]\nFor\nnormovolemic or hypovolemic\npatients with\nmetabolic acidosis\n:\nGive three amps of bicarbonate in a liter of D5W or sterile water",
+          "tables": []
+        },
+        "Remove_K+_from_body": {
+          "text": "Intravenous\nfurosemide\n(Lasix) 40 - 80mg\nEnsure adequate urine output first\nDecreases the potassium in three ways: dilution, shifting of potassium into muscle cells, and promotion of renal potassium excretion by alkalosis\n[6]\nMore on how to use Lasix:\nIBCC Hyperkalemia Chapter\nSodium polystyrene sulfonate\n(Kayexalate): 30 gm oral or per rectum\nVery Controversial, High Risk of Bowel Perforation\n, see:\nEBQ: Use of Kayexylate in Hyperkalemia\nSodium zirconium cyclosilicate\n(Lokelma)\nPotassium binder, similar to\nKayexalate\nbut without risk of bowel perforation\n[7]\n10 mg PO TID for up to 48 hours, then 10-15 mg PO QD for maintenance\nIntravenous lactated ringers solution for volume expansion if dehydrated, rhabdomyolysis, diabetic ketoacidosis or other acidosis (avoid NS, causes hyperchloremic acidosis which shifts potassium out of cells increasing level)\nconsider isotonic bicarbonate if significant acidosis (D5W with 3 amps of bicarb per liter), can calculate bicarbonate deficit then divide by 150mEq/L to estimate number of liters of isotonic bicarbonate required)\n[8]\nHydrocortisone\nif suspicious for\nadrenal insufficiency\nDefinitive treatment is\nhemodialysis",
+          "tables": []
+        },
+        "IV_Fluid_Choice": {
+          "text": "LR is preferred over NS, even in renal failure\n[9]\nThe small amount of 4 mEq/L of potassium in lactated ringers does not contribute to worsening hyperkalemia\nHyperkalemia worsens with metabolic acidosis, and large volume normal saline administration increases risk of hyperchloremic non-anion gap metabolic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digitalis_Toxicity"
+        },
+        {
+          "text": "Stone heart",
+          "url": "https://wikem.org/wiki/Stone_heart"
+        },
+        {
+          "text": "ECGs",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "EBQ: Use of Kayexylate in Hyperkalemia",
+          "url": "https://wikem.org/wiki/EBQ:Use_of_Kayexylate_in_Hyperkalemia"
+        },
+        {
+          "text": "Sodium zirconium cyclosilicate",
+          "url": "https://wikem.org/wiki/Sodium_zirconium_cyclosilicate"
+        },
+        {
+          "text": "Kayexalate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "IV_Fluid_Choice": {
+      "text": "LR is preferred over NS, even in renal failure\n[9]\nThe small amount of 4 mEq/L of potassium in lactated ringers does not contribute to worsening hyperkalemia\nHyperkalemia worsens with metabolic acidosis, and large volume normal saline administration increases risk of hyperchloremic non-anion gap metabolic acidosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consideration for ICU for frequent electrolyte checks and close cardiac monitoring",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Electrolyte abnormalities\nAcute kidney injury\nHemodialysis/Hemoperfusion\nCrush syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Hemodialysis/Hemoperfusion",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ECG Weekly -Hyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

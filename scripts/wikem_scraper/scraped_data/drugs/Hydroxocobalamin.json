@@ -1,0 +1,316 @@
+{
+  "drug_name": "Hydroxocobalamin",
+  "url": "https://wikem.org/wiki/Hydroxocobalamin",
+  "scraped_at": "2026-01-10T07:55:04.514048",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntidote\nDosage Forms: IV\nRoutes of Administration: IV\nCommon Trade Names: Cyanokit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cyanide_toxicity": {
+          "text": "5g IV x1\nMay repeat x1 if needed\nTotal doses up to 20g have been used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cyanide_toxicity": {
+      "text": "5g IV x1\nMay repeat x1 if needed\nTotal doses up to 20g have been used",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cyanide_toxicity_2": {
+          "text": "70 mg/kg IV x1\nMax: 5g/single dose (adults)\nMay repeat x1 if needed\nTotal doses up to 20g have been used in adults",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cyanide_toxicity_2": {
+      "text": "70 mg/kg IV x1\nMax: 5g/single dose (adults)\nMay repeat x1 if needed\nTotal doses up to 20g have been used in adults",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Benefits outweigh risks during pregnancy\nLactation risk: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution if hypersensitive to\ncyanocobalamin\nCaution if hemodialysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cyanocobalamin",
+          "url": "https://wikem.org/wiki/Cyanocobalamin"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction\nHTN\nHematochezia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Red urine\nErythema\nRash, acneiform\nTransient BP elevation\nNausea\nHeadache\nLeukopenia\nInfusion site reaction\nOcular irritation\nDysphagia\nAbdominal discomfort\nVomiting\nDiarrhea\nDyspepsia\nPeripheral edema\nChest discomfort\nImpaired memory\nDizziness\nRestlessness\nDyspnea\nPruritus\n/\nUrticaria\nDry throat\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity reaction\nHTN\nHematochezia",
+      "subsections": {
+        "Common": {
+          "text": "Red urine\nErythema\nRash, acneiform\nTransient BP elevation\nNausea\nHeadache\nLeukopenia\nInfusion site reaction\nOcular irritation\nDysphagia\nAbdominal discomfort\nVomiting\nDiarrhea\nDyspepsia\nPeripheral edema\nChest discomfort\nImpaired memory\nDizziness\nRestlessness\nDyspnea\nPruritus\n/\nUrticaria\nDry throat\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Red urine\nErythema\nRash, acneiform\nTransient BP elevation\nNausea\nHeadache\nLeukopenia\nInfusion site reaction\nOcular irritation\nDysphagia\nAbdominal discomfort\nVomiting\nDiarrhea\nDyspepsia\nPeripheral edema\nChest discomfort\nImpaired memory\nDizziness\nRestlessness\nDyspnea\nPruritus\n/\nUrticaria\nDry throat\nPhotosensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 26-31h\nMetabolism: Unknown\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Metalloprotein that binds cyanide to form nontoxic cyanocobalamin then is excreted in urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Restricted distribution in US directly for authorized EMS, emergency preparedness, or occupational medicine users",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cyanide toxicity\nHydrogen Sulfide\nChemical weapons\nHazmat exposure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Hazmat exposure",
+          "url": "https://wikem.org/wiki/Hazmat_exposure"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "drug_name": "Hydrocortisone_(systemic)",
+  "url": "https://wikem.org/wiki/Hydrocortisone_(systemic)",
+  "scraped_at": "2026-01-10T07:55:02.652845",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nSteroid\nDosage Forms:\nRoutes of Administration: PO, IV, IM\nCommon Trade Names: Alkindi Sprinkle; Cortef; Solu-CORTEF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Septic shock\nUsed for refractory shock unresponsive to fluids and vasopressors\n50mg IV Q6H",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic shock",
+          "url": "https://wikem.org/wiki/Septic_shock"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hydrocortisone topical",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocortisone topical",
+          "url": "https://wikem.org/wiki/Hydrocortisone_topical"
+        }
+      ]
+    }
+  }
+}

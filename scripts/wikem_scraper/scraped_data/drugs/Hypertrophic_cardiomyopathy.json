@@ -1,0 +1,779 @@
+{
+  "drug_name": "Hypertrophic_cardiomyopathy",
+  "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy",
+  "scraped_at": "2026-01-10T07:55:11.875914",
+  "sections": {
+    "Background": {
+      "text": "Genetically-linked (AD) hypertrophy of cardiac muscle - can but does not always cause outflow obstruction\nUp to 30% of patients will have no family history\n[1]\nAverage age of diagnosis between 30-40 years of age\nDiastolic\nheart failure\nAbnormal LV function due to decreased compliance\nHistorically, obstructive forms known as:\nIdiopathic hypertrophic subaortic stenosis (IHSS)\nAsymmetric septal hypertrophy (ASH)\nHypertrophic obstructive cardiomyopathy (HOCM)\nYamaguchi syndrome, an atypical HCOM, in which only 1% are non-Japanese",
+      "subsections": {
+        "Cardiomyopathy": {
+          "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "Cardiomyopathy": {
+      "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Syncope\n,\nchest pain\n,\ndyspnea\n, dizziness\nSymptoms made worse by exertion\nIncreasing ventricular contractility further narrows outflow as volume is lost",
+          "tables": []
+        },
+        "Physical": {
+          "text": "Harsh midsystolic crescendo-decrescendo\nmurmur\nIncreases in intensity with valsalva and standing up\nDue to decreased blood return to the heart\nDecreases with squatting and Trendelenburg\nDue to increased peripheral resistance increases aorta and reduces obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "History": {
+      "text": "Syncope\n,\nchest pain\n,\ndyspnea\n, dizziness\nSymptoms made worse by exertion\nIncreasing ventricular contractility further narrows outflow as volume is lost",
+      "subsections": {
+        "Physical": {
+          "text": "Harsh midsystolic crescendo-decrescendo\nmurmur\nIncreases in intensity with valsalva and standing up\nDue to decreased blood return to the heart\nDecreases with squatting and Trendelenburg\nDue to increased peripheral resistance increases aorta and reduces obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Physical": {
+      "text": "Harsh midsystolic crescendo-decrescendo\nmurmur\nIncreases in intensity with valsalva and standing up\nDue to decreased blood return to the heart\nDecreases with squatting and Trendelenburg\nDue to increased peripheral resistance increases aorta and reduces obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Syncope_(peds)": {
+          "text": "Seizure\nBreath-holding spell\nHyperventilation syndrome\nPregnancy\n(especially\nectopic\n)\nHypoglycemia\nCardiac disease\nTet spell\nHypertrophic cardiomyopathy\nBrugada Syndrome\nDysrhythmias\nLong QT syndrome\nAnomalous coronary arteries\nToxicologic exposure\n(stimulants or depressant)\nCO poisoning\nEthanol toxicity\nDrugs of abuse",
+          "tables": []
+        },
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Cardiac disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Tet spell",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Anomalous coronary arteries",
+          "url": "https://wikem.org/wiki/Anomalous_coronary_arteries"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "ECG\nabnormalities in ~90%, but mostly nonspecific\nHigh voltage ECG (which may produce abnormal T-waves)\nLVH\nLeft atrial enlargement\nTall R-wave in V1, mimicking posterior MI\n\"Needle-like\" Q waves, especially in lateral leads, mimicking infarction Q waves\nCXR\nmay be normal as LV is non-dilated\nEcho\n[3]\nUnexplained wall thickness > 15 mm in any myocardial segment\nSeptal/posterior wall thickness ratio:\n>1.3 in normotensive pts\n>1.5 in hypertensive pts\nSystolic anterior motion by M mode in PSL window, worsened by Valsalva\nMitral regurgitation\nEF may be preserved until acute decompensation\nFormal echo should include tissue Doppler imaging",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically via echo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "ECG\nabnormalities in ~90%, but mostly nonspecific\nHigh voltage ECG (which may produce abnormal T-waves)\nLVH\nLeft atrial enlargement\nTall R-wave in V1, mimicking posterior MI\n\"Needle-like\" Q waves, especially in lateral leads, mimicking infarction Q waves\nCXR\nmay be normal as LV is non-dilated\nEcho\n[3]\nUnexplained wall thickness > 15 mm in any myocardial segment\nSeptal/posterior wall thickness ratio:\n>1.3 in normotensive pts\n>1.5 in hypertensive pts\nSystolic anterior motion by M mode in PSL window, worsened by Valsalva\nMitral regurgitation\nEF may be preserved until acute decompensation\nFormal echo should include tissue Doppler imaging",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically via echo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically via echo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Avoid exertion\nICD +/- pacer for\nventricular dysrhythmias\nDefinitive treatment is myomectomy",
+      "subsections": {
+        "Decompensated": {
+          "text": "Consider primary insult, which usually is preload issue (fluid depletion, bleed, etc.)\nIf decompensated presents as\nhypotensive CHF\nPreserve preload\nCareful hydration\nAvoid high airway pressure if intubate\nLimit tachycardia\nBeta blockers\nAvoid vasodilators (\nno\nnitrates)\nMaintain sinus rhythm (i.e. cardiovert A. fib)\nIncrease afterload (hypotensive only)\nPhenylephrine\n, max dose range depending on source\nStart at 100 mcg/min (~1.5 mcg/kg/min for average adult)\nRange usually 0.5 - 6.0 mcg/kg/min, with efficacy minimal beyond 6 mcg/kg/min)\n[4]\nMax phenylephrine infusion before other pressors\nFix acid-base disorder as acidosis may prevent pressor efficacy\nConsider maxing\nvasopressin\nnext\nPressor effects more preserved in hypoxia and acidosis\n[5]\nPreferred over pressors with beta agonism\nPush dose pressor while waiting for IV drip:\nPlace 1mL of 10mg/mL phenylephrine in 100mL NS\nFinal concentration 100mcg/mL\nUse 1-2mL q2-5min (100-200mcg) in 10mL syringe\nOnset 1min; duration 20min",
+          "tables": []
+        },
+        "Pharmacologic_Management": {
+          "text": "Per Amer Coll of Cardiology 2011 recommendations\n[6]\nClass I\nbeta-blockers\nfor angina or dyspnea in adults in HCM regardless of obstructive physiology - use with caution in sinus brady or conduction abnormality\nTitrate BB dose to symptoms, may increase BB dose to resting HR to 60 bpm\nVerapamil\nPO titrated up to 480mg/d if patient unresponsive or cannot tolerate beta-blockers - caution in advanced HF, hypotension, sinus brady, high LVOT gradients\nIV\nphenylephrine\nfor acute hypotension unresponsive to fluids\nClass IIa\nReasonable to add disopyramide with BB or verapamil if unresponsive to BB or CCB alone in obstructive HCM\nReasonable to add oral\ndiuretics\nin nonobstructive HCM when symptoms persist despite BB or CCB\nClass III (harm)\nAvoid\nnifedipine\nand other dihydropyridine CCB\nAvoid\ndigoxin\nAvoid\ndisopyramide alone with out BB or CCB\nAvoid positive inotropic vasopressors\n(dopamine, dobutamine, norepinephrine, epi)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "hypotensive CHF",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Decompensated": {
+      "text": "Consider primary insult, which usually is preload issue (fluid depletion, bleed, etc.)\nIf decompensated presents as\nhypotensive CHF\nPreserve preload\nCareful hydration\nAvoid high airway pressure if intubate\nLimit tachycardia\nBeta blockers\nAvoid vasodilators (\nno\nnitrates)\nMaintain sinus rhythm (i.e. cardiovert A. fib)\nIncrease afterload (hypotensive only)\nPhenylephrine\n, max dose range depending on source\nStart at 100 mcg/min (~1.5 mcg/kg/min for average adult)\nRange usually 0.5 - 6.0 mcg/kg/min, with efficacy minimal beyond 6 mcg/kg/min)\n[4]\nMax phenylephrine infusion before other pressors\nFix acid-base disorder as acidosis may prevent pressor efficacy\nConsider maxing\nvasopressin\nnext\nPressor effects more preserved in hypoxia and acidosis\n[5]\nPreferred over pressors with beta agonism\nPush dose pressor while waiting for IV drip:\nPlace 1mL of 10mg/mL phenylephrine in 100mL NS\nFinal concentration 100mcg/mL\nUse 1-2mL q2-5min (100-200mcg) in 10mL syringe\nOnset 1min; duration 20min",
+      "subsections": {
+        "Pharmacologic_Management": {
+          "text": "Per Amer Coll of Cardiology 2011 recommendations\n[6]\nClass I\nbeta-blockers\nfor angina or dyspnea in adults in HCM regardless of obstructive physiology - use with caution in sinus brady or conduction abnormality\nTitrate BB dose to symptoms, may increase BB dose to resting HR to 60 bpm\nVerapamil\nPO titrated up to 480mg/d if patient unresponsive or cannot tolerate beta-blockers - caution in advanced HF, hypotension, sinus brady, high LVOT gradients\nIV\nphenylephrine\nfor acute hypotension unresponsive to fluids\nClass IIa\nReasonable to add disopyramide with BB or verapamil if unresponsive to BB or CCB alone in obstructive HCM\nReasonable to add oral\ndiuretics\nin nonobstructive HCM when symptoms persist despite BB or CCB\nClass III (harm)\nAvoid\nnifedipine\nand other dihydropyridine CCB\nAvoid\ndigoxin\nAvoid\ndisopyramide alone with out BB or CCB\nAvoid positive inotropic vasopressors\n(dopamine, dobutamine, norepinephrine, epi)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypotensive CHF",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Pharmacologic_Management": {
+      "text": "Per Amer Coll of Cardiology 2011 recommendations\n[6]\nClass I\nbeta-blockers\nfor angina or dyspnea in adults in HCM regardless of obstructive physiology - use with caution in sinus brady or conduction abnormality\nTitrate BB dose to symptoms, may increase BB dose to resting HR to 60 bpm\nVerapamil\nPO titrated up to 480mg/d if patient unresponsive or cannot tolerate beta-blockers - caution in advanced HF, hypotension, sinus brady, high LVOT gradients\nIV\nphenylephrine\nfor acute hypotension unresponsive to fluids\nClass IIa\nReasonable to add disopyramide with BB or verapamil if unresponsive to BB or CCB alone in obstructive HCM\nReasonable to add oral\ndiuretics\nin nonobstructive HCM when symptoms persist despite BB or CCB\nClass III (harm)\nAvoid\nnifedipine\nand other dihydropyridine CCB\nAvoid\ndigoxin\nAvoid\ndisopyramide alone with out BB or CCB\nAvoid positive inotropic vasopressors\n(dopamine, dobutamine, norepinephrine, epi)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for echo and cardiology evaluation\nIf unable to admit, home on β-blocker, instructions for no exertion, follow up echo and cardiology outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cardiomyopathy\nAmal Mattu July 30, 2012 case",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,704 @@
+{
+  "drug_name": "Hymenoptera_stings",
+  "url": "https://wikem.org/wiki/Hymenoptera_stings",
+  "scraped_at": "2026-01-10T07:55:10.034383",
+  "sections": {
+    "Background": {
+      "text": "All Hymenoptera share similar components in their venonm and patients can have allergies across the subgroups\n[1]\nMost reactions are local but\nanaphylaxis\nand\nserum sickness\nare possible",
+      "subsections": {
+        "Bees_(Apids)": {
+          "text": "Include Bumblebees and Honeybees\nBarbed Stingers - remain in victims and the process of stinging kills the bee\nKiller bees (hybridized African Bees) have small individual toxin potency but attack in large numbers with increased aggression\n[2]\nMain allergen is phospholipase A2, hyaluronidase and melittin\n[1]\nredness and irritation last 1-3 days",
+          "tables": []
+        },
+        "Wasps_(Vespids)": {
+          "text": "Include Yellow Jackets, Hornets, and Wasps\nNon barbed stinger - can sting multiple times and the sting does not cause the wasps' death\nHistamine, phospholipase, antigen 5, and bradykinin similar to bees\n[1]\nRedness and irritation last 1-3 days",
+          "tables": []
+        },
+        "Fire_Ants_(Formicidae)": {
+          "text": "Solenopsis invicta\n(red fire ant) and\nSolenopsis richteri\n(black fire ant)\nAlkaloid venom\nIntense burning papules that may turn to pustules in 24hrs\nLocalized necrosis has also been reported\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Local_Reaction": {
+          "text": "Urticarial\nlesion contiguous with sting site\nSevere local reaction may involve one or more neighboring joints\nLocal reaction occurring in mouth or throat can produce airway obstruction\nLocal reaction occurring around eye can result in cataract, iris atrophy,\nglobe perforation",
+          "tables": []
+        },
+        "Toxic_Reaction": {
+          "text": "Occurs after multiple stings\nMay be delayed 8-24hrs\nVenom mediated, not IgE\nResembles\nanaphylaxis\nbut greater frequency of\nnausea/vomiting\nand\ndiarrhea\nOther symptoms:\nlight-headedness\n,\nsyncope\n,\nheadache\n,\nfever\n,\ndrowsiness\n, muscle spasms\nMassive stings can result in\nrenal\nor\nhepatic failure\n,\nDIC\n,\nrhabdo\nSystemic toxicity more likely if > 50 stings\nMedian lethal dose of honeybee venom ~19 stings/kg or 500-1400 stings per human",
+          "tables": []
+        },
+        "Anaphylactic_reaction": {
+          "text": "Majority occur within first 15min; nearly all within 6hr\nNo correlation with number of stings\nIgE mediated, rather than direct response to the venom.\nShorter the interval between sting and onset of symptoms the\nmore\nsevere the reaction",
+          "tables": []
+        },
+        "Delayed_Reaction": {
+          "text": "May occur 5-14d after a sting\nSerum sickness\nfeatures (fever, malaise, urticaria, lymphadenopathy, polyarthritis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urticarial",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "globe perforation",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "light-headedness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "drowsiness",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "renal",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Local_Reaction": {
+      "text": "Urticarial\nlesion contiguous with sting site\nSevere local reaction may involve one or more neighboring joints\nLocal reaction occurring in mouth or throat can produce airway obstruction\nLocal reaction occurring around eye can result in cataract, iris atrophy,\nglobe perforation",
+      "subsections": {
+        "Toxic_Reaction": {
+          "text": "Occurs after multiple stings\nMay be delayed 8-24hrs\nVenom mediated, not IgE\nResembles\nanaphylaxis\nbut greater frequency of\nnausea/vomiting\nand\ndiarrhea\nOther symptoms:\nlight-headedness\n,\nsyncope\n,\nheadache\n,\nfever\n,\ndrowsiness\n, muscle spasms\nMassive stings can result in\nrenal\nor\nhepatic failure\n,\nDIC\n,\nrhabdo\nSystemic toxicity more likely if > 50 stings\nMedian lethal dose of honeybee venom ~19 stings/kg or 500-1400 stings per human",
+          "tables": []
+        },
+        "Anaphylactic_reaction": {
+          "text": "Majority occur within first 15min; nearly all within 6hr\nNo correlation with number of stings\nIgE mediated, rather than direct response to the venom.\nShorter the interval between sting and onset of symptoms the\nmore\nsevere the reaction",
+          "tables": []
+        },
+        "Delayed_Reaction": {
+          "text": "May occur 5-14d after a sting\nSerum sickness\nfeatures (fever, malaise, urticaria, lymphadenopathy, polyarthritis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urticarial",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "globe perforation",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "light-headedness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "drowsiness",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "renal",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Toxic_Reaction": {
+      "text": "Occurs after multiple stings\nMay be delayed 8-24hrs\nVenom mediated, not IgE\nResembles\nanaphylaxis\nbut greater frequency of\nnausea/vomiting\nand\ndiarrhea\nOther symptoms:\nlight-headedness\n,\nsyncope\n,\nheadache\n,\nfever\n,\ndrowsiness\n, muscle spasms\nMassive stings can result in\nrenal\nor\nhepatic failure\n,\nDIC\n,\nrhabdo\nSystemic toxicity more likely if > 50 stings\nMedian lethal dose of honeybee venom ~19 stings/kg or 500-1400 stings per human",
+      "subsections": {
+        "Anaphylactic_reaction": {
+          "text": "Majority occur within first 15min; nearly all within 6hr\nNo correlation with number of stings\nIgE mediated, rather than direct response to the venom.\nShorter the interval between sting and onset of symptoms the\nmore\nsevere the reaction",
+          "tables": []
+        },
+        "Delayed_Reaction": {
+          "text": "May occur 5-14d after a sting\nSerum sickness\nfeatures (fever, malaise, urticaria, lymphadenopathy, polyarthritis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "light-headedness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "drowsiness",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "renal",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Anaphylactic_reaction": {
+      "text": "Majority occur within first 15min; nearly all within 6hr\nNo correlation with number of stings\nIgE mediated, rather than direct response to the venom.\nShorter the interval between sting and onset of symptoms the\nmore\nsevere the reaction",
+      "subsections": {
+        "Delayed_Reaction": {
+          "text": "May occur 5-14d after a sting\nSerum sickness\nfeatures (fever, malaise, urticaria, lymphadenopathy, polyarthritis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Delayed_Reaction": {
+      "text": "May occur 5-14d after a sting\nSerum sickness\nfeatures (fever, malaise, urticaria, lymphadenopathy, polyarthritis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stinger Removal\nImmediate removal is the most important principle; the method of removal is irrelevant\nLocal wound care and\ntetanus prophylaxis\nOral\nAntihistamines\nprovide symptom relief for\npruritus",
+      "subsections": {
+        "Local_Reaction_2": {
+          "text": "Ice packs diminish swelling and delays absorption of venom\nNSAIDs\nand\nantihistamines\nfor comfort\nInfection is uncommon, but may present as ongoing swelling or\ncellulitis",
+          "tables": []
+        },
+        "Systemic_reaction": {
+          "text": "Treat similar to\nanaphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Local_Reaction_2": {
+      "text": "Ice packs diminish swelling and delays absorption of venom\nNSAIDs\nand\nantihistamines\nfor comfort\nInfection is uncommon, but may present as ongoing swelling or\ncellulitis",
+      "subsections": {
+        "Systemic_reaction": {
+          "text": "Treat similar to\nanaphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Systemic_reaction": {
+      "text": "Treat similar to\nanaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Normally outpatient, unless\nanaphylaxis\nor systemic toxicity\nEpiPen should be prescribed on discharge if significant reaction\nAdmission/observation for victims with >100 stings, substantial comorbidities, those at extremes of age",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Bites and Stings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bites and Stings",
+          "url": "https://wikem.org/wiki/Bites_and_Stings"
+        }
+      ]
+    }
+  }
+}

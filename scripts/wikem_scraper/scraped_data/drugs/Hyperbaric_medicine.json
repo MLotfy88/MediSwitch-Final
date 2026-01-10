@@ -1,0 +1,87 @@
+{
+  "drug_name": "Hyperbaric_medicine",
+  "url": "https://wikem.org/wiki/Hyperbaric_medicine",
+  "scraped_at": "2026-01-10T07:55:05.730810",
+  "sections": {
+    "Background": {
+      "text": "Initial use of compressed air for treatment of \"Caissons disease\" which was forms of\nDecompression sickness\nseen in the use of Caissons in the 1800s.\n[1]\nFurther research was performed in 1930s-1940s through the Navy.\n1986 the Undersea Medicine Society became the Undersea and Hyperbaric Medicine Society\n2000 UHM became a board certified through ABEM, there are currently",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        }
+      ]
+    },
+    "Physiology": {
+      "text": "For every 10m (33ft) submerged in water, atmospheres absolute (ATA) increases by 1.\nAt a depth of 30m (99ft), you would be at 4 ATA.\nHyperbaric Oxygen Therapy (HBOT) utilizes pressure and oxygen to saturate hemoglobin, bot more significantly, blood plasma itself, to provide enough oxygen to meet metabolic demands under various circumstances that may limit hgb oxygen carrying capacity or access.\n[2]\nVasoconstriction\nMaintains oxygenation through increased O2 gradient and plasma saturation, but decreases edema from capillary filtration.\nAntibacterial\nDirectly harmful to anaerobic orgasnisms\nMay increase neutrophil efficacy\nAngiogenesis\nPrevention of reperfusion injury",
+      "subsections": {
+        "Diving_Physiology": {
+          "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diving_Physiology": {
+      "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Carbon monoxide toxicity\nGas gangrene\nArterial gas embolism\nDecompression sickness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Arterial gas embolism",
+          "url": "https://wikem.org/wiki/Arterial_gas_embolism"
+        }
+      ]
+    },
+    "Types_of_Hyperbaric_Chambers": {
+      "text": "Monoplace chamber\nMajority of chambers in US, intended for use on a single person.\nMultiplace chamber\nAllows for treatment of multiple patients simultaneously, with the possibility of an attendant in chamber.\nPortable recompression chambers\nFor altitude illness, are often lightweight, portable, when descent is not possible.\nSturdier portable chambers are sometimes used by Navy, Coastguard, or commercial diving ventures.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Scuba diving emergencies\nDiving Medicine\nToxidromes\nBurns\nCyanide\nCarbon monoxide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scuba diving emergencies",
+          "url": "https://wikem.org/wiki/Scuba_diving_emergencies"
+        },
+        {
+          "text": "Diving Medicine",
+          "url": "https://wikem.org/wiki/Diving_Medicine"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        }
+      ]
+    }
+  }
+}

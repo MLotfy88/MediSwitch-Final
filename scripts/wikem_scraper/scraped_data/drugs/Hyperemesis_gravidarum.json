@@ -1,0 +1,298 @@
+{
+  "drug_name": "Hyperemesis_gravidarum",
+  "url": "https://wikem.org/wiki/Hyperemesis_gravidarum",
+  "scraped_at": "2026-01-10T07:55:08.611734",
+  "sections": {
+    "Background": {
+      "text": "Simple\nnausea and vomiting\naffects 60-80% of patients during first 12wk of pregnancy\nHyperemesis gravidarum only affects 0.3-2% of pregnancies\n[1]\nHyperemesis gravidarum has (rarely) been known to cause\nWernicke's encephalopathy\n[2]\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pregnancy\nwith:\nNausea and vomiting\nWeight loss\nVolume depletion\nNote:\nAbdominal pain\nis highly unusual and should prompt consideration of a different diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nausea_and_vomiting_in_pregnancy": {
+          "text": "Hyperemesis gravidarum\nGastroenteritis\nBiliary disease\nEctopic pregnancy\nGastroenteritis\nPancreatitis\nAppendicitis\nHepatitis\nPeptic ulcer disease\nPyelonephritis\nAcute fatty liver of pregnancy\nHELLP syndrome\nGestational trophoblastic disease\n(may present with intractable vomiting)\nMolar pregnancy\nThyrotoxicosis\n(may present with intractable vomiting)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Gestational trophoblastic disease",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Nausea_and_vomiting_in_pregnancy": {
+      "text": "Hyperemesis gravidarum\nGastroenteritis\nBiliary disease\nEctopic pregnancy\nGastroenteritis\nPancreatitis\nAppendicitis\nHepatitis\nPeptic ulcer disease\nPyelonephritis\nAcute fatty liver of pregnancy\nHELLP syndrome\nGestational trophoblastic disease\n(may present with intractable vomiting)\nMolar pregnancy\nThyrotoxicosis\n(may present with intractable vomiting)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Gestational trophoblastic disease",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Urinalysis\nfor ketones\nChemistry\nMay show signs of\ndehydration\n,\nhypokalemia\nCBC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Urinalysis\nfor ketones\nChemistry\nMay show signs of\ndehydration\n,\nhypokalemia\nCBC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Defined as intractable\nvomiting\nwith at least 1 of following:\nWeight loss\nVolume depletion\nHypokalemia\nKetonemia\nNote:\nAbdominal pain\nis highly unusual and should prompt consideration of a different diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Rehydration": {
+          "text": "PO fluids\nif able to tolerate\nIV fluid repletion\n(use D5NS in the setting of ketonuria)",
+          "tables": []
+        },
+        "Antiemetics": {
+          "text": "ACOG recommends a stepwise approach to\nnausea and vomiting\nin pregnancy\n[4]\nVitamin B6\n10-25mg q6-8hrs\nADD\nDoxylamine\n12.5mg q6-8hrs\nADD\nPromethazine\n12.5-25mg q4hrs PO or PR\nADD\nDimenhydrinate\n50mg q4-6hrs IV\nOR\nmetoclopramide\n5-10mg q8hrs IV\nOR\npromethazine\n12.5-25mg q4hrs IV\nADD\nMethylprednisolone\n16mg q8hrs PO or IV for 3 days and taper to effective dose\nOR\nondansteron\n8mg (or 4mg) q12hrs IV\nIf using\nondansetron\n, reasonable to have a discussion about claimed risks of birth defects.\nFirst-trimester exposure to\nondansetron\nwas not associated with cardiac or congenital malformations but was associated with a small increased risk of oral clefts.\n[5]",
+          "tables": [
+            [
+              {
+                "Medication": "Vitamin B6",
+                "Pregnancy Drug Class": "A"
+              },
+              {
+                "Medication": "Dimenhydrinate",
+                "Pregnancy Drug Class": "B"
+              },
+              {
+                "Medication": "Doxylamine",
+                "Pregnancy Drug Class": "A"
+              },
+              {
+                "Medication": "Ondansetron",
+                "Pregnancy Drug Class": "B"
+              },
+              {
+                "Medication": "Metoclopramide",
+                "Pregnancy Drug Class": "B"
+              },
+              {
+                "Medication": "Promethazine",
+                "Pregnancy Drug Class": "C"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rehydration": {
+      "text": "PO fluids\nif able to tolerate\nIV fluid repletion\n(use D5NS in the setting of ketonuria)",
+      "subsections": {
+        "Antiemetics": {
+          "text": "ACOG recommends a stepwise approach to\nnausea and vomiting\nin pregnancy\n[4]\nVitamin B6\n10-25mg q6-8hrs\nADD\nDoxylamine\n12.5mg q6-8hrs\nADD\nPromethazine\n12.5-25mg q4hrs PO or PR\nADD\nDimenhydrinate\n50mg q4-6hrs IV\nOR\nmetoclopramide\n5-10mg q8hrs IV\nOR\npromethazine\n12.5-25mg q4hrs IV\nADD\nMethylprednisolone\n16mg q8hrs PO or IV for 3 days and taper to effective dose\nOR\nondansteron\n8mg (or 4mg) q12hrs IV\nIf using\nondansetron\n, reasonable to have a discussion about claimed risks of birth defects.\nFirst-trimester exposure to\nondansetron\nwas not associated with cardiac or congenital malformations but was associated with a small increased risk of oral clefts.\n[5]",
+          "tables": [
+            [
+              {
+                "Medication": "Vitamin B6",
+                "Pregnancy Drug Class": "A"
+              },
+              {
+                "Medication": "Dimenhydrinate",
+                "Pregnancy Drug Class": "B"
+              },
+              {
+                "Medication": "Doxylamine",
+                "Pregnancy Drug Class": "A"
+              },
+              {
+                "Medication": "Ondansetron",
+                "Pregnancy Drug Class": "B"
+              },
+              {
+                "Medication": "Metoclopramide",
+                "Pregnancy Drug Class": "B"
+              },
+              {
+                "Medication": "Promethazine",
+                "Pregnancy Drug Class": "C"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antiemetics": {
+      "text": "ACOG recommends a stepwise approach to\nnausea and vomiting\nin pregnancy\n[4]\nVitamin B6\n10-25mg q6-8hrs\nADD\nDoxylamine\n12.5mg q6-8hrs\nADD\nPromethazine\n12.5-25mg q4hrs PO or PR\nADD\nDimenhydrinate\n50mg q4-6hrs IV\nOR\nmetoclopramide\n5-10mg q8hrs IV\nOR\npromethazine\n12.5-25mg q4hrs IV\nADD\nMethylprednisolone\n16mg q8hrs PO or IV for 3 days and taper to effective dose\nOR\nondansteron\n8mg (or 4mg) q12hrs IV\nIf using\nondansetron\n, reasonable to have a discussion about claimed risks of birth defects.\nFirst-trimester exposure to\nondansetron\nwas not associated with cardiac or congenital malformations but was associated with a small increased risk of oral clefts.\n[5]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Vitamin B6",
+            "Pregnancy Drug Class": "A"
+          },
+          {
+            "Medication": "Dimenhydrinate",
+            "Pregnancy Drug Class": "B"
+          },
+          {
+            "Medication": "Doxylamine",
+            "Pregnancy Drug Class": "A"
+          },
+          {
+            "Medication": "Ondansetron",
+            "Pregnancy Drug Class": "B"
+          },
+          {
+            "Medication": "Metoclopramide",
+            "Pregnancy Drug Class": "B"
+          },
+          {
+            "Medication": "Promethazine",
+            "Pregnancy Drug Class": "C"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge if clear diagnosis and able to tolerate POs\nAdmit\nUncertain diagnosis\nIntractable\nvomiting\nPersistent\nketonemia\nor\nelectrolyte abnormalities\nafter\nvolume repletion\nWeight loss >10% of pre-pregnancy weight",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nausea and vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "drug_name": "Hyperosmolar_hyperglycemic_state",
+  "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state",
+  "scraped_at": "2026-01-10T07:55:13.070445",
+  "sections": {
+    "Background": {
+      "text": "Prototypical patient is elderly with uncontrolled type II\nDM\nwithout adequate access to H2O\nOccurs due to 3 factors:\nInsulin resistance or deficiency\nIncreased hepatic gluconeogenesis and glycogenolysis\nOsmotic diuresis and dehydration followed by impaired renal excretion of glucose\nMay result in TBW losses of 8-12L\nKetosis usually absent (may be mild)\nCerebral edema is uncommon complication (case reports)\nEstimated mortality 10-20%, usually due to underlying precipitant\n[1]\nIn contrast to\nDKA\n, in which mortality is 1-5%\nIncidence of HHS < 1% of hospital admissions of patients with diabetes",
+      "subsections": {
+        "Precipitants": {
+          "text": "Pneumonia (Main)\nUrinary tract infection\nMedication non-adherence\nCocaine intoxication\nMeds:\nBeta-blockers\n, diuretics\nGI bleed\nPancreatitis\nHeat related emergencies\nAcute coronary syndrome\nStroke",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Pneumonia (Main)",
+          "url": "https://wikem.org/wiki/Pneumonia_(Main)"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Cocaine intoxication",
+          "url": "https://wikem.org/wiki/Cocaine_intoxication"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Heat related emergencies",
+          "url": "https://wikem.org/wiki/Heat_Emergencies"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Precipitants": {
+      "text": "Pneumonia (Main)\nUrinary tract infection\nMedication non-adherence\nCocaine intoxication\nMeds:\nBeta-blockers\n, diuretics\nGI bleed\nPancreatitis\nHeat related emergencies\nAcute coronary syndrome\nStroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia (Main)",
+          "url": "https://wikem.org/wiki/Pneumonia_(Main)"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Cocaine intoxication",
+          "url": "https://wikem.org/wiki/Cocaine_intoxication"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Heat related emergencies",
+          "url": "https://wikem.org/wiki/Heat_Emergencies"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Dehydration\nHypotension\nSeizure\n(15% of patients)\nAltered mental status\nLethargy/\ncoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work_Up": {
+          "text": "Chemistry\nSerum osm\nLactate\nSerum ketones\nCBC\nAlso consider:\nBlood cultures\nUrinalysis\n/Urine culture\nLFTs\nLipase\nTroponin\nCXR\nECG\nHead CT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Glucose >600\nOsm >320\nBicarb >15\npH >7.3\nSerum ketones negative or mildly positive\nNeurologic abnormalities frequently present (coma in 25-50% of cases)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Work_Up": {
+      "text": "Chemistry\nSerum osm\nLactate\nSerum ketones\nCBC\nAlso consider:\nBlood cultures\nUrinalysis\n/Urine culture\nLFTs\nLipase\nTroponin\nCXR\nECG\nHead CT",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Glucose >600\nOsm >320\nBicarb >15\npH >7.3\nSerum ketones negative or mildly positive\nNeurologic abnormalities frequently present (coma in 25-50% of cases)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Glucose >600\nOsm >320\nBicarb >15\npH >7.3\nSerum ketones negative or mildly positive\nNeurologic abnormalities frequently present (coma in 25-50% of cases)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fluid replacement\nAverage fluid deficit is 8-12L\n50% should be replaced over the initial 12hr\nMay have to replace slower if patient has cardiac/renal impairment\nAggressiveness of fluid replacement must be weighed against the risk of cerebral edema, which increases with younger age\n[2]\nHypokalemia\nMust treat aggressively\nOnce adequate urinary output has been established K+ replacement should begin\nHyperglycemia\nDo not start insulin until K > 3.3 and adequate urinary output has been established\nHypomagnesemia\nRepletion will help correct\nhypokalemia\nHypophosphatemia\nRoutine correction unnecessary unless phos <1.0",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid replacement",
+          "url": "https://wikem.org/wiki/Fluid_replacement"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most patients require ICU admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes mellitus (main)\nDiabetic ketoacidosis\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    }
+  }
+}
