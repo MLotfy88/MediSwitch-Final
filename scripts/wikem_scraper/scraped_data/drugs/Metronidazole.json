@@ -1,14 +1,209 @@
 {
   "drug_name": "Metronidazole",
   "url": "https://wikem.org/wiki/Metronidazole",
-  "scraped_at": "2026-01-10T02:46:11.979790",
+  "scraped_at": "2026-01-10T02:48:17.463233",
   "sections": {
-    "General": "Type: Other\nantibiotics\nDosage Forms:\nIV\nPO: 250mg; 375mg; 500mg\nCommon Trade Names: Flagyl",
-    "Adult_Dosing": "General\nPO\n500mg PO q6-8h x 7-10 days\nFirst Dose: 500mg PO x 1\nIV\n15mg/kg IV x1, then 7.5mg/kg IV q6h\nFirst Dose: 15mg/kg IV x1\nMax: 1 gram/dose\nAmebic liver abscess\n500-750mg PO q8h x 5-10 days\nColorectal Surgery Infection Prophylaxis\n15mg/kg IV x 1\nComplete infusion 1h prior to surgery, then 7.5mg/kg IV q6h x 2\nMax: 1 g/dose\nIntestinal\nAmebiasis\n750mg PO q8h x 5-10 days\nPID\n500mg PO q12 x 14 days\nSee\nPID\nfor full regimen\nBacterial Vaginosis\n500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1\nTrichomoniasis\nTreatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1\nGiardiasis\n250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days\nC. Difficile\nMild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)\nH. pylori\n250-375mg PO q6h x 10-14 days (in combination)\nUrethritis\n, recurrent/persistent (Non-Gonococcal)\n2 g PO x 1 (with azithromycin)\nTetanus\n500 mg  IV every 6 hours",
-    "Pediatric_Dosing": "(<1200g)\n7.5 mg/kg PO/IV q48h\nFirst Dose: 7.5 mg/kg PO/IV x 1\n(>1200g AND <1 Month Old)\n<7 days old\n7.5-15 mg/kg/day PO/IV q12-24h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1\n>7 days old\n15-30 mg/kg/day PO/IV q12h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1\n(>1 Month Old)\n30 mg/kg/day PO/IV q6h\nFirst Dose: 7.5 mg/kg PO/IV x 1\nMax: 4 g/day\nBacterial Vaginosis\n<45kg\n15 mg/kg/day PO divided q12h x 7 days\nFirst Dose: 7 mg/kg PO x 1\nMax: 1 g/day\n>45kg\n500mg PO divided q8h x 7 days\nFirst Dose: 500mg PO x 1\nMax: 2 g/day\nProphylaxis (sexual Assault)\n<45kg'\n15 mg/kg/day PO divided q8h x 7 days\nFirst Dose: 7 mg/kg PO x 1\n>45kg\n2 g PO x 1\nTetanus\nSame as\nStandard Pediatric Age/Weight Dosing",
-    "Special_Populations": "Pregnancy:\nB\nLactation: Safety conditional\nRenal Dosing\nAdult\nNo adjustment for renal insufficiency\nHemodialysis: Give dose after dialysis\nPeritoneal Dialysis: No supplement\nPediatric\nCrCl <10: Decrease dose 50%\nHemodialysis: Give dose after dialysis\nPeritoneal Dialysis: No supplement\nHepatic Dosing (Adult & Pediatric)\nSevere impairment: decrease dose, amount not defined",
-    "Contraindications": "Black Box: carcinogenic in mice and rats; avoid unnecessary use; reserved for approved conditions\nAllergy to class/drug\nPregnancy (single 2 dose retimen)\nAlcohol use within 3 days\nDisulfiram use within 14 days",
-    "Adverse_Reactions": "Serious\nSeizures\nAseptic\nmeningitis\nPerifpheral neuropathy\nOptic neuropathy\nEncephalopathy\nHypersensitivity Reaction\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nLeukopenia\nCarcinogenicity (in animals)\nCommon\nDisulfiram effect\n(should abstain from ETOH at least two days after last dose)\nNausea and Vomiting\nEpigastric discomfort\nDiarrhea\nMetallic taste\nRash\nHeadache\nDizziness\nDark reddish-brown urine\nCandidiasis\nThrombophlebitis (IV use)",
-    "Pharmacology": "Half-life: 8h\nMetabolism: Liver; CYP450: 2C9 inhibitor\nExcretion: Urine (70%); feces (15%)\nMechanism of Action: Bactericidal"
+    "General": {
+      "text": "Type: Other\nantibiotics\nDosage Forms:\nIV\nPO: 250mg; 375mg; 500mg\nCommon Trade Names: Flagyl",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "PO\n500mg PO q6-8h x 7-10 days\nFirst Dose: 500mg PO x 1\nIV\n15mg/kg IV x1, then 7.5mg/kg IV q6h\nFirst Dose: 15mg/kg IV x1\nMax: 1 gram/dose",
+          "tables": []
+        },
+        "Amebic_liver_abscess": {
+          "text": "500-750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "Colorectal_Surgery_Infection_Prophylaxis": {
+          "text": "15mg/kg IV x 1\nComplete infusion 1h prior to surgery, then 7.5mg/kg IV q6h x 2\nMax: 1 g/dose",
+          "tables": []
+        },
+        "Intestinal_Amebiasis": {
+          "text": "750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "(<1200g)": {
+          "text": "7.5 mg/kg PO/IV q48h\nFirst Dose: 7.5 mg/kg PO/IV x 1",
+          "tables": []
+        },
+        "(>1200g_AND_<1_Month_Old)": {
+          "text": "<7 days old\n7.5-15 mg/kg/day PO/IV q12-24h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1\n>7 days old\n15-30 mg/kg/day PO/IV q12h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1",
+          "tables": []
+        },
+        "(>1_Month_Old)": {
+          "text": "30 mg/kg/day PO/IV q6h\nFirst Dose: 7.5 mg/kg PO/IV x 1\nMax: 4 g/day",
+          "tables": []
+        },
+        "Bacterial_Vaginosis_2": {
+          "text": "<45kg\n15 mg/kg/day PO divided q12h x 7 days\nFirst Dose: 7 mg/kg PO x 1\nMax: 1 g/day\n>45kg\n500mg PO divided q8h x 7 days\nFirst Dose: 500mg PO x 1\nMax: 2 g/day",
+          "tables": []
+        },
+        "Prophylaxis_(sexual_Assault)": {
+          "text": "<45kg'\n15 mg/kg/day PO divided q8h x 7 days\nFirst Dose: 7 mg/kg PO x 1\n>45kg\n2 g PO x 1",
+          "tables": []
+        },
+        "Tetanus_2": {
+          "text": "Same as\nStandard Pediatric Age/Weight Dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Standard Pediatric Age/Weight Dosing",
+          "url": "https://wikem.org/wiki/Metronidazole#Pediatric_Dosing"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy:\nB\nLactation: Safety conditional\nRenal Dosing\nAdult\nNo adjustment for renal insufficiency\nHemodialysis: Give dose after dialysis\nPeritoneal Dialysis: No supplement\nPediatric\nCrCl <10: Decrease dose 50%\nHemodialysis: Give dose after dialysis\nPeritoneal Dialysis: No supplement\nHepatic Dosing (Adult & Pediatric)\nSevere impairment: decrease dose, amount not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "B",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Black Box: carcinogenic in mice and rats; avoid unnecessary use; reserved for approved conditions\nAllergy to class/drug\nPregnancy (single 2 dose retimen)\nAlcohol use within 3 days\nDisulfiram use within 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Seizures\nAseptic\nmeningitis\nPerifpheral neuropathy\nOptic neuropathy\nEncephalopathy\nHypersensitivity Reaction\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nLeukopenia\nCarcinogenicity (in animals)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Disulfiram effect\n(should abstain from ETOH at least two days after last dose)\nNausea and Vomiting\nEpigastric discomfort\nDiarrhea\nMetallic taste\nRash\nHeadache\nDizziness\nDark reddish-brown urine\nCandidiasis\nThrombophlebitis (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Hypersensitivity Reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Disulfiram effect",
+          "url": "https://wikem.org/wiki/Disulfiram_effect"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8h\nMetabolism: Liver; CYP450: 2C9 inhibitor\nExcretion: Urine (70%); feces (15%)\nMechanism of Action: Bactericidal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
   }
 }

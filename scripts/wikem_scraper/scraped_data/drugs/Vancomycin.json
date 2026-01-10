@@ -1,14 +1,201 @@
 {
   "drug_name": "Vancomycin",
   "url": "https://wikem.org/wiki/Vancomycin",
-  "scraped_at": "2026-01-10T02:46:15.441857",
+  "scraped_at": "2026-01-10T02:48:21.482124",
   "sections": {
-    "General": "Type:\nGlycopeptide\nDosage Forms:\nIV\nPO: Mix IV form with 30mL water\nPR: Mix IV form with 100mL NS\nCommon Trade Names: Vancocin",
-    "Adult_Dosing": "Loading Doses\n15-20mg/kg IV loading dose\n[1]\nSample Loading Dose Table (individual ED guidelines may differ)\n<40kg:\n750mg IV\n40-59kg:\n1000mg IV\n60-90kg:\n1500mg IV\n>90kg:\n2000mg IV\nAlternative loading dose for serious infections: 20-25mg/kg IV\nLoading doses of 30mg/kg has shown improved target trough levels at 12 hrs with no difference in nephrotoxicity\n[2]\n[3]\nAdjust maintenance dose based on serum levels\nMaintenance\nAll: Adjust repeat doses based on serum levels\n<50kg:\n500mg IV q12h\n50-69kg:\n750mg IV q12h\n>70kg:\n1000mg IV q12h\nAlternative (All Weights): 10-15mg/kg IV q12\nAdjust dose based on serum levels\nClostridium Difficile\n1st occurrence\nUncomplicated: 125mg PO q6h x 10-14 days\nComplicated:  500mg PO/NG q6h\nMay use in combo with\nmetronidazole\nIV\nConsider adding vancomycin 500mg PR q6 if complete ileus\n2nd occurrence\nUncomplicated: 125mg PO q6h x 10-14 days\nComplicated:  500mg PO/NG q6h\nMay use in combo with\nmetronidazole\nIV\nConsider adding vancomycin 500mg PR q6 if complete ileus\n3rd+ occurrence\n125mg PO q6h x 10-14 days, then daily x 7 days, then q2-3 days x 2-8 wk\nStaphylococcal Enterocolitis\n500-2000mg/day PO divided q6-8h x 7-10 days\nFirst Dose: 500mg PO x 1",
-    "Pediatric_Dosing": "All: Adjust repeat doses based on serum levels\nGeneral (<7 Days Old)\n<1.2kg\n15mg/kg IV q24h\nFirst Dose: 15mg/kg IV x 1\n1.2-2kg\n10-15mg/kg IV q12-18h\nFirst Dose: 10-15mg/kg IV x 1\n>2.1kg\n10-15mg/kg IV q8-12h\nFirst Dose: 10-15mg/kg IV x 1\nGeneral (7 Days - 1 Month Old)\n<1.2kg\n15mg/kg IV q24h\nFirst Dose: 15mg/kg IV x 1\n1.2-2kg\n10-15mg/kg IV q8-12h\nFirst Dose: 10-15mg/kg IV x 1\n>2.1kg\n15-20mg/kg IV q8\nFirst Dose: 15-20mg/kg IV x 1\nGeneral (1 Month - 11 Years)\n10-15mg/kg IV q6-8h\nFirst Dose: 10-15mg/kg IV x 1\nMax: 1 gram per dose\nGeneral (12 - 16 Years)\n1000mg IV q12h\nFirst Dose: 1000mg IV x 1\nAlt: 10-15mg/kg IV q12\nInfo: Repeat dosing may require up to 1200-1500mg IV q12h or 10mg/kg IV q8\nClostridium Difficile\n40mg/kg/day PO divided q6-8h x 7-10 days\nFirst Dose: 10-13mg/kg x 1\nMax 500mg/dose, 2000mg/day\nFor severe infection or recurrence\nMay use in combination with\nmetronidazole\nPO\nStaphylococcal Enterocolitis\n40mg/kg/day PO divided q6-8h x 7-10 days\nFirst Dose: 10-13mg/kg x 1\nMax 500mg/dose, 2000mg/day\nCommunity-Acquired\nPneumonia\n40mg/kg/day PO divided q6-8h x 10-14 days\nFirst Dose: 10-13mg/kg x 1\nInfo: Switch to appropriate oral regiment when possible",
-    "Special_Populations": "Drug ratings in pregnancy\n: C\nLactation: Probably safe\nRenal Dosing\nAdult\nCrCl 50-90: 15mg/kg x1, then usual dose q12-24h\nCrCl 10-50: 15mg/kg x1, then usual dose q24h-96h\nCrCl <10: 15mg/kg x1, then usual dose q4-7 days\nHemodialysis: Give supplement only if high-flux dialyzer used\nPeritoneal dialysis: No supplement\nPediatric\nCrCl 10-50: give q18-48h\nCrCl <10: give q48-96h\nHemodialysis: Give supplement only if high-flux dialyzer used\nPeritoneal dialysis: No supplement\nHepatic Dosing (Adult & Pediatric)\nNot defined",
-    "Contraindications": "Allergy to class/drug",
-    "Adverse_Reactions": "Serious\nAnaphylaxis\nSevere\nhypotension\n(rapid IV use) - not much evidence but consider anti-histamine\n[4]\n:\n1.25-1.67mg/kg/dose\ndiphenhydramine\nIV to pediatric patients\n25 - 50mg\ndiphenhydramine\nIV to adults\nThrombophlebitis\nTissue necrosis (if extravasation)\nvasculitis\nExfoliative dermatitis\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nDrug rash with eosinophilia and systemic symptoms\nInterstitial nephritis\nNephrotoxicity\nOtotoxicity\nNeutropenia\nThrombocytopenia\nSuperinfection\nClostridium difficile\nCommon\nVancomycin infusion reaction\n(rapid IV use) - formerly \"red man syndrome\"\n[5]\nHypotension\n(rapid IV use)\nFever\nNausea\nRigors\nEosinophilia\nRash\nUrticaria\nPhlebitis\nTinnitus\nDizziness\n/\nVertigo\nElevated BUN/Creatinine\nVomiting\n(PO use)\nFlatulence (PO use)",
-    "Pharmacology": "Half-life: 4-6h (7.5 days ESRD)\nMetabolism: CYP450\nExcretion:\nIV route: Urine\nPO Route: Minimal systemic absorption unless intestinal inflammation or renal impairment\nMechanism of Action\nBactericidal against S. aureus and pneumococci\nBacteriostatic against enterococci\n[6]"
+    "General": {
+      "text": "Type:\nGlycopeptide\nDosage Forms:\nIV\nPO: Mix IV form with 30mL water\nPR: Mix IV form with 100mL NS\nCommon Trade Names: Vancocin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glycopeptide",
+          "url": "https://wikem.org/wiki/Glycopeptide"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Loading_Doses": {
+          "text": "15-20mg/kg IV loading dose\n[1]\nSample Loading Dose Table (individual ED guidelines may differ)\n<40kg:\n750mg IV\n40-59kg:\n1000mg IV\n60-90kg:\n1500mg IV\n>90kg:\n2000mg IV\nAlternative loading dose for serious infections: 20-25mg/kg IV\nLoading doses of 30mg/kg has shown improved target trough levels at 12 hrs with no difference in nephrotoxicity\n[2]\n[3]\nAdjust maintenance dose based on serum levels",
+          "tables": []
+        },
+        "Maintenance": {
+          "text": "All: Adjust repeat doses based on serum levels\n<50kg:\n500mg IV q12h\n50-69kg:\n750mg IV q12h\n>70kg:\n1000mg IV q12h\nAlternative (All Weights): 10-15mg/kg IV q12\nAdjust dose based on serum levels",
+          "tables": []
+        },
+        "Clostridium_Difficile": {
+          "text": "1st occurrence\nUncomplicated: 125mg PO q6h x 10-14 days\nComplicated:  500mg PO/NG q6h\nMay use in combo with\nmetronidazole\nIV\nConsider adding vancomycin 500mg PR q6 if complete ileus\n2nd occurrence\nUncomplicated: 125mg PO q6h x 10-14 days\nComplicated:  500mg PO/NG q6h\nMay use in combo with\nmetronidazole\nIV\nConsider adding vancomycin 500mg PR q6 if complete ileus\n3rd+ occurrence\n125mg PO q6h x 10-14 days, then daily x 7 days, then q2-3 days x 2-8 wk",
+          "tables": []
+        },
+        "Staphylococcal_Enterocolitis": {
+          "text": "500-2000mg/day PO divided q6-8h x 7-10 days\nFirst Dose: 500mg PO x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "All: Adjust repeat doses based on serum levels",
+      "subsections": {
+        "General_(<7_Days_Old)": {
+          "text": "<1.2kg\n15mg/kg IV q24h\nFirst Dose: 15mg/kg IV x 1\n1.2-2kg\n10-15mg/kg IV q12-18h\nFirst Dose: 10-15mg/kg IV x 1\n>2.1kg\n10-15mg/kg IV q8-12h\nFirst Dose: 10-15mg/kg IV x 1",
+          "tables": []
+        },
+        "General_(7_Days_-_1_Month_Old)": {
+          "text": "<1.2kg\n15mg/kg IV q24h\nFirst Dose: 15mg/kg IV x 1\n1.2-2kg\n10-15mg/kg IV q8-12h\nFirst Dose: 10-15mg/kg IV x 1\n>2.1kg\n15-20mg/kg IV q8\nFirst Dose: 15-20mg/kg IV x 1",
+          "tables": []
+        },
+        "General_(1_Month_-_11_Years)": {
+          "text": "10-15mg/kg IV q6-8h\nFirst Dose: 10-15mg/kg IV x 1\nMax: 1 gram per dose",
+          "tables": []
+        },
+        "General_(12_-_16_Years)": {
+          "text": "1000mg IV q12h\nFirst Dose: 1000mg IV x 1\nAlt: 10-15mg/kg IV q12\nInfo: Repeat dosing may require up to 1200-1500mg IV q12h or 10mg/kg IV q8",
+          "tables": []
+        },
+        "Clostridium_Difficile_2": {
+          "text": "40mg/kg/day PO divided q6-8h x 7-10 days\nFirst Dose: 10-13mg/kg x 1\nMax 500mg/dose, 2000mg/day\nFor severe infection or recurrence\nMay use in combination with\nmetronidazole\nPO",
+          "tables": []
+        },
+        "Staphylococcal_Enterocolitis_2": {
+          "text": "40mg/kg/day PO divided q6-8h x 7-10 days\nFirst Dose: 10-13mg/kg x 1\nMax 500mg/dose, 2000mg/day",
+          "tables": []
+        },
+        "Community-Acquired_Pneumonia": {
+          "text": "40mg/kg/day PO divided q6-8h x 10-14 days\nFirst Dose: 10-13mg/kg x 1\nInfo: Switch to appropriate oral regiment when possible",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Drug ratings in pregnancy\n: C\nLactation: Probably safe\nRenal Dosing\nAdult\nCrCl 50-90: 15mg/kg x1, then usual dose q12-24h\nCrCl 10-50: 15mg/kg x1, then usual dose q24h-96h\nCrCl <10: 15mg/kg x1, then usual dose q4-7 days\nHemodialysis: Give supplement only if high-flux dialyzer used\nPeritoneal dialysis: No supplement\nPediatric\nCrCl 10-50: give q18-48h\nCrCl <10: give q48-96h\nHemodialysis: Give supplement only if high-flux dialyzer used\nPeritoneal dialysis: No supplement\nHepatic Dosing (Adult & Pediatric)\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drug ratings in pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nSevere\nhypotension\n(rapid IV use) - not much evidence but consider anti-histamine\n[4]\n:\n1.25-1.67mg/kg/dose\ndiphenhydramine\nIV to pediatric patients\n25 - 50mg\ndiphenhydramine\nIV to adults\nThrombophlebitis\nTissue necrosis (if extravasation)\nvasculitis\nExfoliative dermatitis\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nDrug rash with eosinophilia and systemic symptoms\nInterstitial nephritis\nNephrotoxicity\nOtotoxicity\nNeutropenia\nThrombocytopenia\nSuperinfection\nClostridium difficile",
+          "tables": []
+        },
+        "Common": {
+          "text": "Vancomycin infusion reaction\n(rapid IV use) - formerly \"red man syndrome\"\n[5]\nHypotension\n(rapid IV use)\nFever\nNausea\nRigors\nEosinophilia\nRash\nUrticaria\nPhlebitis\nTinnitus\nDizziness\n/\nVertigo\nElevated BUN/Creatinine\nVomiting\n(PO use)\nFlatulence (PO use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-6h (7.5 days ESRD)\nMetabolism: CYP450\nExcretion:\nIV route: Urine\nPO Route: Minimal systemic absorption unless intestinal inflammation or renal impairment\nMechanism of Action\nBactericidal against S. aureus and pneumococci\nBacteriostatic against enterococci\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
   }
 }

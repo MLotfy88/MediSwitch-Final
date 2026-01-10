@@ -1,13 +1,93 @@
 {
   "drug_name": "Amiodarone",
   "url": "https://wikem.org/wiki/Amiodarone",
-  "scraped_at": "2026-01-10T02:46:20.557373",
+  "scraped_at": "2026-01-10T02:48:27.363373",
   "sections": {
-    "General": "Type:\nAntiarrhythmics\nDosage Forms: injectable solution, tablet\nRoutes of Administration: IV, PO\nCommon Trade Names: Cordarone, Pacerone, Nexterone",
-    "Adult_Dosing": "V-fib\n/\npulseless V-tach\nLoading dose = 300mg IV bolus followed by 150mg bolus PRN\nStable\nwide complex tachycardia\n(e.g. V-tach) or\nSVT\n150 mg in 100mL D5W over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total)\n[1]\nThen 0.5 mg/min drip over next 18 hrs (540 mg total)\nOral dosage after IV infusion is 400 -800 mg PO daily",
-    "Special_Populations": "Pregnancy Rating\n: D\nLactation Risk Categories\n: Unsafe\nRenal Dosing- no adjustment\nAdult\nPediatric\nHepatic Dosing- caution and consider dose decrease\nAdult\nPediatric",
-    "Contraindications": "Allergy to class/drug\nIodine or shellfish allergy\nPregnancy",
-    "Adverse_Reactions": "Amiodarone\nAdverse Effects\nBradycardia\nHypotension with older solvent-based formulation. Uncommon with newer aqueous formulation.\nProlonged QT\nThyrotoxicosis\n[2]\nBetween 5-20% of patients treated with amiodarone have thyrotoxicosis (higher in areas of iodine deficiency)\nIodine-induced hyperthyroidism\nIt is thought that the iodine load may unmask hyperthyroidism in patients with multinodular goiter and subclinical Graves’ disease\nDrug-induced destructive thyroiditis\nMore commonly, the cytotoxic effects of amiodarone destroy thyroid cells, resulting in a release of preformed hormone.\nAmiodarone pulmonary toxicity\nHyperpigmentation rash",
-    "Pharmacology": "Half-life: 58 days\nMetabolism: Liver extensively\nExcretion: Bile primarily\nMechanism of Action\nClass III - Inhibits potassium channels\nImpairs SA and AV node conduction\nDecreases automaticity\nProlongs refractory period in accessory pathways\nAlso has class I & II properties"
+    "General": {
+      "text": "Type:\nAntiarrhythmics\nDosage Forms: injectable solution, tablet\nRoutes of Administration: IV, PO\nCommon Trade Names: Cordarone, Pacerone, Nexterone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "V-fib/pulseless_V-tach": {
+          "text": "Loading dose = 300mg IV bolus followed by 150mg bolus PRN",
+          "tables": []
+        },
+        "Stable_wide_complex_tachycardia_(e.g._V-tach)_or_SVT": {
+          "text": "150 mg in 100mL D5W over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total)\n[1]\nThen 0.5 mg/min drip over next 18 hrs (540 mg total)\nOral dosage after IV infusion is 400 -800 mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation Risk Categories\n: Unsafe\nRenal Dosing- no adjustment\nAdult\nPediatric\nHepatic Dosing- caution and consider dose decrease\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nIodine or shellfish allergy\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Amiodarone_Adverse_Effects": {
+          "text": "Bradycardia\nHypotension with older solvent-based formulation. Uncommon with newer aqueous formulation.\nProlonged QT\nThyrotoxicosis\n[2]\nBetween 5-20% of patients treated with amiodarone have thyrotoxicosis (higher in areas of iodine deficiency)\nIodine-induced hyperthyroidism\nIt is thought that the iodine load may unmask hyperthyroidism in patients with multinodular goiter and subclinical Graves’ disease\nDrug-induced destructive thyroiditis\nMore commonly, the cytotoxic effects of amiodarone destroy thyroid cells, resulting in a release of preformed hormone.\nAmiodarone pulmonary toxicity\nHyperpigmentation rash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Amiodarone pulmonary toxicity",
+          "url": "https://wikem.org/wiki/Amiodarone_pulmonary_toxicity"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 58 days\nMetabolism: Liver extensively\nExcretion: Bile primarily",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Class III - Inhibits potassium channels\nImpairs SA and AV node conduction\nDecreases automaticity\nProlongs refractory period in accessory pathways\nAlso has class I & II properties",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    }
   }
 }
