@@ -1,0 +1,175 @@
+{
+  "drug_name": "Glipizide",
+  "url": "https://wikem.org/wiki/Glipizide",
+  "scraped_at": "2026-01-10T07:53:58.503487",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nSulfonylurea\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names: Glucotrol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sulfonylurea",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "5-10mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Excretion minimal, likely safe",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not studied",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "2.5mg daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Excretion minimal, likely safe",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not studied",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "2.5mg daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Excretion minimal, likely safe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Not studied",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "2.5mg daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Not studied",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "2.5mg daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "2.5mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug (including sulfa allergy)\nType 1 diabetes\nDiabetic ketoacidosis\nCaution if risk of severe hypoglycemia (elderly, debilitated, malnourished, adrenal/pituitary insufficiency, physiologic stressors)\nConcomitant use of beta blockers or other sympatholytics (may impair ability to recognize symptoms of hypoglycemia)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypoglycemia\nCholestatic jaundice, hepatitis, liver failure\nSee\nsulfonylurea toxicity",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypoglycemia\nRash, skin eruptions\nAbdominal pain, diarrhea, constipation, flatulence, heartburn, nausea/vomiting\nSyncope\nHeadache, dizziness, anxiety, depression, drowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sulfonylurea toxicity",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypoglycemia\nCholestatic jaundice, hepatitis, liver failure\nSee\nsulfonylurea toxicity",
+      "subsections": {
+        "Common": {
+          "text": "Hypoglycemia\nRash, skin eruptions\nAbdominal pain, diarrhea, constipation, flatulence, heartburn, nausea/vomiting\nSyncope\nHeadache, dizziness, anxiety, depression, drowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sulfonylurea toxicity",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypoglycemia\nRash, skin eruptions\nAbdominal pain, diarrhea, constipation, flatulence, heartburn, nausea/vomiting\nSyncope\nHeadache, dizziness, anxiety, depression, drowsiness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-5h\nMetabolism: Hepatic\nExcretion: Urinary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Increases insulin secretion from pancreatic beta cells. May decrease rate of hepatic glucose production and increase insulin receptor sensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sulfonylurea toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sulfonylurea toxicity",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        }
+      ]
+    }
+  }
+}

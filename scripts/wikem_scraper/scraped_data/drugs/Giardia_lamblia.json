@@ -1,0 +1,477 @@
+{
+  "drug_name": "Giardia_lamblia",
+  "url": "https://wikem.org/wiki/Giardia_lamblia",
+  "scraped_at": "2026-01-10T07:53:54.561823",
+  "sections": {
+    "Background": {
+      "text": "Flagellated protozoan\nMost common cause of parasitic diarrhea worldwide\nTransmitted by water contaminated with feces (human, beaver, muskrat, dogs, raccoons, etc)\nCommon among campers and is also known as “backpacker’s diarrhea”\nCommon in travelers to former Soviet Union, Caribbean, Latin America, India, Africa\nInfection rate is twice as high during summer months\nAlso may be transmitted by contaminated food or close physical contact (sexual activity, daycare centers, etc)\nPatients with decreased gastric acidity, immunoglobulin deficiency, or immunocompromise are more susceptible\nOther names: “beaver fever”, “the Trotskys” (common in travelers to Leningrad)\n[1]\n[2]\n[3]",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Trophozoites infect duodenum, jejunum, and ileum where they form cysts\nCysts are passed in feces; viable for long periods of time\nA single diarrheal stool may contain hundreds of millions of cysts or parasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Trophozoites infect duodenum, jejunum, and ileum where they form cysts\nCysts are passed in feces; viable for long periods of time\nA single diarrheal stool may contain hundreds of millions of cysts or parasites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Often asymptomatic\nMost common symptoms include:\nAbdominal distension\nColicky\nabdominal pain\nFlatulence\nDiarrhea\n(pale, loose, floating, foul odor)\nBorborygmi\nNo blood or mucus in stool\nSudden onset after incubation period of 1-3 weeks\nSymptoms usually resolve in 7-10 days\n85% of the time infection resolves spontaneously within 6 weeks\nMay cause chronic malabsorption-like illness, especially in those with immunoglobulin deficiency\nChronic infections cause weight loss, anemia, lactose intolerance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[4]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[4]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Normal WBC, no eosinophilia\nStool O&P\nMotile trophozoites or cysts\nAble to diagnose infection readily in acute illness\nMore difficult to diagnose in chronic or asymptomatic infection\nAntigen testing with ELISA, DFA, etc starting to replace microscopic examination with similar cost\n[5]\nSuspect protozoan illness in patients with diarrhea > 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment is not always successful\n[6]\nMetronidazole\nAdult: 250mg TID x 7-10 days\nChildren: 5mg/kg TID x 7 days (max dose 500mg TID)\nAlbendazole\n[7]\n400mg PO daily x 5-10 days\nTinidazole\nAdult: 2 grams PO x 1 dose\nChildren: 50mg/kg PO x 1 dose\nQuinacrine\n> 8 years old: 100mg TID x 7 days\n< 8 years old: 2mg/kg TID x 7 days\nNitazoxanide\n> 12 years old: 500mg BID x 3 days\n4-11 years old: 200mg BID x 3 days\n12-47 months old: 100mg BID x 3 days",
+      "subsections": {
+        "Public_Health_Measures": {
+          "text": "Strict adherence to handwashing (toileting, diaper changes, playing with pets, etc)\nTreat household members and/or sexual contacts if infected\nTreat asymptomatic infections in those at high-risk of transmitting to others (children in daycare, food handlers, etc) or those at risk of chronic symptoms\nReinfection universal within 3 months in heavily infected endemic areas; treatment is not cost-effective in this setting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Nitazoxanide",
+          "url": "https://wikem.org/wiki/Nitazoxanide"
+        }
+      ]
+    },
+    "Public_Health_Measures": {
+      "text": "Strict adherence to handwashing (toileting, diaper changes, playing with pets, etc)\nTreat household members and/or sexual contacts if infected\nTreat asymptomatic infections in those at high-risk of transmitting to others (children in daycare, food handlers, etc) or those at risk of chronic symptoms\nReinfection universal within 3 months in heavily infected endemic areas; treatment is not cost-effective in this setting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Disease is usually self-limited\nAdmit those with systemic symptoms, severe dehydration, inability to tolerate PO fluids, or those with significant co-morbidities\nSupplementation with zinc and probiotics reduce severity/duration of diarrhea\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

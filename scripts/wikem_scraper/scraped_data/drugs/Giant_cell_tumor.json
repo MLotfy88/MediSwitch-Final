@@ -1,0 +1,141 @@
+{
+  "drug_name": "Giant_cell_tumor",
+  "url": "https://wikem.org/wiki/Giant_cell_tumor",
+  "scraped_at": "2026-01-10T07:53:58.191243",
+  "sections": {
+    "Background": {
+      "text": "Benign tumor that is locally aggressive causing osteolytic destruction\nAlthough classified as benign lesions, metastasis does occur in a small percentage of patients, typically to lungs\nThese are known as benign pulmonary implants as they do not carry the same poor prognostic implication as lung metastasis from other malignancies\n3% to 5% of all primary bone tumors\nAround 20% in the Chinese population\nIncreased incidence in patients who have been diagnosed with Paget disease of the bone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain and edema over a joint near a long bone (usually around the knee)\nClassically in a young female adult\nCan present as a pathological fracture\nNearly all present with just a single tumor site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain radiograph showing a large lytic mass with soap bubble appearance\nObtain chest plain film to look for pulmonary metastasis\nCT and MRI for more accurate assessment of tumor\nPossibly can be done as outpatient\nBiopsy for definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgery is the treatment of choice\nRANKL inhibitors (Denosumab) for unresectable metastatic disease\nCan recur locally after curettage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Home with outpatient follow up\nAdmission if necessary for pain control or significant disease burden",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

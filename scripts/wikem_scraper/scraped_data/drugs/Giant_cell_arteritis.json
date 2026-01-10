@@ -1,0 +1,905 @@
+{
+  "drug_name": "Giant_cell_arteritis",
+  "url": "https://wikem.org/wiki/Giant_cell_arteritis",
+  "scraped_at": "2026-01-10T07:53:57.231145",
+  "sections": {
+    "Intro": {
+      "text": "The term \"temporal arteritis\" is no longer used.  It refers to giant cell arteritis that affects the temporal artery.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Systemic\nvasculitis\nmost commonly involving medium-sized arteries in the carotid circulation, affecting 1% of the population\n[1]\nTemporal artery is the most commonly involved, but ophthalmic, occipital, and other arteries off the aorta can also be involved\nMost frequent primary large-vessel vasculitis in patients over 50\n[2]\nElevated risk in women and Northern European descent\nGiant cell arteritis, with possible involvement of large vessels like aorta leading to\n[3]\n:\nTemporal arteritis\nAortic regurgitation\nAortic arch syndrome\nAortic dissection\n\"Rule of 50s\" can help remember useful points - \"temporal arteritis affects patients at least 50 years of age, with a serum ESR > 50 mm/hr and is treated with 50mg of\nprednisone\ndaily\"\nCan cause painless, ischemic optic neuropathy with severe vision loss if left untreated\nAssociated with\npolymyalgia rheumatica\n[4]\n50% of patients with Giant Cell Arteritis have concomitant Polymylalgia Rheumatica. 15% of patients with Polymyalgia Rheumatica develop Giant Cell Arteritis",
+      "subsections": {
+        "Vasculitis_Syndrome_Types": {
+          "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "polymyalgia rheumatica",
+          "url": "https://wikem.org/wiki/Polymyalgia_rheumatica"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Vasculitis_Syndrome_Types": {
+      "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nor other constitutional symptoms\nHeadache\nin 85%\nGradually worsens over days, worse at night\nUsually unilateral near temple/periorbital area, but can be nonfocal\nMay have tender scalp on palpation\nJaw claudication\nMyalgia\n(\npolymyalgia rheumatica\n)\nVisual loss\nin one eye in 50%\nPosterior ciliary artery\nMay present as amaurosis fugax, transient diplopia, or complete blindness\nSecond eye may be affected within weeks after first\nTender, pulseless temporal artery\nAfferent pupillary defect\nPale and edematous optic disc",
+      "subsections": {
+        "Likelihood_Ratio_of_Findings": {
+          "text": "Jaw claudication and a beaded temporal artery increase the likelihood of temporal arteritis the greatest\n[5]",
+          "tables": [
+            [
+              {
+                "Finding": "Jaw claudication",
+                "(+) Likelihood Ratio of Temporal Ateritis": "4.2 (2.8-6.2)",
+                "Negative Likelihood Ratio": "0.72 (0.65 - 0.81)"
+              },
+              {
+                "Finding": "Diplopia",
+                "(+) Likelihood Ratio of Temporal Ateritis": "3.4 (1.3-8.6)",
+                "Negative Likelihood Ratio": "0.95 (0.91 - 0.99)"
+              },
+              {
+                "Finding": "Temporal artery beading",
+                "(+) Likelihood Ratio of Temporal Ateritis": "4.6 (1.1 - 18.4)",
+                "Negative Likelihood Ratio": "0.93 (0.88-0.99)"
+              },
+              {
+                "Finding": "Enlarged temporal artery",
+                "(+) Likelihood Ratio of Temporal Ateritis": "4.3 (2.1-8.9)",
+                "Negative Likelihood Ratio": "0.67 (0.5-0.89)"
+              },
+              {
+                "Finding": "Painful temporal artery",
+                "(+) Likelihood Ratio of Temporal Ateritis": "2.6 (1.9-3.7)",
+                "Negative Likelihood Ratio": "0.82 (0.74-0.92)"
+              },
+              {
+                "Finding": "Absent temporal artery pulse",
+                "(+) Likelihood Ratio of Temporal Ateritis": "2.7 (0.55 - 13.4)",
+                "Negative Likelihood Ratio": "0.71 (0.38 - 1.3)"
+              },
+              {
+                "Finding": "Abnormal ESR",
+                "(+) Likelihood Ratio of Temporal Ateritis": "1.1 (1.0-1.2)",
+                "Negative Likelihood Ratio": "0.2 (0.08 - 0.51)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "polymyalgia rheumatica",
+          "url": "https://wikem.org/wiki/Polymyalgia_rheumatica"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        }
+      ]
+    },
+    "Likelihood_Ratio_of_Findings": {
+      "text": "Jaw claudication and a beaded temporal artery increase the likelihood of temporal arteritis the greatest\n[5]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Jaw claudication",
+            "(+) Likelihood Ratio of Temporal Ateritis": "4.2 (2.8-6.2)",
+            "Negative Likelihood Ratio": "0.72 (0.65 - 0.81)"
+          },
+          {
+            "Finding": "Diplopia",
+            "(+) Likelihood Ratio of Temporal Ateritis": "3.4 (1.3-8.6)",
+            "Negative Likelihood Ratio": "0.95 (0.91 - 0.99)"
+          },
+          {
+            "Finding": "Temporal artery beading",
+            "(+) Likelihood Ratio of Temporal Ateritis": "4.6 (1.1 - 18.4)",
+            "Negative Likelihood Ratio": "0.93 (0.88-0.99)"
+          },
+          {
+            "Finding": "Enlarged temporal artery",
+            "(+) Likelihood Ratio of Temporal Ateritis": "4.3 (2.1-8.9)",
+            "Negative Likelihood Ratio": "0.67 (0.5-0.89)"
+          },
+          {
+            "Finding": "Painful temporal artery",
+            "(+) Likelihood Ratio of Temporal Ateritis": "2.6 (1.9-3.7)",
+            "Negative Likelihood Ratio": "0.82 (0.74-0.92)"
+          },
+          {
+            "Finding": "Absent temporal artery pulse",
+            "(+) Likelihood Ratio of Temporal Ateritis": "2.7 (0.55 - 13.4)",
+            "Negative Likelihood Ratio": "0.71 (0.38 - 1.3)"
+          },
+          {
+            "Finding": "Abnormal ESR",
+            "(+) Likelihood Ratio of Temporal Ateritis": "1.1 (1.0-1.2)",
+            "Negative Likelihood Ratio": "0.2 (0.08 - 0.51)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ESR ~70-110\n84% sensitivity, 30% specificity\n[6]\n>15% of patients can have a normal ESR\nCRP elevated\n[7]\nMore sensitive than ESR\nDoesn't have normal age related increase like ESR does\nThe role of ESR/CRP is more to rule out (if both normal) rather than to confirm the diagnosis when they are elevated. 4% of patients have normal CRP and ESR with biopsy confirmed diagnosis\n[8]\nUltrasound\n[9]\nIncreasingly used as a first-line investigation due to availability/speed and ability to capture larger segments of the artery\nMay show a noncompressible involved artery with hypoechoic wall thickening\n[10]",
+      "subsections": {
+        "American_College_of_Rheumatology_Criteria": {
+          "text": "3 or more criteria 93% sensitive and 91% specific\nAge ≥ 50 years old\nNew onset of headache\nTemporal artery tenderness or DECREASED temporal pulse (not related to carotid disease)\nESR ≥ 50 mm/hr\nArtery biopsy with necrotizing arteritis or a granulomatous process with multinucleated giant cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "American_College_of_Rheumatology_Criteria": {
+      "text": "3 or more criteria 93% sensitive and 91% specific\nAge ≥ 50 years old\nNew onset of headache\nTemporal artery tenderness or DECREASED temporal pulse (not related to carotid disease)\nESR ≥ 50 mm/hr\nArtery biopsy with necrotizing arteritis or a granulomatous process with multinucleated giant cells",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Methylprednisolone\n500-1000mg IV QD x3d as a pulse dose\n[12]\nAlternatively,\nPrednisone\n1 mg/kg/day up to 80 mg as starting dose\nExpeditious steroid therapy prevents stroke of the involved artery or permanent vision loss\nNeeds temporal artery biopsy, although treatment with high dose corticosteroids should be initiated prior to biopsy to avoid permanent vision loss as a result of ophthalmic artery involvement.\nBiopsy should be done as soon as possible, but may be positive as long as 2 weeks after steroid initiation\n[13]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Headache",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=6nKZ1X-ZYGI}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

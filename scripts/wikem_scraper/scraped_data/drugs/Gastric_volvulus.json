@@ -1,0 +1,611 @@
+{
+  "drug_name": "Gastric_volvulus",
+  "url": "https://wikem.org/wiki/Gastric_volvulus",
+  "scraped_at": "2026-01-10T07:53:49.237310",
+  "sections": {
+    "Background": {
+      "text": "Abnormal rotation of the stomach around its short or long axis\nRare but potentially life-threatening due to potential for untreated volvulus to progress to strangulation and cause gastric ischemia and perforation\nUsually associated with paraesophageal hernia or diaphragmatic eventration\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usually appear relatively well until progressed to gastric ischemia\nAbdominal pain\n/tenderness and distension, particularly upper abdomen\nVomiting\n, retching that often does not respond to\nantiemetics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        },
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for other causes of pain\nCXR\nmay show retrocardiac air-filled gastric shadow\n[2]\nUpright CXR and\nabdominal x-ray\nIntrathoracic, upside-down stomach\nDouble air fluid level in stomach\nCollapsed small bowel\nCT abdomen most helpful\nGastric herniation around points of torsion\nMay show signs of gastric ischemia, seen a lack of contrast enhancement of gastric wall",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "abdominal x-ray",
+          "url": "https://wikem.org/wiki/Abdominal_x-ray"
+        }
+      ]
+    },
+    "Management": {
+      "text": "NG tube\nfor decompression\nSurgery consult\nAnalgesia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NG tube",
+          "url": "https://wikem.org/wiki/NG_tube"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

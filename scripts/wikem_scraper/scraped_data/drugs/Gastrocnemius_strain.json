@@ -1,0 +1,147 @@
+{
+  "drug_name": "Gastrocnemius_strain",
+  "url": "https://wikem.org/wiki/Gastrocnemius_strain",
+  "scraped_at": "2026-01-10T07:53:53.576746",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"Tennis leg\"\nTypical mechanism of injury is pushing off with foot on affected side",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Audible pop\nCalf pain\nBruising\nSwollen muscle body (generally in medial calf area)",
+      "subsections": {
+        "Calf_Raise_Test": {
+          "text": "Plantar flex the affected ankle. Patients with achilles tendon rupture will not be able to complete the motion, gastrocnemius tears will be tender but can partially complete the motion.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Calf_Raise_Test": {
+      "text": "Plantar flex the affected ankle. Patients with achilles tendon rupture will not be able to complete the motion, gastrocnemius tears will be tender but can partially complete the motion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Calf_pain": {
+      "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis\nMay consider tib/fib X-ray or\nDVT ultrasound\nto rule out other diagnoses, if unclear",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT ultrasound",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "RICE\nNSAIDS\nAnkle/foot bracing in a position of maximal tolerable dorsiflexion\nEarly weight bearing as tolerated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "https://emergencymedicinecases.com/episode-58-tendons-ligaments-missed-orthopedic-injuries/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

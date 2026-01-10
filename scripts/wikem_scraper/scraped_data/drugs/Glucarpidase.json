@@ -1,0 +1,173 @@
+{
+  "drug_name": "Glucarpidase",
+  "url": "https://wikem.org/wiki/Glucarpidase",
+  "scraped_at": "2026-01-10T07:54:01.018406",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nantidote\nDosage Forms: 1000 units/vial\nRoutes of Administration: IV\nCommon Trade Names: Voraxaze",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Methotrexate toxicity\n50 units/kg IV x1\nFor patients with mod-severe renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methotrexate toxicity",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Methotrexate toxicity\n50 units/kg IV x1\nFor patients with mod-severe renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methotrexate toxicity",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Benefits outweigh risks during pregnancy\nLactation risk: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Paresthesia\nFlushing\nNausea\n/\nVomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Paresthesia\nFlushing\nNausea\n/\nVomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Paresthesia\nFlushing\nNausea\n/\nVomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5.6 hr, 8.2 hr (Crcl < 30)\nMetabolism: Unknown\nExcretion: Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Hydrolyzes carboxyl-terminal glutamate, converting methotrexate to inactive metabolisms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Methotrexate toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methotrexate toxicity",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        }
+      ]
+    }
+  }
+}

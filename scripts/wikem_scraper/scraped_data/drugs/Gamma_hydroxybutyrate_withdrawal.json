@@ -1,0 +1,186 @@
+{
+  "drug_name": "Gamma_hydroxybutyrate_withdrawal",
+  "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal",
+  "scraped_at": "2026-01-10T07:53:49.522253",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: GHB\nFrequently referred to as the \"date rape drug\"\nCentral nervous system depressant\nGABA-B agonist (as opposed to GABA-A agonists -\nalcohol\n,\nbenzodiazepines\n, etc)\nAbused for:\nBody building or sleep enhancement\neuphoric, sexual, stimulant, and relaxant effects\nSurreptitious drugging to facilitate sexual assault\nAlso used therapeutically in the treatment of narcolepsy\n[1]",
+      "subsections": {
+        "Pharmacokinetics": {
+          "text": "Effects start in 15-20 minutes, peak in 30-60 minutes,\nLipid soluble, readily crosses the blood brain barrier\nElimination is dose-dependent; half-life of 20-50 minutes\nThe duration of GHB's clinical effects depends upon the dose, and ranges from 2.5-4 hours",
+          "tables": []
+        },
+        "Pharmacology": {
+          "text": "Is a metabolite and precursor of GABA\nInteracts with GHB-specific receptors and also acts as a direct agonist of GABA-B receptors\nAffects multiple neurotransmitter systems, including those of opioids, dopamine, serotonin, glutamate, and acetylcholine\nGamma butyrolactone (GBL) and 1,4 butanediol (BD) are GHB analogs that are rapidly metabolized to GHB after ingestion, with the same toxic and recreational effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Pharmacokinetics": {
+      "text": "Effects start in 15-20 minutes, peak in 30-60 minutes,\nLipid soluble, readily crosses the blood brain barrier\nElimination is dose-dependent; half-life of 20-50 minutes\nThe duration of GHB's clinical effects depends upon the dose, and ranges from 2.5-4 hours",
+      "subsections": {
+        "Pharmacology": {
+          "text": "Is a metabolite and precursor of GABA\nInteracts with GHB-specific receptors and also acts as a direct agonist of GABA-B receptors\nAffects multiple neurotransmitter systems, including those of opioids, dopamine, serotonin, glutamate, and acetylcholine\nGamma butyrolactone (GBL) and 1,4 butanediol (BD) are GHB analogs that are rapidly metabolized to GHB after ingestion, with the same toxic and recreational effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Is a metabolite and precursor of GABA\nInteracts with GHB-specific receptors and also acts as a direct agonist of GABA-B receptors\nAffects multiple neurotransmitter systems, including those of opioids, dopamine, serotonin, glutamate, and acetylcholine\nGamma butyrolactone (GBL) and 1,4 butanediol (BD) are GHB analogs that are rapidly metabolized to GHB after ingestion, with the same toxic and recreational effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Similar to\nalcohol withdrawal\ntremor, agitation, hallucinations, tachycardia, hypertension\nWithdrawal only if have long term use, not episodic binging\nOccur a few hours after use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_withdrawal": {
+          "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Sedative/hypnotic_withdrawal": {
+      "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Benzodiazepines\n(may need large doses)\nNeuroleptics\nBeta-blockers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Gamma hydroxybutyrate withdrawal\nToxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    }
+  }
+}

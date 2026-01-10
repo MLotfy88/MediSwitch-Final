@@ -1,0 +1,37 @@
+{
+  "drug_name": "Glycoprotein_IIB/IIIA_inhibitor",
+  "url": "https://wikem.org/wiki/Glycoprotein_IIB/IIIA_inhibitor",
+  "scraped_at": "2026-01-10T07:54:00.852604",
+  "sections": {
+    "Background": {
+      "text": "By competing with fibrinogen and von Willebrand factor (vWF) for GP IIb/IIIa binding, GP IIb/IIIa antagonists interfere with platelet cross-linking and platelet-derived thrombus formation\nMostly indicated for patients undergoing PCI for\nACS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Glycoprotein_IIB/IIIA_inhibitors": {
+      "text": "Abciximab\n(ReoPro)\nEptifibatide\n(Integrilin)\nTirofiban\n(Aggrastat)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        }
+      ]
+    }
+  }
+}

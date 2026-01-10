@@ -1,0 +1,58 @@
+{
+  "drug_name": "Goals_of_care",
+  "url": "https://wikem.org/wiki/Goals_of_care",
+  "scraped_at": "2026-01-10T07:54:00.881537",
+  "sections": {
+    "Background": {
+      "text": "Patients with documented advanced care plans have fewer hospitalizations in their last months of life and are more likely to receive care in accordance with their wishes.\nIn sign out from previous team, ask about Code Status if the patient is sick.\nVaries by state to state. State-by-state information can be found at:\nhttp://www.polst.org/programs-in-your-state/\n.\nFor critically ill patients, open frank discussion around resuscitation and end of life preferences is required (often before rapport can be established).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scenarios": {
+      "text": "Patient coherent:\n“Have you talked with your primary care provider, family or friends about your wishes for emergency care if you were not able to speak for yourself?”\nHave you ever completed an advance directive for health care or a POLST form? Do you remember what the advance directive / POLST said?”\nDevelop an understanding of patients’ overall prognosis and likelihood of surviving CPR so that patients can make informed decisions and you can make the appropriate recommendation surrounding CPR\nSuggested language: “What is most important to you at this point in your life?” “What goals do you have for the time you have left?”\nIf you think CPR would be futile, some suggested language is:\n“Based on what you have said, I think we should continue all of the treatments you are currently getting, and provide all basic medical care such as antibiotics. I also think we should ensure you have a lot of support for pain and any other symptoms you experience. I do have some concerns about other treatments that might be offered. May I share those concerns? I’m worried that resuscitation and life support won’t help you get home if you became very ill; it’s unfortunately not likely to be successful, but even if you were resuscitated you would likely be in the ICU, potentially dependent on machines, and with a very different quality of life than you have today. Many patients at your stage of illness decide that as opposed to trying resuscitation or life support, they’d prefer to allow a natural death when that time comes. You don’t have to decide right now, but I’d appreciate hearing your thoughts.” (Code Discussion Status by Rachel Stern)\nPatient not coherent\nFamily members present?\nPOLST with family?\nParamedics brought POLST from patient's home?\nReview of previous hospital records regarding Code Status (can ask RN to do so while you are coding the patient).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Statistics": {
+      "text": "Overall Prognosis (all numbers are estimates)\nSurvival to discharge for patients receiving inpatient CPR (does not reflect return to previous functional status or cognitive ability):\nAll ages = 17%\n> 65 = 18%\n> 90 = 12%\nPatient coming from SNF = 11.5%\nWith any cancer = 6%\nWith stage IV cancer < 1%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Difficult_Situations": {
+      "text": "Discordant Guidance\nFamily members sometimes disagree with the POLST or in moments of heightened emotions, are not yet ready to lose their loved one.  Guilt from an estranged family member who recently arrives may also play into the complicated psycho-social factors that contribute to this discordant guidelines.\nIn California, the treating physician and surrogate (family) have the power to override the POLST in the event of incapacity.\nProbate Code Section 4780(c): allows a “legally authorized representative” to sign a POLST on behalf of an incapacitated patient.\nProbate Code Section 4781.4: in the event of a conflict between POLST and any other\nprevious health care instruction, the latest in time prevails. Thus, the POLST law gives third party “representatives” the ability to countermand a patient’s prior expressions of treatment preferences and make treatment decisions with which the patient has expressly disagreed. \n(\nhttp://www.canhr.org/reports/2010/POLST_WhitePaper.pdf\n)\nPhysicians are also override POLST forms: (...the statutory authorization for POLST forms provides that “[a] health care provider shall treat an individual in accordance with a Physician Orders for Life Sustaining Treatment form” but also that “[a] physician may conduct an evaluation of the individual and, if possible, in consultation with the individual, or the individual’s legally recognized health care decision-maker, issue a new order consistent with the most current information about the individual’s health status and goals of care.” Thus, it clearly provides the treating physician and surrogate power to override the POLST in the event of incapacity) (\nhttp://www.americanbar.org/publications/aba_health_esource/2014-2015/october/polst.html\n)\nSlow Codes\nWhen a provider does not think that proceeding with coding a patient is consistent with the patients' wishes, there is a tendency to run a \"slow code\" (AKA \"show code\") which was symbolic resuscitations.  The idea behind is to perform a resuscitation to benefit the family whole minimizing harm to the patient.  These types of codes can undermine the trust that patients/families have in health care providers.  As such, they can be problematic. (\nhttps://depts.washington.edu/bioethx/topics/dnr.html\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Key_Points": {
+      "text": "POLSTs are good.\nA healthcare representative (conservator, guardian, or closest relative) can revoke, change, or execute a new POLST form on behalf of the patient if they are incapacitated, meaning they would get final say (in California, may vary by state)\nWhen in doubt, err on the side of resuscitating.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Delivering bad news\nEnd of life care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Delivering bad news",
+          "url": "https://wikem.org/wiki/Delivering_bad_news"
+        },
+        {
+          "text": "End of life care",
+          "url": "https://wikem.org/wiki/End_of_life_care"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Step by Step Rapid Code Status Conversation Guide\nhttps://www.aliem.com/rapid-code-status-conversation-guide/\nhttp://www.canhr.org/reports/2010/POLST_WhitePaper.pdf\nhttps://depts.washington.edu/bioethx/topics/dnr.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

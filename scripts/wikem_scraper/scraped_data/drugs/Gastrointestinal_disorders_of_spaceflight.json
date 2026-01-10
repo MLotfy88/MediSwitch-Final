@@ -1,0 +1,41 @@
+{
+  "drug_name": "Gastrointestinal_disorders_of_spaceflight",
+  "url": "https://wikem.org/wiki/Gastrointestinal_disorders_of_spaceflight",
+  "scraped_at": "2026-01-10T07:53:52.023247",
+  "sections": {
+    "Overview": {
+      "text": "Although all of the common conditions related to\nabdominal pain\ncan occur in space some of the more common conditions include the list below.\nDue to microgravity, there is elevation of the diaphragm, an increase in hepatic, splenic, and renal volumes.\n[1]\nTraditional diseases palpated by anatomic location will differ due to elevation of anatomic structures such as the appendix.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Common_Conditions": {
+      "text": "Gastritis\nEsophagitis\nConstipation\nGastroenteritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        }
+      ]
+    }
+  }
+}

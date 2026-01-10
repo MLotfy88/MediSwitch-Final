@@ -1,0 +1,174 @@
+{
+  "drug_name": "Genitourinary_infection",
+  "url": "https://wikem.org/wiki/Genitourinary_infection",
+  "scraped_at": "2026-01-10T07:53:55.595266",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Genitourinary_infection": {
+      "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Perinephric_vs_renal_abscess": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Necrotic Area",
+                "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+                "Renal": "Renal parenchyma"
+              },
+              {
+                "": "Cause",
+                "Perinephric": "Pyelonephritis(majority)",
+                "Renal": "Pyelonephritis(vast majority)"
+              },
+              {
+                "": "Risk of morbidity",
+                "Perinephric": "Higher",
+                "Renal": "Lower"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Perinephric_vs_renal_abscess": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Necrotic Area",
+            "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+            "Renal": "Renal parenchyma"
+          },
+          {
+            "": "Cause",
+            "Perinephric": "Pyelonephritis(majority)",
+            "Renal": "Pyelonephritis(vast majority)"
+          },
+          {
+            "": "Risk of morbidity",
+            "Perinephric": "Higher",
+            "Renal": "Lower"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dysuria\nHematuria\nFlank pain\nUTI (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "UTI (Peds)",
+          "url": "https://wikem.org/wiki/UTI_(Peds)"
+        }
+      ]
+    }
+  }
+}

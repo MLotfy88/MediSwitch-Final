@@ -1,0 +1,231 @@
+{
+  "drug_name": "Glyburide",
+  "url": "https://wikem.org/wiki/Glyburide",
+  "scraped_at": "2026-01-10T07:54:01.197765",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nSulfonylurea\nDosage Forms: Tab: 1.25mg, 2.5 mg, 5 mg\nRoutes of Administration: Oral\nCommon Trade Names: DiaBeta, Micronase",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sulfonylurea",
+          "url": "https://wikem.org/wiki/Sulfonylurea"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Diabetes_mellitus,_Type_2": {
+          "text": "1.25-20 mg/day PO divided qd-bid\nMax: 20mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diabetes_mellitus,_Type_2": {
+      "text": "1.25-20 mg/day PO divided qd-bid\nMax: 20mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Caution advised while breastfeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Avoid Use\nPediatric:\nNo current guidelines",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nStart at 1.25 mg qd\nPediatric:\nNo current guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl <50: Avoid Use\nPediatric:\nNo current guidelines",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nStart at 1.25 mg qd\nPediatric:\nNo current guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nStart at 1.25 mg qd\nPediatric:\nNo current guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCrCl < 50\nDKA\nDiabetes mellitus\n, type 1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Exfoliative dermatitis\nErythema multiforme\nHypoglycemia\nCholestatic jaundice\nHepatitis\nAplasic anemia, hemolytic anemia,\npancytopenia\n,\nthrombocytopenia\nHyponatremia\n,\nSIADH\nDisulfiram-like rxn",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\n, Dyspepsia\nBlurred vision\nWeight gain\nDrowsiness\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Exfoliative dermatitis\nErythema multiforme\nHypoglycemia\nCholestatic jaundice\nHepatitis\nAplasic anemia, hemolytic anemia,\npancytopenia\n,\nthrombocytopenia\nHyponatremia\n,\nSIADH\nDisulfiram-like rxn",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\n, Dyspepsia\nBlurred vision\nWeight gain\nDrowsiness\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\n, Dyspepsia\nBlurred vision\nWeight gain\nDrowsiness\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 10h\nMetabolism: Liver; CYP2C9 substrate\nExcretion: Bile 50%, Urine 50%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Stimulates pancreatic islet beta cell insulin release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes Medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Medications",
+          "url": "https://wikem.org/wiki/Diabetes_Medications"
+        }
+      ]
+    }
+  }
+}

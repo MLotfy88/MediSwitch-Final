@@ -1,0 +1,53 @@
+{
+  "drug_name": "Globe_luxation_reduction",
+  "url": "https://wikem.org/wiki/Globe_luxation_reduction",
+  "scraped_at": "2026-01-10T07:53:57.466127",
+  "sections": {
+    "Background": {
+      "text": "Extreme\nproptosis\nwhich permits lids to slip behind globe equator, obicularis oculi spasm sustains luxation\nCan be traumatic, spontaneous or voluntary\nIn spontaneous globe luxation, extraocular muscles and optic nerve generally remain intact.\n[1]\nIn traumatic globe luxation, optic nerve avulsion is common (occurs in 38.2%)\n[2]\nEarly reduction indicated to relieve symptoms and minimize visual impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "proptosis",
+          "url": "https://wikem.org/wiki/Proptosis"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Spontaneous or traumatic globe luxation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Globe rupture\n(relative)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Perform rapid eye exam including visual acuity\nIf traumatic, consider imaging to rule out orbital deformity, retrobulbar hemorrhage, etc\nPlace patient in recumbent position\nApply topical ocular anesthetic (e.g. tetracaine)\nWhen lashes are visible, have asst apply steady upward and outward traction to lids.  If unable to grasp lashes, use lid retractor to apply countertraction\nWith gloved fingers, gently apply scleral pressure and manipulate back into orbit\nAssess for and remove retained lashes to prevent corneal injury\nRepeat eye exam (acuity may not improve for days or longer)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Retained lashes\nFailure to reduce (apply saline drops and non-contact eye shield)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Follow-Up": {
+      "text": "Traumatic luxation requires emergent ophthalmology consult\nSpontaneous luxation (s/p reduction) with no visual impairment → follow up in 24-48 hours, avoid triggering maneuvers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

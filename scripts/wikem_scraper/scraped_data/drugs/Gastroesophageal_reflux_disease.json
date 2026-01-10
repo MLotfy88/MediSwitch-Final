@@ -1,0 +1,331 @@
+{
+  "drug_name": "Gastroesophageal_reflux_disease",
+  "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease",
+  "scraped_at": "2026-01-10T07:53:56.371518",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: GERD\nDefinition: a highly variable chronic condition that is characterized by periodic episodes of backward flow of the gastric contents into the esophagus due to improper functioning of a sphincter at the lower end of the esophagus\nUsually accompanied by \"heartburn\" symptoms and histopathologic changes in the esophagus\nAffects up to 20% of population\nAssume\nchest pain\nis cardiac origin until proven otherwise",
+      "subsections": {
+        "Causes": {
+          "text": "Decreased pressure of lower esophageal sphincter\nHigh-fat food\nNicotine\nEthanol\nCaffeine\nMedications (mintrates,\ncalcium-channel blockers\n,\nanticholinergics\n, progesterone/estrogen)\nPregnancy\nDecreased esophageal motility\nAchalasia\nScleroderma\nDiabetes\nProlonged gastric emptying\nAnticholinergics\nOutlet obstruction\nDiabetic\ngastroparesis\nHigh-fat food",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Decreased pressure of lower esophageal sphincter\nHigh-fat food\nNicotine\nEthanol\nCaffeine\nMedications (mintrates,\ncalcium-channel blockers\n,\nanticholinergics\n, progesterone/estrogen)\nPregnancy\nDecreased esophageal motility\nAchalasia\nScleroderma\nDiabetes\nProlonged gastric emptying\nAnticholinergics\nOutlet obstruction\nDiabetic\ngastroparesis\nHigh-fat food",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Typical": {
+          "text": "Pain\nand discomfort with or right after meals\ntypically described as burning pain\noften worse when lying flat\n+/-\nDysphagia",
+          "tables": []
+        },
+        "Atypical": {
+          "text": "Chest pain\nwith features similar to\nACS\n:\nExertional, associated with diaphoresis, nausea/\nvomiting\n, radiating to arm\nAsthma\nPneumonia\nHoarseness\nAspiration",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Reflux is physiologic in infants\nPathologic only if it causes complications, such as:\nFailure to thrive\n/weight loss\nEsophagitis\nRespiratory disease: refractory\nasthma\n, recurrent\npneumonia\n, apnea\nBRUE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Typical": {
+      "text": "Pain\nand discomfort with or right after meals\ntypically described as burning pain\noften worse when lying flat\n+/-\nDysphagia",
+      "subsections": {
+        "Atypical": {
+          "text": "Chest pain\nwith features similar to\nACS\n:\nExertional, associated with diaphoresis, nausea/\nvomiting\n, radiating to arm\nAsthma\nPneumonia\nHoarseness\nAspiration",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Reflux is physiologic in infants\nPathologic only if it causes complications, such as:\nFailure to thrive\n/weight loss\nEsophagitis\nRespiratory disease: refractory\nasthma\n, recurrent\npneumonia\n, apnea\nBRUE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Atypical": {
+      "text": "Chest pain\nwith features similar to\nACS\n:\nExertional, associated with diaphoresis, nausea/\nvomiting\n, radiating to arm\nAsthma\nPneumonia\nHoarseness\nAspiration",
+      "subsections": {
+        "Pediatric": {
+          "text": "Reflux is physiologic in infants\nPathologic only if it causes complications, such as:\nFailure to thrive\n/weight loss\nEsophagitis\nRespiratory disease: refractory\nasthma\n, recurrent\npneumonia\n, apnea\nBRUE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric": {
+      "text": "Reflux is physiologic in infants\nPathologic only if it causes complications, such as:\nFailure to thrive\n/weight loss\nEsophagitis\nRespiratory disease: refractory\nasthma\n, recurrent\npneumonia\n, apnea\nBRUE",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Avoid GERD exacerbating agents (ETOH, caffeine, nicotine, chocolate, fatty foods)\nSleep with head of bed elevated\nAvoid eating within 3hr of sleep\nPPI\n,\nH2 blocker\n,\nbismuth subsalicylate",
+      "subsections": {
+        "Infants": {
+          "text": "Small frequent feeds, avoid semi-supine position (e.g. carseat, carrier) right after feeds\nmedications only if significant complications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infants": {
+      "text": "Small frequent feeds, avoid semi-supine position (e.g. carseat, carrier) right after feeds\nmedications only if significant complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Home (outpatient treatment)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

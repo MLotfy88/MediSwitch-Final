@@ -1,0 +1,139 @@
+{
+  "drug_name": "Glucagon",
+  "url": "https://wikem.org/wiki/Glucagon",
+  "scraped_at": "2026-01-10T07:53:59.512015",
+  "sections": {
+    "General": {
+      "text": "Type: Hyperglycemic,\nantidote\nDosage Forms:\nCommon Trade Names: GlucaGen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypoglycemia": {
+          "text": "1mg SC/IM/IV x 1\nMay repeat q20 min PRN",
+          "tables": []
+        },
+        "Beta-blocker_toxicity[1]_": {
+          "text": "5mg IV bolus over one minute\nRebolus if no response after 10min\nIf effective, start infusion at 2-5mg/hr",
+          "tables": []
+        },
+        "Food_bolus_impaction": {
+          "text": "1mg IV x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypoglycemia": {
+      "text": "1mg SC/IM/IV x 1\nMay repeat q20 min PRN",
+      "subsections": {
+        "Beta-blocker_toxicity[1]_": {
+          "text": "5mg IV bolus over one minute\nRebolus if no response after 10min\nIf effective, start infusion at 2-5mg/hr",
+          "tables": []
+        },
+        "Food_bolus_impaction": {
+          "text": "1mg IV x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Food_bolus_impaction": {
+      "text": "1mg IV x 1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypoglycemia_2": {
+          "text": "0.03mg/kg IM/SQ/IV x 1 (max = 1mg)\nAlternative\n<20kg\n: 0.5mg SC/IM/IV x 1\n>20kg\n: 1mg SC/IM/IV x 1\nMay repeat q20 min",
+          "tables": []
+        },
+        "Beta-blocker_toxicity_[1]_": {
+          "text": "50mcg/kg\nRebolus if no response after 10min\nIf effective, start infusion at 70mcg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypoglycemia_2": {
+      "text": "0.03mg/kg IM/SQ/IV x 1 (max = 1mg)\nAlternative\n<20kg\n: 0.5mg SC/IM/IV x 1\n>20kg\n: 1mg SC/IM/IV x 1\nMay repeat q20 min",
+      "subsections": {
+        "Beta-blocker_toxicity_[1]_": {
+          "text": "50mcg/kg\nRebolus if no response after 10min\nIf effective, start infusion at 70mcg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Glucagon not absorbed in GI tract so unlikely to cause adverse reactions in infant\nRenal Dosing\nAdult\nNot defined\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ninsulinoma\npheochromocytoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "hypersensitivity reaction\nanaphylaxis\nhypotension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea and vomiting\nhyperglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "hypersensitivity reaction\nanaphylaxis\nhypotension",
+      "subsections": {
+        "Common": {
+          "text": "Nausea and vomiting\nhyperglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea and vomiting\nhyperglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: IV: 8-18 minutes   IM: 45 minutes\nMetabolism: Liver, kidney\nExcretion: unknown\nMechanism of Action: Stimulates hepatic glycogenolysis. GI smooth muscle relaxent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

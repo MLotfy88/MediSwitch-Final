@@ -1,0 +1,111 @@
+{
+  "drug_name": "Glasgow-Blatchford_Bleeding_Score",
+  "url": "https://wikem.org/wiki/Glasgow-Blatchford_Bleeding_Score",
+  "scraped_at": "2026-01-10T07:53:56.320353",
+  "sections": {
+    "Background": {
+      "text": "Glasgow-Blatchford Bleeding Score (SBS) Screening tool to assess the likelihood that a patient with an acute\nupper gastrointestinal bleeding\nwill need medical intervention (i.e. blood transfusion and/or endoscopy)\n[1]\nMay be able to identify patients who do not need to be admitted to hospital with upper gastrointestinal bleeding\n16% of patients presenting with\nupper gastrointestinal bleeding\nhad a GBS score of \"0\", considered low. Among these patients there were no deaths or interventions needed and the patients were able to be effectively treated in an outpatient setting\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Criteria": {
+      "text": "In the validation group, scores of 6 or more were associated with a greater than 50% risk of needing an intervention.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Admission risk marker": "Blood Urea"
+          },
+          {
+            "Admission risk marker": "≥6·5 <8·0 (18-22.4mg/dL)",
+            "Score component value": "2"
+          },
+          {
+            "Admission risk marker": "≥8·0 <10·0 (22.4-28mg/dL)",
+            "Score component value": "3"
+          },
+          {
+            "Admission risk marker": "≥10·0 <25·0 (28-70mg/dL)",
+            "Score component value": "4"
+          },
+          {
+            "Admission risk marker": "≥25 (≥70mg/dL)",
+            "Score component value": "6"
+          },
+          {
+            "Admission risk marker": "Hemoglobin (g/L) for men"
+          },
+          {
+            "Admission risk marker": "≥12.0 <13.0",
+            "Score component value": "1"
+          },
+          {
+            "Admission risk marker": "≥10.0 <12.0",
+            "Score component value": "3"
+          },
+          {
+            "Admission risk marker": "<10.0",
+            "Score component value": "6"
+          },
+          {
+            "Admission risk marker": "Hemoglobin (g/L) for women"
+          },
+          {
+            "Admission risk marker": "≥10.0 <12.0",
+            "Score component value": "1"
+          },
+          {
+            "Admission risk marker": "<10.0",
+            "Score component value": "6"
+          },
+          {
+            "Admission risk marker": "Systolic blood pressure (mm Hg)"
+          },
+          {
+            "Admission risk marker": "100–109",
+            "Score component value": "1"
+          },
+          {
+            "Admission risk marker": "90–99",
+            "Score component value": "2"
+          },
+          {
+            "Admission risk marker": "<90",
+            "Score component value": "3"
+          },
+          {
+            "Admission risk marker": "Other markers"
+          },
+          {
+            "Admission risk marker": "Pulse ≥100 (per min)",
+            "Score component value": "1"
+          },
+          {
+            "Admission risk marker": "Presentation with melaena",
+            "Score component value": "1"
+          },
+          {
+            "Admission risk marker": "Presentation with syncope",
+            "Score component value": "2"
+          },
+          {
+            "Admission risk marker": "Hepatic disease",
+            "Score component value": "2"
+          },
+          {
+            "Admission risk marker": "Cardiac failure",
+            "Score component value": "2"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Upper GI Bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

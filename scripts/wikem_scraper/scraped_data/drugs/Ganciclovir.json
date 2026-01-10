@@ -1,0 +1,241 @@
+{
+  "drug_name": "Ganciclovir",
+  "url": "https://wikem.org/wiki/Ganciclovir",
+  "scraped_at": "2026-01-10T07:53:48.168921",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiviral\nRoutes of Administration: IV, PO\nCommon Trade Names: Cytovene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "CMV\nprophylaxis, solid organ transplant\nIV route: 5mg/kg IV q12h x7-14 days, then 5mg/kg IV q24h or 6mg/kg IV 5x/wk\nPO route: 1000mg PO tid, give with food\nCMV\nprophylaxis, HIV-assoc.\nIV route: 5mg/kg IV 5-7x/wk; Info: not 1st-line agent\nPO route: 1000mg PO tid; Info: not 1st-line agent; give with food\nCMV\nretinitis, immunocompromised patients\nInduction treatment: 5mg/kg IV q12h x14-21 days; Info: not 1st-line agent\nMaintenance treatment, IV route: 5mg/kg IV 5-7x/wk; Alt: 6mg/kg IV 5x/wk; Info: not 1st-line agent\nMaintenance treatment, PO route: 1000mg PO tid; Alt: 500mg PO q3h while awake (6 doses/day); Info: not 1st-line agent; give with food",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Off label use as pediatric medication\nCMV\nprophylaxis, solid organ transplant\nInduction: 5mg/kg IV q12h x7-14 days\nMaintenance: 5mg/kg IV q24h; Alt: 6mg/kg IV 5x/wk\nCMV\nprophylaxis, HIV-assoc\n5mg/kg IV q24h\nCMV\ninfection\nInduction: 5mg/kg IV q12h x14-21 days; Info: may increase dose to 7.5mg/kg IV q12h\nMaintenance: 5mg/kg IV q24h; Alt: 6mg/kg IV 5x/wk\nCMV\ninfection, congenital (<1 mo)\n6mg/kg IV q12h x6wk",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "IV route, induction treatment: CrCl 50-69: 2.5mg/kg q12h; CrCl 25-49: 2.5mg/kg q24h; CrCl 10-24: 1.25mg/kg q24h; CrCl <10: 1.25mg/kg 3x/wk; HD: give dose after dialysis, no supplement\nIV route, maintenance treatment: CrCl 50-69: 2.5mg/kg q24h; CrCl 25-49: 1.25mg/kg q24h; CrCl 10-24: 0.625mg/kg q24h; CrCl <10: 0.625mg/kg 3x/wk; HD: give dose after dialysis, no supplement\nPO route: CrCl 50-69: 1500mg/day divided QD-tid; CrCl 25-49: 1000mg/day divided QD-bid; CrCl 10-24: 500mg QD; CrCl <10: 500mg 3x/wk; HD: give dose after dialysis, no supplement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "IV route, induction treatment: CrCl 50-69: 2.5mg/kg q12h; CrCl 25-49: 2.5mg/kg q24h; CrCl 10-24: 1.25mg/kg q24h; CrCl <10: 1.25mg/kg 3x/wk; HD: give dose after dialysis, no supplement\nIV route, maintenance treatment: CrCl 50-69: 2.5mg/kg q24h; CrCl 25-49: 1.25mg/kg q24h; CrCl 10-24: 0.625mg/kg q24h; CrCl <10: 0.625mg/kg 3x/wk; HD: give dose after dialysis, no supplement\nPO route: CrCl 50-69: 1500mg/day divided QD-tid; CrCl 25-49: 1000mg/day divided QD-bid; CrCl 10-24: 500mg QD; CrCl <10: 500mg 3x/wk; HD: give dose after dialysis, no supplement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nANC < 500\nPlatelets < 25,000",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "thrombocytopenia\nneutropenia\npancytopenia\nsepsis\nnephrotoxicity\nseizures\nretinal detachment\nhypertension\npancreatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "diarrhea\nfever\nleukopenia\nanorexia\nvomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "thrombocytopenia\nneutropenia\npancytopenia\nsepsis\nnephrotoxicity\nseizures\nretinal detachment\nhypertension\npancreatitis",
+      "subsections": {
+        "Common": {
+          "text": "diarrhea\nfever\nleukopenia\nanorexia\nvomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Common": {
+      "text": "diarrhea\nfever\nleukopenia\nanorexia\nvomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3hr\nMetabolism: CYP450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits DNA polymerase and incorporates into viral DNA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Epocrates, UpToDate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

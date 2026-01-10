@@ -1,0 +1,132 @@
+{
+  "drug_name": "Gastric_lavage",
+  "url": "https://wikem.org/wiki/Gastric_lavage",
+  "scraped_at": "2026-01-10T07:53:51.331044",
+  "sections": {
+    "Background": {
+      "text": "Gastrointestinal decontamination technique meant to empty stomach of toxic substances\n[1]\nOnce widely used, now rarely applied\nLittle evidence for efficacy\nHigh risk of complications\nAlmost never used in conscious and cooperative patients\nEspecially lacks utility when oral\nactivated charcoal\nis likely to be successful",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Life-threatening poisoning (or history is not available) and unconscious presentation (eg\nColchicine\n)\nLife-threatening poisoning and presentation within 1 hour\nLife-threatening poisoning with drug with\nanticholinergic\neffects and presentation within 4 hours\nIngestion of sustained release preparation of significantly toxic drug\nLarge\nsalicylate\npoisonings presenting within 12 hours\nIron\nor\nlithium toxicity\nParaquat ingestion (common in developing world)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        },
+        {
+          "text": "salicylate",
+          "url": "https://wikem.org/wiki/Salicylate"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Corrosive ingestions or esophageal disease\nThe poison ingestion is not toxic at any dose\nThe poison ingestion is adsorbed by charcoal and adsorption is not exceed by quantity ingestion\nPresentation many hours after poisoning\nA highly efficient antidote such as\nNAC\nis available",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "Intubate\npatient\nPlace patient in left lateral decubitus position with head 20 degrees downward\nExternally measure length of lavage tube needed to reach stomach\nLubricate appropriately sized lavage tube and gently pass through esophagus to stomach\nAdults and adolescents: 36–40 French\nChildren: 22–28 French\nConfirm placement of tube\nAspiration of gastric contents\nAuscultation of air over the epigastrium\nXR\nUsing funnel or lavage syringe, aspirate any stomach contents\nGently instil 200 - 250 mL warned saline into the stomach for adults, or 10 - 15 mL/kg for children (to maximum 250 mL)\nAllow instilled saline to flow out of tube and into bucket near bed\nRepeat instillation and drainage until effluent is clear\nOnce effluent is clear, may instil activated charcoal if indicated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Increase gastric delivery of tablets into the small bowel\nAspiration of gastric contents (3% of patients)\nEsophageal Rupture\n(rare)\nProfound\nbradycardia\n, cardiac arrest, and asystole may be precipitated by lavage in poisonings with\npropranolol\n,\ncalcium channel blockers\nand other drugs affecting cardiac conduction\nAtropine\nshould be used to block the increased vagal tone associated with the procedure in these situations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Esophageal Rupture",
+          "url": "https://wikem.org/wiki/Esophageal_Rupture"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Activated Charcoal\nWhole Bowel Irrigation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "Whole Bowel Irrigation",
+          "url": "https://wikem.org/wiki/Whole_Bowel_Irrigation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=7VVCmCkqd9Y}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=7VVCmCkqd9Y}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Benson BE et al. Position paper update: gastric lavage for gastrointestinal decontamination. Clinical Toxicology 2013;51:140-146.\nVale JA. Position statement: gastric lavage. American Academy of Clinical Toxicology; European Association of Poisons Centres and Clinical Toxicologists. J Toxicol Clin Toxicol 1997;35(7):711-9",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

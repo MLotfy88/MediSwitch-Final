@@ -1,0 +1,106 @@
+{
+  "drug_name": "Gingival_hyperplasia",
+  "url": "https://wikem.org/wiki/Gingival_hyperplasia",
+  "scraped_at": "2026-01-10T07:53:58.362527",
+  "sections": {
+    "Background": {
+      "text": "Gingival Hyperplasia/hypertrophy main causes are inflammatory, drug-induced, or systemic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Swollen gums\nBright red or purple\n+/-\nbleeding\nand easily bleed with probing\nPoor oral hygiene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Gingival_bleeding"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Inflammatory hyperplasia\nGingivitis\nPoor oral hygiene and plaque retention\nRestorative and Orthodontic Applicances\nDrug Induced hyperplasia\n[1]\nAnti-convulsants (\nPhenytoin\n,\nValproate\n, etc.)\nImmunosuppressants (\nCyclosporine\n,\nTacrolimus\n, etc.)\nCalcium channel blockers (\nNifedipine\n,\nAmlodipine\n, etc.)\nCongenital Hyperplasia\nSystemic causes of Hyperplasia\nLeukemia\nGranulomatous disease\nGranulomatosis with polyangiitis\nSarcoidosis\nPyogenic granuloma\nPregnancy\nWarts\nLymphoproliferative disease (e.g.\nleukemia\n,\nlymphoma\n)\nParaneoplastic\nsyndrome\nBenign Neoplasms\nPapilloma, Fibroma, Giant Cell granuloma\nPeriodontitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Improve oral hygiene\n[2]\nFollow up with dentist, oral medicine, or periodontist\nChlorhexidine Gluconate 0.12% for inflammatory causes\n[3]\nStop offending drug\nTreat systemic problem",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Treated outpatient\nPeriodontal debridement, gingivectomy, laser surgery\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dental Problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental Problems",
+          "url": "https://wikem.org/wiki/Dental_Problems"
+        }
+      ]
+    }
+  }
+}

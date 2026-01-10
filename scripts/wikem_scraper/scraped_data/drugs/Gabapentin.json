@@ -1,0 +1,200 @@
+{
+  "drug_name": "Gabapentin",
+  "url": "https://wikem.org/wiki/Gabapentin",
+  "scraped_at": "2026-01-10T07:53:47.290870",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsants\n; GABA analog\nDosage Forms: capsule, tablet, oral solution 250mg/5mL\nCommon Trade Names: Neurontin, Gralise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Partial_Seizures": {
+          "text": "Adjunctive therapy for partial seizures with or without secondary generalization\nInitial: 300mg PO q8hr\nMay increase up to 600mg PO q8hr",
+          "tables": []
+        },
+        "Post_herpetic_neuralgia": {
+          "text": "Day 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+          "tables": []
+        },
+        "Muscle_Cramps_(Off-label)": {
+          "text": "100-300mg PO qHS; may titrate to 300-400mg q8hr PRN",
+          "tables": []
+        },
+        "Anxiety_(Off-label)": {
+          "text": "300mg PO qHS initially, THEN 300mg PO q8h; may further increase as tolerated",
+          "tables": []
+        },
+        "Diabetic_Neuropthy_(Off-label)": {
+          "text": "900mg/day PO initially; may increase gradually q3Days to 1800-3600mg/day",
+          "tables": []
+        },
+        "Neuropathic_Pain": {
+          "text": "600mg PO load in ED\nDischarge with 300mg → 900mg per day divided tid (as in post-herpetic neuralgia regimen)\nDischarge with pain specialist follow-up\nMax dosage 3600mg if patient already on gabapentin\nTaper dose > 7 days to discontinue\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Partial_Seizures": {
+      "text": "Adjunctive therapy for partial seizures with or without secondary generalization\nInitial: 300mg PO q8hr\nMay increase up to 600mg PO q8hr",
+      "subsections": {
+        "Post_herpetic_neuralgia": {
+          "text": "Day 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+          "tables": []
+        },
+        "Muscle_Cramps_(Off-label)": {
+          "text": "100-300mg PO qHS; may titrate to 300-400mg q8hr PRN",
+          "tables": []
+        },
+        "Anxiety_(Off-label)": {
+          "text": "300mg PO qHS initially, THEN 300mg PO q8h; may further increase as tolerated",
+          "tables": []
+        },
+        "Diabetic_Neuropthy_(Off-label)": {
+          "text": "900mg/day PO initially; may increase gradually q3Days to 1800-3600mg/day",
+          "tables": []
+        },
+        "Neuropathic_Pain": {
+          "text": "600mg PO load in ED\nDischarge with 300mg → 900mg per day divided tid (as in post-herpetic neuralgia regimen)\nDischarge with pain specialist follow-up\nMax dosage 3600mg if patient already on gabapentin\nTaper dose > 7 days to discontinue\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Post_herpetic_neuralgia": {
+      "text": "Day 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+      "subsections": {
+        "Muscle_Cramps_(Off-label)": {
+          "text": "100-300mg PO qHS; may titrate to 300-400mg q8hr PRN",
+          "tables": []
+        },
+        "Anxiety_(Off-label)": {
+          "text": "300mg PO qHS initially, THEN 300mg PO q8h; may further increase as tolerated",
+          "tables": []
+        },
+        "Diabetic_Neuropthy_(Off-label)": {
+          "text": "900mg/day PO initially; may increase gradually q3Days to 1800-3600mg/day",
+          "tables": []
+        },
+        "Neuropathic_Pain": {
+          "text": "600mg PO load in ED\nDischarge with 300mg → 900mg per day divided tid (as in post-herpetic neuralgia regimen)\nDischarge with pain specialist follow-up\nMax dosage 3600mg if patient already on gabapentin\nTaper dose > 7 days to discontinue\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Neuropathic_Pain": {
+      "text": "600mg PO load in ED\nDischarge with 300mg → 900mg per day divided tid (as in post-herpetic neuralgia regimen)\nDischarge with pain specialist follow-up\nMax dosage 3600mg if patient already on gabapentin\nTaper dose > 7 days to discontinue\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Partial_seizures_2": {
+          "text": "Adjunct for partial seizures with out secondary generalization in patients> 12yo with epilepsy; also adjunctive therapy for partial seizures in patients 3-12 years\n<3 years: Safety and efficacy not established\n3-12 years (initial dose): 10-15mg/kg/day PO divided q8hr initially; titrate up in 3d to effective maintenance dose\n3-4 years (maintenance): 40mg/kg/day PO divided q8hr\n5-12 years (maintenance): 25-35mg/kg/day PO divided q8hr\n>12 years (initial dose): 300mg PO q8h; may increase up to 600mg PO q8h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Partial_seizures_2": {
+      "text": "Adjunct for partial seizures with out secondary generalization in patients> 12yo with epilepsy; also adjunctive therapy for partial seizures in patients 3-12 years\n<3 years: Safety and efficacy not established\n3-12 years (initial dose): 10-15mg/kg/day PO divided q8hr initially; titrate up in 3d to effective maintenance dose\n3-4 years (maintenance): 40mg/kg/day PO divided q8hr\n5-12 years (maintenance): 25-35mg/kg/day PO divided q8hr\n>12 years (initial dose): 300mg PO q8h; may increase up to 600mg PO q8h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Enters breast milk; use with caution\nRenal Dosing\nCrCl>60 mL/min: 300-1200mg PO TID\nCrCl 30-60 mL/min: 200-700mg q12hr\nCrCl 15-29 mL/min: 200-700mg qDay\nCrCl<15 mL/min: 100-300mg qDay\nHD: 125-350mg posthemodialysis after each 4h dialysis interval\nHepatic Dosing\nAdult: no modifications\nPediatric: no modifications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Depression/suicidality\nSJS\nanaphylaxis\nangioedema",
+          "tables": []
+        },
+        "Common": {
+          "text": ">10% ataxia, dizziness,  fatigue, somnolence\n1-10% diplopia, nystagmus, tremor, amblyopia, back pain, constipation, depression, dry mouth, dysarthria, dyspepsia, increased appetitie, leukopenia, myalgia, nervousness, peripheral edema, pharyngitis, puritis, rhinitis, vasodilation, weight gain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Depression/suicidality\nSJS\nanaphylaxis\nangioedema",
+      "subsections": {
+        "Common": {
+          "text": ">10% ataxia, dizziness,  fatigue, somnolence\n1-10% diplopia, nystagmus, tremor, amblyopia, back pain, constipation, depression, dry mouth, dysarthria, dyspepsia, increased appetitie, leukopenia, myalgia, nervousness, peripheral edema, pharyngitis, puritis, rhinitis, vasodilation, weight gain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": ">10% ataxia, dizziness,  fatigue, somnolence\n1-10% diplopia, nystagmus, tremor, amblyopia, back pain, constipation, depression, dry mouth, dysarthria, dyspepsia, increased appetitie, leukopenia, myalgia, nervousness, peripheral edema, pharyngitis, puritis, rhinitis, vasodilation, weight gain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-7hr\nMetabolism: not metabolized\nExcretion: Renal\nMechanism of Action: GABA analogue, but has no effect on GABA binding, uptake or degradation; mech for analgesic and anticonvulsant activity unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading\nNeuropathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        },
+        {
+          "text": "Neuropathy",
+          "url": "https://wikem.org/wiki/Neuropathy"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "drug_name": "Gastrointestinal_bleeding_(peds)",
+  "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)",
+  "scraped_at": "2026-01-10T07:53:50.628513",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "4 Questions\nIs this really blood?\nIs blood really coming from the GI tract?\nBlood in diaper may also be vaginal or urinary source\nIs it a small or large amount\nHas this happened before?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Blood in stool or vomit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Upper_GI_Bleeding_(peds)": {
+          "text": "<2mo\nSwallowed maternal blood (from chapped nipples)\nStress ulcer\nVascular malformation\nHemorrhagic disease of newborn (\nvitamin K deficiency\n)\nCoagulopathy\n/bleeding diathesis\n2mo–2yr\nGastroenteritis\nToxic ingestion\nMallory-Weiss tear\nVascular malformation\nEsophagitis\nStress ulcer\nCoagulopathy\n/bleeding diathesis\nGI duplication\nIngested foreign body\n>2yr\nGastroenteritis\nMallory-Weiss tear\nPeptic ulcer disease\nToxic ingestion\nVascular malformation\nGastritis\nVarices\nHemobilia\nIngested foreign body",
+          "tables": []
+        },
+        "Lower_GI_Bleeding_(peds)": {
+          "text": "<2mo\nSwallowed maternal blood\nMilk allergy\nInfectious colitis\nIntussusception\nVolvulus\nMeckel diverticulum\nNecrotizing enterocolitis\nVascular malformation\nHemorrhagic disease of newborn\nHirschsprung disease\nCongenital duplications\n2mo–2yr\nAnal fissure\nAnal fissure\nGastroenteritis\nMilk allergy\nIntussusception\nVolvulus\nMeckel diverticulum\nHemolytic uremic syndrome\nHenoch-Schönlein purpura\nPolyps; benign, familial\nInflammatory bowel disease\nGI duplication\nDieulafoy lesion\n>2yr\nAnal fissure\nAnal fissure\nGastroenteritis\nHemorrhoids\nPolyps\nColitis\n(infectious, ischemic)\nMeckel diverticulum\nIntussusception\nHemolytic uremic syndrome\nHenoch-Schönlein purpura\nInflammatory bowel disease\nAngiodysplasia\nCeliac disease\nDieulafoy lesion\nRectal ulcer syndrome\nPeptic ulcer disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stress ulcer",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Stress ulcer",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Varices",
+          "url": "https://wikem.org/wiki/Varices"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nNG\nlavage\nConsider for\nsuspected\nsig. GI blood loss\nSmall child: 12F NG tube; instill 50cc saline\nOlder child: 14-16F NG tube; instill 100-200cc saline\nAspirate after 2-3min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Contingent on underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Gastrointestinal_Bleeding_Pages": {
+          "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Balloon tamponade for massive GI bleeding",
+          "url": "https://wikem.org/wiki/Balloon_tamponade_for_massive_GI_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_lower_gastrointestinal_bleeding"
+        }
+      ]
+    },
+    "Gastrointestinal_Bleeding_Pages": {
+      "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Balloon tamponade for massive GI bleeding",
+          "url": "https://wikem.org/wiki/Balloon_tamponade_for_massive_GI_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_lower_gastrointestinal_bleeding"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: GI Bleeding in Children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

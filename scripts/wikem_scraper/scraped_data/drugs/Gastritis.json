@@ -1,0 +1,281 @@
+{
+  "drug_name": "Gastritis",
+  "url": "https://wikem.org/wiki/Gastritis",
+  "scraped_at": "2026-01-10T07:53:54.598065",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of the stomach lining\nMay occur acutely or chronically\nMay lead to\npeptic ulcer disease\nCauses\nH. pylori\nNSAIDs\nETOH\nCritical Illness (Cushing ulcer)\nIncreased ICP\n, stimulation of vagal nuclei, increased secretion of gastric acid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Gnawing or burning\nepigastric pain\nNausea/vomiting\nEarly satiety, bloating\nHeartburn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC (to rule out anemia)\nBMP,\nLFTs\nLipase\nConsider:\nAcute abdominal series\n?Barium swallow (upper GI series)\nEndoscopy (most will be done as outpatient)\nRUQ US\nECG\n/\ntroponin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Cessation of\nNSAIDs\nand\nETOH\nEradicate\nH. pylori\nif identified in symptomatic patient\nTriple Therapy:\nPPI\n+\nclarithromycin\n500mg BID +\namoxicillin\n1g BID x 10-14d\nMetronidazole\n500mg BID can be substituted for\namoxicillin\nin penicillin-allergic individuals\nQuadruple Therapy:\nPPI\n+\nbismuth subsalicylate\n524mg QID +\nmetronidazole\n250mg QID and\ntetracycline\n500mg QID x 10-14d.\nCan be used in areas of high resistance to\nclarithromycin\nor\nmetronidazole\nPPI\nGenerally heal ulcers faster than\nH2 blockers\nOmeprazole\n20-40mg QD\nH2 blockers\nFamotidine\n20-40mg QD\nRanitidine\n75-150mg BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Normally outpatient management, unless complication (see below)",
+      "subsections": {
+        "Red_Flags": {
+          "text": "Any of the following suggest need for endoscopy referral:\nAge >55yr\nUnexplained weight loss\nEarly satiety\nPersistent\nvomiting\nDysphagia\nAnemia\nor\nGI bleeding\nAbdominal mass\nPersistent anorexia\nJaundice",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Red_Flags": {
+      "text": "Any of the following suggest need for endoscopy referral:\nAge >55yr\nUnexplained weight loss\nEarly satiety\nPersistent\nvomiting\nDysphagia\nAnemia\nor\nGI bleeding\nAbdominal mass\nPersistent anorexia\nJaundice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "PUD",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

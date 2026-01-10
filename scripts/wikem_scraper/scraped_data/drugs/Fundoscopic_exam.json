@@ -1,0 +1,85 @@
+{
+  "drug_name": "Fundoscopic_exam",
+  "url": "https://wikem.org/wiki/Fundoscopic_exam",
+  "scraped_at": "2026-01-10T07:53:49.069698",
+  "sections": {
+    "Background": {
+      "text": "optic disc for cupping/pallor/swelling/hemorr\ncentral retina for hemor/pallor\nperiph retina for vessel appearance/hemorr/detach",
+      "subsections": {
+        "Retinal_Images": {
+          "text": "Central Retinal Vein Occlusion (CRVO)\nRetinal detachment\nCMV retinitis\nOpen-angle glaucoma\n(cupping)\nRoth spots due to retinal vein occlusion (\nretinal hemorrhage\n)\nCentral retinal artery occlusion\n: cherry-red spot, retinal edema and narrowing of the vessels.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        }
+      ]
+    },
+    "Retinal_Images": {
+      "text": "Central Retinal Vein Occlusion (CRVO)\nRetinal detachment\nCMV retinitis\nOpen-angle glaucoma\n(cupping)\nRoth spots due to retinal vein occlusion (\nretinal hemorrhage\n)\nCentral retinal artery occlusion\n: cherry-red spot, retinal edema and narrowing of the vessels.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Eye Exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Exam",
+          "url": "https://wikem.org/wiki/Eye_Exam"
+        }
+      ]
+    }
+  }
+}

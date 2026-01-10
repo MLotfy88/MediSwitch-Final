@@ -1,0 +1,44 @@
+{
+  "drug_name": "Gastrointestinal_bleeding",
+  "url": "https://wikem.org/wiki/Gastrointestinal_bleeding",
+  "scraped_at": "2026-01-10T07:53:52.027377",
+  "sections": {
+    "Intro": {
+      "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nGastrointestinal bleeding (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Gastrointestinal_Bleeding_Pages": {
+      "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Balloon tamponade for massive GI bleeding",
+          "url": "https://wikem.org/wiki/Balloon_tamponade_for_massive_GI_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_lower_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        }
+      ]
+    }
+  }
+}

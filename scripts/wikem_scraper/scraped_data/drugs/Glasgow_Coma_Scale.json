@@ -1,0 +1,214 @@
+{
+  "drug_name": "Glasgow_Coma_Scale",
+  "url": "https://wikem.org/wiki/Glasgow_Coma_Scale",
+  "scraped_at": "2026-01-10T07:53:59.802677",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: GCS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scoring": {
+      "text": "",
+      "subsections": {
+        "Adult_GCS": {
+          "text": "14-15: Mild\n9-13: Moderate\n3-8:\nSevere",
+          "tables": [
+            [
+              {
+                "Eye Opening": "",
+                "Verbal": "",
+                "Motor": "6:  Obeys commands"
+              },
+              {
+                "Eye Opening": "",
+                "Verbal": "5:  Oriented",
+                "Motor": "5:  Localizes to pain"
+              },
+              {
+                "Eye Opening": "4: Spontaneously opens",
+                "Verbal": "4:  Confused speech",
+                "Motor": "4:  Withdraws from pain (normal flexion)"
+              },
+              {
+                "Eye Opening": "3: Opens to command",
+                "Verbal": "3:Inappropriate words",
+                "Motor": "3:  Decorticate posturing (abnormal flexion)"
+              },
+              {
+                "Eye Opening": "2: Opens to pain",
+                "Verbal": "2: Incomprehensible sounds",
+                "Motor": "2:  Decerebrate posturing (extension)"
+              },
+              {
+                "Eye Opening": "1: Does not open",
+                "Verbal": "1: No response",
+                "Motor": "1:  No response"
+              }
+            ]
+          ]
+        },
+        "Pediatric_GCS[1]": {
+          "text": "Note:\nFor Motor score 4, pain is defined flat, fingernail pressure (often performed with the barrel of a pencil).\nFor Motor scores 2 and 3, pain is defined by pressing hard on the supraorbital notch. If this unsuccessful, sternal pressure may also be attempted.",
+          "tables": [
+            [
+              {
+                "Eye Opening": "",
+                "Verbal": "",
+                "Motor": "6:  Normal spontaneous movement"
+              },
+              {
+                "Eye Opening": "",
+                "Verbal": "5:  Smiles, coos, babbles",
+                "Motor": "5:  Withdraws to touch"
+              },
+              {
+                "Eye Opening": "4: Opens eyes spontaneously",
+                "Verbal": "4:  Irritable, crying (but consolable)",
+                "Motor": "4:  Withdraws to pain"
+              },
+              {
+                "Eye Opening": "3: Opens eyes to speech only",
+                "Verbal": "3:Inconsolable crying or crying only in response to pain",
+                "Motor": "3:  Abnormal flexion to pain (Decorticate response)"
+              },
+              {
+                "Eye Opening": "2: Opens eyes to pain only",
+                "Verbal": "2: Moans in response to pain",
+                "Motor": "2:  Abnormal extension to pain (Decerebrate response)"
+              },
+              {
+                "Eye Opening": "1: Does not open eyes",
+                "Verbal": "1: No response",
+                "Motor": "1:  No response"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Severe",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        }
+      ]
+    },
+    "Adult_GCS": {
+      "text": "14-15: Mild\n9-13: Moderate\n3-8:\nSevere",
+      "subsections": {
+        "Pediatric_GCS[1]": {
+          "text": "Note:\nFor Motor score 4, pain is defined flat, fingernail pressure (often performed with the barrel of a pencil).\nFor Motor scores 2 and 3, pain is defined by pressing hard on the supraorbital notch. If this unsuccessful, sternal pressure may also be attempted.",
+          "tables": [
+            [
+              {
+                "Eye Opening": "",
+                "Verbal": "",
+                "Motor": "6:  Normal spontaneous movement"
+              },
+              {
+                "Eye Opening": "",
+                "Verbal": "5:  Smiles, coos, babbles",
+                "Motor": "5:  Withdraws to touch"
+              },
+              {
+                "Eye Opening": "4: Opens eyes spontaneously",
+                "Verbal": "4:  Irritable, crying (but consolable)",
+                "Motor": "4:  Withdraws to pain"
+              },
+              {
+                "Eye Opening": "3: Opens eyes to speech only",
+                "Verbal": "3:Inconsolable crying or crying only in response to pain",
+                "Motor": "3:  Abnormal flexion to pain (Decorticate response)"
+              },
+              {
+                "Eye Opening": "2: Opens eyes to pain only",
+                "Verbal": "2: Moans in response to pain",
+                "Motor": "2:  Abnormal extension to pain (Decerebrate response)"
+              },
+              {
+                "Eye Opening": "1: Does not open eyes",
+                "Verbal": "1: No response",
+                "Motor": "1:  No response"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Eye Opening": "",
+            "Verbal": "",
+            "Motor": "6:  Obeys commands"
+          },
+          {
+            "Eye Opening": "",
+            "Verbal": "5:  Oriented",
+            "Motor": "5:  Localizes to pain"
+          },
+          {
+            "Eye Opening": "4: Spontaneously opens",
+            "Verbal": "4:  Confused speech",
+            "Motor": "4:  Withdraws from pain (normal flexion)"
+          },
+          {
+            "Eye Opening": "3: Opens to command",
+            "Verbal": "3:Inappropriate words",
+            "Motor": "3:  Decorticate posturing (abnormal flexion)"
+          },
+          {
+            "Eye Opening": "2: Opens to pain",
+            "Verbal": "2: Incomprehensible sounds",
+            "Motor": "2:  Decerebrate posturing (extension)"
+          },
+          {
+            "Eye Opening": "1: Does not open",
+            "Verbal": "1: No response",
+            "Motor": "1:  No response"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Severe",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Blunt head trauma\nAltered Mental Status\nTrauma (Peds)\nAltered mental status (peds)\nPediatric head trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt head trauma",
+          "url": "https://wikem.org/wiki/Blunt_head_trauma"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Trauma (Peds)",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Altered mental status (peds)",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Glasgow Coma Scale/Score (GCS)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

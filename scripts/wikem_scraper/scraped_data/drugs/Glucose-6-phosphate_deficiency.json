@@ -1,0 +1,367 @@
+{
+  "drug_name": "Glucose-6-phosphate_deficiency",
+  "url": "https://wikem.org/wiki/Glucose-6-phosphate_deficiency",
+  "scraped_at": "2026-01-10T07:54:02.717473",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: G6PD\nX-Linked recessive; protects against\nMalaria\nMild form exists, which predominantly affects men of African decent. It is typically self-limited because it affects older RBCs (with less G6PD left)\nMore severe form occurs predominantly in men of Mediterranean descent (specifically Greeks and Italians). Causes a more severe hemolytic anemia because RBCs of any age are involved\nNonimmune mediated\nhemolytic anemia\nStress or drugs can cause hemoglobin precipitation within the RBC\nLeads to removal of the cell from circulation via the spleen",
+      "subsections": {
+        "Precipitants": {
+          "text": "Infection\nFava beans\nMedications\nNitrofurantoin\nPhenazopyridine\nDapsone\nChloramphenicol\nAntimalarials\n(e.g.\nquinine\n,\nmefloquine\n)\nSulfonamides\nCiprofloxacin\n, norfloxacin\nMethylene blue\nVitamin K analogues (e.g.\nwarfarin\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Antimalarials",
+          "url": "https://wikem.org/wiki/Antimalarials"
+        },
+        {
+          "text": "quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "mefloquine",
+          "url": "https://wikem.org/wiki/Mefloquine"
+        },
+        {
+          "text": "Sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Precipitants": {
+      "text": "Infection\nFava beans\nMedications\nNitrofurantoin\nPhenazopyridine\nDapsone\nChloramphenicol\nAntimalarials\n(e.g.\nquinine\n,\nmefloquine\n)\nSulfonamides\nCiprofloxacin\n, norfloxacin\nMethylene blue\nVitamin K analogues (e.g.\nwarfarin\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Antimalarials",
+          "url": "https://wikem.org/wiki/Antimalarials"
+        },
+        {
+          "text": "quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "mefloquine",
+          "url": "https://wikem.org/wiki/Mefloquine"
+        },
+        {
+          "text": "Sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hemolytic anemia\nFatigue\nJaundice\nSplenomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Severe hemolysis and\nanemia\nCardiovascular collapse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nHeinz Bodies and Bite Cells on peripheral smear\nRetic Count\nRetic count high\nCoombs negative: G6PD, SCD, spherocytosis, microangiopathic hemolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nHeinz Bodies and Bite Cells on peripheral smear\nRetic Count\nRetic count high\nCoombs negative: G6PD, SCD, spherocytosis, microangiopathic hemolysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Identify and discontinue precipitating agent\nSupportive care for anemia, with\ntransfusions\nrarely needed\nHemolysis usually self-limited, resolving within 8-14 days\nInfants\nProlonged neonatal jaundice due to G6PD deficiency may require phototherapy\nExchange transfusion\nfor severe neonatal jaundice",
+      "subsections": {
+        "Alternative_Antibiotics": {
+          "text": "Cephalexin\n(Keflex)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        }
+      ]
+    },
+    "Alternative_Antibiotics": {
+      "text": "Cephalexin\n(Keflex)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        }
+      ]
+    },
+    "Also_See": {
+      "text": "Anemia\nMalaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        }
+      ]
+    }
+  }
+}
