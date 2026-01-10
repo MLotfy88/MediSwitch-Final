@@ -129,3 +129,9 @@ assets/external_research_data/csv_exports/
 assets/external_research_data/ddinter-database.zip
 assets/external_research_data/csv_exports/
 assets/external_research_data/ddinter_extracted/
+# WikEM Scraper Data
+scripts/wikem_scraper/scraped_data/
+scripts/wikem_scraper/failed_html/
+scripts/wikem_scraper/*.log
+scripts/wikem_scraper/*.sql
+*.sql
