@@ -425,10 +425,11 @@ class WikEMScraper:
         if intro_content["text"] or intro_content["tables"]:
             drug_data["sections"]["Intro"] = intro_content
 
-        # 2. Dynamically find ALL H2 headers (Sections)
-        h2_headers = soup.find_all('h2')
-        for h2 in h2_headers:
-            span = h2.find('span', class_='mw-headline')
+        # 2. Dynamically find ALL Headers (Sections) - H1, H2, H3
+        # Some pages use H3 or H1 as main headers in mobile/different views
+        headers = soup.find_all(['h2', 'h3', 'h1'])
+        for header in headers:
+            span = header.find('span', class_='mw-headline')
             if not span:
                 continue
                 
@@ -442,9 +443,14 @@ class WikEMScraper:
             if content:
                 drug_data["sections"][clean_section_id] = content
                 
-        # DEBUG: If still empty, log why
+        # DEBUG & RECOVERY: If still empty, save raw HTML for analysis
         if not drug_data["sections"]:
-            logger.warning(f"⚠️ Empty sections for {drug_name}. HTML Snippet: {soup.prettify()[:200]}")
+            logger.warning(f"⚠️ Empty sections for {drug_name}. Saving raw HTML...")
+            debug_path = Path("scripts/wikem_scraper/failed_html") / f"{drug_name}_DEBUG.html"
+            debug_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(debug_path, "w", encoding="utf-8") as f:
+                f.write(soup.prettify())
+            logger.info(f"💾 Saved debug HTML to {debug_path}")
         
         return drug_data
     
