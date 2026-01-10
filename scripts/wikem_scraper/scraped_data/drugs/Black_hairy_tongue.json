@@ -1,0 +1,118 @@
+{
+  "drug_name": "Black_hairy_tongue",
+  "url": "https://wikem.org/wiki/Black_hairy_tongue",
+  "scraped_at": "2026-01-10T07:48:55.761052",
+  "sections": {
+    "Background": {
+      "text": "Benign reactive process\nHyperplasia and increased pigmentation of filiform papille",
+      "subsections": {
+        "Inciting_Causes": {
+          "text": "Smoking\nGERD\nAntibiotics\nPoor hygiene",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Inciting_Causes": {
+      "text": "Smoking\nGERD\nAntibiotics\nPoor hygiene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tongue_diagnoses": {
+          "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Tongue_diagnoses": {
+      "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat with improved oral hygiene, gentle brushing, and a reducing pigment intake",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tongue Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue Diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_Diagnoses"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "drug_name": "Biologic_immunomodulators",
+  "url": "https://wikem.org/wiki/Biologic_immunomodulators",
+  "scraped_at": "2026-01-10T07:48:53.267526",
+  "sections": {
+    "Background": {
+      "text": "Immunomodulators created by a mouse or human cell that either create antibodies\n[1]\nor targets against various cell lines that are receptor based. They interact with cellular immunity such as tumor necrosis factor alpha and interleukins.\nThe agent's uses range from a wide array of indications such as\nCrohn's disease\n,\nUlcerative colitis\nand\nInflammatory bowel disease\n,\nRheumatoid arthritis\n,\nPsoriatic arthritis\n,\nAnkylosing spondylitis\nand many malignancies with specific receptors.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        }
+      ]
+    },
+    "Naming": {
+      "text": "The various letters chosen in the name indicated the structure, origin, and targets of the molecule. For example ixekizumab for psoriasis ends with –mab, so it is a monoclonal antibody, has a –u- so it is human and has –ki- which means that it is interleukin targeted.\n[2]",
+      "subsections": {
+        "Suffix": {
+          "text": "-mab\nmeans a monoclonal antibody\n–cept\nindicates a protein that mimics an immunoglobulin.",
+          "tables": []
+        },
+        "Middle_syllable": {
+          "text": "–u-\nmeans all human derived\n-o-\nmeans all mouse derived\n-zu-\nmeans humanized after being mouse derived\n–xi-\nmeans part-human and part-non human.",
+          "tables": []
+        },
+        "Middle_bridging_syllable": {
+          "text": "This lettering can indicate the biologic's target\nt-\nmeans tumor is the target.\n–ba-\nmeans there is bacterium target.\n–so-\nmeans bone is targeted.\n–ci-\ntargets circulation.\n–fu-\ntargets fungus.\n–gro-\ntargets growth factor.\n–ki- or –li-\nwhich means it is interleukin or immune targeted.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Suffix": {
+      "text": "-mab\nmeans a monoclonal antibody\n–cept\nindicates a protein that mimics an immunoglobulin.",
+      "subsections": {
+        "Middle_syllable": {
+          "text": "–u-\nmeans all human derived\n-o-\nmeans all mouse derived\n-zu-\nmeans humanized after being mouse derived\n–xi-\nmeans part-human and part-non human.",
+          "tables": []
+        },
+        "Middle_bridging_syllable": {
+          "text": "This lettering can indicate the biologic's target\nt-\nmeans tumor is the target.\n–ba-\nmeans there is bacterium target.\n–so-\nmeans bone is targeted.\n–ci-\ntargets circulation.\n–fu-\ntargets fungus.\n–gro-\ntargets growth factor.\n–ki- or –li-\nwhich means it is interleukin or immune targeted.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Middle_syllable": {
+      "text": "–u-\nmeans all human derived\n-o-\nmeans all mouse derived\n-zu-\nmeans humanized after being mouse derived\n–xi-\nmeans part-human and part-non human.",
+      "subsections": {
+        "Middle_bridging_syllable": {
+          "text": "This lettering can indicate the biologic's target\nt-\nmeans tumor is the target.\n–ba-\nmeans there is bacterium target.\n–so-\nmeans bone is targeted.\n–ci-\ntargets circulation.\n–fu-\ntargets fungus.\n–gro-\ntargets growth factor.\n–ki- or –li-\nwhich means it is interleukin or immune targeted.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Middle_bridging_syllable": {
+      "text": "This lettering can indicate the biologic's target\nt-\nmeans tumor is the target.\n–ba-\nmeans there is bacterium target.\n–so-\nmeans bone is targeted.\n–ci-\ntargets circulation.\n–fu-\ntargets fungus.\n–gro-\ntargets growth factor.\n–ki- or –li-\nwhich means it is interleukin or immune targeted.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_events": {
+      "text": "Decreased cellular immunity which an cause reactivation or new\nTuberculosis\nSepsis\nFungal infections\nHepatitis B\nNeurologic syndromes\nMultiple sclerosis\nSeizures\nGuillain-Barre syndrome\nHematologic side effects\nAplastic anemia\nPancytopenia\nCardiac effects\nCongestive heart failure\nArrhythmias\nAllergic reactions\nPulmonary\nPneumonia\nPneumocystis jirovecii pneumonia\nPneumonitis\nEndocrine\nThyroiditis\nGI\nPerforations\nClostridium difficile\nAcute bacterial infections\nMalignancies\nNon-melanoma skin cancers\nLymphoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        }
+      ]
+    },
+    "Special_considerations": {
+      "text": "No live\nvaccines\nshould be given to these patients.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaccines",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        }
+      ]
+    }
+  }
+}

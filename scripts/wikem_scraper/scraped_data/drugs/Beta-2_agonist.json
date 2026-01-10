@@ -1,0 +1,130 @@
+{
+  "drug_name": "Beta-2_agonist",
+  "url": "https://wikem.org/wiki/Beta-2_agonist",
+  "scraped_at": "2026-01-10T07:48:45.974489",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Short-acting_beta2_agonists": {
+          "text": "Albuterol\n(ProAir HFA, Proventil, Ventolin HFA, ReliOn Ventolin HFA, Accuneb)\nLevosalbutamol\n(levalbuterol, Xopenex)\nTerbutaline\n(Bricanyl)\nPirbuterol\n(Maxair)\nProcaterol\nClenbuterol\nMetaproterenol\n(Alupent)\nFenoterol\nBitolterol mesylate\nRitodrine\nIsoprenaline",
+          "tables": []
+        },
+        "Long-acting_beta2_agonists": {
+          "text": "Salmeterol\n(Serevent Diskus)\nFormoterol\n(Foradil, Symbicort)\nBambuterol\nClenbuterol\nOlodaterol\n(Striverdi)",
+          "tables": []
+        },
+        "Ultra-long-acting_beta2_agonists": {
+          "text": "Indacaterol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        },
+        {
+          "text": "Metaproterenol",
+          "url": "https://wikem.org/wiki/Metaproterenol"
+        },
+        {
+          "text": "Isoprenaline",
+          "url": "https://wikem.org/wiki/Isoprenaline"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        }
+      ]
+    },
+    "Short-acting_beta2_agonists": {
+      "text": "Albuterol\n(ProAir HFA, Proventil, Ventolin HFA, ReliOn Ventolin HFA, Accuneb)\nLevosalbutamol\n(levalbuterol, Xopenex)\nTerbutaline\n(Bricanyl)\nPirbuterol\n(Maxair)\nProcaterol\nClenbuterol\nMetaproterenol\n(Alupent)\nFenoterol\nBitolterol mesylate\nRitodrine\nIsoprenaline",
+      "subsections": {
+        "Long-acting_beta2_agonists": {
+          "text": "Salmeterol\n(Serevent Diskus)\nFormoterol\n(Foradil, Symbicort)\nBambuterol\nClenbuterol\nOlodaterol\n(Striverdi)",
+          "tables": []
+        },
+        "Ultra-long-acting_beta2_agonists": {
+          "text": "Indacaterol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        },
+        {
+          "text": "Metaproterenol",
+          "url": "https://wikem.org/wiki/Metaproterenol"
+        },
+        {
+          "text": "Isoprenaline",
+          "url": "https://wikem.org/wiki/Isoprenaline"
+        },
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        }
+      ]
+    },
+    "Long-acting_beta2_agonists": {
+      "text": "Salmeterol\n(Serevent Diskus)\nFormoterol\n(Foradil, Symbicort)\nBambuterol\nClenbuterol\nOlodaterol\n(Striverdi)",
+      "subsections": {
+        "Ultra-long-acting_beta2_agonists": {
+          "text": "Indacaterol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Salmeterol",
+          "url": "https://wikem.org/wiki/Salmeterol"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Bronchoconstriction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "drug_name": "Blind_digital_intubation",
+  "url": "https://wikem.org/wiki/Blind_digital_intubation",
+  "scraped_at": "2026-01-10T07:48:56.889624",
+  "sections": {
+    "Overview": {
+      "text": "First introduced in 1880 when William MacEwan administered anesthesia through a metal tube inserted into the trachea by touch\nFell out of favor in 1907 with introduction of\nlaryngoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Can be considered in any patient requiring\nendotracheal intubation\nCan be used as a rescue method when traditional\nlaryngoscopy\nfails\nEspecially useful in:\nAustere environments where laryngoscopy is not accessible\nOut-of-hospital situations where patient is in confined space and cannot be extricated\nCopious secretions, blood or vomitus obscuring visualization of airway\nCervical-spine precautions\nGrade III/IV Cormack-Lehane view with laryngoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "endotracheal intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Severe facial trauma prohibiting endotracheal intubation via the oropharyngeal route",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Disposable gloves\nEndotracheal tube\nCan consider\nbougie\n-assisted technique\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Insert the index and middle fingers of the nondominant hand into the oral cavity\nTrace volar surface of fingers over dorsal surface of the tongue\nPalpate and lift epiglottis\nInsert ETT with dominant hand\nLifting epiglottis with index finger, use middle finger to guide tube through vocal cords.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Trauma to provider from patient's teeth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind Digital Intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind Digital Intubation",
+          "url": "https://wikem.org/wiki/Blind_Digital_Intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind Digital Intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind Digital Intubation",
+          "url": "https://wikem.org/wiki/Blind_Digital_Intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=WbQEJ52Qa-w}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=WbQEJ52Qa-w}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

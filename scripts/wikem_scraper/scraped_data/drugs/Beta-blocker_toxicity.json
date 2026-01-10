@@ -1,0 +1,881 @@
+{
+  "drug_name": "Beta-blocker_toxicity",
+  "url": "https://wikem.org/wiki/Beta-blocker_toxicity",
+  "scraped_at": "2026-01-10T07:48:45.378610",
+  "sections": {
+    "Background": {
+      "text": "Coingestion with\nCalcium Channel Blockers\n,\nTricyclic Antidepressants\n, and\nAntipsychotics\nincreases mortality\nAgents with membrane-stabilizing activity (e.g. sodium channel blockade) are especially lethal as they\nprolong QT\n, leading to dysrhythmias\nPropranolol\nSotalol\nPropranolol\nis particularly CNS toxic, as it is highly lipophilic and passes blood brain barrier freely, causing seizures and comatose state\n[1]\nAt toxic levels, beta-blockers will inhibit both beta-1 and beta-2 activity regardless for their affinity for specific receptors at therapeutic levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium Channel Blockers",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blockers"
+        },
+        {
+          "text": "Tricyclic Antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_Antidepressants"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "prolong QT",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Effects will typically be seen within 6 hours of ingestion with the exception of sotalol which can have a delayed and prolonged toxicity\nCardiac\nBradycardia\nMost common presenting sign\nHypotension\nVentricular dysrhythmias\nCNS\nMental status changes\nDelirium, coma\nSeizure\n(esp with\npropranolol\n)\nOther\nHypoglycemia\n(interfere with gluconeogenesis and glycogenolysis; uncommon in adults)\nHelps to differentiate from\nCalcium Channel Blocker Toxicity\nBronchospasm (uncommon)\nHypothermia\nBrugada pattern of EKG with propanolol overdose\nSotalol has type III anti-arrhythmic that can lead to prolonged QT causing\ntorsade de pointes\nand possibly\nventricular fibrillation\nPropranolol has sodium channel blockade activity leading to\nwide QRS\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "Mental status changes",
+          "url": "https://wikem.org/wiki/Mental_status_changes"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Calcium Channel Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "torsade de pointes",
+          "url": "https://wikem.org/wiki/Torsade_de_pointes"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "wide QRS",
+          "url": "https://wikem.org/wiki/Wide_QRS"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Symptomatic_bradycardia": {
+          "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        }
+      ]
+    },
+    "Symptomatic_bradycardia": {
+      "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nPR prolongation\nBradycardia\nQT Prolongation\nwith sotalol\n[3]\nWide QRS\nwith propanolol\nAny bradydysrhythmia\nObtain multiple ECGs over time to monitor any changes\nGlucose\nChemistry\nCreatinine (esp with atenolol)\nContinuous cardiac monitoring\nRespiratory rate\nPropranolol can induce central apnea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "Wide QRS",
+          "url": "https://wikem.org/wiki/Wide_QRS"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Adress airway, breathing, and circulation\nConsider\nactivated charcoal\nif present within 2 hr of ingestion\nSymptomatic bradycardia\nAtropine\n0.5-1mg q3-5min up to 3mg\nAvoid atropine in wide-complex bradycardia and consider chronotropes such as\nepinephrine\n,\ndobutamine\n,\ndopamine\n,\nisoproterenol\nConsider\ntranscutaneous\nvs\ntransvenous pacing\nHypotension\nIV fluids\nHypoglycemia\nAdult -\nD50W\nPed - 2.5mL/kg of\nD10W\nIf IV fluid and\natropine\nare not sufficient then consider",
+      "subsections": {
+        "Glucagon": {
+          "text": "Acts independently of Beta-adrenergic receptors in cardiac tissue\nHalf-life is 20 min, thus, if effective, need to start drip quickly after bolus\nAdult: 5 mg IV bolus over one minute\n[4]\n[5]\nPed: 50mcg/kg\nRebolus if no response after 10 min\nEffects persist for 10-15 min\nIf effective start infusion at:\nAdult: 2-5 mg/hr\nPed: 70 mcg/kg/hr\nTachyphylaxis occurs quickly with glucagon so frequent monitoring of heart rate and blood pressure is necessary as the drip might need to be uptitrated\nRoutine treatment with glucagon is not suggested as a sole antidote\n[6]\nContinuous drip is usually limited by insufficient quantities from pharmacy\nConsider concurrent administration of\nondansetron\n(causes nausea and vomiting)",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Beta-antagonism decreases intracellular calcium leading to smooth muscle relaxation; supplementation may reverse hypotension by increasing intracellular calcium levels\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis [2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\nAim for calcium level of 14mg/dL and measure at least 30 minutes after administration",
+          "tables": []
+        },
+        "High-dose_insulin_and_glucose": {
+          "text": "Takes 30-60 min for effect\nAugments myocardial contraction leading to increased cardiac output\n[7]\nRegular Insulin 1 Unit/kg IV Bolus accompanied by 0.5 gram/kg dextrose\nRegular insulin 1 Unit/kg/hr Drip, titrate infusion until hypotension is corrected or max 10u/kg/hr\nD50W drip at 0.1-0.2 gram/kg/hr\nInitial glucose checks q15 minutes until blood sugar stability established\nReplace potassium and magnesium if necessary",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Consider to be added as adjunctive therapy to all other therapies\nToxicity can also be managed with vasopressors alone\n[8]\nEpinephrine\nAdult: Start 1 mcg/min and titrate to MAP=60\nPed: Start 0.1mcg/kg/min",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "Bolus if QRS is wide\nSodium channel blockade from propranolol",
+          "tables": []
+        },
+        "QT_Prolongation": {
+          "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+          "tables": []
+        },
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Symptomatic bradycardia",
+          "url": "https://wikem.org/wiki/Symptomatic_bradycardia"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "transcutaneous",
+          "url": "https://wikem.org/wiki/Transcutaneous_pacing"
+        },
+        {
+          "text": "transvenous pacing",
+          "url": "https://wikem.org/wiki/Transvenous_pacing"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Glucagon": {
+      "text": "Acts independently of Beta-adrenergic receptors in cardiac tissue\nHalf-life is 20 min, thus, if effective, need to start drip quickly after bolus\nAdult: 5 mg IV bolus over one minute\n[4]\n[5]\nPed: 50mcg/kg\nRebolus if no response after 10 min\nEffects persist for 10-15 min\nIf effective start infusion at:\nAdult: 2-5 mg/hr\nPed: 70 mcg/kg/hr\nTachyphylaxis occurs quickly with glucagon so frequent monitoring of heart rate and blood pressure is necessary as the drip might need to be uptitrated\nRoutine treatment with glucagon is not suggested as a sole antidote\n[6]\nContinuous drip is usually limited by insufficient quantities from pharmacy\nConsider concurrent administration of\nondansetron\n(causes nausea and vomiting)",
+      "subsections": {
+        "Calcium": {
+          "text": "Beta-antagonism decreases intracellular calcium leading to smooth muscle relaxation; supplementation may reverse hypotension by increasing intracellular calcium levels\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis [2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\nAim for calcium level of 14mg/dL and measure at least 30 minutes after administration",
+          "tables": []
+        },
+        "High-dose_insulin_and_glucose": {
+          "text": "Takes 30-60 min for effect\nAugments myocardial contraction leading to increased cardiac output\n[7]\nRegular Insulin 1 Unit/kg IV Bolus accompanied by 0.5 gram/kg dextrose\nRegular insulin 1 Unit/kg/hr Drip, titrate infusion until hypotension is corrected or max 10u/kg/hr\nD50W drip at 0.1-0.2 gram/kg/hr\nInitial glucose checks q15 minutes until blood sugar stability established\nReplace potassium and magnesium if necessary",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Consider to be added as adjunctive therapy to all other therapies\nToxicity can also be managed with vasopressors alone\n[8]\nEpinephrine\nAdult: Start 1 mcg/min and titrate to MAP=60\nPed: Start 0.1mcg/kg/min",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "Bolus if QRS is wide\nSodium channel blockade from propranolol",
+          "tables": []
+        },
+        "QT_Prolongation": {
+          "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+          "tables": []
+        },
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Calcium": {
+      "text": "Beta-antagonism decreases intracellular calcium leading to smooth muscle relaxation; supplementation may reverse hypotension by increasing intracellular calcium levels\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis [2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\nAim for calcium level of 14mg/dL and measure at least 30 minutes after administration",
+      "subsections": {
+        "High-dose_insulin_and_glucose": {
+          "text": "Takes 30-60 min for effect\nAugments myocardial contraction leading to increased cardiac output\n[7]\nRegular Insulin 1 Unit/kg IV Bolus accompanied by 0.5 gram/kg dextrose\nRegular insulin 1 Unit/kg/hr Drip, titrate infusion until hypotension is corrected or max 10u/kg/hr\nD50W drip at 0.1-0.2 gram/kg/hr\nInitial glucose checks q15 minutes until blood sugar stability established\nReplace potassium and magnesium if necessary",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Consider to be added as adjunctive therapy to all other therapies\nToxicity can also be managed with vasopressors alone\n[8]\nEpinephrine\nAdult: Start 1 mcg/min and titrate to MAP=60\nPed: Start 0.1mcg/kg/min",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "Bolus if QRS is wide\nSodium channel blockade from propranolol",
+          "tables": []
+        },
+        "QT_Prolongation": {
+          "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+          "tables": []
+        },
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "High-dose_insulin_and_glucose": {
+      "text": "Takes 30-60 min for effect\nAugments myocardial contraction leading to increased cardiac output\n[7]\nRegular Insulin 1 Unit/kg IV Bolus accompanied by 0.5 gram/kg dextrose\nRegular insulin 1 Unit/kg/hr Drip, titrate infusion until hypotension is corrected or max 10u/kg/hr\nD50W drip at 0.1-0.2 gram/kg/hr\nInitial glucose checks q15 minutes until blood sugar stability established\nReplace potassium and magnesium if necessary",
+      "subsections": {
+        "Vasopressors": {
+          "text": "Consider to be added as adjunctive therapy to all other therapies\nToxicity can also be managed with vasopressors alone\n[8]\nEpinephrine\nAdult: Start 1 mcg/min and titrate to MAP=60\nPed: Start 0.1mcg/kg/min",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "Bolus if QRS is wide\nSodium channel blockade from propranolol",
+          "tables": []
+        },
+        "QT_Prolongation": {
+          "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+          "tables": []
+        },
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Vasopressors": {
+      "text": "Consider to be added as adjunctive therapy to all other therapies\nToxicity can also be managed with vasopressors alone\n[8]\nEpinephrine\nAdult: Start 1 mcg/min and titrate to MAP=60\nPed: Start 0.1mcg/kg/min",
+      "subsections": {
+        "Bicarbonate": {
+          "text": "Bolus if QRS is wide\nSodium channel blockade from propranolol",
+          "tables": []
+        },
+        "QT_Prolongation": {
+          "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+          "tables": []
+        },
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Bicarbonate": {
+      "text": "Bolus if QRS is wide\nSodium channel blockade from propranolol",
+      "subsections": {
+        "QT_Prolongation": {
+          "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+          "tables": []
+        },
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "QT_Prolongation": {
+      "text": "Magnesium if QT is prolonged\nSotalol known to prolong QT",
+      "subsections": {
+        "Intralipid_Therapy": {
+          "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Intralipid_Therapy": {
+      "text": "Draw all labs prior to infusion\nSupport as an antidote comes from animal studies and case reports\n[9]\nIV 20%\nIntralipid\nat 1.5 mL/kg Bolus\n[10]\nBolus could be repeated 1-2 times if persistent asystole\nFollowed by infusion of 0.25 mL/kg/min for 30-60 minutes or until hemodynamic stability achieved\nif responsive to bolus initiate infusion at 0.25 mL/kg/min for 1hr (e.g. about 600 mL over 30 minutes in a 70kg adult)\nInfusion rate could be increased if the BP declines",
+      "subsections": {
+        "Hemodialysis": {
+          "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+          "tables": []
+        },
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intralipid",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Hemodialysis": {
+      "text": "Only effective for\nnadolol\n,\nsotalol\n, and\natenolol",
+      "subsections": {
+        "ECMO": {
+          "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+          "tables": []
+        },
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "ECMO": {
+      "text": "Consider VA ECMO for refractory cases\nNote that if ECMO is chosen, intralipids are avoided due to potential of clotting of the ECMO circuits",
+      "subsections": {
+        "Sedation": {
+          "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Sedation": {
+      "text": "Consider\nketamine\nas post-intubation sedation for hemodynamics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all symptomatic patients\nAdmit all sotalol ingestions (long half-life)\nObserve all others for ~ 6hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta blockers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "NUEM - Beta-Blocker Toxicity\nEMCrit - Calcium Channel Blocker (CCB) & Beta Blocker (BBl) Overdose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

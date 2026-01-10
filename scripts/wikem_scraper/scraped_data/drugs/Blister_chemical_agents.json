@@ -1,0 +1,301 @@
+{
+  "drug_name": "Blister_chemical_agents",
+  "url": "https://wikem.org/wiki/Blister_chemical_agents",
+  "scraped_at": "2026-01-10T07:49:00.091437",
+  "sections": {
+    "Background": {
+      "text": "Highly persistent\nSkin primary route of exposure when in liquid form; pulmonary and GI tracts as routes in vapor form",
+      "subsections": {
+        "Types": {
+          "text": "Lewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Alkylation of DNA, RNA, and protein causing cell death\nDepletes glutathione causing cellular membrane breakdown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Lewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Alkylation of DNA, RNA, and protein causing cell death\nDepletes glutathione causing cellular membrane breakdown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Alkylation of DNA, RNA, and protein causing cell death\nDepletes glutathione causing cellular membrane breakdown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Skin – Initially\npruritus\nand stinging pain, superficial bullae appear over 24 hours. Blisters do not contain toxin\nGI –\nabdominal pain\n,\nnausea\n,\nvomiting\n,\ndiarrhea\n, and weight loss\nRespiratory –\nUsually only upper respiratory tract affected\nSinus congestion,\nsore throat\n, hoarseness.  Rarely\npulmonary edema\nEpithelial sloughing and pseudomembranes causing inability to clear pathogens and dead tissue.\nMucous membranes and actively reproducing cells most vulnerable to severe damage\nOcular damage – occurs within 4-8 hours\nconjunctivitis\n, chemosis, blepharospasm, and corneal perforation at even low level exposures\nBone Marrow – Leukopenia first (3-5 days), followed by anemia and\nthrombocytopenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immediate decontamination, 0.5% hypochlorite solution will inactivate sulfur mustard but not appropriate for pediatric patients\nSupportive care, ABCs\nThermal burn-type care\nFluid losses less than with thermal burns\nNo antidotes for mustard agents\nN-acetylcysteine, glutathione\nG-CSF for patients with bone marrow suppression\nBritish antilewisite (\nBAL\n) – chelating agent to reduce systemic effects from lewisite exposure.\nWon’t alter the blistering effects on skin or airway.\nOnly used for patients with shock or severe pulmonary injury given BAL side effect\nRelative contraindications to BAL: Renal disease, pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BAL",
+          "url": "https://wikem.org/wiki/BAL"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Chemical weapons",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        }
+      ]
+    }
+  }
+}

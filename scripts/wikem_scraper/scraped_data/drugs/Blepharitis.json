@@ -1,0 +1,323 @@
+{
+  "drug_name": "Blepharitis",
+  "url": "https://wikem.org/wiki/Blepharitis",
+  "scraped_at": "2026-01-10T07:49:00.201523",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of eyelids\nAcute (ulcerative or nonulcerative)\nUsually bacterial (typically\nstaph\n), less often viral (\nVZV\n,\nherpes\n)\nChronic (meibomian gland dysfunction, seborrheic blepharitis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sore/itchy\nInflammation of lid margin with ocular irritation, matted lashes\nBlurry vision\nTearing\nCrusting at the lid margins\nDistinguish anterior from posterior blepharitis using slit lamp\nPosterior - swelling and plugging of meibomian gland openings\nAnterior - on external exam, material such as greasy flakes (seborrheic) or hard crust (staph) surrounds eyelashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blurry vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Periorbital_swelling": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Lid hygiene most important for both anterior and posterior blepharitis\nAvoid eye-makeup\nWarm compresses 15min 4x/day\nScrub with mild shampoo BID\nConsider topical\nerythromycin\nor\nbacitracin\ndirectly onto lid margin\nNo conclusive evidence for oral antibiotics or topical steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient optho - chronic condition without definitive cure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Red Eye (Bilateral)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Red Eye (Bilateral)",
+          "url": "https://wikem.org/wiki/Red_Eye_(Bilateral)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "drug_name": "Bilateral_parotitis",
+  "url": "https://wikem.org/wiki/Bilateral_parotitis",
+  "scraped_at": "2026-01-10T07:48:49.714692",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Swelling over both parotid glands\n+/- overlying erythema, tenderness, constitutional symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bilateral_Parotitis": {
+          "text": "Viral infections\nViral parotitis\nParainfluenza\nCoxsackie virus\ninfluenza\nA\nEpstein-Barr virus\nAdenovirus\nHIV\nCytomegalovirus\nBacterial infections\nStaphylococcus aureus\nNoninfectious\nSalivary calculi\nTumors\nSarcoidosis\nSjögren’s syndrome\nThiazide\ndiuretics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Salivary calculi",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    },
+    "Bilateral_Parotitis": {
+      "text": "Viral infections\nViral parotitis\nParainfluenza\nCoxsackie virus\ninfluenza\nA\nEpstein-Barr virus\nAdenovirus\nHIV\nCytomegalovirus\nBacterial infections\nStaphylococcus aureus\nNoninfectious\nSalivary calculi\nTumors\nSarcoidosis\nSjögren’s syndrome\nThiazide\ndiuretics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Salivary calculi",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    }
+  }
+}

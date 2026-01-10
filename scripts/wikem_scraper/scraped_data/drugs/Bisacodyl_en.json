@@ -1,0 +1,125 @@
+{
+  "drug_name": "Bisacodyl/en",
+  "url": "https://wikem.org/wiki/Bisacodyl/en",
+  "scraped_at": "2026-01-10T07:48:51.678023",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Type:\nlaxative\nDosage Forms: tablet, enema, suppository\nDosage Strengths: tablet: 5mg; enema: 10mg/30mL; suppository: 10mg\nRoutes of Administration: PO, PR\nCommon Trade Names: Dulcolax, Correctol, BisacEvac, Bisacolax, Codulax, Alophen, Feen A Mint, Fleet Stimulant Laxative, Laxit, Modane",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "5-30mg PO daily\n10mg suppository daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "6-11 yrs: 5mg or rectally daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: A\nLactation risk\n: infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAppendicitis\nBowel obstruction\nGastroenteritis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Colonic atony",
+          "tables": []
+        },
+        "Common": {
+          "text": "Abdominal discomfort/colic, diarrhea, proctitis (with suppository use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Colonic atony",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal discomfort/colic, diarrhea, proctitis (with suppository use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Abdominal discomfort/colic, diarrhea, proctitis (with suppository use)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8 hr\nMetabolism: Metabolized to BHPM in the colon\nExcretion: Urine and bile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Stimulates peristalsis via parasympathetic reflexes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Ahlfors CE. Benzyl alcohol, kernicterus, and unbound bilirubin. J Pediatr. 2001;139(2):317-319. [PubMed 11487763]\nCenters for Disease Control (CDC). Neonatal deaths associated with use of benzyl alcohol—United States. MMWR Morb Mortal Wkly Rep. 1982;31(22):290-291.\nhttp://www.cdc.gov/mmwr/preview/mmwrhtml/00001109.htm\n[PubMed 6810084]\nChristie J, Rose S. Constipation, diarrhea, hemorrhoids, and fecal incontinence. In: Pregnancy in gastrointestinal disorders. Bethesda (MD): ACG Monograph American College of Physicians; 2007. p. 4–9. Available at\nhttps://www.acg.gi.org\nDucodyl (bisacodyl) [prescribing information]. Troy, MI: Prime Marketing; received January 2019.\nFriedrich C, Richter E, Trommeshauser D, et al, \"Absence of Excretion of the Active Moiety of Bisacodyl and Sodium Picosulfate Into Human Breast Milk: An Open-Label, Parallel-Group, Multiple-Dose Study in Healthy Lactating Women,\" Drug Metab Pharmacokinet, 2011, 26(5):458-64. [PubMed 21697613]\n\"Inactive\" ingredients in pharmaceutical products: update (subject review). Pediatrics.1997;99(2):268-278. [PubMed 9024461]\nTabbers MM, DiLorenzo C, Berger MY, et al. Evaluation and treatment of functional constipation in infants and children: evidence-based recommendations from ESPGHAN and NASPGHAN. J Pediatr Gastroenterol Nutr. 2014;58(2):258-274. [PubMed 24345831]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

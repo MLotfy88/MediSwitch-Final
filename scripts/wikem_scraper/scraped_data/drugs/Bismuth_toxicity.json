@@ -1,0 +1,392 @@
+{
+  "drug_name": "Bismuth_toxicity",
+  "url": "https://wikem.org/wiki/Bismuth_toxicity",
+  "scraped_at": "2026-01-10T07:48:55.544775",
+  "sections": {
+    "Background": {
+      "text": "Heavy Metal\nAvailable in two forms\nElemental\nNontoxic\nBismuth Salts\nUses\nOral preparations for traveler's diarrhea, nausea, and vomiting\nBismuth-impregnated surgical packing pastes for ileostomies and colostomies\nGastric ulcers\nCause toxicity",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "Poorly understood due to lack of data\nLow absorption in the GI tract, approximately 0.2% is systemically absorbed\n[1]\n90% excreted from kidneys\nLevels may be increased in those taking PPI\nRanitidine does not alter the absorption of bismuth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heavy Metal",
+          "url": "https://wikem.org/wiki/Heavy_Metal"
+        }
+      ]
+    },
+    "Toxicokinetics": {
+      "text": "Poorly understood due to lack of data\nLow absorption in the GI tract, approximately 0.2% is systemically absorbed\n[1]\n90% excreted from kidneys\nLevels may be increased in those taking PPI\nRanitidine does not alter the absorption of bismuth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Abdominal pain\nOliguria\nAcute tubular necrosis and renal failure",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Diffuse progressive encephalopathy\nNeurobehavioral changes\nApathy\nIrritability\nPoor concentration\nWorsened short term memory\nVisual hallucinations\nMovement disorders\nMyoclonus\nAtaxia\nTremors\nPigmentation of skin and oral mucosa\nSeizure\nComa\nand\ndeath",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Death"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Abdominal pain\nOliguria\nAcute tubular necrosis and renal failure",
+      "subsections": {
+        "Chronic": {
+          "text": "Diffuse progressive encephalopathy\nNeurobehavioral changes\nApathy\nIrritability\nPoor concentration\nWorsened short term memory\nVisual hallucinations\nMovement disorders\nMyoclonus\nAtaxia\nTremors\nPigmentation of skin and oral mucosa\nSeizure\nComa\nand\ndeath",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Death"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Diffuse progressive encephalopathy\nNeurobehavioral changes\nApathy\nIrritability\nPoor concentration\nWorsened short term memory\nVisual hallucinations\nMovement disorders\nMyoclonus\nAtaxia\nTremors\nPigmentation of skin and oral mucosa\nSeizure\nComa\nand\ndeath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Death"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {
+        "Encephalopathy": {
+          "text": "Viral encephalopathy\nEthanol withdrawal\nCreutzfeld-Jacob disease\nLithium toxicity\nNeurodegenerative leukoencephalopathies\nNonketotic hyperosmolar coma\nPostanoxic encephalopathies\nProgressive multifocal ataxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        },
+        {
+          "text": "Ethanol withdrawal",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        }
+      ]
+    },
+    "Encephalopathy": {
+      "text": "Viral encephalopathy\nEthanol withdrawal\nCreutzfeld-Jacob disease\nLithium toxicity\nNeurodegenerative leukoencephalopathies\nNonketotic hyperosmolar coma\nPostanoxic encephalopathies\nProgressive multifocal ataxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol withdrawal",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Need to have high index of suspicion\nBMP\nCBC\nUrinalysis\nCT head for cases of encephalopathy\nMay show diffuse cortical hyperdensity of the grey matter\nSalicylate\nlevel\nIn the United States\nbismuth subsalicylate\nis the most common oral compound, and up to 90% of salicylate is absorbed\n[2]\nEEG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Salicylate",
+          "url": "https://wikem.org/wiki/Salicylate"
+        },
+        {
+          "text": "bismuth subsalicylate",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Management_2": {
+      "text": "Supportive care\nConsider whole bowel irrigation\nChelation\nLimited data to support its use\nExact timing and dosages are unknown\nDimercaprol\n(BAL)\nUndergoes biliary elimination which is useful in those with renal insufficiency\nBenefits shown in experimental models",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        }
+      ]
+    },
+    "Disposition_2": {
+      "text": "Admission if evidence of renal failure or encephalopathy manifestations\nConsult Toxicology or\npoison control",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        }
+      ]
+    },
+    "See_Also_2": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rao, R. Bismuth. In: Goldfrank's Toxicologic Emergencies. 9th Ed. New York: McGraw-Hill; 2011: 1233-1236",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "drug_name": "Black_widow_spider_bite",
+  "url": "https://wikem.org/wiki/Black_widow_spider_bite",
+  "scraped_at": "2026-01-10T07:48:55.873383",
+  "sections": {
+    "Background": {
+      "text": "Identification: red hourglass on otherwise black spider. Females tend to be larger and deliver more venom\n[1]\nGenus:\nLatrodectus\nBlack widows live in southern Canada and every U.S. state except Alaska. Bites are more common in warmer months\n[2]\nAptly named because of their sexual cannibalism (but only occurs approximately 2% of the time)\n[3]\nMost venomous spiders in North America\n[4]\nVenom several times more potent than rattlesnake venom\nMost people who are envenomated have no serious damage due to the low volume of venom delivered.\n[5]\nRarely bites can be fatal\nHigh risk are the young, very old, and the infirm.\n[6]",
+      "subsections": {
+        "Mechanism": {
+          "text": "α-Latrotoxin envenomation causes massive release of neurotransmitters (norepinephrine, dopamine, acetylcholine, glutamate and GABA) from the nerve terminals → muscle cramps,\ntachycardia\n,\nhypertension\nThis clinical envenomation syndrome is known as\nlatrodectism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Mechanism": {
+      "text": "α-Latrotoxin envenomation causes massive release of neurotransmitters (norepinephrine, dopamine, acetylcholine, glutamate and GABA) from the nerve terminals → muscle cramps,\ntachycardia\n,\nhypertension\nThis clinical envenomation syndrome is known as\nlatrodectism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Local": {
+          "text": "Pinprick sensation; then increasing local pain that may spread to entire extremity\nErythema appears 20-60 min after the bite; may develop characteristic halo or targetoid lesion\nPain begins to abate after several hours and disappears by 2-3d",
+          "tables": []
+        },
+        "Systemic": {
+          "text": "Muscle cramp-like spasms in large muscle groups (although exam rarely reveals rigidity)\nPain becomes generalized\nSevere\nabdominal wall musculature pain\nand cramping\nDifficult to differentiate from\nperitonitis\nHeadache\n,\nnausea/vomiting\n, diaphoresis, photophobia,\ndyspnea\nA-fib\n,\nmyocarditis\n,\npriapism\n, and death are rare",
+          "tables": []
+        },
+        "Grading_System": {
+          "text": "Grade 1: Range from no symptoms to local pain at the envenomation site with normal vital signs\nGrade 2: Involve muscular pain at the envenomation site to migration to the trunk, diaphoresis at bite site and normal vital signs\nGrade 3: Include grade 2 with abnormal vital signs; diaphoresis distant to envenomation site, generalized\nmyalgia\nto back, chest and abdomen, nausea vomiting and headaches.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal wall musculature pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Local": {
+      "text": "Pinprick sensation; then increasing local pain that may spread to entire extremity\nErythema appears 20-60 min after the bite; may develop characteristic halo or targetoid lesion\nPain begins to abate after several hours and disappears by 2-3d",
+      "subsections": {
+        "Systemic": {
+          "text": "Muscle cramp-like spasms in large muscle groups (although exam rarely reveals rigidity)\nPain becomes generalized\nSevere\nabdominal wall musculature pain\nand cramping\nDifficult to differentiate from\nperitonitis\nHeadache\n,\nnausea/vomiting\n, diaphoresis, photophobia,\ndyspnea\nA-fib\n,\nmyocarditis\n,\npriapism\n, and death are rare",
+          "tables": []
+        },
+        "Grading_System": {
+          "text": "Grade 1: Range from no symptoms to local pain at the envenomation site with normal vital signs\nGrade 2: Involve muscular pain at the envenomation site to migration to the trunk, diaphoresis at bite site and normal vital signs\nGrade 3: Include grade 2 with abnormal vital signs; diaphoresis distant to envenomation site, generalized\nmyalgia\nto back, chest and abdomen, nausea vomiting and headaches.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal wall musculature pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Systemic": {
+      "text": "Muscle cramp-like spasms in large muscle groups (although exam rarely reveals rigidity)\nPain becomes generalized\nSevere\nabdominal wall musculature pain\nand cramping\nDifficult to differentiate from\nperitonitis\nHeadache\n,\nnausea/vomiting\n, diaphoresis, photophobia,\ndyspnea\nA-fib\n,\nmyocarditis\n,\npriapism\n, and death are rare",
+      "subsections": {
+        "Grading_System": {
+          "text": "Grade 1: Range from no symptoms to local pain at the envenomation site with normal vital signs\nGrade 2: Involve muscular pain at the envenomation site to migration to the trunk, diaphoresis at bite site and normal vital signs\nGrade 3: Include grade 2 with abnormal vital signs; diaphoresis distant to envenomation site, generalized\nmyalgia\nto back, chest and abdomen, nausea vomiting and headaches.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal wall musculature pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Grading_System": {
+      "text": "Grade 1: Range from no symptoms to local pain at the envenomation site with normal vital signs\nGrade 2: Involve muscular pain at the envenomation site to migration to the trunk, diaphoresis at bite site and normal vital signs\nGrade 3: Include grade 2 with abnormal vital signs; diaphoresis distant to envenomation site, generalized\nmyalgia\nto back, chest and abdomen, nausea vomiting and headaches.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally clinical diagnosis\nFor high-risk patients (pregnancy, children, older adults w/ cardiovascular issues), rule out peritonitis, UTI, and rhabdomyolysis\nCBC\nCreatinine phosphokinase\nLactic acid\nUA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Local wound care,\nanalgesia\nand\ntetanus prophylaxis\nare mainstays of treatment\nGrade 1:  Cold packs and\nNSAIDs\nGrade 2/3: IV\nOpioids\nand\nBenzodiazepines\nAntivenin\n- indicated for systemic illness only\nDosage: Usual dose is one to two vials diluted in 50 to 100 mL 5% dextrose or 0.9% sodium chloride, then infused over 1 hour\nUse is controversial -\nMorbidity\n(pain, cramping and autonomic disturbances) are high, but\nmortality\nis low. Antivenin is horse serum derived, and can lead to anaphylaxis and serum sickness\nConsider for: Pediatric patients, pregnant women (category C), elderly",
+      "subsections": {
+        "Not_Indicated": {
+          "text": "Routine antibiotic use is not indicated\nIV\ncalcium gluconate\nto reduce muscle spasm is an outdated therapy not favored by toxicologists\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Antivenin",
+          "url": "https://wikem.org/wiki/Antivenin"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        }
+      ]
+    },
+    "Not_Indicated": {
+      "text": "Routine antibiotic use is not indicated\nIV\ncalcium gluconate\nto reduce muscle spasm is an outdated therapy not favored by toxicologists\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged\nConsider admission for:\nSymptoms of moderate or severe envenomation\nPregnant women\nChildren\nPreexisting cardiovascular disease or hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spider bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        }
+      ]
+    }
+  }
+}

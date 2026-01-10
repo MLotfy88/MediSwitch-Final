@@ -1,0 +1,244 @@
+{
+  "drug_name": "Bioterrorism",
+  "url": "https://wikem.org/wiki/Bioterrorism",
+  "scraped_at": "2026-01-10T07:48:51.385937",
+  "sections": {
+    "Background": {
+      "text": "An attack using various biological agents, such as viruses, bacteria, or toxins to cause injury and death.\n[1]\nCan affect humans, anmials/livestock, and/or plant life.\nThese disease still exist globally in many countries, but may be modified for increased effect as a weapon.\nSmallpox last naturally occurred in 1977\n[2]",
+      "subsections": {
+        "Classification": {
+          "text": "Agents are divided into three categories, based on risk.\n[1]\nCategory A\n: (highest risk) Easy to spread or transmit from person to person, and/or cause high morbidity/mortality rates.\nCategory B\n: Moderately easy to spread, moderate morbidity and usually low death rates.\nCategory C\n: Emerging agents that may be developed into weapons 2/2 ease of access or production, or have potential for high morbidity/mortality.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification": {
+      "text": "Agents are divided into three categories, based on risk.\n[1]\nCategory A\n: (highest risk) Easy to spread or transmit from person to person, and/or cause high morbidity/mortality rates.\nCategory B\n: Moderately easy to spread, moderate morbidity and usually low death rates.\nCategory C\n: Emerging agents that may be developed into weapons 2/2 ease of access or production, or have potential for high morbidity/mortality.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Specific_Agents": {
+      "text": "",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Bioterrorism_Agents": {
+      "text": "",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Weapon of mass destruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weapon of mass destruction",
+          "url": "https://wikem.org/wiki/Weapon_of_mass_destruction"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC Bioterrorism Agent List",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

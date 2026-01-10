@@ -1,0 +1,188 @@
+{
+  "drug_name": "Bladder_trauma",
+  "url": "https://wikem.org/wiki/Bladder_trauma",
+  "scraped_at": "2026-01-10T07:49:02.344338",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Suprapubic pain, blood at meatus,\nurinary retention\nGross\nhematuria\nis present in 95% of significant bladder injuries\nPelvic fracture\n+ gross hematuria = bladder rupture\n<1% of all blunt bladder injuries p/w UA with <25 RBCs/HPF\nBladder Rupture\nExtraperitoneal\nAssociated with pelvic fracture and laceration by bony fragments\nLeakage of urine into perivesicular space\n\"Tear drop\" shape on imaging\nIntraperitoneal\nAssociated with compressive force in presence of full bladder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Retrograde cystogram (CT or plain film) indicated for:\nGross hematuria\nInability to void\nPelvic fracture in associated with microscopic hematuria\nClinical suspicion of bladder injury\nPenetrating injuries of the buttock, pelvis, or lower abdomen with any hematuria",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically made on retrograde cystogram\nCT A/P with IV contrast NOT sensitive enough for bladder rupture: bladder must be distended with 350 mL contrast",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Retrograde cystogram (CT or plain film) indicated for:\nGross hematuria\nInability to void\nPelvic fracture in associated with microscopic hematuria\nClinical suspicion of bladder injury\nPenetrating injuries of the buttock, pelvis, or lower abdomen with any hematuria",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically made on retrograde cystogram\nCT A/P with IV contrast NOT sensitive enough for bladder rupture: bladder must be distended with 350 mL contrast",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically made on retrograde cystogram\nCT A/P with IV contrast NOT sensitive enough for bladder rupture: bladder must be distended with 350 mL contrast",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Extraperitoneal Rupture\nNonoperative management with bladder cathether drainage (Foley vs suprapubic catheter)\nIntraperitoneal Rupture\nOperative management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "GU Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GU Trauma",
+          "url": "https://wikem.org/wiki/GU_Trauma"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "drug_name": "Beta_agonist",
+  "url": "https://wikem.org/wiki/Beta_agonist",
+  "scraped_at": "2026-01-10T07:48:45.250901",
+  "sections": {
+    "β1_>>_β2": {
+      "text": "Dobutamine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "Short-acting": {
+      "text": "Albuterol\n(ProAir HFA, Proventil, Ventolin HFA, ReliOn Ventolin HFA, Accuneb)\nTerbutaline\n(Bricanyl)\nClenbuterol\nIsoproterenol\n(β\n1\n≈ β\n2\n)\nLevosalbutamol, pirbuterol, procaterol,\nmetaproterenol\n, fenoteol, bitolterol, ritodrine",
+      "subsections": {
+        "Long-acting_beta2_agonists": {
+          "text": "Clenbuterol\nSalmeterol, formoterol (Symbicort), bambuterol, olodaterol, indacaterol (ultra-long-acting)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "metaproterenol",
+          "url": "https://wikem.org/wiki/Metaproterenol"
+        },
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        }
+      ]
+    },
+    "Long-acting_beta2_agonists": {
+      "text": "Clenbuterol\nSalmeterol, formoterol (Symbicort), bambuterol, olodaterol, indacaterol (ultra-long-acting)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clenbuterol",
+          "url": "https://wikem.org/wiki/Clenbuterol"
+        }
+      ]
+    },
+    "Nonselective_Adrenergic_Agonists": {
+      "text": "Epinephrine\nNorepinephrine\nDopamine\nSympathomimetics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "drug_name": "Bleeding_treatments",
+  "url": "https://wikem.org/wiki/Bleeding_treatments",
+  "scraped_at": "2026-01-10T07:49:00.173798",
+  "sections": {
+    "Treatments": {
+      "text": "Packed Red Blood Cells\nDDAVP\n0.3mg/kg subQ or IV (max 20mg)\nPlatelets\nFFP\nCryoprecipitate\nVitamin K (10mg SQ/IM)\nProtamine (Heparin reversal)\nEstrogen (Uterine, renal)\nPPI\n/\nfamotidine\n/\noctreotide\n(\nGI\n)\nQuick Clot (Topical)\nTXA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Packed Red Blood Cells",
+          "url": "https://wikem.org/wiki/Packed_red_blood_cells"
+        },
+        {
+          "text": "DDAVP",
+          "url": "https://wikem.org/wiki/DDAVP"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelet_transfusion"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Vitamin K (10mg SQ/IM)",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "Protamine (Heparin reversal)",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin_reversal"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "octreotide",
+          "url": "https://wikem.org/wiki/Octreotide"
+        },
+        {
+          "text": "GI",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Quick Clot (Topical)",
+          "url": "https://wikem.org/wiki/Quick_Clot_(Kaolin)"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nHemorrhage\nBlood products\nMassive transfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        }
+      ]
+    }
+  }
+}

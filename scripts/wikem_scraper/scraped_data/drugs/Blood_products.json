@@ -1,0 +1,335 @@
+{
+  "drug_name": "Blood_products",
+  "url": "https://wikem.org/wiki/Blood_products",
+  "scraped_at": "2026-01-10T07:48:58.807683",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Transfusion_Risk_Ratios": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Rate": "1:10",
+                "Complication": "Febrile non-hemolytic transfusion reaction per pool of 5 donor units of platelets (1 pack)"
+              },
+              {
+                "Rate": "1:100",
+                "Complication": "Minor allergic reactions (urticaria)"
+              },
+              {
+                "Rate": "1:300",
+                "Complication": "Febrile non-hemolytic transfusion reaction per unit of RBC (1 pack)"
+              },
+              {
+                "Rate": "1:700",
+                "Complication": "Transfusion-associated circulatory overload per transfusion episode"
+              },
+              {
+                "Rate": "1:5,000",
+                "Complication": "Transfusion-related acute lung injury (TRALI)"
+              },
+              {
+                "Rate": "1:7,000",
+                "Complication": "Delayed hemolytic transfusion reaction"
+              },
+              {
+                "Rate": "1:10,000",
+                "Complication": "Symptomatic bacterial sepsis per pool of 5 donor units of platelets"
+              },
+              {
+                "Rate": "1:40,000",
+                "Complication": "Death from bacterial sepsis per pool of 5 donor units of platelets"
+              },
+              {
+                "Rate": "1:40,000",
+                "Complication": "ABO-incompatible transfusion per RBC transfusion episode"
+              },
+              {
+                "Rate": "1:40,000",
+                "Complication": "Serious allergic reaction per unit of component"
+              },
+              {
+                "Rate": "1:82,000",
+                "Complication": "Transmission of hepatitis B virus per unit of component"
+              },
+              {
+                "Rate": "1:100,000",
+                "Complication": "Symptomatic bacterial sepsis per unit of RBC"
+              },
+              {
+                "Rate": "1:500,000",
+                "Complication": "Death from bacterial sepsis per unit of RBC"
+              },
+              {
+                "Rate": "1:1,000,000",
+                "Complication": "Transmission of West Nile Virus"
+              },
+              {
+                "Rate": "1:3,000,000",
+                "Complication": "Transmission of HTLV per unit of component"
+              },
+              {
+                "Rate": "1:3,100,000",
+                "Complication": "Transmission of hepatitis C virus per unit of component"
+              },
+              {
+                "Rate": "1:4,700,000",
+                "Complication": "Transmission of HIV per unit of component"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transfusion_Risk_Ratios": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Rate": "1:10",
+            "Complication": "Febrile non-hemolytic transfusion reaction per pool of 5 donor units of platelets (1 pack)"
+          },
+          {
+            "Rate": "1:100",
+            "Complication": "Minor allergic reactions (urticaria)"
+          },
+          {
+            "Rate": "1:300",
+            "Complication": "Febrile non-hemolytic transfusion reaction per unit of RBC (1 pack)"
+          },
+          {
+            "Rate": "1:700",
+            "Complication": "Transfusion-associated circulatory overload per transfusion episode"
+          },
+          {
+            "Rate": "1:5,000",
+            "Complication": "Transfusion-related acute lung injury (TRALI)"
+          },
+          {
+            "Rate": "1:7,000",
+            "Complication": "Delayed hemolytic transfusion reaction"
+          },
+          {
+            "Rate": "1:10,000",
+            "Complication": "Symptomatic bacterial sepsis per pool of 5 donor units of platelets"
+          },
+          {
+            "Rate": "1:40,000",
+            "Complication": "Death from bacterial sepsis per pool of 5 donor units of platelets"
+          },
+          {
+            "Rate": "1:40,000",
+            "Complication": "ABO-incompatible transfusion per RBC transfusion episode"
+          },
+          {
+            "Rate": "1:40,000",
+            "Complication": "Serious allergic reaction per unit of component"
+          },
+          {
+            "Rate": "1:82,000",
+            "Complication": "Transmission of hepatitis B virus per unit of component"
+          },
+          {
+            "Rate": "1:100,000",
+            "Complication": "Symptomatic bacterial sepsis per unit of RBC"
+          },
+          {
+            "Rate": "1:500,000",
+            "Complication": "Death from bacterial sepsis per unit of RBC"
+          },
+          {
+            "Rate": "1:1,000,000",
+            "Complication": "Transmission of West Nile Virus"
+          },
+          {
+            "Rate": "1:3,000,000",
+            "Complication": "Transmission of HTLV per unit of component"
+          },
+          {
+            "Rate": "1:3,100,000",
+            "Complication": "Transmission of hepatitis C virus per unit of component"
+          },
+          {
+            "Rate": "1:4,700,000",
+            "Complication": "Transmission of HIV per unit of component"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Products": {
+      "text": "",
+      "subsections": {
+        "Types": {
+          "text": "Packed red blood cells\nPlatelet transfusion\nFresh frozen plasma\nCryoprecipitate transfusion\nHumate-P\nProthrombin complex concentrates\nWhole blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Packed red blood cells",
+          "url": "https://wikem.org/wiki/Packed_red_blood_cells"
+        },
+        {
+          "text": "Platelet transfusion",
+          "url": "https://wikem.org/wiki/Platelet_transfusion"
+        },
+        {
+          "text": "Fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "Cryoprecipitate transfusion",
+          "url": "https://wikem.org/wiki/Cryoprecipitate_transfusion"
+        },
+        {
+          "text": "Humate-P",
+          "url": "https://wikem.org/wiki/Humate-P"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        },
+        {
+          "text": "Whole blood",
+          "url": "https://wikem.org/wiki/Whole_blood"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Packed red blood cells\nPlatelet transfusion\nFresh frozen plasma\nCryoprecipitate transfusion\nHumate-P\nProthrombin complex concentrates\nWhole blood",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Packed red blood cells",
+          "url": "https://wikem.org/wiki/Packed_red_blood_cells"
+        },
+        {
+          "text": "Platelet transfusion",
+          "url": "https://wikem.org/wiki/Platelet_transfusion"
+        },
+        {
+          "text": "Fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "Cryoprecipitate transfusion",
+          "url": "https://wikem.org/wiki/Cryoprecipitate_transfusion"
+        },
+        {
+          "text": "Humate-P",
+          "url": "https://wikem.org/wiki/Humate-P"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        },
+        {
+          "text": "Whole blood",
+          "url": "https://wikem.org/wiki/Whole_blood"
+        }
+      ]
+    },
+    "Unit_Conversions": {
+      "text": "",
+      "subsections": {
+        "Blood_product_unit_conversions": {
+          "text": "PRBC\n: 1 bag = 1 unit = 350 mL\nFFP\n: 1 bag = 1 unit = 250 mL\nPlatelets\n: 1 bag = 1 pack = 5 units = 250 mL\nCryoprecipitate\n: 1 bag = 5 units = 200 mL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        }
+      ]
+    },
+    "Blood_product_unit_conversions": {
+      "text": "PRBC\n: 1 bag = 1 unit = 350 mL\nFFP\n: 1 bag = 1 unit = 250 mL\nPlatelets\n: 1 bag = 1 pack = 5 units = 250 mL\nCryoprecipitate\n: 1 bag = 5 units = 200 mL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        }
+      ]
+    },
+    "Special_Considerations": {
+      "text": "",
+      "subsections": {
+        "Leukocyte_Irradiated_and_Reduced_(Depleted)_Blood_Products": {
+          "text": "Leukocyte reduced: Prevents sensitization in patients who may require bone marrow transplant\nIrradiated: Eliminates capacity of T-cells to proliferate (prevents\nTransfusion-associated graft-versus-host disease\n)\nIf tranfusion required for crashing patient, do not delay tranfusion of uncrossed blood to irradiate products beforehand\nRequires minimum 25 Gy irradiation, not to exceed 50 Gy for all:\nPacked red cells\nPlatelets\nGranulocyte components, regardless of immunocompetency\nFirst or second degree relatives, regardless of immunocompetency\nHLA-selected components, regardless of immunocompetency\nIrradiated products should be administered shortly after irradiation\nThose products not used for intended recipient may be returned safely to stock for others not requiring irradiated components, though with reduced shelf life\nNot necessary to irradiate FFP, cryoprecipitate, fractioned plasma products\nImmunocompromised stem cell recipients\nOrgan transplant recipients\nPatients undergoing marrow transplantation\nIntrauterine transfusion\nNeonatal exchange transfusions\nPremature and low birthweight neonates\nHodgkin lymphoma\nCongenital cell-mediated immunodeficiencies (DiGeorge, Wiskott-Aldrich, Leiner's, 5'-nucelotidase deficiency)\nAcquired immunodeficiencies to include:\nLeukemia, CLL\nAplastic anemia\nNeutropenia\nPatients receiving:\nPurine analogue chemotherapies (fludarabine, cladribine, deoxycoformicin, bendamustine, clofarabine, etc.)\nCertain biologic immunosuppresants (alemtuzumab)\nDonations from biologic relatives\nDonations from HLA-matched donors\nGenetically homogenous populations\nProbably indicated int:\nHematologic malignancies other than Hodgkin lymphoma\nSolid tumors treated with cytotoxic agents\nChronically transfused\nCardiac surgery\nSolid organ or stem cell transplant recipients, before and after\nPrevious febrile nonhemolytic transfusion reactions\nCMV seronegative patients at risk",
+          "tables": []
+        },
+        "Not_Routinely_Needing_Irradiated_Products": {
+          "text": "HIV, AIDS\nConcurrent, non-severe common viral infection\nRituximab treatment\nRoutine solid organ transplant\nRoutine infant cardiac surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute transfusion reaction\nMassive transfusion\nCoagulopathy (main)\nTranexamic acid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute transfusion reaction",
+          "url": "https://wikem.org/wiki/Acute_transfusion_reaction"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Coagulopathy (main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        }
+      ]
+    }
+  }
+}

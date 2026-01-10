@@ -1,0 +1,134 @@
+{
+  "drug_name": "Bladder_ultrasound",
+  "url": "https://wikem.org/wiki/Bladder_ultrasound",
+  "scraped_at": "2026-01-10T07:49:02.837895",
+  "sections": {
+    "Background": {
+      "text": "Bladder ultrasounds can be used independently for volume measurements or in conjunction with other exams such as FAST, renal studies, and pelvic ultrasounds\nBladder volume = length x width x height x 0.52\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Urinary retention\nUrinary catheter confirmation\nFree fluid in the pelvis\nDetermine post void residual\nNephrolithiasis\nin the UVJ\nTypically included in\nrenal ultrasound\nand\nFAST exams",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "FAST exams",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "Select probe\nPhased array or curvilinear probe\nLocation\nSuprapubic\nLandmarks\nIdentification: anechoic (black) fluid within a structure defined by hyperechoic (white) appearing borders\nObtain sagittal and transverse images\nUse calc function to attain bladder volume\nOptimize image quality\nMay need to turn down far gain secondary to acoustic enhancement from bladder\nMay use power Doppler over the inferior border can demonstrate ureteral jets",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "Bladder volume/post-void residual\nUse calc mode and measure in 3 dimensions (anterior posterior, right left, and superior inferior)\nNormal PVR is <50mL, <100mL in patients >65.\nStones\nUreteral jets can indicate patent ureter\nBladder bulge may indicated a UVJ stone\n[3]\nTwinkle Sign: Rapid alternation of color immediately behind a stationary echogenic object, acquiring a false appearance of movement in color Doppler mode\nFree fluid\nAnechoic (black) fluid outside the bladder is suggestive of free fluid\nLook for 'pointy edges' which increases suspicion for fluid not in another structure (cyst, ovary, bowel, etc)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "Normal": {
+          "text": "Ureteral jet",
+          "tables": []
+        },
+        "Abnormal": {
+          "text": "Free fluid superior to the bladder\nRight UVJ stone\nRight UVJ stone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal": {
+      "text": "Ureteral jet",
+      "subsections": {
+        "Abnormal": {
+          "text": "Free fluid superior to the bladder\nRight UVJ stone\nRight UVJ stone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal": {
+      "text": "Free fluid superior to the bladder\nRight UVJ stone\nRight UVJ stone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Ureteral jets indicate patent ureter but the absence of it does not mean obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "A bedside ultrasound was conducted to assess for bladder volume with clinical indications of urinary retention. The bladder was identified and viewed in the transverse and sagittal plane. The bladder volume was calculated to be ***ml.\nSee\nRenal ultrasound\n,\nFAST exam\n, and\nTransabdominal pelvic ultrasound\nfor further documentation for in other indications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "FAST exam",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "FP Notebook: Bladder Ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (main)\nUltrasound: In Shock and Hypotension\nUltrasound: Pelvic\nRenal ultrasound\nUltrasound: Signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(main)"
+        },
+        {
+          "text": "Ultrasound: In Shock and Hypotension",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        },
+        {
+          "text": "Ultrasound: Pelvic",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Ultrasound: Signs",
+          "url": "https://wikem.org/wiki/Ultrasound:_Signs"
+        }
+      ]
+    }
+  }
+}

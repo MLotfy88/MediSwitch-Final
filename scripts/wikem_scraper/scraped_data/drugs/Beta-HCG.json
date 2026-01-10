@@ -1,0 +1,136 @@
+{
+  "drug_name": "Beta-HCG",
+  "url": "https://wikem.org/wiki/Beta-HCG",
+  "scraped_at": "2026-01-10T07:48:46.983625",
+  "sections": {
+    "Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Week": "3",
+            "Minimum": "0",
+            "Maximum": "5"
+          },
+          {
+            "Week": "4",
+            "Minimum": "5",
+            "Maximum": "426"
+          },
+          {
+            "Week": "5",
+            "Minimum": "18",
+            "Maximum": "7,340"
+          },
+          {
+            "Week": "6",
+            "Minimum": "1,080",
+            "Maximum": "56,500"
+          },
+          {
+            "Week": "7-8",
+            "Minimum": "7,650",
+            "Maximum": "229,000"
+          },
+          {
+            "Week": "9-12",
+            "Minimum": "25,700",
+            "Maximum": "288,000"
+          },
+          {
+            "Week": "13-16",
+            "Minimum": "13,300",
+            "Maximum": "254,000"
+          },
+          {
+            "Week": "17-24",
+            "Minimum": "4,060",
+            "Maximum": "165,400"
+          },
+          {
+            "Week": "25-birth",
+            "Minimum": "3,640",
+            "Maximum": "117,000"
+          },
+          {
+            "Week": "4-6 post",
+            "Minimum": "NA",
+            "Maximum": "<5"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Repeat_Levels": {
+      "text": "",
+      "subsections": {
+        "Repeat_B-hCG_Levels": {
+          "text": "^Initial level CANNOT be used to rule-out ectopic",
+          "tables": [
+            [
+              {
+                "Pregnancy Type": "Normal",
+                "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+              },
+              {
+                "Pregnancy Type": "Ectopic",
+                "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+              },
+              {
+                "Pregnancy Type": "Miscarriage",
+                "B-hCG Change": "Decreases >20% in 48 hrs"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Repeat_B-hCG_Levels": {
+      "text": "^Initial level CANNOT be used to rule-out ectopic",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Pregnancy Type": "Normal",
+            "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+          },
+          {
+            "Pregnancy Type": "Ectopic",
+            "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+          },
+          {
+            "Pregnancy Type": "Miscarriage",
+            "B-hCG Change": "Decreases >20% in 48 hrs"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pregnancy (main)\nVaginal Bleeding Pregnant (less than 20wks)\nEctopic Pregnancy\nMaternal Vitals and Labs in Pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Vaginal Bleeding Pregnant (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_Pregnant_(less_than_20wks)"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Maternal Vitals and Labs in Pregnancy",
+          "url": "https://wikem.org/wiki/Maternal_Vitals_and_Labs_in_Pregnancy"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "drug_name": "Biliary_atresia/en",
+  "url": "https://wikem.org/wiki/Biliary_atresia/en",
+  "scraped_at": "2026-01-10T07:48:51.331362",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Rare, but leading indication for liver transplantation in children\n[1]\nExact etiology unclear, but inflammation leads to destruction of intra/extrahepatic bile ducts\nPrognosis\nsignificantly\nimproved by early diagnosis\n[2]\nTwo forms:\nPeri/postnatal (90% of cases), possibly related to infection\nFetal/embryonic (10%)\nOften with other associated malformations (e.g\ncongenital heart disease\n, polysplenia or\nasplenia\n, malrotation, situs inversus, portal vein or hepatic artery malformations)",
+      "subsections": {
+        "Gallbladder_disease_types": {
+          "text": "Symptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute calculous cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nBiliary atresia\nCholestasis of pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute calculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_calculous_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Biliary atresia",
+          "url": "https://wikem.org/wiki/Biliary_atresia"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        }
+      ]
+    },
+    "Gallbladder_disease_types": {
+      "text": "Symptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute calculous cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nBiliary atresia\nCholestasis of pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute calculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_calculous_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Biliary atresia",
+          "url": "https://wikem.org/wiki/Biliary_atresia"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Presentation often subtle\nNeonatal jaundice\nHigh index of suspicion for jaundice that persists beyond 1st week of life or includes conjugated\nhyperbilirubinemia\nHepatomegaly\nAcholic stools\nDark urine\nLate findings:\nfailure to thrive\n,\nascites\n, splenomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Indirect_(Unconjugated)_Hyperbilirubinemia": {
+          "text": "More common causes are listed first, followed by less common causes\nBreast milk jaundice\nDue to substances in milk that inhibits glucuronyl transferase. It may start as early as 3rd day and reaches peak by 3rd week of life. It is unlikely to cause kernicterus\nBreast feeding jaundice\nPatient does not receive adequate oral intake which then causes reduced bowel movement/bilirubin excretion. Best diagnosed by looking for signs of dehydration and comparing weight to birth weight.\nBlood group incompatibility: ABO, Rh factor, minor antigens\nDiabetic mother\n/gestational diabetes\nInternal\nhemorrhage\nPhysiologic jaundice\nPolycythemia\nSepsis\nHemoglobinopathies:\nthalassemia\nRed blood cell enzyme defects:\nG6PD Deficiency\n, pyruvate kinase\nRed blood cell membrane disorders: spherocytosis, ovalocytosis\nHypothyroidism\nImmune thrombocytopenic purpura\nMutations of glucuronyl transferase (i.e., Crigler-Najjar syndrome, Gilbert syndrome)",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Conjugated bilirubinemia implies a hepatic or post hepatic cause. More common causes are listed first.\nHyperalimentation cholestasis\nNeonatal\nhepatitis\nCytomegalovirus\ninfection\nSepsis\nTORCH infection (\ntoxoplasma\n, other/\nsyphilis\n,\nrubella\n,\nCMV\n,\nHSV\n)\nBiliary atresia\nCystic fibrosis\nHepatic infarction\nInborn errors of metabolism\n(e.g., galactosemia, tyrosinosis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Breast milk jaundice",
+          "url": "https://wikem.org/wiki/Breast_milk_jaundice"
+        },
+        {
+          "text": "Breast feeding jaundice",
+          "url": "https://wikem.org/wiki/Breast_feeding_jaundice"
+        },
+        {
+          "text": "Diabetic mother",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "G6PD Deficiency",
+          "url": "https://wikem.org/wiki/G6PD_Deficiency"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Immune thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Immune_thrombocytopenic_purpura"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "toxoplasma",
+          "url": "https://wikem.org/wiki/Toxoplasma"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Biliary atresia",
+          "url": "https://wikem.org/wiki/Biliary_atresia"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for other causes of\nneonatal jaundice\n,\nliver failure\nAssess for complications of liver disease (e.g.\ncoagulopathy\n)\nRUQ US\nto screen for other abnormalities (though cannot definitively diagnose biliary atresia\n[3]\n)\nDefinitive diagnosis made by biopsy or surgical pathology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgery\nKasai procedure or\nliver transplant\nfor those who fail kasai\nCoagulopathy\n(if present) responds to\nvitamin K\nsupplementation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal jaundice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "https://pedemmorsels.com/biliary-atresia/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

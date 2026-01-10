@@ -1,0 +1,116 @@
+{
+  "drug_name": "Betamethasone",
+  "url": "https://wikem.org/wiki/Betamethasone",
+  "scraped_at": "2026-01-10T07:48:48.754031",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nCorticosteroid\nDosage Forms:\nBetamethasone: Oral\nBetamethasone valerate: 0.1% cream, ointment, lotion, 0.12% foam\nBetamethasone dipropionate: 0.05% cream, ointment, lotion, spray, gel\nRoutes of Administration: PO, topical\nCommon Trade Names: Celestone, Celecestone Soluspan, Betaject, Betamethasone IM/PO, Diprolene, Luxiq, Dermabet, Alphatrex, Diprosone, Valnac, BetaVal, Sernivo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Topical: apply to affected area 1-2 times daily, max 50g or 50ml per week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">12yo, topical: apply to affected area 1-2 times daily, max 50g or 50ml per week\nSyrup: 0.02 to 0.3 mg/kg/day in 3-4 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Cushing's syndrome, secondary hypocorticolism, HPA axis supression\nHyperglycemia\nElevated ICP, glaucoma\nCataract, cortical blindness\nStroke, spinal cord infarct, paraplegia, tetraplegia, nerve injury\nPulmonary tuberculosis\nAllergic contact dermatitis\nOsteoporosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Itching, burning, stinging of skin\nErythema, vesicles\nAtrophic condition of skin\nFolliculitis\nHypertension\nDepression, euphoria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Cushing's syndrome, secondary hypocorticolism, HPA axis supression\nHyperglycemia\nElevated ICP, glaucoma\nCataract, cortical blindness\nStroke, spinal cord infarct, paraplegia, tetraplegia, nerve injury\nPulmonary tuberculosis\nAllergic contact dermatitis\nOsteoporosis",
+      "subsections": {
+        "Common": {
+          "text": "Itching, burning, stinging of skin\nErythema, vesicles\nAtrophic condition of skin\nFolliculitis\nHypertension\nDepression, euphoria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Itching, burning, stinging of skin\nErythema, vesicles\nAtrophic condition of skin\nFolliculitis\nHypertension\nDepression, euphoria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5.6h\nMetabolism: Hepatic\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Corticosteroid, anti-inflammatory action",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Corticosteroids\nTopical steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        }
+      ]
+    },
+    "References": {
+      "text": "American College Of Obstetricians and Gynecologists (ACOG) Practice Bulletin No. 171: Management of Preterm Labor. Obstet Gynecol. 2016;128(4):e155-164. doi:10.1097/AOG.0000000000001711. [PubMed 27661654]\nAmerican College Of Obstetricians and Gynecologists (ACOG). Committee Opinion No. 713: Antenatal Corticosteroid Therapy for Fetal Maturation. Obstet Gynecol. 2017;130(2):e102-e109. doi: 10.1097/AOG.0000000000002237. [PubMed 28742678]\nAmerican College Of Obstetricians and Gynecologists (ACOG). Practice Bulletin No. 188: Prelabor Rupture of Membranes. Obstet Gynecol. 2018;131(1):e1-e14. doi: 10.1097/AOG.0000000000002455. [PubMed 29266075]\nBae YS, Van Voorhees AS, Hsu S, et al, \"Review of Treatment Options For Psoriasis in Pregnant or Lactating Women: From the Medical Board of the National Psoriasis Foundation,\" J Am Acad Dermatol, 2012, 67(3):459-77. [PubMed 22018758]\nBoot AM, Nauta J, Hokken-Koelega AC, et al, “Renal Transplantation and Osteoporosis,” Arch Dis Child, 1995, 72(6):502-6. [PubMed 7618934]\nBowman H and Lennard TW, “Immunosuppressive Drugs,” Br J Hosp Med, 1992, 48(9):570-3. [PubMed 1282440]\nBrownfoot FC, Gagliardi DI, Bain E, Middleton P, Crowther CA. Different corticosteroids and regimens for accelerating fetal lung maturation for women at risk of preterm birth. Cochrane Database Syst Rev. 2013;8:CD006764. [PubMed 23990333]\nButler DC, Heller MM, Murase JE. Safety of dermatologic medications in pregnancy and lactation: Part II. Lactation. J Am Acad Dermatol. 2014;70(3):417.e1-10; quiz 427. doi: 10.1016/j.jaad.2013.09.009. [PubMed 24528912]\nCardone DA, Tallia AF. Joint and soft tissue injection. Am Fam Physician. 2002;66(2):283-288. [PubMed 12152964]\nCelestone Soluspan (betamethasone) [prescribing information]. Whitehouse Station, NJ: Merck & Co Inc; February 2018.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

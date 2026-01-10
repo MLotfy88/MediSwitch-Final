@@ -1,0 +1,312 @@
+{
+  "drug_name": "Blunt_neck_trauma",
+  "url": "https://wikem.org/wiki/Blunt_neck_trauma",
+  "scraped_at": "2026-01-10T07:48:59.957389",
+  "sections": {
+    "Background": {
+      "text": "Suspect vascular damage to cord, if discrepancy between\nneuro deficit\nand level of spinal column injury\nSpinal cord injury\nis more likely if anterior (vertebral bodies) AND posterior (spinal canal) columns are disrupted",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs of life-threatening neck or upper thoracic injury (look for\nTWELVE\n):\nT\nracheal deviation\n,\nW\nounds,\nE\nxternal markings,\nL\naryngeal disruption,\nV\nenous distention,\nE\nmphysema (surgical)\nFeatures may include signs and symptoms of:\nSpinal cord injury\nVertebral and Carotid Artery Dissection\nLaryngeal or\ntracheal injury",
+      "subsections": {
+        "Pediatrics": {
+          "text": "In a small study of 42 patients with a cervical seatbelt sign there were no isolated  cerebrovascular injuries. For pediatric patients in a motor vehicle collision, the presence of an isolated seatbelt sign was not associated with any cases of cerebrovascular injury.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Vertebral and Carotid Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_Carotid_Artery_Dissection"
+        },
+        {
+          "text": "tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "In a small study of 42 patients with a cervical seatbelt sign there were no isolated  cerebrovascular injuries. For pediatric patients in a motor vehicle collision, the presence of an isolated seatbelt sign was not associated with any cases of cerebrovascular injury.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        },
+        "Other": {
+          "text": "Head trauma\nThoracic trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {
+        "Other": {
+          "text": "Head trauma\nThoracic trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Head trauma\nThoracic trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider x-ray or non-contrast cervical CT to evaluate for bone/cord injury (see below)\nMay later consider cervical MRI to further evaluate for cord injury\nConsider CTA neck with contrast to evaluate for vascular injury (see below)",
+          "tables": []
+        },
+        "General_Approach": {
+          "text": "If concern for cervical spine injury, use a\ncervical spine clearance\ndecision rule to determine need for imaging\nPerform a neuro exam, to determine concern for\nspinal cord injury\nIf concern for vascular injury, use the\nDenver screening criteria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Denver screening criteria",
+          "url": "https://wikem.org/wiki/Denver_screening_criteria"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider x-ray or non-contrast cervical CT to evaluate for bone/cord injury (see below)\nMay later consider cervical MRI to further evaluate for cord injury\nConsider CTA neck with contrast to evaluate for vascular injury (see below)",
+      "subsections": {
+        "General_Approach": {
+          "text": "If concern for cervical spine injury, use a\ncervical spine clearance\ndecision rule to determine need for imaging\nPerform a neuro exam, to determine concern for\nspinal cord injury\nIf concern for vascular injury, use the\nDenver screening criteria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Denver screening criteria",
+          "url": "https://wikem.org/wiki/Denver_screening_criteria"
+        }
+      ]
+    },
+    "General_Approach": {
+      "text": "If concern for cervical spine injury, use a\ncervical spine clearance\ndecision rule to determine need for imaging\nPerform a neuro exam, to determine concern for\nspinal cord injury\nIf concern for vascular injury, use the\nDenver screening criteria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Denver screening criteria",
+          "url": "https://wikem.org/wiki/Denver_screening_criteria"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Prehospital\nSee the\nNAEMSP National Guidelines for Spinal Immobilization\nHospital\nSecure ABCs\nSee\ncervical spine clearance\nSee specific diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NAEMSP National Guidelines for Spinal Immobilization",
+          "url": "https://wikem.org/wiki/EBQ:Prehospital_Spine_Immobilization"
+        },
+        {
+          "text": "cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Based on specific diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Penetrating neck trauma\nCervical spine clearance\nCanadian cervical spine rule\nNEXUS cervical spine rule\nStrangulation\nVertebral and carotid artery dissection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Canadian cervical spine rule",
+          "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule"
+        },
+        {
+          "text": "NEXUS cervical spine rule",
+          "url": "https://wikem.org/wiki/NEXUS_cervical_spine_rule"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Blunt Neck Trauma from CoreEM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "drug_name": "Bladder_lavage",
+  "url": "https://wikem.org/wiki/Bladder_lavage",
+  "scraped_at": "2026-01-10T07:48:53.895237",
+  "sections": {
+    "Indications": {
+      "text": "Use if large volumes (>10L) of warmed fluids are not available\nFor severe or profound\nhypothermia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Insert temperature sensing foley\nInstill 100-200cc warmed fluids\nClamp Foley and wait for foley temperature probe to begin to equilibrate 2-3 degrees celsius\nDrain bladder and repeat",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypothermia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    }
+  }
+}

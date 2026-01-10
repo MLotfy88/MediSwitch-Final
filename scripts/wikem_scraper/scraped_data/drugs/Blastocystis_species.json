@@ -1,0 +1,569 @@
+{
+  "drug_name": "Blastocystis_species",
+  "url": "https://wikem.org/wiki/Blastocystis_species",
+  "scraped_at": "2026-01-10T07:48:59.273513",
+  "sections": {
+    "Background": {
+      "text": "Anaerobic\nprotozoan\nparasites\nFound in the human gastrointestinal tract\n[1]\nMost common eukaryotic parasites found in human stool\nControversial if they are a commensal organism or a pathogen",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Have been found worldwide\nReside in the cecum and colon of both children in adults\nHave also been found in various animals (including pigs, monkeys, rodents, and poultry)\nPrevalence is geographically variable, but generally higher in developing countries",
+          "tables": []
+        },
+        "Transmission": {
+          "text": "Mode of transmission is not fully understood, but though to be fecal-oral\n[2]",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Vary in size between 5 and 40 micrometers\nLack a cell wall\nHave mitochondria, golgi apparatus, smooth and rough endoplasmic reticula\nTypically reproduce by binary fission\nGrow in anaerobic culture conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "protozoan",
+          "url": "https://wikem.org/wiki/Protozoa"
+        },
+        {
+          "text": "parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Have been found worldwide\nReside in the cecum and colon of both children in adults\nHave also been found in various animals (including pigs, monkeys, rodents, and poultry)\nPrevalence is geographically variable, but generally higher in developing countries",
+      "subsections": {
+        "Transmission": {
+          "text": "Mode of transmission is not fully understood, but though to be fecal-oral\n[2]",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Vary in size between 5 and 40 micrometers\nLack a cell wall\nHave mitochondria, golgi apparatus, smooth and rough endoplasmic reticula\nTypically reproduce by binary fission\nGrow in anaerobic culture conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transmission": {
+      "text": "Mode of transmission is not fully understood, but though to be fecal-oral\n[2]",
+      "subsections": {
+        "Microbiology": {
+          "text": "Vary in size between 5 and 40 micrometers\nLack a cell wall\nHave mitochondria, golgi apparatus, smooth and rough endoplasmic reticula\nTypically reproduce by binary fission\nGrow in anaerobic culture conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Microbiology": {
+      "text": "Vary in size between 5 and 40 micrometers\nLack a cell wall\nHave mitochondria, golgi apparatus, smooth and rough endoplasmic reticula\nTypically reproduce by binary fission\nGrow in anaerobic culture conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms that have been associated with individuals with Blastocystis species in their stool include:\nWatery\ndiarrhea\n(may be acute or chronic)\nNausea\nAnorexia\nFatigue\nAbdominal cramping\nBloating\nFlatulence\nUrticaria\nGenerally patients are afebrile",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal cramping",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[3]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[3]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Stool examination via light microscopy of stained smears or wet mounts\nStool culture\n[4]\nELISA targeted at serum antibodies to Blastocystis species\n[5]\nPCR\n[6]\nFecal leukocytes are usually absent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "Do not require therapy",
+          "tables": []
+        },
+        "Symptomatic": {
+          "text": "Alternative diagnoses should be considered and excluded (e.g. alternative pathogen, noninfectious cause of symptoms)\nInitiation of treatment in symptomatic patients is controversial\nBlastocystis species infection is often self-limiting and many mild cases will resolve quickly\nTreatment options:\nMetronidazole\n(750 mg TID for 5-10 days)\n[7]\nTinidazole\n(2 mg once)\nAlternatives include: paromomycin, nitazoxanide, and trimethoprim-sulfamethoxazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        }
+      ]
+    },
+    "Asymptomatic": {
+      "text": "Do not require therapy",
+      "subsections": {
+        "Symptomatic": {
+          "text": "Alternative diagnoses should be considered and excluded (e.g. alternative pathogen, noninfectious cause of symptoms)\nInitiation of treatment in symptomatic patients is controversial\nBlastocystis species infection is often self-limiting and many mild cases will resolve quickly\nTreatment options:\nMetronidazole\n(750 mg TID for 5-10 days)\n[7]\nTinidazole\n(2 mg once)\nAlternatives include: paromomycin, nitazoxanide, and trimethoprim-sulfamethoxazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        }
+      ]
+    },
+    "Symptomatic": {
+      "text": "Alternative diagnoses should be considered and excluded (e.g. alternative pathogen, noninfectious cause of symptoms)\nInitiation of treatment in symptomatic patients is controversial\nBlastocystis species infection is often self-limiting and many mild cases will resolve quickly\nTreatment options:\nMetronidazole\n(750 mg TID for 5-10 days)\n[7]\nTinidazole\n(2 mg once)\nAlternatives include: paromomycin, nitazoxanide, and trimethoprim-sulfamethoxazole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most patients can be managed as an outpatient\nAdmission or observation should be considered for patients who are severely dehydrated or have significant electrolyte derangements",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

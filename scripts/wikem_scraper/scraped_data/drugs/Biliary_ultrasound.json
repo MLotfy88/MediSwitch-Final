@@ -1,0 +1,152 @@
+{
+  "drug_name": "Biliary_ultrasound",
+  "url": "https://wikem.org/wiki/Biliary_ultrasound",
+  "scraped_at": "2026-01-10T07:48:56.991956",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Bedside ultrasound can be effectively used to assess for acute\ncholecystitis\nED providers have a Sp 96% and Sn 88% using bedside ultrasound\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "RUQ pain\nJaundice\nAbnormal LFTs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Select probe\nCurvilinear/large convex probe\nPhased array probe used by many providers as well\nLocation\nScan from midline to the midclavicular line at the right 11th/12th intercostal spaces\nMove the probe superior or inferior as needed to achieve adequate views\nAlternatively start in RUQ FAST view and scan through inferior aspect of liver, which allows better use of liver as viewing window\nLandmarks\nExclamation Point Sign: Portal vein and main lobar fissure (MLF)\nObtain sagittal and transverse images\nOptimize image quality\nPatient in Left lateral decubitus (if can tolerate)\nAllows for better visualization of gallbladder and gallstones\nStones might shift, polyps or stones impacted in the GB neck will not\n<translate>",
+      "subsections": {
+        "Anatomy_&_Pathophysiology": {
+          "text": "Gallstones are classified as cholesterol stones and pigmented stones (black and brown), and are present in approx 20% of females and 8% of males in the United States\nThese stones cause the majority of all biliary tract problems, and depending on where the stone become impacted, specific problems occur.\nBile flows out the gallbladder, down the cystic duct into the common bile duct, and ultimately into the 1st portion of the duodenum.\n</translate>",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anatomy_&_Pathophysiology": {
+      "text": "Gallstones are classified as cholesterol stones and pigmented stones (black and brown), and are present in approx 20% of females and 8% of males in the United States\nThese stones cause the majority of all biliary tract problems, and depending on where the stone become impacted, specific problems occur.\nBile flows out the gallbladder, down the cystic duct into the common bile duct, and ultimately into the 1st portion of the duodenum.\n</translate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "",
+      "subsections": {
+        "Evaluate_gallbladder_for:": {
+          "text": "Gallstones\nidentify by hypoechoic \"shadowing\" behind hyperechoic stones\nif no shadowing, may be polyps, sludge, etc.\nSIN Sign: Stone in neck\nGallbladder wall thickness\nPericholecystic free fluid\nCommon Bile Duct (CBD) measurement\nMeasure from inner to inner\nSonographic Murphy's sign\nPain with ultrasound probe palpation over gallbladder",
+          "tables": []
+        },
+        "Normal_Findings": {
+          "text": "No gallstones\nGallbladder anterior wall <4 mm\nNo pericholecystic free fluid\nCommon bile duct < 4 mm plus 1mm per decade after 40 yrs old\nAbsent sonographic Murphy's sign",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluate_gallbladder_for:": {
+      "text": "Gallstones\nidentify by hypoechoic \"shadowing\" behind hyperechoic stones\nif no shadowing, may be polyps, sludge, etc.\nSIN Sign: Stone in neck\nGallbladder wall thickness\nPericholecystic free fluid\nCommon Bile Duct (CBD) measurement\nMeasure from inner to inner\nSonographic Murphy's sign\nPain with ultrasound probe palpation over gallbladder",
+      "subsections": {
+        "Normal_Findings": {
+          "text": "No gallstones\nGallbladder anterior wall <4 mm\nNo pericholecystic free fluid\nCommon bile duct < 4 mm plus 1mm per decade after 40 yrs old\nAbsent sonographic Murphy's sign",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Findings": {
+      "text": "No gallstones\nGallbladder anterior wall <4 mm\nNo pericholecystic free fluid\nCommon bile duct < 4 mm plus 1mm per decade after 40 yrs old\nAbsent sonographic Murphy's sign",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "Abnormal": {
+          "text": "Gallbladder wall thickening\nAcute cholecystitis\nActue cholecystitis: Gallstone impacted in the neck of the gallbladder with gallbladder wall thickening",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal": {
+      "text": "",
+      "subsections": {
+        "Abnormal": {
+          "text": "Gallbladder wall thickening\nAcute cholecystitis\nActue cholecystitis: Gallstone impacted in the neck of the gallbladder with gallbladder wall thickening",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal": {
+      "text": "Gallbladder wall thickening\nAcute cholecystitis\nActue cholecystitis: Gallstone impacted in the neck of the gallbladder with gallbladder wall thickening",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Easily confused with duodenum (hint - look for peristalsis)\nOnly measure the anterior wall as the posterior can be enlarged secondary to artifact\nGallbladder wall thickening can be caused by:\n[2]\nAcute cholecystitis\nAscites\nCHF\nNephrotic syndrome\nHIV / AIDS\nRenal failure\nMultiple myeloma\nContracted GB:  Three distinct wall layers is not pathological\nGB Polyp: Soft tissue masses attached to the wall of the gallbladder and differentiated from gallstones by their lack of mobility and shadowing\nRenal Cyst: Cysts in the superior pole of the kidney (hint - get two views)\nAscitic fluid: Located throughout peritoneum, including Morison’s pouch though pericholecystic fluid is localized to the anterior side of the gallbladder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for signs of cholecystitis with clinical indications of RUQ pain. The gallbladder was identified and viewed in the transverse and sagittal plane. There were no gallstones, gallbladder wall thickening, pericholecystic fluid, or sonographic Murphy’s sign. There was no sonographic evidence of acute cholecystitis.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for signs of cholecystitis with clinical indications of RUQ pain. The gallbladder was identified and viewed in the transverse and sagittal plane. There were gallstones, gallbladder wall thickening of 8mm, pericholecystic fluid, and positive sonographic Murphy’s sign. There are indications of acute cholecystitis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for signs of cholecystitis with clinical indications of RUQ pain. The gallbladder was identified and viewed in the transverse and sagittal plane. There were no gallstones, gallbladder wall thickening, pericholecystic fluid, or sonographic Murphy’s sign. There was no sonographic evidence of acute cholecystitis.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for signs of cholecystitis with clinical indications of RUQ pain. The gallbladder was identified and viewed in the transverse and sagittal plane. There were gallstones, gallbladder wall thickening of 8mm, pericholecystic fluid, and positive sonographic Murphy’s sign. There are indications of acute cholecystitis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for signs of cholecystitis with clinical indications of RUQ pain. The gallbladder was identified and viewed in the transverse and sagittal plane. There were gallstones, gallbladder wall thickening of 8mm, pericholecystic fluid, and positive sonographic Murphy’s sign. There are indications of acute cholecystitis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "ACEP Focus On: Bedside Biliary Ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (main)\nGallbladder disease (main)\nWES sign",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "drug_name": "Beta_blockers",
+  "url": "https://wikem.org/wiki/Beta_blockers",
+  "scraped_at": "2026-01-10T07:48:44.805561",
+  "sections": {
+    "Agents": {
+      "text": "",
+      "subsections": {
+        "Nonselective_agents": {
+          "text": "Carvedilol\n(has additional α-blocking activity)\nLabetalol\n(has additional α-blocking activity)\nPropranolol\nSotalol\nTimolol",
+          "tables": []
+        },
+        "β1-selective_(cardio-selective)_agents": {
+          "text": "Atenolol\nBetaxolol\nEsmolol\nMetoprolol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "Betaxolol",
+          "url": "https://wikem.org/wiki/Betaxolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        }
+      ]
+    },
+    "Nonselective_agents": {
+      "text": "Carvedilol\n(has additional α-blocking activity)\nLabetalol\n(has additional α-blocking activity)\nPropranolol\nSotalol\nTimolol",
+      "subsections": {
+        "β1-selective_(cardio-selective)_agents": {
+          "text": "Atenolol\nBetaxolol\nEsmolol\nMetoprolol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "Betaxolol",
+          "url": "https://wikem.org/wiki/Betaxolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        }
+      ]
+    },
+    "Beta-Blocker_Dosage_Equivalencies": {
+      "text": "Carvedilol\n12.5mg BID\nMetoprolol\n50mg BID\nAcebutolol\n100mg BID\nPropranolol\n40mg BID\nSotalol\n80mg BID\nLabetalol\n100mg BID\nPindolol 5mg BID\nTimolol 5mg BID\nAtenolol 50mg daily\nPropranolol ER 80mg daily\nMetoprolol ER/XL 100mg daily\nBisoprolol 5mg daily\nNadolol 80mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Acebutolol",
+          "url": "https://wikem.org/wiki/Acebutolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Beta-blocker toxicity\nAntiarrhythmics\nAntihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    }
+  }
+}

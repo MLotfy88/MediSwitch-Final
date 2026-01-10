@@ -1,0 +1,157 @@
+{
+  "drug_name": "Blastomycosis",
+  "url": "https://wikem.org/wiki/Blastomycosis",
+  "scraped_at": "2026-01-10T07:48:58.217607",
+  "sections": {
+    "Background": {
+      "text": "Fungus\n: Blastomyces dermatitidis\nLives in moist soil, wooded areas\nSpores are airborne\nNorth, Central and South America\nSoutheast and Midwest US (Mississippi and Ohio River valleys)\nCauses a systemic pyogranulomatous infection\nReportable disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungus",
+          "url": "https://wikem.org/wiki/Fungus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Up to 50% of cases will be asymptomatic\nIncubation period: 3-6 weeks\nFlu like symptoms:\nFever\n, chills, cough, muscle aches, joint pain,\nchest pain\nOther systemic symptoms: Weight loss, night sweats, chills\nPulmonary: most common\nAcute or chronic pneumonia\nDiffuse pneumonitis,\nARDS\nSkin:\nVerrucous lesion with irregular borders\nMicroabscess (cold), subcutaneous nodules like erythema nodosum\nUlcers that bleed easily and well-demarcated\nBone: Osteomyelitis, chronic draining sinus, paravertebral abscess\nGenitourinary:\nProstatitis\n,\nEpididymorchitis\nCNS:\nMeningitis\n,\nepidural abscess\nBrain abscess\nin immunocompromised\nCan involve breast, adrenal, thyroid, eye, lymph node, liver, spleen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymorchitis",
+          "url": "https://wikem.org/wiki/Epididymorchitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pneumonia\nMalignancy\nTuberculosis\nHistoplasmosis\nPyoderma gangrenosum\nKeratoacanthoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Pyoderma gangrenosum",
+          "url": "https://wikem.org/wiki/Pyoderma_gangrenosum"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Fungal culture (Blood, sputum, bone marrow, liver or skin) : Broad based buds\nAntigen test (Serum or urine)\nHistopathology\nSerologic testing\nHIV testing\nCXR\n: Alveolar infiltrates +/- cavitation, mass lesions, miliary or reticulo- or fibronodular pattern, pleural effusions, upper lobe infiltrate, perihilar lymph nodes\nChest CT: Nodules, consolidation +/- cavitation, tree-in-bud opacities, pleural effusion, lack hilar adenopathy\nXray of bone: Well-circumscribed osteolytic lesion\nXray vertebrae: Lytic lesion in anterior vertebral body and destruction of disc space\nBronchoscopy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Fungal culture (Blood, sputum, bone marrow, liver or skin) : Broad based buds\nAntigen test (Serum or urine)\nHistopathology\nSerologic testing\nHIV testing\nCXR\n: Alveolar infiltrates +/- cavitation, mass lesions, miliary or reticulo- or fibronodular pattern, pleural effusions, upper lobe infiltrate, perihilar lymph nodes\nChest CT: Nodules, consolidation +/- cavitation, tree-in-bud opacities, pleural effusion, lack hilar adenopathy\nXray of bone: Well-circumscribed osteolytic lesion\nXray vertebrae: Lytic lesion in anterior vertebral body and destruction of disc space\nBronchoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "ID consult\nMild or moderate infections:\nItraconazole\n(200mg TID x 3 days then once or twice daily x 6-12 months)\nAlternative:\nFluconazole\nor\nketoconazole\n(400-800mg/day)\nAzoles embryotoxic and teratogenic, avoid in pregnancy\nSevere infection:\nAmphotericin B\n(Lipid 3-5mg/kg IV daily or deoxycholate 0.7-1mg/kg IV daily)\nAll immunocompromised patient should receive\namphotericin B\nLipid for all patients, except children\nIf CNS involvement, lipid for all patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Subclinical disease: Observation and no treatment\nPatients with immunosuppression or progressive pulmonary or extrapulmonary symptoms need treatment and often admission\nSome may need ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.idsociety.org/uploadedFiles/IDSA/Guidelines-Patient_Care/PDF_Library/Blastomycosis.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

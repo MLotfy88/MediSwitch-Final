@@ -1,0 +1,630 @@
+{
+  "drug_name": "Bipolar_disorder",
+  "url": "https://wikem.org/wiki/Bipolar_disorder",
+  "scraped_at": "2026-01-10T07:48:52.498660",
+  "sections": {
+    "Background": {
+      "text": "Mental disorder characterized by periods of elevated moods and periods of depression\nSpectrum of disorders including Bipolar Type I, Bipolar Type II, and Bipolar NOS\nBe wary of diagnostic overshadowing (e.g. erroneously attributing symptoms to psychiatric disorder when etiology is in fact organic)\nPatients with serious mental illness have significantly higher rates of stroke\n[1]\n, CAD\n[2]\n, DM\n[3]\n, cancer\n[4]\n, HIV, HCV\n[5]\nAll cause mortality rate is 30-200% higher for patients with bipolar disorder than general population\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Manic_Episode": {
+          "text": "Abnormally and persistently elevated, expansive, or irritable mood lasting at least 1 week\nAt least 3 of the following symptoms (4 if only irritable)\nInflated self esteem or grandiosity\nDecreased need for sleep\nMore talkative/pressured speech\nFlight of ideas/racing thoughts\nEasily distracted\nIncrease in goal-directed activity or psychomotor agitation\nInvolvement in high pleasure, high risk activities\nGambling, shopping sprees, sexual indiscretions\nSufficient to cause impairment in functioning, relationships, or hospitalization\nNot as a result of substance abuse or medical condition (e.g. hyperthyroid)",
+          "tables": []
+        },
+        "Hypomanic_Episode": {
+          "text": "Same features as manic episode however less intense\nSymptoms only need to persist for 4 days",
+          "tables": []
+        },
+        "Major_Depressive_Episode": {
+          "text": "S\nleep - increased or\ndecreased\nI\nnterest - losing interest or pleasure in activities\nG\nuilt - excessive guilt\nE\nnergy - feels of\nfatigue\n, low energy\nC\noncentration - cognitive decline, indecisiveness\nA\nppetite - weight loss/gain\nP\nsychomotor agitation or depression\nS\nuicidal ideation\nMust have 5 symptoms in a 2 week period including depressed mood and loss of interest\n[7]",
+          "tables": []
+        },
+        "Mixed_Episode": {
+          "text": "Fulfill features of both manic and major depressive episode\nMust last at least 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "decreased",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Suicidal ideation",
+          "url": "https://wikem.org/wiki/Suicide"
+        }
+      ]
+    },
+    "Manic_Episode": {
+      "text": "Abnormally and persistently elevated, expansive, or irritable mood lasting at least 1 week\nAt least 3 of the following symptoms (4 if only irritable)\nInflated self esteem or grandiosity\nDecreased need for sleep\nMore talkative/pressured speech\nFlight of ideas/racing thoughts\nEasily distracted\nIncrease in goal-directed activity or psychomotor agitation\nInvolvement in high pleasure, high risk activities\nGambling, shopping sprees, sexual indiscretions\nSufficient to cause impairment in functioning, relationships, or hospitalization\nNot as a result of substance abuse or medical condition (e.g. hyperthyroid)",
+      "subsections": {
+        "Hypomanic_Episode": {
+          "text": "Same features as manic episode however less intense\nSymptoms only need to persist for 4 days",
+          "tables": []
+        },
+        "Major_Depressive_Episode": {
+          "text": "S\nleep - increased or\ndecreased\nI\nnterest - losing interest or pleasure in activities\nG\nuilt - excessive guilt\nE\nnergy - feels of\nfatigue\n, low energy\nC\noncentration - cognitive decline, indecisiveness\nA\nppetite - weight loss/gain\nP\nsychomotor agitation or depression\nS\nuicidal ideation\nMust have 5 symptoms in a 2 week period including depressed mood and loss of interest\n[7]",
+          "tables": []
+        },
+        "Mixed_Episode": {
+          "text": "Fulfill features of both manic and major depressive episode\nMust last at least 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "decreased",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Suicidal ideation",
+          "url": "https://wikem.org/wiki/Suicide"
+        }
+      ]
+    },
+    "Hypomanic_Episode": {
+      "text": "Same features as manic episode however less intense\nSymptoms only need to persist for 4 days",
+      "subsections": {
+        "Major_Depressive_Episode": {
+          "text": "S\nleep - increased or\ndecreased\nI\nnterest - losing interest or pleasure in activities\nG\nuilt - excessive guilt\nE\nnergy - feels of\nfatigue\n, low energy\nC\noncentration - cognitive decline, indecisiveness\nA\nppetite - weight loss/gain\nP\nsychomotor agitation or depression\nS\nuicidal ideation\nMust have 5 symptoms in a 2 week period including depressed mood and loss of interest\n[7]",
+          "tables": []
+        },
+        "Mixed_Episode": {
+          "text": "Fulfill features of both manic and major depressive episode\nMust last at least 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "decreased",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Suicidal ideation",
+          "url": "https://wikem.org/wiki/Suicide"
+        }
+      ]
+    },
+    "Major_Depressive_Episode": {
+      "text": "S\nleep - increased or\ndecreased\nI\nnterest - losing interest or pleasure in activities\nG\nuilt - excessive guilt\nE\nnergy - feels of\nfatigue\n, low energy\nC\noncentration - cognitive decline, indecisiveness\nA\nppetite - weight loss/gain\nP\nsychomotor agitation or depression\nS\nuicidal ideation\nMust have 5 symptoms in a 2 week period including depressed mood and loss of interest\n[7]",
+      "subsections": {
+        "Mixed_Episode": {
+          "text": "Fulfill features of both manic and major depressive episode\nMust last at least 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "decreased",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Suicidal ideation",
+          "url": "https://wikem.org/wiki/Suicide"
+        }
+      ]
+    },
+    "Mixed_Episode": {
+      "text": "Fulfill features of both manic and major depressive episode\nMust last at least 1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "General_Psychiatric": {
+          "text": "Organic causes\nDelirium\nDementia\nOverdose\nPsychiatric causes\nDepression\nAnxiety\nConversion disorder\nBipolar disorder\nAcute psychosis\nPanic attack\nSchizophrenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "General_Psychiatric": {
+      "text": "Organic causes\nDelirium\nDementia\nOverdose\nPsychiatric causes\nDepression\nAnxiety\nConversion disorder\nBipolar disorder\nAcute psychosis\nPanic attack\nSchizophrenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually will not be diagnosed in the emergency department\nNeeds evaluation by a psychiatrist\nRule out alternative medical explanation for symptoms, as appropriate",
+      "subsections": {
+        "General_ED_Psychiatric_Workup": {
+          "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+          "tables": []
+        },
+        "Bipolar_I": {
+          "text": "Meets criteria for one manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+          "tables": []
+        },
+        "Bipolar_II": {
+          "text": "Meets criteria for at least one major depressive episode\nMeets criteria for at least one hypomanic episode\nDoes not meet criteria for manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+          "tables": []
+        },
+        "Bipolar_NOS": {
+          "text": "Disorder with bipolar features that do not meet criteria for specific bipolar disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "General_ED_Psychiatric_Workup": {
+      "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+      "subsections": {
+        "Bipolar_I": {
+          "text": "Meets criteria for one manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+          "tables": []
+        },
+        "Bipolar_II": {
+          "text": "Meets criteria for at least one major depressive episode\nMeets criteria for at least one hypomanic episode\nDoes not meet criteria for manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+          "tables": []
+        },
+        "Bipolar_NOS": {
+          "text": "Disorder with bipolar features that do not meet criteria for specific bipolar disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Bipolar_I": {
+      "text": "Meets criteria for one manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+      "subsections": {
+        "Bipolar_II": {
+          "text": "Meets criteria for at least one major depressive episode\nMeets criteria for at least one hypomanic episode\nDoes not meet criteria for manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+          "tables": []
+        },
+        "Bipolar_NOS": {
+          "text": "Disorder with bipolar features that do not meet criteria for specific bipolar disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_II": {
+      "text": "Meets criteria for at least one major depressive episode\nMeets criteria for at least one hypomanic episode\nDoes not meet criteria for manic or mixed episode\nSymptoms cause social/occupational distress or impairment",
+      "subsections": {
+        "Bipolar_NOS": {
+          "text": "Disorder with bipolar features that do not meet criteria for specific bipolar disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_NOS": {
+      "text": "Disorder with bipolar features that do not meet criteria for specific bipolar disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "After medical evaluation/\"clearance\":\nPlace patient on legal hold if meets local criteria\nArrange psychiatry evaluation (inpatient vs outpatient depending on clinical severity)",
+      "subsections": {
+        "General_ED_Psychiatric_Management": {
+          "text": "Non-pharmacologic\nVerbal de-escalation\nOffer comforting items: blanket, meal, pillow, etc\nQuiet room\nPhysical restraints (should administer medications if restraints used, as decreases restraint time)\nPharmacologic\n: Goal is to calm patient without oversedation\nNo history of psychosis\nHaloperidol\n0.5mg-5mg +/- lorazepam 0.25-2mg (PO/IM/IV)\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)\nConsider\nrisperidone\n0.5-2mg PO\nor\nolanzapine\n2.5-20mg (PO/IM/SL)\nor\nziprasidone\n10-20mg IM\nKnown or suspected underlying psychotic illness\nContinue treatment with previous antipsychotic\nor\nPO:\nolanzapine\n5-10mg\nor\nrisperidone\n0.5-2mg +/-\nlorazepam\n: 0.5-2mg\nIM:\nolanzapine\n2.5-20mg\nor\nziprasidone\n10-20mg\nor\n(PO/IM/IV)\nHaloperidol\n0.5-5mg +/-\nlorazepam\n0.5-2mg\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        }
+      ]
+    },
+    "General_ED_Psychiatric_Management": {
+      "text": "Non-pharmacologic\nVerbal de-escalation\nOffer comforting items: blanket, meal, pillow, etc\nQuiet room\nPhysical restraints (should administer medications if restraints used, as decreases restraint time)\nPharmacologic\n: Goal is to calm patient without oversedation\nNo history of psychosis\nHaloperidol\n0.5mg-5mg +/- lorazepam 0.25-2mg (PO/IM/IV)\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)\nConsider\nrisperidone\n0.5-2mg PO\nor\nolanzapine\n2.5-20mg (PO/IM/SL)\nor\nziprasidone\n10-20mg IM\nKnown or suspected underlying psychotic illness\nContinue treatment with previous antipsychotic\nor\nPO:\nolanzapine\n5-10mg\nor\nrisperidone\n0.5-2mg +/-\nlorazepam\n: 0.5-2mg\nIM:\nolanzapine\n2.5-20mg\nor\nziprasidone\n10-20mg\nor\n(PO/IM/IV)\nHaloperidol\n0.5-5mg +/-\nlorazepam\n0.5-2mg\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "May need psych eval after medical clearance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "General psychiatric workup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General psychiatric workup",
+          "url": "https://wikem.org/wiki/General_psychiatric_workup"
+        }
+      ]
+    }
+  }
+}

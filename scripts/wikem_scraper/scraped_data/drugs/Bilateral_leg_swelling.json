@@ -1,0 +1,245 @@
+{
+  "drug_name": "Bilateral_leg_swelling",
+  "url": "https://wikem.org/wiki/Bilateral_leg_swelling",
+  "scraped_at": "2026-01-10T07:48:50.718624",
+  "sections": {
+    "Background": {
+      "text": "Most common cause is bilaeral pedal edema\nDefinition: existence of the excess fluid in the lower extremity resulting in swelling of the feet and extending upward\nFurther classified as pitting (depress-able) and non-pitting",
+      "subsections": {
+        "Causes_of_pedal_edema": {
+          "text": "Increased hydrostatic pressure\nDecreased oncotic pressure\nIncreased capillary permeability\nLymphatic obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes_of_pedal_edema": {
+      "text": "Increased hydrostatic pressure\nDecreased oncotic pressure\nIncreased capillary permeability\nLymphatic obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Bilateral lower extremity swelling\nPitting = edema\nNon-pitting (\"woody\") = consider\npretibial myxedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bilateral_leg_swelling": {
+          "text": "Pedal edema\nGravitational\nVenous insufficiency\nThrombophlebitis\nDrugs\nNSAIDS\nBirth control\nSteroids\nCHF\nLymphedema\nRenal failure\nLiver failure\nPregnancy\nHeat edema\nIdiopathic\nOther\nDVT\nPretibial myxedema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Venous insufficiency",
+          "url": "https://wikem.org/wiki/Venous_insufficiency"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Heat edema",
+          "url": "https://wikem.org/wiki/Heat_edema"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        }
+      ]
+    },
+    "Bilateral_leg_swelling": {
+      "text": "Pedal edema\nGravitational\nVenous insufficiency\nThrombophlebitis\nDrugs\nNSAIDS\nBirth control\nSteroids\nCHF\nLymphedema\nRenal failure\nLiver failure\nPregnancy\nHeat edema\nIdiopathic\nOther\nDVT\nPretibial myxedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Venous insufficiency",
+          "url": "https://wikem.org/wiki/Venous_insufficiency"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Heat edema",
+          "url": "https://wikem.org/wiki/Heat_edema"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChem 7\nPT vs albumin (liver)\nECG\nCXR\nUA\n(nephrotic)\nConsider\nBNP",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Idiopathic edema is a diagnosis of exclusion, must first rule out CHF, cirrhosis, renal failure, nephrotic syndrome, chronic venous insufficiency, and medication-induced edema\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nChem 7\nPT vs albumin (liver)\nECG\nCXR\nUA\n(nephrotic)\nConsider\nBNP",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Idiopathic edema is a diagnosis of exclusion, must first rule out CHF, cirrhosis, renal failure, nephrotic syndrome, chronic venous insufficiency, and medication-induced edema\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Idiopathic edema is a diagnosis of exclusion, must first rule out CHF, cirrhosis, renal failure, nephrotic syndrome, chronic venous insufficiency, and medication-induced edema\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment is based on addressing underlying disease process\nIdiopathic pedal edema need not to be treated with diuretics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If no respiratory symptoms, most patients may be safely discharged home\nPatients should be followed up in medical clinic for further investigation and care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Unilateral leg swelling",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Unilateral leg swelling",
+          "url": "https://wikem.org/wiki/Unilateral_leg_swelling"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Lower Extremity Edema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

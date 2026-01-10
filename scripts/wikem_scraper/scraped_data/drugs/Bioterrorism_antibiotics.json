@@ -1,0 +1,475 @@
+{
+  "drug_name": "Bioterrorism_antibiotics",
+  "url": "https://wikem.org/wiki/Bioterrorism_antibiotics",
+  "scraped_at": "2026-01-10T07:48:51.624954",
+  "sections": {
+    "Anthrax": {
+      "text": "",
+      "subsections": {
+        "Postexposure_Prophylaxis": {
+          "text": "Patient should be vaccinated at day #0, #14, #28\nCiprofloxacin\n500mg PO q12hrs daily x 60 days\nOR\nDoxycycline\n100mg PO q12hrs x 60 days",
+          "tables": []
+        },
+        "Cutaneous_Anthrax_(not_systemically_ill)": {
+          "text": "Ciprofloxacin 500mg PO q12hrs x 60 days\nDoxycycline 100mg PO q12hrs x 60 days",
+          "tables": []
+        },
+        "Inhalation_or_Cutaneous_with_systemic_illness": {
+          "text": "Ciprofloxacin\n400mg IV q12hrs x 60 days (1st line)\nOR\nDoxycycline\n100mg IV q12hrs x 60days (only if allergic to ciprofloxacin)\nPLUS\nClindamycin\n900mg IV q8hrs",
+          "tables": []
+        },
+        "Pediatric_Postexpsoure_Prophylaxis": {
+          "text": "Ciprofloxacin\n15mg/kg PO q12hrs x 60 days\nDoxycycline\n2.2mg/kg PO q12hrs x 60 days",
+          "tables": []
+        },
+        "Pediatric_Cutaneous_Anthrax_(not_ill)": {
+          "text": "Same as post exposure dosing and duration",
+          "tables": []
+        },
+        "Pediatric_Inhalational_or_Cutaneous_(systemically_ill": {
+          "text": "Ciprofloxacin\n15mg/kg IV q12hrs (1st line)\nOR\nDoxycycline\n2.2mg/kg IV q12hrs (only if allergic to cipro)\nPLUS\nClindamycin\n7.5mg/kg q6hrs daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Botulism": {
+      "text": "",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "Early ventilatory support\nConsider intubation when vital capacity <30% predicted or <12cc/kg\nWound Managment\nEarly wound debreedment with surgical consult.\nAlso exclude\nNecrotizing fasciitis\nand coverage with same broad antibiotic coverage",
+          "tables": []
+        },
+        "Foodborne_Botulism": {
+          "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health.",
+          "tables": []
+        },
+        "Infant_Botulism_(<1yo)": {
+          "text": "Human-based Botulism IG 100mg/kg IV x 1 dose (BabyBIG)\ninfusion divided into 25mg/kg/hr IV x 15 min followed by 50mg/kg/hr if no allergic reactions\nStop infusion after total of 100mg/kg infused\nBabyBIG obtained through CDC or local Department of Health",
+          "tables": []
+        },
+        "Inhalational_Botulism": {
+          "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health",
+          "tables": []
+        },
+        "Wound_Botulism": {
+          "text": "Individualize therapy with ID consultant\nBroad antibiotic coverage same as for\nNecrotizing fasciitis\nwhile awaiting wound cultures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "Early ventilatory support\nConsider intubation when vital capacity <30% predicted or <12cc/kg\nWound Managment\nEarly wound debreedment with surgical consult.\nAlso exclude\nNecrotizing fasciitis\nand coverage with same broad antibiotic coverage",
+      "subsections": {
+        "Foodborne_Botulism": {
+          "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health.",
+          "tables": []
+        },
+        "Infant_Botulism_(<1yo)": {
+          "text": "Human-based Botulism IG 100mg/kg IV x 1 dose (BabyBIG)\ninfusion divided into 25mg/kg/hr IV x 15 min followed by 50mg/kg/hr if no allergic reactions\nStop infusion after total of 100mg/kg infused\nBabyBIG obtained through CDC or local Department of Health",
+          "tables": []
+        },
+        "Inhalational_Botulism": {
+          "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health",
+          "tables": []
+        },
+        "Wound_Botulism": {
+          "text": "Individualize therapy with ID consultant\nBroad antibiotic coverage same as for\nNecrotizing fasciitis\nwhile awaiting wound cultures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Foodborne_Botulism": {
+      "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health.",
+      "subsections": {
+        "Infant_Botulism_(<1yo)": {
+          "text": "Human-based Botulism IG 100mg/kg IV x 1 dose (BabyBIG)\ninfusion divided into 25mg/kg/hr IV x 15 min followed by 50mg/kg/hr if no allergic reactions\nStop infusion after total of 100mg/kg infused\nBabyBIG obtained through CDC or local Department of Health",
+          "tables": []
+        },
+        "Inhalational_Botulism": {
+          "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health",
+          "tables": []
+        },
+        "Wound_Botulism": {
+          "text": "Individualize therapy with ID consultant\nBroad antibiotic coverage same as for\nNecrotizing fasciitis\nwhile awaiting wound cultures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Inhalational_Botulism": {
+      "text": "Equine Serum Botulism Antitoxin\nonly for patients > 1yo\nAntitoxin obtained through CDC or local Department of Health",
+      "subsections": {
+        "Wound_Botulism": {
+          "text": "Individualize therapy with ID consultant\nBroad antibiotic coverage same as for\nNecrotizing fasciitis\nwhile awaiting wound cultures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Wound_Botulism": {
+      "text": "Individualize therapy with ID consultant\nBroad antibiotic coverage same as for\nNecrotizing fasciitis\nwhile awaiting wound cultures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Smallpox": {
+      "text": "IMMEDIATE NOTIFICATION OF PUBLIC HEALTH AUTHORITIES\nVaccine administered up to 3 days post-exposure was effective in preventing infection as well as lessening the severity of the disease if infection occurred\n[1]",
+      "subsections": {
+        "Post-Exposure_Prophylaxis": {
+          "text": "Vaccinia Vaccine (administer within 72hrs of exposure)",
+          "tables": []
+        },
+        "Active_Disease": {
+          "text": "Supportive care and wound care for open lesions\nVaccinia Vaccine within the first 72hrs can decrease total disease severity and within 7 days may decrease symptoms\nVaccination is not efficacious once the patient has developed rash\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Post-Exposure_Prophylaxis": {
+      "text": "Vaccinia Vaccine (administer within 72hrs of exposure)",
+      "subsections": {
+        "Active_Disease": {
+          "text": "Supportive care and wound care for open lesions\nVaccinia Vaccine within the first 72hrs can decrease total disease severity and within 7 days may decrease symptoms\nVaccination is not efficacious once the patient has developed rash\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Active_Disease": {
+      "text": "Supportive care and wound care for open lesions\nVaccinia Vaccine within the first 72hrs can decrease total disease severity and within 7 days may decrease symptoms\nVaccination is not efficacious once the patient has developed rash\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Tularemia": {
+      "text": "",
+      "subsections": {
+        "Postexposure_Prophylaxis_2": {
+          "text": "Doxycycline\n100mg PO q12hrs x 14 days OR\nCiprofloxacin\n500mg PO q12hrs q12hrs x 10 days",
+          "tables": []
+        },
+        "Active_Disease_2": {
+          "text": "Streptomycin\n1g (15mg/kg) IM q12hrs daily x 10 days\n(First line)\nOR\nGentamicin\n5mg/kg/day IV/IM once daily x 10 days OR\nCiprofloxacin\n400mg (15mg/kg) q12hrs daily x 10 days OR\nDoxycycline\n100mg (2.2mg/kg) IV q12hrs daily x 14 days OR\nChloramphenicol\n15mg/kg IV q6hrs daily x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Streptomycin",
+          "url": "https://wikem.org/wiki/Streptomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "Yersinia": {
+      "text": "",
+      "subsections": {
+        "Postexposure_Prophylaxis_3": {
+          "text": "Doxycycline\n100mg (2.2mg/kg) PO q12hrs daily OR\nCiprofloxacin\n500mg (20mg/kg) PO q12hrs daily OR\nChloramphenicol\n1mg (25mg/kg) PO q6hrs\nonly if age > 2",
+          "tables": []
+        },
+        "Active_Disease_3": {
+          "text": "Gentamicin\n5mg/kg IV/IM once daily x 10 days OR\nCiprofloxacin\n500mg (20mg/kg) PO q12hrs x 10 days OR\nDoxycycline\n200mg (2.2mg/kg) PO/IV daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC Emergency Preparedness and Response",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

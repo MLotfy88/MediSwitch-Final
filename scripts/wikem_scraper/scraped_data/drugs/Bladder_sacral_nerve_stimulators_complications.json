@@ -1,0 +1,39 @@
+{
+  "drug_name": "Bladder/sacral_nerve_stimulators_complications",
+  "url": "https://wikem.org/wiki/Bladder/sacral_nerve_stimulators_complications",
+  "scraped_at": "2026-01-10T07:48:57.059386",
+  "sections": {
+    "Background": {
+      "text": "Single wire system inserted into the S3 sacral foramen to stimulate sacral nerve and treat urinary or bowel incontinence and/or retention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Infection (early or late complication)\nPain\nDevice rejection due to allergic or immune response\nLead migration or erosion\nStimulator misfiring, transient electric shock\nSeroma,\nhemorrhage\n, hematoma\nNerve injury,\nparalysis\nAdverse change in voiding or bowel function",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Medical device complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        }
+      ]
+    }
+  }
+}

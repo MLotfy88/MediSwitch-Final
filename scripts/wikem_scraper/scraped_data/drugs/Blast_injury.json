@@ -1,0 +1,898 @@
+{
+  "drug_name": "Blast_injury",
+  "url": "https://wikem.org/wiki/Blast_injury",
+  "scraped_at": "2026-01-10T07:48:56.462741",
+  "sections": {
+    "Background": {
+      "text": "Primary blast wave increased in closed space - detonation in corner has potential to increase blast yield to 8x\nRecent enhanced-blast weapons (EBW) disperses gas before explosion - larger blast wave with lower pressure amplitude that diffuses around corners",
+      "subsections": {
+        "Spalling_Effect": {
+          "text": "Due to blast pressure forces, injuries are to organs with air-fluid interfaces (spalling effect)\nTMs\nAlveoli\nGI tract",
+          "tables": []
+        },
+        "Situational_Examples": {
+          "text": "Military - young healthy soldiers with body armor reducing thoracic/abdominal injuries but significant groin and lower extremity injuries\nCivilian - children to elderly, higher rates of penetrating thoracic/abdominal injury",
+          "tables": []
+        },
+        "Injury_Classifications": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Blast Type": "Primary",
+                "Injury Cause": "Direct effect from shockwave",
+                "Injuries": "Sheer and stress forces",
+                "Example": "TM rupture, Ocular Injury,concussion, blast lung"
+              },
+              {
+                "Blast Type": "Secondary",
+                "Injury Cause": "Impact of fragments",
+                "Injuries": "Penetrating trauma, amps, lacs",
+                "Example": ""
+              },
+              {
+                "Blast Type": "Tertiary",
+                "Injury Cause": "Blast propels body or large object into body",
+                "Injuries": "Crush injuryand blunt trauma",
+                "Example": "Similar to MVC: Fractures,Pneumothorax, Hemopneumothorax"
+              },
+              {
+                "Blast Type": "Quaternary",
+                "Injury Cause": "Environmental",
+                "Injuries": "Burns, Toxins, Weather",
+                "Example": ""
+              },
+              {
+                "Blast Type": "Quinary",
+                "Injury Cause": "Bodily absorption of contaminates",
+                "Injuries": "Hypermetabolic state",
+                "Example": ""
+              }
+            ]
+          ]
+        },
+        "Effects_based_on_blast_pressure": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Potential Injury": "Loss of balance/temporary ear damage",
+                "Pressure (PSI)": "0.5-3 psi",
+                "Structural Effects": "Glass shatters; facade fails"
+              },
+              {
+                "Potential Injury": "Slight chance of eardrum rupture",
+                "Pressure (PSI)": "5-6 psi",
+                "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+              },
+              {
+                "Potential Injury": "50% chance of eardrum rupture",
+                "Pressure (PSI)": "15 psi",
+                "Structural Effects": "Structural failure of typical construction"
+              },
+              {
+                "Potential Injury": "Lung collapse/damage",
+                "Pressure (PSI)": "30 psi",
+                "Structural Effects": "Reinforced construction failure"
+              },
+              {
+                "Potential Injury": "Fatal injuries",
+                "Pressure (PSI)": "100 + psi*",
+                "Structural Effects": "Structural failure"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Spalling_Effect": {
+      "text": "Due to blast pressure forces, injuries are to organs with air-fluid interfaces (spalling effect)\nTMs\nAlveoli\nGI tract",
+      "subsections": {
+        "Situational_Examples": {
+          "text": "Military - young healthy soldiers with body armor reducing thoracic/abdominal injuries but significant groin and lower extremity injuries\nCivilian - children to elderly, higher rates of penetrating thoracic/abdominal injury",
+          "tables": []
+        },
+        "Injury_Classifications": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Blast Type": "Primary",
+                "Injury Cause": "Direct effect from shockwave",
+                "Injuries": "Sheer and stress forces",
+                "Example": "TM rupture, Ocular Injury,concussion, blast lung"
+              },
+              {
+                "Blast Type": "Secondary",
+                "Injury Cause": "Impact of fragments",
+                "Injuries": "Penetrating trauma, amps, lacs",
+                "Example": ""
+              },
+              {
+                "Blast Type": "Tertiary",
+                "Injury Cause": "Blast propels body or large object into body",
+                "Injuries": "Crush injuryand blunt trauma",
+                "Example": "Similar to MVC: Fractures,Pneumothorax, Hemopneumothorax"
+              },
+              {
+                "Blast Type": "Quaternary",
+                "Injury Cause": "Environmental",
+                "Injuries": "Burns, Toxins, Weather",
+                "Example": ""
+              },
+              {
+                "Blast Type": "Quinary",
+                "Injury Cause": "Bodily absorption of contaminates",
+                "Injuries": "Hypermetabolic state",
+                "Example": ""
+              }
+            ]
+          ]
+        },
+        "Effects_based_on_blast_pressure": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Potential Injury": "Loss of balance/temporary ear damage",
+                "Pressure (PSI)": "0.5-3 psi",
+                "Structural Effects": "Glass shatters; facade fails"
+              },
+              {
+                "Potential Injury": "Slight chance of eardrum rupture",
+                "Pressure (PSI)": "5-6 psi",
+                "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+              },
+              {
+                "Potential Injury": "50% chance of eardrum rupture",
+                "Pressure (PSI)": "15 psi",
+                "Structural Effects": "Structural failure of typical construction"
+              },
+              {
+                "Potential Injury": "Lung collapse/damage",
+                "Pressure (PSI)": "30 psi",
+                "Structural Effects": "Reinforced construction failure"
+              },
+              {
+                "Potential Injury": "Fatal injuries",
+                "Pressure (PSI)": "100 + psi*",
+                "Structural Effects": "Structural failure"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Situational_Examples": {
+      "text": "Military - young healthy soldiers with body armor reducing thoracic/abdominal injuries but significant groin and lower extremity injuries\nCivilian - children to elderly, higher rates of penetrating thoracic/abdominal injury",
+      "subsections": {
+        "Injury_Classifications": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Blast Type": "Primary",
+                "Injury Cause": "Direct effect from shockwave",
+                "Injuries": "Sheer and stress forces",
+                "Example": "TM rupture, Ocular Injury,concussion, blast lung"
+              },
+              {
+                "Blast Type": "Secondary",
+                "Injury Cause": "Impact of fragments",
+                "Injuries": "Penetrating trauma, amps, lacs",
+                "Example": ""
+              },
+              {
+                "Blast Type": "Tertiary",
+                "Injury Cause": "Blast propels body or large object into body",
+                "Injuries": "Crush injuryand blunt trauma",
+                "Example": "Similar to MVC: Fractures,Pneumothorax, Hemopneumothorax"
+              },
+              {
+                "Blast Type": "Quaternary",
+                "Injury Cause": "Environmental",
+                "Injuries": "Burns, Toxins, Weather",
+                "Example": ""
+              },
+              {
+                "Blast Type": "Quinary",
+                "Injury Cause": "Bodily absorption of contaminates",
+                "Injuries": "Hypermetabolic state",
+                "Example": ""
+              }
+            ]
+          ]
+        },
+        "Effects_based_on_blast_pressure": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Potential Injury": "Loss of balance/temporary ear damage",
+                "Pressure (PSI)": "0.5-3 psi",
+                "Structural Effects": "Glass shatters; facade fails"
+              },
+              {
+                "Potential Injury": "Slight chance of eardrum rupture",
+                "Pressure (PSI)": "5-6 psi",
+                "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+              },
+              {
+                "Potential Injury": "50% chance of eardrum rupture",
+                "Pressure (PSI)": "15 psi",
+                "Structural Effects": "Structural failure of typical construction"
+              },
+              {
+                "Potential Injury": "Lung collapse/damage",
+                "Pressure (PSI)": "30 psi",
+                "Structural Effects": "Reinforced construction failure"
+              },
+              {
+                "Potential Injury": "Fatal injuries",
+                "Pressure (PSI)": "100 + psi*",
+                "Structural Effects": "Structural failure"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Injury_Classifications": {
+      "text": "",
+      "subsections": {
+        "Effects_based_on_blast_pressure": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Potential Injury": "Loss of balance/temporary ear damage",
+                "Pressure (PSI)": "0.5-3 psi",
+                "Structural Effects": "Glass shatters; facade fails"
+              },
+              {
+                "Potential Injury": "Slight chance of eardrum rupture",
+                "Pressure (PSI)": "5-6 psi",
+                "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+              },
+              {
+                "Potential Injury": "50% chance of eardrum rupture",
+                "Pressure (PSI)": "15 psi",
+                "Structural Effects": "Structural failure of typical construction"
+              },
+              {
+                "Potential Injury": "Lung collapse/damage",
+                "Pressure (PSI)": "30 psi",
+                "Structural Effects": "Reinforced construction failure"
+              },
+              {
+                "Potential Injury": "Fatal injuries",
+                "Pressure (PSI)": "100 + psi*",
+                "Structural Effects": "Structural failure"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Blast Type": "Primary",
+            "Injury Cause": "Direct effect from shockwave",
+            "Injuries": "Sheer and stress forces",
+            "Example": "TM rupture, Ocular Injury,concussion, blast lung"
+          },
+          {
+            "Blast Type": "Secondary",
+            "Injury Cause": "Impact of fragments",
+            "Injuries": "Penetrating trauma, amps, lacs",
+            "Example": ""
+          },
+          {
+            "Blast Type": "Tertiary",
+            "Injury Cause": "Blast propels body or large object into body",
+            "Injuries": "Crush injuryand blunt trauma",
+            "Example": "Similar to MVC: Fractures,Pneumothorax, Hemopneumothorax"
+          },
+          {
+            "Blast Type": "Quaternary",
+            "Injury Cause": "Environmental",
+            "Injuries": "Burns, Toxins, Weather",
+            "Example": ""
+          },
+          {
+            "Blast Type": "Quinary",
+            "Injury Cause": "Bodily absorption of contaminates",
+            "Injuries": "Hypermetabolic state",
+            "Example": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Effects_based_on_blast_pressure": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Potential Injury": "Loss of balance/temporary ear damage",
+            "Pressure (PSI)": "0.5-3 psi",
+            "Structural Effects": "Glass shatters; facade fails"
+          },
+          {
+            "Potential Injury": "Slight chance of eardrum rupture",
+            "Pressure (PSI)": "5-6 psi",
+            "Structural Effects": "Cinderblock shatters; steel structures fail; containers collapse; utility poles fail"
+          },
+          {
+            "Potential Injury": "50% chance of eardrum rupture",
+            "Pressure (PSI)": "15 psi",
+            "Structural Effects": "Structural failure of typical construction"
+          },
+          {
+            "Potential Injury": "Lung collapse/damage",
+            "Pressure (PSI)": "30 psi",
+            "Structural Effects": "Reinforced construction failure"
+          },
+          {
+            "Potential Injury": "Fatal injuries",
+            "Pressure (PSI)": "100 + psi*",
+            "Structural Effects": "Structural failure"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Pulmonary": {
+          "text": "Blast lung is the most common fatal primary blast injury (PBI)\nPulmonary contusion\nPneumomediastinum\ndue to alveolar rupture -\npneumothorax\n, subcutaneous emphysema,\npneumopericardium\n, pneumoretroperitoneum, pneumoperitoneum,\nair embolus\nThrombosis,\nDIC\n,\nARDS",
+          "tables": []
+        },
+        "HEENT": {
+          "text": "TM rupture\nmost common - not a marker of PBI severity or prognosis\nHemotympanum\nOssicle injury\nDirect\nophthalmic injury\n,\nforeign bodies\n, or ophthalmic artery\nair embolus",
+          "tables": []
+        },
+        "Thoracic": {
+          "text": "Cardiovascular collapse\n(within seconds)\nHypotension\ndue to impaired reflex that increases SVR",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Transmission of disease due to penetrating trauma is rare but possible with HIV, HCV, HBV",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Amputations\nBurns",
+          "tables": []
+        },
+        "Markers_of_severe_blast_injury": {
+          "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "TM rupture",
+          "url": "https://wikem.org/wiki/TM_rupture"
+        },
+        {
+          "text": "ophthalmic injury",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        },
+        {
+          "text": "foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        },
+        {
+          "text": "air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "Cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Amputations",
+          "url": "https://wikem.org/wiki/Amputation"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Pulmonary": {
+      "text": "Blast lung is the most common fatal primary blast injury (PBI)\nPulmonary contusion\nPneumomediastinum\ndue to alveolar rupture -\npneumothorax\n, subcutaneous emphysema,\npneumopericardium\n, pneumoretroperitoneum, pneumoperitoneum,\nair embolus\nThrombosis,\nDIC\n,\nARDS",
+      "subsections": {
+        "HEENT": {
+          "text": "TM rupture\nmost common - not a marker of PBI severity or prognosis\nHemotympanum\nOssicle injury\nDirect\nophthalmic injury\n,\nforeign bodies\n, or ophthalmic artery\nair embolus",
+          "tables": []
+        },
+        "Thoracic": {
+          "text": "Cardiovascular collapse\n(within seconds)\nHypotension\ndue to impaired reflex that increases SVR",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Transmission of disease due to penetrating trauma is rare but possible with HIV, HCV, HBV",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Amputations\nBurns",
+          "tables": []
+        },
+        "Markers_of_severe_blast_injury": {
+          "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "TM rupture",
+          "url": "https://wikem.org/wiki/TM_rupture"
+        },
+        {
+          "text": "ophthalmic injury",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        },
+        {
+          "text": "foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        },
+        {
+          "text": "air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "Cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Amputations",
+          "url": "https://wikem.org/wiki/Amputation"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "HEENT": {
+      "text": "TM rupture\nmost common - not a marker of PBI severity or prognosis\nHemotympanum\nOssicle injury\nDirect\nophthalmic injury\n,\nforeign bodies\n, or ophthalmic artery\nair embolus",
+      "subsections": {
+        "Thoracic": {
+          "text": "Cardiovascular collapse\n(within seconds)\nHypotension\ndue to impaired reflex that increases SVR",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Transmission of disease due to penetrating trauma is rare but possible with HIV, HCV, HBV",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Amputations\nBurns",
+          "tables": []
+        },
+        "Markers_of_severe_blast_injury": {
+          "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TM rupture",
+          "url": "https://wikem.org/wiki/TM_rupture"
+        },
+        {
+          "text": "ophthalmic injury",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        },
+        {
+          "text": "foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        },
+        {
+          "text": "air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "Cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Amputations",
+          "url": "https://wikem.org/wiki/Amputation"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Thoracic": {
+      "text": "Cardiovascular collapse\n(within seconds)\nHypotension\ndue to impaired reflex that increases SVR",
+      "subsections": {
+        "Infectious_Disease": {
+          "text": "Transmission of disease due to penetrating trauma is rare but possible with HIV, HCV, HBV",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Amputations\nBurns",
+          "tables": []
+        },
+        "Markers_of_severe_blast_injury": {
+          "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Amputations",
+          "url": "https://wikem.org/wiki/Amputation"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Infectious_Disease": {
+      "text": "Transmission of disease due to penetrating trauma is rare but possible with HIV, HCV, HBV",
+      "subsections": {
+        "Musculoskeletal": {
+          "text": "Amputations\nBurns",
+          "tables": []
+        },
+        "Markers_of_severe_blast_injury": {
+          "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amputations",
+          "url": "https://wikem.org/wiki/Amputation"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Musculoskeletal": {
+      "text": "Amputations\nBurns",
+      "subsections": {
+        "Markers_of_severe_blast_injury": {
+          "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amputations",
+          "url": "https://wikem.org/wiki/Amputation"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Markers_of_severe_blast_injury": {
+      "text": "> 10%\nTBSA\nburn\nSkull, facial fracture\nPenetrating injury to head or thorax\nTraumatic amputations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\n- butterfly distribution, bilateral patchy infiltrates\nCT chest\nFAST\n, comprehensive CT\nRepeat clinical abdominal exams looking for peritonitis - X-rays, US, CT insensitive except in perforation\nInitial\nCT head\nmay not be enough - may require\nMRI\nfor DAI\nLabs\nConsider carboxyhemoglobin and electrolytes\nScreening\nUA\nfor significant explosions\nBurn\nlabs (\nrhabdomyolysis\n,\ncompartment syndrome\n, severe\nburns\n)\nDIC\nlabs (PT, aPTT, CBC, D-dimer, thrombin time, fibrinogen)\nWhite phosphorus\nlabs (\nhypocalcemia\n,\nhyperphosphatemia\n, LFTs)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Chest tube\nfor significant\nhemothorax\nand/or\npneumothorax\npRBCs\nand\nFFP\nin 1:1 ratio with platelets for hemodynamically unstable patients\nTM rupture\n- initial treatment supportive and enough for 75% with spontaneous healing; operative repair may be necessary for others\nOperative exploration for\nperitonitis\nAir embolus\n(rare) - isolate air in apex of LV by placing patient in left decubitus, head down, feet up position",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "TM rupture",
+          "url": "https://wikem.org/wiki/TM_rupture"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Ambulatory patient with normal TM evaluation at low risk for occult blast injury - discharge with precautions\nAll others require admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Explosions\nWound ballistics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        },
+        {
+          "text": "Wound ballistics",
+          "url": "https://wikem.org/wiki/Wound_ballistics"
+        }
+      ]
+    }
+  }
+}

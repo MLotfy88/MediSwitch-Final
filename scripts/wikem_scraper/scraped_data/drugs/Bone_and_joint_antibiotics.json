@@ -1,0 +1,788 @@
+{
+  "drug_name": "Bone_and_joint_antibiotics",
+  "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics",
+  "scraped_at": "2026-01-10T07:49:01.255054",
+  "sections": {
+    "Diabetic_foot_infection": {
+      "text": "Associated organisms include Staphylococcus, Streptococcus, Enterococcus, Enterobacteriaceae, Proteus, Bacteroides, and Pseudomonas, and Klebsiella",
+      "subsections": {
+        "Superficial_Mild_Infections": {
+          "text": "Clindamycin\n450mg PO q8hrs daily x 14 days OR\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days OR\nDoxycycline\n100mg PO q12hrs daily x 14 days",
+          "tables": []
+        },
+        "Prior_antibiotic_treatment_or_moderate_infections": {
+          "text": "Amoxicillin/Clavulanate\n875/125mg PO q12hrs +\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days  OR\nClindamycin\n450mg PO q8hrs +\nCiprofloxacin\n750mg PO q12hrs x 14 days",
+          "tables": []
+        },
+        "Inpatient_Treatment": {
+          "text": "Vancomycin\n15-20mg/kg IV q12hrs plus\nAmpicillin/Sulbactam\n3g IV q6hrs OR\nPiperacillin/Tazobactam\n4.5g IV q8hrs OR\nTicarcillin/Clavulanate\n3.1g IV q8hrs OR\nImipenem\n500mg IV q6hrs OR\nMetronidazole\n500mg IV q8hrs PLUS\nCefepime\n2g IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR\nAztreonam\n2g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        }
+      ]
+    },
+    "Diskitis_or_Osteomyelitis": {
+      "text": "Treatment targets\nS. aureus\n,\nStreptococcus\n,\nPseudomonas\n,\nE. coli",
+      "subsections": {
+        "Inpatient_Therapy": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID\nPLUS\nany of the following:\nCeftriaxone\n2g  IV daily\nCefepime\n2g IV IV three times daily\nCeftazidime\n2g IV three times daily\nCiprofloxacin\n400mg IV three times daily\nUse\ncefepime\nor\nciprofloxacin\nif targeting Pseudomonas spp",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Felon": {
+      "text": "Definitive treatment is drainage but antibiotic coverage for\nS. aureus\nand\nStrep\nwith caution to identify\nHerpetic whitlow\nCephalexin\n500mg PO q6hrs daily x 7 days\nTMP/SMX\n2 DS tablets PO q12hrs x 7 days\nClindamycin\n450mg PO q8hrs x 7 days\nDicloxacillin\n250mg PO q6hrs daily x 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        }
+      ]
+    },
+    "Infectious_Tenosynovitis": {
+      "text": "Treatment should cover\nS. aureus\n,\nStreptococcus\n, and\nMRSA\nVancomycin\n25-30 mg/kg IV loading dose then 15-20mg/kg IV q12hrs PLUS\nLevofloxacin\n750 mg IV once daily (avoid in pediatrics) OR\nCeftriaxone\n1g IV daily\nIf suspicious of\nGonococcal\ninfection then use\nCeftriaxone\n1g IV once daily AND\nChlamydia\ncoverage with\nAzithromycin\n1g PO once OR\nDoxycycline\n100mg PO twice daily",
+      "subsections": {
+        "Animal_Bites": {
+          "text": "Ampicillin/Sulbactam\n3g (50mg/kg) IV four times daily",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Ceftriaxone\n100mg/kg IV once daily AND\nMetronidazole\n7.5mg/kg IV  four times daily OR\nClindamycin\n10mg/kg IV four times daily NA\nTMP/SMX\n5mg/kg IV BID\nAmpicillin/Sulbactam\n50 mg/kg IV four times daily",
+          "tables": []
+        },
+        "Mycobacteria_related": {
+          "text": "Treatment should include usual therapy listed above in addition to:\nClarithromycin\n500mg PO twice daily PLUS\nEthambutol\n15 mg/kg PO once daily OR\nRifampin\n600 mg PO once daily\nAND consult infectious disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Ethambutol",
+          "url": "https://wikem.org/wiki/Ethambutol"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Open_fracture": {
+      "text": "",
+      "subsections": {
+        "Prophylactic_Antibiotics_for_Open_fractures": {
+          "text": "Initiate as soon as possible; increased infection rate when delayed\n[1]",
+          "tables": []
+        },
+        "Grade_I_&_II_Fractures_Options": {
+          "text": "Cefazolin\n(Ancef) 2 g IV (immediately and q8 hours x 3 total doses)\n[2]\nCephalosporin allergy:\nclindamycin\n900 mg IV (immediately and q8 hours x 3 total doses)\n[2]",
+          "tables": []
+        },
+        "Grade_III_Fracture_Options": {
+          "text": "Ceftriaxone\n2 g IV (immediately x 1 total dose) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[2]\nCephalosporin allergy:\naztreonam\n2 g IV (immediately and q8 hours x 3) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[2]",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Concern for\nclostridium\n(soil contamination, farm injuries, possible bowel contamination): additionally add\npenicillin\n[3]\n[2]\nFresh water wounds:\nfluoroquinolones\nOR 3rd/4th generation\ncephalosporin\nSaltwater wounds (\nvibrio\n):\ndoxycycline\n+\nceftazidime\nOR\nfluoroquinolone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        }
+      ]
+    },
+    "Prophylactic_Antibiotics_for_Open_fractures": {
+      "text": "Initiate as soon as possible; increased infection rate when delayed\n[1]",
+      "subsections": {
+        "Grade_I_&_II_Fractures_Options": {
+          "text": "Cefazolin\n(Ancef) 2 g IV (immediately and q8 hours x 3 total doses)\n[2]\nCephalosporin allergy:\nclindamycin\n900 mg IV (immediately and q8 hours x 3 total doses)\n[2]",
+          "tables": []
+        },
+        "Grade_III_Fracture_Options": {
+          "text": "Ceftriaxone\n2 g IV (immediately x 1 total dose) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[2]\nCephalosporin allergy:\naztreonam\n2 g IV (immediately and q8 hours x 3) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[2]",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Concern for\nclostridium\n(soil contamination, farm injuries, possible bowel contamination): additionally add\npenicillin\n[3]\n[2]\nFresh water wounds:\nfluoroquinolones\nOR 3rd/4th generation\ncephalosporin\nSaltwater wounds (\nvibrio\n):\ndoxycycline\n+\nceftazidime\nOR\nfluoroquinolone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        }
+      ]
+    },
+    "Osteomyelitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Risk Factor": "Elderly, hematogenous spread",
+            "Likely Organism": "MRSA,MSSA,gram neg",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+          },
+          {
+            "Risk Factor": "Sickle Cell Disease",
+            "Likely Organism": "Salmonella,gram-negativebacteria",
+            "Initial Empiric Antibiotic Therapy'": "Ceftriaxone50mg/kg IV once daily ORCefotaxime50mg/kg IV three times daily, PLUSVancomycin15mg/kg IV  four times daily ORClindamycin10mg/kg IV PO four times daily ORNafcillin50 mg/kg IV four times daily to cover K. Kingae (common in daycare population)"
+          },
+          {
+            "Risk Factor": "DMor vascular insufficiency",
+            "Likely Organism": "Polymicrobial:Staph,strep, coliforms,anaerobes",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+          },
+          {
+            "Risk Factor": "IV druguser",
+            "Likely Organism": "MRSA,MSSA,pseudomonas",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+          },
+          {
+            "Risk Factor": "Newborn",
+            "Likely Organism": "MRSA,MSSA,GBS,Gram Negative",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin15mg/kg load, then reduce dose, ANDceftazidime30mg/kg IV q12 h"
+          },
+          {
+            "Risk Factor": "Children",
+            "Likely Organism": "MRSA,MSSA",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin10mg/kg q6 h ANDceftazidime50mg/kg q8hr"
+          },
+          {
+            "Risk Factor": "Postoperative (ortho)",
+            "Likely Organism": "MRSA,MSSA",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+          },
+          {
+            "Risk Factor": "Human bite",
+            "Likely Organism": "Strep,anaerobes, HACEK organism",
+            "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+          },
+          {
+            "Risk Factor": "Animal bites",
+            "Likely Organism": "Pasteurella,Eikenella, HACEK organism",
+            "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+          },
+          {
+            "Risk Factor": "Foot puncture wound",
+            "Likely Organism": "Pseudomonas",
+            "Initial Empiric Antibiotic Therapy'": "Anti-pseudomonal, staph coverage"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Septic_Arthritis": {
+      "text": "For adults treatment should be divided into Gonococcal and Non-Gonococcal",
+      "subsections": {
+        "Gonococcal": {
+          "text": "Ceftriaxone\n1g IV once daily\nCefixime\n400 mg PO BID is an option for outpatient therapy after initial 3 days of\nCeftriaxone",
+          "tables": []
+        },
+        "Non-Gonococcal": {
+          "text": "Treatment should cover\nS. aureus\n,\nStreptococcus\n,\nPseudomonas\n,\nEnterococcus\n,\nB. burgdorferi\nVancomycin 15-20 mg/kg IV BID PLUS any of the following:\nCeftriaxone\n2g IV once daily\nCefepime\n2g IV three times daily\nCeftazidime\n2g IV three times daily\nCiprofloxacin\n400mg IV three times daily",
+          "tables": []
+        },
+        "Pediatrics_2": {
+          "text": "Ceftriaxone\n1g IV once daily",
+          "tables": []
+        },
+        "Sickle_Cell": {
+          "text": "Coverage for\nSalmonella\nand\nStaphylococcus\nspp\nVancomycin\n20mg/kg IV twice daily PLUS\nCiprofloxacin 400mg IV three times daily OR\nImipenem/cilastatin 1g IV three times daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "B. burgdorferi",
+          "url": "https://wikem.org/wiki/Borrelia_burgdorferi"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Septic_Bursitis": {
+      "text": "Cover\nStaphylococcus aureus\n(80-90%) and\nStreptococcus",
+      "subsections": {
+        "Outpatient_Options": {
+          "text": "Clindamycin\n300 mg PO three times daily x 14 days\nOR\nTMP/SMX\n2 DS tabs PO two times daily x 14 days\nOR\nDicloxacillin\n500mg PO q6hr x10 days\nTreatment followup with primary physician is important since the regimen may need extension to 3 weeks.",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Vancomycin\n25-30 mg/kg IV loading then 15-20 mg/kg IV\nOR\nClindamycin\n600 mg (10/mg/kg) IV three times daily\nLinezolid\n600 mg IV BID (10mg/kg Q8hrs for pediatrics)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

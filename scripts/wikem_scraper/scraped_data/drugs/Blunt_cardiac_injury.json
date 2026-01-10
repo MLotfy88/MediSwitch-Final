@@ -1,0 +1,518 @@
+{
+  "drug_name": "Blunt_cardiac_injury",
+  "url": "https://wikem.org/wiki/Blunt_cardiac_injury",
+  "scraped_at": "2026-01-10T07:48:57.537556",
+  "sections": {
+    "Background": {
+      "text": "Most often involves the right heart (due to anterior location)\nInjury to valves occurs in 10%",
+      "subsections": {
+        "Blunt_cardiac_injury": {
+          "text": "A spectrum of disease due to blunt trauma to the chest wall\nRanges from\ncardiac contusion\nto infarction to\ncardiac rupture\nand death.\n[1]\nCommotio cordis\nis sudden cardiac arrest resulting from blunt chest trauma, in absence of underlying cardiac disease\n[2]\nUp to 20% of all MVC deaths are due to blunt cardiac injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "cardiac rupture",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        }
+      ]
+    },
+    "Blunt_cardiac_injury": {
+      "text": "A spectrum of disease due to blunt trauma to the chest wall\nRanges from\ncardiac contusion\nto infarction to\ncardiac rupture\nand death.\n[1]\nCommotio cordis\nis sudden cardiac arrest resulting from blunt chest trauma, in absence of underlying cardiac disease\n[2]\nUp to 20% of all MVC deaths are due to blunt cardiac injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "cardiac rupture",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May present as:\n[3]\n[4]\n[5]\n[6]\n[7]\nMyocardial contusion with cardiac dysfunction\nMyocardial contusion with dysrhythmias\nSinus tachycardia\nPAC/\nPVC\nAtrial\nfibrillation\n/\nflutter\nMyocardial infarction\n(coronary artery dissection/laceration/thrombosis)\nValvular injury\n(acute\nheart failure\n)\nLeaflet injury\nRupture of papillary muscles or chordae tendineae\nCardiac structural injury (septal injury,\nwall rupture\n)\nCommotio Cordis\nPrimary electrical event resulting in the induction of\nVfib\nOften an innocent-appearing blow to chest wall",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PVC",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Valvular injury",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "wall rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        },
+        {
+          "text": "Commotio Cordis",
+          "url": "https://wikem.org/wiki/Commotio_Cordis"
+        },
+        {
+          "text": "Vfib",
+          "url": "https://wikem.org/wiki/Vfib"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\nMediastinum widening is only suggestive of an aortic injury\nLack of widening does not rule out aortic injury\nCTA\nImaging study of choice\nFAST exam\nFirst view of FAST in penetrating injury should be pericardial\nPericardial fluid detection (Sn 100%, Sp 97%)\nECG\nNPV for a normal ECG is 80-90%\nNot as sensitive for right-sided injuries\nTroponin\nTrend in all patients\nTroponin elevation alone is only 23% sensitive for BCI\n[8]\nCombination of normal ECG and normal\ntroponin\nhas NPV of 100% for significant blunt cardiac injury\n[9]\n[10]\nTroponin\nelevation can stem from catecholamine-induced stress, hypovolemic shock with reperfusion injury, oxidative injury, bacterial or viral toxins or microcirculatory dysfunction. Look at history and patient exam findings.",
+          "tables": []
+        },
+        "EAST_GUIDELINES_(2012)": {
+          "text": "Level 1 evidence\nECG to be performed on all patients suspected of BCI (looking for various ECG changes including ischemic changes, nonspecific ST changes, arrhythmia, conduction blocks, though most common is sinus tachycardia).\nLevel 2 evidence\nIf new ECG changes consider admission for 24 hours telemetry and serial ECG/troponin\nIf normal (or stable) ECG and normal troponin I (at any time), BCI is ruled out\nIf hemodynamically stable, emergent bedside echo to assess for pericardial fluid\nPresence of sternal fracture alone does not predict presence of BCI and should not prompt monitoring if normal ECG/Troponin\nLevel 3 evidence\nTroponin I should be measured routinely for patients with suspected BCI; if elevated patients should be admitted to a monitored bed with serial levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "FAST exam",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\nMediastinum widening is only suggestive of an aortic injury\nLack of widening does not rule out aortic injury\nCTA\nImaging study of choice\nFAST exam\nFirst view of FAST in penetrating injury should be pericardial\nPericardial fluid detection (Sn 100%, Sp 97%)\nECG\nNPV for a normal ECG is 80-90%\nNot as sensitive for right-sided injuries\nTroponin\nTrend in all patients\nTroponin elevation alone is only 23% sensitive for BCI\n[8]\nCombination of normal ECG and normal\ntroponin\nhas NPV of 100% for significant blunt cardiac injury\n[9]\n[10]\nTroponin\nelevation can stem from catecholamine-induced stress, hypovolemic shock with reperfusion injury, oxidative injury, bacterial or viral toxins or microcirculatory dysfunction. Look at history and patient exam findings.",
+      "subsections": {
+        "EAST_GUIDELINES_(2012)": {
+          "text": "Level 1 evidence\nECG to be performed on all patients suspected of BCI (looking for various ECG changes including ischemic changes, nonspecific ST changes, arrhythmia, conduction blocks, though most common is sinus tachycardia).\nLevel 2 evidence\nIf new ECG changes consider admission for 24 hours telemetry and serial ECG/troponin\nIf normal (or stable) ECG and normal troponin I (at any time), BCI is ruled out\nIf hemodynamically stable, emergent bedside echo to assess for pericardial fluid\nPresence of sternal fracture alone does not predict presence of BCI and should not prompt monitoring if normal ECG/Troponin\nLevel 3 evidence\nTroponin I should be measured routinely for patients with suspected BCI; if elevated patients should be admitted to a monitored bed with serial levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "FAST exam",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Observe all patients with continous cardiac monitoring and interval assessment of cardiac markers",
+      "subsections": {
+        "Aorta": {
+          "text": "Proximal descending aorta is most commonly injured in blunt trauma\nDue to fixation of vessels between left subclavian artery and ligamentum arteriosum\nMost patients die at the scene\nControl of BP and HR is important if operative management will be delayed",
+          "tables": []
+        },
+        "Subclavian": {
+          "text": "Usually due to direct trauma or fracture of first rib or clavicle\nLoose shoulder restraint",
+          "tables": []
+        },
+        "IVC/SVC": {
+          "text": "Suspect if major hepatic injury or patient has bleeding that cannot be identified",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Great_Vessels_Injury": {
+      "text": "",
+      "subsections": {
+        "Aorta": {
+          "text": "Proximal descending aorta is most commonly injured in blunt trauma\nDue to fixation of vessels between left subclavian artery and ligamentum arteriosum\nMost patients die at the scene\nControl of BP and HR is important if operative management will be delayed",
+          "tables": []
+        },
+        "Subclavian": {
+          "text": "Usually due to direct trauma or fracture of first rib or clavicle\nLoose shoulder restraint",
+          "tables": []
+        },
+        "IVC/SVC": {
+          "text": "Suspect if major hepatic injury or patient has bleeding that cannot be identified",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Fatal\narrhythmias\n, conduction abnormalities\nCHF\nCardiogenic shock\nHemopericardium with\ntamponade\nCardiac rupture\nValvular rupture\nIntraventricular thrombi, thromboembolic phenomena\nCoronary artery occlusion\nVentricular aneurysms\nConstrictive\npericarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Cardiac rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        },
+        {
+          "text": "Valvular rupture",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Ventricular aneurysms",
+          "url": "https://wikem.org/wiki/Ventricular_aneurysm"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Thoracic Trauma\nCommotio Cordis\nPenetrating cardiac injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic Trauma",
+          "url": "https://wikem.org/wiki/Thoracic_Trauma"
+        },
+        {
+          "text": "Commotio Cordis",
+          "url": "https://wikem.org/wiki/Commotio_Cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "REBEL EM - Blunt Cardiac Injury (BCI)\nEMRA - Blunt Cardiac Injury Manifesting as RBBB on EKG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
