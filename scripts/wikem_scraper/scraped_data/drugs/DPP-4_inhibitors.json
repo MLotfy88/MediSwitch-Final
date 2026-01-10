@@ -1,0 +1,146 @@
+{
+  "drug_name": "DPP-4_inhibitors",
+  "url": "https://wikem.org/wiki/DPP-4_inhibitors",
+  "scraped_at": "2026-01-10T07:51:28.520423",
+  "sections": {
+    "Background": {
+      "text": "Dipeptidyl Peptidase-4 Inhibitors (gliptans) are a class of oral hypoglycemics that block DPP-4. This leads to an increase in the activity of incretins, which inhibit glucagon release, which in turn increase insulin secretion and slow gastric emptying, ultimately decreasing blood glucose levels. These drugs are commonly used in the treatment of type 2 diabetes.\nGenerally used as second or third line treatment for type 2 diabetes mellitus. They may be used as monotherapy or combined therapy.",
+      "subsections": {
+        "FDA_Approved_DPP-4_Inhibitors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Brand Name": "Januvia",
+                "Active Ingredient(s)": "sitagliptin"
+              },
+              {
+                "Brand Name": "Janumet",
+                "Active Ingredient(s)": "sitagliptin,metformin"
+              },
+              {
+                "Brand Name": "Janumet XR",
+                "Active Ingredient(s)": "sitagliptin,metforminER"
+              },
+              {
+                "Brand Name": "Onglyza",
+                "Active Ingredient(s)": "saxagliptin"
+              },
+              {
+                "Brand Name": "Kombiglyze XR",
+                "Active Ingredient(s)": "saxagliptin,metforminER"
+              },
+              {
+                "Brand Name": "Tradjenta",
+                "Active Ingredient(s)": "linagliptin"
+              },
+              {
+                "Brand Name": "Glyxambi",
+                "Active Ingredient(s)": "linagliptin, empagliflozin"
+              },
+              {
+                "Brand Name": "Jentadueto",
+                "Active Ingredient(s)": "linagiptin,metformin"
+              },
+              {
+                "Brand Name": "Nesina",
+                "Active Ingredient(s)": "alogliptin"
+              },
+              {
+                "Brand Name": "Kazano",
+                "Active Ingredient(s)": "alogliptin,metformin"
+              },
+              {
+                "Brand Name": "Oseni",
+                "Active Ingredient(s)": "alogliptin, pioglitazone"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "FDA_Approved_DPP-4_Inhibitors": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Brand Name": "Januvia",
+            "Active Ingredient(s)": "sitagliptin"
+          },
+          {
+            "Brand Name": "Janumet",
+            "Active Ingredient(s)": "sitagliptin,metformin"
+          },
+          {
+            "Brand Name": "Janumet XR",
+            "Active Ingredient(s)": "sitagliptin,metforminER"
+          },
+          {
+            "Brand Name": "Onglyza",
+            "Active Ingredient(s)": "saxagliptin"
+          },
+          {
+            "Brand Name": "Kombiglyze XR",
+            "Active Ingredient(s)": "saxagliptin,metforminER"
+          },
+          {
+            "Brand Name": "Tradjenta",
+            "Active Ingredient(s)": "linagliptin"
+          },
+          {
+            "Brand Name": "Glyxambi",
+            "Active Ingredient(s)": "linagliptin, empagliflozin"
+          },
+          {
+            "Brand Name": "Jentadueto",
+            "Active Ingredient(s)": "linagiptin,metformin"
+          },
+          {
+            "Brand Name": "Nesina",
+            "Active Ingredient(s)": "alogliptin"
+          },
+          {
+            "Brand Name": "Kazano",
+            "Active Ingredient(s)": "alogliptin,metformin"
+          },
+          {
+            "Brand Name": "Oseni",
+            "Active Ingredient(s)": "alogliptin, pioglitazone"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibit DPP-4, an enzyme expressed on surface of most cell types\nDPP-4 deacctivates other bioactive peptides, including incretins such as glucagon-like peptide-1 (GLP-1).\nGLP-1 is secreted in response to nutrients, stimulating glucose-dependent insulin release from pancreatic beta-cells, which in turn decreases blood sugar levels.\nAlso decreases gastric emptying and inhibits postprandial glucagon release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Effects": {
+      "text": "In controlled studies of sitagliptin (as monotherapy and combination therapy), overall incidence of adverse reactions/discontinuation similar to placebo\nMost commonly reported adverse reactions include nasopharyngitis, URI, HA\nPostmarketing surveillance found association with sitagliptin and development of acute\npancreatitis\nConfounding variables such as diabetes, hypercholesterolemia, hypertriglyceridemia, obesity\nAlso postmarketing reports of serious allergic reactions (including anaphylactoid reactions, angioedema, SJS)\nStudies of other drugs in this class additionally report lymphopenia, cough, peripheral edema, transaminitis, and hypertension.\nOther side effects reported in patients taking this class of medication include joint pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diabetes medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes medications",
+          "url": "https://wikem.org/wiki/Diabetes_medications"
+        }
+      ]
+    }
+  }
+}

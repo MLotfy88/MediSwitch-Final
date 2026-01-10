@@ -1,0 +1,127 @@
+{
+  "drug_name": "De_Winter%27s_T_waves",
+  "url": "https://wikem.org/wiki/De_Winter%27s_T_waves",
+  "scraped_at": "2026-01-10T07:51:30.356848",
+  "sections": {
+    "Background": {
+      "text": "First identified in 2008 by Dr. DeWinter - characteristic pattern in 30 of his 1532-patient database of anterior MI\n[1]\n2% of proximal LAD occlusions will have this presentation\nRepresents an acute proximal occlusion (unlike Wellen's sign which represents a subacute process)\nProposed\nSTEMI\n-equivalent\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Precordial ST-segment depression at the J-point, 1-3 mm\nTall, peaked, symmetric T waves in the precordial leads\nLead aVR shows slight ST-segment elevation in most cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Peaked_T-waves": {
+          "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        }
+      ]
+    },
+    "Peaked_T-waves": {
+      "text": "MI\n(hyperacute T waves)\nHyperkalemia\nBenign Early Repolarization\nDe Winter's T waves\n(acute LAD occlusion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Benign Early Repolarization",
+          "url": "https://wikem.org/wiki/Benign_Early_Repolarization"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "EKG\nTroponin\nCBC, metabolic panel\nCXR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Rapid recognition of pattern\nCath lab activation (education of consultants may be necessary due to unfamiliarity)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute coronary syndrome (main)\nST-segment elevation myocardial infarction (STEMI)\nWellens' syndrome\nSTEMI equivalents\nT wave changes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndrome (main)",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "ST-segment elevation myocardial infarction (STEMI)",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction_(STEMI)"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        },
+        {
+          "text": "T wave changes",
+          "url": "https://wikem.org/wiki/T_wave_changes"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "What are “de Winter T-waves”?\nLITFL - De Winter T Wave",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

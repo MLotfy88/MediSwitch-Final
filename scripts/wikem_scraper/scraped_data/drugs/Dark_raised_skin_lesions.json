@@ -1,0 +1,120 @@
+{
+  "drug_name": "Dark_raised_skin_lesions",
+  "url": "https://wikem.org/wiki/Dark_raised_skin_lesions",
+  "scraped_at": "2026-01-10T07:51:31.607223",
+  "sections": {
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Dark_raised_skin_lesions": {
+          "text": "Acanthosis nigricans\nSeborrheic keratosis\nMelanoma\nKaposi's sarcoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        }
+      ]
+    },
+    "Dark_raised_skin_lesions": {
+      "text": "Acanthosis nigricans\nSeborrheic keratosis\nMelanoma\nKaposi's sarcoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dark_raised_skin_lesions_2": {
+          "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "Dark_raised_skin_lesions_2": {
+      "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "General approach to rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General approach to rashes",
+          "url": "https://wikem.org/wiki/General_approach_to_rashes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "drug_name": "Dactylitis",
+  "url": "https://wikem.org/wiki/Dactylitis",
+  "scraped_at": "2026-01-10T07:51:27.258640",
+  "sections": {
+    "Background": {
+      "text": "Hand-foot syndrome\nVasoocclusive pain episodes in small bones of hand and feet\nTypical presentation is in infants with\nsickle cell disease\n45% infants with sickle cell will have this before age 2\nRare in older children\nPossible predictor of severity of disease\nAlso seen in adults with seronegative spondyloarthropathies (psoriatic arthritis, ankylosing spondylitis)\nAlso seen in\ntuberculosis\nand\nleprosy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Painful, symmetrical swelling of hands or feet\nMild erythema\nLow-grade\nfever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Osteomyelitis\nOther etiologies of\narthritis\nTrauma",
+      "subsections": {
+        "Sickle_cell_crisis": {
+          "text": "Vaso-occlusive pain crisis\nBony infarction\nDactylitis\nAvascular necrosis\nof femoral head\nAcute chest syndrome\nAsthma\nPulmonary hypertension\nGallbladder disease\nAcute hepatic sequestration\nInfection\nMeningitis\nPneumonia\nSeptic joint\nOsteomyelitis\nParvovirus B19\nSplenic sequestration\nCVA\nCerebral aneurysm and\nICH\nPriapism\nPapillary necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive pain crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_pain_crisis"
+        },
+        {
+          "text": "Bony infarction",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Splenic sequestration",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Sickle_cell_crisis": {
+      "text": "Vaso-occlusive pain crisis\nBony infarction\nDactylitis\nAvascular necrosis\nof femoral head\nAcute chest syndrome\nAsthma\nPulmonary hypertension\nGallbladder disease\nAcute hepatic sequestration\nInfection\nMeningitis\nPneumonia\nSeptic joint\nOsteomyelitis\nParvovirus B19\nSplenic sequestration\nCVA\nCerebral aneurysm and\nICH\nPriapism\nPapillary necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaso-occlusive pain crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_pain_crisis"
+        },
+        {
+          "text": "Bony infarction",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Splenic sequestration",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "XR often appears normal acutely\nRecurrent episodes can cause a mottled appearance to small bones of affected areas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Hydration\nAnti-inflammatory\nagents\nWarm packs\nAnalgesia\nHydroxyurea\nfor recurrent episodes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydration",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Anti-inflammatory",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesics_and_sedatives_(peds)"
+        },
+        {
+          "text": "Hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Inpatient admission if pain is not adequately controlled",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sickle cell crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "References": {
+      "text": "<UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "drug_name": "Cystic_fibrosis",
+  "url": "https://wikem.org/wiki/Cystic_fibrosis",
+  "scraped_at": "2026-01-10T07:51:24.938930",
+  "sections": {
+    "Background": {
+      "text": "Autosomal recessive genetic disorder\nMutation in cystic fibrosis transmembrane conductance regulator protein (CFTR) leads to defect of sodium/chloride exchange channel\nDefect in chloride transport leads to thick, viscous secretions in lungs, pancreas, liver, intestines, reproductive tract\nDiagnosed by sweat chloride test\nPredicted life expectancy less than 40 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Respiratory\nAcute exacerbations lead to increase in baseline cough and sputum production\nPneumonia\nChronic colonisation with multiple organisms\nStaph aureus\nand\nH. influenzae\ncommon in childhood\nMost become chronically colonised with\npseudomonas aeruginosa\nand/or virulent\ngram-negative\nbacteria\nColonisation with\npseudomonas aeruginosa\nusually occurs by late adolescence\nPseudomonas features include: severe pneumonia, cyanosis, confusion, often bilateral, occasionally empyema\nHigher risk for\naspergillosis\nIncreased risk of\npneumothorax\n(8%–20% will develop one in lifetime\n[1]\n)\nBronchitis\nSinusitis\nand nasal polyps\nChronic inflammation and infection lead to\nbronchiectasis\nand angiogenesis (may have\nhemoptysis\n)\nLong-standing disease can lead to\ncor pulmonale\nGastrointestinal\nMeconium\nileus\n: failure to pass meconium within first 48 hours of life\nEarliest clinical manifestation of disease\nOccurs in 10 - 20% of those diagnosed\n90% of babies with meconium ileus have cystic fibrosis\nObstruction\ndue to thick meconium\nCan lead to perforation if unrecognized\nDiagnosed and treated with hyperosmolar contrast enema\nPancreatic insufficiency\nOften leads to\nfailure to thrive\nin infancy\nPancreatitis\nDiarrhea\nand malnutrition due to resultant malabsorption\nOther\nElectrolyte disturbances\nChloride wasting and diarrhea can lead to\nhypokalemic\n, hypochloremic\nmetabolic alkalosis\nSuppurative parotitis\nRapid onset parotitis (warm, swollen, tender gland, fever, trismus)\nPurulent drainage from Stensen's duct\nOrganisms: staph, strep pneumo, strep pyogenes, H. flu, e. coli, pseudomonas",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "Obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "failure to thrive",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "hypokalemic",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Sweat chloride test to make diagnosis, may also be diagnosed by amniocentesis if high suspicion antenatally (outside ED scope)\nCBC (signs of infection)\nElectrolytes\nLFTs\nand lipase (if concern for\npancreatitis\n)\nConsider blood and sputum cultures (may have resistant organisms)\nCXR\nAdvanced disease: peribronchial thickening, mucous plugs, cystic/bullous lesions, atelectasis, hilar adenopathy, air trapping\nInfiltrates if\npneumonia\nPneumothorax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Short-Term_Management": {
+      "text": "Infections\nMany patients already on maintenance\nazithromycin\nor\ntobramycin\nAntibiotics for acute pneumonia must be broad and include pseudomonal coverage\ne.g.\nCefepime\n,\nImipenem\n,\nOR\nPiperacillin/Tazobactam\n+ IV\nfluoroquinolone\n, +/-\nvancomycin\nfor MRSA\nOther respiratory adjuncts\nAlbuterol\nor other short-acting\nBeta-2 agonist\nDornase alfa (inhaled recombinant deoxyribonuclease I, hydrolizes DNA in sputum to decrease viscosity)\nNebulized\nhypertonic saline\n(reduce sputum viscosity)\nInhaled nitric oxide\nChest physical therapy\nSee treatment for\npancreatitis\nRehydrate if volume depleted, replete electrolytes\nNote potential for\nhypoalbuminemia\nwhen giving extensively protein-bound drugs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Beta-2 agonist",
+          "url": "https://wikem.org/wiki/Beta-2_agonist"
+        },
+        {
+          "text": "hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Long-Term_Management": {
+      "text": "Chest physiotherapy\nExercise therapy\nPancreatic enzymes\nFat-soluble vitamin supplementation\nNebulised DNase\nLung transplant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dispo decision should be made in conjunction with patient's pulmonologist if possible, as they often know their patients very well",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pneumonia\nPseudomonas\nDiarrhea\nMetabolic alkalosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        }
+      ]
+    }
+  }
+}

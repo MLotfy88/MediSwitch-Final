@@ -1,0 +1,155 @@
+{
+  "drug_name": "D10W",
+  "url": "https://wikem.org/wiki/D10W",
+  "scraped_at": "2026-01-10T07:51:23.736162",
+  "sections": {
+    "General": {
+      "text": "Type:\nDextrose-based products\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dextrose-based products",
+          "url": "https://wikem.org/wiki/Dextrose-based_products"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Neonatal_hypoglycemia": {
+          "text": "Bolus 2-5 mL/kg\nThen infuse at 0.06-0.08 mL/kg/min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Neonatal_hypoglycemia": {
+      "text": "Bolus 2-5 mL/kg\nThen infuse at 0.06-0.08 mL/kg/min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Pediatric_Hypoglycemia_Dextrose_Chart": {
+      "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Neonatal",
+            "Age": "<2mo",
+            "Glucose": "<40",
+            "Treatment": "D10W",
+            "Initial IV Bolus": "2.5-5 mL/kg",
+            "Maintenance Dose": "6 mL/kg/h"
+          },
+          {
+            "Category": "Pediatric",
+            "Age": "2mo-8yrs",
+            "Glucose": "<60",
+            "Treatment": "D25W",
+            "Initial IV Bolus": "2 mL/kg",
+            "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+          },
+          {
+            "Category": "Adult",
+            "Age": ">8yrs",
+            "Glucose": "<70",
+            "Treatment": "D50W",
+            "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+            "Maintenance Dose": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    }
+  }
+}

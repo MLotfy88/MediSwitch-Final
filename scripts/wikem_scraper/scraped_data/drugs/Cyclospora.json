@@ -1,0 +1,55 @@
+{
+  "drug_name": "Cyclospora",
+  "url": "https://wikem.org/wiki/Cyclospora",
+  "scraped_at": "2026-01-10T07:51:21.784414",
+  "sections": {
+    "Background": {
+      "text": "one celled microscopic parasite that causes intestinal infection\nfecal-oral transmission\nendemic in tropical and subtropical regions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Signs/Symptoms": {
+      "text": "watery (sometimes explosive)\ndiarrhea\n, loss of appetite, weight loss, [[abdominal pain/cramps, bloating, increased flatus,\nnausea\n, and fatigue\ncan last days to over a month\nIn immunocompromised hosts, cyclospora may cause severe, intractable, voluminous diarrhea resembling cryptosporidiosis. Extraintestinal disease in patients with\nAIDS\nmay include cholecystitis and disseminated infection.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "stool O&P\nDetection is facilitated by staining stool samples with modified acid-fast stain or modified safranin stain. Multiple (≥ 3) stool specimens may be needed because cyst secretion may be intermittent (2)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Bactrim\n: 160mg TMP and 800mg SMX PO BID for 7 to 10 days for cyclosporiasis or for 10 days. Children are given 5mg/kg TMP and 25mg/kg SMX PO BID for the same number of days.\nImmunocompromised patients may require higher doses and longer duration of treatment, and treatment of acute infection is usually followed by long-term suppressive therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        }
+      ]
+    },
+    "References": {
+      "text": "1. U.S. Centers for Disease Control. Cyclosporiasis. Retrieved from\nhttp://www.cdc.gov/parasites/cyclosporiasis/gen_info/faqs.html\n2. RD Pearson. \"Cyclosporiasis and Cystoisosporiasis\". The Merck Manual. Retrieved from\nhttp://www.merckmanuals.com/professional/infectious-diseases/intestinal-protozoa/cyclosporiasis-and-cystoisosporiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

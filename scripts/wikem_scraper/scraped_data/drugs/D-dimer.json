@@ -1,0 +1,105 @@
+{
+  "drug_name": "D-dimer",
+  "url": "https://wikem.org/wiki/D-dimer",
+  "scraped_at": "2026-01-10T07:51:26.476070",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "Factors that can cause false-negative D-dimer\nSymptoms of\nPE\n> 3 days\nSmall\nPE\nUse of qualitative latex fixation test\nUse of\nanticoagulants\nFactors that can cause false-positive D-dimer\nCancer and malignancy\nRecent surgery\nInfection (eg,\npneumonia\n,\nsepsis\n)\nPregnancy\nAge > 70 years\nDIC\nTrauma\nArterial thrombosis\nACS\n/AMI\nVaso-occlusive\nsickle cell crisis\nAcute\nCVA\nVasculitis\nSuperficial\nphlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Arterial thrombosis",
+          "url": "https://wikem.org/wiki/Arterial_thrombosis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "phlebitis",
+          "url": "https://wikem.org/wiki/Phlebitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Traditional cutoff value = 500\nAge-adjusted (for patients 50 years or older) = age x 10\nD-dimer less than OR equal to age x 10 makes VTE unlikely\nMaintains high sensitivity while increasing specificity\n[1]\nYEARS\n[2]\nand PEGeD\n[3]\nadjust cut off base on clinical probability still being studied.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Age adjusted D-dimer\nPulmonary embolism\nDeep venous thrombosis\nD-dimer for pulmonary embolism in pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Age adjusted D-dimer",
+          "url": "https://wikem.org/wiki/Age_adjusted_D-dimer"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "D-dimer for pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy#D-Dimer"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "D-dimer threshold increase. Kline et. al.\nPediatric Emergency Playbook Podcast: Big Labs, Little People",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

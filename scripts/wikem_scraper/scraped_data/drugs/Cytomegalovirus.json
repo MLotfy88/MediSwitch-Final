@@ -1,0 +1,60 @@
+{
+  "drug_name": "Cytomegalovirus",
+  "url": "https://wikem.org/wiki/Cytomegalovirus",
+  "scraped_at": "2026-01-10T07:51:22.453160",
+  "sections": {
+    "CMV_Diseases": {
+      "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV esophagitis",
+          "url": "https://wikem.org/wiki/CMV_esophagitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "Background": {
+      "text": "Herpesvirus\n50% of Americans seropositive, almost all asymptomatic\nImmunosuppressed most likely to have symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_viruses"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Ganciclovir\nfirst line\nFoscarnet\n, cidofovir",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "drug_name": "Dabigatran_reversal",
+  "url": "https://wikem.org/wiki/Dabigatran_reversal",
+  "scraped_at": "2026-01-10T07:51:27.194556",
+  "sections": {
+    "Background": {
+      "text": "Brand name Pradaxa\nIf aPTT is <1.5 x control, it is unlikely that significant drug effect is present\nThrombin Time (TT) is most sensitive; normal TT excludes presence of significant dabigatran",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mild_Bleeding": {
+      "text": "Local control measures: direct pressure\nDelay next 1-2 doses\nOR\ndiscontinue (as appropriate)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Moderate-Severe_Bleeding": {
+      "text": "Local control measures: direct pressure/surgical intervention\nResuscitate with intravenous\nfluid\nand /\nblood products\nOral\ncharcoal\nadministration\nif drug taken <2 hours before presentation\nHemodialysis\nwill remove ~60% of drug taken over prior 2-3 hours\nConsider\nIdarucizumab\n(\nPraxbind\n): 5 grams IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fluid",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "Praxbind",
+          "url": "https://wikem.org/wiki/Praxbind"
+        }
+      ]
+    },
+    "Life-Threatening_Bleeding": {
+      "text": "Idarucizumab\n(Praxbind): 5 grams IV\nIn addition, consider above PLUS\nConsider FEIBA\n[1]\nConsider Recombinant Factor VIIa (no good data)\nConsider\nKcentra\n(PCC): 50 IU/kg IV bolus\n[2]\nConsider Tranexamic acid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "Kcentra",
+          "url": "https://wikem.org/wiki/Prothrombin_Complex_Concentrate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nAnticoagulants\nIdarucizumab\nAnticoagulant reversal for life-threatening bleeds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        }
+      ]
+    }
+  }
+}

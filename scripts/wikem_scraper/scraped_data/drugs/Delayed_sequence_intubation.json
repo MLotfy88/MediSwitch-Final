@@ -1,0 +1,326 @@
+{
+  "drug_name": "Delayed_sequence_intubation",
+  "url": "https://wikem.org/wiki/Delayed_sequence_intubation",
+  "scraped_at": "2026-01-10T07:51:35.125721",
+  "sections": {
+    "Background": {
+      "text": "Maximizes preoxygenation in an effort to minimize hypoxemia and adverse events related to the apneic period during intubation.\n[1]\nSimilar to\nprocedural sedation\n, except the procedure is preoxygenation itself.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Patients requiring intubation but are unable to tolerate preoxygenation due to altered mental status, severe hypoxemia, agitation, or other reasons\nLikely safe for use in pediatrics\n[2]\nPatients who require an additional procedure prior to intubation (i.e. NGT placement for\nGI bleed\n)\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications when performed urgently",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Medications\nInduction agent\nParalytic agent\nLaryngoscope (type based on clinical indication and provider preference/experience)\nDirect laryngoscope\nwith blade of provider's choice\nor\nVideo laryngoscope\n(Glidescope, C-Mac, KingVision, etc.)\nor\nFiberoptic device\nEndotracheal tube\nEnd-tidal CO2 device (colorimetric or quantitative)\nVentilator\nSuction\nIntubation adjuncts (\nbougie\n, lighted stylet, etc)\nBVM\nOPA\n/NPA\nMethod of preoxygenation (NC, NRB, C-PAP, etc)\nNonrebreather mask and nasal cannula for apneic oxygenation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Direct laryngoscope",
+          "url": "https://wikem.org/wiki/Direct_laryngoscope"
+        },
+        {
+          "text": "Video laryngoscope",
+          "url": "https://wikem.org/wiki/Video_laryngoscope"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Assemble required equipment and staff\nBe prepared for failed airway/deterioration\nPatient on cardiac monitor with pulse oximetry (preferably waveform\ncapnography\n)\nApply non-rebreather mask at flush rate and nasal cannula to 15 L/min each\nAdminister induction agent,\nIdeally\nketamine\n1-2mg/kg given mp blunting of patient respirations or airway reflexes\n[4]\nIn hypertensive and tachycardic patients,\ndexmedetomidine\ncan be administered at 1 mcg/kg. It is a α-2 agonist, which provides sedation with no blunting of respiratory drive or airway reflexes\n[5]\nIf SpO2 is <95% then use NIPPV or bag-valve mask with PEEP valve at 5-15 cmH20\nIf no improvement within 10 minutes, consider proceeding to intubation with suboptimal pulse oximetry reading\nAdminister neuromuscular blocker and wait 45-60 seconds\nPerform apneic oxygenation using 15 L/min O2 via nasal prongs +/- continue CPAP\nIntubate patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "capnography",
+          "url": "https://wikem.org/wiki/Capnography"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Same as\nNIPPV\nMedication reaction/side-effects",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NIPPV",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        }
+      ]
+    },
+    "Other_Considerations": {
+      "text": "Other medications (remifentanil) may be considered but lack evidence and do not have the same characteristics of ketamine (preserved airway protective reflexes, preserved respiratory drive, rapid onset)\nWeingart\n[6]\nfound that a small subset of patients (severe\nasthma\n) improved sufficiently as to no longer require intubation.  In these cases, avoid neuromuscular blockade, allow the induction agent to wear off (or administer further boluses to preserve oxygenation)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Ketamine\nLaryngospasm",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Laryngospasm",
+          "url": "https://wikem.org/wiki/Laryngospasm"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    }
+  }
+}

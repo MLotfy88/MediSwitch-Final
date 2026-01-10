@@ -1,0 +1,615 @@
+{
+  "drug_name": "Dacryoadenitis",
+  "url": "https://wikem.org/wiki/Dacryoadenitis",
+  "scraped_at": "2026-01-10T07:51:27.181936",
+  "sections": {
+    "Background": {
+      "text": "Ascension of agent from conjunctiva into lacrimal glands\nAnatomy\nTwo lobes: orbital and palpebral lobes\nPalpebral lobe visualized by everting eyes\nUncommon, with 1/10,000 ophthalmic patients having dacryoadenitis",
+      "subsections": {
+        "Etiology": {
+          "text": "Viral most common (\nmumps\n,\nEBV\n,\nHSV\n,\nCMV\n, echoviruses,\ncoxsackie virus\nA)\nBacterial\nS. Aureus\nand\nstrep\nmost common\nGC\n,\nsyphilis\n,\nchlamydia\n,\nTB\n, mycobacterium leprae (\nleprosy\n),\nborrelia burgdorferi\nFungal rare\nInflammatory systemic (\nsarcoidosis\n,\nGraves' disease\n,\nSjögren\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "borrelia burgdorferi",
+          "url": "https://wikem.org/wiki/Borrelia_burgdorferi"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "Sjögren",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Viral most common (\nmumps\n,\nEBV\n,\nHSV\n,\nCMV\n, echoviruses,\ncoxsackie virus\nA)\nBacterial\nS. Aureus\nand\nstrep\nmost common\nGC\n,\nsyphilis\n,\nchlamydia\n,\nTB\n, mycobacterium leprae (\nleprosy\n),\nborrelia burgdorferi\nFungal rare\nInflammatory systemic (\nsarcoidosis\n,\nGraves' disease\n,\nSjögren\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "borrelia burgdorferi",
+          "url": "https://wikem.org/wiki/Borrelia_burgdorferi"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "Sjögren",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Unilateral pain, redness, swelling, pressure in orbital supratemporal area\nRapid onset, hours to days\nChronic form > 1 mo\nMay be bilateral\nMay be painless\nMore common than acute form\nPhysical exam\nChemosis, conjunctival injection, mucopurulent discharge\nPropotosis\nSwelling of lateral third of upper lid (S-shaped lid)\nSystemic signs\nFever, URI, malaise\nParotid gland enlargement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Lacrimal gland tumor",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        },
+        "Neonatal_eye_problems": {
+          "text": "Nasolacrimal duct obstruction\nDacrocystitis\nConjunctivitis\nChemical\nGonococcal\nChlamydia\nHerpetic\nStreptococcus\n/\nS. Aureus\nEarly onset\nglaucoma\nUveitis\nOcular foreign body\nCorneal abrasion\nOcular trauma\nIngrown eyelash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Nasolacrimal duct obstruction",
+          "url": "https://wikem.org/wiki/Nasolacrimal_duct_obstruction"
+        },
+        {
+          "text": "Dacrocystitis",
+          "url": "https://wikem.org/wiki/Dacrocystitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Herpetic",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Ocular trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        }
+      ]
+    },
+    "Periorbital_swelling": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        },
+        "Neonatal_eye_problems": {
+          "text": "Nasolacrimal duct obstruction\nDacrocystitis\nConjunctivitis\nChemical\nGonococcal\nChlamydia\nHerpetic\nStreptococcus\n/\nS. Aureus\nEarly onset\nglaucoma\nUveitis\nOcular foreign body\nCorneal abrasion\nOcular trauma\nIngrown eyelash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Nasolacrimal duct obstruction",
+          "url": "https://wikem.org/wiki/Nasolacrimal_duct_obstruction"
+        },
+        {
+          "text": "Dacrocystitis",
+          "url": "https://wikem.org/wiki/Dacrocystitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Herpetic",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Ocular trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        }
+      ]
+    },
+    "Neonatal_eye_problems": {
+      "text": "Nasolacrimal duct obstruction\nDacrocystitis\nConjunctivitis\nChemical\nGonococcal\nChlamydia\nHerpetic\nStreptococcus\n/\nS. Aureus\nEarly onset\nglaucoma\nUveitis\nOcular foreign body\nCorneal abrasion\nOcular trauma\nIngrown eyelash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasolacrimal duct obstruction",
+          "url": "https://wikem.org/wiki/Nasolacrimal_duct_obstruction"
+        },
+        {
+          "text": "Dacrocystitis",
+          "url": "https://wikem.org/wiki/Dacrocystitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Herpetic",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Ocular trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT orbits with contrast if concern for\norbital cellulitis\nBacterial culture, fungal if suspect",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Warm compresses\nNSAIDs\nBased on etiology\nBacterial -\ncephalexin\n500mg q6 until culture results\nAdd\nTMP-SMX\n(TMP 160mg q12hr) if concern for MRSA\nProtozoal or fungal - treat underlying infection\nSystemic, inflammatory/noninfectious - investigate underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient ophtho referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

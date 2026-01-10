@@ -1,0 +1,219 @@
+{
+  "drug_name": "Dependent_personality_disorder",
+  "url": "https://wikem.org/wiki/Dependent_personality_disorder",
+  "scraped_at": "2026-01-10T07:51:36.522355",
+  "sections": {
+    "Background": {
+      "text": "A pervasive and excessive need to be taken care of that leads to submissive and clinging behavior and fears of separation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Five (or more) of the following criteria, beginning by early adulthood and present in a variety of contexts:\n[1]\nHas difficulty making everyday decisions without an excessive amount of advice and reassurance from others.\nNeeds others to assume responsibility for most major areas of his or her life.\nHas difficulty expressing disagreement with others because of fear of loss of support or approval.\nHas difficulty initiating projects or doing things on his or her own (because of a lack of self-confidence in judgment or abilities rather than a lack of motivation or energy).\nGoes to excessive lengths to obtain nurturance and support from others, to the point of volunteering to do things that are unpleasant.\nFeels uncomfortable or helpless when alone because of exaggerated fears of being unable to care for himself or herself.\nUrgently seeks another relationship as a source of care and support when a close re­lationship ends.\nIs unrealistically preoccupied with fears of being left to take care of himself or herself.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Other personality disorders\nPersonality change due to another medical condition\nSubstance use disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "A clinical diagnosis; however if entertaining other organic causes may initiate workup below",
+      "subsections": {
+        "General_ED_Psychiatric_Workup": {
+          "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "General_ED_Psychiatric_Workup": {
+      "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "May need lots of reassurance\nTry a low-key, casual tone\nRespond with empathy for emotions, but be firm and set boundaries regarding requests for excessive reassurances (e.g. emphasize what is already reassuring about presentation and that additional tests cannot be performed at this time)\nEmphasize follow-up plan and that patient can always return if deteriorates or not getting better, so that patient does not feel abandoned\nReferral for outpatient psychiatric treatment, as psychotherapy is the primary treatment.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Personality disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Personality disorders",
+          "url": "https://wikem.org/wiki/Personality_disorders"
+        }
+      ]
+    }
+  }
+}

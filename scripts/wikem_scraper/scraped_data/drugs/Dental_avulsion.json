@@ -1,0 +1,551 @@
+{
+  "drug_name": "Dental_avulsion",
+  "url": "https://wikem.org/wiki/Dental_avulsion",
+  "scraped_at": "2026-01-10T07:51:37.711824",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Dental_Numbering": {
+          "text": "Adult (permanent) teeth identified by numbers\nFrom the midline to the back of the mouth on each side, there is a central incisor, a lateral incisor, a canine, two premolars (bicuspids), and three molars\nChildren (non-permanent) teeth identified by letters\nCommon landmarks:\n1\n: Right upper wisdom\n8 & 9\n: Upper incisors\n16\n: Left upper wisdom\n17\n: Left lower wisdom\n24 & 25\n: Lower incisors\n32\n: Right lower wisdom\nDental emergency; for every minute that a permanent tooth remains out of the socket, the chance of successful reimplantation goes down by 1%\n[1]\nTooth is completely removed from its socket\nOften associated with alveolar ridge fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dental_Numbering": {
+      "text": "Adult (permanent) teeth identified by numbers\nFrom the midline to the back of the mouth on each side, there is a central incisor, a lateral incisor, a canine, two premolars (bicuspids), and three molars\nChildren (non-permanent) teeth identified by letters\nCommon landmarks:\n1\n: Right upper wisdom\n8 & 9\n: Upper incisors\n16\n: Left upper wisdom\n17\n: Left lower wisdom\n24 & 25\n: Lower incisors\n32\n: Right lower wisdom\nDental emergency; for every minute that a permanent tooth remains out of the socket, the chance of successful reimplantation goes down by 1%\n[1]\nTooth is completely removed from its socket\nOften associated with alveolar ridge fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Tooth missing from socket\nHistory of recent trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Dentoalveolar_Injuries": {
+      "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+      "subsections": {
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Odontogenic_Infections": {
+      "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+      "subsections": {
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Consider facial films, abdominal films, or CXR if possibility of tooth aspiration or ingestion",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Determine when avulsion occurred and what storage solution used\nIf re-implanting, best viability with immediate storage in Hank's Balanced Salt Solution, worst viability without any storage medium\nAccount for all teeth\nAspiration or swallowed\nRule out fragments in lacerations/oropharyngeal space, or significant intrusive luxation/impaction\nDetermine if tooth is primary or secondary\nTetanus status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "Consider facial films, abdominal films, or CXR if possibility of tooth aspiration or ingestion",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Determine when avulsion occurred and what storage solution used\nIf re-implanting, best viability with immediate storage in Hank's Balanced Salt Solution, worst viability without any storage medium\nAccount for all teeth\nAspiration or swallowed\nRule out fragments in lacerations/oropharyngeal space, or significant intrusive luxation/impaction\nDetermine if tooth is primary or secondary\nTetanus status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Determine when avulsion occurred and what storage solution used\nIf re-implanting, best viability with immediate storage in Hank's Balanced Salt Solution, worst viability without any storage medium\nAccount for all teeth\nAspiration or swallowed\nRule out fragments in lacerations/oropharyngeal space, or significant intrusive luxation/impaction\nDetermine if tooth is primary or secondary\nTetanus status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Adult": {
+          "text": "Replace avulsed tooth as soon as possible with local analgesia ± dental block (as long as no alveolar ridge fracture or severe socket injury)\nIf reimplanted within 1hr 66% chance of good outcome\nRinse (\nno scrubbing\n!) tooth in saline\nManipulate tooth\nonly by the crown\n(Avoid touching root to minimize damage to periodontal ligament)\nSplint tooth with adjacent teeth\nIf extraoral time > 60 min, soak in citric acid/fluoride and consult dentist\n[2]\nStorage solution (in order of efficacy):\nHank's Balanced Salt Solution\nor\nOral Rehydration Solution\n(e.g. Pedialyte) >\nMilk\n> saliva > saline\nDoxycycline\n100mg PO BID x 1week (helps periodontal ligaments heal)\nPenicillin\nOR\nClindamycin\nare alternatives, especially in pediatrics\nTetanus\nupdate",
+          "tables": []
+        },
+        "Child": {
+          "text": "Do not re-implant primary teeth\nIncreased risk of interference with the eruption of the permanent tooth\n[3]\nRefer to pediatric dentist for space maintainer within 1-2 weeks.\n[4]",
+          "tables": []
+        },
+        "Length_of_Periodontal_Ligament_Cell_Viability_Based_On_Storage_Medium_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Storage Medium": "Dry (no storage medium)",
+                "Length of Periodontal Ligament Viability": "< 60 minutes"
+              },
+              {
+                "Storage Medium": "Milk",
+                "Length of Periodontal Ligament Viability": "3 to 8 hours"
+              },
+              {
+                "Storage Medium": "Oral rehydration solution",
+                "Length of Periodontal Ligament Viability": "12 to 24 hours"
+              },
+              {
+                "Storage Medium": "Hanks’ balanced salt solution",
+                "Length of Periodontal Ligament Viability": "12 to 24 hours"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Adult": {
+      "text": "Replace avulsed tooth as soon as possible with local analgesia ± dental block (as long as no alveolar ridge fracture or severe socket injury)\nIf reimplanted within 1hr 66% chance of good outcome\nRinse (\nno scrubbing\n!) tooth in saline\nManipulate tooth\nonly by the crown\n(Avoid touching root to minimize damage to periodontal ligament)\nSplint tooth with adjacent teeth\nIf extraoral time > 60 min, soak in citric acid/fluoride and consult dentist\n[2]\nStorage solution (in order of efficacy):\nHank's Balanced Salt Solution\nor\nOral Rehydration Solution\n(e.g. Pedialyte) >\nMilk\n> saliva > saline\nDoxycycline\n100mg PO BID x 1week (helps periodontal ligaments heal)\nPenicillin\nOR\nClindamycin\nare alternatives, especially in pediatrics\nTetanus\nupdate",
+      "subsections": {
+        "Child": {
+          "text": "Do not re-implant primary teeth\nIncreased risk of interference with the eruption of the permanent tooth\n[3]\nRefer to pediatric dentist for space maintainer within 1-2 weeks.\n[4]",
+          "tables": []
+        },
+        "Length_of_Periodontal_Ligament_Cell_Viability_Based_On_Storage_Medium_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Storage Medium": "Dry (no storage medium)",
+                "Length of Periodontal Ligament Viability": "< 60 minutes"
+              },
+              {
+                "Storage Medium": "Milk",
+                "Length of Periodontal Ligament Viability": "3 to 8 hours"
+              },
+              {
+                "Storage Medium": "Oral rehydration solution",
+                "Length of Periodontal Ligament Viability": "12 to 24 hours"
+              },
+              {
+                "Storage Medium": "Hanks’ balanced salt solution",
+                "Length of Periodontal Ligament Viability": "12 to 24 hours"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Child": {
+      "text": "Do not re-implant primary teeth\nIncreased risk of interference with the eruption of the permanent tooth\n[3]\nRefer to pediatric dentist for space maintainer within 1-2 weeks.\n[4]",
+      "subsections": {
+        "Length_of_Periodontal_Ligament_Cell_Viability_Based_On_Storage_Medium_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Storage Medium": "Dry (no storage medium)",
+                "Length of Periodontal Ligament Viability": "< 60 minutes"
+              },
+              {
+                "Storage Medium": "Milk",
+                "Length of Periodontal Ligament Viability": "3 to 8 hours"
+              },
+              {
+                "Storage Medium": "Oral rehydration solution",
+                "Length of Periodontal Ligament Viability": "12 to 24 hours"
+              },
+              {
+                "Storage Medium": "Hanks’ balanced salt solution",
+                "Length of Periodontal Ligament Viability": "12 to 24 hours"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Length_of_Periodontal_Ligament_Cell_Viability_Based_On_Storage_Medium_": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Storage Medium": "Dry (no storage medium)",
+            "Length of Periodontal Ligament Viability": "< 60 minutes"
+          },
+          {
+            "Storage Medium": "Milk",
+            "Length of Periodontal Ligament Viability": "3 to 8 hours"
+          },
+          {
+            "Storage Medium": "Oral rehydration solution",
+            "Length of Periodontal Ligament Viability": "12 to 24 hours"
+          },
+          {
+            "Storage Medium": "Hanks’ balanced salt solution",
+            "Length of Periodontal Ligament Viability": "12 to 24 hours"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with dental follow-up on liquid diet\nShould be seen within 24-48 hours as splint only lasts up to 48 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dental Problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental Problems",
+          "url": "https://wikem.org/wiki/Dental_Problems"
+        }
+      ]
+    }
+  }
+}

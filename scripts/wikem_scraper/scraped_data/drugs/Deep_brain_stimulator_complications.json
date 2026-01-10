@@ -1,0 +1,76 @@
+{
+  "drug_name": "Deep_brain_stimulator_complications",
+  "url": "https://wikem.org/wiki/Deep_brain_stimulator_complications",
+  "scraped_at": "2026-01-10T07:51:31.689469",
+  "sections": {
+    "Background": {
+      "text": "FDA-approved for medication-refractory movement disorders (e.g.\nParkinson's disease\n, dystonia, essential tremor) and OCD\nBeing studied for use in\nepilepsy\n, chronic pain,\ndepression\n, PTSD\nSingle lead systems implanted into the thalamus\nComplication rates range from 7-65%\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    },
+    "Clinical_Features/Complication_Types": {
+      "text": "Infection\nUsually early after placement\nInfection rates ~3-10%\n[2]\nCerebral hemorrhage\nLead fracture or migration\nFailure of device to improve tremor/motor symptoms\nParesthesias\n(temporary or permanent)\nDysarthria\n, decreased verbal fluency\nDisequilibrium\nAffective changes (\ndepression\n, apathy), impaired executive function, impulsivity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Cerebral hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "May need to observe with device in \"off\" position to distinguish between device malfunction and other acute neurologic deficit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consult neurosurgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Medical device complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "drug_name": "Defibrillation",
+  "url": "https://wikem.org/wiki/Defibrillation",
+  "scraped_at": "2026-01-10T07:51:31.437843",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor defibrillation settings (joules) by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Unsynchronized shock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "It is important to note that the procedure and indications differ between\ndefibrillation\nand\ncardioversion",
+      "subsections": {
+        "Defibrillation_(Unsynchronized_Cardioversion)": {
+          "text": "Ventricular fibrillation\nPulseless ventricular tachycardia\nPolymorphic ventricular tachycardia",
+          "tables": []
+        },
+        "Synchronized_Cardioversion": {
+          "text": "Supraventricular tachycardia (SVT)\nAtrial fibrillation\nAtrial flutter\nVentricular tachycardia with a pulse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Pulseless ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Supraventricular tachycardia (SVT)",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia_(SVT)"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_(Main)"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Ventricular tachycardia with a pulse",
+          "url": "https://wikem.org/wiki/Tachycardia_(Wide)"
+        }
+      ]
+    },
+    "Synchronized_Cardioversion": {
+      "text": "Supraventricular tachycardia (SVT)\nAtrial fibrillation\nAtrial flutter\nVentricular tachycardia with a pulse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Supraventricular tachycardia (SVT)",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia_(SVT)"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_(Main)"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Ventricular tachycardia with a pulse",
+          "url": "https://wikem.org/wiki/Tachycardia_(Wide)"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Automated External Defibrillator (AED)\nDefibrillator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Apply pads or paddles\nPaddles may be slightly quicker but pads are viewed to be safer\n[1]\nLarger pads reduce transthoracic impedance\n[2]\n“Adult” size in adults\n“Adult” size (8 to 10 cm) for children >10 kg (> approximately 1 year)\n[3]\n“Infant” size for infants <10 kg\n4 accepted pad positions: anterolateral, anteroposterior, anterior-left infrascapular, and anterior-right-infrascapular\nAnteroposterior position performs slightly better\n[4]\nBiphasic setting\nInitial 120-200J for VF/pulseless Vtach in adults (Monophasic 360J)\n[5]\nInitial 2-4J/kg (Do not exceed J/kg) for pediatric VF/pulseless Vtach\n[6]\nBiphasic defibrillates more effectively and at lower energies than monophasic waveforms\n[7]\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Defibrillator Refractory\nVF\nConsider apply 2 defibrillators and delivering\ndouble sequential external shocks\n[9]\n[10]\nConsider\nesmolol\nbolus 500 mcg/kg IVP over 30 seconds followed by drip of 50 mcg/kg/min if ROSC obtained\n[11]\nConsider\nstellate ganglion nerve block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VF",
+          "url": "https://wikem.org/wiki/VF"
+        },
+        {
+          "text": "double sequential external shocks",
+          "url": "https://wikem.org/wiki/Double_simultaneous_external_defibrillation"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "stellate ganglion nerve block",
+          "url": "https://wikem.org/wiki/Stellate_Ganglion_Nerve_Block"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACLS (Main)\nPALS (Main)\nSynchronized cardioversion\nTachycardia (Wide)\nAdult pulseless arrest\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Tachycardia (Wide)",
+          "url": "https://wikem.org/wiki/Tachycardia_(Wide)"
+        },
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

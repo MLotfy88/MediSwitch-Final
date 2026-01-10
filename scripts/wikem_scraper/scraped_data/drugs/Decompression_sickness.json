@@ -1,0 +1,1025 @@
+{
+  "drug_name": "Decompression_sickness",
+  "url": "https://wikem.org/wiki/Decompression_sickness",
+  "scraped_at": "2026-01-10T07:51:32.495783",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"the bends\"\nDissolved nitrogen (and occasionally helium) comes out of solution and forms bubbles in blood and tissue\nOccurs in rapid ascent in diving, and more rarely in military operations rapid ascent in high altitude aviation or hypobarics training\nAlthough decompression sickness can occur in both astronauts and divers, with similar physiology, the processes of disease differ due to a\nreduction in ambient pressure\nin space compared to an increase in ambient pressure when diving.",
+      "subsections": {
+        "Diving_Physiology": {
+          "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "reduction in ambient pressure",
+          "url": "https://wikem.org/wiki/Astronaut_Physiology"
+        }
+      ]
+    },
+    "Diving_Physiology": {
+      "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptom typically start soon after surfacing\n42% in 1 hr, 60% in 3 hr, and 98% in 24 hr\n[1]\nCNS cases present more rapidly – 56% within 10 mins\n[2]\nSome symptoms can be delayed for days\n[3]",
+      "subsections": {
+        "Musculoskeletal_System": {
+          "text": "Joint pain and swelling (the \"bends\")\nMuscle weakness and fatigue\nReduced range of motion and mobility",
+          "tables": []
+        },
+        "Nervous_System": {
+          "text": "Numbness, tingling, and paresthesia\nConfusion, disorientation, and loss of consciousness\nSeizures and stroke like symptoms",
+          "tables": []
+        },
+        "Circulatory_System": {
+          "text": "Arrhythmias and decreased cardiac output\nShortness of breath and coughing\nHypotension\nprogressing to shock",
+          "tables": []
+        },
+        "Respiratory_System": {
+          "text": "Pulmonary edema and hemorrhage\nPneumothorax\nand\npneumomediastinum\nPulmonary over inflation syndrome",
+          "tables": []
+        },
+        "Skin_and_Integumentary_System": {
+          "text": "Cutaneous lesions and rashes\nSkin necrosis and gangrene",
+          "tables": []
+        },
+        "Gastrointestinal_System": {
+          "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+          "tables": []
+        },
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary over inflation syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_over_inflation_syndrome"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Musculoskeletal_System": {
+      "text": "Joint pain and swelling (the \"bends\")\nMuscle weakness and fatigue\nReduced range of motion and mobility",
+      "subsections": {
+        "Nervous_System": {
+          "text": "Numbness, tingling, and paresthesia\nConfusion, disorientation, and loss of consciousness\nSeizures and stroke like symptoms",
+          "tables": []
+        },
+        "Circulatory_System": {
+          "text": "Arrhythmias and decreased cardiac output\nShortness of breath and coughing\nHypotension\nprogressing to shock",
+          "tables": []
+        },
+        "Respiratory_System": {
+          "text": "Pulmonary edema and hemorrhage\nPneumothorax\nand\npneumomediastinum\nPulmonary over inflation syndrome",
+          "tables": []
+        },
+        "Skin_and_Integumentary_System": {
+          "text": "Cutaneous lesions and rashes\nSkin necrosis and gangrene",
+          "tables": []
+        },
+        "Gastrointestinal_System": {
+          "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+          "tables": []
+        },
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary over inflation syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_over_inflation_syndrome"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Nervous_System": {
+      "text": "Numbness, tingling, and paresthesia\nConfusion, disorientation, and loss of consciousness\nSeizures and stroke like symptoms",
+      "subsections": {
+        "Circulatory_System": {
+          "text": "Arrhythmias and decreased cardiac output\nShortness of breath and coughing\nHypotension\nprogressing to shock",
+          "tables": []
+        },
+        "Respiratory_System": {
+          "text": "Pulmonary edema and hemorrhage\nPneumothorax\nand\npneumomediastinum\nPulmonary over inflation syndrome",
+          "tables": []
+        },
+        "Skin_and_Integumentary_System": {
+          "text": "Cutaneous lesions and rashes\nSkin necrosis and gangrene",
+          "tables": []
+        },
+        "Gastrointestinal_System": {
+          "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+          "tables": []
+        },
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary over inflation syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_over_inflation_syndrome"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Circulatory_System": {
+      "text": "Arrhythmias and decreased cardiac output\nShortness of breath and coughing\nHypotension\nprogressing to shock",
+      "subsections": {
+        "Respiratory_System": {
+          "text": "Pulmonary edema and hemorrhage\nPneumothorax\nand\npneumomediastinum\nPulmonary over inflation syndrome",
+          "tables": []
+        },
+        "Skin_and_Integumentary_System": {
+          "text": "Cutaneous lesions and rashes\nSkin necrosis and gangrene",
+          "tables": []
+        },
+        "Gastrointestinal_System": {
+          "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+          "tables": []
+        },
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary over inflation syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_over_inflation_syndrome"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Respiratory_System": {
+      "text": "Pulmonary edema and hemorrhage\nPneumothorax\nand\npneumomediastinum\nPulmonary over inflation syndrome",
+      "subsections": {
+        "Skin_and_Integumentary_System": {
+          "text": "Cutaneous lesions and rashes\nSkin necrosis and gangrene",
+          "tables": []
+        },
+        "Gastrointestinal_System": {
+          "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+          "tables": []
+        },
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary over inflation syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_over_inflation_syndrome"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Skin_and_Integumentary_System": {
+      "text": "Cutaneous lesions and rashes\nSkin necrosis and gangrene",
+      "subsections": {
+        "Gastrointestinal_System": {
+          "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+          "tables": []
+        },
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Gastrointestinal_System": {
+      "text": "Nausea and vomiting\nAbdominal pain and cramping\nDiarrhea and constipation",
+      "subsections": {
+        "Urinary_System": {
+          "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+          "tables": []
+        },
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Urinary_System": {
+      "text": "Hematuria\nand\nproteinuria\nRenal failure and\nacute kidney injury\nUrinary retention and incontinence",
+      "subsections": {
+        "Eyes_and_Vision": {
+          "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+          "tables": []
+        },
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Eyes_and_Vision": {
+      "text": "Diplopia\nEye pain and redness\nRetinal hemorrhage\nand vision loss",
+      "subsections": {
+        "Inner_Ear_and_Hearing": {
+          "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Inner_Ear_and_Hearing": {
+      "text": "Hearing loss and tinnitus\nVertigo\nand balance disturbance\nEar pain and fullness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diving_Emergencies": {
+          "text": "Barotrauma of descent\nOtic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)\nBarotrauma of ascent\nPulmonary barotrauma\n(\npulmonary overpressurization syndrome\n)\nDecompression sickness\n(DCS)\nArterial gas embolism\nAlternobaric vertigo\nFacial baroparesis (Bells Palsy)\nAt depth injuries\nOxygen toxicity\nNitrogen narcosis\nHypothermia\nContaminated gas mixture (e.g.\nCO toxicity\n)\nCaustic cocktail\nfrom rebreathing circuit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "pulmonary overpressurization syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_overpressurization_syndrome"
+        },
+        {
+          "text": "Arterial gas embolism",
+          "url": "https://wikem.org/wiki/Arterial_gas_embolism"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "CO toxicity",
+          "url": "https://wikem.org/wiki/CO_toxicity"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        }
+      ]
+    },
+    "Diving_Emergencies": {
+      "text": "Barotrauma of descent\nOtic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)\nBarotrauma of ascent\nPulmonary barotrauma\n(\npulmonary overpressurization syndrome\n)\nDecompression sickness\n(DCS)\nArterial gas embolism\nAlternobaric vertigo\nFacial baroparesis (Bells Palsy)\nAt depth injuries\nOxygen toxicity\nNitrogen narcosis\nHypothermia\nContaminated gas mixture (e.g.\nCO toxicity\n)\nCaustic cocktail\nfrom rebreathing circuit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        },
+        {
+          "text": "Pulmonary barotrauma",
+          "url": "https://wikem.org/wiki/Pulmonary_barotrauma"
+        },
+        {
+          "text": "pulmonary overpressurization syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_overpressurization_syndrome"
+        },
+        {
+          "text": "Arterial gas embolism",
+          "url": "https://wikem.org/wiki/Arterial_gas_embolism"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "CO toxicity",
+          "url": "https://wikem.org/wiki/CO_toxicity"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "In patients that are ambiguous or decompensated, consider additional workup without delaying definitive treatment\nOther considerations\nFingerstick\nCBC\nChem10\nLactate\nPT/PTT\nVBG\n(or\nABG\n)\nEthanol level\nConsider\nUDT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Decompression sickness is a clinical diagnosis\nPain may be reduced by BP cuff inflation over the joint to 150-200 mmHg",
+          "tables": []
+        },
+        "Type_I_(Pain_only_DCS)": {
+          "text": "Involves the\njoints\nand extremities, with constitutional symptoms\nUsually only single joint is involved, most commonly:\nShoulder\nElbow\nKnee\nSkin and lymphatics\nPruritus\n, stinging,\nparesthesias\n, hot/cold sensations\nFine scarletiniform\nrash\nfrom nitrogen movement through sweat glands\nCutis marmorata - marbling rash, purplish-bluish discoloration, otherwise common and normal in infants\nPitting edema, peripheral swelling from lymphatic blockage",
+          "tables": []
+        },
+        "Type_II_(Serious_DCS)": {
+          "text": "Some consider multiple joint involvement qualifies as Type II\nSpinal cord involvement\nAscending\nparalysis\nSigns often cannot be traced to single location in the cord (may have skip lesions)\nLimb weakness, paresthesias, or paralysis\nUrinary retention\n, fecal incontinence, or\npriapism\nVestibular (\"staggers\") involvement\nVertigo\n,\nhearing loss\n,\ntinnitus\nDifferentiated from inner ear barotrauma which usually occurs on descent\nPulmonary \"chokes\"\nCough\n,\nhemoptysis\n,\ndyspnea\n, substernal\nchest pain",
+          "tables": []
+        },
+        "Type_III_(Type_II_+_gas_embolism)": {
+          "text": "Variety of\nstroke\nsymptoms/signs\nMay spontaneously resolve",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "UDT",
+          "url": "https://wikem.org/wiki/UDT"
+        },
+        {
+          "text": "joints",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "In patients that are ambiguous or decompensated, consider additional workup without delaying definitive treatment\nOther considerations\nFingerstick\nCBC\nChem10\nLactate\nPT/PTT\nVBG\n(or\nABG\n)\nEthanol level\nConsider\nUDT",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Decompression sickness is a clinical diagnosis\nPain may be reduced by BP cuff inflation over the joint to 150-200 mmHg",
+          "tables": []
+        },
+        "Type_I_(Pain_only_DCS)": {
+          "text": "Involves the\njoints\nand extremities, with constitutional symptoms\nUsually only single joint is involved, most commonly:\nShoulder\nElbow\nKnee\nSkin and lymphatics\nPruritus\n, stinging,\nparesthesias\n, hot/cold sensations\nFine scarletiniform\nrash\nfrom nitrogen movement through sweat glands\nCutis marmorata - marbling rash, purplish-bluish discoloration, otherwise common and normal in infants\nPitting edema, peripheral swelling from lymphatic blockage",
+          "tables": []
+        },
+        "Type_II_(Serious_DCS)": {
+          "text": "Some consider multiple joint involvement qualifies as Type II\nSpinal cord involvement\nAscending\nparalysis\nSigns often cannot be traced to single location in the cord (may have skip lesions)\nLimb weakness, paresthesias, or paralysis\nUrinary retention\n, fecal incontinence, or\npriapism\nVestibular (\"staggers\") involvement\nVertigo\n,\nhearing loss\n,\ntinnitus\nDifferentiated from inner ear barotrauma which usually occurs on descent\nPulmonary \"chokes\"\nCough\n,\nhemoptysis\n,\ndyspnea\n, substernal\nchest pain",
+          "tables": []
+        },
+        "Type_III_(Type_II_+_gas_embolism)": {
+          "text": "Variety of\nstroke\nsymptoms/signs\nMay spontaneously resolve",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "UDT",
+          "url": "https://wikem.org/wiki/UDT"
+        },
+        {
+          "text": "joints",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Decompression sickness is a clinical diagnosis\nPain may be reduced by BP cuff inflation over the joint to 150-200 mmHg",
+      "subsections": {
+        "Type_I_(Pain_only_DCS)": {
+          "text": "Involves the\njoints\nand extremities, with constitutional symptoms\nUsually only single joint is involved, most commonly:\nShoulder\nElbow\nKnee\nSkin and lymphatics\nPruritus\n, stinging,\nparesthesias\n, hot/cold sensations\nFine scarletiniform\nrash\nfrom nitrogen movement through sweat glands\nCutis marmorata - marbling rash, purplish-bluish discoloration, otherwise common and normal in infants\nPitting edema, peripheral swelling from lymphatic blockage",
+          "tables": []
+        },
+        "Type_II_(Serious_DCS)": {
+          "text": "Some consider multiple joint involvement qualifies as Type II\nSpinal cord involvement\nAscending\nparalysis\nSigns often cannot be traced to single location in the cord (may have skip lesions)\nLimb weakness, paresthesias, or paralysis\nUrinary retention\n, fecal incontinence, or\npriapism\nVestibular (\"staggers\") involvement\nVertigo\n,\nhearing loss\n,\ntinnitus\nDifferentiated from inner ear barotrauma which usually occurs on descent\nPulmonary \"chokes\"\nCough\n,\nhemoptysis\n,\ndyspnea\n, substernal\nchest pain",
+          "tables": []
+        },
+        "Type_III_(Type_II_+_gas_embolism)": {
+          "text": "Variety of\nstroke\nsymptoms/signs\nMay spontaneously resolve",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "joints",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment based almost solely on case reports and series\nABCs/BLS/ACLS\nDenitrogenation with 100% NRB regardless of SpO2, and continue 2 hours after symptom resolution\nKeep supine, Trendelenburg not recommended\n[4]\nInitiate IV crystalloid fluids, rate of 250 cc/hr for first few hours\nHyperbaric oxygen\nEffective even in delayed cases\nImmediate recompression for suspicion of Type 2 DCS, in consultation with hyperbarics specialist\nDo not wait for recompression, but if delayed presentation, may recompress up to 14 days after symptom onset\n[5]\n[6]\nIf due to high altitude aviation or hypobarics\nDescend to ground level ASAP\nMany divers carry insurance covering diving accidents and related medical problems, including costs of transfer for hyperbarics, through the\nDivers Alert Network\n- a worldwide, non-profit cooperative dedicated to dive safety. Coverage for transfer costs may require DAN arrange the transfer. Expert consultation over the phone, similar to Poison Control, may also be available. Whether or not you can confirm the patient has such coverage, and unless your facility has hyperbaric treatment available in-house, you should consider contacting them:\nDivers Alert Network 24/7 hotline - +1-919-684-9111\nIf patient requires transport to another facility, consider ground transport, air transport at max of 1000 ft, or air transport with pressurization capability\nO2\nwith tight fitting mask during flight\nConsider adjuncts such as\nLidocaine\n, Perfluorocarbon emulsions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Hyperbaric chamber and admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "One study showed at an average of 6.1 yrs, almost 50% of patients had impairments\n[7]\nThese include impaired urination, defecation, and sexual function",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Scuba diving emergencies\nArterial gas embolism\nDiving Medicine\nHyperbaric Medicine\nEbullism syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scuba diving emergencies",
+          "url": "https://wikem.org/wiki/Scuba_diving_emergencies"
+        },
+        {
+          "text": "Arterial gas embolism",
+          "url": "https://wikem.org/wiki/Arterial_gas_embolism"
+        },
+        {
+          "text": "Diving Medicine",
+          "url": "https://wikem.org/wiki/Diving_Medicine"
+        },
+        {
+          "text": "Hyperbaric Medicine",
+          "url": "https://wikem.org/wiki/Hyperbaric_Medicine"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        }
+      ]
+    }
+  }
+}

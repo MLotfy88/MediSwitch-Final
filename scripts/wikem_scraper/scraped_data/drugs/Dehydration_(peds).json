@@ -1,0 +1,81 @@
+{
+  "drug_name": "Dehydration_(peds)",
+  "url": "https://wikem.org/wiki/Dehydration_(peds)",
+  "scraped_at": "2026-01-10T07:51:36.009278",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\ndehydration\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "1kg body wt = to 1 liter fluid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Decreased urine output\nSunken fontanelle\nMost reliable:\n[1]\nAbnormal capillary refill\nAbnormal respiratory pattern\nDecreased skin turgor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ondansteron\nfor\nvomiting\nMild to moderate dehydration: start with trial of\noral rehydration therapy\nor half strength apple juice\n[2]\n[3]\nPart of\nACEP Choosing wisely\nProvide ORS solution (e.g. Pedialyte) at 50 to 100 mL/kg over 2-4 hours in small doses q5min\nIf the child vomits, wait 15 minutes then try again\nProvide additional ORS to replace ongoing GI losses\nConsider\nFluid Repletion (IVF)\nonly if severely dehydrated, not tolerating oral intake or failed oral rehydration therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ondansteron",
+          "url": "https://wikem.org/wiki/Ondansteron"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "oral rehydration therapy",
+          "url": "https://wikem.org/wiki/Oral_rehydration_therapy"
+        },
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "Fluid Repletion (IVF)",
+          "url": "https://wikem.org/wiki/Fluid_Repletion_(IVF)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fluid Repletion (IVF)\nAcute gastroenteritis (peds)\nNausea and vomiting (peds)\nDiarrhea (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid Repletion (IVF)",
+          "url": "https://wikem.org/wiki/Fluid_Repletion_(IVF)"
+        },
+        {
+          "text": "Acute gastroenteritis (peds)",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Nausea and vomiting (peds)",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Diarrhea (peds)",
+          "url": "https://wikem.org/wiki/Diarrhea_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Subcutaneous Rehydration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

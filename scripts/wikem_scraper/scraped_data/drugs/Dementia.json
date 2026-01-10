@@ -1,0 +1,486 @@
+{
+  "drug_name": "Dementia",
+  "url": "https://wikem.org/wiki/Dementia",
+  "scraped_at": "2026-01-10T07:51:35.912210",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "DSM-IV_Definition": {
+          "text": "Major impairment in learning and memory plus impairment in handling complex tasks, impairment in reasoning ability, impaired spatial ability and orientation, or impaired language\nSymptoms significantly interfere with work, usual social activities, relationships\nSignificant decline from previous level of functioning\nDisturbances are insidious and progressive\nDisturbances are not occurring exclusively during the course of delirium\nDisturbances are not accounted for by major psychiatric diagnosis\nDisturbances are not accounted for by systemic disease or another brain disease",
+          "tables": []
+        },
+        "Inappropriate_Medications_in_Dementia": {
+          "text": "Most common: Cholinesterase inhibitors, memantine hydrochloride, lipid lower agents, antiplatelet (except aspirin)\nOthers: hormone antagonists, leukotriene inhibitors, cytotoxic chemotherapy, immunomodulators",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "DSM-IV_Definition": {
+      "text": "Major impairment in learning and memory plus impairment in handling complex tasks, impairment in reasoning ability, impaired spatial ability and orientation, or impaired language\nSymptoms significantly interfere with work, usual social activities, relationships\nSignificant decline from previous level of functioning\nDisturbances are insidious and progressive\nDisturbances are not occurring exclusively during the course of delirium\nDisturbances are not accounted for by major psychiatric diagnosis\nDisturbances are not accounted for by systemic disease or another brain disease",
+      "subsections": {
+        "Inappropriate_Medications_in_Dementia": {
+          "text": "Most common: Cholinesterase inhibitors, memantine hydrochloride, lipid lower agents, antiplatelet (except aspirin)\nOthers: hormone antagonists, leukotriene inhibitors, cytotoxic chemotherapy, immunomodulators",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Inappropriate_Medications_in_Dementia": {
+      "text": "Most common: Cholinesterase inhibitors, memantine hydrochloride, lipid lower agents, antiplatelet (except aspirin)\nOthers: hormone antagonists, leukotriene inhibitors, cytotoxic chemotherapy, immunomodulators",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Loss of mental capacity\nSlow and steady course\nHallucinations, delusions, repetitive behaviors, and depression are all common\nMay coexist with\ndelirium\nPoor score on\nMini-Mental Status Exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Mini-Mental Status Exam",
+          "url": "https://wikem.org/wiki/Mini-Mental_Status_Exam"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dementia_Acronym": {
+          "text": "D = drug-induced\nE = emotions (depression especially)\nM = metabolic and endocrine issues\nE = eyes and ears (sensory problems)\nN = nutritional issues (B12 and Vit. D)\nT = tumors\nI = infections\nA = alcohol\nS = sleep disorders and rarely seizures",
+          "tables": []
+        },
+        "Dementia": {
+          "text": "Degenerative\nAlzheimer's\ndisease\nHuntington's disease\nParkinson's disease\nVascular\nMultiple\ninfarcts\nHypoperfusion (\nMI\n, profound\nhypotension\n)\nSubdural hematoma\nSAH\nInfectious\nMeningitis\n(sequelae of bacterial, fungal, or tubercular)\nNeurosyphilis\nViral\nencephalitis\n(\nHSV\n,\nHIV\n), Creutzfeldt-Jakob disease\nInflammatory\nSLE\nDemyelinating disease (e.g.\nmultiple sclerosis\n)\nNeoplastic\nPrimary\nbrain tumor\n/ metastatic disease\nCarcinomatous meningitis\nParaneoplastic syndromes\nTraumatic\nTraumatic brain injury\nSubdural hematoma\nToxic\nETOH\nMeds (\nanticholinergics\n, polypharmacy)\nMetabolic\nB12 deficiency\nor\nfolate deficiency\nThyroid Disease\nUremia\nPsychiatric\nDepression\n(pseudodementia)\nHydrocephalic\nNormal pressure hydrocephalus (communicating hydrocephalus)\nNoncommunicating\nhydrocephalus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "infarcts",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Traumatic brain injury",
+          "url": "https://wikem.org/wiki/Traumatic_brain_injury"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Normal pressure hydrocephalus (communicating hydrocephalus)",
+          "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Dementia_Acronym": {
+      "text": "D = drug-induced\nE = emotions (depression especially)\nM = metabolic and endocrine issues\nE = eyes and ears (sensory problems)\nN = nutritional issues (B12 and Vit. D)\nT = tumors\nI = infections\nA = alcohol\nS = sleep disorders and rarely seizures",
+      "subsections": {
+        "Dementia": {
+          "text": "Degenerative\nAlzheimer's\ndisease\nHuntington's disease\nParkinson's disease\nVascular\nMultiple\ninfarcts\nHypoperfusion (\nMI\n, profound\nhypotension\n)\nSubdural hematoma\nSAH\nInfectious\nMeningitis\n(sequelae of bacterial, fungal, or tubercular)\nNeurosyphilis\nViral\nencephalitis\n(\nHSV\n,\nHIV\n), Creutzfeldt-Jakob disease\nInflammatory\nSLE\nDemyelinating disease (e.g.\nmultiple sclerosis\n)\nNeoplastic\nPrimary\nbrain tumor\n/ metastatic disease\nCarcinomatous meningitis\nParaneoplastic syndromes\nTraumatic\nTraumatic brain injury\nSubdural hematoma\nToxic\nETOH\nMeds (\nanticholinergics\n, polypharmacy)\nMetabolic\nB12 deficiency\nor\nfolate deficiency\nThyroid Disease\nUremia\nPsychiatric\nDepression\n(pseudodementia)\nHydrocephalic\nNormal pressure hydrocephalus (communicating hydrocephalus)\nNoncommunicating\nhydrocephalus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "infarcts",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Traumatic brain injury",
+          "url": "https://wikem.org/wiki/Traumatic_brain_injury"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Normal pressure hydrocephalus (communicating hydrocephalus)",
+          "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Dementia": {
+      "text": "Degenerative\nAlzheimer's\ndisease\nHuntington's disease\nParkinson's disease\nVascular\nMultiple\ninfarcts\nHypoperfusion (\nMI\n, profound\nhypotension\n)\nSubdural hematoma\nSAH\nInfectious\nMeningitis\n(sequelae of bacterial, fungal, or tubercular)\nNeurosyphilis\nViral\nencephalitis\n(\nHSV\n,\nHIV\n), Creutzfeldt-Jakob disease\nInflammatory\nSLE\nDemyelinating disease (e.g.\nmultiple sclerosis\n)\nNeoplastic\nPrimary\nbrain tumor\n/ metastatic disease\nCarcinomatous meningitis\nParaneoplastic syndromes\nTraumatic\nTraumatic brain injury\nSubdural hematoma\nToxic\nETOH\nMeds (\nanticholinergics\n, polypharmacy)\nMetabolic\nB12 deficiency\nor\nfolate deficiency\nThyroid Disease\nUremia\nPsychiatric\nDepression\n(pseudodementia)\nHydrocephalic\nNormal pressure hydrocephalus (communicating hydrocephalus)\nNoncommunicating\nhydrocephalus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "infarcts",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Traumatic brain injury",
+          "url": "https://wikem.org/wiki/Traumatic_brain_injury"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Normal pressure hydrocephalus (communicating hydrocephalus)",
+          "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Major workup consists of ruling out treatable causes of\ndementia\n/\ndelirium\nEvaluate for precipitant of acute decompensation (e.g. infection, dehydration, MI)\nMini mental status exam\nSix item screen\nCBC\nMegaloblastic anemia points to\nvitamin B12 deficiency\nNormocytic anemia with an elevated RDW may indicated B12 deficiency as well if there are some RBCs with a small MCV and many with a large MCW.\nChemistry 10\nLFTs\nUrinalysis\nECG\nCXR\nETOH\nUrine toxicology screen\nCT head\nConsider\nLFTs\n, TSH\nB12, RPR, ESR, ANA, Folate, Thiamine, HIV\nNeuropsych eval\nConsider\nLP\n, urine heavy metals, EEG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Mini mental status exam",
+          "url": "https://wikem.org/wiki/Mini_mental_status_exam"
+        },
+        {
+          "text": "Six item screen",
+          "url": "https://wikem.org/wiki/Six_item_screen"
+        },
+        {
+          "text": "vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying cause (if possible)\nTreat pathology that may be contributing to acute decompensation/presentation (e.g.\nUTI\n,\npneumonia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Altered Mental Status\nDementia Work-Up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Dementia Work-Up",
+          "url": "https://wikem.org/wiki/Dementia_Work-Up"
+        }
+      ]
+    }
+  }
+}

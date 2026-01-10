@@ -1,0 +1,229 @@
+{
+  "drug_name": "Dalbavancin",
+  "url": "https://wikem.org/wiki/Dalbavancin",
+  "scraped_at": "2026-01-10T07:51:30.728261",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntibiotic\nDosage Forms: 500 mg/vial; reconstituted concentration 20 mg/ml\nRoutes of Administration: Intravenous\nCommon Trade Names: Dalvance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1500 mg as single dose or 1000 mg then 500 mg one week later; infuse over 30 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety and efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Maternal risk cannot be ruled out",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Fetal risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "CrCl less than 30 mL/min and not receiving hemodialysis: Single-dose regimen, 1125 mg IV infusion; 2-dose regimen, 750 mg IV infusion followed by 375 mg IV infusion 1 week later\n[1]\nNo adjustment necessary if on\nhemodialysis",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Hepatic impairment, mild (Child-Pugh class A): No adjustment necessary\nHepatic impairment, moderate to severe (Child-Pugh class B or C): Appropriate dosage has not been determined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Pregnancy_Rating": {
+      "text": "Maternal risk cannot be ruled out",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Fetal risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "CrCl less than 30 mL/min and not receiving hemodialysis: Single-dose regimen, 1125 mg IV infusion; 2-dose regimen, 750 mg IV infusion followed by 375 mg IV infusion 1 week later\n[1]\nNo adjustment necessary if on\nhemodialysis",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Hepatic impairment, mild (Child-Pugh class A): No adjustment necessary\nHepatic impairment, moderate to severe (Child-Pugh class B or C): Appropriate dosage has not been determined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Lactation_risk": {
+      "text": "Fetal risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl less than 30 mL/min and not receiving hemodialysis: Single-dose regimen, 1125 mg IV infusion; 2-dose regimen, 750 mg IV infusion followed by 375 mg IV infusion 1 week later\n[1]\nNo adjustment necessary if on\nhemodialysis",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Hepatic impairment, mild (Child-Pugh class A): No adjustment necessary\nHepatic impairment, moderate to severe (Child-Pugh class B or C): Appropriate dosage has not been determined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "CrCl less than 30 mL/min and not receiving hemodialysis: Single-dose regimen, 1125 mg IV infusion; 2-dose regimen, 750 mg IV infusion followed by 375 mg IV infusion 1 week later\n[1]\nNo adjustment necessary if on\nhemodialysis",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Hepatic impairment, mild (Child-Pugh class A): No adjustment necessary\nHepatic impairment, moderate to severe (Child-Pugh class B or C): Appropriate dosage has not been determined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Hepatic_Dosing": {
+      "text": "Hepatic impairment, mild (Child-Pugh class A): No adjustment necessary\nHepatic impairment, moderate to severe (Child-Pugh class B or C): Appropriate dosage has not been determined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Gastrointestinal:\nClostridium difficile\ncolitis (<2%), Clostridium difficile diarrhea,\nGI bleed\n(<2% )\nHepatic: ALT/SGPT level raised (0.8%)\nImmunologic: Hypersensitivity reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Gastrointestinal:\nDiarrhea\n(Up to 4.4%), Nausea (Up to 5.5%)\nNeurologic: Headache (Up to 4.7%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Gastrointestinal:\nClostridium difficile\ncolitis (<2%), Clostridium difficile diarrhea,\nGI bleed\n(<2% )\nHepatic: ALT/SGPT level raised (0.8%)\nImmunologic: Hypersensitivity reaction",
+      "subsections": {
+        "Common": {
+          "text": "Gastrointestinal:\nDiarrhea\n(Up to 4.4%), Nausea (Up to 5.5%)\nNeurologic: Headache (Up to 4.7%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Gastrointestinal:\nDiarrhea\n(Up to 4.4%), Nausea (Up to 5.5%)\nNeurologic: Headache (Up to 4.7%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8.5 days\nMetabolism:\nExcretion: Fecal (20%), Renal (33%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Semisynthetic lipoglycopeptide antibacterial agent that inhibits cell wall peptidoglycan cross-linking\nSame MOA and class as\nvancomycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)\nAntibiotics by diagnosis\nAntibiotics by organism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        },
+        {
+          "text": "Antibiotics by diagnosis",
+          "url": "https://wikem.org/wiki/Antibiotics_by_diagnosis"
+        },
+        {
+          "text": "Antibiotics by organism",
+          "url": "https://wikem.org/wiki/Antibiotics_by_organism"
+        }
+      ]
+    }
+  }
+}

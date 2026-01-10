@@ -1,0 +1,326 @@
+{
+  "drug_name": "Deferasirox",
+  "url": "https://wikem.org/wiki/Deferasirox",
+  "scraped_at": "2026-01-10T07:51:31.641669",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntidote\nDosage Forms: 125, 250, 500 mg disperse tab\nRoutes of Administration: Oral\nCommon Trade Names: Exjade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Iron_toxicity,_chronic_transfusional": {
+          "text": "20-30 mg/kg PO QD\nStart: 20 mg/kg PO QD\nMax: 40 mg/kg/day\nAdjust dose by 5-10 mg/kg/day q3-6mo based on serum ferritin\nDecrease dose 10 mg/kg/day if Cr >33% above baseline x2 weeks\nHold: Ferritin <500 mcg/L",
+          "tables": []
+        },
+        "Iron_toxicity,_chronic_non-transfusion-dependent_thalassemia-assoc.": {
+          "text": "10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nDecrease dose 50% if Cr >33% above baseline x2 weeks\nInterrupt treatment if already at 5 mg/kg/day\nHold: Ferritin <300 mcg/L or liver iron <3 mg Fe/g",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Iron_toxicity,_chronic_transfusional": {
+      "text": "20-30 mg/kg PO QD\nStart: 20 mg/kg PO QD\nMax: 40 mg/kg/day\nAdjust dose by 5-10 mg/kg/day q3-6mo based on serum ferritin\nDecrease dose 10 mg/kg/day if Cr >33% above baseline x2 weeks\nHold: Ferritin <500 mcg/L",
+      "subsections": {
+        "Iron_toxicity,_chronic_non-transfusion-dependent_thalassemia-assoc.": {
+          "text": "10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nDecrease dose 50% if Cr >33% above baseline x2 weeks\nInterrupt treatment if already at 5 mg/kg/day\nHold: Ferritin <300 mcg/L or liver iron <3 mg Fe/g",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Iron_toxicity,_chronic_non-transfusion-dependent_thalassemia-assoc.": {
+      "text": "10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nDecrease dose 50% if Cr >33% above baseline x2 weeks\nInterrupt treatment if already at 5 mg/kg/day\nHold: Ferritin <300 mcg/L or liver iron <3 mg Fe/g",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Iron_toxicity,_chronic_transfusional_2": {
+          "text": "2-15 yo\n20-30 mg/kg PO QD\nStart: 20 mg/kg PO QD\nMax: 40 mg/kg/day\nAdjust dose by 5-10 mg/kg/day q3-6mo based on serum ferritin\nDecrease dose 10 mg/kg/day if Cr >33% above baseline and >ULN\n16+ yo\n20-30 mg/kg PO QD\nStart: 20 mg/kg PO QD\nMax: 40 mg/kg/day\nAdjust dose by 5-10 mg/kg/day q3-6mo based on serum ferritin\nDecrease dose 10 mg/kg/day if Cr >33% above baseline x2 weeks",
+          "tables": []
+        },
+        "Iron_toxicity,_chronic_non-transfusion-dependent_thalassemia-assoc._2": {
+          "text": "10-15 yo\n10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nAdjust dose based on serum ferritin trends and liver iron concentration\nDecrease dose 5 mg/kg/day if Cr >33% above baseline and >ULN\n16+ yo\n10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nAdjust dose based on serum ferritin trends and liver iron concentration\nDecrease dose 50% if Cr >33% above baseline x2 weeks\nInterrupt treatment if already at 5 mg/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Iron_toxicity,_chronic_transfusional_2": {
+      "text": "2-15 yo\n20-30 mg/kg PO QD\nStart: 20 mg/kg PO QD\nMax: 40 mg/kg/day\nAdjust dose by 5-10 mg/kg/day q3-6mo based on serum ferritin\nDecrease dose 10 mg/kg/day if Cr >33% above baseline and >ULN\n16+ yo\n20-30 mg/kg PO QD\nStart: 20 mg/kg PO QD\nMax: 40 mg/kg/day\nAdjust dose by 5-10 mg/kg/day q3-6mo based on serum ferritin\nDecrease dose 10 mg/kg/day if Cr >33% above baseline x2 weeks",
+      "subsections": {
+        "Iron_toxicity,_chronic_non-transfusion-dependent_thalassemia-assoc._2": {
+          "text": "10-15 yo\n10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nAdjust dose based on serum ferritin trends and liver iron concentration\nDecrease dose 5 mg/kg/day if Cr >33% above baseline and >ULN\n16+ yo\n10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nAdjust dose based on serum ferritin trends and liver iron concentration\nDecrease dose 50% if Cr >33% above baseline x2 weeks\nInterrupt treatment if already at 5 mg/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Iron_toxicity,_chronic_non-transfusion-dependent_thalassemia-assoc._2": {
+      "text": "10-15 yo\n10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nAdjust dose based on serum ferritin trends and liver iron concentration\nDecrease dose 5 mg/kg/day if Cr >33% above baseline and >ULN\n16+ yo\n10-20 mg/kg PO QD\nStart: 10 mg/kg PO QD\nMax: 20 mg/kg/day\nAdjust dose based on serum ferritin trends and liver iron concentration\nDecrease dose 50% if Cr >33% above baseline x2 weeks\nInterrupt treatment if already at 5 mg/kg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Caution during pregnancy\nLactation risk: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 40-60: Decrease start dose 50%\nCr >2x ULN or CrCL <40: Contraindicated\nPediatric:\nCrCl 40-60: Decrease start dose 50%\nCr >2x ULN or CrCL <40: Contraindicated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class B: Decrease start dose 50%\nChild-Pugh Class C: Avoid use\nPediatric:\nChild-Pugh Class B: Decrease start dose 50%\nChild-Pugh Class C: Avoid use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl 40-60: Decrease start dose 50%\nCr >2x ULN or CrCL <40: Contraindicated\nPediatric:\nCrCl 40-60: Decrease start dose 50%\nCr >2x ULN or CrCL <40: Contraindicated",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class B: Decrease start dose 50%\nChild-Pugh Class C: Avoid use\nPediatric:\nChild-Pugh Class B: Decrease start dose 50%\nChild-Pugh Class C: Avoid use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nChild-Pugh Class B: Decrease start dose 50%\nChild-Pugh Class C: Avoid use\nPediatric:\nChild-Pugh Class B: Decrease start dose 50%\nChild-Pugh Class C: Avoid use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCr >2x ULN or CrCl <40\nPoor performance status\nHigh risk\nmyelodysplastic syndrome\nAdvanced malignancy\nThrombocytopenia\n<50,000\nHepatic impairment, Child-Pugh Class C\nCaution if hepatic impairment, Child-Pugh Class A or B\nCaution if renal impairment\nCaution if concurrent nephrotoxic agent\nCaution if hematologic disorder\nCaution in patients >55yo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Nephrotoxicity\nHepatotoxicity\nGI hemorrhage\nGI perforation\nGI ulcer\nAgranulocytosis\nNeutropenia\nThrombocytopenia\nAnemia\nexacerbation\nHearing loss\nCataracts\nLens opacification\nRetinal disorders\nHypersensitivity reaction\nAnaphylaxis\nSJS\nErythema multiforme\nLeukocytoclastic vasculitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Cr elevated\nAbdominal pain\nProteinuria\n, intermittent\nDiarrhea\nNausea\n/\nVomiting\nRash\nALT elevated\nIOP elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Nephrotoxicity\nHepatotoxicity\nGI hemorrhage\nGI perforation\nGI ulcer\nAgranulocytosis\nNeutropenia\nThrombocytopenia\nAnemia\nexacerbation\nHearing loss\nCataracts\nLens opacification\nRetinal disorders\nHypersensitivity reaction\nAnaphylaxis\nSJS\nErythema multiforme\nLeukocytoclastic vasculitis",
+      "subsections": {
+        "Common": {
+          "text": "Cr elevated\nAbdominal pain\nProteinuria\n, intermittent\nDiarrhea\nNausea\n/\nVomiting\nRash\nALT elevated\nIOP elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Cr elevated\nAbdominal pain\nProteinuria\n, intermittent\nDiarrhea\nNausea\n/\nVomiting\nRash\nALT elevated\nIOP elevated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8-16h\nMetabolism: Liver; CYP450: minimal (8%); UGT: 1A1 (primary), 1A3 substrate\nExcretion: Feces 84%, Urine 8%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Chelates iron, promoting fecal iron excretion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Black Box Warning\nRisk for renal failure in pts with comorbidities or advanced hematological disorder\nRisk for hepatic failure in pts with Child-Pugh Class A, B, C disease\nRisk for gastrointestinal Hemorrhage in elderly pts with advanced hematologic malignancies or low platelets",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Iron toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        }
+      ]
+    }
+  }
+}

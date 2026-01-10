@@ -1,0 +1,536 @@
+{
+  "drug_name": "Delusional_disorder",
+  "url": "https://wikem.org/wiki/Delusional_disorder",
+  "scraped_at": "2026-01-10T07:51:33.877347",
+  "sections": {
+    "Background": {
+      "text": "Delusions are fixed beliefs that are not amenable to change in light of conflicting evidence.",
+      "subsections": {
+        "Delusional_subtypes": {
+          "text": "Ertomanic type: when the central theme of the delusion is that another person is in love with the individual\nGrandiose type: when the central theme of the delusion is the conviction of having some great (but unrecognized) talent or insight or having made some important discovery\nJealous type: when the central theme of the individual’s delusion is that his or her spouse or lover is unfaithful\nPersecutory type: when the central theme of the delusion involves the individual’s belief that he or she is being conspired against, cheated, spied on, followed, poisoned or drugged, maliciously maligned,  harassed, or obstructed in the pursuit of long-term goals\nSomatic type: when the central theme of the delusion involves bodily functions or sensations\nMixed type: applies when no one delusional theme predominates\nUnspecified type: applies when the dominant delusional belief cannot be clearly determined or is not described in the specific types",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Delusional_subtypes": {
+      "text": "Ertomanic type: when the central theme of the delusion is that another person is in love with the individual\nGrandiose type: when the central theme of the delusion is the conviction of having some great (but unrecognized) talent or insight or having made some important discovery\nJealous type: when the central theme of the individual’s delusion is that his or her spouse or lover is unfaithful\nPersecutory type: when the central theme of the delusion involves the individual’s belief that he or she is being conspired against, cheated, spied on, followed, poisoned or drugged, maliciously maligned,  harassed, or obstructed in the pursuit of long-term goals\nSomatic type: when the central theme of the delusion involves bodily functions or sensations\nMixed type: applies when no one delusional theme predominates\nUnspecified type: applies when the dominant delusional belief cannot be clearly determined or is not described in the specific types",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "A. The presence of one (or more) delusions with a duration of 1 month or longer.\n[1]\nB. Criterion A for\nschizophrenia\nhas never been  met.\nC. Apart from the impact of the delusion(s) or its ramifications, functioning is not markedly impaired, and behavior is not obviously bizarre or odd.\nD. If manic or major depressive episodes have occurred, these have been brief relative to the duration of the delusional periods.\nE. The disturbance is not attributable to the physiological effects of a substance or an­other medical condition and is not better explained by another mental disorder, such as body dysmorphic disorder or obsessive-compulsive disorder.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Psychiatric_Disorders_with_Psychotic_Symptoms": {
+          "text": "Acute psychosis\nSchizophrenia\nSchizoaffective disorder\nDelusional disorder\nSchizotypal personality disorder\nSchizoid personality disorder\nBipolar disorder\nwith psychotic features",
+          "tables": []
+        },
+        "Organic_Causes": {
+          "text": "Meningitis\nEncephalitis\nThyroid (Main)\nToxin ingestion\nMedication effect",
+          "tables": []
+        },
+        "Nonorganic_Causes": {
+          "text": "Obsessive-compulsive and related disorders\nDepressive and bipolar disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Schizoaffective disorder",
+          "url": "https://wikem.org/wiki/Schizoaffective_disorder"
+        },
+        {
+          "text": "Schizotypal personality disorder",
+          "url": "https://wikem.org/wiki/Schizotypal_personality_disorder"
+        },
+        {
+          "text": "Schizoid personality disorder",
+          "url": "https://wikem.org/wiki/Schizoid_personality_disorder"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Thyroid (Main)",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        }
+      ]
+    },
+    "Psychiatric_Disorders_with_Psychotic_Symptoms": {
+      "text": "Acute psychosis\nSchizophrenia\nSchizoaffective disorder\nDelusional disorder\nSchizotypal personality disorder\nSchizoid personality disorder\nBipolar disorder\nwith psychotic features",
+      "subsections": {
+        "Organic_Causes": {
+          "text": "Meningitis\nEncephalitis\nThyroid (Main)\nToxin ingestion\nMedication effect",
+          "tables": []
+        },
+        "Nonorganic_Causes": {
+          "text": "Obsessive-compulsive and related disorders\nDepressive and bipolar disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Schizoaffective disorder",
+          "url": "https://wikem.org/wiki/Schizoaffective_disorder"
+        },
+        {
+          "text": "Schizotypal personality disorder",
+          "url": "https://wikem.org/wiki/Schizotypal_personality_disorder"
+        },
+        {
+          "text": "Schizoid personality disorder",
+          "url": "https://wikem.org/wiki/Schizoid_personality_disorder"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Thyroid (Main)",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        }
+      ]
+    },
+    "Organic_Causes": {
+      "text": "Meningitis\nEncephalitis\nThyroid (Main)\nToxin ingestion\nMedication effect",
+      "subsections": {
+        "Nonorganic_Causes": {
+          "text": "Obsessive-compulsive and related disorders\nDepressive and bipolar disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Thyroid (Main)",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        }
+      ]
+    },
+    "Nonorganic_Causes": {
+      "text": "Obsessive-compulsive and related disorders\nDepressive and bipolar disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Rule out other organic causes including substance abuse, medication effect or other medical conditions. Consider emergency psychiatric evaluation in addition to medical evaluation.",
+      "subsections": {
+        "General_ED_Psychiatric_Workup": {
+          "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "General_ED_Psychiatric_Workup": {
+      "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Difficult to treat given limited insight, however individual outpatient psychotherapy recommended.",
+      "subsections": {
+        "General_ED_Psychiatric_Management": {
+          "text": "Non-pharmacologic\nVerbal de-escalation\nOffer comforting items: blanket, meal, pillow, etc\nQuiet room\nPhysical restraints (should administer medications if restraints used, as decreases restraint time)\nPharmacologic\n: Goal is to calm patient without oversedation\nNo history of psychosis\nHaloperidol\n0.5mg-5mg +/- lorazepam 0.25-2mg (PO/IM/IV)\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)\nConsider\nrisperidone\n0.5-2mg PO\nor\nolanzapine\n2.5-20mg (PO/IM/SL)\nor\nziprasidone\n10-20mg IM\nKnown or suspected underlying psychotic illness\nContinue treatment with previous antipsychotic\nor\nPO:\nolanzapine\n5-10mg\nor\nrisperidone\n0.5-2mg +/-\nlorazepam\n: 0.5-2mg\nIM:\nolanzapine\n2.5-20mg\nor\nziprasidone\n10-20mg\nor\n(PO/IM/IV)\nHaloperidol\n0.5-5mg +/-\nlorazepam\n0.5-2mg\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        }
+      ]
+    },
+    "General_ED_Psychiatric_Management": {
+      "text": "Non-pharmacologic\nVerbal de-escalation\nOffer comforting items: blanket, meal, pillow, etc\nQuiet room\nPhysical restraints (should administer medications if restraints used, as decreases restraint time)\nPharmacologic\n: Goal is to calm patient without oversedation\nNo history of psychosis\nHaloperidol\n0.5mg-5mg +/- lorazepam 0.25-2mg (PO/IM/IV)\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)\nConsider\nrisperidone\n0.5-2mg PO\nor\nolanzapine\n2.5-20mg (PO/IM/SL)\nor\nziprasidone\n10-20mg IM\nKnown or suspected underlying psychotic illness\nContinue treatment with previous antipsychotic\nor\nPO:\nolanzapine\n5-10mg\nor\nrisperidone\n0.5-2mg +/-\nlorazepam\n: 0.5-2mg\nIM:\nolanzapine\n2.5-20mg\nor\nziprasidone\n10-20mg\nor\n(PO/IM/IV)\nHaloperidol\n0.5-5mg +/-\nlorazepam\n0.5-2mg\nConsider adding\nbenztropine\n0.5-2mg\nor\ndiphenhydramine\n25-50mg (PO/IV/IM) (reduces dystonia or\nextrapyramidal reaction\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Home with outpatient psychiatric services if stable, versus inpatient psychiatric admission if unstable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute psychosis\nSchizophreniform disorder\nSchizophrenia\nMeningitis\nEncephalitis\nSchizoaffective disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Schizophreniform disorder",
+          "url": "https://wikem.org/wiki/Schizophreniform_disorder"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Schizoaffective disorder",
+          "url": "https://wikem.org/wiki/Schizoaffective_disorder"
+        }
+      ]
+    }
+  }
+}

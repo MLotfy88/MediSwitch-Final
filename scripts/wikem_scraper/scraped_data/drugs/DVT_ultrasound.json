@@ -1,0 +1,176 @@
+{
+  "drug_name": "DVT_ultrasound",
+  "url": "https://wikem.org/wiki/DVT_ultrasound",
+  "scraped_at": "2026-01-10T07:51:32.150412",
+  "sections": {
+    "Background": {
+      "text": "Bedside ultrasound can be used to conduct compression testing on lower extremity vasculature to assess for DVT\nIntended to be rapid, limited, but revealing most clinically significant DVTs\nAmongst ED providers, there is a sensitivity of 95% and specificity of 96%\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Clinical suspicion of\nDVT\n: edema, tenderness over the calf, Homan's sign\nClinical suspicion of\nPE\n: chest pain, shortness of breath, tachycardia, tachypnea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "",
+      "subsections": {
+        "Sites_of_Compression_for_3-Point_Evaluation": {
+          "text": "Common Femoral Vein\nSaphenofemoral Junction\nPopliteal Vein",
+          "tables": []
+        },
+        "Steps": {
+          "text": "Select transducer\nLinear array vascular probe 6–10 MHz\nFor morbidly obese patients, consider abdominal probe\nCommon Femoral Vein and Saphenofemoral Junction\nPatient positioning\nReverse Trendelenburg or semi-sitting with 30 degrees of hip flexion\nMild external rotation (30 degrees) hip\nProbe at medial inguinal crease\nApply generous compression every centimeter\nContinue distal to 1-2cm beyond bifurcation of the common femoral vein\nPopliteal vein\nPatient positioning\nProne, decubitus position, or seated on edge of gurney\nKnee flexed 10–30 degree\nReverse Trendelenburg\nStart with light pressure to better visualize vessels\nApply generous compression over the popliteal vessels to test compressibility\nVein usually superficial to the artery (\na\nrtery is\na\nnterior)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sites_of_Compression_for_3-Point_Evaluation": {
+      "text": "Common Femoral Vein\nSaphenofemoral Junction\nPopliteal Vein",
+      "subsections": {
+        "Steps": {
+          "text": "Select transducer\nLinear array vascular probe 6–10 MHz\nFor morbidly obese patients, consider abdominal probe\nCommon Femoral Vein and Saphenofemoral Junction\nPatient positioning\nReverse Trendelenburg or semi-sitting with 30 degrees of hip flexion\nMild external rotation (30 degrees) hip\nProbe at medial inguinal crease\nApply generous compression every centimeter\nContinue distal to 1-2cm beyond bifurcation of the common femoral vein\nPopliteal vein\nPatient positioning\nProne, decubitus position, or seated on edge of gurney\nKnee flexed 10–30 degree\nReverse Trendelenburg\nStart with light pressure to better visualize vessels\nApply generous compression over the popliteal vessels to test compressibility\nVein usually superficial to the artery (\na\nrtery is\na\nnterior)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Steps": {
+      "text": "Select transducer\nLinear array vascular probe 6–10 MHz\nFor morbidly obese patients, consider abdominal probe\nCommon Femoral Vein and Saphenofemoral Junction\nPatient positioning\nReverse Trendelenburg or semi-sitting with 30 degrees of hip flexion\nMild external rotation (30 degrees) hip\nProbe at medial inguinal crease\nApply generous compression every centimeter\nContinue distal to 1-2cm beyond bifurcation of the common femoral vein\nPopliteal vein\nPatient positioning\nProne, decubitus position, or seated on edge of gurney\nKnee flexed 10–30 degree\nReverse Trendelenburg\nStart with light pressure to better visualize vessels\nApply generous compression over the popliteal vessels to test compressibility\nVein usually superficial to the artery (\na\nrtery is\na\nnterior)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "Each segment of vein identified must be assess as compressible and noncompressible\nTouching of the anterior and posterior walls indicates a normal exam\nNo touching with pressures sufficient to deform the artery indicates DVT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Arteries are the thick walled and more circular vessels identified\nDoppler flow can be used to identify different directions of flow in vessels and to identify no vascular structures\nNoncompressible vein may be mistaken for an artery, leading to a false negative result\nAn artery may be mistaken for a non-compressible vein, leading to a false positive result\nLymph nodes may be confused with noncompressible vein and if found, can be identified by moving up or down 1 cm\nDoes not rule out calf DVTs\nFor a more thorough exam, scan from the saphenofemoral junction down through the adductor canal in addition to the areas described above\nUse a curvilinear probe for obese or edematous patients\nAn appropriate amount of pressure gives complete collapse of the vein as well as some (but not full) compression of the adjacent artery.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for\nDVT\nwith clinical indications of edema and pain. The extremity was assessed at 3 locations – common femoral vein, saphenofemoral junction, and the popliteal vein. Sequential compressions at these sites showed fully compressible veins. No sonographic evidence of\nDVT\nat these sites.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for\nDVT\nwith clinical indications of edema and pain. The extremity was assessed at 3 locations – common femoral vein, saphenofemoral junction, and the popliteal vein. Sequential compressions at these sites showed a noncompressible popliteal vein.\nDVT\nis present at the level of the popliteal vein.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Normal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for\nDVT\nwith clinical indications of edema and pain. The extremity was assessed at 3 locations – common femoral vein, saphenofemoral junction, and the popliteal vein. Sequential compressions at these sites showed fully compressible veins. No sonographic evidence of\nDVT\nat these sites.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for\nDVT\nwith clinical indications of edema and pain. The extremity was assessed at 3 locations – common femoral vein, saphenofemoral junction, and the popliteal vein. Sequential compressions at these sites showed a noncompressible popliteal vein.\nDVT\nis present at the level of the popliteal vein.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for\nDVT\nwith clinical indications of edema and pain. The extremity was assessed at 3 locations – common femoral vein, saphenofemoral junction, and the popliteal vein. Sequential compressions at these sites showed a noncompressible popliteal vein.\nDVT\nis present at the level of the popliteal vein.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP – Focus On Emergency Ultrasound for DVT\nFocused Lower Extremity Venous Ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (Main)\nDeep venous thrombosis\nPulmonary embolism\nPaget-Schroetter syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Paget-Schroetter syndrome",
+          "url": "https://wikem.org/wiki/Paget-Schroetter_syndrome"
+        }
+      ]
+    }
+  }
+}

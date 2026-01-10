@@ -1,0 +1,420 @@
+{
+  "drug_name": "Dental_subluxation",
+  "url": "https://wikem.org/wiki/Dental_subluxation",
+  "scraped_at": "2026-01-10T07:51:38.970034",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Dental_Numbering": {
+          "text": "Adult (permanent) teeth identified by numbers\nFrom the midline to the back of the mouth on each side, there is a central incisor, a lateral incisor, a canine, two premolars (bicuspids), and three molars\nChildren (non-permanent) teeth identified by letters\nCommon landmarks:\n1\n: Right upper wisdom\n8 & 9\n: Upper incisors\n16\n: Left upper wisdom\n17\n: Left lower wisdom\n24 & 25\n: Lower incisors\n32\n: Right lower wisdom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dental_Numbering": {
+      "text": "Adult (permanent) teeth identified by numbers\nFrom the midline to the back of the mouth on each side, there is a central incisor, a lateral incisor, a canine, two premolars (bicuspids), and three molars\nChildren (non-permanent) teeth identified by letters\nCommon landmarks:\n1\n: Right upper wisdom\n8 & 9\n: Upper incisors\n16\n: Left upper wisdom\n17\n: Left lower wisdom\n24 & 25\n: Lower incisors\n32\n: Right lower wisdom",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Tooth is mobile but is still in original anatomic position\nIf multiple consecutive teeth are involved, rule out underlying alveolar ridge fracture or other\nmandible fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Dentoalveolar_Injuries": {
+      "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+      "subsections": {
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Odontogenic_Infections": {
+      "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+      "subsections": {
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Extrusive_Luxation": {
+          "text": "(tooth is moved partially out of the socket)\nReposition tooth\nFollow up within 24hr for stabilization\nTemporizing measure: Periodontal pack (e.g.-Coe-Pak) in which tooth is bonded to its two neighboring teeth on both sides\nMix the resin and catalyst paste and apply to completely dry teeth\nMay use nasal cannula with oxygen as a air/drying source\nMay place gauze rolls in mucobuccal fold to absorb saliva\nWet or lubricated goves will allow for easier handling\nApply splinting to the facial side of the teeth, spanning approximately 1-2 teeth in either direction\nAvoid covering the occlusal (biting) surface",
+          "tables": []
+        },
+        "Lateral_Luxation": {
+          "text": "(tooth displaced in a direction other than inward or outward)\nMore extensive injury than extrusive luxation\nAssociated with cracking or fracture of the surrounding alveolar bone\nAttempt repositioning of tooth\nApply temporary splinting with periodontal dressing\nFollow up within 24hr for stabilization",
+          "tables": []
+        },
+        "Intrusive_Luxation": {
+          "text": "(tooth is forced inward into the socket)\nMost serious because of significant damage to alveolar socket and periodontal ligament\nAllow tooth to erupt on its own",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extrusive_Luxation": {
+      "text": "(tooth is moved partially out of the socket)\nReposition tooth\nFollow up within 24hr for stabilization\nTemporizing measure: Periodontal pack (e.g.-Coe-Pak) in which tooth is bonded to its two neighboring teeth on both sides\nMix the resin and catalyst paste and apply to completely dry teeth\nMay use nasal cannula with oxygen as a air/drying source\nMay place gauze rolls in mucobuccal fold to absorb saliva\nWet or lubricated goves will allow for easier handling\nApply splinting to the facial side of the teeth, spanning approximately 1-2 teeth in either direction\nAvoid covering the occlusal (biting) surface",
+      "subsections": {
+        "Lateral_Luxation": {
+          "text": "(tooth displaced in a direction other than inward or outward)\nMore extensive injury than extrusive luxation\nAssociated with cracking or fracture of the surrounding alveolar bone\nAttempt repositioning of tooth\nApply temporary splinting with periodontal dressing\nFollow up within 24hr for stabilization",
+          "tables": []
+        },
+        "Intrusive_Luxation": {
+          "text": "(tooth is forced inward into the socket)\nMost serious because of significant damage to alveolar socket and periodontal ligament\nAllow tooth to erupt on its own",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lateral_Luxation": {
+      "text": "(tooth displaced in a direction other than inward or outward)\nMore extensive injury than extrusive luxation\nAssociated with cracking or fracture of the surrounding alveolar bone\nAttempt repositioning of tooth\nApply temporary splinting with periodontal dressing\nFollow up within 24hr for stabilization",
+      "subsections": {
+        "Intrusive_Luxation": {
+          "text": "(tooth is forced inward into the socket)\nMost serious because of significant damage to alveolar socket and periodontal ligament\nAllow tooth to erupt on its own",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intrusive_Luxation": {
+      "text": "(tooth is forced inward into the socket)\nMost serious because of significant damage to alveolar socket and periodontal ligament\nAllow tooth to erupt on its own",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with dental follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dental Problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental Problems",
+          "url": "https://wikem.org/wiki/Dental_Problems"
+        }
+      ]
+    }
+  }
+}

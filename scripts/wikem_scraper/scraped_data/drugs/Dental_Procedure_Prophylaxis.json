@@ -1,0 +1,41 @@
+{
+  "drug_name": "Dental_Procedure_Prophylaxis",
+  "url": "https://wikem.org/wiki/Dental_Procedure_Prophylaxis",
+  "scraped_at": "2026-01-10T07:51:39.052273",
+  "sections": {
+    "United_Kingdom": {
+      "text": "No longer recommended at all in the United Kingdom\n[1]\nIn United States, only recommended for\ninvasive dental procedures\n(not routine cleanings) and\ninvasive respiratory procedures\nin setting of:\n[2]\n[3]\nProsthetic valves\nPrior\nendocarditis\nUn-repaired\ncongenital cyanotic heart disease\nRepaired\ncongenital heart disease\n/valvulopathy with prosthetic material",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "congenital cyanotic heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Endocarditis\nCongenital Heart Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Congenital Heart Disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    }
+  }
+}
