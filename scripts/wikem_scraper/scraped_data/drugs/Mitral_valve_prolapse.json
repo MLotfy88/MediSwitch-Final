@@ -1,0 +1,270 @@
+{
+  "drug_name": "Mitral_valve_prolapse",
+  "url": "https://wikem.org/wiki/Mitral_valve_prolapse",
+  "scraped_at": "2026-01-10T07:57:31.552181",
+  "sections": {
+    "Background": {
+      "text": "1 or more mitral valve leaflets bow into left atrium during systole\nMost common valve disease in industrial countries (2.4% of pop.)\nMyxomatous degeneration from\nconnective tissue disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms": {
+          "text": "Studies failed to demonstrate that\nchest pain\n,\nanxiety\n, or\npalpitations\nare associated with MVP\nSymptoms related to autonomic dysfunction: fatigue, anxiety, exercise intolerance\nIf progresses to MR,\nCHF\nsymptoms",
+          "tables": []
+        },
+        "Physical_exam": {
+          "text": "Mid-systolic click\nLate systolic\nmurmur\n, crescendo into S2\nIncreasing preload decreases murmur while decreasing preload increases murmur\nMay have associated physical features:\nPectus excavatum\nScoliosis\nLow body weight\nMarfanoid\nhabitus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Marfanoid",
+          "url": "https://wikem.org/wiki/Marfan_syndrome"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Studies failed to demonstrate that\nchest pain\n,\nanxiety\n, or\npalpitations\nare associated with MVP\nSymptoms related to autonomic dysfunction: fatigue, anxiety, exercise intolerance\nIf progresses to MR,\nCHF\nsymptoms",
+      "subsections": {
+        "Physical_exam": {
+          "text": "Mid-systolic click\nLate systolic\nmurmur\n, crescendo into S2\nIncreasing preload decreases murmur while decreasing preload increases murmur\nMay have associated physical features:\nPectus excavatum\nScoliosis\nLow body weight\nMarfanoid\nhabitus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Marfanoid",
+          "url": "https://wikem.org/wiki/Marfan_syndrome"
+        }
+      ]
+    },
+    "Physical_exam": {
+      "text": "Mid-systolic click\nLate systolic\nmurmur\n, crescendo into S2\nIncreasing preload decreases murmur while decreasing preload increases murmur\nMay have associated physical features:\nPectus excavatum\nScoliosis\nLow body weight\nMarfanoid\nhabitus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Marfanoid",
+          "url": "https://wikem.org/wiki/Marfan_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\ncan show nonspecific changes or arrhythmias\nCXR\nusually normal\nEchocardiography",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Echocardiogram is gold standard",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\ncan show nonspecific changes or arrhythmias\nCXR\nusually normal\nEchocardiography",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Echocardiogram is gold standard",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Echocardiogram is gold standard",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Asymptomatic\nNone\nSymptoms of autonomic dysfunction\nBeta-blocker\nSigns of progression to MR\nEarly surgical repair\nNeuro sequelae\nRule out\na-fib\n/ left atrial thrombus, then\naspirin\ndaily\nClick / Murmur\nConsider\nendocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "a-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Stroke\nEndocarditis\nArrhythmia\nMitral regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Medscape - Mitral Valve Prolapse in Emergency Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

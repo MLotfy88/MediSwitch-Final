@@ -1,0 +1,87 @@
+{
+  "drug_name": "Modified_positional_valsalva",
+  "url": "https://wikem.org/wiki/Modified_positional_valsalva",
+  "scraped_at": "2026-01-10T07:57:36.851312",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "2015_REVERT_Trial": {
+          "text": "Studied modified Valsalva for\nSVT\nconversion to normal sinus:\n[1]\nNormal Valsalva - 17% resolution\nModified Positional Valsalva -\n43% resolution\nNo adverse events or costs associated with Modified Positional Valsalva",
+          "tables": []
+        },
+        "Set-up": {
+          "text": "10ml syringe with plunger\nTwo assistants - one to adjust head of bed and another to raise/lower legs.",
+          "tables": []
+        },
+        "Steps": {
+          "text": "Position patient with legs flat and head of bed to 45°\nHave patient attempt to blow out plunger of 10ml syringe (or Valsalva around 40mmHg)  for 15 seconds\nQuickly reposition patient's head of bed to flat and have the other assistant raise legs to 45° for another 15 seconds\nReturn head of bed to 45° and continue to monitor for resolution for 1 minute\nRepeat if needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "2015_REVERT_Trial": {
+      "text": "Studied modified Valsalva for\nSVT\nconversion to normal sinus:\n[1]\nNormal Valsalva - 17% resolution\nModified Positional Valsalva -\n43% resolution\nNo adverse events or costs associated with Modified Positional Valsalva",
+      "subsections": {
+        "Set-up": {
+          "text": "10ml syringe with plunger\nTwo assistants - one to adjust head of bed and another to raise/lower legs.",
+          "tables": []
+        },
+        "Steps": {
+          "text": "Position patient with legs flat and head of bed to 45°\nHave patient attempt to blow out plunger of 10ml syringe (or Valsalva around 40mmHg)  for 15 seconds\nQuickly reposition patient's head of bed to flat and have the other assistant raise legs to 45° for another 15 seconds\nReturn head of bed to 45° and continue to monitor for resolution for 1 minute\nRepeat if needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Modified_positional_valsalva": {
+      "text": "",
+      "subsections": {
+        "Set-up": {
+          "text": "10ml syringe with plunger\nTwo assistants - one to adjust head of bed and another to raise/lower legs.",
+          "tables": []
+        },
+        "Steps": {
+          "text": "Position patient with legs flat and head of bed to 45°\nHave patient attempt to blow out plunger of 10ml syringe (or Valsalva around 40mmHg)  for 15 seconds\nQuickly reposition patient's head of bed to flat and have the other assistant raise legs to 45° for another 15 seconds\nReturn head of bed to 45° and continue to monitor for resolution for 1 minute\nRepeat if needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Video explaination and demonstration of Modified Positional Valsalva\nThe Lancet: REVERT Trial\nhttps://www.medmastery.com/magazine/modified-valsalva-maneuver-video-review",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vagal maneuvers\nSVT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vagal maneuvers",
+          "url": "https://wikem.org/wiki/Vagal_maneuvers"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    }
+  }
+}

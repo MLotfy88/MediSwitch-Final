@@ -1,0 +1,179 @@
+{
+  "drug_name": "Missile_embolus",
+  "url": "https://wikem.org/wiki/Missile_embolus",
+  "scraped_at": "2026-01-10T07:57:33.385680",
+  "sections": {
+    "Background": {
+      "text": "Missle Embolization is an umbrella term encompassing the intravasculature and intracardiac embolization of bullet fragments, pellets, and shrapnel most commonly from war related penetrating traumas (mortars, grenades, mines, etc.)\n[1]\n.\nA rare phenomenon with the majority of cases occurring in war/combat penetrating trauma, although civilian cases have been reported\n[2]\n.\nDefinitive recommendations regarding management and treatment are varied.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Commonly present with asymmetric peripheral pulses, evidence of metallic fragments remote from the site of penetrating injury (outside of the expected fragment trajectory), and lack of an exit wound\n[2]\n.\nHowever, patient presentation can vary. Hemodynamically stable vital signs, lack of penetrating trauma on a pulseless extremity, and the presence of an exit wound should not be used to exclude the diagnosis.\nAs delayed and occult arterial injury have been reported in the literature, serial imaging may be necessary if suspicion remains high in the absence of initial findings.",
+      "subsections": {
+        "Arterial_Missile_Emboli_Complications_": {
+          "text": "Distal ischemia\nThrombosis\nFurther embolization",
+          "tables": []
+        },
+        "Venous_Missile_Emboli_Complications": {
+          "text": "Pulmonary artery embolism\nCardiac valve dysfunction\nEndocarditis\nAbscess\nformation\nSepsis\nThrombosis\nDysrhythmias\nIntraventricular communications\nConduction defects\nTissue erosion\nHemorrhage\nCardiac ischemia from erosion into coronary vessels\nThrombophlebitis",
+          "tables": []
+        },
+        "Psychiatric_Complications": {
+          "text": "Anxiety\nCardiac neurosis\nFear of movement resulting in a dislodgment of the missile from its current location",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        }
+      ]
+    },
+    "Arterial_Missile_Emboli_Complications_": {
+      "text": "Distal ischemia\nThrombosis\nFurther embolization",
+      "subsections": {
+        "Venous_Missile_Emboli_Complications": {
+          "text": "Pulmonary artery embolism\nCardiac valve dysfunction\nEndocarditis\nAbscess\nformation\nSepsis\nThrombosis\nDysrhythmias\nIntraventricular communications\nConduction defects\nTissue erosion\nHemorrhage\nCardiac ischemia from erosion into coronary vessels\nThrombophlebitis",
+          "tables": []
+        },
+        "Psychiatric_Complications": {
+          "text": "Anxiety\nCardiac neurosis\nFear of movement resulting in a dislodgment of the missile from its current location",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        }
+      ]
+    },
+    "Venous_Missile_Emboli_Complications": {
+      "text": "Pulmonary artery embolism\nCardiac valve dysfunction\nEndocarditis\nAbscess\nformation\nSepsis\nThrombosis\nDysrhythmias\nIntraventricular communications\nConduction defects\nTissue erosion\nHemorrhage\nCardiac ischemia from erosion into coronary vessels\nThrombophlebitis",
+      "subsections": {
+        "Psychiatric_Complications": {
+          "text": "Anxiety\nCardiac neurosis\nFear of movement resulting in a dislodgment of the missile from its current location",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        }
+      ]
+    },
+    "Psychiatric_Complications": {
+      "text": "Anxiety\nCardiac neurosis\nFear of movement resulting in a dislodgment of the missile from its current location",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Need high incidence of suspicion with penetrating trauma (up to 5% of arterial injuries may be missed on the initial CT angiogram in patients with fragmentation wounds)\n[1]\n.\nCXR\nX-ray (location specific) and/or CT\nLook for evidence of metallic foreign bodies both near and far from the site of penetrating injury\nCT angiogram of the involved extremity, if evidence of extremity foreign body (e.g. diminished or absent pulses)\nIf there is evidence of intracardiac or intrapulmonary foreign bodies, consider:\n[1]\nCT chest/abdomen/pelvis with IV contrast (to determin missile trajectory, size, and exact location).\n2D transesophageal echocardiogram is also recommended for intrathoracic missiles.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Remove symptomatic missile emboli\nLow threshold to remove asymptomatic missle emboli (since they can become dislodged and lead to other complications)\nSurgical management is case specific, but minimally invasive embolectomies are preferred if there is a high probability of missile retrieval\n[3]\n.\nThere is not strong evidence supporting prophylactic\nantibiotic\nuse.\nHowever, patients with intracardiac emboli may benefit from 48 hours of a first generation\ncephalosporin\nto prevent endocarditis with the addition of an\naminoglycoside for\nsoft tissue cavitating injuries.\nPatients with retained missiles who are not surgical candidates maybe benefit from 12 months of anticoagulation\n[3]\n.",
+      "subsections": {
+        "Pitfalls_in_Management_and_Treatment[3].": {
+          "text": "Delayed recognition\nDislodgement of the missile during central venous catheter placements and/or inferior vena cava filters\nRepeated emobolization with patient reposition and surgical manipulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminoglycoside for",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Gun shot wounds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gun shot wounds",
+          "url": "https://wikem.org/wiki/Gun_shot_wounds"
+        }
+      ]
+    }
+  }
+}

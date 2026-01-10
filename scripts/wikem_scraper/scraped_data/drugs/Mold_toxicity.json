@@ -1,0 +1,355 @@
+{
+  "drug_name": "Mold_toxicity",
+  "url": "https://wikem.org/wiki/Mold_toxicity",
+  "scraped_at": "2026-01-10T07:57:33.482759",
+  "sections": {
+    "Background": {
+      "text": "Molds are multicellular fungi that decompose organic matter",
+      "subsections": {
+        "Common_Household_Molds": {
+          "text": "Penicillium\nCladosporium\nAspergillus\nAlternaria",
+          "tables": []
+        },
+        "Mechanism_of_Toxicity": {
+          "text": "Allergy\nMore commonly outdoor molds cause allergy but they can be found indoors in cases of excessive water damage\nInfection\nOnly a few fungi can infect immunocompetent people:\nCoccidioides\n,\nBlastomyces\n,\nHistoplasma\n,\nCryptococcus\nImmunocompromised people are at significant risk even from\nCandida\nand\nAspergillus\nToxicity\nGlucans, a component of the cell wall, can produce Organic Dust Toxic Syndrome when inhaled",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Coccidioides",
+          "url": "https://wikem.org/wiki/Coccidioides"
+        },
+        {
+          "text": "Histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        }
+      ]
+    },
+    "Common_Household_Molds": {
+      "text": "Penicillium\nCladosporium\nAspergillus\nAlternaria",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Allergy\nMore commonly outdoor molds cause allergy but they can be found indoors in cases of excessive water damage\nInfection\nOnly a few fungi can infect immunocompetent people:\nCoccidioides\n,\nBlastomyces\n,\nHistoplasma\n,\nCryptococcus\nImmunocompromised people are at significant risk even from\nCandida\nand\nAspergillus\nToxicity\nGlucans, a component of the cell wall, can produce Organic Dust Toxic Syndrome when inhaled",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Coccidioides",
+          "url": "https://wikem.org/wiki/Coccidioides"
+        },
+        {
+          "text": "Histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        }
+      ]
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Allergy\nMore commonly outdoor molds cause allergy but they can be found indoors in cases of excessive water damage\nInfection\nOnly a few fungi can infect immunocompetent people:\nCoccidioides\n,\nBlastomyces\n,\nHistoplasma\n,\nCryptococcus\nImmunocompromised people are at significant risk even from\nCandida\nand\nAspergillus\nToxicity\nGlucans, a component of the cell wall, can produce Organic Dust Toxic Syndrome when inhaled",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Coccidioides",
+          "url": "https://wikem.org/wiki/Coccidioides"
+        },
+        {
+          "text": "Histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Mold_Allergy": {
+          "text": "IgE antibodies against molds can lead to asthma or allergic rhinitis\nHypersensitivity pneumonitis is a rare immune response to high concentrations of fungal proteins",
+          "tables": []
+        },
+        "Organic_Dust_Toxic_Syndrome": {
+          "text": "flu-like illness\nbetween 4-8 hours after heavy exposure to mold\nSymptoms are self-limited and resolve in 24 hours",
+          "tables": []
+        },
+        "Sick_Building_Syndrome": {
+          "text": "Vague constellation of neurologic, dermatologic, gastrointestinal, and respiratory complaints attributed to a building's environment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        }
+      ]
+    },
+    "Mold_Allergy": {
+      "text": "IgE antibodies against molds can lead to asthma or allergic rhinitis\nHypersensitivity pneumonitis is a rare immune response to high concentrations of fungal proteins",
+      "subsections": {
+        "Organic_Dust_Toxic_Syndrome": {
+          "text": "flu-like illness\nbetween 4-8 hours after heavy exposure to mold\nSymptoms are self-limited and resolve in 24 hours",
+          "tables": []
+        },
+        "Sick_Building_Syndrome": {
+          "text": "Vague constellation of neurologic, dermatologic, gastrointestinal, and respiratory complaints attributed to a building's environment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        }
+      ]
+    },
+    "Organic_Dust_Toxic_Syndrome": {
+      "text": "flu-like illness\nbetween 4-8 hours after heavy exposure to mold\nSymptoms are self-limited and resolve in 24 hours",
+      "subsections": {
+        "Sick_Building_Syndrome": {
+          "text": "Vague constellation of neurologic, dermatologic, gastrointestinal, and respiratory complaints attributed to a building's environment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        }
+      ]
+    },
+    "Sick_Building_Syndrome": {
+      "text": "Vague constellation of neurologic, dermatologic, gastrointestinal, and respiratory complaints attributed to a building's environment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Acute allergic reaction\nPneumonia\nAsthma\nAllergic rhinitis",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute allergic reaction",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally, no specific workup in the ED\nMay workup specific symptoms, if deemed appropriate",
+      "subsections": {
+        "Outpatient": {
+          "text": "Consider:\nRAST (Radioallergosorbent) testing can detect IgE mediated allergy\nAir samples and \"bulk, wipe, and wall\" samples can detect presence of molds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Outpatient": {
+      "text": "Consider:\nRAST (Radioallergosorbent) testing can detect IgE mediated allergy\nAir samples and \"bulk, wipe, and wall\" samples can detect presence of molds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No Specific drugs or antidotes\nDecontamination and avoidance of environment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

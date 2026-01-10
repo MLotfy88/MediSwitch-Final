@@ -1,0 +1,59 @@
+{
+  "drug_name": "Multidose_activated_charcoal",
+  "url": "https://wikem.org/wiki/Multidose_activated_charcoal",
+  "scraped_at": "2026-01-10T07:57:40.845756",
+  "sections": {
+    "Background": {
+      "text": "Method of enhanced elimination that uses multiple doses of activated charcoal\nNo evidence to suggest that MDAC decreases morbidity or mortality\nSome evidence shows that MDAC increases the elimination of certain drugs (further explained below)\nFunctions to prevents the absorption of xenobiotics that are slowly absorbed and to enhance the elimination of certain xenobiotics that have already been absorbed\nlarge amounts of xenobiotics ingested or dissolution is delayed (masses, bezoars)\nformulations that exhibit a delayed or prolonged release phase (enteric coated, extended release)\nGI motility is impaired\nprevent reabsoprtion (enterohepatic circulation of active xenobiotic or metabolite)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dosing": {
+      "text": "12.5 g/hr in divided doses (eg. 50g Q4hr)\nShould avoid sorbitol-containing formulation in MDAC therapy, as may lead to electrolyte disturbance secondary to diarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Same as with\nSingle Dose Activated Charcoal (SDAC)\nIntestinal obstruction\n(absolute)\nDecreased gut motility (relative)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Single Dose Activated Charcoal (SDAC)",
+          "url": "https://wikem.org/wiki/Single_Dose_Activated_Charcoal_(SDAC)"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Mnemonic:\nT\nhese\nP\neople\nD\nrink\nC\nharcoal\nQ\nuickly\nTheophylline\nPhenobarbital\nDapsone\nCarbamazepine\nQuinine\nThere is also some evidence of utility of MDAC in salicylate overdose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Stops enterohepatic circulation\nIncreases passive diffusion and acts as a sink for the xenobiotics\nBinds drugs in extended release formulations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Activated Charcoal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        }
+      ]
+    },
+    "References": {
+      "text": "http://www.clintox.org/documents/positionpapers/MultipleDoseActivatedCharcoal.pdf\nUptodate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

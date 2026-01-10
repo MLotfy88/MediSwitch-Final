@@ -1,0 +1,332 @@
+{
+  "drug_name": "Middle_phalanx_(finger)_fracture",
+  "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture",
+  "scraped_at": "2026-01-10T07:57:29.492491",
+  "sections": {
+    "Background": {
+      "text": "Commonly associated with tendon injuries!",
+      "subsections": {
+        "Finger_(phalanx)_fracture_types": {
+          "text": "Proximal Phalanx (Finger) Fracture\nMiddle Phalanx (Finger) Fracture\nDistal Phalanx (Finger) Fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Proximal Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Proximal_Phalanx_(Finger)_Fracture"
+        },
+        {
+          "text": "Middle Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Middle_Phalanx_(Finger)_Fracture"
+        },
+        {
+          "text": "Distal Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Distal_Phalanx_(Finger)_Fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain and/or swelling of the digit",
+      "subsections": {
+        "Examination": {
+          "text": "Assess PIP, DIP flexion/extension\nAssess PIP, DIP collateral ligaments (varus/valgus stress)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Examination": {
+      "text": "Assess PIP, DIP flexion/extension\nAssess PIP, DIP collateral ligaments (varus/valgus stress)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "AP, lateral, oblique finger x-ray\nOblique and spiral fractures: evaluate for shortening/malrotation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "AP, lateral, oblique finger x-ray\nOblique and spiral fractures: evaluate for shortening/malrotation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Nondisplaced_without_angulation": {
+          "text": "Buddy tape\nto adjacent finger\nBuddy tape\nring finger to little finger\nDorsal or volar\nFinger Splint\nif desire added protection",
+          "tables": []
+        },
+        "Displaced_or_angulated_fracture": {
+          "text": "Closed reduction\nAdequate reduction:\n<1-2mm displacement or shortening\nUp to 10 degrees of angulation\nNo amount rotation\nFollowed by\nUlnar Gutter Splint\nor\nRadial Gutter Splint\nWrist in 20-30 degrees of extension\nMCP joints in 70-90 degrees of flexion\nPIP and DIP joints flexed 5-10 degrees\nDecreases the force exerted by the FDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Buddy tape",
+          "url": "https://wikem.org/wiki/Buddy_tape"
+        },
+        {
+          "text": "Buddy tape",
+          "url": "https://wikem.org/wiki/Buddy_tape"
+        },
+        {
+          "text": "Finger Splint",
+          "url": "https://wikem.org/wiki/Finger_Splint"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Nondisplaced_without_angulation": {
+          "text": "Buddy tape\nto adjacent finger\nBuddy tape\nring finger to little finger\nDorsal or volar\nFinger Splint\nif desire added protection",
+          "tables": []
+        },
+        "Displaced_or_angulated_fracture": {
+          "text": "Closed reduction\nAdequate reduction:\n<1-2mm displacement or shortening\nUp to 10 degrees of angulation\nNo amount rotation\nFollowed by\nUlnar Gutter Splint\nor\nRadial Gutter Splint\nWrist in 20-30 degrees of extension\nMCP joints in 70-90 degrees of flexion\nPIP and DIP joints flexed 5-10 degrees\nDecreases the force exerted by the FDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Buddy tape",
+          "url": "https://wikem.org/wiki/Buddy_tape"
+        },
+        {
+          "text": "Buddy tape",
+          "url": "https://wikem.org/wiki/Buddy_tape"
+        },
+        {
+          "text": "Finger Splint",
+          "url": "https://wikem.org/wiki/Finger_Splint"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "Nondisplaced_without_angulation": {
+      "text": "Buddy tape\nto adjacent finger\nBuddy tape\nring finger to little finger\nDorsal or volar\nFinger Splint\nif desire added protection",
+      "subsections": {
+        "Displaced_or_angulated_fracture": {
+          "text": "Closed reduction\nAdequate reduction:\n<1-2mm displacement or shortening\nUp to 10 degrees of angulation\nNo amount rotation\nFollowed by\nUlnar Gutter Splint\nor\nRadial Gutter Splint\nWrist in 20-30 degrees of extension\nMCP joints in 70-90 degrees of flexion\nPIP and DIP joints flexed 5-10 degrees\nDecreases the force exerted by the FDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Buddy tape",
+          "url": "https://wikem.org/wiki/Buddy_tape"
+        },
+        {
+          "text": "Buddy tape",
+          "url": "https://wikem.org/wiki/Buddy_tape"
+        },
+        {
+          "text": "Finger Splint",
+          "url": "https://wikem.org/wiki/Finger_Splint"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "Displaced_or_angulated_fracture": {
+      "text": "Closed reduction\nAdequate reduction:\n<1-2mm displacement or shortening\nUp to 10 degrees of angulation\nNo amount rotation\nFollowed by\nUlnar Gutter Splint\nor\nRadial Gutter Splint\nWrist in 20-30 degrees of extension\nMCP joints in 70-90 degrees of flexion\nPIP and DIP joints flexed 5-10 degrees\nDecreases the force exerted by the FDS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Refer for:\nComminution\nMalrotation\nIntraarticular fracture\nDisplaced or angulated fractures that cannot maintain their reduction\nMost spiral and oblique fracture (usually involve rotation or shortening and are unstable)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Finger (Phalanx) Fracture\nHand Diagnoses (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Hand Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Hand_Diagnoses_(Main)"
+        }
+      ]
+    }
+  }
+}

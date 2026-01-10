@@ -1,0 +1,140 @@
+{
+  "drug_name": "Milrinone",
+  "url": "https://wikem.org/wiki/Milrinone",
+  "scraped_at": "2026-01-10T07:57:32.059762",
+  "sections": {
+    "General": {
+      "text": "Type:\nVasopressors\nDosage Forms: INJ\nCommon Trade Names: Milrinone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Dosing": {
+          "text": "Normal renal function:\n0.25 - 0.75 mcg/kg/min\nCreatinine clearance < 50mL/min, reduce infusion rate",
+          "tables": []
+        },
+        "Rate_of_Titration": {
+          "text": "Q2H; slower titration rate if renal insufficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dosing": {
+      "text": "Normal renal function:\n0.25 - 0.75 mcg/kg/min\nCreatinine clearance < 50mL/min, reduce infusion rate",
+      "subsections": {
+        "Rate_of_Titration": {
+          "text": "Q2H; slower titration rate if renal insufficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rate_of_Titration": {
+      "text": "Q2H; slower titration rate if renal insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Caution advised\nLactation: Safety unknown\nRenal Dosing\nAdult\nCrCl 50: Start 0.43 mcg/kg/min\nCrCl 40: Start 0.38 mcg/kg/min\nCrCl 30: Start 0.33 mcg/kg/min\nCrCl 20: Start 0.28 mcg/kg/min\nCrCl 10: Start 0.23 mcg/kg/min\nCrCl  5: Start 0.20 mcg/kg/min\nPediatric\nCrCl 50: Start 0.43 mcg/kg/min\nCrCl 40: Start 0.38 mcg/kg/min\nCrCl 30: Start 0.33 mcg/kg/min\nCrCl 20: Start 0.28 mcg/kg/min\nCrCl 10: Start 0.23 mcg/kg/min\nCrCl  5: Start 0.20 mcg/kg/min\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAortic valve disease, severe\nPulmonic valve disease, severe\nMI\n, acute",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "Tachyarrhythmias\nHypotension\nTorsades de pointes\nAnaphylaxis\nBronchospasm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.3h\nMetabolism: Glucouronidation\nExcretion: Urine primarily\nMechanism of Action: inhibits cAMP phosphodiesterase",
+      "subsections": {
+        "Primary_Receptor": {
+          "text": "PDE-3 inhibitor",
+          "tables": []
+        },
+        "Relative_Effects": {
+          "text": "↑HR\n↑↑↑SV\n↓SVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_Receptor": {
+      "text": "PDE-3 inhibitor",
+      "subsections": {
+        "Relative_Effects": {
+          "text": "↑HR\n↑↑↑SV\n↓SVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative_Effects": {
+      "text": "↑HR\n↑↑↑SV\n↓SVR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Notes": {
+      "text": "Can use as alternative to dobutamine in patients with cardiogenic shock and on b-blockers\nCauses pulmonary vasodilation, may be good choice in patients with RV failure\n↑cAMP in cardiac myocytes and vascular smooth muscle, thereby ↑HR and ↑SV while decreasing ↓SVR\nUse with caution in patient with renal failure and hypovolemia",
+      "subsections": {
+        "Indication": {
+          "text": "low cardiac output states due to impaired myocardial contractility",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indication": {
+      "text": "low cardiac output states due to impaired myocardial contractility",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

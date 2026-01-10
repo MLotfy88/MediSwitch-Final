@@ -1,0 +1,213 @@
+{
+  "drug_name": "Military_emergency_medicine",
+  "url": "https://wikem.org/wiki/Military_emergency_medicine",
+  "scraped_at": "2026-01-10T07:57:31.497200",
+  "sections": {
+    "US_Military_Emergency_Medicine_Care_Levels": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Echelons of Care": "I",
+            "Military Hierarchy": "Unit",
+            "Personnel/Facility": "Self/Buddy Aid",
+            "Type of Care": "First aid",
+            "Navy/Marine Corps Hierarchy": "Self/Buddy Aid",
+            "Army Hierarchy": "Self/Buddy Aid",
+            "Rough Civilian Equivalents": "Community first aid"
+          },
+          {
+            "Echelons of Care": "",
+            "Military Hierarchy": "",
+            "Personnel/Facility": "Combat Lifesaver",
+            "Type of Care": "First aid, beginning of emergency treatment",
+            "Navy/Marine Corps Hierarchy": "Combat Lifesaver (CLS)",
+            "Army Hierarchy": "Combat Lifesaver",
+            "Rough Civilian Equivalents": "First responders (police, fire)"
+          },
+          {
+            "Echelons of Care": "",
+            "Military Hierarchy": "",
+            "Personnel/Facility": "Combat medic",
+            "Type of Care": "Emergency medical treatment",
+            "Navy/Marine Corps Hierarchy": "Hospital Corpsman (HM)",
+            "Army Hierarchy": "Combat Medic (68W)",
+            "Rough Civilian Equivalents": "EMT-basic"
+          },
+          {
+            "Echelons of Care": "",
+            "Military Hierarchy": "",
+            "Personnel/Facility": "Battalion aid station",
+            "Type of Care": "Advanced trauma and medical management",
+            "Navy/Marine Corps Hierarchy": "Battalion Aid Station (BAS); Ship’s complement medical staff",
+            "Army Hierarchy": "Treatment squad, BAS, SOF medic (18D)",
+            "Rough Civilian Equivalents": "Paramedic"
+          },
+          {
+            "Echelons of Care": "II",
+            "Military Hierarchy": "Division",
+            "Personnel/Facility": "Medical company (clearing station)",
+            "Type of Care": "Initial resuscitation",
+            "Navy/Marine Corps Hierarchy": "Medical Battalion; Casualty Receiving & Treatment Ships (CRTS);Shock Trauma Platoon (STP); Ship’s complement medical staff",
+            "Army Hierarchy": "Medical battalions/companies, Casualty Evacuation (CASEVAC/Dustoff)",
+            "Rough Civilian Equivalents": "Level IV trauma center"
+          },
+          {
+            "Echelons of Care": "",
+            "Military Hierarchy": "",
+            "Personnel/Facility": "Field surgical support group",
+            "Type of Care": "Initial resuscitation",
+            "Navy/Marine Corps Hierarchy": "Forward Resuscitative Surgery System (FRSS)",
+            "Army Hierarchy": "Forward Surgical Team (FST), Special Operations Resuscitation Team (SORT), Forward Resuscitation and Surgical Team (FRST), Ground Surgical Team (GST), unspecified joint special operations surgical teams",
+            "Rough Civilian Equivalents": "Level III trauma center"
+          },
+          {
+            "Echelons of Care": "III",
+            "Military Hierarchy": "Corps",
+            "Personnel/Facility": "Combat support hospital, fleet hospitals",
+            "Type of Care": "Resuscitative surgery and medical care",
+            "Navy/Marine Corps Hierarchy": "Fleet hospital; Hospital ships",
+            "Army Hierarchy": "Field hospital levels - Combat Support Hospital (CSH); Historical - Evacuation Hospital (EVAC) and Mobile Army Surgical Hospital (MASH)",
+            "Rough Civilian Equivalents": "Level II trauma center"
+          },
+          {
+            "Echelons of Care": "IV",
+            "Military Hierarchy": "Echelons above corps",
+            "Personnel/Facility": "Combat support hospital, host nation hospitals, hospital ships",
+            "Type of Care": "Definitive care",
+            "Navy/Marine Corps Hierarchy": "Overseas medical treatment facilities",
+            "Army Hierarchy": "General hospital, Communications Zone Hospital (COMMZ)",
+            "Rough Civilian Equivalents": "Level I trauma center"
+          },
+          {
+            "Echelons of Care": "V",
+            "Military Hierarchy": "Out of theater (continental US)",
+            "Personnel/Facility": "Fixed medical facilities",
+            "Type of Care": "Restorative and rehabilitative care",
+            "Navy/Marine Corps Hierarchy": "CONUS military/civilian hospitals",
+            "Army Hierarchy": "CONUS military/civilian hospitals or OCONUS military hospitals",
+            "Rough Civilian Equivalents": "Tertiary and quaternary hospitals"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Navy/Marine_Corps_Echelons_of_Care": {
+      "text": "",
+      "subsections": {
+        "Echelon_I": {
+          "text": "Self-Aid/Buddy Aid\nCombat Lifesaver (CLS)\nAdvanced first aid training provided to Marines\nHospital Corpsman (HM)\nHMs can be forward deployed with Marine platoons and companies to provide EMS basic and paramedic level of care\nBattalion Aid Station (BAS)\nStaffed with corpsmen, Independent Duty Corpsman (IDC), and Battalio Surgeon\nShip’s Complement Medical Staff\nVaries in staff depending on size of ship",
+          "tables": []
+        },
+        "Echelon_II": {
+          "text": "Ship’s Complement Medical Staff\nVaries in staff depending on size of ship\nMedical Battalion\nProvides surgical care for the MEF\nProvides stabilizing surgical procedures\nCapable of holding patients up to 72 hours\nCasualty Receiving & Treatment Ships (CRTS)\nPart of an Expeditionary Strike Group (ESG)\nProvides additional medical capabilities for receiving a mass casualty of up to 50 casualties\nShock Trauma Platoon (STP)\nSmall forward unit with one physician supporting the MEF specializing in patient stabilization and CASEVAC\nNo surgical capability\nForward Resuscitation Surgical Suite (FRSS)\nThis surgical suite is pushed as far forward to be close to the combat area to allow surgical treatment of casualties within the “golden hour” after injury\nStaffed with 8 to 10 personnel (two surgeons, one critical care nurse, one anesthesiologist, and four to six corpsmen)\nEnough space for one operating room and one pre- and post-operative care room\nEquipped with cutting-edge surgical gear and takes less than one hour to set up or break down",
+          "tables": []
+        },
+        "Echelon_III": {
+          "text": "Fleet Hospitals\nDeployable ground asset but located away from enemy threat providing up to 500 hospital beds, 80 ICU beds, and 6 OR’s\nHospital Ships\nUSNS Mercy and USNS Comfort\nDeployable medical assets providing up to 1,000 beds, 100 ICU beds, and 12 OR’s",
+          "tables": []
+        },
+        "Echelon_IV": {
+          "text": "Overseas Medical Treatment Facilities\nOffers surgical capability found in echelon III, along with further definitive therapy for those patients in the recovery phase",
+          "tables": []
+        },
+        "Echelon_V": {
+          "text": "CONUS Military/Civilan Hospitals\nProvide full convalescent, restorative, and rehabilitative care to all patients returned to the Continental United States (CONUS).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Echelon_I": {
+      "text": "Self-Aid/Buddy Aid\nCombat Lifesaver (CLS)\nAdvanced first aid training provided to Marines\nHospital Corpsman (HM)\nHMs can be forward deployed with Marine platoons and companies to provide EMS basic and paramedic level of care\nBattalion Aid Station (BAS)\nStaffed with corpsmen, Independent Duty Corpsman (IDC), and Battalio Surgeon\nShip’s Complement Medical Staff\nVaries in staff depending on size of ship",
+      "subsections": {
+        "Echelon_II": {
+          "text": "Ship’s Complement Medical Staff\nVaries in staff depending on size of ship\nMedical Battalion\nProvides surgical care for the MEF\nProvides stabilizing surgical procedures\nCapable of holding patients up to 72 hours\nCasualty Receiving & Treatment Ships (CRTS)\nPart of an Expeditionary Strike Group (ESG)\nProvides additional medical capabilities for receiving a mass casualty of up to 50 casualties\nShock Trauma Platoon (STP)\nSmall forward unit with one physician supporting the MEF specializing in patient stabilization and CASEVAC\nNo surgical capability\nForward Resuscitation Surgical Suite (FRSS)\nThis surgical suite is pushed as far forward to be close to the combat area to allow surgical treatment of casualties within the “golden hour” after injury\nStaffed with 8 to 10 personnel (two surgeons, one critical care nurse, one anesthesiologist, and four to six corpsmen)\nEnough space for one operating room and one pre- and post-operative care room\nEquipped with cutting-edge surgical gear and takes less than one hour to set up or break down",
+          "tables": []
+        },
+        "Echelon_III": {
+          "text": "Fleet Hospitals\nDeployable ground asset but located away from enemy threat providing up to 500 hospital beds, 80 ICU beds, and 6 OR’s\nHospital Ships\nUSNS Mercy and USNS Comfort\nDeployable medical assets providing up to 1,000 beds, 100 ICU beds, and 12 OR’s",
+          "tables": []
+        },
+        "Echelon_IV": {
+          "text": "Overseas Medical Treatment Facilities\nOffers surgical capability found in echelon III, along with further definitive therapy for those patients in the recovery phase",
+          "tables": []
+        },
+        "Echelon_V": {
+          "text": "CONUS Military/Civilan Hospitals\nProvide full convalescent, restorative, and rehabilitative care to all patients returned to the Continental United States (CONUS).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Echelon_II": {
+      "text": "Ship’s Complement Medical Staff\nVaries in staff depending on size of ship\nMedical Battalion\nProvides surgical care for the MEF\nProvides stabilizing surgical procedures\nCapable of holding patients up to 72 hours\nCasualty Receiving & Treatment Ships (CRTS)\nPart of an Expeditionary Strike Group (ESG)\nProvides additional medical capabilities for receiving a mass casualty of up to 50 casualties\nShock Trauma Platoon (STP)\nSmall forward unit with one physician supporting the MEF specializing in patient stabilization and CASEVAC\nNo surgical capability\nForward Resuscitation Surgical Suite (FRSS)\nThis surgical suite is pushed as far forward to be close to the combat area to allow surgical treatment of casualties within the “golden hour” after injury\nStaffed with 8 to 10 personnel (two surgeons, one critical care nurse, one anesthesiologist, and four to six corpsmen)\nEnough space for one operating room and one pre- and post-operative care room\nEquipped with cutting-edge surgical gear and takes less than one hour to set up or break down",
+      "subsections": {
+        "Echelon_III": {
+          "text": "Fleet Hospitals\nDeployable ground asset but located away from enemy threat providing up to 500 hospital beds, 80 ICU beds, and 6 OR’s\nHospital Ships\nUSNS Mercy and USNS Comfort\nDeployable medical assets providing up to 1,000 beds, 100 ICU beds, and 12 OR’s",
+          "tables": []
+        },
+        "Echelon_IV": {
+          "text": "Overseas Medical Treatment Facilities\nOffers surgical capability found in echelon III, along with further definitive therapy for those patients in the recovery phase",
+          "tables": []
+        },
+        "Echelon_V": {
+          "text": "CONUS Military/Civilan Hospitals\nProvide full convalescent, restorative, and rehabilitative care to all patients returned to the Continental United States (CONUS).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Echelon_III": {
+      "text": "Fleet Hospitals\nDeployable ground asset but located away from enemy threat providing up to 500 hospital beds, 80 ICU beds, and 6 OR’s\nHospital Ships\nUSNS Mercy and USNS Comfort\nDeployable medical assets providing up to 1,000 beds, 100 ICU beds, and 12 OR’s",
+      "subsections": {
+        "Echelon_IV": {
+          "text": "Overseas Medical Treatment Facilities\nOffers surgical capability found in echelon III, along with further definitive therapy for those patients in the recovery phase",
+          "tables": []
+        },
+        "Echelon_V": {
+          "text": "CONUS Military/Civilan Hospitals\nProvide full convalescent, restorative, and rehabilitative care to all patients returned to the Continental United States (CONUS).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Echelon_IV": {
+      "text": "Overseas Medical Treatment Facilities\nOffers surgical capability found in echelon III, along with further definitive therapy for those patients in the recovery phase",
+      "subsections": {
+        "Echelon_V": {
+          "text": "CONUS Military/Civilan Hospitals\nProvide full convalescent, restorative, and rehabilitative care to all patients returned to the Continental United States (CONUS).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Echelon_V": {
+      "text": "CONUS Military/Civilan Hospitals\nProvide full convalescent, restorative, and rehabilitative care to all patients returned to the Continental United States (CONUS).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tactical combat casualty care\nEmergency medical services (EMS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tactical combat casualty care",
+          "url": "https://wikem.org/wiki/Tactical_combat_casualty_care"
+        },
+        {
+          "text": "Emergency medical services (EMS)",
+          "url": "https://wikem.org/wiki/Emergency_medical_services_(EMS)"
+        }
+      ]
+    }
+  }
+}

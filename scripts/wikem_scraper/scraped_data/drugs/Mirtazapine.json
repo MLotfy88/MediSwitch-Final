@@ -1,0 +1,97 @@
+{
+  "drug_name": "Mirtazapine",
+  "url": "https://wikem.org/wiki/Mirtazapine",
+  "scraped_at": "2026-01-10T07:57:30.987704",
+  "sections": {
+    "Administration": {
+      "text": "Type: Atypical antidepressant\nDosage Forms:\nRoutes of Administration: oral\nCommon Trade Names: Remeron",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "15-45mg PO nightly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing, CrCl <40: increase dose slowly\nHepatic impairment: increase dose slowly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMAOI use concomitantly or within past 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Agranulocytosis, neutropenia\nNeuroleptic malignant syndrome, serotonin syndrome\nSeizure, status epilepticus\nExacerbation of depression, suicidality\nCirrhosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Increased appetite, weight gain, elevated triglycerides, constipation, xerostomia\nDizziness, somnolence, disturbance in thinking",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Agranulocytosis, neutropenia\nNeuroleptic malignant syndrome, serotonin syndrome\nSeizure, status epilepticus\nExacerbation of depression, suicidality\nCirrhosis",
+      "subsections": {
+        "Common": {
+          "text": "Increased appetite, weight gain, elevated triglycerides, constipation, xerostomia\nDizziness, somnolence, disturbance in thinking",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Increased appetite, weight gain, elevated triglycerides, constipation, xerostomia\nDizziness, somnolence, disturbance in thinking",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 26-37h\nMetabolism: Hepatic, CYP2D6, CYP1A2, and CYP3A4\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Exact mechanism of action unknown. Potent serotonin 5HT2 and 5HT3 antagonist, moderate muscarinic antagonist. Side effects due to antihistaminergic and α-1 antagonist properties",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Depression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    }
+  }
+}

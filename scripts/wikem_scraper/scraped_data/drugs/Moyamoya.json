@@ -1,0 +1,119 @@
+{
+  "drug_name": "Moyamoya",
+  "url": "https://wikem.org/wiki/Moyamoya",
+  "scraped_at": "2026-01-10T07:57:43.216968",
+  "sections": {
+    "Background": {
+      "text": "A cerebrovascular disease characterized by progressive stenosis/occlusion of the arteries around the Circle of Willis.\nThe narrowing or blockage stimulates angiogenesis to provide collateral circulation to the brain.\nOn angiography, these small blood vessels give off a \"puff of smoke\" appearance (also known as \"MoyaMoya\" in Japanese).\nThe disease is found more commonly in Asian countries and was first descried in Japanese literature in 1957.\nThere is mounting evidence there is a genetic cause of the disease.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "The developed collateral circulation is prone to bleeding, aneurysm, thrombosis exhibiting:\nfocal neurological deficits\n,\nTIA\n,\nepilepsy\n, and bowel/bladder incontinence.\nChildren predominately exhibit\nischemic stroke\n.\nApproximately 2/3rd of children exhibit Electroencephalography (EEG) abnormalities: high voltage slow waves that occur during hyperventilation.\nCan be associated with atherosclerosis,\nmeningitis\n,\nvasculitis\n, autoimmune diseases, hematological conditions,\nbrain tumors\n, and chromosomal abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "focal neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neurological_deficits"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "brain tumors",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Hemorrhagic stroke\n/\nIschemic stroke\nGiant cell arteritis\n,\nvasculitis\nHead trauma\nBasilar artery thrombosis\nBlood dyscrasias\nCavernous sinus thrombosis\nCerebral aneurysms\nDissection syndromes (e.g. intracranial\nvertebral and carotid artery dissection\n)\nCarotid atherosclerosis\nFibromuscular dysplasia\nCraniopharyngioma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Head CT\nand/or\nbrain MRI\nare important studies to visualize infarctions and brain hemorrhages.\nCT can show dilation of the sulci accompanies by focal ventricular enlargement.\nMRI has higher sensitivity for detecting ischemic regions.\nMagnetic Resonance Angiographic studies can demonstrate occlusions within the circle of Willis and better visualize the collateral vasculature. It is preferred over CTA in most institutions.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "brain MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Symptomatic treatment: decrease\nelevated ICP\n, improve cerebral blood flow, control active seizures, pain control , supplemental\nO2\nAvoid hypotension, hypervolemia, hypernatremia, hypocarbia\nVentricular drainage if there is hemorrhage\nMinimize crying/hyperventilation a decreased PaCO2 can worsen ischemia by vasoconstriction\nAntithrombotic and thrombolytic surgery has not been systematically analyzed for Moyamoya disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

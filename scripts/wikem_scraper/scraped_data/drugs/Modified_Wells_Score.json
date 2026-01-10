@@ -1,0 +1,90 @@
+{
+  "drug_name": "Modified_Wells_Score",
+  "url": "https://wikem.org/wiki/Modified_Wells_Score",
+  "scraped_at": "2026-01-10T07:57:36.624368",
+  "sections": {
+    "Scoring": {
+      "text": "",
+      "subsections": {
+        "Modified_Wells_Score": {
+          "text": "Can be applied for patients whose clinical presentation is concerning for a\nDVT\nin order to risk stratify.\nActive cancer (<6 mo) (1pt)\nParalysis, paresis, or immobility of extremity (1pt)\nBedridden >3 days because of symptoms within 4 weeks (1pt)\nTTP along deep venous system (1pt)\nEntire leg swollen (1pt)\nUnilateral calf swelling >3cm below tibial tuberosity (1pt)\nUnilateral pitting edema (1pt)\nCollateral superficial veins, not varicose (1pt)\nPreviously documented\nDVT\n(1pt)\nAlternative diagnosis as likely or more likely than\nDVT\n(-2pts)\nScoring\n:\nA\nscore of 0 or lower\n→ minimal risk -\nDVT\nprevalence of 5%. D-dimer testing is safe in this group - negative d-dimer decreases the probability of disease to <1% allowing an\nultrasound\nto be deferred.\nA\nscore of 1-2\n→ moderate risk -\nDVT\nprevalence of 17%. D-dimer testing still effective and a negative test decreases post-test probability disease to <1%\nA\nscore of 3 or higher\n→ high risk -\nDVT\nprevalence of 17-53% → patients should receive an\nultrasound\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        }
+      ]
+    },
+    "Modified_Wells_Score": {
+      "text": "Can be applied for patients whose clinical presentation is concerning for a\nDVT\nin order to risk stratify.\nActive cancer (<6 mo) (1pt)\nParalysis, paresis, or immobility of extremity (1pt)\nBedridden >3 days because of symptoms within 4 weeks (1pt)\nTTP along deep venous system (1pt)\nEntire leg swollen (1pt)\nUnilateral calf swelling >3cm below tibial tuberosity (1pt)\nUnilateral pitting edema (1pt)\nCollateral superficial veins, not varicose (1pt)\nPreviously documented\nDVT\n(1pt)\nAlternative diagnosis as likely or more likely than\nDVT\n(-2pts)\nScoring\n:\nA\nscore of 0 or lower\n→ minimal risk -\nDVT\nprevalence of 5%. D-dimer testing is safe in this group - negative d-dimer decreases the probability of disease to <1% allowing an\nultrasound\nto be deferred.\nA\nscore of 1-2\n→ moderate risk -\nDVT\nprevalence of 17%. D-dimer testing still effective and a negative test decreases post-test probability disease to <1%\nA\nscore of 3 or higher\n→ high risk -\nDVT\nprevalence of 17-53% → patients should receive an\nultrasound\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        }
+      ]
+    }
+  }
+}

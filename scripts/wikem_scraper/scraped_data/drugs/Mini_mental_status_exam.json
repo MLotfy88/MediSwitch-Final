@@ -1,0 +1,94 @@
+{
+  "drug_name": "Mini_mental_status_exam",
+  "url": "https://wikem.org/wiki/Mini_mental_status_exam",
+  "scraped_at": "2026-01-10T07:57:28.806207",
+  "sections": {
+    "Exam": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Question": "Ask: What is the (year)(season)(date)(day)(month)?",
+            "Points Awarded": "One point for each correct answer",
+            "Max Score": "5"
+          },
+          {
+            "Question": "Ask: Where are we (city)(state)(country)(hospital)(floor)?",
+            "Points Awarded": "One point for each correct answer",
+            "Max Score": "5"
+          },
+          {
+            "Question": "Name three objects.  Ask patient to immediately repeat named objects",
+            "Points Awarded": "One point for each correct object repeated",
+            "Max Score": "3"
+          },
+          {
+            "Question": "Serial 7's-Ask patient to start at 100 and count backwards by 7ORSpell WORLD backwards",
+            "Points Awarded": "One point for each correct number (93, 86, 79, 72, 65) or letter",
+            "Max Score": "5"
+          },
+          {
+            "Question": "Ask patient to recall and state the three objects previously named",
+            "Points Awarded": "One point for each object recalled",
+            "Max Score": "3"
+          },
+          {
+            "Question": "Point to a pencil and watch and ask the patient to name the objects",
+            "Points Awarded": "One point for each correctly named object",
+            "Max Score": "2"
+          },
+          {
+            "Question": "Ask the patient to repeat, \"no ifs, ands or buts\"",
+            "Points Awarded": "One point if repeated correctly",
+            "Max Score": "1"
+          },
+          {
+            "Question": "Ask patient to take a sheet of paper in his/her right hand, fold it in half, and place it on the floor.",
+            "Points Awarded": "One point for each task performed correctly",
+            "Max Score": "3"
+          },
+          {
+            "Question": "Ask patient to read and obey the following \"Close your eyes.\" (this task is written on a sheet of paper)",
+            "Points Awarded": "One point for closing eyes",
+            "Max Score": "1"
+          },
+          {
+            "Question": "Ask patient to write a sentence",
+            "Points Awarded": "One point for writing a sentence with noun/verb and is sensible",
+            "Max Score": "1"
+          },
+          {
+            "Question": "Copy this design (interlocking pentagons)",
+            "Points Awarded": "One point for the patients design containing all angles and intersecting",
+            "Max Score": "1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Analysis": {
+      "text": "Mini-mental status exam\nScore less than 24 suggests cognitive impairment\nMay be influenced by education and age\nScore less than 29 if greater than 9 years of schooling suggests cognitive impairment\nScore less than 26 if 5-9 years of schooling suggests cognitive impairment\nScore less than 22 if less than 4 years of schooling suggests cognitive impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dementia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    },
+    "References": {
+      "text": "Folstein \"Mini-mental state\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

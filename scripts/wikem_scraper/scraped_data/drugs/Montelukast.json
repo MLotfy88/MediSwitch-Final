@@ -1,0 +1,166 @@
+{
+  "drug_name": "Montelukast",
+  "url": "https://wikem.org/wiki/Montelukast",
+  "scraped_at": "2026-01-10T07:57:37.129443",
+  "sections": {
+    "Administration": {
+      "text": "Type: Leukotriene modifier\nDosage Forms: granules, chewable and conventional tablets\nRoutes of Administration: PO\nCommon Trade Names: Singulair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Asthma (prophylaxis), allergic rhinitis: 10mg PO daily\nExercise-induced asthma: 10mg 2h prior to exercise max 10mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "12-24mo: 4 mg (granules) PO daily\n2-6y: 4 mg PO daily\n6-15y: 5 mg PO daily\n>15y: 10mg PO daily\n>15 years: 10 mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Low risk to infant",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Low risk to infant",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Low risk to infant",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution using chewable tablets in phenylketonuria (contain phenylalanine)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Systemic eosinophilia with vasculitis consistent with Churg-Strauss syndrome\nNeuropsychiatric events: aggressive behavior/agitation, anxiousness, hallucinations, suicidal ideation, somambulism",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache, dizziness\nAbdominal pain, dyspepsia, gastroenteritis\nElevated LFTs\nViral infection, laryngitis, pharyngitis, influenza, cough, otitis, nasal congestion, bronchitis,\nWheezing\nDental pain\nRash, urticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Systemic eosinophilia with vasculitis consistent with Churg-Strauss syndrome\nNeuropsychiatric events: aggressive behavior/agitation, anxiousness, hallucinations, suicidal ideation, somambulism",
+      "subsections": {
+        "Common": {
+          "text": "Headache, dizziness\nAbdominal pain, dyspepsia, gastroenteritis\nElevated LFTs\nViral infection, laryngitis, pharyngitis, influenza, cough, otitis, nasal congestion, bronchitis,\nWheezing\nDental pain\nRash, urticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache, dizziness\nAbdominal pain, dyspepsia, gastroenteritis\nElevated LFTs\nViral infection, laryngitis, pharyngitis, influenza, cough, otitis, nasal congestion, bronchitis,\nWheezing\nDental pain\nRash, urticaria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.7-5.5h\nMetabolism: Hepatic\nExcretion: mostly in feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits binding of leukotriene D4 to its receptor, thus interfering with inflammatory process involved with asthma symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Asthma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "References": {
+      "text": "Medscape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

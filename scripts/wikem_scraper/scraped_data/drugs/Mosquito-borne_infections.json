@@ -1,0 +1,42 @@
+{
+  "drug_name": "Mosquito-borne_infections",
+  "url": "https://wikem.org/wiki/Mosquito-borne_infections",
+  "scraped_at": "2026-01-10T07:57:40.867462",
+  "sections": {
+    "Background": {
+      "text": "Malaria\nDengue\nWest Nile Virus\nEncephalitis\nSt. Louis encephalitis\nWestern equine encephalitis,\nVenezuelan equine encephalitis\nEastern equine encephalitis,\nLa Crosse virus\nChikungunya\nYellow fever\nJapanese encephalitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "West Nile Virus",
+          "url": "https://wikem.org/wiki/West_Nile_Virus"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Viral_Encephalitides"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Japanese encephalitis",
+          "url": "https://wikem.org/wiki/Japanese_encephalitis"
+        }
+      ]
+    }
+  }
+}

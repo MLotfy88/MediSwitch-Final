@@ -1,0 +1,242 @@
+{
+  "drug_name": "Molar_pregnancy",
+  "url": "https://wikem.org/wiki/Molar_pregnancy",
+  "scraped_at": "2026-01-10T07:57:37.249569",
+  "sections": {
+    "Background": {
+      "text": "Type of gestational trophoblastic disease\nNeoplasm of placental hCG-producing trophoblast cells\nNon-invasive (invasive form is choriocarcinoma, can metastasize to brain, liver, lung)\nNon-viable\nfertilized egg implants in uterine wall\nComplete: all chorionic villi are vesicular, swollen, with no embryonic development\n46, XX karyotype\nPartial: some vesicular chorionic villi, +/- (nonviable) embryonic development\n69, XXX or 69, XXY",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Due primarily to elevated levels of hCG\n[1]\nVaginal bleeding\n(75-95%)\nHyperemesis gravidarum\n(10-25%)\nSuspect molar pregnancy when pregnancy-induced hypertension occurs at <24 weeks\nLarger than usual uterine size (25%)\nVaginal discharge\nof grape-like vesicles (10%)\nHyperthyroidism\n(5%)\nEarly\npreeclampsia\n(5%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Vaginal bleeding\nEctopic Pregnancy\n, heterotopic pregnancy\nFirst Trimester Abortion\n(complete, threatened, incomplete, septic, etc.)\nImplantation bleeding\nFibroids\nCervicitis\nGestational trophoblastic disease",
+      "subsections": {
+        "Nausea_and_vomiting_in_pregnancy": {
+          "text": "Hyperemesis gravidarum\nGastroenteritis\nBiliary disease\nEctopic pregnancy\nGastroenteritis\nPancreatitis\nAppendicitis\nHepatitis\nPeptic ulcer disease\nPyelonephritis\nAcute fatty liver of pregnancy\nHELLP syndrome\nGestational trophoblastic disease\n(may present with intractable vomiting)\nMolar pregnancy\nThyrotoxicosis\n(may present with intractable vomiting)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Nausea_and_vomiting_in_pregnancy": {
+      "text": "Hyperemesis gravidarum\nGastroenteritis\nBiliary disease\nEctopic pregnancy\nGastroenteritis\nPancreatitis\nAppendicitis\nHepatitis\nPeptic ulcer disease\nPyelonephritis\nAcute fatty liver of pregnancy\nHELLP syndrome\nGestational trophoblastic disease\n(may present with intractable vomiting)\nMolar pregnancy\nThyrotoxicosis\n(may present with intractable vomiting)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serum hCG > 100,000 mIU/mL suggest excessive trophoblastic growth\n[2]\nNormal hCG level does not exclude molar pregnancy\nPartial molar pregnancies are more likely to produce lower hCG levels\nEvaluate for other causes of or electrolyte derangements due to\nvomiting\nOther serum lab workup\nCBC\nBUN/Cr/Electrolytes\nLFTs\nThyroid function tests\nConsider\nCXR\nor CT chest if there is suspicion of pulmonary metastases\n[3]\nPelvic ultrasound\nComplete mole - enlarged uterus with interspersed lucent and brighter areas (\"snowstorm\" appearance)\nBefore 12 weeks, may show a fine vascular or honeycomb appearance\nOvaries may contain multiple large theca-lutein cysts due to excessive beta-hCG\nPartial mole - more difficult to diagnose, with the fetus possibly being viable\nScattered cystic spaces within placenta\nOvarian cystic changes less pronounced than in complete mole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Ob/gyn consult\nSuction curettage as inpatient (due to risk of bleeding)\nResuscitate if severe bleeding\nTreat\npreeclampsia\nSymptomatic treatment of\nnausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaginal bleeding in pregnancy (less than 20wks)\nHyperemesis gravidarum\nPregnancy (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal bleeding in pregnancy (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        }
+      ]
+    }
+  }
+}

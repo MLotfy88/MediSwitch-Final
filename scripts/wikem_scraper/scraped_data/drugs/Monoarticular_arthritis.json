@@ -1,0 +1,1265 @@
+{
+  "drug_name": "Monoarticular_arthritis",
+  "url": "https://wikem.org/wiki/Monoarticular_arthritis",
+  "scraped_at": "2026-01-10T07:57:39.922650",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Monoarticular_arthritis": {
+          "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        },
+        "Septic_Arthritis": {
+          "text": "Gonococcal arthritis\nNongonococcal Arthritis\nArthritis-Dermatitis Syndrome",
+          "tables": []
+        },
+        "Crystal-Induced_Monoarthritis": {
+          "text": "Gout\nPseudogout",
+          "tables": []
+        },
+        "Traumatic": {
+          "text": "Fracture\nLigamentous injury\nOveruse",
+          "tables": []
+        },
+        "Ischemic": {
+          "text": "Avascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\npain in absence of trauma\nfemoral head, medial conyle of knee",
+          "tables": []
+        },
+        "Hemorrhagic": {
+          "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+          "tables": []
+        },
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Monoarticular_arthritis": {
+      "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+      "subsections": {
+        "Septic_Arthritis": {
+          "text": "Gonococcal arthritis\nNongonococcal Arthritis\nArthritis-Dermatitis Syndrome",
+          "tables": []
+        },
+        "Crystal-Induced_Monoarthritis": {
+          "text": "Gout\nPseudogout",
+          "tables": []
+        },
+        "Traumatic": {
+          "text": "Fracture\nLigamentous injury\nOveruse",
+          "tables": []
+        },
+        "Ischemic": {
+          "text": "Avascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\npain in absence of trauma\nfemoral head, medial conyle of knee",
+          "tables": []
+        },
+        "Hemorrhagic": {
+          "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+          "tables": []
+        },
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Septic_Arthritis": {
+      "text": "Gonococcal arthritis\nNongonococcal Arthritis\nArthritis-Dermatitis Syndrome",
+      "subsections": {
+        "Crystal-Induced_Monoarthritis": {
+          "text": "Gout\nPseudogout",
+          "tables": []
+        },
+        "Traumatic": {
+          "text": "Fracture\nLigamentous injury\nOveruse",
+          "tables": []
+        },
+        "Ischemic": {
+          "text": "Avascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\npain in absence of trauma\nfemoral head, medial conyle of knee",
+          "tables": []
+        },
+        "Hemorrhagic": {
+          "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+          "tables": []
+        },
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Crystal-Induced_Monoarthritis": {
+      "text": "Gout\nPseudogout",
+      "subsections": {
+        "Traumatic": {
+          "text": "Fracture\nLigamentous injury\nOveruse",
+          "tables": []
+        },
+        "Ischemic": {
+          "text": "Avascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\npain in absence of trauma\nfemoral head, medial conyle of knee",
+          "tables": []
+        },
+        "Hemorrhagic": {
+          "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+          "tables": []
+        },
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Traumatic": {
+      "text": "Fracture\nLigamentous injury\nOveruse",
+      "subsections": {
+        "Ischemic": {
+          "text": "Avascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\npain in absence of trauma\nfemoral head, medial conyle of knee",
+          "tables": []
+        },
+        "Hemorrhagic": {
+          "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+          "tables": []
+        },
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Ischemic": {
+      "text": "Avascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\npain in absence of trauma\nfemoral head, medial conyle of knee",
+      "subsections": {
+        "Hemorrhagic": {
+          "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+          "tables": []
+        },
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Hemorrhagic": {
+      "text": "Posttraumatic\nHemophilia\nSystemic\nanticoagulation",
+      "subsections": {
+        "Neoplastic": {
+          "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+          "tables": []
+        },
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Neoplastic": {
+      "text": "Metastases\nOsteochondroma\nOsteoid osteoma\nPigmented villonodular synovitis",
+      "subsections": {
+        "Systemic_Disease": {
+          "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+          "tables": []
+        },
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Systemic_Disease": {
+      "text": "Remote infection, infectious\nendocarditis\nRheumatic fever\nSeronegative (no RF) spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic\n,\nreactive arthritis\n)\nRheumatoid arthritis\n,\nSLE\nSarcoidosis\n,\namyloidosis",
+      "subsections": {
+        "Periarticular_(mimic_joint_involvement)": {
+          "text": "Cellulitis\nTendonitis\nBursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "Transient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pseudogout\nGout\nSeptic Arthritis (Hip)\nSeptic Arthritis (General)\nArthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Septic Arthritis (Hip)",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(Hip)"
+        },
+        {
+          "text": "Septic Arthritis (General)",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    }
+  }
+}

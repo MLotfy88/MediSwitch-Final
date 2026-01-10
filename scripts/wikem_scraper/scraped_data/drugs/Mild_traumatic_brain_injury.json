@@ -1,0 +1,601 @@
+{
+  "drug_name": "Mild_traumatic_brain_injury",
+  "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury",
+  "scraped_at": "2026-01-10T07:57:27.327917",
+  "sections": {
+    "Background": {
+      "text": "Definition:\nGCS\n14-15\nNeurologic dysfunction that varies without gross lesions (ie patients have trouble with memory, attention, and executive functioning\nOccurs after a blunt force or acceleration-deceleration\nhead injury\nLikely secondary to metabolic insult ie low oxygen state, ion changes\nStructural imaging on\nMRI\nor\nCT\nmight not indicate any injury\nOften evidence on microscopic level of injury with histology\nImportant to not expose the already injured brain to repeated insults which is why there are usually worsening symptoms after a repeat concussion",
+      "subsections": {
+        "Epidemiology": {
+          "text": "2.5 million people sustain a TBI in the United States every year\n75 to 95 percent, are mild\nMost common causes of TBI are motor vehicle accidents (20 to 45 percent), falls (30 to 38 percent), occupational accidents (10 percent), recreational accidents (10 percent), and assaults (5 to 17 percent)",
+          "tables": []
+        },
+        "Primary_injury": {
+          "text": "Contusions\nBruises to brain parenchyma\nHematomas\nEpidural hematoma\nSubdural hematoma\nIntraparenchymal\nIntraventricular\nSubarachnoid hemorrhage\nDiffuse axonal injury\nDirect cellular damage\nNeurons\nAxons\nTearing and shearing of tissues",
+          "tables": []
+        },
+        "Secondary_injury": {
+          "text": "Brain swelling causes\nincreased ICP\nwhich compresses the tissue causing ischemia with direct compression of the vasculature causing brain tissue herniation and brain death\nLeads to expansion of the original injury (predominantly metabolic insult)\nCalcium and sodium shifts\nMitochondrial damage\nProduction of free radicals\nUltimately leads to damage to axonal integrity and axonal transport\nEnzyme activity leads to apoptosis\nMicroscopic structural injury is often unidentifiable on CT or MRI",
+          "tables": []
+        },
+        "Cerebral_Blood_Flow_and_Autoregulation": {
+          "text": "vasoconstriction\nHTN, Hypocarbia, alkalosis\nNo good way to measure cerebral blood flow\nUse CPP as surrogate\nCPP is amount of pressure needed to perfuse the brain\nCPP=MAP-ICP\nWhen ICP elevates, CPP decreases\nNormal ICP\n15 in adults\n<10 to 15 in children\n1.5 to 6.0 in infants\nAutoregulation allows the body to control the cerebral blood flow\nAutoregulatory mechanism is damaged in most TBI patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_injury"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "2.5 million people sustain a TBI in the United States every year\n75 to 95 percent, are mild\nMost common causes of TBI are motor vehicle accidents (20 to 45 percent), falls (30 to 38 percent), occupational accidents (10 percent), recreational accidents (10 percent), and assaults (5 to 17 percent)",
+      "subsections": {
+        "Primary_injury": {
+          "text": "Contusions\nBruises to brain parenchyma\nHematomas\nEpidural hematoma\nSubdural hematoma\nIntraparenchymal\nIntraventricular\nSubarachnoid hemorrhage\nDiffuse axonal injury\nDirect cellular damage\nNeurons\nAxons\nTearing and shearing of tissues",
+          "tables": []
+        },
+        "Secondary_injury": {
+          "text": "Brain swelling causes\nincreased ICP\nwhich compresses the tissue causing ischemia with direct compression of the vasculature causing brain tissue herniation and brain death\nLeads to expansion of the original injury (predominantly metabolic insult)\nCalcium and sodium shifts\nMitochondrial damage\nProduction of free radicals\nUltimately leads to damage to axonal integrity and axonal transport\nEnzyme activity leads to apoptosis\nMicroscopic structural injury is often unidentifiable on CT or MRI",
+          "tables": []
+        },
+        "Cerebral_Blood_Flow_and_Autoregulation": {
+          "text": "vasoconstriction\nHTN, Hypocarbia, alkalosis\nNo good way to measure cerebral blood flow\nUse CPP as surrogate\nCPP is amount of pressure needed to perfuse the brain\nCPP=MAP-ICP\nWhen ICP elevates, CPP decreases\nNormal ICP\n15 in adults\n<10 to 15 in children\n1.5 to 6.0 in infants\nAutoregulation allows the body to control the cerebral blood flow\nAutoregulatory mechanism is damaged in most TBI patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "TBI_Pathophysiology": {
+      "text": "",
+      "subsections": {
+        "Primary_injury": {
+          "text": "Contusions\nBruises to brain parenchyma\nHematomas\nEpidural hematoma\nSubdural hematoma\nIntraparenchymal\nIntraventricular\nSubarachnoid hemorrhage\nDiffuse axonal injury\nDirect cellular damage\nNeurons\nAxons\nTearing and shearing of tissues",
+          "tables": []
+        },
+        "Secondary_injury": {
+          "text": "Brain swelling causes\nincreased ICP\nwhich compresses the tissue causing ischemia with direct compression of the vasculature causing brain tissue herniation and brain death\nLeads to expansion of the original injury (predominantly metabolic insult)\nCalcium and sodium shifts\nMitochondrial damage\nProduction of free radicals\nUltimately leads to damage to axonal integrity and axonal transport\nEnzyme activity leads to apoptosis\nMicroscopic structural injury is often unidentifiable on CT or MRI",
+          "tables": []
+        },
+        "Cerebral_Blood_Flow_and_Autoregulation": {
+          "text": "vasoconstriction\nHTN, Hypocarbia, alkalosis\nNo good way to measure cerebral blood flow\nUse CPP as surrogate\nCPP is amount of pressure needed to perfuse the brain\nCPP=MAP-ICP\nWhen ICP elevates, CPP decreases\nNormal ICP\n15 in adults\n<10 to 15 in children\n1.5 to 6.0 in infants\nAutoregulation allows the body to control the cerebral blood flow\nAutoregulatory mechanism is damaged in most TBI patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Most consistent abnormality is subtle impairments in cognitive function (concussion symptoms)\nAttention, concentration, amnesia, memory, processing speed, reaction time, calculation, executive function\nPhysical signs/symptoms\nHeadache\n,\ndizziness\n,\ninsomnia\n,\nfatigue\n, uneven gait, nausea/\nvomiting\n,\nblurred vision\n,\nseizure\nPostconcussive anosmia (affecting taste as well)\nBehavioral changes\nIrritability,\ndepression\n,\nanxiety\n, sleep disturbances, problems related to school/work, emotional lability, loss of initiative, loneliness, and helplessness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[1]\nConsider cervical and/or facial CT",
+          "tables": []
+        },
+        "Westmead_post-traumatic_amnesia_scale": {
+          "text": "Any wrong answer to following questions is considered positive for cognitive impairment after head injury\nWhat is your name?\nWhat is the name of this place?\nWhy are you here?\nWhat month are we in?\nWhat year are we in?\nWhat town/suburb are you in?\nHow old are you?\nWhat is your date of birth?\nWhat time of day is it? (morning, afternoon, evening)\nThree pictures are presented for subsequent recall",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinically made, no reliable test that can confirm diagnosis of concussion\nSigns and symptoms may occur immediately or be delayed by days-weeks (see also\npost-concussive syndrome\n)",
+          "tables": []
+        },
+        "Types": {
+          "text": "Simple concussion\nGradual resolution of symptoms within 7-10d\nComplex concussion\nPersisting symptoms or cognitive impairment\nSymptoms with exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[1]\nConsider cervical and/or facial CT",
+      "subsections": {
+        "Westmead_post-traumatic_amnesia_scale": {
+          "text": "Any wrong answer to following questions is considered positive for cognitive impairment after head injury\nWhat is your name?\nWhat is the name of this place?\nWhy are you here?\nWhat month are we in?\nWhat year are we in?\nWhat town/suburb are you in?\nHow old are you?\nWhat is your date of birth?\nWhat time of day is it? (morning, afternoon, evening)\nThree pictures are presented for subsequent recall",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinically made, no reliable test that can confirm diagnosis of concussion\nSigns and symptoms may occur immediately or be delayed by days-weeks (see also\npost-concussive syndrome\n)",
+          "tables": []
+        },
+        "Types": {
+          "text": "Simple concussion\nGradual resolution of symptoms within 7-10d\nComplex concussion\nPersisting symptoms or cognitive impairment\nSymptoms with exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        }
+      ]
+    },
+    "Westmead_post-traumatic_amnesia_scale": {
+      "text": "Any wrong answer to following questions is considered positive for cognitive impairment after head injury\nWhat is your name?\nWhat is the name of this place?\nWhy are you here?\nWhat month are we in?\nWhat year are we in?\nWhat town/suburb are you in?\nHow old are you?\nWhat is your date of birth?\nWhat time of day is it? (morning, afternoon, evening)\nThree pictures are presented for subsequent recall",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinically made, no reliable test that can confirm diagnosis of concussion\nSigns and symptoms may occur immediately or be delayed by days-weeks (see also\npost-concussive syndrome\n)",
+          "tables": []
+        },
+        "Types": {
+          "text": "Simple concussion\nGradual resolution of symptoms within 7-10d\nComplex concussion\nPersisting symptoms or cognitive impairment\nSymptoms with exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinically made, no reliable test that can confirm diagnosis of concussion\nSigns and symptoms may occur immediately or be delayed by days-weeks (see also\npost-concussive syndrome\n)",
+      "subsections": {
+        "Types": {
+          "text": "Simple concussion\nGradual resolution of symptoms within 7-10d\nComplex concussion\nPersisting symptoms or cognitive impairment\nSymptoms with exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Simple concussion\nGradual resolution of symptoms within 7-10d\nComplex concussion\nPersisting symptoms or cognitive impairment\nSymptoms with exertion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Simple": {
+          "text": "Limitations on playing and training while symptomatic\nFollow up with primary care provider",
+          "tables": []
+        },
+        "Complex": {
+          "text": "Refer to sports medicine or concussion specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Simple": {
+      "text": "Limitations on playing and training while symptomatic\nFollow up with primary care provider",
+      "subsections": {
+        "Complex": {
+          "text": "Refer to sports medicine or concussion specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complex": {
+      "text": "Refer to sports medicine or concussion specialist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Patient requires inpatient observation if GCS <15, seizure activity present, anticoagulation or bleeding diathesis, or no responsible caregiver to discharge to",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Patient may be discharged for outpatient observation if (all of the following):\nNo head CT required per above criteria\nOR\nhead CT performed and not requiring neurosurgical intervention\nPatient GCS 15 on discharge\nNo\nseizures\nNo\nanticoagulation\nor\nbleeding diathesis\nResponsible caregiver at home to discharge to",
+          "tables": []
+        },
+        "Discharge_instructions": {
+          "text": "Given good follow up instructions detailing a graded return-to-activity program and symptoms to anticipate during recovery\n[2]\nEncourage cognitive rest and avoidance of repetitive head injuries\nDischarge patient to care of responsible individual\nPatients might not understand discharge instructions so repeat them to the individual taking care of the patient\nIn one study of adolescents, strict rest immediately after mild TBI offered no benefit.\n[3]\nPhysical activity at any level (light aerobic, moderate, full) within first 7 days compared with no activity associated with lower rates of persistent symptoms at 28 days (29% vs. 40%)\n[4]\nMulticohort study - 2400 children, aged 5-18, in the emergency department\nStill recommend strict rest for first 24-48 hours\nFollow up for full examination, gait and cognition testing\nMini-Mental State Exam\nStandardized Assessment for Concussion\nTakes 10-15 mins to administer, often not performed in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "Patient requires inpatient observation if GCS <15, seizure activity present, anticoagulation or bleeding diathesis, or no responsible caregiver to discharge to",
+      "subsections": {
+        "Discharge": {
+          "text": "Patient may be discharged for outpatient observation if (all of the following):\nNo head CT required per above criteria\nOR\nhead CT performed and not requiring neurosurgical intervention\nPatient GCS 15 on discharge\nNo\nseizures\nNo\nanticoagulation\nor\nbleeding diathesis\nResponsible caregiver at home to discharge to",
+          "tables": []
+        },
+        "Discharge_instructions": {
+          "text": "Given good follow up instructions detailing a graded return-to-activity program and symptoms to anticipate during recovery\n[2]\nEncourage cognitive rest and avoidance of repetitive head injuries\nDischarge patient to care of responsible individual\nPatients might not understand discharge instructions so repeat them to the individual taking care of the patient\nIn one study of adolescents, strict rest immediately after mild TBI offered no benefit.\n[3]\nPhysical activity at any level (light aerobic, moderate, full) within first 7 days compared with no activity associated with lower rates of persistent symptoms at 28 days (29% vs. 40%)\n[4]\nMulticohort study - 2400 children, aged 5-18, in the emergency department\nStill recommend strict rest for first 24-48 hours\nFollow up for full examination, gait and cognition testing\nMini-Mental State Exam\nStandardized Assessment for Concussion\nTakes 10-15 mins to administer, often not performed in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Patient may be discharged for outpatient observation if (all of the following):\nNo head CT required per above criteria\nOR\nhead CT performed and not requiring neurosurgical intervention\nPatient GCS 15 on discharge\nNo\nseizures\nNo\nanticoagulation\nor\nbleeding diathesis\nResponsible caregiver at home to discharge to",
+      "subsections": {
+        "Discharge_instructions": {
+          "text": "Given good follow up instructions detailing a graded return-to-activity program and symptoms to anticipate during recovery\n[2]\nEncourage cognitive rest and avoidance of repetitive head injuries\nDischarge patient to care of responsible individual\nPatients might not understand discharge instructions so repeat them to the individual taking care of the patient\nIn one study of adolescents, strict rest immediately after mild TBI offered no benefit.\n[3]\nPhysical activity at any level (light aerobic, moderate, full) within first 7 days compared with no activity associated with lower rates of persistent symptoms at 28 days (29% vs. 40%)\n[4]\nMulticohort study - 2400 children, aged 5-18, in the emergency department\nStill recommend strict rest for first 24-48 hours\nFollow up for full examination, gait and cognition testing\nMini-Mental State Exam\nStandardized Assessment for Concussion\nTakes 10-15 mins to administer, often not performed in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Prognosis": {
+      "text": "See also\npost-concussive syndrome\nAt 3 mo after injury 20-40% are symptomatic\nWith treatment for the most common symptoms of\nheadache\n, difficulty concentrating, and short-term memory difficulties being rest and (in some circumstances)\nNSAIDS\n.\nAt 1 yr after injury 15% are symptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Head Trauma (Main)\nSevere traumatic brain injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        }
+      ]
+    }
+  }
+}

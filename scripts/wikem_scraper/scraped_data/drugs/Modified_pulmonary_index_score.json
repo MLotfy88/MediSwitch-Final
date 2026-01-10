@@ -1,0 +1,76 @@
+{
+  "drug_name": "Modified_pulmonary_index_score",
+  "url": "https://wikem.org/wiki/Modified_pulmonary_index_score",
+  "scraped_at": "2026-01-10T07:57:37.531670",
+  "sections": {
+    "Intro": {
+      "text": "MPIS <7 - Mild exacerbation\nMPIS 7-10 - Moderate exacerbation\nMPIS ≥10 - Severe exacerbation\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age <3 Years": "Points"
+          },
+          {
+            "Age <3 Years": "0"
+          },
+          {
+            "Age <3 Years": "1"
+          },
+          {
+            "Age <3 Years": "2"
+          },
+          {
+            "Age <3 Years": "3"
+          }
+        ],
+        [
+          {
+            "Age 3-6 Years": "Points"
+          },
+          {
+            "Age 3-6 Years": "0"
+          },
+          {
+            "Age 3-6 Years": "1"
+          },
+          {
+            "Age 3-6 Years": "2"
+          },
+          {
+            "Age 3-6 Years": "3"
+          }
+        ],
+        [
+          {
+            "Age ≥6 Years": "Points"
+          },
+          {
+            "Age ≥6 Years": "0"
+          },
+          {
+            "Age ≥6 Years": "1"
+          },
+          {
+            "Age ≥6 Years": "2"
+          },
+          {
+            "Age ≥6 Years": "3"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Asthma (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma (peds)",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        }
+      ]
+    }
+  }
+}

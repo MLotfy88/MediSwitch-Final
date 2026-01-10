@@ -1,0 +1,149 @@
+{
+  "drug_name": "Midazolam",
+  "url": "https://wikem.org/wiki/Midazolam",
+  "scraped_at": "2026-01-10T07:57:29.119342",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Type:\nBenzodiazepines\nDosage Forms: IV\nCommon Trade Names: Versed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Anxiolysis\n/\nsedation\n:\n1-2mg IV push\n0.07 to 0.08 mg/kg IM, usual dose 5 mg for 60 kg pt\nSeizure\n:\n10mg IM/IV\nICU Sedation:\nLoad: 10-50mcg/kg IV infusion\nMaintenance: 20-100 mcg/kg/hr infusion\nUse with standardized sedation protocol for titration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\nAnxiolysis/sedation:\n6mo-5yr: 0.05-0.1 mg/kg IV push\n6-12yr: 0.025-0.05 mg/kg IV push\nIntranasal\nSeizure\n: 0.2 mg/kg IN divided between nostrils\nProcedural sedation: 0.2-0.6 mg/kg IN divided between nostrils\nAnxiolysis: 0.5 mg/kg IN (max dose 10 mg)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nMaternal use shortly before delivery associated with floppy infant syndrome\nLactation: Distributed in breast milk, use with caution\nRenal Dosing:\nAdult: Decrease by 50% for severe renal failure\nPediatric\nHepatic Dosing:\nAdult: Prolonged clearance in cirrhosis\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Apnea\nHypopnea\nHypotension\nDelirium\n, when used for prolonged periods in ICU setting",
+          "tables": []
+        },
+        "Common": {
+          "text": "Drowsiness\nNausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Apnea\nHypopnea\nHypotension\nDelirium\n, when used for prolonged periods in ICU setting",
+      "subsections": {
+        "Common": {
+          "text": "Drowsiness\nNausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Drowsiness\nNausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Peak effect:\nIM: Children: 15 to 30 minutes; Adults: 30 to 60 minutes\nIV: 5 to 7 minutes\nIntranasal: 10 minutes\nDuration\nIV: Single dose: <2 hours (dose-dependent),up to 6 hours with cirrhosis\nIM: Up to 6 hours; Mean: 2 hours\nIntranasal: Children: 18 to 41 minutes\nHalf-life: 1.8-6.4 hr\nMetabolism: Metabolized in liver by CYP3A4 to active metabolite α\n1\n-hydroxymidazolam\nExcretion: Renal\nMechanism of Action: CNS depressant. Acts at GABA receptor to increase frequency of chloride channel opening, causing hyperpolarization and stabilization of neuronal membrane.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intranasal sedation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intranasal sedation",
+          "url": "https://wikem.org/wiki/Intranasal_sedation"
+        }
+      ]
+    },
+    "References": {
+      "text": "Micromedex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

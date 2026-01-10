@@ -1,0 +1,945 @@
+{
+  "drug_name": "Migraine_headache",
+  "url": "https://wikem.org/wiki/Migraine_headache",
+  "scraped_at": "2026-01-10T07:57:26.129855",
+  "sections": {
+    "Background": {
+      "text": "Female-to-male ratio of 3:1\nTends to be familial\nHeritability estimated to be approximately 42%\nPathogenesis is thought to involve the trigeminovascular system, which when activated results in parasympathetic dilation of intracranial arteries.\nMigraine without aura most common (~80%)\n[2]",
+      "subsections": {
+        "Definition:_Migraine_Headache_without_Aura": {
+          "text": "At least 5 attacks of headache fulfilling the following criteria:\nheadache attacks lasting 4–72 hr (untreated or unsuccessfully treated) (>1 h for children)\nheadache has at least 2 of the following characteristics:\nUnilateral location\nPulsating quality\nModerate or severe pain intensity\nAggravation by or causing avoidance of routine physical activity\nDuring headache at least one of the following occurs:\nNausea and/or vomiting\nPhotophobia and phonophobia (may be inferred from behavior)\nNot attributed to another disorder",
+          "tables": []
+        },
+        "Definition:_Migraine_Headache_with_Aura": {
+          "text": "At least two attacks fulfilling criteria A and B\nCriteria A: One or more of the following fully reversible aura symptoms:\nvisual\nsensory\nspeech and/or language\nmotor\nbrainstem\nretinal\nCriteria B: At least three of the following six characteristics:\nat least one aura symptom spreads gradually over ≥5 minutes\ntwo or more aura symptoms occur in succession\neach individual aura symptom lasts 5-60 minutes\nat least one aura symptom is unilateral\nat least one aura symptom is positive\nthe aura is accompanied, or followed within 60 minutes, by headache\nNot better accounted for by another ICHD-3 diagnosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definition:_Migraine_Headache_without_Aura": {
+      "text": "At least 5 attacks of headache fulfilling the following criteria:\nheadache attacks lasting 4–72 hr (untreated or unsuccessfully treated) (>1 h for children)\nheadache has at least 2 of the following characteristics:\nUnilateral location\nPulsating quality\nModerate or severe pain intensity\nAggravation by or causing avoidance of routine physical activity\nDuring headache at least one of the following occurs:\nNausea and/or vomiting\nPhotophobia and phonophobia (may be inferred from behavior)\nNot attributed to another disorder",
+      "subsections": {
+        "Definition:_Migraine_Headache_with_Aura": {
+          "text": "At least two attacks fulfilling criteria A and B\nCriteria A: One or more of the following fully reversible aura symptoms:\nvisual\nsensory\nspeech and/or language\nmotor\nbrainstem\nretinal\nCriteria B: At least three of the following six characteristics:\nat least one aura symptom spreads gradually over ≥5 minutes\ntwo or more aura symptoms occur in succession\neach individual aura symptom lasts 5-60 minutes\nat least one aura symptom is unilateral\nat least one aura symptom is positive\nthe aura is accompanied, or followed within 60 minutes, by headache\nNot better accounted for by another ICHD-3 diagnosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definition:_Migraine_Headache_with_Aura": {
+      "text": "At least two attacks fulfilling criteria A and B\nCriteria A: One or more of the following fully reversible aura symptoms:\nvisual\nsensory\nspeech and/or language\nmotor\nbrainstem\nretinal\nCriteria B: At least three of the following six characteristics:\nat least one aura symptom spreads gradually over ≥5 minutes\ntwo or more aura symptoms occur in succession\neach individual aura symptom lasts 5-60 minutes\nat least one aura symptom is unilateral\nat least one aura symptom is positive\nthe aura is accompanied, or followed within 60 minutes, by headache\nNot better accounted for by another ICHD-3 diagnosis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "If at least 4 of the following \"POUNDing\" features, LR of migraine is 24\n[4]\nP\nulsatile quality\nO\nnset/duration of 4-72 hours\nU\nnilateral\nN\nausea or\nvomiting\nD\nisabling in quality\nBasilar-type migraine may be associated with fully reversible dysarthria, vertigo, tinnitus, decreased hearing, double vision or ataxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider pregnancy test (for medication selection)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is normally clinical\nMake sure you considered other causes of emergent\nheadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider pregnancy test (for medication selection)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is normally clinical\nMake sure you considered other causes of emergent\nheadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is normally clinical\nMake sure you considered other causes of emergent\nheadache",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Management": {
+      "text": "1st line:\nProchlorperazine\n(compazine) 10mg IV (+/-\ndiphenhydramine\n12.5mg IV)\n[5]\nMost effective therapy\n2nd line:\nMetoclopramide\n(reglan) 10mg IV\nDHE 1mg IV over 3min\nConsider\nmetoclopramide\nor\nprochlorperazine\nas pre-treatment antiemetic\nContraindications: pregnancy, cardiovascular disease, hypertension\nTriptans\nContraindications: cardiovascular disease, use of DHE in previous 24hrs\nKetorolac\nSteroids\nDexamethasone\nto prevent recurrence 48-72 hours post-ED discharge, if history of migraines and recurrent headaches\n[6]\n10 mg IV single dose is commonly accepted regimen, 4 mg IV dose was shown to be as efficacious in a follow up study.\n[7]",
+      "subsections": {
+        "Non-specific_Headache": {
+          "text": "If known, treat specific headache type; avoid\nopioid\nmedications if at all possible\n1st line:\nprochlorperazine\n(compazine) 10 mg IV (+/-\ndiphenhydramine\n25-50 mg IV) + 1 L\nIVF\nbolus\nPlace prochlorperazine in IV bag to reduce chances of side effects from rapid administration\nAlternative\nmetoclopramide\n10 mg IV\n[8]\n(\ndiphenhydramine\naddition shows no clinical benifit\n[9]\n)\nAcetaminophen\nIV or PO, 325-1000 mg\nKetorolac\n10-30 mg IV (30-60mg IM)\nLower doses are shown to be just as effective\n[10]\nSumatriptan\nmost effective within 6 hours of headache onset\n[11]\nSerotonin 5HT1B/1D receptor agonist (e.g.\nsumatriptan\n)\n6 mg SQ or IM, may repeat dose x1 after 1 hour, max 12 mg / 24 hours\nOR 100 mg PO, may repeat dose x1 after 2 hours, max 200 mg / 24 hours\nOR 1-2 sprays IN (may repeat after 2 hours)\nContraindications to triptans include CV disease, uncontrolled\nHTN\n,\npregnancy\nDexamethasone\nto prevent recurrence 48-72 hours post-ED discharge, if history of migraines and/or recurrent headaches\n[12]\n10 mg IV single dose is commonly accepted regimen, 4 mg IV dose was shown to be as efficacious in a follow up study.\n[13]",
+          "tables": []
+        },
+        "Other_2nd_and_3rd_Line_Options": {
+          "text": "Magnesium\n1-2 g IV over 30-60 minutes, low side effect profile, in treatment of acute migraine attacks\n[14]\nValproate\nsodium 500-1000 mg IV in 50 mL of NS over 20 minutes (alternatively 10 mg/kg IV, pediatrics, max 500 mg)\n[15]\nDroperidol\nIV/IM 1.25-2.75 mg, plus or minus diphenhydramine for extrapyramidal symptoms\n[16]\nPerform EKG monitoring for patients at risk of QTc prolongation\nDo not give to patients who take already multiple QT prolonging drugs\nConsider\nhaloperidol\nIV 5 mg in IVF bolus with\ndiphenhydramine\nto prevent need for rescue medications\n[17]\nConsider 5-10 mg PO\nolanzapine\n(Zyprexa, Zydis) for prochlorperazine allergy\n[18]\n[19]\nParticularly useful in psych patients with mania, BPD, psychosis\nIV olanzapine may be as safe or safer than IM, with faster onset\n[20]\nKetamine\nIM/IV at subdissociative dosages, with risk stratification for potential ICP increase, though now widely considered a myth\n[21]\nCervical spine injection with IM injection of 1.5 mL of 0.5%\nbupivacaine\n(plus or minus\nmethylprednisolone\nacetate) bilaterally to the sixth or seventh spinous process\n[22]\nSphenopalatine ganglion block\nGreat for patients without an IV\n10 cm cotton-tipped applicator soaked in lidocaine or bupivicaine and inserted nasally along the superior border of the middle turbinate and left for 5-10 minutes\n[23]\nConsider\ngreater occipital nerve block\nFor refractory occipital migraine, cluster headache, occipital neuralgia, cervicogenic headache, or migraine with occipital nerve irritation or tenderness\n[24]\nSevere, intractable status migrainosus may benefit from off-label IV\npropofol\n[25]\n[26]\n[27]\nRequires procedural sedation monitoring and possible IV fluid resuscitation, respiratory decompensation intervention\nPropofol 0.5 mg/kg bolus, then 0.25 mg/kg every 10 minutes for 1 hour\nLess aggressive regimens include propofol 10 mg q5-10 min to ma of 80 mg\n[28]\nConsider using 1 mL 2% lidocaine added to every 10 mL of 10 mg/mL concentration propofol\nAverage dosage required ~100-125 mg",
+          "tables": []
+        },
+        "Migraine_Prophylaxis": {
+          "text": "Typically not the role or responsibility of the EP\nLifestyle changes (avoiding caffeine, smoking and food triggers)\nIf inclined to give Rx, give very short supply and ensure proper follow up\nConsider drug side effects, interactions, cormorbidities\nAmerican Academy of Neurology and American Headache Society level A drug options, starting dosages\n[29]\nValproate\n/divalproex 250 mg q12\nMetoprolol\n25 mg q12\nPropranolol\n30 mg q8\nTimolol\n10 mg q12\nTopiramate\n25 mg QHS x1, then 25 mg q12",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "greater occipital nerve block",
+          "url": "https://wikem.org/wiki/Greater_occipital_nerve_block"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        }
+      ]
+    },
+    "Non-specific_Headache": {
+      "text": "If known, treat specific headache type; avoid\nopioid\nmedications if at all possible\n1st line:\nprochlorperazine\n(compazine) 10 mg IV (+/-\ndiphenhydramine\n25-50 mg IV) + 1 L\nIVF\nbolus\nPlace prochlorperazine in IV bag to reduce chances of side effects from rapid administration\nAlternative\nmetoclopramide\n10 mg IV\n[8]\n(\ndiphenhydramine\naddition shows no clinical benifit\n[9]\n)\nAcetaminophen\nIV or PO, 325-1000 mg\nKetorolac\n10-30 mg IV (30-60mg IM)\nLower doses are shown to be just as effective\n[10]\nSumatriptan\nmost effective within 6 hours of headache onset\n[11]\nSerotonin 5HT1B/1D receptor agonist (e.g.\nsumatriptan\n)\n6 mg SQ or IM, may repeat dose x1 after 1 hour, max 12 mg / 24 hours\nOR 100 mg PO, may repeat dose x1 after 2 hours, max 200 mg / 24 hours\nOR 1-2 sprays IN (may repeat after 2 hours)\nContraindications to triptans include CV disease, uncontrolled\nHTN\n,\npregnancy\nDexamethasone\nto prevent recurrence 48-72 hours post-ED discharge, if history of migraines and/or recurrent headaches\n[12]\n10 mg IV single dose is commonly accepted regimen, 4 mg IV dose was shown to be as efficacious in a follow up study.\n[13]",
+      "subsections": {
+        "Other_2nd_and_3rd_Line_Options": {
+          "text": "Magnesium\n1-2 g IV over 30-60 minutes, low side effect profile, in treatment of acute migraine attacks\n[14]\nValproate\nsodium 500-1000 mg IV in 50 mL of NS over 20 minutes (alternatively 10 mg/kg IV, pediatrics, max 500 mg)\n[15]\nDroperidol\nIV/IM 1.25-2.75 mg, plus or minus diphenhydramine for extrapyramidal symptoms\n[16]\nPerform EKG monitoring for patients at risk of QTc prolongation\nDo not give to patients who take already multiple QT prolonging drugs\nConsider\nhaloperidol\nIV 5 mg in IVF bolus with\ndiphenhydramine\nto prevent need for rescue medications\n[17]\nConsider 5-10 mg PO\nolanzapine\n(Zyprexa, Zydis) for prochlorperazine allergy\n[18]\n[19]\nParticularly useful in psych patients with mania, BPD, psychosis\nIV olanzapine may be as safe or safer than IM, with faster onset\n[20]\nKetamine\nIM/IV at subdissociative dosages, with risk stratification for potential ICP increase, though now widely considered a myth\n[21]\nCervical spine injection with IM injection of 1.5 mL of 0.5%\nbupivacaine\n(plus or minus\nmethylprednisolone\nacetate) bilaterally to the sixth or seventh spinous process\n[22]\nSphenopalatine ganglion block\nGreat for patients without an IV\n10 cm cotton-tipped applicator soaked in lidocaine or bupivicaine and inserted nasally along the superior border of the middle turbinate and left for 5-10 minutes\n[23]\nConsider\ngreater occipital nerve block\nFor refractory occipital migraine, cluster headache, occipital neuralgia, cervicogenic headache, or migraine with occipital nerve irritation or tenderness\n[24]\nSevere, intractable status migrainosus may benefit from off-label IV\npropofol\n[25]\n[26]\n[27]\nRequires procedural sedation monitoring and possible IV fluid resuscitation, respiratory decompensation intervention\nPropofol 0.5 mg/kg bolus, then 0.25 mg/kg every 10 minutes for 1 hour\nLess aggressive regimens include propofol 10 mg q5-10 min to ma of 80 mg\n[28]\nConsider using 1 mL 2% lidocaine added to every 10 mL of 10 mg/mL concentration propofol\nAverage dosage required ~100-125 mg",
+          "tables": []
+        },
+        "Migraine_Prophylaxis": {
+          "text": "Typically not the role or responsibility of the EP\nLifestyle changes (avoiding caffeine, smoking and food triggers)\nIf inclined to give Rx, give very short supply and ensure proper follow up\nConsider drug side effects, interactions, cormorbidities\nAmerican Academy of Neurology and American Headache Society level A drug options, starting dosages\n[29]\nValproate\n/divalproex 250 mg q12\nMetoprolol\n25 mg q12\nPropranolol\n30 mg q8\nTimolol\n10 mg q12\nTopiramate\n25 mg QHS x1, then 25 mg q12",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "greater occipital nerve block",
+          "url": "https://wikem.org/wiki/Greater_occipital_nerve_block"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        }
+      ]
+    },
+    "Migraine_Prophylaxis": {
+      "text": "Typically not the role or responsibility of the EP\nLifestyle changes (avoiding caffeine, smoking and food triggers)\nIf inclined to give Rx, give very short supply and ensure proper follow up\nConsider drug side effects, interactions, cormorbidities\nAmerican Academy of Neurology and American Headache Society level A drug options, starting dosages\n[29]\nValproate\n/divalproex 250 mg q12\nMetoprolol\n25 mg q12\nPropranolol\n30 mg q8\nTimolol\n10 mg q12\nTopiramate\n25 mg QHS x1, then 25 mg q12",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Headache\nHeadache (peds)\nPostpartum headache\nHeadache during pregnancy\nCT Before LP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Headache (peds)",
+          "url": "https://wikem.org/wiki/Headache_(peds)"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Headache during pregnancy",
+          "url": "https://wikem.org/wiki/Headache_during_pregnancy"
+        },
+        {
+          "text": "CT Before LP",
+          "url": "https://wikem.org/wiki/CT_Before_LP"
+        }
+      ]
+    }
+  }
+}

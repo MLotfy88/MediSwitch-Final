@@ -1,0 +1,263 @@
+{
+  "drug_name": "Mometasone_furoate/Formoterol_fumarate",
+  "url": "https://wikem.org/wiki/Mometasone_furoate/Formoterol_fumarate",
+  "scraped_at": "2026-01-10T07:57:37.088081",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nInhaled corticosteroid\nDosage Forms: 100 mcg/5 mg/spray, 200 mcg/5 mcg/spray MDI\nRoutes of Administration: Inhaled\nCommon Trade Names: Dulera",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled corticosteroid",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Prior medium dose inhaled steroid\n2 puffs (100 mcg/5 mcg/spray) inhaled BID\nMax: 4 puffs/day\nTaper to lowest effective dose. Use shortest effective treatment duration.\nPrior high dose inhaled steroid\n2 puffs (200 mcg/5 mcg/spray) inhaled BID\nMax: 4 puffs/day\nTaper to lowest effective dose. Use shortest effective treatment duration.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "12+ yo, prior medium dose inhaled steroid\n2 puffs (100 mcg/5 mcg/spray) inhaled BID\nMax: 4 puffs/day\nTaper to lowest effective dose. Use shortest effective treatment duration.\n12+ yo, prior high dose inhaled steroid\n2 puffs (200 mcg/5 mcg/spray) inhaled BID\nMax: 4 puffs/day\nTaper to lowest effective dose. Use shortest effective treatment duration.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Possible risk of teratogenicity in animal data at 0.3-8x MRHD. Possible risk of delayed ossification at 80x MRHD.\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined. Caution in hepatic impairment.\nPediatric: Not defined. Caution in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined. Caution in hepatic impairment.\nPediatric: Not defined. Caution in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined. Caution in hepatic impairment.\nPediatric: Not defined. Caution in hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAsthma\n, acute\nBronchospasm, acute",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchospasm, paradoxical\nAsthma\nexacerbation\nDeath, asthma-related\nHypersenstivity reaction\nAnaphylaxis\nAdrenal Suppression\nHypercorticism\nGrowth suppression in peds pts\nHypertension\nHypotension\nAngina\nCardiac arrest\nArrhythmia\nHypokalemia\nHyperglycemia\nGlaucoma\nin long-term use\nCataracts in long-term use",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nasopharyngitis\nHeadache\nSinusitis\nCandidiasis\n, oral\nDysphonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bronchospasm, paradoxical\nAsthma\nexacerbation\nDeath, asthma-related\nHypersenstivity reaction\nAnaphylaxis\nAdrenal Suppression\nHypercorticism\nGrowth suppression in peds pts\nHypertension\nHypotension\nAngina\nCardiac arrest\nArrhythmia\nHypokalemia\nHyperglycemia\nGlaucoma\nin long-term use\nCataracts in long-term use",
+      "subsections": {
+        "Common": {
+          "text": "Nasopharyngitis\nHeadache\nSinusitis\nCandidiasis\n, oral\nDysphonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nasopharyngitis\nHeadache\nSinusitis\nCandidiasis\n, oral\nDysphonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Mometasone: 5 hr. Formoterol: 10 hr.\nMetabolism: Mometasone: Liver, CYP450: 3A4 substrate. Formoterol: Liver extensively, CYP450: 2A6, 2C9/19, 2D6 substrate.\nExcretion: Mometasone: Feces 74%, Urine 8%. Formoterol: Urine 59-62% (10% unchanged), feces 32-34%.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Mometasone: Exact mechanism of anti-inflammatory action unknown. Inhibits multiple inflammatory cytokines and produces multiple glucocorticoid and mineralcorticoid effects.\nFormoterol: Selectively stimulates beta-2 adrenergic receptors, relaxing airway smooth muscle.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Black Box Warning: Long acting beta-2 adrenergic agonists (LABA) increase risk of asthma-related death. LABA use may increase risk of asthma-related hospitalization in pediatric and adolescent patients. Do not use corticosteroid/LABA combo if asthma adequately controlled on low-or medium-dose inhaled corticosteroids.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

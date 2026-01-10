@@ -1,0 +1,47 @@
+{
+  "drug_name": "Mirror_laryngoscopy",
+  "url": "https://wikem.org/wiki/Mirror_laryngoscopy",
+  "scraped_at": "2026-01-10T07:57:30.092442",
+  "sections": {
+    "Overview": {
+      "text": "Helpful if fiberoptic\nlaryngoscopy\nis not available",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Head lamp or assistant with mobile light source\nMirror",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Patient should sit with head in sniffing position\nWarm mirror with water to prevent fogging\nGrasp tongue with non-dominant hand, use middle finger to lift upper lip\nInsert mirror parallel to tongue and lift cephalad against uvula/soft palate until larynx is seen\nTopical anesthetic such as benzocaine or lidocaine 4% may help\nHave patient phonate with a high pitched voice (\"eeee\") to move epiglottis and to visualize cord function\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Inability to complete due to gag reflex\nTraumatic abrasions or bleeding\nLaryngospasm if paraglottic infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Laryngoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "drug_name": "Mitral_regurgitation",
+  "url": "https://wikem.org/wiki/Mitral_regurgitation",
+  "scraped_at": "2026-01-10T07:57:36.591412",
+  "sections": {
+    "Background": {
+      "text": "Annual incidence of degenerative Mitral Valve (MV) disease causing MR ~3% in industrialized countries\n[1]\nOther etiologies of MR:\nCardiac ischemia\nEndocarditis\nRheumatic disease\nSLE\n,\nscleroderma\n,\namyloidosis\n,\nsarcoidosis\nConnective tissue disease\n(myxomatous degeneration,\nMarfan\n,\nEhlers-Danlos\n)\nHOCM\nDilated cardiomyopathy\nMitral valve prolapse\nCongenital disorders\nCriteria for MV repair\n[2]\n:\nDevelopment of NYHA class II symptoms\nDeterioration in LV function\nLV end systolic diameter < 4.5 cm with EF > 60% to protect LV function\n[3]\nHowever, recent evidence suggests best outcomes of MV repair are in asymptomatic or minimally symptomatic patients selected for surgery soon after echo dx\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rheumatic disease",
+          "url": "https://wikem.org/wiki/Rheumatic_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Marfan",
+          "url": "https://wikem.org/wiki/Marfan_syndrome"
+        },
+        {
+          "text": "Ehlers-Danlos",
+          "url": "https://wikem.org/wiki/Ehlers-Danlos_syndrome"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Heart failure\nsymptoms\nAtrial dilatation and\natrial fibrillation\nPulmonary hypertension\nIschemic mitral incompetency, following\nmyocardial infarction\nor\nLV aneurysm\n[5]\nMost common mechanism of MR in developed countries\nDysfunction of ventricular wall leads to papillary muscle dysfunction or chordae rupture\nPosterior papillary muscle and supporting ventricular wall most commonly affected\nDyspnea\n,\ntachycardia\n,\npulmonary edema\n(especially if new, and no cardiomegaly)\nS4 heart sound\nApical systolic\nmurmur",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "LV aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical history and exam\nMyocardial infarction\n,\nendocarditis\n, trauma\nDyspnea, tachycardia, pulmonary edema\nSuspect if new-onset pulmonary edema, alongside normal heart size\nCardiogenic shock\nS4, apical systolic murmur\nClinical evaluation with auscultation may underestimate MR severity\n[6]\nEchocardiography\ngrading\nTraditional grading is different from ischemic MR grading\nEyeball grading of color jet from 1+ to 4+, set to color gain that minimizes background noise\nColor jet area in atrium during maximal MR jet, obtain both PSL and apial 4 chamber, at Nyquist limit scale set of 60 cm/s\nIschemic MR grading based on lesion severity of papillary muscle\nFactors that increase MR grading severity\nHypertension\nConcomitant\naortic stenosis\nMitral valve anatomy and scalloping much better appreciated in TEE over TTE",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive measures until definitive surgery\n[7]\nAppropriate treatment if\nmyocardial infarction\nmust include catheterization or\nthrombolysis\nPulmonary edema\nOxygen\nNitrates\nand\ndiuresis\nmay improve filling pressures and treat edema\nEarly intubation for impending respiratory failure\nDecrease afterload\nNitroprusside\ncan be considered in normotensive patients to increase cardiac output and decrease MR\nIntra aortic balloon pump may decrease afterload, increase forward cardiac output and reduce regurgitation\nInotropes\nDobutamine\npressor of choice as α agonism and increased afterload minimal compared to beta agonism\n[8]\nAvoid\nbeta-blockers\nas mild to moderate tachycardia allows less time for LV to backfill\nConsult Cardiology or Cardiothoracic Surgery for definitive management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Nitrates",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "diuresis",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Inotropes",
+          "url": "https://wikem.org/wiki/Inotropes"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for severe presentations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Valvular Emergencies\nHeart Murmurs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valvular Emergencies",
+          "url": "https://wikem.org/wiki/Valvular_Emergencies"
+        },
+        {
+          "text": "Heart Murmurs",
+          "url": "https://wikem.org/wiki/Heart_Murmurs"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Acute Valvular Emergencies: Pearls and Pitfalls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

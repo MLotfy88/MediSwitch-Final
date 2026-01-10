@@ -1,0 +1,54 @@
+{
+  "drug_name": "Microgravity",
+  "url": "https://wikem.org/wiki/Microgravity",
+  "scraped_at": "2026-01-10T07:57:27.268136",
+  "sections": {
+    "Overview": {
+      "text": "Microgravity\nis a gravitational environment that is significantly weaker than the gravitational environment on Earth. It is a condition where objects experience weightlessness, and it is commonly encountered in space, particularly in orbit around the Earth or in deep space.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Definition": {
+      "text": "Microgravity is a term that refers to a gravitational environment that is significantly weaker than the gravitational environment on Earth. It is a condition where the gravitational force acting on an object is less than 1% of the gravitational force acting on the same object on the surface of the Earth.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Microgravity is caused by the following factors:\nDistance from the center of the Earth: As an object moves away from the center of the Earth, the gravitational force acting on it decreases.\nOrbital velocity: When an object is in orbit around the Earth, it experiences a centrifugal force that counteracts the gravitational force, resulting in microgravity.\nSpacecraft acceleration: When a spacecraft is accelerating, it experiences a force that counteracts the gravitational force, resulting in microgravity.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Effects": {
+      "text": "Microgravity has several effects on objects and living organisms:\nWeightlessness: Objects experience weightlessness, which means they do not experience the same gravitational force as they would on Earth.\nFluid shift: In microgravity, fluids in the body shift towards the upper body, causing puffy faces and congested sinuses.\nBone loss: Prolonged exposure to microgravity can cause bone loss, as the body does not experience the same gravitational force as it would on Earth.\nMuscle atrophy: Prolonged exposure to microgravity can cause muscle atrophy, as the body does not experience the same gravitational force as it would on Earth.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Applications": {
+      "text": "Microgravity has several applications:\nSpace exploration: Microgravity is essential for space exploration, as it allows spacecraft to orbit the Earth and travel to other planets.\nScientific research: Microgravity provides a unique environment for scientific research, allowing scientists to study phenomena that cannot be studied on Earth.\nIndustrial applications: Microgravity has several industrial applications, including the production of materials and the testing of equipment.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Simulation": {
+      "text": "Microgravity can be simulated on Earth using several methods:\nDrop towers: Drop towers are used to simulate microgravity by dropping objects in a vacuum environment.\nParabolic flights: Parabolic flights are used to simulate microgravity by flying an aircraft in a parabolic arc.\nRotating wall vessels: Rotating wall vessels are used to simulate microgravity by rotating a vessel to create a centrifugal force.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Astronaut Physiology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Astronaut Physiology",
+          "url": "https://wikem.org/wiki/Astronaut_Physiology"
+        }
+      ]
+    }
+  }
+}

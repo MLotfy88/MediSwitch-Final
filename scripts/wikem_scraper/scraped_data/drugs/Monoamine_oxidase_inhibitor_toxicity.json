@@ -1,0 +1,437 @@
+{
+  "drug_name": "Monoamine_oxidase_inhibitor_toxicity",
+  "url": "https://wikem.org/wiki/Monoamine_oxidase_inhibitor_toxicity",
+  "scraped_at": "2026-01-10T07:57:38.658965",
+  "sections": {
+    "Background": {
+      "text": "MonoAmine Oxidase Inhibitors (MAOI)\nUsed to treat depression and Parkinsonism\nMAOI drugs available in the US include:\nIsocarboxazid, phenelzine (Nardil), tranylcypromine (Parnate)\nSelegiline (Deprenyl, Eldepryl, Emsam, Zelapar)--> MAO-B at lower doses, MAO-A at higher doses, rasagiline (Azilect), safinamide (Xadago)\nLinezolid\nis a reversible inhibitor of MAO and produces significant inhibition of MAO-A\nMethylene blue\n[1]\nLead to increased norepinephrine, serotonin, dopamine, tyramine",
+      "subsections": {
+        "Toxicity_Mechanisms": {
+          "text": "Intentional overdose\nSymptoms often delayed 6-24 hours after ingestion\nFood-drug interactions\nTaking MAOI at therapeutic doses, but inadvertently eating foods rich in tyramine (aged cheese, red wine, aged meats)\nSymptoms are generally acute\nDrug-drug interactions\nMany prescription and OTC medications interact with MAOI",
+          "tables": []
+        },
+        "Types": {
+          "text": "MAO-A\nPrimarily deaminates serotonin and norepinephrine\nMOA-B\nPrimarily deaminates phenylethylamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        }
+      ]
+    },
+    "Toxicity_Mechanisms": {
+      "text": "Intentional overdose\nSymptoms often delayed 6-24 hours after ingestion\nFood-drug interactions\nTaking MAOI at therapeutic doses, but inadvertently eating foods rich in tyramine (aged cheese, red wine, aged meats)\nSymptoms are generally acute\nDrug-drug interactions\nMany prescription and OTC medications interact with MAOI",
+      "subsections": {
+        "Types": {
+          "text": "MAO-A\nPrimarily deaminates serotonin and norepinephrine\nMOA-B\nPrimarily deaminates phenylethylamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "MAO-A\nPrimarily deaminates serotonin and norepinephrine\nMOA-B\nPrimarily deaminates phenylethylamine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Similar to hyperadrenergic state (\ntachycardia\n,\nhypertension\n,\nhyperthermia\n)\nSevere toxicity accompanied by\ncoma\n,\nseizure\n,\nbradycardia\n,\nhypotension\n, worsening\nhyperthermia\n,\nrhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Intoxications\nAmphetamines\nAntimuscarinics\nMethylxanthine toxicity (\ntheophylline\n,\ncaffeine\n)\nSt. John's Wort\nWithdrawal states\nEthanol\nBenzodiazepine withdrawal\nClonidine\nBeta-blockers\nMedical conditions\nHeat stroke\nHypoglycemia\nHyperthyroidism\nMeningitis\nEncephalitis\nPheochromocytoma\nCarcinoid syndrome\nAdverse drug reactions\nMalignant Hyperthermia\nSerotonin Syndrome\nTyramine Reaction\nNeuroleptic Malignant Syndrome (NMS)",
+      "subsections": {
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Antimuscarinics",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Tyramine Reaction",
+          "url": "https://wikem.org/wiki/Tyramine_Reaction"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome (NMS)",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome_(NMS)"
+        },
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Movement_Disorders_and_Other_Abnormal_Contractions": {
+      "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Asymptomatic period followed by delayed toxicity can suggest MAO-I toxicity\nurine immunoassays and mass spectroscopy can fail to detect MAOI (patients taking selegiline will test positive for methamphetamine)\nconsider ECG and chemistry panel in MAOI overdose patients who are obtunded",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Gastric decontamination\nActivated charcoal\nPO x 1\nConsider\ngastric lavage\n, if can be performed <1 hour after ingestion\nSupportive care\nHypertension\nTreat only with\nshort-acting\nagents: may develop precipitous hypotension\nPhentolamine\n: 2.5-5mg IV bolus q15-15min; can also give as infusion 0.2-0.5mg/min\nNitroprusside\n: 1mcg/kg/min and titrate up\nHypotension: intravenous fluid +/-\nnorepinephrine\nCNS excitation and\nSeizures\n:\nbenzodiazepines\nare 1st line\nHyperthermia\nRoutine cooling measures\nConsider paralysis if patient has persistent muscle rigidity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Phentolamine",
+          "url": "https://wikem.org/wiki/Phentolamine"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Do\nnot\nprescribe the following medications if a patient is taking a MAOI:\nmeperidine\n,\ndextromethorphan\n,\ntramadol\n, propoxyphene, or\ncyclobenzaprine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all patients for 24 hour observation to monitored setting (risk of delayed hyperadrenergic symptoms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tyramine Reaction\nToxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tyramine Reaction",
+          "url": "https://wikem.org/wiki/Tyramine_Reaction"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rosen's",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

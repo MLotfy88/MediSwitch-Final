@@ -1,0 +1,272 @@
+{
+  "drug_name": "Monteggia_fracture-dislocation",
+  "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation",
+  "scraped_at": "2026-01-10T07:57:39.679314",
+  "sections": {
+    "Background": {
+      "text": "Proximal ulna fx with radial head dislocation\nCommon in kids (different treatment for kids); rare in adults\nFOOSH\nEasy to overlook the radial head dislocation (will result in worse outcome)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain/swelling at elbow\nRadial head may be palpable in an anterolateral or posterolateral location\nSpontaneous relocation possible: must palpate directly over\nMay be associated with radial nerve injury (wrist drop, inability to extend the fingers)",
+      "subsections": {
+        "Complex_Associated_Injuries": {
+          "text": "Terrible triad of elbow\nCoronoid fracture\nRadial head fracture\nPosterior\nelbow dislocation\nOpen fracture\nOlecranon fracture-dislocation\nLCL injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "Complex_Associated_Injuries": {
+      "text": "Terrible triad of elbow\nCoronoid fracture\nRadial head fracture\nPosterior\nelbow dislocation\nOpen fracture\nOlecranon fracture-dislocation\nLCL injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Forearm_Fracture_Types": {
+          "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        }
+      ]
+    },
+    "Forearm_Fracture_Types": {
+      "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Inspect skin for open fracture\nDecreased ROM at elbow may indicate dislocation\nPIN neuropathy most commonly associated (hand deviates radially with wrist extension)",
+      "subsections": {
+        "Adult_Imaging": {
+          "text": "Xray: AP, Lateral of elbow, forearm, wrist\nCT scan: Fractures involving coronoid, olecranon, and radial head\nFindings:\nproximal 1/3 Ulna fracture + radial head dislocation (due to ulna shortening)\nRadial head can dislocate anterior, posterior, or laterally",
+          "tables": []
+        },
+        "Pediatric_Imaging": {
+          "text": "Xray: AP, Lateral of\nelbow\n, forearm, wrist\nAssess radiocapitellar line on every lateral radiograph of the elbow: a line down the radial shaft should pass through the center of the capitellar ossification center\n[1]\nFindings: Radial head dislocation + proximal ulna fracture or plastic deformation of the ulna without obvious fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "elbow",
+          "url": "https://wikem.org/wiki/Elbow_X-ray_(peds)"
+        }
+      ]
+    },
+    "Adult_Imaging": {
+      "text": "Xray: AP, Lateral of elbow, forearm, wrist\nCT scan: Fractures involving coronoid, olecranon, and radial head\nFindings:\nproximal 1/3 Ulna fracture + radial head dislocation (due to ulna shortening)\nRadial head can dislocate anterior, posterior, or laterally",
+      "subsections": {
+        "Pediatric_Imaging": {
+          "text": "Xray: AP, Lateral of\nelbow\n, forearm, wrist\nAssess radiocapitellar line on every lateral radiograph of the elbow: a line down the radial shaft should pass through the center of the capitellar ossification center\n[1]\nFindings: Radial head dislocation + proximal ulna fracture or plastic deformation of the ulna without obvious fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "elbow",
+          "url": "https://wikem.org/wiki/Elbow_X-ray_(peds)"
+        }
+      ]
+    },
+    "Pediatric_Imaging": {
+      "text": "Xray: AP, Lateral of\nelbow\n, forearm, wrist\nAssess radiocapitellar line on every lateral radiograph of the elbow: a line down the radial shaft should pass through the center of the capitellar ossification center\n[1]\nFindings: Radial head dislocation + proximal ulna fracture or plastic deformation of the ulna without obvious fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elbow",
+          "url": "https://wikem.org/wiki/Elbow_X-ray_(peds)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consult ortho in the ED\nLong arm posterior splint\nwith 90 degrees of elbow flexion and the hand in a neutral position\nAdults: likely requires ORIF\nPeds: possible long arm cast vs ORIF\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Long arm posterior splint",
+          "url": "https://wikem.org/wiki/Long_arm_posterior_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If splinted and stabilized, can be discharged after consultation with Ortho\nAdmit for:\nOpen fracture\nSigns of neurovascular injury\nConcern for\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Consider\nopen fracture\n(look for puncture wounds)\nCompartment syndrome\nPosterior Interosseous Neuropathy (PIN) - radial nerve branch; affects ~10% of Monteggia fractures\nPurely a motor syndrome resulting in finger drop, and radial wrist deviation on extension.\nMalunion with radial head dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Forearm Fracture\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm Fracture",
+          "url": "https://wikem.org/wiki/Forearm_Fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "References": {
+      "text": "[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

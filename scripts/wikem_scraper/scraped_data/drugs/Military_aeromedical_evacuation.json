@@ -1,0 +1,67 @@
+{
+  "drug_name": "Military_aeromedical_evacuation",
+  "url": "https://wikem.org/wiki/Military_aeromedical_evacuation",
+  "scraped_at": "2026-01-10T07:57:30.635535",
+  "sections": {
+    "Background": {
+      "text": "Given the speed of modern warfare coupled with the near absence of a true front line an answer to improving survivability was needed by the United States military\nThe solution was a two-pronged approach\nlife and limb saving damage control surgery/intervention close to the point of injury\nMovement of casualties out of austere environment to definitive care quickly\nUtilizing cargo aircraft of opportunity movement of stabilized patients from tactical environment to definitive care occurs in as little as two to three days under the current US military Aeromedical Evacuation system",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types_of_Patient_Movement": {
+      "text": "Casualty Evacuation (CASEVAC) - a term used by all branches of the US Department of Defense which refers to the unregulated movement of casualties aboard ships, vehicles, or aircraft.\nMedical Evacuation (MEDEVAC) - a termed used by the US Army, US Navy, and US Marine Corps which refers to the use of predesignated tactical or logistic aircraft, boats, ships, or other watercraft temporarily equipped and staffed with medical attendants for unregulated en route care.  Most often the term applies to US Army rotary wing aircraft.\nAeromedical Evacuation (AE) - a term which specifically refers to the use of vehicles most often US Air Force fixed-wing aircraft for the regulated movement of casualties with trained medical attendants on board. AE aircraft can operate as far forward as fixed-wing aircraft are able to conduct operations.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Patient_Movement_Process": {
+      "text": "A military treatment facility (MTF) provider identifies need to move casualty to higher level of care and completes an AF3899 - Aeromedical Evacuation Patient Record.\nThe Patient Administrator submits a Patient Movement Request (PMR) to the Patient Movement Request Center (PMRC) via TRANSCOM Regulating And Command & Control Evacuation System (TRAC2ES).\nThe PMR is based on a completed AF 3899\nThe PMR provides everyone involved in the patient movement process the minimal information needed to ensure safe and timely movement of a patient\nThe PMR needs to provide detailed enough picture concisely to ensure right patient is moved at right time\nThe PMRC Validates the request and gives the validated requirements to AE Control Team (AECT).\n\"Clearance\" is performed at local level of the MTF\nEnsures patient and their care is optimized for flight environment\nCompleted by base level Flight Surgeons\n\"Validation\" is done at theater level\nBalances theater airlift efficiency against patient's needs\nCompleted by a Senior Flight Surgeon at the PMRC\nAECT books/plans missions to meet movement requirements.\nThen PRMC manifests patient on mission in TRAC2ES.\nFinally the MTF or Enroute Patient Staging facility (ERPS) ensures patient is ready for mission and transferred to AE Crew on the aircraft.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Patient_Classifications": {
+      "text": "Reference attached table for specific patient movement category\nBased on diagnosis & ability to egress aircraft in an emergency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Movement_Precedence": {
+      "text": "Not same as triage categories used to prioritize treatment\nThree Tiered System:\nURGENT - as soon as possible but no later than 12 hours to save life, limb, eye or prevent serious complications in stabilized patient\nPRIORITY - within 24 hours if condition will significantly deteriorate and treatment not available locally\nROUTINE - next scheduled AE mission usually within 72 hours as condition is stable and not expected to deteriorate significantly given local medical resources",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Roles_of_Local_Flight_Surgeon": {
+      "text": "Assesses AE patients and develops plan of care to ensure patient survives the transport\nAddresses unique stressors of flight that exist in-flight based on patient's condition and treatments\nAddresses limitations found in the in-flight environment of care\nProvides and orchestrates local resources to prepare patient for movement\nServes as the clinical forward observer for the theater validating flight surgeon at the PMRC\nKey duties included\nIdentifying aeromedical significant problems on patient's problem list\nPertinent review of patient to anticipate / predict possible deterioration en route\nDetermines what prescriptive measures can prevent flight-related deterioration identified by above steps\nAssures that ground based care plan has been adjusted for stressors of flight\nCoordinates with ground treatment team and AE team",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Roles_of_Validating_Flight_Surgeon": {
+      "text": "Serves as medical oversight for utilization of AE resources\nEn Route Medical Control in absence of an on-board physician\nMedical Consultant to clearing flight surgeons and originating physicians at local MTF\nClinical oversight of en route care ensuring safety of patient and quality outcomes\nOversees rapid, safe movement of patients intra- and inter-theater\nOverall responsibility for all patients in the movement system for their PRMC\nEnsures right patient, right time, right conveyance, right en-route care and right destination",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Stressors_of_Flight": {
+      "text": "MAJOR STRESSORS\nHypoxia\nBarometric pressure changes\nIRRITANT STRESSORS\nDryness\nNoise\nVibration and turbulence\nTemperature changes\nG-forces\nFatigue associated with long flights",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Forms": {
+      "text": "AF 3899 Aeromedical Evacuation Patient Record",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "DoDI 6000.11\nPatient Movement\n(May 2012 IC1 1December 2017)\nDoDI 4515.13\nAir transportation Eligibility\n(January 2016 IC 31March2016)\nAFI 10-2909\nAeromedical Evacuation Equipment Standards\n(July 2013)\nJoint Publication 4-02,\nJoint Health Services\nAppendix A Patient Movement (December 2017)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

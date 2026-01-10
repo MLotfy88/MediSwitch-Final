@@ -1,0 +1,84 @@
+{
+  "drug_name": "Missile_embolism",
+  "url": "https://wikem.org/wiki/Missile_embolism",
+  "scraped_at": "2026-01-10T07:57:34.370629",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"bullet embolism\"\nOccurs when a bullet or bullet fragment enters the bloodstream.\nCan be arterial (80%) or venous\n[1]\nUsually a small-caliber, low velocity projectile.\n[1]\nFor this reason, incidence higher in non-military setting due to predominance of lower velocity projectiles\nIncidence = 1.1% in recent combat operations\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Number of entry wounds do not match exit wounds\nLocation of bullet not consistent with predicted trajectory\nBullet within intravascular or cavity without evidence of adjacent direct tissue injury\nFluoroscopy showing foreign body move within vascular cavity\nCXR\nshowing blurred foreign body within cardiac silhouette",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Missile_embolism_types": {
+          "text": "Intrapericardial foreign body\nSystemic venous embolism\nRight heart and pulmonary artery embolism\nPulmonary vein embolism\nLeft heart embolism\nCoronary artery embolism\nParadoxical embolus (due to\npatent foramen ovale\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "patent foramen ovale",
+          "url": "https://wikem.org/wiki/Patent_foramen_ovale"
+        }
+      ]
+    },
+    "Missile_embolism_types": {
+      "text": "Intrapericardial foreign body\nSystemic venous embolism\nRight heart and pulmonary artery embolism\nPulmonary vein embolism\nLeft heart embolism\nCoronary artery embolism\nParadoxical embolus (due to\npatent foramen ovale\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "patent foramen ovale",
+          "url": "https://wikem.org/wiki/Patent_foramen_ovale"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Need to maintain high index of suspicion, obtain full body radiography when indicated\n[1]\nTEE/TTE if intrathoracic\nSerial fluoroscopy, especially if intracardiac, but will not determine if buried in myocardium or free moving within cavity\nFAST exam as reasonable supplement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Controversial - not all need to be removed\nRefer to diagram / literature review references",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit to trauma floor vs. ICU based on hemodynamic stability vs. risk of further embolism complication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Gun shot wounds\nBlast injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gun shot wounds",
+          "url": "https://wikem.org/wiki/Gun_shot_wounds"
+        },
+        {
+          "text": "Blast injuries",
+          "url": "https://wikem.org/wiki/Blast_injuries"
+        }
+      ]
+    }
+  }
+}

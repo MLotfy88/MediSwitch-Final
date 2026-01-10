@@ -1,0 +1,30 @@
+{
+  "drug_name": "Modified_Rankin_Scale",
+  "url": "https://wikem.org/wiki/Modified_Rankin_Scale",
+  "scraped_at": "2026-01-10T07:57:34.323927",
+  "sections": {
+    "Background": {
+      "text": "The scale for standardized assessment of neurologic disability was modified from Dr. Rankin's originally proposed form for the UK-TIA trial and has remained in the current form.\n[1]\nStandardized calculation is commonly performed with\nmRS-9Q web calculator\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "The_Modified_Rankin_Scale": {
+      "text": "0 - No symptoms.\n1 - No significant disability. Able to carry out all usual activities, despite some symptoms.\n2 - Slight disability. Able to look after own affairs without assistance, but unable to carry out all previous activities.\n3 - Moderate disability. Requires some help, but able to walk unassisted.\n4 - Moderately severe disability. Unable to attend to own bodily needs without assistance, and unable to walk unassisted.\n5 - Severe disability. Requires constant nursing care and attention, bedridden, incontinent.\n6 - Dead.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CVA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    }
+  }
+}

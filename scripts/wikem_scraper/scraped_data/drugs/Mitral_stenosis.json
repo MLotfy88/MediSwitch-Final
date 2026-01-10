@@ -1,0 +1,231 @@
+{
+  "drug_name": "Mitral_stenosis",
+  "url": "https://wikem.org/wiki/Mitral_stenosis",
+  "scraped_at": "2026-01-10T07:57:35.916585",
+  "sections": {
+    "Background": {
+      "text": "Most common cause (~85%) is rheumatic fever\nChronic\nrheumatic disease\nuncommon in western world, but still very common in developing countries\n[1]\nUSA - 0.25 per 1000 people\nIndia and Pakistan - 5 per 1000 people\nCambodia - 21.5 per 1000 people\nMozambique - 30.4 per 1000 people\nOther etiologies:\nStenotic annular calcification (~12%)\nDegenerative/age-related\nPost-infectious\nCongenital (~0.6%)\nAnnulus hypoplasia\nParachute\nDouble orifice",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rheumatic disease",
+          "url": "https://wikem.org/wiki/Rheumatic_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Mid-diastolic\nmurmur\nSymptoms and complications\nExertional\ndyspnea\nPND\nAcute\npulmonary edema\nTricuspid regurgitation\nCor pulmonale\nHemoptysis\n(\npulmonary hypertension\n> ruptured bronchial vein)\nAtrial fibrillation\nThromboembolism\nPrecipitants:\nAnemia\nPregnancy\nInfection\nA-fib",
+      "subsections": {
+        "Complications": {
+          "text": "Systemic emboli\nCHF\nAtrial fibrillation\nEndocarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Systemic emboli\nCHF\nAtrial fibrillation\nEndocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nRAD\nBiphasic P waves\nMost common arrhythmia is AF\nCXR\nStraightening of right heart border\nEchocardiography",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Degree of mitral stenosis": "Progressive mitral stenosis",
+            "Mean gradient": "<5 mmHg",
+            "Mitral valve area": ">1.5 cm2"
+          },
+          {
+            "Degree of mitral stenosis": "Severe mitral stenosis",
+            "Mean gradient": "5–10 mmHg",
+            "Mitral valve area": "1.0–1.5 cm2"
+          },
+          {
+            "Degree of mitral stenosis": "Very severe mitral stenosis",
+            "Mean gradient": "> 10 mmHg",
+            "Mitral valve area": "< 1.0 cm2"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Diuretics\nAlleviates pulmonary congestion\nA-fib\ntreatment\nHemoptysis\nConsider\ntransfusion\n/ surgery consult\nEndocarditis prophylaxis after replacement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/RBCs"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Valvular Emergencies\nHeart Murmurs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valvular Emergencies",
+          "url": "https://wikem.org/wiki/Valvular_Emergencies"
+        },
+        {
+          "text": "Heart Murmurs",
+          "url": "https://wikem.org/wiki/Heart_Murmurs"
+        }
+      ]
+    }
+  }
+}

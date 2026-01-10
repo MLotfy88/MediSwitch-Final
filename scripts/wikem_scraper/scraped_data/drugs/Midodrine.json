@@ -1,0 +1,253 @@
+{
+  "drug_name": "Midodrine",
+  "url": "https://wikem.org/wiki/Midodrine",
+  "scraped_at": "2026-01-10T07:57:25.888529",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nVasopressors\n, alpha-1 agonist\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names: ProAmatine, Orvaten",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "2.5-10mg PO q8h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown if excreted in breastmilk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: 2.5mg PO q8h, increase as tolerated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown if excreted in breastmilk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: 2.5mg PO q8h, increase as tolerated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown if excreted in breastmilk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: 2.5mg PO q8h, increase as tolerated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: 2.5mg PO q8h, increase as tolerated",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Use caution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSevere heart disease\nSupine hypertension\nAcute renal disease, urinary retention\nPheochromocytoma\nThyrotoxicosis\nCaution with:\nConcomitant\nbeta-blockers\nor\ndigoxin\n(reflex bradycardia)\nConcomitant use of drugs that increase BP (e.g.\nphenylephrine\n,\nlevothyroxine\n,\npseudoephedrine\n)\nConcomitant MAOIs or\nlinezolid\nDM\nRenal or hepatic impairment\nVision problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bradycardia\nElevated ICP",
+          "tables": []
+        },
+        "Common": {
+          "text": "Paresthesias\nPiloerection, pruritus, rash,\nerythema multiforme\n, flushing\nHypertension\nUrinary retention or urgency\nAbdominal pain, nausea, xerostomia\nChills\nAnxiety, insomnia, somnolence, weakness\nConfusion, dizziness\nHeadache\nHyperesthesia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bradycardia\nElevated ICP",
+      "subsections": {
+        "Common": {
+          "text": "Paresthesias\nPiloerection, pruritus, rash,\nerythema multiforme\n, flushing\nHypertension\nUrinary retention or urgency\nAbdominal pain, nausea, xerostomia\nChills\nAnxiety, insomnia, somnolence, weakness\nConfusion, dizziness\nHeadache\nHyperesthesia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Paresthesias\nPiloerection, pruritus, rash,\nerythema multiforme\n, flushing\nHypertension\nUrinary retention or urgency\nAbdominal pain, nausea, xerostomia\nChills\nAnxiety, insomnia, somnolence, weakness\nConfusion, dizziness\nHeadache\nHyperesthesia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-4h\nMetabolism: Enzymatic hydrolysis in systemic circulation\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Selective alpha-1 adrenergic agonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vasopressors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    }
+  }
+}
