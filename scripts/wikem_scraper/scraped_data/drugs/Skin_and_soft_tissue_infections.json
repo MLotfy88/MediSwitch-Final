@@ -1,0 +1,457 @@
+{
+  "drug_name": "Skin_and_soft_tissue_infections",
+  "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections",
+  "scraped_at": "2026-01-10T08:02:14.650504",
+  "sections": {
+    "General_infections": {
+      "text": "",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Foot_infection": {
+      "text": "",
+      "subsections": {
+        "Foot_infection_2": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Foot_infection_2": {
+      "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+      "subsections": {
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Look_A-Likes": {
+      "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    }
+  }
+}

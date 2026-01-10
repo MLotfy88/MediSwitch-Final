@@ -1,0 +1,457 @@
+{
+  "drug_name": "Skin_abscess",
+  "url": "https://wikem.org/wiki/Skin_abscess",
+  "scraped_at": "2026-01-10T08:02:14.344628",
+  "sections": {
+    "Background": {
+      "text": "Localized collection of pus surrounded by inflamed tissue, usually caused by bacterial infection\nMRSA\nis the most common cause of purulent skin and soft-tissue infections.\n[1]\n[2]\n[3]\nStandard skin abscess are\nnot\ntypically due to\nspider bites\nand should not be diagnosed as such",
+      "subsections": {
+        "Terminology": {
+          "text": "Furuncles (i.e. boils) are skin abscesses caused by staphylococcal infection, which involve a hair follicle and surrounding tissue\nCarbuncles are clusters of furuncles connected subcutaneously, causing deeper suppuration and scarring.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        }
+      ]
+    },
+    "Terminology": {
+      "text": "Furuncles (i.e. boils) are skin abscesses caused by staphylococcal infection, which involve a hair follicle and surrounding tissue\nCarbuncles are clusters of furuncles connected subcutaneously, causing deeper suppuration and scarring.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Tender nodular region with surrounding induration\nFluctuance with or without surrounding erythema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Duct ectasia\nCyst\nVascular malformation",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs\nNot usually indicated\nGlucose may help identify undiagnosed diabetes, if suspected\nFor febrile or systemically ill patients, obtain blood cultures, lactate, renal function, and CK\nImaging\nSoft tissue ultrasound\ncan differentiate between abscess and\ncellulitis\nAssess for fluid collection and swirl within the collection\nRecent small studies have shown limited utility to bedside ultrasound in this capacity as it rarely leads to change in management (i.e. when a provider feels there is an abscess present, ultrasound shows an abscess and when there is diagnostic uncertainty the ultrasound usually is unequivocal as well)\n[4]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis, with or without use of bedside\nsoft tissue ultrasound\nand/or\nI&D\nfor confirmation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "soft tissue ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        },
+        {
+          "text": "I&D",
+          "url": "https://wikem.org/wiki/I%26D"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Labs\nNot usually indicated\nGlucose may help identify undiagnosed diabetes, if suspected\nFor febrile or systemically ill patients, obtain blood cultures, lactate, renal function, and CK\nImaging\nSoft tissue ultrasound\ncan differentiate between abscess and\ncellulitis\nAssess for fluid collection and swirl within the collection\nRecent small studies have shown limited utility to bedside ultrasound in this capacity as it rarely leads to change in management (i.e. when a provider feels there is an abscess present, ultrasound shows an abscess and when there is diagnostic uncertainty the ultrasound usually is unequivocal as well)\n[4]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis, with or without use of bedside\nsoft tissue ultrasound\nand/or\nI&D\nfor confirmation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "soft tissue ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        },
+        {
+          "text": "I&D",
+          "url": "https://wikem.org/wiki/I%26D"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis, with or without use of bedside\nsoft tissue ultrasound\nand/or\nI&D\nfor confirmation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "soft tissue ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        },
+        {
+          "text": "I&D",
+          "url": "https://wikem.org/wiki/I%26D"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Incision and drainage\nPacking\nAbscess >5 cm in diameter\nPilonidal abscess\nAbscess in an immunocompromised or diabetic patient\nAlternative to packing is loop drainage technique with vessel ties\n[5]\n, Penrose Drain, or you can cut the proximal cuff of a sterile glove\n[6]\nFailure rate of 4.1% for loop vessel technique vs 9.8% for conventional packing.\n[7]\nOther advantage is don’t have to keep coming back to the ER for painful repacking.\nHome Care\n[8]\nKeep area clean.\nCan cover with gauze to absorb the residual drainage.\nCan shower and/or bathe.\nThe loop drain can be removed when:\n[9]\nDrainage has stopped.\nCellulitis has improved.\nUsually is within 7-10 days.\nAntibiotics\nAlthough withholding antibiotics is part of\nChoosing wisely ACEP\n, new evidence suggest antibiotic NNT of 14 to prevent 1 treatment failure\n[10]\nTMP/SMX\nDS BID x 5 days\n[11]\nClindamycin\nis as effective, but with higher adverse events\n[12]\nConsider more aggressive antibiotic treatment if concomitant\ncellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Incision and drainage",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Choosing wisely ACEP",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Reserved for significantly ill patients or those requiring surgical intervention",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Appropriate for majority of patients\nFollow up in 2 days for wound check",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Reserved for significantly ill patients or those requiring surgical intervention",
+      "subsections": {
+        "Discharge": {
+          "text": "Appropriate for majority of patients\nFollow up in 2 days for wound check",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Appropriate for majority of patients\nFollow up in 2 days for wound check",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Incision and drainage\nCellulitis\nUltrasound: Soft tissue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Incision and drainage",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Ultrasound: Soft tissue",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual: Abscess\nEMNerd: Case of the Pragmatic Wound\nAre Antibiotics Back in Favor for Abscesses?\nSonoguide: Abscess Assessment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

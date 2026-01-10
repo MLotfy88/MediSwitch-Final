@@ -1,0 +1,172 @@
+{
+  "drug_name": "Sodium_zirconium_cyclosilicate",
+  "url": "https://wikem.org/wiki/Sodium_zirconium_cyclosilicate",
+  "scraped_at": "2026-01-10T08:02:17.961790",
+  "sections": {
+    "Administration": {
+      "text": "Type: Potassium binder,\nantidote\nDosage Forms: 5 g (1 ea, 30 ea); 10 g (1 ea, 30 ea), empty contents into glass with 45 mL of water\nRoutes of Administration: Oral\nCommon Trade Names: Lokelma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hyperkalemia": {
+          "text": "10 g TID PO for up to 48 hours, then 10 g once daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperkalemia": {
+      "text": "10 g TID PO for up to 48 hours, then 10 g once daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "unlikely to affect fetus as not absorbed",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "unlikely to be in breast milk as not absorbed",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "unlikely to affect fetus as not absorbed",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "unlikely to be in breast milk as not absorbed",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "unlikely to be in breast milk as not absorbed",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "None",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAvoid in GI motility disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Mild to moderate edema\nHypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Mild to moderate edema\nHypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Mild to moderate edema\nHypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Metabolism: none\nExcretion: feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Highly selective, oral potassium removing agent\nNon-absorbed zirconium silicate that captures potassium in exchange for hydrogen and sodium\nIncreases fecal potassium excretion through binding K+ in GI tract",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Onset of action at 1.0 hour and median time to achieving normal potassium levels at 2.2 hours, with 92% achieving normal potassium within 48 hours.\nNot used as an emergency treatment for life threatening hyperkalemia due to delayed onset of action\nAvailable at Harbor-UCLA, but not yet widely available in the community\nIf asked by nephrology to give Kayexalate, kindly suggest Lokelma instead",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    }
+  }
+}

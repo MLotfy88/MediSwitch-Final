@@ -1,0 +1,317 @@
+{
+  "drug_name": "Somatic_symptom_disorder",
+  "url": "https://wikem.org/wiki/Somatic_symptom_disorder",
+  "scraped_at": "2026-01-10T08:02:22.497361",
+  "sections": {
+    "Background": {
+      "text": "Somatic symptoms associated with distress and impairment that cannot be medically explained\nMost common symptom is pain — may be specific, generalized, or nonspecific (eg,\nfatigue\n)\nMay represent normal bodily sensations (eg,\nborborygmus\n)\nMay occur concurrently or secondarily to a medical condition\nTypically encountered in primary care and other medical settings\nLess commonly encountered in psychiatric and other mental health settings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "DSM-5 Diagnostic Criteria for Somatic Symptom Disorder\n[1]\nOne or more somatic symptoms that are distressing or result in significant disruption of daily life.\nExcessive thoughts, feelings, or behaviors related to the somatic symptoms or associated health concerns as manifested by at least one of the following:\nDisproportionate and persistent thoughts about the seriousness of one’s symptoms.\nPersistently high level of anxiety about health or symptoms.\nExcessive time and energy devoted to these symptoms or health concerns.\nAlthough any one somatic symptom may not be continuously present, the state of be­ing symptomatic is persistent (typically more than 6 months).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Medical conditions\nIrritable bowel syndrome\nFibromyalgia\nEndocrine disorders\nHyperparathyroidism\nThyroid\ndisorders\nAddison's disease\nInsulinoma\nPanhypopituitarism\nPoisonings\nBotulism\ncarbon monoxide\nHeavy metals\nPorphyria\nMultiple sclerosis\nSystemic lupus erythematosus\nWilson's disease\nMyasthenia gravis\nGuillain-Barré syndrome\nUremia\nPsychiatric conditions\nPanic disorder\nGeneralized anxiety disorder\nDepressive disorders\nIllness anxiety disorder\nConversion disorder\nDelusional disorder\nBody dysmorphic disorder\nObsessive-compulsive disorder\nFactitious disorder\nMalingering",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Eponyms_(T-Z)#Wilson.27s_disease"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Guillain-Barré syndrome",
+          "url": "https://wikem.org/wiki/Eponyms_(F-L)#Guillain-Barr.C3.A9_syndrome"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Panic disorder",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Depressive disorders",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Illness anxiety disorder",
+          "url": "https://wikem.org/wiki/Illness_anxiety_disorder"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Delusional disorder",
+          "url": "https://wikem.org/wiki/Delusional_disorder"
+        },
+        {
+          "text": "Factitious disorder",
+          "url": "https://wikem.org/wiki/Factitious_disorder"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Screen for organic causes of symptoms\nPsychiatric consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Reassurance": {
+          "text": "May be successful in young patients with no underlying medical or psychiatric illnesses with clear psycho-social stress\nUnlikely to be successful in patients with chronic somatization\nPerceived as denial of sick role\nDesire for acknowledgment and recognition → disappointment when no pathology discovered\nResistance to recovery because \"specter of cure\" threatens sick role\nDevelopment of new side effects, allergic reactions, and symptoms",
+          "tables": []
+        },
+        "Legitimization_of_Symptoms": {
+          "text": "Listen and attempt to understand patient's experience\nExplain that patient's illness causes many symptoms but does not lead to medical deterioration\nOffer only guarded projections about patient's condition → safeguards sick role → may limit illness behavior",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clarify precise meaning of terms to avoid misinterpretation\nSomatic responses and descriptions may be better accepted than purely psychiatric diagnoses\nHyperventilation, tension headache, muscle tension, muscle strain, muscle spasm, and stress\nCommunicating diagnostic uncertainty may be helpful\n\"atypical pain\", \"multiple complaints following injury\"",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Patient with somatic symptom disorder have a high affinity for medications and are reluctant to discontinue drugs, regardless of benefit\nPrioritize lifestyle modification\nBenign remedies may be helpful — lotions, supplements, elastic bandages, and heating pads\nAvoid drugs that cannot be safely continued indefinitely\nAvoid drugs that produce abstinence syndromes or dependence\nAvoid pain medications; if necessary, prescribe to be take on schedule, not \"as needed\"\nAntidepressants may be beneficial, including tricyclics",
+          "tables": []
+        },
+        "Mental_Health_Consultation": {
+          "text": "Patients resist psychiatric evaluation — threatens sick role\nPatients fear abandonment → reassure primary physician will continue caring for them\nPatients may accept treatment as \"stress management\" or \"education\" that targets physical symptoms and somatic distress.",
+          "tables": []
+        },
+        "Physician_Attitudes": {
+          "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+          "tables": []
+        },
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reassurance": {
+      "text": "May be successful in young patients with no underlying medical or psychiatric illnesses with clear psycho-social stress\nUnlikely to be successful in patients with chronic somatization\nPerceived as denial of sick role\nDesire for acknowledgment and recognition → disappointment when no pathology discovered\nResistance to recovery because \"specter of cure\" threatens sick role\nDevelopment of new side effects, allergic reactions, and symptoms",
+      "subsections": {
+        "Legitimization_of_Symptoms": {
+          "text": "Listen and attempt to understand patient's experience\nExplain that patient's illness causes many symptoms but does not lead to medical deterioration\nOffer only guarded projections about patient's condition → safeguards sick role → may limit illness behavior",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clarify precise meaning of terms to avoid misinterpretation\nSomatic responses and descriptions may be better accepted than purely psychiatric diagnoses\nHyperventilation, tension headache, muscle tension, muscle strain, muscle spasm, and stress\nCommunicating diagnostic uncertainty may be helpful\n\"atypical pain\", \"multiple complaints following injury\"",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Patient with somatic symptom disorder have a high affinity for medications and are reluctant to discontinue drugs, regardless of benefit\nPrioritize lifestyle modification\nBenign remedies may be helpful — lotions, supplements, elastic bandages, and heating pads\nAvoid drugs that cannot be safely continued indefinitely\nAvoid drugs that produce abstinence syndromes or dependence\nAvoid pain medications; if necessary, prescribe to be take on schedule, not \"as needed\"\nAntidepressants may be beneficial, including tricyclics",
+          "tables": []
+        },
+        "Mental_Health_Consultation": {
+          "text": "Patients resist psychiatric evaluation — threatens sick role\nPatients fear abandonment → reassure primary physician will continue caring for them\nPatients may accept treatment as \"stress management\" or \"education\" that targets physical symptoms and somatic distress.",
+          "tables": []
+        },
+        "Physician_Attitudes": {
+          "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+          "tables": []
+        },
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Legitimization_of_Symptoms": {
+      "text": "Listen and attempt to understand patient's experience\nExplain that patient's illness causes many symptoms but does not lead to medical deterioration\nOffer only guarded projections about patient's condition → safeguards sick role → may limit illness behavior",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clarify precise meaning of terms to avoid misinterpretation\nSomatic responses and descriptions may be better accepted than purely psychiatric diagnoses\nHyperventilation, tension headache, muscle tension, muscle strain, muscle spasm, and stress\nCommunicating diagnostic uncertainty may be helpful\n\"atypical pain\", \"multiple complaints following injury\"",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Patient with somatic symptom disorder have a high affinity for medications and are reluctant to discontinue drugs, regardless of benefit\nPrioritize lifestyle modification\nBenign remedies may be helpful — lotions, supplements, elastic bandages, and heating pads\nAvoid drugs that cannot be safely continued indefinitely\nAvoid drugs that produce abstinence syndromes or dependence\nAvoid pain medications; if necessary, prescribe to be take on schedule, not \"as needed\"\nAntidepressants may be beneficial, including tricyclics",
+          "tables": []
+        },
+        "Mental_Health_Consultation": {
+          "text": "Patients resist psychiatric evaluation — threatens sick role\nPatients fear abandonment → reassure primary physician will continue caring for them\nPatients may accept treatment as \"stress management\" or \"education\" that targets physical symptoms and somatic distress.",
+          "tables": []
+        },
+        "Physician_Attitudes": {
+          "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+          "tables": []
+        },
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clarify precise meaning of terms to avoid misinterpretation\nSomatic responses and descriptions may be better accepted than purely psychiatric diagnoses\nHyperventilation, tension headache, muscle tension, muscle strain, muscle spasm, and stress\nCommunicating diagnostic uncertainty may be helpful\n\"atypical pain\", \"multiple complaints following injury\"",
+      "subsections": {
+        "Medications": {
+          "text": "Patient with somatic symptom disorder have a high affinity for medications and are reluctant to discontinue drugs, regardless of benefit\nPrioritize lifestyle modification\nBenign remedies may be helpful — lotions, supplements, elastic bandages, and heating pads\nAvoid drugs that cannot be safely continued indefinitely\nAvoid drugs that produce abstinence syndromes or dependence\nAvoid pain medications; if necessary, prescribe to be take on schedule, not \"as needed\"\nAntidepressants may be beneficial, including tricyclics",
+          "tables": []
+        },
+        "Mental_Health_Consultation": {
+          "text": "Patients resist psychiatric evaluation — threatens sick role\nPatients fear abandonment → reassure primary physician will continue caring for them\nPatients may accept treatment as \"stress management\" or \"education\" that targets physical symptoms and somatic distress.",
+          "tables": []
+        },
+        "Physician_Attitudes": {
+          "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+          "tables": []
+        },
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medications": {
+      "text": "Patient with somatic symptom disorder have a high affinity for medications and are reluctant to discontinue drugs, regardless of benefit\nPrioritize lifestyle modification\nBenign remedies may be helpful — lotions, supplements, elastic bandages, and heating pads\nAvoid drugs that cannot be safely continued indefinitely\nAvoid drugs that produce abstinence syndromes or dependence\nAvoid pain medications; if necessary, prescribe to be take on schedule, not \"as needed\"\nAntidepressants may be beneficial, including tricyclics",
+      "subsections": {
+        "Mental_Health_Consultation": {
+          "text": "Patients resist psychiatric evaluation — threatens sick role\nPatients fear abandonment → reassure primary physician will continue caring for them\nPatients may accept treatment as \"stress management\" or \"education\" that targets physical symptoms and somatic distress.",
+          "tables": []
+        },
+        "Physician_Attitudes": {
+          "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+          "tables": []
+        },
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mental_Health_Consultation": {
+      "text": "Patients resist psychiatric evaluation — threatens sick role\nPatients fear abandonment → reassure primary physician will continue caring for them\nPatients may accept treatment as \"stress management\" or \"education\" that targets physical symptoms and somatic distress.",
+      "subsections": {
+        "Physician_Attitudes": {
+          "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+          "tables": []
+        },
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physician_Attitudes": {
+      "text": "Focus on understanding patient's subjective experience\nAvoid telling patient nothing is wrong or symptoms require no treatment\nAvoid counter-transference when no physiologic explanation can be found\nAttempt to retain compassion\nDon't label as \"difficult patient\"",
+      "subsections": {
+        "Treatment_Goals": {
+          "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Treatment_Goals": {
+      "text": "Patients lack insight.  Do not attempt insight-oriented psychotherapy.\nDo not promise or attempt cure — threatens sick role\nPatient may escalate illness behaviors — new side effects, allergic reactions, and symptoms\nReassure that patient will \"probably always be ill\" and should \"learn to live with some pain\"\nAvoid unnecessary tests and procedures — may encourage somatization\nFocus on modification of illness behavior and improved functional status\nDecreased frequency and urgency of medical use\nAvoidance of expensive and hazardous procedures\nImproved work or school performance\nMore social activities\nBetter personal relationships",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Provide appropriate psychiatric referrals.\nDischarge with education and instructions.\nThere are no alarming findings\nNo further testing or medications are indicated\nOngoing care and reassessment will be arranged\nFollow up with primary-care physician — becomes gatekeeper for all medical consultation and care.\nAvoid outpatient tests or hospitalization unless indicated by clear objective signs\nScheduled follow-up on time-contingent basis (every 2-4 weeks)\nReduce association between medical contact and necessity for escalation of illness behaviors\nReduce fear of abandonment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Factitious disorder\nIllness anxiety disorder\nConversion disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Factitious disorder",
+          "url": "https://wikem.org/wiki/Factitious_disorder"
+        },
+        {
+          "text": "Illness anxiety disorder",
+          "url": "https://wikem.org/wiki/Illness_anxiety_disorder"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "drug_name": "Spinal_stenosis",
+  "url": "https://wikem.org/wiki/Spinal_stenosis",
+  "scraped_at": "2026-01-10T08:02:26.875108",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Lower back pain\nthat gets progressively worse over time\nPain relieved with forward flexion (walking uphill)\nPain worse with extension (walking downhill)\nAlso known as \"neurogenic claudication\" as pain can radiate down the leg and is worse with exertion (although not true\nclaudication\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lower back pain",
+          "url": "https://wikem.org/wiki/Lower_back_pain"
+        },
+        {
+          "text": "claudication",
+          "url": "https://wikem.org/wiki/Claudication"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Check ankle-brachial index (ABI) to rule out vascular claudication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Avoid alcohol and strengthen legs to prevent falls\nExercise bike or walking recommended with rest when pain comes\nPain control",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If no\ncauda equina\nand pain controlled → outpatient\nAs outpatient, can consider referral for decompressive laminectomy for severe persistent pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cauda equina",
+          "url": "https://wikem.org/wiki/Cauda_equina"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Lower back pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lower back pain",
+          "url": "https://wikem.org/wiki/Lower_back_pain"
+        }
+      ]
+    }
+  }
+}

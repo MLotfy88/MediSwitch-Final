@@ -1,0 +1,134 @@
+{
+  "drug_name": "Spinal_cord_levels",
+  "url": "https://wikem.org/wiki/Spinal_cord_levels",
+  "scraped_at": "2026-01-10T08:02:28.737016",
+  "sections": {
+    "Reflexes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Level": "C5",
+            "Reflex": "biceps"
+          },
+          {
+            "Level": "C6",
+            "Reflex": "brachioradialis"
+          },
+          {
+            "Level": "C7",
+            "Reflex": "triceps"
+          },
+          {
+            "Level": "L3",
+            "Reflex": "quadriceps"
+          },
+          {
+            "Level": "S1",
+            "Reflex": "achilles tendon"
+          },
+          {
+            "Level": "S2,3,4",
+            "Reflex": "bulbocavernosus, anal wink"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Sensory_Exam": {
+      "text": "C2 Occiput\nC3 Thyroid Cartilage\nC4 Suprasternal Notch\nC5 Below Clavicle\nC6 Thumb\nC7 Index Finger\nC8 Little Finger\nT4 Nipple Line\nT10 Umbilicus\nL1 Femoral Pulse\nL2-L3 Medial Aspect of Thigh\nL4 Knee\nL5 Lateral Aspect of Calf\nS1 Lateral Aspect of Foot\nS2-S4 Perineal Region",
+      "subsections": {
+        "Cervical_Exam_by_Level": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Radiculopathy": "C4",
+                "Motor Deficit": "Levator Scapulae & Shoulder elevation",
+                "Sensory Deficit": "",
+                "Diminished Reflex": ""
+              },
+              {
+                "Radiculopathy": "C5",
+                "Motor Deficit": "Deltoid & Biceps",
+                "Sensory Deficit": "",
+                "Diminished Reflex": "Biceps"
+              },
+              {
+                "Radiculopathy": "C6",
+                "Motor Deficit": "Brachioradialis & Wrist extension",
+                "Sensory Deficit": "Thumb Paresthesia",
+                "Diminished Reflex": "Brachioradialis"
+              },
+              {
+                "Radiculopathy": "C7",
+                "Motor Deficit": "Triceps & Wrist flexion",
+                "Sensory Deficit": "Index/Middle/Ring Paresthesia",
+                "Diminished Reflex": "Triceps"
+              },
+              {
+                "Radiculopathy": "C8",
+                "Motor Deficit": "Index/Middle distal phlnx flexion",
+                "Sensory Deficit": "Small Finger Paresthesia",
+                "Diminished Reflex": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cervical_Exam_by_Level": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Radiculopathy": "C4",
+            "Motor Deficit": "Levator Scapulae & Shoulder elevation",
+            "Sensory Deficit": "",
+            "Diminished Reflex": ""
+          },
+          {
+            "Radiculopathy": "C5",
+            "Motor Deficit": "Deltoid & Biceps",
+            "Sensory Deficit": "",
+            "Diminished Reflex": "Biceps"
+          },
+          {
+            "Radiculopathy": "C6",
+            "Motor Deficit": "Brachioradialis & Wrist extension",
+            "Sensory Deficit": "Thumb Paresthesia",
+            "Diminished Reflex": "Brachioradialis"
+          },
+          {
+            "Radiculopathy": "C7",
+            "Motor Deficit": "Triceps & Wrist flexion",
+            "Sensory Deficit": "Index/Middle/Ring Paresthesia",
+            "Diminished Reflex": "Triceps"
+          },
+          {
+            "Radiculopathy": "C8",
+            "Motor Deficit": "Index/Middle distal phlnx flexion",
+            "Sensory Deficit": "Small Finger Paresthesia",
+            "Diminished Reflex": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sensory exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sensory exam",
+          "url": "https://wikem.org/wiki/Sensory_exam"
+        }
+      ]
+    }
+  }
+}

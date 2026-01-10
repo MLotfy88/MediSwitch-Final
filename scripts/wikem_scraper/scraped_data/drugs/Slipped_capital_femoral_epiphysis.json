@@ -1,0 +1,274 @@
+{
+  "drug_name": "Slipped_capital_femoral_epiphysis",
+  "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis",
+  "scraped_at": "2026-01-10T08:02:17.022939",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: SCFE\nMost common cause of hip disability in adolescents\nHead of femur displaces from epiphysis\nCommon complications:\navascular necrosis\nof femoral head (increased risk with high grade slip),\narthritis",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Obesity\nBlack race\nMale sex (male:female 3:1)\nTimes of high growth velocity (male growth spurt, around 13 years; female growth spurt, around 11 years)\nLeft hip more common\nEndocrine disorders\nHypothyroid\ncommon\nHigh clinical concern for SCFE in children less than <10 yrs of age",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Hypothyroid",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Obesity\nBlack race\nMale sex (male:female 3:1)\nTimes of high growth velocity (male growth spurt, around 13 years; female growth spurt, around 11 years)\nLeft hip more common\nEndocrine disorders\nHypothyroid\ncommon\nHigh clinical concern for SCFE in children less than <10 yrs of age",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothyroid",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Mild to severe pain\nhip pain\nOften present with referred\nknee pain\nAbnormal gait\nLimp\nWeakness\nThigh atrophy\nExternally rotated hip\nLoss of internal rotation\nLoss of abduction\nLoss of flexion\nMay present as acute (unstable), chronic (stable), or acute on chronic (following trauma)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hip pain",
+          "url": "https://wikem.org/wiki/Pediatric_hip_pain"
+        },
+        {
+          "text": "knee pain",
+          "url": "https://wikem.org/wiki/Knee_pain"
+        },
+        {
+          "text": "Limp",
+          "url": "https://wikem.org/wiki/Limp_(Peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        }
+      ]
+    },
+    "Pediatric_limp": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain radiographs of the hip (bilateral AP and frog-leg views)\nWidened physis (early finding)\nDisplacement of femoral neck to head (late finding, so called 'ice cream cone' sign)\nMay show necrosis of the femoral head in late cases complicated by avascular necrosis\nNote that up to 40% of patients will have bilateral involvement\n[1]\nKlein's line\nLine from superior cortex of femoral neck parallel to greater trochanter\nNormally should cross through 1/3 of femoral head\nIf does not cross the femoral head, highly suspicious for SCFE\nMay require MRI in ambiguous cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Orthopedic surgery consultation in ED\nStrict non-weight bearing\nPain control\nInternal fixation\nPerformed immediately for unstable SCFE\nMay be delayed by a few days for stable SCFE",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric hip pain\nHip pain\nLimp (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric hip pain",
+          "url": "https://wikem.org/wiki/Pediatric_hip_pain"
+        },
+        {
+          "text": "Hip pain",
+          "url": "https://wikem.org/wiki/Hip_pain"
+        },
+        {
+          "text": "Limp (peds)",
+          "url": "https://wikem.org/wiki/Limp_(peds)"
+        }
+      ]
+    }
+  }
+}

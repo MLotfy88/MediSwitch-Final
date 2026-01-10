@@ -1,0 +1,52 @@
+{
+  "drug_name": "Sling_and_swathe_splint",
+  "url": "https://wikem.org/wiki/Sling_and_swathe_splint",
+  "scraped_at": "2026-01-10T08:02:19.815989",
+  "sections": {
+    "Indications": {
+      "text": "Clavicle fracture\n,\nHumerus fracture\n,\nAcromioclavicular injuries\n, soft tissue injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Acromioclavicular injuries",
+          "url": "https://wikem.org/wiki/Acromioclavicular_injuries"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Assess distal pulse, motor, and sensation\nApply sling and swathe as shown\nA = Sling\nB = Sling + Swathe\nReassess distal pulse, motor, and sensation\nPerform shoulder range of motion exercises upon discharge unless contraindicated (\nProximal humerus fracture\n)\nPrevents\nAdhesive capsulitis\nSling should extend to MCP joint of the immobilized arm to prevent excessive ulnar deviation of the wrist (can lead to ulnar neuropathy)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

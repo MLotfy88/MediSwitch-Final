@@ -1,0 +1,176 @@
+{
+  "drug_name": "Simethicone",
+  "url": "https://wikem.org/wiki/Simethicone",
+  "scraped_at": "2026-01-10T08:02:13.007290",
+  "sections": {
+    "Administration": {
+      "text": "Dosage Forms: Cap: 125mg, 180mg; Chew: 80mg, 125mg; Susp: 40mg per 0.6mL\nRoutes of Administration: Oral\nCommon Trade Names: Gas-X",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "40-360 mg PO QID prn flatulence\nMax: 500mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "<2 years old\n20mg PO QID prn\nMax: 240mg/day\n2-12 years old\n40mg PO QID prn\nMax: 480 mg/day\n>12 years old\nUse adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "May use during pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "No human data available",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "May use during pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "No human data available",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "No human data available",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nIntestinal perforation\nGI Obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "None reported",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "None reported",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nNausea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: None\nExcretion: Feces (100% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Alters gas bubble surface tension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

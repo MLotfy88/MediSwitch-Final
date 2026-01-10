@@ -1,0 +1,148 @@
+{
+  "drug_name": "Sodium_nitrite",
+  "url": "https://wikem.org/wiki/Sodium_nitrite",
+  "scraped_at": "2026-01-10T08:02:21.787269",
+  "sections": {
+    "Intro": {
+      "text": "See also\nSodium nitrite toxicity\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Type:\nAntidote\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Symptomatic cyanide toxicity: 300 mg of sodium nitrite (10 mL of 3% solution) IV over 3–5 minutes. If no response after 30min, give additional half-dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Sodium_nitrite_(Pediatric_Dosing)": {
+          "text": "Max dose should not exceed 10mL\nDo not give faster than 5mL/min (to avoid hypotension)",
+          "tables": [
+            [
+              {
+                "Hb Level (g/dL)": "7",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.19"
+              },
+              {
+                "Hb Level (g/dL)": "8",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.22"
+              },
+              {
+                "Hb Level (g/dL)": "9",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.25"
+              },
+              {
+                "Hb Level (g/dL)": "10",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.27"
+              },
+              {
+                "Hb Level (g/dL)": "11",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.30"
+              },
+              {
+                "Hb Level (g/dL)": "12",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.33"
+              },
+              {
+                "Hb Level (g/dL)": "13",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.36"
+              },
+              {
+                "Hb Level (g/dL)": "14",
+                "Dose of 3% sodium nitrite (mL/kg)": "0.39"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: No assigned FDA category; may impair oxygen delivery to fetus\nLactation risk:\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSignificant preexisting methemoglobinemia (>40%)\nSevere hypotension (relative)\nConcurrent carbon monoxide toxicity (relative)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension (especially with rapid IV push); may be exacerbated by alcohol and other vasodilatory agents\nSevere, potentially fatal, methemoglobinemia\nTachycardia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nFacial flushing, dizziness, sweating\nNausea, vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hypotension (especially with rapid IV push); may be exacerbated by alcohol and other vasodilatory agents\nSevere, potentially fatal, methemoglobinemia\nTachycardia",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nFacial flushing, dizziness, sweating\nNausea, vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache\nFacial flushing, dizziness, sweating\nNausea, vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Oxidizes hemoglobin to methemoglobin, which binds free cyanide. Vasodilation may also enhance endothelial cyanide detoxification",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cyanide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        }
+      ]
+    }
+  }
+}

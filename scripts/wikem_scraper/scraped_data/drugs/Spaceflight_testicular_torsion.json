@@ -1,0 +1,485 @@
+{
+  "drug_name": "Spaceflight_testicular_torsion",
+  "url": "https://wikem.org/wiki/Spaceflight_testicular_torsion",
+  "scraped_at": "2026-01-10T08:02:23.605008",
+  "sections": {
+    "Background": {
+      "text": "Testicular torsion is a true urologic emergency in the setting of acute scrotal pain, accounting for the most significant cause of testicular loss.\n[1]\nTesticular torsion accounts for 10-15% of acute scrotal illness in children within the United States.\n[2]\nPeak incidences of testicular torsion are during the neonatal period (first 30 days of life) and puberty (10-14 years). The majority of cases occur during the adolescent age range but can occur at any age.\n[3]\nNo documented cases of testicular torsion have occurred during spaceflight, likely due to the demographic composition of current spaceflight crews.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Subjective symptoms:\nAbrupt onset of severe testicular and/or lower abdominal pain\nNausea and vomiting\nPhysical exam findings:\nSwollen and tender testis with or without lower abdominal tenderness\nNon-tender spermatic cord\nAbnormal position of the testis:\nScrotal elevation (high-riding testis)\nAbnormal transverse position\nUndescended testes (predisposes to testicular torsion)\nAbsent cremasteric reflex\nAbsent reflex: Light stroking of the inner thigh does not elicit testicular elevation on the ipsilateral side.\nIntact reflex: Light stroking of the inner thigh elicits testicular elevation on the ipsilateral side.\nIntact reflex suggests an alternative diagnosis but does not rule out testicular torsion.\nNegative Prehn sign\nNegative sign = elevation of scrotum does not relieve pain.\nPositive sign = elevation of scrotum relieves pain (suggestive of epididymitis).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        },
+        "Space_medicine": {
+          "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        },
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {
+        "Space_medicine": {
+          "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        },
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Space_medicine": {
+      "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Conduct a focused history and physical examination, assessing the abdomen and testes for pain, swelling, abnormal positioning, or tenderness, while documenting the onset, severity, and progression of symptoms.\nUse the multi-study-validated TWIST scoring system, in which a higher score correlates with a greater probability of testicular torsion.\n[5]\n:\nHard testis - 2\nSwelling - 2\nNausea/vomiting - 1\nAbsent cremasteric reflex - 1\nHigh riding testis - 1\n100% positive predictive value if score >5\n.\n100% negative predictive value if score <2\n.\nScores 2-5 require Ultrasound for further evaluation\n.\nMatch the patient’s clinical presentation with the characteristic symptoms and peak incidence periods of testicular torsion in adolescents and young adults.\nRecognize that a strong clinical suspicion of torsion requires urgent action due to the narrow window for testicular salvage.",
+      "subsections": {
+        "Workup": {
+          "text": "Duplex ultrasound of the scrotum\nThe linear array “L12-5” probe onboard the ISS is gold standard for evaluation of superficial anatomical structures.\n[6]\nThe probe’s spectral and color Doppler performance at shallow depths will enable evaluation for suspected testicular torsion.\n[7]\nUrine dipstick (available in pre-packaged ISS and Space Shuttle medical kits)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Testicular torsion is primarily a clinical diagnosis, but point-of-care ultrasound serves as the key diagnostic modality beyond the physical examination.\nCharacteristic findings on ultrasound:\nEnlarged testis\nTwisting of spermatic cord (whirlpool sign)\n[8]\nReduced or absent central blood flow to/from the affected testis\n[9]\nHeterogenous appearance of testicular parenchyma indicates testicular necrosis\n[10]\nLeukocytes and erythrocytes in the urine suggest epididymitis, orchitis, or urinary tract infection but does not exclude torsion.\nLaboratory studies are not routinely indicated.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Duplex ultrasound of the scrotum\nThe linear array “L12-5” probe onboard the ISS is gold standard for evaluation of superficial anatomical structures.\n[6]\nThe probe’s spectral and color Doppler performance at shallow depths will enable evaluation for suspected testicular torsion.\n[7]\nUrine dipstick (available in pre-packaged ISS and Space Shuttle medical kits)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Testicular torsion is primarily a clinical diagnosis, but point-of-care ultrasound serves as the key diagnostic modality beyond the physical examination.\nCharacteristic findings on ultrasound:\nEnlarged testis\nTwisting of spermatic cord (whirlpool sign)\n[8]\nReduced or absent central blood flow to/from the affected testis\n[9]\nHeterogenous appearance of testicular parenchyma indicates testicular necrosis\n[10]\nLeukocytes and erythrocytes in the urine suggest epididymitis, orchitis, or urinary tract infection but does not exclude torsion.\nLaboratory studies are not routinely indicated.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Testicular torsion is primarily a clinical diagnosis, but point-of-care ultrasound serves as the key diagnostic modality beyond the physical examination.\nCharacteristic findings on ultrasound:\nEnlarged testis\nTwisting of spermatic cord (whirlpool sign)\n[8]\nReduced or absent central blood flow to/from the affected testis\n[9]\nHeterogenous appearance of testicular parenchyma indicates testicular necrosis\n[10]\nLeukocytes and erythrocytes in the urine suggest epididymitis, orchitis, or urinary tract infection but does not exclude torsion.\nLaboratory studies are not routinely indicated.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Testicular torsion ideally requires emergent exploratory surgery to salvage the testis. Clinical suspicion of testicular torsion likely necessitates the termination of spaceflight or deorbit to facilitate access to a location equipped with an operating room. However, the time required for space travelers to return to Earth—and subsequently reach an operating room—poses a significant challenge to timely intervention for testicular salvage.\nFor those who present within the first 6 hours of symptoms, the salvage rate is nearly 100%, but this number quickly drops to less than 50% if the delay in seeking help is more than 12 to 24 hours.\n[11]\nManual testicular detorsion may be attempted prior to surgery for immediate pain relief or if surgery is not available, but should not delay transferring the patient to the operating room.\nProcedure:\nStep 1 - Rotate the testis laterally toward the thigh\nStep 2 - If lateral rotation does not provide symptom relief, rotate the testis toward the midline\n[12]\nExploratory surgery involves untwisting the affected testis (reduction) and securing both the affected and unaffected testes in place with orchiopexy. Orchiectomy is recommended if the testis is grossly necrotic or nonviable.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Sudden, severe, unilateral scrotal pain in a patient with a tender, abnormally positioned testis on examination should be managed as testicular torsion until proven otherwise.\nTesticular torsion is a true urologic and spaceflight emergency requiring timely identification to prevent the need for amputation.\nUltrasound is the gold standard imaging modality to evaluate scrotal contents for suspected torsion.\nTesticular torsion is an arising and significant concern as spaceflight becomes more accessible to younger individuals, including children and adolescents.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Testicular torsion\nTesticular diagnoses\nTesticular ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_diagnoses"
+        },
+        {
+          "text": "Testicular ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        }
+      ]
+    }
+  }
+}

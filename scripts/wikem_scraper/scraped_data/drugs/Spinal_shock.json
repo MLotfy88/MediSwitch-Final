@@ -1,0 +1,260 @@
+{
+  "drug_name": "Spinal_shock",
+  "url": "https://wikem.org/wiki/Spinal_shock",
+  "scraped_at": "2026-01-10T08:02:28.633184",
+  "sections": {
+    "Background": {
+      "text": "Do not confuse with\nNeurogenic Shock\nTransient stunning of the cord with global loss of function (unlike neurogenic shock) with temporary loss of spinal cord function below complete or incomplete spinal cord injury\nFlaccid\nparalysis\n,\nanesthesia\n, absent bowel/\nbladder control\nand reflex activity,\npriapism\nCan make an incomplete lesion appear as complete\nCord lesions cannot be deemed complete until spinal shock has resolved\nCan think of it as a \"concussion\" of the spinal cord",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neurogenic Shock",
+          "url": "https://wikem.org/wiki/Neurogenic_Shock"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "bladder control",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Bulbocavernosus reflex is among the first to return as spinal shock resolves\nPerformed by squeezing glans of penis or clitoris and monitoring for anus contraction\nMediated by S2-S4\nUsually lasts day to weeks\nResolves when soft tissue swelling improves",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Shock": {
+      "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spinal Cord Trauma\nSpinal Cord Compression (Non-Traumatic)\nNeurogenic Shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal Cord Trauma",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Trauma"
+        },
+        {
+          "text": "Spinal Cord Compression (Non-Traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Compression_(Non-Traumatic)"
+        },
+        {
+          "text": "Neurogenic Shock",
+          "url": "https://wikem.org/wiki/Neurogenic_Shock"
+        }
+      ]
+    }
+  }
+}

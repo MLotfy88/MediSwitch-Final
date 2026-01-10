@@ -1,0 +1,163 @@
+{
+  "drug_name": "Southern_tick-associated_rash_illness",
+  "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness",
+  "scraped_at": "2026-01-10T08:02:27.312970",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: STARI\nTransmitted by lone star tick (Amblyomma americanum)\nfemale tick has single white dot or \"lone star\" on its back, aggressive feeders\nMay be caused by spirochete Borrelia lonestari\nMidwest and Mid-Atlantic states",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Resembles Lyme disease in\nrash\n, constitutional symptoms, time course\nMay have delayed\nanaphylaxis\n(3-6h) to red meat from IgE Ab to glycoprotein in meat of mammals, with negative allergy skin test",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "No testing available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "10 days of\ndoxycycline\nor\namoxicillin\nNo evidence this is beneficial, but commonly given",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Home",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        }
+      ]
+    },
+    "References": {
+      "text": "Hall J, Khan Sajid Small Bugs with Big Bites, EM Resident Oct/Nov 2014 Vol 4:5; 10\nhttp://www.cdc.gov/stari/symptoms/index.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

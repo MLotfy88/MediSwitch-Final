@@ -1,0 +1,138 @@
+{
+  "drug_name": "Soft_tissue_foreign_body",
+  "url": "https://wikem.org/wiki/Soft_tissue_foreign_body",
+  "scraped_at": "2026-01-10T08:02:20.417334",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "2013 study showed imaging study sensitivity and specificity for various types of foreign bodies (fresh wood, dry wood, glass, precelain, plastic)\n[1]\nXR Sn 29%, Sp 100%\nCT Sn 63%, Sp 98%\nMRI Sn 58%, Sp 100%\nIn other studies, US detected and localized foreign body better than CT\n[2]\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotics indicated for organic matter or in patients with underlying diabetes or immunocompromise\nDo not extend hand wounds in ED",
+      "subsections": {
+        "Indications_for_Removal": {
+          "text": "Potential for inflammation or infection\nVegetative or chemically reactive material\nHeavy bacterial contamination (e.g. teeth, soil)\nProximity to fractured bone\nEstablished infection\nAllergic reaction\nToxicity\nSpines with venom\nHeavy metals\nFunctional and cosmetic problems\nImpingement on nerves, vessels, tendons\nRestriction of joint mobility\nProximity to tendons\nImpairment of gait\nPersistent pain\nCosmetic deformity (e.g., tattooing)\nPsychological distress\nPotential for later injury\nIntra-articular location\nIntravascular location\nMigration toward important structures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indications_for_Removal": {
+      "text": "Potential for inflammation or infection\nVegetative or chemically reactive material\nHeavy bacterial contamination (e.g. teeth, soil)\nProximity to fractured bone\nEstablished infection\nAllergic reaction\nToxicity\nSpines with venom\nHeavy metals\nFunctional and cosmetic problems\nImpingement on nerves, vessels, tendons\nRestriction of joint mobility\nProximity to tendons\nImpairment of gait\nPersistent pain\nCosmetic deformity (e.g., tattooing)\nPsychological distress\nPotential for later injury\nIntra-articular location\nIntravascular location\nMigration toward important structures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Ortho/hand/podiatry follow-up within 1-2 days if not retrievable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        }
+      ]
+    }
+  }
+}

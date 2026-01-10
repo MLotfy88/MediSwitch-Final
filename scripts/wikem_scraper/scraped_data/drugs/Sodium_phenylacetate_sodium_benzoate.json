@@ -1,0 +1,165 @@
+{
+  "drug_name": "Sodium_phenylacetate/sodium_benzoate",
+  "url": "https://wikem.org/wiki/Sodium_phenylacetate/sodium_benzoate",
+  "scraped_at": "2026-01-10T08:02:22.168523",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names: Ammunol",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "5.5g/m2 over 90-120min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hyperammonemia": {
+          "text": "<20kg: 250mg/kg in D10 over 90min; then 250mg/kg/d infusion\n>20kg: 5.5g/m2 over 90-120min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperammonemia": {
+      "text": "<20kg: 250mg/kg in D10 over 90min; then 250mg/kg/d infusion\n>20kg: 5.5g/m2 over 90-120min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Pregnancy Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown risk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Monitor closely\nPediatric: Monitor closely",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: caution with use\nPediatric: caution with use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Pregnancy Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown risk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Monitor closely\nPediatric: Monitor closely",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: caution with use\nPediatric: caution with use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown risk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Monitor closely\nPediatric: Monitor closely",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: caution with use\nPediatric: caution with use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Monitor closely\nPediatric: Monitor closely",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: caution with use\nPediatric: caution with use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: caution with use\nPediatric: caution with use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypokalemia\nFluid overload\nTissue damage with extravasation from peripheral IV\nNeurotoxicity, seizure, coma\nHyperventilation with metabolic acidosis (similar to salicylate toxicity)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Vomiting, hyperglycemia, hypokalemia, convulsions, and mental impairment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hypokalemia\nFluid overload\nTissue damage with extravasation from peripheral IV\nNeurotoxicity, seizure, coma\nHyperventilation with metabolic acidosis (similar to salicylate toxicity)",
+      "subsections": {
+        "Common": {
+          "text": "Vomiting, hyperglycemia, hypokalemia, convulsions, and mental impairment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Vomiting, hyperglycemia, hypokalemia, convulsions, and mental impairment.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Inborn errors of metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    }
+  }
+}

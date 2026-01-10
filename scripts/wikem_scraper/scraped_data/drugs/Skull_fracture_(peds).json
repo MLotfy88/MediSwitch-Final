@@ -1,0 +1,457 @@
+{
+  "drug_name": "Skull_fracture_(peds)",
+  "url": "https://wikem.org/wiki/Skull_fracture_(peds)",
+  "scraped_at": "2026-01-10T08:02:15.345696",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nskull fracture\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Predictor of intracranial injury\nInfants are at higher risk due to thinner calvarium (median age for isolated skull fracture is 10 months)\n[1]\nMost skull fractures have overlying hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Scalp hematoma\nSkull tenderness\nSkull depression or crepitus\nBattle sign or raccoon eyes (\nbasilar skull fracture\n)\nLoss of consciousness,\nnausea/vomiting\n,\naltered mental status\n(less common in younger children than other children and adults with isolated skull fracture)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        },
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Head CT\nEvaluate for additional injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consider antibiotics for:\nOpen fracture\nDepressed fracture\nSinus involvement\nPneumocephalus\nCeftriaxone\nAND\nmetronidazole\n+/-\nvancomycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge if\n[2]\n[1]\n:\nNeurologically normal\nIsolated closed linear skull fracture\nNo concern for\nnon-accidental trauma\nAdmit all others",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "non-accidental trauma",
+          "url": "https://wikem.org/wiki/Non-accidental_trauma"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Head Trauma\nSkull fracture\n(Adult)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma",
+          "url": "https://wikem.org/wiki/Head_Trauma"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "drug_name": "Space_motion_sickness",
+  "url": "https://wikem.org/wiki/Space_motion_sickness",
+  "scraped_at": "2026-01-10T08:02:26.832768",
+  "sections": {
+    "Background": {
+      "text": "Space motion sickness (SMS)  is a common condition experienced by 60-80% of astronauts during the first 2-3 days of spaceflight.\nCurrent research indicates that SMS is caused by conflicting sensory-motor control inputs from visual and tactile senses with inputs coming from the vestibular organs in the inner ear.\n[1]\nSMS is a part of a larger constellation of symptoms known as Space Adaptation Syndrome (SAS)\n[2]\nSpace motion sickness is very likely to occur during space flight and, without treatment, may lead to dehydration and decreased mission readiness.\nSimilar symptoms to SMS can occur on return to earth gravity, pretreatment of these conditions is recommended.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms can vary between astronauts but typically include:\nNausea\nVomiting\nLoss of Appetite\nDizziness\nMalaise\nSweating\nDuration: Astronauts generally recover within 3-5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Space_medicine": {
+          "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+          "tables": []
+        },
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Space_medicine": {
+      "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+      "subsections": {
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Vertigo": {
+      "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Comprehensive review of the astronaut's medical history, focusing on any previous experiences with motion sickness, vestibular function tests, and monitoring symptoms during the initial phase of spaceflight.\nPre-flight training and simulations may help anticipate susceptibility.",
+      "subsections": {
+        "Workup": {
+          "text": "Tracking the onset, duration, and intensity of symptoms through self-reported logs and medical assessments.\nPhysiological measurements\nHeart Rate\nBlood Pressure\nBlood Glucose\nUrine Output.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is primarily clinical, based on the presence of characteristic symptoms in the context of spaceflight.\nIt is supported by the absence of alternative explanations for the symptoms.\nEarly identification is crucial for effective management.\nOccurs during the first 3-5 days of spaceflight\nIf symptoms start later or continue past 5 days look for alternative diagnosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Tracking the onset, duration, and intensity of symptoms through self-reported logs and medical assessments.\nPhysiological measurements\nHeart Rate\nBlood Pressure\nBlood Glucose\nUrine Output.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is primarily clinical, based on the presence of characteristic symptoms in the context of spaceflight.\nIt is supported by the absence of alternative explanations for the symptoms.\nEarly identification is crucial for effective management.\nOccurs during the first 3-5 days of spaceflight\nIf symptoms start later or continue past 5 days look for alternative diagnosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is primarily clinical, based on the presence of characteristic symptoms in the context of spaceflight.\nIt is supported by the absence of alternative explanations for the symptoms.\nEarly identification is crucial for effective management.\nOccurs during the first 3-5 days of spaceflight\nIf symptoms start later or continue past 5 days look for alternative diagnosis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Preventative Countermeasures\nNon-Pharmacological\nTilt-transition devices\n[3]\nAutogenic feedback training exercises\n[4]\nVirtual Reality training\n[5]\nHead or body rotation exercises\n[6]\nGalvanic Vestibular Stimulation\n[7]\nPharmacological\nScopolamine\nFewest side effects, current recommendation\nTransdermal 1mg 12 hrs prior to flight, Q72h\nIntramuscular 0.3-0.5mg Q6h\nOral 0.3-0.5mg\nPromethazine\n25mg IM or per rectum (oral absorption is less predictable due to microgravity induced ileus)\nPromethazine/ephedrine 25mg/25mg (Oral)\nMost effective, higher side effects\nMeclizine 25-50mg (Oral)\nSymptomatic Treatment\nAntihistamines: inhibit vestibular stimulation and vestibular-cerebellar pathways\nMeclizine (Antivert) 25mg PO QID\nDiphenhydramine (Benadryl) 25-50mg IM, IV, or PO q4hr\nAnticholinergics\nScopolamine transdermal patch 0.5mg (behind ear) QID\nAntidopaminergics\nMetoclopramide 10-20 IV or PO TID\nBenzodiazepines\nDiazepam 2.5-10 mg q6h PRN\nIV Hydration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most cases of space motion sickness resolve within a few days as the astronaut's body adapts to the space environment.\nContinuous monitoring and supportive care are provided to ensure the well-being of the affected individual.\nAstronauts typically recover fully and can continue with their mission activities without long-term effects.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Space Medicine\nSpace Adaptation Syndrome\nVertigo\nLabrynthitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Space Medicine",
+          "url": "https://wikem.org/wiki/Space_Medicine"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,695 @@
+{
+  "drug_name": "Small_bowel_obstruction",
+  "url": "https://wikem.org/wiki/Small_bowel_obstruction",
+  "scraped_at": "2026-01-10T08:02:19.362871",
+  "sections": {
+    "Background": {
+      "text": "Small bowel obstruction without history of surgery or hernia is malignancy until proven otherwise\n\"Never let the sun rise or set on a small bowel obstruction\"",
+      "subsections": {
+        "Causes": {
+          "text": "Adhesions (history of previous abdominal surgeries +LR 3.86 and -LR 0.19)\nMost common cause in developed countries\nHernia\nPort hernias can occur after laparoscopic surgery\nMalignancy\nIntraluminal strictures\nCrohn's disease\nRadiation therapy\nMesenteric ischemia\nIntussusception\n(due to\nlymphoma\nas lead point)\nForeign body\n(\nbezoars\n)\nTrauma\n(\nduodenal hematoma\n)\nGallstone\nileus\nSmall bowel\nvolvulus\n(3-6% of causes of SBO)\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Adhesions (history of previous abdominal surgeries +LR 3.86 and -LR 0.19)\nMost common cause in developed countries\nHernia\nPort hernias can occur after laparoscopic surgery\nMalignancy\nIntraluminal strictures\nCrohn's disease\nRadiation therapy\nMesenteric ischemia\nIntussusception\n(due to\nlymphoma\nas lead point)\nForeign body\n(\nbezoars\n)\nTrauma\n(\nduodenal hematoma\n)\nGallstone\nileus\nSmall bowel\nvolvulus\n(3-6% of causes of SBO)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nColicky\nPeriumbilical or diffuse\nParoxysms of pain occur q5min\nVomiting\nMore common in proximal than distal obstruction\nBilious (proximal) or feculent (distal ileal)\nAbdominal pain relieved with vomiting positively predictive +LR (4.50-2.82) -LR (0.78-0.35)\nAbdominal distention\nSeen more in distal than proximal obstruction\n+LR (16.8-5.64) -LR (0.43-0.34)\nInability to pass flatus\nMay pass flatus/stool initially\nTakes 12-24hrs for colon to empty\nHistory of constipation +LR 8.8 and -LR 0.59\nDehydration\nAnorexia\nIschemia\n(increased intraluminal pressure initially leads to venous obstruction, progresses to frank arterial ischemia)\nFever\nLeukocytosis\nAbnormal bowel sounds\nStudies suggest that auscultating bowel sounds is not clinically useful to differentiate between normal and pathologic\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        },
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Constipation": {
+      "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "CBC\nWBC >20K suggests bowel gangrene, abscess, or peritonitis\nWBC >40K suggests mesenteric vascular occlusion\nChemistry - degree of dehydration, evidence of ischemia (\nacidosis\n)\nLactate\n- sensitive (90-100%), though not specific marker of strangulation",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Use the 3/6/9 rule for bowel imaging\nUpper limit of 3cm for small bowel, 6cm for colon, and 9cm for cecum\nXray\nAcute Abdominal Series\nUpright chest film: rule out free air\nUpright abdominal film: air-fluid levels:\nSupine abdominal film: width of bowel loops most visible (estimate of amount of distention)\nString of pearls sign (small pockets of gas along the small bowel that are trapped between the valvulae conniventes) is virtually diagnostic\n[5]\nSmall bowel diameter ≥3cm is associated with obstruction\nSen 75% Spec 66% +LR 1.6 -LR 0.43\nAir in colon or rectum makes complete obstruction less likely (esp if symptoms >24hr)\nIf patient does not tolerate upright position left lateral decub abdominal film can substitute\nCT A/P with IV contrast\nConsider if plain films are non-diagnostic\nCan show closed-loop obstruction, evidence of ischemia\nPer American College of Radiology PO contrast is no longer indicated\nModern CT Scanner (0.75mm slices): Sen 96%, Spec 100%, +LR infinity -LR 0.04\nHistorical CT scanner meta-analysis: Sen 87%  Spec 81%,  +LR 3.6  -LR 0.18\nUltrasound for SBO\nSen 97%, Spec 90%, +LR 9.5, -LR 0.04 (four studies, 2 done by EM residents and 2 by radiology residents)\nMRI for SBO\n- Sen 92%, Spec 89% +LR 6.7 -LR 0.11",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound for SBO",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "CBC\nWBC >20K suggests bowel gangrene, abscess, or peritonitis\nWBC >40K suggests mesenteric vascular occlusion\nChemistry - degree of dehydration, evidence of ischemia (\nacidosis\n)\nLactate\n- sensitive (90-100%), though not specific marker of strangulation",
+      "subsections": {
+        "Imaging": {
+          "text": "Use the 3/6/9 rule for bowel imaging\nUpper limit of 3cm for small bowel, 6cm for colon, and 9cm for cecum\nXray\nAcute Abdominal Series\nUpright chest film: rule out free air\nUpright abdominal film: air-fluid levels:\nSupine abdominal film: width of bowel loops most visible (estimate of amount of distention)\nString of pearls sign (small pockets of gas along the small bowel that are trapped between the valvulae conniventes) is virtually diagnostic\n[5]\nSmall bowel diameter ≥3cm is associated with obstruction\nSen 75% Spec 66% +LR 1.6 -LR 0.43\nAir in colon or rectum makes complete obstruction less likely (esp if symptoms >24hr)\nIf patient does not tolerate upright position left lateral decub abdominal film can substitute\nCT A/P with IV contrast\nConsider if plain films are non-diagnostic\nCan show closed-loop obstruction, evidence of ischemia\nPer American College of Radiology PO contrast is no longer indicated\nModern CT Scanner (0.75mm slices): Sen 96%, Spec 100%, +LR infinity -LR 0.04\nHistorical CT scanner meta-analysis: Sen 87%  Spec 81%,  +LR 3.6  -LR 0.18\nUltrasound for SBO\nSen 97%, Spec 90%, +LR 9.5, -LR 0.04 (four studies, 2 done by EM residents and 2 by radiology residents)\nMRI for SBO\n- Sen 92%, Spec 89% +LR 6.7 -LR 0.11",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound for SBO",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Use the 3/6/9 rule for bowel imaging\nUpper limit of 3cm for small bowel, 6cm for colon, and 9cm for cecum\nXray\nAcute Abdominal Series\nUpright chest film: rule out free air\nUpright abdominal film: air-fluid levels:\nSupine abdominal film: width of bowel loops most visible (estimate of amount of distention)\nString of pearls sign (small pockets of gas along the small bowel that are trapped between the valvulae conniventes) is virtually diagnostic\n[5]\nSmall bowel diameter ≥3cm is associated with obstruction\nSen 75% Spec 66% +LR 1.6 -LR 0.43\nAir in colon or rectum makes complete obstruction less likely (esp if symptoms >24hr)\nIf patient does not tolerate upright position left lateral decub abdominal film can substitute\nCT A/P with IV contrast\nConsider if plain films are non-diagnostic\nCan show closed-loop obstruction, evidence of ischemia\nPer American College of Radiology PO contrast is no longer indicated\nModern CT Scanner (0.75mm slices): Sen 96%, Spec 100%, +LR infinity -LR 0.04\nHistorical CT scanner meta-analysis: Sen 87%  Spec 81%,  +LR 3.6  -LR 0.18\nUltrasound for SBO\nSen 97%, Spec 90%, +LR 9.5, -LR 0.04 (four studies, 2 done by EM residents and 2 by radiology residents)\nMRI for SBO\n- Sen 92%, Spec 89% +LR 6.7 -LR 0.11",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound for SBO",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Volume_resuscitation": {
+          "text": "IV fluid resuscitation with\nelectrolyte repletion\nAssessment of need for operative vs nonoperative management",
+          "tables": []
+        },
+        "Nasogastric_tube": {
+          "text": "14 French\nIntermittent low wall suction\nNasogastric fluid losses can be replaced with NS + KCL (30-40 meq)\nThere is some evidence to suggest nasogastric tube decompression was not associated with decreased bowel ischemia or need for surgery\n[6]",
+          "tables": []
+        },
+        "Oral_Contrast": {
+          "text": "Both diagnostic and therapeutic (draws water into the bowel stimulating peristalsis)\nAssociated with decreased hospital stay, more rapid resolution of symptoms\nRepeat CT scan may be helpful to detect early signs of bowel ischemia\nRepeat plain films are not helpful (only detect perforation)",
+          "tables": []
+        },
+        "Gastrografin_PO": {
+          "text": "Alternative to operative management if early obstructive process\nGastrografin through NG or OG decreases bowel wall edema and increases bowel motility\n[7]\nDiagnostic and therapeutic\n[8]\n100 cc of gastrografin through NG tube\nTransit may be observed through serial radiographs\nContrast within the large bowel within 24 hrs suggest partial SBO\nContrast failing to reach large bowel within 24-48 hrs suggests complete obstruction, requiring laparotomy\nTherapeutic, may reduce necessary operative rate by ~75%\n[9]\nAvoid barium as it becomes inspissated in bowel, causing complete obstruction\n[10]\nGastrografin is water-soluble and relatively safer if perforation occurs",
+          "tables": []
+        },
+        "Non-operative_Management_vs._Operative": {
+          "text": "75% of patients are amenable to non-operative management",
+          "tables": []
+        },
+        "Operative_Management": {
+          "text": "25% of patients admitted for SBO require surgery\nSurgery is indicated for patients with:\nIncreasing pain, distention, or peristent high NGT output\nNecrotic bowel\nClosed-loop obstruction (incarcerated hernia, small bowel volvulus, cecal volvulus)\nFever\n, leukocytosis, peritonitis",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Not typically indicated, unless evidence of concurrent ischemia or infection\nSee\nperitonitis antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Volume_resuscitation": {
+      "text": "IV fluid resuscitation with\nelectrolyte repletion\nAssessment of need for operative vs nonoperative management",
+      "subsections": {
+        "Nasogastric_tube": {
+          "text": "14 French\nIntermittent low wall suction\nNasogastric fluid losses can be replaced with NS + KCL (30-40 meq)\nThere is some evidence to suggest nasogastric tube decompression was not associated with decreased bowel ischemia or need for surgery\n[6]",
+          "tables": []
+        },
+        "Oral_Contrast": {
+          "text": "Both diagnostic and therapeutic (draws water into the bowel stimulating peristalsis)\nAssociated with decreased hospital stay, more rapid resolution of symptoms\nRepeat CT scan may be helpful to detect early signs of bowel ischemia\nRepeat plain films are not helpful (only detect perforation)",
+          "tables": []
+        },
+        "Gastrografin_PO": {
+          "text": "Alternative to operative management if early obstructive process\nGastrografin through NG or OG decreases bowel wall edema and increases bowel motility\n[7]\nDiagnostic and therapeutic\n[8]\n100 cc of gastrografin through NG tube\nTransit may be observed through serial radiographs\nContrast within the large bowel within 24 hrs suggest partial SBO\nContrast failing to reach large bowel within 24-48 hrs suggests complete obstruction, requiring laparotomy\nTherapeutic, may reduce necessary operative rate by ~75%\n[9]\nAvoid barium as it becomes inspissated in bowel, causing complete obstruction\n[10]\nGastrografin is water-soluble and relatively safer if perforation occurs",
+          "tables": []
+        },
+        "Non-operative_Management_vs._Operative": {
+          "text": "75% of patients are amenable to non-operative management",
+          "tables": []
+        },
+        "Operative_Management": {
+          "text": "25% of patients admitted for SBO require surgery\nSurgery is indicated for patients with:\nIncreasing pain, distention, or peristent high NGT output\nNecrotic bowel\nClosed-loop obstruction (incarcerated hernia, small bowel volvulus, cecal volvulus)\nFever\n, leukocytosis, peritonitis",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Not typically indicated, unless evidence of concurrent ischemia or infection\nSee\nperitonitis antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nasogastric_tube": {
+      "text": "14 French\nIntermittent low wall suction\nNasogastric fluid losses can be replaced with NS + KCL (30-40 meq)\nThere is some evidence to suggest nasogastric tube decompression was not associated with decreased bowel ischemia or need for surgery\n[6]",
+      "subsections": {
+        "Oral_Contrast": {
+          "text": "Both diagnostic and therapeutic (draws water into the bowel stimulating peristalsis)\nAssociated with decreased hospital stay, more rapid resolution of symptoms\nRepeat CT scan may be helpful to detect early signs of bowel ischemia\nRepeat plain films are not helpful (only detect perforation)",
+          "tables": []
+        },
+        "Gastrografin_PO": {
+          "text": "Alternative to operative management if early obstructive process\nGastrografin through NG or OG decreases bowel wall edema and increases bowel motility\n[7]\nDiagnostic and therapeutic\n[8]\n100 cc of gastrografin through NG tube\nTransit may be observed through serial radiographs\nContrast within the large bowel within 24 hrs suggest partial SBO\nContrast failing to reach large bowel within 24-48 hrs suggests complete obstruction, requiring laparotomy\nTherapeutic, may reduce necessary operative rate by ~75%\n[9]\nAvoid barium as it becomes inspissated in bowel, causing complete obstruction\n[10]\nGastrografin is water-soluble and relatively safer if perforation occurs",
+          "tables": []
+        },
+        "Non-operative_Management_vs._Operative": {
+          "text": "75% of patients are amenable to non-operative management",
+          "tables": []
+        },
+        "Operative_Management": {
+          "text": "25% of patients admitted for SBO require surgery\nSurgery is indicated for patients with:\nIncreasing pain, distention, or peristent high NGT output\nNecrotic bowel\nClosed-loop obstruction (incarcerated hernia, small bowel volvulus, cecal volvulus)\nFever\n, leukocytosis, peritonitis",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Not typically indicated, unless evidence of concurrent ischemia or infection\nSee\nperitonitis antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Oral_Contrast": {
+      "text": "Both diagnostic and therapeutic (draws water into the bowel stimulating peristalsis)\nAssociated with decreased hospital stay, more rapid resolution of symptoms\nRepeat CT scan may be helpful to detect early signs of bowel ischemia\nRepeat plain films are not helpful (only detect perforation)",
+      "subsections": {
+        "Gastrografin_PO": {
+          "text": "Alternative to operative management if early obstructive process\nGastrografin through NG or OG decreases bowel wall edema and increases bowel motility\n[7]\nDiagnostic and therapeutic\n[8]\n100 cc of gastrografin through NG tube\nTransit may be observed through serial radiographs\nContrast within the large bowel within 24 hrs suggest partial SBO\nContrast failing to reach large bowel within 24-48 hrs suggests complete obstruction, requiring laparotomy\nTherapeutic, may reduce necessary operative rate by ~75%\n[9]\nAvoid barium as it becomes inspissated in bowel, causing complete obstruction\n[10]\nGastrografin is water-soluble and relatively safer if perforation occurs",
+          "tables": []
+        },
+        "Non-operative_Management_vs._Operative": {
+          "text": "75% of patients are amenable to non-operative management",
+          "tables": []
+        },
+        "Operative_Management": {
+          "text": "25% of patients admitted for SBO require surgery\nSurgery is indicated for patients with:\nIncreasing pain, distention, or peristent high NGT output\nNecrotic bowel\nClosed-loop obstruction (incarcerated hernia, small bowel volvulus, cecal volvulus)\nFever\n, leukocytosis, peritonitis",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Not typically indicated, unless evidence of concurrent ischemia or infection\nSee\nperitonitis antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-operative_Management_vs._Operative": {
+      "text": "75% of patients are amenable to non-operative management",
+      "subsections": {
+        "Operative_Management": {
+          "text": "25% of patients admitted for SBO require surgery\nSurgery is indicated for patients with:\nIncreasing pain, distention, or peristent high NGT output\nNecrotic bowel\nClosed-loop obstruction (incarcerated hernia, small bowel volvulus, cecal volvulus)\nFever\n, leukocytosis, peritonitis",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Not typically indicated, unless evidence of concurrent ischemia or infection\nSee\nperitonitis antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antibiotics": {
+      "text": "Not typically indicated, unless evidence of concurrent ischemia or infection\nSee\nperitonitis antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "In the context of advancing malignancy with widespread peritoneal metastases, bowel obstruction is common and often indicates a poor prognosis\nA less interventional and more comfort based approach to treatment may be appropriate\nSee\nMalignant bowel obstruction\nfor details",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Malignant bowel obstruction\nSmall Bowel Obstruction (SBO)\nVolvulus (Adults)\nVolvulus (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

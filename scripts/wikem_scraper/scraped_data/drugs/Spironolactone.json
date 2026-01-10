@@ -1,0 +1,364 @@
+{
+  "drug_name": "Spironolactone",
+  "url": "https://wikem.org/wiki/Spironolactone",
+  "scraped_at": "2026-01-10T08:02:28.847799",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntihypertensive\n;\npotassium sparing diuretic\n; aldosterone receptor antagonist\nDosage Forms: 25,50,100\nRoutes of Administration: Oral\nCommon Trade Names: Aldactone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive",
+          "url": "https://wikem.org/wiki/Antihypertensive"
+        },
+        {
+          "text": "potassium sparing diuretic",
+          "url": "https://wikem.org/wiki/Potassium_sparing_diuretic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Edema": {
+          "text": "25-200mg/day PO divided QD-bid\nFor edema associated with\nCHF\n,\ncirrhosis\n, or\nnephrotic syndrome",
+          "tables": []
+        },
+        "Hypertension": {
+          "text": "25-50mg/day PO divided QD-bid\nStart: 12.5mg PO QD",
+          "tables": []
+        },
+        "Hyperaldosteronism,_primary": {
+          "text": "100-400mg PO QD",
+          "tables": []
+        },
+        "Hypokalemia,_diuretic-induced": {
+          "text": "25-100mg/day PO divided QD-QID",
+          "tables": []
+        },
+        "CHF,_NYHA_Class_III/IV": {
+          "text": "25mg PO QD\nUse with standard treatment; may increase to 50mg/day after 8wk for worsening CHF if K stable\nMay decrease to 25mg qod if hyperkalemia; hold if K >5 mEq/L or creatinine >4mg/dL",
+          "tables": []
+        },
+        "Hirsutism,_idiopathic": {
+          "text": "50-200mg PO QD\nOff label use",
+          "tables": []
+        },
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        }
+      ]
+    },
+    "Edema": {
+      "text": "25-200mg/day PO divided QD-bid\nFor edema associated with\nCHF\n,\ncirrhosis\n, or\nnephrotic syndrome",
+      "subsections": {
+        "Hypertension": {
+          "text": "25-50mg/day PO divided QD-bid\nStart: 12.5mg PO QD",
+          "tables": []
+        },
+        "Hyperaldosteronism,_primary": {
+          "text": "100-400mg PO QD",
+          "tables": []
+        },
+        "Hypokalemia,_diuretic-induced": {
+          "text": "25-100mg/day PO divided QD-QID",
+          "tables": []
+        },
+        "CHF,_NYHA_Class_III/IV": {
+          "text": "25mg PO QD\nUse with standard treatment; may increase to 50mg/day after 8wk for worsening CHF if K stable\nMay decrease to 25mg qod if hyperkalemia; hold if K >5 mEq/L or creatinine >4mg/dL",
+          "tables": []
+        },
+        "Hirsutism,_idiopathic": {
+          "text": "50-200mg PO QD\nOff label use",
+          "tables": []
+        },
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "25-50mg/day PO divided QD-bid\nStart: 12.5mg PO QD",
+      "subsections": {
+        "Hyperaldosteronism,_primary": {
+          "text": "100-400mg PO QD",
+          "tables": []
+        },
+        "Hypokalemia,_diuretic-induced": {
+          "text": "25-100mg/day PO divided QD-QID",
+          "tables": []
+        },
+        "CHF,_NYHA_Class_III/IV": {
+          "text": "25mg PO QD\nUse with standard treatment; may increase to 50mg/day after 8wk for worsening CHF if K stable\nMay decrease to 25mg qod if hyperkalemia; hold if K >5 mEq/L or creatinine >4mg/dL",
+          "tables": []
+        },
+        "Hirsutism,_idiopathic": {
+          "text": "50-200mg PO QD\nOff label use",
+          "tables": []
+        },
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperaldosteronism,_primary": {
+      "text": "100-400mg PO QD",
+      "subsections": {
+        "Hypokalemia,_diuretic-induced": {
+          "text": "25-100mg/day PO divided QD-QID",
+          "tables": []
+        },
+        "CHF,_NYHA_Class_III/IV": {
+          "text": "25mg PO QD\nUse with standard treatment; may increase to 50mg/day after 8wk for worsening CHF if K stable\nMay decrease to 25mg qod if hyperkalemia; hold if K >5 mEq/L or creatinine >4mg/dL",
+          "tables": []
+        },
+        "Hirsutism,_idiopathic": {
+          "text": "50-200mg PO QD\nOff label use",
+          "tables": []
+        },
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypokalemia,_diuretic-induced": {
+      "text": "25-100mg/day PO divided QD-QID",
+      "subsections": {
+        "CHF,_NYHA_Class_III/IV": {
+          "text": "25mg PO QD\nUse with standard treatment; may increase to 50mg/day after 8wk for worsening CHF if K stable\nMay decrease to 25mg qod if hyperkalemia; hold if K >5 mEq/L or creatinine >4mg/dL",
+          "tables": []
+        },
+        "Hirsutism,_idiopathic": {
+          "text": "50-200mg PO QD\nOff label use",
+          "tables": []
+        },
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CHF,_NYHA_Class_III/IV": {
+      "text": "25mg PO QD\nUse with standard treatment; may increase to 50mg/day after 8wk for worsening CHF if K stable\nMay decrease to 25mg qod if hyperkalemia; hold if K >5 mEq/L or creatinine >4mg/dL",
+      "subsections": {
+        "Hirsutism,_idiopathic": {
+          "text": "50-200mg PO QD\nOff label use",
+          "tables": []
+        },
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hirsutism,_idiopathic": {
+      "text": "50-200mg PO QD\nOff label use",
+      "subsections": {
+        "Acne_vulgaris": {
+          "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acne_vulgaris": {
+      "text": "50-200mg PO QD\nStart: 25mg PO QD\nOff label use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Edema_2": {
+          "text": "1-3.3mg/kg/day PO divided QD-QID\nMax: 3.3mg/kg/day up to 200mg/day\nOff label use",
+          "tables": []
+        },
+        "Hyperaldosteronism_test": {
+          "text": "125-375mg/m^2/day PO divided bid-QID\nMax: 375mg/m^2/day\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Edema_2": {
+      "text": "1-3.3mg/kg/day PO divided QD-QID\nMax: 3.3mg/kg/day up to 200mg/day\nOff label use",
+      "subsections": {
+        "Hyperaldosteronism_test": {
+          "text": "125-375mg/m^2/day PO divided bid-QID\nMax: 375mg/m^2/day\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperaldosteronism_test": {
+      "text": "125-375mg/m^2/day PO divided bid-QID\nMax: 375mg/m^2/day\nOff label use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor\n: C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl <10, anuria, or acute renal impairment: contraindicated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution advised with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Risk Factor",
+          "url": "https://wikem.org/wiki/Drug_ratings_in_pregnancy"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "CrCl <10, anuria, or acute renal impairment: contraindicated",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Caution advised with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Caution advised with hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCrCl <10\nanuria\nrenal impairment, acute\nhyperkalemia\nAddison disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anaphylaxis\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\ndrug reaction with eosinophilia and systemic sx\nvasculitis\nhepatotoxicity\nrenal failure\nelectrolyte imbalance\nhyperkalemia, severe\narrhythmias\nleukopenia\nagranulocytosis\nthrombocytopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "nausea/vomiting\nabdominal cramps/pain\nmuscle cramps\ndiarrhea\nheadache\nconfusion\ndizziness\nsomnolence",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "anaphylaxis\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\ndrug reaction with eosinophilia and systemic sx\nvasculitis\nhepatotoxicity\nrenal failure\nelectrolyte imbalance\nhyperkalemia, severe\narrhythmias\nleukopenia\nagranulocytosis\nthrombocytopenia",
+      "subsections": {
+        "Common": {
+          "text": "nausea/vomiting\nabdominal cramps/pain\nmuscle cramps\ndiarrhea\nheadache\nconfusion\ndizziness\nsomnolence",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "nausea/vomiting\nabdominal cramps/pain\nmuscle cramps\ndiarrhea\nheadache\nconfusion\ndizziness\nsomnolence",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.3-2h (parent drug), 13.8-16.5h (active metabolites)\nMetabolism: Liver\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Antagonizes aldosterone receptors in the distal convoluted tubule, decreasing Na and water reabsorption and increasing K retention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CHF\nCirrhosis\n,\nAscites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        }
+      ]
+    },
+    "References": {
+      "text": "<Epocrates, UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

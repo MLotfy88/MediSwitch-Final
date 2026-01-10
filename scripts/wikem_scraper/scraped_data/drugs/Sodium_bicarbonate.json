@@ -1,0 +1,204 @@
+{
+  "drug_name": "Sodium_bicarbonate",
+  "url": "https://wikem.org/wiki/Sodium_bicarbonate",
+  "scraped_at": "2026-01-10T08:02:22.350979",
+  "sections": {
+    "Administration": {
+      "text": "Type: 8.4% is common cardiac formulation\n8.4% is 1 mEq/mL\nDosage Forms: 5% ; 7.5% ; 8.4% ; 4.2% ; 4% ; 325mg ; 150 mEq/1000 mL-D5% ; 150 mEq/1150 mL-D5%\nRoutes of Administration: IV\nCommon Trade Names: N/A\nAbbreviation: NaHOC3",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Arrest": {
+          "text": "50 mL (1 amp) IV push for severe acidemia and patient is adequately ventilated\nFrequency\n[1]\n:\n1 mEq/kg IV bolus dose initially (~1-2 amps for average adult)\n0.5 mEq/kg/dose q10min\nOR\ntailor to serial ABGs",
+          "tables": []
+        },
+        "Severe_Metabolic_Acidemia_(pH<7.1)": {
+          "text": "IV drip\n150 mEq/1000 mL inD5W\nMay reduce 28 day mortality in patients with severe AKI and decrease need for dialysis (although this study used 4.2% sodium bicarbonate, a product not widely available within the United States)\n[2]",
+          "tables": []
+        },
+        "Serum_alkalinization_(toxicology)": {
+          "text": "Enhance urinary elimination of salicylates, methotrexate and phenobarbital\nGoal: serum pH of 7.5, urinary pH of 8.0\nCheck K+ as well\nIV drip\n150 mEq (3 amps) of 8.4% solution in 1000 ml D5W + potassium 20-40 mEq, max. 250 cc/hour",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiac_Arrest": {
+      "text": "50 mL (1 amp) IV push for severe acidemia and patient is adequately ventilated\nFrequency\n[1]\n:\n1 mEq/kg IV bolus dose initially (~1-2 amps for average adult)\n0.5 mEq/kg/dose q10min\nOR\ntailor to serial ABGs",
+      "subsections": {
+        "Severe_Metabolic_Acidemia_(pH<7.1)": {
+          "text": "IV drip\n150 mEq/1000 mL inD5W\nMay reduce 28 day mortality in patients with severe AKI and decrease need for dialysis (although this study used 4.2% sodium bicarbonate, a product not widely available within the United States)\n[2]",
+          "tables": []
+        },
+        "Serum_alkalinization_(toxicology)": {
+          "text": "Enhance urinary elimination of salicylates, methotrexate and phenobarbital\nGoal: serum pH of 7.5, urinary pH of 8.0\nCheck K+ as well\nIV drip\n150 mEq (3 amps) of 8.4% solution in 1000 ml D5W + potassium 20-40 mEq, max. 250 cc/hour",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Arrest_2": {
+          "text": "1 mL/kg IV push for severe acidemia and patient is adequately ventilated\nSodium bicarbonate administration in cardiac arrest has not been shown to improve survival to discharge\n[3]\n[4]\nACLS guidelines recommend against routine use of sodium bicarbonate in cardiac arrest although there may be benefit in the setting of cardiac arrest caused by\nhyperkalemia\nor\ntricyclic antidepressant\noverdose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "tricyclic antidepressant",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_toxicity"
+        }
+      ]
+    },
+    "Cardiac_Arrest_2": {
+      "text": "1 mL/kg IV push for severe acidemia and patient is adequately ventilated\nSodium bicarbonate administration in cardiac arrest has not been shown to improve survival to discharge\n[3]\n[4]\nACLS guidelines recommend against routine use of sodium bicarbonate in cardiac arrest although there may be benefit in the setting of cardiac arrest caused by\nhyperkalemia\nor\ntricyclic antidepressant\noverdose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "tricyclic antidepressant",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_toxicity"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRelative:\nOngoing chloride loss (vomiting, gastrointestinal suction, with concurrent diuretics that induce hypochloremia)\nDKA\nwith pH > 7.1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Extravasation:\ncellulitis\n, tissue necrosis, ulcer\nMetabolic alkalosis\nHypernatremia\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Extravasation:\ncellulitis\n, tissue necrosis, ulcer\nMetabolic alkalosis\nHypernatremia\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Onset: 15 minutes (IV)\nDuration: 1-2 hours (IV)\nHalf-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Bicarbonate reacts with H+ ions to form water & carbon dioxide. It acts as a buffer against acidosis by raising blood pH",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Sodium acetate\ncan be used as a substitute for sodium bicarbonate during times of critical shortages\n[6]\nCan be used to treat\nTCA\nand\nASA toxicity\nCannot be given as a rapid bolus - give 1 mEq/kg over 15-20 minutes to avoid hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "ASA toxicity",
+          "url": "https://wikem.org/wiki/ASA_toxicity"
+        }
+      ]
+    }
+  }
+}

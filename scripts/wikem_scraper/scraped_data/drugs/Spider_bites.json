@@ -1,0 +1,616 @@
+{
+  "drug_name": "Spider_bites",
+  "url": "https://wikem.org/wiki/Spider_bites",
+  "scraped_at": "2026-01-10T08:02:28.973216",
+  "sections": {
+    "Background": {
+      "text": "Standard\nabscess\nare not typically due to spider bites and should not be diagnosed as such",
+      "subsections": {
+        "Clinically_important_spider_genera_by_geographic_region": {
+          "text": "North America\nLoxosceles (e.g.\nbrown recluse\n)\nLatrodectus (e.g.\nblack widow\n)\nTegenaria\nSouth America\nLoxosceles\nLatrodectus\nPhoneutria\n(e.g.\narmed spider\n)\nAfrica\nLoxosceles\nLatrodectus\nEurope\nLoxosceles\nLatrodectus\nAustralia\nAtrax (e.g.\nfunnel-web spider\n)\nHadronyche (e.g.\nfunnel-web spider\n)\nLatrodectus\nAsia\nLatrodectus\nOther\nTarantula spider bite",
+          "tables": []
+        },
+        "Visual_Spider_Identification": {
+          "text": "Tarantula\nBlack widow spider\nBrown recluse\nArmed spider\n(\nphoneutria nigreventer\n)\nFunnel-web spider\n(Hadronyche versuta)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        },
+        {
+          "text": "black widow",
+          "url": "https://wikem.org/wiki/Black_widow"
+        },
+        {
+          "text": "Phoneutria",
+          "url": "https://wikem.org/wiki/Phoneutria"
+        },
+        {
+          "text": "armed spider",
+          "url": "https://wikem.org/wiki/Armed_spider"
+        },
+        {
+          "text": "funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        },
+        {
+          "text": "funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        },
+        {
+          "text": "Tarantula spider bite",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula"
+        },
+        {
+          "text": "Black widow spider",
+          "url": "https://wikem.org/wiki/Black_widow_spider"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        },
+        {
+          "text": "Armed spider",
+          "url": "https://wikem.org/wiki/Armed_spider"
+        },
+        {
+          "text": "Funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        }
+      ]
+    },
+    "Clinically_important_spider_genera_by_geographic_region": {
+      "text": "North America\nLoxosceles (e.g.\nbrown recluse\n)\nLatrodectus (e.g.\nblack widow\n)\nTegenaria\nSouth America\nLoxosceles\nLatrodectus\nPhoneutria\n(e.g.\narmed spider\n)\nAfrica\nLoxosceles\nLatrodectus\nEurope\nLoxosceles\nLatrodectus\nAustralia\nAtrax (e.g.\nfunnel-web spider\n)\nHadronyche (e.g.\nfunnel-web spider\n)\nLatrodectus\nAsia\nLatrodectus\nOther\nTarantula spider bite",
+      "subsections": {
+        "Visual_Spider_Identification": {
+          "text": "Tarantula\nBlack widow spider\nBrown recluse\nArmed spider\n(\nphoneutria nigreventer\n)\nFunnel-web spider\n(Hadronyche versuta)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        },
+        {
+          "text": "black widow",
+          "url": "https://wikem.org/wiki/Black_widow"
+        },
+        {
+          "text": "Phoneutria",
+          "url": "https://wikem.org/wiki/Phoneutria"
+        },
+        {
+          "text": "armed spider",
+          "url": "https://wikem.org/wiki/Armed_spider"
+        },
+        {
+          "text": "funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        },
+        {
+          "text": "funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        },
+        {
+          "text": "Tarantula spider bite",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula"
+        },
+        {
+          "text": "Black widow spider",
+          "url": "https://wikem.org/wiki/Black_widow_spider"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        },
+        {
+          "text": "Armed spider",
+          "url": "https://wikem.org/wiki/Armed_spider"
+        },
+        {
+          "text": "Funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        }
+      ]
+    },
+    "Visual_Spider_Identification": {
+      "text": "Tarantula\nBlack widow spider\nBrown recluse\nArmed spider\n(\nphoneutria nigreventer\n)\nFunnel-web spider\n(Hadronyche versuta)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula"
+        },
+        {
+          "text": "Black widow spider",
+          "url": "https://wikem.org/wiki/Black_widow_spider"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        },
+        {
+          "text": "Armed spider",
+          "url": "https://wikem.org/wiki/Armed_spider"
+        },
+        {
+          "text": "Funnel-web spider",
+          "url": "https://wikem.org/wiki/Funnel-web_spider"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Determine circumstances of bite to assess consistency with spider habitat and behavior\nIndoors vs outdoors\nDay vs night\nGeographic location (recent travel)\nAppearance of the spider if seen\nDead spiders can be preserved in 70% EtOH and later identified by arachnologists or entomologist",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "No pathognomonic signs proving lesion is a spider bite\nAssess both bite site and for systemic signs\nBite Site\nLocation\nSpider bites more common when clothing is tight against skin\nNumber of bites\nMultiple bites suggest parasitic insect and not spider\nAppearance of bite\nErythema, pallor, hemorrhage, induration, tenderness, paresthesia, vesicles\nSystemic findings\nAbnormal vital signs (\ntachycardia\npossible with black widow)\nAltered mental status\nAbdominal pain\nDiaphoresis\nGeneralized\nrash\nMuscle fasciculations, spasm, or tenderness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "History": {
+      "text": "Determine circumstances of bite to assess consistency with spider habitat and behavior\nIndoors vs outdoors\nDay vs night\nGeographic location (recent travel)\nAppearance of the spider if seen\nDead spiders can be preserved in 70% EtOH and later identified by arachnologists or entomologist",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "No pathognomonic signs proving lesion is a spider bite\nAssess both bite site and for systemic signs\nBite Site\nLocation\nSpider bites more common when clothing is tight against skin\nNumber of bites\nMultiple bites suggest parasitic insect and not spider\nAppearance of bite\nErythema, pallor, hemorrhage, induration, tenderness, paresthesia, vesicles\nSystemic findings\nAbnormal vital signs (\ntachycardia\npossible with black widow)\nAltered mental status\nAbdominal pain\nDiaphoresis\nGeneralized\nrash\nMuscle fasciculations, spasm, or tenderness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "No pathognomonic signs proving lesion is a spider bite\nAssess both bite site and for systemic signs\nBite Site\nLocation\nSpider bites more common when clothing is tight against skin\nNumber of bites\nMultiple bites suggest parasitic insect and not spider\nAppearance of bite\nErythema, pallor, hemorrhage, induration, tenderness, paresthesia, vesicles\nSystemic findings\nAbnormal vital signs (\ntachycardia\npossible with black widow)\nAltered mental status\nAbdominal pain\nDiaphoresis\nGeneralized\nrash\nMuscle fasciculations, spasm, or tenderness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Clean area of bite\nTetanus prophylaxis\nAnalgesics\nHydration\nSurgical follow up if indicated for debridement of necrotic area\nAntivenin\nis indicated only for specific envenomation\nNo proven benefit for\ncorticosteroids\nNo indication for antibiotics unless concern for\ncellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "Analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antivenin",
+          "url": "https://wikem.org/wiki/Antivenin"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Bites and Stings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bites and Stings",
+          "url": "https://wikem.org/wiki/Bites_and_Stings"
+        }
+      ]
+    },
+    "References": {
+      "text": "Boyer LV, Binford GJ, Degan JA. Spider Bites. In Auerbach PS, Cushing TA, Harris NS. Auerbach’s Wilderness Medicine. 7th ed. Philadelphia, PA: Elsevier; 2017: 993-1016.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

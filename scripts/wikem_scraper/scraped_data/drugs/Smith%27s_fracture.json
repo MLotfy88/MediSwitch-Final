@@ -1,0 +1,277 @@
+{
+  "drug_name": "Smith%27s_fracture",
+  "url": "https://wikem.org/wiki/Smith%27s_fracture",
+  "scraped_at": "2026-01-10T08:02:19.747294",
+  "sections": {
+    "Background": {
+      "text": "Also known as a reverse Colles' fracture or Goyrand-Smith's\nVolar angulated fracture of distal radius (\"reverse Colles fracture\" or \"garden-spade deformity\")",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Mechanism: fall onto the dorsum of the hand with wrist in flexion, or direct blow to dorsum of hand/wrist\n[1]\nWrist pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_radius_fractures": {
+          "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+          "tables": []
+        },
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fractures": {
+      "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+      "subsections": {
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fracture_eponyms": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Eponyms": "Barton's",
+            "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+          },
+          {
+            "Eponyms": "Chauffer's",
+            "Description": "Fracture of radial styloid"
+          },
+          {
+            "Eponyms": "Colles'",
+            "Description": "Dorsally displaced, extra-articular fracture"
+          },
+          {
+            "Eponyms": "Die-punch",
+            "Description": "Depressed fracture of the lunate fossa (articular surface)"
+          },
+          {
+            "Eponyms": "Smith's",
+            "Description": "Volar displaced, extra-articular fracture"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Assess distal pulse, motor, and sensation\nInspect skin for any signs of open fracture\nXRay\nAP/Lateral of wrist and forearm\nIf intraarticular, may need CT for surgical planning",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Sugar tong splint\nin supination\n[1]\nSimilar to\nColles' fracture\nTypically unstable and requires surgical fixation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Immobilization": {
+          "text": "Sugar tong splint\nin supination\n[1]\nSimilar to\nColles' fracture\nTypically unstable and requires surgical fixation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "Sugar tong splint\nin supination\n[1]\nSimilar to\nColles' fracture\nTypically unstable and requires surgical fixation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient with Ortho follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Malunion can result in chronic garden spade deformity\nCan also lead to\nCarpal tunnel syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Carpal_tunnel_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Distal radius fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://radiopaedia.org/articles/smith-fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

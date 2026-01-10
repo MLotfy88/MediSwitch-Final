@@ -1,0 +1,24 @@
+{
+  "drug_name": "Six_item_screen",
+  "url": "https://wikem.org/wiki/Six_item_screen",
+  "scraped_at": "2026-01-10T08:02:15.337761",
+  "sections": {
+    "Six_Item_Screen": {
+      "text": "for cognitive impairment\nTests attention, short-term memory, and orientation\nName Items (3), ask patient to repeat\nask orientation (3)\nask to recall items (3)\nscore < 5  94% sensitive and 86% for cognitive impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dementia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    }
+  }
+}

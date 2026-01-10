@@ -1,0 +1,114 @@
+{
+  "drug_name": "Spinosad",
+  "url": "https://wikem.org/wiki/Spinosad",
+  "scraped_at": "2026-01-10T08:02:27.329452",
+  "sections": {
+    "Administration": {
+      "text": "Type: Pediculicide\nDosage Forms:\nRoutes of Administration: Topical\nCommon Trade Names:  Natroba",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Apply to dry hair/scalp, rinse after 10m",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "<6mo: do not use\n>6mo: apply to dry hair/scalp, rinse after 10m",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Pregnancy Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Pump/dump for 8h due to risk of benzyl alcohol systemic absorption",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Pregnancy Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Pump/dump for 8h due to risk of benzyl alcohol systemic absorption",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Pump/dump for 8h due to risk of benzyl alcohol systemic absorption",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nInfants <6mo (contains benzyl alcohol which is harmful to infants if absorbed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Application site erythema, irritation, dryness, exfoliation\nOcular erythema/hyperemia\nAlopecia\nDry skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Application site erythema, irritation, dryness, exfoliation\nOcular erythema/hyperemia\nAlopecia\nDry skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Application site erythema, irritation, dryness, exfoliation\nOcular erythema/hyperemia\nAlopecia\nDry skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "\"Causes neuronal excitation in insects, followed by hyperexcitation, paralysis, and death\" (!)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediculosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediculosis",
+          "url": "https://wikem.org/wiki/Pediculosis"
+        }
+      ]
+    }
+  }
+}

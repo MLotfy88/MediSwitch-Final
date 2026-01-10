@@ -1,0 +1,48 @@
+{
+  "drug_name": "Spectinomycin",
+  "url": "https://wikem.org/wiki/Spectinomycin",
+  "scraped_at": "2026-01-10T08:02:28.410126",
+  "sections": {
+    "Intro": {
+      "text": "Not available in the US\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Type:\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy:\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

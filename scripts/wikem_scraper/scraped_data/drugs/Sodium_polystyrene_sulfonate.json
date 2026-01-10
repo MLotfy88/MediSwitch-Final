@@ -1,0 +1,102 @@
+{
+  "drug_name": "Sodium_polystyrene_sulfonate",
+  "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate",
+  "scraped_at": "2026-01-10T08:02:19.002840",
+  "sections": {
+    "General": {
+      "text": "Type:\nDosage Forms:\nCommon Trade Names: Kayexalate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hyperkalemia": {
+          "text": "30 gm oral or per rectum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperkalemia": {
+      "text": "30 gm oral or per rectum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">1mo: 1 g/kg PO or PR q6hr PRN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Not absorbed systemically so infant risk minimal\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypokalemia\nObstructive bowel disease, reduced gut motility\nRectal administration in neonates, particularly if premature",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Intestinal necrosis, ulceration, perforation, fecal impaction\nBezoars",
+          "tables": []
+        },
+        "Common": {
+          "text": "Abdominal pain, nausea/vomiting, constipation, GI disturbance\nHypokalemia\nHypocalcemia\nHypomagnesemia\nSodium retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Intestinal necrosis, ulceration, perforation, fecal impaction\nBezoars",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal pain, nausea/vomiting, constipation, GI disturbance\nHypokalemia\nHypocalcemia\nHypomagnesemia\nSodium retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Abdominal pain, nausea/vomiting, constipation, GI disturbance\nHypokalemia\nHypocalcemia\nHypomagnesemia\nSodium retention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action: Cation exchange resin, sodium ions partially released from polystyrene and replaced by potassium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Alternative\nSodium zirconium cyclosilicate\n(Lokelma)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sodium zirconium cyclosilicate",
+          "url": "https://wikem.org/wiki/Sodium_zirconium_cyclosilicate"
+        }
+      ]
+    }
+  }
+}

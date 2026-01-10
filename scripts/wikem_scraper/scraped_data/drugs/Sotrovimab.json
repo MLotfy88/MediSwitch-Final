@@ -1,0 +1,110 @@
+{
+  "drug_name": "Sotrovimab",
+  "url": "https://wikem.org/wiki/Sotrovimab",
+  "scraped_at": "2026-01-10T08:02:23.830877",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "COVID": {
+          "text": "500 mg IV over 30 min, observe for 1 hour after",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "COVID": {
+      "text": "500 mg IV over 30 min, observe for 1 hour after",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Newer, very limited supply",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

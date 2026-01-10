@@ -1,0 +1,310 @@
+{
+  "drug_name": "Sotalol",
+  "url": "https://wikem.org/wiki/Sotalol",
+  "scraped_at": "2026-01-10T08:02:22.463219",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta blockers\nDosage Forms: Tab (80 mg, 120 mg, 160 mg, 240 mg); Injection\nCommon Trade Names: Sotalol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Ventricular_arrhythmia,_life-threatening": {
+          "text": "80-160 mg PO q12h\nStart: 80mg PO q 12h\nMax: 640 mg/day\nTaper over 1-2wk to D/C\n75-150 mg IV q12h\nStart: 75 mg IV q12h\nMax: 600 mg/day\nTaper over 1-2wk to D/C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ventricular_arrhythmia,_life-threatening": {
+      "text": "80-160 mg PO q12h\nStart: 80mg PO q 12h\nMax: 640 mg/day\nTaper over 1-2wk to D/C\n75-150 mg IV q12h\nStart: 75 mg IV q12h\nMax: 600 mg/day\nTaper over 1-2wk to D/C",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Ventricular_arrhythmia,_life-threatening_2": {
+          "text": "<2 yo\nDose based on\nBSA\nand age-specific factor\n2+ yo, PO\n90-180 mg/m^2/day PO divided TID\nStart: 90mg/m^2/day\nMax: 180mg/m^2/day\n2+ yo, IV\n84-168mg/m^2/day IV divided TID\nStart: 84mg/m^2/day\nMax: 168mg/m^2/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        }
+      ]
+    },
+    "Ventricular_arrhythmia,_life-threatening_2": {
+      "text": "<2 yo\nDose based on\nBSA\nand age-specific factor\n2+ yo, PO\n90-180 mg/m^2/day PO divided TID\nStart: 90mg/m^2/day\nMax: 180mg/m^2/day\n2+ yo, IV\n84-168mg/m^2/day IV divided TID\nStart: 84mg/m^2/day\nMax: 168mg/m^2/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category B Caution advised (esp in 2nd and 3rd trimester)\nLactation: Possibly unsafe\nRenal Dosing\nAdult\nCrCl 30-59: Give q24h\nCrCl 10-29: Give q36-48h\nCrCl <10: Individualize Dose\nIV drug contraindicated with CrCl <40\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNo Adjustment\nPediatric\nNo Adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Suppression of ventricular arrhythmias refractory to other meds\nSuppression of SVT, a-fib",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSinus bradycardia\nSick sinus syndrome\nw/o pacemaker\n2nd or 3rd Degree\nAV block\nw/o pacemaker\nCongenital or acquired\nQT prolongation\nBaseline QTc > 450 msec\nDecompensated\nheart failure\nCardiogenic shock\nCrCl < 40 (IV use)\nBronchospastic disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\nBradycardia\nProarrhythmia (esp in patients with\nhypokalemia\n)\nCongestive heart failure\nQT Prolongation\nTorsades de pointes\nLupus erythematosus",
+          "tables": []
+        },
+        "Common": {
+          "text": "Fatigue\nDizziness\nNausea\n/\nVomiting\nDiarrhea\nAsthenia\nHyperhidrosis\nPalpitations\nHeadache\nInsomnia\nDyspepsia\nEdema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Lupus erythematosus",
+          "url": "https://wikem.org/wiki/Lupus_erythematosus"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypotension\nBradycardia\nProarrhythmia (esp in patients with\nhypokalemia\n)\nCongestive heart failure\nQT Prolongation\nTorsades de pointes\nLupus erythematosus",
+      "subsections": {
+        "Common": {
+          "text": "Fatigue\nDizziness\nNausea\n/\nVomiting\nDiarrhea\nAsthenia\nHyperhidrosis\nPalpitations\nHeadache\nInsomnia\nDyspepsia\nEdema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Lupus erythematosus",
+          "url": "https://wikem.org/wiki/Lupus_erythematosus"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Fatigue\nDizziness\nNausea\n/\nVomiting\nDiarrhea\nAsthenia\nHyperhidrosis\nPalpitations\nHeadache\nInsomnia\nDyspepsia\nEdema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 12h\nMetabolism: None\nExcretion: Urine\nMechanism of Action:\nClass II - Nonselective beta-blocker\nClass III effects (prolongs repol and refractoriness)\nOnset of action = 2-3hr\nDuration of action = 24hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta-blockers\nBeta-blocker toxicity\nAntiarrhythmics\nAntihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    }
+  }
+}

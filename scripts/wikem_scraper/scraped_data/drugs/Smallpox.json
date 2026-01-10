@@ -1,0 +1,811 @@
+{
+  "drug_name": "Smallpox",
+  "url": "https://wikem.org/wiki/Smallpox",
+  "scraped_at": "2026-01-10T08:02:19.122126",
+  "sections": {
+    "Background": {
+      "text": "Caused by the variola virus\n[1]\nPassed through direct contact with the person, with body fluids, as well as with airborne droplets of an infected, symptomatic person\nCan survive for 24-48 hours in the environment\nMost infectious during the first week of symptoms, but will remain infectious until the last pox scab falls off\nHumans are the only known host\n[2]\nDeclared eradicated in 1980 after a global immunization campaign from 1966-1980; last known natural case was in Somalia in 1977; last known cases were in England in 1978 after a laboratory accident\n[3]",
+      "subsections": {
+        "Bioterrorism": {
+          "text": "There are stocks of the virus in 2 laboratories – one in Atlanta, Georgia, USA and one in Moscow, Russia\nThere are concerns some laboratories may illegally have the virus and could release it as a weapon of bioterrorism\n[4]\nIt is considered a potential bioterrorism threat as most people are now considered to be vulnerable to the virus because vaccination programs have stopped",
+          "tables": []
+        },
+        "Vaccination_History": {
+          "text": "The vaccine “vaccinia variola” was made from a closely-related virus\nVaccination is considered successful if at least one pustule forms at the injection site\nDoes have serious side effects, especially in the immunocompromised, including death in rare cases\nDue to the side effects and the current eradication, it is not used anywhere in the world currently\nOnly select groups of individuals will be vaccinated, including some members of the US military (depending on where they are deployed)\n[5]\nMany governments have large stockpiles of the vaccinia vaccine and plans in place for rapid response and vaccination if an outbreak were to occur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bioterrorism": {
+      "text": "There are stocks of the virus in 2 laboratories – one in Atlanta, Georgia, USA and one in Moscow, Russia\nThere are concerns some laboratories may illegally have the virus and could release it as a weapon of bioterrorism\n[4]\nIt is considered a potential bioterrorism threat as most people are now considered to be vulnerable to the virus because vaccination programs have stopped",
+      "subsections": {
+        "Vaccination_History": {
+          "text": "The vaccine “vaccinia variola” was made from a closely-related virus\nVaccination is considered successful if at least one pustule forms at the injection site\nDoes have serious side effects, especially in the immunocompromised, including death in rare cases\nDue to the side effects and the current eradication, it is not used anywhere in the world currently\nOnly select groups of individuals will be vaccinated, including some members of the US military (depending on where they are deployed)\n[5]\nMany governments have large stockpiles of the vaccinia vaccine and plans in place for rapid response and vaccination if an outbreak were to occur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vaccination_History": {
+      "text": "The vaccine “vaccinia variola” was made from a closely-related virus\nVaccination is considered successful if at least one pustule forms at the injection site\nDoes have serious side effects, especially in the immunocompromised, including death in rare cases\nDue to the side effects and the current eradication, it is not used anywhere in the world currently\nOnly select groups of individuals will be vaccinated, including some members of the US military (depending on where they are deployed)\n[5]\nMany governments have large stockpiles of the vaccinia vaccine and plans in place for rapid response and vaccination if an outbreak were to occur",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation period: 7-19 days\nInitial phase begins as a fever, fatigue/weakness, dorsal-lumbar pain, myalgias, nausea/vomiting\n2-4 days later the characteristic rash appears\nWorst on the face, arms, legs, and includes the palms and soles\nLesions will generally all be at same stage\nLesions begin as clear fluid-filled vesicles, progress to pustules, and then harden and form a crust, ultimately falling off in about 3-4 weeks",
+      "subsections": {
+        "Clinical_Forms": {
+          "text": "Variola major and minor (90% of cases)\nVariola major\nMore severe, mortality rate 30%\nVariola minor\nLess severe, mortality rate 1%\nFewer pox\nOther (10% of cases)\nHemorrhagic\nHemorrhages occur within the blisters as well as mucus membranes and internal organs, death usually within 5-6 days\nMalignant\nSoft, flattened lesions, does not progress to pustules\nResolve without forming scabs\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Forms": {
+      "text": "Variola major and minor (90% of cases)\nVariola major\nMore severe, mortality rate 30%\nVariola minor\nLess severe, mortality rate 1%\nFewer pox\nOther (10% of cases)\nHemorrhagic\nHemorrhages occur within the blisters as well as mucus membranes and internal organs, death usually within 5-6 days\nMalignant\nSoft, flattened lesions, does not progress to pustules\nResolve without forming scabs\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        },
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        },
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Pediatric_Rash": {
+      "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+      "subsections": {
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        },
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Vesiculobullous_rashes": {
+      "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Bioterrorism_Agents": {
+      "text": "",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis based on symptoms and characteristic rash\nPCR DNA test\nWhen the disease was present, either electron microscopy of stained crusts of lesions or a slide precipitation method was used",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IMMEDIATE NOTIFICATION OF PUBLIC HEALTH AUTHORITIES\nVaccine administered up to 3 days post-exposure was effective in preventing infection as well as lessening the severity of the disease if infection occurred\n[8]",
+      "subsections": {
+        "Post-Exposure_Prophylaxis": {
+          "text": "Vaccinia Vaccine (administer within 72hrs of exposure)",
+          "tables": []
+        },
+        "Active_Disease": {
+          "text": "Supportive care and wound care for open lesions\nVaccinia Vaccine within the first 72hrs can decrease total disease severity and within 7 days may decrease symptoms\nVaccination is not efficacious once the patient has developed rash\n[9]",
+          "tables": []
+        },
+        "Vaccinia_Vaccine_Complications": {
+          "text": "Contraindications for administration include:\nPregnancy\nSevere cardiac disease\nImmunocompromise\nSame living quarters as other person with above contraindications\ndue to viral shedding",
+          "tables": []
+        },
+        "Isolation": {
+          "text": "Airborne and contact isolation with negative pressure\nPersonal protective wear level D with N95 respirator",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Post-Exposure_Prophylaxis": {
+      "text": "Vaccinia Vaccine (administer within 72hrs of exposure)",
+      "subsections": {
+        "Active_Disease": {
+          "text": "Supportive care and wound care for open lesions\nVaccinia Vaccine within the first 72hrs can decrease total disease severity and within 7 days may decrease symptoms\nVaccination is not efficacious once the patient has developed rash\n[9]",
+          "tables": []
+        },
+        "Vaccinia_Vaccine_Complications": {
+          "text": "Contraindications for administration include:\nPregnancy\nSevere cardiac disease\nImmunocompromise\nSame living quarters as other person with above contraindications\ndue to viral shedding",
+          "tables": []
+        },
+        "Isolation": {
+          "text": "Airborne and contact isolation with negative pressure\nPersonal protective wear level D with N95 respirator",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Active_Disease": {
+      "text": "Supportive care and wound care for open lesions\nVaccinia Vaccine within the first 72hrs can decrease total disease severity and within 7 days may decrease symptoms\nVaccination is not efficacious once the patient has developed rash\n[9]",
+      "subsections": {
+        "Vaccinia_Vaccine_Complications": {
+          "text": "Contraindications for administration include:\nPregnancy\nSevere cardiac disease\nImmunocompromise\nSame living quarters as other person with above contraindications\ndue to viral shedding",
+          "tables": []
+        },
+        "Isolation": {
+          "text": "Airborne and contact isolation with negative pressure\nPersonal protective wear level D with N95 respirator",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vaccinia_Vaccine_Complications": {
+      "text": "Contraindications for administration include:\nPregnancy\nSevere cardiac disease\nImmunocompromise\nSame living quarters as other person with above contraindications\ndue to viral shedding",
+      "subsections": {
+        "Isolation": {
+          "text": "Airborne and contact isolation with negative pressure\nPersonal protective wear level D with N95 respirator",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Isolation": {
+      "text": "Airborne and contact isolation with negative pressure\nPersonal protective wear level D with N95 respirator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bioterrorism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        }
+      ]
+    }
+  }
+}

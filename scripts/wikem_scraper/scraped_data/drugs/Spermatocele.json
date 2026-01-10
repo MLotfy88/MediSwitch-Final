@@ -1,0 +1,206 @@
+{
+  "drug_name": "Spermatocele",
+  "url": "https://wikem.org/wiki/Spermatocele",
+  "scraped_at": "2026-01-10T08:02:27.047109",
+  "sections": {
+    "Background": {
+      "text": "Spermatoceles are fairly common, appearing in about 30% of adult men. They are usually found during self examination or while men are undergoing imaging studies for other conditions.\narise from an accumulation of sperm, usually in the head of the epididymis.\ncause is not known",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "small, pea-sized bulge or lump in the scrotum.\nSometimes this lump may be tender or painful and on occasions the scrotum is enlarged.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ultrasound - nearly 100% accurate in diagnosis of spermatocele",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Usually does not require treatment\nSurgical management my urology can be discussed if spermatocele is causing pain or increases in size",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "discharge home with urology follow up if needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Cleveland Clinic Glickman Urological and Kidney Institute. Hydrocele and Spermatocele. Retrieved from\nhttp://my.clevelandclinic.org/services/urology-kidney/diseases-conditions/hydrocele-spermatocele\nChildren's Hospital of Philadelphia. Epididymal Cyst and Spermatocele. Retrieved from\nhttp://www.chop.edu/conditions-diseases/epididymal-cyst-and-spermatocele#.Vpe8cDbsehQ",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

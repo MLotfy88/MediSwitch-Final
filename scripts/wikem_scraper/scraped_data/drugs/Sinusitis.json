@@ -1,0 +1,1123 @@
+{
+  "drug_name": "Sinusitis",
+  "url": "https://wikem.org/wiki/Sinusitis",
+  "scraped_at": "2026-01-10T08:02:14.716932",
+  "sections": {
+    "Background": {
+      "text": "Viral source is by far most common. Bacterial infection accounts for only 0.5-2% of all cases\n[1]\nOther causes include allergies and fungal infection\nTimeframe\nAcute (<4 weeks)\nSubacute (4-12 weeks)\nChronic (>12 weeks)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Defined as 2 or more of the following:\nBlockage or congestion of nose\nFacial pain or pressure\nHyposmia (diminished ability to smell)\nAnterior or posterior nasal discharge lasting <12wk\nAdditional symptoms:\nTooth pain\nFever\nSinus pressure while bending forward to changing head position",
+      "subsections": {
+        "Clinical_Features_of_Bacterial_Sinusitis": {
+          "text": "Symptoms persist >10 days\nDaytime\ncough\nWorsening or bimodal course\nFever >102.2F (39C)\nPurulent nasal discharge >3d\nPain in maxillary teeth\nHx of diabetes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Clinical_Features_of_Bacterial_Sinusitis": {
+      "text": "Symptoms persist >10 days\nDaytime\ncough\nWorsening or bimodal course\nFever >102.2F (39C)\nPurulent nasal discharge >3d\nPain in maxillary teeth\nHx of diabetes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Clinical_Features_of_Fungal_Sinusitis": {
+      "text": "Seen most often in immunocompromised individuals and poorly controlled diabetics\nPresents similarly to viral and bacterial sinusitis but symptoms worsen over time and do not improve with antibiotics\nSee\nMucormycosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Rhinorrhea": {
+          "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Rhinorrhea": {
+      "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nConsider CT only for toxic patients (to rule-out complication)",
+      "subsections": {
+        "IDSA_Guidelines_2012": {
+          "text": "Highlights identifying factors for acute bacterial vs. viral rhinosinusitis\nConcern for bacterial (treat with antibiotics) if any of these:\nPurulent discharge and pain on face or teeth > 10 days without improvement\nSevere symptoms or fever > 39 plus symptoms > 3 days\n\"Double sickening\" - sinusitis symptoms at end of initially improving URI that lasted > 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IDSA_Guidelines_2012": {
+      "text": "Highlights identifying factors for acute bacterial vs. viral rhinosinusitis\nConcern for bacterial (treat with antibiotics) if any of these:\nPurulent discharge and pain on face or teeth > 10 days without improvement\nSevere symptoms or fever > 39 plus symptoms > 3 days\n\"Double sickening\" - sinusitis symptoms at end of initially improving URI that lasted > 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "<10_days_of_symptoms": {
+          "text": "Symptomatic treatment:\nAnalgesia\nMechanical irrigation with buffered, hypertonic saline\nOTC decongestants\nIntranasal decongestants (e.g.\noxymetazoline\nfor no more than 3 days)\nIntranasal corticosteroids (e.g.\nmometasone furoate\nmonohydrate,\nFlonase\n)\n[3]\nAvoid antibiotics (Part of\nACEP Choosing wisely\n)",
+          "tables": []
+        },
+        ">10_days_of_symptoms": {
+          "text": "Possible bacterial source, especially if associated with:\nNo clinical improvement after 10 days\nSevere symptoms or high fever and purulent nasal discharge or facial pain lasting for at least 3–4 consecutive days at the beginning of illness\nOnset with newly worsening that were initially improving (‘‘doublesickening’’)\nAcute bacterial sinusitis\n[4]\nStrep pneumo, non-typeable H. flu, Moraxella\nFirst line is\namoxicillin-clavulanate\nfor 7-10 days\nAmox 40-45mg/kg PO with clavulanate 3.2 mg/kg PO bid for 10d\nSecond line is a respiratory\nfluoroquinolones\n(\nmoxifloxacin\n,\ngemifloxacin\n, and\nlevofloxacin\n) or\ndoxycycline\nIf allergic, can use\ncefdinir\n(7mg/kg PO bid) or\ncefuroxime\n(15 mg/kg PO bid)",
+          "tables": []
+        },
+        "Antibiotic_Failure": {
+          "text": "Obtain culture\nConsider nosocomial bacterial sinusitis (e.g. after prolonged nasotracheal intubation)\nConsider\nforeign body\nConsider\nantifungals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Flonase",
+          "url": "https://wikem.org/wiki/Flonase"
+        },
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    },
+    "<10_days_of_symptoms": {
+      "text": "Symptomatic treatment:\nAnalgesia\nMechanical irrigation with buffered, hypertonic saline\nOTC decongestants\nIntranasal decongestants (e.g.\noxymetazoline\nfor no more than 3 days)\nIntranasal corticosteroids (e.g.\nmometasone furoate\nmonohydrate,\nFlonase\n)\n[3]\nAvoid antibiotics (Part of\nACEP Choosing wisely\n)",
+      "subsections": {
+        ">10_days_of_symptoms": {
+          "text": "Possible bacterial source, especially if associated with:\nNo clinical improvement after 10 days\nSevere symptoms or high fever and purulent nasal discharge or facial pain lasting for at least 3–4 consecutive days at the beginning of illness\nOnset with newly worsening that were initially improving (‘‘doublesickening’’)\nAcute bacterial sinusitis\n[4]\nStrep pneumo, non-typeable H. flu, Moraxella\nFirst line is\namoxicillin-clavulanate\nfor 7-10 days\nAmox 40-45mg/kg PO with clavulanate 3.2 mg/kg PO bid for 10d\nSecond line is a respiratory\nfluoroquinolones\n(\nmoxifloxacin\n,\ngemifloxacin\n, and\nlevofloxacin\n) or\ndoxycycline\nIf allergic, can use\ncefdinir\n(7mg/kg PO bid) or\ncefuroxime\n(15 mg/kg PO bid)",
+          "tables": []
+        },
+        "Antibiotic_Failure": {
+          "text": "Obtain culture\nConsider nosocomial bacterial sinusitis (e.g. after prolonged nasotracheal intubation)\nConsider\nforeign body\nConsider\nantifungals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Flonase",
+          "url": "https://wikem.org/wiki/Flonase"
+        },
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    },
+    ">10_days_of_symptoms": {
+      "text": "Possible bacterial source, especially if associated with:\nNo clinical improvement after 10 days\nSevere symptoms or high fever and purulent nasal discharge or facial pain lasting for at least 3–4 consecutive days at the beginning of illness\nOnset with newly worsening that were initially improving (‘‘doublesickening’’)\nAcute bacterial sinusitis\n[4]\nStrep pneumo, non-typeable H. flu, Moraxella\nFirst line is\namoxicillin-clavulanate\nfor 7-10 days\nAmox 40-45mg/kg PO with clavulanate 3.2 mg/kg PO bid for 10d\nSecond line is a respiratory\nfluoroquinolones\n(\nmoxifloxacin\n,\ngemifloxacin\n, and\nlevofloxacin\n) or\ndoxycycline\nIf allergic, can use\ncefdinir\n(7mg/kg PO bid) or\ncefuroxime\n(15 mg/kg PO bid)",
+      "subsections": {
+        "Antibiotic_Failure": {
+          "text": "Obtain culture\nConsider nosocomial bacterial sinusitis (e.g. after prolonged nasotracheal intubation)\nConsider\nforeign body\nConsider\nantifungals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    },
+    "Antibiotic_Failure": {
+      "text": "Obtain culture\nConsider nosocomial bacterial sinusitis (e.g. after prolonged nasotracheal intubation)\nConsider\nforeign body\nConsider\nantifungals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Meningitis\nCavernous sinus thrombosis\n(ethmoid/sphenoid)\nIntracranial abscess\nOrbital cellulitis\n(ethmoid)\nFrontal bone osteomyelitis\n(Pott's puffy tumor)\nExtradural or subdural empyema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Headache",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    }
+  }
+}

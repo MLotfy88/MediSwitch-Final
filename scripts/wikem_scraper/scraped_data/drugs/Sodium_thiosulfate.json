@@ -1,0 +1,208 @@
+{
+  "drug_name": "Sodium_thiosulfate",
+  "url": "https://wikem.org/wiki/Sodium_thiosulfate",
+  "scraped_at": "2026-01-10T08:02:19.430581",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntidote\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cyanide_toxicity": {
+          "text": "Adult: 12.5 g IV (after giving\nsodium nitrite\n300 mg)",
+          "tables": []
+        },
+        "Prophylaxis_during_nitroprusside_infusion": {
+          "text": "Add 10 mg sodium thiosulfate for each 1 mg of nitroprusside",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sodium nitrite",
+          "url": "https://wikem.org/wiki/Sodium_nitrite"
+        }
+      ]
+    },
+    "Cyanide_toxicity": {
+      "text": "Adult: 12.5 g IV (after giving\nsodium nitrite\n300 mg)",
+      "subsections": {
+        "Prophylaxis_during_nitroprusside_infusion": {
+          "text": "Add 10 mg sodium thiosulfate for each 1 mg of nitroprusside",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sodium nitrite",
+          "url": "https://wikem.org/wiki/Sodium_nitrite"
+        }
+      ]
+    },
+    "Prophylaxis_during_nitroprusside_infusion": {
+      "text": "Add 10 mg sodium thiosulfate for each 1 mg of nitroprusside",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cyanide_toxicity_2": {
+          "text": "Pediatric: 400 mg/kg IV\nPer micromedex: 412.5 mg/kg or 7 g/m(2) administered at a rate of 0.625 to 1.25 g/min IV",
+          "tables": []
+        },
+        "Prophylaxis_during_nitroprusside_infusion_2": {
+          "text": "Add 10 mg sodium thiosulfate for each 1 mg of nitroprusside",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cyanide_toxicity_2": {
+      "text": "Pediatric: 400 mg/kg IV\nPer micromedex: 412.5 mg/kg or 7 g/m(2) administered at a rate of 0.625 to 1.25 g/min IV",
+      "subsections": {
+        "Prophylaxis_during_nitroprusside_infusion_2": {
+          "text": "Add 10 mg sodium thiosulfate for each 1 mg of nitroprusside",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prophylaxis_during_nitroprusside_infusion_2": {
+      "text": "Add 10 mg sodium thiosulfate for each 1 mg of nitroprusside",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing: not established\nHepatic dosing: not established",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Acute\ncyanide toxicity\nSmoke inhalation\nwith potential for cyanide exposure\nProphylaxis during\nnitroprusside\ninfusions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation",
+          "url": "https://wikem.org/wiki/Smoke_inhalation"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Burning sensation and muscle cramping from infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Burning sensation and muscle cramping from infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Burning sensation and muscle cramping from infusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 80 min\nMetabolism: Liver\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Sulfur donor that promotes conversion of cyanide to thiocyanate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Whereas the nitrites have adverse effects (induction of\nmethemoglobinemia\n), sodium thiosulfate is non-toxic\nShould avoid nitrites in\ncyanide toxicity\nwhen\nCO poisoning\nis suspected to avoid lowering oxygen-carrying capacity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cyanide toxicity\nSodium nitrite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Sodium nitrite",
+          "url": "https://wikem.org/wiki/Sodium_nitrite"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

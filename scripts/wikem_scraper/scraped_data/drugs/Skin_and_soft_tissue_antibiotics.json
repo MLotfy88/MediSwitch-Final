@@ -1,0 +1,424 @@
+{
+  "drug_name": "Skin_and_soft_tissue_antibiotics",
+  "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics",
+  "scraped_at": "2026-01-10T08:02:13.676950",
+  "sections": {
+    "Erysipelas": {
+      "text": "Coverage for\nS. pyogenes\nPenicillin G\n300K U/d IM for <30 kg, 600K to 1 million U/d IM for >30 kg (first line therapy\n[1]\n)\nOR\nClindamycin\n450mg (5mg/kg) PO q8hrs x 10 days (if PCN allergic)\nOR\nCephalexin\n500mg (6.25mg/kg) PO q6hrs x 10 days\nOR\nCeftriaxone\n1g (50mg/kg) IV once daily x 10 days\nOR\nLevofloxacin\n500mg PO/IV daily x 10 days\nOR\nAugmentin\n500mg PO BID x 10 days (generally reserved for failure of first line therapy)\nBullous Erysipela or\nMRSA\nsuspected:\ntrimethoprim-sulfamethoxazole\n,\nclindamycin\n,\ndoxycycline\n, or\nminocycline",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "S. pyogenes",
+          "url": "https://wikem.org/wiki/S._pyogenes"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "trimethoprim-sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        }
+      ]
+    },
+    "Cellulitis/Superficial_Abscess_with_Cellulitis": {
+      "text": "Tailor antibiotics by regional antibiogram\n[2]",
+      "subsections": {
+        "Outpatient": {
+          "text": "Coverage primarily for\nStrep\nMRSA\ncoverage only necessary if cellulitis associated with: purulence, penetrating trauma, known MRSA colonization, IV drug use, or SIRS\n[3]\n5 day treatment duration, unless symptoms do not improve within that timeframe\n[3]\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\nDS 1 tab PO BID\n[4]\nif\nMRSA\nis suspected\nMost cases of non-purulent cellulitis are caused by Strep. In these cases, the addition of TMP/SMX has been demonstrated to offer no clinical benefit over cephalexin alone.\n[5]\nClindamycin\n450mg PO TID covers both Strep and Staph\nTetracyclines (like\nDoxycycline\n) should be avoided in non-purulent cellulitis due to high rates of Strep resistance\n[6]",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Vancomycin\n20mg/kg IV q12hrs\nOR\nClindamycin\n600mg IV q8hrs\nOR\nLinezolid\n600mg IV q12hrs\nOR\nDaptomycin\n4mg/kg IV once daily",
+          "tables": []
+        },
+        "Saltwater_related_cellulitis": {
+          "text": "coverage extended for\nVibrio vulnificus\nDoxycycline\n100mg PO/IV q12hrs daily +\nCefepime\n1g IV q12hrs x 10 days\nCiprofloxacin\n400mg IV q12hrs x 10 days\nCiprofloxacin\n750mg PO q12hrs x 10 days",
+          "tables": []
+        },
+        "Freshwater_related_cellulitis": {
+          "text": "coverage extended for\nAeromonas sp\nCiprofloxacin\n400mg IV q12hrs  x 10 days\nCiprofloxacin\n500mg PO q12hrs x 10 days\nTMP/SMX\n2 DS tablets (5mg/kg) PO q12hrs x 10 days\nCeftriaxone\n1g (50mg/kg) IV q24hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aeromonas sp",
+          "url": "https://wikem.org/wiki/Aeromonas_sp"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Impetigo": {
+      "text": "Coverage for\nMSSA\n,\nMRSA\n,\nGroup A Strep",
+      "subsections": {
+        "Topical_therapy": {
+          "text": "Mupirocin\n(Bactroban) 2% ointment q8hrs x 5 days\nFor nonbullous impetigo, topic antibiotics are as effective as oral antibiotics",
+          "tables": []
+        },
+        "Oral_Therapy": {
+          "text": "Cephalexin\n500mg (6.25mg/kg) PO q6hrs for 10 days OR\nAmoxicillin/Clavulanate\n875mg (12.5mg/kg) PO q12hrs daily x 10 days OR\nClindamycin\n450mg PO q8hrs daily (or 10mg/kg PO q6hrs) for 10 days OR\nDicloxacillin\n500mg (3mg/kg) PO q6hrs daily x 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Group_A_Strep"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        }
+      ]
+    },
+    "Mastitis": {
+      "text": "No need to routinely interrupt breastfeeding with puerperal mastitis.\nFor mild symptoms <24 hours, supportive care may be sufficient\n[7]\nEffective milk removal (frequent breast feeding - use pumping to augment milk removal)\nAnalgesia (NSAIDs)\nTreatment directed at\nS. aureus\nand\nStrep\nand\nE. coli\nUncomplicated mastitis → 10 days of antibiotics (regardless of\nMRSA\nsuspicion)\n[8]\nDicloxacillin\n500mg PO q6hrs, considered first line if breastfeeding given safety for infant\nOR\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\n2DS tabs PO q12hrs if suspect\nMRSA\nClindamycin\n450mg PO q8hrs (also provides MRSA coverage)\nOR\nAmoxicillin/Clavulanate\n875mg PO q12hrs\nOR\nAzithromycin\n500mg PO x1 on day 1, then 250mg PO daily for days 2-5",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

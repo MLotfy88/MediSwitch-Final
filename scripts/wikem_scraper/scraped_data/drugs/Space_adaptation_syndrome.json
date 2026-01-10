@@ -1,0 +1,64 @@
+{
+  "drug_name": "Space_adaptation_syndrome",
+  "url": "https://wikem.org/wiki/Space_adaptation_syndrome",
+  "scraped_at": "2026-01-10T08:02:25.398179",
+  "sections": {
+    "Overview": {
+      "text": "Space Adaptation Syndrome\n(SAS) is a condition that affects some individuals in space, particularly during the initial stages of spaceflight.\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "SAS is caused by the body's struggle to adapt to the microgravity environment, where the usual cues for balance and spatial orientation are disrupted. This leads to a conflict between the sensory inputs from the inner ear, eyes, and proprioceptors (sensors that detect movement and position).\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Symptoms": {
+      "text": "The symptoms of SAS are similar to those experienced with motion sickness, but the cause is different. Common symptoms include:\nSpace motion sickness (similar to car sickness)\nDizziness and disorientation\nNausea and vomiting\nHeadaches\nFatigue\nDifficulty sleeping\nDecreased appetite",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Triggers": {
+      "text": "SAS can be triggered by various factors, including:\nMicrogravity environment\nVisual-vestibular mismatch (conflict between what the eyes and inner ear perceive)\nChanges in body position and movement\nSpacecraft motion and vibrations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Duration": {
+      "text": "The duration of SAS varies, but it usually subsides within 2-3 days as the body adapts to the new environment.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Countermeasures": {
+      "text": "Astronauts and cosmonauts often undergo training to help them prepare for and mitigate the effects of SAS. Medication and other countermeasures can also be used to alleviate symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "SAS was first identified during the early years of spaceflight, when astronauts experienced symptoms similar to motion sickness. Since then, research has been conducted to understand the causes and effects of SAS, and to develop countermeasures to mitigate its effects.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Motion sickness\nMicrogravity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Motion sickness",
+          "url": "https://wikem.org/wiki/Motion_sickness"
+        },
+        {
+          "text": "Microgravity",
+          "url": "https://wikem.org/wiki/Microgravity"
+        }
+      ]
+    }
+  }
+}

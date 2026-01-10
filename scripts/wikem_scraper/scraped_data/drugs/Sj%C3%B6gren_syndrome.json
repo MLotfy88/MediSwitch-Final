@@ -1,0 +1,234 @@
+{
+  "drug_name": "Sj%C3%B6gren_syndrome",
+  "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome",
+  "scraped_at": "2026-01-10T08:02:13.060654",
+  "sections": {
+    "Background": {
+      "text": "Systemic autoimmune disorder\nLymphocytic infiltration of exocrine glands\nCan occur in isolation or with other autoimmune diseases (e.g.\nrheumatoid arthritis\n,\nSLE\n, etc.)\nFemale:male ratio of 9:1\n10-40 fold increased risk of lymphoma in SS patients.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Ocular (xerophthalmia)\nItching, burning sensation\nGritty, foreign body sensation\nDacryoadenitis\nOptic neuritis\nParotid enlargement\nPresent in 1/3 of patients\nMay be chronic or relapsing\nMay lead to\nsuppurative parotitis\nXerostomia\nConstant thirst\nDental caries\nDysphagia\nPancreatitis\nRespiratory\nPleuritis\nInterstitial lung disease\nObstructive lung disease\nPulmonary hypertension\nRespiratory arrest due to severe\nhypokalemia\nSmall-vessel\nvasculitis\nNeurologic\nNeuropsychiatric dysfunction\nTransverse myelitis\nCerebral venous thrombosis\nOptic nerve injury\nRenal\nInterstitial nephritis\nRenal tubular acidosis\nHyperchloremic\nmetabolic acidosis\nwith low bicarb and\nhypokalemia\nCardiac\nPericarditis\nArrhythmia\ndue to infiltrative disease\nIncreased risk of\nDVT\n/\nPE\nGastrointestinal\nPrimary biliary cirrhosis\nCeliac sprue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Dental caries",
+          "url": "https://wikem.org/wiki/Dental_caries"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Renal tubular acidosis",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Celiac sprue",
+          "url": "https://wikem.org/wiki/Celiac_sprue"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Sicca complex due to other autoimmune diseases\nSarcoidosis\nIgG4 related disease\nRheumatoid arthritis\nSLE\nScleroderma\nOther causes of dry mouth/dry eyes\nAnticholinergic toxicity\nRadiation exposure\nMumps\nSeasonal allergies\nCigarette smoke irritation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IgG4 related disease",
+          "url": "https://wikem.org/wiki/IgG4_related_disease"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Not generally an ED diagnosis\nEvaluate for emergent complications\nThorough physical exam to evaluate for purpura (poor prognosis in primary SS)",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "Rheumatoid factor is found in 70% of patients\nAnti-SS-A/Ro, and SS-B/La antibodies are part of diagnostic criteria\nElevated ESR\nHypergammaglobulinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Emergent": {
+      "text": "Not generally an ED diagnosis\nEvaluate for emergent complications\nThorough physical exam to evaluate for purpura (poor prognosis in primary SS)",
+      "subsections": {
+        "Non-Emergent": {
+          "text": "Rheumatoid factor is found in 70% of patients\nAnti-SS-A/Ro, and SS-B/La antibodies are part of diagnostic criteria\nElevated ESR\nHypergammaglobulinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-Emergent": {
+      "text": "Rheumatoid factor is found in 70% of patients\nAnti-SS-A/Ro, and SS-B/La antibodies are part of diagnostic criteria\nElevated ESR\nHypergammaglobulinemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Manage emergent complications\nOcular\nTopical ocular\ncyclosporine\n, preservative-free artificial tears, lubricating ointments\nOral\nFrequent sips of water, chewing gum, or hard candies\nGood oral hygiene\nPylocarpine or Cevimeline for severe xerostomia (parasympathetic and muscarinic agonists)\nHydroxychloroquine\nfor Sjögren's associated arthritis\nPrednisone\nor other immunosuppressants (\ncyclophosphamide\nor\nazathioprine\n) for severe systemic symptoms\nAVOID\natropine\nand decongestants (decrease salivary secretions)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sarcoidosis\nRheumatoid arthritis\nSLE\nScleroderma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    }
+  }
+}

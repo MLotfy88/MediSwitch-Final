@@ -1,0 +1,614 @@
+{
+  "drug_name": "Snake_bites",
+  "url": "https://wikem.org/wiki/Snake_bites",
+  "scraped_at": "2026-01-10T08:02:22.108574",
+  "sections": {
+    "Background": {
+      "text": "An average of 5000 native venomous snakebites are reported to US poison centers annually\n[1]\nIn the United States, snake bites can be organized into\nCrotaline (Pit Vipers)\nand\nElapidae (Coral Snakes)\nCrotalidae family also includes rattlesnakes, Sistrurus and Agkistrodon species (water moccasins and copperheads).\n[2]\nRisk Factors: \"The 'T's\" Testosterone, Tequila, Tshirt, Tattoos, Toothless, Teasing, Trailer park, Truck",
+      "subsections": {
+        "Venom": {
+          "text": "Snake venom is a  mixture of proteins, peptides, lipids, and metal ions.\nMany bites can be \"dry bites\" where no venom is released, about ~1/4",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        }
+      ]
+    },
+    "Venom": {
+      "text": "Snake venom is a  mixture of proteins, peptides, lipids, and metal ions.\nMany bites can be \"dry bites\" where no venom is released, about ~1/4",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Local injury - punctures marks from fangs not always visible; erythema, and edema\nOoze at fang mark reliable sign of envenomation\nNausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical Diagnosis\nEvaluate for\ncompartment syndrome\n(see below)\nCBC, coags:\nThrombocytopenia\nand elevated INR can occur in Crotaline envenomations.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Local_Care": {
+          "text": "Do:\nRemove all jewelry\nMark the leading edge of erythema/edema\nDo not:\nAttempt to suck out the venom\nPlace the affected part in cold water\nUse a tourniquet or wrap\nAntivenom is first line treatment for compartment syndrome; fasciotomy is last resort if elevated pressures persist.",
+          "tables": []
+        },
+        "Supportive_care": {
+          "text": "IVF\nand\npressors\nif needed for\nhypotension\nBlood\ncomponents rarely needed\nTreatment mainly depends upon the presence of an\nenvenomation\nIndications:\nProgression of local injury - pain, swelling, ecchymosis\nCoagulopathy\n- elevated PT/PTT/INR, low fibrinogen, thrombocytopenia\nSystemic effects -\nhypotension\n,\naltered mental status\n,\nnausea and vomiting\n,\nparesthesias\nAlways provide supportive care and treat local effects of any wounds\nIrrigation of the wound is necessary regardless of the type of snake bite\nDebridement and removal of devitalized tissue may be necessary for severe bites\nEvidence does not support use of empiric\nantibiotics\nto prevent secondary infection\n[3]\nCompartment syndrome\nhas been documented with crotaline envenomation, but current literature does not support use of fasciotomy.\n[4]\nTreatment should focus on antivenom.",
+          "tables": []
+        },
+        "Antivenom": {
+          "text": "Snake specific treatments depend upon\nCoral snake\nor\nPit viper\nenvenomations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "envenomation",
+          "url": "https://wikem.org/wiki/Envenomation"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Coral snake",
+          "url": "https://wikem.org/wiki/Coral_snake"
+        },
+        {
+          "text": "Pit viper",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "Local_Care": {
+      "text": "Do:\nRemove all jewelry\nMark the leading edge of erythema/edema\nDo not:\nAttempt to suck out the venom\nPlace the affected part in cold water\nUse a tourniquet or wrap\nAntivenom is first line treatment for compartment syndrome; fasciotomy is last resort if elevated pressures persist.",
+      "subsections": {
+        "Supportive_care": {
+          "text": "IVF\nand\npressors\nif needed for\nhypotension\nBlood\ncomponents rarely needed\nTreatment mainly depends upon the presence of an\nenvenomation\nIndications:\nProgression of local injury - pain, swelling, ecchymosis\nCoagulopathy\n- elevated PT/PTT/INR, low fibrinogen, thrombocytopenia\nSystemic effects -\nhypotension\n,\naltered mental status\n,\nnausea and vomiting\n,\nparesthesias\nAlways provide supportive care and treat local effects of any wounds\nIrrigation of the wound is necessary regardless of the type of snake bite\nDebridement and removal of devitalized tissue may be necessary for severe bites\nEvidence does not support use of empiric\nantibiotics\nto prevent secondary infection\n[3]\nCompartment syndrome\nhas been documented with crotaline envenomation, but current literature does not support use of fasciotomy.\n[4]\nTreatment should focus on antivenom.",
+          "tables": []
+        },
+        "Antivenom": {
+          "text": "Snake specific treatments depend upon\nCoral snake\nor\nPit viper\nenvenomations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "envenomation",
+          "url": "https://wikem.org/wiki/Envenomation"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Coral snake",
+          "url": "https://wikem.org/wiki/Coral_snake"
+        },
+        {
+          "text": "Pit viper",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "IVF\nand\npressors\nif needed for\nhypotension\nBlood\ncomponents rarely needed\nTreatment mainly depends upon the presence of an\nenvenomation\nIndications:\nProgression of local injury - pain, swelling, ecchymosis\nCoagulopathy\n- elevated PT/PTT/INR, low fibrinogen, thrombocytopenia\nSystemic effects -\nhypotension\n,\naltered mental status\n,\nnausea and vomiting\n,\nparesthesias\nAlways provide supportive care and treat local effects of any wounds\nIrrigation of the wound is necessary regardless of the type of snake bite\nDebridement and removal of devitalized tissue may be necessary for severe bites\nEvidence does not support use of empiric\nantibiotics\nto prevent secondary infection\n[3]\nCompartment syndrome\nhas been documented with crotaline envenomation, but current literature does not support use of fasciotomy.\n[4]\nTreatment should focus on antivenom.",
+      "subsections": {
+        "Antivenom": {
+          "text": "Snake specific treatments depend upon\nCoral snake\nor\nPit viper\nenvenomations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "envenomation",
+          "url": "https://wikem.org/wiki/Envenomation"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Coral snake",
+          "url": "https://wikem.org/wiki/Coral_snake"
+        },
+        {
+          "text": "Pit viper",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "Antivenom": {
+      "text": "Snake specific treatments depend upon\nCoral snake\nor\nPit viper\nenvenomations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coral snake",
+          "url": "https://wikem.org/wiki/Coral_snake"
+        },
+        {
+          "text": "Pit viper",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "All snake bites with evidence of envenomations should have a period of observation and possible hospitalization\nOld bites can be assessed and discharged if no evidence of envenomation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Envenomations, bites and stings\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Envenomations, bites and stings",
+          "url": "https://wikem.org/wiki/Envenomations,_bites_and_stings"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        }
+      ]
+    }
+  }
+}
