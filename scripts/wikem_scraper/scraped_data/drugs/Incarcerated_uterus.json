@@ -1,0 +1,794 @@
+{
+  "drug_name": "Incarcerated_uterus",
+  "url": "https://wikem.org/wiki/Incarcerated_uterus",
+  "scraped_at": "2026-01-10T07:55:25.984213",
+  "sections": {
+    "Background": {
+      "text": "Retroverted uterus is a normal variant (up to 20% of the population).\nDuring pregnancy, a retroverted uterus spontaneously flips to become anteverted at 14-16 weeks gestation age.\nIncarcerated uterus = impregnated retroverted uterus that is unable to spontaneously revert because the fundus is wedged below the sacral promontory.\nGrowth of uterus during pregnancy in retroverted position leads to compression of pelvic organs leading to symptomatology.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Occurs only during pregnancy\nSymptomatology is the result of compression of pelvic structures from enlarging uterus\nUrinary Symptoms\nUrinary retention\nis the most common presenting symptom.\nOverflow\nincontinence\nUrgency, frequency\nDysuria\nRectal symptoms\nConstipation\nRectal pressure, tenesmus\nUncontrollable lower\nabdominal pain\nPelvic pain\nBack pain\nVaginal Bleeding",
+          "tables": []
+        },
+        "PMH": {
+          "text": "Posterior and/or fundal fibroids\nEndometriosis\n, adhesive disease (prior surgery,\nperitonitis\n,\nPID\n)\nPrior history of incarcerated uterus",
+          "tables": []
+        },
+        "Bimanual_Exam": {
+          "text": "ACOG Recommendation: All women with second trimester urinary retention should have a pelvic exam performed at presentation to exclude an incarcerated retroverted uterus\nFindings\nExtremely anterior cervix\nCervix posterior to pubic symphysis\nAcutely angled vaginal canal\nUnable to palpate uterus through abdomen",
+          "tables": []
+        },
+        "Transvaginal_Ultrasound": {
+          "text": "Difficulty to identify cervix in 2nd and 3rd trimester\nCervix extends upward, superior to the bladder and pubic symphysis\nBladder will appear elongated and distended due to compression of uterus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Vaginal Bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        }
+      ]
+    },
+    "History": {
+      "text": "Occurs only during pregnancy\nSymptomatology is the result of compression of pelvic structures from enlarging uterus\nUrinary Symptoms\nUrinary retention\nis the most common presenting symptom.\nOverflow\nincontinence\nUrgency, frequency\nDysuria\nRectal symptoms\nConstipation\nRectal pressure, tenesmus\nUncontrollable lower\nabdominal pain\nPelvic pain\nBack pain\nVaginal Bleeding",
+      "subsections": {
+        "PMH": {
+          "text": "Posterior and/or fundal fibroids\nEndometriosis\n, adhesive disease (prior surgery,\nperitonitis\n,\nPID\n)\nPrior history of incarcerated uterus",
+          "tables": []
+        },
+        "Bimanual_Exam": {
+          "text": "ACOG Recommendation: All women with second trimester urinary retention should have a pelvic exam performed at presentation to exclude an incarcerated retroverted uterus\nFindings\nExtremely anterior cervix\nCervix posterior to pubic symphysis\nAcutely angled vaginal canal\nUnable to palpate uterus through abdomen",
+          "tables": []
+        },
+        "Transvaginal_Ultrasound": {
+          "text": "Difficulty to identify cervix in 2nd and 3rd trimester\nCervix extends upward, superior to the bladder and pubic symphysis\nBladder will appear elongated and distended due to compression of uterus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Vaginal Bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        }
+      ]
+    },
+    "PMH": {
+      "text": "Posterior and/or fundal fibroids\nEndometriosis\n, adhesive disease (prior surgery,\nperitonitis\n,\nPID\n)\nPrior history of incarcerated uterus",
+      "subsections": {
+        "Bimanual_Exam": {
+          "text": "ACOG Recommendation: All women with second trimester urinary retention should have a pelvic exam performed at presentation to exclude an incarcerated retroverted uterus\nFindings\nExtremely anterior cervix\nCervix posterior to pubic symphysis\nAcutely angled vaginal canal\nUnable to palpate uterus through abdomen",
+          "tables": []
+        },
+        "Transvaginal_Ultrasound": {
+          "text": "Difficulty to identify cervix in 2nd and 3rd trimester\nCervix extends upward, superior to the bladder and pubic symphysis\nBladder will appear elongated and distended due to compression of uterus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        }
+      ]
+    },
+    "Bimanual_Exam": {
+      "text": "ACOG Recommendation: All women with second trimester urinary retention should have a pelvic exam performed at presentation to exclude an incarcerated retroverted uterus\nFindings\nExtremely anterior cervix\nCervix posterior to pubic symphysis\nAcutely angled vaginal canal\nUnable to palpate uterus through abdomen",
+      "subsections": {
+        "Transvaginal_Ultrasound": {
+          "text": "Difficulty to identify cervix in 2nd and 3rd trimester\nCervix extends upward, superior to the bladder and pubic symphysis\nBladder will appear elongated and distended due to compression of uterus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transvaginal_Ultrasound": {
+      "text": "Difficulty to identify cervix in 2nd and 3rd trimester\nCervix extends upward, superior to the bladder and pubic symphysis\nBladder will appear elongated and distended due to compression of uterus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Pain_in_Pregnancy": {
+          "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+          "tables": []
+        },
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        },
+        "Urinary_retention": {
+          "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        },
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Abdominal_Pain_in_Pregnancy": {
+      "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+      "subsections": {
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        },
+        "Urinary_retention": {
+          "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        },
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Urinary_retention": {
+      "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        },
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ABC’s and Resuscitation if necessary\n2 large bore IVs",
+      "subsections": {
+        "Labs": {
+          "text": "Urine pregnancy, beta-HCG\nCBC with differential\nBMP, Mg/Phos,\nLFTs\nUA\n/Urine Culture\nPTT/PT/INR\nType and cross 2 units PRBC if bleeding concern",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Transvaginal Ultrasound\nNon-emergent MRI if unable to obtain transvaginal ultrasound\nConsider post-void residual",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "Urine pregnancy, beta-HCG\nCBC with differential\nBMP, Mg/Phos,\nLFTs\nUA\n/Urine Culture\nPTT/PT/INR\nType and cross 2 units PRBC if bleeding concern",
+      "subsections": {
+        "Imaging": {
+          "text": "Transvaginal Ultrasound\nNon-emergent MRI if unable to obtain transvaginal ultrasound\nConsider post-void residual",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Transvaginal Ultrasound\nNon-emergent MRI if unable to obtain transvaginal ultrasound\nConsider post-void residual",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consultation with OB/GYN upon diagnosis",
+      "subsections": {
+        "Reduction_of_Incarcerated_Uterus_(ACOG_Recommendations,_2014)": {
+          "text": "Bladder decompression\nInsertion of indwelling Foley Catheter\nPelvic exam to confirm diagnosis\nAcute anterior angulation of vagina\nCervix positioned behind the pubic symphysis\nFundus not palpable abdominally\nNext steps are performed to achieve reduction of uterus by external/internal manipulation and should be performed with OB/GYN consultation\nPatient position\nKnee-chest or all fours\nManual reduction\nEnsure bladder fully void\nVaginal examination with or without anesthesia\nColonoscopic\nGas insufflation of colon under anesthesia\nOther\nAmnioreduction\nSurgical exploration through laparotomy",
+          "tables": []
+        },
+        "Delivery": {
+          "text": "C-section\nRisk of uterine rupture if allowed to labor",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Maternal\nAcute renal failure\nSevere\nhypertension\nresistant to medications\nLower limb edema\nUterine ischemia\nSepsis\nDVT\n, Post-partum\nPE\nFetal\nPremature labor\nFetal mortality rate 33% (Gibbons and Paley)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Premature labor",
+          "url": "https://wikem.org/wiki/Premature_labor"
+        }
+      ]
+    },
+    "Delivery": {
+      "text": "C-section\nRisk of uterine rupture if allowed to labor",
+      "subsections": {
+        "Complications": {
+          "text": "Maternal\nAcute renal failure\nSevere\nhypertension\nresistant to medications\nLower limb edema\nUterine ischemia\nSepsis\nDVT\n, Post-partum\nPE\nFetal\nPremature labor\nFetal mortality rate 33% (Gibbons and Paley)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Premature labor",
+          "url": "https://wikem.org/wiki/Premature_labor"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Maternal\nAcute renal failure\nSevere\nhypertension\nresistant to medications\nLower limb edema\nUterine ischemia\nSepsis\nDVT\n, Post-partum\nPE\nFetal\nPremature labor\nFetal mortality rate 33% (Gibbons and Paley)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Premature labor",
+          "url": "https://wikem.org/wiki/Premature_labor"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nFrom the limited number of case studies, it appears most patients were admitted for inability to void, pain control, reduction of incarcerated uterus.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Newell S, Crofts J, Grant S. The Incarcerated Gravid Uterus Complications and Lessons Learned. American College of Obstetricians and Gynecologist 2014, 123:423-427\nGardner C, Jaffe T, Hertzberg B, Javan R, Ho L. The Incarcerated Uterus: A review of MRI and Ultrasound Imaging Appearances. American Journal of Roentgenology. 2013;201: 223-229.\nGibbons JM Jr, Paley WB. The incarcerated gravid uterus. Obstet Gynecol 1969; 33:842–845",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "drug_name": "Infected_G-tube",
+  "url": "https://wikem.org/wiki/Infected_G-tube",
+  "scraped_at": "2026-01-10T07:55:28.503316",
+  "sections": {
+    "Background": {
+      "text": "The percutaneous gastrostomy tube (PEG) is commonly indicated in:\npatients with impaired ability to tolerate PO for caloric supplementation, hydration, frequent enteral medication dosing\noropharyngeal or esophageal obstruction\nmajor facial trauma\npassive gastric decompression\nmechanical apposition of the stomach to the abdominal wall to prevent hiatal herniation.\nMost PEGs are 18F to 28F and may be used for 12-24mo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most infections are minor (\nerythema\n, tenderness, and purulent exudate at g-tube site)\nPurulent stomal drainage secondary to an inflammatory foreign body reaction\nLeakage of gastric contents around the tube (causing irritation and requiring a larger tube size)\nDeeper infection may show signs of\nperitonitis\nNecrotizing fasciitis\n(worsening edema, worsening erythema, bullae, soft tissue emphysema)\nFungal infection\nis less common but can result in fungal peristomal\ncellulitis\n,\nperitonitis\n, and intra-abdominal\nabscesses\nNote: An infected tube may be a nidus of\nbacteremia\n: consider PEGs as a possible source in the\nseptic\npatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "G-tube_complications": {
+          "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clogged G-tube",
+          "url": "https://wikem.org/wiki/Clogged_G-tube"
+        },
+        {
+          "text": "Displaced G-tube",
+          "url": "https://wikem.org/wiki/Displaced_G-tube"
+        },
+        {
+          "text": "Leaking G-tube",
+          "url": "https://wikem.org/wiki/Leaking_G-tube"
+        }
+      ]
+    },
+    "G-tube_complications": {
+      "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clogged G-tube",
+          "url": "https://wikem.org/wiki/Clogged_G-tube"
+        },
+        {
+          "text": "Displaced G-tube",
+          "url": "https://wikem.org/wiki/Displaced_G-tube"
+        },
+        {
+          "text": "Leaking G-tube",
+          "url": "https://wikem.org/wiki/Leaking_G-tube"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is based on exam and ancillary markers of infection\nConsider bacterial and fungal cultures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "The G-tube does not need to be removed routinely unless there are signs of peritonitis, necrotizing fasciitis, or the infection does not respond to initial antibiotic treatment\nAntibiotic choices generally include a first-generation\ncephalosporin\nor\nquinolone\nMRSA\ncoverage may be indicated on a center-dependent basis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Cellulitis\n: Consult GI or surgery, IV antibiotics, tube may need to be removed\nNecrotizing fasciitis\n: Immediate antibiotics, consider MRI to confirm diagnosis, surgical debridement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "G-tube complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "drug_name": "Ingrown_toenail_removal",
+  "url": "https://wikem.org/wiki/Ingrown_toenail_removal",
+  "scraped_at": "2026-01-10T07:55:35.352304",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nailtip_Anatomy": {
+      "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Advanced\nonychocryptosis\n(heavy granulation tissue, pain with walking)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "onychocryptosis",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Significant granulation tissue precluding partial nail removal\nMultiple comorbidities in a patient not requiring immediate relief",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_needed": {
+      "text": "Gloves\nChlorhexidine or betadine\nSyringe with 27-ga needle\n1% lidocaine without epinephrine\nor\n0.5% bupivacaine\nGauze\nThin flat hemostat\nStraight forceps\nIris scissors\nAqueous phenol or silver nitrate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Perform\nDigital block\nusing lidocaine without epinephrine or bupivacaine\nClean area thoroughly",
+      "subsections": {
+        "Partial_nail_removal": {
+          "text": "Removing the entire outside portion of affected nail (definitive treatment)\nLift the affected side (up to 1/3 of the nail) off of the nail bed via blunt dissection with a hemostat\nGrasp the nail fragment with the hemostat and use a rotating motion with the clamped hemostat toward the remaining nail to expose the outside portion of the lunula\nThe lateral portion of the lunula looks like a \"dolphin's tail\"; do not p\nCut the nail with scissors or a nail anvil, distal to proximal, parallel to nail wall, with care not to injure the eponychium",
+          "tables": []
+        },
+        "Matricectomy": {
+          "text": "Ablating the lateral matrix can decrease recurrence\nPerform complete lateral nail removal as above\nApply a toe tourniquet for a bloodless field\nClean and dry base thoroughly\nAblate nail matrix by applying 1% aqueous phenol solution or silver nitrate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Digital block",
+          "url": "https://wikem.org/wiki/Digital_block"
+        }
+      ]
+    },
+    "Partial_nail_removal": {
+      "text": "Removing the entire outside portion of affected nail (definitive treatment)\nLift the affected side (up to 1/3 of the nail) off of the nail bed via blunt dissection with a hemostat\nGrasp the nail fragment with the hemostat and use a rotating motion with the clamped hemostat toward the remaining nail to expose the outside portion of the lunula\nThe lateral portion of the lunula looks like a \"dolphin's tail\"; do not p\nCut the nail with scissors or a nail anvil, distal to proximal, parallel to nail wall, with care not to injure the eponychium",
+      "subsections": {
+        "Matricectomy": {
+          "text": "Ablating the lateral matrix can decrease recurrence\nPerform complete lateral nail removal as above\nApply a toe tourniquet for a bloodless field\nClean and dry base thoroughly\nAblate nail matrix by applying 1% aqueous phenol solution or silver nitrate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Matricectomy": {
+      "text": "Ablating the lateral matrix can decrease recurrence\nPerform complete lateral nail removal as above\nApply a toe tourniquet for a bloodless field\nClean and dry base thoroughly\nAblate nail matrix by applying 1% aqueous phenol solution or silver nitrate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Post-procedure_care": {
+      "text": "Cover with gauze, instruct to keep clean and dry, wash 2-3 times a day\nNo antibiotics unless surrounding cellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Recurrence\nInfection\nBleeding\nRetained nail fragment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ingrown toenail",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        }
+      ]
+    }
+  }
+}

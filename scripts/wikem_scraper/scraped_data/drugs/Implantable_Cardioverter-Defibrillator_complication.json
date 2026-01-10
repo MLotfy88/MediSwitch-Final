@@ -1,0 +1,627 @@
+{
+  "drug_name": "Implantable_Cardioverter-Defibrillator_complication",
+  "url": "https://wikem.org/wiki/Implantable_Cardioverter-Defibrillator_complication",
+  "scraped_at": "2026-01-10T07:55:25.892798",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Nomenclature": {
+          "text": "All ICDs are also\npacemakers\n(i.e. have pacing functionality) but pacemakers are not ICDs (i.e. do not have shocking functionality)",
+          "tables": []
+        },
+        "Parts": {
+          "text": "Pulse Generator\nTypically implanted in L upper chest wall\nContains device hardware and battery\nActs as a shocking electrode in defibrillation\nLeads\nInsulated and antimicrobial-coated\nAtrial lead\nPacing and sensing functionality\nTypical bipolar (pacing and sensing are performed by two electrodes, located several millimeters apart at the tip of the lead)\nRight ventricular lead\nPacing, sensing, and defibrillation functionality\nHas one or two coils to facilitate defibrillation\nEasily identified on Chest X-Ray and can hep differentiate an ICD from a pacemaker\nTypical bipolar (pacing and sensing are performed by two electrodes, located several millimeters apart at the tip of the lead)\nLeft Ventricular Lead\nPacing and sensing functionality\nBipolar or unipolar (pacing and sensing are performed by one electrode at the tip of the LV lead and a second remote electrode, typically either one of the RV electrodes or the pulse generator)",
+          "tables": []
+        },
+        "Indications_for_ICD_implantation": {
+          "text": "Secondary Prevention\n[1]\nPrevious episode of unstable VT or VF\nNot indicated\nif VT/VF occurs <48 hours after\nmyocardial infarction\nSustained VT in setting of cardiomyopathy or channelopathy\nPrimary Prevention\n[2]\nMyocardial infarction\n>40 days ago with LVEF <30%\nCardiomyopathy\n+ NYHA Functional Class II or III, and LVEF <35%\nControversy exists over applying the above criteria to non-ischemic cardiomyopathy\nPatients with underlying disorders placing them at high risk for unstable VT or VF\nCongenital\nlong QT syndrome\nHigh-risk\nHOCM\nBrugada syndrome\nARVD\nOther channelopathies\nBiventricular ICD (i.e. Cardiac Resynchronization Therapy)\nAny of the above with intraventricular conduction delay of >120ms",
+          "tables": []
+        },
+        "Functions": {
+          "text": "Can perform all functions of\npacemakers\nAnti-tachycardia pacing\nIn response to a ventricular rate within a pre-set range (typically ~150-220 bpm), the device will compare the ongoing QRS morphology to a saved image of a QRS complex that is known to be a sinus beat; if the ICD algorithm determines that the ongoing morphology is significantly different (i.e. is unlikely to be a sinus tachycardia), it will deliver a series of paced beats at a rate slightly faster than the ongoing rate in an attempt to break the re-entrant cycle\nA device will typically be programmed to attempt anti-tachycardia pacing several times; if unsuccessful, it will move on to defibrillation\nDefibrillation\nDelivery of a large electrical shock (up to 42 joules) from one electrode to the other in response to VT or VF\nMagnet Mode\nPlacement of a magnet over the generator will deactivate anti-tachycardia pacing and defibrillation modes as long as the magnet is in place.\nDiagnostics\nRecords rhythm strips of AF, VT, and VF episodes for later review\nIf anti-tachycardia pacing or defibrillation has occurred, there will be a large alert on the device's interrogation home screen\nKeeps track of % of paced vs intrinsic beats\nKeeps a rate histogram, as well as % of time spent in AF",
+          "tables": []
+        },
+        "Methods_to_Identify_Manufacturer": {
+          "text": "Patient should carry a pocket card indicating manufacturer\nManufacturer Hotline has patient database\nMedtronic Inc. (1-800-328-2518)\nSt. Jude Medical Inc. (recently acquired by Abbott, Inc.) (1-800-722-3774)\nBoston Scientific Inc. (1-800-227-3422)\nMagnet mode\nDoes not help differentiate ICDs (different than pacemakers)",
+          "tables": []
+        },
+        "Electromagnetic_Interference": {
+          "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "ARVD",
+          "url": "https://wikem.org/wiki/ARVD"
+        },
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Nomenclature": {
+      "text": "All ICDs are also\npacemakers\n(i.e. have pacing functionality) but pacemakers are not ICDs (i.e. do not have shocking functionality)",
+      "subsections": {
+        "Parts": {
+          "text": "Pulse Generator\nTypically implanted in L upper chest wall\nContains device hardware and battery\nActs as a shocking electrode in defibrillation\nLeads\nInsulated and antimicrobial-coated\nAtrial lead\nPacing and sensing functionality\nTypical bipolar (pacing and sensing are performed by two electrodes, located several millimeters apart at the tip of the lead)\nRight ventricular lead\nPacing, sensing, and defibrillation functionality\nHas one or two coils to facilitate defibrillation\nEasily identified on Chest X-Ray and can hep differentiate an ICD from a pacemaker\nTypical bipolar (pacing and sensing are performed by two electrodes, located several millimeters apart at the tip of the lead)\nLeft Ventricular Lead\nPacing and sensing functionality\nBipolar or unipolar (pacing and sensing are performed by one electrode at the tip of the LV lead and a second remote electrode, typically either one of the RV electrodes or the pulse generator)",
+          "tables": []
+        },
+        "Indications_for_ICD_implantation": {
+          "text": "Secondary Prevention\n[1]\nPrevious episode of unstable VT or VF\nNot indicated\nif VT/VF occurs <48 hours after\nmyocardial infarction\nSustained VT in setting of cardiomyopathy or channelopathy\nPrimary Prevention\n[2]\nMyocardial infarction\n>40 days ago with LVEF <30%\nCardiomyopathy\n+ NYHA Functional Class II or III, and LVEF <35%\nControversy exists over applying the above criteria to non-ischemic cardiomyopathy\nPatients with underlying disorders placing them at high risk for unstable VT or VF\nCongenital\nlong QT syndrome\nHigh-risk\nHOCM\nBrugada syndrome\nARVD\nOther channelopathies\nBiventricular ICD (i.e. Cardiac Resynchronization Therapy)\nAny of the above with intraventricular conduction delay of >120ms",
+          "tables": []
+        },
+        "Functions": {
+          "text": "Can perform all functions of\npacemakers\nAnti-tachycardia pacing\nIn response to a ventricular rate within a pre-set range (typically ~150-220 bpm), the device will compare the ongoing QRS morphology to a saved image of a QRS complex that is known to be a sinus beat; if the ICD algorithm determines that the ongoing morphology is significantly different (i.e. is unlikely to be a sinus tachycardia), it will deliver a series of paced beats at a rate slightly faster than the ongoing rate in an attempt to break the re-entrant cycle\nA device will typically be programmed to attempt anti-tachycardia pacing several times; if unsuccessful, it will move on to defibrillation\nDefibrillation\nDelivery of a large electrical shock (up to 42 joules) from one electrode to the other in response to VT or VF\nMagnet Mode\nPlacement of a magnet over the generator will deactivate anti-tachycardia pacing and defibrillation modes as long as the magnet is in place.\nDiagnostics\nRecords rhythm strips of AF, VT, and VF episodes for later review\nIf anti-tachycardia pacing or defibrillation has occurred, there will be a large alert on the device's interrogation home screen\nKeeps track of % of paced vs intrinsic beats\nKeeps a rate histogram, as well as % of time spent in AF",
+          "tables": []
+        },
+        "Methods_to_Identify_Manufacturer": {
+          "text": "Patient should carry a pocket card indicating manufacturer\nManufacturer Hotline has patient database\nMedtronic Inc. (1-800-328-2518)\nSt. Jude Medical Inc. (recently acquired by Abbott, Inc.) (1-800-722-3774)\nBoston Scientific Inc. (1-800-227-3422)\nMagnet mode\nDoes not help differentiate ICDs (different than pacemakers)",
+          "tables": []
+        },
+        "Electromagnetic_Interference": {
+          "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "ARVD",
+          "url": "https://wikem.org/wiki/ARVD"
+        },
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Parts": {
+      "text": "Pulse Generator\nTypically implanted in L upper chest wall\nContains device hardware and battery\nActs as a shocking electrode in defibrillation\nLeads\nInsulated and antimicrobial-coated\nAtrial lead\nPacing and sensing functionality\nTypical bipolar (pacing and sensing are performed by two electrodes, located several millimeters apart at the tip of the lead)\nRight ventricular lead\nPacing, sensing, and defibrillation functionality\nHas one or two coils to facilitate defibrillation\nEasily identified on Chest X-Ray and can hep differentiate an ICD from a pacemaker\nTypical bipolar (pacing and sensing are performed by two electrodes, located several millimeters apart at the tip of the lead)\nLeft Ventricular Lead\nPacing and sensing functionality\nBipolar or unipolar (pacing and sensing are performed by one electrode at the tip of the LV lead and a second remote electrode, typically either one of the RV electrodes or the pulse generator)",
+      "subsections": {
+        "Indications_for_ICD_implantation": {
+          "text": "Secondary Prevention\n[1]\nPrevious episode of unstable VT or VF\nNot indicated\nif VT/VF occurs <48 hours after\nmyocardial infarction\nSustained VT in setting of cardiomyopathy or channelopathy\nPrimary Prevention\n[2]\nMyocardial infarction\n>40 days ago with LVEF <30%\nCardiomyopathy\n+ NYHA Functional Class II or III, and LVEF <35%\nControversy exists over applying the above criteria to non-ischemic cardiomyopathy\nPatients with underlying disorders placing them at high risk for unstable VT or VF\nCongenital\nlong QT syndrome\nHigh-risk\nHOCM\nBrugada syndrome\nARVD\nOther channelopathies\nBiventricular ICD (i.e. Cardiac Resynchronization Therapy)\nAny of the above with intraventricular conduction delay of >120ms",
+          "tables": []
+        },
+        "Functions": {
+          "text": "Can perform all functions of\npacemakers\nAnti-tachycardia pacing\nIn response to a ventricular rate within a pre-set range (typically ~150-220 bpm), the device will compare the ongoing QRS morphology to a saved image of a QRS complex that is known to be a sinus beat; if the ICD algorithm determines that the ongoing morphology is significantly different (i.e. is unlikely to be a sinus tachycardia), it will deliver a series of paced beats at a rate slightly faster than the ongoing rate in an attempt to break the re-entrant cycle\nA device will typically be programmed to attempt anti-tachycardia pacing several times; if unsuccessful, it will move on to defibrillation\nDefibrillation\nDelivery of a large electrical shock (up to 42 joules) from one electrode to the other in response to VT or VF\nMagnet Mode\nPlacement of a magnet over the generator will deactivate anti-tachycardia pacing and defibrillation modes as long as the magnet is in place.\nDiagnostics\nRecords rhythm strips of AF, VT, and VF episodes for later review\nIf anti-tachycardia pacing or defibrillation has occurred, there will be a large alert on the device's interrogation home screen\nKeeps track of % of paced vs intrinsic beats\nKeeps a rate histogram, as well as % of time spent in AF",
+          "tables": []
+        },
+        "Methods_to_Identify_Manufacturer": {
+          "text": "Patient should carry a pocket card indicating manufacturer\nManufacturer Hotline has patient database\nMedtronic Inc. (1-800-328-2518)\nSt. Jude Medical Inc. (recently acquired by Abbott, Inc.) (1-800-722-3774)\nBoston Scientific Inc. (1-800-227-3422)\nMagnet mode\nDoes not help differentiate ICDs (different than pacemakers)",
+          "tables": []
+        },
+        "Electromagnetic_Interference": {
+          "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "ARVD",
+          "url": "https://wikem.org/wiki/ARVD"
+        },
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Indications_for_ICD_implantation": {
+      "text": "Secondary Prevention\n[1]\nPrevious episode of unstable VT or VF\nNot indicated\nif VT/VF occurs <48 hours after\nmyocardial infarction\nSustained VT in setting of cardiomyopathy or channelopathy\nPrimary Prevention\n[2]\nMyocardial infarction\n>40 days ago with LVEF <30%\nCardiomyopathy\n+ NYHA Functional Class II or III, and LVEF <35%\nControversy exists over applying the above criteria to non-ischemic cardiomyopathy\nPatients with underlying disorders placing them at high risk for unstable VT or VF\nCongenital\nlong QT syndrome\nHigh-risk\nHOCM\nBrugada syndrome\nARVD\nOther channelopathies\nBiventricular ICD (i.e. Cardiac Resynchronization Therapy)\nAny of the above with intraventricular conduction delay of >120ms",
+      "subsections": {
+        "Functions": {
+          "text": "Can perform all functions of\npacemakers\nAnti-tachycardia pacing\nIn response to a ventricular rate within a pre-set range (typically ~150-220 bpm), the device will compare the ongoing QRS morphology to a saved image of a QRS complex that is known to be a sinus beat; if the ICD algorithm determines that the ongoing morphology is significantly different (i.e. is unlikely to be a sinus tachycardia), it will deliver a series of paced beats at a rate slightly faster than the ongoing rate in an attempt to break the re-entrant cycle\nA device will typically be programmed to attempt anti-tachycardia pacing several times; if unsuccessful, it will move on to defibrillation\nDefibrillation\nDelivery of a large electrical shock (up to 42 joules) from one electrode to the other in response to VT or VF\nMagnet Mode\nPlacement of a magnet over the generator will deactivate anti-tachycardia pacing and defibrillation modes as long as the magnet is in place.\nDiagnostics\nRecords rhythm strips of AF, VT, and VF episodes for later review\nIf anti-tachycardia pacing or defibrillation has occurred, there will be a large alert on the device's interrogation home screen\nKeeps track of % of paced vs intrinsic beats\nKeeps a rate histogram, as well as % of time spent in AF",
+          "tables": []
+        },
+        "Methods_to_Identify_Manufacturer": {
+          "text": "Patient should carry a pocket card indicating manufacturer\nManufacturer Hotline has patient database\nMedtronic Inc. (1-800-328-2518)\nSt. Jude Medical Inc. (recently acquired by Abbott, Inc.) (1-800-722-3774)\nBoston Scientific Inc. (1-800-227-3422)\nMagnet mode\nDoes not help differentiate ICDs (different than pacemakers)",
+          "tables": []
+        },
+        "Electromagnetic_Interference": {
+          "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "ARVD",
+          "url": "https://wikem.org/wiki/ARVD"
+        },
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Functions": {
+      "text": "Can perform all functions of\npacemakers\nAnti-tachycardia pacing\nIn response to a ventricular rate within a pre-set range (typically ~150-220 bpm), the device will compare the ongoing QRS morphology to a saved image of a QRS complex that is known to be a sinus beat; if the ICD algorithm determines that the ongoing morphology is significantly different (i.e. is unlikely to be a sinus tachycardia), it will deliver a series of paced beats at a rate slightly faster than the ongoing rate in an attempt to break the re-entrant cycle\nA device will typically be programmed to attempt anti-tachycardia pacing several times; if unsuccessful, it will move on to defibrillation\nDefibrillation\nDelivery of a large electrical shock (up to 42 joules) from one electrode to the other in response to VT or VF\nMagnet Mode\nPlacement of a magnet over the generator will deactivate anti-tachycardia pacing and defibrillation modes as long as the magnet is in place.\nDiagnostics\nRecords rhythm strips of AF, VT, and VF episodes for later review\nIf anti-tachycardia pacing or defibrillation has occurred, there will be a large alert on the device's interrogation home screen\nKeeps track of % of paced vs intrinsic beats\nKeeps a rate histogram, as well as % of time spent in AF",
+      "subsections": {
+        "Methods_to_Identify_Manufacturer": {
+          "text": "Patient should carry a pocket card indicating manufacturer\nManufacturer Hotline has patient database\nMedtronic Inc. (1-800-328-2518)\nSt. Jude Medical Inc. (recently acquired by Abbott, Inc.) (1-800-722-3774)\nBoston Scientific Inc. (1-800-227-3422)\nMagnet mode\nDoes not help differentiate ICDs (different than pacemakers)",
+          "tables": []
+        },
+        "Electromagnetic_Interference": {
+          "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Methods_to_Identify_Manufacturer": {
+      "text": "Patient should carry a pocket card indicating manufacturer\nManufacturer Hotline has patient database\nMedtronic Inc. (1-800-328-2518)\nSt. Jude Medical Inc. (recently acquired by Abbott, Inc.) (1-800-722-3774)\nBoston Scientific Inc. (1-800-227-3422)\nMagnet mode\nDoes not help differentiate ICDs (different than pacemakers)",
+      "subsections": {
+        "Electromagnetic_Interference": {
+          "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Electromagnetic_Interference": {
+      "text": "Nonmedical\nCell phones: do not interact with device\nAirport security: may trigger alarm, no alteration of activity\nMedical Sources\nMRI\n: mostly safe, consult cards on device specific recs\nCardioversion: Use AP pads >8cm from device to minimize adverse effects\nUnipolar Cautery - can cause sensing and pacing malfunction as well as reprogramming",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI_contraindications"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Defibrillator_Shocks": {
+          "text": "Approximately 1/3 - 1/2 of ICD patients receive a shock within one year of placement\n[3]\nGenerally described by patients as a powerful \"kick to the chest\"\nCan be very distressing and a source of anxiety for patients\nInappropriate Shocks\nCauses\nMisclassification by device of SVT or AF as VT or VF\nElectrical Noise\nFractured Lead\nCan be diagnosed by interrogation of device after a reported shock\nPhantom Shocks\nThe perception of a shock without a delivered shock\nGenerally described by patients as a mild electrical pain or pain around the defibrillator site\nMore common in patients who have never had an actual shock\nOccurs in 9% of patients each year\n[4]",
+          "tables": []
+        },
+        "Problems_with_pocket": {
+          "text": "Infection\nMost commonly S. aureus or S. epidermidis\n2% local wound infection; 1% sepsis/bacteremia\nHematoma\nTypically occurs shortly after placement",
+          "tables": []
+        },
+        "Problems_with_leads": {
+          "text": "Dislodgment\nPerforation (most commonly at RV apex)\nInfection can cause severe sepsis\nTricuspid regurgitation\nCoiling (ie:\nTwiddler's Syndrome\n)\nTwiddler Syndrome after large pocket and defibrillator wires coiled around the generator",
+          "tables": []
+        },
+        "Failure_to_Capture": {
+          "text": "Delivery of pacing stimulus without depolarization\nFunctional - refractory myocardium, desensitized local tissue around the lead\nMedical - drugs, myocardial disease, electrolytes\nTechnical - insufficient device output, lead dislodgment, fracture, insulation defect, ventricular wall perforation\nBattery of End of Life (EOL)",
+          "tables": []
+        },
+        "Failure_to_Pace": {
+          "text": "Failure to deliver a stimulus to the heart\nOversensing - most common cause: retrograde P’s, T’s, skeletal muscle myopotentials,\nCrosstalk - type of oversensing where the ventricular lead senses atrial pacing stimulus, and ventilator output inhibited",
+          "tables": []
+        },
+        "Failure_to_Sense": {
+          "text": "Normal function: a sensed myocardial depolarization greater than the programmed threshold causes inhibition of pacing\nFailure to sense results in a paced beat on top of an intrinsic beat (as the device is \"unaware\" of the intrinsic beat\")\nVoltages of patient's intrinsic QRS complex is too low to be detected\nNew intrinsic arrhythmia (AF has a smaller depolarization than sinus beat), AMI, electrolyte abnormalities, lead separation, battery depletion",
+          "tables": []
+        },
+        "Runaway_Pacing": {
+          "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+          "tables": []
+        },
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Twiddler's Syndrome",
+          "url": "https://wikem.org/wiki/Twiddler%27s_Syndrome"
+        }
+      ]
+    },
+    "Defibrillator_Shocks": {
+      "text": "Approximately 1/3 - 1/2 of ICD patients receive a shock within one year of placement\n[3]\nGenerally described by patients as a powerful \"kick to the chest\"\nCan be very distressing and a source of anxiety for patients\nInappropriate Shocks\nCauses\nMisclassification by device of SVT or AF as VT or VF\nElectrical Noise\nFractured Lead\nCan be diagnosed by interrogation of device after a reported shock\nPhantom Shocks\nThe perception of a shock without a delivered shock\nGenerally described by patients as a mild electrical pain or pain around the defibrillator site\nMore common in patients who have never had an actual shock\nOccurs in 9% of patients each year\n[4]",
+      "subsections": {
+        "Problems_with_pocket": {
+          "text": "Infection\nMost commonly S. aureus or S. epidermidis\n2% local wound infection; 1% sepsis/bacteremia\nHematoma\nTypically occurs shortly after placement",
+          "tables": []
+        },
+        "Problems_with_leads": {
+          "text": "Dislodgment\nPerforation (most commonly at RV apex)\nInfection can cause severe sepsis\nTricuspid regurgitation\nCoiling (ie:\nTwiddler's Syndrome\n)\nTwiddler Syndrome after large pocket and defibrillator wires coiled around the generator",
+          "tables": []
+        },
+        "Failure_to_Capture": {
+          "text": "Delivery of pacing stimulus without depolarization\nFunctional - refractory myocardium, desensitized local tissue around the lead\nMedical - drugs, myocardial disease, electrolytes\nTechnical - insufficient device output, lead dislodgment, fracture, insulation defect, ventricular wall perforation\nBattery of End of Life (EOL)",
+          "tables": []
+        },
+        "Failure_to_Pace": {
+          "text": "Failure to deliver a stimulus to the heart\nOversensing - most common cause: retrograde P’s, T’s, skeletal muscle myopotentials,\nCrosstalk - type of oversensing where the ventricular lead senses atrial pacing stimulus, and ventilator output inhibited",
+          "tables": []
+        },
+        "Failure_to_Sense": {
+          "text": "Normal function: a sensed myocardial depolarization greater than the programmed threshold causes inhibition of pacing\nFailure to sense results in a paced beat on top of an intrinsic beat (as the device is \"unaware\" of the intrinsic beat\")\nVoltages of patient's intrinsic QRS complex is too low to be detected\nNew intrinsic arrhythmia (AF has a smaller depolarization than sinus beat), AMI, electrolyte abnormalities, lead separation, battery depletion",
+          "tables": []
+        },
+        "Runaway_Pacing": {
+          "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+          "tables": []
+        },
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Twiddler's Syndrome",
+          "url": "https://wikem.org/wiki/Twiddler%27s_Syndrome"
+        }
+      ]
+    },
+    "Pacemaker_Malfunctions": {
+      "text": "",
+      "subsections": {
+        "Problems_with_pocket": {
+          "text": "Infection\nMost commonly S. aureus or S. epidermidis\n2% local wound infection; 1% sepsis/bacteremia\nHematoma\nTypically occurs shortly after placement",
+          "tables": []
+        },
+        "Problems_with_leads": {
+          "text": "Dislodgment\nPerforation (most commonly at RV apex)\nInfection can cause severe sepsis\nTricuspid regurgitation\nCoiling (ie:\nTwiddler's Syndrome\n)\nTwiddler Syndrome after large pocket and defibrillator wires coiled around the generator",
+          "tables": []
+        },
+        "Failure_to_Capture": {
+          "text": "Delivery of pacing stimulus without depolarization\nFunctional - refractory myocardium, desensitized local tissue around the lead\nMedical - drugs, myocardial disease, electrolytes\nTechnical - insufficient device output, lead dislodgment, fracture, insulation defect, ventricular wall perforation\nBattery of End of Life (EOL)",
+          "tables": []
+        },
+        "Failure_to_Pace": {
+          "text": "Failure to deliver a stimulus to the heart\nOversensing - most common cause: retrograde P’s, T’s, skeletal muscle myopotentials,\nCrosstalk - type of oversensing where the ventricular lead senses atrial pacing stimulus, and ventilator output inhibited",
+          "tables": []
+        },
+        "Failure_to_Sense": {
+          "text": "Normal function: a sensed myocardial depolarization greater than the programmed threshold causes inhibition of pacing\nFailure to sense results in a paced beat on top of an intrinsic beat (as the device is \"unaware\" of the intrinsic beat\")\nVoltages of patient's intrinsic QRS complex is too low to be detected\nNew intrinsic arrhythmia (AF has a smaller depolarization than sinus beat), AMI, electrolyte abnormalities, lead separation, battery depletion",
+          "tables": []
+        },
+        "Runaway_Pacing": {
+          "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+          "tables": []
+        },
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Twiddler's Syndrome",
+          "url": "https://wikem.org/wiki/Twiddler%27s_Syndrome"
+        }
+      ]
+    },
+    "Failure_to_Capture": {
+      "text": "Delivery of pacing stimulus without depolarization\nFunctional - refractory myocardium, desensitized local tissue around the lead\nMedical - drugs, myocardial disease, electrolytes\nTechnical - insufficient device output, lead dislodgment, fracture, insulation defect, ventricular wall perforation\nBattery of End of Life (EOL)",
+      "subsections": {
+        "Failure_to_Pace": {
+          "text": "Failure to deliver a stimulus to the heart\nOversensing - most common cause: retrograde P’s, T’s, skeletal muscle myopotentials,\nCrosstalk - type of oversensing where the ventricular lead senses atrial pacing stimulus, and ventilator output inhibited",
+          "tables": []
+        },
+        "Failure_to_Sense": {
+          "text": "Normal function: a sensed myocardial depolarization greater than the programmed threshold causes inhibition of pacing\nFailure to sense results in a paced beat on top of an intrinsic beat (as the device is \"unaware\" of the intrinsic beat\")\nVoltages of patient's intrinsic QRS complex is too low to be detected\nNew intrinsic arrhythmia (AF has a smaller depolarization than sinus beat), AMI, electrolyte abnormalities, lead separation, battery depletion",
+          "tables": []
+        },
+        "Runaway_Pacing": {
+          "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+          "tables": []
+        },
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Failure_to_Pace": {
+      "text": "Failure to deliver a stimulus to the heart\nOversensing - most common cause: retrograde P’s, T’s, skeletal muscle myopotentials,\nCrosstalk - type of oversensing where the ventricular lead senses atrial pacing stimulus, and ventilator output inhibited",
+      "subsections": {
+        "Failure_to_Sense": {
+          "text": "Normal function: a sensed myocardial depolarization greater than the programmed threshold causes inhibition of pacing\nFailure to sense results in a paced beat on top of an intrinsic beat (as the device is \"unaware\" of the intrinsic beat\")\nVoltages of patient's intrinsic QRS complex is too low to be detected\nNew intrinsic arrhythmia (AF has a smaller depolarization than sinus beat), AMI, electrolyte abnormalities, lead separation, battery depletion",
+          "tables": []
+        },
+        "Runaway_Pacing": {
+          "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+          "tables": []
+        },
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Failure_to_Sense": {
+      "text": "Normal function: a sensed myocardial depolarization greater than the programmed threshold causes inhibition of pacing\nFailure to sense results in a paced beat on top of an intrinsic beat (as the device is \"unaware\" of the intrinsic beat\")\nVoltages of patient's intrinsic QRS complex is too low to be detected\nNew intrinsic arrhythmia (AF has a smaller depolarization than sinus beat), AMI, electrolyte abnormalities, lead separation, battery depletion",
+      "subsections": {
+        "Runaway_Pacing": {
+          "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+          "tables": []
+        },
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Runaway_Pacing": {
+      "text": "Physiologic electrical activity (T waves, muscle potentials)\nExternal electromagnetic interference\nSignals generated by interaction of different portions of the pacing system\nPotentially life-threatening as it can cause V-Fib or (paradoxically) bradycardia due to failure to capture",
+      "subsections": {
+        "Pacemaker_Mediated_Tachycardia": {
+          "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pacemaker_Mediated_Tachycardia": {
+      "text": "Also known as Endless Loop Tachycardia\nFormation of a re-entrant circuit causing inappropriate tachycardia\nMost commonly: paced ventricular beat ->  retrograde AV node conduction -> intrinsic P wave -> device reacts to intrinsic P wave by looking for intrinsic QRS, but since AV node is now refractory it delivers a paced beat at the programmed P-R interval (typically ~200-250ms), starting the process anew\nTachycardia does not exceed programmed upper limit rate on pacemaker",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "BMP and Mg\nCXR\nECG\nTroponin\nInterrogation\nEach company has on-call representatives who will come interrogate a device 24/7 (phone numbers above)\nMost cath labs will have machines capable of interrogating each brand",
+          "tables": []
+        },
+        "Expected_ECG_Patterns": {
+          "text": "Absence of pacer artifact indicates intrinsic depolarization\nWith newer pacemakers, pacer spikes may not appear on some or all paced beats, depending on EKG machine\nPacing artifacts preceding depolarizations indicate successful pacing and capture\nLeads in RV apex produce LBBB pattern with appropriate discordance\nNew RBBB pattern may indicate lead in LV\nBi-ventricular devices can produce paced QRS complexes that are either narrow or wide and bizarre, depending on device programming\nSimultaneous depolarization of ventricles produces dominant R wave in V1",
+          "tables": []
+        },
+        "Plain_Film_Findings": {
+          "text": "Obtain PA/Lateral Films to confirm pulse generator, manufacturer, lead placement/number/integrity\nR atrial lead J shaped(tip medially on AP) entering right atrial appendage\nRV leads point downward with tip between left spine and cardiac apex--lateral XR shows inferior and anterior\nCoronary sinus lead- courses posteriorly on lateral XR\nExtra leads may be appropriately abandoned and capped\nICD component appears as thickened shock coil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "BMP and Mg\nCXR\nECG\nTroponin\nInterrogation\nEach company has on-call representatives who will come interrogate a device 24/7 (phone numbers above)\nMost cath labs will have machines capable of interrogating each brand",
+      "subsections": {
+        "Expected_ECG_Patterns": {
+          "text": "Absence of pacer artifact indicates intrinsic depolarization\nWith newer pacemakers, pacer spikes may not appear on some or all paced beats, depending on EKG machine\nPacing artifacts preceding depolarizations indicate successful pacing and capture\nLeads in RV apex produce LBBB pattern with appropriate discordance\nNew RBBB pattern may indicate lead in LV\nBi-ventricular devices can produce paced QRS complexes that are either narrow or wide and bizarre, depending on device programming\nSimultaneous depolarization of ventricles produces dominant R wave in V1",
+          "tables": []
+        },
+        "Plain_Film_Findings": {
+          "text": "Obtain PA/Lateral Films to confirm pulse generator, manufacturer, lead placement/number/integrity\nR atrial lead J shaped(tip medially on AP) entering right atrial appendage\nRV leads point downward with tip between left spine and cardiac apex--lateral XR shows inferior and anterior\nCoronary sinus lead- courses posteriorly on lateral XR\nExtra leads may be appropriately abandoned and capped\nICD component appears as thickened shock coil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Expected_ECG_Patterns": {
+      "text": "Absence of pacer artifact indicates intrinsic depolarization\nWith newer pacemakers, pacer spikes may not appear on some or all paced beats, depending on EKG machine\nPacing artifacts preceding depolarizations indicate successful pacing and capture\nLeads in RV apex produce LBBB pattern with appropriate discordance\nNew RBBB pattern may indicate lead in LV\nBi-ventricular devices can produce paced QRS complexes that are either narrow or wide and bizarre, depending on device programming\nSimultaneous depolarization of ventricles produces dominant R wave in V1",
+      "subsections": {
+        "Plain_Film_Findings": {
+          "text": "Obtain PA/Lateral Films to confirm pulse generator, manufacturer, lead placement/number/integrity\nR atrial lead J shaped(tip medially on AP) entering right atrial appendage\nRV leads point downward with tip between left spine and cardiac apex--lateral XR shows inferior and anterior\nCoronary sinus lead- courses posteriorly on lateral XR\nExtra leads may be appropriately abandoned and capped\nICD component appears as thickened shock coil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Plain_Film_Findings": {
+      "text": "Obtain PA/Lateral Films to confirm pulse generator, manufacturer, lead placement/number/integrity\nR atrial lead J shaped(tip medially on AP) entering right atrial appendage\nRV leads point downward with tip between left spine and cardiac apex--lateral XR shows inferior and anterior\nCoronary sinus lead- courses posteriorly on lateral XR\nExtra leads may be appropriately abandoned and capped\nICD component appears as thickened shock coil",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Reported Shock\nIf unable to prove a phantom shock, electrophysiology or cardiology consult is often needed\nInterrogation is mandatory, either by an experienced clinician or by device representative\nSome devices can be remotely interrogated; contact the respective company representative at the above phone numbers to discuss this possibility\nRepeated Shocks\nBefore placement of a magnet or changing the device parameters, you must determine if the shocks are appropriate (i.e. the patient is in VT storm or having recurrent episodes of VF) or inappropriate\nIf it is determined that the shocks are inappropriate, a magnet will deactivate the shocking function while placed over the device\nElectrophysiology consult\nPacemaker Mediated Tachycardia\nBreak with\nadenosine\n- magnet will not fix PMT in a patient with a defibrillator",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge if:\nProven Phantom Shock\nResolved Pacemaker Mediated Tachycardia\nSingle shock only AND Currently asymptomatic AND No concerning associated symptoms (e.g. chest pain, dyspnea, syncope)\nEnsure patient has Electrophysiology/Cardiology follow-up\nConsider Electrophysiology/Cardiology consult\nAdmit all others",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pacemaker complication\nMedical device complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ECG Pointers: ICDs and when they malfunction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

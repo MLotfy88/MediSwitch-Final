@@ -1,0 +1,182 @@
+{
+  "drug_name": "Insulin",
+  "url": "https://wikem.org/wiki/Insulin",
+  "scraped_at": "2026-01-10T07:55:35.420778",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Common_Anti-hyperglycemic_Drugs_and_Pharmacology": {
+          "text": "See also\nGLP-1 agonists",
+          "tables": [
+            [
+              {
+                "Drug": "Onset",
+                "Pharmacology": "Peak"
+              },
+              {
+                "Drug": "Rapid-acting insulinAspart (Novolog)Lispro (Humalog)",
+                "Pharmacology": "15-30min"
+              },
+              {
+                "Drug": "Short-acting insulinRegular",
+                "Pharmacology": "30-60min"
+              },
+              {
+                "Drug": "Intermediate-acting insulinNPH (Humulin, Novolin)",
+                "Pharmacology": "1-3h"
+              },
+              {
+                "Drug": "Long-acting insulinGlargine (Lantus)",
+                "Pharmacology": "2-4h"
+              },
+              {
+                "Drug": "SulfonylureaGlimepirideGlipizide (Glucotrol)Glyburide (Glycron, Micronase)",
+                "Pharmacology": "–"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Type": "RAPID ACTING"
+          },
+          {
+            "Type": "Lispro(humalog)",
+            "Onset of action (h)": "0.25-0.5",
+            "Peak action": "0.5-1.25",
+            "Effective duration": "3-4",
+            "Max duration": "4-6"
+          },
+          {
+            "Type": "Aspart(novolog)",
+            "Onset of action (h)": "0.25-0.5",
+            "Peak action": "0.5-1.25",
+            "Effective duration": "3-4",
+            "Max duration": "4-6"
+          },
+          {
+            "Type": "Glulisine(apidra)",
+            "Onset of action (h)": "0.25-0.5",
+            "Peak action": "0.25-1.25",
+            "Effective duration": "3-4",
+            "Max duration": "4-6"
+          },
+          {
+            "Type": "SHORT ACTING"
+          },
+          {
+            "Type": "Regular",
+            "Onset of action (h)": "0.5-1",
+            "Peak action": "2-3",
+            "Effective duration": "3-6",
+            "Max duration": "6-8"
+          },
+          {
+            "Type": "INTERMEDIATE ACTING"
+          },
+          {
+            "Type": "NPH",
+            "Onset of action (h)": "2-4",
+            "Peak action": "6-10",
+            "Effective duration": "10-16",
+            "Max duration": "14-18"
+          },
+          {
+            "Type": "LONG ACTING"
+          },
+          {
+            "Type": "glargine(Lantus)",
+            "Onset of action (h)": "3-4",
+            "Peak action": "8-16",
+            "Effective duration": "18-20",
+            "Max duration": "20-24"
+          },
+          {
+            "Type": "detemir(Levemir)",
+            "Onset of action (h)": "3-4",
+            "Peak action": "6-8",
+            "Effective duration": "14",
+            "Max duration": "~20"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "GLP-1 agonists",
+          "url": "https://wikem.org/wiki/GLP-1_agonists"
+        }
+      ]
+    },
+    "Common_Anti-hyperglycemic_Drugs_and_Pharmacology": {
+      "text": "See also\nGLP-1 agonists",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Onset",
+            "Pharmacology": "Peak"
+          },
+          {
+            "Drug": "Rapid-acting insulinAspart (Novolog)Lispro (Humalog)",
+            "Pharmacology": "15-30min"
+          },
+          {
+            "Drug": "Short-acting insulinRegular",
+            "Pharmacology": "30-60min"
+          },
+          {
+            "Drug": "Intermediate-acting insulinNPH (Humulin, Novolin)",
+            "Pharmacology": "1-3h"
+          },
+          {
+            "Drug": "Long-acting insulinGlargine (Lantus)",
+            "Pharmacology": "2-4h"
+          },
+          {
+            "Drug": "SulfonylureaGlimepirideGlipizide (Glucotrol)Glyburide (Glycron, Micronase)",
+            "Pharmacology": "–"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "GLP-1 agonists",
+          "url": "https://wikem.org/wiki/GLP-1_agonists"
+        }
+      ]
+    },
+    "Insulin_Sliding_Scale": {
+      "text": "Dosing depends on the patient's level of insulin resistance.\nThe example sliding scales are for regular insulin with blood glucose (BG) measured in mg/dL",
+      "subsections": {
+        "Low_Dose_(Renal_Insufficiency)": {
+          "text": "BG 150-199: 1 unit bolus Insulin\nBG 200-249: 2 units bolus Insulin\nBG 250-299: 3 units bolus Insulin\nBG 300-349: 4 units bolus Insulin\nBG Over 350: 5 units bolus Insulin",
+          "tables": []
+        },
+        "Medium_Dose_(Standard)": {
+          "text": "BG 150-199: 1 unit bolus Insulin\nBG 200-249: 3 units bolus Insulin\nBG 250-299: 5 units bolus Insulin\nBG 300-349: 7 units bolus Insulin\nBG Over 350: 8 units bolus Insulin",
+          "tables": []
+        },
+        "High_Dose_(Severely_Insulin_Resistant)": {
+          "text": "BG 150-199: 2 unit bolus Insulin\nBG 200-249: 4 units bolus Insulin\nBG 250-299: 7 units bolus Insulin\nBG 300-349: 10 units bolus Insulin\nBG Over 350: 12 units bolus Insulin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes (Main)",
+          "url": "https://wikem.org/wiki/Diabetes_(Main)"
+        }
+      ]
+    }
+  }
+}

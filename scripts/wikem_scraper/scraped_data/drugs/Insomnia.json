@@ -1,0 +1,130 @@
+{
+  "drug_name": "Insomnia",
+  "url": "https://wikem.org/wiki/Insomnia",
+  "scraped_at": "2026-01-10T07:55:36.965378",
+  "sections": {
+    "Background": {
+      "text": "Daytime dysfunction due to difficulty initiating sleep or lack of good sleep.\nA common emergency department complaint among patients in recovery from a substance use disorder or a psychiatric disorder\nMost substances of abuse affect sleep during active use, acute withdrawal, and with sustained abstinence\nSpecific medications for insomnia should be avoided in patients with history of substance abuse.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Difficulty falling asleep and staying asleep\nImpaired daytime function (must also be reported for a diagnosis of an insomnia disorder)\nSimultaneous psychiatric, medications/substances, are usually present",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Alcohol Abuse\n,\nalcohol\n,\nbenzo\n, or\nopioid withdrawal\nDepression\n/\nanxiety\nBipolar disorder\n,\nschizophrenia\nHepatic encephalopathy\nTBI\nAcute mountain sickness\nDelirium\nHyperphosphatemia\nMedications (many!)\nExcess\ncaffeine\nSleep-disruptive environmental circumstances\nRestless legs syndrome\nObstructive sleep apnea\nShort duration sleep circadian rhythm disorders\nChronic sleep restriction\nPsychosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol Abuse",
+          "url": "https://wikem.org/wiki/Alcohol_Abuse"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "benzo",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "TBI",
+          "url": "https://wikem.org/wiki/TBI"
+        },
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "A personal medical history considering any medical conditions, any medications being taken, and any stressful life events/changes that could be causing insomnia\nScreen for mood disorders, PTSD, substance use disorders\nA sleep history and review of sleep and wake diaries can be helpful in determining the cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Sleep hygiene education, relaxation, and stimulus control\nZaleplon for sleep onset insomnia,\nZolpidem\n(Ambien) or Eszopiclone for sleep maintenance insomnia\n[1]\nTrazodone\n,\ngabapentin\n, and melatonin/melatonin agonists\nBenzodiazepines\nshould be avoided (due to risks of overdose when mixed with alcohol or other substances)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "Trazodone",
+          "url": "https://wikem.org/wiki/Trazodone"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge home unless patient acutely\npsychotic\nFollow up with primary care doctor\nConsider outpatient polysomnography-sleep study",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "psychotic",
+          "url": "https://wikem.org/wiki/Psychotic"
+        }
+      ]
+    }
+  }
+}

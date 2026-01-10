@@ -1,0 +1,265 @@
+{
+  "drug_name": "Innocent_pediatric_murmurs",
+  "url": "https://wikem.org/wiki/Innocent_pediatric_murmurs",
+  "scraped_at": "2026-01-10T07:55:35.111815",
+  "sections": {
+    "Background": {
+      "text": "72% of all school-age children have innocent murmurs\nCongenital heart disease\n- 0.8% of live births",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Goal to distinguish innocent (benign) murmurs from clinically significant pathology\nRed flag features that may point to pathology,\nnot\ninnocent murmurs:\nPoor weight gain\n: check height and weight- left-to-right can cause decrease in weight, but are usually symptomatic\nColor - cyanosis of hands, feet, perioral on exertion\nFeeding - fatigue or short feeding times for infants- perspiring, grunting, coughing,\ntachycardia\nwhile feeding. Severe\nCHF\nmay show at rest deep breathing with\ndyspnea\nwith distress\nEnlarged heart (ie\nASD\n) can cause bulging of chest\nOlder kids - activity causing\ndyspnea\n/cyanosis- keeping up with peers, grunting, coughing, tired from stairs.\nsyncope\n/presyncope, fatigue,\npalpitations\n/\nangina\ncan occur with\nhypertrophic cardiomyopathy\nYet older - Aortic valve with\nrheumatic fever\n,\nmyocarditis\n(history of\nURI\n),\nendocarditis\n(IV drug use)\nPregnancy history - Maternal diabetes (\nASD\n,\ncoarctation of the aorta\n, cardiomyopathies),\nCMV\n,\nCoxsackie\nB5,\nwarfarin\n,\nAEDs\nuse, EtOH (ASD,\nVSD\n), prematurity (\nPDA\n)\nWorry when - family history of [[\nHCM\n]]/sudden death and prominent apical thrust (indicates\nLVH\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Poor weight gain",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope_(peds)"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "angina",
+          "url": "https://wikem.org/wiki/Chest_pain_(peds)"
+        },
+        {
+          "text": "hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "PDA",
+          "url": "https://wikem.org/wiki/PDA"
+        },
+        {
+          "text": "HCM",
+          "url": "https://wikem.org/wiki/HCM"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Most innocent murmurs are\nNot\nholo or diastolic\nNot\n>grade III\nHockey stick dist\nNormal S1 & S2",
+      "subsections": {
+        "Still's": {
+          "text": "Mid-Systolic, best at left lower sternal border, likely from harmonic vibrations of LV outflow tract (chordae tindinae)\nAll ages, particularly young school age\nLow pitch, musical\nDecreased with inspiration, sitting, standing. Not a VSD- not regurgitant or with thrill",
+          "tables": []
+        },
+        "Innocent_Pulmonary_Flow_Murmur": {
+          "text": "Systolic best at left upper sternal border, minor turbulence in RV outflow tract and main pulmonary artery\nOften infants and preschool age. Higher pitched than still's, less musical\nNot PS- no ejection click, no increased RV impulse. no wide s2 split\nNot Pulm M of ASD, no fixed splitting, no diastolic tricuspid flow rumble, no increased RV impulse\nDecreased on inspiration/sitting/standing",
+          "tables": []
+        },
+        "Innocent_Pulmonary_Branch_Murmur_of_Infancy": {
+          "text": "Systolic ejection murmur from turbulence in pulmonary artery branches (one or both)\nMedium pitch\nPhysiologic in neonates, becoming audible at L,R,B USB between 0-2wks\nTransmits well to back and axilla. common in premature; disappears early in infancy\nNot PS- no ejection click, no increase in RV impulse",
+          "tables": []
+        },
+        "Supraclavicular_Bruit": {
+          "text": "Systolic ejection murmur of medium pitch from physiologic turbulence of carotid/subclavian and heard at base of neck\nCan be palpable. Disappears on hyperextension of shoulders\nNot AS which is loudest at URSB with systolic thrill, sometimes with click",
+          "tables": []
+        },
+        "Venous_Hum": {
+          "text": "Continuous murmur from turbulent flow in SVC heard at L,R,or B infraclavicular position while sitting/standing\nNot PDA (bounding pulse, systolic>diastolic sound) or AV malformation\nDisappears in recumbent position, rotation of head, by pressure at jugular",
+          "tables": []
+        },
+        "Mammary_Souffle": {
+          "text": "Blood flow in A and V to engorged breast\nSystolic or continuous, disappears with stethoscope pressure",
+          "tables": []
+        },
+        "Cardiorespiratory_murmur": {
+          "text": "High pitched cooing, anywhere, but especially apex\nBreath sound so not timed to heart, disappear when holding breath",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Still's": {
+          "text": "Mid-Systolic, best at left lower sternal border, likely from harmonic vibrations of LV outflow tract (chordae tindinae)\nAll ages, particularly young school age\nLow pitch, musical\nDecreased with inspiration, sitting, standing. Not a VSD- not regurgitant or with thrill",
+          "tables": []
+        },
+        "Innocent_Pulmonary_Flow_Murmur": {
+          "text": "Systolic best at left upper sternal border, minor turbulence in RV outflow tract and main pulmonary artery\nOften infants and preschool age. Higher pitched than still's, less musical\nNot PS- no ejection click, no increased RV impulse. no wide s2 split\nNot Pulm M of ASD, no fixed splitting, no diastolic tricuspid flow rumble, no increased RV impulse\nDecreased on inspiration/sitting/standing",
+          "tables": []
+        },
+        "Innocent_Pulmonary_Branch_Murmur_of_Infancy": {
+          "text": "Systolic ejection murmur from turbulence in pulmonary artery branches (one or both)\nMedium pitch\nPhysiologic in neonates, becoming audible at L,R,B USB between 0-2wks\nTransmits well to back and axilla. common in premature; disappears early in infancy\nNot PS- no ejection click, no increase in RV impulse",
+          "tables": []
+        },
+        "Supraclavicular_Bruit": {
+          "text": "Systolic ejection murmur of medium pitch from physiologic turbulence of carotid/subclavian and heard at base of neck\nCan be palpable. Disappears on hyperextension of shoulders\nNot AS which is loudest at URSB with systolic thrill, sometimes with click",
+          "tables": []
+        },
+        "Venous_Hum": {
+          "text": "Continuous murmur from turbulent flow in SVC heard at L,R,or B infraclavicular position while sitting/standing\nNot PDA (bounding pulse, systolic>diastolic sound) or AV malformation\nDisappears in recumbent position, rotation of head, by pressure at jugular",
+          "tables": []
+        },
+        "Mammary_Souffle": {
+          "text": "Blood flow in A and V to engorged breast\nSystolic or continuous, disappears with stethoscope pressure",
+          "tables": []
+        },
+        "Cardiorespiratory_murmur": {
+          "text": "High pitched cooing, anywhere, but especially apex\nBreath sound so not timed to heart, disappear when holding breath",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Heart Murmurs\nValvular Emergencies (Valve)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart Murmurs",
+          "url": "https://wikem.org/wiki/Heart_Murmurs"
+        },
+        {
+          "text": "Valvular Emergencies (Valve)",
+          "url": "https://wikem.org/wiki/Valvular_Emergencies_(Valve)"
+        }
+      ]
+    }
+  }
+}

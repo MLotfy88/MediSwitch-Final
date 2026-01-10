@@ -1,0 +1,814 @@
+{
+  "drug_name": "Immune_thrombocytopenic_purpura",
+  "url": "https://wikem.org/wiki/Immune_thrombocytopenic_purpura",
+  "scraped_at": "2026-01-10T07:55:25.405539",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nImmune thrombocytopenic purpura (peds)\nor\nITP in Pregnancy\nfor pregnancy related.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Abbreviation: ITP\nKnown as both \"idiopathic\" or \"immune\" thrombocytopenic purpura\nAcquired autoimmune disease resulting in destruction of platelets\nBecause circulating platelets are functional, life-threatening bleeding only once platelet count <10K\nChronically, the disease follows a course that is usually stable with intermittent and episodic flares, leading to clinically relevant thrombocytopenia\n[1]",
+      "subsections": {
+        "Acute_vs_Chronic_ITP": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Charateristic": "Common age group",
+                "Acute ITP": "Younger children",
+                "Chronic ITP": "Adults"
+              },
+              {
+                "Charateristic": "Sex",
+                "Acute ITP": "Affects men/women equally",
+                "Chronic ITP": "Usually women"
+              },
+              {
+                "Charateristic": "Duration",
+                "Acute ITP": "Resolves in 1-2 months",
+                "Chronic ITP": "Lasts > 3 months"
+              },
+              {
+                "Charateristic": "Cause",
+                "Acute ITP": "Typically follows viral illness",
+                "Chronic ITP": "More likely to have an underlying disease or autoimmune disorder (e.g. SLE)"
+              },
+              {
+                "Charateristic": "Prognosis",
+                "Acute ITP": "",
+                "Chronic ITP": "Rarely remits spontaneously or with treatment"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_vs_Chronic_ITP": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Charateristic": "Common age group",
+            "Acute ITP": "Younger children",
+            "Chronic ITP": "Adults"
+          },
+          {
+            "Charateristic": "Sex",
+            "Acute ITP": "Affects men/women equally",
+            "Chronic ITP": "Usually women"
+          },
+          {
+            "Charateristic": "Duration",
+            "Acute ITP": "Resolves in 1-2 months",
+            "Chronic ITP": "Lasts > 3 months"
+          },
+          {
+            "Charateristic": "Cause",
+            "Acute ITP": "Typically follows viral illness",
+            "Chronic ITP": "More likely to have an underlying disease or autoimmune disorder (e.g. SLE)"
+          },
+          {
+            "Charateristic": "Prognosis",
+            "Acute ITP": "",
+            "Chronic ITP": "Rarely remits spontaneously or with treatment"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Petechiae\nEpistaxis\nGingival bleeding\nMenorrhagia\nGI bleeding\nIntracranial hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Gingival bleeding",
+          "url": "https://wikem.org/wiki/Gingival_bleeding"
+        },
+        {
+          "text": "Menorrhagia",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        },
+        "Petechiae/Purpura_(by_cause)": {
+          "text": "Abnormal\nplatelet count\nand/or\ncoagulation\nSepticemia\nIdiopathic thrombocytopenic purpura\n(ITP)\nHemolytic uremic syndrome\nLeukemia\nCoagulopathies\n(e.g.\nhemophilia\n)\nHenoch-Schonlein Purpura (HSP)\nAcute hemorrhagic edema of infancy (AHEI)\nHypersensitivity\nvasculitis\nPrimary\nvasculitides\nWegener\n's\nMicroscopic polyangiitis\nEosinophilic granulomatosis with polyangiitis (\nChurg-Strauss syndrome\n)\nSecondary\nvasculitides\nHenoch-Schonlein purpura\nConnective tissue disorder\nSystemic lupus erythematosus\nScurvy\nInfectious disease\nHepatitis B\nHepatitis C\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "platelet count",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "coagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Septicemia"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathies"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Henoch-Schonlein Purpura (HSP)",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_Purpura_(HSP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Wegener",
+          "url": "https://wikem.org/wiki/Wegener%27s_Granulomatosis"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Thrombocytopenia": {
+      "text": "",
+      "subsections": {
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        },
+        "Petechiae/Purpura_(by_cause)": {
+          "text": "Abnormal\nplatelet count\nand/or\ncoagulation\nSepticemia\nIdiopathic thrombocytopenic purpura\n(ITP)\nHemolytic uremic syndrome\nLeukemia\nCoagulopathies\n(e.g.\nhemophilia\n)\nHenoch-Schonlein Purpura (HSP)\nAcute hemorrhagic edema of infancy (AHEI)\nHypersensitivity\nvasculitis\nPrimary\nvasculitides\nWegener\n's\nMicroscopic polyangiitis\nEosinophilic granulomatosis with polyangiitis (\nChurg-Strauss syndrome\n)\nSecondary\nvasculitides\nHenoch-Schonlein purpura\nConnective tissue disorder\nSystemic lupus erythematosus\nScurvy\nInfectious disease\nHepatitis B\nHepatitis C\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "platelet count",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "coagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Septicemia"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathies"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Henoch-Schonlein Purpura (HSP)",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_Purpura_(HSP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Wegener",
+          "url": "https://wikem.org/wiki/Wegener%27s_Granulomatosis"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis of exclusion\nMust differentiate acute ITP from chronic ITP, which suggests an underlying disorder\nCBC shows normal cell lines except for the platelets (may have mild anemia)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Adults": {
+          "text": "Patients with severe bleeding should receive high dose steroids (ie methylprednisolone 1g IV vs dexamethasone 40mg IV), IVIG (1g/kg), and platelet transfusion\n[2]\nAdults with minor mucosal or no bleeding and a platelet count <30x10\n9\n/L should receive steroids\n[3]\nSuggested regimens: prednisone 0.5-2mg/kg/day for 14 days with taper vs dexamethasone 40mg/day for 4 days",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Patients with severe bleeding should receive high dose steroids (ie methylprednisolone 30mg/kg IV vs dexamethasone 28mg/m\n2\nIV), IVIG (1g/kg), and platelet transfusion\n[4]\nPatients with a non-life-threatening bleed or reduced quality of life can receive prednisone 2-4mg/kg/day for up to 7 days\n[5]\nPatients with mild or no bleeding have no benefit with steroids or IVIG regardless of platelet count\n[6]",
+          "tables": []
+        },
+        "Other_Options": {
+          "text": "Splenectomy\nif above fails (only 2/3 effective)\nRho(D) Immune Globulin (RhoGAM)\nWill induce mild hemolysis in Rh+ patients that decreases macrophage activity\nSpleen will not destroy platelets covered in antibodies\nRituximab\nMay help as ITP is autoimmune process\nThrombopoietin receptor agonists (eltrombopag, romiplsotim) may be effective in steroid-refractory cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Rho(D) Immune Globulin (RhoGAM)",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "Rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        }
+      ]
+    },
+    "Adults": {
+      "text": "Patients with severe bleeding should receive high dose steroids (ie methylprednisolone 1g IV vs dexamethasone 40mg IV), IVIG (1g/kg), and platelet transfusion\n[2]\nAdults with minor mucosal or no bleeding and a platelet count <30x10\n9\n/L should receive steroids\n[3]\nSuggested regimens: prednisone 0.5-2mg/kg/day for 14 days with taper vs dexamethasone 40mg/day for 4 days",
+      "subsections": {
+        "Pediatrics": {
+          "text": "Patients with severe bleeding should receive high dose steroids (ie methylprednisolone 30mg/kg IV vs dexamethasone 28mg/m\n2\nIV), IVIG (1g/kg), and platelet transfusion\n[4]\nPatients with a non-life-threatening bleed or reduced quality of life can receive prednisone 2-4mg/kg/day for up to 7 days\n[5]\nPatients with mild or no bleeding have no benefit with steroids or IVIG regardless of platelet count\n[6]",
+          "tables": []
+        },
+        "Other_Options": {
+          "text": "Splenectomy\nif above fails (only 2/3 effective)\nRho(D) Immune Globulin (RhoGAM)\nWill induce mild hemolysis in Rh+ patients that decreases macrophage activity\nSpleen will not destroy platelets covered in antibodies\nRituximab\nMay help as ITP is autoimmune process\nThrombopoietin receptor agonists (eltrombopag, romiplsotim) may be effective in steroid-refractory cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Rho(D) Immune Globulin (RhoGAM)",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "Rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "Patients with severe bleeding should receive high dose steroids (ie methylprednisolone 30mg/kg IV vs dexamethasone 28mg/m\n2\nIV), IVIG (1g/kg), and platelet transfusion\n[4]\nPatients with a non-life-threatening bleed or reduced quality of life can receive prednisone 2-4mg/kg/day for up to 7 days\n[5]\nPatients with mild or no bleeding have no benefit with steroids or IVIG regardless of platelet count\n[6]",
+      "subsections": {
+        "Other_Options": {
+          "text": "Splenectomy\nif above fails (only 2/3 effective)\nRho(D) Immune Globulin (RhoGAM)\nWill induce mild hemolysis in Rh+ patients that decreases macrophage activity\nSpleen will not destroy platelets covered in antibodies\nRituximab\nMay help as ITP is autoimmune process\nThrombopoietin receptor agonists (eltrombopag, romiplsotim) may be effective in steroid-refractory cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Rho(D) Immune Globulin (RhoGAM)",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "Rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        }
+      ]
+    },
+    "Other_Options": {
+      "text": "Splenectomy\nif above fails (only 2/3 effective)\nRho(D) Immune Globulin (RhoGAM)\nWill induce mild hemolysis in Rh+ patients that decreases macrophage activity\nSpleen will not destroy platelets covered in antibodies\nRituximab\nMay help as ITP is autoimmune process\nThrombopoietin receptor agonists (eltrombopag, romiplsotim) may be effective in steroid-refractory cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Rho(D) Immune Globulin (RhoGAM)",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "Rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Adults_2": {
+          "text": "Admit any patient with significant bleeding or platelet count < 20 x10\n9\nPatients without significant bleeding and a platelet count > 20 x10\n9\ncan be managed as an outpatient with hematology",
+          "tables": []
+        },
+        "Pediatrics_2": {
+          "text": "Admit patients with significant bleeding\nPatients with minor or no bleeding may be saely managed as an outpatient with hematology regardless of patient count.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adults_2": {
+      "text": "Admit any patient with significant bleeding or platelet count < 20 x10\n9\nPatients without significant bleeding and a platelet count > 20 x10\n9\ncan be managed as an outpatient with hematology",
+      "subsections": {
+        "Pediatrics_2": {
+          "text": "Admit patients with significant bleeding\nPatients with minor or no bleeding may be saely managed as an outpatient with hematology regardless of patient count.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatrics_2": {
+      "text": "Admit patients with significant bleeding\nPatients with minor or no bleeding may be saely managed as an outpatient with hematology regardless of patient count.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Rare: more common in elderly\nIntracerebral bleeding\nSevere\nGI bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracerebral bleeding",
+          "url": "https://wikem.org/wiki/Intracerebral_bleeding"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ITP in Pregnancy\nTTP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ITP in Pregnancy",
+          "url": "https://wikem.org/wiki/ITP_in_Pregnancy"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        }
+      ]
+    }
+  }
+}

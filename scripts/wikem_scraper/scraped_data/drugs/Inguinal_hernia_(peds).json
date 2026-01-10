@@ -1,0 +1,702 @@
+{
+  "drug_name": "Inguinal_hernia_(peds)",
+  "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)",
+  "scraped_at": "2026-01-10T07:55:32.138716",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "1-2% of children have these\n10% become incarcerated\n70% of incarceration occurs in infants (usually <6 mo)\nMale:Female ration = 6:1\n21% of female inguinal hernias contain an ovary!",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Parents usually report bulge in scrotum or groin that increases with crying\nLack of transillumination indicates\nincarcerated hernia\nvs\nhydrocele\n(usually no change with crying)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        },
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Pediatric_Abdominal_Pain": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        },
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nTesticular ultrasound\nfor confirmation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "95% can be reduced without surgery using gentle firm continuous pressure, Trendelenberg, & analgesics\nSurgery consult or follow up if cannot reduce. Ensure no obstruction.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal pain (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

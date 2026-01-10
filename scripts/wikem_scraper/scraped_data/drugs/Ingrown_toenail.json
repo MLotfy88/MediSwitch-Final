@@ -1,0 +1,226 @@
+{
+  "drug_name": "Ingrown_toenail",
+  "url": "https://wikem.org/wiki/Ingrown_toenail",
+  "scraped_at": "2026-01-10T07:55:31.896666",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.\nLateral nail edge grows deep into nail wall → cycle of inflammation and hypertrophic granulation tissue can lead to abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nailtip_Anatomy": {
+      "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.\nLateral nail edge grows deep into nail wall → cycle of inflammation and hypertrophic granulation tissue can lead to abscess",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain and swelling at distal nailbed, typically unilateral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Typically does not require studies",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Typically does not require studies",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Minor cases can be treated non-surgically\nOthers, preform partial\ningrown toenail removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ingrown toenail removal",
+          "url": "https://wikem.org/wiki/Ingrown_toenail_removal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ingrown toenail removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ingrown toenail removal",
+          "url": "https://wikem.org/wiki/Ingrown_toenail_removal"
+        }
+      ]
+    }
+  }
+}

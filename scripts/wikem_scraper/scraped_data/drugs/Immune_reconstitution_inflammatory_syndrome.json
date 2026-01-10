@@ -1,0 +1,481 @@
+{
+  "drug_name": "Immune_reconstitution_inflammatory_syndrome",
+  "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome",
+  "scraped_at": "2026-01-10T07:55:21.583159",
+  "sections": {
+    "Background": {
+      "text": "Also called IRIS\nDefinition-Disease or pathogen specific inflammatory response in\nHIV\ninfected patients after initiation or re-initiation of ARV therapy or after change to more active ARV therapy.\nUsually low CD4 counts and high viral loads at time of ARV initiation\nCan occur at any CD4 count\nOccurs usually within 4-8 weeks after initiation of therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Major_Presentations": {
+          "text": "TB\n- worsening TB symptoms\nMAC\n- localized\nlymphadenitis\n, pulmonary disease, systemic inflammation indistinguishable from active MAC\nMAC-IRIS patients are not bacteremic\nCryptococcosis\n- worsening meningitis symptoms\nCMV\n-\nretinitis\n, vitritis,\nuveitis\nIRIS due to CMV can cause vision loss\nmean time to vitritis 20 weeks\nHepatitis\nB or C- transient transaminitis difficult to distinguish from drug induced cause\nhepatic flares usually mild, may decompensate cirrhotics.\nProgressive multifocal leukoencephalopathy\n- worsening focal neuro lesions, changes on\nMRI\nKaposi's Sarcoma\n- worsening Kaposi's\nAutoimmune diseases- Pre-existing autoimmune disorder exacerbation",
+          "tables": []
+        },
+        "Minor_Presentations": {
+          "text": "Herpes Simplex Virus\nand\nVaricella zoster virus\nreactivation\nNon-specific derm- many including oral and genital warts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Kaposi's Sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_Sarcoma"
+        },
+        {
+          "text": "Herpes Simplex Virus",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        }
+      ]
+    },
+    "Major_Presentations": {
+      "text": "TB\n- worsening TB symptoms\nMAC\n- localized\nlymphadenitis\n, pulmonary disease, systemic inflammation indistinguishable from active MAC\nMAC-IRIS patients are not bacteremic\nCryptococcosis\n- worsening meningitis symptoms\nCMV\n-\nretinitis\n, vitritis,\nuveitis\nIRIS due to CMV can cause vision loss\nmean time to vitritis 20 weeks\nHepatitis\nB or C- transient transaminitis difficult to distinguish from drug induced cause\nhepatic flares usually mild, may decompensate cirrhotics.\nProgressive multifocal leukoencephalopathy\n- worsening focal neuro lesions, changes on\nMRI\nKaposi's Sarcoma\n- worsening Kaposi's\nAutoimmune diseases- Pre-existing autoimmune disorder exacerbation",
+      "subsections": {
+        "Minor_Presentations": {
+          "text": "Herpes Simplex Virus\nand\nVaricella zoster virus\nreactivation\nNon-specific derm- many including oral and genital warts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Kaposi's Sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_Sarcoma"
+        },
+        {
+          "text": "Herpes Simplex Virus",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        }
+      ]
+    },
+    "Minor_Presentations": {
+      "text": "Herpes Simplex Virus\nand\nVaricella zoster virus\nreactivation\nNon-specific derm- many including oral and genital warts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "New infection not associated with IRIS (i.e. bacterial\nmeningitis\n)\nOpportunistic\ninfection",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Index of suspicion with known recent initiation of ARV's\nSystem specific testing (\nCXR\n,\nLP\netc)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Mild_IRIS": {
+          "text": "Standard therapy for offending opportunistic info (i.e.\nacyclovir\nfor HSV)\nLargely supportive care\nNSAIDs\nfor mild symptoms\nInhaled steroids\nfor pulmonary symptoms\nContinue ARV except in severe IRIS (see below)",
+          "tables": []
+        },
+        "Severe_IRIS": {
+          "text": "Defined as a threat to functional status or permanent disability (i.e. vision loss from CMV)\nSevere IRIS-\nprednisone\n1-2mg/kg (consult HIV/ID) for 1-2 weeks then taper",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Inhaled steroids",
+          "url": "https://wikem.org/wiki/Inhaled_steroids"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Mild_IRIS": {
+      "text": "Standard therapy for offending opportunistic info (i.e.\nacyclovir\nfor HSV)\nLargely supportive care\nNSAIDs\nfor mild symptoms\nInhaled steroids\nfor pulmonary symptoms\nContinue ARV except in severe IRIS (see below)",
+      "subsections": {
+        "Severe_IRIS": {
+          "text": "Defined as a threat to functional status or permanent disability (i.e. vision loss from CMV)\nSevere IRIS-\nprednisone\n1-2mg/kg (consult HIV/ID) for 1-2 weeks then taper",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Inhaled steroids",
+          "url": "https://wikem.org/wiki/Inhaled_steroids"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Severe_IRIS": {
+      "text": "Defined as a threat to functional status or permanent disability (i.e. vision loss from CMV)\nSevere IRIS-\nprednisone\n1-2mg/kg (consult HIV/ID) for 1-2 weeks then taper",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for severe IRIS.\nDispo in conjunction with HIV/ID consult.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV - AIDS (Main)\nHIV diarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV - AIDS (Main)",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "www.hivguidelines.org",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

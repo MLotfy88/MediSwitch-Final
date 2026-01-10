@@ -1,0 +1,751 @@
+{
+  "drug_name": "Inhalant_abuse",
+  "url": "https://wikem.org/wiki/Inhalant_abuse",
+  "scraped_at": "2026-01-10T07:55:32.955056",
+  "sections": {
+    "Background": {
+      "text": "First described in the 1950s\nMost common abusant in preteens 11-13yo\nMost abused: gasoline, solvents like toluene, spray paints, lighter fluid, air fresheners, glue, and electronic cleaners (halogenated hydrocarbons)\nIncludes: \"sniffing\", \"huffing\", \"bagging\", and \"dusting\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "General: Euphoria, hallucinations\nNeuro: Impaired motor activity, ataxia, depressed mentation, withdrawal potential\nCardiac: Widened QRS, prolonged QT, syncope, arrhythmias\nSkin: May cause dermal burns\n\"Sudden sniffing death\" - thought to be occur with sudden catecholamine surge on a \"sensitized\" myocardium\nOther:\nRhabdomyolysis\n,\nacute kidney injury\nSecondary\nrenal tubular acidosis\nHypokalemia\nMetabolic acidosis\nHepatitis\n, hepatic failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "renal tubular acidosis",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        },
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Drugs_of_abuse": {
+      "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        },
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Inhalation_injury": {
+      "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis\nECG\nConsider CT head\nCXR\nfor aspiration, ALI\nLabs\nBlood gas\nCBC\nElectrolytes\nLFTs, hepatotoxicity\nSerum glucose\nBUN/Cr\nCK, urinalysis\nToxicological screen\nSerum toluene concentrations do not guide therapy\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Call on-call toxicology\nIf found down with sudden death with history of recent inhalant abuse → give beta-blocker (propanolol, esmolol)\nThought to counteract myocardial sensitization\nMay be more effective than lidocaine\n[2]\nSupportive care, cardioversion for dysrhythmias\nCareful use of vasopressors as sympathomimetics may increase risk of dysrhythmias\nAlbuterol inhaled cautiously for bronchospasm\nAggressive potassium replacement, hydration, cardiac monitoring\nDialysis for recalcitrant renal failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Based on patient's clinical status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nHydrocarbons\nInhalation injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        }
+      ]
+    },
+    "References": {
+      "text": "Camara-Lemarroy CR et al. Acute toluene intoxication–clinical presentation, management and prognosis: a prospective observational study. BMC Emerg Med. 2015; 15: 19.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

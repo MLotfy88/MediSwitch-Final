@@ -1,0 +1,200 @@
+{
+  "drug_name": "Indomethacin",
+  "url": "https://wikem.org/wiki/Indomethacin",
+  "scraped_at": "2026-01-10T07:55:25.607219",
+  "sections": {
+    "General": {
+      "text": "Type:\nNSAID\nDosage Forms: PO (Generic in 25 and 50mg tabs)\nCommon Trade Names: Indocin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Preterm_labor/Tocolysis": {
+          "text": "50-100mg loading dose, 25mg q4-6 hrs for 48 hrs\nOsteoarthritis\n:\n25mg PO BID-TID, max 200mg/day, give with food\nGout and Pseudogout\n:\n50mg PO TID, taper dose rapidly\nAnkylosing Spondylitis\n:\n25mg PO bid-tid, max 200mg/day\nRheumatoid Arthritis\n:\n25mg PO bid-tid, max 200mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Ankylosing Spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_Spondylitis"
+        },
+        {
+          "text": "Rheumatoid Arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_Arthritis"
+        }
+      ]
+    },
+    "Preterm_labor/Tocolysis": {
+      "text": "50-100mg loading dose, 25mg q4-6 hrs for 48 hrs\nOsteoarthritis\n:\n25mg PO BID-TID, max 200mg/day, give with food\nGout and Pseudogout\n:\n50mg PO TID, taper dose rapidly\nAnkylosing Spondylitis\n:\n25mg PO bid-tid, max 200mg/day\nRheumatoid Arthritis\n:\n25mg PO bid-tid, max 200mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Ankylosing Spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_Spondylitis"
+        },
+        {
+          "text": "Rheumatoid Arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_Arthritis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Patent ductus arteriosus\n:\n<48 hour old: start 0.2mg/kg IV x 1, then 0.1mg/kg q12-24h x 2\n2-7 days old: Start 0.2mg/kg IV x 1, then 0.2mg/kg q12-24h x 2\n> 7 days old: Start 0.2mg/kg IV x 1, then 0.25mg/kg q12-24h x 2\nRheumatoid Arthritis\n1-2mg/kg/day PO divided BID-QID, max 4mg/kg/day up to 150-200mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "Rheumatoid Arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: probably safe\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: not defined, caution advised if hepatic impairment\nPediatric: not defined, caution advised if hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nASA or NSAID-induced ashtma or urticaria\nPregnancy 3rd trimester\nInfection, untreated (neonates)\nActive bleeding (neonates)\nThrombocytopenia (neonates)\nCoagulation Disorder (neonates)\nNecrotizing enterocolitis (neonates)\nrenal impairment, significant (neonates)\nPulmonary atresia (neonates)\nTetralogy of Fallot, severe (neonates)\nAortic coarctation, severe (neonates)\nCABG surgery period use\ncaution if cardiovascular disease\ncaution if hypertension\ncaution if CHF\ncaution if fluid retention\ncaution if GI bleeding or ulcer history\ncaution in elderly patients\ncaution if dehydration\ncaution if sepsis\ncaution if asthma\ncaution if prolonged use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "pulmonary hemorrhage (neonates)\nGI bleeding\nGI perforation/ulcer\nMI\nStroke\nThromboembolism\nhypertension\nCHF\nRenal Papillary Necrosis\nAcute Renal Failure\nHepatotoxicity\nSteven-Johnson syndrome\nAnemia\nThrombocytopenia, neonates\nhyponatremia (neonates)\nhyperkalemia (neonates)",
+          "tables": []
+        },
+        "Common": {
+          "text": "dyspepsia\nnausea\nabdominal pain\nconstipation\nheadache\ndizziness\nrash\nALT,AST elevation\nfluid retention\ntinnitus\ncorneal deposits\nphotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Acute Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "Steven-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Thrombocytopenia, neonates",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "pulmonary hemorrhage (neonates)\nGI bleeding\nGI perforation/ulcer\nMI\nStroke\nThromboembolism\nhypertension\nCHF\nRenal Papillary Necrosis\nAcute Renal Failure\nHepatotoxicity\nSteven-Johnson syndrome\nAnemia\nThrombocytopenia, neonates\nhyponatremia (neonates)\nhyperkalemia (neonates)",
+      "subsections": {
+        "Common": {
+          "text": "dyspepsia\nnausea\nabdominal pain\nconstipation\nheadache\ndizziness\nrash\nALT,AST elevation\nfluid retention\ntinnitus\ncorneal deposits\nphotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Acute Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "Steven-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Thrombocytopenia, neonates",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "dyspepsia\nnausea\nabdominal pain\nconstipation\nheadache\ndizziness\nrash\nALT,AST elevation\nfluid retention\ntinnitus\ncorneal deposits\nphotosensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4.5 hours, 12-21 hours in neonates\nMetabolism:  Liver; CYP450, 2C9 substrate\nExcretion: urine 60%, feces 33%\nMechanism of Action: exact mechanism unknown, inhibits cyclooxygenase, reducing prostaglandin and thromboxane synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "NSAID toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    }
+  }
+}

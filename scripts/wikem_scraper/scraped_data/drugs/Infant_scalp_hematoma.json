@@ -1,0 +1,128 @@
+{
+  "drug_name": "Infant_scalp_hematoma",
+  "url": "https://wikem.org/wiki/Infant_scalp_hematoma",
+  "scraped_at": "2026-01-10T07:55:28.972766",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Newborn_Problems": {
+          "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Newborn_Problems": {
+      "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Subgaleal hematoma\nBetween potential space between the periosteum and the galeal aponeurosis → can cross suture lines\nOccur in vacuum assisted delivery, but may indicate head trauma (ie NAT - non-accidental trauma)\nCephalohematoma\nSubperiosteal usually from birth trauma as well. Bound by periosteum → Do not cross suture lines\nCaput succedaneum\nExtra-periosteal subQ fluid usually from birth trauma → Do cross suture lines. Found in dependent areas.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

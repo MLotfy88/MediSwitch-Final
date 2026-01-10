@@ -1,0 +1,297 @@
+{
+  "drug_name": "Incision_and_drainage",
+  "url": "https://wikem.org/wiki/Incision_and_drainage",
+  "scraped_at": "2026-01-10T07:55:25.716053",
+  "sections": {
+    "Indications": {
+      "text": "Abscess\nof skin or superficial soft tissue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications\nAbscesses that may require OR management or specialist consultation include\n[1]\n:\nLarge or deep abscesses that are difficult to access or anesthetize\nAbscesses of the palms, soles, or nasolabial folds\nAreas in which cosmesis is important (face, breast)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "PPE\nLocal anesthetic\nIncision and Drainage Tray:\nScalpel\nHemostat\nForceps\nGauze\nDrape / towel\nIodine swabs",
+      "subsections": {
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Local anesthetic",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        }
+      ]
+    },
+    "Maximum_Doses_of_Anesthetic_Agents": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Lidocaine",
+            "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+            "WithEpinephrine": "7 mg/kg (max 500mg)",
+            "Duration": "30-90 min",
+            "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+          },
+          {
+            "Agent": "Mepivicaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "8 mg/kg",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Bupivicaine",
+            "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+            "WithEpinephrine": "3 mg/kg (max 225mg)",
+            "Duration": "6-8 hr",
+            "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+          },
+          {
+            "Agent": "Ropivacaine",
+            "WithoutEpinephrine": "3 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Prilocaine",
+            "WithoutEpinephrine": "6 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Tetracaine",
+            "WithoutEpinephrine": "1 mg/kg",
+            "WithEpinephrine": "1.5 mg/kg",
+            "Duration": "3hrs (10hrs with epi)",
+            "Notes": ""
+          },
+          {
+            "Agent": "Procaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "10 mg/kg",
+            "Duration": "30min (90min with epi)",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Standard_Technique": {
+          "text": "Sterile technique recommended, but not required\nCleanse skin overlying and surrounding\nabscess\nsite with chlorhexidine or Iodine\nAnesthetize skin of planned incision site\nLocal anesthesia\nField block\nRegional block\nIn some cases,\nprocedural sedation\nmay be indicated\nMake a linear incision (along skin tension lines) over the center of the\nabscess\ncavity\nAdvance depth until\nabscess\ncavity entered\nEnsure incision is large enough to accommodate drainage and introduction of forceps/hemostat\nManually express contents\nIntroduce hemostat and bluntly dissect to break up loculations\nPacking with iodoform gauze may be performed (goal is to prevent premature wound closure), however evidence indicates that packing is not necessary.\n[2]\n[3]\nIrrigation of\nabscess\ncavity has no benefit\n[4]",
+          "tables": []
+        },
+        "LOOP_Technique": {
+          "text": "Incise at most fluctuant area of abscess\nIncise second location <4cm from original incision\nFor larger abscesses can repeat this step thus creating several LOOPs.\nBreak-up loculations with hemostat\nIrrigate wound\nPass hemostat through both incisions and pull penrose through\nTie penrose drain loosely over 30cc syringe to form LOOP\nPatient can follow up with primary care provider or cut in 5-7 days\nRetrospective study showed decreased failure rate in LOOP technique vs standard I&D.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Standard_Technique": {
+      "text": "Sterile technique recommended, but not required\nCleanse skin overlying and surrounding\nabscess\nsite with chlorhexidine or Iodine\nAnesthetize skin of planned incision site\nLocal anesthesia\nField block\nRegional block\nIn some cases,\nprocedural sedation\nmay be indicated\nMake a linear incision (along skin tension lines) over the center of the\nabscess\ncavity\nAdvance depth until\nabscess\ncavity entered\nEnsure incision is large enough to accommodate drainage and introduction of forceps/hemostat\nManually express contents\nIntroduce hemostat and bluntly dissect to break up loculations\nPacking with iodoform gauze may be performed (goal is to prevent premature wound closure), however evidence indicates that packing is not necessary.\n[2]\n[3]\nIrrigation of\nabscess\ncavity has no benefit\n[4]",
+      "subsections": {
+        "LOOP_Technique": {
+          "text": "Incise at most fluctuant area of abscess\nIncise second location <4cm from original incision\nFor larger abscesses can repeat this step thus creating several LOOPs.\nBreak-up loculations with hemostat\nIrrigate wound\nPass hemostat through both incisions and pull penrose through\nTie penrose drain loosely over 30cc syringe to form LOOP\nPatient can follow up with primary care provider or cut in 5-7 days\nRetrospective study showed decreased failure rate in LOOP technique vs standard I&D.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "LOOP_Technique": {
+      "text": "Incise at most fluctuant area of abscess\nIncise second location <4cm from original incision\nFor larger abscesses can repeat this step thus creating several LOOPs.\nBreak-up loculations with hemostat\nIrrigate wound\nPass hemostat through both incisions and pull penrose through\nTie penrose drain loosely over 30cc syringe to form LOOP\nPatient can follow up with primary care provider or cut in 5-7 days\nRetrospective study showed decreased failure rate in LOOP technique vs standard I&D.\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Damage to surrounding structures\nProgression of infection\nTransient bacteremia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Follow-up": {
+      "text": "Wound check in 1-2 days.\nWarm soaks to help facilitate ongoing drainage\n7-day course of\nTrimethoprim–Sulfamethoxazole\nhas been shown to decrease treatment failure\n[6]\nPreviously\nantibiotics\nwere indicated only for 1) overlying cellulitis; 2) evidence of systemic infection\n[7]\n; for immunosuppressed patients; or\nabscess\nthat does not respond to standard treatment\n[8]\nClindamycin\nshown to be as effective as TMP/SMX, but with higher adverse events\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trimethoprim–Sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim%E2%80%93Sulfamethoxazole"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Abscess\nLidocaine\nBartholin Gland Abscess\nEBQ:Irrigation of Cutaneous Abscesses Does Not Improve Treatment Success\nProcedure sample documentation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Bartholin Gland Abscess",
+          "url": "https://wikem.org/wiki/Bartholin_Gland_Abscess"
+        },
+        {
+          "text": "EBQ:Irrigation of Cutaneous Abscesses Does Not Improve Treatment Success",
+          "url": "https://wikem.org/wiki/EBQ:Irrigation_of_Cutaneous_Abscesses_Does_Not_Improve_Treatment_Success"
+        },
+        {
+          "text": "Procedure sample documentation",
+          "url": "https://wikem.org/wiki/Procedure_sample_documentation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "ERCast Loop Abscess Drainage (6:58)\nhttps://vimeo.com/19580472\nNEJM (10:12)\nhttps://www.youtube.com/watch?v=MwgNdrA18fM&feature=emb_logo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "ERCast Loop Abscess Drainage (6:58)\nhttps://vimeo.com/19580472\nNEJM (10:12)\nhttps://www.youtube.com/watch?v=MwgNdrA18fM&feature=emb_logo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

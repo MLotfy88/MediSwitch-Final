@@ -1,0 +1,114 @@
+{
+  "drug_name": "Insulin_infusion_device_complications",
+  "url": "https://wikem.org/wiki/Insulin_infusion_device_complications",
+  "scraped_at": "2026-01-10T07:55:36.706579",
+  "sections": {
+    "Background": {
+      "text": "Commonly used by patients with type 1\ndiabetes\nin the US\nExternal device connected by flexible tubing to a subcutaneous catheter\nDelivers continuous basal\ninsulin\nand (by manually activating) bolus insulin (prandial or correction doses)\nPatient switches subcutaneous site every 3 days, refills insulin reservoir as needed every few days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Hyperglycemia\n/\nDKA\nDue to failure to deliver insulin\naccidental (or iatrogenic) disconnection, kinked tubing, empty reservoir, uncharged batteries, poorly positioned needle, lipohypertrophy, patient not rotating sites\nDKA can occur very rapidly if pump fails, since pumps only use rapid-acting insulin\nHypoglycemia\nLocal complications\nCellulitis\n[1]\n, usually due to strep or staph\nLocal reactions to adhesives or insulin preparation\nLipohypertrophy\nSubcutaneous granulation tissue due to local insulin action\nMay look/feel like an abscess\nArea has decreased sensation\nInfusing through such sites→ erratic insulin absorption→ labile blood glucose, hyperglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nHyperglycemia\nand\nDKA\nSee\nHypoglycemia\nSee\nCellulitis\nPatients most often know how to operate and perform basic diagnostics on their pump\nMany devices have a log of bolus histories and changes to basal rates, alarms, etc.\nAll major pump manufacturers have a 24/7 technical support hotline",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Awake, alert patients without diabetes-related complaints should be allowed to operate their pump while in the ED\nIf pump needs to be disconnected for >1hr, give a dose of subcutaneous insulin\nHypoglycemia\nDo NOT disconnect pump\nWork up and treat as you would any other hypoglycemic patient\nHyperglycemia\nHave patient administer an insulin bolus\nDKA\nAssume device failure\nTurn off and disconnect pump by pulling the catheter out from under the dressing removing it from the subcutaneous insertion site\nContinue usual DKA management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Medical device complications\nInsulin\nDKA\n,\nHyperglycemia\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    }
+  }
+}

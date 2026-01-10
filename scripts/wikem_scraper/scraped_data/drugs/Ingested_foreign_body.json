@@ -1,0 +1,571 @@
+{
+  "drug_name": "Ingested_foreign_body",
+  "url": "https://wikem.org/wiki/Ingested_foreign_body",
+  "scraped_at": "2026-01-10T07:55:35.727157",
+  "sections": {
+    "Background": {
+      "text": "Esophageal impaction can result in airway obstruction, stricture, or perforation. Perforation can be due to multiple mechanisms but is generally either mechanical (e.g. ingested bones) or via chemical corrosion (e.g. button battery)\n[1]\nEsophageal irritation can be perceived as foreign body (globus sensation)\nOnce the object has traversed the pylorus, it usually passes without issue\nExceptions: Irregular or sharp edges, particularly wide (>2.5cm) or long (>6cm) objects\nCommon foreign bodies:\nMost common in children: coins (in the US), animal bones (outside the US)\nMost common in adults: food bolus\nSite of obstruction:\nCricopharyngeus (near C6) muscle is the most common (about 75%)\n[2]\nAortic cross over the esophagus\n[2]\nLower Esophageal Sphincter\n[2]",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Adults": {
+          "text": "Retrosternal pain\nDysphagia\nVomiting\nChoking\nCoughing\n/aspiration (if secretions pool proximal to the obstruction)",
+          "tables": []
+        },
+        "Children": {
+          "text": "Refusal or inability to eat\nVomiting\nGagging and choking\nStridor\nNeck\nor\nthroat\npain\nDrooling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adults": {
+      "text": "Retrosternal pain\nDysphagia\nVomiting\nChoking\nCoughing\n/aspiration (if secretions pool proximal to the obstruction)",
+      "subsections": {
+        "Children": {
+          "text": "Refusal or inability to eat\nVomiting\nGagging and choking\nStridor\nNeck\nor\nthroat\npain\nDrooling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Children": {
+      "text": "Refusal or inability to eat\nVomiting\nGagging and choking\nStridor\nNeck\nor\nthroat\npain\nDrooling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Consider\ntracheal/lung aspiration\nof foreign body",
+      "subsections": {
+        "Dysphagia": {
+          "text": "Oropharyngeal dysphagia\nCVA\nParkinson's disease\nBrain stem tumors\nDegenerative disease -\nALS\n,\nMS\n, Huntington's\nPostinfectious -\npolio\n,\nsyphilis\nPeripheral neuropathy\nMyasthenia gravis\nPolymyositis\n,\ndermatomyositis\nMuscular dystrophy\nEsophageal dysphagia\nAchalasia\nDiffuse esophageal spasm\nIngested foreign body\nEsophageal web\nMalignancy, mediastinal masses\nSchatzki Ring\nScleroderma\nStrictures -\npeptic\n, radiation, chemical, medication-induced\nVascular compression\nZenker's diverticulum",
+          "tables": []
+        },
+        "Upper_GI_Bleeding_(peds)": {
+          "text": "<2mo\nSwallowed maternal blood (from chapped nipples)\nStress ulcer\nVascular malformation\nHemorrhagic disease of newborn (\nvitamin K deficiency\n)\nCoagulopathy\n/bleeding diathesis\n2mo–2yr\nGastroenteritis\nToxic ingestion\nMallory-Weiss tear\nVascular malformation\nEsophagitis\nStress ulcer\nCoagulopathy\n/bleeding diathesis\nGI duplication\nIngested foreign body\n>2yr\nGastroenteritis\nMallory-Weiss tear\nPeptic ulcer disease\nToxic ingestion\nVascular malformation\nGastritis\nVarices\nHemobilia\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Diffuse esophageal spasm",
+          "url": "https://wikem.org/wiki/Diffuse_esophageal_spasm"
+        },
+        {
+          "text": "Schatzki Ring",
+          "url": "https://wikem.org/wiki/Schatzki_Ring"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "peptic",
+          "url": "https://wikem.org/wiki/PUD"
+        },
+        {
+          "text": "Zenker's diverticulum",
+          "url": "https://wikem.org/wiki/Zenker%27s_diverticulum"
+        },
+        {
+          "text": "Stress ulcer",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Stress ulcer",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Varices",
+          "url": "https://wikem.org/wiki/Varices"
+        }
+      ]
+    },
+    "Dysphagia": {
+      "text": "Oropharyngeal dysphagia\nCVA\nParkinson's disease\nBrain stem tumors\nDegenerative disease -\nALS\n,\nMS\n, Huntington's\nPostinfectious -\npolio\n,\nsyphilis\nPeripheral neuropathy\nMyasthenia gravis\nPolymyositis\n,\ndermatomyositis\nMuscular dystrophy\nEsophageal dysphagia\nAchalasia\nDiffuse esophageal spasm\nIngested foreign body\nEsophageal web\nMalignancy, mediastinal masses\nSchatzki Ring\nScleroderma\nStrictures -\npeptic\n, radiation, chemical, medication-induced\nVascular compression\nZenker's diverticulum",
+      "subsections": {
+        "Upper_GI_Bleeding_(peds)": {
+          "text": "<2mo\nSwallowed maternal blood (from chapped nipples)\nStress ulcer\nVascular malformation\nHemorrhagic disease of newborn (\nvitamin K deficiency\n)\nCoagulopathy\n/bleeding diathesis\n2mo–2yr\nGastroenteritis\nToxic ingestion\nMallory-Weiss tear\nVascular malformation\nEsophagitis\nStress ulcer\nCoagulopathy\n/bleeding diathesis\nGI duplication\nIngested foreign body\n>2yr\nGastroenteritis\nMallory-Weiss tear\nPeptic ulcer disease\nToxic ingestion\nVascular malformation\nGastritis\nVarices\nHemobilia\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Diffuse esophageal spasm",
+          "url": "https://wikem.org/wiki/Diffuse_esophageal_spasm"
+        },
+        {
+          "text": "Schatzki Ring",
+          "url": "https://wikem.org/wiki/Schatzki_Ring"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "peptic",
+          "url": "https://wikem.org/wiki/PUD"
+        },
+        {
+          "text": "Zenker's diverticulum",
+          "url": "https://wikem.org/wiki/Zenker%27s_diverticulum"
+        },
+        {
+          "text": "Stress ulcer",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Stress ulcer",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Varices",
+          "url": "https://wikem.org/wiki/Varices"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "May not be needed in settings such as a known food bolus\nPA and lateral films necessary, should include neck, chest, and abdomen\nConsider obtaining lateral neck films\nCoins in esophagus present their face on AP view\nCoins in trachea present their face on lateral view\nBones can only be visualized <50% of time\nButton batteries may present with \"double-ring sign\"\n~60% of foreign bodies are radiopaque\nCT chest\nVery high-yield for both radiopaque and non-radiopaque objects\nSensitivity >99% and specificity 70-92%\n[3]\n[4]\nMRI\nConsider for radiolucent objects to avoid radiation load of CT\nCannot use with metallic objects (if metallic, should be radiopaque on plain films)\nHigher cost than CT, some EDs may not be equipped to perform at certain times, may require sedating the patient due to long image capture times\nBarium Swallow is\nnot recommended\ndue to risk of aspiration, mediastinitis, and barrium coating mucosa (makes endoscopy more difficult)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "May not be needed in settings such as a known food bolus\nPA and lateral films necessary, should include neck, chest, and abdomen\nConsider obtaining lateral neck films\nCoins in esophagus present their face on AP view\nCoins in trachea present their face on lateral view\nBones can only be visualized <50% of time\nButton batteries may present with \"double-ring sign\"\n~60% of foreign bodies are radiopaque\nCT chest\nVery high-yield for both radiopaque and non-radiopaque objects\nSensitivity >99% and specificity 70-92%\n[3]\n[4]\nMRI\nConsider for radiolucent objects to avoid radiation load of CT\nCannot use with metallic objects (if metallic, should be radiopaque on plain films)\nHigher cost than CT, some EDs may not be equipped to perform at certain times, may require sedating the patient due to long image capture times\nBarium Swallow is\nnot recommended\ndue to risk of aspiration, mediastinitis, and barrium coating mucosa (makes endoscopy more difficult)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Indications_for_Urgent_Endscopy": {
+          "text": "Complete obstruction of esophagus (pooling, risk of aspiration)\n[5]\nIngestion of button batteries\n[6]\nIngestion of sharp or elongated objects (toothpicks, soda can tabs)\nIngestion of multiple foreign bodies\nEvidence of\nperforation\nCoin at the level of the cricopharyngeus muscle (C6)in a child (Lodged esophageal foreign bodies can cause esophageal necrosis and lead to perforation)\nAirway compromise\nPresence of foreign body for >24hr\nMultiple magnets (can trap bowel)\nObjects >6cm in length",
+          "tables": []
+        },
+        "Food_Impaction": {
+          "text": "Uncomplicated food impaction (no bones, incomplete obstruction) can be managed expectantly but do not allow food bolus to remain impacted for >12-24hr.  It is reasonable to consider therapies such as\nglucagon\nor a carbonated beverage\nGlucagon 1-2mg IV/IM (adults) to relax LES - may cause severe nausea/vomiting\nOnly one RCT of glucagon with 24 patients compared glucagon to diazepam and found no difference in the need for endoscopy\n[7]\nThe major side effect of glucagon is vomiting and can increase the risk for esophageal perforation or aspiration. Consider pretreatment with an antiemetic\nRate of success increases with soft foods and lack of anatomic pathology, though in majority of presentations this information, particularly anatomic defects, is unknown\nCarbonated beverage (effervescents) may be effective for small impactions (carbonation dilates esophagus)\n[2]\nCalcium channel blockers (nifedipine) / Benzos / Nitrates / papain (meat tenderizer) no longer recommended given low success and higher side effect profile\n[2]",
+          "tables": []
+        },
+        "Coin_Ingestion": {
+          "text": "If attempting to avoid endoscopy, there are non-endoscopic management options\nFoley Catheter removal\nTraditionally was done with fluoroscopy, but has been demonstrated to be safe without it. First described by Bigler et. al. in 1966\n[8]\nDoes not require subspecialist\nCheap, can save 300-800% on the total Emergency Department bill by avoiding endoscopy\n[9]\n[10]\n[11]\nThe diameter of the foley balloon should be decided based on the diameter measured on radiograph or with twin object brought in by a family member. This procedure can be done with or without sedation depending on the patient age and clinical comfortability but has been demonstrated to be equally effective without sedation. The catheter is then inserted into the esophagus passed the foreign body, inflated with either air or normal saline, and slowly retracted\n[12]\n[13]\nGold standard is still endoscopy, but consider if endoscopy not available or after shared decision-making conversation with patient and family\nBougienage\nThe basis of this technique involves purposefully passing the object into the stomach to help facilitate spontaneous passage thereafter and ensure no esophageal impaction\nHas also been described as safe (<1% complication rate), effective (>95% effective), and cheap (similar cost benefit as detailed above)\n[14]\n[15]\n[16]\nThis involves using a thin, flexible esophageal dilator and passing it from the oral cavity into the esophagus. One can measure the needed depth by measuring a Hurst dilator from the tip of the nose to the epigastrium, then a quick insertion with the child restrained can yield forced passage of the object passed the lower esophageal sphincter.\n[17]",
+          "tables": []
+        },
+        "Button_Battery": {
+          "text": "Administer 10mL of honey every 10min if child is > 12 months old and ingestion < 12 hours old\n[18]\nCall the National Button Battery Ingestion Hotline: 800-498-8666 (24/7)\n[19]\nTrue emergency if located in esophagus\nPerforation can occur within 6hr of ingestion\nvia direct pressure or electrical conduction leading to liquefactive necrosis\nMercury toxicity\nObtain urgent endoscopic removal\nBatteries past the esophagus can be managed expectantly with 24hr follow up",
+          "tables": []
+        },
+        "Sharp_Objects": {
+          "text": "Intestinal perforation from objects distal to stomach is common (up to 35%)\nRequire immediate removal (even if located in stomach or duodenum)\nIf object is distal to duodenum and patient is asymptomatic document passage with daily films\nIf object is distal to duodenum and patient symptomatic obtain immediate surgery consult\n*plastic bread clips are invisible on radiographs and CT",
+          "tables": []
+        },
+        "Body_packing_(with_Narcotics)": {
+          "text": "Multiple packets inserted in latex bags, ingested to cross borders\nEach packet potentially toxic if bag bursts\nConsider\nwhole-bowel irrigation\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated if evidence of systemic toxicity\nDo not discharge until all packets removed or 3 packet-free stools",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indications_for_Urgent_Endscopy": {
+      "text": "Complete obstruction of esophagus (pooling, risk of aspiration)\n[5]\nIngestion of button batteries\n[6]\nIngestion of sharp or elongated objects (toothpicks, soda can tabs)\nIngestion of multiple foreign bodies\nEvidence of\nperforation\nCoin at the level of the cricopharyngeus muscle (C6)in a child (Lodged esophageal foreign bodies can cause esophageal necrosis and lead to perforation)\nAirway compromise\nPresence of foreign body for >24hr\nMultiple magnets (can trap bowel)\nObjects >6cm in length",
+      "subsections": {
+        "Food_Impaction": {
+          "text": "Uncomplicated food impaction (no bones, incomplete obstruction) can be managed expectantly but do not allow food bolus to remain impacted for >12-24hr.  It is reasonable to consider therapies such as\nglucagon\nor a carbonated beverage\nGlucagon 1-2mg IV/IM (adults) to relax LES - may cause severe nausea/vomiting\nOnly one RCT of glucagon with 24 patients compared glucagon to diazepam and found no difference in the need for endoscopy\n[7]\nThe major side effect of glucagon is vomiting and can increase the risk for esophageal perforation or aspiration. Consider pretreatment with an antiemetic\nRate of success increases with soft foods and lack of anatomic pathology, though in majority of presentations this information, particularly anatomic defects, is unknown\nCarbonated beverage (effervescents) may be effective for small impactions (carbonation dilates esophagus)\n[2]\nCalcium channel blockers (nifedipine) / Benzos / Nitrates / papain (meat tenderizer) no longer recommended given low success and higher side effect profile\n[2]",
+          "tables": []
+        },
+        "Coin_Ingestion": {
+          "text": "If attempting to avoid endoscopy, there are non-endoscopic management options\nFoley Catheter removal\nTraditionally was done with fluoroscopy, but has been demonstrated to be safe without it. First described by Bigler et. al. in 1966\n[8]\nDoes not require subspecialist\nCheap, can save 300-800% on the total Emergency Department bill by avoiding endoscopy\n[9]\n[10]\n[11]\nThe diameter of the foley balloon should be decided based on the diameter measured on radiograph or with twin object brought in by a family member. This procedure can be done with or without sedation depending on the patient age and clinical comfortability but has been demonstrated to be equally effective without sedation. The catheter is then inserted into the esophagus passed the foreign body, inflated with either air or normal saline, and slowly retracted\n[12]\n[13]\nGold standard is still endoscopy, but consider if endoscopy not available or after shared decision-making conversation with patient and family\nBougienage\nThe basis of this technique involves purposefully passing the object into the stomach to help facilitate spontaneous passage thereafter and ensure no esophageal impaction\nHas also been described as safe (<1% complication rate), effective (>95% effective), and cheap (similar cost benefit as detailed above)\n[14]\n[15]\n[16]\nThis involves using a thin, flexible esophageal dilator and passing it from the oral cavity into the esophagus. One can measure the needed depth by measuring a Hurst dilator from the tip of the nose to the epigastrium, then a quick insertion with the child restrained can yield forced passage of the object passed the lower esophageal sphincter.\n[17]",
+          "tables": []
+        },
+        "Button_Battery": {
+          "text": "Administer 10mL of honey every 10min if child is > 12 months old and ingestion < 12 hours old\n[18]\nCall the National Button Battery Ingestion Hotline: 800-498-8666 (24/7)\n[19]\nTrue emergency if located in esophagus\nPerforation can occur within 6hr of ingestion\nvia direct pressure or electrical conduction leading to liquefactive necrosis\nMercury toxicity\nObtain urgent endoscopic removal\nBatteries past the esophagus can be managed expectantly with 24hr follow up",
+          "tables": []
+        },
+        "Sharp_Objects": {
+          "text": "Intestinal perforation from objects distal to stomach is common (up to 35%)\nRequire immediate removal (even if located in stomach or duodenum)\nIf object is distal to duodenum and patient is asymptomatic document passage with daily films\nIf object is distal to duodenum and patient symptomatic obtain immediate surgery consult\n*plastic bread clips are invisible on radiographs and CT",
+          "tables": []
+        },
+        "Body_packing_(with_Narcotics)": {
+          "text": "Multiple packets inserted in latex bags, ingested to cross borders\nEach packet potentially toxic if bag bursts\nConsider\nwhole-bowel irrigation\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated if evidence of systemic toxicity\nDo not discharge until all packets removed or 3 packet-free stools",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Food_Impaction": {
+      "text": "Uncomplicated food impaction (no bones, incomplete obstruction) can be managed expectantly but do not allow food bolus to remain impacted for >12-24hr.  It is reasonable to consider therapies such as\nglucagon\nor a carbonated beverage\nGlucagon 1-2mg IV/IM (adults) to relax LES - may cause severe nausea/vomiting\nOnly one RCT of glucagon with 24 patients compared glucagon to diazepam and found no difference in the need for endoscopy\n[7]\nThe major side effect of glucagon is vomiting and can increase the risk for esophageal perforation or aspiration. Consider pretreatment with an antiemetic\nRate of success increases with soft foods and lack of anatomic pathology, though in majority of presentations this information, particularly anatomic defects, is unknown\nCarbonated beverage (effervescents) may be effective for small impactions (carbonation dilates esophagus)\n[2]\nCalcium channel blockers (nifedipine) / Benzos / Nitrates / papain (meat tenderizer) no longer recommended given low success and higher side effect profile\n[2]",
+      "subsections": {
+        "Coin_Ingestion": {
+          "text": "If attempting to avoid endoscopy, there are non-endoscopic management options\nFoley Catheter removal\nTraditionally was done with fluoroscopy, but has been demonstrated to be safe without it. First described by Bigler et. al. in 1966\n[8]\nDoes not require subspecialist\nCheap, can save 300-800% on the total Emergency Department bill by avoiding endoscopy\n[9]\n[10]\n[11]\nThe diameter of the foley balloon should be decided based on the diameter measured on radiograph or with twin object brought in by a family member. This procedure can be done with or without sedation depending on the patient age and clinical comfortability but has been demonstrated to be equally effective without sedation. The catheter is then inserted into the esophagus passed the foreign body, inflated with either air or normal saline, and slowly retracted\n[12]\n[13]\nGold standard is still endoscopy, but consider if endoscopy not available or after shared decision-making conversation with patient and family\nBougienage\nThe basis of this technique involves purposefully passing the object into the stomach to help facilitate spontaneous passage thereafter and ensure no esophageal impaction\nHas also been described as safe (<1% complication rate), effective (>95% effective), and cheap (similar cost benefit as detailed above)\n[14]\n[15]\n[16]\nThis involves using a thin, flexible esophageal dilator and passing it from the oral cavity into the esophagus. One can measure the needed depth by measuring a Hurst dilator from the tip of the nose to the epigastrium, then a quick insertion with the child restrained can yield forced passage of the object passed the lower esophageal sphincter.\n[17]",
+          "tables": []
+        },
+        "Button_Battery": {
+          "text": "Administer 10mL of honey every 10min if child is > 12 months old and ingestion < 12 hours old\n[18]\nCall the National Button Battery Ingestion Hotline: 800-498-8666 (24/7)\n[19]\nTrue emergency if located in esophagus\nPerforation can occur within 6hr of ingestion\nvia direct pressure or electrical conduction leading to liquefactive necrosis\nMercury toxicity\nObtain urgent endoscopic removal\nBatteries past the esophagus can be managed expectantly with 24hr follow up",
+          "tables": []
+        },
+        "Sharp_Objects": {
+          "text": "Intestinal perforation from objects distal to stomach is common (up to 35%)\nRequire immediate removal (even if located in stomach or duodenum)\nIf object is distal to duodenum and patient is asymptomatic document passage with daily films\nIf object is distal to duodenum and patient symptomatic obtain immediate surgery consult\n*plastic bread clips are invisible on radiographs and CT",
+          "tables": []
+        },
+        "Body_packing_(with_Narcotics)": {
+          "text": "Multiple packets inserted in latex bags, ingested to cross borders\nEach packet potentially toxic if bag bursts\nConsider\nwhole-bowel irrigation\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated if evidence of systemic toxicity\nDo not discharge until all packets removed or 3 packet-free stools",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Coin_Ingestion": {
+      "text": "If attempting to avoid endoscopy, there are non-endoscopic management options\nFoley Catheter removal\nTraditionally was done with fluoroscopy, but has been demonstrated to be safe without it. First described by Bigler et. al. in 1966\n[8]\nDoes not require subspecialist\nCheap, can save 300-800% on the total Emergency Department bill by avoiding endoscopy\n[9]\n[10]\n[11]\nThe diameter of the foley balloon should be decided based on the diameter measured on radiograph or with twin object brought in by a family member. This procedure can be done with or without sedation depending on the patient age and clinical comfortability but has been demonstrated to be equally effective without sedation. The catheter is then inserted into the esophagus passed the foreign body, inflated with either air or normal saline, and slowly retracted\n[12]\n[13]\nGold standard is still endoscopy, but consider if endoscopy not available or after shared decision-making conversation with patient and family\nBougienage\nThe basis of this technique involves purposefully passing the object into the stomach to help facilitate spontaneous passage thereafter and ensure no esophageal impaction\nHas also been described as safe (<1% complication rate), effective (>95% effective), and cheap (similar cost benefit as detailed above)\n[14]\n[15]\n[16]\nThis involves using a thin, flexible esophageal dilator and passing it from the oral cavity into the esophagus. One can measure the needed depth by measuring a Hurst dilator from the tip of the nose to the epigastrium, then a quick insertion with the child restrained can yield forced passage of the object passed the lower esophageal sphincter.\n[17]",
+      "subsections": {
+        "Button_Battery": {
+          "text": "Administer 10mL of honey every 10min if child is > 12 months old and ingestion < 12 hours old\n[18]\nCall the National Button Battery Ingestion Hotline: 800-498-8666 (24/7)\n[19]\nTrue emergency if located in esophagus\nPerforation can occur within 6hr of ingestion\nvia direct pressure or electrical conduction leading to liquefactive necrosis\nMercury toxicity\nObtain urgent endoscopic removal\nBatteries past the esophagus can be managed expectantly with 24hr follow up",
+          "tables": []
+        },
+        "Sharp_Objects": {
+          "text": "Intestinal perforation from objects distal to stomach is common (up to 35%)\nRequire immediate removal (even if located in stomach or duodenum)\nIf object is distal to duodenum and patient is asymptomatic document passage with daily films\nIf object is distal to duodenum and patient symptomatic obtain immediate surgery consult\n*plastic bread clips are invisible on radiographs and CT",
+          "tables": []
+        },
+        "Body_packing_(with_Narcotics)": {
+          "text": "Multiple packets inserted in latex bags, ingested to cross borders\nEach packet potentially toxic if bag bursts\nConsider\nwhole-bowel irrigation\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated if evidence of systemic toxicity\nDo not discharge until all packets removed or 3 packet-free stools",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Button_Battery": {
+      "text": "Administer 10mL of honey every 10min if child is > 12 months old and ingestion < 12 hours old\n[18]\nCall the National Button Battery Ingestion Hotline: 800-498-8666 (24/7)\n[19]\nTrue emergency if located in esophagus\nPerforation can occur within 6hr of ingestion\nvia direct pressure or electrical conduction leading to liquefactive necrosis\nMercury toxicity\nObtain urgent endoscopic removal\nBatteries past the esophagus can be managed expectantly with 24hr follow up",
+      "subsections": {
+        "Sharp_Objects": {
+          "text": "Intestinal perforation from objects distal to stomach is common (up to 35%)\nRequire immediate removal (even if located in stomach or duodenum)\nIf object is distal to duodenum and patient is asymptomatic document passage with daily films\nIf object is distal to duodenum and patient symptomatic obtain immediate surgery consult\n*plastic bread clips are invisible on radiographs and CT",
+          "tables": []
+        },
+        "Body_packing_(with_Narcotics)": {
+          "text": "Multiple packets inserted in latex bags, ingested to cross borders\nEach packet potentially toxic if bag bursts\nConsider\nwhole-bowel irrigation\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated if evidence of systemic toxicity\nDo not discharge until all packets removed or 3 packet-free stools",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sharp_Objects": {
+      "text": "Intestinal perforation from objects distal to stomach is common (up to 35%)\nRequire immediate removal (even if located in stomach or duodenum)\nIf object is distal to duodenum and patient is asymptomatic document passage with daily films\nIf object is distal to duodenum and patient symptomatic obtain immediate surgery consult\n*plastic bread clips are invisible on radiographs and CT",
+      "subsections": {
+        "Body_packing_(with_Narcotics)": {
+          "text": "Multiple packets inserted in latex bags, ingested to cross borders\nEach packet potentially toxic if bag bursts\nConsider\nwhole-bowel irrigation\nEndoscopy contraindicated (high % leakage/rupture of packets)\nSurgical removal indicated if evidence of systemic toxicity\nDo not discharge until all packets removed or 3 packet-free stools",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "80-90% of ingested foreign bodies will pass spontaneously and do not require observation or hospitalization\nIf endoscopy performed, generally patients can still be discharged afterward and do not require hospitalization unless direct mucosal injury or other complication is identified\nIf any necrosis is present (button battery, caustic ingestion), will likely need GI follow up as strictures, fistulas can occur",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Airway compromise\nAspiration pneumonia\nEsophageal perforation\n/necrosis\nMediastinitis\nAortic perforation\nVocal cord paralysis\nBowel perforation/\nnecrosis\n, fistulas,\nobstruction\nStricture\nInfection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Poison Control - Button Battery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Foreign bodies\nEsophageal foreign body removal with foley catheter\nBezoar\nEsophageal perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Video": {
+      "text": "{{#widget:YouTube|id=gKj13Mq2FC8}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

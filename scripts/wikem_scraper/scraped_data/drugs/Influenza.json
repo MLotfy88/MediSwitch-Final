@@ -1,0 +1,1241 @@
+{
+  "drug_name": "Influenza",
+  "url": "https://wikem.org/wiki/Influenza",
+  "scraped_at": "2026-01-10T07:55:29.273376",
+  "sections": {
+    "Background": {
+      "text": "Human Influenza type A and B cause majority of infections. Type A has more severe disease course.",
+      "subsections": {
+        "Transmission": {
+          "text": "Occurs in 6ft radius around infected patient who is sneezing and/or coughing\nViral shedding lasts ~5d (starts 24-48hr before onset of symptoms)\nLonger duration of shedding occurs in children, elderly, patients with chronic illnesses\nShedding from asymptomatic individuals does not contribute significantly to transmission\nUse of either N95 or plain surgical mask by healthcare professionals caring for patients with proven influenza helps to decrease rates of provider contraction of influenza.\n[1]",
+          "tables": []
+        },
+        "Risk_Factors_(for_complicated_course)": {
+          "text": "Age <2 years or >65 years\nPregnancy\nthrough 2 weeks after delivery\nChronic pulmonary (including\nasthma\n), cardiovascular (except hypertension), renal, hepatic, hematological (including sickle cell disease), neurologic, neuromuscular, or metabolic disorders (including diabetes mellitus)\nImmunosuppression, including that caused by medications or by HIV\nPersons younger than 19 years of age who are receiving long-term aspirin therapy\nAmerican Indians and Alaska Natives\nMorbid obesity\nPatients in nursing homes or chronic-care facilities",
+          "tables": []
+        },
+        "Vaccination_Status": {
+          "text": "A history of influenza vaccination does not rule out influenza in an ill patient with clinical signs and symptoms compatible with influenza.\nTherefore, vaccination status should not impede the initiation of prompt antiviral treatment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Transmission": {
+      "text": "Occurs in 6ft radius around infected patient who is sneezing and/or coughing\nViral shedding lasts ~5d (starts 24-48hr before onset of symptoms)\nLonger duration of shedding occurs in children, elderly, patients with chronic illnesses\nShedding from asymptomatic individuals does not contribute significantly to transmission\nUse of either N95 or plain surgical mask by healthcare professionals caring for patients with proven influenza helps to decrease rates of provider contraction of influenza.\n[1]",
+      "subsections": {
+        "Risk_Factors_(for_complicated_course)": {
+          "text": "Age <2 years or >65 years\nPregnancy\nthrough 2 weeks after delivery\nChronic pulmonary (including\nasthma\n), cardiovascular (except hypertension), renal, hepatic, hematological (including sickle cell disease), neurologic, neuromuscular, or metabolic disorders (including diabetes mellitus)\nImmunosuppression, including that caused by medications or by HIV\nPersons younger than 19 years of age who are receiving long-term aspirin therapy\nAmerican Indians and Alaska Natives\nMorbid obesity\nPatients in nursing homes or chronic-care facilities",
+          "tables": []
+        },
+        "Vaccination_Status": {
+          "text": "A history of influenza vaccination does not rule out influenza in an ill patient with clinical signs and symptoms compatible with influenza.\nTherefore, vaccination status should not impede the initiation of prompt antiviral treatment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Vaccination_Status": {
+      "text": "A history of influenza vaccination does not rule out influenza in an ill patient with clinical signs and symptoms compatible with influenza.\nTherefore, vaccination status should not impede the initiation of prompt antiviral treatment.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Constitutional\nFever\nHeadache\nMyalgias\nMalaise\nRespiratory\nNon-productive\ncough\nSore throat\nRhinorrhea",
+      "subsections": {
+        "Cough_and_Fever": {
+          "text": "Odds that acute cough and fever are due to flu during flu season:\n[2]\nAdolescents ≥ 12 yo - 79-88%\nChildren 5-12 yo - 71-83%\nChildren < 5 yo - 64%\nAdults - unreliable predictors especially when older than 60 yo",
+          "tables": []
+        },
+        "Convalescence": {
+          "text": "Most gradually improve over 2-5d, although may last for one week or more\nSome have persistent weakness lasting several weeks (postinfluenza asthenia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        }
+      ]
+    },
+    "Cough_and_Fever": {
+      "text": "Odds that acute cough and fever are due to flu during flu season:\n[2]\nAdolescents ≥ 12 yo - 79-88%\nChildren 5-12 yo - 71-83%\nChildren < 5 yo - 64%\nAdults - unreliable predictors especially when older than 60 yo",
+      "subsections": {
+        "Convalescence": {
+          "text": "Most gradually improve over 2-5d, although may last for one week or more\nSome have persistent weakness lasting several weeks (postinfluenza asthenia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Convalescence": {
+      "text": "Most gradually improve over 2-5d, although may last for one week or more\nSome have persistent weakness lasting several weeks (postinfluenza asthenia)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Fever": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Influenza PCR preferred for inpatients (sensitivity >95%)\nRSV/Flu/metapneumovirus test low sensitivity for adults (48-60%) and children (62-72%), with turnaround time <24 hours\nThe Viral Respiratory Panel (influenza, RSV, adenovirus, parainfluenzavirus) discouraged (sensitive 70-90%) with 3-5 days turnaround\nRapid tests specific but not sensitive (cannot be used to rule-out)",
+          "tables": []
+        },
+        "Outpatients": {
+          "text": "Risk factors:\nYes\nDo NOT send Point of Care influenza test\nDo NOT send diagnostic test for influenza\nEmpirically treat for influenza using antivirals if symptoms for <48 hours\nNo\nDo NOT send Point of Care influenza test.\nDo NOT send diagnostic test for influenza.\nMay consider treating with anti-influenza antivirals if symptoms <48 hours",
+          "tables": []
+        },
+        "Admitted_Patients": {
+          "text": "Do not send Point of Care influenza test\nSend diagnostic test for influenza\nInfluenza PCR preferred for inpatients\nEmpirically treat for influenza using antivirals\nMost effective when administered when symptoms of influenza have occurred for < 48 hours\nMay be benefit when initiated in severely ill inpatients with 48 hours to 5 days of symptoms\nNo evidence of benefit after 5 days of symptoms\nTreat empirically promptly with\noseltamavir\nunless there is an alternative diagnosis\nDroplet precautions (see below)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oseltamavir",
+          "url": "https://wikem.org/wiki/Oseltamavir"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Influenza PCR preferred for inpatients (sensitivity >95%)\nRSV/Flu/metapneumovirus test low sensitivity for adults (48-60%) and children (62-72%), with turnaround time <24 hours\nThe Viral Respiratory Panel (influenza, RSV, adenovirus, parainfluenzavirus) discouraged (sensitive 70-90%) with 3-5 days turnaround\nRapid tests specific but not sensitive (cannot be used to rule-out)",
+      "subsections": {
+        "Outpatients": {
+          "text": "Risk factors:\nYes\nDo NOT send Point of Care influenza test\nDo NOT send diagnostic test for influenza\nEmpirically treat for influenza using antivirals if symptoms for <48 hours\nNo\nDo NOT send Point of Care influenza test.\nDo NOT send diagnostic test for influenza.\nMay consider treating with anti-influenza antivirals if symptoms <48 hours",
+          "tables": []
+        },
+        "Admitted_Patients": {
+          "text": "Do not send Point of Care influenza test\nSend diagnostic test for influenza\nInfluenza PCR preferred for inpatients\nEmpirically treat for influenza using antivirals\nMost effective when administered when symptoms of influenza have occurred for < 48 hours\nMay be benefit when initiated in severely ill inpatients with 48 hours to 5 days of symptoms\nNo evidence of benefit after 5 days of symptoms\nTreat empirically promptly with\noseltamavir\nunless there is an alternative diagnosis\nDroplet precautions (see below)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oseltamavir",
+          "url": "https://wikem.org/wiki/Oseltamavir"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Outpatients": {
+          "text": "Risk factors:\nYes\nDo NOT send Point of Care influenza test\nDo NOT send diagnostic test for influenza\nEmpirically treat for influenza using antivirals if symptoms for <48 hours\nNo\nDo NOT send Point of Care influenza test.\nDo NOT send diagnostic test for influenza.\nMay consider treating with anti-influenza antivirals if symptoms <48 hours",
+          "tables": []
+        },
+        "Admitted_Patients": {
+          "text": "Do not send Point of Care influenza test\nSend diagnostic test for influenza\nInfluenza PCR preferred for inpatients\nEmpirically treat for influenza using antivirals\nMost effective when administered when symptoms of influenza have occurred for < 48 hours\nMay be benefit when initiated in severely ill inpatients with 48 hours to 5 days of symptoms\nNo evidence of benefit after 5 days of symptoms\nTreat empirically promptly with\noseltamavir\nunless there is an alternative diagnosis\nDroplet precautions (see below)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oseltamavir",
+          "url": "https://wikem.org/wiki/Oseltamavir"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Isolation_Precautions": {
+          "text": "Droplet precautions\nIf the patient is in an area in which they are in contact with other patients or need to be transported and thus may come in close contact (<3 feet) with staff, visitors, or other patients, the patient needs to wear a surgical mask (or N-95 respirator, if not available).",
+          "tables": []
+        },
+        "Antiviral_Treatment": {
+          "text": "Despite questions on efficacy and safety, CDC still recommends treatment for all hospitalized patients and outpatients at risk for complications\n[3]",
+          "tables": [
+            [
+              {
+                "Antiviral Agent": "Oseltamivir(Tamiflu®)",
+                "Recommended For": "Treatment: any ageProphylaxis: >3 months",
+                "Not Recommended With": "N/A",
+                "Adverse Events": "Adverse events: nausea, vomiting. Sporadic, transient neuropsychiatric events (self-injury or delirium) mainly reported among Japanese adolescents and adults."
+              },
+              {
+                "Antiviral Agent": "Zanamivir(Relenza®)",
+                "Recommended For": "Treatment: >7 yrsProphylaxis >5 years",
+                "Not Recommended With": "Underlying respiratory disease (e.g., asthma, COPD)",
+                "Adverse Events": "Allergic reactions: oropharyngeal or facial edema.Adverse events: diarrhea, nausea, sinusitis, nasal signs and symptoms, bronchitis, cough, headache, dizziness, and ear, nose and throat infections."
+              },
+              {
+                "Antiviral Agent": "Baloxavir marboxil(Xofluza®)",
+                "Recommended For": "Treatment: >12 yearsProphylaxis: not yet approved for this indication",
+                "Not Recommended With": "children less than 12 or weighing less than 40kg, pregnancy, breastfeeding",
+                "Adverse Events": "Adverse Events: diarrhea, bronchitis, nausea, common cold symptoms (nasopharyngitis) and headacheAllergic reactions: oropharyngeal or facial edema"
+              }
+            ]
+          ]
+        },
+        "Oseltamivir_(Tamiflu)": {
+          "text": "Shorten duration of illness by 16.8 hrs while NNTH (number needed to harm) was 28 in regards to causing nausea/vomiting, headache and renal and psych syndromes\n[4]\nGreatest benefit if within 48hrs of symptom onset\n[5]\nHowever, may be beneficial up to 4-5 days, including in pregnant patients\nEarly treatment of hospitalized patients can reduce death",
+          "tables": []
+        },
+        "Dosing": {
+          "text": "Age <1 year:\n3mg/kg PO BID x 5 days\n<15kg:\n30mg PO BID x 5 days\n15-23kg:\n45mg PO BID x 5 days\n24-40kg:\n60mg PO BID x5d\nAdult:\n75mg PO BID x 5 days",
+          "tables": []
+        },
+        "Zanamivir_(Relenza)": {
+          "text": "Relatively contraindicated in patients with\nasthma\n,\nCOPD\n, or\npregnancy\n. Shorten duration of illness by 14.4 hrs with no reduction in flu-related complications\n[6]",
+          "tables": []
+        },
+        "Dosing_2": {
+          "text": "Age >7yo:\n10mg (2 inhalations) BID x 5d\nProphylaxis:\n10mg (2 inhalations) once daily x 7 days\nNot for age < 5yo",
+          "tables": []
+        },
+        "Baloxavir_marboxil_(Xofluza)": {
+          "text": "Only approved for patients >12 years old and >40kg in weight, no current safety data exists for pregnancy and breastfeeding.\n[7]\nMore expensive but one time dosing. Genentech, its creator, states a recent phase III trial has shown it to be effective for prophylaxis but not currently FDA indicated for this.\n[8]",
+          "tables": []
+        },
+        "Dosing_3": {
+          "text": "Weight between 40-80kg:\n40mg PO once (20 mg tab x2)\nWeight >80kg:\n80mg PO once (40mg tab x2)\nProphlyaxis:\nnot yet approved for this indication by CDC or FDA",
+          "tables": []
+        },
+        "NOT_Indicated": {
+          "text": "Amantadine and other M2 viral proton channel blockers are\nno longer indicated for influenza treatment\ndue to nearly 100% resistance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Isolation_Precautions": {
+      "text": "Droplet precautions\nIf the patient is in an area in which they are in contact with other patients or need to be transported and thus may come in close contact (<3 feet) with staff, visitors, or other patients, the patient needs to wear a surgical mask (or N-95 respirator, if not available).",
+      "subsections": {
+        "Antiviral_Treatment": {
+          "text": "Despite questions on efficacy and safety, CDC still recommends treatment for all hospitalized patients and outpatients at risk for complications\n[3]",
+          "tables": [
+            [
+              {
+                "Antiviral Agent": "Oseltamivir(Tamiflu®)",
+                "Recommended For": "Treatment: any ageProphylaxis: >3 months",
+                "Not Recommended With": "N/A",
+                "Adverse Events": "Adverse events: nausea, vomiting. Sporadic, transient neuropsychiatric events (self-injury or delirium) mainly reported among Japanese adolescents and adults."
+              },
+              {
+                "Antiviral Agent": "Zanamivir(Relenza®)",
+                "Recommended For": "Treatment: >7 yrsProphylaxis >5 years",
+                "Not Recommended With": "Underlying respiratory disease (e.g., asthma, COPD)",
+                "Adverse Events": "Allergic reactions: oropharyngeal or facial edema.Adverse events: diarrhea, nausea, sinusitis, nasal signs and symptoms, bronchitis, cough, headache, dizziness, and ear, nose and throat infections."
+              },
+              {
+                "Antiviral Agent": "Baloxavir marboxil(Xofluza®)",
+                "Recommended For": "Treatment: >12 yearsProphylaxis: not yet approved for this indication",
+                "Not Recommended With": "children less than 12 or weighing less than 40kg, pregnancy, breastfeeding",
+                "Adverse Events": "Adverse Events: diarrhea, bronchitis, nausea, common cold symptoms (nasopharyngitis) and headacheAllergic reactions: oropharyngeal or facial edema"
+              }
+            ]
+          ]
+        },
+        "Oseltamivir_(Tamiflu)": {
+          "text": "Shorten duration of illness by 16.8 hrs while NNTH (number needed to harm) was 28 in regards to causing nausea/vomiting, headache and renal and psych syndromes\n[4]\nGreatest benefit if within 48hrs of symptom onset\n[5]\nHowever, may be beneficial up to 4-5 days, including in pregnant patients\nEarly treatment of hospitalized patients can reduce death",
+          "tables": []
+        },
+        "Dosing": {
+          "text": "Age <1 year:\n3mg/kg PO BID x 5 days\n<15kg:\n30mg PO BID x 5 days\n15-23kg:\n45mg PO BID x 5 days\n24-40kg:\n60mg PO BID x5d\nAdult:\n75mg PO BID x 5 days",
+          "tables": []
+        },
+        "Zanamivir_(Relenza)": {
+          "text": "Relatively contraindicated in patients with\nasthma\n,\nCOPD\n, or\npregnancy\n. Shorten duration of illness by 14.4 hrs with no reduction in flu-related complications\n[6]",
+          "tables": []
+        },
+        "Dosing_2": {
+          "text": "Age >7yo:\n10mg (2 inhalations) BID x 5d\nProphylaxis:\n10mg (2 inhalations) once daily x 7 days\nNot for age < 5yo",
+          "tables": []
+        },
+        "Baloxavir_marboxil_(Xofluza)": {
+          "text": "Only approved for patients >12 years old and >40kg in weight, no current safety data exists for pregnancy and breastfeeding.\n[7]\nMore expensive but one time dosing. Genentech, its creator, states a recent phase III trial has shown it to be effective for prophylaxis but not currently FDA indicated for this.\n[8]",
+          "tables": []
+        },
+        "Dosing_3": {
+          "text": "Weight between 40-80kg:\n40mg PO once (20 mg tab x2)\nWeight >80kg:\n80mg PO once (40mg tab x2)\nProphlyaxis:\nnot yet approved for this indication by CDC or FDA",
+          "tables": []
+        },
+        "NOT_Indicated": {
+          "text": "Amantadine and other M2 viral proton channel blockers are\nno longer indicated for influenza treatment\ndue to nearly 100% resistance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Antiviral_Treatment": {
+      "text": "Despite questions on efficacy and safety, CDC still recommends treatment for all hospitalized patients and outpatients at risk for complications\n[3]",
+      "subsections": {
+        "Oseltamivir_(Tamiflu)": {
+          "text": "Shorten duration of illness by 16.8 hrs while NNTH (number needed to harm) was 28 in regards to causing nausea/vomiting, headache and renal and psych syndromes\n[4]\nGreatest benefit if within 48hrs of symptom onset\n[5]\nHowever, may be beneficial up to 4-5 days, including in pregnant patients\nEarly treatment of hospitalized patients can reduce death",
+          "tables": []
+        },
+        "Dosing": {
+          "text": "Age <1 year:\n3mg/kg PO BID x 5 days\n<15kg:\n30mg PO BID x 5 days\n15-23kg:\n45mg PO BID x 5 days\n24-40kg:\n60mg PO BID x5d\nAdult:\n75mg PO BID x 5 days",
+          "tables": []
+        },
+        "Zanamivir_(Relenza)": {
+          "text": "Relatively contraindicated in patients with\nasthma\n,\nCOPD\n, or\npregnancy\n. Shorten duration of illness by 14.4 hrs with no reduction in flu-related complications\n[6]",
+          "tables": []
+        },
+        "Dosing_2": {
+          "text": "Age >7yo:\n10mg (2 inhalations) BID x 5d\nProphylaxis:\n10mg (2 inhalations) once daily x 7 days\nNot for age < 5yo",
+          "tables": []
+        },
+        "Baloxavir_marboxil_(Xofluza)": {
+          "text": "Only approved for patients >12 years old and >40kg in weight, no current safety data exists for pregnancy and breastfeeding.\n[7]\nMore expensive but one time dosing. Genentech, its creator, states a recent phase III trial has shown it to be effective for prophylaxis but not currently FDA indicated for this.\n[8]",
+          "tables": []
+        },
+        "Dosing_3": {
+          "text": "Weight between 40-80kg:\n40mg PO once (20 mg tab x2)\nWeight >80kg:\n80mg PO once (40mg tab x2)\nProphlyaxis:\nnot yet approved for this indication by CDC or FDA",
+          "tables": []
+        },
+        "NOT_Indicated": {
+          "text": "Amantadine and other M2 viral proton channel blockers are\nno longer indicated for influenza treatment\ndue to nearly 100% resistance",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Antiviral Agent": "Oseltamivir(Tamiflu®)",
+            "Recommended For": "Treatment: any ageProphylaxis: >3 months",
+            "Not Recommended With": "N/A",
+            "Adverse Events": "Adverse events: nausea, vomiting. Sporadic, transient neuropsychiatric events (self-injury or delirium) mainly reported among Japanese adolescents and adults."
+          },
+          {
+            "Antiviral Agent": "Zanamivir(Relenza®)",
+            "Recommended For": "Treatment: >7 yrsProphylaxis >5 years",
+            "Not Recommended With": "Underlying respiratory disease (e.g., asthma, COPD)",
+            "Adverse Events": "Allergic reactions: oropharyngeal or facial edema.Adverse events: diarrhea, nausea, sinusitis, nasal signs and symptoms, bronchitis, cough, headache, dizziness, and ear, nose and throat infections."
+          },
+          {
+            "Antiviral Agent": "Baloxavir marboxil(Xofluza®)",
+            "Recommended For": "Treatment: >12 yearsProphylaxis: not yet approved for this indication",
+            "Not Recommended With": "children less than 12 or weighing less than 40kg, pregnancy, breastfeeding",
+            "Adverse Events": "Adverse Events: diarrhea, bronchitis, nausea, common cold symptoms (nasopharyngitis) and headacheAllergic reactions: oropharyngeal or facial edema"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "NOT_Indicated": {
+      "text": "Amantadine and other M2 viral proton channel blockers are\nno longer indicated for influenza treatment\ndue to nearly 100% resistance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Pneumonia\nPrimary influenza pneumonia\nMost severe and least common type of pneumonia\nRare in otherwise healthy adults\nConsider in patients with persistent and worsening symptoms (esp high fever, shortness of breath, cyanosis)\nCXR\nshows bilateral opacities with or with out superimposed consolidation\nSecondary bacterial pneumonia\nExacerbation of fever and respiratory symptoms after initial improvement\nHigher fever, productive cough, radiographic evidence of infiltrates\nMicrobiology\nPneumococcus\nand\nS. aureus\n(including\nMRSA\n) most common (35% and 28%, respectively)\n[9]\nMRSA\nassociated with necrotizing cavitary infections with high mortality rate in previously healthy young people\n[10]\n[11]\nOtitis Media\nMore common in children\nMyositis\nand\nrhabdomyolysis\nMore common in children\nExtreme tenderness of affected muscles (most commonly in the legs)\nPericarditis\n/\nmyocarditis\nRare complication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "H1N1 (Swine) Flu\nPandemic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "H1N1 (Swine) Flu",
+          "url": "https://wikem.org/wiki/H1N1_(Swine)_Flu"
+        },
+        {
+          "text": "Pandemic",
+          "url": "https://wikem.org/wiki/Pandemic"
+        }
+      ]
+    }
+  }
+}

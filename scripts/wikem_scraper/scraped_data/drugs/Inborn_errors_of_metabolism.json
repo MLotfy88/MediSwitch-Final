@@ -1,0 +1,559 @@
+{
+  "drug_name": "Inborn_errors_of_metabolism",
+  "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism",
+  "scraped_at": "2026-01-10T07:55:27.096784",
+  "sections": {
+    "Background": {
+      "text": "Clinical manifestations are due to accumulation of toxic metabolites\nSuspect in any sick neonate\nNewborn screening varies by state\nMay present as late as early adulthood\nMust rule-out\nsepsis\n(more common in these patients due to organic acid-induced bone marrow suppression) and other physiologic stressors that might be precipitating decompensation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Peds)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Varies depending on disorder\nLethargy,\nAMS\n,\nencephalopathy\n(often\nhyperammonemic\n)\nSeizure\nHypotonia\nNausea\n/\nvomiting\n,\ndiarrhea\nDifficulty feeding\nFailure to thrive\nUnusual odors\nHypoglycemia\nOrganomegaly\n+/- Skin\nrashes\n+/- Eye findings\nSigns/symptoms of\ndehydration\nInfections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "hyperammonemic",
+          "url": "https://wikem.org/wiki/Hyperammonemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Failure to thrive",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "rashes",
+          "url": "https://wikem.org/wiki/Rashes_(Peds)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for metabolic derangement +/- precipitant of decompensation\nLabs:\nGlucose\nlevel (most important/time sensitive!)\nKetones\n(urine or serum beta hydroxybutyrate)- helpful to obtain prior to giving\ndextrose\nin hypoglycemic patients, if possible\nAmmonia\nShould be <100 in normal neonate\nBMP,\nLFTs\nAnion gap (if >20, suggests an organic acidemia)\nMay see hypoglycemia,\nmetabolic acidosis\nVBG\nLactate\nand pyruvate (drawn at same time)\nCBC\nBlood culture, urine culture, +/-\nCSF\nAdditional tests to aid in definitive diagnosis (consider setting aside blood sample on ice prior to dextrose admin)\nMuscle function tests (e.g. CPK, LDH, myoglobin)\nSerum/plasma pyruvate, amino acids, acylcarnitine profile\nUrine organic acids, acylglycines, orotic acid\nConsider\nhead CT\n(evaluate for cerebral edema and alternate etiologies of symptoms)\nEvaluate for alternate etiologies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketones",
+          "url": "https://wikem.org/wiki/Ketonemia"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Patients with diagnosed inborn errors often have pre-established plans for \"sick day\" or emergency guidance\nEarly consultation with specialists",
+      "subsections": {
+        "Resuscitate,_stop_catabolism/accumulation_of_toxins": {
+          "text": "Keep NPO\nRemoves potential inciting metabolic substrates\nIVF\nNormal saline\n10-20 mL/kg boluses\nReassess after each bolus, as\ncongenital heart disease\nmay mimic symptoms of inborn errors\nIVF with\ndextrose\n(D10) and 0.45 or 0.9% NS at 1.5-2x maintenance\nAggressive hydration increases urinary excretion of toxic metabolites, dextrose provides metabolic substrate",
+          "tables": []
+        },
+        "Hyperammonemia": {
+          "text": "<500 micromoles/L\nsodium phenylacetate/sodium benzoate\n(Ammonul) 250mg/kg in D10 over 90min; then 250mg/kg/d infusion\nArginine 210mg/kg IV/IO in D10 over 90min; then 210mg/kg/d infusion\n+/-\ncarnitine\n, 400 mg IV/IO in consultation w/specialist\nMay require\ndialysis\nif refractory/severe",
+          "tables": []
+        },
+        "Acidosis": {
+          "text": "Sodium\nbicarbonate\n0.5 mEq/kg/h if pH <7.0\n[2]\nReserve for severe and/or refractory acidosis due to potential side effects of sodium overload, cerebral edema, cardiac dysfunction\nCaution intubating any child in metabolic crisis due to potential worsening of acidosis",
+          "tables": []
+        },
+        "Cerebral_edema": {
+          "text": "Hyperammonemia is risk factor\nMannitol\n0.5gm/kg IV/IO\nDo\nnot\ngive steroids (worsens hyperammonemia)",
+          "tables": []
+        },
+        "Seizure": {
+          "text": "Consider\nvitamin B6\n(pyridoxine) in addition to usual care",
+          "tables": []
+        },
+        "Infection/Sepsis": {
+          "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium phenylacetate/sodium benzoate",
+          "url": "https://wikem.org/wiki/Sodium_phenylacetate/sodium_benzoate"
+        },
+        {
+          "text": "carnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "vitamin B6",
+          "url": "https://wikem.org/wiki/Vitamin_B6"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Resuscitate,_stop_catabolism/accumulation_of_toxins": {
+      "text": "Keep NPO\nRemoves potential inciting metabolic substrates\nIVF\nNormal saline\n10-20 mL/kg boluses\nReassess after each bolus, as\ncongenital heart disease\nmay mimic symptoms of inborn errors\nIVF with\ndextrose\n(D10) and 0.45 or 0.9% NS at 1.5-2x maintenance\nAggressive hydration increases urinary excretion of toxic metabolites, dextrose provides metabolic substrate",
+      "subsections": {
+        "Hyperammonemia": {
+          "text": "<500 micromoles/L\nsodium phenylacetate/sodium benzoate\n(Ammonul) 250mg/kg in D10 over 90min; then 250mg/kg/d infusion\nArginine 210mg/kg IV/IO in D10 over 90min; then 210mg/kg/d infusion\n+/-\ncarnitine\n, 400 mg IV/IO in consultation w/specialist\nMay require\ndialysis\nif refractory/severe",
+          "tables": []
+        },
+        "Acidosis": {
+          "text": "Sodium\nbicarbonate\n0.5 mEq/kg/h if pH <7.0\n[2]\nReserve for severe and/or refractory acidosis due to potential side effects of sodium overload, cerebral edema, cardiac dysfunction\nCaution intubating any child in metabolic crisis due to potential worsening of acidosis",
+          "tables": []
+        },
+        "Cerebral_edema": {
+          "text": "Hyperammonemia is risk factor\nMannitol\n0.5gm/kg IV/IO\nDo\nnot\ngive steroids (worsens hyperammonemia)",
+          "tables": []
+        },
+        "Seizure": {
+          "text": "Consider\nvitamin B6\n(pyridoxine) in addition to usual care",
+          "tables": []
+        },
+        "Infection/Sepsis": {
+          "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium phenylacetate/sodium benzoate",
+          "url": "https://wikem.org/wiki/Sodium_phenylacetate/sodium_benzoate"
+        },
+        {
+          "text": "carnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "vitamin B6",
+          "url": "https://wikem.org/wiki/Vitamin_B6"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Hyperammonemia": {
+      "text": "<500 micromoles/L\nsodium phenylacetate/sodium benzoate\n(Ammonul) 250mg/kg in D10 over 90min; then 250mg/kg/d infusion\nArginine 210mg/kg IV/IO in D10 over 90min; then 210mg/kg/d infusion\n+/-\ncarnitine\n, 400 mg IV/IO in consultation w/specialist\nMay require\ndialysis\nif refractory/severe",
+      "subsections": {
+        "Acidosis": {
+          "text": "Sodium\nbicarbonate\n0.5 mEq/kg/h if pH <7.0\n[2]\nReserve for severe and/or refractory acidosis due to potential side effects of sodium overload, cerebral edema, cardiac dysfunction\nCaution intubating any child in metabolic crisis due to potential worsening of acidosis",
+          "tables": []
+        },
+        "Cerebral_edema": {
+          "text": "Hyperammonemia is risk factor\nMannitol\n0.5gm/kg IV/IO\nDo\nnot\ngive steroids (worsens hyperammonemia)",
+          "tables": []
+        },
+        "Seizure": {
+          "text": "Consider\nvitamin B6\n(pyridoxine) in addition to usual care",
+          "tables": []
+        },
+        "Infection/Sepsis": {
+          "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sodium phenylacetate/sodium benzoate",
+          "url": "https://wikem.org/wiki/Sodium_phenylacetate/sodium_benzoate"
+        },
+        {
+          "text": "carnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "vitamin B6",
+          "url": "https://wikem.org/wiki/Vitamin_B6"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Acidosis": {
+      "text": "Sodium\nbicarbonate\n0.5 mEq/kg/h if pH <7.0\n[2]\nReserve for severe and/or refractory acidosis due to potential side effects of sodium overload, cerebral edema, cardiac dysfunction\nCaution intubating any child in metabolic crisis due to potential worsening of acidosis",
+      "subsections": {
+        "Cerebral_edema": {
+          "text": "Hyperammonemia is risk factor\nMannitol\n0.5gm/kg IV/IO\nDo\nnot\ngive steroids (worsens hyperammonemia)",
+          "tables": []
+        },
+        "Seizure": {
+          "text": "Consider\nvitamin B6\n(pyridoxine) in addition to usual care",
+          "tables": []
+        },
+        "Infection/Sepsis": {
+          "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "vitamin B6",
+          "url": "https://wikem.org/wiki/Vitamin_B6"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Cerebral_edema": {
+      "text": "Hyperammonemia is risk factor\nMannitol\n0.5gm/kg IV/IO\nDo\nnot\ngive steroids (worsens hyperammonemia)",
+      "subsections": {
+        "Seizure": {
+          "text": "Consider\nvitamin B6\n(pyridoxine) in addition to usual care",
+          "tables": []
+        },
+        "Infection/Sepsis": {
+          "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "vitamin B6",
+          "url": "https://wikem.org/wiki/Vitamin_B6"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Seizure": {
+      "text": "Consider\nvitamin B6\n(pyridoxine) in addition to usual care",
+      "subsections": {
+        "Infection/Sepsis": {
+          "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vitamin B6",
+          "url": "https://wikem.org/wiki/Vitamin_B6"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Infection/Sepsis": {
+      "text": "Consider empiric\nantibiotics\nin all infants in metabolic crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Dispo": {
+      "text": "Admit or transfer to tertiary care children's hospital",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal Resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal Resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_Resuscitation"
+        }
+      ]
+    }
+  }
+}

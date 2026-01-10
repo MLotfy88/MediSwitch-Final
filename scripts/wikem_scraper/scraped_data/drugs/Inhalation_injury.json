@@ -1,0 +1,1258 @@
+{
+  "drug_name": "Inhalation_injury",
+  "url": "https://wikem.org/wiki/Inhalation_injury",
+  "scraped_at": "2026-01-10T07:55:32.119689",
+  "sections": {
+    "Background": {
+      "text": "Inhalational injury a concern with history of being trapped in enclosed space for some time with toxic gases / fumes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Initial signs/symptoms -\ncough\n,\nwheezing\n,\ndyspnea\n, irritated mucous members (runny eyes/nose),\nchest pain\n,\nhypoxia\nSpecific features dependent on type of exposure",
+          "tables": []
+        },
+        "Inert_Gases": {
+          "text": "Inert gases (carbon dioxide, fuel gases) displace air and oxygen producing asphyxia\nPresent with severe\nhypoxia",
+          "tables": []
+        },
+        "Irritant_Gases": {
+          "text": "Irritant gases (\nammonia\n, formaldehyde,\nchlorine\n, nitrogen dioxide) when dissolved in water lining respiratory tract produce a\nchemical burn\nand inflammatory response\nMore soluble the gas produces more upper airway burns/irritation symptoms\nLess soluble gases produce more pulmonary injury and\nrespiratory distress",
+          "tables": []
+        },
+        "Systemic_Toxins": {
+          "text": "Includes\ncarbon monoxide\n, hydrogen\ncyanide\n,\nhydrogen sulfide\nInterfere with delivery of oxygen for use in cellular energy production\nLiver, kidney, brain, lung and other organ damage",
+          "tables": []
+        },
+        "Allergic": {
+          "text": "Inhaled gases, particles, aerosols\nProduce bronchospasms and edema similar to\nasthma",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermal": {
+          "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "ammonia",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "chlorine",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "chemical burn",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "hydrogen sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "General": {
+      "text": "Initial signs/symptoms -\ncough\n,\nwheezing\n,\ndyspnea\n, irritated mucous members (runny eyes/nose),\nchest pain\n,\nhypoxia\nSpecific features dependent on type of exposure",
+      "subsections": {
+        "Inert_Gases": {
+          "text": "Inert gases (carbon dioxide, fuel gases) displace air and oxygen producing asphyxia\nPresent with severe\nhypoxia",
+          "tables": []
+        },
+        "Irritant_Gases": {
+          "text": "Irritant gases (\nammonia\n, formaldehyde,\nchlorine\n, nitrogen dioxide) when dissolved in water lining respiratory tract produce a\nchemical burn\nand inflammatory response\nMore soluble the gas produces more upper airway burns/irritation symptoms\nLess soluble gases produce more pulmonary injury and\nrespiratory distress",
+          "tables": []
+        },
+        "Systemic_Toxins": {
+          "text": "Includes\ncarbon monoxide\n, hydrogen\ncyanide\n,\nhydrogen sulfide\nInterfere with delivery of oxygen for use in cellular energy production\nLiver, kidney, brain, lung and other organ damage",
+          "tables": []
+        },
+        "Allergic": {
+          "text": "Inhaled gases, particles, aerosols\nProduce bronchospasms and edema similar to\nasthma",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermal": {
+          "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "ammonia",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "chlorine",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "chemical burn",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "hydrogen sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Inert_Gases": {
+      "text": "Inert gases (carbon dioxide, fuel gases) displace air and oxygen producing asphyxia\nPresent with severe\nhypoxia",
+      "subsections": {
+        "Irritant_Gases": {
+          "text": "Irritant gases (\nammonia\n, formaldehyde,\nchlorine\n, nitrogen dioxide) when dissolved in water lining respiratory tract produce a\nchemical burn\nand inflammatory response\nMore soluble the gas produces more upper airway burns/irritation symptoms\nLess soluble gases produce more pulmonary injury and\nrespiratory distress",
+          "tables": []
+        },
+        "Systemic_Toxins": {
+          "text": "Includes\ncarbon monoxide\n, hydrogen\ncyanide\n,\nhydrogen sulfide\nInterfere with delivery of oxygen for use in cellular energy production\nLiver, kidney, brain, lung and other organ damage",
+          "tables": []
+        },
+        "Allergic": {
+          "text": "Inhaled gases, particles, aerosols\nProduce bronchospasms and edema similar to\nasthma",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermal": {
+          "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "ammonia",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "chlorine",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "chemical burn",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "hydrogen sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Irritant_Gases": {
+      "text": "Irritant gases (\nammonia\n, formaldehyde,\nchlorine\n, nitrogen dioxide) when dissolved in water lining respiratory tract produce a\nchemical burn\nand inflammatory response\nMore soluble the gas produces more upper airway burns/irritation symptoms\nLess soluble gases produce more pulmonary injury and\nrespiratory distress",
+      "subsections": {
+        "Systemic_Toxins": {
+          "text": "Includes\ncarbon monoxide\n, hydrogen\ncyanide\n,\nhydrogen sulfide\nInterfere with delivery of oxygen for use in cellular energy production\nLiver, kidney, brain, lung and other organ damage",
+          "tables": []
+        },
+        "Allergic": {
+          "text": "Inhaled gases, particles, aerosols\nProduce bronchospasms and edema similar to\nasthma",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermal": {
+          "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ammonia",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "chlorine",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "chemical burn",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "hydrogen sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Systemic_Toxins": {
+      "text": "Includes\ncarbon monoxide\n, hydrogen\ncyanide\n,\nhydrogen sulfide\nInterfere with delivery of oxygen for use in cellular energy production\nLiver, kidney, brain, lung and other organ damage",
+      "subsections": {
+        "Allergic": {
+          "text": "Inhaled gases, particles, aerosols\nProduce bronchospasms and edema similar to\nasthma",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermal": {
+          "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "hydrogen sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Allergic": {
+      "text": "Inhaled gases, particles, aerosols\nProduce bronchospasms and edema similar to\nasthma",
+      "subsections": {
+        "Smoke_Inhalation_/_Thermal": {
+          "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Smoke_Inhalation_/_Thermal": {
+      "text": "Most fatalities from burn injuries are attributed to smoke inhalation\nSoot in posterior pharynx, singed nasal hair\nHyperacute - severe\nwheezing\n,\nbronchoconstriction\n, significant\nhypoxemia\nAcute\npulmonary edema\n- onset at 48-72 hours post injury in a previously asymptomatic patient\nBroncho\npneumonia\noften at 10 days post-injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Inhalation_injury": {
+      "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Look for evidence of exposure\nEstimated time of exposure\nOpen or enclosed space\nAssociated events such as fire, blast, etc.?\nIs the exposure known?\nMaterial on patient? Does patient smell of chemical?\nExamples - smoke inhalation from burning building, leak of a solvent, chemical fumes\nPhysical examination with focus on airway and pulmonary system\nObserve for evidence of airway compromise or respiratory distress\nChest x-ray\n, pulse oximetry,\narterial blood gas\nConsider\ncarboxyhemoglobin\nand/or\ncyanide\nlevel if any suspicion based on history",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        },
+        {
+          "text": "arterial blood gas",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "carboxyhemoglobin",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Separate patient from fumes/toxic agent\nDecontaminate if not done on scene\nSecure airway if necessary and ventilate, observe for respiratory distress and airway compromise\nOxygen\nat 6-12 liters per minute via mask",
+          "tables": []
+        },
+        "Inert_Gases_2": {
+          "text": "Remove victim from the gas\nFresh air or oxygen\nObserve for sequelae  from\nhypoxia\n(\nmyocardial infarction\n, cerebral injury)",
+          "tables": []
+        },
+        "Allergic_2": {
+          "text": "Aerosolized\nbronchodilators\nCorticosteroids\nin patients with history of reactive airway disease",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermals": {
+          "text": "Ensure adequate oxygenation, ventilation, pulmonary toilet and\nfluid resuscitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "fluid resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "Separate patient from fumes/toxic agent\nDecontaminate if not done on scene\nSecure airway if necessary and ventilate, observe for respiratory distress and airway compromise\nOxygen\nat 6-12 liters per minute via mask",
+      "subsections": {
+        "Inert_Gases_2": {
+          "text": "Remove victim from the gas\nFresh air or oxygen\nObserve for sequelae  from\nhypoxia\n(\nmyocardial infarction\n, cerebral injury)",
+          "tables": []
+        },
+        "Allergic_2": {
+          "text": "Aerosolized\nbronchodilators\nCorticosteroids\nin patients with history of reactive airway disease",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermals": {
+          "text": "Ensure adequate oxygenation, ventilation, pulmonary toilet and\nfluid resuscitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "fluid resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Inert_Gases_2": {
+      "text": "Remove victim from the gas\nFresh air or oxygen\nObserve for sequelae  from\nhypoxia\n(\nmyocardial infarction\n, cerebral injury)",
+      "subsections": {
+        "Allergic_2": {
+          "text": "Aerosolized\nbronchodilators\nCorticosteroids\nin patients with history of reactive airway disease",
+          "tables": []
+        },
+        "Smoke_Inhalation_/_Thermals": {
+          "text": "Ensure adequate oxygenation, ventilation, pulmonary toilet and\nfluid resuscitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "fluid resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Allergic_2": {
+      "text": "Aerosolized\nbronchodilators\nCorticosteroids\nin patients with history of reactive airway disease",
+      "subsections": {
+        "Smoke_Inhalation_/_Thermals": {
+          "text": "Ensure adequate oxygenation, ventilation, pulmonary toilet and\nfluid resuscitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "fluid resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Smoke_Inhalation_/_Thermals": {
+      "text": "Ensure adequate oxygenation, ventilation, pulmonary toilet and\nfluid resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fluid resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Respiratory distress or airway compromise will need admission\nObserve for 1-4 hours if no signs or symptoms of inhalation injury develop or if all resolved within 1 hour consider discharging patient home with instructions for return for re-evaluation next day or sooner if pulmonary and/or airway symptoms develop",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Smoke inhalation injury\nInhalant abuse\nBurns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "drug_name": "Interstitial_cystitis",
+  "url": "https://wikem.org/wiki/Interstitial_cystitis",
+  "scraped_at": "2026-01-10T07:55:37.339730",
+  "sections": {
+    "Background": {
+      "text": "Also known as bladder pain syndrome\nDiagnosis that applies to patients with chronic bladder pain in the absence of other explanatory etiologies\nFrequently occurs in patients with other chronic pain syndromes such as fibromyalgia or irritable bowel syndrome",
+      "subsections": {
+        "Epidemiology": {
+          "text": "More common in women than in men\nMost often diagnosed in 4th decade or later\nPrevalence depends on study, ranging from:\n197 per 100,000 women and 41 per 100,000 men\n[1]\nBetween 2.7 and 6.5% of women\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "More common in women than in men\nMost often diagnosed in 4th decade or later\nPrevalence depends on study, ranging from:\n197 per 100,000 women and 41 per 100,000 men\n[1]\nBetween 2.7 and 6.5% of women\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Persistent unpleasant sensations attributable to the bladder, can include pressure, spasms, or discomfort\nMost frequent symptom is increased discomfort with bladder filling and relief with voiding\nSymptoms usually constant but can vary from day to day and range from mild to severe\nLocation is usually suprapubic or urethral, but may also be unilateral lower abdominal pain or low back pain\nTypically gradual onset over months\nMost patients cannot identify a triggering event, but some patients note onset after a UTI, surgical procedure, or trauma\nExacerbation of symptoms can occur in the setting of stress, following intake of certain food or drinks, or after certain activities (e.g. sexual intercourse, exercise, sitting for a prolonged period), or during luteal phase of menstrual cycle\n[3]\n[4]\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Bladder, urethral, or genital tract cancer\nUrinary Tract Infection (UTI)\nSTI\nBenign pelvic mass\nBladder stone\nForeign body\nUrethral diverticulum\nBladder outlet obstruction\nNeurological dysfunction\nChronic pelvic pain syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary Tract Infection (UTI)",
+          "url": "https://wikem.org/wiki/Urinary_Tract_Infection_(UTI)"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Detailed physical exam to evaluate for alternative diagnoses\nUrinalysis and urine culture (typically patients will have a normal UA and sterile urine culture)\nSexually transmitted infection testing may be considered if patient is at risk for these\nPostvoid residual\nCystoscopy may be considered\nDiagnosis is made if the patient meets has “an unpleasant sensation (pain, pressure, discomfort) perceieved to be related to the urinary bladder, associated with lower urinary tract symptoms of more than 6 weeks duration, in the absence of infection or other identifiable causes”\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "There is no curative treatment, the goal is symptom relief\nEvaluate for comorbities, psychosocial needs\nLifestyle modification (trigger avoidance)\nBladder training\nApplication of heat or cold over the bladder or perineum\nConsider pelvic floor muscle physical therapy\nPharmacologic options\nAmitriptyline generally first line\nAlternatives include pentosane polysulfate sodium, antihistamines, cimetidine, sildenafil, adjuvant analgesia (acetaminophen, NSAIDs)\nFor refractory symptoms, options include\nBladder hydrodistension\nIntravesical therapies (such as local anesthestics)\nIntradestrusor botulinum toxin\nSacral neuromodulation\nCyclosporine A\nTreatment of last resort is urinary diversion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with possible referral to urology or urogyn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

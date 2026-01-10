@@ -1,0 +1,149 @@
+{
+  "drug_name": "Influenza-like_illness",
+  "url": "https://wikem.org/wiki/Influenza-like_illness",
+  "scraped_at": "2026-01-10T07:55:31.076203",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Constitutional\nFever\nHeadache\nMyalgias\nMalaise\nRespiratory\nNon-productive\ncough\nSore throat\nRhinorrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "drug_name": "Inhaled_corticosteroid",
+  "url": "https://wikem.org/wiki/Inhaled_corticosteroid",
+  "scraped_at": "2026-01-10T07:55:30.366260",
+  "sections": {
+    "Types": {
+      "text": "Flunisolide\nFluticasone furoate\n,\nFluticasone propionate\nTriamcinolone acetonide\nBeclomethasone\nBudesonide\n(Pulmicort)\nCiclesonide\nMometasone\n(Nasonex)",
+      "subsections": {
+        "Combinations": {
+          "text": "Fluticasone propionate/salmeterol xinafoate\nBudesonide/Formoterol\nMometasone furoate/Formoterol fumarate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Beclomethasone",
+          "url": "https://wikem.org/wiki/Beclomethasone"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ciclesonide",
+          "url": "https://wikem.org/wiki/Ciclesonide"
+        },
+        {
+          "text": "Mometasone",
+          "url": "https://wikem.org/wiki/Mometasone"
+        },
+        {
+          "text": "Budesonide/Formoterol",
+          "url": "https://wikem.org/wiki/Budesonide/Formoterol"
+        },
+        {
+          "text": "Mometasone furoate/Formoterol fumarate",
+          "url": "https://wikem.org/wiki/Mometasone_furoate/Formoterol_fumarate"
+        }
+      ]
+    },
+    "Combinations": {
+      "text": "Fluticasone propionate/salmeterol xinafoate\nBudesonide/Formoterol\nMometasone furoate/Formoterol fumarate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Budesonide/Formoterol",
+          "url": "https://wikem.org/wiki/Budesonide/Formoterol"
+        },
+        {
+          "text": "Mometasone furoate/Formoterol fumarate",
+          "url": "https://wikem.org/wiki/Mometasone_furoate/Formoterol_fumarate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Corticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    }
+  }
+}

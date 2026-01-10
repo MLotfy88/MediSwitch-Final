@@ -1,0 +1,240 @@
+{
+  "drug_name": "Infectious_tenosynovitis",
+  "url": "https://wikem.org/wiki/Infectious_tenosynovitis",
+  "scraped_at": "2026-01-10T07:55:26.271945",
+  "sections": {
+    "Background": {
+      "text": "Infection of extensor tendons rarely results in loculated infections, but disruption of normal flexor tendon function can be dangerous as it may spread proximally involving the wrist/forearm (Parona space). It is an surgical/orthopedic emergency!",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Etiology": {
+      "text": "Trauma with direct inoculation\nMicrobiology\n\"Clean trauma\" - skin flora\nDiabetes mellitus\n, bites - Polymicrobial (gram -, anerobes)\nPuncture from plants - Fungal (sporotrichosis)\nHematogenous spread\nMicrobiology\nGonorrhea\nLook for vesiculopustular skin lesion, polyarthralgia\nMycobacteria\nContiguous spread",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Clinical_Manifestations": {
+      "text": "4 Kanavel signs:\n(1) Finger held in slight flexion\n(2) Fusiform swelling\n(3) Tenderness along the flexor tendon sheath (late sign)\n(4) Pain with passive extension of the digit (early sign)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Labs: CBC, ESR/CRP, pre-op labs (T+S, coags, Chem-10)\nX-Ray\nUsually normal but helpful to rule out bony involvement, FB\nBlood culture (if possible, obtain from synovial fluid)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Elevation of hand to help with swelling\nMonitor clinically for hand compartment syndrome\nSurgery/Ortho consult for wash-out vs. debridement",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Treatment should cover\nS. aureus\n,\nStreptococcus\n, and\nMRSA\nVancomycin\n25-30 mg/kg IV loading dose then 15-20mg/kg IV q12hrs PLUS\nLevofloxacin\n750 mg IV once daily (avoid in pediatrics) OR\nCeftriaxone\n1g IV daily\nIf suspicious of\nGonococcal\ninfection then use\nCeftriaxone\n1g IV once daily AND\nChlamydia\ncoverage with\nAzithromycin\n1g PO once OR\nDoxycycline\n100mg PO twice daily",
+          "tables": []
+        },
+        "Animal_Bites": {
+          "text": "Ampicillin/Sulbactam\n3g (50mg/kg) IV four times daily",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Ceftriaxone\n100mg/kg IV once daily AND\nMetronidazole\n7.5mg/kg IV  four times daily OR\nClindamycin\n10mg/kg IV four times daily NA\nTMP/SMX\n5mg/kg IV BID\nAmpicillin/Sulbactam\n50 mg/kg IV four times daily",
+          "tables": []
+        },
+        "Mycobacteria_related": {
+          "text": "Treatment should include usual therapy listed above in addition to:\nClarithromycin\n500mg PO twice daily PLUS\nEthambutol\n15 mg/kg PO once daily OR\nRifampin\n600 mg PO once daily\nAND consult infectious disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Ethambutol",
+          "url": "https://wikem.org/wiki/Ethambutol"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Treatment should cover\nS. aureus\n,\nStreptococcus\n, and\nMRSA\nVancomycin\n25-30 mg/kg IV loading dose then 15-20mg/kg IV q12hrs PLUS\nLevofloxacin\n750 mg IV once daily (avoid in pediatrics) OR\nCeftriaxone\n1g IV daily\nIf suspicious of\nGonococcal\ninfection then use\nCeftriaxone\n1g IV once daily AND\nChlamydia\ncoverage with\nAzithromycin\n1g PO once OR\nDoxycycline\n100mg PO twice daily",
+      "subsections": {
+        "Animal_Bites": {
+          "text": "Ampicillin/Sulbactam\n3g (50mg/kg) IV four times daily",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Ceftriaxone\n100mg/kg IV once daily AND\nMetronidazole\n7.5mg/kg IV  four times daily OR\nClindamycin\n10mg/kg IV four times daily NA\nTMP/SMX\n5mg/kg IV BID\nAmpicillin/Sulbactam\n50 mg/kg IV four times daily",
+          "tables": []
+        },
+        "Mycobacteria_related": {
+          "text": "Treatment should include usual therapy listed above in addition to:\nClarithromycin\n500mg PO twice daily PLUS\nEthambutol\n15 mg/kg PO once daily OR\nRifampin\n600 mg PO once daily\nAND consult infectious disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Ethambutol",
+          "url": "https://wikem.org/wiki/Ethambutol"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    }
+  }
+}

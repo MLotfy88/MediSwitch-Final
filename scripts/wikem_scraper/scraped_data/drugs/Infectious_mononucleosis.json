@@ -1,0 +1,718 @@
+{
+  "drug_name": "Infectious_mononucleosis",
+  "url": "https://wikem.org/wiki/Infectious_mononucleosis",
+  "scraped_at": "2026-01-10T07:55:29.078445",
+  "sections": {
+    "Background": {
+      "text": "Caused by Epstein-Barr virus\nCMV\nand\nHHV-6\nmay cause mononucleosis-like illnesses\nInfects B lymphocytes which causes dissemination\nT lymphocytes fight infection\nIn patients with decreased T cell function, can lead to continued proliferation and\nneoplastic transformation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HHV-6",
+          "url": "https://wikem.org/wiki/HHV-6"
+        },
+        {
+          "text": "neoplastic transformation",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Triad of:\nFever\nPharyngitis\nLymphadenopathy\nSymptoms\nAbrupt or insidious\nHeadache\n,\nfever\n, and malaise common,\nsore throat\nand lymphadenopathy follow\nRash\nin 10-15% usually between 4th-6th day of illness\nRed macular or maculopapular morbilliform\nrash\nof trunk & upper arms\nOccasionally involves face, thigh and legs, periorbital & eyelid edema in 50% of cases\nMost often mono is diagnosed based on other signs\n[1]\nPreviously treated as\nstrep pharyngitis\nMorbilliform\nrash\ncan develop\n[2]\n95% of patients on\namoxicillin\nor\nampicillin\n40-60% with other beta-lactams\nIllness typically 2-4 weeks, but malaise and fatigue may last for months",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "strep pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_pharyngitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[3]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[3]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Pediatric_Rash": {
+      "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Heterophile antibody (monospot) test vs EBV IgM Assay\nCBC\nLymphocytosis (≥50% lymphocytes)\n10% or more atypical lymphocytes\nHypersegmented neutrophils\nThrombocytopenia\nLFTs\nElevations in AST and ALT is expected up to 5x\nSuspected mononucleosis during pregnancy (also need to rule out other pathology):\nEpstein-Barr virus\n,\ncytomegalovirus\n, and\nHIV",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Heterophile antibody (monospot) test\nSensitivity of 87% and specificity of 91%\n[4]\nUp to 25% of patients in 1st week of symptoms may have false negative test\n[5]\n10% of adult patients with EBV infection will be persistently negative\nUp to 50% of pediatric patients will be persistently negative\n[6]\nEBV IgM Assay\nCarries 97% sensitivity and 94% specificity at symptom onset\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Heterophile antibody (monospot) test vs EBV IgM Assay\nCBC\nLymphocytosis (≥50% lymphocytes)\n10% or more atypical lymphocytes\nHypersegmented neutrophils\nThrombocytopenia\nLFTs\nElevations in AST and ALT is expected up to 5x\nSuspected mononucleosis during pregnancy (also need to rule out other pathology):\nEpstein-Barr virus\n,\ncytomegalovirus\n, and\nHIV",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Heterophile antibody (monospot) test\nSensitivity of 87% and specificity of 91%\n[4]\nUp to 25% of patients in 1st week of symptoms may have false negative test\n[5]\n10% of adult patients with EBV infection will be persistently negative\nUp to 50% of pediatric patients will be persistently negative\n[6]\nEBV IgM Assay\nCarries 97% sensitivity and 94% specificity at symptom onset\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Heterophile antibody (monospot) test\nSensitivity of 87% and specificity of 91%\n[4]\nUp to 25% of patients in 1st week of symptoms may have false negative test\n[5]\n10% of adult patients with EBV infection will be persistently negative\nUp to 50% of pediatric patients will be persistently negative\n[6]\nEBV IgM Assay\nCarries 97% sensitivity and 94% specificity at symptom onset\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive\nAvoid contact sports for 1-2 months\n[8]\n(decrease risk of splenic rupture)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

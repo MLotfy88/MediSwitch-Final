@@ -1,0 +1,462 @@
+{
+  "drug_name": "Iatrogenic_pneumothorax",
+  "url": "https://wikem.org/wiki/Iatrogenic_pneumothorax",
+  "scraped_at": "2026-01-10T07:55:21.023247",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "Transthoracic needle aspiration (24%)\nSubclavian vessel puncture\n(22%)\nThoracentesis\n(22%)\nPleural biopsy (8%)\nMechanical ventilation\n(7%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Subclavian vessel puncture",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        },
+        {
+          "text": "Mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Transthoracic needle aspiration (24%)\nSubclavian vessel puncture\n(22%)\nThoracentesis\n(22%)\nPleural biopsy (8%)\nMechanical ventilation\n(7%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Subclavian vessel puncture",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        },
+        {
+          "text": "Mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Consider in all patients with sudden\ndeterioration after intubation\nSudden onset pleuritic\nchest pain\nTachypnea\n,\nhypoxemia\n, increased work of breathing\nReduced ipsilateral lung excursion\nHypotension\n→\ntension pneumothorax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_After_Intubation_(DOPE)"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pneumothorax_Types": {
+          "text": "Tension pneumothorax\nSpontaneous pneumothorax\nCatamenial pneumothorax\nTraumatic pneumothorax\nIatrogenic pneumothorax",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        }
+      ]
+    },
+    "Pneumothorax_Types": {
+      "text": "Tension pneumothorax\nSpontaneous pneumothorax\nCatamenial pneumothorax\nTraumatic pneumothorax\nIatrogenic pneumothorax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Clinically_Stable": {
+          "text": "Defined as having all of the following:\nResp rate < 24\nHeart rate 60-120 beats per minute\nNormal BP\nSaO2 >90% on room air and patient can speak in whole sentences",
+          "tables": []
+        },
+        "Workup": {
+          "text": "CXR\nDisplaced visceral pleural line without lung markings between pleural line and chest wall\nUpright is best\nExpiratory films DO NOT improve accuracy\n[2]\nLateral decubitus films with suspected side up do increase sensitivity. Good approach in pediatrics to avoid CT\nSupine CXR = deep sulcus sign\nCT Chest\nVery sensitive and specific",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pneumothorax": {
+          "text": "No lung sliding seen (not specific for pneumothorax)\nMay also identify \"lung point\": distinct point where you no longer see lung sliding (pathognomonic)\nAbsence of lung sliding WITHOUT lung point could represent apnea or right mainstem intubation\nEvaluate other intercostal spaces because pneumothorax may only be seen in least dependent area of thorax\nNO comet tail artifact\nBar Code appearance/\"Stratosphere\" sign on M-mode (absence of \"seashore\" waves)\nUltrasound has greater sensitivity than chest x-ray for pneumothorax in trauma patients\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Clinically_Stable": {
+      "text": "Defined as having all of the following:\nResp rate < 24\nHeart rate 60-120 beats per minute\nNormal BP\nSaO2 >90% on room air and patient can speak in whole sentences",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\nDisplaced visceral pleural line without lung markings between pleural line and chest wall\nUpright is best\nExpiratory films DO NOT improve accuracy\n[2]\nLateral decubitus films with suspected side up do increase sensitivity. Good approach in pediatrics to avoid CT\nSupine CXR = deep sulcus sign\nCT Chest\nVery sensitive and specific",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pneumothorax": {
+          "text": "No lung sliding seen (not specific for pneumothorax)\nMay also identify \"lung point\": distinct point where you no longer see lung sliding (pathognomonic)\nAbsence of lung sliding WITHOUT lung point could represent apnea or right mainstem intubation\nEvaluate other intercostal spaces because pneumothorax may only be seen in least dependent area of thorax\nNO comet tail artifact\nBar Code appearance/\"Stratosphere\" sign on M-mode (absence of \"seashore\" waves)\nUltrasound has greater sensitivity than chest x-ray for pneumothorax in trauma patients\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\nDisplaced visceral pleural line without lung markings between pleural line and chest wall\nUpright is best\nExpiratory films DO NOT improve accuracy\n[2]\nLateral decubitus films with suspected side up do increase sensitivity. Good approach in pediatrics to avoid CT\nSupine CXR = deep sulcus sign\nCT Chest\nVery sensitive and specific",
+      "subsections": {
+        "Lung_ultrasound_of_pneumothorax": {
+          "text": "No lung sliding seen (not specific for pneumothorax)\nMay also identify \"lung point\": distinct point where you no longer see lung sliding (pathognomonic)\nAbsence of lung sliding WITHOUT lung point could represent apnea or right mainstem intubation\nEvaluate other intercostal spaces because pneumothorax may only be seen in least dependent area of thorax\nNO comet tail artifact\nBar Code appearance/\"Stratosphere\" sign on M-mode (absence of \"seashore\" waves)\nUltrasound has greater sensitivity than chest x-ray for pneumothorax in trauma patients\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Lung_ultrasound_of_pneumothorax": {
+      "text": "No lung sliding seen (not specific for pneumothorax)\nMay also identify \"lung point\": distinct point where you no longer see lung sliding (pathognomonic)\nAbsence of lung sliding WITHOUT lung point could represent apnea or right mainstem intubation\nEvaluate other intercostal spaces because pneumothorax may only be seen in least dependent area of thorax\nNO comet tail artifact\nBar Code appearance/\"Stratosphere\" sign on M-mode (absence of \"seashore\" waves)\nUltrasound has greater sensitivity than chest x-ray for pneumothorax in trauma patients\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supplemental oxygen\n(\nnon-rebreather mask\n) initially for all",
+      "subsections": {
+        "Unstable": {
+          "text": "Needle decompression\nfollowed by\nchest tube\ninsertion",
+          "tables": []
+        },
+        "Not_on_Positive_Pressure": {
+          "text": "Observation (majority) vs. aspiration\nChest tube\nif become symptomatic",
+          "tables": []
+        },
+        "On_Positive_Pressure_Ventilation": {
+          "text": "Needle decompression\nfollowed by\nchest tube\ninsertion",
+          "tables": []
+        },
+        "Needle_Aspiration_of_Pneumothorax": {
+          "text": "Use thoracentesis or \"pig-tail\" kit, if available\nPlace in 2nd IC space in midclavicular line or 4th/5th IC space in anterior axillary line\nWithdraw air with syringe until no more can be aspirated\nAssume a persistent air leak (failure) if no resistance after 4 liters of air has been aspirated AND the lung has not expanded\nOnce no further air can be aspirated:\nOption 1\nPlace closed stopcock and secure catheter to the chest wall\nObtain CXR four hours later\nIf adequate lung expansion has occurred, remove catheter\nFollowing another two hours of observation, obtain another CXR\nIf the lung remains expanded, may discharge patient\nOption 2\nLeave catheter in place\nAttached a Heimlich (one-way) valve\nMay discharge with follow-up within two days\nIf 2.5 L of air has been aspirated, and a significant PTX remains, tube thoracostomy is indicated\nNEJM video\non needle aspiration of pneumothorax.",
+          "tables": []
+        },
+        "Adult_Chest_Tube_Sizes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Chest TubeSize": "Small (8-14 Fr)",
+                "Type of Patient": "Mostspontaneous pneumothorax(primary and secondary)Mostiatrogenic pneumothorax",
+                "Underlying Causes": "Alveolar-pleural fistulae (small air leak)Iatrogenic air"
+              },
+              {
+                "Chest TubeSize": "Medium (20-28 Fr)",
+                "Type of Patient": "Traumatic pneumothoraxTraumatichemothorax(\"any acutehemothoraxvisible on chest radiograph\")[4][5]Pneumothoraxon mechanical ventilationNon-traumatictension pneumothoraxMalignant effusion",
+                "Underlying Causes": "Trauma/bleeding (hemothorax/hemopneumothorax)Bronchial-pleural fistulae (large air leak)Malignant fluid"
+              },
+              {
+                "Chest TubeSize": "Large (36-40 Fr)",
+                "Type of Patient": "Empyema",
+                "Underlying Causes": "Thick pus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Supplemental oxygen",
+          "url": "https://wikem.org/wiki/Supplemental_oxygen"
+        },
+        {
+          "text": "non-rebreather mask",
+          "url": "https://wikem.org/wiki/Non-rebreather_mask"
+        },
+        {
+          "text": "Needle decompression",
+          "url": "https://wikem.org/wiki/Needle_decompression"
+        },
+        {
+          "text": "chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Needle decompression",
+          "url": "https://wikem.org/wiki/Needle_decompression"
+        },
+        {
+          "text": "chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    },
+    "Unstable": {
+      "text": "Needle decompression\nfollowed by\nchest tube\ninsertion",
+      "subsections": {
+        "Not_on_Positive_Pressure": {
+          "text": "Observation (majority) vs. aspiration\nChest tube\nif become symptomatic",
+          "tables": []
+        },
+        "On_Positive_Pressure_Ventilation": {
+          "text": "Needle decompression\nfollowed by\nchest tube\ninsertion",
+          "tables": []
+        },
+        "Needle_Aspiration_of_Pneumothorax": {
+          "text": "Use thoracentesis or \"pig-tail\" kit, if available\nPlace in 2nd IC space in midclavicular line or 4th/5th IC space in anterior axillary line\nWithdraw air with syringe until no more can be aspirated\nAssume a persistent air leak (failure) if no resistance after 4 liters of air has been aspirated AND the lung has not expanded\nOnce no further air can be aspirated:\nOption 1\nPlace closed stopcock and secure catheter to the chest wall\nObtain CXR four hours later\nIf adequate lung expansion has occurred, remove catheter\nFollowing another two hours of observation, obtain another CXR\nIf the lung remains expanded, may discharge patient\nOption 2\nLeave catheter in place\nAttached a Heimlich (one-way) valve\nMay discharge with follow-up within two days\nIf 2.5 L of air has been aspirated, and a significant PTX remains, tube thoracostomy is indicated\nNEJM video\non needle aspiration of pneumothorax.",
+          "tables": []
+        },
+        "Adult_Chest_Tube_Sizes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Chest TubeSize": "Small (8-14 Fr)",
+                "Type of Patient": "Mostspontaneous pneumothorax(primary and secondary)Mostiatrogenic pneumothorax",
+                "Underlying Causes": "Alveolar-pleural fistulae (small air leak)Iatrogenic air"
+              },
+              {
+                "Chest TubeSize": "Medium (20-28 Fr)",
+                "Type of Patient": "Traumatic pneumothoraxTraumatichemothorax(\"any acutehemothoraxvisible on chest radiograph\")[4][5]Pneumothoraxon mechanical ventilationNon-traumatictension pneumothoraxMalignant effusion",
+                "Underlying Causes": "Trauma/bleeding (hemothorax/hemopneumothorax)Bronchial-pleural fistulae (large air leak)Malignant fluid"
+              },
+              {
+                "Chest TubeSize": "Large (36-40 Fr)",
+                "Type of Patient": "Empyema",
+                "Underlying Causes": "Thick pus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Needle decompression",
+          "url": "https://wikem.org/wiki/Needle_decompression"
+        },
+        {
+          "text": "chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Needle decompression",
+          "url": "https://wikem.org/wiki/Needle_decompression"
+        },
+        {
+          "text": "chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    },
+    "Stable": {
+      "text": "",
+      "subsections": {
+        "Not_on_Positive_Pressure": {
+          "text": "Observation (majority) vs. aspiration\nChest tube\nif become symptomatic",
+          "tables": []
+        },
+        "On_Positive_Pressure_Ventilation": {
+          "text": "Needle decompression\nfollowed by\nchest tube\ninsertion",
+          "tables": []
+        },
+        "Needle_Aspiration_of_Pneumothorax": {
+          "text": "Use thoracentesis or \"pig-tail\" kit, if available\nPlace in 2nd IC space in midclavicular line or 4th/5th IC space in anterior axillary line\nWithdraw air with syringe until no more can be aspirated\nAssume a persistent air leak (failure) if no resistance after 4 liters of air has been aspirated AND the lung has not expanded\nOnce no further air can be aspirated:\nOption 1\nPlace closed stopcock and secure catheter to the chest wall\nObtain CXR four hours later\nIf adequate lung expansion has occurred, remove catheter\nFollowing another two hours of observation, obtain another CXR\nIf the lung remains expanded, may discharge patient\nOption 2\nLeave catheter in place\nAttached a Heimlich (one-way) valve\nMay discharge with follow-up within two days\nIf 2.5 L of air has been aspirated, and a significant PTX remains, tube thoracostomy is indicated\nNEJM video\non needle aspiration of pneumothorax.",
+          "tables": []
+        },
+        "Adult_Chest_Tube_Sizes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Chest TubeSize": "Small (8-14 Fr)",
+                "Type of Patient": "Mostspontaneous pneumothorax(primary and secondary)Mostiatrogenic pneumothorax",
+                "Underlying Causes": "Alveolar-pleural fistulae (small air leak)Iatrogenic air"
+              },
+              {
+                "Chest TubeSize": "Medium (20-28 Fr)",
+                "Type of Patient": "Traumatic pneumothoraxTraumatichemothorax(\"any acutehemothoraxvisible on chest radiograph\")[4][5]Pneumothoraxon mechanical ventilationNon-traumatictension pneumothoraxMalignant effusion",
+                "Underlying Causes": "Trauma/bleeding (hemothorax/hemopneumothorax)Bronchial-pleural fistulae (large air leak)Malignant fluid"
+              },
+              {
+                "Chest TubeSize": "Large (36-40 Fr)",
+                "Type of Patient": "Empyema",
+                "Underlying Causes": "Thick pus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Needle decompression",
+          "url": "https://wikem.org/wiki/Needle_decompression"
+        },
+        {
+          "text": "chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    },
+    "Needle_Aspiration_of_Pneumothorax": {
+      "text": "Use thoracentesis or \"pig-tail\" kit, if available\nPlace in 2nd IC space in midclavicular line or 4th/5th IC space in anterior axillary line\nWithdraw air with syringe until no more can be aspirated\nAssume a persistent air leak (failure) if no resistance after 4 liters of air has been aspirated AND the lung has not expanded\nOnce no further air can be aspirated:\nOption 1\nPlace closed stopcock and secure catheter to the chest wall\nObtain CXR four hours later\nIf adequate lung expansion has occurred, remove catheter\nFollowing another two hours of observation, obtain another CXR\nIf the lung remains expanded, may discharge patient\nOption 2\nLeave catheter in place\nAttached a Heimlich (one-way) valve\nMay discharge with follow-up within two days\nIf 2.5 L of air has been aspirated, and a significant PTX remains, tube thoracostomy is indicated\nNEJM video\non needle aspiration of pneumothorax.",
+      "subsections": {
+        "Adult_Chest_Tube_Sizes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Chest TubeSize": "Small (8-14 Fr)",
+                "Type of Patient": "Mostspontaneous pneumothorax(primary and secondary)Mostiatrogenic pneumothorax",
+                "Underlying Causes": "Alveolar-pleural fistulae (small air leak)Iatrogenic air"
+              },
+              {
+                "Chest TubeSize": "Medium (20-28 Fr)",
+                "Type of Patient": "Traumatic pneumothoraxTraumatichemothorax(\"any acutehemothoraxvisible on chest radiograph\")[4][5]Pneumothoraxon mechanical ventilationNon-traumatictension pneumothoraxMalignant effusion",
+                "Underlying Causes": "Trauma/bleeding (hemothorax/hemopneumothorax)Bronchial-pleural fistulae (large air leak)Malignant fluid"
+              },
+              {
+                "Chest TubeSize": "Large (36-40 Fr)",
+                "Type of Patient": "Empyema",
+                "Underlying Causes": "Thick pus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adult_Chest_Tube_Sizes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Chest TubeSize": "Small (8-14 Fr)",
+            "Type of Patient": "Mostspontaneous pneumothorax(primary and secondary)Mostiatrogenic pneumothorax",
+            "Underlying Causes": "Alveolar-pleural fistulae (small air leak)Iatrogenic air"
+          },
+          {
+            "Chest TubeSize": "Medium (20-28 Fr)",
+            "Type of Patient": "Traumatic pneumothoraxTraumatichemothorax(\"any acutehemothoraxvisible on chest radiograph\")[4][5]Pneumothoraxon mechanical ventilationNon-traumatictension pneumothoraxMalignant effusion",
+            "Underlying Causes": "Trauma/bleeding (hemothorax/hemopneumothorax)Bronchial-pleural fistulae (large air leak)Malignant fluid"
+          },
+          {
+            "Chest TubeSize": "Large (36-40 Fr)",
+            "Type of Patient": "Empyema",
+            "Underlying Causes": "Thick pus"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "See Management section",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pneumothorax (main)\nDeterioration After Intubation (DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax (main)",
+          "url": "https://wikem.org/wiki/Pneumothorax_(main)"
+        },
+        {
+          "text": "Deterioration After Intubation (DOPE)",
+          "url": "https://wikem.org/wiki/Deterioration_After_Intubation_(DOPE)"
+        }
+      ]
+    }
+  }
+}

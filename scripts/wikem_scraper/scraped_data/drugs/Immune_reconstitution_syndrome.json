@@ -1,0 +1,262 @@
+{
+  "drug_name": "Immune_reconstitution_syndrome",
+  "url": "https://wikem.org/wiki/Immune_reconstitution_syndrome",
+  "scraped_at": "2026-01-10T07:55:24.338863",
+  "sections": {
+    "Background": {
+      "text": "Immune reconstitution syndrome, or immune reconstitution inflammatory syndrome (IRIS), refers to the paradoxical worsening of pre-existing infections after antiretroviral therapy (ART) is intiated for HIV.\n[1]\nIt occurs due to increases in T lymphocyte numbers that occurs after ART is started as well as increased immune response.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms of underlying illness within 1 week to a few months after initiating ART\nFever\n(especially with mycobacterial or cryptococcal infections)\n[2]\nManifestations of the underlying disease process:\nTuberculosis\nMycobacterium avium\nCryptococcus neoformans\nCytomegalovirus\nProgressive multifocal leukoencephalopathy\n(associated with the JC virus)\nPneumocystis jirovecii pneumonia\nHerpes zoster\nHepatitis B\nLeishmaniasis\nKaposi sarcoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Mycobacterium avium",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "Cryptococcus neoformans",
+          "url": "https://wikem.org/wiki/Cryptococcus_neoformans"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Progression of\nHIV\n/\nAIDS\nAntimicrobial resistance\nMedication noncompliance\nDevelopment of new opportunistic infection rather than recrudescence\nDrug toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnostic_Criteria": {
+          "text": "The diagnosis of IRIS is clinical. Most of the following criteria should be present to make the diagnosis:\n[3]\nPresence of AIDS with low pretreatment CD4 count. Usually this is <100, but\ntuberculosis\ncan be reactivated with CD4 cells >200.\nPositive virologic and immunologic response to ART\nAbsence of evidence of drug-resistant infection, bacterial superinfection, adverse drug reaction, patient noncompliance, or reduced serum drug levels\nPresence of clinical manifestations consistent with inflammatory condition\nTemporal association between ART initiation and the onset of clinical features of illness",
+          "tables": []
+        },
+        "Commonly_Associated_Pathogens": {
+          "text": "Mycobacterium tuberculosis\nMycobacterium avium\nCytomegalovirus\nCryptococcus neoformans\nPneumocystis jirovecii\nHerpes simplex virus\nHepatitis B\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Mycobacterium tuberculosis",
+          "url": "https://wikem.org/wiki/Mycobacterium_tuberculosis"
+        },
+        {
+          "text": "Mycobacterium avium",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Cryptococcus neoformans",
+          "url": "https://wikem.org/wiki/Cryptococcus_neoformans"
+        },
+        {
+          "text": "Pneumocystis jirovecii",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        }
+      ]
+    },
+    "Diagnostic_Criteria": {
+      "text": "The diagnosis of IRIS is clinical. Most of the following criteria should be present to make the diagnosis:\n[3]\nPresence of AIDS with low pretreatment CD4 count. Usually this is <100, but\ntuberculosis\ncan be reactivated with CD4 cells >200.\nPositive virologic and immunologic response to ART\nAbsence of evidence of drug-resistant infection, bacterial superinfection, adverse drug reaction, patient noncompliance, or reduced serum drug levels\nPresence of clinical manifestations consistent with inflammatory condition\nTemporal association between ART initiation and the onset of clinical features of illness",
+      "subsections": {
+        "Commonly_Associated_Pathogens": {
+          "text": "Mycobacterium tuberculosis\nMycobacterium avium\nCytomegalovirus\nCryptococcus neoformans\nPneumocystis jirovecii\nHerpes simplex virus\nHepatitis B\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Mycobacterium tuberculosis",
+          "url": "https://wikem.org/wiki/Mycobacterium_tuberculosis"
+        },
+        {
+          "text": "Mycobacterium avium",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Cryptococcus neoformans",
+          "url": "https://wikem.org/wiki/Cryptococcus_neoformans"
+        },
+        {
+          "text": "Pneumocystis jirovecii",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        }
+      ]
+    },
+    "Commonly_Associated_Pathogens": {
+      "text": "Mycobacterium tuberculosis\nMycobacterium avium\nCytomegalovirus\nCryptococcus neoformans\nPneumocystis jirovecii\nHerpes simplex virus\nHepatitis B\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mycobacterium tuberculosis",
+          "url": "https://wikem.org/wiki/Mycobacterium_tuberculosis"
+        },
+        {
+          "text": "Mycobacterium avium",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Cryptococcus neoformans",
+          "url": "https://wikem.org/wiki/Cryptococcus_neoformans"
+        },
+        {
+          "text": "Pneumocystis jirovecii",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Continue ART\nTreatment of underlying opportunistic infection\nGlucocorticoids\nmay be indicated as adjunct therapy for severe cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Disposition depends on severity of the immune response as well as the specific underlying disease process. Consider admission if unstable, poor follow-up, or severe illness.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV\nAIDS\nMycobacterium tuberculosis\nMycobacterium avium\nCytomegalovirus\nCryptococcus neoformans\nPneumocystis jirovecii\nHerpes simplex virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Mycobacterium tuberculosis",
+          "url": "https://wikem.org/wiki/Mycobacterium_tuberculosis"
+        },
+        {
+          "text": "Mycobacterium avium",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Cryptococcus neoformans",
+          "url": "https://wikem.org/wiki/Cryptococcus_neoformans"
+        },
+        {
+          "text": "Pneumocystis jirovecii",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        }
+      ]
+    }
+  }
+}

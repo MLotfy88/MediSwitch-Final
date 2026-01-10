@@ -1,0 +1,276 @@
+{
+  "drug_name": "Intracranial_mass",
+  "url": "https://wikem.org/wiki/Intracranial_mass",
+  "scraped_at": "2026-01-10T07:55:37.990651",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Vary depending on size, location, and nature of mass",
+      "subsections": {
+        "Headache_Red_Flags": {
+          "text": "Features\nSudden onset or accelerating pattern\nMaximum intensity of pain at onset (i.e. \"thunderclap\")\nWorse with valsalva\nWorse in the morning or at night\nNo similar headache in past\nAge >50 yr or <5 yr\nOccipitonuchal headache\nVisual disturbances\nExertional or postcoital\nFamily or personal history of\nSAH\n, cerebral aneurysm, or\nAVM\nFocal neurologic signs\nDiastolic BP >120\nPapilledema\nJaw claudication\nClinical Context\nHeadache in setting of:\nInfection\nCancer\nImmunosuppression\nSeizure\nSyncope\nTrauma\nAltered mental status\nSystemic illness (\nfever\n, stiff neck, rash)\nNausea/vomiting\nPatient on\nanticoagulation\n,\nsteroids\n,\nNSAIDs\n,\nantiplatelet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Focal neurologic signs",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "Diastolic BP >120",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Headache_Red_Flags": {
+      "text": "Features\nSudden onset or accelerating pattern\nMaximum intensity of pain at onset (i.e. \"thunderclap\")\nWorse with valsalva\nWorse in the morning or at night\nNo similar headache in past\nAge >50 yr or <5 yr\nOccipitonuchal headache\nVisual disturbances\nExertional or postcoital\nFamily or personal history of\nSAH\n, cerebral aneurysm, or\nAVM\nFocal neurologic signs\nDiastolic BP >120\nPapilledema\nJaw claudication\nClinical Context\nHeadache in setting of:\nInfection\nCancer\nImmunosuppression\nSeizure\nSyncope\nTrauma\nAltered mental status\nSystemic illness (\nfever\n, stiff neck, rash)\nNausea/vomiting\nPatient on\nanticoagulation\n,\nsteroids\n,\nNSAIDs\n,\nantiplatelet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Focal neurologic signs",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "Diastolic BP >120",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Intracranial_Mass": {
+          "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        }
+      ]
+    },
+    "Intracranial_Mass": {
+      "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat specific process\nConsider\nseizure\nprophylaxis\nSee also\nManagement of Elevated Intracranial Pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Management of Elevated Intracranial Pressure",
+          "url": "https://wikem.org/wiki/Management_of_Elevated_Intracranial_Pressure"
+        }
+      ]
+    }
+  }
+}

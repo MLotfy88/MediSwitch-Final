@@ -1,0 +1,561 @@
+{
+  "drug_name": "Initial_mechanical_ventilation_settings_(peds)",
+  "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)",
+  "scraped_at": "2026-01-10T07:55:31.237515",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\ninitial mechanical ventilation settings\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "In the neonate, volume-targeted ventilation mode has been shown to have improved outcomes over pressure-limited ventilation\n[1]\nMust use cuffed tube for volume-targeted ventilation",
+      "subsections": {
+        "Normal_Pediatric_Respiratory_Rates_by_Age": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Age": "0-12 months",
+                "Normal Respiratory Rate": "35-55"
+              },
+              {
+                "Age": "12 months - 2 years",
+                "Normal Respiratory Rate": "25-45"
+              },
+              {
+                "Age": "2 years - 6 years",
+                "Normal Respiratory Rate": "20-30"
+              },
+              {
+                "Age": "6 years -12 years",
+                "Normal Respiratory Rate": "20-25"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Pediatric_Respiratory_Rates_by_Age": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "0-12 months",
+            "Normal Respiratory Rate": "35-55"
+          },
+          {
+            "Age": "12 months - 2 years",
+            "Normal Respiratory Rate": "25-45"
+          },
+          {
+            "Age": "2 years - 6 years",
+            "Normal Respiratory Rate": "20-30"
+          },
+          {
+            "Age": "6 years -12 years",
+            "Normal Respiratory Rate": "20-25"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Lung_Protective_Strategy": {
+      "text": "",
+      "subsections": {
+        "Background_2": {
+          "text": "Focuses on low-tidal volume ventilation to reduce ventilator-associated lung injury (e.g. barotrauma and volutrauma worsening/causing\nARDS\n)\n[4]\nIndicated for all intubated patients who do not have obstructive lung disease (\nCOPD\n,\nasthma\n)\n[5]",
+          "tables": []
+        },
+        "Lung_Protective_Mechanical_Ventilation_for_Pediatric_Patients": {
+          "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTarget a peak pressure of < 30-35 cmH2O (see figure 1) and/or a plateau pressure < 28 cmH2O (i.e. titrate down)\n[10]\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart at normal rate for age (see chart)\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[11][12]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Focuses on low-tidal volume ventilation to reduce ventilator-associated lung injury (e.g. barotrauma and volutrauma worsening/causing\nARDS\n)\n[4]\nIndicated for all intubated patients who do not have obstructive lung disease (\nCOPD\n,\nasthma\n)\n[5]",
+      "subsections": {
+        "Lung_Protective_Mechanical_Ventilation_for_Pediatric_Patients": {
+          "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTarget a peak pressure of < 30-35 cmH2O (see figure 1) and/or a plateau pressure < 28 cmH2O (i.e. titrate down)\n[10]\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart at normal rate for age (see chart)\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[11][12]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Lung_Protective_Mechanical_Ventilation_for_Pediatric_Patients": {
+      "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTarget a peak pressure of < 30-35 cmH2O (see figure 1) and/or a plateau pressure < 28 cmH2O (i.e. titrate down)\n[10]\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart at normal rate for age (see chart)\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80",
+      "subsections": {
+        "Lung_Protective_FiO2_and_PEEP_Scale[11][12]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Obstruction_Strategy": {
+      "text": "",
+      "subsections": {
+        "Background_3": {
+          "text": "For patients with active bronchoconstriction (e.g.\nCOPD\n,\nasthma\n)\nThe best ventilatory strategy for these patients is to avoid intubation if possible; mechanical ventilation will often make the pulmonary situation worse, rather than better.\n[14]\nGoal = adequate time for expiration\nFrequently requires deep sedation and analgesia (first-line); may required paralysis (second-line)\n[15]",
+          "tables": []
+        },
+        "Settings": {
+          "text": "Mode\nVolume-assist control\nTidal Volume\nVt = 6-8 cc/kg of Ideal Body Weight\nIdeal Body Weight used because lung parenchyma does not increase in size as the person gains more weight\nInspiratory Flow Rate\n60-80 L/minute\nSome advocate for higher rates (e.g. 80-100 LPM) to allow more expiration time, however this will increase the peak pressures and has not shown to produce any clinically meaningful change in the expiration time\n[16]\n[17]\nFiO2/PEEP\nTitrate FiO2 to desired SpO2\nSet PEEP 0-5\nRespiratory Rate\nSet low - 10 BPM\nAdjust for I:E 1:4 or 1:5\nPermissive hypercapnia to avoid breath stacking\nOk as long as pH > 7.00-7.10\nMaintain plateau pressure <30\n[18]\nIf >30 go down on rate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Background_3": {
+      "text": "For patients with active bronchoconstriction (e.g.\nCOPD\n,\nasthma\n)\nThe best ventilatory strategy for these patients is to avoid intubation if possible; mechanical ventilation will often make the pulmonary situation worse, rather than better.\n[14]\nGoal = adequate time for expiration\nFrequently requires deep sedation and analgesia (first-line); may required paralysis (second-line)\n[15]",
+      "subsections": {
+        "Settings": {
+          "text": "Mode\nVolume-assist control\nTidal Volume\nVt = 6-8 cc/kg of Ideal Body Weight\nIdeal Body Weight used because lung parenchyma does not increase in size as the person gains more weight\nInspiratory Flow Rate\n60-80 L/minute\nSome advocate for higher rates (e.g. 80-100 LPM) to allow more expiration time, however this will increase the peak pressures and has not shown to produce any clinically meaningful change in the expiration time\n[16]\n[17]\nFiO2/PEEP\nTitrate FiO2 to desired SpO2\nSet PEEP 0-5\nRespiratory Rate\nSet low - 10 BPM\nAdjust for I:E 1:4 or 1:5\nPermissive hypercapnia to avoid breath stacking\nOk as long as pH > 7.00-7.10\nMaintain plateau pressure <30\n[18]\nIf >30 go down on rate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Settings": {
+      "text": "Mode\nVolume-assist control\nTidal Volume\nVt = 6-8 cc/kg of Ideal Body Weight\nIdeal Body Weight used because lung parenchyma does not increase in size as the person gains more weight\nInspiratory Flow Rate\n60-80 L/minute\nSome advocate for higher rates (e.g. 80-100 LPM) to allow more expiration time, however this will increase the peak pressures and has not shown to produce any clinically meaningful change in the expiration time\n[16]\n[17]\nFiO2/PEEP\nTitrate FiO2 to desired SpO2\nSet PEEP 0-5\nRespiratory Rate\nSet low - 10 BPM\nAdjust for I:E 1:4 or 1:5\nPermissive hypercapnia to avoid breath stacking\nOk as long as pH > 7.00-7.10\nMaintain plateau pressure <30\n[18]\nIf >30 go down on rate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Hypovolemic": {
+      "text": "Consider reducing PEEP to maintain adequate preload and prevent/minimize hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Miscellaneous": {
+      "text": "Normally already set\nInspiratory flow rate = 60L/min\n[19]\n(100 L/min with asthma)\nSensitivity = 1-2 cmH2O",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Critical_Care": {
+          "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+          "tables": []
+        },
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Pediatric_Critical_Care": {
+      "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMdocs Pediatric Mechanical Ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

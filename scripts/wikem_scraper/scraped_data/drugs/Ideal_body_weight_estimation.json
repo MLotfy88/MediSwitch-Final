@@ -1,0 +1,258 @@
+{
+  "drug_name": "Ideal_body_weight_estimation",
+  "url": "https://wikem.org/wiki/Ideal_body_weight_estimation",
+  "scraped_at": "2026-01-10T07:55:21.088980",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"predicted body weight\"\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Men": {
+      "text": "Male Ideal Body Weight (kg) = 50 + 2.3 (height (in) – 60)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Height (in)": "60",
+            "Height (cm)": "152.4",
+            "Ideal Body weight (kg)": "50"
+          },
+          {
+            "Height (in)": "61",
+            "Height (cm)": "154.94",
+            "Ideal Body weight (kg)": "52"
+          },
+          {
+            "Height (in)": "62",
+            "Height (cm)": "157.48",
+            "Ideal Body weight (kg)": "55"
+          },
+          {
+            "Height (in)": "63",
+            "Height (cm)": "160.02",
+            "Ideal Body weight (kg)": "57"
+          },
+          {
+            "Height (in)": "64",
+            "Height (cm)": "162.56",
+            "Ideal Body weight (kg)": "59"
+          },
+          {
+            "Height (in)": "65",
+            "Height (cm)": "165.1",
+            "Ideal Body weight (kg)": "62"
+          },
+          {
+            "Height (in)": "66",
+            "Height (cm)": "167.64",
+            "Ideal Body weight (kg)": "64"
+          },
+          {
+            "Height (in)": "67",
+            "Height (cm)": "170.18",
+            "Ideal Body weight (kg)": "66"
+          },
+          {
+            "Height (in)": "68",
+            "Height (cm)": "172.72",
+            "Ideal Body weight (kg)": "68"
+          },
+          {
+            "Height (in)": "69",
+            "Height (cm)": "175.26",
+            "Ideal Body weight (kg)": "71"
+          },
+          {
+            "Height (in)": "70",
+            "Height (cm)": "177.8",
+            "Ideal Body weight (kg)": "73"
+          },
+          {
+            "Height (in)": "71",
+            "Height (cm)": "180.34",
+            "Ideal Body weight (kg)": "75"
+          },
+          {
+            "Height (in)": "72",
+            "Height (cm)": "182.88",
+            "Ideal Body weight (kg)": "78"
+          },
+          {
+            "Height (in)": "73",
+            "Height (cm)": "185.42",
+            "Ideal Body weight (kg)": "80"
+          },
+          {
+            "Height (in)": "74",
+            "Height (cm)": "187.96",
+            "Ideal Body weight (kg)": "82"
+          },
+          {
+            "Height (in)": "75",
+            "Height (cm)": "190.5",
+            "Ideal Body weight (kg)": "85"
+          },
+          {
+            "Height (in)": "76",
+            "Height (cm)": "193.04",
+            "Ideal Body weight (kg)": "87"
+          },
+          {
+            "Height (in)": "77",
+            "Height (cm)": "195.58",
+            "Ideal Body weight (kg)": "89"
+          },
+          {
+            "Height (in)": "78",
+            "Height (cm)": "198.12",
+            "Ideal Body weight (kg)": "91"
+          },
+          {
+            "Height (in)": "79",
+            "Height (cm)": "200.66",
+            "Ideal Body weight (kg)": "94"
+          },
+          {
+            "Height (in)": "80",
+            "Height (cm)": "203.2",
+            "Ideal Body weight (kg)": "96"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Women": {
+      "text": "Female Ideal Body Weight (kg) = 45.5 + 2.3 (height (in) - 60)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Height (in)": "60",
+            "Height (cm)": "152.4",
+            "Ideal Body weight (kg)": "46"
+          },
+          {
+            "Height (in)": "61",
+            "Height (cm)": "154.94",
+            "Ideal Body weight (kg)": "48"
+          },
+          {
+            "Height (in)": "62",
+            "Height (cm)": "157.48",
+            "Ideal Body weight (kg)": "50"
+          },
+          {
+            "Height (in)": "63",
+            "Height (cm)": "160.02",
+            "Ideal Body weight (kg)": "52"
+          },
+          {
+            "Height (in)": "64",
+            "Height (cm)": "162.56",
+            "Ideal Body weight (kg)": "55"
+          },
+          {
+            "Height (in)": "65",
+            "Height (cm)": "165.1",
+            "Ideal Body weight (kg)": "57"
+          },
+          {
+            "Height (in)": "66",
+            "Height (cm)": "167.64",
+            "Ideal Body weight (kg)": "59"
+          },
+          {
+            "Height (in)": "67",
+            "Height (cm)": "170.18",
+            "Ideal Body weight (kg)": "62"
+          },
+          {
+            "Height (in)": "68",
+            "Height (cm)": "172.72",
+            "Ideal Body weight (kg)": "64"
+          },
+          {
+            "Height (in)": "69",
+            "Height (cm)": "175.26",
+            "Ideal Body weight (kg)": "66"
+          },
+          {
+            "Height (in)": "70",
+            "Height (cm)": "177.8",
+            "Ideal Body weight (kg)": "69"
+          },
+          {
+            "Height (in)": "71",
+            "Height (cm)": "180.34",
+            "Ideal Body weight (kg)": "71"
+          },
+          {
+            "Height (in)": "72",
+            "Height (cm)": "182.88",
+            "Ideal Body weight (kg)": "73"
+          },
+          {
+            "Height (in)": "73",
+            "Height (cm)": "185.42",
+            "Ideal Body weight (kg)": "75"
+          },
+          {
+            "Height (in)": "74",
+            "Height (cm)": "187.96",
+            "Ideal Body weight (kg)": "78"
+          },
+          {
+            "Height (in)": "75",
+            "Height (cm)": "190.5",
+            "Ideal Body weight (kg)": "80"
+          },
+          {
+            "Height (in)": "76",
+            "Height (cm)": "193.04",
+            "Ideal Body weight (kg)": "82"
+          },
+          {
+            "Height (in)": "77",
+            "Height (cm)": "195.58",
+            "Ideal Body weight (kg)": "85"
+          },
+          {
+            "Height (in)": "78",
+            "Height (cm)": "198.12",
+            "Ideal Body weight (kg)": "87"
+          },
+          {
+            "Height (in)": "79",
+            "Height (cm)": "200.66",
+            "Ideal Body weight (kg)": "89"
+          },
+          {
+            "Height (in)": "80",
+            "Height (cm)": "203.2",
+            "Ideal Body weight (kg)": "92"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vital signs",
+          "url": "https://wikem.org/wiki/Vital_signs"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDcalc predicted body weight",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

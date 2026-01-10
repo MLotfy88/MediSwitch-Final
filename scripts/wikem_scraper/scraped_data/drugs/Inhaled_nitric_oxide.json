@@ -1,0 +1,128 @@
+{
+  "drug_name": "Inhaled_nitric_oxide",
+  "url": "https://wikem.org/wiki/Inhaled_nitric_oxide",
+  "scraped_at": "2026-01-10T07:55:32.571576",
+  "sections": {
+    "Administration": {
+      "text": "Type: Inhalational agent\nDosage Forms: Metal cylinders, 100 ppm and 800 ppm\nRoutes of Administration: Inhaled\nCommon Trade Names: INOmax",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "5 - 80 ppm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "20 ppm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\nInhibits platelets - bleeding\nRebound htn and hypoxia\nRenal failure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nWithdrawal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hypotension\nInhibits platelets - bleeding\nRebound htn and hypoxia\nRenal failure",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nWithdrawal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Hypotension\nWithdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5 seconds\nMetabolism: reacts with oxyhemoglobin to form methemoglobin and nitrate, and also reacts with deoxy-hemoglobin.\nExcretion: Renally; 70% of inhaled NO excreted within 48 hrs as nitrate in urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts via diffusion from alveoli\nRelaxes smooth muscle of pulmonary vessels via conversion of GTP to cGMP, which activates a phosphorylatio cascade\nEnhances V/Q matching by increasing blood flow to well-ventilated areas of lung\nDecreases PVR\nDecreases PA pressure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Pulmonary hypertension of newborn\nPulmonary hypertension of adults\nCystic Fibrosis\nARDS\nRight heart failure (post-VAD, transplant, post cardiac surgery)\nGraft failure post lung transplant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Ichinose F, Roberts JD Jr, Zapol WM. Inhaled nitric oxide: a selective pulmonary vasodilator: current uses and therapeutic potential. Circulation. 2004 Jun 29;109(25):3106-11. Review. PubMed PMID: 15226227.\nMedscape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

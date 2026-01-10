@@ -1,0 +1,43 @@
+{
+  "drug_name": "Ileus",
+  "url": "https://wikem.org/wiki/Ileus",
+  "scraped_at": "2026-01-10T07:55:22.241736",
+  "sections": {
+    "Background": {
+      "text": "Failure or insufficiency in the peristalsis movement of the gastrointestinal tract which normally moves GI contents from mouth to anus.\nThought to be caused by a disruption in either the neural and/or neuro-hormonal reflexes that normally regulate bowel motility.\nMultiple causes possible - likely an inflammatory condition\nOpioid\n-induced\nPost-operative (irritation +/- opioids)\nElectrolyte imbalance (\nhypokalemia\n,\nhypomagnesemia\n)\nColonic pseudo-obstruction (aka\nOgilvie's syndrome\n)\nGallstone ileus,\npancreatitis\nPeritonitis\n(e.g. from infection, malignancy, trauma)\nClostridium difficile\ncolitis\nBurns\n,\nacute radiation syndrome\nSpastic ileus (rare: porphyria or lead poisoning)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\n/distension\nNausea/vomiting\n, inability to tolerate PO/enteral feeding\nConstipation\nAbsent or hypoactive bowel sounds\nCan produce intestinal ischemia, intestinal perforation, abdominal compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Small bowel obstruction\nSee\nconstipation\n,\nabdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "BMP, Mg\nAbdominal X-ray\n: air fluid levels, air in bowel, distended bowel\nEvaluate for underlying causes\nIf concern for\nSBO\n, CT abdomen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying causes\nAvoid excessive\nIV fluids\n(bowel edema worsens ileus)\nAvoid\nopioids\nPro-motility agents\nMetoclopramide\n,\nerythromycin\nOpioid antagonist: methylnaltrexone\nOgilvie's syndrome\n:\nNeostigmine\n2mg IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Small bowel obstruction\nToxic megacolon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "drug_name": "Idarucizumab",
+  "url": "https://wikem.org/wiki/Idarucizumab",
+  "scraped_at": "2026-01-10T07:55:20.705679",
+  "sections": {
+    "Administration": {
+      "text": "Type: Humanized monoclonal antibody fragment,\nantidote\n/\nanticoagulant reversal\nDosage Forms: 2.5g/50ml vial\nRoutes of Administration: IV\nCommon Trade Names: PRAXBIND",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        },
+        {
+          "text": "anticoagulant reversal",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "5g (2 vials)\nLimited evidence for redosing or dosing above 5g",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "No safety data available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B, no studies exist\nLactation risk\n: Not studied",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: 5g",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not studied",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: 5g",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not studied",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not studied",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Thromboembolic Risk: Reversing dabigatran therapy exposes patients to the thrombotic risk of their underlying disease. Resume anticoagulant therapy as soon as medically appropriate.\nRe-elevation of Coagulation Parameters: In patients with elevated coagulation parameters and reappearance of clinically relevant bleeding or requiring a second emergency surgery/urgent procedure, an additional 5 g dose of PRAXBIND may be considered.\nHypersensitivity reactions: Discontinue administration and evaluate.\nRisks of Serious Adverse Reactions in Patients with Hereditary Fructose Intolerance due to Sorbitol Excipient: Patients with hereditary fructose intolerance may be at risk of adverse reactions.",
+          "tables": []
+        },
+        "Common": {
+          "text": "In healthy volunteers, the most frequently reported adverse reactions in ≥5% of subjects treated with idarucizumab was headache\nIn patients, the most frequently reported adverse reactions in ≥5% of patients treated with idarucizumab were hypokalemia, delirium, constipation, pyrexia, and pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Thromboembolic Risk: Reversing dabigatran therapy exposes patients to the thrombotic risk of their underlying disease. Resume anticoagulant therapy as soon as medically appropriate.\nRe-elevation of Coagulation Parameters: In patients with elevated coagulation parameters and reappearance of clinically relevant bleeding or requiring a second emergency surgery/urgent procedure, an additional 5 g dose of PRAXBIND may be considered.\nHypersensitivity reactions: Discontinue administration and evaluate.\nRisks of Serious Adverse Reactions in Patients with Hereditary Fructose Intolerance due to Sorbitol Excipient: Patients with hereditary fructose intolerance may be at risk of adverse reactions.",
+      "subsections": {
+        "Common": {
+          "text": "In healthy volunteers, the most frequently reported adverse reactions in ≥5% of subjects treated with idarucizumab was headache\nIn patients, the most frequently reported adverse reactions in ≥5% of patients treated with idarucizumab were hypokalemia, delirium, constipation, pyrexia, and pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "In healthy volunteers, the most frequently reported adverse reactions in ≥5% of subjects treated with idarucizumab was headache\nIn patients, the most frequently reported adverse reactions in ≥5% of patients treated with idarucizumab were hypokalemia, delirium, constipation, pyrexia, and pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 10.3h\nMetabolism: Protein catabolism\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Fab that binds to dabigatran and its acylglucuronide metabolites with higher affinity than the binding affinity of dabigatran to thrombin, neutralizing their anticoagulant effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "FDA approved idarucizumab after preliminary results of the Reversal Effects of Idarucizumab on Active Dabigatran (RE-VERSE AD) study.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dabigatran (Pradaxa) reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dabigatran (Pradaxa) reversal",
+          "url": "https://wikem.org/wiki/Dabigatran_(Pradaxa)_reversal"
+        }
+      ]
+    }
+  }
+}

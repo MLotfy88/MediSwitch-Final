@@ -1,0 +1,295 @@
+{
+  "drug_name": "Impetigo",
+  "url": "https://wikem.org/wiki/Impetigo",
+  "scraped_at": "2026-01-10T07:55:28.107410",
+  "sections": {
+    "Background": {
+      "text": "Superficial epidermal infection characterized by amber crusts (nonbullous) or vesicles (bullous)\nMay be super-infection or primary infection\nTypical causative organisms are\nStaphylococcus aureus\nor\nStreptococcus pyogenes\nFever and systemic signs are uncommon\nPost-streptococcal glomerular nephritis\nis a possible complication, and incidence is not reduced by antibiotic therapy\nHighly contagious and easily transmittable",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Streptococcus pyogenes",
+          "url": "https://wikem.org/wiki/Streptococcus_pyogenes"
+        },
+        {
+          "text": "Post-streptococcal glomerular nephritis",
+          "url": "https://wikem.org/wiki/Post-streptococcal_glomerular_nephritis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nonbullous\nErythematous macules/papules develop into vesicles which become pustular and rupture\nAs rupture release yellow fluid which dries to form stratified golden crust\nBullous\nBullae form as result of staph toxin\nSome cases caused by\nMRSA\nUncommonly painful, but usually pruritic\nRegional\nlymphadenopathy\nis common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nonbullous",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Bullous",
+          "url": "https://wikem.org/wiki/Vesiculobullous_rashes"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Rash": {
+          "text": "Acute generalized exanthematous pustulosis\nAllergic reaction\nAphthous stomatitis\nAtopic dermatitis\nCoxsackie\nDermatitis herpetiformis\nExfoliative erythroderma\nImpetigo\nPellagra\nPityriasis rosea\nSerum Sickness\nTinea capitus\nTinea corporis\nVitiligo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Serum Sickness",
+          "url": "https://wikem.org/wiki/Serum_Sickness"
+        },
+        {
+          "text": "Tinea capitus",
+          "url": "https://wikem.org/wiki/Tinea_capitus"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Other_Rash": {
+      "text": "Acute generalized exanthematous pustulosis\nAllergic reaction\nAphthous stomatitis\nAtopic dermatitis\nCoxsackie\nDermatitis herpetiformis\nExfoliative erythroderma\nImpetigo\nPellagra\nPityriasis rosea\nSerum Sickness\nTinea capitus\nTinea corporis\nVitiligo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Serum Sickness",
+          "url": "https://wikem.org/wiki/Serum_Sickness"
+        },
+        {
+          "text": "Tinea capitus",
+          "url": "https://wikem.org/wiki/Tinea_capitus"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Coverage for\nMSSA\n,\nMRSA\n,\nGroup A Strep",
+          "tables": []
+        },
+        "Topical_therapy": {
+          "text": "Mupirocin\n(Bactroban) 2% ointment q8hrs x 5 days\nFor nonbullous impetigo, topic antibiotics are as effective as oral antibiotics",
+          "tables": []
+        },
+        "Oral_Therapy": {
+          "text": "Cephalexin\n500mg (6.25mg/kg) PO q6hrs for 10 days OR\nAmoxicillin/Clavulanate\n875mg (12.5mg/kg) PO q12hrs daily x 10 days OR\nClindamycin\n450mg PO q8hrs daily (or 10mg/kg PO q6hrs) for 10 days OR\nDicloxacillin\n500mg (3mg/kg) PO q6hrs daily x 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Group_A_Strep"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Coverage for\nMSSA\n,\nMRSA\n,\nGroup A Strep",
+      "subsections": {
+        "Topical_therapy": {
+          "text": "Mupirocin\n(Bactroban) 2% ointment q8hrs x 5 days\nFor nonbullous impetigo, topic antibiotics are as effective as oral antibiotics",
+          "tables": []
+        },
+        "Oral_Therapy": {
+          "text": "Cephalexin\n500mg (6.25mg/kg) PO q6hrs for 10 days OR\nAmoxicillin/Clavulanate\n875mg (12.5mg/kg) PO q12hrs daily x 10 days OR\nClindamycin\n450mg PO q8hrs daily (or 10mg/kg PO q6hrs) for 10 days OR\nDicloxacillin\n500mg (3mg/kg) PO q6hrs daily x 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Group_A_Strep"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    }
+  }
+}

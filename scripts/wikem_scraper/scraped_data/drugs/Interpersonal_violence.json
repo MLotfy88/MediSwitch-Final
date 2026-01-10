@@ -1,0 +1,123 @@
+{
+  "drug_name": "Interpersonal_violence",
+  "url": "https://wikem.org/wiki/Interpersonal_violence",
+  "scraped_at": "2026-01-10T07:55:36.172646",
+  "sections": {
+    "Who_to_Screen_in_the_ER": {
+      "text": "ideally everyone\nInstitute of Medicine recommends screening women once a year\nin the ER, screen females with:\nreproductive age\nsigns/symptoms of mental health issues\nchronic abdominal pain\nany female with any injury\nespecially injuries in a central pattern:\nhead, face, neck, thorax, abdomen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "How_to_Screen": {
+      "text": "excuse all the family or friends from room\n\"I'm going to ask a few quick questions that I ask all of my patients and then I will bring you back in the room to help with the care in a few minutes\"\n\"I'm going to ask you some questions that I ask all of my patients because violence against women is such an issue.\"\n\"Has anyone hit, kicked, or punched you within the past year?\"\nIf they say yes: \"how often?\", \"have they spoken to anyone about it?\", \"do they feel unsafe at home because of it?\"\nyou should refer them to social work in house or contact 800-799-SAFE\nif you're suspicious, but they do not say anything: \"your injuries do not seem to fit the story, can you go through how this happened?\"\nif still not forthcoming: \"here are resources we give all patients as this might be an issue for you or a friend at a later time\"\nthank them for sharing such difficult information",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Psychosocial_and_Related": {
+          "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Psychosocial_and_Related": {
+      "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Mandatory_Reporting": {
+      "text": "in California, physicians are required to make a report if they provide medical services to a patient whom they suspect is suffering from a physical injury due to a firearm or assaultive or abusive conduct\nSee Also:\nMandatory Reporting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mandatory Reporting",
+          "url": "https://wikem.org/wiki/Mandatory_Reporting"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "refer to social services\nadvise them to keep some money separate, notify a friend, and have an escape plan\nif they are in imminent danger you may need to admit them",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "http://www.futureswithoutviolence.org/userfiles/file/HealthCare/mandatory_calif.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Muelleman RL et al. Battered woman: injury locations and types. Ann Emerg Med. 1996 Nov;28(5):486-92.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
