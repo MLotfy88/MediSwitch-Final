@@ -37,6 +37,11 @@ jobs:
           python3 scripts/wikem_scraper/get_all_categories.py > scripts/wikem_scraper/drug_list.txt
           echo "📊 Total pages to scrape: $(wc -l < scripts/wikem_scraper/drug_list.txt)"
       
+      - name: Configure git for auto-commits
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+      
       - name: Run scraper
         id: scrape
         run: |

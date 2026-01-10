@@ -366,7 +366,10 @@ class WikEMScraper:
                     
                     # Auto-commit every N drugs
                     if processed_count % COMMIT_EVERY == 0:
-                        self.git_commit(f"Scraped {COMMIT_EVERY} drugs (checkpoint: {processed_count})")
+                        try:
+                            self.git_commit(f"WikEM scraping: {processed_count} drugs completed")
+                        except Exception as e:
+                            logger.warning(f"Git commit failed (non-critical): {e}")
                 else:
                     self.checkpoint.mark_failed(drug_name, "Scraping returned None")
                     
