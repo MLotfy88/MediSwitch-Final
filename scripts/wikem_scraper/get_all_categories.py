@@ -30,7 +30,7 @@ CATEGORIES = [
     'Orthopedics',
     'Surgery',
     'Trauma',
-    'Emergency_Medicine',
+    # 'Emergency_Medicine', # Removed: Page does not exist (404)
     'Procedures',
     'Rheumatology',
     'Urology',
