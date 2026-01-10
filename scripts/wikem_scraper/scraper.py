@@ -373,6 +373,13 @@ class WikEMScraper:
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
+        drug_data = {
+            "drug_name": drug_name,
+            "url": url,
+            "scraped_at": datetime.now().isoformat(),
+            "sections": {}
+        }
+        
         # 1. Capture content BEFORE the first H2 (Introduction/Tables at top)
         intro_content = {
             "text": "",
