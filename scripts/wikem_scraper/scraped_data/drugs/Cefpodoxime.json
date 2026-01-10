@@ -1,0 +1,201 @@
+{
+  "drug_name": "Cefpodoxime",
+  "url": "https://wikem.org/wiki/Cefpodoxime",
+  "scraped_at": "2026-01-10T03:06:58.306849",
+  "sections": {
+    "General": {
+      "text": "Type: 3rd generation\ncephalosporin\nDosage Forms: tablet, oral suspension\nDosage Strengths: tablet: 100mg, 200mg; oral suspension: 50mg/5mL, 100mg/5mL\nRoutes of Administration: PO\nCommon Trade Names: Vantin, Cefopodoxine Proxetil",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Bronchitis_(chronic)": {
+          "text": "200mg q 12 h  for 10 days",
+          "tables": []
+        },
+        "Acute_bacterial_infection": {
+          "text": "200mg q 12 h  for 10 days",
+          "tables": []
+        },
+        "Pharyngitis/Tonsillitis": {
+          "text": "100mg q 12 h for 5-10 days",
+          "tables": []
+        },
+        "Acute_community_acquired_pneumonia": {
+          "text": "200mg q 12 h for 14 days",
+          "tables": []
+        },
+        "Acute_rhino_sinusitis": {
+          "text": "200mg q 12 h for 10 days",
+          "tables": []
+        },
+        "Skin_and_soft_tissue_infection": {
+          "text": "400mg q 12 h for 14 days",
+          "tables": []
+        },
+        "Urinary_tract_infection,_uncomplicated": {
+          "text": "100mg q 12 h for 7 days",
+          "tables": []
+        },
+        "Pyelonephritis": {
+          "text": "200mg q12 for 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Infant ≥2 months to children <12 years: 10mg/kg/day (maximum 200mg/dose) q 12 h\nChildren >12 years to adolescent: 100 to 400mg q 12 h",
+          "tables": []
+        },
+        "Specific_indication": {
+          "text": "Bronchitis\n(chronic), acute bacterial infection\nAdult dosing for Infant ≥2 months to children <12 years\nAcute otitis media\nInfant ≥2 months to children <12 years: 5mg/kg/dose (maximum 200mg/dose) q 12 h for 5 days, duration according to AAP recommendation\n[1]\n: for children < 2 years or any age with sever symptoms; 10 day-course, age 2-**5 years with mild to moderate symptoms: 7 day-course; age ≥ 6 years with mild to moderate symptoms: 5 day-course\nPharyngitis\n/tonsillitis:\nInfant ≥2 months to children <12 years: 5mg/kg/dose (maximum 100mg/dose) q 12 h for 5-10 days\nChildren >12 years to adolescent: adult dosing\nAcute\nsinusitis\nInfant ≥2 months to children <12 years: 5mg/kg/dose (maximum 200mg/dose) q 12 h for 10 days, ISDA recommend adding Clindamycin for 10-14 days in patients with failed initial therapy or at risk of antibiotic resistance (attending daycare, age <2 years, recently hospitalised, antibiotic used with in 1 month)\n[2]\nChildren >12 years to adolescent: adult dosing\nSkin soft tissue infection and uncomplicated\nurinary tract infection\nChildren >12 years to adolescent: adult dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: excreted in breast milk, not recommended for nursing women\nRenal Dosing\nAdult\nCrCl >30 mL/minute: dosage adjustment not needed\nCrCl <30 mL/minute: administer q 24 h\nHemodialysis: 3 times/week following dialysis\nPediatric: not defined\nHepatic Dosing: dosage adjustment not nescessary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nHypersensitivity to\npenicillin\nRenal impairment\nConcurrent nephrotoxic agent\nSeizure\ndisorder\nRecent antibiotic-associated\ncolitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious_(<1%)": {
+          "text": "Anaphylaxis\nHypotension\nNephritis\nPseudomembranous colitis\nSeizures\nLeukopenia\nThrombocytopenia\nAnemia\nExfoliative dermatitis\nStevens-Johnson Syndrome\nC. diff associated\ndiarrhea",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diaper rash\nDiarrhea\nNausea\n/\nvomiting\nAbdominal pain\nDyspepsia\nHeadache\nCandidiasis\n, vulvovaginal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3 h, prolonged to ~10 h if CrCl <30 mL/minute\nMetabolism: De-esterified in GI tract to active metabolite\nExcretion: Urine\nMechanism of Action: Inhibit bacterial cell walls synthesis (binding to penicillin-binding proteins (PBPs)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

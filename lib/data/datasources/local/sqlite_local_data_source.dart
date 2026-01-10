@@ -4,7 +4,6 @@ import 'dart:convert'; // Import dart:convert
 import 'package:csv/csv.dart'; // Restore csv import
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:mediswitch/core/constants/dormicum_data.dart';
 import 'package:mediswitch/core/database/database_helper.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/utils/category_mapper_helper.dart';
@@ -451,71 +450,7 @@ class SqliteLocalDataSource {
         where: 'med_id = ?',
         whereArgs: [medId],
       );
-
-      var guidelines =
-          maps.map((e) => DosageGuidelinesModel.fromMap(e)).toList();
-
-      // --- EMERGENCY FALLBACK FOR DEMO ---
-      // We check ALL known Midazolam IDs from CSV + ID 418 (Debug legacy)
-      // to ensure the demo works regardless of which specific product the user clicks.
-      final targetIds = {418, 3846, 3847, 8157, 8158, 22734, 30918, 30919};
-
-      if (targetIds.contains(medId)) {
-        if (guidelines.isEmpty) {
-          // If no guidelines exist at all for this ID, create a fresh one to hold the injected data
-          _logger.w(
-            "⚠️ Creating fresh Dormicum guideline for demo (ID: $medId)!",
-          );
-          final dummy = DosageGuidelinesModel(
-            medId: medId,
-            structuredDosage: kDormicumStructuredData,
-            source: 'Demo Fallback',
-            instructions: 'Tap to view structured dosage...',
-          );
-          guidelines = [dummy];
-        } else {
-          // Check primary guideline
-          if (guidelines.first.structuredDosage == null ||
-              guidelines.first.structuredDosage!.isEmpty) {
-            _logger.w(
-              "⚠️ Hard-injecting Dormicum structured data for demo (ID: $medId)!",
-            );
-            final original = guidelines.first;
-            // We need to mutate or replace. Since Model is immutable-ish (final fields),
-            // we create a new instance with the data.
-            final injected = DosageGuidelinesModel(
-              id: original.id,
-              medId: original.medId,
-              dailymedSetid: original.dailymedSetid,
-              minDose: original.minDose,
-              maxDose: original.maxDose,
-              frequency: original.frequency,
-              duration: original.duration,
-              instructions: original.instructions,
-              condition: original.condition,
-              source: original.source,
-              isPediatric: original.isPediatric,
-              route: original.route,
-              structuredDosage: kDormicumStructuredData, // INJECTED
-              warnings: original.warnings,
-              contraindications: original.contraindications,
-              adverseReactions: original.adverseReactions,
-              renalAdjustment: original.renalAdjustment,
-              hepaticAdjustment: original.hepaticAdjustment,
-              blackBoxWarning: original.blackBoxWarning,
-              overdoseManagement: original.overdoseManagement,
-              pregnancyCategory: original.pregnancyCategory,
-              lactationInfo: original.lactationInfo,
-              specialPopulations: original.specialPopulations,
-            );
-
-            // Replace in list
-            guidelines[0] = injected;
-          }
-        }
-      }
-
-      return guidelines;
+      return maps.map((e) => DosageGuidelinesModel.fromMap(e)).toList();
     } catch (e) {
       _logger.e('Error fetching dosage guidelines', e);
       return [];

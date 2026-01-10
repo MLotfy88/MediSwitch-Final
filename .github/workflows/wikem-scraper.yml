@@ -1,0 +1,94 @@
+name: WikEM Dosage Data Scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      categories:
+        description: 'Categories to scrape (comma-separated, or "all")'
+        required: false
+        default: 'Pharmacology,Toxicology'
+      max_pages:
+        description: 'Maximum pages to scrape (0 = unlimited)'
+        required: false
+        default: '100'
+
+jobs:
+  scrape-wikem:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6 hours max
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+      
+      - name: Get drug list
+        run: |
+          python3 scripts/wikem_scraper/get_all_categories.py > scripts/wikem_scraper/drug_list.txt
+          echo "📊 Total pages to scrape: $(wc -l < scripts/wikem_scraper/drug_list.txt)"
+      
+      - name: Run scraper
+        id: scrape
+        run: |
+          python3 scripts/wikem_scraper/scraper.py
+        continue-on-error: true
+      
+      - name: Check results
+        run: |
+          echo "=== Scraping Summary ==="
+          if [ -f scripts/wikem_scraper/checkpoints/progress.json ]; then
+            cat scripts/wikem_scraper/checkpoints/progress.json | python3 -m json.tool
+          fi
+          echo ""
+          echo "Total files scraped: $(ls scripts/wikem_scraper/scraped_data/drugs/ 2>/dev/null | wc -l)"
+      
+      - name: Upload scraped data as artifact
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: wikem-scraped-data-${{ github.run_number }}
+          path: |
+            scripts/wikem_scraper/scraped_data/
+            scripts/wikem_scraper/checkpoints/
+            scripts/wikem_scraper/logs/
+          retention-days: 90
+      
+      - name: Commit progress to repository
+        if: always()
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add scripts/wikem_scraper/scraped_data/ || true
+          git add scripts/wikem_scraper/checkpoints/ || true
+          git commit -m "WikEM scraping progress: Run #${{ github.run_number }}" || echo "No changes to commit"
+          git push || echo "Push failed (may need permissions)"
+      
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## 📊 Scraping Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f scripts/wikem_scraper/checkpoints/progress.json ]; then
+            echo "### Progress" >> $GITHUB_STEP_SUMMARY
+            python3 -c "
+import json
+with open('scripts/wikem_scraper/checkpoints/progress.json') as f:
+    data = json.load(f)
+    print(f\"- **Scraped:** {data['total_scraped']}\")
+    print(f\"- **Failed:** {data['total_failed']}\")
+    print(f\"- **Last Updated:** {data['last_updated']}\")
+" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Download Results" >> $GITHUB_STEP_SUMMARY
+          echo "Download the artifact from the Actions tab to get all scraped data." >> $GITHUB_STEP_SUMMARY

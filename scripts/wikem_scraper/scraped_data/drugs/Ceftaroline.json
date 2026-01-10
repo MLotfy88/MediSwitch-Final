@@ -1,0 +1,105 @@
+{
+  "drug_name": "Ceftaroline",
+  "url": "https://wikem.org/wiki/Ceftaroline",
+  "scraped_at": "2026-01-10T03:07:09.530771",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntibiotic\n,\nCephalosporin\n(fifth generation)\nDosage Forms: IV\nCommon Trade Names: Teflaro",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Pneumonia, Community-acquired: IV: 600 mg every 12 hours for 5 to 7 days\nSkin and skin structure infection: IV: 600 mg every 12 hours for 5 to 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Cystic Fibrosis pulmonary exacerbation, MRSA:\nChildren ≥ 6 years old - IV 15 mg/kg/dose every 8 hours (max dose 600 mg/dose)\nPneumonia, community acquired:\n≥ 2 months - < 2 years age - IV 8 mg/kg/dose every 8 hours for 5-14 days\n≥ 2 years - < 18 years\n≤ 33 kg: IV 12 mg/kg/dose every 8 hours for 5-14 days\n> 33 kg: IV 400 mg every 8 hours OR 600 mg every 12 hours for 5-14 days\nSkin and skin structure infection:\n≥ 2 months - < 2 years age - IV 8 mg/kg/dose every 8 hours\n≥ 2 years - < 18 years\n≤ 33 kg: IV 12 mg/kg/dose every 8 hours\n> 33 kg: IV 400 mg every 8 hours OR 600 mg every 12 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nAdverse events have been observed in animal studies\nLactation:\nUnknown if excreted in breast milk. Manufacturer recommends to use caution when giving to nursing women.\nRenal Dosing\nAdult\nCrCl > 50 mL/minute: No dosage adjustment necessary\nCrCl > 30 to ≤ 50 mL/minute: 400 mg every 12 hours\nCrCl ≥ 15 to ≤ 30 mL/minute: 300 mg every 12 hours\nCrCl < 15 mL/minute: 200 mg every 12 hours\nESRD patients on hemodialysis: 200 mg every 12 hours; dose given after hemodialysis on dialysis days\nPediatric\n≥ 2 months to < 18 years of age\nCrCl > 50 mL/minute/1.73 m²: No adjustment necessary\nCrCl ≤ 50 mL/minute/1.73 m²: Insufficient data, use with caution, dosing adjustment may be necessary\n≥ 18 years of age - same as adult dosing\nHepatic Dosing\nAdult\nNo dosage adjustment in manufacturer's labeling. Has not been studied.\nPediatric\nNo dosage adjustment in manufacturer's labeling. Has not been studied.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "C. diff\nElevated ALT/SGPT, hepatitis\nAnaphylaxis\n, hypersensitivity reaction\nSeizure\nRenal failure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\n,\ndiarrhea\nRash\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life:\n1.6 ± 0.38 hours (single dose), 2.66 ± 0.4 hours (multiple doses)\nMetabolism:\nExcretion:\nUrine 88%, Feces 6%\nMechanism of Action:\nInhibits bacterial cell wall synthesis by binding to penicillin-binding proteins",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
