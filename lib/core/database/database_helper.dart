@@ -20,8 +20,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion =
-      24; // Updated for WikEM + NCBI Hybrid Clean Injection
+  static const int _dbVersion = 25; // Updated for Interaction Fix + UI Polish
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
   static const String foodInteractionsTable = 'food_interactions';
@@ -84,7 +83,7 @@ class DatabaseHelper {
     // v21 marker for the final split fix
     final markerFilePath = join(
       documentsDirectory.path,
-      'db_v24_hybrid_clean.txt',
+      'db_v25_interactions_fix.txt',
     );
     final markerFile = File(markerFilePath);
 

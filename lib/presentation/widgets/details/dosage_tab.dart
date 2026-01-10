@@ -75,6 +75,7 @@ class DosageTab extends StatelessWidget {
                 guideline: primary,
                 drugForm: drug.dosageForm,
                 isAr: isAr,
+                concentration: drug.concentration,
               ),
               const SizedBox(height: 16),
               if (drug.concentration.isNotEmpty)
@@ -509,164 +510,201 @@ class _StandardDoseCard extends StatelessWidget {
     required this.guideline,
     required this.drugForm,
     required this.isAr,
+    this.concentration,
   });
 
   final DosageGuidelinesModel? guideline;
   final String drugForm;
   final bool isAr;
+  final String? concentration;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
-    final dose = guideline?.minDose;
-    final maxDose = guideline?.maxDose;
-    final freq = guideline?.frequency;
-    final route = guideline?.route ?? drugForm;
-    final duration = guideline?.duration;
+
+    // Logic to avoid generic data
+    final hasValidDose = guideline?.minDose != null && guideline!.minDose! > 0;
+
+    // "Hero" Content is the Instructions if available (WikEM protocol)
+    // If not, it falls back to a structured dose summary
+    final heroInstruction = guideline?.instructions;
+    final bool showInstructionAsHero =
+        heroInstruction != null && heroInstruction.length > 20;
 
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            theme.colorScheme.primary.withValues(alpha: 0.08),
-            theme.colorScheme.primary.withValues(alpha: 0.02),
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(color: appColors.border.withValues(alpha: 0.3)),
+        gradient: LinearGradient(
+          colors: [
+            theme.colorScheme.primary.withValues(alpha: 0.05),
+            theme.colorScheme.surface,
+          ],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Row(
-            children: [
-              Icon(
-                LucideIcons.pill,
-                size: 20,
-                color: theme.colorScheme.primary,
-              ),
-              const SizedBox(width: 8),
-              Text(
-                isAr ? 'الجرعة القياسية' : 'Standard Dose',
-                style: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
+          // 1. HERO CONTENT (The Main Protocol)
+          if (showInstructionAsHero) ...[
+            Row(
+              children: [
+                Icon(
+                  LucideIcons.scroll,
+                  size: 20,
                   color: theme.colorScheme.primary,
                 ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
-          Row(
-            children: [
-              Expanded(
-                child: _InfoTile(
-                  icon: LucideIcons.activity,
-                  label: isAr ? 'الجرعة' : 'Dose',
-                  value:
-                      dose != null
-                          ? (maxDose != null && maxDose > dose
-                              ? '$dose - $maxDose mg'
-                              : '$dose mg')
-                          : (isAr ? 'راجع النشرة' : 'See leaflet'),
-                  color: theme.colorScheme.primary,
+                const SizedBox(width: 8),
+                Text(
+                  isAr ? 'بروتوكول العلاج' : 'Dosing Protocol',
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: theme.colorScheme.primary,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.primary.withValues(alpha: 0.05),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(
+                  color: theme.colorScheme.primary.withValues(alpha: 0.1),
                 ),
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: _InfoTile(
-                  icon: LucideIcons.clock,
-                  label: isAr ? 'التكرار' : 'Frequency',
-                  value: _formatFrequency(freq, isAr),
-                  color: Colors.orange,
+              child: Text(
+                heroInstruction!,
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  height: 1.6,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
-            ],
-          ),
-          const SizedBox(height: 12),
-          Row(
-            children: [
-              Expanded(
-                child: _InfoTile(
-                  icon: LucideIcons.navigation,
-                  label: isAr ? 'الطريق' : 'Route',
-                  value: route.isNotEmpty ? route : '-',
-                  color: Colors.teal,
+            ),
+            const SizedBox(height: 16),
+          ],
+
+          // 2. Numeric Summary (Only if valid and makes sense)
+          // Hide if just "As directed" or useless
+          if (hasValidDose) ...[
+            Row(
+              children: [
+                Expanded(
+                  child: _BigNumberCard(
+                    label: isAr ? 'الجرعة' : 'Dose',
+                    value: _formatDoseRange(guideline!),
+                    subValue: concentration != null ? '($concentration)' : null,
+                    icon: LucideIcons.pill,
+                    color: theme.colorScheme.primary,
+                    isAr: isAr,
+                  ),
                 ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: _InfoTile(
-                  icon: LucideIcons.calendar,
-                  label: isAr ? 'المدة' : 'Duration',
-                  value:
-                      duration != null && duration > 0
-                          ? '$duration ${isAr ? 'يوم' : 'days'}'
-                          : (isAr ? 'حسب الحالة' : 'As needed'),
-                  color: theme.colorScheme.secondary,
-                ),
-              ),
-            ],
-          ),
+                if (guideline?.frequency != null &&
+                    guideline!.frequency! > 0) ...[
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: _BigNumberCard(
+                      label: isAr ? 'التكرار' : 'Frequency',
+                      value: _formatFrequencyShort(guideline!.frequency!, isAr),
+                      icon: LucideIcons.clock,
+                      color: Colors.orange,
+                      isAr: isAr,
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          ],
         ],
       ),
     );
   }
 
-  String _formatFrequency(int? freq, bool isAr) {
-    if (freq == null || freq <= 0) {
-      return isAr ? 'حسب الإرشاد' : 'As directed';
+  String _formatDoseRange(DosageGuidelinesModel g) {
+    if (g.minDose == null) return '-';
+    if (g.maxDose != null && g.minDose != null && g.maxDose! > g.minDose!) {
+      return '${g.minDose!.toStringAsFixed(0)}-${g.maxDose!.toStringAsFixed(0)} mg';
     }
-    if (freq == 24) return isAr ? 'مرة يومياً' : 'Once daily';
-    if (freq == 12) return isAr ? 'مرتين يومياً' : 'Twice daily';
-    if (freq == 8) return isAr ? '3 مرات يومياً' : '3 times daily';
-    if (freq == 6) return isAr ? '4 مرات يومياً' : '4 times daily';
-    return isAr ? 'كل $freq ساعة' : 'Every $freq hours';
+    return '${g.minDose!.toStringAsFixed(0)} mg';
+  }
+
+  String _formatFrequencyShort(int freq, bool isAr) {
+    if (freq == 24) return isAr ? '1× يومياً' : '1x Daily';
+    if (freq == 12) return isAr ? '2× يومياً' : '2x Daily';
+    if (freq == 8) return isAr ? '3× يومياً' : '3x Daily';
+    if (freq == 6) return isAr ? '4× يومياً' : '4x Daily';
+    return isAr ? 'كل $freq س' : 'q${freq}h';
   }
 }
 
-class _InfoTile extends StatelessWidget {
-  const _InfoTile({
-    required this.icon,
+class _BigNumberCard extends StatelessWidget {
+  const _BigNumberCard({
     required this.label,
     required this.value,
+    required this.icon,
     required this.color,
+    required this.isAr,
+    this.subValue,
   });
 
-  final IconData icon;
   final String label;
   final String value;
+  final String? subValue;
+  final IconData icon;
   final Color color;
+  final bool isAr;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Container(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 12),
       decoration: BoxDecoration(
         color: color.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Icon(icon, size: 14, color: color),
-              const SizedBox(width: 4),
-              Text(label, style: TextStyle(fontSize: 11, color: color)),
+              const SizedBox(width: 6),
+              Text(
+                label,
+                style: theme.textTheme.labelMedium?.copyWith(
+                  color: color,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
-          const SizedBox(height: 4),
+          const SizedBox(height: 8),
           Text(
             value,
-            style: theme.textTheme.bodyMedium?.copyWith(
+            textAlign: TextAlign.center,
+            style: theme.textTheme.headlineSmall?.copyWith(
               fontWeight: FontWeight.bold,
+              color: theme.colorScheme.onSurface,
             ),
           ),
+          if (subValue != null) ...[
+            const SizedBox(height: 4),
+            Text(
+              subValue!,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.secondary,
+              ),
+            ),
+          ],
         ],
       ),
     );
