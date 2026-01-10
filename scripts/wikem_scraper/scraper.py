@@ -388,23 +388,39 @@ class WikEMScraper:
             "links": []
         }
         
-        # Start from content div, default to soup if not found
+        # Robust Content Container Locator
+        # Priority: mw-parser-output > mw-content-text > bodyContent > body
         content_div = soup.find('div', class_='mw-parser-output')
         if not content_div:
-            content_div = soup
+            content_div = soup.find('div', id='mw-content-text')
+        if not content_div:
+            content_div = soup.find('div', id='bodyContent')
+        if not content_div:
+            content_div = soup.find('body')
             
-        for child in content_div.children:
-            if child.name == 'h2':
-                break
-            
-            if child.name == 'table':
-                table_data = self.extract_table(child)
-                if table_data:
-                    intro_content["tables"].append(table_data)
-            elif child.name in ['p', 'ul', 'ol', 'dl']:
-                text = child.get_text(separator='\n', strip=True)
-                if text:
-                    intro_content["text"] += text + "\n"
+        if content_div:
+            # Recursive search for initial tables/text allows skipping wrappers
+            # limit recursive search to avoid scanning entire page navigation
+            for child in content_div.find_all(['h2', 'table', 'p', 'ul', 'ol', 'dl'], recursive=True):
+                # Stop if we hit the first section header
+                if child.name == 'h2':
+                    break
+                
+                # Capture Tables
+                if child.name == 'table':
+                    # Skip TOC (Table of Contents)
+                    if 'toc' in child.get('class', []) or child.get('id') == 'toc':
+                        continue
+                    table_data = self.extract_table(child)
+                    if table_data:
+                        intro_content["tables"].append(table_data)
+                
+                # Capture Text
+                elif child.name in ['p', 'ul', 'ol', 'dl']:
+                    text = child.get_text(separator='\n', strip=True)
+                    # Filter out navigation junk
+                    if text and len(text) > 5 and "Jump to" not in text:
+                        intro_content["text"] += text + "\n"
         
         if intro_content["text"] or intro_content["tables"]:
             drug_data["sections"]["Intro"] = intro_content
