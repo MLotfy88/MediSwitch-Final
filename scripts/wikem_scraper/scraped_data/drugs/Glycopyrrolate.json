@@ -1,0 +1,278 @@
+{
+  "drug_name": "Glycopyrrolate",
+  "url": "https://wikem.org/wiki/Glycopyrrolate",
+  "scraped_at": "2026-01-10T07:54:02.760827",
+  "sections": {
+    "Administration": {
+      "text": "Class:\nAnticholinergics\nRoutes of Administration: Oral, IV, IM\nDosage Forms: 1-2 mg tablets, 1 mg/5mL oral solution, 0.2 mg/mL injectable solution\nCommon Trade Names: Robinul, Cuvposa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "PUD\n, adjunct tx\nPO Dose: 1-2 mg PO bid-tid;\nStart: 1 mg PO tid\nMax: 8 mg/day\nIM/IV Dose: 0.1-0.2 mg IM/IV tid-QID\nMax: 0.8 mg/day\nSpace dose 4h apart\nAntisialagogue\nPO Dose: 1-2 mg PO bid-tid;\nMax: 8 mg/day\nParenteral Dose: 0.1-0.2 mg SC/IM/IV q4-8h PRN\nMax: 0.8 mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PUD",
+          "url": "https://wikem.org/wiki/PUD"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Antisialagogue\nPO Dose, 2+ yo: 0.04-0.1 mg/kg PO q4-8h PRN\nMax: 1-2 mg/dose, 8mg/day\nParenteral Dose, 2+ yo: 0.0004-0.01 mg/kg SC/IM/IV q4-8h PRN\nMax: 0.1-0.2 mg/dose, 0.8 mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B; No known risk of teratogenicity with INJ form at 5x MRHD and with PO form at 320x MRHD\nLactation risk: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined; consider decreased dose.\nPediatric: No defined; consider decreased dose.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: Not defined.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined; consider decreased dose.\nPediatric: No defined; consider decreased dose.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: Not defined.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined.\nPediatric: Not defined.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nNeonates (benzyl alcohol-containing INJ forms)\nGlaucoma\n, angle-closure\nObstructive uropathy\nGI Obstruction\nParalytic ileus\nToxic megacolon\nUlcerative colitis\n, severe\nIntestinal atony in elderly, debilitated pts\nMyasthenia gravis\nAcute hemorrhage with unstable cardiovascular status\nCaution if CAD\nCaution if\nHTN\nCaution if\nCHF\nCaution if\narrhythmia\nCaution in elderly/debilitated pts\nCaution if renal impairment\nCaution if pulmonary disease\nCaution if\nhyperthyroidism\nCaution if autonomic neuropathy\nCaution if BPH\nCaution if high environmental temperature\nCaution if\nfebrile\nCaution if\nulcerative colitis\nCaution if hiatal hernia with reflux\nesophagitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "febrile",
+          "url": "https://wikem.org/wiki/Febrile"
+        },
+        {
+          "text": "ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction\nAnaphylaxis\nIntestinal obstruction\nHeat stroke\nSeizure\nArrhythmia\nCardiac arrest\nRespiratory arrest",
+          "tables": []
+        },
+        "Common": {
+          "text": "Xerostomia\nVomiting\nConstipation\nFlushing\nHeadache\nUrinary retention\nUrinary hesitancy\nBlurred vision\nPalpation\nTachycardia\nAnhidrosis\nDysgeusia\nLactation suppression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity reaction\nAnaphylaxis\nIntestinal obstruction\nHeat stroke\nSeizure\nArrhythmia\nCardiac arrest\nRespiratory arrest",
+      "subsections": {
+        "Common": {
+          "text": "Xerostomia\nVomiting\nConstipation\nFlushing\nHeadache\nUrinary retention\nUrinary hesitancy\nBlurred vision\nPalpation\nTachycardia\nAnhidrosis\nDysgeusia\nLactation suppression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Xerostomia\nVomiting\nConstipation\nFlushing\nHeadache\nUrinary retention\nUrinary hesitancy\nBlurred vision\nPalpation\nTachycardia\nAnhidrosis\nDysgeusia\nLactation suppression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.83h\nMetabolism: Unknown\nExcretion: Urine 85%, bile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Antagonizes acetylcholine receptors.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

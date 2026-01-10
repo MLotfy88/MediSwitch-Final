@@ -1,0 +1,410 @@
+{
+  "drug_name": "Hearing_loss",
+  "url": "https://wikem.org/wiki/Hearing_loss",
+  "scraped_at": "2026-01-10T07:54:20.478506",
+  "sections": {
+    "Background": {
+      "text": "Sensorineural: involving the inner ear, cochlea, or auditory nerve\nConductive: any mechanical factor blocking external sound from gaining access to the inner ear; ex:\ncerumen impaction\n, middle ear fluid, ossicular chain fixation\nMixed: both sensorineural and conductive loss\nShould evaluate for recent medication changes, family history of hearing loss, personal history of\ntrauma\n, recent scuba diving or flying (\nbarotrauma\n), cold water exposure, onset/progression of hearing loss, high- vs low-pitch loss, history of ear surgeries",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Most common causes: presbycusis (i.e. natural aging of the auditory system), followed by noise-induced hearing loss\n90% of cases are due to Sensorineural hearing loss, 10% due to Conductive causes\nMost bilateral cases that present gradually are benign.  Sudden onset, unilateral hearing loss is more concerning for a serious cause.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cerumen impaction",
+          "url": "https://wikem.org/wiki/Cerumen_impaction"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Most common causes: presbycusis (i.e. natural aging of the auditory system), followed by noise-induced hearing loss\n90% of cases are due to Sensorineural hearing loss, 10% due to Conductive causes\nMost bilateral cases that present gradually are benign.  Sudden onset, unilateral hearing loss is more concerning for a serious cause.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Varies by etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sensorineural_(Inner_Ear)": {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)\nInfections: (\nMeningitis\n, Viral cochleitis)\nBarotrauma\nPenetrating trauma\nMeniere Disease\nAutoimmune disease\nMultiple Sclerosis\nCerebrovascular ischemia\nTumors (\nAcoustic neuroma\n, Meningioma)\nHereditary hearing loss\nCongenital\nviral infections\nCongenital malformations\nPresbycusis\nThyrotoxicosis\nOtotoxic drugs:\nAminoglycosides\n,\nErythromycin\n,\nTetracycline\n, chemotherapeutic agents, high-dose\naspirin\n, phosphodiesterase-5 inhibitors (e.g.\nsildenafil\n,\nantimalarial\ndrugs,\nCocaine\n,\nHeavy Metals\nOtologic surgery\nNoise exposure",
+          "tables": []
+        },
+        "Conductive": {
+          "text": "Outer Ear\nTrauma\nSquamous cell carcinoma\nCongenital microtia or atresia\nOtitis Externa\nExostosis\nOsteoma\nPsoriasis\nCerumen impaction\nMiddle ear\nGlomus tumors\nTympanic membrane rupture\nTemporal bone\ntrauma\nCongenital atresia or Ossicular chain malformation\nEustachian tube dysfunction\nChronic\nOtitis media\nCholesteatoma\nOtosclerosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)",
+          "url": "https://wikem.org/wiki/Sudden_Sensorineural_Hearing_Loss_(SSHL)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Penetrating trauma",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Cerebrovascular ischemia",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "viral infections",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "Squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Otitis Externa",
+          "url": "https://wikem.org/wiki/Otitis_Externa"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Cerumen impaction",
+          "url": "https://wikem.org/wiki/Cerumen_impaction"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        }
+      ]
+    },
+    "Conductive": {
+      "text": "Outer Ear\nTrauma\nSquamous cell carcinoma\nCongenital microtia or atresia\nOtitis Externa\nExostosis\nOsteoma\nPsoriasis\nCerumen impaction\nMiddle ear\nGlomus tumors\nTympanic membrane rupture\nTemporal bone\ntrauma\nCongenital atresia or Ossicular chain malformation\nEustachian tube dysfunction\nChronic\nOtitis media\nCholesteatoma\nOtosclerosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "Squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Otitis Externa",
+          "url": "https://wikem.org/wiki/Otitis_Externa"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Cerumen impaction",
+          "url": "https://wikem.org/wiki/Cerumen_impaction"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Whispered_voice_test": {
+          "text": "Stand at arm’s length behind the patient and block hearing in one ear by occluding the ear canal.  Whisper a phrase and ask the patient to repeat it.  Test both ears.\nTone-emitting otoscope: Designed to view the ear canal and TM while emitting three different screening levels at random intervals.",
+          "tables": []
+        },
+        "Weber_test": {
+          "text": "Place a vibrating tuning fork on the forehead, equidistant to both ears\nIf the patient hears the sound equally in both ears, normal hearing or symmetric hearing loss is suspected.\nIf sound is heard more in affected ear → consider conductive hearing loss in affected ear\nIf sound is heard more in unaffected ear → consider sensorineural hearing loss in affected ear",
+          "tables": []
+        },
+        "Rinne_test": {
+          "text": "A vibrating turning fork is placed on the mastoid bone behind the ear. When the sound is no longer heard, the fork is held near the ear canal.\nIf the sound is still present or louder at the ear canal, normal hearing is suspected. (i.e. Air conduction is greater than bone conduction)\nIf no sound is heard near the ear canal but the sound was still heard on the mastoid bone, conductive hearing loss is suspected in that ear. (i.e. bone conduction > air conduction)",
+          "tables": []
+        },
+        "Hum_test": {
+          "text": "Hum test comparable to Weber test in diagnostic accuracy of new onset unilateral conductive hearing loss\n[1]\nHum test is conducted by asking the patient to hum and tell you in which ear the humming sounds louder\nIn sensorineural hearing loss, humming is louder in the unaffected ear\nIn conductive hearing loss, humming is louder in the affected ear",
+          "tables": []
+        },
+        "Pneumoscopy": {
+          "text": "To evaluate mobility of the TM.\nFirst, use positive pressure to force air into the EAC to push down the TM.\nThen, release the pressure and the negative pressure pulls the TM outwards.\nNonmobile = fluid in middle ear, mass in middle ear, stiff/sclerotic TM.\nHypermobile TM = ossicular chain disruption.\nMovable TM only with negative pressure = blocked Eustachian tube.",
+          "tables": []
+        },
+        "Formal_audiologic_assessment": {
+          "text": "Outside scope of ED evaluation\nPerformed by an audiologist in a soundproof environment.  Air and bone conduction are both tested.",
+          "tables": []
+        },
+        "Other_tests": {
+          "text": "Consideration for these tests should be based on history and physical\nBlood glucose\nCBC to evaluate for anemia or infection\nThyroid\ntesting\nSerologic testing for\nSyphilis\n,\nSjögren’s syndrome\nCT\nscan for unexplained conductive hearing loss\nMRI\nfor sensorineural hearing loss\nENT evaluation for presbycusis",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Differentiate between conductive and sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Possible_Testing": {
+      "text": "",
+      "subsections": {
+        "Whispered_voice_test": {
+          "text": "Stand at arm’s length behind the patient and block hearing in one ear by occluding the ear canal.  Whisper a phrase and ask the patient to repeat it.  Test both ears.\nTone-emitting otoscope: Designed to view the ear canal and TM while emitting three different screening levels at random intervals.",
+          "tables": []
+        },
+        "Weber_test": {
+          "text": "Place a vibrating tuning fork on the forehead, equidistant to both ears\nIf the patient hears the sound equally in both ears, normal hearing or symmetric hearing loss is suspected.\nIf sound is heard more in affected ear → consider conductive hearing loss in affected ear\nIf sound is heard more in unaffected ear → consider sensorineural hearing loss in affected ear",
+          "tables": []
+        },
+        "Rinne_test": {
+          "text": "A vibrating turning fork is placed on the mastoid bone behind the ear. When the sound is no longer heard, the fork is held near the ear canal.\nIf the sound is still present or louder at the ear canal, normal hearing is suspected. (i.e. Air conduction is greater than bone conduction)\nIf no sound is heard near the ear canal but the sound was still heard on the mastoid bone, conductive hearing loss is suspected in that ear. (i.e. bone conduction > air conduction)",
+          "tables": []
+        },
+        "Hum_test": {
+          "text": "Hum test comparable to Weber test in diagnostic accuracy of new onset unilateral conductive hearing loss\n[1]\nHum test is conducted by asking the patient to hum and tell you in which ear the humming sounds louder\nIn sensorineural hearing loss, humming is louder in the unaffected ear\nIn conductive hearing loss, humming is louder in the affected ear",
+          "tables": []
+        },
+        "Pneumoscopy": {
+          "text": "To evaluate mobility of the TM.\nFirst, use positive pressure to force air into the EAC to push down the TM.\nThen, release the pressure and the negative pressure pulls the TM outwards.\nNonmobile = fluid in middle ear, mass in middle ear, stiff/sclerotic TM.\nHypermobile TM = ossicular chain disruption.\nMovable TM only with negative pressure = blocked Eustachian tube.",
+          "tables": []
+        },
+        "Formal_audiologic_assessment": {
+          "text": "Outside scope of ED evaluation\nPerformed by an audiologist in a soundproof environment.  Air and bone conduction are both tested.",
+          "tables": []
+        },
+        "Other_tests": {
+          "text": "Consideration for these tests should be based on history and physical\nBlood glucose\nCBC to evaluate for anemia or infection\nThyroid\ntesting\nSerologic testing for\nSyphilis\n,\nSjögren’s syndrome\nCT\nscan for unexplained conductive hearing loss\nMRI\nfor sensorineural hearing loss\nENT evaluation for presbycusis",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Differentiate between conductive and sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Differentiate between conductive and sensorineural hearing loss",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Based on exam findings and imaging.",
+      "subsections": {
+        "Acute_Conductive_Hearing_Loss": {
+          "text": "Treat mechanical factor blocking external sound\nRemove\near foreign body\nif present\nIf congested, assist middle ear fluid buildup removal (e.g. from\nURI\n) with a\ndecongestant\n(e.g.\noxymetazoline\n)",
+          "tables": []
+        },
+        "Sudden_Sensorineural_Hearing_Loss_(<72_hrs)[2]:": {
+          "text": "Every effort should be made to ensure that conductive hearing loss (eg, ruptured tympanic membrane, or congestion of the middle ear or ear canal) is not present by using a tuning fork. Tinnitus, dizziness, and vertigo are common.\nHead CT\nnot routinely necessary, but may be considered for some patients based on individual characteristics.\nRoutine laboratory tests not needed\nENT providers are encouraged to obtain MRI (outpatient)\nSteroids should be given within 2 weeks of symptom onset (10- to 14-day treatment)\nDo not give antivirals, thrombolytics, or vasoactive substances",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "decongestant",
+          "url": "https://wikem.org/wiki/Decongestant"
+        },
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Acute_Conductive_Hearing_Loss": {
+      "text": "Treat mechanical factor blocking external sound\nRemove\near foreign body\nif present\nIf congested, assist middle ear fluid buildup removal (e.g. from\nURI\n) with a\ndecongestant\n(e.g.\noxymetazoline\n)",
+      "subsections": {
+        "Sudden_Sensorineural_Hearing_Loss_(<72_hrs)[2]:": {
+          "text": "Every effort should be made to ensure that conductive hearing loss (eg, ruptured tympanic membrane, or congestion of the middle ear or ear canal) is not present by using a tuning fork. Tinnitus, dizziness, and vertigo are common.\nHead CT\nnot routinely necessary, but may be considered for some patients based on individual characteristics.\nRoutine laboratory tests not needed\nENT providers are encouraged to obtain MRI (outpatient)\nSteroids should be given within 2 weeks of symptom onset (10- to 14-day treatment)\nDo not give antivirals, thrombolytics, or vasoactive substances",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "decongestant",
+          "url": "https://wikem.org/wiki/Decongestant"
+        },
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Based on diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

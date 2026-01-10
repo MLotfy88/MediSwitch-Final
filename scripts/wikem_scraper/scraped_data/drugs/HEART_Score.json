@@ -1,0 +1,91 @@
+{
+  "drug_name": "HEART_Score",
+  "url": "https://wikem.org/wiki/HEART_Score",
+  "scraped_at": "2026-01-10T07:54:08.811595",
+  "sections": {
+    "Intro": {
+      "text": "The score has been derived and validated in an ED population and predicts 6 week adverse cardiac events\n[1]\n[2]\n[3]\n[4]\n[5]\nLow risk patients have a score 0-3 and have a less than 2% risk of MACE at 6 weeks.\n0-3\n:  0.9-1.7% risk of adverse cardiac event. Patient's can be discharged with follow-up.\n4-6\n: 12-16.6% risk of adverse cardiac event. Patients should be admitted to the hospital for trending of\ntroponin\nand provocative testing.\n≥7\n: 50-65% risk of adverse cardiac event, suggesting early invasive measures with these patients and close coordination with inpatient cardiology\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Criteria": "History"
+          },
+          {
+            "Criteria": "Highly Suspicious",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "Moderately Suspicious",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "Slightly Suspicious",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "ECG"
+          },
+          {
+            "Criteria": "ST deviation not due to LBBB, LVH, or digoxin",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "No ST deviation but LBBB, LVH, or repolarization changes",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "Normal",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "Age"
+          },
+          {
+            "Criteria": "≥ 65",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "45-65",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "≤ 45",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "Risk Factors (Hypercholesterolemia, Vascular Disease, Hypertension, Diabetes Mellitus, Smoking,Obesity)"
+          },
+          {
+            "Criteria": "≥ 3 risk factors or history of atherosclerotic disease",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "1-2 risk factors",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "No risk factors known",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "Troponin"
+          },
+          {
+            "Criteria": "≥ 3× normal limit",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "1-3× normal limit",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "≤ normal limit",
+            "Point Value": "0"
+          }
+        ]
+      ],
+      "links": []
+    }
+  }
+}

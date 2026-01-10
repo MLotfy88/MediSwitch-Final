@@ -1,0 +1,620 @@
+{
+  "drug_name": "Hand_and_finger_fractures",
+  "url": "https://wikem.org/wiki/Hand_and_finger_fractures",
+  "scraped_at": "2026-01-10T07:54:14.885585",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of trauma\nPain over fracture site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_injuries": {
+          "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Hand_and_finger_injuries": {
+      "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "XR hand and/or finger(s)\nConsider need for more proximal or distal plain films",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Finger (phalanx) fracture\nNon-thumb metacarpal fractures\nThumb fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger (phalanx) fracture",
+          "url": "https://wikem.org/wiki/Finger_(phalanx)_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "XR hand and/or finger(s)\nConsider need for more proximal or distal plain films",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Finger (phalanx) fracture\nNon-thumb metacarpal fractures\nThumb fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger (phalanx) fracture",
+          "url": "https://wikem.org/wiki/Finger_(phalanx)_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Finger (phalanx) fracture\nNon-thumb metacarpal fractures\nThumb fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger (phalanx) fracture",
+          "url": "https://wikem.org/wiki/Finger_(phalanx)_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        }
+      ]
+    },
+    "Management_&_Disposition": {
+      "text": "",
+      "subsections": {
+        "Hand_Fracture_Management_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Fracture": "Flexor tendon injury",
+                "Splint": "Finger Splint",
+                "Disposition": "hand specialist referral"
+              },
+              {
+                "Fracture": "Extensor tendon injury",
+                "Splint": "Poss ED repair +Finger Splint",
+                "Disposition": "hand specialist referral"
+              },
+              {
+                "Fracture": "Mallet finger",
+                "Splint": "Finger Splintto DIP (DIP in slight hyperextension)",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Metacarpophalangeal ulnar ligament rupture(Gamekeeper's thumb)",
+                "Splint": "Thumb Spica Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Scaphoid fracture",
+                "Splint": "Thumb Spica Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Carpal fracture",
+                "Splint": "Volar Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Bennet's fracture(intrarticular fracture at base of 1st MCP)",
+                "Splint": "Thumb Spica Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Rolando's fracture(comminuted base of 1st MCP)",
+                "Splint": "Thumb Spica Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Boxer's fracture",
+                "Splint": "Ulnar Gutter Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "4th and 5thMCP fracture",
+                "Splint": "Ulnar Gutter Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "2nd and 3rdMCP fracture",
+                "Splint": "Radial Gutter Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Finger (Phalanx) Fracture",
+                "Splint": "Finger SplintorBuddy Tape",
+                "Disposition": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand_Fracture_Management_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Fracture": "Flexor tendon injury",
+            "Splint": "Finger Splint",
+            "Disposition": "hand specialist referral"
+          },
+          {
+            "Fracture": "Extensor tendon injury",
+            "Splint": "Poss ED repair +Finger Splint",
+            "Disposition": "hand specialist referral"
+          },
+          {
+            "Fracture": "Mallet finger",
+            "Splint": "Finger Splintto DIP (DIP in slight hyperextension)",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Metacarpophalangeal ulnar ligament rupture(Gamekeeper's thumb)",
+            "Splint": "Thumb Spica Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Scaphoid fracture",
+            "Splint": "Thumb Spica Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Carpal fracture",
+            "Splint": "Volar Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Bennet's fracture(intrarticular fracture at base of 1st MCP)",
+            "Splint": "Thumb Spica Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Rolando's fracture(comminuted base of 1st MCP)",
+            "Splint": "Thumb Spica Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Boxer's fracture",
+            "Splint": "Ulnar Gutter Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "4th and 5thMCP fracture",
+            "Splint": "Ulnar Gutter Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "2nd and 3rdMCP fracture",
+            "Splint": "Radial Gutter Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Finger (Phalanx) Fracture",
+            "Splint": "Finger SplintorBuddy Tape",
+            "Disposition": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures (Main)\nHand Diagnoses (Main)\nSplinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        },
+        {
+          "text": "Hand Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Hand_Diagnoses_(Main)"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

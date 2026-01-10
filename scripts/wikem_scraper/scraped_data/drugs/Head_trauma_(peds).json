@@ -1,0 +1,626 @@
+{
+  "drug_name": "Head_trauma_(peds)",
+  "url": "https://wikem.org/wiki/Head_trauma_(peds)",
+  "scraped_at": "2026-01-10T07:54:22.118499",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nhead trauma (main)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "TBI in the pediatric population is rare, occuring in 0.9% of the 42,412\nPECARN population\nThe primary ED question is whether or not to perform a head CT to assess for intracranial hemorrhage\nCranial ultrasound is a poor screening tool for bleeding\n[1]\nThe\nPECARN rule\nhas become standard of care to determine which patients need CT imaging\nIn patients <2 yrs the aid is 100% sensitive with NPV of 100%\nIn patient >2 yrs the aid is 96.8% sensitive with NPV of 99.95% (with validation studies showing sensitivity of 100% for TBI and injury requiring neurosurgery",
+      "subsections": {
+        "Pediatric_GCS[2]": {
+          "text": "Note:\nFor Motor score 4, pain is defined flat, fingernail pressure (often performed with the barrel of a pencil).\nFor Motor scores 2 and 3, pain is defined by pressing hard on the supraorbital notch. If this unsuccessful, sternal pressure may also be attempted.",
+          "tables": [
+            [
+              {
+                "Eye Opening": "",
+                "Verbal": "",
+                "Motor": "6:  Normal spontaneous movement"
+              },
+              {
+                "Eye Opening": "",
+                "Verbal": "5:  Smiles, coos, babbles",
+                "Motor": "5:  Withdraws to touch"
+              },
+              {
+                "Eye Opening": "4: Opens eyes spontaneously",
+                "Verbal": "4:  Irritable, crying (but consolable)",
+                "Motor": "4:  Withdraws to pain"
+              },
+              {
+                "Eye Opening": "3: Opens eyes to speech only",
+                "Verbal": "3:Inconsolable crying or crying only in response to pain",
+                "Motor": "3:  Abnormal flexion to pain (Decorticate response)"
+              },
+              {
+                "Eye Opening": "2: Opens eyes to pain only",
+                "Verbal": "2: Moans in response to pain",
+                "Motor": "2:  Abnormal extension to pain (Decerebrate response)"
+              },
+              {
+                "Eye Opening": "1: Does not open eyes",
+                "Verbal": "1: No response",
+                "Motor": "1:  No response"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PECARN population",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "PECARN rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Persistence of\nheadache\n, confusion, and amnesia suggests\nconcussion\nNonfrontal scalp hematoma in <2yo is associated with increased risk of\nSkull Fracture\n,\nICH\nClinical symptoms (\nheadache\n,\nvomiting\n, behavior change) do not correlate well with\nICH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Rules below are according to the of\nPECARN Head CT Study\n[4]",
+          "tables": []
+        },
+        "Any_1_of_the_following?": {
+          "text": "GCS ≤14\nAltered Mental Status\nPalpable\nSkull Fracture\nThen\nobtain\na Non-Con Brain CT (4.4% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?": {
+          "text": "Non-frontal scalp hematoma\nLOC ≥ 5 seconds\nSevere injury mechanism\npedestrian or bicyclist without helmet struck by motorized vehicle\nfall >1m or 3ft\nhead struck by high-impact object\nAbnormal activity per parents\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)",
+          "tables": []
+        },
+        "Any_1_of_the_following?_2": {
+          "text": "GCS ≤14\nAltered Mental Status\nSigns of a\nbasilar skull fracture\nThen\nobtain\na Non-Con Brain CT (4.3% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?_2": {
+          "text": "History of\nvomiting\n^\nLOC\nSevere injury mechanism\nPedestrian or bicyclist without helmet struck by motorized vehicle\nFall >2m or 5ft\nHead struck by high-impact object\nSevere\nheadache\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)\n^Consider observation in place of imaging in children with isolated vomiting (no other indication) as the sole risk factor (0.2% risk of cTBI)\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PECARN Head CT Study",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Rules below are according to the of\nPECARN Head CT Study\n[4]",
+      "subsections": {
+        "Any_1_of_the_following?": {
+          "text": "GCS ≤14\nAltered Mental Status\nPalpable\nSkull Fracture\nThen\nobtain\na Non-Con Brain CT (4.4% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?": {
+          "text": "Non-frontal scalp hematoma\nLOC ≥ 5 seconds\nSevere injury mechanism\npedestrian or bicyclist without helmet struck by motorized vehicle\nfall >1m or 3ft\nhead struck by high-impact object\nAbnormal activity per parents\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)",
+          "tables": []
+        },
+        "Any_1_of_the_following?_2": {
+          "text": "GCS ≤14\nAltered Mental Status\nSigns of a\nbasilar skull fracture\nThen\nobtain\na Non-Con Brain CT (4.3% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?_2": {
+          "text": "History of\nvomiting\n^\nLOC\nSevere injury mechanism\nPedestrian or bicyclist without helmet struck by motorized vehicle\nFall >2m or 5ft\nHead struck by high-impact object\nSevere\nheadache\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)\n^Consider observation in place of imaging in children with isolated vomiting (no other indication) as the sole risk factor (0.2% risk of cTBI)\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PECARN Head CT Study",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "<2_years_old": {
+      "text": "",
+      "subsections": {
+        "Any_1_of_the_following?": {
+          "text": "GCS ≤14\nAltered Mental Status\nPalpable\nSkull Fracture\nThen\nobtain\na Non-Con Brain CT (4.4% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?": {
+          "text": "Non-frontal scalp hematoma\nLOC ≥ 5 seconds\nSevere injury mechanism\npedestrian or bicyclist without helmet struck by motorized vehicle\nfall >1m or 3ft\nhead struck by high-impact object\nAbnormal activity per parents\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)",
+          "tables": []
+        },
+        "Any_1_of_the_following?_2": {
+          "text": "GCS ≤14\nAltered Mental Status\nSigns of a\nbasilar skull fracture\nThen\nobtain\na Non-Con Brain CT (4.3% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?_2": {
+          "text": "History of\nvomiting\n^\nLOC\nSevere injury mechanism\nPedestrian or bicyclist without helmet struck by motorized vehicle\nFall >2m or 5ft\nHead struck by high-impact object\nSevere\nheadache\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)\n^Consider observation in place of imaging in children with isolated vomiting (no other indication) as the sole risk factor (0.2% risk of cTBI)\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "≥2_years_old_-_18_years": {
+      "text": "",
+      "subsections": {
+        "Any_1_of_the_following?_2": {
+          "text": "GCS ≤14\nAltered Mental Status\nSigns of a\nbasilar skull fracture\nThen\nobtain\na Non-Con Brain CT (4.3% risk of cTBI)",
+          "tables": []
+        },
+        "1_or_more_of_the_following?_2": {
+          "text": "History of\nvomiting\n^\nLOC\nSevere injury mechanism\nPedestrian or bicyclist without helmet struck by motorized vehicle\nFall >2m or 5ft\nHead struck by high-impact object\nSevere\nheadache\nThen\nconsider\na Non-Con Brain CT or Observation (0.9% risk of cTBI)\n^Consider observation in place of imaging in children with isolated vomiting (no other indication) as the sole risk factor (0.2% risk of cTBI)\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Dependent on diagnosis, see:\nPost-concussive syndrome\nIntracranial hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if:\nAsymptomatic after 2-4hr obs (not vomiting, nl neuro exam, nl mental status)\nHead CT normal (delayed deterioration after normal CT is near zero)\nConsider discharge if:\nNondisplaced fracture with out intracranial injury (in consultation with neurosx)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "General/Adult": {
+          "text": "Head Trauma (Main)\nConcussion\nSkull Fracture\nMaxillofacial Trauma\nC-spine (NEXUS)",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "C-spine (peds)\nAbuse (Nonaccidental Trauma)\nGCS (Peds)\nEBQ:PECARN Pediatric Head CT Rule\nDifferential diagnosis documentation#Head Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Maxillofacial Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "C-spine (NEXUS)",
+          "url": "https://wikem.org/wiki/C-spine_(NEXUS)"
+        },
+        {
+          "text": "C-spine (peds)",
+          "url": "https://wikem.org/wiki/C-spine_(peds)"
+        },
+        {
+          "text": "Abuse (Nonaccidental Trauma)",
+          "url": "https://wikem.org/wiki/Abuse_(Nonaccidental_Trauma)"
+        },
+        {
+          "text": "GCS (Peds)",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        },
+        {
+          "text": "EBQ:PECARN Pediatric Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Differential diagnosis documentation#Head Trauma",
+          "url": "https://wikem.org/wiki/Differential_diagnosis_documentation#Head_Trauma"
+        }
+      ]
+    },
+    "General/Adult": {
+      "text": "Head Trauma (Main)\nConcussion\nSkull Fracture\nMaxillofacial Trauma\nC-spine (NEXUS)",
+      "subsections": {
+        "Pediatric": {
+          "text": "C-spine (peds)\nAbuse (Nonaccidental Trauma)\nGCS (Peds)\nEBQ:PECARN Pediatric Head CT Rule\nDifferential diagnosis documentation#Head Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Maxillofacial Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "C-spine (NEXUS)",
+          "url": "https://wikem.org/wiki/C-spine_(NEXUS)"
+        },
+        {
+          "text": "C-spine (peds)",
+          "url": "https://wikem.org/wiki/C-spine_(peds)"
+        },
+        {
+          "text": "Abuse (Nonaccidental Trauma)",
+          "url": "https://wikem.org/wiki/Abuse_(Nonaccidental_Trauma)"
+        },
+        {
+          "text": "GCS (Peds)",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        },
+        {
+          "text": "EBQ:PECARN Pediatric Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Differential diagnosis documentation#Head Trauma",
+          "url": "https://wikem.org/wiki/Differential_diagnosis_documentation#Head_Trauma"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "C-spine (peds)\nAbuse (Nonaccidental Trauma)\nGCS (Peds)\nEBQ:PECARN Pediatric Head CT Rule\nDifferential diagnosis documentation#Head Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "C-spine (peds)",
+          "url": "https://wikem.org/wiki/C-spine_(peds)"
+        },
+        {
+          "text": "Abuse (Nonaccidental Trauma)",
+          "url": "https://wikem.org/wiki/Abuse_(Nonaccidental_Trauma)"
+        },
+        {
+          "text": "GCS (Peds)",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        },
+        {
+          "text": "EBQ:PECARN Pediatric Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Differential diagnosis documentation#Head Trauma",
+          "url": "https://wikem.org/wiki/Differential_diagnosis_documentation#Head_Trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - PECARN Head Rule",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

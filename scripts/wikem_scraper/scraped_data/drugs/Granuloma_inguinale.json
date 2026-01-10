@@ -1,0 +1,204 @@
+{
+  "drug_name": "Granuloma_inguinale",
+  "url": "https://wikem.org/wiki/Granuloma_inguinale",
+  "scraped_at": "2026-01-10T07:54:08.434098",
+  "sections": {
+    "Background": {
+      "text": "\"Donovanosis\"\nKlebsiella granulomatis\n: Intracellular gram negative rod\nSexually transmitted disease\nTropical and semitropical (India, Papua New Guinea, Australia, Carribean, Africa)\nVery rare in the United States",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually transmitted disease",
+          "url": "https://wikem.org/wiki/Sexually_transmitted_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Genital/perineal ulcer\nChronic, painless, progressive\nIrregular, clean-based, granulomatous, nodular\nHard, bleeds easily\n\"Beefy red\"\nInguinal lymphadenopathy is generally mild or absent\nUrethral stenosis\nLymphatic obstruction, elephantiasis\nHematogenous spread to spleen, lungs, liver, bones, orbits",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Microscopy: Donovan bodies\nShort, pleomorphic rods with bipolar staining\nScreen for other\nSTDs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Microscopy: Donovan bodies\nShort, pleomorphic rods with bipolar staining\nScreen for other\nSTDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        }
+      ]
+    },
+    "Management": {
+      "text": "The duration of treatment is a minimum of three weeks, and should be continued until all lesions have completely healed.\nRecommended:\nAzithromycin\n1g PO qweek\nAlternative:\nDoxycycline\n100mg PO BID\nCiprofloxacin\n750mg PO BID\nErythromycin\nbase 500mg PO QID\nBactrim DS\n(160mg/800mg) PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Bactrim DS",
+          "url": "https://wikem.org/wiki/Bactrim_DS"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "STDs\nUlcerative STDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Ulcerative STDs",
+          "url": "https://wikem.org/wiki/Ulcerative_STDs"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.cdc.gov/std/tg2015/donovanosis.htm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

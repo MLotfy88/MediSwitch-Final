@@ -1,0 +1,247 @@
+{
+  "drug_name": "Heart_murmurs",
+  "url": "https://wikem.org/wiki/Heart_murmurs",
+  "scraped_at": "2026-01-10T07:54:20.578657",
+  "sections": {
+    "Background": {
+      "text": "Defined as a blowing, whooshing, or rasping sound heard during the cardiac cycle.\nTypically caused by turbulent blood flow.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Murmur on cardiac auscultation.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Region": "Aortic",
+            "Location": "2nd right intercostal space",
+            "Heart Valve Association": "Aortic valve"
+          },
+          {
+            "Region": "Pulmonic",
+            "Location": "2nd left intercostal spaces",
+            "Heart Valve Association": "Pulmonic valve"
+          },
+          {
+            "Region": "Tricuspid",
+            "Location": "4th left intercostal space",
+            "Heart Valve Association": "Tricuspid valve"
+          },
+          {
+            "Region": "Mitral",
+            "Location": "5th left mid-clavicular intercostal space",
+            "Heart Valve Association": "Mitral valve"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "By_Abnormal_Lesion": {
+          "text": "Aortic Stenosis\nSystolic murmur heard best in the aortic area; rarely at apex\nCrescendo-decrescendo, radiates to carotids\nA2 decreased\nParadoxical splitting of S2; narrow pulse pressure\nPulsus parvus et tardus\nAortic Insufficiency\nDiastolic blowing murmur heard at left sternal border in 3rd and 4th interspace\nWide pulse pressure\nQuincke's sign (capillary pulsations at fingertips), DeMusset's sign (bobbing head), Muller's sign (pulsing uvula), and Corrigan's pulse (water hammer)\nPistol shot sounds\nPulmonic stenosis\nSystolic murmur heard in pulmonic area, transmitted to back and neck\nA2 is decreased, P2 is delayed, and RVH with parasternal lift\nPulmonic insufficiency\nHigh pitched diastolic murmur; heard in pulmonic area; decrescendo; RVH\nMitral Stenosis\nLow rumbling diastolic murmur heard best at apex with bell\nOpening snap sometimes present worse with closer to S2\nLoud S1\nAssociated with left atrial dilation\nCan hear presystolic sound confused with systolic murmur\nMitral Insufficiency\nLoud, holosystolic, high-pitched, heard best at apex and transmitted to axilla\nSoft S1\nSeverity gauged by s3, rumble.\nParadoxical splitting",
+          "tables": []
+        },
+        "Specific_Sounds": {
+          "text": "Gallavardin Effect\nAS sounds like MR - high frequency vibrations to the apex through a calcific AV\nAustin-Flint\nMS sounds like AR - Soft, rumbling murmur, likely due to functional mitral valve stenosis as the backflow of blood from the aorta presses on anterior leaflet of MV\nParodoxical S2\nSplittin during expiration and goes away during inspiration\nSecondary to inc left sided volume; AS, HOCM\nWide S2\nsecondary to Inc right sided volume; PE, ASD,\nVSD\n, Pulmonic stenosis\nS3\nAKA ventricular gallop produced during passive LV filling when blood strikes a compliant LV; CHF, Inc Vol, CAD, benign in youth, train athletes\nS4\nAKA atrial gallop produced when blood is forced into a stiff/hypertrophic ventricle ;MI, hypertension, restrictive cardiomyopathy",
+          "tables": []
+        },
+        "Diagnostic_Maneuvers": {
+          "text": "Valsalva\nIncreases thoracic pressure and lowers preload; then then decreased CO and afterload\nIncreases murmur in MP & HOCM\nWith release: right heart murmurs return first\nHand grip\nIncreases HR + CO\nIncreases murmur in MR, MS, AR\nDecreases murmur in AS and\nHOCM\nSquatting\nIncreased venous return\nDelays MP click\nStanding\nDec in both right & left venous return & SV\nDecreases murmur of PS, AS, AR, TR,\nVSD\nIncreases murmur of HOCM\nInspiration\nIncreases right sided venous return while decreasing left sided return\nIncreases S2 splitting with P2 further from A2\nIncreases in right sided S3 & S4\nIncreases TS opening snap & murmur, PR, TR\nDecreases MS opening snap, MVP murmur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Aortic Insufficiency",
+          "url": "https://wikem.org/wiki/Aortic_Insufficiency"
+        },
+        {
+          "text": "Mitral Stenosis",
+          "url": "https://wikem.org/wiki/Mitral_Stenosis"
+        },
+        {
+          "text": "Mitral Insufficiency",
+          "url": "https://wikem.org/wiki/Mitral_Insufficiency"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "By_Abnormal_Lesion": {
+      "text": "Aortic Stenosis\nSystolic murmur heard best in the aortic area; rarely at apex\nCrescendo-decrescendo, radiates to carotids\nA2 decreased\nParadoxical splitting of S2; narrow pulse pressure\nPulsus parvus et tardus\nAortic Insufficiency\nDiastolic blowing murmur heard at left sternal border in 3rd and 4th interspace\nWide pulse pressure\nQuincke's sign (capillary pulsations at fingertips), DeMusset's sign (bobbing head), Muller's sign (pulsing uvula), and Corrigan's pulse (water hammer)\nPistol shot sounds\nPulmonic stenosis\nSystolic murmur heard in pulmonic area, transmitted to back and neck\nA2 is decreased, P2 is delayed, and RVH with parasternal lift\nPulmonic insufficiency\nHigh pitched diastolic murmur; heard in pulmonic area; decrescendo; RVH\nMitral Stenosis\nLow rumbling diastolic murmur heard best at apex with bell\nOpening snap sometimes present worse with closer to S2\nLoud S1\nAssociated with left atrial dilation\nCan hear presystolic sound confused with systolic murmur\nMitral Insufficiency\nLoud, holosystolic, high-pitched, heard best at apex and transmitted to axilla\nSoft S1\nSeverity gauged by s3, rumble.\nParadoxical splitting",
+      "subsections": {
+        "Specific_Sounds": {
+          "text": "Gallavardin Effect\nAS sounds like MR - high frequency vibrations to the apex through a calcific AV\nAustin-Flint\nMS sounds like AR - Soft, rumbling murmur, likely due to functional mitral valve stenosis as the backflow of blood from the aorta presses on anterior leaflet of MV\nParodoxical S2\nSplittin during expiration and goes away during inspiration\nSecondary to inc left sided volume; AS, HOCM\nWide S2\nsecondary to Inc right sided volume; PE, ASD,\nVSD\n, Pulmonic stenosis\nS3\nAKA ventricular gallop produced during passive LV filling when blood strikes a compliant LV; CHF, Inc Vol, CAD, benign in youth, train athletes\nS4\nAKA atrial gallop produced when blood is forced into a stiff/hypertrophic ventricle ;MI, hypertension, restrictive cardiomyopathy",
+          "tables": []
+        },
+        "Diagnostic_Maneuvers": {
+          "text": "Valsalva\nIncreases thoracic pressure and lowers preload; then then decreased CO and afterload\nIncreases murmur in MP & HOCM\nWith release: right heart murmurs return first\nHand grip\nIncreases HR + CO\nIncreases murmur in MR, MS, AR\nDecreases murmur in AS and\nHOCM\nSquatting\nIncreased venous return\nDelays MP click\nStanding\nDec in both right & left venous return & SV\nDecreases murmur of PS, AS, AR, TR,\nVSD\nIncreases murmur of HOCM\nInspiration\nIncreases right sided venous return while decreasing left sided return\nIncreases S2 splitting with P2 further from A2\nIncreases in right sided S3 & S4\nIncreases TS opening snap & murmur, PR, TR\nDecreases MS opening snap, MVP murmur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Aortic Insufficiency",
+          "url": "https://wikem.org/wiki/Aortic_Insufficiency"
+        },
+        {
+          "text": "Mitral Stenosis",
+          "url": "https://wikem.org/wiki/Mitral_Stenosis"
+        },
+        {
+          "text": "Mitral Insufficiency",
+          "url": "https://wikem.org/wiki/Mitral_Insufficiency"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "Specific_Sounds": {
+      "text": "Gallavardin Effect\nAS sounds like MR - high frequency vibrations to the apex through a calcific AV\nAustin-Flint\nMS sounds like AR - Soft, rumbling murmur, likely due to functional mitral valve stenosis as the backflow of blood from the aorta presses on anterior leaflet of MV\nParodoxical S2\nSplittin during expiration and goes away during inspiration\nSecondary to inc left sided volume; AS, HOCM\nWide S2\nsecondary to Inc right sided volume; PE, ASD,\nVSD\n, Pulmonic stenosis\nS3\nAKA ventricular gallop produced during passive LV filling when blood strikes a compliant LV; CHF, Inc Vol, CAD, benign in youth, train athletes\nS4\nAKA atrial gallop produced when blood is forced into a stiff/hypertrophic ventricle ;MI, hypertension, restrictive cardiomyopathy",
+      "subsections": {
+        "Diagnostic_Maneuvers": {
+          "text": "Valsalva\nIncreases thoracic pressure and lowers preload; then then decreased CO and afterload\nIncreases murmur in MP & HOCM\nWith release: right heart murmurs return first\nHand grip\nIncreases HR + CO\nIncreases murmur in MR, MS, AR\nDecreases murmur in AS and\nHOCM\nSquatting\nIncreased venous return\nDelays MP click\nStanding\nDec in both right & left venous return & SV\nDecreases murmur of PS, AS, AR, TR,\nVSD\nIncreases murmur of HOCM\nInspiration\nIncreases right sided venous return while decreasing left sided return\nIncreases S2 splitting with P2 further from A2\nIncreases in right sided S3 & S4\nIncreases TS opening snap & murmur, PR, TR\nDecreases MS opening snap, MVP murmur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "Diagnostic_Maneuvers": {
+      "text": "Valsalva\nIncreases thoracic pressure and lowers preload; then then decreased CO and afterload\nIncreases murmur in MP & HOCM\nWith release: right heart murmurs return first\nHand grip\nIncreases HR + CO\nIncreases murmur in MR, MS, AR\nDecreases murmur in AS and\nHOCM\nSquatting\nIncreased venous return\nDelays MP click\nStanding\nDec in both right & left venous return & SV\nDecreases murmur of PS, AS, AR, TR,\nVSD\nIncreases murmur of HOCM\nInspiration\nIncreases right sided venous return while decreasing left sided return\nIncreases S2 splitting with P2 further from A2\nIncreases in right sided S3 & S4\nIncreases TS opening snap & murmur, PR, TR\nDecreases MS opening snap, MVP murmur",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Valvular emergencies\nInnocent Murmurs (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valvular emergencies",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Innocent Murmurs (Peds)",
+          "url": "https://wikem.org/wiki/Innocent_Murmurs_(Peds)"
+        }
+      ]
+    }
+  }
+}

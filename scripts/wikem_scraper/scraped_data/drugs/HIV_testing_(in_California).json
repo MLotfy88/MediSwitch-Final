@@ -1,0 +1,51 @@
+{
+  "drug_name": "HIV_testing_(in_California)",
+  "url": "https://wikem.org/wiki/HIV_testing_(in_California)",
+  "scraped_at": "2026-01-10T07:54:11.927397",
+  "sections": {
+    "Background": {
+      "text": "Consent requirements for HIV testing from state to state\nIn California, California Health and Safety Code Section 120990 speaks to this issue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Requirements_Before_Ordering_The_Test": {
+      "text": "Prior to ordering a test that identifies infection of a patient with HIV, a medical care provider shall:\nInform the patient he/she will be tested for HIV\nProvide information about the test\nInform that if positive, there are numerous treatment options available\nInform that if negative, the patient should continue to be routinely tested\nAdvise the patient that he/she has the right to decline the test\nDocument whether the informed consent was written or verbal\nProvide the results to the patient in timely  manner with and counseling and contact for medical/psychological follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Difficult_Situations": {
+      "text": "Occupational Exposure\nThe exposed has to seek evaluation by a physician (not him/herself) for evaluation to determine if \"significant exposure.\"\nSignificant exposure \"means direct contact with blood or other potentially infectious materials of a patient in a manner that, according to the then applicable guidelines of the Division of Occupational Safety and Health, is capable of transmitting a communicable disease (subdivision (h) of Section 120261.)\nThe treating physician has to certify by documenting that a significant exposure occurred\nA test for HIV on the exposed has to be done and confirmed before a test on the source patient can be done without consent\nThe attending physician for the exposed can then test the patient without his consent\nThis test can be performed on any available blood or other tissue sample\nIf the source patient died, the source patient's blood can be obtained and tested regardless of any consenting\nIf the patient is living and there is no blood sample and the patient refuses to allow for a blood sample to be obtained, it appears that this is not permitted except as otherwise authorized by law\nThe source patient has the option not to be informed of the results\nIf he/she does not want to be informed of the results, the results cannot be documented in his/her chart\nThe exposed patient cannot directly attempt to obtain informed consent from the source patient\nCosts of the testing will be assumed by the employer of the exposed patient\nA medical provider can order an HIV test on a cadaver, or when autopsy will be performed, or when body parts may be donated (Section 7150)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Occupational Exposure",
+          "url": "https://wikem.org/wiki/Occupational_Exposure"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "California Health and Safety Code Section 120990",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV - AIDS (Main)\nHIV post-exposure prophylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV - AIDS (Main)",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        }
+      ]
+    }
+  }
+}

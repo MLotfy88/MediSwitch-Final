@@ -1,0 +1,488 @@
+{
+  "drug_name": "Headache_(peds)",
+  "url": "https://wikem.org/wiki/Headache_(peds)",
+  "scraped_at": "2026-01-10T07:54:18.955666",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nheadache\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Headache_Red_Flags": {
+          "text": "Features\nSudden onset or accelerating pattern\nMaximum intensity of pain at onset (i.e. \"thunderclap\")\nWorse with valsalva\nWorse in the morning or at night\nNo similar headache in past\nAge >50 yr or <5 yr\nOccipitonuchal headache\nVisual disturbances\nExertional or postcoital\nFamily or personal history of\nSAH\n, cerebral aneurysm, or\nAVM\nFocal neurologic signs\nDiastolic BP >120\nPapilledema\nJaw claudication\nClinical Context\nHeadache in setting of:\nInfection\nCancer\nImmunosuppression\nSeizure\nSyncope\nTrauma\nAltered mental status\nSystemic illness (\nfever\n, stiff neck, rash)\nNausea/vomiting\nPatient on\nanticoagulation\n,\nsteroids\n,\nNSAIDs\n,\nantiplatelet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Focal neurologic signs",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "Diastolic BP >120",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Headache_Red_Flags": {
+      "text": "Features\nSudden onset or accelerating pattern\nMaximum intensity of pain at onset (i.e. \"thunderclap\")\nWorse with valsalva\nWorse in the morning or at night\nNo similar headache in past\nAge >50 yr or <5 yr\nOccipitonuchal headache\nVisual disturbances\nExertional or postcoital\nFamily or personal history of\nSAH\n, cerebral aneurysm, or\nAVM\nFocal neurologic signs\nDiastolic BP >120\nPapilledema\nJaw claudication\nClinical Context\nHeadache in setting of:\nInfection\nCancer\nImmunosuppression\nSeizure\nSyncope\nTrauma\nAltered mental status\nSystemic illness (\nfever\n, stiff neck, rash)\nNausea/vomiting\nPatient on\nanticoagulation\n,\nsteroids\n,\nNSAIDs\n,\nantiplatelet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Focal neurologic signs",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "Diastolic BP >120",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Headache",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Headache": {
+          "text": "Primary headache\nMigraine\nTension\nCluster\nSecondary headache\nViral\nillness and\nfever\nPost-\ntraumatic\nVP shunt malfunction\nCO poisoning\nEpidural hematoma\nSubdural hematoma\nBrain abscess\nPseudotumor cerebri\nMeningitis\nSpace-occupying lesion\nAVM\nSinusitis\nDental abscess\nOtitis media\nCNS tumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Tension",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma_(peds)"
+        },
+        {
+          "text": "VP shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Space-occupying lesion",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumors_(peds)"
+        }
+      ]
+    },
+    "Pediatric_Headache": {
+      "text": "Primary headache\nMigraine\nTension\nCluster\nSecondary headache\nViral\nillness and\nfever\nPost-\ntraumatic\nVP shunt malfunction\nCO poisoning\nEpidural hematoma\nSubdural hematoma\nBrain abscess\nPseudotumor cerebri\nMeningitis\nSpace-occupying lesion\nAVM\nSinusitis\nDental abscess\nOtitis media\nCNS tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Tension",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma_(peds)"
+        },
+        {
+          "text": "VP shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Space-occupying lesion",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumors_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Neuroimaging if red-flag features\nRoutine imaging is not indicated in children with recurrent HA headaches and normal neuro exam\nConsider imaging if abnormal neuro exam, altered mental status, concurrent seizure, severe HA or change in type",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Predictors of a surgical space-occupying lesion\nHeadache of <6 months duration\nSleep-related headache\nVomiting\nEffortless vomiting but no GI complaints suggestive of elevated ICP\nConfusion\nAbsence of family history of migraine\nAbnormal findings on\nneuro exam\nTorticollis\nStrongly consider imaging in patients under 5 yrs who present with headaches",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "neuro exam",
+          "url": "https://wikem.org/wiki/Neuro_exam"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Predictors of a surgical space-occupying lesion\nHeadache of <6 months duration\nSleep-related headache\nVomiting\nEffortless vomiting but no GI complaints suggestive of elevated ICP\nConfusion\nAbsence of family history of migraine\nAbnormal findings on\nneuro exam\nTorticollis\nStrongly consider imaging in patients under 5 yrs who present with headaches",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "neuro exam",
+          "url": "https://wikem.org/wiki/Neuro_exam"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Headache Type": "Migraine",
+            "Treatment": "Ibuprofen, 10 milligrams/kg PO, or acetaminophen, 15 milligrams/kg PO/PR",
+            "Comment": "Ibuprofen superior toacetaminophenin one trial"
+          },
+          {
+            "Headache Type": "Sumatriptan, 10 milligrams via nasal spray (20–39 kg) or 20 milligrams via nasal spray (>40 kg), or 0.06 milligram/kg SC",
+            "Treatment": "Nasal or injectable preferred; no difference between oral sumatriptan and placebo"
+          },
+          {
+            "Headache Type": "Rizatriptan, 5 milligrams PO",
+            "Treatment": "Efficacy not statistically significant over placebo"
+          },
+          {
+            "Headache Type": "Dihydroergotamine, 0.1 milligram/kg (ages 6–9), 0.15 milligram/kg (ages 9–12), 0.2 milligram/kg (ages 12–16)",
+            "Treatment": "Contraindicated in complex migraine"
+          },
+          {
+            "Headache Type": "Prochlorperazine, 0.15 milligram/kg IV",
+            "Treatment": "Considerdiphenhydramine1 milligram/kg to prevent or treat dystonic reactions"
+          },
+          {
+            "Headache Type": "Cluster",
+            "Treatment": "100% oxygen at 7 L/min via non-rebreather mask at onset of headache",
+            "Comment": "Most useful at onset of symptoms, less effective later in course of headache"
+          },
+          {
+            "Headache Type": "Ergotamine, 0.1 milligram/dose (ages 6–9), 0.5 milligram/dose (ages 9–12), 0.75 milligram/dose (ages 12–16)",
+            "Treatment": "—"
+          },
+          {
+            "Headache Type": "Sumatriptan",
+            "Treatment": "Nasal spray or IM dosing as for migraine"
+          },
+          {
+            "Headache Type": "Lidocaine, 1% solution in ipsilateral nostril",
+            "Treatment": "Effective for mild to moderate pain, can instill via atomizer and syringe"
+          },
+          {
+            "Headache Type": "Prednisone, 1–2 milligrams/kg for 10 d with subsequent 7-d taper",
+            "Treatment": "Effective at terminating prolonged cluster headaches and preventing recurrence"
+          },
+          {
+            "Headache Type": "Tension",
+            "Treatment": "Ibuprofen, 10 milligrams/kg PO, or acetaminophen, 15 milligrams/kg PO/PR",
+            "Comment": "—"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge if primary headache provided pain is well controlled and child is well-appearing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Headache\nHeadache Red Flags\nMigraine\nCluster Headache\nTension Headache",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Headache Red Flags",
+          "url": "https://wikem.org/wiki/Headache_Red_Flags"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Cluster Headache",
+          "url": "https://wikem.org/wiki/Cluster_Headache"
+        },
+        {
+          "text": "Tension Headache",
+          "url": "https://wikem.org/wiki/Tension_Headache"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Pediatric Headache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

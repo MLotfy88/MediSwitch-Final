@@ -1,0 +1,176 @@
+{
+  "drug_name": "Gun_shot_wounds",
+  "url": "https://wikem.org/wiki/Gun_shot_wounds",
+  "scraped_at": "2026-01-10T07:54:07.792246",
+  "sections": {
+    "Background": {
+      "text": "Bullets\nComposed of a full or partial metal \"jacket\" around a lead alloy core\nShape depends on caliber and tip type (pointed, flat, hollow, soft)\nGeneral caliber classification\nSmall (.22, .25)\nMedium (.32, .38, .357, 9mm)\nLarge (.40, .41, .44, .45, .50)\nCommon shotgun gauges\n12-gauge = bore diameter of .729 inches\n20-gauge = .615 inches\nShotgun pellets, small to large\nBirdshot (shotshells) - many small pellets, large kill spread\nBuckshot - fewer but larger pellets\nSlug, sabots - single large solid slug",
+      "subsections": {
+        "High_Velocity_Bullets": {
+          "text": "Examples: .223 or 30/06 Springfield\nVery high kinetic energy\nLittle deformity when fired\nCavitation is principle mechanism of destruction, the dissipation of energy radially away from the bullet as it travels through tissue\nLarge zone of tissue injury even away from tract",
+          "tables": []
+        },
+        "Low_Velocity_Bullets": {
+          "text": "Examples: .22 long rifle or .45 pistol\nRelatively low kinetic energy\nDeform from friction\nCrash injury is principle mechanism of damage given projectile tumbling and fragmentation",
+          "tables": []
+        },
+        "Shotgun": {
+          "text": "Very high kinetic energy at close range\nShells contain several to several hundred hundred pellets\nSpread of pellets and rapid energy transfer makes these weapons dangerous at close range",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "High_Velocity_Bullets": {
+          "text": "Examples: .223 or 30/06 Springfield\nVery high kinetic energy\nLittle deformity when fired\nCavitation is principle mechanism of destruction, the dissipation of energy radially away from the bullet as it travels through tissue\nLarge zone of tissue injury even away from tract",
+          "tables": []
+        },
+        "Low_Velocity_Bullets": {
+          "text": "Examples: .22 long rifle or .45 pistol\nRelatively low kinetic energy\nDeform from friction\nCrash injury is principle mechanism of damage given projectile tumbling and fragmentation",
+          "tables": []
+        },
+        "Shotgun": {
+          "text": "Very high kinetic energy at close range\nShells contain several to several hundred hundred pellets\nSpread of pellets and rapid energy transfer makes these weapons dangerous at close range",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Assess for number of wounds to help determine if projectile may still present in body\nExit wound may not follow logical trajectory\nStrongly consider not documenting \"entrance\" vs. \"exit\" given medicolegal implications if not completely sure\nEntrance wound (typical features)\nRound, punched out hole\nMarginal abrasion or abrasion ring\n+/- fouling (soot)\n+/- stippling (punctate abrasions from gunpowder impact)\nExit wound (typical features)\nUsually larger (except head)\nWound edges may be reapproximated\nNo marginal abrasion\nSlit-like, stellate, circular\nIrregular due to loss of kinetic energy, bullet deformation, yaw\nRange of fire\nContact (< 12 inches) → fouling/soot, muzzle stamp (tight contact)\nIntermediate (2.5-3.5 feet) → +/- fouling, stippling\nDistant (>3.5 feet) → wound only\nShotgun extrance wounds\nMarginal abrasion, fouling, stippling\nPlastic wad may be found in body if range <5-10 feet\nClose range (<12 inches) may have ~1 inch diameter single hole with fouling\n3 feet - round hole, scalloped edges, stippling\n4 feet - round hole, scalloping, satellites\nDistant (>10 feet) - pellet spread",
+      "subsections": {
+        "Region_Specific_Information": {
+          "text": "Head Trauma (Main)\nPenetrating neck trauma\nCardiac Trauma\nPericardial effusion and tamponade\nDiaphragm Injury\nAbdominal Trauma\nOpen Fracture\nSpinal Trauma (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Cardiac Trauma",
+          "url": "https://wikem.org/wiki/Cardiac_Trauma"
+        },
+        {
+          "text": "Pericardial effusion and tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Diaphragm Injury",
+          "url": "https://wikem.org/wiki/Diaphragm_Injury"
+        },
+        {
+          "text": "Abdominal Trauma",
+          "url": "https://wikem.org/wiki/Abdominal_Trauma"
+        },
+        {
+          "text": "Open Fracture",
+          "url": "https://wikem.org/wiki/Open_Fracture"
+        },
+        {
+          "text": "Spinal Trauma (Main)",
+          "url": "https://wikem.org/wiki/Spinal_Trauma_(Main)"
+        }
+      ]
+    },
+    "Region_Specific_Information": {
+      "text": "Head Trauma (Main)\nPenetrating neck trauma\nCardiac Trauma\nPericardial effusion and tamponade\nDiaphragm Injury\nAbdominal Trauma\nOpen Fracture\nSpinal Trauma (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Cardiac Trauma",
+          "url": "https://wikem.org/wiki/Cardiac_Trauma"
+        },
+        {
+          "text": "Pericardial effusion and tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Diaphragm Injury",
+          "url": "https://wikem.org/wiki/Diaphragm_Injury"
+        },
+        {
+          "text": "Abdominal Trauma",
+          "url": "https://wikem.org/wiki/Abdominal_Trauma"
+        },
+        {
+          "text": "Open Fracture",
+          "url": "https://wikem.org/wiki/Open_Fracture"
+        },
+        {
+          "text": "Spinal Trauma (Main)",
+          "url": "https://wikem.org/wiki/Spinal_Trauma_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ATLS/FAST/Trauma Labs\nCT Scan as needed depending on location\nX-ray if bony injury suspected\nCTA if vascular injury suspected",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Trauma consult depending on location and extent of wound\nOrtho consult for bony injuries\nNeuro/OMF/ENT as needed\nRemoval if intraarticular, with case reports of lead toxicity\n[1]",
+      "subsections": {
+        "Prophylactic_Antibiotics": {
+          "text": "Infection after gunshot injury is a rare complication\nNo prophylactic antibiotics for:\n[2]\nSoft tissue gun shot wounds\nNon-operative fractures caused by gun shot wounds\nGive prophylactic  for:\n[3]\nIntra-articular fracture (any type of gun shot wound)\nFractures caused by high-velocity weapons or shotguns\nPenetration through contaminated hollow viscous (passage through bowel)\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prophylactic_Antibiotics": {
+      "text": "Infection after gunshot injury is a rare complication\nNo prophylactic antibiotics for:\n[2]\nSoft tissue gun shot wounds\nNon-operative fractures caused by gun shot wounds\nGive prophylactic  for:\n[3]\nIntra-articular fracture (any type of gun shot wound)\nFractures caused by high-velocity weapons or shotguns\nPenetration through contaminated hollow viscous (passage through bowel)\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "To OR if significant injuries\nAdmission/Obs for less concerning injuries\nMinor injuries may be discharged\nGSW Protocol allows lower extremity wounds to be discharged from ED after 9 hours without invasive imaging if they have normal ABIs\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Missile embolus\nWound ballistics\nTrauma (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Missile embolus",
+          "url": "https://wikem.org/wiki/Missile_embolus"
+        },
+        {
+          "text": "Wound ballistics",
+          "url": "https://wikem.org/wiki/Wound_ballistics"
+        },
+        {
+          "text": "Trauma (main)",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        }
+      ]
+    }
+  }
+}

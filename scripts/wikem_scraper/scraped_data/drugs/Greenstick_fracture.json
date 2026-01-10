@@ -1,0 +1,48 @@
+{
+  "drug_name": "Greenstick_fracture",
+  "url": "https://wikem.org/wiki/Greenstick_fracture",
+  "scraped_at": "2026-01-10T07:54:09.480665",
+  "sections": {
+    "Background": {
+      "text": "Cortical disruption and periosteal tearing on convex side of bone only\nMore stable / less painful than complete fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pediatric fracture type",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Torus fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torus fracture",
+          "url": "https://wikem.org/wiki/Torus_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ultrasound scanning seems to be as sensitive as plain x-rays and may be better at demonstrating the degree of cortical deformity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Need for reduction determined by angulation, location, and age of child\nAs a general rule, manipulation may be considered for deformity obvious to the naked eye or if more than the following acceptable angles\n[1]\n:\n>10 years old then < 10 degrees is acceptable.\n<10 years old then < 15 degrees is acceptable.\nTraditionally these fractures have been treated by immobilisation in plaster for a period of around 3 to 6 weeks\nFractures not requiring manipulation have a universally good outcome regardless of treatment\nHigher levels of patient satisfaction with a Futura type splint",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patients not requiring manipulation can be discharged with a backslab and advice to remove in 3 weeks or a Futura type splint and advice to remove when comfortable. There is no evidence that routine follow up is necessary.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,764 @@
+{
+  "drug_name": "Guillain-Barre_syndrome",
+  "url": "https://wikem.org/wiki/Guillain-Barre_syndrome",
+  "scraped_at": "2026-01-10T07:54:06.889344",
+  "sections": {
+    "Background": {
+      "text": "Acute polyneuropathy due to immune-mediated peripheral nerve myelin sheath destruction\nAlthough there is often a motor component, patients can also present with sensory deficits.\nAssociated with\nviral\nor febrile illness,\nCampylobacter\ninfection, or vaccination\nSymptoms at worst 2-4wk after onset, then plateau for 2-4wk, then remit from wks-months\nAssociated with\nCampylobacter jejuni\n,\ncytomegalovirus\n,\nEpstein-Barr virus\n, and\nMycoplasma pneumoniae",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Campylobacter jejuni",
+          "url": "https://wikem.org/wiki/Campylobacter_jejuni"
+        },
+        {
+          "text": "cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Viral illness\n→ ASCENDING, symmetric\nweakness\nor paralysis and loss of DTRs\nLittle or no sensory involvement\nMay progress to diaphragm resulting in need for mechanical ventilation (33% of patients)\nAutonomic dysfunction occurs in 50% of patients",
+      "subsections": {
+        "Required": {
+          "text": "Progressive\nweakness\nof more than one limb\nAreflexia",
+          "tables": []
+        },
+        "Suggestive": {
+          "text": "Progression over days to weeks\nRecovery beginning 2–4 wk after cessation of progression\nRelative symmetry of symptoms\nMild sensory signs and symptoms\nCN involvement (\nBell's Palsy\n,\ndysphagia\n,\ndysarthria\n,\nophthalmoplegia\n)\nAutonomic dysfunction\nTachycardia\n,\nbradycardia\n,\ndysrhythmias\n, wide variations in BP, postural\nhypotension\nUrinary Retention\nConstipation\nFacial flushing\nAbsence of\nfever\nat onset",
+          "tables": []
+        },
+        "Variants_and_Subtypes": {
+          "text": "Multiple variants\n[1]\n[2]\nAcute inflammatory demyelinating polyneuropathy\nmost common type\nprogressive symmetric muscle\nweakness\noften with decreased deep tendon reflexes due to peripheral nerve involvement\nAcute motor axonal neuropathy\noften associated with\ncampylobacter\ninfections\nonly motor involvement\nAcute motor and sensory axonal neuropathy\npresence both motor and sensory involement\nMiller-Fisher Syndrome\nAssociated with\ncampylobacter\ninfection\nMore likely to be preceded by\ndiarrhea\nthan viral prodrome\nPresence of\nophthalmoplegia\nwith\nataxia\nand areflexia\nWeakness is less severe but DESCENDING; disease course milder than classic GBS\nMay present similarly to\nbotulism\n, which is also descending paralysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral illness",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Urinary Retention",
+          "url": "https://wikem.org/wiki/Urinary_Retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        }
+      ]
+    },
+    "Required": {
+      "text": "Progressive\nweakness\nof more than one limb\nAreflexia",
+      "subsections": {
+        "Suggestive": {
+          "text": "Progression over days to weeks\nRecovery beginning 2–4 wk after cessation of progression\nRelative symmetry of symptoms\nMild sensory signs and symptoms\nCN involvement (\nBell's Palsy\n,\ndysphagia\n,\ndysarthria\n,\nophthalmoplegia\n)\nAutonomic dysfunction\nTachycardia\n,\nbradycardia\n,\ndysrhythmias\n, wide variations in BP, postural\nhypotension\nUrinary Retention\nConstipation\nFacial flushing\nAbsence of\nfever\nat onset",
+          "tables": []
+        },
+        "Variants_and_Subtypes": {
+          "text": "Multiple variants\n[1]\n[2]\nAcute inflammatory demyelinating polyneuropathy\nmost common type\nprogressive symmetric muscle\nweakness\noften with decreased deep tendon reflexes due to peripheral nerve involvement\nAcute motor axonal neuropathy\noften associated with\ncampylobacter\ninfections\nonly motor involvement\nAcute motor and sensory axonal neuropathy\npresence both motor and sensory involement\nMiller-Fisher Syndrome\nAssociated with\ncampylobacter\ninfection\nMore likely to be preceded by\ndiarrhea\nthan viral prodrome\nPresence of\nophthalmoplegia\nwith\nataxia\nand areflexia\nWeakness is less severe but DESCENDING; disease course milder than classic GBS\nMay present similarly to\nbotulism\n, which is also descending paralysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Urinary Retention",
+          "url": "https://wikem.org/wiki/Urinary_Retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        }
+      ]
+    },
+    "Suggestive": {
+      "text": "Progression over days to weeks\nRecovery beginning 2–4 wk after cessation of progression\nRelative symmetry of symptoms\nMild sensory signs and symptoms\nCN involvement (\nBell's Palsy\n,\ndysphagia\n,\ndysarthria\n,\nophthalmoplegia\n)\nAutonomic dysfunction\nTachycardia\n,\nbradycardia\n,\ndysrhythmias\n, wide variations in BP, postural\nhypotension\nUrinary Retention\nConstipation\nFacial flushing\nAbsence of\nfever\nat onset",
+      "subsections": {
+        "Variants_and_Subtypes": {
+          "text": "Multiple variants\n[1]\n[2]\nAcute inflammatory demyelinating polyneuropathy\nmost common type\nprogressive symmetric muscle\nweakness\noften with decreased deep tendon reflexes due to peripheral nerve involvement\nAcute motor axonal neuropathy\noften associated with\ncampylobacter\ninfections\nonly motor involvement\nAcute motor and sensory axonal neuropathy\npresence both motor and sensory involement\nMiller-Fisher Syndrome\nAssociated with\ncampylobacter\ninfection\nMore likely to be preceded by\ndiarrhea\nthan viral prodrome\nPresence of\nophthalmoplegia\nwith\nataxia\nand areflexia\nWeakness is less severe but DESCENDING; disease course milder than classic GBS\nMay present similarly to\nbotulism\n, which is also descending paralysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Urinary Retention",
+          "url": "https://wikem.org/wiki/Urinary_Retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        }
+      ]
+    },
+    "Variants_and_Subtypes": {
+      "text": "Multiple variants\n[1]\n[2]\nAcute inflammatory demyelinating polyneuropathy\nmost common type\nprogressive symmetric muscle\nweakness\noften with decreased deep tendon reflexes due to peripheral nerve involvement\nAcute motor axonal neuropathy\noften associated with\ncampylobacter\ninfections\nonly motor involvement\nAcute motor and sensory axonal neuropathy\npresence both motor and sensory involement\nMiller-Fisher Syndrome\nAssociated with\ncampylobacter\ninfection\nMore likely to be preceded by\ndiarrhea\nthan viral prodrome\nPresence of\nophthalmoplegia\nwith\nataxia\nand areflexia\nWeakness is less severe but DESCENDING; disease course milder than classic GBS\nMay present similarly to\nbotulism\n, which is also descending paralysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "LP\nAlbumin-cytological dissociation of\nCSF\n(high protein (>45) and low WBC count (<10)) is most common\nPatients with HIV can have a pleocytosis\n[3]\n[4]\nTypical findings on electromyogram and nerve conduction studies\nMRI: Selective enhancement of the anterior spinal nerve roots is suggestive\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "IVIG": {
+          "text": "Treat non-ambulatory patients within 2 weeks of symptom onset",
+          "tables": []
+        },
+        "IVIG_vs_Plasmapheresis": {
+          "text": "IVIG associated with\nthromboembolism\nand aseptic\nmeningitis\nPlasmapheresis associated with greater hemodynamic instability, lower rate of relapse\nCombined IVIG and plasmapheresis no better than single therapy (IVIG or plasmapheresis)\nIVIG preferred due to convenience and availability",
+          "tables": []
+        },
+        "Intubation_indications": {
+          "text": "Vital capacity <15mL/kg\nNegative Inspiratory Force < 30 cm H2O\nPaO2 <70 mm Hg on room air\nBulbar dysfunction (difficulty with breathing, swallowing, or speech)\nAspiration\nAvoid\nsuccinylcholine\nduring intubation, as this may cause severe\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "IVIG": {
+      "text": "Treat non-ambulatory patients within 2 weeks of symptom onset",
+      "subsections": {
+        "IVIG_vs_Plasmapheresis": {
+          "text": "IVIG associated with\nthromboembolism\nand aseptic\nmeningitis\nPlasmapheresis associated with greater hemodynamic instability, lower rate of relapse\nCombined IVIG and plasmapheresis no better than single therapy (IVIG or plasmapheresis)\nIVIG preferred due to convenience and availability",
+          "tables": []
+        },
+        "Intubation_indications": {
+          "text": "Vital capacity <15mL/kg\nNegative Inspiratory Force < 30 cm H2O\nPaO2 <70 mm Hg on room air\nBulbar dysfunction (difficulty with breathing, swallowing, or speech)\nAspiration\nAvoid\nsuccinylcholine\nduring intubation, as this may cause severe\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "IVIG_vs_Plasmapheresis": {
+      "text": "IVIG associated with\nthromboembolism\nand aseptic\nmeningitis\nPlasmapheresis associated with greater hemodynamic instability, lower rate of relapse\nCombined IVIG and plasmapheresis no better than single therapy (IVIG or plasmapheresis)\nIVIG preferred due to convenience and availability",
+      "subsections": {
+        "Intubation_indications": {
+          "text": "Vital capacity <15mL/kg\nNegative Inspiratory Force < 30 cm H2O\nPaO2 <70 mm Hg on room air\nBulbar dysfunction (difficulty with breathing, swallowing, or speech)\nAspiration\nAvoid\nsuccinylcholine\nduring intubation, as this may cause severe\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Intubation_indications": {
+      "text": "Vital capacity <15mL/kg\nNegative Inspiratory Force < 30 cm H2O\nPaO2 <70 mm Hg on room air\nBulbar dysfunction (difficulty with breathing, swallowing, or speech)\nAspiration\nAvoid\nsuccinylcholine\nduring intubation, as this may cause severe\nhyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {
+        "Indications_for_admission_to_ICU": {
+          "text": "Autonomic dysfunction\nBulbar dysfunction\nInitial vital capacity <20 mL/kg\nInitial negative inspiratory force <–30 cm of water\nDecrease of >30% of vital capacity or negative inspiratory force\nInability to ambulate\nTreatment with plasmapheresis\nAnticipated clinical course requiring mechanical\nventilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventilation",
+          "url": "https://wikem.org/wiki/Ventilation"
+        }
+      ]
+    },
+    "Indications_for_admission_to_ICU": {
+      "text": "Autonomic dysfunction\nBulbar dysfunction\nInitial vital capacity <20 mL/kg\nInitial negative inspiratory force <–30 cm of water\nDecrease of >30% of vital capacity or negative inspiratory force\nInability to ambulate\nTreatment with plasmapheresis\nAnticipated clinical course requiring mechanical\nventilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventilation",
+          "url": "https://wikem.org/wiki/Ventilation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Weakness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    }
+  }
+}

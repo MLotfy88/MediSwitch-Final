@@ -1,0 +1,368 @@
+{
+  "drug_name": "HIV_post-exposure_prophylaxis",
+  "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis",
+  "scraped_at": "2026-01-10T07:54:13.351513",
+  "sections": {
+    "Background": {
+      "text": "Also known as HIV Post-Exposure Prophylaxis (PEP)\nProbability of HIV transmission from a percutaneous needle stick is approximately 0.3% (1 in 300) and 0.09% from mucous membrane exposure.\n[1]\n[2]\n~79% transmission reduction\nCommon side-effects = constitutional, gastrointestinal",
+      "subsections": {
+        "Timing_and_Duration_of_PEP": {
+          "text": "Initiate ASAP (goal = <2 hours after exposure)\nInitiate if <72 hours since exposure\nPEP is likely to be less effective when started more than 72 hours after exposure, but the interval after which no benefit is gained from PEP for humans is undefined.\nIf initiation is delayed, the likelihood increases that benefits might not outweigh the risks inherent in taking antiretroviral medications.",
+          "tables": []
+        },
+        "CDC_recommendations": {
+          "text": "From 2013 recommendations\n[4]\nPEP is recommended when occupational exposures to HIV occur\nPEP medication regimens should be started as soon as possible after occupational exposure to HIV, and continued for 28 days\nNew recommendation\n- PEP medication regimens should contain 3 (or more) antiretroviral drugs for all occupational exposures to HIV\nNew recommendation\n- if a newer fourth-generation combination HIV p24 antigen-HIV antibody test is utilized for follow-up HIV testing of exposed HCP, HIV testing may be concluded 4 months after exposure; if a newer testing platform is not available, follow-up HIV testing is typically concluded 6 months after an HIV exposure.",
+          "tables": []
+        },
+        "National_Clinician's_Post-Exposure_Prophylaxis_Hotline": {
+          "text": "1-888-448-4911, call for expert advice",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Timing_and_Duration_of_PEP": {
+      "text": "Initiate ASAP (goal = <2 hours after exposure)\nInitiate if <72 hours since exposure\nPEP is likely to be less effective when started more than 72 hours after exposure, but the interval after which no benefit is gained from PEP for humans is undefined.\nIf initiation is delayed, the likelihood increases that benefits might not outweigh the risks inherent in taking antiretroviral medications.",
+      "subsections": {
+        "CDC_recommendations": {
+          "text": "From 2013 recommendations\n[4]\nPEP is recommended when occupational exposures to HIV occur\nPEP medication regimens should be started as soon as possible after occupational exposure to HIV, and continued for 28 days\nNew recommendation\n- PEP medication regimens should contain 3 (or more) antiretroviral drugs for all occupational exposures to HIV\nNew recommendation\n- if a newer fourth-generation combination HIV p24 antigen-HIV antibody test is utilized for follow-up HIV testing of exposed HCP, HIV testing may be concluded 4 months after exposure; if a newer testing platform is not available, follow-up HIV testing is typically concluded 6 months after an HIV exposure.",
+          "tables": []
+        },
+        "National_Clinician's_Post-Exposure_Prophylaxis_Hotline": {
+          "text": "1-888-448-4911, call for expert advice",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CDC_recommendations": {
+      "text": "From 2013 recommendations\n[4]\nPEP is recommended when occupational exposures to HIV occur\nPEP medication regimens should be started as soon as possible after occupational exposure to HIV, and continued for 28 days\nNew recommendation\n- PEP medication regimens should contain 3 (or more) antiretroviral drugs for all occupational exposures to HIV\nNew recommendation\n- if a newer fourth-generation combination HIV p24 antigen-HIV antibody test is utilized for follow-up HIV testing of exposed HCP, HIV testing may be concluded 4 months after exposure; if a newer testing platform is not available, follow-up HIV testing is typically concluded 6 months after an HIV exposure.",
+      "subsections": {
+        "National_Clinician's_Post-Exposure_Prophylaxis_Hotline": {
+          "text": "1-888-448-4911, call for expert advice",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "National_Clinician's_Post-Exposure_Prophylaxis_Hotline": {
+      "text": "1-888-448-4911, call for expert advice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_of_Transmission_Risk": {
+      "text": "",
+      "subsections": {
+        "Exposure_Transmission_Risk": {
+          "text": "^assumes no condom use",
+          "tables": [
+            [
+              {
+                "Exposure^": "Percutaneous",
+                "Risk": "0.3%"
+              },
+              {
+                "Exposure^": "Mucocutaneous",
+                "Risk": "0.09%"
+              },
+              {
+                "Exposure^": "Needle-sharing injection drug",
+                "Risk": "0.7%"
+              },
+              {
+                "Exposure^": "Receptive anal intercourse",
+                "Risk": "0.5%"
+              },
+              {
+                "Exposure^": "Receptive penile-vaginal intercourse",
+                "Risk": "0.1%"
+              },
+              {
+                "Exposure^": "Insertive anal intercourse",
+                "Risk": "0.07%"
+              },
+              {
+                "Exposure^": "Insertive penile-vaginal intercourse",
+                "Risk": "0.05%"
+              },
+              {
+                "Exposure^": "Receptive oral (male) intercourse",
+                "Risk": "0.01%"
+              },
+              {
+                "Exposure^": "Insertive oral (male) intercourse",
+                "Risk": "0.005%"
+              }
+            ]
+          ]
+        },
+        "High_Risk_Exposures": {
+          "text": "Source\nSymptomatic HIV/AIDS\nAcute seroconversion\nHigh viral load\nExposure\nDeep injuries\nVisible blood on device\nInjuries sustained placing a catheter in a vein/artery",
+          "tables": []
+        },
+        "Low_Risk_Exposures": {
+          "text": "Dried blood on an old needle\nHuman Bites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exposure_Transmission_Risk": {
+      "text": "^assumes no condom use",
+      "subsections": {
+        "High_Risk_Exposures": {
+          "text": "Source\nSymptomatic HIV/AIDS\nAcute seroconversion\nHigh viral load\nExposure\nDeep injuries\nVisible blood on device\nInjuries sustained placing a catheter in a vein/artery",
+          "tables": []
+        },
+        "Low_Risk_Exposures": {
+          "text": "Dried blood on an old needle\nHuman Bites",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Exposure^": "Percutaneous",
+            "Risk": "0.3%"
+          },
+          {
+            "Exposure^": "Mucocutaneous",
+            "Risk": "0.09%"
+          },
+          {
+            "Exposure^": "Needle-sharing injection drug",
+            "Risk": "0.7%"
+          },
+          {
+            "Exposure^": "Receptive anal intercourse",
+            "Risk": "0.5%"
+          },
+          {
+            "Exposure^": "Receptive penile-vaginal intercourse",
+            "Risk": "0.1%"
+          },
+          {
+            "Exposure^": "Insertive anal intercourse",
+            "Risk": "0.07%"
+          },
+          {
+            "Exposure^": "Insertive penile-vaginal intercourse",
+            "Risk": "0.05%"
+          },
+          {
+            "Exposure^": "Receptive oral (male) intercourse",
+            "Risk": "0.01%"
+          },
+          {
+            "Exposure^": "Insertive oral (male) intercourse",
+            "Risk": "0.005%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "High_Risk_Exposures": {
+      "text": "Source\nSymptomatic HIV/AIDS\nAcute seroconversion\nHigh viral load\nExposure\nDeep injuries\nVisible blood on device\nInjuries sustained placing a catheter in a vein/artery",
+      "subsections": {
+        "Low_Risk_Exposures": {
+          "text": "Dried blood on an old needle\nHuman Bites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Low_Risk_Exposures": {
+      "text": "Dried blood on an old needle\nHuman Bites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Source-Patient": {
+          "text": "Rapid HIV Test\nHIV status of the exposure source patient should be determined, if possible, to guide need for HIV PEP\n[5]",
+          "tables": []
+        },
+        "Exposed-Patient": {
+          "text": "Only if giving PEP (before initiation):\nCBC\nChem 7\nLFTs\nPregnancy test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Source-Patient": {
+      "text": "Rapid HIV Test\nHIV status of the exposure source patient should be determined, if possible, to guide need for HIV PEP\n[5]",
+      "subsections": {
+        "Exposed-Patient": {
+          "text": "Only if giving PEP (before initiation):\nCBC\nChem 7\nLFTs\nPregnancy test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exposed-Patient": {
+      "text": "Only if giving PEP (before initiation):\nCBC\nChem 7\nLFTs\nPregnancy test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Negligible_Risk": {
+          "text": "NOT recommended",
+          "tables": []
+        },
+        "Preferred_HIV_PEP_Regimen[6]": {
+          "text": "PEP should be started as soon as possible after significant exposure and continued for 28 days\n[8]\nRaltegravir\n(Isentress; RAL) 400 mg PO twice daily,\nplus\nTruvada\n, 1 PO once daily (Tenofovir DF [Viread; TDF] 300 mg emtricitabine [Emtriva; FTC] 200 mg)\nOther Considerations\nIf known source patient with resistant HIV strain, consult HIV service for source-patient-specific PEP\nConsider interactions with current medication interactions and contraindications, such as renal impairment with\nTruvada\nFor patients with creatinine clearance <60mL/min, consider\nRaltegravir\n400mg PO twice daily,\nplus\nZidovudine\nand\nLamivudine\nwith doses adjusted to the degree of renal dysfunction.\n[9]\nIf the  source  exposure  does  report  exposure  to HIV  within the  last  6 weeks, HIV  RNA  PCR (HIV  viral  load)  should be  sent  along  with HIV  Ag/Ab screen on  the  source  and nPEP  should be  initiated for  the  exposed patient\nIf  both tests  result  not  detected  and nonreactive, respectively, nPEP  should  be  discontinued.\nIf the  source  is  willing  and  able  to be  tested and is  found to be  HIV-negative with  no  recent high-risk  exposures  to HIV, nPEP  is  not  indicated  and  should not  be  initiated, or  discontinued if  already  started.\nThe exposed  patient  still  warrants  baseline HIV  testing  and  should  be offered  baseline  and follow-up testing  for  other  transmissible  infections,  e.g. hepatitis  A, B, and C, syphilis, chlamydia, and gonorrhea.",
+          "tables": []
+        },
+        "Pregnant_Patients": {
+          "text": "\"Expert consultation should be sought in all cases\"\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        }
+      ]
+    },
+    "Negligible_Risk": {
+      "text": "NOT recommended",
+      "subsections": {
+        "Preferred_HIV_PEP_Regimen[6]": {
+          "text": "PEP should be started as soon as possible after significant exposure and continued for 28 days\n[8]\nRaltegravir\n(Isentress; RAL) 400 mg PO twice daily,\nplus\nTruvada\n, 1 PO once daily (Tenofovir DF [Viread; TDF] 300 mg emtricitabine [Emtriva; FTC] 200 mg)\nOther Considerations\nIf known source patient with resistant HIV strain, consult HIV service for source-patient-specific PEP\nConsider interactions with current medication interactions and contraindications, such as renal impairment with\nTruvada\nFor patients with creatinine clearance <60mL/min, consider\nRaltegravir\n400mg PO twice daily,\nplus\nZidovudine\nand\nLamivudine\nwith doses adjusted to the degree of renal dysfunction.\n[9]\nIf the  source  exposure  does  report  exposure  to HIV  within the  last  6 weeks, HIV  RNA  PCR (HIV  viral  load)  should be  sent  along  with HIV  Ag/Ab screen on  the  source  and nPEP  should be  initiated for  the  exposed patient\nIf  both tests  result  not  detected  and nonreactive, respectively, nPEP  should  be  discontinued.\nIf the  source  is  willing  and  able  to be  tested and is  found to be  HIV-negative with  no  recent high-risk  exposures  to HIV, nPEP  is  not  indicated  and  should not  be  initiated, or  discontinued if  already  started.\nThe exposed  patient  still  warrants  baseline HIV  testing  and  should  be offered  baseline  and follow-up testing  for  other  transmissible  infections,  e.g. hepatitis  A, B, and C, syphilis, chlamydia, and gonorrhea.",
+          "tables": []
+        },
+        "Pregnant_Patients": {
+          "text": "\"Expert consultation should be sought in all cases\"\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        }
+      ]
+    },
+    "Substantial_Risk": {
+      "text": "",
+      "subsections": {
+        "Preferred_HIV_PEP_Regimen[6]": {
+          "text": "PEP should be started as soon as possible after significant exposure and continued for 28 days\n[8]\nRaltegravir\n(Isentress; RAL) 400 mg PO twice daily,\nplus\nTruvada\n, 1 PO once daily (Tenofovir DF [Viread; TDF] 300 mg emtricitabine [Emtriva; FTC] 200 mg)\nOther Considerations\nIf known source patient with resistant HIV strain, consult HIV service for source-patient-specific PEP\nConsider interactions with current medication interactions and contraindications, such as renal impairment with\nTruvada\nFor patients with creatinine clearance <60mL/min, consider\nRaltegravir\n400mg PO twice daily,\nplus\nZidovudine\nand\nLamivudine\nwith doses adjusted to the degree of renal dysfunction.\n[9]\nIf the  source  exposure  does  report  exposure  to HIV  within the  last  6 weeks, HIV  RNA  PCR (HIV  viral  load)  should be  sent  along  with HIV  Ag/Ab screen on  the  source  and nPEP  should be  initiated for  the  exposed patient\nIf  both tests  result  not  detected  and nonreactive, respectively, nPEP  should  be  discontinued.\nIf the  source  is  willing  and  able  to be  tested and is  found to be  HIV-negative with  no  recent high-risk  exposures  to HIV, nPEP  is  not  indicated  and  should not  be  initiated, or  discontinued if  already  started.\nThe exposed  patient  still  warrants  baseline HIV  testing  and  should  be offered  baseline  and follow-up testing  for  other  transmissible  infections,  e.g. hepatitis  A, B, and C, syphilis, chlamydia, and gonorrhea.",
+          "tables": []
+        },
+        "Pregnant_Patients": {
+          "text": "\"Expert consultation should be sought in all cases\"\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        }
+      ]
+    },
+    "Pregnant_Patients": {
+      "text": "\"Expert consultation should be sought in all cases\"\n[10]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient, with close follow-up for exposed persons that includes:\n[11]\nCounseling\nBaseline and follow-up HIV testing\nMonitoring for drug toxicity\nFollow-up appointments should begin within 72 hours of an HIV exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Occupational exposure\nSexual assault\nHepatitis B\nHIV testing (in California)\nHarbor:Occupational exposure\nHarbor:Occupational exposure (dot-phrases)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Occupational exposure",
+          "url": "https://wikem.org/wiki/Occupational_exposure"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "HIV testing (in California)",
+          "url": "https://wikem.org/wiki/HIV_testing_(in_California)"
+        },
+        {
+          "text": "Harbor:Occupational exposure",
+          "url": "https://wikem.org/wiki/Harbor:Occupational_exposure"
+        },
+        {
+          "text": "Harbor:Occupational exposure (dot-phrases)",
+          "url": "https://wikem.org/wiki/Harbor:Occupational_exposure_(dot-phrases)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Harbor-UCLA Policy:\nhttps://wikem.org/wiki/File:Non-occupational_Post-Exposure_Prophylaxis_(nPEP)_for_HIV_Prevention_in_Adults_and_Adolescents_Expected_Practice.pdf\nhttp://ph.lacounty.gov/dhsp/prep-pep-actionkit.htm\nCDC: Post-Exposure Prophylaxis\nhttp://getprepla.com/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

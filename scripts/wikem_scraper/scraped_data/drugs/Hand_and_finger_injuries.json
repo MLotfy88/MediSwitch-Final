@@ -1,0 +1,884 @@
+{
+  "drug_name": "Hand_and_finger_injuries",
+  "url": "https://wikem.org/wiki/Hand_and_finger_injuries",
+  "scraped_at": "2026-01-10T07:54:19.005099",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Hand_Anatomy": {
+          "text": "Volar = anterior = palmar\nDorsal = posterior",
+          "tables": []
+        },
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand_Anatomy": {
+      "text": "Volar = anterior = palmar\nDorsal = posterior",
+      "subsections": {
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nailtip_Anatomy": {
+      "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_diagnoses": {
+          "text": "Splinter hemorrhage\nSubungal hematoma\nGanglion cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinter hemorrhage",
+          "url": "https://wikem.org/wiki/Splinter_hemorrhage"
+        },
+        {
+          "text": "Subungal hematoma",
+          "url": "https://wikem.org/wiki/Subungal_hematoma"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        }
+      ]
+    },
+    "Hand_and_finger_diagnoses": {
+      "text": "Splinter hemorrhage\nSubungal hematoma\nGanglion cyst",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinter hemorrhage",
+          "url": "https://wikem.org/wiki/Splinter_hemorrhage"
+        },
+        {
+          "text": "Subungal hematoma",
+          "url": "https://wikem.org/wiki/Subungal_hematoma"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_injuries": {
+          "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+          "tables": []
+        },
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip avulsion",
+          "url": "https://wikem.org/wiki/Fingertip_avulsion"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        }
+      ]
+    },
+    "Hand_and_finger_injuries": {
+      "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+      "subsections": {
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip avulsion",
+          "url": "https://wikem.org/wiki/Fingertip_avulsion"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        }
+      ]
+    },
+    "Hand_and_finger_dislocations": {
+      "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip avulsion",
+          "url": "https://wikem.org/wiki/Fingertip_avulsion"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip avulsion",
+          "url": "https://wikem.org/wiki/Fingertip_avulsion"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Hand exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand exam",
+          "url": "https://wikem.org/wiki/Hand_exam"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Hand exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand exam",
+          "url": "https://wikem.org/wiki/Hand_exam"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Diagnosis dependent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Diagnosis dependent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger diagnoses\nHand and finger tendon injuries\nHand and finger fractures\nHand and finger dislocations\nHand exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger diagnoses",
+          "url": "https://wikem.org/wiki/Hand_and_finger_diagnoses"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand exam",
+          "url": "https://wikem.org/wiki/Hand_exam"
+        }
+      ]
+    }
+  }
+}

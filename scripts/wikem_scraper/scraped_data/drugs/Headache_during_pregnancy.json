@@ -1,0 +1,356 @@
+{
+  "drug_name": "Headache_during_pregnancy",
+  "url": "https://wikem.org/wiki/Headache_during_pregnancy",
+  "scraped_at": "2026-01-10T07:54:21.814075",
+  "sections": {
+    "Background": {
+      "text": "Most pregnant women with primary headaches have diagnosis before pregnancy\n10% of pregnant women will have new onset headache during gestation\n1/3 due to migraine\n1/3 due to pre-eclamptic toxemia (PET)/eclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Headache\nwhile pregnant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Consider usual differential for\nheadaches\nAlso consider\npreeclampsia\n/\neclampsia\n(especially if >20 weeks gestation)\nNew onset of severe headache in no history of migraines → maintain high suspicion of\n[1]\n:\nICH\nTemporal arteritis\nVertebral and carotid artery dissection\nCerebral venous thrombosis\nCavernous sinus thrombosis\nMeningitis\nPosterior reversible encephalopathy syndrome\nPituitary apoplexy\n(Sheehan syndrome)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headaches",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical suspicion guides labs and imaging\nCT\n±\nLumbar puncture\nif increased ICP or infection suspected\nMRI\npreferred to CT (though radiation scatter minimal)\nAvoid gadolinium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Initial -\nacetaminophen\n1000mg PO, and may add:\nMetoclopramide\n10mg IM/IV or PO\nOther options\nSumatriptan\n100mg PO or 4-6mg SQ\nDiphenhydramine\n25 - 50mg PO\nPromethazine\n12.5 - 25mg PO\nOndansetron\n4 - 8mg IV for severe nausea/vomiting\nEnsure no\nhypokalemia\n,\nhypomagnesemia\n,\nhypocalcemia\nfor prolonged QT\nConsider recent conflicting studies on risk of birth defects\n[2]\n[3]\nRefractory migraine option 1:\nIV hydration\nPre-treatment\ndiphenhydramine\n25mg for EPS\nAntiemetics\nCodeine\n30mg PO\nIV\nopioid\nRefractory migraine option 2\n[4]\n:\nTriptan\nDroperidol\n2.5mg IV q30 min up to 3 doses\nConsider peripheral nerve blocks\nConsider\nsteroids\nin intractable migraines\nPrednisone\n20mg PO QID x2 days or methylprednisolone 4mg PO, 21 tablets over 6 days\nAvoid\ndexamethasone\nand betamethasone\nAvoid steroids in 1st trimester\nNo benefit of IV\nmagnesium\nin meta-analysis\n[5]",
+      "subsections": {
+        "Pregnancy_Categories_of_Common_Medications": {
+          "text": "Class B -\nacetaminophen\n,\ncaffeine\n,\nmetoclopramide\n,\npromethazine\nClass C -\nprochlorperazine\n(not enough human data but studies suggest safety),\nprednisolone\n,\ndroperidol\n,\nketorolac\n, 5-HT1 agonists (triptans),\ngabapentin\n,\ntopiramate\n,\ncalcium-channel blockers\n,\nTCAs\nClass D -\nvalproate\nClass D in 3rd trimester -\naspirin\n,\nibuprofen\n,\nnaproxen\nClass D at term or prolonged use -\ncodeine\n,\nmorphine\n,\nbeta-blockers\nClass X - dihydroergotamine, ergotamine\nBreastfeeding compatible - aspirin, caffeine, ibuprofen, naproxen, codeine, morphine, prednisolone, triptans (likely compatible), beta-blockers\nBreastfeeding contraindicated - dihydroergotamine, ergotamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "Triptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        },
+        {
+          "text": "calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        }
+      ]
+    },
+    "Pregnancy_Categories_of_Common_Medications": {
+      "text": "Class B -\nacetaminophen\n,\ncaffeine\n,\nmetoclopramide\n,\npromethazine\nClass C -\nprochlorperazine\n(not enough human data but studies suggest safety),\nprednisolone\n,\ndroperidol\n,\nketorolac\n, 5-HT1 agonists (triptans),\ngabapentin\n,\ntopiramate\n,\ncalcium-channel blockers\n,\nTCAs\nClass D -\nvalproate\nClass D in 3rd trimester -\naspirin\n,\nibuprofen\n,\nnaproxen\nClass D at term or prolonged use -\ncodeine\n,\nmorphine\n,\nbeta-blockers\nClass X - dihydroergotamine, ergotamine\nBreastfeeding compatible - aspirin, caffeine, ibuprofen, naproxen, codeine, morphine, prednisolone, triptans (likely compatible), beta-blockers\nBreastfeeding contraindicated - dihydroergotamine, ergotamine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        },
+        {
+          "text": "calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pregnancy (main)\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    }
+  }
+}

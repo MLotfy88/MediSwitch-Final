@@ -1,0 +1,198 @@
+{
+  "drug_name": "Hand_cellulitis",
+  "url": "https://wikem.org/wiki/Hand_cellulitis",
+  "scraped_at": "2026-01-10T07:54:20.029886",
+  "sections": {
+    "Background": {
+      "text": "Remove rings if infections are near the digits",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Erythema, warmth, and edema\nRange of motion of digits, hand, and wrist should not be painful\nPain predicts extensive involvement and the need for inpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical\nConsider films and\nultrasound\nto evaluate for\nosteomyelitis\n,\nabscess\n, or\nnecrotizing cellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Mild/moderate cellulitis\nTMP-SMX DS\n1-2 tab PO x 7-10d + (\ncephalexin\n500mg PO QID x7-10d\nOR\ndicloxacillin 500mg PO QID x 7–10d)\nSevere cellulitis\nVancomycin\n1gm IV q12hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TMP-SMX DS",
+          "url": "https://wikem.org/wiki/TMP-SMX_DS"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider admission for:\nImmunocompromised\nClinical toxicity\nEvidence of deep-space involvement\nRapidly spreading infections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger infections\nCellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    }
+  }
+}

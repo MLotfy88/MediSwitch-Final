@@ -1,0 +1,680 @@
+{
+  "drug_name": "Gout_and_pseudogout",
+  "url": "https://wikem.org/wiki/Gout_and_pseudogout",
+  "scraped_at": "2026-01-10T07:54:08.875052",
+  "sections": {
+    "Pathophysiology": {
+      "text": "Primarily an illness of middle-aged males and elderly adults\nGout in females usually occurs only after menopause\nGout is most common form of inflammatory joint disease in men >40yr\nPresence of crystals does not exclude septic arthritis",
+      "subsections": {
+        "Precipitants": {
+          "text": "Trauma\nSurgery\nMedication (\nallopurinol\n, thiazide/loop\ndiuretics\n,\nASA\n)\nAlcohol\nconsumption\nMeat/Seafood consumption\nDehydration\nLower body temperature",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        }
+      ]
+    },
+    "Precipitants": {
+      "text": "Trauma\nSurgery\nMedication (\nallopurinol\n, thiazide/loop\ndiuretics\n,\nASA\n)\nAlcohol\nconsumption\nMeat/Seafood consumption\nDehydration\nLower body temperature",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Joint pain may develop over period of hours\nPrimarily involves first MTP, knee, ankle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Monoarticular_arthritis": {
+          "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Monoarticular_arthritis": {
+      "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Synovial fluid aspiration\nGout = Negatively birefringent, needle-shaped monosodium urate crystals\nPseudogout = Positively birefringent, rhomboid-shaped, calcium pyrophosphate crystals\nSerum uric acid levels are not helpful (30% of patients with gout attack have normal levels)\nUric acid during attacks can be low due to the precipitation of gout crystals\nHigh uric acid is >6.8\nESR may be elevated\nNo bacteria on\nGram Stain\nPseudogout: X-ray of joint space may show radiolucent calcium pyrophosphate crystals",
+      "subsections": {
+        "Arthrocentesis_of_synoval_fluid": {
+          "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[1]",
+          "tables": [
+            [
+              {
+                "Synovium": "Clarity",
+                "Normal": "Transparent",
+                "Noninflammatory": "Transparent",
+                "Inflammatory": "Cloudy",
+                "Septic": "Cloudy"
+              },
+              {
+                "Synovium": "Color",
+                "Normal": "Clear",
+                "Noninflammatory": "Yellow",
+                "Inflammatory": "Yellow",
+                "Septic": "Yellow"
+              },
+              {
+                "Synovium": "WBC",
+                "Normal": "<200",
+                "Noninflammatory": "<200-2000",
+                "Inflammatory": "200-50,000",
+                "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+              },
+              {
+                "Synovium": "PMN",
+                "Normal": "<25%",
+                "Noninflammatory": "<25%",
+                "Inflammatory": ">50%",
+                "Septic": ">64% (prosthetic joint)>90%"
+              },
+              {
+                "Synovium": "Culture",
+                "Normal": "Neg",
+                "Noninflammatory": "Neg",
+                "Inflammatory": "Neg",
+                "Septic": ">50% positive"
+              },
+              {
+                "Synovium": "Lactate",
+                "Normal": "<5.6 mmol/L",
+                "Noninflammatory": "<5.6 mmol/L",
+                "Inflammatory": "<5.6 mmol/L",
+                "Septic": ">5.6 mmol/L"
+              },
+              {
+                "Synovium": "LDH",
+                "Normal": "<250",
+                "Noninflammatory": "<250",
+                "Inflammatory": "<250",
+                "Septic": ">250"
+              },
+              {
+                "Synovium": "Crystals",
+                "Normal": "None",
+                "Noninflammatory": "None",
+                "Inflammatory": "Multiple or none",
+                "Septic": "None"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram Stain",
+          "url": "https://wikem.org/wiki/Gram_Stain"
+        }
+      ]
+    },
+    "Arthrocentesis_of_synoval_fluid": {
+      "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[1]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Synovium": "Clarity",
+            "Normal": "Transparent",
+            "Noninflammatory": "Transparent",
+            "Inflammatory": "Cloudy",
+            "Septic": "Cloudy"
+          },
+          {
+            "Synovium": "Color",
+            "Normal": "Clear",
+            "Noninflammatory": "Yellow",
+            "Inflammatory": "Yellow",
+            "Septic": "Yellow"
+          },
+          {
+            "Synovium": "WBC",
+            "Normal": "<200",
+            "Noninflammatory": "<200-2000",
+            "Inflammatory": "200-50,000",
+            "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+          },
+          {
+            "Synovium": "PMN",
+            "Normal": "<25%",
+            "Noninflammatory": "<25%",
+            "Inflammatory": ">50%",
+            "Septic": ">64% (prosthetic joint)>90%"
+          },
+          {
+            "Synovium": "Culture",
+            "Normal": "Neg",
+            "Noninflammatory": "Neg",
+            "Inflammatory": "Neg",
+            "Septic": ">50% positive"
+          },
+          {
+            "Synovium": "Lactate",
+            "Normal": "<5.6 mmol/L",
+            "Noninflammatory": "<5.6 mmol/L",
+            "Inflammatory": "<5.6 mmol/L",
+            "Septic": ">5.6 mmol/L"
+          },
+          {
+            "Synovium": "LDH",
+            "Normal": "<250",
+            "Noninflammatory": "<250",
+            "Inflammatory": "<250",
+            "Septic": ">250"
+          },
+          {
+            "Synovium": "Crystals",
+            "Normal": "None",
+            "Noninflammatory": "None",
+            "Inflammatory": "Multiple or none",
+            "Septic": "None"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Patients usually only require\nopioid\nand\nNSAID\ntreatment in the ED with continued\nNSAID\ntreatment as an oupatient. However any combination of the following treatments are acceptable\n[2]",
+      "subsections": {
+        "All_patients": {
+          "text": "Hold\ndiuretics\nConsider starting\nlosartan\nto replace diuretic (has modest uricosuric effect)\nAlcohol and dietary counseling\nContinue uric acid-lowering agents if already on prophylactic regimen (do not start)\nFollow up with Primary Doctor or Rheumatology if having continued flares",
+          "tables": []
+        },
+        "NSAIDs": {
+          "text": "Do not give to patients with renal insufficiency (use\nopioids\ninstead)\nSubstantial pain relief should occur within 2hr\nOptions:\nIndomethacin\n50mg po TID x3-5d, OR\nNaproxen\n500mg po BID x3-7d, OR\nIbuprofen\n800mg PO TID x 3-5d",
+          "tables": []
+        },
+        "Colchicine": {
+          "text": "Can be used as alternative agent to NSAIDs in patient with normal renal/hepatic function\n1.2mg PO (load), followed by 0.6mg one hour later x 1\n[3]\nMay use to maximum of x3 doses, with more aggressive regimens totaling max dose up to 6mg\n[4]\nWait at least x3 days before starting another round of colchicine therapy\nRenal impairment not absolute contraindication for acute flare but may consider dose reduction.\nDose adjustments for CYP3A4 inhibitors (HARRT, Calcium Channel Blockers, fluconazole, erythromycin, clarithromycin)\nColchicine should not be administered intravenously\nInitial: 0.6-1.2mg, followed by 0.6 every 1-2 hours; some clinicians recommend a maximum of 3 doses; more aggressive approaches have recommended a maximum dose of up to 6mg. Wait at least 3 days before initiating another course of therapy",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Prednisone\n30 to 50mg initially, and gradually tapered over 10 days, results in clinical resolution without rebound pain or complications\n[5]\n[6]",
+          "tables": []
+        },
+        "Glucocorticoid_injection": {
+          "text": "Even if gout has been diagnosed in the past, be cautious with glucocorticoid joint injection if the current clinical picture is uncertain since a\nseptic joint\ncan coexist with gout and a steroid injection would then worsen the patient's clinical status.",
+          "tables": []
+        },
+        "Other_Therapies": {
+          "text": "Anakinra\nDisease-modifying agent; Interleukin-1 Receptor Antagonist\nReserve use for patients who have frequent flares and in whom first-line therapies are ineffective, contraindicated, or not tolerated\n100 mg subq once daily until symptom improvement; usual duration: 3 to 5 days\nNOT routinely used in the ED.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis"
+        }
+      ]
+    },
+    "All_patients": {
+      "text": "Hold\ndiuretics\nConsider starting\nlosartan\nto replace diuretic (has modest uricosuric effect)\nAlcohol and dietary counseling\nContinue uric acid-lowering agents if already on prophylactic regimen (do not start)\nFollow up with Primary Doctor or Rheumatology if having continued flares",
+      "subsections": {
+        "NSAIDs": {
+          "text": "Do not give to patients with renal insufficiency (use\nopioids\ninstead)\nSubstantial pain relief should occur within 2hr\nOptions:\nIndomethacin\n50mg po TID x3-5d, OR\nNaproxen\n500mg po BID x3-7d, OR\nIbuprofen\n800mg PO TID x 3-5d",
+          "tables": []
+        },
+        "Colchicine": {
+          "text": "Can be used as alternative agent to NSAIDs in patient with normal renal/hepatic function\n1.2mg PO (load), followed by 0.6mg one hour later x 1\n[3]\nMay use to maximum of x3 doses, with more aggressive regimens totaling max dose up to 6mg\n[4]\nWait at least x3 days before starting another round of colchicine therapy\nRenal impairment not absolute contraindication for acute flare but may consider dose reduction.\nDose adjustments for CYP3A4 inhibitors (HARRT, Calcium Channel Blockers, fluconazole, erythromycin, clarithromycin)\nColchicine should not be administered intravenously\nInitial: 0.6-1.2mg, followed by 0.6 every 1-2 hours; some clinicians recommend a maximum of 3 doses; more aggressive approaches have recommended a maximum dose of up to 6mg. Wait at least 3 days before initiating another course of therapy",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Prednisone\n30 to 50mg initially, and gradually tapered over 10 days, results in clinical resolution without rebound pain or complications\n[5]\n[6]",
+          "tables": []
+        },
+        "Glucocorticoid_injection": {
+          "text": "Even if gout has been diagnosed in the past, be cautious with glucocorticoid joint injection if the current clinical picture is uncertain since a\nseptic joint\ncan coexist with gout and a steroid injection would then worsen the patient's clinical status.",
+          "tables": []
+        },
+        "Other_Therapies": {
+          "text": "Anakinra\nDisease-modifying agent; Interleukin-1 Receptor Antagonist\nReserve use for patients who have frequent flares and in whom first-line therapies are ineffective, contraindicated, or not tolerated\n100 mg subq once daily until symptom improvement; usual duration: 3 to 5 days\nNOT routinely used in the ED.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis"
+        }
+      ]
+    },
+    "NSAIDs": {
+      "text": "Do not give to patients with renal insufficiency (use\nopioids\ninstead)\nSubstantial pain relief should occur within 2hr\nOptions:\nIndomethacin\n50mg po TID x3-5d, OR\nNaproxen\n500mg po BID x3-7d, OR\nIbuprofen\n800mg PO TID x 3-5d",
+      "subsections": {
+        "Colchicine": {
+          "text": "Can be used as alternative agent to NSAIDs in patient with normal renal/hepatic function\n1.2mg PO (load), followed by 0.6mg one hour later x 1\n[3]\nMay use to maximum of x3 doses, with more aggressive regimens totaling max dose up to 6mg\n[4]\nWait at least x3 days before starting another round of colchicine therapy\nRenal impairment not absolute contraindication for acute flare but may consider dose reduction.\nDose adjustments for CYP3A4 inhibitors (HARRT, Calcium Channel Blockers, fluconazole, erythromycin, clarithromycin)\nColchicine should not be administered intravenously\nInitial: 0.6-1.2mg, followed by 0.6 every 1-2 hours; some clinicians recommend a maximum of 3 doses; more aggressive approaches have recommended a maximum dose of up to 6mg. Wait at least 3 days before initiating another course of therapy",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Prednisone\n30 to 50mg initially, and gradually tapered over 10 days, results in clinical resolution without rebound pain or complications\n[5]\n[6]",
+          "tables": []
+        },
+        "Glucocorticoid_injection": {
+          "text": "Even if gout has been diagnosed in the past, be cautious with glucocorticoid joint injection if the current clinical picture is uncertain since a\nseptic joint\ncan coexist with gout and a steroid injection would then worsen the patient's clinical status.",
+          "tables": []
+        },
+        "Other_Therapies": {
+          "text": "Anakinra\nDisease-modifying agent; Interleukin-1 Receptor Antagonist\nReserve use for patients who have frequent flares and in whom first-line therapies are ineffective, contraindicated, or not tolerated\n100 mg subq once daily until symptom improvement; usual duration: 3 to 5 days\nNOT routinely used in the ED.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis"
+        }
+      ]
+    },
+    "Other_options": {
+      "text": "",
+      "subsections": {
+        "Colchicine": {
+          "text": "Can be used as alternative agent to NSAIDs in patient with normal renal/hepatic function\n1.2mg PO (load), followed by 0.6mg one hour later x 1\n[3]\nMay use to maximum of x3 doses, with more aggressive regimens totaling max dose up to 6mg\n[4]\nWait at least x3 days before starting another round of colchicine therapy\nRenal impairment not absolute contraindication for acute flare but may consider dose reduction.\nDose adjustments for CYP3A4 inhibitors (HARRT, Calcium Channel Blockers, fluconazole, erythromycin, clarithromycin)\nColchicine should not be administered intravenously\nInitial: 0.6-1.2mg, followed by 0.6 every 1-2 hours; some clinicians recommend a maximum of 3 doses; more aggressive approaches have recommended a maximum dose of up to 6mg. Wait at least 3 days before initiating another course of therapy",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Prednisone\n30 to 50mg initially, and gradually tapered over 10 days, results in clinical resolution without rebound pain or complications\n[5]\n[6]",
+          "tables": []
+        },
+        "Glucocorticoid_injection": {
+          "text": "Even if gout has been diagnosed in the past, be cautious with glucocorticoid joint injection if the current clinical picture is uncertain since a\nseptic joint\ncan coexist with gout and a steroid injection would then worsen the patient's clinical status.",
+          "tables": []
+        },
+        "Other_Therapies": {
+          "text": "Anakinra\nDisease-modifying agent; Interleukin-1 Receptor Antagonist\nReserve use for patients who have frequent flares and in whom first-line therapies are ineffective, contraindicated, or not tolerated\n100 mg subq once daily until symptom improvement; usual duration: 3 to 5 days\nNOT routinely used in the ED.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally outpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Joint Pain\nMonoarticular Arthritis\nKnee Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Joint Pain",
+          "url": "https://wikem.org/wiki/Joint_Pain"
+        },
+        {
+          "text": "Monoarticular Arthritis",
+          "url": "https://wikem.org/wiki/Monoarticular_Arthritis"
+        },
+        {
+          "text": "Knee Diagnoses",
+          "url": "https://wikem.org/wiki/Knee_Diagnoses"
+        }
+      ]
+    }
+  }
+}

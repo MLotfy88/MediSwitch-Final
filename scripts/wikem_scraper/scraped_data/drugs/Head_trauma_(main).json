@@ -1,0 +1,613 @@
+{
+  "drug_name": "Head_trauma_(main)",
+  "url": "https://wikem.org/wiki/Head_trauma_(main)",
+  "scraped_at": "2026-01-10T07:54:17.969083",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nhead trauma (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Also known as Traumatic Brain Injury (TBI): Impairment in brain function from a mechanical force",
+      "subsections": {
+        "Primary_injury": {
+          "text": "Contusions\nBruises to brain parenchyma\nHematomas\nEpidural hematoma\nSubdural hematoma\nIntraparenchymal\nIntraventricular\nSubarachnoid hemorrhage\nDiffuse axonal injury\nDirect cellular damage\nNeurons\nAxons\nTearing and shearing of tissues",
+          "tables": []
+        },
+        "Secondary_injury": {
+          "text": "Brain swelling causes\nincreased ICP\nwhich compresses the tissue causing ischemia with direct compression of the vasculature causing brain tissue herniation and brain death\nLeads to expansion of the original injury (predominantly metabolic insult)\nCalcium and sodium shifts\nMitochondrial damage\nProduction of free radicals\nUltimately leads to damage to axonal integrity and axonal transport\nEnzyme activity leads to apoptosis\nMicroscopic structural injury is often unidentifiable on CT or MRI",
+          "tables": []
+        },
+        "Cerebral_Blood_Flow_and_Autoregulation": {
+          "text": "vasoconstriction\nHTN, Hypocarbia, alkalosis\nNo good way to measure cerebral blood flow\nUse CPP as surrogate\nCPP is amount of pressure needed to perfuse the brain\nCPP=MAP-ICP\nWhen ICP elevates, CPP decreases\nNormal ICP\n15 in adults\n<10 to 15 in children\n1.5 to 6.0 in infants\nAutoregulation allows the body to control the cerebral blood flow\nAutoregulatory mechanism is damaged in most TBI patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "TBI_Pathophysiology": {
+      "text": "",
+      "subsections": {
+        "Primary_injury": {
+          "text": "Contusions\nBruises to brain parenchyma\nHematomas\nEpidural hematoma\nSubdural hematoma\nIntraparenchymal\nIntraventricular\nSubarachnoid hemorrhage\nDiffuse axonal injury\nDirect cellular damage\nNeurons\nAxons\nTearing and shearing of tissues",
+          "tables": []
+        },
+        "Secondary_injury": {
+          "text": "Brain swelling causes\nincreased ICP\nwhich compresses the tissue causing ischemia with direct compression of the vasculature causing brain tissue herniation and brain death\nLeads to expansion of the original injury (predominantly metabolic insult)\nCalcium and sodium shifts\nMitochondrial damage\nProduction of free radicals\nUltimately leads to damage to axonal integrity and axonal transport\nEnzyme activity leads to apoptosis\nMicroscopic structural injury is often unidentifiable on CT or MRI",
+          "tables": []
+        },
+        "Cerebral_Blood_Flow_and_Autoregulation": {
+          "text": "vasoconstriction\nHTN, Hypocarbia, alkalosis\nNo good way to measure cerebral blood flow\nUse CPP as surrogate\nCPP is amount of pressure needed to perfuse the brain\nCPP=MAP-ICP\nWhen ICP elevates, CPP decreases\nNormal ICP\n15 in adults\n<10 to 15 in children\n1.5 to 6.0 in infants\nAutoregulation allows the body to control the cerebral blood flow\nAutoregulatory mechanism is damaged in most TBI patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Adult patient with blunt head trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        },
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Adult_GCS": {
+          "text": "14-15: Mild\n9-13: Moderate\n3-8:\nSevere",
+          "tables": [
+            [
+              {
+                "Eye Opening": "",
+                "Verbal": "",
+                "Motor": "6:  Obeys commands"
+              },
+              {
+                "Eye Opening": "",
+                "Verbal": "5:  Oriented",
+                "Motor": "5:  Localizes to pain"
+              },
+              {
+                "Eye Opening": "4: Spontaneously opens",
+                "Verbal": "4:  Confused speech",
+                "Motor": "4:  Withdraws from pain (normal flexion)"
+              },
+              {
+                "Eye Opening": "3: Opens to command",
+                "Verbal": "3:Inappropriate words",
+                "Motor": "3:  Decorticate posturing (abnormal flexion)"
+              },
+              {
+                "Eye Opening": "2: Opens to pain",
+                "Verbal": "2: Incomprehensible sounds",
+                "Motor": "2:  Decerebrate posturing (extension)"
+              },
+              {
+                "Eye Opening": "1: Does not open",
+                "Verbal": "1: No response",
+                "Motor": "1:  No response"
+              }
+            ]
+          ]
+        },
+        "Workup": {
+          "text": "Workup is dependent on\nGCS\nseverity, see:\nMild traumatic brain injury\n(\nGCS\n14-15)\nClinical decision rules for head CT in trauma\nModerate-to-severe traumatic brain injury\n(\nGCS\n<14)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Severe",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        }
+      ]
+    },
+    "Adult_GCS": {
+      "text": "14-15: Mild\n9-13: Moderate\n3-8:\nSevere",
+      "subsections": {
+        "Workup": {
+          "text": "Workup is dependent on\nGCS\nseverity, see:\nMild traumatic brain injury\n(\nGCS\n14-15)\nClinical decision rules for head CT in trauma\nModerate-to-severe traumatic brain injury\n(\nGCS\n<14)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Eye Opening": "",
+            "Verbal": "",
+            "Motor": "6:  Obeys commands"
+          },
+          {
+            "Eye Opening": "",
+            "Verbal": "5:  Oriented",
+            "Motor": "5:  Localizes to pain"
+          },
+          {
+            "Eye Opening": "4: Spontaneously opens",
+            "Verbal": "4:  Confused speech",
+            "Motor": "4:  Withdraws from pain (normal flexion)"
+          },
+          {
+            "Eye Opening": "3: Opens to command",
+            "Verbal": "3:Inappropriate words",
+            "Motor": "3:  Decorticate posturing (abnormal flexion)"
+          },
+          {
+            "Eye Opening": "2: Opens to pain",
+            "Verbal": "2: Incomprehensible sounds",
+            "Motor": "2:  Decerebrate posturing (extension)"
+          },
+          {
+            "Eye Opening": "1: Does not open",
+            "Verbal": "1: No response",
+            "Motor": "1:  No response"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Severe",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Workup is dependent on\nGCS\nseverity, see:\nMild traumatic brain injury\n(\nGCS\n14-15)\nClinical decision rules for head CT in trauma\nModerate-to-severe traumatic brain injury\n(\nGCS\n<14)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        }
+      ]
+    },
+    "Management_&_Disposition": {
+      "text": "Dependent on underlying diagnosis, see:\nTraumatic intracerebral hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nPost-concussive syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pediatric head trauma\nCoup contrecoup injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "Coup contrecoup injury",
+          "url": "https://wikem.org/wiki/Coup_contrecoup_injury"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "drug_name": "Hamate_fracture",
+  "url": "https://wikem.org/wiki/Hamate_fracture",
+  "scraped_at": "2026-01-10T07:54:13.631793",
+  "sections": {
+    "Background": {
+      "text": "Must exclude injury to ulnar nerve/artery (hamate forms part of Guyon canal)\nMay involve the body, hook, or articular surface\nHook (common) - associated with interrupted swing of club, bat, or racquet (handle impacts hypothenar eminence)\nBody (rare) - associated with fracture-dislocations of 4th/5th metacarpals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Localized tenderness over hamate (elicited by compresing hypothenar eminence)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Standard and carpal tunnel views should be obtained\nCT may be needed to identify occult fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Hamate_hook_fracture": {
+          "text": "Compression dresing or\nForearm volar splint\nNonunion is common and excision of bone may be necessary",
+          "tables": []
+        },
+        "Hamate_body_fracture": {
+          "text": "Stable:\nForearm volar splint\nimmobilization\nUnstable (displaced, Guyon canal injury): splint immobilization and ortho referral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        },
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Hamate_hook_fracture": {
+          "text": "Compression dresing or\nForearm volar splint\nNonunion is common and excision of bone may be necessary",
+          "tables": []
+        },
+        "Hamate_body_fracture": {
+          "text": "Stable:\nForearm volar splint\nimmobilization\nUnstable (displaced, Guyon canal injury): splint immobilization and ortho referral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        },
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        }
+      ]
+    },
+    "Hamate_hook_fracture": {
+      "text": "Compression dresing or\nForearm volar splint\nNonunion is common and excision of bone may be necessary",
+      "subsections": {
+        "Hamate_body_fracture": {
+          "text": "Stable:\nForearm volar splint\nimmobilization\nUnstable (displaced, Guyon canal injury): splint immobilization and ortho referral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        },
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        }
+      ]
+    },
+    "Hamate_body_fracture": {
+      "text": "Stable:\nForearm volar splint\nimmobilization\nUnstable (displaced, Guyon canal injury): splint immobilization and ortho referral",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Carpal fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal fractures",
+          "url": "https://wikem.org/wiki/Carpal_fractures"
+        }
+      ]
+    }
+  }
+}

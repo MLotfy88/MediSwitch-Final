@@ -1,0 +1,390 @@
+{
+  "drug_name": "Hand_and_finger_tendon_injuries",
+  "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries",
+  "scraped_at": "2026-01-10T07:54:18.644041",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Tendons_of_the_upper_extremity_anatomy": {
+          "text": "Fingers\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nThumb\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nWrist\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mallet",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Boutonniere",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Tendons_of_the_upper_extremity_anatomy": {
+      "text": "Fingers\nFDP (DIP flexion)\nFDS (PIP flexion)\nExtensor dig communis (extension)\nMallet\n= DIP\nBoutonniere\n= PIP\nThumb\nFlx pollicis longus (flexion)\nEx poll longus (DIP ext)\nEx poll brevis (MCP ext)\nAbductor poll longus (abduction)\nWrist\nFlexor carpi ulnaris (flx + ulnar deviation)\nFlexor carpi radialis (flx + radial dev)\nExtensor carpi ulnaris (ext + ulnar dev)\nExtensor carpi radialis (ext + radial dev)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mallet",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Boutonniere",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Inability to move hand or finger in appropriate distribution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_injuries": {
+          "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Hand_and_finger_injuries": {
+      "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Extensor_Zones": {
+          "text": "Zone I\nArea over distal phalanx and DIP joint\nComplete laceration at this level will result in DIP joint flexed 40 degrees\n\"Mallet finger\" refers to closed disruption of distal extensor apparatus\nOccurs due to sudden forceful flexion of extended finger (finger gets \"jammed\")\nMay occur due to tear of tendon itself or avultion fracture of dorsal base of phalanx\nMost common tendon injury in athletes\nImmobilize DIP joint only in continuous slight hyperextension for 6-8wks\nZone II\nArea over middle phalanx\nTreatment is similar to zone I injuries\nZone III\nArea over the PIP joint\nCentral tendon is most commonly injured structure\nElson's test\ncan be used to determine central tendon injury\n[1]\nControversial whether conservative or operative management is best\nClosed injuries are initially treated with PIP joint immobilized in extension for 5-6wks\nMust be followed closely by hand specialist\nZone IV\nInvolves area over proximal phalanx\nClinical findings are similar to zone III injuries\nZone V\nArea over MCP joint\nOpen injuries to this area should be considered human bites until proven otherwise\nIf it is human bite performed delayed repair following course of antibiotic\nZone VI\nArea over dorsum of hand\nTendons in this area are superficial; even minor-appearing lacs are associated with tendon injuries\nTreatment typically requires operative fixation with K wires\nZone VII\nArea over the wrist\nRepair can be difficult because of presence of extensor retinaculum\nZone VIII\nArea of the distal forearm\nTendons frequently retract into the forearm and must be retrieved and repaired\nLac <25%: does not require repair\nLac 25-50% requires simple suture repair\nLac >50% requires specialized repair",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Flexor_Zones": {
+      "text": "",
+      "subsections": {
+        "Extensor_Zones": {
+          "text": "Zone I\nArea over distal phalanx and DIP joint\nComplete laceration at this level will result in DIP joint flexed 40 degrees\n\"Mallet finger\" refers to closed disruption of distal extensor apparatus\nOccurs due to sudden forceful flexion of extended finger (finger gets \"jammed\")\nMay occur due to tear of tendon itself or avultion fracture of dorsal base of phalanx\nMost common tendon injury in athletes\nImmobilize DIP joint only in continuous slight hyperextension for 6-8wks\nZone II\nArea over middle phalanx\nTreatment is similar to zone I injuries\nZone III\nArea over the PIP joint\nCentral tendon is most commonly injured structure\nElson's test\ncan be used to determine central tendon injury\n[1]\nControversial whether conservative or operative management is best\nClosed injuries are initially treated with PIP joint immobilized in extension for 5-6wks\nMust be followed closely by hand specialist\nZone IV\nInvolves area over proximal phalanx\nClinical findings are similar to zone III injuries\nZone V\nArea over MCP joint\nOpen injuries to this area should be considered human bites until proven otherwise\nIf it is human bite performed delayed repair following course of antibiotic\nZone VI\nArea over dorsum of hand\nTendons in this area are superficial; even minor-appearing lacs are associated with tendon injuries\nTreatment typically requires operative fixation with K wires\nZone VII\nArea over the wrist\nRepair can be difficult because of presence of extensor retinaculum\nZone VIII\nArea of the distal forearm\nTendons frequently retract into the forearm and must be retrieved and repaired\nLac <25%: does not require repair\nLac 25-50% requires simple suture repair\nLac >50% requires specialized repair",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extensor_Zones": {
+      "text": "Zone I\nArea over distal phalanx and DIP joint\nComplete laceration at this level will result in DIP joint flexed 40 degrees\n\"Mallet finger\" refers to closed disruption of distal extensor apparatus\nOccurs due to sudden forceful flexion of extended finger (finger gets \"jammed\")\nMay occur due to tear of tendon itself or avultion fracture of dorsal base of phalanx\nMost common tendon injury in athletes\nImmobilize DIP joint only in continuous slight hyperextension for 6-8wks\nZone II\nArea over middle phalanx\nTreatment is similar to zone I injuries\nZone III\nArea over the PIP joint\nCentral tendon is most commonly injured structure\nElson's test\ncan be used to determine central tendon injury\n[1]\nControversial whether conservative or operative management is best\nClosed injuries are initially treated with PIP joint immobilized in extension for 5-6wks\nMust be followed closely by hand specialist\nZone IV\nInvolves area over proximal phalanx\nClinical findings are similar to zone III injuries\nZone V\nArea over MCP joint\nOpen injuries to this area should be considered human bites until proven otherwise\nIf it is human bite performed delayed repair following course of antibiotic\nZone VI\nArea over dorsum of hand\nTendons in this area are superficial; even minor-appearing lacs are associated with tendon injuries\nTreatment typically requires operative fixation with K wires\nZone VII\nArea over the wrist\nRepair can be difficult because of presence of extensor retinaculum\nZone VIII\nArea of the distal forearm\nTendons frequently retract into the forearm and must be retrieved and repaired\nLac <25%: does not require repair\nLac 25-50% requires simple suture repair\nLac >50% requires specialized repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Flexor": {
+          "text": "Primary repair should occur within 12hr; secondary repair can occur up to 4wk after injury\nHand surgeon should repair all flexor tendon lacerations\nIf hand surgeon is not immediately available:\nIrrigate open wounds and close with 5-0 nylon\nMost advocate antibiotics\nSplint hand with:\nWrist in 30 deg of flexion\nMCP joints in 70 deg of flexion\nIP joint flexed 10-15 deg of flexion",
+          "tables": []
+        },
+        "Extensor": {
+          "text": "Most common site of tendon injuries b/c of superfical location on dorsum of hand\nIf tendon lac suspected but unable to be located it is ok to refer to specialist within 3d\nDelayed repair up to 7-10d usually has equal outcome to immediate repair\nZones V-VII Splinting (after repair)\nRequires splinting with:\nWrist in 15 deg extension\nMCP joint in 15 deg flexion\nIP join in 15 deg flexion in involved and adjacent digit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Flexor": {
+      "text": "Primary repair should occur within 12hr; secondary repair can occur up to 4wk after injury\nHand surgeon should repair all flexor tendon lacerations\nIf hand surgeon is not immediately available:\nIrrigate open wounds and close with 5-0 nylon\nMost advocate antibiotics\nSplint hand with:\nWrist in 30 deg of flexion\nMCP joints in 70 deg of flexion\nIP joint flexed 10-15 deg of flexion",
+      "subsections": {
+        "Extensor": {
+          "text": "Most common site of tendon injuries b/c of superfical location on dorsum of hand\nIf tendon lac suspected but unable to be located it is ok to refer to specialist within 3d\nDelayed repair up to 7-10d usually has equal outcome to immediate repair\nZones V-VII Splinting (after repair)\nRequires splinting with:\nWrist in 15 deg extension\nMCP joint in 15 deg flexion\nIP join in 15 deg flexion in involved and adjacent digit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extensor": {
+      "text": "Most common site of tendon injuries b/c of superfical location on dorsum of hand\nIf tendon lac suspected but unable to be located it is ok to refer to specialist within 3d\nDelayed repair up to 7-10d usually has equal outcome to immediate repair\nZones V-VII Splinting (after repair)\nRequires splinting with:\nWrist in 15 deg extension\nMCP joint in 15 deg flexion\nIP join in 15 deg flexion in involved and adjacent digit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger injuries\nTendons of the upper extremity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_injuries"
+        },
+        {
+          "text": "Tendons of the upper extremity",
+          "url": "https://wikem.org/wiki/Tendons_of_the_upper_extremity"
+        }
+      ]
+    }
+  }
+}

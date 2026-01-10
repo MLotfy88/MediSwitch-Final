@@ -1,0 +1,912 @@
+{
+  "drug_name": "HIV_-_AIDS_(main)",
+  "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)",
+  "scraped_at": "2026-01-10T07:54:14.177831",
+  "sections": {
+    "Background": {
+      "text": "In HIV+ patient presenting to ED, absolute lymphocyte count (ALC) can be used as surrogate for CD4 count\n[1]\nA CD4 count of <200 is very likely if the ED ALC is <950 and less likely if the ALC is >1700\nALC is useful to confirm, but not exclude a low CD4\nApproximately 1.2 million people in the US are living with HIV\n[2]\n13% of people with HIV in US aren't aware\n[2]\nMost affected: homosexual & bisexual men, particularly African American\n[2]",
+      "subsections": {
+        "HIV_Associated_Diseases_by_CD4_Level": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "CD4 Count": ">500",
+                "Stage": "Early disease",
+                "Diseases": "Similar to non-immunocompromised patients (Consider HAART medication side-effects)"
+              },
+              {
+                "CD4 Count": "200-500",
+                "Stage": "Intermediate disease",
+                "Diseases": "Kaposi's sarcoma,Candida, bacterial respiratory infections"
+              },
+              {
+                "CD4 Count": "<200",
+                "Stage": "Late disease",
+                "Diseases": "PCP, central line infection,MAC,TB,CMV,drug fever,sinusitis,endocarditis,lymphoma,histoplasmosis,cryptococcus,PML"
+              },
+              {
+                "CD4 Count": "<100",
+                "Stage": "Very late disease",
+                "Diseases": "Cryptococcus,Cryptosporidium,Toxoplasmosis"
+              },
+              {
+                "CD4 Count": "<50",
+                "Stage": "Final Stage",
+                "Diseases": "CMV retinitis,MAC"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HIV_Associated_Diseases_by_CD4_Level": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "CD4 Count": ">500",
+            "Stage": "Early disease",
+            "Diseases": "Similar to non-immunocompromised patients (Consider HAART medication side-effects)"
+          },
+          {
+            "CD4 Count": "200-500",
+            "Stage": "Intermediate disease",
+            "Diseases": "Kaposi's sarcoma,Candida, bacterial respiratory infections"
+          },
+          {
+            "CD4 Count": "<200",
+            "Stage": "Late disease",
+            "Diseases": "PCP, central line infection,MAC,TB,CMV,drug fever,sinusitis,endocarditis,lymphoma,histoplasmosis,cryptococcus,PML"
+          },
+          {
+            "CD4 Count": "<100",
+            "Stage": "Very late disease",
+            "Diseases": "Cryptococcus,Cryptosporidium,Toxoplasmosis"
+          },
+          {
+            "CD4 Count": "<50",
+            "Stage": "Final Stage",
+            "Diseases": "CMV retinitis,MAC"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute_Infection": {
+          "text": "Misdiagnosed frequently as \"mononucleosis\" or \"flu\"\nLargest viral load, widespread dissemination of virus, and most infectious stage\n[3]\nSymptoms develop 2-4wks after exposure; last for <14d\nFever\n(>90%)\nFatigue (70-90%)\nPharyngitis\n(>70%)\nRash (40-80%) -\nPruritic papular eruption of HIV\nHeadache\n(30-70%)\nLymphadenopathy\n(40-70%)",
+          "tables": []
+        },
+        "Seroconversion": {
+          "text": "HIV Ab detectable 3-8wk after infection (sometimes sooner)\nIf negative Ab test but high suspicion, can HIV viral load.",
+          "tables": []
+        },
+        "Asymptomatic": {
+          "text": "Lasts for ~8yr\nPatients may have conditions that are more common in patients with HIV but no indicator conditions\nThrush\nPersistent\ncandidia vaginitis\nPeripheral neuropathy\nCervical dysplasia\nRecurrent\nHerpes Zoster\nITP\nUnexplained weight loss",
+          "tables": []
+        },
+        "AIDS": {
+          "text": "Defined as HIV + (indicator condition or CD4 < 200)\nIndicator conditions:\nPulmonary\nTB\nDisseminated\nTB\nInvasive cervical cancer\nEsophageal candidiasis\nCryptococcosis\nCryptosporidiosis\nCMV  Retinitis\nHSV\nKaposi sarcoma\nPruritic papular eruption of HIV\nLymphoma\nMAC\nPCP pneumonia\nProgressive multifocal leukoencephalopathy\nBrain\nToxoplasmosis\nHIV\nEncephalitis\nHIV wasting syndrome\nDisseminated\nhistoplasmosis\nIsosporiasis\nRecurrent\nSalmonella\nsepticemia\nRecurrent Bacterial\nPneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Thrush",
+          "url": "https://wikem.org/wiki/Thrush"
+        },
+        {
+          "text": "candidia vaginitis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "CMV  Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Acute_Infection": {
+      "text": "Misdiagnosed frequently as \"mononucleosis\" or \"flu\"\nLargest viral load, widespread dissemination of virus, and most infectious stage\n[3]\nSymptoms develop 2-4wks after exposure; last for <14d\nFever\n(>90%)\nFatigue (70-90%)\nPharyngitis\n(>70%)\nRash (40-80%) -\nPruritic papular eruption of HIV\nHeadache\n(30-70%)\nLymphadenopathy\n(40-70%)",
+      "subsections": {
+        "Seroconversion": {
+          "text": "HIV Ab detectable 3-8wk after infection (sometimes sooner)\nIf negative Ab test but high suspicion, can HIV viral load.",
+          "tables": []
+        },
+        "Asymptomatic": {
+          "text": "Lasts for ~8yr\nPatients may have conditions that are more common in patients with HIV but no indicator conditions\nThrush\nPersistent\ncandidia vaginitis\nPeripheral neuropathy\nCervical dysplasia\nRecurrent\nHerpes Zoster\nITP\nUnexplained weight loss",
+          "tables": []
+        },
+        "AIDS": {
+          "text": "Defined as HIV + (indicator condition or CD4 < 200)\nIndicator conditions:\nPulmonary\nTB\nDisseminated\nTB\nInvasive cervical cancer\nEsophageal candidiasis\nCryptococcosis\nCryptosporidiosis\nCMV  Retinitis\nHSV\nKaposi sarcoma\nPruritic papular eruption of HIV\nLymphoma\nMAC\nPCP pneumonia\nProgressive multifocal leukoencephalopathy\nBrain\nToxoplasmosis\nHIV\nEncephalitis\nHIV wasting syndrome\nDisseminated\nhistoplasmosis\nIsosporiasis\nRecurrent\nSalmonella\nsepticemia\nRecurrent Bacterial\nPneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Thrush",
+          "url": "https://wikem.org/wiki/Thrush"
+        },
+        {
+          "text": "candidia vaginitis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "CMV  Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Seroconversion": {
+      "text": "HIV Ab detectable 3-8wk after infection (sometimes sooner)\nIf negative Ab test but high suspicion, can HIV viral load.",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "Lasts for ~8yr\nPatients may have conditions that are more common in patients with HIV but no indicator conditions\nThrush\nPersistent\ncandidia vaginitis\nPeripheral neuropathy\nCervical dysplasia\nRecurrent\nHerpes Zoster\nITP\nUnexplained weight loss",
+          "tables": []
+        },
+        "AIDS": {
+          "text": "Defined as HIV + (indicator condition or CD4 < 200)\nIndicator conditions:\nPulmonary\nTB\nDisseminated\nTB\nInvasive cervical cancer\nEsophageal candidiasis\nCryptococcosis\nCryptosporidiosis\nCMV  Retinitis\nHSV\nKaposi sarcoma\nPruritic papular eruption of HIV\nLymphoma\nMAC\nPCP pneumonia\nProgressive multifocal leukoencephalopathy\nBrain\nToxoplasmosis\nHIV\nEncephalitis\nHIV wasting syndrome\nDisseminated\nhistoplasmosis\nIsosporiasis\nRecurrent\nSalmonella\nsepticemia\nRecurrent Bacterial\nPneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrush",
+          "url": "https://wikem.org/wiki/Thrush"
+        },
+        {
+          "text": "candidia vaginitis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "CMV  Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Asymptomatic": {
+      "text": "Lasts for ~8yr\nPatients may have conditions that are more common in patients with HIV but no indicator conditions\nThrush\nPersistent\ncandidia vaginitis\nPeripheral neuropathy\nCervical dysplasia\nRecurrent\nHerpes Zoster\nITP\nUnexplained weight loss",
+      "subsections": {
+        "AIDS": {
+          "text": "Defined as HIV + (indicator condition or CD4 < 200)\nIndicator conditions:\nPulmonary\nTB\nDisseminated\nTB\nInvasive cervical cancer\nEsophageal candidiasis\nCryptococcosis\nCryptosporidiosis\nCMV  Retinitis\nHSV\nKaposi sarcoma\nPruritic papular eruption of HIV\nLymphoma\nMAC\nPCP pneumonia\nProgressive multifocal leukoencephalopathy\nBrain\nToxoplasmosis\nHIV\nEncephalitis\nHIV wasting syndrome\nDisseminated\nhistoplasmosis\nIsosporiasis\nRecurrent\nSalmonella\nsepticemia\nRecurrent Bacterial\nPneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrush",
+          "url": "https://wikem.org/wiki/Thrush"
+        },
+        {
+          "text": "candidia vaginitis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "CMV  Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "AIDS": {
+      "text": "Defined as HIV + (indicator condition or CD4 < 200)\nIndicator conditions:\nPulmonary\nTB\nDisseminated\nTB\nInvasive cervical cancer\nEsophageal candidiasis\nCryptococcosis\nCryptosporidiosis\nCMV  Retinitis\nHSV\nKaposi sarcoma\nPruritic papular eruption of HIV\nLymphoma\nMAC\nPCP pneumonia\nProgressive multifocal leukoencephalopathy\nBrain\nToxoplasmosis\nHIV\nEncephalitis\nHIV wasting syndrome\nDisseminated\nhistoplasmosis\nIsosporiasis\nRecurrent\nSalmonella\nsepticemia\nRecurrent Bacterial\nPneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "CMV  Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "MAC",
+          "url": "https://wikem.org/wiki/Mycobacterium_avium"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[4]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[4]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typical lab testing for HIV:\nScreening test: ELISA\nConfirmatory test: Western blot\nMaintain low threshold for additional testing in setting of suspicion of opportunistic infections\nCDC (2006) recommends routine HIV screening in health care settings using an opt-out approach\n[5]\nOpt-out screening: performing the test after notifying the patient it will be performed & giving them the option to decline",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "HAART": {
+          "text": "Highly Active Anti-Retroviral Therapy\nReduces progression to AIDS and transmission risk\nCDC Guidelines =  all HIV+ individuals should be started on HAART, regardless of CD4 count or viral load\n[6]\nTypical first line regimens include a reverse transcriptase inhibitor (NRTI) and an integrase inhibitor\ntenofovir/emtricitabine (Truvada)\nPLUS\nraltegravir (Isentress)\ntenofovir/emtricitabine (Truvada)\nPLUS\ndolutegravir (Tivicay)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HAART": {
+      "text": "Highly Active Anti-Retroviral Therapy\nReduces progression to AIDS and transmission risk\nCDC Guidelines =  all HIV+ individuals should be started on HAART, regardless of CD4 count or viral load\n[6]\nTypical first line regimens include a reverse transcriptase inhibitor (NRTI) and an integrase inhibitor\ntenofovir/emtricitabine (Truvada)\nPLUS\nraltegravir (Isentress)\ntenofovir/emtricitabine (Truvada)\nPLUS\ndolutegravir (Tivicay)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Suggested_Admission": {
+          "text": "New presentation of fever of unknown origin\nHypoxemia worse than baseline or PaO2 <60\nSuspected PCP\nSuspected TB\nNew CNS symptoms\nIntractable diarrhea\nSuicidal\nSuspected\nCMV retinitis\nOphthalmicus zoster\nCachexia or weakness\nUnable to care for self/receive care\nUnable to assure follow up",
+          "tables": []
+        },
+        "Suggested_Discharge": {
+          "text": "Normal or baseline vitals\nStable medical condition\nAble to tolerate PO\nAdequate follow-up\nAble to comply with discharge instructions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        }
+      ]
+    },
+    "Suggested_Admission": {
+      "text": "New presentation of fever of unknown origin\nHypoxemia worse than baseline or PaO2 <60\nSuspected PCP\nSuspected TB\nNew CNS symptoms\nIntractable diarrhea\nSuicidal\nSuspected\nCMV retinitis\nOphthalmicus zoster\nCachexia or weakness\nUnable to care for self/receive care\nUnable to assure follow up",
+      "subsections": {
+        "Suggested_Discharge": {
+          "text": "Normal or baseline vitals\nStable medical condition\nAble to tolerate PO\nAdequate follow-up\nAble to comply with discharge instructions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        }
+      ]
+    },
+    "Suggested_Discharge": {
+      "text": "Normal or baseline vitals\nStable medical condition\nAble to tolerate PO\nAdequate follow-up\nAble to comply with discharge instructions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV post-exposure prophylaxis\nImmune reconstitution inflammatory syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.cdc.gov/hiv/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

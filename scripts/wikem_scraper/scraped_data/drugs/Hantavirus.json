@@ -1,0 +1,186 @@
+{
+  "drug_name": "Hantavirus",
+  "url": "https://wikem.org/wiki/Hantavirus",
+  "scraped_at": "2026-01-10T07:54:20.170170",
+  "sections": {
+    "Background": {
+      "text": "Infection by the Sin Nombre virus can range from a nonspecific viral syndrome to the Hanta Pulmonary Syndrome (HPS), which is a severe respiratory manifestation with a high mortality rate\nVirus is transmitted by rodent urine, droppings, and saliva\nNorth American resevoir includes deer mouse, white footed mouse, and cotton rat\nMost cases of exposure US have occurred in southwest states",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation of 1-8 weeks after exposure to source\nEarly symptoms are nonspecific and includes\nfever\n, fatigue, myalgia, and\nheadache\nMay also exhibit\nabdominal pain\n,\nnausea\n,\nvomiting\n, and\ndiarrhea\nThrombocytopenia results in petechiae, ocular bleeding",
+      "subsections": {
+        "Hantavirus_Pulmonary_Syndrome_(HPS)": {
+          "text": "Develops several days later, including shortness of breath and cough which rapidly progresses to noncardiogenic pulmonary edema and respiratory failure over 24-48 hours\nHemodynamical instability may ensue in the late phase\nSymptoms that make HPS less likely includes conjunctival injection, petechiae, or rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Wegener's granulomatosis\nGoodpasture's syndrome",
+      "subsections": {
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Lower_Respiratory_Zoonotic_Infections": {
+      "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serologic test using ELISA assays are the gold standard used by the CDC\nMost patients have antiviral IgM when symptoms are present, IgG may also be positive later on",
+      "subsections": {
+        "Labs_and_Imaging": {
+          "text": "Earliest lab abnormalities includes a decline in platelet count\nMay also see an elevation in LDH, LFTs, and lactate later\nIn HPS, the chest x-ray shows diffuse bilateral interstitial edema that may resemble\nARDS\nDecrease in albumin along with increases in H/H marks is a markeer of capillary leak in HPS\nThe diagnostic triad in HPS includes thrombocytopenia, left shifted granulocytes, and immunoblast >10% of total lympoid series",
+          "tables": []
+        },
+        "LA_County_Guidelines_(for_Yosemite_outbreak)": {
+          "text": "Physicians with Patients Presenting with Concerns or Symptoms of Hantavirus Pulmonary Syndrome (HPS) after Visit to Yosemite National Park, June through August 2012.\nIf a patient presents with concerns or non-specific symptoms well after 6 weeks from their stay in Yosemite, the patient most likely does not have hantavirus infection and testing for hantavirus infection is not indicated.\nIf a patient presents with non-specific symptoms within 6 weeks of their stay in Yosemite and hantavirus infection is not suspected, the patient should be followed as clinically indicated, but testing for hantavirus infection is not indicated.\nIf a patient presents with fever and mild symptoms suspicious for early hantavirus infection within 6 weeks of their stay in Yosemite, then a complete blood count (CBC) and chemistry panel should be done at baseline and hantavirus serology should be requested.\nIf a patient presents with fever, shortness of breath, and other symptoms suggestive of HPS within 6 weeks of their stay in Yosemite, or if the patient in #3 above progresses to having symptoms and laboratory results suggestive of HPS, the patient should be transferred to a hospital emergency department for full evaluation.\nIn California, hantavirus infections are reportable. Suspect cases in LA County should be reported to Acute Communicable Disease Control immediately so that we may assist with diagnostic testing.\nCall 213-240-7941 (business hours) or 213-974-1234 (after hours) to speak to the duty physician.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Labs_and_Imaging": {
+      "text": "Earliest lab abnormalities includes a decline in platelet count\nMay also see an elevation in LDH, LFTs, and lactate later\nIn HPS, the chest x-ray shows diffuse bilateral interstitial edema that may resemble\nARDS\nDecrease in albumin along with increases in H/H marks is a markeer of capillary leak in HPS\nThe diagnostic triad in HPS includes thrombocytopenia, left shifted granulocytes, and immunoblast >10% of total lympoid series",
+      "subsections": {
+        "LA_County_Guidelines_(for_Yosemite_outbreak)": {
+          "text": "Physicians with Patients Presenting with Concerns or Symptoms of Hantavirus Pulmonary Syndrome (HPS) after Visit to Yosemite National Park, June through August 2012.\nIf a patient presents with concerns or non-specific symptoms well after 6 weeks from their stay in Yosemite, the patient most likely does not have hantavirus infection and testing for hantavirus infection is not indicated.\nIf a patient presents with non-specific symptoms within 6 weeks of their stay in Yosemite and hantavirus infection is not suspected, the patient should be followed as clinically indicated, but testing for hantavirus infection is not indicated.\nIf a patient presents with fever and mild symptoms suspicious for early hantavirus infection within 6 weeks of their stay in Yosemite, then a complete blood count (CBC) and chemistry panel should be done at baseline and hantavirus serology should be requested.\nIf a patient presents with fever, shortness of breath, and other symptoms suggestive of HPS within 6 weeks of their stay in Yosemite, or if the patient in #3 above progresses to having symptoms and laboratory results suggestive of HPS, the patient should be transferred to a hospital emergency department for full evaluation.\nIn California, hantavirus infections are reportable. Suspect cases in LA County should be reported to Acute Communicable Disease Control immediately so that we may assist with diagnostic testing.\nCall 213-240-7941 (business hours) or 213-974-1234 (after hours) to speak to the duty physician.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care is the main form of treatment\nAggressive respiratory support including early intubation and mechanical ventilation for HPS\nHemodynamic support with early vasopressor administration\nConsider ECMO for refractory cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "https://www.cdc.gov/hantavirus/index.html\nhttp://www.cdph.ca.gov/HealthInfo/discond/Documents/HANTAGuidanceForClinicians9-12.pdf\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

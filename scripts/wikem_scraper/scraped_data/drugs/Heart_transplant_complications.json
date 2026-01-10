@@ -1,0 +1,630 @@
+{
+  "drug_name": "Heart_transplant_complications",
+  "url": "https://wikem.org/wiki/Heart_transplant_complications",
+  "scraped_at": "2026-01-10T07:54:21.270265",
+  "sections": {
+    "Background": {
+      "text": "Indications: end-stage\nheart failure\nrefractory to standard medical/surgical treatment\nTransplanted heart is denervated\nResting rate between 90-100 bpm\nResponse to exertion/stress is blunted by lack of central mediated tachycardia, though can still respond to circulating catecholamines\nUpregulation of catecholamine receptors\nAtropine\nis ineffective (no Vagal nerve tone)",
+      "subsections": {
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Immunosuppressant_Medications": {
+      "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Rejection": {
+          "text": "Patients monitored with surveillance biopsies regularly\nSpectrum of presentations, anywhere asymptomatic to in extremis\nFeatures include\ndysrhythmias\n, decreased exercise tolerance, and\ninfection\nmay be clues",
+          "tables": []
+        },
+        "Infection": {
+          "text": "Increased risk of opportunistic/severe\ninfections\nFever\nand other classic features may be absent due to immunosuppression",
+          "tables": []
+        },
+        "Signs/Symptoms_of_Congestive_Heart_Failure": {
+          "text": "Due to various etiologies\nMI\nmay present only with CHF symptoms",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\nMycophenolate\nCytopenias,\nGI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis",
+          "tables": []
+        },
+        "Myocardial_ischemia/CAD": {
+          "text": "Pediatric recipients in particular at risk for graft CAD\nDue to denervation, transplant patients with ’’’NOT’’’ have pain with\nACS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "GI distress",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Rejection": {
+      "text": "Patients monitored with surveillance biopsies regularly\nSpectrum of presentations, anywhere asymptomatic to in extremis\nFeatures include\ndysrhythmias\n, decreased exercise tolerance, and\ninfection\nmay be clues",
+      "subsections": {
+        "Infection": {
+          "text": "Increased risk of opportunistic/severe\ninfections\nFever\nand other classic features may be absent due to immunosuppression",
+          "tables": []
+        },
+        "Signs/Symptoms_of_Congestive_Heart_Failure": {
+          "text": "Due to various etiologies\nMI\nmay present only with CHF symptoms",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\nMycophenolate\nCytopenias,\nGI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis",
+          "tables": []
+        },
+        "Myocardial_ischemia/CAD": {
+          "text": "Pediatric recipients in particular at risk for graft CAD\nDue to denervation, transplant patients with ’’’NOT’’’ have pain with\nACS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "GI distress",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Infection": {
+      "text": "Increased risk of opportunistic/severe\ninfections\nFever\nand other classic features may be absent due to immunosuppression",
+      "subsections": {
+        "Signs/Symptoms_of_Congestive_Heart_Failure": {
+          "text": "Due to various etiologies\nMI\nmay present only with CHF symptoms",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\nMycophenolate\nCytopenias,\nGI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis",
+          "tables": []
+        },
+        "Myocardial_ischemia/CAD": {
+          "text": "Pediatric recipients in particular at risk for graft CAD\nDue to denervation, transplant patients with ’’’NOT’’’ have pain with\nACS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "GI distress",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Signs/Symptoms_of_Congestive_Heart_Failure": {
+      "text": "Due to various etiologies\nMI\nmay present only with CHF symptoms",
+      "subsections": {
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\nMycophenolate\nCytopenias,\nGI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis",
+          "tables": []
+        },
+        "Myocardial_ischemia/CAD": {
+          "text": "Pediatric recipients in particular at risk for graft CAD\nDue to denervation, transplant patients with ’’’NOT’’’ have pain with\nACS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "GI distress",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Medication_Adverse_Effects": {
+      "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\nMycophenolate\nCytopenias,\nGI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis",
+      "subsections": {
+        "Myocardial_ischemia/CAD": {
+          "text": "Pediatric recipients in particular at risk for graft CAD\nDue to denervation, transplant patients with ’’’NOT’’’ have pain with\nACS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "GI distress",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Myocardial_ischemia/CAD": {
+      "text": "Pediatric recipients in particular at risk for graft CAD\nDue to denervation, transplant patients with ’’’NOT’’’ have pain with\nACS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Workup dependent on presentation, considerations include:\nCBC, BMP, Mg/Phos\nLow threshold for infectious workup, including viral/fungal studies\nTacrolimus, cyclosporine levels\nECG\nPatient’s native sinus node often preserved\n→ two P waves on ECG\ndonor P wave will be in 1:1 relationship with QRS, native P wave has independent rhythm\nCXR\nMay have relative \"cardiomegaly\" if donor was much larger than recipient\nCT Chest\nMay be required to diagnose PE, hypoxemia, pneumonia\nEchocardiography\nConsider if signs/symptoms of heart failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management_Considerations": {
+      "text": "Consult/discuss with transplant team\nRejection\nDiagnosed by biopsy\nDo not treat if stable, as steroids will muddy biopsy results\nMethylprednisolone\n1g IV if in extremis\nDysrhythmias\nBradycardia\nwill ‘’’NOT’’’ respond to atropine due to denervation\ntransplant patients with symptomatic bradycardia may respond to isoproterenol 1 μg/min, titrated slowly to max 4 μg/min\nTransplant patients may be overly sensitive to adverse effects from\nadenosine\nSinus node dysfunction usually requires pacemaker placement\nSee\nImmunocompromised antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Transplant complications\nNeutropenic fever\nImmunocompromised antibiotics\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

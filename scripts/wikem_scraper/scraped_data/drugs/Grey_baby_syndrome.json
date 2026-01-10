@@ -1,0 +1,227 @@
+{
+  "drug_name": "Grey_baby_syndrome",
+  "url": "https://wikem.org/wiki/Grey_baby_syndrome",
+  "scraped_at": "2026-01-10T07:54:04.288514",
+  "sections": {
+    "Background": {
+      "text": "A side effect of\nchloramphenicol\naffecting newborns of mothers who have been exposed to the drug\nThought to be related to insufficient ability of the newborn's liver to metabolize the drug, as well as insufficient renal excretion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms usually occur within 1 week of exposure and include:\nAshen gray color of the skin\nFailure to thrive\nPoor appetite\nVomiting\nHypotension\nHypothermia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Failure to thrive",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess for alternate diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stop\nchloramphenicol\nexposure\nExchange transfusion\nSometimes\nphenobarbital\nused for UGT induction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "drug_name": "Graft-vs-host_disease",
+  "url": "https://wikem.org/wiki/Graft-vs-host_disease",
+  "scraped_at": "2026-01-10T07:54:05.680265",
+  "sections": {
+    "Background": {
+      "text": "Acute vs Chronic\nAcute: 1-12 weeks post graft (<100 days)\nChronic: >12 weeks\nTransplanted graft with immunologically competent cells stimulated by host antigens and host is incapable of mounting an effective immunologic response\nOccurs in leukemia/lymphoma or immunocompromised\nMost commonly post HSCT:\nHematopoietic stem cell transplant\nRare in solid organ transplant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematopoietic stem cell transplant",
+          "url": "https://wikem.org/wiki/Hematopoietic_stem_cell_transplant"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nonspecific\nrash\nMucositis\nFever\nDiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        },
+        "Types_of_Transplant_complications": {
+          "text": "Immediate (0-1 week)\nAcute Tubular Necrosis\nMay be post-ischemic, commonly effecting both the proximal tubules and the thick ascending limb. Or it may be immunosupresive drug induced and only effect the proximal tubules.  Granular \"muddy brown asts\" seen on urinalysis result from death and sloughing of tubular cells.\nAntibody mediated rejection\nResults from donor specific antibodies including as ABO isoagglutinins.\nUsually results in graft loss within 24 hours.\nEmbolization and Thrombosis\nMay arise with or without rejection\nMay result from hypotension, anastomotic stenosis, arterial dissection, kinking of transplanted artery, or angulation of the vein\nCalcium Oxalate deposition\nDelayed graft function\nThis is defined as renal failure persisting after transplantation necessitating dialysis.  It my be due to post-ischemic acute tubular necrosis, volume depletion, or volume depletion.\nUrinary bladder dysfunction\nThis complication is especially common in diabetics and may cause hydronephrosis\nEarly (1-12 weeks)\nAcute rejection\nAntibodies against donor kidney develop after transplant\nDense interstitial lymphocytic infiltrate\nPrevent/reverse with immunosuppressants\nImmunosuppressive Cytotoxicity\nUsually caused by calcineurin inhibitor toxicity\nReverse by decrease dosage of immunosuppressants\nInfection\nMost commonly polyoma (BK virus) or cytomegalovirus (CMV)\nPolyoma virus is treated with intravenous immunoglobulins\nCMV is treated with antivirals medications\nRecurrence of primary disease\nLate Acute (greater than 3 months)\nHypertension\nHypertension is common in ESRD/CKD patients and often worsens after transplant\nCan result in decreased allograft survival\nRenal artery stenosis\nImportant to identify because is a correctible cause of post-transplant hypertension\nAcute Rejection\nSame as above\nImmunosuppressive cytotoxicity\nSame as above\nLate Chronic (years later)\nChronic allograft nephropathy\nIrreversible T-cell and antibody mediated damage\nCauses vascular fibrosis\nImmunosuppressive cytotoxicity\nSame as above",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Transfusion_Reaction_Types": {
+      "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+      "subsections": {
+        "Types_of_Transplant_complications": {
+          "text": "Immediate (0-1 week)\nAcute Tubular Necrosis\nMay be post-ischemic, commonly effecting both the proximal tubules and the thick ascending limb. Or it may be immunosupresive drug induced and only effect the proximal tubules.  Granular \"muddy brown asts\" seen on urinalysis result from death and sloughing of tubular cells.\nAntibody mediated rejection\nResults from donor specific antibodies including as ABO isoagglutinins.\nUsually results in graft loss within 24 hours.\nEmbolization and Thrombosis\nMay arise with or without rejection\nMay result from hypotension, anastomotic stenosis, arterial dissection, kinking of transplanted artery, or angulation of the vein\nCalcium Oxalate deposition\nDelayed graft function\nThis is defined as renal failure persisting after transplantation necessitating dialysis.  It my be due to post-ischemic acute tubular necrosis, volume depletion, or volume depletion.\nUrinary bladder dysfunction\nThis complication is especially common in diabetics and may cause hydronephrosis\nEarly (1-12 weeks)\nAcute rejection\nAntibodies against donor kidney develop after transplant\nDense interstitial lymphocytic infiltrate\nPrevent/reverse with immunosuppressants\nImmunosuppressive Cytotoxicity\nUsually caused by calcineurin inhibitor toxicity\nReverse by decrease dosage of immunosuppressants\nInfection\nMost commonly polyoma (BK virus) or cytomegalovirus (CMV)\nPolyoma virus is treated with intravenous immunoglobulins\nCMV is treated with antivirals medications\nRecurrence of primary disease\nLate Acute (greater than 3 months)\nHypertension\nHypertension is common in ESRD/CKD patients and often worsens after transplant\nCan result in decreased allograft survival\nRenal artery stenosis\nImportant to identify because is a correctible cause of post-transplant hypertension\nAcute Rejection\nSame as above\nImmunosuppressive cytotoxicity\nSame as above\nLate Chronic (years later)\nChronic allograft nephropathy\nIrreversible T-cell and antibody mediated damage\nCauses vascular fibrosis\nImmunosuppressive cytotoxicity\nSame as above",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Types_of_Transplant_complications": {
+      "text": "Immediate (0-1 week)\nAcute Tubular Necrosis\nMay be post-ischemic, commonly effecting both the proximal tubules and the thick ascending limb. Or it may be immunosupresive drug induced and only effect the proximal tubules.  Granular \"muddy brown asts\" seen on urinalysis result from death and sloughing of tubular cells.\nAntibody mediated rejection\nResults from donor specific antibodies including as ABO isoagglutinins.\nUsually results in graft loss within 24 hours.\nEmbolization and Thrombosis\nMay arise with or without rejection\nMay result from hypotension, anastomotic stenosis, arterial dissection, kinking of transplanted artery, or angulation of the vein\nCalcium Oxalate deposition\nDelayed graft function\nThis is defined as renal failure persisting after transplantation necessitating dialysis.  It my be due to post-ischemic acute tubular necrosis, volume depletion, or volume depletion.\nUrinary bladder dysfunction\nThis complication is especially common in diabetics and may cause hydronephrosis\nEarly (1-12 weeks)\nAcute rejection\nAntibodies against donor kidney develop after transplant\nDense interstitial lymphocytic infiltrate\nPrevent/reverse with immunosuppressants\nImmunosuppressive Cytotoxicity\nUsually caused by calcineurin inhibitor toxicity\nReverse by decrease dosage of immunosuppressants\nInfection\nMost commonly polyoma (BK virus) or cytomegalovirus (CMV)\nPolyoma virus is treated with intravenous immunoglobulins\nCMV is treated with antivirals medications\nRecurrence of primary disease\nLate Acute (greater than 3 months)\nHypertension\nHypertension is common in ESRD/CKD patients and often worsens after transplant\nCan result in decreased allograft survival\nRenal artery stenosis\nImportant to identify because is a correctible cause of post-transplant hypertension\nAcute Rejection\nSame as above\nImmunosuppressive cytotoxicity\nSame as above\nLate Chronic (years later)\nChronic allograft nephropathy\nIrreversible T-cell and antibody mediated damage\nCauses vascular fibrosis\nImmunosuppressive cytotoxicity\nSame as above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "LFT\nabnormalities\nPancytopenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFT",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Glucocorticoids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications\nTransfusions\nAcute transfusion reaction\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Acute transfusion reaction",
+          "url": "https://wikem.org/wiki/Acute_transfusion_reaction"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "drug_name": "Hazmat_exposure",
+  "url": "https://wikem.org/wiki/Hazmat_exposure",
+  "scraped_at": "2026-01-10T07:54:20.305224",
+  "sections": {
+    "Background": {
+      "text": "Definition - exposure to hazardous materials causing local/systemic toxicity",
+      "subsections": {
+        "Types_of_Injury": {
+          "text": "Acids\nCause coagulation necrosis which causes an eschar which often limits damage to deeper tissue\nAlkalis\nCause liquefaction necrosis that penetrates into deeper tissue\nOther mechanisms: oxidation, protein denaturation, cellular dehydration, local ischemia",
+          "tables": []
+        },
+        "Resources": {
+          "text": "Resources to determine what is in the offending agent:\nPoison control (800 222-1222)\nMaterial Safety Data Sheet (MSDS)\nDetermines need for decon\nChemical Transportation Emergency Center (Chemtrec) Emergency Telephone Number: (800) 424-9300\nInterntational and Maritime Telephone Number (collect calls accetped): +1 (703) 527-3887\nTOXNET",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types_of_Injury": {
+      "text": "Acids\nCause coagulation necrosis which causes an eschar which often limits damage to deeper tissue\nAlkalis\nCause liquefaction necrosis that penetrates into deeper tissue\nOther mechanisms: oxidation, protein denaturation, cellular dehydration, local ischemia",
+      "subsections": {
+        "Resources": {
+          "text": "Resources to determine what is in the offending agent:\nPoison control (800 222-1222)\nMaterial Safety Data Sheet (MSDS)\nDetermines need for decon\nChemical Transportation Emergency Center (Chemtrec) Emergency Telephone Number: (800) 424-9300\nInterntational and Maritime Telephone Number (collect calls accetped): +1 (703) 527-3887\nTOXNET",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Resources": {
+      "text": "Resources to determine what is in the offending agent:\nPoison control (800 222-1222)\nMaterial Safety Data Sheet (MSDS)\nDetermines need for decon\nChemical Transportation Emergency Center (Chemtrec) Emergency Telephone Number: (800) 424-9300\nInterntational and Maritime Telephone Number (collect calls accetped): +1 (703) 527-3887\nTOXNET",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Route/duration of exposure\nOften exposure in household, industry, agriculture, or terrorism\nIdentifying the chemical is paramount",
+          "tables": []
+        },
+        "Exam": {
+          "text": "Skin\nOften appears deceptively normal initially\nLook for visible remaining liquid/powder on skin\nMembranes\nPotential for airway compromise\nInspect eyes/nasopharynx/cornea if indicated\nPulm\nBronchospam/cough/pulmonary edema/cough\nSystemic sigs\naltered mental status, seizures, tachy/brady dysrhythmias, hypo/hyper-tensive, GI sx, electrolyte abnormalitiyes, carboxyhemoglobinemia/methemoglobinemia, cyanide tox, toxidromic constellation of signs (e.g. cholinergic)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Route/duration of exposure\nOften exposure in household, industry, agriculture, or terrorism\nIdentifying the chemical is paramount",
+      "subsections": {
+        "Exam": {
+          "text": "Skin\nOften appears deceptively normal initially\nLook for visible remaining liquid/powder on skin\nMembranes\nPotential for airway compromise\nInspect eyes/nasopharynx/cornea if indicated\nPulm\nBronchospam/cough/pulmonary edema/cough\nSystemic sigs\naltered mental status, seizures, tachy/brady dysrhythmias, hypo/hyper-tensive, GI sx, electrolyte abnormalitiyes, carboxyhemoglobinemia/methemoglobinemia, cyanide tox, toxidromic constellation of signs (e.g. cholinergic)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exam": {
+      "text": "Skin\nOften appears deceptively normal initially\nLook for visible remaining liquid/powder on skin\nMembranes\nPotential for airway compromise\nInspect eyes/nasopharynx/cornea if indicated\nPulm\nBronchospam/cough/pulmonary edema/cough\nSystemic sigs\naltered mental status, seizures, tachy/brady dysrhythmias, hypo/hyper-tensive, GI sx, electrolyte abnormalitiyes, carboxyhemoglobinemia/methemoglobinemia, cyanide tox, toxidromic constellation of signs (e.g. cholinergic)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Work up based on chemical culprit\nPOC glucose\nBMP\nCalcium\nMagnesium\nPhosphorus\nLFTs\nVBG - concern for metabolic acidosis, carboxyhemoglobinemias, methemoglobinemias\nCXR\n- concern for pulmonary edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Logistics": {
+          "text": "Establish Hazmat Plan\nAffected patients need to stay in designated hot zones until decontaminated (staff can be injured secondary contamination inhalation of volatile gases)\nPatients may arrive by EMS, private vehicle, walk ins\nEstablish security perimeter to enforce hot zone\nProtect yourself and staff\nPersonal chemical protective equipment:\nLevel A: Positive-pressure self-contained breathing apparatus (SCBA), fully encapsulated chemical-resistant suit, double chemical-resistant gloves, chemical-resistant boots, and airtight seals between suit, gloves, boots\nLevel B: SCBA, nonencapsulated chemical suit, double gloves, boots\nLevel C: Air-purification device, suit, gloves, boots\nLevel D: Common work clothes",
+          "tables": []
+        },
+        "Decontamination": {
+          "text": "Prehospital/In decon areas:\nHydrotherapy - irrigate skin and ocular burns immediately and continuously (>15 min)\nContraindicated only for elemental metals (Na, K)\nCan allow patient to wash themselves if limited staff with protective gear\nDispose of all clothes/bandages/IVs",
+          "tables": []
+        },
+        "Management_2": {
+          "text": "Aggressive supportive care,\nanalgesia\nAntidotes\nif available\nPulmonary involvement\nO2\n,\nalbuterol\n,\nintubate",
+          "tables": []
+        },
+        "Specific_Conditions": {
+          "text": "Chemical burns\nStrong alkali, needs irrigation for hours\nIVF 3cc/kg/\nTBSA\n, 1/2 given in first 8 hours\nHydrofluoric acid\nburn\nCalcium gluconate via topic gel (10ml 10% sol'n applied topically), SC, or intra-arterial\nIV calcium gluconate and magnesium for systemic toxicity\nPhenol burns\nPolyethylene glycol 300 +/- isopropyl alcohol to remove phenol from skin\nNitrites\nConcern for\nMethemoglobinemia\nTreat levels >30% with HF O2 and IV methylene  blue (1-2mg/kg slow IV, not recommended for <6 y/o, >6 y/o 1mg/kg IV/IM)\nCyanide\nHydroxocobalamin\n(5mg IV /5 min, repeat once)\nElemental metals (Na or K)\nWater is contraindicated\nCover with oil under substance can be debrided from skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Logistics": {
+      "text": "Establish Hazmat Plan\nAffected patients need to stay in designated hot zones until decontaminated (staff can be injured secondary contamination inhalation of volatile gases)\nPatients may arrive by EMS, private vehicle, walk ins\nEstablish security perimeter to enforce hot zone\nProtect yourself and staff\nPersonal chemical protective equipment:\nLevel A: Positive-pressure self-contained breathing apparatus (SCBA), fully encapsulated chemical-resistant suit, double chemical-resistant gloves, chemical-resistant boots, and airtight seals between suit, gloves, boots\nLevel B: SCBA, nonencapsulated chemical suit, double gloves, boots\nLevel C: Air-purification device, suit, gloves, boots\nLevel D: Common work clothes",
+      "subsections": {
+        "Decontamination": {
+          "text": "Prehospital/In decon areas:\nHydrotherapy - irrigate skin and ocular burns immediately and continuously (>15 min)\nContraindicated only for elemental metals (Na, K)\nCan allow patient to wash themselves if limited staff with protective gear\nDispose of all clothes/bandages/IVs",
+          "tables": []
+        },
+        "Management_2": {
+          "text": "Aggressive supportive care,\nanalgesia\nAntidotes\nif available\nPulmonary involvement\nO2\n,\nalbuterol\n,\nintubate",
+          "tables": []
+        },
+        "Specific_Conditions": {
+          "text": "Chemical burns\nStrong alkali, needs irrigation for hours\nIVF 3cc/kg/\nTBSA\n, 1/2 given in first 8 hours\nHydrofluoric acid\nburn\nCalcium gluconate via topic gel (10ml 10% sol'n applied topically), SC, or intra-arterial\nIV calcium gluconate and magnesium for systemic toxicity\nPhenol burns\nPolyethylene glycol 300 +/- isopropyl alcohol to remove phenol from skin\nNitrites\nConcern for\nMethemoglobinemia\nTreat levels >30% with HF O2 and IV methylene  blue (1-2mg/kg slow IV, not recommended for <6 y/o, >6 y/o 1mg/kg IV/IM)\nCyanide\nHydroxocobalamin\n(5mg IV /5 min, repeat once)\nElemental metals (Na or K)\nWater is contraindicated\nCover with oil under substance can be debrided from skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Decontamination": {
+      "text": "Prehospital/In decon areas:\nHydrotherapy - irrigate skin and ocular burns immediately and continuously (>15 min)\nContraindicated only for elemental metals (Na, K)\nCan allow patient to wash themselves if limited staff with protective gear\nDispose of all clothes/bandages/IVs",
+      "subsections": {
+        "Management_2": {
+          "text": "Aggressive supportive care,\nanalgesia\nAntidotes\nif available\nPulmonary involvement\nO2\n,\nalbuterol\n,\nintubate",
+          "tables": []
+        },
+        "Specific_Conditions": {
+          "text": "Chemical burns\nStrong alkali, needs irrigation for hours\nIVF 3cc/kg/\nTBSA\n, 1/2 given in first 8 hours\nHydrofluoric acid\nburn\nCalcium gluconate via topic gel (10ml 10% sol'n applied topically), SC, or intra-arterial\nIV calcium gluconate and magnesium for systemic toxicity\nPhenol burns\nPolyethylene glycol 300 +/- isopropyl alcohol to remove phenol from skin\nNitrites\nConcern for\nMethemoglobinemia\nTreat levels >30% with HF O2 and IV methylene  blue (1-2mg/kg slow IV, not recommended for <6 y/o, >6 y/o 1mg/kg IV/IM)\nCyanide\nHydroxocobalamin\n(5mg IV /5 min, repeat once)\nElemental metals (Na or K)\nWater is contraindicated\nCover with oil under substance can be debrided from skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Management_2": {
+      "text": "Aggressive supportive care,\nanalgesia\nAntidotes\nif available\nPulmonary involvement\nO2\n,\nalbuterol\n,\nintubate",
+      "subsections": {
+        "Specific_Conditions": {
+          "text": "Chemical burns\nStrong alkali, needs irrigation for hours\nIVF 3cc/kg/\nTBSA\n, 1/2 given in first 8 hours\nHydrofluoric acid\nburn\nCalcium gluconate via topic gel (10ml 10% sol'n applied topically), SC, or intra-arterial\nIV calcium gluconate and magnesium for systemic toxicity\nPhenol burns\nPolyethylene glycol 300 +/- isopropyl alcohol to remove phenol from skin\nNitrites\nConcern for\nMethemoglobinemia\nTreat levels >30% with HF O2 and IV methylene  blue (1-2mg/kg slow IV, not recommended for <6 y/o, >6 y/o 1mg/kg IV/IM)\nCyanide\nHydroxocobalamin\n(5mg IV /5 min, repeat once)\nElemental metals (Na or K)\nWater is contraindicated\nCover with oil under substance can be debrided from skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Specific_Conditions": {
+      "text": "Chemical burns\nStrong alkali, needs irrigation for hours\nIVF 3cc/kg/\nTBSA\n, 1/2 given in first 8 hours\nHydrofluoric acid\nburn\nCalcium gluconate via topic gel (10ml 10% sol'n applied topically), SC, or intra-arterial\nIV calcium gluconate and magnesium for systemic toxicity\nPhenol burns\nPolyethylene glycol 300 +/- isopropyl alcohol to remove phenol from skin\nNitrites\nConcern for\nMethemoglobinemia\nTreat levels >30% with HF O2 and IV methylene  blue (1-2mg/kg slow IV, not recommended for <6 y/o, >6 y/o 1mg/kg IV/IM)\nCyanide\nHydroxocobalamin\n(5mg IV /5 min, repeat once)\nElemental metals (Na or K)\nWater is contraindicated\nCover with oil under substance can be debrided from skin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Transfer to burn center if criteria met\nAdmit if systemic symptoms or airway concern\nConsider discharge of patients in consultation with poison control and/or after period of observation as needed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfer to burn center if criteria met",
+          "url": "https://wikem.org/wiki/Burn_center_criteria"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Caustic burns\nToxicology (Main)\nWeapon of mass destruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Weapon of mass destruction",
+          "url": "https://wikem.org/wiki/Weapon_of_mass_destruction"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Material Safety Data Sheet (MSDS)\nTOXNET",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

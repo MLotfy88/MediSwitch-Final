@@ -1,0 +1,285 @@
+{
+  "drug_name": "HAART-induced_lactic_acidosis",
+  "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis",
+  "scraped_at": "2026-01-10T07:54:06.832137",
+  "sections": {
+    "Background": {
+      "text": "Nucleoside Reverse Transcriptase Inhibitors are associated with hyperlactemia and lactic acidosis\nNRTI also cause pancreatitis, myopathy, peripheral neuropathy, anemia, neutropenia, hepatic toxicity\n[1]\nSpecifically didanosine (ddI) and stavudine (d4T)\nThese medicines are no longer first-line agents in the US and Europe, but are in low-middle income countries\nAdverse effects of NRTI is by way of mitochondrial toxicity.\nNRTI inhibit human DNA polymerase gamma, a key enzyme for mitochondrial replication.\nImpaired electron transport chain, leading to leakage of electrons and increased production of reactive oxygen species.\n[2]\nVariable onset of mitochondrial toxicity, and not at any set point in NRTI use.\n[2]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Use of stavudine and didanosine containing regimens\nCD4 count <200\n[3]\nAdditional studies cite a CD4 count less than 500 as a risk factor.\n[4]\nFemale 2.5x male\n[3]\nPlasma Triglycerides >2.2mmol/L\nAge, as the risk of hyperlactemia increases 50% with every 10 years of aging\nLipodystrophy and lipoatrophy\nAssociated with dyslipidemia and insulin resistance\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Use of stavudine and didanosine containing regimens\nCD4 count <200\n[3]\nAdditional studies cite a CD4 count less than 500 as a risk factor.\n[4]\nFemale 2.5x male\n[3]\nPlasma Triglycerides >2.2mmol/L\nAge, as the risk of hyperlactemia increases 50% with every 10 years of aging\nLipodystrophy and lipoatrophy\nAssociated with dyslipidemia and insulin resistance\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fatigue, malaise\nNausea and or vomiting\nUnexplained mental status changes\nNeurologic Deficits, seizures\nDysrhythmias\nHeart failure\nWeight gain/weight loss\nTachypnea, dyspnea\nRenal abnormalities\nSince the symptoms are non-specific, most patients present with advanced symptoms and the more serious lactic acidosis.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Sepsis\nIschemia",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[6]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[6]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Creatinine clearance, as renal failure is a significant risk factor for the development of lactic acidosis from hyperlactemia. .\n[7]\nCBC\nLiver Function Test, as hepatic dysfunction precludes oxidation of lactate, thus resulting in elevated lactate levels in the blood\nElectrolytes\nUrinalysis\nLactic Acid level\nABG\nLipase\nCPK",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Sodium bicarb (judicious doses\n[8]\n)\nCessation of offending drug\nNormal saline\nAnecdotal evidence to support Riboflavin (50mg/day), and/or thiamine (100mg BID)\n[8]\nStop all anti-retrovirals until lactate normalization\n[2]",
+          "tables": []
+        },
+        "Non_Emergent": {
+          "text": "Consider antioixidant supplementation to reduce oxidative stress and hyperlactemia\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Emergent": {
+      "text": "Sodium bicarb (judicious doses\n[8]\n)\nCessation of offending drug\nNormal saline\nAnecdotal evidence to support Riboflavin (50mg/day), and/or thiamine (100mg BID)\n[8]\nStop all anti-retrovirals until lactate normalization\n[2]",
+      "subsections": {
+        "Non_Emergent": {
+          "text": "Consider antioixidant supplementation to reduce oxidative stress and hyperlactemia\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non_Emergent": {
+      "text": "Consider antioixidant supplementation to reduce oxidative stress and hyperlactemia\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Lactic acidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    }
+  }
+}

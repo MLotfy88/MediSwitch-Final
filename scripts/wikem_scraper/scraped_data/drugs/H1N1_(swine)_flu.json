@@ -1,0 +1,97 @@
+{
+  "drug_name": "H1N1_(swine)_flu",
+  "url": "https://wikem.org/wiki/H1N1_(swine)_flu",
+  "scraped_at": "2026-01-10T07:54:08.704047",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "High-risk_groups": {
+          "text": "Pregnant- increased rates of SAB, preterm labor\nChronic lung disease\nImmunosuppressed\nCardiac\nDiabetes mellitus",
+          "tables": []
+        },
+        "Screening": {
+          "text": "Individuals with an acute febrile respiratory illness (a measured temperature of 100ºF or higher and recent onset of at least one of the following: rhinorrhea, nasal congestion, sore throat, or cough) or sepsis-like syndrome.\nHIGH PRIORITY for hospitalized patients and those at high-risk for severe disease.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "High-risk_groups": {
+      "text": "Pregnant- increased rates of SAB, preterm labor\nChronic lung disease\nImmunosuppressed\nCardiac\nDiabetes mellitus",
+      "subsections": {
+        "Screening": {
+          "text": "Individuals with an acute febrile respiratory illness (a measured temperature of 100ºF or higher and recent onset of at least one of the following: rhinorrhea, nasal congestion, sore throat, or cough) or sepsis-like syndrome.\nHIGH PRIORITY for hospitalized patients and those at high-risk for severe disease.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Screening": {
+      "text": "Individuals with an acute febrile respiratory illness (a measured temperature of 100ºF or higher and recent onset of at least one of the following: rhinorrhea, nasal congestion, sore throat, or cough) or sepsis-like syndrome.\nHIGH PRIORITY for hospitalized patients and those at high-risk for severe disease.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Rapid Flu nasal swab 60-80% sensitive in detecting influenza A\nIf patient is negative, severely ill and will be hospitalized, send viral culture\nPCR is the recommended confirmatory test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Adult:\nTamiflu\n75-mg capsule twice per day for 5 days\nAll hospitalized patients with confirmed, probable or suspected novel influenza (H1N1)\nPatients who are at higher risk for seasonal influenza complications\nMost effective when started within 48 hours of illness onset.",
+      "subsections": {
+        "Post-exposure_chemoprophylaxis": {
+          "text": "Tamiflu\n75mg PO daily x 10 days (10 days after the last known exposure to novel (H1N1) influenza)\nIf the contact occurred with a patient after 7 days of symptom onset, then chemoprophylaxis is not necessary. This is the presumed post-infectious period.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tamiflu",
+          "url": "https://wikem.org/wiki/Tamiflu"
+        },
+        {
+          "text": "Tamiflu",
+          "url": "https://wikem.org/wiki/Tamiflu"
+        }
+      ]
+    },
+    "Post-exposure_chemoprophylaxis": {
+      "text": "Tamiflu\n75mg PO daily x 10 days (10 days after the last known exposure to novel (H1N1) influenza)\nIf the contact occurred with a patient after 7 days of symptom onset, then chemoprophylaxis is not necessary. This is the presumed post-infectious period.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tamiflu",
+          "url": "https://wikem.org/wiki/Tamiflu"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Influenza",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    }
+  }
+}

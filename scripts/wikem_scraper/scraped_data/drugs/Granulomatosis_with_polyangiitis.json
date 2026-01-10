@@ -1,0 +1,421 @@
+{
+  "drug_name": "Granulomatosis_with_polyangiitis",
+  "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis",
+  "scraped_at": "2026-01-10T07:54:07.095104",
+  "sections": {
+    "Background": {
+      "text": "Formerly known as\nWegener's granulomatosis\nc-ANCA associated systemic necrotizing\nvasculitis\nSmall- and medium-sized blood vessels\nPredilection for upper and lower respiratory tracts and kidneys",
+      "subsections": {
+        "Vasculitis_Syndrome_Types": {
+          "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Vasculitis_Syndrome_Types": {
+      "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Upper respiratory, pulmonary and renal disease + constitutional symptoms\nWhite, older patients\nConstitutional symptoms:\nFever\n, malaise, weight loss\nUpper airway: Serous\notitis media\n,\nhearing loss\n,\nsinusitis\n, nasal mucosal ulcerations, septal perforation,\nepistaxis\n, laryngotracheal disease\nSubglottic stenosis\nis most common laryngotracheal lesion (16% patients)\nLower respiratory:\nCough\n,\ndyspnea\n, pleuritis,\nhemoptysis\n,\ndiffuse alveolar hemorrhage\nRenal failure\n,\nglomerulonephritis\nOphthalmologic:\nscleritis\n,\nepiscleritis\n,\nuveitis\nCutaneous: Palpable\npurpura\n, nodules, ulcers\nNeurologic: Mononeuropathy and polyneuropathy, cerebral vasculitis,\ncerebral hemorrhage\nor\nthrombosis\nCardiac:\nPericarditis\n,\nmyocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "cerebral hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Polyarteritis nodosa\n,\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss syndrome),\nSLE\n,\nGoodpasture syndrome\nLymphoma\n, lung cancer\nPneumonia\n, infective\nendocarditis\n,\nHUS\nGlomerulonephritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Definitive diagnosis: Biopsy\nANCA +, RF+\nCBC:\nLeukocytosis\n, normochromic\nanemia\n,\nthrombocytosis\nESR/CRP elevated\nBUN/Cr\nUrinalysis\n(\nhematuria\n,\nproteinuria\n)\nCXR\n- Pulmonary infiltrates and nodules\nCT chest\nConsider ANA, C3 or C4, cryoglobulins,\nhepatitis serology\n, HIV,\nLFTs\n, blood culture to rule out other pathology\nOther tests: Bronchoscopy, PFT, sinus CT",
+          "tables": []
+        },
+        "Classification": {
+          "text": "American College of Rheumatology: 88% sensitivity and 92% specificity for ≥2 criteria\nNasal or oral inflammation\nAbnormal chest radiograph showing nodules, fixed infiltrate, or cavities\nAbnormal urinary sedimentation (microscopic hematuria)\nGranulomatous inflammation on biopsy of an artery or perivascular area",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "hepatitis serology",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Definitive diagnosis: Biopsy\nANCA +, RF+\nCBC:\nLeukocytosis\n, normochromic\nanemia\n,\nthrombocytosis\nESR/CRP elevated\nBUN/Cr\nUrinalysis\n(\nhematuria\n,\nproteinuria\n)\nCXR\n- Pulmonary infiltrates and nodules\nCT chest\nConsider ANA, C3 or C4, cryoglobulins,\nhepatitis serology\n, HIV,\nLFTs\n, blood culture to rule out other pathology\nOther tests: Bronchoscopy, PFT, sinus CT",
+      "subsections": {
+        "Classification": {
+          "text": "American College of Rheumatology: 88% sensitivity and 92% specificity for ≥2 criteria\nNasal or oral inflammation\nAbnormal chest radiograph showing nodules, fixed infiltrate, or cavities\nAbnormal urinary sedimentation (microscopic hematuria)\nGranulomatous inflammation on biopsy of an artery or perivascular area",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "hepatitis serology",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "American College of Rheumatology: 88% sensitivity and 92% specificity for ≥2 criteria\nNasal or oral inflammation\nAbnormal chest radiograph showing nodules, fixed infiltrate, or cavities\nAbnormal urinary sedimentation (microscopic hematuria)\nGranulomatous inflammation on biopsy of an artery or perivascular area",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Priority: Manage pulmonary hemorrhage and renal insufficiency\nDifficult airway\n:\nDiffuse alveolar hemorrhage\nand\nsubglottic stenosis\nFiberoptic intubation through LMA advocated\nRheumatology consult + multidisciplinary consults\nMild disease:\nCorticosteroids\nand\nmethotrexate\nNo active glomerulonephritis or organ-threatening disease\nMod-Severe disease:\nCorticosteroids\nand\ncyclophosphamide\nor\nrituximab\nCorticosteroids\n:\nMethylprednisolone\n(7-15mg/kg/d with max 1000mg)\nPrednisone\n1mg/kg/d (max 80mg)\nMethotrexate\n: 20-25mg weekly PO or SC\nCyclophosphamide\n: 2mg/kg/d PO or 15mg/kg q2 weeks x3 then q3 weeks\nRituximab\n: 357mg/m² weekly x 4\nTo consider\nplasma exchange\n: Severe/rapidly progressive renal disease, concurrent anti-GBM Ab disease, severe pulmonary hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Difficult airway",
+          "url": "https://wikem.org/wiki/Difficult_airway"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        }
+      ]
+    }
+  }
+}

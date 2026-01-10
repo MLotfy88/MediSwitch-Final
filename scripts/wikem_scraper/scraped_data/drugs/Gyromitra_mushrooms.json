@@ -1,0 +1,213 @@
+{
+  "drug_name": "Gyromitra_mushrooms",
+  "url": "https://wikem.org/wiki/Gyromitra_mushrooms",
+  "scraped_at": "2026-01-10T07:54:08.780088",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"brain fungi\"\nFruit in the spring and early summer\nFrequently mistaken for morel mushrooms\n[1]\nInhibits formation of Vitamin B6 and GABA via hydrazine metabolite (similar to\nisoniazid toxicity\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "isoniazid toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "GI upset, fatigue, muscle cramps\nLiver failure\nHypoglycemia\nRhabdomyolysis\nCan present with refractory\nseizures\ndue to GABA deficiency\nHemolysis usually mild\nRarely\nmethemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mushroom_toxicity_by_Type": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Mushroom": "Amanita",
+                "Toxin": "Amatoxin",
+                "Pathologic Effect": "Hepatotoxicity"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Coprine",
+                "Pathologic Effect": "Disulfiram-like"
+              },
+              {
+                "Mushroom": "Crotinarius",
+                "Toxin": "Orellanine",
+                "Pathologic Effect": "Delayed renal failure"
+              },
+              {
+                "Mushroom": "Gyromitra",
+                "Toxin": "Gyromitrin",
+                "Pathologic Effect": "Seizures"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Ibotenic Acid",
+                "Pathologic Effect": "Anticholinergic"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Muscarine",
+                "Pathologic Effect": "Cholinergic"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Orellanin",
+                "Pathologic Effect": "Nephrotoxicity"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Psilocybin",
+                "Pathologic Effect": "Hallucinations"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mushroom_toxicity_by_Type": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Mushroom": "Amanita",
+            "Toxin": "Amatoxin",
+            "Pathologic Effect": "Hepatotoxicity"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Coprine",
+            "Pathologic Effect": "Disulfiram-like"
+          },
+          {
+            "Mushroom": "Crotinarius",
+            "Toxin": "Orellanine",
+            "Pathologic Effect": "Delayed renal failure"
+          },
+          {
+            "Mushroom": "Gyromitra",
+            "Toxin": "Gyromitrin",
+            "Pathologic Effect": "Seizures"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Ibotenic Acid",
+            "Pathologic Effect": "Anticholinergic"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Muscarine",
+            "Pathologic Effect": "Cholinergic"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Orellanin",
+            "Pathologic Effect": "Nephrotoxicity"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Psilocybin",
+            "Pathologic Effect": "Hallucinations"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Blood sugar\nBMP\nLFT\nCoags\nCBC with differential\nLDH, haptoglobin, reticulocyte\nCK\nMetHb level\nUrine drug screen\nUrinalysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Blood sugar\nBMP\nLFT\nCoags\nCBC with differential\nLDH, haptoglobin, reticulocyte\nCK\nMetHb level\nUrine drug screen\nUrinalysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care\nDextrose\nboluses/infusions\nHigh dose\npyridoxine\nfor refractory seizures (5g IV initially)\n[4]\nAvoid\nphenobarbital\n, especially in liver failure\nMethylene blue\nfor severe methemoglobinemia\nFolinic acid (\nleucovorin\n) supplementation (hydrazines inhibit MTHF production)\nLiver transplant for refractory hepatic failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Mushroom toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        }
+      ]
+    }
+  }
+}

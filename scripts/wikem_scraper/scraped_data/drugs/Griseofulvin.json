@@ -1,0 +1,114 @@
+{
+  "drug_name": "Griseofulvin",
+  "url": "https://wikem.org/wiki/Griseofulvin",
+  "scraped_at": "2026-01-10T07:54:07.769693",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntifungal\nDosage Forms: Suspension 125mg/5ml; Tablet 125mg, 250mg, 500mg\nRoutes of Administration: Oral\nCommon Trade Names: Grifulvin V, Gris-PEG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "250-1000mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "13.6-22.7kg: 125-250mg PO daily\n>22.7kg: 250-500mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation risk\n: Not recommended given potential for serious side effects.\nRenal dosing: none\nHepatic dosing: none",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHepatocellular failure\nPorphyria\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Acroparesthesia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Photosensitivity, rash, urticaria\nNausea/vomiting, diarrhea\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Acroparesthesia",
+      "subsections": {
+        "Common": {
+          "text": "Photosensitivity, rash, urticaria\nNausea/vomiting, diarrhea\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Photosensitivity, rash, urticaria\nNausea/vomiting, diarrhea\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 9-22h\nMetabolism: Liver\nExcretion: Urine, feces, perspiration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Fungistatic, deposits into keratin precursor cells and inhibits fungal mitosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antifungals\nFungal infections\nTinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "drug_name": "Goodpasture_syndrome",
+  "url": "https://wikem.org/wiki/Goodpasture_syndrome",
+  "scraped_at": "2026-01-10T07:54:03.585512",
+  "sections": {
+    "Background": {
+      "text": "Goodpasture syndrome (60%):\ndiffuse alveolar hemorrhage\n+ acute\nglomerulonephritis\nGoodpasture disease:\nglomerulonephritis\nalone (30%,) pulmonary symptoms alone (10%,)\nAnti-GBM disease is most precise term for both entities\nType II hypersensitivity causing linear IG deposition in glomerular and alveolar BM\nTriggered by:\nSepsis\nURI\nInhalation injury\nSmoking\nPulmonary edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Constitutional symptoms prior to pulmonary/renal complications\nPulmonary\nCough\n,\ndyspnea\n,\nchest pain\n,\nhemoptysis\n,\nrespiratory failure\nor\npulmonary hemorrhage\nRenal:\nglomerulonephritis\nHematuria\n,\nproteinuria\n, RBC casts\nSymptoms are often rapidly progressive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pulmonary hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hemoptysis": {
+          "text": "Infectious\nBronchitis\nPneumonia\nLung abscess\nTuberculosis\nPlague\nAspergilloma\nCoccidioidomycosis\nNeoplastic\nLung cancer\nMetastatic cancer\nCardiovascular\nPulmonary embolism\nCongestive heart failure\nPulmonary hypertension\nAV malformation\nMitral stenosis\nAlveolar hemorrhage syndromes\nGoodpasture syndrome\nGranulomatosis with polyangiitis\n(Wegener)\nSLE\nHematologic\nUremia\nPlatelet dysfunction (\nASA\n,\nclopidogrel\n)\nAnticoagulant\ntherapy\nTraumatic\nForeign body aspiration\nRuptured bronchus\nInflammatory\nBronchiectasis\nCystic fibrosis\nMiscellaneous\nCocaine inhalation\n(crack lung)\nCatamenial pneumothorax\nGoodpasture syndrome\nCystic fibrosis\nEpistaxis\nBlood-laced mucus from the sinus or nose area\nUpper GI bleeding",
+          "tables": []
+        },
+        "Causes_of_Glomerulonephritis": {
+          "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Aspergilloma",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cocaine inhalation",
+          "url": "https://wikem.org/wiki/Cocaine_inhalation"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding"
+        },
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Hemoptysis": {
+      "text": "Infectious\nBronchitis\nPneumonia\nLung abscess\nTuberculosis\nPlague\nAspergilloma\nCoccidioidomycosis\nNeoplastic\nLung cancer\nMetastatic cancer\nCardiovascular\nPulmonary embolism\nCongestive heart failure\nPulmonary hypertension\nAV malformation\nMitral stenosis\nAlveolar hemorrhage syndromes\nGoodpasture syndrome\nGranulomatosis with polyangiitis\n(Wegener)\nSLE\nHematologic\nUremia\nPlatelet dysfunction (\nASA\n,\nclopidogrel\n)\nAnticoagulant\ntherapy\nTraumatic\nForeign body aspiration\nRuptured bronchus\nInflammatory\nBronchiectasis\nCystic fibrosis\nMiscellaneous\nCocaine inhalation\n(crack lung)\nCatamenial pneumothorax\nGoodpasture syndrome\nCystic fibrosis\nEpistaxis\nBlood-laced mucus from the sinus or nose area\nUpper GI bleeding",
+      "subsections": {
+        "Causes_of_Glomerulonephritis": {
+          "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Aspergilloma",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cocaine inhalation",
+          "url": "https://wikem.org/wiki/Cocaine_inhalation"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding"
+        },
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Causes_of_Glomerulonephritis": {
+      "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pulmonary\nDepends whether patient stable or not, massive\nhemoptysis\nor not\nConsider:\nCXR\nvs CT chest w/contrast, CBC, coags, T&S, bronchoscopy\nRenal:\nUrinalysis\n, CBC, Chemistry, Albumin (often reduced in acute glomerulonephritis,) C3, C4, ASO, ANCA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nHemoptysis\nMassive: intubate (ideally ETT >8.0), angio or bronch to identify and stop localized source, consider nebulized\nTXA\nCorrect\ncoagulopathy\nMethylprednisolone\n1g +\nplasmapheresis\nSee\nGlomerulonephritis\n, consult nephrology\nPlasmapheresis\nshown to be beneficial\n[1]\nIn severe cases may need:\nRheumatology eval: Immunosuppressants",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for:\nDecompensated disease\nMassive hemoptysis\nAcute glomerulonephritis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Chan AL, Louie S, Leslie KO, Juarez MM, Albertson TE. Cutting edge issues in Goodpasture's disease. Clin Rev Allergy Immunol. 2011 Oct. 41(2):151-62.\nKathuria, P; Sanghera, P; Stevenson, FT; Sharma, S; Lederer, E; Lohr, JW; Talavera, F; Verrelli, M (21 May 2013). Batuman, C, ed. \"Goodpasture Syndrome\". Medscape Reference. WebMD. Retrieved 23 Jan 2016",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
