@@ -1,0 +1,410 @@
+{
+  "drug_name": "Prednisolone",
+  "url": "https://wikem.org/wiki/Prednisolone",
+  "scraped_at": "2026-01-10T08:00:23.328983",
+  "sections": {
+    "General": {
+      "text": "Type:\nCorticosteroid\nDosage Forms: PO (5; 5,15,25/5 mL), ophthalmic\nCommon Trade Names: Flo-Pred, Millipred, Oraped, Pedipred, Prelone, Veripred 20",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Corticosteroid-responsive_conditions": {
+          "text": "5-60mg/day PO divided QD-QID",
+          "tables": []
+        },
+        "Asthma,_acute": {
+          "text": "ED/hospital: 40-80mg/day PO divided QD-bid, cont. until peak flow = 70% predicted\nOutpatient burst treatment: 40-60mg/day PO divided QD-bid x 3-10 days",
+          "tables": []
+        },
+        "Asthma,_severe_persistent": {
+          "text": "7.5-60mg PO QD-qod",
+          "tables": []
+        },
+        "Adrenal_insufficiency": {
+          "text": "4-5mg/m\n2\nPO QD",
+          "tables": []
+        },
+        "Multiple_sclerosis,_acute_exacerbation": {
+          "text": "200mg PO QD x 1 wk, then 80mg PO qod x 1 mo",
+          "tables": []
+        },
+        "Alcoholic_hepatitis,_acute": {
+          "text": "40mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Corticosteroid-responsive_conditions": {
+      "text": "5-60mg/day PO divided QD-QID",
+      "subsections": {
+        "Asthma,_acute": {
+          "text": "ED/hospital: 40-80mg/day PO divided QD-bid, cont. until peak flow = 70% predicted\nOutpatient burst treatment: 40-60mg/day PO divided QD-bid x 3-10 days",
+          "tables": []
+        },
+        "Asthma,_severe_persistent": {
+          "text": "7.5-60mg PO QD-qod",
+          "tables": []
+        },
+        "Adrenal_insufficiency": {
+          "text": "4-5mg/m\n2\nPO QD",
+          "tables": []
+        },
+        "Multiple_sclerosis,_acute_exacerbation": {
+          "text": "200mg PO QD x 1 wk, then 80mg PO qod x 1 mo",
+          "tables": []
+        },
+        "Alcoholic_hepatitis,_acute": {
+          "text": "40mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma,_acute": {
+      "text": "ED/hospital: 40-80mg/day PO divided QD-bid, cont. until peak flow = 70% predicted\nOutpatient burst treatment: 40-60mg/day PO divided QD-bid x 3-10 days",
+      "subsections": {
+        "Asthma,_severe_persistent": {
+          "text": "7.5-60mg PO QD-qod",
+          "tables": []
+        },
+        "Adrenal_insufficiency": {
+          "text": "4-5mg/m\n2\nPO QD",
+          "tables": []
+        },
+        "Multiple_sclerosis,_acute_exacerbation": {
+          "text": "200mg PO QD x 1 wk, then 80mg PO qod x 1 mo",
+          "tables": []
+        },
+        "Alcoholic_hepatitis,_acute": {
+          "text": "40mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma,_severe_persistent": {
+      "text": "7.5-60mg PO QD-qod",
+      "subsections": {
+        "Adrenal_insufficiency": {
+          "text": "4-5mg/m\n2\nPO QD",
+          "tables": []
+        },
+        "Multiple_sclerosis,_acute_exacerbation": {
+          "text": "200mg PO QD x 1 wk, then 80mg PO qod x 1 mo",
+          "tables": []
+        },
+        "Alcoholic_hepatitis,_acute": {
+          "text": "40mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adrenal_insufficiency": {
+      "text": "4-5mg/m\n2\nPO QD",
+      "subsections": {
+        "Multiple_sclerosis,_acute_exacerbation": {
+          "text": "200mg PO QD x 1 wk, then 80mg PO qod x 1 mo",
+          "tables": []
+        },
+        "Alcoholic_hepatitis,_acute": {
+          "text": "40mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Multiple_sclerosis,_acute_exacerbation": {
+      "text": "200mg PO QD x 1 wk, then 80mg PO qod x 1 mo",
+      "subsections": {
+        "Alcoholic_hepatitis,_acute": {
+          "text": "40mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Alcoholic_hepatitis,_acute": {
+      "text": "40mg PO QD",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Corticosteroid-responsive_conditions_2": {
+          "text": "0.14-2mg/kg/day PO divided QD-QID",
+          "tables": []
+        },
+        "Asthma,_acute_2": {
+          "text": "ED/hospital: 1-2mg/kg/day PO divided QD-bid\nMax: 60mg/day, cont. until peak flow = 70% predicted\nOutpatient burst treatment: 1-2mg/kg/day PO divided QD-bid x 3-10 days\nMax: 60mg/day",
+          "tables": []
+        },
+        "Asthma,_severe_persistent_2": {
+          "text": "0.25-2mg/kg PO QD-qod\nMax 60mg/day",
+          "tables": []
+        },
+        "Adrenal_insufficiency_2": {
+          "text": "4-5mg/m^2 PO QD",
+          "tables": []
+        },
+        "Nephrotic_syndrome": {
+          "text": "60mg/m^2/day PO divided tid x 4 wk, then 40mg/m^2 PO qod x 4 wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Corticosteroid-responsive_conditions_2": {
+      "text": "0.14-2mg/kg/day PO divided QD-QID",
+      "subsections": {
+        "Asthma,_acute_2": {
+          "text": "ED/hospital: 1-2mg/kg/day PO divided QD-bid\nMax: 60mg/day, cont. until peak flow = 70% predicted\nOutpatient burst treatment: 1-2mg/kg/day PO divided QD-bid x 3-10 days\nMax: 60mg/day",
+          "tables": []
+        },
+        "Asthma,_severe_persistent_2": {
+          "text": "0.25-2mg/kg PO QD-qod\nMax 60mg/day",
+          "tables": []
+        },
+        "Adrenal_insufficiency_2": {
+          "text": "4-5mg/m^2 PO QD",
+          "tables": []
+        },
+        "Nephrotic_syndrome": {
+          "text": "60mg/m^2/day PO divided tid x 4 wk, then 40mg/m^2 PO qod x 4 wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma,_acute_2": {
+      "text": "ED/hospital: 1-2mg/kg/day PO divided QD-bid\nMax: 60mg/day, cont. until peak flow = 70% predicted\nOutpatient burst treatment: 1-2mg/kg/day PO divided QD-bid x 3-10 days\nMax: 60mg/day",
+      "subsections": {
+        "Asthma,_severe_persistent_2": {
+          "text": "0.25-2mg/kg PO QD-qod\nMax 60mg/day",
+          "tables": []
+        },
+        "Adrenal_insufficiency_2": {
+          "text": "4-5mg/m^2 PO QD",
+          "tables": []
+        },
+        "Nephrotic_syndrome": {
+          "text": "60mg/m^2/day PO divided tid x 4 wk, then 40mg/m^2 PO qod x 4 wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma,_severe_persistent_2": {
+      "text": "0.25-2mg/kg PO QD-qod\nMax 60mg/day",
+      "subsections": {
+        "Adrenal_insufficiency_2": {
+          "text": "4-5mg/m^2 PO QD",
+          "tables": []
+        },
+        "Nephrotic_syndrome": {
+          "text": "60mg/m^2/day PO divided tid x 4 wk, then 40mg/m^2 PO qod x 4 wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adrenal_insufficiency_2": {
+      "text": "4-5mg/m^2 PO QD",
+      "subsections": {
+        "Nephrotic_syndrome": {
+          "text": "60mg/m^2/day PO divided tid x 4 wk, then 40mg/m^2 PO qod x 4 wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nephrotic_syndrome": {
+      "text": "60mg/m^2/day PO divided tid x 4 wk, then 40mg/m^2 PO qod x 4 wk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Probably Safe\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nsystemic fungal infection\nactive or recent varicella infection\nactive or recent measles infection\navoid abrupt withdrawal (high dose or long-term use)\ncaution if active infection\ncaution if\nTB\ninfection\ncaution if ocular HSV\ncaution if immunosuppressed\ncaution if hypertension\ncaution if CHF\ncaution if diabetes mellitus\ncaution if seizure disorder\ncaution if PUD\ncaution if ulcerative colitis\ncaution if diverticulitis\ncaution if recent intestinal anastomosis\ncaution if psychiatric disorder\ncaution if hypothyroidism\ncaution if osteoporosis\ncaution if myasthenia gravis\ncaution if renal impairment, severe\ncaution if hepatic impairment, severe\ncaution if thromboembolic disorder\ncaution if coagulation disorder\ncaution in elderly patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "adrenal insufficiency\nCushing syndrome\nimmunosuppression\ninfection\nhypertension\nCHF\ndiabetes mellitus\nsteroid psychosis\nGI perforation/ulcer\nosteopenia/osteoporosis\nhypokalemic alkalosis\nsteroid myopathy\ntendon rupture\npseudotumor cerebri\nICP increase\nseizures\nglaucoma\ncataracts\npancreatitis\ngrowth suppression (long-term use, pediatric patients)\nexophthalmos\nanaphylaxis\nwithdrawal symptoms if abrupt discontinuation (high dose or long-term use)",
+          "tables": []
+        },
+        "Common": {
+          "text": "sodium and fluid retention\ndiaphoresis\nheadache\nvertigo\ninsomnia\nnervousness\nmood swings\nedema\nmuscle weakness\nBP elevation\nglucose intolerance\npetechiae/ecchymosis\nfacial erythema\nmenstrual irregularities\nhypokalemia\nIOP increase\nimpaired wound healing (long-term use)\nCushing syndrome\nskin pigmentation abnormality\nhirsutism\nurticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "adrenal insufficiency\nCushing syndrome\nimmunosuppression\ninfection\nhypertension\nCHF\ndiabetes mellitus\nsteroid psychosis\nGI perforation/ulcer\nosteopenia/osteoporosis\nhypokalemic alkalosis\nsteroid myopathy\ntendon rupture\npseudotumor cerebri\nICP increase\nseizures\nglaucoma\ncataracts\npancreatitis\ngrowth suppression (long-term use, pediatric patients)\nexophthalmos\nanaphylaxis\nwithdrawal symptoms if abrupt discontinuation (high dose or long-term use)",
+      "subsections": {
+        "Common": {
+          "text": "sodium and fluid retention\ndiaphoresis\nheadache\nvertigo\ninsomnia\nnervousness\nmood swings\nedema\nmuscle weakness\nBP elevation\nglucose intolerance\npetechiae/ecchymosis\nfacial erythema\nmenstrual irregularities\nhypokalemia\nIOP increase\nimpaired wound healing (long-term use)\nCushing syndrome\nskin pigmentation abnormality\nhirsutism\nurticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Common": {
+      "text": "sodium and fluid retention\ndiaphoresis\nheadache\nvertigo\ninsomnia\nnervousness\nmood swings\nedema\nmuscle weakness\nBP elevation\nglucose intolerance\npetechiae/ecchymosis\nfacial erythema\nmenstrual irregularities\nhypokalemia\nIOP increase\nimpaired wound healing (long-term use)\nCushing syndrome\nskin pigmentation abnormality\nhirsutism\nurticaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 18-36h\nMetabolism: liver, CYP450: 3A4 substrate\nExcretion: urine\nMechanism of Action: exact mechanism of anti-inflammatory action unknown; inhibits multiple inflammatory cytokines; produces multiple glucocorticoid and mineralocorticoid effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

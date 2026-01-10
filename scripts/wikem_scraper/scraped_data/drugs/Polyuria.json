@@ -1,0 +1,198 @@
+{
+  "drug_name": "Polyuria",
+  "url": "https://wikem.org/wiki/Polyuria",
+  "scraped_at": "2026-01-10T08:00:13.903888",
+  "sections": {
+    "Background": {
+      "text": "Excessive urine volume\nDistinguish from urinary frequency, which may not produce high\nvolumes\nof urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "3 L/day of urine in adults and 2 L/m2 in children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Polyuria": {
+          "text": "Osmotic diuresis\nHyperglycemia\nMannitol\nDrugs:\ndiuretics\n,\ncaffeine\n,\nacetazolamide\n,\nlithium\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nCushing's syndrome\n, primary hyperaldosteronism\nInability to concentrate urine (e.g. chronic\npyelonephritis\n,\nsickle cell disease\n,\namyloidosis\nPost-obstructive diuresis\nEarly\nrenal failure\nHigh fluid intake\nExcess\nIVF\nPsychogenic polydipsia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Post-obstructive diuresis",
+          "url": "https://wikem.org/wiki/Post-obstructive_diuresis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Polyuria": {
+      "text": "Osmotic diuresis\nHyperglycemia\nMannitol\nDrugs:\ndiuretics\n,\ncaffeine\n,\nacetazolamide\n,\nlithium\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nCushing's syndrome\n, primary hyperaldosteronism\nInability to concentrate urine (e.g. chronic\npyelonephritis\n,\nsickle cell disease\n,\namyloidosis\nPost-obstructive diuresis\nEarly\nrenal failure\nHigh fluid intake\nExcess\nIVF\nPsychogenic polydipsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Post-obstructive diuresis",
+          "url": "https://wikem.org/wiki/Post-obstructive_diuresis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for\ndehydration\nBMP\nUA\nAdditional workup depending on history\nConsider:\nUrine osmolality, electrolytes\nSerum osmolality\nSerum ADH\nRenal imaging",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Correct\nelectrolyte abnormalities\n,\ndehydration\nTreat underlying pathology if known",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Dependant on presentation/severity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

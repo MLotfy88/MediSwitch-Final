@@ -1,0 +1,110 @@
+{
+  "drug_name": "Polycystic_kidney_disease",
+  "url": "https://wikem.org/wiki/Polycystic_kidney_disease",
+  "scraped_at": "2026-01-10T08:00:11.978569",
+  "sections": {
+    "Background": {
+      "text": "Multisystemic and progressive disorder resulting in renal cysts and renal enlargement\nHereditary disorder, autosomal dominant\nAccounts for ~2% of new cases of renal failure each year",
+      "subsections": {
+        "Mortality": {
+          "text": "Cardiovascular\nInfection,\nsepticemia\nSubarachnoid hemorrhage\nUremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "septicemia",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Mortality": {
+      "text": "Cardiovascular\nInfection,\nsepticemia\nSubarachnoid hemorrhage\nUremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "septicemia",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Clinical presentation typically begins in 3rd to 4th decade of life, but may be detectable in childhood\nAbdominal pain\n,\nflank pain\nand/or\nback pain\nis most common initial symptom.\nPain due to:\nenlargement of cysts\nbleeding within cyst or gross\nhematuria\nwith clots or perinephric hematoma\nurinary tract infection\nnephrolithiasis\nHematuria\nself-limited\ncysts are susceptible to traumatic injury\nHypertension\ncommon early manifestation\nincreased diastolic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Renal ultrasound\nis the imaging of choice\nCBC, BMP\nUrinalysis\n+/- Urine culture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Torra R et al. Polycystic Kidney Disease. eMedicine. Feb 11, 2016.\nhttp://emedicine.medscape.com/article/244907-overview#showall",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

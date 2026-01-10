@@ -1,0 +1,272 @@
+{
+  "drug_name": "Posterior_interosseous_neuropathy",
+  "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy",
+  "scraped_at": "2026-01-10T08:00:19.180180",
+  "sections": {
+    "Background": {
+      "text": "Posterior interosseous nerve (C7-8) is a branch of the radial nerve that supplies motor innervation to the forearm extensor muscles\nCompression or injury can cause an isolated PIN palsy\n[1]\nMore proximal pathologies can cause a combined palsy\nMore common in body builders and laborers due to repetitive pronosupination",
+      "subsections": {
+        "Causes": {
+          "text": "Peripheral neuropathy\nRepetitive microtrauma\nEntrapment\nTrauma\nForearm fracture\nSpace occupying lesions\nGanglion cyst\nLipoma\nBone tumor\nIatrogenic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Peripheral neuropathy\nRepetitive microtrauma\nEntrapment\nTrauma\nForearm fracture\nSpace occupying lesions\nGanglion cyst\nLipoma\nBone tumor\nIatrogenic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Forearm and wrist pain\nWeakness on finger and wrist extension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Upper_extremity_peripheral_nerve_syndromes": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Plain films\nEMG (as outpatient)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Usually a clinical diagnosis (in ED)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Plain films\nEMG (as outpatient)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Usually a clinical diagnosis (in ED)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Usually a clinical diagnosis (in ED)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Nonoperative: rest, activity modification,\nNSAIDs\n,\nsplinting\nOperative decompression: compressive masses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with orthopedic follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Peripheral nerve syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral nerve syndromes",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        }
+      ]
+    }
+  }
+}

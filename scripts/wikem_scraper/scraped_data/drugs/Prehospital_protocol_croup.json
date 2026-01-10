@@ -1,0 +1,92 @@
+{
+  "drug_name": "Prehospital_protocol_croup",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_croup",
+  "scraped_at": "2026-01-10T08:00:25.896878",
+  "sections": {
+    "Perform_general_assessment": {
+      "text": "100% O2 NRB\nBlow-by O2 on if need to decrease agitation\nSuction (bulb or mechanical) if excessive secretions are present\nKeep child calm while properly securing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Vital_Signs": {
+      "text": "Cardiac Monitor\nPulse Oximetry",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes": {
+      "text": "Epinephrine\n1:1000 3mL in Nebulizer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Continue_to_Monitor": {
+      "text": "Reassess for signs of respiratory failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Respiratory_Failure": {
+      "text": "",
+      "subsections": {
+        "Yes_2": {
+          "text": "Attempt BVM Ventilation\nNormal Saline (weight *2 ) mL bolus IV/IO",
+          "tables": []
+        },
+        "Continue_BVM": {
+          "text": "If BVM not effective perform:\nReposition Airway\nCheck correct mask size\nCheck O2 source\nPlace\nOPA\nCheck gastric distention",
+          "tables": []
+        },
+        "BVM_Effective?": {
+          "text": "If BVM  effective then monitor and transport\nCall online medical control for further instructions\nIf failed BVM then:\nPlace endotracheal tube or supraglottic airway\nContinue to monitor\nReassess oxygenation and ventilation\nEffective oxygenation and ventilation?\nEtCO2 reading\nMisting in Tube\nEqual breath sounds\nCord visualization if intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Yes_2": {
+      "text": "Attempt BVM Ventilation\nNormal Saline (weight *2 ) mL bolus IV/IO",
+      "subsections": {
+        "Continue_BVM": {
+          "text": "If BVM not effective perform:\nReposition Airway\nCheck correct mask size\nCheck O2 source\nPlace\nOPA\nCheck gastric distention",
+          "tables": []
+        },
+        "BVM_Effective?": {
+          "text": "If BVM  effective then monitor and transport\nCall online medical control for further instructions\nIf failed BVM then:\nPlace endotracheal tube or supraglottic airway\nContinue to monitor\nReassess oxygenation and ventilation\nEffective oxygenation and ventilation?\nEtCO2 reading\nMisting in Tube\nEqual breath sounds\nCord visualization if intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Give_Dexamethasone": {
+      "text": "Give PO dexamethasone (weight *0.6)mg PO\nIf child spits out the medication or unable to tolerate PO then give 0.6mg/kg IM\nIf respiratory failure then give 0.6mg/kg IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Monitor_and_Transport": {
+      "text": "Rapidly transport\nContinue to monitor\nFurther orders via on-line physician",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

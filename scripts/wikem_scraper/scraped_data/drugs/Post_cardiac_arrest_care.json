@@ -1,0 +1,67 @@
+{
+  "drug_name": "Post_cardiac_arrest_care",
+  "url": "https://wikem.org/wiki/Post_cardiac_arrest_care",
+  "scraped_at": "2026-01-10T08:00:19.683703",
+  "sections": {
+    "Management": {
+      "text": "Maintain perfusion (cerebral)\nTreat\nhypotension\nIgnore\nhypertension\nMaintain normal PaCO2 (~40)\nTarget\nnormoxia\nPaO2 80-120\nTherapeutic Hypothermia\nPCI\nEarly reperfusion therapy is important to ID coronaries as ECG cannot reliably predict them in these cases\n[1]\nMore recent data suggests that there is no difference in 90 day mortality/neurologic outcomes for immediate vs. delayed angiography in patients who had a shockable rhythm during arrest\n[2]\nAggressively treat\nhyperglycemia\nNo IV fluids with glucose\nRISS\nAggressive\nseizure\ntreatment\nProphylaxis unproven\nAHA recommends EEG for comatose patients\n[3]\nIf epileptiform activity present, treat as you would other patients with\nseizure\nMinimize Irritation\nSedatives\n+/- paralytics\nSupine positioning",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "normoxia",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Therapeutic Hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_Hypothermia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sedatives",
+          "url": "https://wikem.org/wiki/Sedation"
+        }
+      ]
+    },
+    "Prognostication": {
+      "text": "Out-of-hospital cardiac arrest (OHCA) has about a 10% survival to discharge rate\nIn-hospital cardiac arrest has just over a 20% survival to discharge rate\nAbout half will have no to mild disability, and the other half will have moderate to severe disability\nLack of pupillary reflexes upon ROSC after OHCA are not reliable in prognosticating return of neurologic function\nRecommended to wait minimum of 72 hours post-ROSC for prognostication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ACLS (Main)\nAdult Cardiac Arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "Adult Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Adult_Cardiac_Arrest"
+        }
+      ]
+    }
+  }
+}

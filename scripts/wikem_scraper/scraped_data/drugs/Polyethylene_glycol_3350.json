@@ -1,0 +1,171 @@
+{
+  "drug_name": "Polyethylene_glycol_3350",
+  "url": "https://wikem.org/wiki/Polyethylene_glycol_3350",
+  "scraped_at": "2026-01-10T08:00:10.690621",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nLaxatives\n, osmotic\nDosage Forms:\nRoutes of Administration: oral\nCommon Trade Names: GaviLAX, GlycoLAX, MiraLax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Laxatives",
+          "url": "https://wikem.org/wiki/Laxatives"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Constipation, occasional\nOral: 17 g dissolved in 120-240 mL liquid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Constipation, occasional\nInfants, Children, and Adolescents <17 years of age:\n0.2 to 0.8 g/kg/day though may be started at higher dose of 1 g/kg\nMaximum daily dose of 17 g/day\nFecal impaction\nChildren and Adolescents\nOral: 1 to 1.5 g/kg daily for 3-6 days\nMaximum daily dose of 100 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Minimally absorbed, unlikely effect though not known",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Minimally absorbed",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Minimally absorbed, unlikely effect though not known",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Minimally absorbed",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Minimally absorbed",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "None",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nBowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal cramping\nBloating\nDiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal cramping\nBloating\nDiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Abdominal cramping\nBloating\nDiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset: 24 to 96 hours\nMetabolism: none",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Osmotic agent that causes water retention in stool and increases stool frequency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Prolonged use may lead to electrolyte imbalance\nUse with caution in those with renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation\nConstipation (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Constipation (Peds)",
+          "url": "https://wikem.org/wiki/Constipation_(Peds)"
+        }
+      ]
+    }
+  }
+}

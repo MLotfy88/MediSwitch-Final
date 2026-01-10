@@ -1,0 +1,706 @@
+{
+  "drug_name": "Polymorphic_ventricular_tachycardia",
+  "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia",
+  "scraped_at": "2026-01-10T08:00:12.774608",
+  "sections": {
+    "Background": {
+      "text": "Form of\nventricular tachycardia\nMultiple ventricular foci\nQRS complexes with varying morphology\nSubtypes include:\nTorsades de pointes\nbidirectional polymorphic\nVTach\n(as seen in\ndigoxin toxicity\n)",
+      "subsections": {
+        "Etiologies": {
+          "text": "Myocardial ischemia\n(most common)\nAcquired or congenital\nprolonged QT\nTCAs\n, phenothiazines, Type I antiarrhythmics (quinidine,\nprocainamide\n)\nHypokalemia\nHypomagnesemia\nElevated intracranial pressure\nBrugada syndrome\n,\nshort QT syndrome\n, congenital catecholaminergic polymorphic ventricular tachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "VTach",
+          "url": "https://wikem.org/wiki/VTach"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "short QT syndrome",
+          "url": "https://wikem.org/wiki/Short_QT_syndrome"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Myocardial ischemia\n(most common)\nAcquired or congenital\nprolonged QT\nTCAs\n, phenothiazines, Type I antiarrhythmics (quinidine,\nprocainamide\n)\nHypokalemia\nHypomagnesemia\nElevated intracranial pressure\nBrugada syndrome\n,\nshort QT syndrome\n, congenital catecholaminergic polymorphic ventricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "short QT syndrome",
+          "url": "https://wikem.org/wiki/Short_QT_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Syncope\nPalpitations\nAltered level of consciousness\nMay present with\ncardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for underlying causes (e.g. electrolyte imbalances,\nACS\n)",
+      "subsections": {
+        "ECG_Findings": {
+          "text": "Wide QRS (>100ms or 3 small boxes)\nQRS complexes of varied amplitude, axis and duration\nTorsades: QRS complexes appear to twist around isoelectric line\nRapid rhythm (usually 140-160 bpm, but can be up to 300 bpm)\nIrregular",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "ECG_Findings": {
+      "text": "Wide QRS (>100ms or 3 small boxes)\nQRS complexes of varied amplitude, axis and duration\nTorsades: QRS complexes appear to twist around isoelectric line\nRapid rhythm (usually 140-160 bpm, but can be up to 300 bpm)\nIrregular",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pulseless": {
+          "text": "See\nAdult pulseless arrest\nand\nPediatric pulseless arrest",
+          "tables": []
+        },
+        "Unstable": {
+          "text": "Unsynchronized cardioversion (\ndefibrillation\n) 200J (or 2J/kg for pediatrics)\nCorrect any electrolyte abnormalities",
+          "tables": []
+        },
+        "Stable": {
+          "text": "Correct any electrolyte abnormalities\nTorsades\n:\nMagnesium\nsulfate (for Torsades):\n1-2gm IV, repeat in 5-15min; then 1-2gm/hr (3-10mg/min) drip\nPeds: 25-50mg/kg (max 2g) IV\nIsoproterenol\n, 2-8 mcg/min (if available)\nOverdrive Pacing\nto goal HR 90-120\nNote that this is only effective for preventing recurrence of TdP - it will not convert TdP to sinus rhythm\nConsider Lidocaine\nAvoid procainamide, amiodarone (may further prolong QT)\nNon-Torsades (baseline QT interval not prolonged)\nAmiodarone\n, agent of choice in setting of AMI or LV dysfunction\n150 mg over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total), then 0.5 mg/min drip over next 18 hrs (540 mg total)\nPeds: 5mg/kg (max 300mg), may repeat twice\nProcainamide\n100 mg q5min until termination of arrhythmia, then start 2-6 mg/min (or 1-2 mg/min for renal/cardiac failure)\nMax dose 17mg/kg\nOR\nwidening of QRS >50%\nLidocaine\n, 1-1.5mg/kg IV q5min, repeat PRN up to 300mg/hr\nBeta-blockers\n(e.g.\nmetoprolol\n5mg IV q5m x 3) if blood pressure tolerates",
+          "tables": []
+        },
+        "Refractory": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nMay require alternate treatment (i.e.\nβ-blockers\n, sedation, ablation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Pediatric pulseless arrest",
+          "url": "https://wikem.org/wiki/Pediatric_pulseless_arrest"
+        },
+        {
+          "text": "defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Overdrive Pacing",
+          "url": "https://wikem.org/wiki/Overdrive_Pacing"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Pulseless": {
+      "text": "See\nAdult pulseless arrest\nand\nPediatric pulseless arrest",
+      "subsections": {
+        "Unstable": {
+          "text": "Unsynchronized cardioversion (\ndefibrillation\n) 200J (or 2J/kg for pediatrics)\nCorrect any electrolyte abnormalities",
+          "tables": []
+        },
+        "Stable": {
+          "text": "Correct any electrolyte abnormalities\nTorsades\n:\nMagnesium\nsulfate (for Torsades):\n1-2gm IV, repeat in 5-15min; then 1-2gm/hr (3-10mg/min) drip\nPeds: 25-50mg/kg (max 2g) IV\nIsoproterenol\n, 2-8 mcg/min (if available)\nOverdrive Pacing\nto goal HR 90-120\nNote that this is only effective for preventing recurrence of TdP - it will not convert TdP to sinus rhythm\nConsider Lidocaine\nAvoid procainamide, amiodarone (may further prolong QT)\nNon-Torsades (baseline QT interval not prolonged)\nAmiodarone\n, agent of choice in setting of AMI or LV dysfunction\n150 mg over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total), then 0.5 mg/min drip over next 18 hrs (540 mg total)\nPeds: 5mg/kg (max 300mg), may repeat twice\nProcainamide\n100 mg q5min until termination of arrhythmia, then start 2-6 mg/min (or 1-2 mg/min for renal/cardiac failure)\nMax dose 17mg/kg\nOR\nwidening of QRS >50%\nLidocaine\n, 1-1.5mg/kg IV q5min, repeat PRN up to 300mg/hr\nBeta-blockers\n(e.g.\nmetoprolol\n5mg IV q5m x 3) if blood pressure tolerates",
+          "tables": []
+        },
+        "Refractory": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nMay require alternate treatment (i.e.\nβ-blockers\n, sedation, ablation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Pediatric pulseless arrest",
+          "url": "https://wikem.org/wiki/Pediatric_pulseless_arrest"
+        },
+        {
+          "text": "defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Overdrive Pacing",
+          "url": "https://wikem.org/wiki/Overdrive_Pacing"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Unstable": {
+      "text": "Unsynchronized cardioversion (\ndefibrillation\n) 200J (or 2J/kg for pediatrics)\nCorrect any electrolyte abnormalities",
+      "subsections": {
+        "Stable": {
+          "text": "Correct any electrolyte abnormalities\nTorsades\n:\nMagnesium\nsulfate (for Torsades):\n1-2gm IV, repeat in 5-15min; then 1-2gm/hr (3-10mg/min) drip\nPeds: 25-50mg/kg (max 2g) IV\nIsoproterenol\n, 2-8 mcg/min (if available)\nOverdrive Pacing\nto goal HR 90-120\nNote that this is only effective for preventing recurrence of TdP - it will not convert TdP to sinus rhythm\nConsider Lidocaine\nAvoid procainamide, amiodarone (may further prolong QT)\nNon-Torsades (baseline QT interval not prolonged)\nAmiodarone\n, agent of choice in setting of AMI or LV dysfunction\n150 mg over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total), then 0.5 mg/min drip over next 18 hrs (540 mg total)\nPeds: 5mg/kg (max 300mg), may repeat twice\nProcainamide\n100 mg q5min until termination of arrhythmia, then start 2-6 mg/min (or 1-2 mg/min for renal/cardiac failure)\nMax dose 17mg/kg\nOR\nwidening of QRS >50%\nLidocaine\n, 1-1.5mg/kg IV q5min, repeat PRN up to 300mg/hr\nBeta-blockers\n(e.g.\nmetoprolol\n5mg IV q5m x 3) if blood pressure tolerates",
+          "tables": []
+        },
+        "Refractory": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nMay require alternate treatment (i.e.\nβ-blockers\n, sedation, ablation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Overdrive Pacing",
+          "url": "https://wikem.org/wiki/Overdrive_Pacing"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Stable": {
+      "text": "Correct any electrolyte abnormalities\nTorsades\n:\nMagnesium\nsulfate (for Torsades):\n1-2gm IV, repeat in 5-15min; then 1-2gm/hr (3-10mg/min) drip\nPeds: 25-50mg/kg (max 2g) IV\nIsoproterenol\n, 2-8 mcg/min (if available)\nOverdrive Pacing\nto goal HR 90-120\nNote that this is only effective for preventing recurrence of TdP - it will not convert TdP to sinus rhythm\nConsider Lidocaine\nAvoid procainamide, amiodarone (may further prolong QT)\nNon-Torsades (baseline QT interval not prolonged)\nAmiodarone\n, agent of choice in setting of AMI or LV dysfunction\n150 mg over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total), then 0.5 mg/min drip over next 18 hrs (540 mg total)\nPeds: 5mg/kg (max 300mg), may repeat twice\nProcainamide\n100 mg q5min until termination of arrhythmia, then start 2-6 mg/min (or 1-2 mg/min for renal/cardiac failure)\nMax dose 17mg/kg\nOR\nwidening of QRS >50%\nLidocaine\n, 1-1.5mg/kg IV q5min, repeat PRN up to 300mg/hr\nBeta-blockers\n(e.g.\nmetoprolol\n5mg IV q5m x 3) if blood pressure tolerates",
+      "subsections": {
+        "Refractory": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nMay require alternate treatment (i.e.\nβ-blockers\n, sedation, ablation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "Overdrive Pacing",
+          "url": "https://wikem.org/wiki/Overdrive_Pacing"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Refractory": {
+      "text": "≥3 episodes within 24 hours considered\nelectrical storm\nMay require alternate treatment (i.e.\nβ-blockers\n, sedation, ablation)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit with cardiology consult, even if back in normal sinus rhythm\nStable patients may be admitted to ward\nPads should remain on patient's chest anticipating need for repeat cardioversion\nAll patients should remain on telemetry or full cardio-respiratory monitoring for recurrent events\nPatients with features of instability or refractory VT are best admitted to CCU or ICU and may require urgent or emergent pacemaker placement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tachycardia (wide)\nTorsades de pointes\nACLS (Main)\n,\nPALS (Main)\nAdult Pulseless Arrest\n,\nPediatric pulseless arrest\nCritical care quick reference\nNonsustained ventricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia (wide)",
+          "url": "https://wikem.org/wiki/Tachycardia_(wide)"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Adult Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Adult_Pulseless_Arrest"
+        },
+        {
+          "text": "Pediatric pulseless arrest",
+          "url": "https://wikem.org/wiki/Pediatric_pulseless_arrest"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    }
+  }
+}

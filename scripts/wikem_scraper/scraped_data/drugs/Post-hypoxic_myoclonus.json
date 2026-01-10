@@ -1,0 +1,101 @@
+{
+  "drug_name": "Post-hypoxic_myoclonus",
+  "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus",
+  "scraped_at": "2026-01-10T08:00:17.220346",
+  "sections": {
+    "Background": {
+      "text": "Myoclonus (irregular muscle contractions) after hypoxic brain injury due to\ncardiac arrest\nAcute: onset within 48h of injury\nPost-\nhypoxic\nmyoclonic status: acute myoclonus lasting >30min\nDifficult to control, associated with poor prognosis\nOccurs in 30-40% of comatose cardiac arrest survivors\nChronic: onset days-weeks after cardiac arrest in patients who regained consciousness (AKA Lance-Adams syndrome)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxic"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Acute:\nRecent (within 48h) hypoxic brain injury with neuronal necrosis\nAbrupt onset of irregular muscle contractions, focal or generalized\nPost-hypoxic status myoclonus\nOnset usually within 12-24h of injury\nGeneralized, multifocal clonus\nChronic\nOnset days-weeks after arrest\nAwareness preserved\nTypically intention myoclonus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Seizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "EEG (r/o seizure)\nEvaluate for alternative etiologies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Acute/status\nDifficult and of limited utility\nConsider\nbenzodiazepines\n,\npropofol\n,\nphenytoin\n,\nvalproate\nAddress\ngoals of care\ngiven sign of poor prognosis\nChronic/lance-adams syndrome\nValproate\n,\nclonazepam\n, and/or\nlevetiracetam\nmay help control myoclonus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "goals of care",
+          "url": "https://wikem.org/wiki/Goals_of_care"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        },
+        {
+          "text": "levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypoxemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "References": {
+      "text": "LITFL:\nhttps://litfl.com/post-hypoxic-myoclonus/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

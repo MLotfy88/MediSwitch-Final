@@ -1,0 +1,456 @@
+{
+  "drug_name": "Post-tonsillectomy_hemorrhage",
+  "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage",
+  "scraped_at": "2026-01-10T08:00:19.018007",
+  "sections": {
+    "Background": {
+      "text": "Occurs after tonsillectomies in 3.9% of adults and 1.6% of children\n[1]\nMost common on POD 5-7\nHighest incidence in 21-30 year olds\nLowest in <6 year olds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hemoptysis\nRecent tonsillectomy\nPrimary post-tonsillectomy hemorrhage from 0-24 hrs\nSecondary post-tonsillectomy hemorrhage from >24 hrs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Post-op pain",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[2]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[2]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Physical exam (do NOT remove any clots)\nH/H\nType and screen if not already on file",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Airway management as needed (anticipate difficulty and have surgical back up)\nIV, O2, Monitor, NPO, upright position\nENT consult: Always, re-bleeding is common and may require surgical management\nImportant things to discuss with ENT: patient age, level of cooperation, visible clot, hematemesis, bleeding diathesis\nIf stable, no active bleeding, and clot is present - do not remove the clot\n[3]",
+      "subsections": {
+        "Minor_Bleeding": {
+          "text": "Hydrogen peroxide gargle\n[4]\n50/50 3% Hydrogen Peroxide/Water gargle for 10 minutes.\nCan attempt\nbenzocaine\nspray or rinse with cold water,\nTXA\n, or\nlidocaine\nwith epinephrine\nCan also try direct pressure with tonsillar pack or gauze infused with TXA or lidocaine with epinephrine on a long clamp or Magill forceps",
+          "tables": []
+        },
+        "Uncontrolled_Bleeding": {
+          "text": "No guidelines provide a stepwise approach so all of these therapies can be attempted in addition to emergent ENT consult aggressive suction, and direct pressure if possible.\nNebulized\nTranexamic acid\n- 250 mg for patients < 25kg and 500mg if > 25kg\n[5]\nNebulized racemic\nepinephrine\n-  0.5 mL of 2.25% solution in 3 mL\nLidocaine\nwith epinephrine soaked pledgets\nThrombin powder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Minor_Bleeding": {
+      "text": "Hydrogen peroxide gargle\n[4]\n50/50 3% Hydrogen Peroxide/Water gargle for 10 minutes.\nCan attempt\nbenzocaine\nspray or rinse with cold water,\nTXA\n, or\nlidocaine\nwith epinephrine\nCan also try direct pressure with tonsillar pack or gauze infused with TXA or lidocaine with epinephrine on a long clamp or Magill forceps",
+      "subsections": {
+        "Uncontrolled_Bleeding": {
+          "text": "No guidelines provide a stepwise approach so all of these therapies can be attempted in addition to emergent ENT consult aggressive suction, and direct pressure if possible.\nNebulized\nTranexamic acid\n- 250 mg for patients < 25kg and 500mg if > 25kg\n[5]\nNebulized racemic\nepinephrine\n-  0.5 mL of 2.25% solution in 3 mL\nLidocaine\nwith epinephrine soaked pledgets\nThrombin powder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Uncontrolled_Bleeding": {
+      "text": "No guidelines provide a stepwise approach so all of these therapies can be attempted in addition to emergent ENT consult aggressive suction, and direct pressure if possible.\nNebulized\nTranexamic acid\n- 250 mg for patients < 25kg and 500mg if > 25kg\n[5]\nNebulized racemic\nepinephrine\n-  0.5 mL of 2.25% solution in 3 mL\nLidocaine\nwith epinephrine soaked pledgets\nThrombin powder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pharyngitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        }
+      ]
+    }
+  }
+}

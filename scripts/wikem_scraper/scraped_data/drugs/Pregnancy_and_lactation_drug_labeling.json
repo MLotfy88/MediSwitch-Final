@@ -1,0 +1,30 @@
+{
+  "drug_name": "Pregnancy_and_lactation_drug_labeling",
+  "url": "https://wikem.org/wiki/Pregnancy_and_lactation_drug_labeling",
+  "scraped_at": "2026-01-10T08:00:24.366837",
+  "sections": {
+    "Background": {
+      "text": "The 2015 FDA Pregnancy and Lactation Labeling Rule (PLLR) replaces the previously used pregnancy categories (A, B, C, D, X) and creates new labeling categories\nDrugs approved by the FDA after the PLLR final rule will no longer be assigned a pregnancy category letter\nNew drug labeling categories:\n8.1 - Pregnancy (including labor and delivery)\n8.2 - Lactation (including nursing mothers)\n8.3 - Females and Males of reproductive potential\nLabels will provide a narrative summary of risk and will summarize available human and animal risk data.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Drug pregnancy categories",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drug pregnancy categories",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "FDA Pregnancy and Lactation Rule\nFDA PLLR Final Rule PDF\nZepatier Drug Label (Conforms to PLLR standards)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

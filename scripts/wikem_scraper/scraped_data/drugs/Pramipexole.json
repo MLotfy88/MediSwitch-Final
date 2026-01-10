@@ -1,0 +1,347 @@
+{
+  "drug_name": "Pramipexole",
+  "url": "https://wikem.org/wiki/Pramipexole",
+  "scraped_at": "2026-01-10T08:00:21.977421",
+  "sections": {
+    "Administration": {
+      "text": "Type: Dopamine agonist\nDosage Forms: TAB, ER TAB\nRoutes of Administration: Oral\nCommon Trade Names: Mirapex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Parkinson's_Disease": {
+          "text": "Immediate release\n0.5-1.5 mg PO TID\nStart 0.125 mg PO TID x7 days then 0.25 mg x7 days then increase 0.75 mg/day q7days to goal dose\nMax: 4.5 mg/day\nExtended Release\n0.375-4.5 mg ER PO daily\nStart 0.375 mg ER PO daily then titrate q7 days as above",
+          "tables": []
+        },
+        "Restless_legs_syndrome": {
+          "text": "0.125-0.5 mg PO qhs",
+          "tables": []
+        },
+        "Rapid_eye_movement_sleep_behavior_disorder": {
+          "text": "0.125-1.5 mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parkinson's_Disease": {
+      "text": "Immediate release\n0.5-1.5 mg PO TID\nStart 0.125 mg PO TID x7 days then 0.25 mg x7 days then increase 0.75 mg/day q7days to goal dose\nMax: 4.5 mg/day\nExtended Release\n0.375-4.5 mg ER PO daily\nStart 0.375 mg ER PO daily then titrate q7 days as above",
+      "subsections": {
+        "Restless_legs_syndrome": {
+          "text": "0.125-0.5 mg PO qhs",
+          "tables": []
+        },
+        "Rapid_eye_movement_sleep_behavior_disorder": {
+          "text": "0.125-1.5 mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Restless_legs_syndrome": {
+      "text": "0.125-0.5 mg PO qhs",
+      "subsections": {
+        "Rapid_eye_movement_sleep_behavior_disorder": {
+          "text": "0.125-1.5 mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rapid_eye_movement_sleep_behavior_disorder": {
+      "text": "0.125-1.5 mg PO qhs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Restless_leg_syndrome": {
+          "text": "5+ yo\n0.125-0.375 mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Restless_leg_syndrome": {
+      "text": "5+ yo\n0.125-0.375 mg PO qhs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C\nCaution advised during pregnancy\nRisk of embryo-fetal death based on animal data at 4-5 MRHD",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Consider alternative\nTheoretical decreased milk production based on decreased prolactin levels",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 30-50: Start 0.125 mg BID or 0.375 gm ER qod then titrate\nCrCl <30: Avoid use\nPediatric: Dose adjustment may be required, but has not been defined.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C\nCaution advised during pregnancy\nRisk of embryo-fetal death based on animal data at 4-5 MRHD",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Consider alternative\nTheoretical decreased milk production based on decreased prolactin levels",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 30-50: Start 0.125 mg BID or 0.375 gm ER qod then titrate\nCrCl <30: Avoid use\nPediatric: Dose adjustment may be required, but has not been defined.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Consider alternative\nTheoretical decreased milk production based on decreased prolactin levels",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 30-50: Start 0.125 mg BID or 0.375 gm ER qod then titrate\nCrCl <30: Avoid use\nPediatric: Dose adjustment may be required, but has not been defined.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl 30-50: Start 0.125 mg BID or 0.375 gm ER qod then titrate\nCrCl <30: Avoid use\nPediatric: Dose adjustment may be required, but has not been defined.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Sudden sleep episodes\nHypotension\n, orthostatic\nSyncope\nDyskinesia\nExtrapyramidal symptoms\nHallucination\nRhabdomyolysis\nNMS\n-like symptoms if acute withdrawal",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nDyskinesia\n, Extrapryamidal symptoms\nNausea\n,\nconstipation\n,\ndiarrhea\n,\nvomiting\nInsomnia\n,\nhallucination\n,\nheadache\n,\nfatigue\nConfusion, abnormal dreams, amnesia, compulsive behaviors\nUrinary frequency\nMuscle spasm, peripheral edema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Sudden sleep episodes\nHypotension\n, orthostatic\nSyncope\nDyskinesia\nExtrapyramidal symptoms\nHallucination\nRhabdomyolysis\nNMS\n-like symptoms if acute withdrawal",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nDyskinesia\n, Extrapryamidal symptoms\nNausea\n,\nconstipation\n,\ndiarrhea\n,\nvomiting\nInsomnia\n,\nhallucination\n,\nheadache\n,\nfatigue\nConfusion, abnormal dreams, amnesia, compulsive behaviors\nUrinary frequency\nMuscle spasm, peripheral edema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypotension\nDyskinesia\n, Extrapryamidal symptoms\nNausea\n,\nconstipation\n,\ndiarrhea\n,\nvomiting\nInsomnia\n,\nhallucination\n,\nheadache\n,\nfatigue\nConfusion, abnormal dreams, amnesia, compulsive behaviors\nUrinary frequency\nMuscle spasm, peripheral edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8h (IR); 8.5h (ER)\nMetabolism: None\nExcretion: Urine 90%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Stimulates dopamine receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parkinson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        }
+      ]
+    }
+  }
+}

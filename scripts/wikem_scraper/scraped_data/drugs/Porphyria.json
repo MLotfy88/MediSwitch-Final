@@ -1,0 +1,723 @@
+{
+  "drug_name": "Porphyria",
+  "url": "https://wikem.org/wiki/Porphyria",
+  "scraped_at": "2026-01-10T08:00:15.973669",
+  "sections": {
+    "Background": {
+      "text": "Inherited and/or acquired disorders in which there are enzyme deficiencies involved in heme biosynthesis, resulting in build up of porphyrins (Porphobilinogen and δ-Aminolevulinic acid [ALA])\nHeme is a component of many essential hemoproteins, such as hemoglobin, myoglobin and cytochromes, including the cytochrome\nP450\nenzymes\nAcute intermittent porphyria\nis most salient to EM\nThe first enzyme in the heme production pathway is ALA synthase (ALAS), which controls the rate of heme synthesis in the liver. This enzyme is down-regulated by heme.\nThe enzyme deficiencies in porphyria limit the capacity of the liver to increase heme synthesis.\nWhen drugs, hormones or other factors that induce ALAS and CYPs are given, ALA and porphobilinogen (PBG) are overproduced and accumulate, and a neurovisceral attack may develop",
+      "subsections": {
+        "Triggers": {
+          "text": "Infection, metabolic stress\nCarbohydrate deficiency\nTobacco\n,\nETOH\nPorphyrinogenic drugs:\nsulfonamides\n,\nbarbiturates\n,\nrifampin\nor\nmetoclopramide",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "P450",
+          "url": "https://wikem.org/wiki/P450"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        }
+      ]
+    },
+    "Triggers": {
+      "text": "Infection, metabolic stress\nCarbohydrate deficiency\nTobacco\n,\nETOH\nPorphyrinogenic drugs:\nsulfonamides\n,\nbarbiturates\n,\nrifampin\nor\nmetoclopramide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Gastrointestinal symptoms\nAcute\nabdominal pain\n(85-90% of attacks)\nNausea/vomiting\nConstipation\nand/or\ndiarrhea\nPort wine-colored urine\nDiffuse musculoskeletal pain\nNeurologic symptoms\nHeadache\nSeizure\nSensory loss\n(40%)\nAn indication of a severe and potentially life-threatening attack\nNeuropathy can progress to\nrespiratory failure\nin hours or days\nBladder paresis\nPsychiatric symptoms\nIncreased risk of schizophrenia and bipolar disorder\n[1]\nAgitation\n,\nconfusion\n, combativeness\nAnxiety & depression (55%)\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Bladder paresis",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        },
+        "Extra-abdominal_Sources_of_Abdominal_pain": {
+          "text": "MI\nAortic Dissection\nPNA\nPE\nTesticular Torsion\nHerpes Zoster\nMuscle spasm\nSpinal pathology\nStrep Pharyngitis\n(peds)\nMononucleosis\nDKA\nETOH Ketoacidosis\nUremia\nSickle Cell Crisis\nSLE\nVasculitis\nGlaucoma\nHyperthyroidism\nMethanol Poisoning\nHeavy Metal\ntoxicity\nAddison's disease\nPorphyria\nAcute intermittent porphyria\nParoxysmal nocturnal hemoglobinuria\nBlack widow spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Strep Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "ETOH Ketoacidosis",
+          "url": "https://wikem.org/wiki/ETOH_Ketoacidosis"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Sickle Cell Crisis",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Crisis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Methanol Poisoning",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Heavy Metal",
+          "url": "https://wikem.org/wiki/Heavy_Metal"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Black widow spider bite",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {
+        "Extra-abdominal_Sources_of_Abdominal_pain": {
+          "text": "MI\nAortic Dissection\nPNA\nPE\nTesticular Torsion\nHerpes Zoster\nMuscle spasm\nSpinal pathology\nStrep Pharyngitis\n(peds)\nMononucleosis\nDKA\nETOH Ketoacidosis\nUremia\nSickle Cell Crisis\nSLE\nVasculitis\nGlaucoma\nHyperthyroidism\nMethanol Poisoning\nHeavy Metal\ntoxicity\nAddison's disease\nPorphyria\nAcute intermittent porphyria\nParoxysmal nocturnal hemoglobinuria\nBlack widow spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Strep Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "ETOH Ketoacidosis",
+          "url": "https://wikem.org/wiki/ETOH_Ketoacidosis"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Sickle Cell Crisis",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Crisis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Methanol Poisoning",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Heavy Metal",
+          "url": "https://wikem.org/wiki/Heavy_Metal"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Black widow spider bite",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        }
+      ]
+    },
+    "Extra-abdominal_Sources_of_Abdominal_pain": {
+      "text": "MI\nAortic Dissection\nPNA\nPE\nTesticular Torsion\nHerpes Zoster\nMuscle spasm\nSpinal pathology\nStrep Pharyngitis\n(peds)\nMononucleosis\nDKA\nETOH Ketoacidosis\nUremia\nSickle Cell Crisis\nSLE\nVasculitis\nGlaucoma\nHyperthyroidism\nMethanol Poisoning\nHeavy Metal\ntoxicity\nAddison's disease\nPorphyria\nAcute intermittent porphyria\nParoxysmal nocturnal hemoglobinuria\nBlack widow spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Strep Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "ETOH Ketoacidosis",
+          "url": "https://wikem.org/wiki/ETOH_Ketoacidosis"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Sickle Cell Crisis",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Crisis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Methanol Poisoning",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Heavy Metal",
+          "url": "https://wikem.org/wiki/Heavy_Metal"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Black widow spider bite",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider porphyria in patients with abdominal pain that is unexplained after an initial workup has excluded common causes (appendicitis, cholecystitis, pancreatitis, etc).\nSpot urinary porphobilinogen (sendout at most hospitals)\nNormal = 0-4mg/day\nacute attack, spot urine can be 20-200mg/L\nRecurrent attacks in a patient with proven acute porphyria are usually similar and can be diagnosed on clinical grounds without biochemical reconfirmation.\nHyponatremia\nhas been documented in up to 60% of acute attacks & is attributed to elevated levels of antidiuretic hormone\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Opioid\nanalgesia\nAvoid/discontinue offending medications\nMost seizure medications are contraindicated\nAcceptable\nAEDs\ninclude:\nbenzodiazepines\n,\ngabapentin\n,\nlevetiracetam\n, and vigabatrin\nAvoid\nReglan\nTreat any\nelectrolyte abnormalities\nBeta-blockers\ncan be used to treat\ntachycardia",
+      "subsections": {
+        "Decrease_heme_synthesis": {
+          "text": "Glucose\nload\nDecreases porphyrin production\nE.g. D5NS at 2L/24h\n[4]\n==\nAvoid D5/D10W due to risk of hyponatremia given significant free water load\nHemin (Panhematin®)\nDecreases porphyrin production, significantly more potent than glucose\nRecommended for most cases requiring hospitalization, or any with neurologic symptoms\n3-4mg/kg IV daily x 4 days\nCan cause significant infusion site phlebitis - minimize by reconstituting in 25% albumin; consider central venous administration\nVery expensive - around $8000 per 313mg vial",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Reglan",
+          "url": "https://wikem.org/wiki/Reglan"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        }
+      ]
+    },
+    "Decrease_heme_synthesis": {
+      "text": "Glucose\nload\nDecreases porphyrin production\nE.g. D5NS at 2L/24h\n[4]\n==\nAvoid D5/D10W due to risk of hyponatremia given significant free water load\nHemin (Panhematin®)\nDecreases porphyrin production, significantly more potent than glucose\nRecommended for most cases requiring hospitalization, or any with neurologic symptoms\n3-4mg/kg IV daily x 4 days\nCan cause significant infusion site phlebitis - minimize by reconstituting in 25% albumin; consider central venous administration\nVery expensive - around $8000 per 313mg vial",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission to a monitored bed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal pain\nAcute intermittent porphyria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "{{#widget:YouTube|id=VQHz0Qu-OjA}}\nhttp://www.porphyriafoundation.com/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "NR Pimstone, KE. Anderson, B Freilich. (n.d.). Emergency Room Guidelines for Acute Porphyria. American Porphyria Foundation. Retrieved January 11, 2016. From\nhttp://www.porphyriafoundation.com/for-healthcare-professionals/emergency-guidelines-for-acute-porphyria#Treatment\n.\nAnderson KE, Bloomer, JR Bonkovsky HL, Kushner JP, Pierach CA, Pimstone NR and Desnick RJ. Recommendations for the Diagnosis and Treatment of the Acute Porphyrias. Ann Intern Med 2005; 142:439-450\nDeacon AC, Peters TJ, Identification of acute porphyria: evaluation of a commercial screening test for urinary porphobilinogen. Ann Clin Biochem. 1998;35:726-32",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

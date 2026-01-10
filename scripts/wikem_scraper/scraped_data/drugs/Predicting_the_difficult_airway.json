@@ -1,0 +1,313 @@
+{
+  "drug_name": "Predicting_the_difficult_airway",
+  "url": "https://wikem.org/wiki/Predicting_the_difficult_airway",
+  "scraped_at": "2026-01-10T08:00:26.108983",
+  "sections": {
+    "Difficult_to_Bag_Ventilate": {
+      "text": "",
+      "subsections": {
+        "Difficult_BVM_(MOANS)": {
+          "text": "M\nask seal\nO\nbesity\nA\nged\nN\no teeth\nS\ntiffness (resistance to ventilation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Difficult_to_Intubate": {
+      "text": "A grade 3 on the upper lip bite test (patient unable to bite upper lip with lower teeth) has LR+ 14 for predicting difficult intubation\n[1]",
+      "subsections": {
+        "LEMON": {
+          "text": "An airway assessment score based on criteria of the LEMON method is able to successfully stratify the risk of intubation difficulty in the emergency department.\n[2]",
+          "tables": []
+        },
+        "LOOK": {
+          "text": "Look at the patient externally for characteristics that are known to cause difficult laryngoscopy, intubation or ventilation\n[3]\nTrauma\nShort neck\nMicrognathia\nPrior surgery\nMay also be difficult to bag\nBody mass index\nAdvanced age\nBeard\nNo teeth\nSnoring\nDentures",
+          "tables": []
+        },
+        "Evaluate_3-3-2-1": {
+          "text": "3 - Ideally the distance between the patient's incisor teeth should be at least 3 finger breadths\n3 - Distance between the hyoid bone and the chin should be at least 3 finger breadths\n2 - Distance between the thyroid notch and the floor of the mouth should be at least 2 finger breadths\n1 - Lower jaw should not sublux more than 1cm",
+          "tables": []
+        },
+        "Mallampati": {
+          "text": "The patient sits upright, opens mouth and protrudes tongue\nGrades are based on visibility of the uvula, posterior pharynx, hard, and soft palate",
+          "tables": []
+        },
+        "Obstruction": {
+          "text": "Assess for conditions leading to airway obstruction such as\nPeritonsillar Abscess (PTA)\n, trauma, or\nEpiglottitis\n.",
+          "tables": []
+        },
+        "Neck_Mobility": {
+          "text": "Patient places chin down onto their chest and extend their neck.\nRemove the hard collar and provide manual stabilization in trauma patients.\nPoor neck mobility impacts ability to have airway access alignment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        }
+      ]
+    },
+    "LEMON": {
+      "text": "An airway assessment score based on criteria of the LEMON method is able to successfully stratify the risk of intubation difficulty in the emergency department.\n[2]",
+      "subsections": {
+        "LOOK": {
+          "text": "Look at the patient externally for characteristics that are known to cause difficult laryngoscopy, intubation or ventilation\n[3]\nTrauma\nShort neck\nMicrognathia\nPrior surgery\nMay also be difficult to bag\nBody mass index\nAdvanced age\nBeard\nNo teeth\nSnoring\nDentures",
+          "tables": []
+        },
+        "Evaluate_3-3-2-1": {
+          "text": "3 - Ideally the distance between the patient's incisor teeth should be at least 3 finger breadths\n3 - Distance between the hyoid bone and the chin should be at least 3 finger breadths\n2 - Distance between the thyroid notch and the floor of the mouth should be at least 2 finger breadths\n1 - Lower jaw should not sublux more than 1cm",
+          "tables": []
+        },
+        "Mallampati": {
+          "text": "The patient sits upright, opens mouth and protrudes tongue\nGrades are based on visibility of the uvula, posterior pharynx, hard, and soft palate",
+          "tables": []
+        },
+        "Obstruction": {
+          "text": "Assess for conditions leading to airway obstruction such as\nPeritonsillar Abscess (PTA)\n, trauma, or\nEpiglottitis\n.",
+          "tables": []
+        },
+        "Neck_Mobility": {
+          "text": "Patient places chin down onto their chest and extend their neck.\nRemove the hard collar and provide manual stabilization in trauma patients.\nPoor neck mobility impacts ability to have airway access alignment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    }
+  }
+}

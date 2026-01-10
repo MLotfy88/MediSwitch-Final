@@ -1,0 +1,232 @@
+{
+  "drug_name": "Posterior_vitreous_detachment",
+  "url": "https://wikem.org/wiki/Posterior_vitreous_detachment",
+  "scraped_at": "2026-01-10T08:00:19.889110",
+  "sections": {
+    "Background": {
+      "text": "A common age-related condition in which the vitreous gel that fills the eye separates from the retina.\nSeparation of posterior vitreous from the retina, as a result of vitreous degeneration and shrinkage\nUsually benign, however in acute phase can occasionally lead to serious complications such as retinal tears or detachment\n[1]\n.\nPrompt diagnosis and surgical treatment of retinal detachment can prevent impending vision loss or can restore vision",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Age (prevalence):\n50-59 yrs = 24%\n80-90 yrs = 87%\nMyopia\nTrauma\nIntraocular inflammation\nOcular surgery\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Age (prevalence):\n50-59 yrs = 24%\n80-90 yrs = 87%\nMyopia\nTrauma\nIntraocular inflammation\nOcular surgery\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sudden onset of\nfloaters\n(black spots, cobwebs)\nFlashes of light\n(\nphotopsia\n), especially in peripheral vision\nA curtain or shadow in the visual field (if associated with retinal tear/detachment)\nBlurred vision or mild visual disturbances\nOften asymptomatic in early stages or in less dramatic detachments",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "floaters",
+          "url": "https://wikem.org/wiki/Floaters"
+        },
+        {
+          "text": "Flashes of light",
+          "url": "https://wikem.org/wiki/Flashes_of_light"
+        },
+        {
+          "text": "photopsia",
+          "url": "https://wikem.org/wiki/Photopsia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Acute_onset_flashers_and_floaters": {
+      "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Detailed history (onset, nature of floaters/flashes, visual changes)\nVisual acuity testing\nPupillary examination (look for afferent pupillary defect)\nDilated fundoscopic exam (to assess for retinal tear or detachment)\nSlit-lamp exam with vitreous evaluation\nB-scan\nocular ultrasound\nif fundus not visible due to hemorrhage or opacity\n[3]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis based on symptoms and direct visualization of a detached posterior hyaloid membrane or Weiss ring on fundoscopic or slit-lamp exam\nConfirm absence of retinal tear or detachment via dilated eye exam or imaging",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Detailed history (onset, nature of floaters/flashes, visual changes)\nVisual acuity testing\nPupillary examination (look for afferent pupillary defect)\nDilated fundoscopic exam (to assess for retinal tear or detachment)\nSlit-lamp exam with vitreous evaluation\nB-scan\nocular ultrasound\nif fundus not visible due to hemorrhage or opacity\n[3]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis based on symptoms and direct visualization of a detached posterior hyaloid membrane or Weiss ring on fundoscopic or slit-lamp exam\nConfirm absence of retinal tear or detachment via dilated eye exam or imaging",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis based on symptoms and direct visualization of a detached posterior hyaloid membrane or Weiss ring on fundoscopic or slit-lamp exam\nConfirm absence of retinal tear or detachment via dilated eye exam or imaging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "See disposition chart below\nNo specific ED; focus of care is in determination of rapidity of ophthalmologic evaluation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Referral_of_patients_with_presumed_posterior_vitreous_detachment": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Assessment": "Floaters and/or flashes with “red flag” sign of acuteRetinal DetachmentMonocular visual field loss (“curtain of darkness”)",
+                "Disposition": "Same-day (immediate) referral to retinal surgeon (minutes may matter)High risk ofRetinal Detachment"
+              },
+              {
+                "Clinical Assessment": "New-onset floaters and/or flashes with high-risk features:Subjective or objective visual reduction examinationVitreous hemorrhage or vitreous pigment on slitlamp examination",
+                "Disposition": "Same-day referral to ophthalmologist or retinal surgeon"
+              },
+              {
+                "Clinical Assessment": "New-onset floaters and/or flashes without high-risk features",
+                "Disposition": "Referral to ophthalmologist within 1 to 2 weeksCounsel patient regarding high-risk features"
+              },
+              {
+                "Clinical Assessment": "Recently diagnosed uncomplicated posterior vitreous detachment withNew shower of floatersNew subjective visual reduction",
+                "Disposition": "Rereferral to ophthalmologist to rule out new retinal tear or detachmentContact ophtho to help determine urgency"
+              },
+              {
+                "Clinical Assessment": "Stable symptoms of floaters and/or flashes for several weeks to months, not particularly bothersome to the patient and without high-risk features",
+                "Disposition": "Elective referral to ophthalmologistCounsel patient regarding high-risk features that should prompt urgent reassessment"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Referral_of_patients_with_presumed_posterior_vitreous_detachment": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Clinical Assessment": "Floaters and/or flashes with “red flag” sign of acuteRetinal DetachmentMonocular visual field loss (“curtain of darkness”)",
+            "Disposition": "Same-day (immediate) referral to retinal surgeon (minutes may matter)High risk ofRetinal Detachment"
+          },
+          {
+            "Clinical Assessment": "New-onset floaters and/or flashes with high-risk features:Subjective or objective visual reduction examinationVitreous hemorrhage or vitreous pigment on slitlamp examination",
+            "Disposition": "Same-day referral to ophthalmologist or retinal surgeon"
+          },
+          {
+            "Clinical Assessment": "New-onset floaters and/or flashes without high-risk features",
+            "Disposition": "Referral to ophthalmologist within 1 to 2 weeksCounsel patient regarding high-risk features"
+          },
+          {
+            "Clinical Assessment": "Recently diagnosed uncomplicated posterior vitreous detachment withNew shower of floatersNew subjective visual reduction",
+            "Disposition": "Rereferral to ophthalmologist to rule out new retinal tear or detachmentContact ophtho to help determine urgency"
+          },
+          {
+            "Clinical Assessment": "Stable symptoms of floaters and/or flashes for several weeks to months, not particularly bothersome to the patient and without high-risk features",
+            "Disposition": "Elective referral to ophthalmologistCounsel patient regarding high-risk features that should prompt urgent reassessment"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Onset Flashers and Floaters",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Onset Flashers and Floaters",
+          "url": "https://wikem.org/wiki/Acute_Onset_Flashers_and_Floaters"
+        }
+      ]
+    }
+  }
+}

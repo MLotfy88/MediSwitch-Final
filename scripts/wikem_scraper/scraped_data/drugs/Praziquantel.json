@@ -1,0 +1,140 @@
+{
+  "drug_name": "Praziquantel",
+  "url": "https://wikem.org/wiki/Praziquantel",
+  "scraped_at": "2026-01-10T08:00:23.696691",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiparasitic\n, anthelmintic\nDosage Forms: 600\nRoutes of Administration: Oral\nCommon Trade Names: Biltricide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiparasitic",
+          "url": "https://wikem.org/wiki/Antiparasitic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Schistosomiasis: 20mg/kg PO tid x1 day\nSeparate doses by 4-6h\nGive with food\nDo not crush/chew\nLiver flukes: 25mg/kg PO tid x1 day\nSeparate doses by 4-6h\nCysticercosis: 50mg/kg/day PO divided q8h x14 days\nOff label use\nTapeworms: 5-25mg/kg PO x1\nOff label use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Only_for_children>_4_y/o": {
+          "text": "Schistosomiasis: 20mg/kg PO bid-tid x1 day\nLiver flukes: 25mg/kg PO tid x1-2 days\nCysticercosis: 50mg/kg/day PO divided q8h x14 days\nOff label use\nTape worms: 5-25mg/kg PO x1\nOff label use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Only_for_children>_4_y/o": {
+      "text": "Schistosomiasis: 20mg/kg PO bid-tid x1 day\nLiver flukes: 25mg/kg PO tid x1-2 days\nCysticercosis: 50mg/kg/day PO divided q8h x14 days\nOff label use\nTape worms: 5-25mg/kg PO x1\nOff label use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor B",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No renal dosing defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution advised with Child-Pugh Class B or C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No renal dosing defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Caution advised with Child-Pugh Class B or C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Caution advised with Child-Pugh Class B or C",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nocular schistosomiasis\nocular cysticercosis\nCNS lesions\nseizure history",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Generalized hypersensitivity reaction\npolyserositis\narrhythmias\nbradycardia\nventricular fibrillation\nAV block\ndiarrhea, bloody\nseizures\nJarisch-Herxheimer reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "malaise\nheadache\ndizziness\nabdominal pain/nausea and vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Generalized hypersensitivity reaction\npolyserositis\narrhythmias\nbradycardia\nventricular fibrillation\nAV block\ndiarrhea, bloody\nseizures\nJarisch-Herxheimer reaction",
+      "subsections": {
+        "Common": {
+          "text": "malaise\nheadache\ndizziness\nabdominal pain/nausea and vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "malaise\nheadache\ndizziness\nabdominal pain/nausea and vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-1.5hr\nMetabolism: CYP450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Increases cell membrane permeability",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Schistosomiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "References": {
+      "text": "<Epocrates, UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

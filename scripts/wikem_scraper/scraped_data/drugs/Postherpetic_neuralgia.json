@@ -1,0 +1,227 @@
+{
+  "drug_name": "Postherpetic_neuralgia",
+  "url": "https://wikem.org/wiki/Postherpetic_neuralgia",
+  "scraped_at": "2026-01-10T08:00:20.683888",
+  "sections": {
+    "Background": {
+      "text": "Postherpetic neuralgia (PHN) is a complication of\nacute herpes zoster\n(AHZ), also known as \"\nShingles\n\"\nWhile\nAHZ\nis usually painful, PHN refers to pain which becomes severe and persists after the vesicular lesions of\nAHZ\nare no longer forming. There is an overlap between acute zoster pain and PHN pain, and together they are sometimes referred to as Zoster Associated Pain. However, if pain persists beyond 3 months from time of vesicle formation it is termed PHN.\nPHN can be challenging to treat, and may require trials and titration of various therapies, usually in a primary care or neurology outpatient setting.\nPrevention of PHN by early antiviral therapy for\nAHZ\nis a cornerstone of ED management\nPrevention of shingles via childhood\nvaricella\nvaccination and adult shingles vaccination, in a primary care setting is the single most important preventing step",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute herpes zoster",
+          "url": "https://wikem.org/wiki/Acute_herpes_zoster"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "AHZ",
+          "url": "https://wikem.org/wiki/AHZ"
+        },
+        {
+          "text": "AHZ",
+          "url": "https://wikem.org/wiki/AHZ"
+        },
+        {
+          "text": "AHZ",
+          "url": "https://wikem.org/wiki/AHZ"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain in the same unilateral dermatomal distribution of a recent\nshingles\nepisode which becomes more severe after the vesicular phase of shingles\nLancinating or burning pain which persists beyond 3 months after the\nshingles\nepisode\nScars may be evident from recent\nshingles\nHypersensitivity, hypoesthesia, hyperalgesia or allodynia in the area.\nAutonomic dysfunction in the area (e.g. excessive sweating)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Acute zoster pain (see\nShingles\n)\nOther neuralgias and neuropathies (trigeminal, diabetic)\nOther causes of chest wall pain (e.g.,\nrib injury\n)\nPleuritic\nchest pain\n(\npulmonary embolism\n,\npneumothorax\n,\npneumonia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "Other neuralgias and neuropathies (trigeminal, diabetic)",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "rib injury",
+          "url": "https://wikem.org/wiki/Rib_injury"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Typically, none\nIf other differentials are considered, workup would be tailored to confirming or ruling out those processes",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis based on recent acute zoster plus ongoing symptoms.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Typically, none\nIf other differentials are considered, workup would be tailored to confirming or ruling out those processes",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis based on recent acute zoster plus ongoing symptoms.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis based on recent acute zoster plus ongoing symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Treating shingles with antiviral therapy within 72 hours of rash appearance plays an important role in preventing the development of PHN. For immunocompromised patients, antiviral therapy should be initiated even after 72 hours.\nRoutine vaccination for varicella in childhood, and for shingles prevention in adulthood is the best prevention for shingles and PHN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Given that the pain is often difficult to control, much of the management will occur in a primary care setting, and will often involve trials and titration of multiple agents.",
+      "subsections": {
+        "ED_setting": {
+          "text": "Gabapentinoid, either\nPregabalin\nor\nGabapentin\nLidocaine\n5% patch\nFor short term relief of acute pain exacerbation:\nKetamine\ninfusion\nIV\nlidocaine\ninfusion",
+          "tables": []
+        },
+        "Primary_Care_Setting": {
+          "text": "Tricyclic antidepressants (TCA)\nTopical capsaicin\nInvasive\nSympathetic blockage\nSpinal stimulators",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregabalin",
+          "url": "https://wikem.org/wiki/Pregabalin"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "ED_setting": {
+      "text": "Gabapentinoid, either\nPregabalin\nor\nGabapentin\nLidocaine\n5% patch\nFor short term relief of acute pain exacerbation:\nKetamine\ninfusion\nIV\nlidocaine\ninfusion",
+      "subsections": {
+        "Primary_Care_Setting": {
+          "text": "Tricyclic antidepressants (TCA)\nTopical capsaicin\nInvasive\nSympathetic blockage\nSpinal stimulators",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregabalin",
+          "url": "https://wikem.org/wiki/Pregabalin"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Primary_Care_Setting": {
+      "text": "Tricyclic antidepressants (TCA)\nTopical capsaicin\nInvasive\nSympathetic blockage\nSpinal stimulators",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Usually discharge home with pain management as described above.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Shingles",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        }
+      ]
+    },
+    "References": {
+      "text": "J. Tang, Y. Zhang, C. Liu, A. Zeng, and L. Song, “Therapeutic Strategies for Postherpetic Neuralgia: Mechanisms, Treatments, and Perspectives,” Curr Pain Headache Rep, vol. 27, no. 9, pp. 307–319, Sep. 2023, doi: 10.1007/s11916-023-01146-x.\nE. Y. Gan, E. A. L. Tian, and H. L. Tey, “Management of herpes zoster and post-herpetic neuralgia,” Am J Clin Dermatol, vol. 14, no. 2, pp. 77–85, Apr. 2013, doi: 10.1007/s40257-013-0011-2.\nC. Gruver and K. B. Guthmiller, “Postherpetic Neuralgia,” in StatPearls, Treasure Island (FL): StatPearls Publishing, 2024. Accessed: May 08, 2024. [Online]. Available:\nhttp://www.ncbi.nlm.nih.gov/books/NBK493198/\n“Herpes Zoster Treatment & Management: Approach Considerations, Topical Treatments, Pharmacologic Therapy for Herpes Zoster,” Jun. 2023, Accessed: May 08, 2024. [Online]. Available:\nhttps://emedicine.medscape.com/article/1132465-treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "drug_name": "Polycythemia_vera",
+  "url": "https://wikem.org/wiki/Polycythemia_vera",
+  "scraped_at": "2026-01-10T08:00:11.384933",
+  "sections": {
+    "Background": {
+      "text": "Chronic\nmyeloproliferative disorder\nAbnormal proliferation is seen in all 3 cell lines\nTypically in elderly\nCan be asymptomatic or symptomatic\nCommonly caused by JAK2 mutation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myeloproliferative disorder",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Severe burning pain in the hands or feet accompanied by a reddish or bluish coloration of the skin\nSuspected with any combination of the following:\n[1]\nAbnormally\nelevated\nhemoglobin levels (>18 g/dL in men; 16 g/dL in women)\nNormal oxygen saturation\nBleeding complications\nPortal vein thrombosis\nSplenomegaly\nPlethora\nPruritus\nafter bathing\nMay develop\nhyperviscosity syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Polycythemia_(Erythrocytosis)": {
+          "text": "Primary polycythemia (\nmyeloproliferative disorders\n)\nPolycythemia vera\nEssential thrombocytosis\nChronic myelogenous leukemia\n(CML)\nLeukemoid Reaction\nMyelofibrosis\nSecondary polycythemia (due to increased EPO)\nChronic\nhypoxemia\n(e.g.\nCOPD\n, physiologic\naltitude\nadaptations or\nchronic mountain sickness\n)\nCarboxyhemoglobin (chronic smokers)\nRenal cyst or hydronephrosis\nEPO-secreting tumors (RCC,\nhepatocellular carcinoma\n)\nAnabolic steroid abuse\nAbnormal hemoglobins",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Chronic myelogenous leukemia",
+          "url": "https://wikem.org/wiki/Chronic_myelogenous_leukemia"
+        },
+        {
+          "text": "Leukemoid Reaction",
+          "url": "https://wikem.org/wiki/Leukemoid_Reaction"
+        },
+        {
+          "text": "Myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "altitude",
+          "url": "https://wikem.org/wiki/Altitude"
+        },
+        {
+          "text": "chronic mountain sickness",
+          "url": "https://wikem.org/wiki/Chronic_mountain_sickness"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChem 7\nESR\nEPO decreased\nBone marrow biopsy sometimes needed",
+          "tables": []
+        },
+        "Evaluation": {
+          "text": "Criteria 1: All category A\nCriteria 2: First 3 of category A and any 2 of category B",
+          "tables": [
+            [
+              {
+                "Category A": "Increased RBC Mass (Men >18.5, Women >16.5)",
+                "Category B": "Thrombocytosis (>400,000)"
+              },
+              {
+                "Category A": "Normal SPO2 (>92%)",
+                "Category B": "Leukocytosis (>12,000)"
+              },
+              {
+                "Category A": "Splenomegaly",
+                "Category B": "Leukocyte Alk Phos >100"
+              },
+              {
+                "Category A": "",
+                "Category B": "Vit B12 >900"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nChem 7\nESR\nEPO decreased\nBone marrow biopsy sometimes needed",
+      "subsections": {
+        "Evaluation": {
+          "text": "Criteria 1: All category A\nCriteria 2: First 3 of category A and any 2 of category B",
+          "tables": [
+            [
+              {
+                "Category A": "Increased RBC Mass (Men >18.5, Women >16.5)",
+                "Category B": "Thrombocytosis (>400,000)"
+              },
+              {
+                "Category A": "Normal SPO2 (>92%)",
+                "Category B": "Leukocytosis (>12,000)"
+              },
+              {
+                "Category A": "Splenomegaly",
+                "Category B": "Leukocyte Alk Phos >100"
+              },
+              {
+                "Category A": "",
+                "Category B": "Vit B12 >900"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Phlebotomy with goal hematocrit < 45%\n[3]\nPatients with severe plethora, with\nAMS\nor vascular compromise can be bled vigorously with removal of 500 mL of whole blood rapidly\nOtherwise, gradual phlebotomy of 500-1000 mL over 24 hours is preferred in less emergent cases\nASA\n81mg\nMyelosuppressive agents (\nhydroxyurea\n,\ninterferon-α\n)\nIf presenting with\nhyperviscosity syndrome\n:\nIVF\nand phlebotomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hyperviscosity syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        }
+      ]
+    }
+  }
+}

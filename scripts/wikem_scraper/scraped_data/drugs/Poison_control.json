@@ -1,0 +1,36 @@
+{
+  "drug_name": "Poison_control",
+  "url": "https://wikem.org/wiki/Poison_control",
+  "scraped_at": "2026-01-10T08:00:10.950784",
+  "sections": {
+    "National_Poison_Control_Number_1-800-222-1222": {
+      "text": "Will connect you to the closest poison control center to your location.\nOperates 24/7/365",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "56 Poison Control (PC) centers cover the entire population of the United States\n[1]\nThese centers received 3.06 million calls for service in 2013. (of which 2.2 million were for human exposure consultation)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC Medical Management Guidelines (MMGs)\nAmerican Association of Poison Control Centers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "drug_name": "Preeclampsia",
+  "url": "https://wikem.org/wiki/Preeclampsia",
+  "scraped_at": "2026-01-10T08:00:25.021540",
+  "sections": {
+    "Background": {
+      "text": "New-onset hypertensive disorder related to pregnancy, resulting in significant maternal morbidity and mortality worldwide\nPreeclampsia and eclampsia are diagnosed after 20wks gestation and <4wk post-partum\nMay occur sooner with gestational trophoblastic disease\nOnly 10% of cases occur prior to 34wk\nPathogenesis: Abnormalities in placental arterial vasculature, including spiral arteries, in early pregnancy can lead to relative hypoperfusion of placenta; subsequent release of growth factors lead to maternal endothelial dysfunction causing systemic hypertension",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Past history of preeclampsia\nFirst pregnancy\nFamily history of preeclampsia\nPreexisting medical conditions:\nPregestational\ndiabetes\nBlood pressure ≥130/80 mm Hg at the first prenatal visit\nAntiphospholipid antibodies\nBody mass index ≥26.1\nChronic kidney disease\nTwin pregnancies\nAdvanced maternal age",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Past history of preeclampsia\nFirst pregnancy\nFamily history of preeclampsia\nPreexisting medical conditions:\nPregestational\ndiabetes\nBlood pressure ≥130/80 mm Hg at the first prenatal visit\nAntiphospholipid antibodies\nBody mass index ≥26.1\nChronic kidney disease\nTwin pregnancies\nAdvanced maternal age",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Headache\n, new-onset\nEdema\nRUQ or epigastric pain\nElevated BP\nWith increasing severity;\npulmonary edema\n,\nvisual changes\n, and\naltered mental status\ncan develop",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Elevated BP",
+          "url": "https://wikem.org/wiki/Elevated_BP"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        },
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Note that all lab findings must not be explained by an pre-existing condition in order to be relevant for diagnosis of preeclampsia\nCBC\nThrombocytopenia\nsuggests severe disease\nChemistry\nElevated creatinine suggests severe disease\nLFTs\nAST/ALT elevation suggests severe disease\nUrinalysis\nProteinuria\n(see diagnostic criteria)\nBaseline Mg level\nLDH\nElevation suggests microangiopathic hemolysis\nUric acid level\nOften elevated in preeclampsia but is not counted as a severe feature",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Note that all lab findings must not be explained by an pre-existing condition in order to be relevant for diagnosis of preeclampsia\nCBC\nThrombocytopenia\nsuggests severe disease\nChemistry\nElevated creatinine suggests severe disease\nLFTs\nAST/ALT elevation suggests severe disease\nUrinalysis\nProteinuria\n(see diagnostic criteria)\nBaseline Mg level\nLDH\nElevation suggests microangiopathic hemolysis\nUric acid level\nOften elevated in preeclampsia but is not counted as a severe feature",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "ACOG_Diagnostic_Criteria": {
+      "text": "In 2013, ACOG has decided to remove proteinuria from the definition of severity of preeclampsia but it is still part of the diagnosis\n[1]\nSee ACOG practice bulletin 222, Gestational Hypertension and Preeclampsia, for recommendations on diagnosis\n[2]\nDiagnosis is based on blood pressure and proteinuria, OR based on blood pressure and presence of end-organ dysfunction (severe features) without proteinuria\nAlthough most patients will have proteinuria, lack of it does not preclude diagnosis\nPresence of \"severe features\" (see below) signify end organ dysfunction\nPreeclampsia superimposed upon chronic hypertension: Similar criteria to preeclampsia, with acutely worsening blood pressure superimposed upon baseline, along with proteinuria and/or end-organ dysfunction",
+      "subsections": {
+        "Blood_Pressure": {
+          "text": "Hypertension: Systolic ≥140 mmHg or diastolic ≥90 mmHg on 2 occasions at least 4 hours apart, after 20 weeks gestation with previously normal BPs\nSevere range hypertension: Systolic ≥160 mmHg or diastolic ≥110 mmHg acutely requiring emergent blood pressure decreases",
+          "tables": []
+        },
+        "Proteinuria": {
+          "text": "Proteinuria ≥300mg in a 24-hour urine collection\nSpot (one-time) protein(mg/dL)/creatinine(mg/dL) ratio ≥0.3\n2+ on urine dipstick (not preferred; use if no quantitative measurement is unavailable)",
+          "tables": []
+        },
+        "Severe_Features": {
+          "text": "Systolic BP ≥160 or diastolic BP ≥110, 2 occasions, 4 hours apart, while on bed rest (unless antihypertension meds were started before this time)\nThrombocytopenia\nplatelets <100,000/mL\nProgressive renal insufficiency (creatinine >1.1mg/dL or doubling of creatinine concentration in absence of renal disease)\nReduced urine output < 30 cc/hr may indicate severe disease\nElevated\nLiver function tests\n(2x normal concentration), severe persistent\nRUQ\n/\nepigastric pain\nunresponsive to medications and no alternative diagnosis\nPulmonary edema\nNew onset headache resistant to medications, or\nvisual disturbance\n(scotomata, blurry vision, loss of vision)\nNote that massive proteinuria is not currently a criteria for severe feature",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Liver function tests",
+          "url": "https://wikem.org/wiki/Liver_function_tests"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Blood_Pressure": {
+      "text": "Hypertension: Systolic ≥140 mmHg or diastolic ≥90 mmHg on 2 occasions at least 4 hours apart, after 20 weeks gestation with previously normal BPs\nSevere range hypertension: Systolic ≥160 mmHg or diastolic ≥110 mmHg acutely requiring emergent blood pressure decreases",
+      "subsections": {
+        "Proteinuria": {
+          "text": "Proteinuria ≥300mg in a 24-hour urine collection\nSpot (one-time) protein(mg/dL)/creatinine(mg/dL) ratio ≥0.3\n2+ on urine dipstick (not preferred; use if no quantitative measurement is unavailable)",
+          "tables": []
+        },
+        "Severe_Features": {
+          "text": "Systolic BP ≥160 or diastolic BP ≥110, 2 occasions, 4 hours apart, while on bed rest (unless antihypertension meds were started before this time)\nThrombocytopenia\nplatelets <100,000/mL\nProgressive renal insufficiency (creatinine >1.1mg/dL or doubling of creatinine concentration in absence of renal disease)\nReduced urine output < 30 cc/hr may indicate severe disease\nElevated\nLiver function tests\n(2x normal concentration), severe persistent\nRUQ\n/\nepigastric pain\nunresponsive to medications and no alternative diagnosis\nPulmonary edema\nNew onset headache resistant to medications, or\nvisual disturbance\n(scotomata, blurry vision, loss of vision)\nNote that massive proteinuria is not currently a criteria for severe feature",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Liver function tests",
+          "url": "https://wikem.org/wiki/Liver_function_tests"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Proteinuria": {
+      "text": "Proteinuria ≥300mg in a 24-hour urine collection\nSpot (one-time) protein(mg/dL)/creatinine(mg/dL) ratio ≥0.3\n2+ on urine dipstick (not preferred; use if no quantitative measurement is unavailable)",
+      "subsections": {
+        "Severe_Features": {
+          "text": "Systolic BP ≥160 or diastolic BP ≥110, 2 occasions, 4 hours apart, while on bed rest (unless antihypertension meds were started before this time)\nThrombocytopenia\nplatelets <100,000/mL\nProgressive renal insufficiency (creatinine >1.1mg/dL or doubling of creatinine concentration in absence of renal disease)\nReduced urine output < 30 cc/hr may indicate severe disease\nElevated\nLiver function tests\n(2x normal concentration), severe persistent\nRUQ\n/\nepigastric pain\nunresponsive to medications and no alternative diagnosis\nPulmonary edema\nNew onset headache resistant to medications, or\nvisual disturbance\n(scotomata, blurry vision, loss of vision)\nNote that massive proteinuria is not currently a criteria for severe feature",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Liver function tests",
+          "url": "https://wikem.org/wiki/Liver_function_tests"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Severe_Features": {
+      "text": "Systolic BP ≥160 or diastolic BP ≥110, 2 occasions, 4 hours apart, while on bed rest (unless antihypertension meds were started before this time)\nThrombocytopenia\nplatelets <100,000/mL\nProgressive renal insufficiency (creatinine >1.1mg/dL or doubling of creatinine concentration in absence of renal disease)\nReduced urine output < 30 cc/hr may indicate severe disease\nElevated\nLiver function tests\n(2x normal concentration), severe persistent\nRUQ\n/\nepigastric pain\nunresponsive to medications and no alternative diagnosis\nPulmonary edema\nNew onset headache resistant to medications, or\nvisual disturbance\n(scotomata, blurry vision, loss of vision)\nNote that massive proteinuria is not currently a criteria for severe feature",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Liver function tests",
+          "url": "https://wikem.org/wiki/Liver_function_tests"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "BP_Control": {
+          "text": "For pregnant women with chronic hypertension, BP should be maintained between systolic 120-160mmHg and diastolic 80-105mmHg\nEither labetalol or hydralazine can be used for initial control.  Maximize the dose of each drug before adding on additional therapy.",
+          "tables": []
+        },
+        "Urgent_BP_Control": {
+          "text": "Labetalol\nOption 1: Initial 10-20mgIV; then doses of 20-80mg IV q20-30min PRN to total of 300mg\nOption 2: Constant IV infusion of 1-2mg/min\nHydralazine\nOption 1: 5mg IV or IM, then 5-10mg IV q20-40min PRN to total of 30mg\nOption 2: Constant infusion 0.5-10mg/hr\nNifedipine\nOption 1: 10-20mg PO, repeat in 30 minutes PRN; then 10-20mg q 2-6 hours",
+          "tables": []
+        },
+        "Oral_Antihypertension": {
+          "text": "These meds can be used safely to control hypertension of pregnancy\nLabetalol\nOption 1: 200-2400mg/d in two to three divided doses\nNifedipine ER\nOption 1: 30-120mg/d\nMethyldopa\nOption 1: 0.5-3 g/d in two to three divided doses\nThiazide diuretics - used as second line agent\nACE Inhibitor/ARB - CONTRAINDICATED IN PREGNANCY DUE TO TERATOGENICITY",
+          "tables": []
+        },
+        "Delivery_Timing": {
+          "text": "Preeclampsia without severe features, delivery at 37 weeks\nPreeclampsia with severe features\nBefore fetal viability, delivery after maternal stabilization, expectant management is not recommended\nViable fetus at 33 6/7 weeks or less may delay delivery for 48 hours of corticosteroids if maternal and fetal conditions remain stable with any of the following:\nPPROM\nLabor\nLow platelet count <100,000mL\nPersistent abnormal LFT(2x normal concentration)\nIUGR<5%\nSevere oligohydramnios (AFI<5cm)\nReversed end diastolic flow on umbilical artery Doppler studies\nNew onset renal dysfunction or increasing renal dysfunction.\nDo not delay delivery after initial maternal stabilization regardless of gestational age for women with PreE with severe features complicated by any of the following:\nUncontrollable severe hypertension\nEclampsia\nPulmonary edema\nPlacental abruption\nDisseminated intravascular coagulation\nEvidence of nonreassuring fetal status\nIntrapartum fetal demise",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "The USPSTF recommends the use of low-dose aspirin (81mg/d) as preventive medication after 12 weeks of gestation in women who are at high risk for preeclampsia. (\nB recommendation\n)\n[3]\nPer ACOG Task Force: For women with prior preeclampsia that led to delivery before 34 weeks of gestation or occurring in more than one pregnancy, offer daily low-dose aspirin (81mg or less) late in the first trimester.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nifedipine ER",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "B recommendation",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        }
+      ]
+    },
+    "BP_Control": {
+      "text": "For pregnant women with chronic hypertension, BP should be maintained between systolic 120-160mmHg and diastolic 80-105mmHg\nEither labetalol or hydralazine can be used for initial control.  Maximize the dose of each drug before adding on additional therapy.",
+      "subsections": {
+        "Urgent_BP_Control": {
+          "text": "Labetalol\nOption 1: Initial 10-20mgIV; then doses of 20-80mg IV q20-30min PRN to total of 300mg\nOption 2: Constant IV infusion of 1-2mg/min\nHydralazine\nOption 1: 5mg IV or IM, then 5-10mg IV q20-40min PRN to total of 30mg\nOption 2: Constant infusion 0.5-10mg/hr\nNifedipine\nOption 1: 10-20mg PO, repeat in 30 minutes PRN; then 10-20mg q 2-6 hours",
+          "tables": []
+        },
+        "Oral_Antihypertension": {
+          "text": "These meds can be used safely to control hypertension of pregnancy\nLabetalol\nOption 1: 200-2400mg/d in two to three divided doses\nNifedipine ER\nOption 1: 30-120mg/d\nMethyldopa\nOption 1: 0.5-3 g/d in two to three divided doses\nThiazide diuretics - used as second line agent\nACE Inhibitor/ARB - CONTRAINDICATED IN PREGNANCY DUE TO TERATOGENICITY",
+          "tables": []
+        },
+        "Delivery_Timing": {
+          "text": "Preeclampsia without severe features, delivery at 37 weeks\nPreeclampsia with severe features\nBefore fetal viability, delivery after maternal stabilization, expectant management is not recommended\nViable fetus at 33 6/7 weeks or less may delay delivery for 48 hours of corticosteroids if maternal and fetal conditions remain stable with any of the following:\nPPROM\nLabor\nLow platelet count <100,000mL\nPersistent abnormal LFT(2x normal concentration)\nIUGR<5%\nSevere oligohydramnios (AFI<5cm)\nReversed end diastolic flow on umbilical artery Doppler studies\nNew onset renal dysfunction or increasing renal dysfunction.\nDo not delay delivery after initial maternal stabilization regardless of gestational age for women with PreE with severe features complicated by any of the following:\nUncontrollable severe hypertension\nEclampsia\nPulmonary edema\nPlacental abruption\nDisseminated intravascular coagulation\nEvidence of nonreassuring fetal status\nIntrapartum fetal demise",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "The USPSTF recommends the use of low-dose aspirin (81mg/d) as preventive medication after 12 weeks of gestation in women who are at high risk for preeclampsia. (\nB recommendation\n)\n[3]\nPer ACOG Task Force: For women with prior preeclampsia that led to delivery before 34 weeks of gestation or occurring in more than one pregnancy, offer daily low-dose aspirin (81mg or less) late in the first trimester.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nifedipine ER",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "B recommendation",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        }
+      ]
+    },
+    "Urgent_BP_Control": {
+      "text": "Labetalol\nOption 1: Initial 10-20mgIV; then doses of 20-80mg IV q20-30min PRN to total of 300mg\nOption 2: Constant IV infusion of 1-2mg/min\nHydralazine\nOption 1: 5mg IV or IM, then 5-10mg IV q20-40min PRN to total of 30mg\nOption 2: Constant infusion 0.5-10mg/hr\nNifedipine\nOption 1: 10-20mg PO, repeat in 30 minutes PRN; then 10-20mg q 2-6 hours",
+      "subsections": {
+        "Oral_Antihypertension": {
+          "text": "These meds can be used safely to control hypertension of pregnancy\nLabetalol\nOption 1: 200-2400mg/d in two to three divided doses\nNifedipine ER\nOption 1: 30-120mg/d\nMethyldopa\nOption 1: 0.5-3 g/d in two to three divided doses\nThiazide diuretics - used as second line agent\nACE Inhibitor/ARB - CONTRAINDICATED IN PREGNANCY DUE TO TERATOGENICITY",
+          "tables": []
+        },
+        "Delivery_Timing": {
+          "text": "Preeclampsia without severe features, delivery at 37 weeks\nPreeclampsia with severe features\nBefore fetal viability, delivery after maternal stabilization, expectant management is not recommended\nViable fetus at 33 6/7 weeks or less may delay delivery for 48 hours of corticosteroids if maternal and fetal conditions remain stable with any of the following:\nPPROM\nLabor\nLow platelet count <100,000mL\nPersistent abnormal LFT(2x normal concentration)\nIUGR<5%\nSevere oligohydramnios (AFI<5cm)\nReversed end diastolic flow on umbilical artery Doppler studies\nNew onset renal dysfunction or increasing renal dysfunction.\nDo not delay delivery after initial maternal stabilization regardless of gestational age for women with PreE with severe features complicated by any of the following:\nUncontrollable severe hypertension\nEclampsia\nPulmonary edema\nPlacental abruption\nDisseminated intravascular coagulation\nEvidence of nonreassuring fetal status\nIntrapartum fetal demise",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "The USPSTF recommends the use of low-dose aspirin (81mg/d) as preventive medication after 12 weeks of gestation in women who are at high risk for preeclampsia. (\nB recommendation\n)\n[3]\nPer ACOG Task Force: For women with prior preeclampsia that led to delivery before 34 weeks of gestation or occurring in more than one pregnancy, offer daily low-dose aspirin (81mg or less) late in the first trimester.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nifedipine ER",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "B recommendation",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        }
+      ]
+    },
+    "Oral_Antihypertension": {
+      "text": "These meds can be used safely to control hypertension of pregnancy\nLabetalol\nOption 1: 200-2400mg/d in two to three divided doses\nNifedipine ER\nOption 1: 30-120mg/d\nMethyldopa\nOption 1: 0.5-3 g/d in two to three divided doses\nThiazide diuretics - used as second line agent\nACE Inhibitor/ARB - CONTRAINDICATED IN PREGNANCY DUE TO TERATOGENICITY",
+      "subsections": {
+        "Delivery_Timing": {
+          "text": "Preeclampsia without severe features, delivery at 37 weeks\nPreeclampsia with severe features\nBefore fetal viability, delivery after maternal stabilization, expectant management is not recommended\nViable fetus at 33 6/7 weeks or less may delay delivery for 48 hours of corticosteroids if maternal and fetal conditions remain stable with any of the following:\nPPROM\nLabor\nLow platelet count <100,000mL\nPersistent abnormal LFT(2x normal concentration)\nIUGR<5%\nSevere oligohydramnios (AFI<5cm)\nReversed end diastolic flow on umbilical artery Doppler studies\nNew onset renal dysfunction or increasing renal dysfunction.\nDo not delay delivery after initial maternal stabilization regardless of gestational age for women with PreE with severe features complicated by any of the following:\nUncontrollable severe hypertension\nEclampsia\nPulmonary edema\nPlacental abruption\nDisseminated intravascular coagulation\nEvidence of nonreassuring fetal status\nIntrapartum fetal demise",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "The USPSTF recommends the use of low-dose aspirin (81mg/d) as preventive medication after 12 weeks of gestation in women who are at high risk for preeclampsia. (\nB recommendation\n)\n[3]\nPer ACOG Task Force: For women with prior preeclampsia that led to delivery before 34 weeks of gestation or occurring in more than one pregnancy, offer daily low-dose aspirin (81mg or less) late in the first trimester.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nifedipine ER",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "B recommendation",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        }
+      ]
+    },
+    "Delivery_Timing": {
+      "text": "Preeclampsia without severe features, delivery at 37 weeks\nPreeclampsia with severe features\nBefore fetal viability, delivery after maternal stabilization, expectant management is not recommended\nViable fetus at 33 6/7 weeks or less may delay delivery for 48 hours of corticosteroids if maternal and fetal conditions remain stable with any of the following:\nPPROM\nLabor\nLow platelet count <100,000mL\nPersistent abnormal LFT(2x normal concentration)\nIUGR<5%\nSevere oligohydramnios (AFI<5cm)\nReversed end diastolic flow on umbilical artery Doppler studies\nNew onset renal dysfunction or increasing renal dysfunction.\nDo not delay delivery after initial maternal stabilization regardless of gestational age for women with PreE with severe features complicated by any of the following:\nUncontrollable severe hypertension\nEclampsia\nPulmonary edema\nPlacental abruption\nDisseminated intravascular coagulation\nEvidence of nonreassuring fetal status\nIntrapartum fetal demise",
+      "subsections": {
+        "Prevention": {
+          "text": "The USPSTF recommends the use of low-dose aspirin (81mg/d) as preventive medication after 12 weeks of gestation in women who are at high risk for preeclampsia. (\nB recommendation\n)\n[3]\nPer ACOG Task Force: For women with prior preeclampsia that led to delivery before 34 weeks of gestation or occurring in more than one pregnancy, offer daily low-dose aspirin (81mg or less) late in the first trimester.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "B recommendation",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "The USPSTF recommends the use of low-dose aspirin (81mg/d) as preventive medication after 12 weeks of gestation in women who are at high risk for preeclampsia. (\nB recommendation\n)\n[3]\nPer ACOG Task Force: For women with prior preeclampsia that led to delivery before 34 weeks of gestation or occurring in more than one pregnancy, offer daily low-dose aspirin (81mg or less) late in the first trimester.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "B recommendation",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        }
+      ]
+    },
+    "Seizure_Prophylaxis": {
+      "text": "Magnesium\nOption 1: Load 4-6 grams 10% magnesium sulfate in 100ml solution IV over 20 minutes, then continuous infusion of Magnesium sulfate maintenance 1-2 grams/hour\nOption 2: Magnesium sulfate 10 grams of 50% solution IM (5 grams in each buttock) if no IV accessMagnesium sulfate on infusion pump\nDespite\ncategory D\nlabel, can be safely used for <48h to allow administration of betamethasone prior to preterm delivery\nContraindications:\npulmonary edema\n,\nrenal failure\n,\nmyasthenia gravis\nObserve for loss of reflexes, respiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "category D",
+          "url": "https://wikem.org/wiki/Pregnancy_risk_drug"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consult with OB/GYN regarding discharge versus admission\nSome cases of mild preeclampsia may be candidates for outpatient therapy\nClose follow up and return precautions is key\nRepeat lab tests 1-2x per week (platelet count, creatinine, AST)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Postpartum Emergencies\nEclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum Emergencies",
+          "url": "https://wikem.org/wiki/Postpartum_Emergencies"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "LITFL: Pre-eclampsia and Eclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

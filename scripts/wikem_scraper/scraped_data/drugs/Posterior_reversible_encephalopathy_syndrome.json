@@ -1,0 +1,499 @@
+{
+  "drug_name": "Posterior_reversible_encephalopathy_syndrome",
+  "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome",
+  "scraped_at": "2026-01-10T08:00:22.503120",
+  "sections": {
+    "Background": {
+      "text": "PRES, a rare syndrome characterized by acute neurological symptoms due to vasogenic edema in the posterior brain\nSomewhat of a misnomer as changes seen on MRI are not limited to the posterior fossa and symptoms are not always reversible\nRenamed reversible posterior leukoencephalopathy syndrome (RPLS) by the American Academy of Neurology\nRisk factors:\nmalignant hypertension\n, kidney disease, autoimmune disease, immunosuppression,\neclampsia\nPoorly understood entity, but thought to be due to 2 theoretical mechanisms:\n[1]\nHypertension-hyperperfusion: Hypertensive emergency causes vascular extravasation of fluid and vasogenic edema\nEndothelial dysfunction: Autoimmune or cytotoxic etiologies lead to endothelial dysfunction, leading to increased  vascular permeability and edema\nEpidemiolgy: Most frequently in middle-aged females, which may be related to underlying disease\n[2]\nPrognosis: While many case reports suggest PRES is benign and fully reversible, the consequences of PRES, including intracerebral hemorrhage or extensive intracerebral edema, can result in residual neurologic deficits",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Onset may range from hours to days\nSeizures\n, including\nstatus epilepticus\nEncephalopathy\n, ranging from mild\naltered mental status\nto\ncoma\nVisual disturbances\nHypertension\nNote that some proportion of patients may not exhibit significant hypertension; of note, a significant proportion of patients also had no known pre-existing hypertension\n[4]\nHeadache\n,\nvomiting\n, or other focal neurological deficits",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Acute_Vision_Loss_(Noninflamed)"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Eclampsia\nVascular\nHypertensive Encephalopathy\nCVA\nIntracranial Hemorrhage\nCerebral Venous Thrombosis\nInfectious\nEncephalitis\nMeningitis\nMetabolic\nHepatic Encephalopathy\nHyponatremia\nPorphyria\nDemyelinating Disorders (e.g.\nMS\n)\nSLE\nPsychiatric disorder",
+      "subsections": {
+        "Seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Emergency"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "Cerebral Venous Thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_Venous_Thrombosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Seizure": {
+      "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT head\nto rule out other etiologies\nMRI\noften shows symmetrical cerebral edema, showing as hyperintensities on T2-weighted image in the posterior circulation, most commonly in the parietal-occipital areas\n[5]\nHowever, any brain region can be involved, including the frontal and temporal lobes\nFocus on\naltered mental status workup\n, with PRES as diagnosis of exclusion\nConsider\nlumbar puncture\nif there is a concern for\nmeningitis\nor\nencephalitis\nMay require EEG for detection of status epilepticus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "altered mental status workup",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status#Work-Up"
+        },
+        {
+          "text": "lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat the underlying etiology\nControl Blood Pressure\n, considering gradual reduction to avoid sudden hypoperfusion\nDiscontinue immunosuppressants or cytotoxic medications\nStandard seizure management, if seizures are present\nIn cases related to\nPreeclampsia\nor\nHELLP syndrome\n, consider early OB/GYN consultation for delivery\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Control Blood Pressure",
+          "url": "https://wikem.org/wiki/Hypertensive_Emergency#Treatment"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nConsider ICU for blood pressure titration, obtunded state, status epilepticus, intracranial hemorrhage, or other serious sequelae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertensive emergency\nEclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    }
+  }
+}

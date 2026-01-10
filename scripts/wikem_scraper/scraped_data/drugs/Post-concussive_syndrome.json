@@ -1,0 +1,228 @@
+{
+  "drug_name": "Post-concussive_syndrome",
+  "url": "https://wikem.org/wiki/Post-concussive_syndrome",
+  "scraped_at": "2026-01-10T08:00:14.141021",
+  "sections": {
+    "Background": {
+      "text": "Definition:  Concussion symptoms that continue beyond the expected 7-10d recovery period\n[1]\nPatients with more severe symptoms on initial presentation may be more at risk\nHistory of migraine, depression, anxiety also a possible risk factor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Headache\nDizziness\nDecreased concentration\nMemory problems\nSleep disturbance\nIrritability\nFatigue\nVisual disturbances\nJudgment problems\nDepression\nAnxiety\nAnosmia and decreased taste",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Neuropsychological testing\nSymptom checklist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Symptomatic management is mainstay of therapy\nAvoid re-injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge\nRefer to TBI clinic or neuropsychologist, if availabe",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Head trauma (main)\nMild traumatic brain injury\n(Concussion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        }
+      ]
+    }
+  }
+}

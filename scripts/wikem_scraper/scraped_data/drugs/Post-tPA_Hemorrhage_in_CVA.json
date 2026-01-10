@@ -1,0 +1,64 @@
+{
+  "drug_name": "Post-tPA_Hemorrhage_in_CVA",
+  "url": "https://wikem.org/wiki/Post-tPA_Hemorrhage_in_CVA",
+  "scraped_at": "2026-01-10T08:00:17.469362",
+  "sections": {
+    "Background": {
+      "text": "Consider post-tPA\nICH\nif patient develops:\nDecreased LOC\nWorsening neurologic exam\nIncreased\nweakness\nNew\nheadache\nSudden rise in\nBP\nMay also have\nGI bleed\n, mucosal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Decreased LOC",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "BP",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immediately Stop tPA, even on suspicion of post-tPA hemorrhage\nSTAT\nHead CT\nIf no bleeding: resume tPA\nIf post-tPA ICH present\nObtain baseline labs: CBC, D-dimer, type and screen, fibrinogen. Check INR 15 minutes after FFP administration (see below) and platelets 15 min after platelet administration (see below)\nAdminister cryoprecipitate 10 units for fibrinogen replacement\nIf fibrinogen returns > 150, discontinue, if < 150, recheck in 1 hr and if still low administer additional 20 units\nAdminister FFP 20 ml/kg\nIf INR > 1.4, give additional 20 ml/kg)\nAdminister 2-5 packs platelets\nIf platelets <100,000, give additional PRN to achieve Plt > 100,000\nSTAT neurosurgery consult\nConsider TXA 15 mg/kg IV in 250 ml x 20 min if ongoing hemorrhage after above measures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "CVA (tPA Criteria)\nCVA (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (tPA Criteria)",
+          "url": "https://wikem.org/wiki/CVA_(tPA_Criteria)"
+        },
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        }
+      ]
+    }
+  }
+}

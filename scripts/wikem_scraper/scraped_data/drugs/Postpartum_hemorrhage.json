@@ -1,0 +1,565 @@
+{
+  "drug_name": "Postpartum_hemorrhage",
+  "url": "https://wikem.org/wiki/Postpartum_hemorrhage",
+  "scraped_at": "2026-01-10T08:00:21.876502",
+  "sections": {
+    "Background": {
+      "text": "Leading cause of maternal death worldwide\nApprox 3% to 5% of obstetric patients will experience PPH\n[1]\nIn the US, 11% of maternal deaths are caused by hemorrhage\n[2]",
+      "subsections": {
+        "Causes": {
+          "text": "Uterine atony (responsible for 80% of cases)\nRetained placental tissue\nLower genital tract lacerations\nUterine rupture\nUterine inversion\nUnderlying\ncoagulation abnormalities\nAbnormal placentation:\nPlacenta previa\n,\nplacenta accreta",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Retained placental tissue",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "coagulation abnormalities",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Uterine atony (responsible for 80% of cases)\nRetained placental tissue\nLower genital tract lacerations\nUterine rupture\nUterine inversion\nUnderlying\ncoagulation abnormalities\nAbnormal placentation:\nPlacenta previa\n,\nplacenta accreta",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Retained placental tissue",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "coagulation abnormalities",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Loss of ≥1000mL blood in first 24hrs and up to 12wks postpartum with either vaginal\ndelivery\nor c-section, or bleeding associated with signs/symptoms of hypovolemia within 24 hours of birth\n[3]\nHowever, ≥500mL of blood loss after vaginal delivery is abnormal and warrants further investigation\nUsually within 24 hours of delivery\nIf occurs more than 24 hours after delivery, consider: retained POC,\ncoagulopathy\n, etc\nOther pertinent definitions\n[4]\n:\nAny blood loss to compromising hemodynamic stability",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "delivery",
+          "url": "https://wikem.org/wiki/Delivery"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Quantitative blood loss (QBL): Volumetric containers (V-drapes) can quantify vaginal blood loss\nCBC\nCMP\nCoags\nType and cross",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "Quantitative blood loss (QBL): Volumetric containers (V-drapes) can quantify vaginal blood loss\nCBC\nCMP\nCoags\nType and cross",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause:\nT\none,\nT\nrauma,\nT\nissue,\nT\nhrombosis\nConsider\nFluid resuscitation\nvs\nblood products\nfor hemodynamic instability\nEarly\ntranexamic acid\n(TXA) reduces death due to bleeding\n[5]\n[6]\nGive as soon as possible relative to bleeding onset\n1 g IV of TXA over 10 min, with 2nd dose 30 min later if continual bleed\nOR\nbleed restarts within 24 hrs after 1st dose\n[7]\nNo difference between placebo and TXA in adverse events, including thromboembolism\nAll-cause mortality and hysterectomy not reduced with TXA",
+      "subsections": {
+        "Tone": {
+          "text": "Uterine atony\n(boggy uterus)\nAssess intravaginally for lower segment atony, which may occur even when the fundus is well-contracted\nUterine massage\nExternal uterine massage stimulates uterine contraction\nBimanual massage: One fist is placed intravaginally in the anterior fornix. Other hand massages the fundus while compressing against the vaginal hand.\nOxytocin\n(Pitocin)\n1st-line and most important drug\nIV options:\n20 IU in 1 L of NS at 250 mL/hr (up to 500 mL over 10 minutes if necessary)\n[8]\n80 IU in 500 cc NS bag run wide open (decreased the need for additional oxytocin and the risk of a 6% or greater decline in hematocrit).\n[9]\nIM option (if no IV):\n10 IU IM x 1\nMisoprostol\n(Cytotec)\n600mcg SL or 1000 mcg rectally\nMethylergonovine\n(Methergine)\n0.2mg IM q2-4 hrs\nRelative contraindication in patients with hypertension or\nPreeclampsia\n; may consider in severely unstable BP\nCarboprost\n(Hemabate)\n250mcg IM q15 min (avoid in patients with asthma)\nBakri balloon placement\nFill with warm 500ml NS (or large/multiple Foleys or pack)\nUse US to place to top of fundus and ensure no retained placenta\nUterine/vaginal packing\nKerlix packing may be utilized when balloon is not available, but can result in increased rates of iatrogenic foreign body and infection\nUterine artery embolization\nMay be considered in a stable patient, if bleeding persists",
+          "tables": []
+        },
+        "Trauma": {
+          "text": "Genital tract tear\nExamine for tears in vaginal, cervical, and perineal areas under good lighting and suction\nSuture\nlacerations\n- simple running or figure of eight with 3-0 or 2-0 absorbable\nDeep lacerations such as those by the cervix may require\nOR\nDrain hematomas >3 cm",
+          "tables": []
+        },
+        "Tissue": {
+          "text": "Retained placental tissue\nEvaluate placenta for pieces that may become retained products\nPelvic exam may be normal other than blood\nDetect with manual exam or US\nManual removal\nAdequate anesthesia and uterine relaxants may be needed (if no atony noted)\nManual exploration of uterine cavity with sterile gloves, removal of placental fragments\nCurettage",
+          "tables": []
+        },
+        "Thrombin": {
+          "text": "Reverse any coagulopathies\nLabs - platelets, coags, fibrinogen, d-dimer\nReplace appropriate blood components",
+          "tables": []
+        },
+        "Uterine_inversion": {
+          "text": "Manually replace placenta\nOR\ndo not remove placenta until uterus has been replaced:\nPlace hand inside the vagina and push the fundus cephalad along long axis of vagina\nPrompt replacement important since cervix contracts over time creating a constriction ring\nDiscontinue uterotonic meds (oxytocin) if uterus not reduced, and consider uterine relaxant options:\n[10]\n:\nNitroglycerine\nIV 50-250 mcg bolus over 1-2 min, then up to x3-4 additional doses q3-5 min to relax uterus\nMagnesium\n4-6 g IV over 15 min\nTerbutaline\n0.25mg IV or SQ\nAfter replacement:\nFundal massage ± bimanual massage/compression\nThen\noxytocin\ninfusion with 40 units in 1 L of NS at 200-1000 cc/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "Uterine atony",
+          "url": "https://wikem.org/wiki/Uterine_atony"
+        },
+        {
+          "text": "Oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "Misoprostol",
+          "url": "https://wikem.org/wiki/Misoprostol"
+        },
+        {
+          "text": "Methylergonovine",
+          "url": "https://wikem.org/wiki/Methylergonovine"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Carboprost",
+          "url": "https://wikem.org/wiki/Carboprost"
+        },
+        {
+          "text": "lacerations",
+          "url": "https://wikem.org/wiki/Lacerations"
+        },
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        }
+      ]
+    },
+    "Tone": {
+      "text": "Uterine atony\n(boggy uterus)\nAssess intravaginally for lower segment atony, which may occur even when the fundus is well-contracted\nUterine massage\nExternal uterine massage stimulates uterine contraction\nBimanual massage: One fist is placed intravaginally in the anterior fornix. Other hand massages the fundus while compressing against the vaginal hand.\nOxytocin\n(Pitocin)\n1st-line and most important drug\nIV options:\n20 IU in 1 L of NS at 250 mL/hr (up to 500 mL over 10 minutes if necessary)\n[8]\n80 IU in 500 cc NS bag run wide open (decreased the need for additional oxytocin and the risk of a 6% or greater decline in hematocrit).\n[9]\nIM option (if no IV):\n10 IU IM x 1\nMisoprostol\n(Cytotec)\n600mcg SL or 1000 mcg rectally\nMethylergonovine\n(Methergine)\n0.2mg IM q2-4 hrs\nRelative contraindication in patients with hypertension or\nPreeclampsia\n; may consider in severely unstable BP\nCarboprost\n(Hemabate)\n250mcg IM q15 min (avoid in patients with asthma)\nBakri balloon placement\nFill with warm 500ml NS (or large/multiple Foleys or pack)\nUse US to place to top of fundus and ensure no retained placenta\nUterine/vaginal packing\nKerlix packing may be utilized when balloon is not available, but can result in increased rates of iatrogenic foreign body and infection\nUterine artery embolization\nMay be considered in a stable patient, if bleeding persists",
+      "subsections": {
+        "Trauma": {
+          "text": "Genital tract tear\nExamine for tears in vaginal, cervical, and perineal areas under good lighting and suction\nSuture\nlacerations\n- simple running or figure of eight with 3-0 or 2-0 absorbable\nDeep lacerations such as those by the cervix may require\nOR\nDrain hematomas >3 cm",
+          "tables": []
+        },
+        "Tissue": {
+          "text": "Retained placental tissue\nEvaluate placenta for pieces that may become retained products\nPelvic exam may be normal other than blood\nDetect with manual exam or US\nManual removal\nAdequate anesthesia and uterine relaxants may be needed (if no atony noted)\nManual exploration of uterine cavity with sterile gloves, removal of placental fragments\nCurettage",
+          "tables": []
+        },
+        "Thrombin": {
+          "text": "Reverse any coagulopathies\nLabs - platelets, coags, fibrinogen, d-dimer\nReplace appropriate blood components",
+          "tables": []
+        },
+        "Uterine_inversion": {
+          "text": "Manually replace placenta\nOR\ndo not remove placenta until uterus has been replaced:\nPlace hand inside the vagina and push the fundus cephalad along long axis of vagina\nPrompt replacement important since cervix contracts over time creating a constriction ring\nDiscontinue uterotonic meds (oxytocin) if uterus not reduced, and consider uterine relaxant options:\n[10]\n:\nNitroglycerine\nIV 50-250 mcg bolus over 1-2 min, then up to x3-4 additional doses q3-5 min to relax uterus\nMagnesium\n4-6 g IV over 15 min\nTerbutaline\n0.25mg IV or SQ\nAfter replacement:\nFundal massage ± bimanual massage/compression\nThen\noxytocin\ninfusion with 40 units in 1 L of NS at 200-1000 cc/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Uterine atony",
+          "url": "https://wikem.org/wiki/Uterine_atony"
+        },
+        {
+          "text": "Oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "Misoprostol",
+          "url": "https://wikem.org/wiki/Misoprostol"
+        },
+        {
+          "text": "Methylergonovine",
+          "url": "https://wikem.org/wiki/Methylergonovine"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Carboprost",
+          "url": "https://wikem.org/wiki/Carboprost"
+        },
+        {
+          "text": "lacerations",
+          "url": "https://wikem.org/wiki/Lacerations"
+        },
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        }
+      ]
+    },
+    "Trauma": {
+      "text": "Genital tract tear\nExamine for tears in vaginal, cervical, and perineal areas under good lighting and suction\nSuture\nlacerations\n- simple running or figure of eight with 3-0 or 2-0 absorbable\nDeep lacerations such as those by the cervix may require\nOR\nDrain hematomas >3 cm",
+      "subsections": {
+        "Tissue": {
+          "text": "Retained placental tissue\nEvaluate placenta for pieces that may become retained products\nPelvic exam may be normal other than blood\nDetect with manual exam or US\nManual removal\nAdequate anesthesia and uterine relaxants may be needed (if no atony noted)\nManual exploration of uterine cavity with sterile gloves, removal of placental fragments\nCurettage",
+          "tables": []
+        },
+        "Thrombin": {
+          "text": "Reverse any coagulopathies\nLabs - platelets, coags, fibrinogen, d-dimer\nReplace appropriate blood components",
+          "tables": []
+        },
+        "Uterine_inversion": {
+          "text": "Manually replace placenta\nOR\ndo not remove placenta until uterus has been replaced:\nPlace hand inside the vagina and push the fundus cephalad along long axis of vagina\nPrompt replacement important since cervix contracts over time creating a constriction ring\nDiscontinue uterotonic meds (oxytocin) if uterus not reduced, and consider uterine relaxant options:\n[10]\n:\nNitroglycerine\nIV 50-250 mcg bolus over 1-2 min, then up to x3-4 additional doses q3-5 min to relax uterus\nMagnesium\n4-6 g IV over 15 min\nTerbutaline\n0.25mg IV or SQ\nAfter replacement:\nFundal massage ± bimanual massage/compression\nThen\noxytocin\ninfusion with 40 units in 1 L of NS at 200-1000 cc/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lacerations",
+          "url": "https://wikem.org/wiki/Lacerations"
+        },
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        }
+      ]
+    },
+    "Tissue": {
+      "text": "Retained placental tissue\nEvaluate placenta for pieces that may become retained products\nPelvic exam may be normal other than blood\nDetect with manual exam or US\nManual removal\nAdequate anesthesia and uterine relaxants may be needed (if no atony noted)\nManual exploration of uterine cavity with sterile gloves, removal of placental fragments\nCurettage",
+      "subsections": {
+        "Thrombin": {
+          "text": "Reverse any coagulopathies\nLabs - platelets, coags, fibrinogen, d-dimer\nReplace appropriate blood components",
+          "tables": []
+        },
+        "Uterine_inversion": {
+          "text": "Manually replace placenta\nOR\ndo not remove placenta until uterus has been replaced:\nPlace hand inside the vagina and push the fundus cephalad along long axis of vagina\nPrompt replacement important since cervix contracts over time creating a constriction ring\nDiscontinue uterotonic meds (oxytocin) if uterus not reduced, and consider uterine relaxant options:\n[10]\n:\nNitroglycerine\nIV 50-250 mcg bolus over 1-2 min, then up to x3-4 additional doses q3-5 min to relax uterus\nMagnesium\n4-6 g IV over 15 min\nTerbutaline\n0.25mg IV or SQ\nAfter replacement:\nFundal massage ± bimanual massage/compression\nThen\noxytocin\ninfusion with 40 units in 1 L of NS at 200-1000 cc/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        }
+      ]
+    },
+    "Thrombin": {
+      "text": "Reverse any coagulopathies\nLabs - platelets, coags, fibrinogen, d-dimer\nReplace appropriate blood components",
+      "subsections": {
+        "Uterine_inversion": {
+          "text": "Manually replace placenta\nOR\ndo not remove placenta until uterus has been replaced:\nPlace hand inside the vagina and push the fundus cephalad along long axis of vagina\nPrompt replacement important since cervix contracts over time creating a constriction ring\nDiscontinue uterotonic meds (oxytocin) if uterus not reduced, and consider uterine relaxant options:\n[10]\n:\nNitroglycerine\nIV 50-250 mcg bolus over 1-2 min, then up to x3-4 additional doses q3-5 min to relax uterus\nMagnesium\n4-6 g IV over 15 min\nTerbutaline\n0.25mg IV or SQ\nAfter replacement:\nFundal massage ± bimanual massage/compression\nThen\noxytocin\ninfusion with 40 units in 1 L of NS at 200-1000 cc/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        }
+      ]
+    },
+    "Uterine_inversion": {
+      "text": "Manually replace placenta\nOR\ndo not remove placenta until uterus has been replaced:\nPlace hand inside the vagina and push the fundus cephalad along long axis of vagina\nPrompt replacement important since cervix contracts over time creating a constriction ring\nDiscontinue uterotonic meds (oxytocin) if uterus not reduced, and consider uterine relaxant options:\n[10]\n:\nNitroglycerine\nIV 50-250 mcg bolus over 1-2 min, then up to x3-4 additional doses q3-5 min to relax uterus\nMagnesium\n4-6 g IV over 15 min\nTerbutaline\n0.25mg IV or SQ\nAfter replacement:\nFundal massage ± bimanual massage/compression\nThen\noxytocin\ninfusion with 40 units in 1 L of NS at 200-1000 cc/hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nMay require OR for any of the above etiologies not responsive to first-line treatments",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Emergent delivery\nPostpartum emergencies",
+      "subsections": {
+        "Vaginal_bleeding_(main)": {
+          "text": "Non-pregnant vaginal bleeding\nPrepubertal vaginal bleeding\nPregnant\nVaginal bleeding in pregnancy (less than 20wks)\nVaginal bleeding in pregnancy (greater than 20wks)\nPostpartum hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Postpartum emergencies",
+          "url": "https://wikem.org/wiki/Postpartum_emergencies"
+        },
+        {
+          "text": "Non-pregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Non-pregnant_vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "Pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (greater than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        }
+      ]
+    }
+  }
+}

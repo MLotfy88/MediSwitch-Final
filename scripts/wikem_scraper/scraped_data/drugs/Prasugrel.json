@@ -1,0 +1,380 @@
+{
+  "drug_name": "Prasugrel",
+  "url": "https://wikem.org/wiki/Prasugrel",
+  "scraped_at": "2026-01-10T08:00:23.493783",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: 5, 10 mg\nRoutes of Administration: Oral\nCommon Trade Names: Effient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "10 mg PO QD\nStart: 60 mg PO x1\nFor patients undergoing PCI, give with aspirin 75-325 mg PO QD\nConsider decrease to 5 mg PO QD if < 60 kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B; No known risk of fetal harm based on animal data at up to 30x MRHD\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment for mild impairment. Not defined for severe impairment.\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment for mild impairment. Not defined for severe impairment.\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment for mild impairment. Not defined for severe impairment.\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to drug/class/compon.\nActive bleeding\nStroke\nor\nTIA\nCABG within 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Severe bleeding\nHemorrhage\nTTP\nThrombocytopenia\nAnemia\nLeukopenia\nHepatic impairment\nAtrial fibrillation",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding\nHypertension\nHyperlipidemia\nHeadache\nBack pain\nDyspnea\nNausea\nDizziness\nCough\nHypotension\nFatigue\nChest pain\nAtrial fibrillation\nBradycardia\nLeukopenia\nRash\nFever\nPeripheral edema\nExtremity pain\nDiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Severe bleeding\nHemorrhage\nTTP\nThrombocytopenia\nAnemia\nLeukopenia\nHepatic impairment\nAtrial fibrillation",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding\nHypertension\nHyperlipidemia\nHeadache\nBack pain\nDyspnea\nNausea\nDizziness\nCough\nHypotension\nFatigue\nChest pain\nAtrial fibrillation\nBradycardia\nLeukopenia\nRash\nFever\nPeripheral edema\nExtremity pain\nDiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding\nHypertension\nHyperlipidemia\nHeadache\nBack pain\nDyspnea\nNausea\nDizziness\nCough\nHypotension\nFatigue\nChest pain\nAtrial fibrillation\nBradycardia\nLeukopenia\nRash\nFever\nPeripheral edema\nExtremity pain\nDiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7 hr\nMetabolism: Liver; CYP450: 2B6, 2C9/19 (minor), 3A4 substrate\nExcretion: Urine 68%, feces 27%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Irreversibly binds to P2Y12 adenosine diphosphate receptors, reducing platelet activation and aggregation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    }
+  }
+}

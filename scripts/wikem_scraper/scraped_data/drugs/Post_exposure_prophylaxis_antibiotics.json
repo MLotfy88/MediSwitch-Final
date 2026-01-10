@@ -1,0 +1,438 @@
+{
+  "drug_name": "Post_exposure_prophylaxis_antibiotics",
+  "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics",
+  "scraped_at": "2026-01-10T08:00:18.812727",
+  "sections": {
+    "Hepatitis_B": {
+      "text": "",
+      "subsections": {
+        "Hepatitis_B_Post-Exposure_Prophylaxis": {
+          "text": "Treatment is generally initiated after coordination with occupational health and infectious disease service and based the the exposed patient's vaccination history\n[1]",
+          "tables": []
+        },
+        "Unvaccinated": {
+          "text": "If the source is HBsAg(+) then give HBIG x1 and initiate HBV vaccine in two separate sites\nIf source is HGsAG(-) then start the HBV vaccine series\nIf source blood is unavailable and high risk then give HBIG x1 initiate the HBV series\nIf source blood is low risk and unavailable then begin HBV series",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(one_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x 1 and begin revaccination series\nCan also opt to perform second HBIG administration in one month\nIf source is HBsAg(-) then no treatment is needed\nIf source blood is unavailable and high risk then treat as if HBsAg(+)",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(two_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x2 and no HBV series\nIf source is HGsAG(-) then no treatment is needed\nIf source blood is unavailable then initiate the HBV series",
+          "tables": []
+        },
+        "Treatment_Dosing": {
+          "text": "No contraindications for pregnancy or breast feeding\nHBIG 0.06 mL/kg IM\nGive in opposite arm from hepatitis B vaccine if patient also receiving vaccine\nVaccination series: HBV vaccine options:\nEngerix-B 20mcg IM\nRecombivax HB 10mcg IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatitis_B_Post-Exposure_Prophylaxis": {
+      "text": "Treatment is generally initiated after coordination with occupational health and infectious disease service and based the the exposed patient's vaccination history\n[1]",
+      "subsections": {
+        "Unvaccinated": {
+          "text": "If the source is HBsAg(+) then give HBIG x1 and initiate HBV vaccine in two separate sites\nIf source is HGsAG(-) then start the HBV vaccine series\nIf source blood is unavailable and high risk then give HBIG x1 initiate the HBV series\nIf source blood is low risk and unavailable then begin HBV series",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(one_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x 1 and begin revaccination series\nCan also opt to perform second HBIG administration in one month\nIf source is HBsAg(-) then no treatment is needed\nIf source blood is unavailable and high risk then treat as if HBsAg(+)",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(two_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x2 and no HBV series\nIf source is HGsAG(-) then no treatment is needed\nIf source blood is unavailable then initiate the HBV series",
+          "tables": []
+        },
+        "Treatment_Dosing": {
+          "text": "No contraindications for pregnancy or breast feeding\nHBIG 0.06 mL/kg IM\nGive in opposite arm from hepatitis B vaccine if patient also receiving vaccine\nVaccination series: HBV vaccine options:\nEngerix-B 20mcg IM\nRecombivax HB 10mcg IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HIV": {
+      "text": "",
+      "subsections": {
+        "Superficial_wound_or_solid_needle": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Deep_wound_or_hollow_needle": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give expanded regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Small_volume_(few_drops)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL consider basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give basic regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Large_volume_(splash)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exposure_management_by_wound_type": {
+      "text": "",
+      "subsections": {
+        "Superficial_wound_or_solid_needle": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Deep_wound_or_hollow_needle": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give expanded regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Small_volume_(few_drops)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL consider basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give basic regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Large_volume_(splash)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Percutaneous_Injuries": {
+      "text": "",
+      "subsections": {
+        "Superficial_wound_or_solid_needle": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Deep_wound_or_hollow_needle": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give expanded regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Small_volume_(few_drops)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL consider basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give basic regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Large_volume_(splash)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mucous_Membrane_Exposure": {
+      "text": "",
+      "subsections": {
+        "Small_volume_(few_drops)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL consider basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give basic regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        },
+        "Large_volume_(splash)": {
+          "text": "If HIV+ source asymptomatic or if viral load <15000 RNA/mL give basic regimen\nIf HIV+ with AIDS, acute seroconversion or high viral load give expanded regimen\nIf HIV status unknown then no PEP (consider PEP if possible HIV risk from source)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Treatment_Regimens": {
+      "text": "Post exposure prophylaxis is not recommended 72hrs post exposure\n[2]\nAll regimens are 28 days duration.",
+      "subsections": {
+        "First_Choice": {
+          "text": "Tenofovir\n-\nEmtricitabine\n(Truvada) one tablet (300mg of tenofovir with 200mg of emtricitabine) once daily\nPLUS\nRaltegravir\n(RAL)(400 mg) twice daily or\nDolutegravir\n(DTG)(50 mg) once daily",
+          "tables": []
+        },
+        "Second_Choice": {
+          "text": "This alternative drug choice is reserved for situations of HIV resistance or under infectious disease guidance\nTenofovir-Emtricitabine (Truvada) one tablet (300mg of tenofovir with 200mg of emtricitabine) once daily\nPLUS\nDarunavir\n(DRV)(800 mg) once daily with\nRitonavir\n(RTV)(100 mg) once daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Ritonavir",
+          "url": "https://wikem.org/wiki/Ritonavir"
+        }
+      ]
+    },
+    "First_Choice": {
+      "text": "Tenofovir\n-\nEmtricitabine\n(Truvada) one tablet (300mg of tenofovir with 200mg of emtricitabine) once daily\nPLUS\nRaltegravir\n(RAL)(400 mg) twice daily or\nDolutegravir\n(DTG)(50 mg) once daily",
+      "subsections": {
+        "Second_Choice": {
+          "text": "This alternative drug choice is reserved for situations of HIV resistance or under infectious disease guidance\nTenofovir-Emtricitabine (Truvada) one tablet (300mg of tenofovir with 200mg of emtricitabine) once daily\nPLUS\nDarunavir\n(DRV)(800 mg) once daily with\nRitonavir\n(RTV)(100 mg) once daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Ritonavir",
+          "url": "https://wikem.org/wiki/Ritonavir"
+        }
+      ]
+    },
+    "Second_Choice": {
+      "text": "This alternative drug choice is reserved for situations of HIV resistance or under infectious disease guidance\nTenofovir-Emtricitabine (Truvada) one tablet (300mg of tenofovir with 200mg of emtricitabine) once daily\nPLUS\nDarunavir\n(DRV)(800 mg) once daily with\nRitonavir\n(RTV)(100 mg) once daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ritonavir",
+          "url": "https://wikem.org/wiki/Ritonavir"
+        }
+      ]
+    },
+    "Neisseria_meningitidis": {
+      "text": "Only for\nmeningococcus\nexposure",
+      "subsections": {
+        "Indications": {
+          "text": "Household contacts\nSchool or day care contacts in previous 7 days\nDirect exposure to patient's secretions (kissing, shared utensils or toothbrush)\nIntubation without facemark",
+          "tables": []
+        },
+        "Prophylaxis_regimen": {
+          "text": "Either of the options are acceptable\nRifampin\n600mg PO BID x2d\n5mg/kg PO if < 1 month old\n10mg/kg PO ≥ 1 month old\nCeftriaxone\n250mg IM x1\n125mg IM if ≤ 15 years old\nCeftriaxone should be used for pregnant patients\nAzithromycin\n[3]\nPediatric: 10 mg/kg (maximum 500 mg), po x 1\nAdult: 500 mg, po x 1\nCiprofloxacin\n500mg PO x1\nNo longer recommended as an option in California\n[4]\nDo not use in patients with recent travel to Saudi Arabia\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "meningococcus",
+          "url": "https://wikem.org/wiki/Meningococcus"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Household contacts\nSchool or day care contacts in previous 7 days\nDirect exposure to patient's secretions (kissing, shared utensils or toothbrush)\nIntubation without facemark",
+      "subsections": {
+        "Prophylaxis_regimen": {
+          "text": "Either of the options are acceptable\nRifampin\n600mg PO BID x2d\n5mg/kg PO if < 1 month old\n10mg/kg PO ≥ 1 month old\nCeftriaxone\n250mg IM x1\n125mg IM if ≤ 15 years old\nCeftriaxone should be used for pregnant patients\nAzithromycin\n[3]\nPediatric: 10 mg/kg (maximum 500 mg), po x 1\nAdult: 500 mg, po x 1\nCiprofloxacin\n500mg PO x1\nNo longer recommended as an option in California\n[4]\nDo not use in patients with recent travel to Saudi Arabia\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Prophylaxis_regimen": {
+      "text": "Either of the options are acceptable\nRifampin\n600mg PO BID x2d\n5mg/kg PO if < 1 month old\n10mg/kg PO ≥ 1 month old\nCeftriaxone\n250mg IM x1\n125mg IM if ≤ 15 years old\nCeftriaxone should be used for pregnant patients\nAzithromycin\n[3]\nPediatric: 10 mg/kg (maximum 500 mg), po x 1\nAdult: 500 mg, po x 1\nCiprofloxacin\n500mg PO x1\nNo longer recommended as an option in California\n[4]\nDo not use in patients with recent travel to Saudi Arabia\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

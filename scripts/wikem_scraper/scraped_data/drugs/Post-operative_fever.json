@@ -1,0 +1,38 @@
+{
+  "drug_name": "Post-operative_fever",
+  "url": "https://wikem.org/wiki/Post-operative_fever",
+  "scraped_at": "2026-01-10T08:00:15.137428",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "The following mneumonic can be used to aid in remembering the common causes of post-op\nfever\n:\nWind (POD 1-2) -\npneumonia\n,\npulmonary embolism\nWater (POD 3-5) -\nUTI\n, specifically if an indwelling foley catheter is in place\nWalking (POD 4-6) -\nDVT\n/\nPE\nrelated to immobility\nWound (POD 5-7) - surgical site infection\nWonder Drugs (POD >7) - fever related to IV lines, or drug fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    }
+  }
+}

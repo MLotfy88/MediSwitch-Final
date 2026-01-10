@@ -1,0 +1,196 @@
+{
+  "drug_name": "Post-obstructive_diuresis",
+  "url": "https://wikem.org/wiki/Post-obstructive_diuresis",
+  "scraped_at": "2026-01-10T08:00:13.073858",
+  "sections": {
+    "Background": {
+      "text": "A rare but potentially lethal complication associated with the relief of (most commonly, chronic) urinary obstruction\n[1]\nMay result in dehydration, electrolyte imbalances, and death if not adequately treated\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Polyuria\nafter relief of urinary tract obstruction (frequently Foley catheter placement)\nSome patients may experience hematuria, which is rarely clinically significant\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Polyuria": {
+          "text": "Osmotic diuresis\nHyperglycemia\nMannitol\nDrugs:\ndiuretics\n,\ncaffeine\n,\nacetazolamide\n,\nlithium\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nCushing's syndrome\n, primary hyperaldosteronism\nInability to concentrate urine (e.g. chronic\npyelonephritis\n,\nsickle cell disease\n,\namyloidosis\nPost-obstructive diuresis\nEarly\nrenal failure\nHigh fluid intake\nExcess\nIVF\nPsychogenic polydipsia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Polyuria": {
+      "text": "Osmotic diuresis\nHyperglycemia\nMannitol\nDrugs:\ndiuretics\n,\ncaffeine\n,\nacetazolamide\n,\nlithium\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nCushing's syndrome\n, primary hyperaldosteronism\nInability to concentrate urine (e.g. chronic\npyelonephritis\n,\nsickle cell disease\n,\namyloidosis\nPost-obstructive diuresis\nEarly\nrenal failure\nHigh fluid intake\nExcess\nIVF\nPsychogenic polydipsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Urine is usually hypotonic with large amounts of sodium chloride, potassium, phosphate and magnesium\n[3]\nUrine Output > 125 - 200mL/hour after relief of obstruction for at least 3 consecutive hours\n[4]\nUrine Osmolarity > 250mosm/kg\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fluid replacement with care not to perpetuate diuresis\nIV vs. PO replacement is institution and patient specific",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute urinary retention\nCoude Catheter",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Coude Catheter",
+          "url": "https://wikem.org/wiki/Coude_Catheter"
+        }
+      ]
+    }
+  }
+}

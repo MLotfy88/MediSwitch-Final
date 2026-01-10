@@ -1,0 +1,13 @@
+{
+  "drug_name": "Prehospital_protocol_breathing_difficulty",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_breathing_difficulty",
+  "scraped_at": "2026-01-10T08:00:25.129063",
+  "sections": {
+    "Perform_general_assessment": {
+      "text": "Check Vital Signs\n100% O2 NRB (blow-by only if needed to decrease agitation)\nSuction (bulb or mechanical) if excessive secretions are present\nAssist Ventilations with\nBVM\nas needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

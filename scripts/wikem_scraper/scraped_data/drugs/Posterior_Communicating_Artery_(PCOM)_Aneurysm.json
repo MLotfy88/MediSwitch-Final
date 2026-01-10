@@ -1,0 +1,158 @@
+{
+  "drug_name": "Posterior_Communicating_Artery_(PCOM)_Aneurysm",
+  "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm",
+  "scraped_at": "2026-01-10T08:00:15.055041",
+  "sections": {
+    "Background": {
+      "text": "Acute\nCN III palsy\nwith ipsilateral pupil dilation is PCOM aneurysm until proven otherwise\nAneurysm compresses the outer fibers (pupillomotor) of CN III → dilation\nIn contrast to CN III palsy due to diabetes mellitus or hypertension in which pupil is spared",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CN III palsy",
+          "url": "https://wikem.org/wiki/CN_III_palsy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Inhibition of ipsilateral medial gaze, upward gaze, downward gaze, ptosis\nLateral gaze (abduction) is preserved\nIpsilateral dilated pupil",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Binocular_Diplopia": {
+          "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[1]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[2]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        }
+      ]
+    },
+    "Binocular_Diplopia": {
+      "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[1]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[2]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Emergent\nBP reduction\nif hypertensive\nNeuroimaging\nNeurosurgical consult",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BP reduction",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,976 @@
+{
+  "drug_name": "Postpartum_headache",
+  "url": "https://wikem.org/wiki/Postpartum_headache",
+  "scraped_at": "2026-01-10T08:00:23.844327",
+  "sections": {
+    "Background": {
+      "text": "40% of postpartum women have headaches; a majority are in the first week of delivery.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Primary\nTension-type\nheadache\n(most common cause)\nMigraine\nheadache (2nd most common cause)\nSecondary\nPostdural puncture headache\nPreeclampsia\n/\nEclampsia\nCerebral venous sinus thrombosis\nStroke\n(ischemic or hemorrhagic)\nRuptured aneurysm or\nmalformation\nPosterior Reversible Encephalopathy Syndrome (PRES)\nPostpartum cerebral angiopathy\nPseudotumor cerebri\nSAH\nAmniotic Fluid Embolus\nChoriocarcinoma\nAir embolism",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Postdural puncture headache",
+          "url": "https://wikem.org/wiki/Postdural_puncture_headache"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Cerebral venous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_sinus_thrombosis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "malformation",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Posterior Reversible Encephalopathy Syndrome (PRES)",
+          "url": "https://wikem.org/wiki/Posterior_Reversible_Encephalopathy_Syndrome_(PRES)"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Amniotic Fluid Embolus",
+          "url": "https://wikem.org/wiki/Amniotic_Fluid_Embolus"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Primary_Headaches": {
+          "text": "Tension-type headache most common\nIncidence of migraines increases postpartum due to estrogen withdrawal\nAvoid ergotamines in breast-feeding patients",
+          "tables": []
+        },
+        "Preeclampsia": {
+          "text": "Findings:\nBilateral, throbbing headache\nBlurred vision\n/scintillating scotomata\nHypertension\nEpigastric\n/\nRUQ pain\nEdema\n↑ DTRs\nProteinuria\nCSF\n: Normal",
+          "tables": []
+        },
+        "SAH": {
+          "text": "↑ risk due to combination of vasodilatation from hyperestrogenic state and vasalvic pressure from labor\nRequire\nCT\n→\nLP\nif CT negative for SAH\nIf above negative, consider CVT vs. RCVS vs. cervicocranial arterial dissection\nFurther work-up includes\nMRI\nvascular studies, MRI with diffusion-weighted imaging",
+          "tables": []
+        },
+        "Postdural_Puncture_Headaches": {
+          "text": "Due to ↓ intracranial pressure secondary to CSF leak\nIncidence: 0.5-1.5% of women receiving epidural anesthesia\nCan occur in women who have not received epidural secondary to dural tears during labor\nFindings\nBegin 1-7 day postpartum\nNuchal/occipital\nWorsen upon standing/resolve with 10-15 mins of recumbency\n+/-\ntinnitus\n,\ndiplopia\n, hypoacusia",
+          "tables": []
+        },
+        "Posterior_reversible_encephalopathy_syndrome_(PRES)": {
+          "text": "Onset over hours\nFindings\nEarly\nseizures\nStupor\nVisual loss\n/\nhallucinations\nDull/throbbing headache (not thunderclap)\nSymptoms resolve within days-weeks if BP controlled\nCSF\n: normal, +/- ↑ protein\nImaging\nCT\n: findings in ~50% of patients\nMRI\n: Prominent T2-weighted and FLAIR, often in parieto-occipital lobes\nIntracerebral hemorrhage\nin 15% of patients",
+          "tables": []
+        },
+        "Reversible_Cerebral_Vasoconstriction_Syndrome_(RCVS)": {
+          "text": "Abrupt onset\nFindings\n\"Thunderclap\" headache\nMultiple episodes\n+/-\nseizures\nTransient\nfocal deficits\nTypical Course\nFirst week: headaches\nSecond week:\nintracerebral hemorrhage\nThird week: Ischemic complications\nCSF\n: 50% of patients with mild pleocytosis and protein ↑\nCT\n: normal\nCT angio/MRI\nString-of-beads constriction pattern of cerebral arteries\nDigital subtraction angiogram more sensitive\n+/- cervical arterial dissection\nInitial arteriogram may be negative",
+          "tables": []
+        },
+        "Cerebral_venous_sinus_thrombosis": {
+          "text": "75% of cases are postpartum\nFindings\nProgressive, diffuse; rarely thunderclap\nDizziness\nNausea\nPapilledema\nLethargy\nSeizures\nin 40%\nCSF\n↑ opening pressure in 80%\n↑ protein/cell counts in 35-50%\nCT\n: Often negative\nMRV\n(preferred): Intraluminal clot flow voids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Epigastric",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Stupor",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "focal deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRV",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Primary_Headaches": {
+      "text": "Tension-type headache most common\nIncidence of migraines increases postpartum due to estrogen withdrawal\nAvoid ergotamines in breast-feeding patients",
+      "subsections": {
+        "Preeclampsia": {
+          "text": "Findings:\nBilateral, throbbing headache\nBlurred vision\n/scintillating scotomata\nHypertension\nEpigastric\n/\nRUQ pain\nEdema\n↑ DTRs\nProteinuria\nCSF\n: Normal",
+          "tables": []
+        },
+        "SAH": {
+          "text": "↑ risk due to combination of vasodilatation from hyperestrogenic state and vasalvic pressure from labor\nRequire\nCT\n→\nLP\nif CT negative for SAH\nIf above negative, consider CVT vs. RCVS vs. cervicocranial arterial dissection\nFurther work-up includes\nMRI\nvascular studies, MRI with diffusion-weighted imaging",
+          "tables": []
+        },
+        "Postdural_Puncture_Headaches": {
+          "text": "Due to ↓ intracranial pressure secondary to CSF leak\nIncidence: 0.5-1.5% of women receiving epidural anesthesia\nCan occur in women who have not received epidural secondary to dural tears during labor\nFindings\nBegin 1-7 day postpartum\nNuchal/occipital\nWorsen upon standing/resolve with 10-15 mins of recumbency\n+/-\ntinnitus\n,\ndiplopia\n, hypoacusia",
+          "tables": []
+        },
+        "Posterior_reversible_encephalopathy_syndrome_(PRES)": {
+          "text": "Onset over hours\nFindings\nEarly\nseizures\nStupor\nVisual loss\n/\nhallucinations\nDull/throbbing headache (not thunderclap)\nSymptoms resolve within days-weeks if BP controlled\nCSF\n: normal, +/- ↑ protein\nImaging\nCT\n: findings in ~50% of patients\nMRI\n: Prominent T2-weighted and FLAIR, often in parieto-occipital lobes\nIntracerebral hemorrhage\nin 15% of patients",
+          "tables": []
+        },
+        "Reversible_Cerebral_Vasoconstriction_Syndrome_(RCVS)": {
+          "text": "Abrupt onset\nFindings\n\"Thunderclap\" headache\nMultiple episodes\n+/-\nseizures\nTransient\nfocal deficits\nTypical Course\nFirst week: headaches\nSecond week:\nintracerebral hemorrhage\nThird week: Ischemic complications\nCSF\n: 50% of patients with mild pleocytosis and protein ↑\nCT\n: normal\nCT angio/MRI\nString-of-beads constriction pattern of cerebral arteries\nDigital subtraction angiogram more sensitive\n+/- cervical arterial dissection\nInitial arteriogram may be negative",
+          "tables": []
+        },
+        "Cerebral_venous_sinus_thrombosis": {
+          "text": "75% of cases are postpartum\nFindings\nProgressive, diffuse; rarely thunderclap\nDizziness\nNausea\nPapilledema\nLethargy\nSeizures\nin 40%\nCSF\n↑ opening pressure in 80%\n↑ protein/cell counts in 35-50%\nCT\n: Often negative\nMRV\n(preferred): Intraluminal clot flow voids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Epigastric",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Stupor",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "focal deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRV",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Preeclampsia": {
+      "text": "Findings:\nBilateral, throbbing headache\nBlurred vision\n/scintillating scotomata\nHypertension\nEpigastric\n/\nRUQ pain\nEdema\n↑ DTRs\nProteinuria\nCSF\n: Normal",
+      "subsections": {
+        "SAH": {
+          "text": "↑ risk due to combination of vasodilatation from hyperestrogenic state and vasalvic pressure from labor\nRequire\nCT\n→\nLP\nif CT negative for SAH\nIf above negative, consider CVT vs. RCVS vs. cervicocranial arterial dissection\nFurther work-up includes\nMRI\nvascular studies, MRI with diffusion-weighted imaging",
+          "tables": []
+        },
+        "Postdural_Puncture_Headaches": {
+          "text": "Due to ↓ intracranial pressure secondary to CSF leak\nIncidence: 0.5-1.5% of women receiving epidural anesthesia\nCan occur in women who have not received epidural secondary to dural tears during labor\nFindings\nBegin 1-7 day postpartum\nNuchal/occipital\nWorsen upon standing/resolve with 10-15 mins of recumbency\n+/-\ntinnitus\n,\ndiplopia\n, hypoacusia",
+          "tables": []
+        },
+        "Posterior_reversible_encephalopathy_syndrome_(PRES)": {
+          "text": "Onset over hours\nFindings\nEarly\nseizures\nStupor\nVisual loss\n/\nhallucinations\nDull/throbbing headache (not thunderclap)\nSymptoms resolve within days-weeks if BP controlled\nCSF\n: normal, +/- ↑ protein\nImaging\nCT\n: findings in ~50% of patients\nMRI\n: Prominent T2-weighted and FLAIR, often in parieto-occipital lobes\nIntracerebral hemorrhage\nin 15% of patients",
+          "tables": []
+        },
+        "Reversible_Cerebral_Vasoconstriction_Syndrome_(RCVS)": {
+          "text": "Abrupt onset\nFindings\n\"Thunderclap\" headache\nMultiple episodes\n+/-\nseizures\nTransient\nfocal deficits\nTypical Course\nFirst week: headaches\nSecond week:\nintracerebral hemorrhage\nThird week: Ischemic complications\nCSF\n: 50% of patients with mild pleocytosis and protein ↑\nCT\n: normal\nCT angio/MRI\nString-of-beads constriction pattern of cerebral arteries\nDigital subtraction angiogram more sensitive\n+/- cervical arterial dissection\nInitial arteriogram may be negative",
+          "tables": []
+        },
+        "Cerebral_venous_sinus_thrombosis": {
+          "text": "75% of cases are postpartum\nFindings\nProgressive, diffuse; rarely thunderclap\nDizziness\nNausea\nPapilledema\nLethargy\nSeizures\nin 40%\nCSF\n↑ opening pressure in 80%\n↑ protein/cell counts in 35-50%\nCT\n: Often negative\nMRV\n(preferred): Intraluminal clot flow voids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Epigastric",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Stupor",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "focal deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRV",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "SAH": {
+      "text": "↑ risk due to combination of vasodilatation from hyperestrogenic state and vasalvic pressure from labor\nRequire\nCT\n→\nLP\nif CT negative for SAH\nIf above negative, consider CVT vs. RCVS vs. cervicocranial arterial dissection\nFurther work-up includes\nMRI\nvascular studies, MRI with diffusion-weighted imaging",
+      "subsections": {
+        "Postdural_Puncture_Headaches": {
+          "text": "Due to ↓ intracranial pressure secondary to CSF leak\nIncidence: 0.5-1.5% of women receiving epidural anesthesia\nCan occur in women who have not received epidural secondary to dural tears during labor\nFindings\nBegin 1-7 day postpartum\nNuchal/occipital\nWorsen upon standing/resolve with 10-15 mins of recumbency\n+/-\ntinnitus\n,\ndiplopia\n, hypoacusia",
+          "tables": []
+        },
+        "Posterior_reversible_encephalopathy_syndrome_(PRES)": {
+          "text": "Onset over hours\nFindings\nEarly\nseizures\nStupor\nVisual loss\n/\nhallucinations\nDull/throbbing headache (not thunderclap)\nSymptoms resolve within days-weeks if BP controlled\nCSF\n: normal, +/- ↑ protein\nImaging\nCT\n: findings in ~50% of patients\nMRI\n: Prominent T2-weighted and FLAIR, often in parieto-occipital lobes\nIntracerebral hemorrhage\nin 15% of patients",
+          "tables": []
+        },
+        "Reversible_Cerebral_Vasoconstriction_Syndrome_(RCVS)": {
+          "text": "Abrupt onset\nFindings\n\"Thunderclap\" headache\nMultiple episodes\n+/-\nseizures\nTransient\nfocal deficits\nTypical Course\nFirst week: headaches\nSecond week:\nintracerebral hemorrhage\nThird week: Ischemic complications\nCSF\n: 50% of patients with mild pleocytosis and protein ↑\nCT\n: normal\nCT angio/MRI\nString-of-beads constriction pattern of cerebral arteries\nDigital subtraction angiogram more sensitive\n+/- cervical arterial dissection\nInitial arteriogram may be negative",
+          "tables": []
+        },
+        "Cerebral_venous_sinus_thrombosis": {
+          "text": "75% of cases are postpartum\nFindings\nProgressive, diffuse; rarely thunderclap\nDizziness\nNausea\nPapilledema\nLethargy\nSeizures\nin 40%\nCSF\n↑ opening pressure in 80%\n↑ protein/cell counts in 35-50%\nCT\n: Often negative\nMRV\n(preferred): Intraluminal clot flow voids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Stupor",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "focal deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRV",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Postdural_Puncture_Headaches": {
+      "text": "Due to ↓ intracranial pressure secondary to CSF leak\nIncidence: 0.5-1.5% of women receiving epidural anesthesia\nCan occur in women who have not received epidural secondary to dural tears during labor\nFindings\nBegin 1-7 day postpartum\nNuchal/occipital\nWorsen upon standing/resolve with 10-15 mins of recumbency\n+/-\ntinnitus\n,\ndiplopia\n, hypoacusia",
+      "subsections": {
+        "Posterior_reversible_encephalopathy_syndrome_(PRES)": {
+          "text": "Onset over hours\nFindings\nEarly\nseizures\nStupor\nVisual loss\n/\nhallucinations\nDull/throbbing headache (not thunderclap)\nSymptoms resolve within days-weeks if BP controlled\nCSF\n: normal, +/- ↑ protein\nImaging\nCT\n: findings in ~50% of patients\nMRI\n: Prominent T2-weighted and FLAIR, often in parieto-occipital lobes\nIntracerebral hemorrhage\nin 15% of patients",
+          "tables": []
+        },
+        "Reversible_Cerebral_Vasoconstriction_Syndrome_(RCVS)": {
+          "text": "Abrupt onset\nFindings\n\"Thunderclap\" headache\nMultiple episodes\n+/-\nseizures\nTransient\nfocal deficits\nTypical Course\nFirst week: headaches\nSecond week:\nintracerebral hemorrhage\nThird week: Ischemic complications\nCSF\n: 50% of patients with mild pleocytosis and protein ↑\nCT\n: normal\nCT angio/MRI\nString-of-beads constriction pattern of cerebral arteries\nDigital subtraction angiogram more sensitive\n+/- cervical arterial dissection\nInitial arteriogram may be negative",
+          "tables": []
+        },
+        "Cerebral_venous_sinus_thrombosis": {
+          "text": "75% of cases are postpartum\nFindings\nProgressive, diffuse; rarely thunderclap\nDizziness\nNausea\nPapilledema\nLethargy\nSeizures\nin 40%\nCSF\n↑ opening pressure in 80%\n↑ protein/cell counts in 35-50%\nCT\n: Often negative\nMRV\n(preferred): Intraluminal clot flow voids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Stupor",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "Intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "focal deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Intracerebral_hemorrhage"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRV",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Cerebral_venous_sinus_thrombosis": {
+      "text": "75% of cases are postpartum\nFindings\nProgressive, diffuse; rarely thunderclap\nDizziness\nNausea\nPapilledema\nLethargy\nSeizures\nin 40%\nCSF\n↑ opening pressure in 80%\n↑ protein/cell counts in 35-50%\nCT\n: Often negative\nMRV\n(preferred): Intraluminal clot flow voids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRV",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Headache\nPost-Partum Emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-Partum Emergencies",
+          "url": "https://wikem.org/wiki/Post-Partum_Emergencies"
+        }
+      ]
+    },
+    "References": {
+      "text": "Edlow JA, Caplan LR, O'Brien K, Tibbles CD. Diagnosis of acute neurological emergencies in pregnant and post-partum women. The Lancet Neurology 2013;12:175-85.\nGoldszmidt E, Kern R, Chaput A, Macarthur A. The incidence and etiology of postpartum headaches: a prospective cohort study. Canadian journal of anaesthesia = Journal canadien d'anesthesie 2005;52:971-7.\nKlein AM, Loder E. Postpartum headache. International journal of obstetric anesthesia 2010;19:422-30.\nStella CL, Jodicke CD, How HY, Harkness UF, Sibai BM. Postpartum headache: is your work-up complete? American journal of obstetrics and gynecology 2007;196:318 e1-7.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

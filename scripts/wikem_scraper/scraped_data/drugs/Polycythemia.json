@@ -1,0 +1,110 @@
+{
+  "drug_name": "Polycythemia",
+  "url": "https://wikem.org/wiki/Polycythemia",
+  "scraped_at": "2026-01-10T08:00:10.769534",
+  "sections": {
+    "Background": {
+      "text": "AKA erythrocytosis\nRefers to abnormally elevated Hb/Hct",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dependant on underlying etiology\nMay be entirely asymptomatic\nPossible features include plethora, tendency towards\nthromboembolism\nor\nbleeding\n, splenomegaly,\npruritus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Primary polycythemia (\nmyeloproliferative disorders\n)\nPolycythemia vera\nEssential thrombocytosis\n(ET\nChronic myelogenous leukemia\n(CML)\nLeukemoid Reaction\nMyelofibrosis\nSecondary polycythemia (due to increased EPO)\nChronic\nhypoxemia\n(e.g.\nCOPD\n, physiologic\naltitude\nadaptations or\nchronic mountain sickness\n)\nCarboxyhemoglobin (chronic smokers)\nRenal cyst or hydronephrosis\nEPO-secreting tumors (RCC,\nhepatocellular carcinoma\nAnabolic steroid abuse\nAbnormal hemoglobins",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "Essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Chronic myelogenous leukemia",
+          "url": "https://wikem.org/wiki/Chronic_myelogenous_leukemia"
+        },
+        {
+          "text": "Leukemoid Reaction",
+          "url": "https://wikem.org/wiki/Leukemoid_Reaction"
+        },
+        {
+          "text": "Myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "altitude",
+          "url": "https://wikem.org/wiki/Altitude"
+        },
+        {
+          "text": "chronic mountain sickness",
+          "url": "https://wikem.org/wiki/Chronic_mountain_sickness"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nHb >17.5 (males) or >15.5 (females)\nEvaluate for underlying disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying pathology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Polycythemia vera\nMyeloproliferative disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "drug_name": "Portal_vein_thrombosis",
+  "url": "https://wikem.org/wiki/Portal_vein_thrombosis",
+  "scraped_at": "2026-01-10T08:00:16.214921",
+  "sections": {
+    "Background": {
+      "text": "Portal vein thrombosis (PVT) is a vascular disease of the liver that occurs when a blood clot occurs in the hepatic portal vein, leading to increased pressure in the portal vein system and reduced blood supply to the liver.",
+      "subsections": {
+        "Inciting_Causes": {
+          "text": "Abdominal\nsepsis\nAbdominal surgery\nBehçet's syndrome\nCholangiocarcinoma\nCirrhosis\nCollagen vascular diseases\n(eg, lupus)\nCompression or invasion of the portal vein by tumor (eg, pancreatic cancer)\nDiverticulitis\nEndoscopic sclerotherapy\nHepatocellular carcinoma\nInflammatory bowel disease\nInherited thrombophilias (e.g. factor V Leiden deficiency, protein C or S deficiency,\nantiphospholipid syndrome\n)\nMyeloproliferative disorders\n(e.g.\npolycythemia vera\nor\nessential thrombocytosis\n)\nOmphalitis\nOral contraceptives\nPancreatic islet cell transplantation\nPancreatitis\nParoxysmal nocturnal hemoglobinuria\nPregnancy\nRetroperitoneal fibrosis\nSplenectomy\ncomplication\nTransjugular intrahepatic portosystemic shunt\n(TIPS)\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Collagen vascular diseases",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "antiphospholipid syndrome",
+          "url": "https://wikem.org/wiki/Antiphospholipid_syndrome"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Transjugular intrahepatic portosystemic shunt",
+          "url": "https://wikem.org/wiki/Transjugular_intrahepatic_portosystemic_shunt"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Inciting_Causes": {
+      "text": "Abdominal\nsepsis\nAbdominal surgery\nBehçet's syndrome\nCholangiocarcinoma\nCirrhosis\nCollagen vascular diseases\n(eg, lupus)\nCompression or invasion of the portal vein by tumor (eg, pancreatic cancer)\nDiverticulitis\nEndoscopic sclerotherapy\nHepatocellular carcinoma\nInflammatory bowel disease\nInherited thrombophilias (e.g. factor V Leiden deficiency, protein C or S deficiency,\nantiphospholipid syndrome\n)\nMyeloproliferative disorders\n(e.g.\npolycythemia vera\nor\nessential thrombocytosis\n)\nOmphalitis\nOral contraceptives\nPancreatic islet cell transplantation\nPancreatitis\nParoxysmal nocturnal hemoglobinuria\nPregnancy\nRetroperitoneal fibrosis\nSplenectomy\ncomplication\nTransjugular intrahepatic portosystemic shunt\n(TIPS)\nTrauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Collagen vascular diseases",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "antiphospholipid syndrome",
+          "url": "https://wikem.org/wiki/Antiphospholipid_syndrome"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Transjugular intrahepatic portosystemic shunt",
+          "url": "https://wikem.org/wiki/Transjugular_intrahepatic_portosystemic_shunt"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Upper\nabdominal pain\ndeveloping suddenly or progressing over a few days\nPossibly accompanied by\nnausea\n,\nhepatomegaly\n, splenomegaly; may be accompanied by persistent non-spiking\nfever\nin the setting of systemic inflammation\nOther signs/symptoms based on underlying cause (e.g. bleeding disorders, hepatic stigmata if due to cirrhosis)\nMay be clinically silent in a portion of patients and diagnosed incidentally during a CT exam for other reasons (e.g. acute\npancreatitis\n)",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Often asymptomatic; incidental finding on imaging\nAssociated with portal hypertension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Upper\nabdominal pain\ndeveloping suddenly or progressing over a few days\nPossibly accompanied by\nnausea\n,\nhepatomegaly\n, splenomegaly; may be accompanied by persistent non-spiking\nfever\nin the setting of systemic inflammation\nOther signs/symptoms based on underlying cause (e.g. bleeding disorders, hepatic stigmata if due to cirrhosis)\nMay be clinically silent in a portion of patients and diagnosed incidentally during a CT exam for other reasons (e.g. acute\npancreatitis\n)",
+      "subsections": {
+        "Chronic": {
+          "text": "Often asymptomatic; incidental finding on imaging\nAssociated with portal hypertension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Often asymptomatic; incidental finding on imaging\nAssociated with portal hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Mesenteric vein thrombosis\nBudd-Chiari syndrome\nPortal vein thrombosis\nVenous thromboembolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically diagnosed on abdominal CT with contrast\nFilling defect on Doppler ultrasound\nEGD to assess for gastric/esophageal varices if chronic PVT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_2": {
+          "text": "In non-cirrhotic,\nLMWH\n->\nwarfarin\nx 6 months",
+          "tables": []
+        },
+        "Chronic_2": {
+          "text": "In non-cirrhotic or hypercoagulable, anticoagulation after screening for varices\nAnticoagulate patients with cirrhosis AND 1) thrombophilia, 2) clot extension in mesenteric veins, or 3) bowel ischemia\nIf severe, may require shunt, liver transplant, or bowel resection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Acute_2": {
+      "text": "In non-cirrhotic,\nLMWH\n->\nwarfarin\nx 6 months",
+      "subsections": {
+        "Chronic_2": {
+          "text": "In non-cirrhotic or hypercoagulable, anticoagulation after screening for varices\nAnticoagulate patients with cirrhosis AND 1) thrombophilia, 2) clot extension in mesenteric veins, or 3) bowel ischemia\nIf severe, may require shunt, liver transplant, or bowel resection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Chronic_2": {
+      "text": "In non-cirrhotic or hypercoagulable, anticoagulation after screening for varices\nAnticoagulate patients with cirrhosis AND 1) thrombophilia, 2) clot extension in mesenteric veins, or 3) bowel ischemia\nIf severe, may require shunt, liver transplant, or bowel resection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Budd-Chiari syndrome\n(hepatic vein thrombosis)\nPylephlebitis\nVenous thromboembolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        }
+      ]
+    },
+    "References": {
+      "text": "1. DeLeve LD, Valla DC, Garcia-Tsao G (2009). \"Vascular disorders of the liver\".\nHepatology\n.\n49\n:1729-64.\n2. O'Mara SR, Wiesner L. \"Hepatic Disorders\". In Tintinalli JE, Ma O, Yealy DM, Meckler GD, Stapczynski J, Cline DM, Thomas SH (eds.).\nTintinalli's Emergency Medicine: A Comprehensive Study Guide\n(9 ed.). New York, NY: McGraw-Hill.\n3. Simonetto DA, Singal AK, Garcia-Tsao G, Caldwell SH, Ahn J, Kamath PS (January 3, 2020). \"ACG Clinical Guideline: Disorders of the Hepatic and Mesenteric Circulation\".\nAm J Gastroenterol\n.\n115\n: 18-40.\n4. Nery F, Chevret S, Condat B, de Raucourt E, Boudaoud L, Rautou P, Plessier A, Roulot D, Chaffaut C, Bourcier V, Trinchet J, Valla D (February 2015). \"Causes and Consequences of Portal Vein Thrombosis in 1,243 Patients with Cirrhosis: Results of a Longitudinal Study\".\nHepatology\n.\n61\n: 660-667.\ndoi:10.1002/hep.27546\n5. Friedman LS (2020). \"Noncirrhotic Portal Hypertension\". In Papadakis MA, McPhee SJ, Rabow MW (eds.).\nCurrent Medical Diagnosis and Treatment 2020\n. McGraw-Hill.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "drug_name": "Postpartum_endometritis",
+  "url": "https://wikem.org/wiki/Postpartum_endometritis",
+  "scraped_at": "2026-01-10T08:00:20.562411",
+  "sections": {
+    "Intro": {
+      "text": "For endometritis unrelated to pregnancy, see\nPelvic inflammatory disease (PID)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Any postpartum woman with fever should be assumed to have a genital tract infection\nPostpartum women have a 20-fold increase in invasive group A streptococcal infection compared with nonpregnant women.\nMost often polymicrobial, requiring broad spectrum antibiotics\nMaternal mortality is highest if infection develops within 4 days of delivery",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Cesarean delivery (most important)\nProlonged labor\nProlonged or premature rupture of membranes\nInternal fetal or uterine monitoring\nLarge amount of meconium in amniotic fluid\nManual removal of placenta\nDiabetes Mellitus\nPreterm birth\nBacterial vaginosis\nOperative vaginal delivery\nPost-term pregnancy\nHIV\ninfection\nColonization with\nGroup B Strep",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Group B Strep",
+          "url": "https://wikem.org/wiki/Group_B_Strep"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Cesarean delivery (most important)\nProlonged labor\nProlonged or premature rupture of membranes\nInternal fetal or uterine monitoring\nLarge amount of meconium in amniotic fluid\nManual removal of placenta\nDiabetes Mellitus\nPreterm birth\nBacterial vaginosis\nOperative vaginal delivery\nPost-term pregnancy\nHIV\ninfection\nColonization with\nGroup B Strep",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Group B Strep",
+          "url": "https://wikem.org/wiki/Group_B_Strep"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nFoul-smelling\nlochia\nLeukocytosis\nUterine tenderness\nOnly scant discharge may be present (esp with\ngroup B strep\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "lochia",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "group B strep",
+          "url": "https://wikem.org/wiki/Group_B_strep"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Respiratory tract infection\nUTI\n/urosepsis\nPyelonephritis\nIntra-abdominal abscess\nThrombophlebitis",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for\nretained products of conception\n(e.g.\npelvic ultrasound\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "<48hrs_Post_Partum": {
+          "text": "Treatment is targeted against polymicrobial infections, most often 2-3 organisms of normal vaginal flora\n(Prefered first line)\nClindamycin\n900mg q8hrs PLUS\nGentamicin\n5mg/kg IV q24hours (same efficacy and more cost effective vs. 1.5mg/kg) or 1.5mg/kg IV q8hrs\n[2]\nOR\nDoxycycline\n100mg IV PO q12hrs daily  PLUS\nAmpicillin/Sulbactam\n3g IV q6hrs\nCefoxitin\n2g IV q6hrs daily",
+          "tables": []
+        },
+        ">48hrs_Post_Partum": {
+          "text": "Doxycycline\n100mg IV or PO q12hrs +\nMetronidazole\n500mg IV or PO q8hrs daily\nUse Metronidazole with caution in breastfeeding mothers its active is present in breast milk at concentrations similar to maternal plasma concentrations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "<48hrs_Post_Partum": {
+          "text": "Treatment is targeted against polymicrobial infections, most often 2-3 organisms of normal vaginal flora\n(Prefered first line)\nClindamycin\n900mg q8hrs PLUS\nGentamicin\n5mg/kg IV q24hours (same efficacy and more cost effective vs. 1.5mg/kg) or 1.5mg/kg IV q8hrs\n[2]\nOR\nDoxycycline\n100mg IV PO q12hrs daily  PLUS\nAmpicillin/Sulbactam\n3g IV q6hrs\nCefoxitin\n2g IV q6hrs daily",
+          "tables": []
+        },
+        ">48hrs_Post_Partum": {
+          "text": "Doxycycline\n100mg IV or PO q12hrs +\nMetronidazole\n500mg IV or PO q8hrs daily\nUse Metronidazole with caution in breastfeeding mothers its active is present in breast milk at concentrations similar to maternal plasma concentrations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consult OB/GYN first if are considering outpatient management\nAdmit all patients who appear ill, have had a C-section, or underlying comorbid conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Post-Partum Emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-Partum Emergencies",
+          "url": "https://wikem.org/wiki/Post-Partum_Emergencies"
+        }
+      ]
+    }
+  }
+}

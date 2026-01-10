@@ -1,0 +1,30 @@
+{
+  "drug_name": "Post-infectious_irritable_bowel_syndrome",
+  "url": "https://wikem.org/wiki/Post-infectious_irritable_bowel_syndrome",
+  "scraped_at": "2026-01-10T08:00:17.471754",
+  "sections": {
+    "Background": {
+      "text": "Occurs after\ntraveler's diarrhea\nOccurs in 3-17% of patients",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Severity of\ntraveler's diarrhea\nNumber of episodes\nPretravel diarrhea\nPretravel adverse life events\nInfection with heat-labile toxin–producing ETEC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Severity of\ntraveler's diarrhea\nNumber of episodes\nPretravel diarrhea\nPretravel adverse life events\nInfection with heat-labile toxin–producing ETEC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Traveler's diarrhea\nIrritable bowel syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

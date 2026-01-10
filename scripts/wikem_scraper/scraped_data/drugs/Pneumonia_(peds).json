@@ -1,0 +1,1445 @@
+{
+  "drug_name": "Pneumonia_(peds)",
+  "url": "https://wikem.org/wiki/Pneumonia_(peds)",
+  "scraped_at": "2026-01-10T08:00:11.291968",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\npneumonia\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common site of infection in neonates",
+      "subsections": {
+        "Bugs_by_Age_Group": {
+          "text": "Newborn\nGroup B streptococci\nGram-negative bacilli\nListeria monocytogenes\n1-3 months\nStreptococcus pneumoniae\nChlamydia trachomatis\nHaemophilus influenzae\nBordetella pertussis\nStaphylococcus aureus\n3 months-5 years\nS. pneumoniae\nS. aureus\nH. influenzae\ntype b\nNontypeable H. influenzae\nC. trachomatis\nMycoplasma pneumoniae\n5–18 years\nM. pneumoniae\nS. pneumoniae\nC. pneumoniae\nH. influenzae\ntype b\nS. aureus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group B streptococci",
+          "url": "https://wikem.org/wiki/Group_B_streptococci"
+        },
+        {
+          "text": "Gram-negative bacilli",
+          "url": "https://wikem.org/wiki/Gram-negative_bacilli"
+        },
+        {
+          "text": "Listeria monocytogenes",
+          "url": "https://wikem.org/wiki/Listeria_monocytogenes"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Bordetella pertussis",
+          "url": "https://wikem.org/wiki/Bordetella_pertussis"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "M. pneumoniae",
+          "url": "https://wikem.org/wiki/M._pneumoniae"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "C. pneumoniae",
+          "url": "https://wikem.org/wiki/C._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Bugs_by_Age_Group": {
+      "text": "Newborn\nGroup B streptococci\nGram-negative bacilli\nListeria monocytogenes\n1-3 months\nStreptococcus pneumoniae\nChlamydia trachomatis\nHaemophilus influenzae\nBordetella pertussis\nStaphylococcus aureus\n3 months-5 years\nS. pneumoniae\nS. aureus\nH. influenzae\ntype b\nNontypeable H. influenzae\nC. trachomatis\nMycoplasma pneumoniae\n5–18 years\nM. pneumoniae\nS. pneumoniae\nC. pneumoniae\nH. influenzae\ntype b\nS. aureus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Group B streptococci",
+          "url": "https://wikem.org/wiki/Group_B_streptococci"
+        },
+        {
+          "text": "Gram-negative bacilli",
+          "url": "https://wikem.org/wiki/Gram-negative_bacilli"
+        },
+        {
+          "text": "Listeria monocytogenes",
+          "url": "https://wikem.org/wiki/Listeria_monocytogenes"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Bordetella pertussis",
+          "url": "https://wikem.org/wiki/Bordetella_pertussis"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "M. pneumoniae",
+          "url": "https://wikem.org/wiki/M._pneumoniae"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "C. pneumoniae",
+          "url": "https://wikem.org/wiki/C._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever and tachypnea are sensitive but not specific\nFever\nCough\nProductive cough is rarely seen before late childhood",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        },
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_Shortness_of_Breath": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Likely_Outpatient": {
+          "text": "Imaging\nCXR\n, consider for:\nAge 0-3mo (as part of sepsis workup)\n<5yr with temperature >102.2, WBC >20K and no clear source of infection\nAmbiguous clinical findings\nPneumonia that is prolonged or not responsive to antibiotics\nConsider rapid assays:\nCovid-19\nRSV\nInfluenza",
+          "tables": []
+        },
+        "Sick/Likely_Inpatient": {
+          "text": "Above plus:\nCBC\nChemistry\nBlood/nasal culture are low yield\nIn prospective study, 91 blood cultures needed for one positive result for CAP; but in ICU one child had bacteremia for every 24 cultures obtained, one for every 12 with parapneumonic effusion\n[1]\nconsider for sicker ones, those with effusions\nIDSA does\nnot\nsupport using initial serum\nprocalcitonin\nlevels to determine whether empiric antibiotics should be initiated.\nClinical judgement\nplus\nradiographic evidence alone should guide therapy (strong recommendation, moderate quality of evidence)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Absence of tachypnea, respiratory distress, and rales/decreased breath sounds rules-out with 100% sensitivity\nCXR\nCannot differentiate between viral and bacterial (but lobar infiltrate more often bacterial)\nMay have negative CXR early in disease or in cases of dehydration; infiltrate may \"blossom\" after providing rehydration and repeat imaging\n[2]\nWell-circumscribed round/oval opacity (“round pneumonia”), usually in a posterior lower-lobe segment of children < 8 y; mimics a mass but clears with antibiotics\nAbsence of CXR findings does not preclude diagnosis; high clinical suspicion with adventitious breath sounds can be consistent with pneumonia despite negative imaging\nImmunocompromised patients may not manifest radiographic evidence of pneumonia despite suggestive clinical findings\nClinical and radiographic findings do not necessarily correspond: the patient may be improving clinically despite having a worsening appearance on the CXR\nUltrasound\nCan be considered as an alternative to CXR\nSensitivity 82% and specificity 94% (adults)\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Covid-19",
+          "url": "https://wikem.org/wiki/Covid-19"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "procalcitonin",
+          "url": "https://wikem.org/wiki/Procalcitonin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Likely_Outpatient": {
+          "text": "Imaging\nCXR\n, consider for:\nAge 0-3mo (as part of sepsis workup)\n<5yr with temperature >102.2, WBC >20K and no clear source of infection\nAmbiguous clinical findings\nPneumonia that is prolonged or not responsive to antibiotics\nConsider rapid assays:\nCovid-19\nRSV\nInfluenza",
+          "tables": []
+        },
+        "Sick/Likely_Inpatient": {
+          "text": "Above plus:\nCBC\nChemistry\nBlood/nasal culture are low yield\nIn prospective study, 91 blood cultures needed for one positive result for CAP; but in ICU one child had bacteremia for every 24 cultures obtained, one for every 12 with parapneumonic effusion\n[1]\nconsider for sicker ones, those with effusions\nIDSA does\nnot\nsupport using initial serum\nprocalcitonin\nlevels to determine whether empiric antibiotics should be initiated.\nClinical judgement\nplus\nradiographic evidence alone should guide therapy (strong recommendation, moderate quality of evidence)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Absence of tachypnea, respiratory distress, and rales/decreased breath sounds rules-out with 100% sensitivity\nCXR\nCannot differentiate between viral and bacterial (but lobar infiltrate more often bacterial)\nMay have negative CXR early in disease or in cases of dehydration; infiltrate may \"blossom\" after providing rehydration and repeat imaging\n[2]\nWell-circumscribed round/oval opacity (“round pneumonia”), usually in a posterior lower-lobe segment of children < 8 y; mimics a mass but clears with antibiotics\nAbsence of CXR findings does not preclude diagnosis; high clinical suspicion with adventitious breath sounds can be consistent with pneumonia despite negative imaging\nImmunocompromised patients may not manifest radiographic evidence of pneumonia despite suggestive clinical findings\nClinical and radiographic findings do not necessarily correspond: the patient may be improving clinically despite having a worsening appearance on the CXR\nUltrasound\nCan be considered as an alternative to CXR\nSensitivity 82% and specificity 94% (adults)\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Covid-19",
+          "url": "https://wikem.org/wiki/Covid-19"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "procalcitonin",
+          "url": "https://wikem.org/wiki/Procalcitonin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Absence of tachypnea, respiratory distress, and rales/decreased breath sounds rules-out with 100% sensitivity\nCXR\nCannot differentiate between viral and bacterial (but lobar infiltrate more often bacterial)\nMay have negative CXR early in disease or in cases of dehydration; infiltrate may \"blossom\" after providing rehydration and repeat imaging\n[2]\nWell-circumscribed round/oval opacity (“round pneumonia”), usually in a posterior lower-lobe segment of children < 8 y; mimics a mass but clears with antibiotics\nAbsence of CXR findings does not preclude diagnosis; high clinical suspicion with adventitious breath sounds can be consistent with pneumonia despite negative imaging\nImmunocompromised patients may not manifest radiographic evidence of pneumonia despite suggestive clinical findings\nClinical and radiographic findings do not necessarily correspond: the patient may be improving clinically despite having a worsening appearance on the CXR\nUltrasound\nCan be considered as an alternative to CXR\nSensitivity 82% and specificity 94% (adults)\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Newborn": {
+          "text": "Hospitalized\n[4]\nAmpicillin\n(80-90mg/kg/day) +\ngentamicin\n+/-\ncefotaxime\nAdd\nvancomycin\nif\nMRSA\na concern\nAdd\nerythromycin\n(12.g mg/kg QID) if concern for\nchlamydia\nOutpatient\n[5]\nInitial outpatient management not recommended",
+          "tables": []
+        },
+        "1-3_Month": {
+          "text": "Hospitalized\n[6]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[7]\nErythromycin\nOR\nAzithromycin\nPO",
+          "tables": []
+        },
+        ">3mo_-_18_years": {
+          "text": "Hospitalized (PICU/severely ill)\n[8]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[9]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[10]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "Newborn": {
+      "text": "Hospitalized\n[4]\nAmpicillin\n(80-90mg/kg/day) +\ngentamicin\n+/-\ncefotaxime\nAdd\nvancomycin\nif\nMRSA\na concern\nAdd\nerythromycin\n(12.g mg/kg QID) if concern for\nchlamydia\nOutpatient\n[5]\nInitial outpatient management not recommended",
+      "subsections": {
+        "1-3_Month": {
+          "text": "Hospitalized\n[6]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[7]\nErythromycin\nOR\nAzithromycin\nPO",
+          "tables": []
+        },
+        ">3mo_-_18_years": {
+          "text": "Hospitalized (PICU/severely ill)\n[8]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[9]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[10]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "1-3_Month": {
+      "text": "Hospitalized\n[6]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[7]\nErythromycin\nOR\nAzithromycin\nPO",
+      "subsections": {
+        ">3mo_-_18_years": {
+          "text": "Hospitalized (PICU/severely ill)\n[8]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[9]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[10]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    ">3mo_-_18_years": {
+      "text": "Hospitalized (PICU/severely ill)\n[8]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[9]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[10]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "All Children less than 2 months should be hospitalized\n[11]",
+      "subsections": {
+        "Consider_Admission_For": {
+          "text": "Age: <2-3 months old\nHistory of severe or relevant congenital disorders\nImmune suppression (HIV, SCD, malignancy)\nToxic appearance/respiratory distress\nSpO2 <90-93%\nVomiting/dehydration\nUnstable social environment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Consider_Admission_For": {
+      "text": "Age: <2-3 months old\nHistory of severe or relevant congenital disorders\nImmune suppression (HIV, SCD, malignancy)\nToxic appearance/respiratory distress\nSpO2 <90-93%\nVomiting/dehydration\nUnstable social environment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pneumonia (Main)\nPediatric fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia (Main)",
+          "url": "https://wikem.org/wiki/Pneumonia_(Main)"
+        },
+        {
+          "text": "Pediatric fever",
+          "url": "https://wikem.org/wiki/Pediatric_fever"
+        }
+      ]
+    }
+  }
+}

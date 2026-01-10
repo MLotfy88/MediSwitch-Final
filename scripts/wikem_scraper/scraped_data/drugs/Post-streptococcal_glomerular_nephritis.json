@@ -1,0 +1,202 @@
+{
+  "drug_name": "Post-streptococcal_glomerular_nephritis",
+  "url": "https://wikem.org/wiki/Post-streptococcal_glomerular_nephritis",
+  "scraped_at": "2026-01-10T08:00:18.660773",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: PSGN\nMost common cause of acute nephritis worldwide\nRisk greatest in children 5-12 years old and adults >60\nCaused by glomerular immune complex disease induced by specific nephritogenic strains of group A beta-hemolytic streptococcus (GAS)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Varies from asymptomatic to microscopic\nhematuria\nto acute nephritic syndrome (gross hematuria,\nproteinuria\n, edema,\nhypertension\n, and\nacute kidney injury\n)\nMost common features:\nEdema\nGross\nhematuria\nHypertension\nHistory of recent\nstrep\ninfection (e.g.\nstrep pharyngitis\n,\nimpetigo\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "strep pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_pharyngitis"
+        },
+        {
+          "text": "impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_Glomerulonephritis": {
+          "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Causes_of_Glomerulonephritis": {
+      "text": "Poststreptococcal glomerulonephritis\nHemolytic-uremic syndrome\nHenoch-Schonlein purpura\nIgA nephropathy\nLupus\nnephritis\nAlport syndrome\nGoodpasture syndrome\nParaneoplastic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Poststreptococcal glomerulonephritis",
+          "url": "https://wikem.org/wiki/Poststreptococcal_glomerulonephritis"
+        },
+        {
+          "text": "Hemolytic-uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic-uremic_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically diagnosed by acute nephritis + recent GAS infection (\nstrep pharyngitis\n,\nimpetigo\n)\nCBC\nChem 7\nStreptozyme assay including ASO\nComplement C3, C4, C50\nUrinalysis\n(dysmorphic red blood cells, varying degrees of proteinuria, red blood cell casts, and pyuria)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "strep pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_pharyngitis"
+        },
+        {
+          "text": "impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive management (treat volume overload)\nSodium and water restriction\nFurosemide\n(also controls hypertension)\nACEi\nor\nCCBs\nfor hypertension not controlled by diuretics\n[1]\nConsider\ndialysis\n(for acute\nrenal failure\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "CCBs",
+          "url": "https://wikem.org/wiki/CCBs"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most have complete recovery, particularly children\nResolution begins within the first two weeks\nSmall subset have late renal complications (ie, hypertension, increasing proteinuria, and renal insufficiency)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Strep Pharyngitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep Pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_Pharyngitis"
+        }
+      ]
+    }
+  }
+}
