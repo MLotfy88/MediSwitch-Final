@@ -1,0 +1,364 @@
+{
+  "drug_name": "Status_epilepticus_(peds)",
+  "url": "https://wikem.org/wiki/Status_epilepticus_(peds)",
+  "scraped_at": "2026-01-10T08:02:37.667624",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nStatus epilepticus\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "For a child over 1 month of age\nCategorized as convulsive or non-convulsive\nConvulsive status epilepticus: tonic-clonic movements with altered mental status, may have focal neuro deficits post-ictally (Todd's paralysis)\nNon-convulsive status epilepticus: seizure activity on EEG without clinical findings\nStatus epilepticus is a medical emergency and has a high rate of morbidity and mortality\nCan lead to Cardiac dysrhythmia,\nHypoxia\n, Metabolic abnormalities,\nAcidosis\n, Altered autonomic function,\nRhabdomyolysis\n, Neurogenic pulmonary edema, Pulmonary aspiration, Hyperthermia, Permanent neurological damage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Unresponsive patient with either:\nSeizure >5 min and/or ongoing seizure on presentation\n2 or more seizures without full recovery of consciousness between seizures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "For_the_Neonate": {
+          "text": "CNS: Perinatal asphyxia, intracranial hemorrhage,\nhydrocephalus\nMetabolic: Electrolytes (↓ Na, ↓ Glucose, ↓ Ca++), Pyridoxine dependence, inborn errors of metabolism, mitochondrial disorders\nInfection:\nMeningitis\n/\nEncephalitis\n, TORCH infections (Toxoplasmosis, Other (syphilis, varicella-zoster, parvovirus B19), Rubella, Cytomegalovirus, and Herpes))",
+          "tables": []
+        },
+        "For_the_Pediatric_Patient": {
+          "text": "Fever, severe infection (meningitis, encephalitis)\nAnoxic injury\nElectrolyte derangements\nHyper or hypoglycemia\nHyper or hyponatremia\nHyper or hypocalcemia\nTraumatic brain injury (TBI)\nAnti-epileptic drug (AED) non-adherence, overdose, withdrawal\nToxic exposure (PLASTIC mnemonic)\nP: Pesticides, Propranolol, Phencyclidine (PCP)\nL: Lead, Lithium, Lidocaine, Lindane\nA: Alcohols, Amphetamines\nS: Sugar (hypoglycemics), Salicyclates, Sympathomimetics\nT: Tricyclic antidepressants, Theophylline\nI: Isoniazid, Iron, Insulin\nC: Cocaine, Camphor, Caffeine\nStructural abnormality of the brain\nHypoxic-ischemic encephalopathy (HIE)\nNeurodegenerative disorder\nStroke\nGenetic condition\nConsider other causes of\nPediatric seizure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Pediatric seizure",
+          "url": "https://wikem.org/wiki/Pediatric_seizure"
+        }
+      ]
+    },
+    "For_the_Neonate": {
+      "text": "CNS: Perinatal asphyxia, intracranial hemorrhage,\nhydrocephalus\nMetabolic: Electrolytes (↓ Na, ↓ Glucose, ↓ Ca++), Pyridoxine dependence, inborn errors of metabolism, mitochondrial disorders\nInfection:\nMeningitis\n/\nEncephalitis\n, TORCH infections (Toxoplasmosis, Other (syphilis, varicella-zoster, parvovirus B19), Rubella, Cytomegalovirus, and Herpes))",
+      "subsections": {
+        "For_the_Pediatric_Patient": {
+          "text": "Fever, severe infection (meningitis, encephalitis)\nAnoxic injury\nElectrolyte derangements\nHyper or hypoglycemia\nHyper or hyponatremia\nHyper or hypocalcemia\nTraumatic brain injury (TBI)\nAnti-epileptic drug (AED) non-adherence, overdose, withdrawal\nToxic exposure (PLASTIC mnemonic)\nP: Pesticides, Propranolol, Phencyclidine (PCP)\nL: Lead, Lithium, Lidocaine, Lindane\nA: Alcohols, Amphetamines\nS: Sugar (hypoglycemics), Salicyclates, Sympathomimetics\nT: Tricyclic antidepressants, Theophylline\nI: Isoniazid, Iron, Insulin\nC: Cocaine, Camphor, Caffeine\nStructural abnormality of the brain\nHypoxic-ischemic encephalopathy (HIE)\nNeurodegenerative disorder\nStroke\nGenetic condition\nConsider other causes of\nPediatric seizure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Pediatric seizure",
+          "url": "https://wikem.org/wiki/Pediatric_seizure"
+        }
+      ]
+    },
+    "For_the_Pediatric_Patient": {
+      "text": "Fever, severe infection (meningitis, encephalitis)\nAnoxic injury\nElectrolyte derangements\nHyper or hypoglycemia\nHyper or hyponatremia\nHyper or hypocalcemia\nTraumatic brain injury (TBI)\nAnti-epileptic drug (AED) non-adherence, overdose, withdrawal\nToxic exposure (PLASTIC mnemonic)\nP: Pesticides, Propranolol, Phencyclidine (PCP)\nL: Lead, Lithium, Lidocaine, Lindane\nA: Alcohols, Amphetamines\nS: Sugar (hypoglycemics), Salicyclates, Sympathomimetics\nT: Tricyclic antidepressants, Theophylline\nI: Isoniazid, Iron, Insulin\nC: Cocaine, Camphor, Caffeine\nStructural abnormality of the brain\nHypoxic-ischemic encephalopathy (HIE)\nNeurodegenerative disorder\nStroke\nGenetic condition\nConsider other causes of\nPediatric seizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric seizure",
+          "url": "https://wikem.org/wiki/Pediatric_seizure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Check a blood glucose\nIf indicated, consider:\nAnticonvulsant drug levels\nCMP, CBC, blood gas, calcium, magnesium level\nBlood & urine culture\nCT head if concern for blood, infectious process, mass\nLumbar puncture if febrile, concerns for meningitis/encephalitis (may be afebrile), or localized/focal neurological findings\nToxicology studies\nEKG to evaluate for arrhythmias, toxins and electrolyte abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Check a blood glucose\nIf indicated, consider:\nAnticonvulsant drug levels\nCMP, CBC, blood gas, calcium, magnesium level\nBlood & urine culture\nCT head if concern for blood, infectious process, mass\nLumbar puncture if febrile, concerns for meningitis/encephalitis (may be afebrile), or localized/focal neurological findings\nToxicology studies\nEKG to evaluate for arrhythmias, toxins and electrolyte abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Prehospital": {
+          "text": "Give Midazolam 0.2 mg/kg/dose IM/intranasal (MAX 10 mg/dose)\nCheck blood glucose\nIf blood glucose <3.3 mmol/L (<60 mg/dL): Treat with D25W 2 mL/kg/dose IV (MAX 100 mL/dose) OR D10W 5 mL/kg/dose IV (MAX 250 mL/dose).\nIf ≥3.3 mmol/L (≥60 mg/dL): Give second dose of Midazolam 0.2 mg/kg/dose IM/intranasal (MAX cumulative dose of 10 mg in prehospital setting; if max dose given, consult Medical Director/Base Hospital for next step).\nProvide\nO2\nvia positive pressure ventilation with BVM/flow inflating bag\nLikely apneic/hypoventilating/hypercapneic\nOnly apply CPAP or a non-rebreather if patient stops seizing and has adequate chest rise",
+          "tables": []
+        },
+        "Initial_management_of_pediatric_status_epilepticus": {
+          "text": "^May be ineffective for toxin-induced seizures and contraindicated in\ncocaine toxicity",
+          "tables": [
+            [
+              {
+                "Timeline": "0-5 minutes",
+                "General Considerations": "Supportive careABC'sMaintain airway; suction, jaw thrustProvideO2via positive pressure ventilation with BVM/MaplesonLikely apneic/hypoventilating/hypercapneicOnly apply CPAP or a non-rebreather if patient stops seizing and has adequate chest riseEstablish IV/IOaccessCheck blood glucoseIf fever,acetaminophen15 mg/kg rectally",
+                "Seizure Treatment": "Benzodiazepine: first doseIV/IO access establishedLorazepam0.1 mg/kg IV (max 4 mg) if IV/IO access, ORDiazepam0.2 mg/kg IM (max 10 mg) if no accessIV or IO access not achieved within 3 minutes:Buccalmidazolam0.2 mg/kg (max 10 mg), ORIMmidazolam0.2 mg/kg (max 10 mg), ORRectaldiazepam(Diastat gel or injection solution given rectally) 0.5 mg/kg (max 20 mg)"
+              },
+              {
+                "Timeline": "5-10 minutes",
+                "General Considerations": "Give antibiotics if concern forsepsisormeningitisPOC electrolytes, if available",
+                "Seizure Treatment": "Benzodiazepine: second dose"
+              },
+              {
+                "Timeline": "10-15 minutes",
+                "General Considerations": "All equally efficacious for status epilepticusLevetiracetam is preferred given quick administration, favorable side effect profile, and less drug interactionsDo not combine Phenytoin and Fosphenytoin",
+                "Seizure Treatment": "Antiepileptic: first therapyLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 min, ORFosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO, (max 1 g) over 20 min, (expect respiratory depression with apnea)¥"
+              },
+              {
+                "Timeline": "15-30 minutes",
+                "General Considerations": "Consider intubation, if not already performedConsider NG tube to decompress stomach prior to intubationPediatric neurology consultation",
+                "Seizure Treatment": "Antiepileptic: second therapy(if medication not already given)Fosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO (max 1 g) over 20 min10 mg/kg if phenobarbital already given, ORLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 minIfisoniazid toxicitysuspected,pyridoxineInfants (<1 year): 100 mg IV or IO inOtherwise 70 mg/kg IV or IO (max = 5 g)"
+              },
+              {
+                "Timeline": ">30 minutes",
+                "General Considerations": "Intubate patient, if not already performedConsult referral site / PICU for admission and continuous EEG",
+                "Seizure Treatment": "Antiepileptic: third therapyMidazolam 0.2mg/kg IV bolus (max 10mg), followed by 0.2mg/kg/hr (max 10mg/hr) infusion dripIncrease infusion rate by 0.2mg/kg/hr (max 10mg/hr) every 10 minutes until burst suppression or max dose of 2mg/kg/hr (max 100mg/hr)"
+              }
+            ]
+          ]
+        },
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        }
+      ]
+    },
+    "Initial_management_of_pediatric_status_epilepticus": {
+      "text": "^May be ineffective for toxin-induced seizures and contraindicated in\ncocaine toxicity",
+      "subsections": {
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Timeline": "0-5 minutes",
+            "General Considerations": "Supportive careABC'sMaintain airway; suction, jaw thrustProvideO2via positive pressure ventilation with BVM/MaplesonLikely apneic/hypoventilating/hypercapneicOnly apply CPAP or a non-rebreather if patient stops seizing and has adequate chest riseEstablish IV/IOaccessCheck blood glucoseIf fever,acetaminophen15 mg/kg rectally",
+            "Seizure Treatment": "Benzodiazepine: first doseIV/IO access establishedLorazepam0.1 mg/kg IV (max 4 mg) if IV/IO access, ORDiazepam0.2 mg/kg IM (max 10 mg) if no accessIV or IO access not achieved within 3 minutes:Buccalmidazolam0.2 mg/kg (max 10 mg), ORIMmidazolam0.2 mg/kg (max 10 mg), ORRectaldiazepam(Diastat gel or injection solution given rectally) 0.5 mg/kg (max 20 mg)"
+          },
+          {
+            "Timeline": "5-10 minutes",
+            "General Considerations": "Give antibiotics if concern forsepsisormeningitisPOC electrolytes, if available",
+            "Seizure Treatment": "Benzodiazepine: second dose"
+          },
+          {
+            "Timeline": "10-15 minutes",
+            "General Considerations": "All equally efficacious for status epilepticusLevetiracetam is preferred given quick administration, favorable side effect profile, and less drug interactionsDo not combine Phenytoin and Fosphenytoin",
+            "Seizure Treatment": "Antiepileptic: first therapyLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 min, ORFosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO, (max 1 g) over 20 min, (expect respiratory depression with apnea)¥"
+          },
+          {
+            "Timeline": "15-30 minutes",
+            "General Considerations": "Consider intubation, if not already performedConsider NG tube to decompress stomach prior to intubationPediatric neurology consultation",
+            "Seizure Treatment": "Antiepileptic: second therapy(if medication not already given)Fosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO (max 1 g) over 20 min10 mg/kg if phenobarbital already given, ORLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 minIfisoniazid toxicitysuspected,pyridoxineInfants (<1 year): 100 mg IV or IO inOtherwise 70 mg/kg IV or IO (max = 5 g)"
+          },
+          {
+            "Timeline": ">30 minutes",
+            "General Considerations": "Intubate patient, if not already performedConsult referral site / PICU for admission and continuous EEG",
+            "Seizure Treatment": "Antiepileptic: third therapyMidazolam 0.2mg/kg IV bolus (max 10mg), followed by 0.2mg/kg/hr (max 10mg/hr) infusion dripIncrease infusion rate by 0.2mg/kg/hr (max 10mg/hr) every 10 minutes until burst suppression or max dose of 2mg/kg/hr (max 100mg/hr)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pediatric_Anticonvulsants_Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Levetiracetam",
+            "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+            "Infusion Rate (Minutes)": "≥5",
+            "Age": "Any",
+            "Comments/Cautions": "Most commonly used agent"
+          },
+          {
+            "Drug": "Fosphenytoin",
+            "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Valproic acid",
+            "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "≥2 years",
+            "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+          },
+          {
+            "Drug": "Phenytoin",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Phenobarbital",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "<6 months",
+            "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Criteria for admission\nPatients with refractory seizures\nPatients who are not responsive within 4-6 hours of arrival to the ED\nCriteria for discharge\nPatients who have returned to baseline post seizure management\nPatients whose parents/guardians feel comfortable with discharge and have been counseled about what to do if seizure recurs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure (peds)\nStatus epilepticus\n(adult)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure (peds)",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "References": {
+      "text": "EIIC-TREKK Bottom Line Recommendations Pediatric Status Epilepticus. April 2022, TREKK; EIIC; For Revision 2024. Version 1.0.\nhttps://emscimprovement.center/education-and-resources/peak/peak-status-epilepticus/eiic-trekk-bottom-line-recommendations-pediatric-status-epilepticus/\n.\nEIIC-TREKK Pediatric Status Epilepticus Algorithm. April 2022 Version: 4.0 Review date: 2024.\nhttps://emscimprovement.center/education-and-resources/peak/peak-status-epilepticus/trekk-eiic-pediatric-status-epilepticus-practice-guideline/\n.\nKristinsson, George. Status Epilepticus. PEM GUIDES. 7th edition. NYU Langone Health; 2020: 551-557.\nMedical Review Committee. Cincinnati Children's Hospital Medical Center.\nhttps://mrc.pemcincinnati.com/status-epilepticus/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

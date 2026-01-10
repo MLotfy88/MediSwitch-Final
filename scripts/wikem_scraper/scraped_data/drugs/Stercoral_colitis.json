@@ -1,0 +1,256 @@
+{
+  "drug_name": "Stercoral_colitis",
+  "url": "https://wikem.org/wiki/Stercoral_colitis",
+  "scraped_at": "2026-01-10T08:02:38.391729",
+  "sections": {
+    "Background": {
+      "text": "Inflammatory\ncolitis\nrelated to increased intraluminal pressure from\nimpacted fecal material\nin the colon\nPressure from fecaloma or colonic distention may cause ulceration/necrosis and ultimately perforation\nRare condition, but with high mortality rate (32-59%) when complicated by perforation\n[1]\nPrimarily in elderly, nursing home, or young patients with neurological impairment, chronic opioid use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "History of chronic\nconstipation\nand/or\nfecal impaction\nMay be asymptomatic or have only mild\nabdominal pain\nat initial stages\nMaintain a high index of suspicion; a recent review shows lack of abdominal pain in as much as 62% of cases\n[2]\nAbdominal pain/tenderness, distension,\nvomiting\nare most common symptoms\n[3]\nRectal bleeding\nSymptoms and signs of peritonitis or shock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Constipation": {
+      "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work_up": {
+          "text": "Digital rectal exam\nAbdominal panel\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nLactate\nConsider preoperative labs including type & screen\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nCT abdomen/pelvis with IV contrast\nCT findings with focal thickening of colonic wall, stranding of pericolonic fat in segment showing fecal impaction, and presence of extraluminal bubbles of gas or abscess\n[4]\nFecolomas may be visualized as radiopaque masses",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is typically made on CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work_up": {
+      "text": "Digital rectal exam\nAbdominal panel\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nLactate\nConsider preoperative labs including type & screen\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nCT abdomen/pelvis with IV contrast\nCT findings with focal thickening of colonic wall, stranding of pericolonic fat in segment showing fecal impaction, and presence of extraluminal bubbles of gas or abscess\n[4]\nFecolomas may be visualized as radiopaque masses",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is typically made on CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is typically made on CT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fluid resuscitation\nBroad spectrum\nantibiotics\ncovering intra-abdominal flora (e.g.,\nceftriaxone\n+\nmetronidazole\n)\nSurgical consult, NPO\nMay ultimately be treated nonsurgically (e.g. manual disimpaction, enemas), if no evidence of bowel perforation or ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fecal impaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

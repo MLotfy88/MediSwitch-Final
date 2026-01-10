@@ -1,0 +1,858 @@
+{
+  "drug_name": "Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis",
+  "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis",
+  "scraped_at": "2026-01-10T08:02:44.714857",
+  "sections": {
+    "Background": {
+      "text": "Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) are a spectrum of disease which ultimately results in blistering and peeling of the skin\nMucous membranes can also be involved\nSJS and TEN exist on a spectrum of disease\nSJS involves <10% of the skin\nbody surface area\nTEN involves >30% of the skin\nbody surface area\nSJS and TEN are considered true dermatologic emergencies",
+      "subsections": {
+        "Causes": {
+          "text": "Drugs\nThe most common cause overall\n[1]\nMany have been linked. Common offensive agents include: sulfa,\nquinolones\n,\nPCN\n,\nASA\n,\nacetaminophen\n,\ncarbamazepine\n,\nNSAIDs\n,\nphenytoin\n,\ncorticosteroids\n, immunizations\nHigh dose or rapid loading of\nallopurinol\n[2]\n,\nlamotrigine\n[3]\nMalignancy -\nlymphoma\n,\nbrain tumor\ntreated with radiotherapy and antiepileptics\n[4]\nIdiopathic\nImmunosuppression -\nHIV\n[5]\nInfectious -\nMycoplasma pneumoniae\n[6]\nAutoimmune -\nSLE\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "body surface area",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "body surface area",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "PCN",
+          "url": "https://wikem.org/wiki/PCN"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "lamotrigine",
+          "url": "https://wikem.org/wiki/Lamotrigine"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Drugs\nThe most common cause overall\n[1]\nMany have been linked. Common offensive agents include: sulfa,\nquinolones\n,\nPCN\n,\nASA\n,\nacetaminophen\n,\ncarbamazepine\n,\nNSAIDs\n,\nphenytoin\n,\ncorticosteroids\n, immunizations\nHigh dose or rapid loading of\nallopurinol\n[2]\n,\nlamotrigine\n[3]\nMalignancy -\nlymphoma\n,\nbrain tumor\ntreated with radiotherapy and antiepileptics\n[4]\nIdiopathic\nImmunosuppression -\nHIV\n[5]\nInfectious -\nMycoplasma pneumoniae\n[6]\nAutoimmune -\nSLE\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "PCN",
+          "url": "https://wikem.org/wiki/PCN"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "lamotrigine",
+          "url": "https://wikem.org/wiki/Lamotrigine"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Often have prodrome (\nfever\n,\nURI\nsymptoms,\nheadache\n, malaise)\nMacular\nrash\n+/- Target lesions\nUsually starts centrally, spreads peripherally, and may become confluent\nMay be painful\nMay have +Nikolsky sign (denude when touched)\nMucous membranes can be severely affected\nEye involvement can be severe\nIn severe cases, respiratory tract and GI involvement may occur",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Erythema Multiforme\nStaphylococcal scalded skin syndrome\nErythroderma\nToxic Shock Syndrome\nDrug rash\nAcute generalized exanthematous pustulosis\nDRESS syndrome",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema Multiforme",
+          "url": "https://wikem.org/wiki/Erythema_Multiforme"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Erythroderma",
+          "url": "https://wikem.org/wiki/Erythroderma"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/DRESS_syndrome"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nCMP\nESR\nCXR\nExamine eyes/mucosal surfaces",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        },
+        "Table_of_Severe_Drug_Rashes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Charateristic": "Image",
+                "DRESS": "",
+                "SJS/TEN": "",
+                "AGEP": "",
+                "Erythroderma": ""
+              },
+              {
+                "Charateristic": "Onset of eruption",
+                "DRESS": "2-6 weeks",
+                "SJS/TEN": "1-3 weeks",
+                "AGEP": "48 hours",
+                "Erythroderma": "1-3 weeks"
+              },
+              {
+                "Charateristic": "Duration of eruption (weeks)",
+                "DRESS": "Several",
+                "SJS/TEN": "1-3",
+                "AGEP": "<1",
+                "Erythroderma": "Several"
+              },
+              {
+                "Charateristic": "Fever",
+                "DRESS": "+++",
+                "SJS/TEN": "+++",
+                "AGEP": "+++",
+                "Erythroderma": "+++"
+              },
+              {
+                "Charateristic": "Mucocutaneous features",
+                "DRESS": "Facial edema, morbilliform eruption, pustules, exfoliative dermattiis, tense bullae, possible target lesions",
+                "SJS/TEN": "Bullae, atypical target lesions, mucocutaneous erosions",
+                "AGEP": "Facial edema, pustules, tense bullae, possible target lesions, possibl emucosal involvement",
+                "Erythroderma": "Erythematous plaques and edema affecting >90% of total skin surface with or without diffuse exfoliation"
+              },
+              {
+                "Charateristic": "Lymph node enlargement",
+                "DRESS": "+++",
+                "SJS/TEN": "-",
+                "AGEP": "+",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Neutrophils",
+                "DRESS": "Elevated",
+                "SJS/TEN": "Decreased",
+                "AGEP": "Very elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Eosinophils",
+                "DRESS": "Very elevated",
+                "SJS/TEN": "No change",
+                "AGEP": "Elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Atypical lymphocytes",
+                "DRESS": "+",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Hepatitis",
+                "DRESS": "+++",
+                "SJS/TEN": "++",
+                "AGEP": "++",
+                "Erythroderma": "-"
+              },
+              {
+                "Charateristic": "Other organ involvement",
+                "DRESS": "Interstitial nephritis, pneumonitis, myocarditis, and thydoiditis",
+                "SJS/TEN": "Tubular nephritis and tracheobronical necrosis",
+                "AGEP": "Possible",
+                "Erythroderma": "Possible"
+              },
+              {
+                "Charateristic": "Histological pattern of skin",
+                "DRESS": "Perivascular lymphocytcic infiltrate",
+                "SJS/TEN": "Epidermal necrosis",
+                "AGEP": "Subcorneal pustules",
+                "Erythroderma": "Nonspecific, unless reflecting Sezary syndrome or other lymphoma"
+              },
+              {
+                "Charateristic": "Lymph node histology",
+                "DRESS": "Lymphoid hyperplasia",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "No, unless reflecting Sezary syndrome or other malignancy"
+              },
+              {
+                "Charateristic": "Mortality(%)",
+                "DRESS": "10",
+                "SJS/TEN": "5-35",
+                "AGEP": "5",
+                "Erythroderma": "5-15"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC\nCMP\nESR\nCXR\nExamine eyes/mucosal surfaces",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        },
+        "Table_of_Severe_Drug_Rashes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Charateristic": "Image",
+                "DRESS": "",
+                "SJS/TEN": "",
+                "AGEP": "",
+                "Erythroderma": ""
+              },
+              {
+                "Charateristic": "Onset of eruption",
+                "DRESS": "2-6 weeks",
+                "SJS/TEN": "1-3 weeks",
+                "AGEP": "48 hours",
+                "Erythroderma": "1-3 weeks"
+              },
+              {
+                "Charateristic": "Duration of eruption (weeks)",
+                "DRESS": "Several",
+                "SJS/TEN": "1-3",
+                "AGEP": "<1",
+                "Erythroderma": "Several"
+              },
+              {
+                "Charateristic": "Fever",
+                "DRESS": "+++",
+                "SJS/TEN": "+++",
+                "AGEP": "+++",
+                "Erythroderma": "+++"
+              },
+              {
+                "Charateristic": "Mucocutaneous features",
+                "DRESS": "Facial edema, morbilliform eruption, pustules, exfoliative dermattiis, tense bullae, possible target lesions",
+                "SJS/TEN": "Bullae, atypical target lesions, mucocutaneous erosions",
+                "AGEP": "Facial edema, pustules, tense bullae, possible target lesions, possibl emucosal involvement",
+                "Erythroderma": "Erythematous plaques and edema affecting >90% of total skin surface with or without diffuse exfoliation"
+              },
+              {
+                "Charateristic": "Lymph node enlargement",
+                "DRESS": "+++",
+                "SJS/TEN": "-",
+                "AGEP": "+",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Neutrophils",
+                "DRESS": "Elevated",
+                "SJS/TEN": "Decreased",
+                "AGEP": "Very elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Eosinophils",
+                "DRESS": "Very elevated",
+                "SJS/TEN": "No change",
+                "AGEP": "Elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Atypical lymphocytes",
+                "DRESS": "+",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Hepatitis",
+                "DRESS": "+++",
+                "SJS/TEN": "++",
+                "AGEP": "++",
+                "Erythroderma": "-"
+              },
+              {
+                "Charateristic": "Other organ involvement",
+                "DRESS": "Interstitial nephritis, pneumonitis, myocarditis, and thydoiditis",
+                "SJS/TEN": "Tubular nephritis and tracheobronical necrosis",
+                "AGEP": "Possible",
+                "Erythroderma": "Possible"
+              },
+              {
+                "Charateristic": "Histological pattern of skin",
+                "DRESS": "Perivascular lymphocytcic infiltrate",
+                "SJS/TEN": "Epidermal necrosis",
+                "AGEP": "Subcorneal pustules",
+                "Erythroderma": "Nonspecific, unless reflecting Sezary syndrome or other lymphoma"
+              },
+              {
+                "Charateristic": "Lymph node histology",
+                "DRESS": "Lymphoid hyperplasia",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "No, unless reflecting Sezary syndrome or other malignancy"
+              },
+              {
+                "Charateristic": "Mortality(%)",
+                "DRESS": "10",
+                "SJS/TEN": "5-35",
+                "AGEP": "5",
+                "Erythroderma": "5-15"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Table_of_Severe_Drug_Rashes": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Charateristic": "Image",
+                "DRESS": "",
+                "SJS/TEN": "",
+                "AGEP": "",
+                "Erythroderma": ""
+              },
+              {
+                "Charateristic": "Onset of eruption",
+                "DRESS": "2-6 weeks",
+                "SJS/TEN": "1-3 weeks",
+                "AGEP": "48 hours",
+                "Erythroderma": "1-3 weeks"
+              },
+              {
+                "Charateristic": "Duration of eruption (weeks)",
+                "DRESS": "Several",
+                "SJS/TEN": "1-3",
+                "AGEP": "<1",
+                "Erythroderma": "Several"
+              },
+              {
+                "Charateristic": "Fever",
+                "DRESS": "+++",
+                "SJS/TEN": "+++",
+                "AGEP": "+++",
+                "Erythroderma": "+++"
+              },
+              {
+                "Charateristic": "Mucocutaneous features",
+                "DRESS": "Facial edema, morbilliform eruption, pustules, exfoliative dermattiis, tense bullae, possible target lesions",
+                "SJS/TEN": "Bullae, atypical target lesions, mucocutaneous erosions",
+                "AGEP": "Facial edema, pustules, tense bullae, possible target lesions, possibl emucosal involvement",
+                "Erythroderma": "Erythematous plaques and edema affecting >90% of total skin surface with or without diffuse exfoliation"
+              },
+              {
+                "Charateristic": "Lymph node enlargement",
+                "DRESS": "+++",
+                "SJS/TEN": "-",
+                "AGEP": "+",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Neutrophils",
+                "DRESS": "Elevated",
+                "SJS/TEN": "Decreased",
+                "AGEP": "Very elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Eosinophils",
+                "DRESS": "Very elevated",
+                "SJS/TEN": "No change",
+                "AGEP": "Elevated",
+                "Erythroderma": "Elevated"
+              },
+              {
+                "Charateristic": "Atypical lymphocytes",
+                "DRESS": "+",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "+"
+              },
+              {
+                "Charateristic": "Hepatitis",
+                "DRESS": "+++",
+                "SJS/TEN": "++",
+                "AGEP": "++",
+                "Erythroderma": "-"
+              },
+              {
+                "Charateristic": "Other organ involvement",
+                "DRESS": "Interstitial nephritis, pneumonitis, myocarditis, and thydoiditis",
+                "SJS/TEN": "Tubular nephritis and tracheobronical necrosis",
+                "AGEP": "Possible",
+                "Erythroderma": "Possible"
+              },
+              {
+                "Charateristic": "Histological pattern of skin",
+                "DRESS": "Perivascular lymphocytcic infiltrate",
+                "SJS/TEN": "Epidermal necrosis",
+                "AGEP": "Subcorneal pustules",
+                "Erythroderma": "Nonspecific, unless reflecting Sezary syndrome or other lymphoma"
+              },
+              {
+                "Charateristic": "Lymph node histology",
+                "DRESS": "Lymphoid hyperplasia",
+                "SJS/TEN": "-",
+                "AGEP": "-",
+                "Erythroderma": "No, unless reflecting Sezary syndrome or other malignancy"
+              },
+              {
+                "Charateristic": "Mortality(%)",
+                "DRESS": "10",
+                "SJS/TEN": "5-35",
+                "AGEP": "5",
+                "Erythroderma": "5-15"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Table_of_Severe_Drug_Rashes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Charateristic": "Image",
+            "DRESS": "",
+            "SJS/TEN": "",
+            "AGEP": "",
+            "Erythroderma": ""
+          },
+          {
+            "Charateristic": "Onset of eruption",
+            "DRESS": "2-6 weeks",
+            "SJS/TEN": "1-3 weeks",
+            "AGEP": "48 hours",
+            "Erythroderma": "1-3 weeks"
+          },
+          {
+            "Charateristic": "Duration of eruption (weeks)",
+            "DRESS": "Several",
+            "SJS/TEN": "1-3",
+            "AGEP": "<1",
+            "Erythroderma": "Several"
+          },
+          {
+            "Charateristic": "Fever",
+            "DRESS": "+++",
+            "SJS/TEN": "+++",
+            "AGEP": "+++",
+            "Erythroderma": "+++"
+          },
+          {
+            "Charateristic": "Mucocutaneous features",
+            "DRESS": "Facial edema, morbilliform eruption, pustules, exfoliative dermattiis, tense bullae, possible target lesions",
+            "SJS/TEN": "Bullae, atypical target lesions, mucocutaneous erosions",
+            "AGEP": "Facial edema, pustules, tense bullae, possible target lesions, possibl emucosal involvement",
+            "Erythroderma": "Erythematous plaques and edema affecting >90% of total skin surface with or without diffuse exfoliation"
+          },
+          {
+            "Charateristic": "Lymph node enlargement",
+            "DRESS": "+++",
+            "SJS/TEN": "-",
+            "AGEP": "+",
+            "Erythroderma": "+"
+          },
+          {
+            "Charateristic": "Neutrophils",
+            "DRESS": "Elevated",
+            "SJS/TEN": "Decreased",
+            "AGEP": "Very elevated",
+            "Erythroderma": "Elevated"
+          },
+          {
+            "Charateristic": "Eosinophils",
+            "DRESS": "Very elevated",
+            "SJS/TEN": "No change",
+            "AGEP": "Elevated",
+            "Erythroderma": "Elevated"
+          },
+          {
+            "Charateristic": "Atypical lymphocytes",
+            "DRESS": "+",
+            "SJS/TEN": "-",
+            "AGEP": "-",
+            "Erythroderma": "+"
+          },
+          {
+            "Charateristic": "Hepatitis",
+            "DRESS": "+++",
+            "SJS/TEN": "++",
+            "AGEP": "++",
+            "Erythroderma": "-"
+          },
+          {
+            "Charateristic": "Other organ involvement",
+            "DRESS": "Interstitial nephritis, pneumonitis, myocarditis, and thydoiditis",
+            "SJS/TEN": "Tubular nephritis and tracheobronical necrosis",
+            "AGEP": "Possible",
+            "Erythroderma": "Possible"
+          },
+          {
+            "Charateristic": "Histological pattern of skin",
+            "DRESS": "Perivascular lymphocytcic infiltrate",
+            "SJS/TEN": "Epidermal necrosis",
+            "AGEP": "Subcorneal pustules",
+            "Erythroderma": "Nonspecific, unless reflecting Sezary syndrome or other lymphoma"
+          },
+          {
+            "Charateristic": "Lymph node histology",
+            "DRESS": "Lymphoid hyperplasia",
+            "SJS/TEN": "-",
+            "AGEP": "-",
+            "Erythroderma": "No, unless reflecting Sezary syndrome or other malignancy"
+          },
+          {
+            "Charateristic": "Mortality(%)",
+            "DRESS": "10",
+            "SJS/TEN": "5-35",
+            "AGEP": "5",
+            "Erythroderma": "5-15"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Removal of inciting cause if identified\nFluid replacement\n- treat\nshock\nwith IV fluids according to\nburn protocols\nInfection control\nWound care\nUse of\nIVIG\n,\nplasmapheresis\n, and\ncorticosteroids\nare controversial but may be beneficial\nEvidence that Etanercept (TNF-alpha antagonist) may decrease time to skin healing and mortality compared to IV prednisolone\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid replacement",
+          "url": "https://wikem.org/wiki/Fluid_replacement"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "burn protocols",
+          "url": "https://wikem.org/wiki/Parkland_formula"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to burn unit or ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Validated with SCORTEN mortality assessment:\nOne point for each of the following assessed within 1st 24 hours of admission:\nAge >/= 40 years (OR 2.7)\nHeart Rate >/= 120 beats per minute (OR 2.7)\nCancer/Hematologic malignancy (OR 4.4)\nBody surface area on day 1; >10% (OR2.9)\nSerum urea level (BUN) >28mg/dL (>10mmol/L) (OR 2.5)\nSerum bicarbonate <20mmol/L (OR 4.3)\nSerum glucose > 252mg/dL (>14mmol/L) (OR5.3)\nPredicted mortality based on above total:",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Score": "0-1",
+            "Mortality": "3.2%"
+          },
+          {
+            "Score": "2",
+            "Mortality": "12.1%"
+          },
+          {
+            "Score": "3",
+            "Mortality": "35.3%"
+          },
+          {
+            "Score": "4",
+            "Mortality": "58.3%"
+          },
+          {
+            "Score": "5+",
+            "Mortality": "90.0%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rashes\nEstimating body surface area",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        },
+        {
+          "text": "Estimating body surface area",
+          "url": "https://wikem.org/wiki/Estimating_body_surface_area"
+        }
+      ]
+    }
+  }
+}

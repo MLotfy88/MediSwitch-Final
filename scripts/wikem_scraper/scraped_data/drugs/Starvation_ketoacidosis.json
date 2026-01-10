@@ -1,0 +1,130 @@
+{
+  "drug_name": "Starvation_ketoacidosis",
+  "url": "https://wikem.org/wiki/Starvation_ketoacidosis",
+  "scraped_at": "2026-01-10T08:02:37.694879",
+  "sections": {
+    "Background": {
+      "text": "Etiology: prolonged fasting, eating disorders, severely calorie-restricted diets, restricted access to food\nLow insulin/high glucagon in fasting state leads to increased lipolysis. Fatty acids initially converted to acety-CoA, which is then oxidized by the Kreb cycle.\nWhen Kreb's cycle oversaturated by excessive adipose breakdown, acetyl-CoA enters ketogenic pathway, resulting in ketone body production\nMild ketosis (1mmol/L) occurs  after fasting for ~12 to 14 hours.\nKetoacidosis rises with continued fasting, peaks after 20 to 30 days (8-10mmol/L).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nausea/vomiting\nAbdominal pain\nDehydration\nAltered mental status\nFatigue\nTachypnea\n, Kussmaul breathing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Diabetic ketoacidosis\nAlcoholic ketoacidosis\nLactic acidosis\nToxic alcohols\n(methanol or ethylene glycol) ingestion\nUremia\nSalicylate toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serum chemistry (elevated anion gap)\nVBG\nGlucose (usually euglycemic or hypoglycemic)\nUrinalysis\n(ketonuria)\nSerum beta-hydroxybutyrate\nLactate\nSalicylate level (if overdose suspected)\nSerum osmolality (if toxic alcohol ingestion suspected)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Dextrose\nResultant increased insulin/decreased glucagon secretion to halt ketone production and facilitate ketone metabolism\nCorrect hypokalemia PRIOR to glucose administration (insulin stimulated by dextrose will drive K+ into cells and worsen hypokalemia)\nVolume resuscitation with\nNormal saline\nor lactated ringers\nCorrect any concomitant\nelectrolyte abnormalities\nConsider risk of\nrefeeding syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "refeeding syndrome",
+          "url": "https://wikem.org/wiki/Refeeding_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If mild, can be discharged after correction of acidosis, electrolytes, and hypovolemia\nIf severe, admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Alcoholic ketoacidosis\nDiabetic ketoacidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        }
+      ]
+    }
+  }
+}

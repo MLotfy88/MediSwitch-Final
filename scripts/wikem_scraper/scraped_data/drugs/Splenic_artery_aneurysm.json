@@ -1,0 +1,49 @@
+{
+  "drug_name": "Splenic_artery_aneurysm",
+  "url": "https://wikem.org/wiki/Splenic_artery_aneurysm",
+  "scraped_at": "2026-01-10T08:02:30.196190",
+  "sections": {
+    "Background": {
+      "text": "The most common visceral arterial aneurysm, and the third most common abdominal aneurysm (after aorta and iliac vessels)\nEtiologies include arterial fibrodysplasia, portal hypertension, and increased splenic AV shunting in pregnancy\nIncidence on CT = 0.8%\n[1]\nFemale:Male 4:1\n2% result in life-threatening rupture\nIncrease risk of rupture in pregnancy (most commonly in 3rd trimester).\n[2]\nThought to be secondary to increase in estrogen, progesterone and relaxin causing aneurysmal dilatation.\nHigh maternal and fetal mortality post-rupture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Typically asymptomatic or vague with\nleft upper quadrant pain\nwith radiation to the left shoulder or subscapular area (most are incidental CT finding)\nMay have epigastric/abdominal pain and/or hemodynamic instability if ruptured",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Calcified left adrenal haematoma\nOther causes of hemoperitoneum if ruptured\nRuptured\nectopic pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CTA Abdomen/Pelvis is the gold standard\n[3]\nInitial\nFAST exam\nmay show fluid in left upper quadrant if ruptured aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgery and/or IR consult\nRuptured aneurysm requires emergent laparotomy or endovascular intervention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge:\nAneurysm size <2cm, asymptomatic, and hemodynamically stable\nFollow-up with PCP and/or vascular surgery for surveillance scans at 6 months and then every 1-2 years.\nAdmit:\nAneurysm of any size in symptomatic patients, cirrhotic patients undergoing liver transplant, patients with α-1 antitrypsin deficiency, and patients who are pregnant or of childbearing age (requires consultation with a vascular surgeon for ligation or embolization)\nAneurysm size >2cm (Requires consult with a vascular surgeon for ligation or embolization)\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal aortic aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

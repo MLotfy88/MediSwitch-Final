@@ -1,0 +1,61 @@
+{
+  "drug_name": "Stone_heart",
+  "url": "https://wikem.org/wiki/Stone_heart",
+  "scraped_at": "2026-01-10T08:02:41.853749",
+  "sections": {
+    "Background": {
+      "text": "Administration of intravenous\ncalcium\nthought to be contraindicated in patients with\ndigitalis toxicity\nbased on 1936 case report\n[1]\nIt was theorized in case report that calcium may cause an irreversible non-contractile state by impairing diastolic relaxation from calcium-\ntroponin\nC binding in the presence of Na/K channel blockade by Digoxin\n[2]\nExcess calcium may also predispose to\narrhythmias\nby adversely affecting re-polarization",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "digitalis toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        }
+      ]
+    },
+    "Current_Literature": {
+      "text": "Patients with  digoxin toxicity who given calcium do not have a statistically significant increase in mortality (22% versus 20%)\n[3]\nA 2003 case report describes positive benefit from treating hyperkalemia in the setting of digitalis toxicity\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "LITFL - Calcium and Digoxin\nMyth Buster - Stone Heart",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Digitalis Toxicity\nDigoxin\nElectrolyte Abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Digitalis Toxicity",
+          "url": "https://wikem.org/wiki/Digitalis_Toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities_(Main)"
+        }
+      ]
+    }
+  }
+}

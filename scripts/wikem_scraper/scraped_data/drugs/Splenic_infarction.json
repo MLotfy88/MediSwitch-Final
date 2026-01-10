@@ -1,0 +1,85 @@
+{
+  "drug_name": "Splenic_infarction",
+  "url": "https://wikem.org/wiki/Splenic_infarction",
+  "scraped_at": "2026-01-10T08:02:29.802494",
+  "sections": {
+    "Background": {
+      "text": "Occlusion (clot or infection) of splenic artery or one or more of its sub-branches",
+      "subsections": {
+        "Causes": {
+          "text": "Hypercoagulable state\nMalignancy\nAntiphospholipid syndrome\nEmbolic disease\nAtrial Fibrillation\nPatent foramen ovale\nAtheromatous disease\nInfective\nendocarditis\nMyeloproliferative disorders\nwith splenomegaly\nPolycythemia vera\nEssential thrombocythemia\nPrimary myelofibrosis\nSickle Cell Disease\nAny splenomegaly\nGaucher disease\nSplenic\nlymphoma\nSplenic Trauma\nSplenic arterial torsion\nMononucleosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Hypercoagulable state\nMalignancy\nAntiphospholipid syndrome\nEmbolic disease\nAtrial Fibrillation\nPatent foramen ovale\nAtheromatous disease\nInfective\nendocarditis\nMyeloproliferative disorders\nwith splenomegaly\nPolycythemia vera\nEssential thrombocythemia\nPrimary myelofibrosis\nSickle Cell Disease\nAny splenomegaly\nGaucher disease\nSplenic\nlymphoma\nSplenic Trauma\nSplenic arterial torsion\nMononucleosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Acute\nLUQ pain\n(48%)\nLUQ tenderness (36%)\nFever\n(36%)\nNausea or Vomiting\n(32%)\nSplenomegaly (32%)\nElevated LDH (71%)\nElevated WBC\n(56%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Gastritis/gastric ulcer\nHerpes Zoster\nPancreatitis\nSplenic rupture/distension\nSplenic Infarction\nMyocardial Ischemia\nPneumonia\nPulmonary Embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic Infarction",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary Embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Abdominal CTA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause\nSimple cases may require only\npain medication\nComplicated cases may require surgical intervention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

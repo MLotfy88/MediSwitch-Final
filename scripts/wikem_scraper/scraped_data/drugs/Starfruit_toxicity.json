@@ -1,0 +1,378 @@
+{
+  "drug_name": "Starfruit_toxicity",
+  "url": "https://wikem.org/wiki/Starfruit_toxicity",
+  "scraped_at": "2026-01-10T08:02:36.190363",
+  "sections": {
+    "Background": {
+      "text": "Starfruit (\nAverrhoa carambola\n) is a fruit native to Southeast Asia, but is also grown in South America, the Caribbean, Africa, and the United States\nCan be consumed raw or as juice, jam, pickles, and in cooked dishes\nIn traditional Chinese medicine, used to treat diabetes mellitus\n[1]",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Toxicity caused by two compounds, oxalic acid and caramboxin\nOxalic acid, a vitamin C metabolite, can worsen renal function but does not cause neurotoxicity\nCaramboxin, an amino acid neurotoxin, stimulates glutamate receptors, which leads to seizures\n[1]\nRaw fruit has high potassium content while juice does not\n[2]\n, however hyperkalemia not found in many patients\n[3]\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Toxicity caused by two compounds, oxalic acid and caramboxin\nOxalic acid, a vitamin C metabolite, can worsen renal function but does not cause neurotoxicity\nCaramboxin, an amino acid neurotoxin, stimulates glutamate receptors, which leads to seizures\n[1]\nRaw fruit has high potassium content while juice does not\n[2]\n, however hyperkalemia not found in many patients\n[3]\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Wide range of non-specific symptoms\n[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\nPersistent hiccups - most frequent symptom\nConfusion\nAgitation\nMuscle twitching\nNausea\nVomiting\nSeizures - associated with poor prognosis\n[3]\n[8]\nSymptoms of neurotoxicity may occur in patients with renal disease, even 1-2 fruits or small volumes of juice\n[5]\nCase reports of AKI in patients with previously normal renal function who consumed large amounts (over 10 fruits or greater than 1 L of juice)\n[5]\n[6]\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Seizure": {
+      "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nChemistry\nLFTs\nCSF studies\nUrine toxicology\nCT Head without contrast\nEKG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Mixed results with hemodialysis, with some studies reporting no improvement even with repeated hemodialysis\n[2]\n[5]\nCase reports of rapid improvement with charcoal hemoperfusion\n[4]\n[9]\n[10]\n[11]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If seizing, admit for monitoring and further workup\nOne study showed mortality as high as 75% in seizing patients, 0.03% in patients without seizures\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nTraditional chinese medicine toxicology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Traditional chinese medicine toxicology",
+          "url": "https://wikem.org/wiki/Traditional_chinese_medicine_toxicology"
+        }
+      ]
+    }
+  }
+}

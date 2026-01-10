@@ -1,0 +1,807 @@
+{
+  "drug_name": "Streptococcal_pharyngitis",
+  "url": "https://wikem.org/wiki/Streptococcal_pharyngitis",
+  "scraped_at": "2026-01-10T08:02:47.113544",
+  "sections": {
+    "Background": {
+      "text": "Peak in 5-15yr old\n[1]\nRare in <2yr of age\n[1]\nAccounts for only 15-30% of\npharyngitis\n[1]\nCaused by\nS. pyogenes\n(Group A strep)\n[1]\nPeak season is late winter / early spring\n[1]\nTransmission is respiratory secretions\n[1]\nIncubation period is 24-72 hours\n[1]\nAntibiotics shorten symptoms by 16 hours\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "S. pyogenes",
+          "url": "https://wikem.org/wiki/S._pyogenes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sore throat\nPainful swallowing\nFever\nNausea and vomiting\nTonsillar exudate\nPalatal\npetechiae\nShould NOT have a rash; if have scarlatiniform rash consider\nscarlet fever",
+      "subsections": {
+        "Modified_Centor_Criteria": {
+          "text": "One point is given for each of the criteria:\n[1]\nAbsence of a cough\nSwollen and tender cervical lymph nodes\nTemperature >38.0 °C (100.4 °F)\nTonsillar exudate or swelling\nAge less than 15^\nSubtract a point if age >44",
+          "tables": [
+            [
+              {
+                "Points": "1 or fewer",
+                "Probability ofStreptococcal pharyngitis": "<10%"
+              },
+              {
+                "Points": "2",
+                "Probability ofStreptococcal pharyngitis": "11–17%"
+              },
+              {
+                "Points": "3",
+                "Probability ofStreptococcal pharyngitis": "28–35%"
+              },
+              {
+                "Points": "4 or 5",
+                "Probability ofStreptococcal pharyngitis": "52%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        }
+      ]
+    },
+    "Modified_Centor_Criteria": {
+      "text": "One point is given for each of the criteria:\n[1]\nAbsence of a cough\nSwollen and tender cervical lymph nodes\nTemperature >38.0 °C (100.4 °F)\nTonsillar exudate or swelling\nAge less than 15^\nSubtract a point if age >44",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Points": "1 or fewer",
+            "Probability ofStreptococcal pharyngitis": "<10%"
+          },
+          {
+            "Points": "2",
+            "Probability ofStreptococcal pharyngitis": "11–17%"
+          },
+          {
+            "Points": "3",
+            "Probability ofStreptococcal pharyngitis": "28–35%"
+          },
+          {
+            "Points": "4 or 5",
+            "Probability ofStreptococcal pharyngitis": "52%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Acute rheumatic fever\nScarlet fever\nSuppurative complications\nPeritonsillar abscess\nMastoiditis",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[2]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[2]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Per a 2016 Cochrane Review of rapid strep tests in children, tests on average had a specificity of 95% and sensitivity of 86%, regardless of type of rapid strep test used (enzyme immunoassays or optical immunoassays).\n[3]",
+      "subsections": {
+        "Rapid_Antigen_Detection_Test_Algorithm_for_Acute_Pharyngitis": {
+          "text": "Diagnostic testing or empiric treatment of asymptomatic household contacts of patients with acute streptococcal pharyngitis is\nnot\nroutinely recommended",
+          "tables": [
+            [
+              {
+                "Category": "Clinical features strongly suggesting viral etiology (eg. cough, rhinorrhea, hoarseness, oral ulcers)",
+                "Testing and Treatment": "None"
+              },
+              {
+                "Category": "<3 years old",
+                "Testing and Treatment": "None because immature immune system not mature enough to develop anti-streptolysin O (ASO) antibodies and acute rheumatic fever[5].Unless they have a special risk factor (e.g. older sibling with GAS infection)"
+              },
+              {
+                "Category": "CENTOR = 1",
+                "Testing and Treatment": "None"
+              },
+              {
+                "Category": "None of the above with CENTOR ≥2",
+                "Testing and Treatment": "Send rapid antigen detection testPositive = treatNegativeChildren and adolescentsSend back up throat culture (treat later, if positive)AdultsNone (no need for back up throat culture)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rapid_Antigen_Detection_Test_Algorithm_for_Acute_Pharyngitis": {
+      "text": "Diagnostic testing or empiric treatment of asymptomatic household contacts of patients with acute streptococcal pharyngitis is\nnot\nroutinely recommended",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Clinical features strongly suggesting viral etiology (eg. cough, rhinorrhea, hoarseness, oral ulcers)",
+            "Testing and Treatment": "None"
+          },
+          {
+            "Category": "<3 years old",
+            "Testing and Treatment": "None because immature immune system not mature enough to develop anti-streptolysin O (ASO) antibodies and acute rheumatic fever[5].Unless they have a special risk factor (e.g. older sibling with GAS infection)"
+          },
+          {
+            "Category": "CENTOR = 1",
+            "Testing and Treatment": "None"
+          },
+          {
+            "Category": "None of the above with CENTOR ≥2",
+            "Testing and Treatment": "Send rapid antigen detection testPositive = treatNegativeChildren and adolescentsSend back up throat culture (treat later, if positive)AdultsNone (no need for back up throat culture)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Treatment can be delayed for up to 9 days and still prevent major sequelae\nPenicillin\nOptions:\n[6]\nPenicillin V\n250mg PO BID x 10d (child) or 500mg BID x 10d (adolescent or adult)\nBicillin L-A\n<27 kg: 0.6 million units; ≥27 kg: 1.2 million units IM x 1\nAmoxicillin\n500-875 mg PO q12h or 250-500 PO q8h for 10d\n[7]\nPenicillin\nallergic (mild):\n[6]\nCefuroxime\n10mg/kg PO QID x 10d (child) or 250mg PO BID x 4d\nCefixime\n400mg/day PO in single daily dose x10d or divided q12hr x10d\nPenicillin\nallergic (anaphylaxis):\n[6]\nClindamycin\n7.5mg/kg PO QID x 10d (child) or 450mg PO TID x 10d OR\nAzithromycin\n12mg/kg QD (child) or 500mg on day 1; then 250mg on days 2-5",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Consider single dose of\ndexamethasone\n0.6mg/kg PO (Max = 10mg)\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Bicillin L-A",
+          "url": "https://wikem.org/wiki/Bicillin_L-A"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Treatment can be delayed for up to 9 days and still prevent major sequelae\nPenicillin\nOptions:\n[6]\nPenicillin V\n250mg PO BID x 10d (child) or 500mg BID x 10d (adolescent or adult)\nBicillin L-A\n<27 kg: 0.6 million units; ≥27 kg: 1.2 million units IM x 1\nAmoxicillin\n500-875 mg PO q12h or 250-500 PO q8h for 10d\n[7]\nPenicillin\nallergic (mild):\n[6]\nCefuroxime\n10mg/kg PO QID x 10d (child) or 250mg PO BID x 4d\nCefixime\n400mg/day PO in single daily dose x10d or divided q12hr x10d\nPenicillin\nallergic (anaphylaxis):\n[6]\nClindamycin\n7.5mg/kg PO QID x 10d (child) or 450mg PO TID x 10d OR\nAzithromycin\n12mg/kg QD (child) or 500mg on day 1; then 250mg on days 2-5",
+      "subsections": {
+        "Steroids": {
+          "text": "Consider single dose of\ndexamethasone\n0.6mg/kg PO (Max = 10mg)\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Bicillin L-A",
+          "url": "https://wikem.org/wiki/Bicillin_L-A"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Consider single dose of\ndexamethasone\n0.6mg/kg PO (Max = 10mg)\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Acute rheumatic fever\nScarlet fever\nToxic shock syndrome\nPost-streptococcal glomerular nephritis\nPANDAS syndrome\nPeritonsillar abscess\nCervical\nlymphadenitis\nMastoiditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Post-streptococcal glomerular nephritis",
+          "url": "https://wikem.org/wiki/Post-streptococcal_glomerular_nephritis"
+        },
+        {
+          "text": "PANDAS syndrome",
+          "url": "https://wikem.org/wiki/Pediatric_autoimmune_neuropsychiatric_disorder_associated_with_group_A_streptococci_(PANDAS)"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sore Throat",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore Throat",
+          "url": "https://wikem.org/wiki/Sore_Throat"
+        }
+      ]
+    }
+  }
+}

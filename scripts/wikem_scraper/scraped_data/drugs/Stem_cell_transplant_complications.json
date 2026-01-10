@@ -1,0 +1,2891 @@
+{
+  "drug_name": "Stem_cell_transplant_complications",
+  "url": "https://wikem.org/wiki/Stem_cell_transplant_complications",
+  "scraped_at": "2026-01-10T08:02:37.267829",
+  "sections": {
+    "Background": {
+      "text": "Autologous or allogenic\nCells harvested from bone marrow or peripherally\nTreats various malignant and benign heme/onc diseases\nLeukemia\n,\nlymphoma\n,\nmultiple myeloma\n,\nmyelodysplastic syndrome\nSevere\naplastic anemia\nand bone marrow failure, inherited blood dyscrasias or immune deficiencies\nPhases of recipient transplant process\nConditioning with radiation (usually total body) and/or chemotherapy\nGoals: eliminate underlying malignancy, prevent rejection\nInfusion\nNeutropenic phase (weeks 2-4): no functioning immune system\nEngraftment phase: highest risk of acute\nGVHD\n, lasts several weeks\nPost-engraftment phase",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        }
+      ]
+    },
+    "Clinical_Features/Differential": {
+      "text": "",
+      "subsections": {
+        "Neurologic_complications": {
+          "text": "Higher risk with allogenic transplant\nStroke\nMedian time of presentation 28 days post-transplant\nUsually hemorrhagic due to\nthrombocytopenia\nCan also be ischemic due infection, thrombosis, endocarditis\nInfection\nAspergillus\n(main cause),\nCMV\n,\nHSV\n,\nToxoplasma\n,\nCandida\n,\nCryptococcus\n, bacterial\nmeningitis\nMetabolic\nencephalopathy\nCauses include\nhypoxemia\n,\nelectrolyte abnormalities\n,\nmetabolic acidosis\n,\nsepsis\n,\nhepatic failure\n, medications (\nsedatives\nand\nanalgesics\n),\nthiamine deficiency",
+          "tables": []
+        },
+        "Cardiac_complications": {
+          "text": "Pulmonary edema\nRisk factors: low EF, veno-oclussive disease, severe\nsepsis\n,\nanemia\n, high-dose chemo\nPericardial effusion\n,\npericardial tamponade\nRare, associated with\ncyclophosphamide\ntoxicity, infection, chronic\nGVHD\n,\nrenal failure",
+          "tables": []
+        },
+        "Pulmonary_complications": {
+          "text": "Engraftment syndrome\nDue to rapid return of neutrophils\nFeatures:\nfever\n,\nrash\n,\npulmonary edema\n, weight gain,\nliver\nand\nrenal dysfunction\n, and/or\nencephalopathy\nDiffuse alveolar hemorrhage\nBronchiolitis obliterans with or without organizing pneumonia",
+          "tables": []
+        },
+        "GI_complications": {
+          "text": "Intestinal\nGVHD\nabdominal pain\n,\nnausea/vomiting\n,\ndiarrhea\n,\nGI bleeding\n+/-\nperitonitis\n,\nhepatitis\n,\nrash\nPseudo-\nobstruction\nVeno-occlusive disease of liver\ncommon\nusually first 21 days after transplant\nhigh dose chemo→endothelial damage of central hepatic venules→ thrombosis\nRUQ pain\n,\njaundice\n, weight gain\nGI bleed\nChemo,\nGVHD\n, or\nCMV\n/\nadenovirus\n→ diffuse mucosal bleeding, ulcers, or necrosis",
+          "tables": []
+        },
+        "Renal_complications": {
+          "text": "Tumor lysis syndrome\nHemorrhagic cystitis, veno-occlusive disease\nHemolytic uremic syndrome",
+          "tables": []
+        },
+        "Graft-vs-host_disease": {
+          "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Toxoplasma",
+          "url": "https://wikem.org/wiki/Toxoplasma"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "liver",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "renal dysfunction",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Neurologic_complications": {
+      "text": "Higher risk with allogenic transplant\nStroke\nMedian time of presentation 28 days post-transplant\nUsually hemorrhagic due to\nthrombocytopenia\nCan also be ischemic due infection, thrombosis, endocarditis\nInfection\nAspergillus\n(main cause),\nCMV\n,\nHSV\n,\nToxoplasma\n,\nCandida\n,\nCryptococcus\n, bacterial\nmeningitis\nMetabolic\nencephalopathy\nCauses include\nhypoxemia\n,\nelectrolyte abnormalities\n,\nmetabolic acidosis\n,\nsepsis\n,\nhepatic failure\n, medications (\nsedatives\nand\nanalgesics\n),\nthiamine deficiency",
+      "subsections": {
+        "Cardiac_complications": {
+          "text": "Pulmonary edema\nRisk factors: low EF, veno-oclussive disease, severe\nsepsis\n,\nanemia\n, high-dose chemo\nPericardial effusion\n,\npericardial tamponade\nRare, associated with\ncyclophosphamide\ntoxicity, infection, chronic\nGVHD\n,\nrenal failure",
+          "tables": []
+        },
+        "Pulmonary_complications": {
+          "text": "Engraftment syndrome\nDue to rapid return of neutrophils\nFeatures:\nfever\n,\nrash\n,\npulmonary edema\n, weight gain,\nliver\nand\nrenal dysfunction\n, and/or\nencephalopathy\nDiffuse alveolar hemorrhage\nBronchiolitis obliterans with or without organizing pneumonia",
+          "tables": []
+        },
+        "GI_complications": {
+          "text": "Intestinal\nGVHD\nabdominal pain\n,\nnausea/vomiting\n,\ndiarrhea\n,\nGI bleeding\n+/-\nperitonitis\n,\nhepatitis\n,\nrash\nPseudo-\nobstruction\nVeno-occlusive disease of liver\ncommon\nusually first 21 days after transplant\nhigh dose chemo→endothelial damage of central hepatic venules→ thrombosis\nRUQ pain\n,\njaundice\n, weight gain\nGI bleed\nChemo,\nGVHD\n, or\nCMV\n/\nadenovirus\n→ diffuse mucosal bleeding, ulcers, or necrosis",
+          "tables": []
+        },
+        "Renal_complications": {
+          "text": "Tumor lysis syndrome\nHemorrhagic cystitis, veno-occlusive disease\nHemolytic uremic syndrome",
+          "tables": []
+        },
+        "Graft-vs-host_disease": {
+          "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Toxoplasma",
+          "url": "https://wikem.org/wiki/Toxoplasma"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "liver",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "renal dysfunction",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Cardiac_complications": {
+      "text": "Pulmonary edema\nRisk factors: low EF, veno-oclussive disease, severe\nsepsis\n,\nanemia\n, high-dose chemo\nPericardial effusion\n,\npericardial tamponade\nRare, associated with\ncyclophosphamide\ntoxicity, infection, chronic\nGVHD\n,\nrenal failure",
+      "subsections": {
+        "Pulmonary_complications": {
+          "text": "Engraftment syndrome\nDue to rapid return of neutrophils\nFeatures:\nfever\n,\nrash\n,\npulmonary edema\n, weight gain,\nliver\nand\nrenal dysfunction\n, and/or\nencephalopathy\nDiffuse alveolar hemorrhage\nBronchiolitis obliterans with or without organizing pneumonia",
+          "tables": []
+        },
+        "GI_complications": {
+          "text": "Intestinal\nGVHD\nabdominal pain\n,\nnausea/vomiting\n,\ndiarrhea\n,\nGI bleeding\n+/-\nperitonitis\n,\nhepatitis\n,\nrash\nPseudo-\nobstruction\nVeno-occlusive disease of liver\ncommon\nusually first 21 days after transplant\nhigh dose chemo→endothelial damage of central hepatic venules→ thrombosis\nRUQ pain\n,\njaundice\n, weight gain\nGI bleed\nChemo,\nGVHD\n, or\nCMV\n/\nadenovirus\n→ diffuse mucosal bleeding, ulcers, or necrosis",
+          "tables": []
+        },
+        "Renal_complications": {
+          "text": "Tumor lysis syndrome\nHemorrhagic cystitis, veno-occlusive disease\nHemolytic uremic syndrome",
+          "tables": []
+        },
+        "Graft-vs-host_disease": {
+          "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "liver",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "renal dysfunction",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Pulmonary_complications": {
+      "text": "Engraftment syndrome\nDue to rapid return of neutrophils\nFeatures:\nfever\n,\nrash\n,\npulmonary edema\n, weight gain,\nliver\nand\nrenal dysfunction\n, and/or\nencephalopathy\nDiffuse alveolar hemorrhage\nBronchiolitis obliterans with or without organizing pneumonia",
+      "subsections": {
+        "GI_complications": {
+          "text": "Intestinal\nGVHD\nabdominal pain\n,\nnausea/vomiting\n,\ndiarrhea\n,\nGI bleeding\n+/-\nperitonitis\n,\nhepatitis\n,\nrash\nPseudo-\nobstruction\nVeno-occlusive disease of liver\ncommon\nusually first 21 days after transplant\nhigh dose chemo→endothelial damage of central hepatic venules→ thrombosis\nRUQ pain\n,\njaundice\n, weight gain\nGI bleed\nChemo,\nGVHD\n, or\nCMV\n/\nadenovirus\n→ diffuse mucosal bleeding, ulcers, or necrosis",
+          "tables": []
+        },
+        "Renal_complications": {
+          "text": "Tumor lysis syndrome\nHemorrhagic cystitis, veno-occlusive disease\nHemolytic uremic syndrome",
+          "tables": []
+        },
+        "Graft-vs-host_disease": {
+          "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "liver",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "renal dysfunction",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "GI_complications": {
+      "text": "Intestinal\nGVHD\nabdominal pain\n,\nnausea/vomiting\n,\ndiarrhea\n,\nGI bleeding\n+/-\nperitonitis\n,\nhepatitis\n,\nrash\nPseudo-\nobstruction\nVeno-occlusive disease of liver\ncommon\nusually first 21 days after transplant\nhigh dose chemo→endothelial damage of central hepatic venules→ thrombosis\nRUQ pain\n,\njaundice\n, weight gain\nGI bleed\nChemo,\nGVHD\n, or\nCMV\n/\nadenovirus\n→ diffuse mucosal bleeding, ulcers, or necrosis",
+      "subsections": {
+        "Renal_complications": {
+          "text": "Tumor lysis syndrome\nHemorrhagic cystitis, veno-occlusive disease\nHemolytic uremic syndrome",
+          "tables": []
+        },
+        "Graft-vs-host_disease": {
+          "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Renal_complications": {
+      "text": "Tumor lysis syndrome\nHemorrhagic cystitis, veno-occlusive disease\nHemolytic uremic syndrome",
+      "subsections": {
+        "Graft-vs-host_disease": {
+          "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Graft-vs-host_disease": {
+      "text": "Acute (<100 days post-transplant) or chronic\nrash\n, mucositis,\ndiarrhea\n,\nfever\n, +/-\nhepatitis\n, polyneuropathy, poly\nmyositis\n,\nGI bleed\n,\npancreatitis",
+      "subsections": {
+        "Infection": {
+          "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+          "tables": []
+        },
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Infection": {
+      "text": "See also\nneutropenic fever\nand\nImmunocompromised antibiotics\nViral\nCMV\n: pneumonitis most fatal, can also cause CNS infection, retinitis, hepatitis, pancreatitis, esophagitis, colitis\nRSV\nAdenovirus\nHHV-6:\npneumonitis\n, bone marrow suppression, enteritis,\nencephalitis\nHSV\n:\npneumonia\n,\nhepatitis\n,\nrash\n,\nencephalitis\n,\nDIC\nBacterial\nincreased risk due to\nneutropenia\n, mucositis, skin fragility, GI problems, indwelling lines\nPseudomonas\n,\nklebsiella\nMRSA\n,\nstrep viridans\n,\nenterococcus\nC. diff\nPneumonia,\nendocarditis\n,\nUTI\n, colitis, meningitis, etc.\nFungal\nAspergillus\n: pulmonary, hepatic,\nendocarditis\n, CNS infection (main cause of CNS infection)\nCandida\n:\npneumonia\n, hepatic, CNS infection,\nendophthalmitis\n,\nesophagitis\nPneumocystis\n:\npneumonia\nCryptococcus\n:\nCNS\n,\npneumonia\nToxoplasmosis\n: CNS infection, pneumonia\nCausative organisms by time after transplant:\nearly (<30 days): bacteria, candida, aspergillus, HHV, RSV\nmid (30-100 days): CMV, PCP, adenovirus, HSV, aspergillus\nlate (>100 days): CMV",
+      "subsections": {
+        "Treatment_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Aspergillus",
+          "url": "https://wikem.org/wiki/Aspergillus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pneumocystis",
+          "url": "https://wikem.org/wiki/Pneumocystis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "CNS",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Treatment_adverse_effects": {
+      "text": "Prednisone\nHyperglycemia\n, psychiatric symptoms, poor wound healing, edema,\nhypertension\n, ulcers\nTacrolimus\n,\ncyclosporine\nNeurotoxicity,\ntremor\n,\nhyperkalemia\n,\nnephrotoxicity\n,\nhypertension\n,\nhyperglycemia\n,\ngout\n, cardiotoxicity\nMycophenolate mofetil\n,\nmethotrexate\nCytopenias, GI distress\nAzathioprine\nCytopenias,\npancreatitis\n,\nhepatitis\nAlso consider toxicities related to other medications, including prophylactic or broad spectrum antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC, BMP, Mg/Phos\nLow threshold for infectious workup\nAdditional evaluation dependent on presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "See\nimmunocompromised antibiotics\n,\nneutropenic fever\nSee\nthrombocytopenia\n,\nanemia\nPatients should receive leukocyte-reduced/irradiated PRBCs\nSee\nGraft-vs-host disease\nTreatment usually\nglucocorticoids\nLow threshold to consult heme/onc, infectious disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most complications will require admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications\nNeutropenic fever\nImmunocompromised antibiotics\nGraft-vs-host disease\nLeukemia\n,\nlymphoma\n,\nmultiple myeloma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        }
+      ]
+    }
+  }
+}

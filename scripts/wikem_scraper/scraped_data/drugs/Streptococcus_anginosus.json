@@ -1,0 +1,520 @@
+{
+  "drug_name": "Streptococcus_anginosus",
+  "url": "https://wikem.org/wiki/Streptococcus_anginosus",
+  "scraped_at": "2026-01-10T08:02:41.067237",
+  "sections": {
+    "Background": {
+      "text": "Previously known as Strep milleri\nTogether with\nStreptococcus constellatus\nand\nStreptococcus intermedius\nthey constitute the\nanginosus\ngroup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Category": "Penicillins",
+            "Antibiotic": "Penicillin G",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Penicillin V",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Methicillin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Nafcillin/Oxacillin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cloxacillin/Diclox.",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "Amino-Penicillins",
+            "Antibiotic": "AMP/Amox",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Amox-Clav",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "AMP-Sulb",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "Anti-PseudomonalPenicillins",
+            "Antibiotic": "Ticarcillin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ticar-Clav",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Pip-Tazo",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Piperacillin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "Carbapenems",
+            "Antibiotic": "Doripenem",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ertapenem",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Imipenem",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Meropenem",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Aztreonam",
+            "Strep. anginosus gp": "R"
+          },
+          {
+            "Category": "Fluroquinolones",
+            "Antibiotic": "Ciprofloxacin",
+            "Strep. anginosus gp": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ofloxacin",
+            "Strep. anginosus gp": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Pefloxacin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Levofloxacin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Moxifloxacin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Gemifloxacin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Gatifloxacin",
+            "Strep. anginosus gp": "S"
+          },
+          {
+            "Category": "1st GCephalo",
+            "Antibiotic": "Cefazolin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "2nd G.Cephalo",
+            "Antibiotic": "Cefotetan",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefoxitin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefuroxime",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "3rd/4th G.Cephalo",
+            "Antibiotic": "Cefotaxime",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefizoxime",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "CefTRIAXone",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ceftaroline",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "CefTAZidime",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefepime",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Oral 1st G.Cephalo",
+            "Antibiotic": "Cefadroxil",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cephalexin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Oral 2nd G.Cephalo",
+            "Antibiotic": "Cefaclor/Loracarbef",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefproxil",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefuroxime axetil",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Oral 3rd G.Cephalo",
+            "Antibiotic": "Cefixime",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ceftibuten",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefpodox/Cefdinir/Cefditoren",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Aminoglycosides",
+            "Antibiotic": "Gentamicin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Tobramycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Amikacin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Chloramphenicol",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Clindamycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Macrolides",
+            "Antibiotic": "Erythromycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Azithromycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Clarithromycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Ketolide",
+            "Antibiotic": "Telithromycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Tetracyclines",
+            "Antibiotic": "Doxycycline",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Minocycline",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Glycylcycline",
+            "Antibiotic": "Tigecycline",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Daptomycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Glyco/Lipoclycopeptides",
+            "Antibiotic": "Vancomycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Teicoplanin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Telavancin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Fusidic Acid",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Trimethoprim",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "TMP-SMX",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Urinary Agents",
+            "Antibiotic": "Nitrofurantoin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Fosfomycin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "Other",
+            "Antibiotic": "Rifampin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Metronidazole",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Quinupristin dalfoppristin",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Linezolid",
+            "Strep. anginosus gp": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Colistimethate",
+            "Strep. anginosus gp": "X1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Table_Overview": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "vteDisease-Causing Bacteria"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Gram Positives",
+            "vteDisease-Causing Bacteria": "CocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus",
+            "": "",
+            "Gram Positives": "ClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faecium",
+            "CocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus": "Clusters",
+            "Cocci": "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus",
+            "ClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faecium": "",
+            "Clusters": "Pairs/Chains",
+            "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus": "Enterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strep",
+            "Pairs/Chains": "Other",
+            "Enterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strep": "Enterococcus faecium",
+            "Other": "Rods",
+            "Enterococcus faecium": "Listeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Cocci",
+            "vteDisease-Causing Bacteria": "ClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faecium",
+            "": "Enterococcus faecium",
+            "Gram Positives": "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus",
+            "CocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus": "",
+            "Cocci": "Pairs/Chains",
+            "ClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faecium": "Enterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strep",
+            "Clusters": "",
+            "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus": "Other"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Clusters",
+            "vteDisease-Causing Bacteria": "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Pairs/Chains",
+            "vteDisease-Causing Bacteria": "Enterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strep"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Other",
+            "vteDisease-Causing Bacteria": "Enterococcus faecium"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Rods",
+            "vteDisease-Causing Bacteria": "Listeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Gram Negatives",
+            "vteDisease-Causing Bacteria": "CocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyi",
+            "": "",
+            "Gram Positives": "Neisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalis",
+            "CocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus": "",
+            "Cocci": "Rods",
+            "ClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faecium": "Lactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsus",
+            "Clusters": "Lactose Fermenters",
+            "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus": "E. coliKlebsiellaEnterobacterCitrobacter",
+            "Pairs/Chains": "Lactose Non-Fermenters",
+            "Enterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strep": "PseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurella",
+            "Other": "Other",
+            "Enterococcus faecium": "Serratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsus",
+            "Rods": "Rods/Cocci",
+            "Listeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus": "B. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyi"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Cocci",
+            "vteDisease-Causing Bacteria": "Neisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalis"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Rods",
+            "vteDisease-Causing Bacteria": "Lactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsus",
+            "": "Serratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsus",
+            "Gram Positives": "E. coliKlebsiellaEnterobacterCitrobacter",
+            "CocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereus": "",
+            "Cocci": "Lactose Non-Fermenters",
+            "ClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faecium": "PseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurella",
+            "Clusters": "",
+            "Staph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticus": "Other"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Lactose Fermenters",
+            "vteDisease-Causing Bacteria": "E. coliKlebsiellaEnterobacterCitrobacter"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Lactose Non-Fermenters",
+            "vteDisease-Causing Bacteria": "PseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurella"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Other",
+            "vteDisease-Causing Bacteria": "Serratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsus"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Rods/Cocci",
+            "vteDisease-Causing Bacteria": "B. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyi"
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": ""
+          },
+          {
+            "vteDisease-Causing BacteriaGram PositivesCocciClustersStaph aureus(MSSA,MRSA,CA-MRSA)Staph epidermidisStaph saprophyticusStaph lugdunensisStaph haemolyticusPairs/ChainsEnterococcus faecalisStrep. Groups A, B, C, GStrep. anginosus gpStrep. pneumoniaeViridans strepOtherEnterococcus faeciumRodsListeria monocytogenesActinomycesClostridiumCorynebacterium jeikeiumBacillus cereusGram NegativesCocciNeisseria meningitides(meningococcus)Neisseria gonorrhoeae(gonococcus)Moraxella catarrhalisRodsLactose FermentersE. coliKlebsiellaEnterobacterCitrobacterLactose Non-FermentersPseudomonasSalmonellaShigellaAcinetobacter coccobacH. influenzaePasteurellaOtherSerratia sp.Proteus mirabilisProteus vulgarisProvidencia sp.Morganella sp.Aeromonas sp.Capnocytophaga canimorsusRods/CocciB. cepaciaS. maltophiliaY. enterocoliticaLegionella sp.Pasteurella multocidaHaemophilus ducreyiAnaerobesBacteroidesPeptostreptococusClostridium": "Anaerobes",
+            "vteDisease-Causing Bacteria": "BacteroidesPeptostreptococusClostridium"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Microbiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "drug_name": "Spinal_infection",
+  "url": "https://wikem.org/wiki/Spinal_infection",
+  "scraped_at": "2026-01-10T08:02:30.518321",
+  "sections": {
+    "Intro": {
+      "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Spinal_infection": {
+      "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "drug_name": "Subdural_empyema",
+  "url": "https://wikem.org/wiki/Subdural_empyema",
+  "scraped_at": "2026-01-10T08:02:47.650245",
+  "sections": {
+    "Background": {
+      "text": "Usually complications of\nsinusitis\n(especially frontal, ethmoidal, or sphenoidal) or\notitis media\nOther causes include other ear infections,\ncranial trauma\nor surgery, or rarely\nbacteremia\nIn children <5yo, cause is typically bacterial meningitis\nTypically due to epidural abscess extending into subdural space to cause subdural empyema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "cranial trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nHeadache\nLethargy\nFocal neuro deficits\n, particularly with rapidly developing neuro deficits suggesting involvement of entire hemisphere\nSeizures\nComplications\nMeningitis\nCortical venous thrombosis\nBrain abscess",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Focal neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "CVA\nMeningitis\n,\nencephalitis\nMalignancy",
+      "subsections": {
+        "Intracranial_Mass": {
+          "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        }
+      ]
+    },
+    "Intracranial_Mass": {
+      "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess for alternative causes of symptoms (e.g. labs to rule out metabolic process, glucose, infectious workup)\nMRI brain\nwith contrast\nBlood cultures\nDefinitive diagnosis by culture of surgical specimens\nLP\nNOT\nhelpful and may precipitate herniation\nIn infants, a subdural tap may be diagnostic and may relieve pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI brain",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Address airway protection\nAntibiotics similar to those used for brain abscess: e.g.\ncefotaxime\n,\nceftriaxone\n,\nmetronidazole\n,\nvancomycin\nIn children, cover also for bacterial meningitis\nEmergent neurosurgery consult for drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "drug_name": "Squamous_cell_carcinoma",
+  "url": "https://wikem.org/wiki/Squamous_cell_carcinoma",
+  "scraped_at": "2026-01-10T08:02:37.426986",
+  "sections": {
+    "Background": {
+      "text": "Second most common skin cancer\nHigher rates of metastasis than\nbasal cell carcinoma",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "UV radiation\nChronic\narsenic\nexposure\nIonizing radiation\nImmunosuppression\nChronic skin inflammation\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "basal cell carcinoma",
+          "url": "https://wikem.org/wiki/Basal_cell_carcinoma"
+        },
+        {
+          "text": "arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "UV radiation\nChronic\narsenic\nexposure\nIonizing radiation\nImmunosuppression\nChronic skin inflammation\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Appearance highly variable\nSlow growing\nNon-healing papule, plaque, or ulcer\nScaling, bleeding, crusty\nOn sun-exposed area of skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dermatologic_malignancies": {
+          "text": "Basal cell carcinoma\nKaposi's sarcoma\nMelanoma\nSquamous cell carcinoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Basal cell carcinoma",
+          "url": "https://wikem.org/wiki/Basal_cell_carcinoma"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        }
+      ]
+    },
+    "Dermatologic_malignancies": {
+      "text": "Basal cell carcinoma\nKaposi's sarcoma\nMelanoma\nSquamous cell carcinoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Basal cell carcinoma",
+          "url": "https://wikem.org/wiki/Basal_cell_carcinoma"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical examination by trained clinician (dermatology referral)\nSkin biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Not typically managed within ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with dermatology follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Basal cell carcinoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Basal cell carcinoma",
+          "url": "https://wikem.org/wiki/Basal_cell_carcinoma"
+        }
+      ]
+    }
+  }
+}

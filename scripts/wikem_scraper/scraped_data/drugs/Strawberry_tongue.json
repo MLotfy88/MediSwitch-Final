@@ -1,0 +1,110 @@
+{
+  "drug_name": "Strawberry_tongue",
+  "url": "https://wikem.org/wiki/Strawberry_tongue",
+  "scraped_at": "2026-01-10T08:02:46.567298",
+  "sections": {
+    "Background": {
+      "text": "Hypertrophied lingual papillae,initially with white exudate\nCommon causes:\nScarlet fever\nKawasaki disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Red \"strawberry\" tongue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tongue_diagnoses": {
+          "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Tongue_diagnoses": {
+      "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Based on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Based on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tongue Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue Diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_Diagnoses"
+        }
+      ]
+    }
+  }
+}

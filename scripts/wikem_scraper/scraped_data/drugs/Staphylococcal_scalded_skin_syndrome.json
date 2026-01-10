@@ -1,0 +1,389 @@
+{
+  "drug_name": "Staphylococcal_scalded_skin_syndrome",
+  "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome",
+  "scraped_at": "2026-01-10T08:02:33.981401",
+  "sections": {
+    "Background": {
+      "text": "Caused by\nStaph aureus\nBacteria release exotoxin which breaks down desmosomes\nExotoxin spread via bloodstream, therefore blisters not infected\nMost patients <2yr old, nearly all <6 yr old",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rash\nprogresses from erythroderma (classically perioral) to extensive areas of exfoliation\nSystemic symptoms (malaise,\nfever\n, irritability, skin tenderness) are common\nNikolsky sign (separation of epidermis when pressure is applied) is present\nNo mucous membrane involvement (differentiate from\nSJS\n/TENS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Erythema Multiforme\nStaphylococcal scalded skin syndrome\nErythroderma\nToxic Shock Syndrome\nDrug rash\nPemphigus vulgaris",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema Multiforme",
+          "url": "https://wikem.org/wiki/Erythema_Multiforme"
+        },
+        {
+          "text": "Erythroderma",
+          "url": "https://wikem.org/wiki/Erythroderma"
+        },
+        {
+          "text": "Toxic Shock Syndrome",
+          "url": "https://wikem.org/wiki/Toxic_Shock_Syndrome"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "PCR for toxin if available\nCBC -\nleukocytosis\n, though normal WBC level oftenly\nESR elevation\nMonitor electrolytes, renal function closely in severe disease\nBlood cultures variably positive (more often pos in adults)\nCXR\nto rule out pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Often requires inpatient therapy,\nFluid Resuscitation\n, parenteral\nantibiotics",
+      "subsections": {
+        "Antibiotic_Options": {
+          "text": "Nafcillin\n100mg/kg/d IV in 4 divided doses\nOR\n50mg/kg/d in 4 divided doses PO x7-10d\nDicloxacillin\n125-500mg PO q6h x7-10 days\nPenicillin G Procaine\n(300K U/d IM for <30 kg, 600K to 1 million U/d IM for >30 kg)\nAmoxicillin/Clavulanate\n45mg/kg/d PO in 2 divided doses x 7-10d\nCefazolin\n100mg/kg/d IV in 4 divided doses\nCephalexin\n40mg/kg/d in 4 divided doses x 7-10d\nIf possible\nMRSA\n:\nClindamycin\n40mg/kg/d IV or PO in 4 divided doses x7-10d\nReports of high clindamycin resistance in SSSS\n[2]\nBactrim\n10mg/kg/d in 2 divided doses x7-10d\nVancomycin\n10-15mg/kg/d in 2 divided doses up to 1 gm q12hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid Resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_Resuscitation"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Antibiotic_Options": {
+      "text": "Nafcillin\n100mg/kg/d IV in 4 divided doses\nOR\n50mg/kg/d in 4 divided doses PO x7-10d\nDicloxacillin\n125-500mg PO q6h x7-10 days\nPenicillin G Procaine\n(300K U/d IM for <30 kg, 600K to 1 million U/d IM for >30 kg)\nAmoxicillin/Clavulanate\n45mg/kg/d PO in 2 divided doses x 7-10d\nCefazolin\n100mg/kg/d IV in 4 divided doses\nCephalexin\n40mg/kg/d in 4 divided doses x 7-10d\nIf possible\nMRSA\n:\nClindamycin\n40mg/kg/d IV or PO in 4 divided doses x7-10d\nReports of high clindamycin resistance in SSSS\n[2]\nBactrim\n10mg/kg/d in 2 divided doses x7-10d\nVancomycin\n10-15mg/kg/d in 2 divided doses up to 1 gm q12hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Transfer to burn center if diffuse\nLocalized infection may discharge home with follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Staphylococcus aureus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric EM Morsels: Staph Scalded Skin Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

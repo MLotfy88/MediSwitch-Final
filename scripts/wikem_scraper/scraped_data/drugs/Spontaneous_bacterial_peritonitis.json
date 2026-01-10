@@ -1,0 +1,650 @@
+{
+  "drug_name": "Spontaneous_bacterial_peritonitis",
+  "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis",
+  "scraped_at": "2026-01-10T08:02:34.911950",
+  "sections": {
+    "Intro": {
+      "text": "See\nPeritoneal dialysis-associated peritonitis\nfor PD peritonitis\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Develops in large, clinically obvious\nascites\nsecondary to cirrhosis\nPortal hypertension → bowel edema → normal flora translocates across bowel wall into the peritoneum\n30% of ascitic patients will develop spontaneous bacterial peritonitis (SBP) in a given year",
+      "subsections": {
+        "Causative_Agents": {
+          "text": "Enterobacter\n(63%)\nPneumococcus\n(15%)\nEntercocci\n(10%)\nAnaerobes\n(<1%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causative_Agents": {
+      "text": "Enterobacter\n(63%)\nPneumococcus\n(15%)\nEntercocci\n(10%)\nAnaerobes\n(<1%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\n(70%)\nAbdominal pain\n(diffuse) (60%)\nAltered mental status\n(55%)\n~15% are asymptomatic\nTherefore have a low threshold to perform diagnostic\nparacentesis\n, especially if patient is to be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider alternative diagnoses at the same time",
+      "subsections": {
+        "SBP_Work-Up_of_Ascitic_Fluid_via_Paracentesis": {
+          "text": "Cell count with differential\nGram stain\nCulture (10cc in blood culture bottle)\nGlucose\nProtein",
+          "tables": []
+        },
+        "Consider": {
+          "text": "Albumin and SERUM albumin\nLDH and SERUM LDH at same time\nAmylase",
+          "tables": []
+        },
+        "Specific_circumstances": {
+          "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+          "tables": []
+        },
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[1]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[2]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[3]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[4]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "SBP_Work-Up_of_Ascitic_Fluid_via_Paracentesis": {
+      "text": "Cell count with differential\nGram stain\nCulture (10cc in blood culture bottle)\nGlucose\nProtein",
+      "subsections": {
+        "Consider": {
+          "text": "Albumin and SERUM albumin\nLDH and SERUM LDH at same time\nAmylase",
+          "tables": []
+        },
+        "Specific_circumstances": {
+          "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+          "tables": []
+        },
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[1]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[2]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[3]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[4]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Consider": {
+      "text": "Albumin and SERUM albumin\nLDH and SERUM LDH at same time\nAmylase",
+      "subsections": {
+        "Specific_circumstances": {
+          "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+          "tables": []
+        },
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[1]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[2]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[3]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[4]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Specific_circumstances": {
+      "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+      "subsections": {
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[1]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[2]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[3]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[4]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Diagnosis_of_SBP_via_Ascitic_Fluid_Analysis": {
+      "text": "",
+      "subsections": {
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[1]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[2]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[3]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[4]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Spontaneous_versus_secondary_bacterial_peritonitis": {
+      "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "3rd-generation\ncephalosporin\n:\nCefotaxime\n2g IV q8hr or\nCeftriaxone\n1-2g IV q12-24hr\nIf\nbeta-lactam\nallergy,\nciprofloxacin\n400mg IV q12hr\nIf peritoneal dialysis:\nvancomycin\nand\ncefepime\n[5]",
+          "tables": []
+        },
+        "Albumin": {
+          "text": "Reduces renal failure and hospital mortality if given within 6 hours\n[6]\n[7]\n[8]\nGive for all or (larger effect) if creatinine >1mg/dL, BUN >30mg/dL, or T Bili >4mg/dL\n1.5gm/kg at within 6 hrs of diagnosis; 1gm/kg on day 3",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antibiotics": {
+      "text": "3rd-generation\ncephalosporin\n:\nCefotaxime\n2g IV q8hr or\nCeftriaxone\n1-2g IV q12-24hr\nIf\nbeta-lactam\nallergy,\nciprofloxacin\n400mg IV q12hr\nIf peritoneal dialysis:\nvancomycin\nand\ncefepime\n[5]",
+      "subsections": {
+        "Albumin": {
+          "text": "Reduces renal failure and hospital mortality if given within 6 hours\n[6]\n[7]\n[8]\nGive for all or (larger effect) if creatinine >1mg/dL, BUN >30mg/dL, or T Bili >4mg/dL\n1.5gm/kg at within 6 hrs of diagnosis; 1gm/kg on day 3",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Albumin": {
+      "text": "Reduces renal failure and hospital mortality if given within 6 hours\n[6]\n[7]\n[8]\nGive for all or (larger effect) if creatinine >1mg/dL, BUN >30mg/dL, or T Bili >4mg/dL\n1.5gm/kg at within 6 hrs of diagnosis; 1gm/kg on day 3",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Most admitted\nCan consider discharge with PO antibiotics if has mild, uncomplicated disease and close follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Paracentesis\nPeritoneal dialysis-associated peritonitis\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

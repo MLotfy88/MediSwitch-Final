@@ -1,0 +1,713 @@
+{
+  "drug_name": "Status_epilepticus",
+  "url": "https://wikem.org/wiki/Status_epilepticus",
+  "scraped_at": "2026-01-10T08:02:35.322498",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nStatus epilepticus (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Definitions have varied, but status epilepticus should be considered in a patient seizing for 5-10min despite initial treatments or recurrent seizure activity without return to baseline mental status.\n[1]\n[2]\n(Previous definitions used a 30-minute time limit)\n[3]\nOverall mortality is high (22%)\n[4]\nDivided in generalized convulsive status epilepticus (GCSE) and nonconvulsive status epilepticus (NCSE)\nNCSE presents as an alteration in behavior associated with subtle changes (as twitching, blinking, eye deviation, aphasia, somatosensory findings) and continuous epileptiform discharges on EEG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Seizure\n> 20 minutes.\n[5]\nPresume status in current seizure > 5 minutes\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Seizure": {
+      "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nConsider emergent CT head, plus/minus LP\nConsider the following labs:\nVBG\nRepeat glucose checks\nElectrolytes including Na, Ca, Mg\nTox screen\nSerum beta HCG\nCK\nLactate\nAnti-seizure medication levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Managment": {
+      "text": "",
+      "subsections": {
+        "Seizure_Precautions": {
+          "text": "Protect patient from injury\nIf possible, place patient in left lateral position to reduce risk of aspiration\nDo not place bite block!\nJaw thrust, a NPA and\noxygen\nmay be required\nAn IV line should be placed",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Benzodiazepine\n(Initial treatment of choice)\n[7]\nMidazolam\nIM 10 mg (> 40 kg), 5mg (13-40 kg), or 0.2 mg/kg\n[8]\nMay also be given IN at 0.2 mg/kg, max 10 mg\nOR buccal at 0.3 mg/kg, max 10 mg\nLorazepam\nIV 4 mg or 0.1 mg/kg; may repeat one dose\n[9]\nDiazepam\nIV 0.15-0.2 mg/kg (up to 10 mg); may repeat one dose or PR 0.2-0.5 mg/kg (up to 20 mg) once\n[10]\nSecondary medications\nESETT trial\n[11]\ncompared second line antiseizure medications and they all are equally efficacious. Therefore may be best to use the one with least side effects\n[12]\nwhich is\nLevetiracetam\nLevetiracetam\nIV 60 mg/kg, max 4500 mg/dose, or 1500 mg oral load\n(\npreferred in pregnancy\n)\n[13]\nPhenytoin\nIV 18 mg/kg at ≤ 50 mg/min\n(\navoid in pregnancy\n)\n[14]\nFosphenytoin\nIV 20-30 mg/kg at 150 mg/min (may also be given IM)\nContraindicated in pts w/ 2nd or 3rd degree AV block\nAvoid phenytoin or fosphenytoin in suspected toxicology case due to sodium channel blockade\nValproic acid\nIV 20-40 mg/kg at 5 mg/kg/min, max 3000 mg\n(\navoid in pregnancy\n)\n[15]\nRefractory medications\nPropofol\n2-5mg/kg load, then infusion of 30-200mcg/kg/min (equivalent of 2-10mg/kg/hr)\nOR\nMidazolam\n0.2mg/kg, then infusion of 0.05-2mg/kg/hr\nOR\nKetamine\nloading dose 0.5 to 3 mg/kg, followed by infusion of 0.3 to 4 mg/kg/hr\n[16]\nLacosamide\nIV 400 mg IV loading dose over 15 min, then maintenance dose of 200 mg q12hrs PO/IV\n[17]\nPhenobarbital\nIV 15-20 mg/kg at 50-75 mg/min\n[18]\nThen continuous infusion at 0.5-4.0 mg/kg/hr\nDose adjusted to suppression-burst pattern on continuous EEG\nConsider consulting anesthesia for inhaled anesthetics (potent anticonvulsants)\n[19]\nOthers\nCarbamazepine\n8 mg/kg oral suspension, single oral load\nGabapentin\n900 mg/day oral at 300 mg tid for 3 days\nLamotrigine\n6.5 mg/kg single oral load",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Secondary causes of seizure (e.g.\nhyponatremia\n,\nhypoglycemia\n,\nINH toxicity\n,\necclampsia\n)\nNonconvulsive seizures or\nstatus epilepticus\n- get EEG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Lamotrigine",
+          "url": "https://wikem.org/wiki/Lamotrigine"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "ecclampsia",
+          "url": "https://wikem.org/wiki/Ecclampsia"
+        }
+      ]
+    },
+    "Seizure_Precautions": {
+      "text": "Protect patient from injury\nIf possible, place patient in left lateral position to reduce risk of aspiration\nDo not place bite block!\nJaw thrust, a NPA and\noxygen\nmay be required\nAn IV line should be placed",
+      "subsections": {
+        "Medications": {
+          "text": "Benzodiazepine\n(Initial treatment of choice)\n[7]\nMidazolam\nIM 10 mg (> 40 kg), 5mg (13-40 kg), or 0.2 mg/kg\n[8]\nMay also be given IN at 0.2 mg/kg, max 10 mg\nOR buccal at 0.3 mg/kg, max 10 mg\nLorazepam\nIV 4 mg or 0.1 mg/kg; may repeat one dose\n[9]\nDiazepam\nIV 0.15-0.2 mg/kg (up to 10 mg); may repeat one dose or PR 0.2-0.5 mg/kg (up to 20 mg) once\n[10]\nSecondary medications\nESETT trial\n[11]\ncompared second line antiseizure medications and they all are equally efficacious. Therefore may be best to use the one with least side effects\n[12]\nwhich is\nLevetiracetam\nLevetiracetam\nIV 60 mg/kg, max 4500 mg/dose, or 1500 mg oral load\n(\npreferred in pregnancy\n)\n[13]\nPhenytoin\nIV 18 mg/kg at ≤ 50 mg/min\n(\navoid in pregnancy\n)\n[14]\nFosphenytoin\nIV 20-30 mg/kg at 150 mg/min (may also be given IM)\nContraindicated in pts w/ 2nd or 3rd degree AV block\nAvoid phenytoin or fosphenytoin in suspected toxicology case due to sodium channel blockade\nValproic acid\nIV 20-40 mg/kg at 5 mg/kg/min, max 3000 mg\n(\navoid in pregnancy\n)\n[15]\nRefractory medications\nPropofol\n2-5mg/kg load, then infusion of 30-200mcg/kg/min (equivalent of 2-10mg/kg/hr)\nOR\nMidazolam\n0.2mg/kg, then infusion of 0.05-2mg/kg/hr\nOR\nKetamine\nloading dose 0.5 to 3 mg/kg, followed by infusion of 0.3 to 4 mg/kg/hr\n[16]\nLacosamide\nIV 400 mg IV loading dose over 15 min, then maintenance dose of 200 mg q12hrs PO/IV\n[17]\nPhenobarbital\nIV 15-20 mg/kg at 50-75 mg/min\n[18]\nThen continuous infusion at 0.5-4.0 mg/kg/hr\nDose adjusted to suppression-burst pattern on continuous EEG\nConsider consulting anesthesia for inhaled anesthetics (potent anticonvulsants)\n[19]\nOthers\nCarbamazepine\n8 mg/kg oral suspension, single oral load\nGabapentin\n900 mg/day oral at 300 mg tid for 3 days\nLamotrigine\n6.5 mg/kg single oral load",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Secondary causes of seizure (e.g.\nhyponatremia\n,\nhypoglycemia\n,\nINH toxicity\n,\necclampsia\n)\nNonconvulsive seizures or\nstatus epilepticus\n- get EEG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Lamotrigine",
+          "url": "https://wikem.org/wiki/Lamotrigine"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "ecclampsia",
+          "url": "https://wikem.org/wiki/Ecclampsia"
+        }
+      ]
+    },
+    "Medications": {
+      "text": "Benzodiazepine\n(Initial treatment of choice)\n[7]\nMidazolam\nIM 10 mg (> 40 kg), 5mg (13-40 kg), or 0.2 mg/kg\n[8]\nMay also be given IN at 0.2 mg/kg, max 10 mg\nOR buccal at 0.3 mg/kg, max 10 mg\nLorazepam\nIV 4 mg or 0.1 mg/kg; may repeat one dose\n[9]\nDiazepam\nIV 0.15-0.2 mg/kg (up to 10 mg); may repeat one dose or PR 0.2-0.5 mg/kg (up to 20 mg) once\n[10]\nSecondary medications\nESETT trial\n[11]\ncompared second line antiseizure medications and they all are equally efficacious. Therefore may be best to use the one with least side effects\n[12]\nwhich is\nLevetiracetam\nLevetiracetam\nIV 60 mg/kg, max 4500 mg/dose, or 1500 mg oral load\n(\npreferred in pregnancy\n)\n[13]\nPhenytoin\nIV 18 mg/kg at ≤ 50 mg/min\n(\navoid in pregnancy\n)\n[14]\nFosphenytoin\nIV 20-30 mg/kg at 150 mg/min (may also be given IM)\nContraindicated in pts w/ 2nd or 3rd degree AV block\nAvoid phenytoin or fosphenytoin in suspected toxicology case due to sodium channel blockade\nValproic acid\nIV 20-40 mg/kg at 5 mg/kg/min, max 3000 mg\n(\navoid in pregnancy\n)\n[15]\nRefractory medications\nPropofol\n2-5mg/kg load, then infusion of 30-200mcg/kg/min (equivalent of 2-10mg/kg/hr)\nOR\nMidazolam\n0.2mg/kg, then infusion of 0.05-2mg/kg/hr\nOR\nKetamine\nloading dose 0.5 to 3 mg/kg, followed by infusion of 0.3 to 4 mg/kg/hr\n[16]\nLacosamide\nIV 400 mg IV loading dose over 15 min, then maintenance dose of 200 mg q12hrs PO/IV\n[17]\nPhenobarbital\nIV 15-20 mg/kg at 50-75 mg/min\n[18]\nThen continuous infusion at 0.5-4.0 mg/kg/hr\nDose adjusted to suppression-burst pattern on continuous EEG\nConsider consulting anesthesia for inhaled anesthetics (potent anticonvulsants)\n[19]\nOthers\nCarbamazepine\n8 mg/kg oral suspension, single oral load\nGabapentin\n900 mg/day oral at 300 mg tid for 3 days\nLamotrigine\n6.5 mg/kg single oral load",
+      "subsections": {
+        "Other_Considerations": {
+          "text": "Secondary causes of seizure (e.g.\nhyponatremia\n,\nhypoglycemia\n,\nINH toxicity\n,\necclampsia\n)\nNonconvulsive seizures or\nstatus epilepticus\n- get EEG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Lamotrigine",
+          "url": "https://wikem.org/wiki/Lamotrigine"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "ecclampsia",
+          "url": "https://wikem.org/wiki/Ecclampsia"
+        }
+      ]
+    },
+    "Other_Considerations": {
+      "text": "Secondary causes of seizure (e.g.\nhyponatremia\n,\nhypoglycemia\n,\nINH toxicity\n,\necclampsia\n)\nNonconvulsive seizures or\nstatus epilepticus\n- get EEG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "ecclampsia",
+          "url": "https://wikem.org/wiki/Ecclampsia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU or intermediate level of monitored care depending on etiology, treatments and respiratory status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "IBCC\nStatus Epilepticus\nwith\nalgorithm\nEM Nerd\nAdventure of dancing men\nPulmCrit: ESETT Trial",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nPrehospital protocol pediatric seizure\nStatus Epilepticus (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Prehospital protocol pediatric seizure",
+          "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_seizure"
+        },
+        {
+          "text": "Status Epilepticus (peds)",
+          "url": "https://wikem.org/wiki/Status_Epilepticus_(peds)"
+        }
+      ]
+    }
+  }
+}

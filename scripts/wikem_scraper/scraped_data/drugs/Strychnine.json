@@ -1,0 +1,430 @@
+{
+  "drug_name": "Strychnine",
+  "url": "https://wikem.org/wiki/Strychnine",
+  "scraped_at": "2026-01-10T08:02:46.629589",
+  "sections": {
+    "Background": {
+      "text": "Strychnine is a highly toxic substance, mimics generalized\ntetanus\nAntagonizes glycine release, but unlike TS, it has no effect on GABA release\nGopher poison classically",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea and vomiting\nOpisthotonus while patient remaining alert\nConvulsions\nEventually death through asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Convulsions",
+          "url": "https://wikem.org/wiki/Convulsions"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Black widow spider bite\nStiff-man syndrome",
+      "subsections": {
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        },
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Movement_Disorders_and_Other_Abnormal_Contractions": {
+      "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+      "subsections": {
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Jaw_Spasms": {
+      "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serum and urine tests for strychnine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive management\nBenzodiazepines\nfor\nseizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "All patients should be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tetanus\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

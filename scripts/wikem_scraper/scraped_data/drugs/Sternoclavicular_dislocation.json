@@ -1,0 +1,359 @@
+{
+  "drug_name": "Sternoclavicular_dislocation",
+  "url": "https://wikem.org/wiki/Sternoclavicular_dislocation",
+  "scraped_at": "2026-01-10T08:02:42.395687",
+  "sections": {
+    "Background": {
+      "text": "Sternoclavicualr joint is only true articulation between the upper extremity and the axial skeleton\nVery stable joint making a dislocation rare; majority of injuries are simple sprains\nDislocations usually require severe force (MVC, sports injuries)\nMechanism either direct blow to the chest, or lateral compression\nAnterior dislocations are much more common than posterior\nDue to both force and anatomic location, damage to the brachial plexus, subclavian, trachea, and esophagus may occur\n[1]\nAtraumatic subluxation possible in younger patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Severe pain that is exacerbated by arm motion and lying supine\nShoulder appears shortened and rolled forward\nAnterior dislocation: prominent medial clavicle end is visible/palpable ant to sternum\nPosterior dislocation: Medial end is less visible and often not palpable\nIf there is delay in presentation, edema may have developed making depression of the medial head less obvious",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT\nStudy of choice (plain films may not be diagnostic)\nConsider IV contrast if concern for injury to mediastinal structures\nSerendipity view Xray\nXray taken at a 40 degree cephalic tilt may be useful if CT unavailable.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Symptoms of stridor, shortness of breath, or dysphagia, indicate aerodigestive tract injury and require immediate reduction. Also immediately reduce if evidence of vascular occlusion.",
+      "subsections": {
+        "Anterior_Dislocation": {
+          "text": "May discharged without attempted reduction (no impact on function)\nClavicular splinting, ice, analgesics\nOrtho referral within several days",
+          "tables": []
+        },
+        "Posterior_Dislocation": {
+          "text": "May be associated with life-threatening injuries:\nPneumothorax\n, compression/laceration of surrounding great vessels, trachea, or esophagus\nConsult ortho for closed reduction (ideally performed in the OR or under\nprocedural sedation\n)\nReduction must be performed with Cardiothoracic Surgery on-call or nearby due to potential for great vessel injury during reduction / manipulation\nCreate a sterile field with appropriate skin prep.\nA metal towel clip is inserted percutaneously and is used to grasp the medial clavicle, pulling anteriorly until reduction is complete\nMay be observed afterwards due to severity of trauma and risk for vascular injury\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Anterior_Dislocation": {
+      "text": "May discharged without attempted reduction (no impact on function)\nClavicular splinting, ice, analgesics\nOrtho referral within several days",
+      "subsections": {
+        "Posterior_Dislocation": {
+          "text": "May be associated with life-threatening injuries:\nPneumothorax\n, compression/laceration of surrounding great vessels, trachea, or esophagus\nConsult ortho for closed reduction (ideally performed in the OR or under\nprocedural sedation\n)\nReduction must be performed with Cardiothoracic Surgery on-call or nearby due to potential for great vessel injury during reduction / manipulation\nCreate a sterile field with appropriate skin prep.\nA metal towel clip is inserted percutaneously and is used to grasp the medial clavicle, pulling anteriorly until reduction is complete\nMay be observed afterwards due to severity of trauma and risk for vascular injury\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Posterior_Dislocation": {
+      "text": "May be associated with life-threatening injuries:\nPneumothorax\n, compression/laceration of surrounding great vessels, trachea, or esophagus\nConsult ortho for closed reduction (ideally performed in the OR or under\nprocedural sedation\n)\nReduction must be performed with Cardiothoracic Surgery on-call or nearby due to potential for great vessel injury during reduction / manipulation\nCreate a sterile field with appropriate skin prep.\nA metal towel clip is inserted percutaneously and is used to grasp the medial clavicle, pulling anteriorly until reduction is complete\nMay be observed afterwards due to severity of trauma and risk for vascular injury\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Anterior_Dislocation_2": {
+          "text": "Ortho follow up within several days",
+          "tables": []
+        },
+        "Posterior_Dislocation_2": {
+          "text": "Immediate ortho consult, with potential transfer to facility with BOTH Ortho and CT surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anterior_Dislocation_2": {
+      "text": "Ortho follow up within several days",
+      "subsections": {
+        "Posterior_Dislocation_2": {
+          "text": "Immediate ortho consult, with potential transfer to facility with BOTH Ortho and CT surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Posterior_Dislocation_2": {
+      "text": "Immediate ortho consult, with potential transfer to facility with BOTH Ortho and CT surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

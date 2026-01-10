@@ -1,0 +1,521 @@
+{
+  "drug_name": "Stable_angina",
+  "url": "https://wikem.org/wiki/Stable_angina",
+  "scraped_at": "2026-01-10T08:02:32.960503",
+  "sections": {
+    "Background": {
+      "text": "Chest pain\ndue to\ncardiac ischemia\nDistinguish from\nunstable angina\n, which is defined as angina occurring at rest, for first time, or with increasing frequency/severity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "cardiac ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Classes_(Canadian_Cardiovascular_Society_Classification)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Classification": "Grade I",
+                "Symptoms": "With prolonged exertion",
+                "Limitation of Ordinary Activities": "None"
+              },
+              {
+                "Classification": "Grade II",
+                "Symptoms": "Walking >2 blocks or climbing >1 flight of stairs",
+                "Limitation of Ordinary Activities": "Slight"
+              },
+              {
+                "Classification": "Grade III",
+                "Symptoms": "Walking <2 blocks",
+                "Limitation of Ordinary Activities": "Marked"
+              },
+              {
+                "Classification": "Grade IV",
+                "Symptoms": "With minimal activity or at rest",
+                "Limitation of Ordinary Activities": "Cannot do any without symptoms"
+              }
+            ]
+          ]
+        },
+        "Risk_of_Acute_Coronary_Syndrome": {
+          "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[2]\n[3]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[4]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[5]\nLess likely to undergo cardiac catheterization\n[5]\nLess likely to receive timely reperfusion therapy\n[5]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[5]\nalthough some studies have found fewer differences in presentation\n[6]\nMore likely to delay presentation\n[5]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[5]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_of_Acute_Coronary_Syndrome": {
+      "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[2]\n[3]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[4]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[5]\nLess likely to undergo cardiac catheterization\n[5]\nLess likely to receive timely reperfusion therapy\n[5]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[5]\nalthough some studies have found fewer differences in presentation\n[6]\nMore likely to delay presentation\n[5]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[5]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "ECG\n+/- telemetry\nTroponin\nif possible acute event",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Rule out\nunstable angina\n:\nNew angina\nAngina at rest\nAccelerating frequency or severity",
+          "tables": []
+        },
+        "History": {
+          "text": "Assess:\nChanges in angina or heart failure symptoms\nAdherence to prescribed medications\nChanges in medications\nMedication side effects",
+          "tables": []
+        },
+        "Physical_Examination": {
+          "text": "Resting heart rate and blood pressure\nSigns of heart failure\nNew dysrhythmia\nNew or worsening vascular bruits or murmurs\nStatus of abdominal aorta",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "ECG\n+/- telemetry\nTroponin\nif possible acute event",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Rule out\nunstable angina\n:\nNew angina\nAngina at rest\nAccelerating frequency or severity",
+          "tables": []
+        },
+        "History": {
+          "text": "Assess:\nChanges in angina or heart failure symptoms\nAdherence to prescribed medications\nChanges in medications\nMedication side effects",
+          "tables": []
+        },
+        "Physical_Examination": {
+          "text": "Resting heart rate and blood pressure\nSigns of heart failure\nNew dysrhythmia\nNew or worsening vascular bruits or murmurs\nStatus of abdominal aorta",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Rule out\nunstable angina\n:\nNew angina\nAngina at rest\nAccelerating frequency or severity",
+      "subsections": {
+        "History": {
+          "text": "Assess:\nChanges in angina or heart failure symptoms\nAdherence to prescribed medications\nChanges in medications\nMedication side effects",
+          "tables": []
+        },
+        "Physical_Examination": {
+          "text": "Resting heart rate and blood pressure\nSigns of heart failure\nNew dysrhythmia\nNew or worsening vascular bruits or murmurs\nStatus of abdominal aorta",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Counsel regarding appropriate use of medications, nutrition, weight optimization, smoking cessation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If angina is stable and there is no other reason for admission, may discharge home for further management by family physician or cardiologist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute coronary syndrome (main)\nUnstable angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndrome (main)",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        }
+      ]
+    }
+  }
+}

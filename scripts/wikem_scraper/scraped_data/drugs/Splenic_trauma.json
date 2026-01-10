@@ -1,0 +1,328 @@
+{
+  "drug_name": "Splenic_trauma",
+  "url": "https://wikem.org/wiki/Splenic_trauma",
+  "scraped_at": "2026-01-10T08:02:37.422404",
+  "sections": {
+    "Background": {
+      "text": "Most commonly injured visceral organ in blunt trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "LUQ pain\nSigns of\nshock\nHypotension\nLeft lower\nrib pain\nKehr's sign\nAcute pain in the tip of the shoulder due to the presence of blood in the peritoneal cavity when a patient's legs are elevated while laying flat.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LUQ pain",
+          "url": "https://wikem.org/wiki/LUQ_pain"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "rib pain",
+          "url": "https://wikem.org/wiki/Chest_wall_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ATLS_Blunt_Abdominal_Trauma_Algorithm": {
+          "text": "Unstable\nFAST\nto search for free fluid (vs.\nDPL\nif unavailable)\nPositive: Exploratory laparotomy\nNegative: CT scan\nStable\nCT scan\nExploratory laparotomy, angiographic embolization, conservative management as indicated",
+          "tables": []
+        },
+        "AAST_Criteria": {
+          "text": "Interactive calculators have been developed that facilitate grading of splenic injuries per AAST guidelines.\n[1]",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Hematoma": "Subcapsular, <10% of surface area",
+                "Laceration": "Capsular tear <1 cm in depth into the parenchyma"
+              },
+              {
+                "Grade": "II",
+                "Hematoma": "Subcapsular, 10-50% of surface area",
+                "Laceration": "Capsular tear, 1 to 3 cm in depth, but not involving a trabecular vessel"
+              },
+              {
+                "Grade": "III",
+                "Hematoma": "Subcapsular, >50% of surface area OR expanding,Ruptured subcapsular or parenchymal hematomaOR, intraparenchymal hematoma >5 cm or expanding",
+                "Laceration": "Capsular tear, 3 to 10 cm in depth or involving a trabecular vessel."
+              },
+              {
+                "Grade": "IV",
+                "Hematoma": "Subcapsular or central hematoma > 10cm",
+                "Laceration": "Involving segmental or hilar vessels with major devascularization (i.e. >25% of spleen)"
+              },
+              {
+                "Grade": "V",
+                "Hematoma": "Shattered spleen",
+                "Laceration": "Hilar vascular injury which devascularizes spleen."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "DPL",
+          "url": "https://wikem.org/wiki/DPL"
+        }
+      ]
+    },
+    "ATLS_Blunt_Abdominal_Trauma_Algorithm": {
+      "text": "Unstable\nFAST\nto search for free fluid (vs.\nDPL\nif unavailable)\nPositive: Exploratory laparotomy\nNegative: CT scan\nStable\nCT scan\nExploratory laparotomy, angiographic embolization, conservative management as indicated",
+      "subsections": {
+        "AAST_Criteria": {
+          "text": "Interactive calculators have been developed that facilitate grading of splenic injuries per AAST guidelines.\n[1]",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Hematoma": "Subcapsular, <10% of surface area",
+                "Laceration": "Capsular tear <1 cm in depth into the parenchyma"
+              },
+              {
+                "Grade": "II",
+                "Hematoma": "Subcapsular, 10-50% of surface area",
+                "Laceration": "Capsular tear, 1 to 3 cm in depth, but not involving a trabecular vessel"
+              },
+              {
+                "Grade": "III",
+                "Hematoma": "Subcapsular, >50% of surface area OR expanding,Ruptured subcapsular or parenchymal hematomaOR, intraparenchymal hematoma >5 cm or expanding",
+                "Laceration": "Capsular tear, 3 to 10 cm in depth or involving a trabecular vessel."
+              },
+              {
+                "Grade": "IV",
+                "Hematoma": "Subcapsular or central hematoma > 10cm",
+                "Laceration": "Involving segmental or hilar vessels with major devascularization (i.e. >25% of spleen)"
+              },
+              {
+                "Grade": "V",
+                "Hematoma": "Shattered spleen",
+                "Laceration": "Hilar vascular injury which devascularizes spleen."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "DPL",
+          "url": "https://wikem.org/wiki/DPL"
+        }
+      ]
+    },
+    "AAST_Criteria": {
+      "text": "Interactive calculators have been developed that facilitate grading of splenic injuries per AAST guidelines.\n[1]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade": "I",
+            "Hematoma": "Subcapsular, <10% of surface area",
+            "Laceration": "Capsular tear <1 cm in depth into the parenchyma"
+          },
+          {
+            "Grade": "II",
+            "Hematoma": "Subcapsular, 10-50% of surface area",
+            "Laceration": "Capsular tear, 1 to 3 cm in depth, but not involving a trabecular vessel"
+          },
+          {
+            "Grade": "III",
+            "Hematoma": "Subcapsular, >50% of surface area OR expanding,Ruptured subcapsular or parenchymal hematomaOR, intraparenchymal hematoma >5 cm or expanding",
+            "Laceration": "Capsular tear, 3 to 10 cm in depth or involving a trabecular vessel."
+          },
+          {
+            "Grade": "IV",
+            "Hematoma": "Subcapsular or central hematoma > 10cm",
+            "Laceration": "Involving segmental or hilar vessels with major devascularization (i.e. >25% of spleen)"
+          },
+          {
+            "Grade": "V",
+            "Hematoma": "Shattered spleen",
+            "Laceration": "Hilar vascular injury which devascularizes spleen."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Observation, angiographic embolization, or surgery depending upon:\nHemodynamic status of the patient\nGrade of splenic injury\nPresence of other injuries and medical comorbidities\nOperative Management\nIndicated for diffuse peritonitis or hemodynamic instability after blunt abdominal trauma\nNot indicated based on injury grade alone\n[2]\nNonoperative management\nFailure rate of 10-15%\nSome advocate nonoperative management only if <55yr and CT injury grade less than IV\nShould only be considered in locations with resources available for urgent laparotomy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Trauma\nSplenic Infarction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal Trauma",
+          "url": "https://wikem.org/wiki/Abdominal_Trauma"
+        },
+        {
+          "text": "Splenic Infarction",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        }
+      ]
+    }
+  }
+}

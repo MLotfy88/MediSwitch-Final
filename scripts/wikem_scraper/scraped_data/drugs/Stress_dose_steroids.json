@@ -1,0 +1,42 @@
+{
+  "drug_name": "Stress_dose_steroids",
+  "url": "https://wikem.org/wiki/Stress_dose_steroids",
+  "scraped_at": "2026-01-10T08:02:41.776390",
+  "sections": {
+    "Emergency_corticosteroid_suplementation_in_patients_taking_exogenous_corticosteroids": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Dose": {
+          "text": "“Emergent Intramuscular Dosing can be given if child is not tolerating oral medications”\n[1]\nor unable to get IV within 15 minutes.\nIM hydrocortisone sodium succinate\n(Solu-Cortef)\n25 mg for child 3 years and younger\n50 mg for children >3 yrs – 12 years\n100 mg for children 12 years and older.",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Category": "Minor procedure or surgery under local anesthesia (eg, inguinal hernia repair)",
+            "Initial": "No extra supplementation is necessary",
+            "Subsequent": "Continue normal dosing"
+          },
+          {
+            "Category": "Moderate surgical stress (eg, lower extremity revascularization, total joint replacement)",
+            "Initial": "50 mghydrocortisoneIV",
+            "Subsequent": "25 mg of hydrocortisone every eight hours for 24 hours. Resume usual dose thereafter."
+          },
+          {
+            "Category": "Major surgical stress (eg, esophagogastrectomy, total proctocolectomy, open heart surgery)",
+            "Initial": "100 mghydrocortisoneIV",
+            "Subsequent": "50 mg every eight hours for 24 hours. Taper dose by half per day to maintenance level."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pediatric_Dose": {
+      "text": "“Emergent Intramuscular Dosing can be given if child is not tolerating oral medications”\n[1]\nor unable to get IV within 15 minutes.\nIM hydrocortisone sodium succinate\n(Solu-Cortef)\n25 mg for child 3 years and younger\n50 mg for children >3 yrs – 12 years\n100 mg for children 12 years and older.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

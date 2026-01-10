@@ -1,0 +1,272 @@
+{
+  "drug_name": "Spinal_muscular_atrophy",
+  "url": "https://wikem.org/wiki/Spinal_muscular_atrophy",
+  "scraped_at": "2026-01-10T08:02:29.695491",
+  "sections": {
+    "Background": {
+      "text": "Degeneration of the anterior horn cells in the spinal cord and motor nuclei in the lower brainstem",
+      "subsections": {
+        "Type_1": {
+          "text": "Autosomal Recessive\nAlso known as infantile spinal muscular atrophy or Werdnig-Hoffmann disease\nThe most common and severe type of SMA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Type_1": {
+      "text": "Autosomal Recessive\nAlso known as infantile spinal muscular atrophy or Werdnig-Hoffmann disease\nThe most common and severe type of SMA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Type_1_2": {
+          "text": "Severe symmetric flaccid\nparalysis\n: unable to sit unsupported\nUpper cranial nerves spared: alert expression and normal eye movements\nWeakness of the bulbar muscles: weak cry, poor suck and swallow reflexes, pooling of secretions, aspiration, and fasciculations of the tongue\nRespiratory failure\n: intercostal muscles typically more affected than the diaphragm, resulting in paradoxical breathing (inspiratory efforts cause the rib cage to move inward and the abdomen to move outward) and the development of a characteristic bell-shaped chest deformity",
+          "tables": []
+        },
+        "Type_2,3,4": {
+          "text": "SMA 2 (intermediate form) and SMA 3 (mild form; Kugelberg-Welander disease) have a later onset and a less severe course. SMA 2 presents between 3 and 15 months of age, whereas SMA 3, the least severe, typically presents with signs of weakness at or after one year of age and progresses to a chronic course. Adult onset of SMA (type 4) usually presents in the second or third decade of life and is otherwise similar to SMA type 3.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Type_1_2": {
+      "text": "Severe symmetric flaccid\nparalysis\n: unable to sit unsupported\nUpper cranial nerves spared: alert expression and normal eye movements\nWeakness of the bulbar muscles: weak cry, poor suck and swallow reflexes, pooling of secretions, aspiration, and fasciculations of the tongue\nRespiratory failure\n: intercostal muscles typically more affected than the diaphragm, resulting in paradoxical breathing (inspiratory efforts cause the rib cage to move inward and the abdomen to move outward) and the development of a characteristic bell-shaped chest deformity",
+      "subsections": {
+        "Type_2,3,4": {
+          "text": "SMA 2 (intermediate form) and SMA 3 (mild form; Kugelberg-Welander disease) have a later onset and a less severe course. SMA 2 presents between 3 and 15 months of age, whereas SMA 3, the least severe, typically presents with signs of weakness at or after one year of age and progresses to a chronic course. Adult onset of SMA (type 4) usually presents in the second or third decade of life and is otherwise similar to SMA type 3.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Type_2,3,4": {
+      "text": "SMA 2 (intermediate form) and SMA 3 (mild form; Kugelberg-Welander disease) have a later onset and a less severe course. SMA 2 presents between 3 and 15 months of age, whereas SMA 3, the least severe, typically presents with signs of weakness at or after one year of age and progresses to a chronic course. Adult onset of SMA (type 4) usually presents in the second or third decade of life and is otherwise similar to SMA type 3.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        },
+        "Hypotonic_neonate": {
+          "text": "Arthrogryposis multiplex congenita\nX-linked infantile spinal muscular atrophy\nSpinal muscular atrophy with respiratory distress type 1\nCongenital myasthenic syndromes\nCongenital myopathies\nHypoxic-ischemic myelopathy\nLysosomal acid maltase deficiency\nPrader-Willi syndrome\nTraumatic myelopathy\nZellweger syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {
+        "Hypotonic_neonate": {
+          "text": "Arthrogryposis multiplex congenita\nX-linked infantile spinal muscular atrophy\nSpinal muscular atrophy with respiratory distress type 1\nCongenital myasthenic syndromes\nCongenital myopathies\nHypoxic-ischemic myelopathy\nLysosomal acid maltase deficiency\nPrader-Willi syndrome\nTraumatic myelopathy\nZellweger syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Hypotonic_neonate": {
+      "text": "Arthrogryposis multiplex congenita\nX-linked infantile spinal muscular atrophy\nSpinal muscular atrophy with respiratory distress type 1\nCongenital myasthenic syndromes\nCongenital myopathies\nHypoxic-ischemic myelopathy\nLysosomal acid maltase deficiency\nPrader-Willi syndrome\nTraumatic myelopathy\nZellweger syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Type_1_3": {
+          "text": "Supportive, directed at supplementing nutrition, respiratory support, treating/preventing complications\nPT may help\nSpinal bracing can delay development/progression of scoliosis but may reduce expiratory tidal volume\nChest physiotherapy with postural drainage, manual cough assist, and/or mechanical insufflation/exsufflation device",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Type_1_3": {
+      "text": "Supportive, directed at supplementing nutrition, respiratory support, treating/preventing complications\nPT may help\nSpinal bracing can delay development/progression of scoliosis but may reduce expiratory tidal volume\nChest physiotherapy with postural drainage, manual cough assist, and/or mechanical insufflation/exsufflation device",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Weakness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    }
+  }
+}

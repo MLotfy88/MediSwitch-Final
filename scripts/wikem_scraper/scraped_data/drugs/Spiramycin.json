@@ -1,0 +1,205 @@
+{
+  "drug_name": "Spiramycin",
+  "url": "https://wikem.org/wiki/Spiramycin",
+  "scraped_at": "2026-01-10T08:02:29.585107",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nmacrolide\nantibiotic\nDosage Forms: 250, 500\nRoutes of Administration: PO, IV\nCommon Trade Names: Rovamycine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1-2g PO BID OR 500-1000mg PO TID. May increase to 2-2.5g BID for severe infections\nToxoplasmosis\nin pregnant women:\n1st trimester: 3g PO daily in 3-4 divided doses\n2nd/3rd trimesters: 25-50mg\npyrimethamine\nPO daily AND 2-3g\nsulfadiazine\ndaily AND folinic acid 5mg daily for 3 weeks, alternating with 1g PO spiramycin TID for 3 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": ">20kg: 25mg/kg PO BID or 16.7mg/kg PO TID\nSubclinical congenital toxoplasmosis: 0.5-1mg/kg PO daily\npyrimethamine\nAND 50-100mg/kg PO daily\nsulfadiazine\nx 4 weeks, alternating with 50-100mg/kg spiramycin x 6 weeks, alternating courses for 1 year\nOvert congenital toxoplasmosis: 0.5mg/kg PO\npyrimethamine\ndaily AND 50-100mg/kg\nsulfadiazine\nPO daily AND 5mg folinic acid q3d for 6 months, alternating with 50-100mg/kg spiramycin AND pyrimethamine AND sulfadiazine for 4 weeks. Repeat dosing courses x 18mo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B, Safe in pregnancy\n[1]",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Distributed in breast milk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: n/a\nPediatric: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B, Safe in pregnancy\n[1]",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Distributed in breast milk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: n/a\nPediatric: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Distributed in breast milk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: n/a\nPediatric: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: n/a\nPediatric: n/a",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Caution in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Caution in hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Cardiac toxicity, specifically QT prolongation\nThrombocytopenia\nCholestatic hepatitis\nGI toxicity, specifically acute colitis, C. diff colitis, or other intestinal injury\nUlcerated esophagitis\nWorsening hepatic impairment in patients with pre-existing liver disease",
+          "tables": []
+        },
+        "Common": {
+          "text": "Injection site pain\nNausea/vomiting, diarrhea, abdominal pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Cardiac toxicity, specifically QT prolongation\nThrombocytopenia\nCholestatic hepatitis\nGI toxicity, specifically acute colitis, C. diff colitis, or other intestinal injury\nUlcerated esophagitis\nWorsening hepatic impairment in patients with pre-existing liver disease",
+      "subsections": {
+        "Common": {
+          "text": "Injection site pain\nNausea/vomiting, diarrhea, abdominal pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Injection site pain\nNausea/vomiting, diarrhea, abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4.5-13.5h (increases with increasing age)\nMetabolism: Hepatic\nExcretion: Fecal (predominant), renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Reversibly binds to the 50 S subunit of bacterial ribosomes, resulting in blockage of the transpeptidation or translocation reactions, inhibiting protein synthesis and subsequent cell growth\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Not approved in US for standard use, though exceptions can be made to treat toxoplasmosis in pregnant women\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxoplasmosis\nMacrolide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        }
+      ]
+    }
+  }
+}

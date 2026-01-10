@@ -1,0 +1,616 @@
+{
+  "drug_name": "Sporotrichosis",
+  "url": "https://wikem.org/wiki/Sporotrichosis",
+  "scraped_at": "2026-01-10T08:02:36.921404",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"Rose gardener's disease\"\n[1]\nCaused by the\nfungus\nSporothrix schenckii\n[2]\nfound on rose thorns\nUsually affects skin, although other rare forms can affect the lungs, joints, bones, and brain\nEnters skin through small cuts and abrasions, and inhalation for pulmonary disease\nCan also be acquired from handling cats with the disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fungus",
+          "url": "https://wikem.org/wiki/Fungus"
+        },
+        {
+          "text": "Sporothrix schenckii",
+          "url": "https://wikem.org/wiki/Sporothrix_schenckii"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Progresses slowly: first symptoms may appear 1 to 12 weeks (average 3 weeks) after the initial exposure to the fungus",
+      "subsections": {
+        "Forms_and_Symptoms": {
+          "text": "Cutaneous or skin\nMost common form\nSymptoms include nodular\nlesions\nor bumps in the skin, at the point of entry and also along lymph nodes and vessels\nLesion starts off small and painless, and ranges in color from pink to purple\nLeft untreated, lesion becomes larger and looks similar to an\nabscess\n.  More lesions will appear until a chronic ulcer develops\nPulmonary sporotrichosis\nRare\nFrom inhalation of spores\nSymptoms include productive\ncoughing\n, nodules and cavitations of the lungs, fibrosis, and hilar\nlymphadenopathy\nnodes\nMay become superinfected with\npneumonia\nor\ntuberculosis\nDisseminated sporotrichosis\nMay affect joints and bones (osteoarticular sporotrichosis) and or CNS (\nsporotrichosis\nmeningitis\n)\nSymptoms include weight loss, anorexia, and appearance of bony lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lesions",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Forms_and_Symptoms": {
+      "text": "Cutaneous or skin\nMost common form\nSymptoms include nodular\nlesions\nor bumps in the skin, at the point of entry and also along lymph nodes and vessels\nLesion starts off small and painless, and ranges in color from pink to purple\nLeft untreated, lesion becomes larger and looks similar to an\nabscess\n.  More lesions will appear until a chronic ulcer develops\nPulmonary sporotrichosis\nRare\nFrom inhalation of spores\nSymptoms include productive\ncoughing\n, nodules and cavitations of the lungs, fibrosis, and hilar\nlymphadenopathy\nnodes\nMay become superinfected with\npneumonia\nor\ntuberculosis\nDisseminated sporotrichosis\nMay affect joints and bones (osteoarticular sporotrichosis) and or CNS (\nsporotrichosis\nmeningitis\n)\nSymptoms include weight loss, anorexia, and appearance of bony lesions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lesions",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Fungal culture of skin, sputum, synovial fluid, or\nCSF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Antifungal medication\nItraconazole\nDrug of choice (more effective than fluconazole)\nFluconazole\nFluconazole (for patients who cannot tolerate itraconazole)\nAmphotericin B\nIV\nFor disseminated of severe disease\nSurgery\nFor\nosteomyelitis\nor cavitary nodules in the lungs\nStandard\nantibiotics\nLesions sometimes become superinfected, consider as necessary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Normally treated as outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections\nAntifungals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    }
+  }
+}
