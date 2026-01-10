@@ -1,0 +1,521 @@
+{
+  "drug_name": "Benign_paroxysmal_positional_vertigo",
+  "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo",
+  "scraped_at": "2026-01-10T07:48:42.690886",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: BPPV\nDue to canalolithiasis (migration of otoconia into one of the semicircular canals)\nMean age is mid-50s; women are twice as likely to be affected as men\nMean duration is 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sudden-onset\nvertigo\nand associated\nnystagmus\nprecipitated by head movements\nLatency period <30s between provocative head position and onset of nystagmus\nIntensity of nystagmus increases to a peak before slowly resolving\nDuration of vertigo and nystagmus ranges from 5–40s\nRepeated head positioning causes vertigo and nystagmus to fatigue and subside\nNystagmus reverses direction during the head down and head up portions of Dix-Hallpike\nNausea/vomiting\ncommon\nSymptoms worse in the morning (symptoms fatigue as day goes on)\nNo associated\nhearing loss\nor\ntinnitus\nMUST distinguish from central vertigo (\nHINTS Exam\n,\nCerebellar stroke\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "HINTS Exam",
+          "url": "https://wikem.org/wiki/Vertigo#HINTS_Exam"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Vertigo": {
+      "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nvertigo\nfor a general approach",
+      "subsections": {
+        "Dix-Hallpike_Maneuver": {
+          "text": "50-85% Sensitive for BPPV\n[1]\nDo not attempt provocative maneuvers if the patient is symptomatic with nystagmus at rest",
+          "tables": []
+        },
+        "Procedure": {
+          "text": "Patient sits upright\nPatient's head is rotated to one side by 45 degrees. Then quickly lie the patient down\nMaintain the head in 45 degree rotation but also 20 degrees of extension off the end of the table.\nObserve the eyes for 45 seconds for nystagmus.  There is often 15 seconds of latency prior to symptoms.\nImmediate symptoms requires consideration for central etiology\nA positive test for BPPV is evidenced by the rotational (torsional) nystagmus\nFast phase of the rotatory nystagmus is toward the affected ear (geotropic nystagmus), which is the ear closest to the ground\nRotational nystagmus away from affected ear (ageotropic nystagmus) requires consideration for central lesion",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "Concern for\nCervical Artery Dissection\nCerebrovascular disease\nConcern for\nvertebrobasilar insufficiency\n, See\nStroke syndromes\nSpinal injury\nCervical spondylosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Cervical Artery Dissection",
+          "url": "https://wikem.org/wiki/Cervical_Artery_Dissection"
+        },
+        {
+          "text": "Cerebrovascular disease",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Stroke syndromes",
+          "url": "https://wikem.org/wiki/Stroke_syndromes"
+        }
+      ]
+    },
+    "Dix-Hallpike_Maneuver": {
+      "text": "50-85% Sensitive for BPPV\n[1]\nDo not attempt provocative maneuvers if the patient is symptomatic with nystagmus at rest",
+      "subsections": {
+        "Procedure": {
+          "text": "Patient sits upright\nPatient's head is rotated to one side by 45 degrees. Then quickly lie the patient down\nMaintain the head in 45 degree rotation but also 20 degrees of extension off the end of the table.\nObserve the eyes for 45 seconds for nystagmus.  There is often 15 seconds of latency prior to symptoms.\nImmediate symptoms requires consideration for central etiology\nA positive test for BPPV is evidenced by the rotational (torsional) nystagmus\nFast phase of the rotatory nystagmus is toward the affected ear (geotropic nystagmus), which is the ear closest to the ground\nRotational nystagmus away from affected ear (ageotropic nystagmus) requires consideration for central lesion",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "Concern for\nCervical Artery Dissection\nCerebrovascular disease\nConcern for\nvertebrobasilar insufficiency\n, See\nStroke syndromes\nSpinal injury\nCervical spondylosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical Artery Dissection",
+          "url": "https://wikem.org/wiki/Cervical_Artery_Dissection"
+        },
+        {
+          "text": "Cerebrovascular disease",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Stroke syndromes",
+          "url": "https://wikem.org/wiki/Stroke_syndromes"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Epley_Maneuver": {
+          "text": "Epley begins after the last step of the Dix Hallpike\nPatient remains in the position with exacerbated nystagmus for approximately 1–2 minutes.\nPatient's head is then turned 90 degrees to the opposite direction so that the unaffected ear faces the ground\nMaintain the 20 degree neck extension\nKeep the head and neck in a fixed position while the patient rolls onto their opposite shoulder. The patient is now looking downwards at a 45 degree angle.\nKeep the patient in the new position for 1 minute.\nFinally bring the patient up to sitting while holding the head in 45 degree rotation.\nMay require multiple attempts, but you can discharge patient home with daily exercises\nImprovement after x1 in 47% of patients, after x2 an additional 16%, and after x3 an additional 21%\n[4]",
+          "tables": []
+        },
+        "Medical_management": {
+          "text": "Antihistamines\nDiphenhydramine\n(Benadryl) 25-50mg IM/IV/PO q4hr\nMeclizine\n(Antivert, Antrizine, Dramamine) 25mg PO QID\nPromethazine\n(Phenergan, Anergan, Prorex) 12.5-25mg PO/IM/IV q4-6hr\nAnticholinergic\nScopolamine\ntransdermal patch 0.5mg (behind ear) QID\nBenzodiazepines\nLorazepam\n(Ativan),\ndiazepam\n(Valium) or Klonopin (\nclonazepam\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        }
+      ]
+    },
+    "Epley_Maneuver": {
+      "text": "Epley begins after the last step of the Dix Hallpike\nPatient remains in the position with exacerbated nystagmus for approximately 1–2 minutes.\nPatient's head is then turned 90 degrees to the opposite direction so that the unaffected ear faces the ground\nMaintain the 20 degree neck extension\nKeep the head and neck in a fixed position while the patient rolls onto their opposite shoulder. The patient is now looking downwards at a 45 degree angle.\nKeep the patient in the new position for 1 minute.\nFinally bring the patient up to sitting while holding the head in 45 degree rotation.\nMay require multiple attempts, but you can discharge patient home with daily exercises\nImprovement after x1 in 47% of patients, after x2 an additional 16%, and after x3 an additional 21%\n[4]",
+      "subsections": {
+        "Medical_management": {
+          "text": "Antihistamines\nDiphenhydramine\n(Benadryl) 25-50mg IM/IV/PO q4hr\nMeclizine\n(Antivert, Antrizine, Dramamine) 25mg PO QID\nPromethazine\n(Phenergan, Anergan, Prorex) 12.5-25mg PO/IM/IV q4-6hr\nAnticholinergic\nScopolamine\ntransdermal patch 0.5mg (behind ear) QID\nBenzodiazepines\nLorazepam\n(Ativan),\ndiazepam\n(Valium) or Klonopin (\nclonazepam\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        }
+      ]
+    },
+    "Medical_management": {
+      "text": "Antihistamines\nDiphenhydramine\n(Benadryl) 25-50mg IM/IV/PO q4hr\nMeclizine\n(Antivert, Antrizine, Dramamine) 25mg PO QID\nPromethazine\n(Phenergan, Anergan, Prorex) 12.5-25mg PO/IM/IV q4-6hr\nAnticholinergic\nScopolamine\ntransdermal patch 0.5mg (behind ear) QID\nBenzodiazepines\nLorazepam\n(Ativan),\ndiazepam\n(Valium) or Klonopin (\nclonazepam\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider referral to ENT for persistent symptoms despite treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vertigo\nDizziness\nCerebellar Stroke\nHINTS Exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cerebellar Stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_Stroke"
+        },
+        {
+          "text": "HINTS Exam",
+          "url": "https://wikem.org/wiki/Vertigo#HINTS_Exam"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "YouTube: How to do Epley Manuever\nDix-Hallpike and Epley Maneuvers for BPPV, in Claymation\nHome Treatments of Benign paroxysmal positional vertigo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

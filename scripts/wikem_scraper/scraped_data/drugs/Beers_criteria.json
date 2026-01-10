@@ -1,0 +1,35 @@
+{
+  "drug_name": "Beers_criteria",
+  "url": "https://wikem.org/wiki/Beers_criteria",
+  "scraped_at": "2026-01-10T07:48:41.686025",
+  "sections": {
+    "Background": {
+      "text": "Guideline to improve safety of prescribing medications for\nadults 65 and older\n[1]\nEmphasizes risk-benefit ratio, polypharmacy, drug interactions, adverse drug reactions.\nDeveloped by American Geriatric Society\nAlso known as\nBeers Criteria for Potentially Inappropriate Medication Use in Older Adults\nBeers List\nUsed in conjunction with\nSTOPP/START criteria\n[2]\nScreening Tool in Older Persons for Potentially Inappropriate Prescriptions\nScreening Tool to Alert Doctors to the Right Treatment\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STOPP/START criteria",
+          "url": "https://wikem.org/wiki/STOPP/START_criteria"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "American Geriatrics Society 2015 Updated Beers Criteria for Potentially Inappropriate Medication Use in Older Adults",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "STOPP/START criteria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STOPP/START criteria",
+          "url": "https://wikem.org/wiki/STOPP/START_criteria"
+        }
+      ]
+    }
+  }
+}

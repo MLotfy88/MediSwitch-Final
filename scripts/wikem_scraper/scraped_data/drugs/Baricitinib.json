@@ -1,0 +1,104 @@
+{
+  "drug_name": "Baricitinib",
+  "url": "https://wikem.org/wiki/Baricitinib",
+  "scraped_at": "2026-01-10T07:48:37.304268",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "COVID": {
+          "text": "Duration of therapy is up to 14 days or until hospital discharge\nDose dependent on eGFR\neGFR ≥60 mL/min/1.73 m2: 4 mg PO once daily\neGFR 30 to <60 mL/min/1.73 m2: 2 mg PO once daily\neGFR 15 to <30 mL/min/1.73 m2: 1 mg PO once daily\neGFR <15 mL/min/1.73 m2: Not recommended.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "COVID": {
+      "text": "Duration of therapy is up to 14 days or until hospital discharge\nDose dependent on eGFR\neGFR ≥60 mL/min/1.73 m2: 4 mg PO once daily\neGFR 30 to <60 mL/min/1.73 m2: 2 mg PO once daily\neGFR 15 to <30 mL/min/1.73 m2: 1 mg PO once daily\neGFR <15 mL/min/1.73 m2: Not recommended.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

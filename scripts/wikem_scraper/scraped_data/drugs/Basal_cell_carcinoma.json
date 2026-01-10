@@ -1,0 +1,200 @@
+{
+  "drug_name": "Basal_cell_carcinoma",
+  "url": "https://wikem.org/wiki/Basal_cell_carcinoma",
+  "scraped_at": "2026-01-10T07:48:37.952875",
+  "sections": {
+    "Background": {
+      "text": "80% of skin cancers are basal cell, 16% are squamous cell, and 4% are melanomas\n5% to 10% of basal cell carcinomas are aggressive, invade and destroy skin and surrounding tissues, sometimes reaching bone\nRarely a metastatic process",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "UV radiation\nChronic\narsenic\nexposure\nIonizing radiation\nImmunosuppression\nAge and skin colour (light tone)\nAlso known of a certain genetic predisposition (higher in people from the northern hemisphere)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "UV radiation\nChronic\narsenic\nexposure\nIonizing radiation\nImmunosuppression\nAge and skin colour (light tone)\nAlso known of a certain genetic predisposition (higher in people from the northern hemisphere)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Slow growing\nUsually head and neck\nAbout 20% appear on areas less exposed to the sun, such as chest, back, extremities and scalp.\nOnly where hair follicles exist\nPearly nodule with telangiectatic vessels, rolled border and central ulceration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Rash": {
+          "text": "Acute generalized exanthematous pustulosis\nAllergic reaction\nAphthous stomatitis\nAtopic dermatitis\nCoxsackie\nDermatitis herpetiformis\nExfoliative erythroderma\nImpetigo\nPellagra\nPityriasis rosea\nSerum Sickness\nTinea capitus\nTinea corporis\nVitiligo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Serum Sickness",
+          "url": "https://wikem.org/wiki/Serum_Sickness"
+        },
+        {
+          "text": "Tinea capitus",
+          "url": "https://wikem.org/wiki/Tinea_capitus"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Other_Rash": {
+      "text": "Acute generalized exanthematous pustulosis\nAllergic reaction\nAphthous stomatitis\nAtopic dermatitis\nCoxsackie\nDermatitis herpetiformis\nExfoliative erythroderma\nImpetigo\nPellagra\nPityriasis rosea\nSerum Sickness\nTinea capitus\nTinea corporis\nVitiligo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Serum Sickness",
+          "url": "https://wikem.org/wiki/Serum_Sickness"
+        },
+        {
+          "text": "Tinea capitus",
+          "url": "https://wikem.org/wiki/Tinea_capitus"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical examination by trained clinician (dermatology referral)\nSkin biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Not typically managed within ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with derm follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Squamous cell carcinoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        }
+      ]
+    }
+  }
+}

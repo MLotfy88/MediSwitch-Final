@@ -1,0 +1,119 @@
+{
+  "drug_name": "Benztropine",
+  "url": "https://wikem.org/wiki/Benztropine",
+  "scraped_at": "2026-01-10T07:48:43.923248",
+  "sections": {
+    "Administration": {
+      "text": "Type: Anticholinergic\nDosage Forms: tablet, injectable solution\nDosage Strengths: tablet: 0.5, 1, 2mg; injectable solution: 1mg/mL\nRoutes of Administration: IV, IM, oral\nCommon Trade Names: Cogentin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Extrapyramidal disease: 1-4 mg IV/IM/PO 1-2 times daily\nParkinsonism: 0.5 mg IM/IV/PO daily, titrate up in 0.5mg increments",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Contraindicated children <3 years old. Otherwise, same as adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal: no adjustment\nHepatic: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAge <3 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Psychosis, confusion, hallucinations\nHyperpyrexia, heat stroke, anhidrosis\nParalytic ileus",
+          "tables": []
+        },
+        "Common": {
+          "text": "Tachycardia\nConstipation, nausea, xerostomia\nBlurry vision\nUrinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Psychosis, confusion, hallucinations\nHyperpyrexia, heat stroke, anhidrosis\nParalytic ileus",
+      "subsections": {
+        "Common": {
+          "text": "Tachycardia\nConstipation, nausea, xerostomia\nBlurry vision\nUrinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Tachycardia\nConstipation, nausea, xerostomia\nBlurry vision\nUrinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: duration of action is around 24 hours\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Anticholinergic, reduces imbalance between acetylcholine and dopamine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Extrapyramidal reaction\nDystonic reaction\nAntipsychotics\nAnticholinergics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        }
+      ]
+    },
+    "References": {
+      "text": "2019 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2019 updated AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults. J Am Geriatr Soc. 2019;67(4):674-694. doi: 10.1111/jgs.15767. [PubMed 30693946]\nBellman MH. Treatment of phenothiazine drug intoxication with benztropine. Arch Dis Child.1974;49(8):664-665. [PubMed 4424791]\nBenztropine tablets [prescribing information]. Livonia, MI: Major Pharmaceuticals; October 2017.\nBrocks DR. Anticholinergic drugs used in Parkinson's disease: An overlooked class of drugs from a pharmacokinetic perspective. J Pharm Pharm Sci. 1999;2(2):39-46. [PubMed 10952768]\nCogentin (benztropine) injection [prescribing information]. Lake Forest, IL: Akorn Inc; May 2013.\nDuncan MA, Nikolov NM, and O’Kelly B, “Acute Chorea Due to Ondansetron in an Obstetric Patient,” Int J Obstet Anesth, 2001, 10(4):309-11. [PubMed 15321589]\nFalterman CG, Richardson CJ. Small left colon syndrome associated with maternal ingestion of psychotropic drugs. J Pediatr. 1980;97(2):308-310. [PubMed 740090]\nHabre W, Wilson D, Johnson CM. Extrapyramidal side-effects from droperidol mixed with morphine for patient-controlled analgesia in two children. Paediatr Anaesth. 1999;9(4):362-364. [PubMed 10411778]\nJoseph MM, King WD. Dystonic reaction following recommended use of a cold syrup. Ann Emerg Med. 1995;26(6):749-751. [PubMed 7492048]\nKreyenbuhl J, Buchanan RW, Dickerson FB, Dixon LB; Schizophrenia Patient Outcomes Research Team (PORT). The Schizophrenia Patient Outcomes Research Team (PORT): updated treatment recommendations 2009. Schizophr Bull. 2010;36(1):94-103. doi: 10.1093/schbul/sbp130. [PubMed 19955388]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

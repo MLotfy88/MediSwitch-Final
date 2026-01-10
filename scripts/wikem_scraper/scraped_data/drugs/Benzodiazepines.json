@@ -1,0 +1,121 @@
+{
+  "drug_name": "Benzodiazepines",
+  "url": "https://wikem.org/wiki/Benzodiazepines",
+  "scraped_at": "2026-01-10T07:48:42.503580",
+  "sections": {
+    "Background": {
+      "text": "A\nBenzodiazepine\nis a GABA receptor agonist.\nBinding results in inhibition of neuronal firing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Generic (Trade Name)": "Alprazolam(Xanax)",
+            "Equivalent Oral Dose": "0.5mg",
+            "Onset (minutes)": "15-30",
+            "Duration (hours)": "6-12"
+          },
+          {
+            "Generic (Trade Name)": "Chlordiazepoxide(Librium)",
+            "Equivalent Oral Dose": "25mg",
+            "Onset (minutes)": "30-60",
+            "Duration (hours)": "24-48"
+          },
+          {
+            "Generic (Trade Name)": "Diazepam(Valium)",
+            "Equivalent Oral Dose": "5mg",
+            "Onset (minutes)": "2-5 (IV)",
+            "Duration (hours)": "6-12"
+          },
+          {
+            "Generic (Trade Name)": "Flurazepam(Dalmane)",
+            "Equivalent Oral Dose": "15mg",
+            "Onset (minutes)": "15-60",
+            "Duration (hours)": "24-48"
+          },
+          {
+            "Generic (Trade Name)": "Lorazepam(Ativan)",
+            "Equivalent Oral Dose": "1mg",
+            "Onset (minutes)": "5-20(IV); 15-30 (IM)",
+            "Duration (hours)": "6-8"
+          },
+          {
+            "Generic (Trade Name)": "Midazolam(Versed)",
+            "Equivalent Oral Dose": "5mg",
+            "Onset (minutes)": "15(IM)",
+            "Duration (hours)": "1-2"
+          },
+          {
+            "Generic (Trade Name)": "Oxazepam(Serax)",
+            "Equivalent Oral Dose": "15mg",
+            "Onset (minutes)": "30-60",
+            "Duration (hours)": "6-8"
+          },
+          {
+            "Generic (Trade Name)": "Temazepam(Restoril)",
+            "Equivalent Oral Dose": "15mg",
+            "Onset (minutes)": "30",
+            "Duration (hours)": "2-4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Uses": {
+      "text": "Sedation\nSeizures\nAlcohol Withdrawal\nPanic disorder\n, Generalized Anxiety Disorder, Anxiety\nInsomnia\nMuscle Spasms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation_(Main)"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizure#Treatment"
+        },
+        {
+          "text": "Alcohol Withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_Withdrawal"
+        },
+        {
+          "text": "Panic disorder",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Benzodiazepine Toxicity\nIntranasal Sedation\nSedation (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine Toxicity",
+          "url": "https://wikem.org/wiki/Benzodiazepine_Toxicity"
+        },
+        {
+          "text": "Intranasal Sedation",
+          "url": "https://wikem.org/wiki/Intranasal_Sedation"
+        },
+        {
+          "text": "Sedation (main)",
+          "url": "https://wikem.org/wiki/Sedation_(main)"
+        }
+      ]
+    }
+  }
+}

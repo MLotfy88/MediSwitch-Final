@@ -1,0 +1,584 @@
+{
+  "drug_name": "Bariatric_surgery_complications",
+  "url": "https://wikem.org/wiki/Bariatric_surgery_complications",
+  "scraped_at": "2026-01-10T07:48:36.922838",
+  "sections": {
+    "Background": {
+      "text": "Roux-en-Y - malabsorptive and restrictive physiology;\nGastric Sleeve - restrictive\nBiliopancreatic diversion\nVertical banded gastroplasty - now historical as replaced by LAP band;\nLap Band Complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lap Band Complications",
+          "url": "https://wikem.org/wiki/Lap_Band_Complications"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\n, food intolerance\nSepsis\n, abnormal vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Early": {
+          "text": "VTE\n,\npneumonia\n,\nUTI\n,\nsmall bowel obstruction\n, etc\nRoux-Limb Obstruction\nNausea/vomiting\n,\nabdominal pain\nCauses acute gastric dilation\nSurgical emergency!\nIR;decompression possible\nAnastomotic Leak\nAbdominal exam often non-acute due to habitus\nIntra-abdominal bleeding\nMay bleed into GI tract and only visualized on endoscopy",
+          "tables": []
+        },
+        "Late": {
+          "text": "Upper GI bleed\nResuscitate in standard fashion\nEmergent endoscopy\nOften bleed from staple lines, ulcers\nAnastomotic Leak or Stricture\nProgressive inability to tolerate PO\nAbdominal pain\nSolids first then liquids\nNeeds UGI then likely endoscopy\nMarginal Ulcer\nEpigastric pain\nand dyspepsia\nUpper endoscopy\nManage with acid suppression\nInternal\nhernia\nObstructive\nor nonobstructive\nCrampy, intermittent abdominal pain radiating to back\nCan have normal abdominal exam\nMay strangulate herniated bowel\nWork up with CT Abdomen/pelvis and UGI\nCT findings: swirl sign, intussuscepted bowel\nNeeds surgery early\nNutritional Complications\nconsider patients immunosuppressed due to malnourishment\nAnemia\n, neuropathy,\nfractures\n,\nhypercalcemia\nWernicke's encephalopathy\nDumping syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Upper GI bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_bleed"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Obstructive",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Wernicke's encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke%27s_encephalopathy"
+        }
+      ]
+    },
+    "Early": {
+      "text": "VTE\n,\npneumonia\n,\nUTI\n,\nsmall bowel obstruction\n, etc\nRoux-Limb Obstruction\nNausea/vomiting\n,\nabdominal pain\nCauses acute gastric dilation\nSurgical emergency!\nIR;decompression possible\nAnastomotic Leak\nAbdominal exam often non-acute due to habitus\nIntra-abdominal bleeding\nMay bleed into GI tract and only visualized on endoscopy",
+      "subsections": {
+        "Late": {
+          "text": "Upper GI bleed\nResuscitate in standard fashion\nEmergent endoscopy\nOften bleed from staple lines, ulcers\nAnastomotic Leak or Stricture\nProgressive inability to tolerate PO\nAbdominal pain\nSolids first then liquids\nNeeds UGI then likely endoscopy\nMarginal Ulcer\nEpigastric pain\nand dyspepsia\nUpper endoscopy\nManage with acid suppression\nInternal\nhernia\nObstructive\nor nonobstructive\nCrampy, intermittent abdominal pain radiating to back\nCan have normal abdominal exam\nMay strangulate herniated bowel\nWork up with CT Abdomen/pelvis and UGI\nCT findings: swirl sign, intussuscepted bowel\nNeeds surgery early\nNutritional Complications\nconsider patients immunosuppressed due to malnourishment\nAnemia\n, neuropathy,\nfractures\n,\nhypercalcemia\nWernicke's encephalopathy\nDumping syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Upper GI bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_bleed"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Obstructive",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Wernicke's encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke%27s_encephalopathy"
+        }
+      ]
+    },
+    "Late": {
+      "text": "Upper GI bleed\nResuscitate in standard fashion\nEmergent endoscopy\nOften bleed from staple lines, ulcers\nAnastomotic Leak or Stricture\nProgressive inability to tolerate PO\nAbdominal pain\nSolids first then liquids\nNeeds UGI then likely endoscopy\nMarginal Ulcer\nEpigastric pain\nand dyspepsia\nUpper endoscopy\nManage with acid suppression\nInternal\nhernia\nObstructive\nor nonobstructive\nCrampy, intermittent abdominal pain radiating to back\nCan have normal abdominal exam\nMay strangulate herniated bowel\nWork up with CT Abdomen/pelvis and UGI\nCT findings: swirl sign, intussuscepted bowel\nNeeds surgery early\nNutritional Complications\nconsider patients immunosuppressed due to malnourishment\nAnemia\n, neuropathy,\nfractures\n,\nhypercalcemia\nWernicke's encephalopathy\nDumping syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_bleed"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Obstructive",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Wernicke's encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke%27s_encephalopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT AP - use PO & IV contrast\npatients often cannot tolerate full 1L of PO contrast\nsip as much contrast as possible in 3hrs then CT\nweight limit of CT scanner often exceeded\ncan use Gastrografin UGI series instead\nUGI series\nbeware GI pouch limits on contrast volume\nuseful for perforation, internal hernia, stricture, leak",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Specific_Surgeries": {
+      "text": "",
+      "subsections": {
+        "Roux-en-Y_gastric_bypass": {
+          "text": "Creation of a small gastric pouch and an anastomosis to the jejunum\nGastric remnant distention\n[1]\nRemnant is a blind pouch that may become distended with paralytic\nileus\nPotential rupture → severe\nperitonitis\n3.9% leak rate for RYGB; overall mortality 0.6%\nJejunojejunostomy leak associated with 40% mortality\nSigns/symptoms: pain,\nhiccups\n, LUQ tympany, shoulder pain, abdominal distention\nDiagnosis: XR shows large gastric air bubble vs CT\nTreatment: emergent operative decompression with percutaneous drainage\nStomal Stenosis\nOccurs in 6-20% of RYGB patients\nPossibly related to tissue ischemia or tension on GJ anastomosis\nPresentation several weeks after surgery\nSigns/symptoms:\nnausea/vomiting\n,\ndysphagia\n,\nGERD\n, inability to tolerate PO\nDiagnose with endoscopy vs UGI series vs CT\nMarginal Ulcers\nOccur in 0.6-16% of RYGB patients\nAcid injury to jejunum\nCauses: poor perfusion 2/2 tension/ischemia, increase gastric acid exposure, NSAID use, H pylori infection\nSigns/symptoms: Nausea, pain, bleeding +/- perforation\nDiagnose with endoscopy\nPatients typically medically managed\nCholelithiasis\n38% of RYGB patients\nRisk reduced to 2% if\nursodiol\ngiven as post-op ppx\nSome surgeons perform prophylactic cholecystectomy with RYB procedure\nRapid weight loss increases lithogenicity of bile\nDiagnosis: U/S or MRCP\nHernias\nVentral hernias (0-1.8% in lap RYGB)\nInternal hernias (0-5%)\nIntermittent and may be difficult to detect via CT\nSuspected may require urgent surgical exploration lest patient has strangulated pathology\nDumping Syndrome\nOccur in up to 50% of patients when high levels of carbohydrates are ingested\nEarly dumping syndrome\nOccurs when pylorus is either removed or bypassed, allowing hyperosmolar stomach chyme to \"dump\" into the small intestine.\nHyperosmolality of food → fluid shifts into GI lumen → colicky and\nabdominal pain\n,\ndiarrhea\n,\nnausea\n,\ntachycardia\n, diaphoresis,\ndizziness\n,\nsyncope\n.\nTreatment: Diet modification to avoid high simple sugars\nLate dumping syndrome\nInsulin response that leads to\nhypoglycemia\n2-3 hours after meal\nSigns/symptoms:\ndizziness\n,\nfatigue\n, diaphoresis,\nweakness",
+          "tables": []
+        },
+        "Gastric_Banding": {
+          "text": "Placement of restrictive ring over the gastric cardia near the GE junction\nLowest mortality rate among all bariatric surgeries (0.05% mortality)\nStomal Obstruction\nEarly complication; occurs in 14% go GB patients\nTypically due to inclusion over excess perigastric fat vs tissue edema vs inappropriate sized band\nSigns/symptoms:\nnausea/vomiting\ninability to tolerate PO\nDiagnosis: UGI series vs CT\nIf due to edema, may be treated with NG tube decompression until swelling improves\nMay require surgical revision if above unsuccessful\nPort infection\n0.3-9% of GB patients\nassociated with band erosion\ntreatment: Replacement of port if isolated infection vs band if more extensive\nBand Erosion\nUp to 7% of GB patients\nErodes through gastric wall secondary to  wall ischemia vs mechanical stress from band\nOccurs on average 22 months after surgery\nsigns/symptoms: evidence of infection, failure to lose weight,\nnausea/vomiting\n,\nepigastric pain\nand\nhematemesis\nDiagnosis: Endoscopy vs CT\nTreatment: Band removal\nBand Slippage/gastric prolapse\n2-14% of patients\nEither anterior or posterior prolapse\nSigns/Symptoms: Food intolerance,\nepigastric pain\n, acid reflux\nDiagnosis: Upper GI series vs CT\nTreatment: Emergent surgery\nEsophageal dilatation\nUp to 10% of patients\nassociated with over-inflated bands or excessive food intake\nSigns/symptoms: Food/saliva intolerance, reflux,\nepigastric pain\nDiagnosis: UGI series vs CT\nTreatment: Fluid removal from band initially and behavioral modifications\nHiatus hernia\nResults in refractory reflux",
+          "tables": []
+        },
+        "Sleeve_gastrectomy": {
+          "text": "Creates sleeve out of the stomach and removes portion of greater curvature of stomach\nComplication rate 3-24%; mortality 0.39%\nBleeding\nTypically occur from the staple line\nStenosis\nCan lead to gastric outlet obstruction\nSigns/symptoms:\nDysphagia\n,\nvomiting\n,\ndehydration\n, inability to tolerate PO\nDx: UGI series vs CT\ntreatment: Endoscopic dilatation vs surgical intervention depending on involvement\nGastric leaks\nUp to 5.3% of patients; most serious complication associated with sleeve gastrectomy\n2/2 poor healing in setting of inadequate blood supply vs weakness at staple line vs gastric-wall heat ischemia from cautery\nTreatment: surgical repair vs percutaneous drainage/antibiotic/NPO\nReflux\nCommon post-op complication\nTreated medically initially with eventual RYGB for refractory cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hiccups",
+          "url": "https://wikem.org/wiki/Hiccups"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Cholelithiasis",
+          "url": "https://wikem.org/wiki/Cholelithiasis"
+        },
+        {
+          "text": "ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        },
+        {
+          "text": "Hernias",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "Roux-en-Y_gastric_bypass": {
+      "text": "Creation of a small gastric pouch and an anastomosis to the jejunum\nGastric remnant distention\n[1]\nRemnant is a blind pouch that may become distended with paralytic\nileus\nPotential rupture → severe\nperitonitis\n3.9% leak rate for RYGB; overall mortality 0.6%\nJejunojejunostomy leak associated with 40% mortality\nSigns/symptoms: pain,\nhiccups\n, LUQ tympany, shoulder pain, abdominal distention\nDiagnosis: XR shows large gastric air bubble vs CT\nTreatment: emergent operative decompression with percutaneous drainage\nStomal Stenosis\nOccurs in 6-20% of RYGB patients\nPossibly related to tissue ischemia or tension on GJ anastomosis\nPresentation several weeks after surgery\nSigns/symptoms:\nnausea/vomiting\n,\ndysphagia\n,\nGERD\n, inability to tolerate PO\nDiagnose with endoscopy vs UGI series vs CT\nMarginal Ulcers\nOccur in 0.6-16% of RYGB patients\nAcid injury to jejunum\nCauses: poor perfusion 2/2 tension/ischemia, increase gastric acid exposure, NSAID use, H pylori infection\nSigns/symptoms: Nausea, pain, bleeding +/- perforation\nDiagnose with endoscopy\nPatients typically medically managed\nCholelithiasis\n38% of RYGB patients\nRisk reduced to 2% if\nursodiol\ngiven as post-op ppx\nSome surgeons perform prophylactic cholecystectomy with RYB procedure\nRapid weight loss increases lithogenicity of bile\nDiagnosis: U/S or MRCP\nHernias\nVentral hernias (0-1.8% in lap RYGB)\nInternal hernias (0-5%)\nIntermittent and may be difficult to detect via CT\nSuspected may require urgent surgical exploration lest patient has strangulated pathology\nDumping Syndrome\nOccur in up to 50% of patients when high levels of carbohydrates are ingested\nEarly dumping syndrome\nOccurs when pylorus is either removed or bypassed, allowing hyperosmolar stomach chyme to \"dump\" into the small intestine.\nHyperosmolality of food → fluid shifts into GI lumen → colicky and\nabdominal pain\n,\ndiarrhea\n,\nnausea\n,\ntachycardia\n, diaphoresis,\ndizziness\n,\nsyncope\n.\nTreatment: Diet modification to avoid high simple sugars\nLate dumping syndrome\nInsulin response that leads to\nhypoglycemia\n2-3 hours after meal\nSigns/symptoms:\ndizziness\n,\nfatigue\n, diaphoresis,\nweakness",
+      "subsections": {
+        "Gastric_Banding": {
+          "text": "Placement of restrictive ring over the gastric cardia near the GE junction\nLowest mortality rate among all bariatric surgeries (0.05% mortality)\nStomal Obstruction\nEarly complication; occurs in 14% go GB patients\nTypically due to inclusion over excess perigastric fat vs tissue edema vs inappropriate sized band\nSigns/symptoms:\nnausea/vomiting\ninability to tolerate PO\nDiagnosis: UGI series vs CT\nIf due to edema, may be treated with NG tube decompression until swelling improves\nMay require surgical revision if above unsuccessful\nPort infection\n0.3-9% of GB patients\nassociated with band erosion\ntreatment: Replacement of port if isolated infection vs band if more extensive\nBand Erosion\nUp to 7% of GB patients\nErodes through gastric wall secondary to  wall ischemia vs mechanical stress from band\nOccurs on average 22 months after surgery\nsigns/symptoms: evidence of infection, failure to lose weight,\nnausea/vomiting\n,\nepigastric pain\nand\nhematemesis\nDiagnosis: Endoscopy vs CT\nTreatment: Band removal\nBand Slippage/gastric prolapse\n2-14% of patients\nEither anterior or posterior prolapse\nSigns/Symptoms: Food intolerance,\nepigastric pain\n, acid reflux\nDiagnosis: Upper GI series vs CT\nTreatment: Emergent surgery\nEsophageal dilatation\nUp to 10% of patients\nassociated with over-inflated bands or excessive food intake\nSigns/symptoms: Food/saliva intolerance, reflux,\nepigastric pain\nDiagnosis: UGI series vs CT\nTreatment: Fluid removal from band initially and behavioral modifications\nHiatus hernia\nResults in refractory reflux",
+          "tables": []
+        },
+        "Sleeve_gastrectomy": {
+          "text": "Creates sleeve out of the stomach and removes portion of greater curvature of stomach\nComplication rate 3-24%; mortality 0.39%\nBleeding\nTypically occur from the staple line\nStenosis\nCan lead to gastric outlet obstruction\nSigns/symptoms:\nDysphagia\n,\nvomiting\n,\ndehydration\n, inability to tolerate PO\nDx: UGI series vs CT\ntreatment: Endoscopic dilatation vs surgical intervention depending on involvement\nGastric leaks\nUp to 5.3% of patients; most serious complication associated with sleeve gastrectomy\n2/2 poor healing in setting of inadequate blood supply vs weakness at staple line vs gastric-wall heat ischemia from cautery\nTreatment: surgical repair vs percutaneous drainage/antibiotic/NPO\nReflux\nCommon post-op complication\nTreated medically initially with eventual RYGB for refractory cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "hiccups",
+          "url": "https://wikem.org/wiki/Hiccups"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Cholelithiasis",
+          "url": "https://wikem.org/wiki/Cholelithiasis"
+        },
+        {
+          "text": "ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        },
+        {
+          "text": "Hernias",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "Gastric_Banding": {
+      "text": "Placement of restrictive ring over the gastric cardia near the GE junction\nLowest mortality rate among all bariatric surgeries (0.05% mortality)\nStomal Obstruction\nEarly complication; occurs in 14% go GB patients\nTypically due to inclusion over excess perigastric fat vs tissue edema vs inappropriate sized band\nSigns/symptoms:\nnausea/vomiting\ninability to tolerate PO\nDiagnosis: UGI series vs CT\nIf due to edema, may be treated with NG tube decompression until swelling improves\nMay require surgical revision if above unsuccessful\nPort infection\n0.3-9% of GB patients\nassociated with band erosion\ntreatment: Replacement of port if isolated infection vs band if more extensive\nBand Erosion\nUp to 7% of GB patients\nErodes through gastric wall secondary to  wall ischemia vs mechanical stress from band\nOccurs on average 22 months after surgery\nsigns/symptoms: evidence of infection, failure to lose weight,\nnausea/vomiting\n,\nepigastric pain\nand\nhematemesis\nDiagnosis: Endoscopy vs CT\nTreatment: Band removal\nBand Slippage/gastric prolapse\n2-14% of patients\nEither anterior or posterior prolapse\nSigns/Symptoms: Food intolerance,\nepigastric pain\n, acid reflux\nDiagnosis: Upper GI series vs CT\nTreatment: Emergent surgery\nEsophageal dilatation\nUp to 10% of patients\nassociated with over-inflated bands or excessive food intake\nSigns/symptoms: Food/saliva intolerance, reflux,\nepigastric pain\nDiagnosis: UGI series vs CT\nTreatment: Fluid removal from band initially and behavioral modifications\nHiatus hernia\nResults in refractory reflux",
+      "subsections": {
+        "Sleeve_gastrectomy": {
+          "text": "Creates sleeve out of the stomach and removes portion of greater curvature of stomach\nComplication rate 3-24%; mortality 0.39%\nBleeding\nTypically occur from the staple line\nStenosis\nCan lead to gastric outlet obstruction\nSigns/symptoms:\nDysphagia\n,\nvomiting\n,\ndehydration\n, inability to tolerate PO\nDx: UGI series vs CT\ntreatment: Endoscopic dilatation vs surgical intervention depending on involvement\nGastric leaks\nUp to 5.3% of patients; most serious complication associated with sleeve gastrectomy\n2/2 poor healing in setting of inadequate blood supply vs weakness at staple line vs gastric-wall heat ischemia from cautery\nTreatment: surgical repair vs percutaneous drainage/antibiotic/NPO\nReflux\nCommon post-op complication\nTreated medically initially with eventual RYGB for refractory cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "Sleeve_gastrectomy": {
+      "text": "Creates sleeve out of the stomach and removes portion of greater curvature of stomach\nComplication rate 3-24%; mortality 0.39%\nBleeding\nTypically occur from the staple line\nStenosis\nCan lead to gastric outlet obstruction\nSigns/symptoms:\nDysphagia\n,\nvomiting\n,\ndehydration\n, inability to tolerate PO\nDx: UGI series vs CT\ntreatment: Endoscopic dilatation vs surgical intervention depending on involvement\nGastric leaks\nUp to 5.3% of patients; most serious complication associated with sleeve gastrectomy\n2/2 poor healing in setting of inadequate blood supply vs weakness at staple line vs gastric-wall heat ischemia from cautery\nTreatment: surgical repair vs percutaneous drainage/antibiotic/NPO\nReflux\nCommon post-op complication\nTreated medically initially with eventual RYGB for refractory cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Lap Band Complications\nAcute gastric dilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lap Band Complications",
+          "url": "https://wikem.org/wiki/Lap_Band_Complications"
+        },
+        {
+          "text": "Acute gastric dilation",
+          "url": "https://wikem.org/wiki/Acute_gastric_dilation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP BEAM (BARIATRIC EXAMINATION, ASSESSMENT, and MANAGEMENT in the Emergency Department Tool)\nComplications of Bariatric Procedures: ED Evaluation and Management from emDocs:\nhttp://www.emdocs.net/complications-of-bariatric-procedures-ed-evaluation-and-management/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Tack, Jan, et al. “Complications of bariatric surgery: Dumping syndrome, reflux and vitamin deficiencies.”  Best practice and research clinical gastroenterology; 28; 2014; pages 741-749.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

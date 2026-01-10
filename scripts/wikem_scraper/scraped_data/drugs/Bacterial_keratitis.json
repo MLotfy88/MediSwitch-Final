@@ -1,0 +1,167 @@
+{
+  "drug_name": "Bacterial_keratitis",
+  "url": "https://wikem.org/wiki/Bacterial_keratitis",
+  "scraped_at": "2026-01-10T07:48:31.983228",
+  "sections": {
+    "Intro": {
+      "text": "Bacterial keratitis is also often referred to as a\ncorneal ulcer\n, although these terms are not directly interchangeable because a cornea may harbor a bacterial infection (i.e bacterial keratitis) without having a loss of tissue (an ulcer), and a cornea may have an ulcer without a bacterial infection.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Rapidly progressing, with corneal destruction as fast as within 24 hrs\nCorneal perforation is most sight threatening complication\nStrep\n,\nstaph\n,\npseudomonas\n,\nenterobacteriaceae\nRisk factors\nContact lens\nuse\nCorneal surgery,\ntrauma\nChronic dry eye\nRecent corneal disease (viral, fungal keratitis)\nImmune deficiency,\ntopical steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "enterobacteriaceae",
+          "url": "https://wikem.org/wiki/Enterobacteriaceae"
+        },
+        {
+          "text": "Contact lens",
+          "url": "https://wikem.org/wiki/Contact_lens"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        },
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Blurred vision\nSevere\npain\nand photophobia\nPerilimbic injection\nNormal pupil size\nEyelid edema\nMucopurulent exudate\nPosterior synechiae (iris adheres to cornea)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Iritis\nConjunctivitis\nGlaucoma\nUV keratitis\nHerpes zoster\nContact lens complication\nFungal keratitis\nBacterial keratitis\nInterstitial keratitis\nHerpes keratitis\nEndophthalmitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "UV keratitis",
+          "url": "https://wikem.org/wiki/UV_keratitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Contact lens complication",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Topical anesthesia with proparacaine, as opposed to\ntetracaine\nwhich has bacteriostatic effects, limiting culture results\nCulture and gram stain of corneal ulcer edges, eyelids, conjunctiva, contact lenses\nUltrasound\nto assess for signs of endophthalmitis and other pathologies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Broad spectrum topical\nantibiotics\n; 1 drop q1 hr\nTobramycin\n14mg/ml\nAlternate with fortified\ncefazolin\n50mg/ml\nSmaller corneal ulcers may be treated with\nmoxifloxacin\nor\ngatifloxacin\nophthalmic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Ophtho consult for possible perforation risk\nEye patch in the interim",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Corneal ulcer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        }
+      ]
+    },
+    "References": {
+      "text": "Murillo-Lopez F et al. Bacterial Keratitis. Aug 24, 2014.\nhttp://emedicine.medscape.com/article/1194028-overview\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "drug_name": "Baclofen_withdrawal",
+  "url": "https://wikem.org/wiki/Baclofen_withdrawal",
+  "scraped_at": "2026-01-10T07:48:29.427440",
+  "sections": {
+    "Background": {
+      "text": "Baclofen\n(Lioresal) is an anti-spasmodic that works on the as a GABA-B agonist\nPrimarily used in patients with\nmultiple sclerosis\n,\ncerebral palsy\n, and spinal cord injuries\nOften administered intrathecally but does have an oral formulation\nWithdrawal symptoms thought to be caused by decreased GABA activation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Baclofen withdrawal especially in the case of acute intrathecal pump failure may lead to:\nHigh\nfevers\nConfusion\n, altered mental status\nMuscle stiffness\nSeizures\nRhabdomyolysis\nMultiple organ system failure\nDeath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fevers",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Sepsis\nMeningitis\nEpilepsy\nAutonomic dysreflexia\nNeuroleptic malignant syndrome\nMalignant hyperthermia",
+      "subsections": {
+        "Sedative/hypnotic_withdrawal": {
+          "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Gamma hydroxybutyrate",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Sedative/hypnotic_withdrawal": {
+      "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Gamma hydroxybutyrate",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "History of baclofen use\nPhysical exam\nExamination of the pump\nCPK levels\nElectrolytes\nCBC\nLFTs\nCoagulation studies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Management": {
+      "text": "High doses of\nbenzodiazepines\nare the mainstay of treatment\nHigh dose oral baclofen has been used but has been less effective\nIntrathecal baclofen bolus can be attempted but overdoses are possible with this method\nDantrolene\nand\ncyproheptadine\ncan also be considered but their efficacy is still unproven in this situation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        },
+        {
+          "text": "cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit:\nOrgan failure\nStatus epilepticus\nPump malfunction\nFever\nLoss of consciousness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cerebral palsy\nBaclofen toxicity\nBaclofen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen"
+        }
+      ]
+    }
+  }
+}

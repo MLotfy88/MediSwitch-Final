@@ -1,0 +1,259 @@
+{
+  "drug_name": "Benign_prostatic_hyperplasia",
+  "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia",
+  "scraped_at": "2026-01-10T07:48:40.653266",
+  "sections": {
+    "Background": {
+      "text": "Benign, noncancerous increase in the size of the prostate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "May be asymptomatic\nUrinary frequency\nNocturia\nDifficulty starting urination\nWeak stream\nAcute urinary retention\n(BPH is most common cause)",
+      "subsections": {
+        "Complications": {
+          "text": "UTI\nBladder stones\nCKD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "CKD",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "UTI\nBladder stones\nCKD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "CKD",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Urinary_retention": {
+          "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Urinary_retention": {
+      "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Management": {
+      "text": "May require urinary catheterization for\nacute urinary retention\nIf difficult to place standard foley, consider placing\nCoude catheter\n, which navigates the S-shaped curve of the bulbous urethra; this curve is exaggerated in BPH\nLifestyle modifications (limiting fluid/diuretic intake, avoiding constipation, increasing activity/weight loss), timed-voiding/double-voiding, Kegels\nAlpha-1-receptor antagonists (e.g.\ntamsulosin\n0.4mg nightly) most commonly used for lower urinary tract symptoms\nDepending on symptoms, PCP/urologist may also treat with PDE-5 inhibitor, 5-alpha-reductase inhibitors, Beta-3 adrenergics, anticholinergics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Coude catheter",
+          "url": "https://wikem.org/wiki/Coude_catheter"
+        },
+        {
+          "text": "tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute urinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        }
+      ]
+    }
+  }
+}

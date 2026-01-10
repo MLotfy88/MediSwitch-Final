@@ -1,0 +1,384 @@
+{
+  "drug_name": "Bag_valve_mask_ventilation",
+  "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation",
+  "scraped_at": "2026-01-10T07:48:37.255644",
+  "sections": {
+    "Overview": {
+      "text": "Simple, life-saving skill that is critical in airway management\nDeliver oxygen at positive pressure via a bag containing oxygen connected to a mask placed over a patient's nose and mouth\nOxygenation and ventilation prior to definitive airway placement or bridge to sedative metabolization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Respiratory failure\nPre-oxygenation\nEmergent need to oxygenate/ventilate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications",
+      "subsections": {
+        "Difficult_BVM_(MOANS)": {
+          "text": "M\nask seal\nO\nbesity\nA\nged\nN\no teeth\nS\ntiffness (resistance to ventilation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Bag connected to oxygen at 15L/min\nMask connected to the bag\nConsider PEEP valve (provides PEEP between ventilations)\nOPA\n/NPA/adjuncts to facilitate successful BVM ventilation\nSuction\nSpO2 monitor helpful",
+      "subsections": {
+        "Children": {
+          "text": "Proper-sized mask (covers nose and chin)\nProper bag (enough to see chest rise)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "\"EC\"_Hand_Position": {
+          "text": "Thumb and index finger holding mask in a \"C\" position\nThumb superior and index inferior\n3rd, 4th, 5th finger hold the mandible and perform a jaw thrust\nOther hand used to bag",
+          "tables": []
+        },
+        "2-person": {
+          "text": "This technique provides an objectively better seal than the \"EC\" hand position\n[1]\nOne person holds the mask with both hands (lateral edges)\nWith double EC technique, index fingers and thumbs of both hands form C over mask and digits 3-5 lift the jaw at the rami of mandible\nCan also press thumbs and thenar eminences over lateral edges of mask and use digits 2-5 to lift jaw at the rami of the mandible\nImportant to life jaw into mask and not press mask down into jaw; can occlude the airway and cause difficulty with ventilation\n2nd person bags",
+          "tables": []
+        },
+        "Rate": {
+          "text": "Adult bag at 10-12/min\nChildren 16-20/min\nInfants 30/min\nNeonates 40-60/min",
+          "tables": []
+        },
+        "Tidal_Volume": {
+          "text": "Avoid hyperinflation\nAverage bag volume is approximately 1600 cc; only necessary to delivery approximately 500 cc\nBag until chest rise is seen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "\"EC\"_Hand_Position": {
+      "text": "Thumb and index finger holding mask in a \"C\" position\nThumb superior and index inferior\n3rd, 4th, 5th finger hold the mandible and perform a jaw thrust\nOther hand used to bag",
+      "subsections": {
+        "2-person": {
+          "text": "This technique provides an objectively better seal than the \"EC\" hand position\n[1]\nOne person holds the mask with both hands (lateral edges)\nWith double EC technique, index fingers and thumbs of both hands form C over mask and digits 3-5 lift the jaw at the rami of mandible\nCan also press thumbs and thenar eminences over lateral edges of mask and use digits 2-5 to lift jaw at the rami of the mandible\nImportant to life jaw into mask and not press mask down into jaw; can occlude the airway and cause difficulty with ventilation\n2nd person bags",
+          "tables": []
+        },
+        "Rate": {
+          "text": "Adult bag at 10-12/min\nChildren 16-20/min\nInfants 30/min\nNeonates 40-60/min",
+          "tables": []
+        },
+        "Tidal_Volume": {
+          "text": "Avoid hyperinflation\nAverage bag volume is approximately 1600 cc; only necessary to delivery approximately 500 cc\nBag until chest rise is seen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "2-person": {
+      "text": "This technique provides an objectively better seal than the \"EC\" hand position\n[1]\nOne person holds the mask with both hands (lateral edges)\nWith double EC technique, index fingers and thumbs of both hands form C over mask and digits 3-5 lift the jaw at the rami of mandible\nCan also press thumbs and thenar eminences over lateral edges of mask and use digits 2-5 to lift jaw at the rami of the mandible\nImportant to life jaw into mask and not press mask down into jaw; can occlude the airway and cause difficulty with ventilation\n2nd person bags",
+      "subsections": {
+        "Rate": {
+          "text": "Adult bag at 10-12/min\nChildren 16-20/min\nInfants 30/min\nNeonates 40-60/min",
+          "tables": []
+        },
+        "Tidal_Volume": {
+          "text": "Avoid hyperinflation\nAverage bag volume is approximately 1600 cc; only necessary to delivery approximately 500 cc\nBag until chest rise is seen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rate": {
+      "text": "Adult bag at 10-12/min\nChildren 16-20/min\nInfants 30/min\nNeonates 40-60/min",
+      "subsections": {
+        "Tidal_Volume": {
+          "text": "Avoid hyperinflation\nAverage bag volume is approximately 1600 cc; only necessary to delivery approximately 500 cc\nBag until chest rise is seen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tidal_Volume": {
+      "text": "Avoid hyperinflation\nAverage bag volume is approximately 1600 cc; only necessary to delivery approximately 500 cc\nBag until chest rise is seen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Poor seal\nRemove dentures to intubate; keep them in to bag/mask ventilate\nFor a beard smear lube to help create better seal or cut the center out of a tegaderm and apply to the patient's perioral area\nPoor oxygenation/ventilation\nReadjust head-tilt-chin-lift or jaw thrust\nUtilize\noropharyngeal airway\n/\nnasopharyngeal airway\nOverinflation of the stomach causing emesis/aspiration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "nasopharyngeal airway",
+          "url": "https://wikem.org/wiki/Nasopharyngeal_airway"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Intubation\nOropharyngeal airway",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "Medscape (1:33)\nhttps://www.youtube.com/watch?v=zUGw90iL0Qw\nFor Covid19\nWakeMed (1:22)\nhttps://www.youtube.com/watch?v=JT4RC1TsTPo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "Medscape (1:33)\nhttps://www.youtube.com/watch?v=zUGw90iL0Qw\nFor Covid19\nWakeMed (1:22)\nhttps://www.youtube.com/watch?v=JT4RC1TsTPo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

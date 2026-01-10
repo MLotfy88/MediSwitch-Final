@@ -1,0 +1,64 @@
+{
+  "drug_name": "BLS_(Main)",
+  "url": "https://wikem.org/wiki/BLS_(Main)",
+  "scraped_at": "2026-01-10T07:48:27.925812",
+  "sections": {
+    "Adult": {
+      "text": "Compressions\nPush hard, deep (at least 2 inches, or 5 cm) and fast (100-120 compressions per minute)\nDo everything possible to minimize compression interruption\nLimit pulse checks to <10 sec\nResume compressions while charging defibrillator\nVentilation\n30:2 ratio when do not have advanced airway (1 and 2 rescuer)\nDo not overventilate! (leads to decreased venous return)\n8-10 breaths per min when\nintubated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "intubated",
+          "url": "https://wikem.org/wiki/Intubated"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "Compressions\nPush hard (≥ 1/3 chest diameter) and fast (100-120/min), but no more than 6 cm in adolescents\nVentilation\nNO perfusing rhythm\n15:2 ratio when do not have advanced airway (30:2 for 1-rescuer)\nDo not overventilate! (leads to decreased venous return)\nDeliver breath with inspiratory time of 1s\n8-10 breaths per min when\nintubated\nYES perfusing rhythm\nGive rescue breaths 12-20 per min (“squeeze-release-release”)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "intubated",
+          "url": "https://wikem.org/wiki/Intubated"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACLS (Main)\nPediatric Advanced Life Support (PALS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "Pediatric Advanced Life Support (PALS)",
+          "url": "https://wikem.org/wiki/Pediatric_Advanced_Life_Support_(PALS)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "2020 AHA Guidelines\nhttp://www.peeratlas.com/BLS_Adult_cardiac_arrest_(healthcare_provider)/A1464393007344",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "2015 AHA Guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

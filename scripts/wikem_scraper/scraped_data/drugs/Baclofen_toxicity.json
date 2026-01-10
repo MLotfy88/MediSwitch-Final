@@ -1,0 +1,345 @@
+{
+  "drug_name": "Baclofen_toxicity",
+  "url": "https://wikem.org/wiki/Baclofen_toxicity",
+  "scraped_at": "2026-01-10T07:48:27.791517",
+  "sections": {
+    "Background": {
+      "text": "Baclofen is a synthetic derivative of GABA used to reduce spasticity in conditions such as\nmultiple sclerosis\nand\ncerebral palsy\n, or to reduce muscular spasm in\nlower back pain\n.\n[1]\nMay also be used for\nhiccups\nand\nalcohol use disorder\nAt therapeutic doses, baclofen acts as a GABA-B receptor agonist in the spinal cord, causing inhibition of muscular tone.\nAt higher doses, baclofen loses selectivity and can cause sedation.\nPrimarily (80%) excreted by the kidneys\nDosage must be reduced in renal dysfunction and should be avoided with GFR < 30 mL/min/1.73 m\n2\n.\nPatients on chronic therapy may become toxic with new\nAKI\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        },
+        {
+          "text": "lower back pain",
+          "url": "https://wikem.org/wiki/Lower_back_pain"
+        },
+        {
+          "text": "hiccups",
+          "url": "https://wikem.org/wiki/Hiccups"
+        },
+        {
+          "text": "alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea and vomiting\nDepressed level of consciousness\n[2]\nDelirium\nSeizures\nTonic-clonic\nNon-convulsive status epilepticus\nMyoclonus\nAirway compromise and\nrespiratory failure\nHypothermia\nHypotension\nBradycardia\nand conduction abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Depressed level of consciousness",
+          "url": "https://wikem.org/wiki/Depressed_level_of_consciousness"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        },
+        "Also_consider_co-ingestion_with_intentional_overdose": {
+          "text": "Acetaminophen toxicity\nSalicylate toxicity\nEthanol toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {
+        "Also_consider_co-ingestion_with_intentional_overdose": {
+          "text": "Acetaminophen toxicity\nSalicylate toxicity\nEthanol toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        }
+      ]
+    },
+    "Also_consider_co-ingestion_with_intentional_overdose": {
+      "text": "Acetaminophen toxicity\nSalicylate toxicity\nEthanol toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis of exclusion, based on history\nBaclofen level can be measured but is not clinically useful\nIn patients with\nintrathecal baclofen pump\n:\nObtain\nKUB\nto evaluate pump tubing integrity and placement\nConsult the managing specialist to interrogate pump",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intrathecal baclofen pump",
+          "url": "https://wikem.org/wiki/Intrathecal_drug_delivery_system_complications"
+        },
+        {
+          "text": "KUB",
+          "url": "https://wikem.org/wiki/KUB"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Activated charcoal\nfor recent ingestion\nSupportive care:\nRespiratory support\n[3]\nIV fluids\nVasopressors\nfor persistent hypotension\nBenzodiazepines\nfor\nseizures\nor severe myoclonus\nCNS depressive effects of benzodiazepines will be increased\nUse the lowest effective dose and be prepared for respiratory depression\nHemodialysis\nfor very severe toxicity\nProbably not beneficial in patients with normal renal function\nFor patients with\nintrathecal pump\n:\n[4]\nConsult managing specialist\nTurn off pump\nCan remove baclofen from pump reservoir and replace with normal saline\nConsider large volume CSF removal via\nlumbar puncture\nto reduce level",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IV_fluids"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        },
+        {
+          "text": "intrathecal pump",
+          "url": "https://wikem.org/wiki/Intrathecal_pump"
+        },
+        {
+          "text": "lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for monitoring until back to neurologic baseline\nICU for severe coma, seizures, airway compromise, or respiratory failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intrathecal drug delivery system complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intrathecal drug delivery system complications",
+          "url": "https://wikem.org/wiki/Intrathecal_drug_delivery_system_complications"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Internet Book of Critical Care. Baclofen: therapy, intoxication, & withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "drug_name": "Beriberi",
+  "url": "https://wikem.org/wiki/Beriberi",
+  "scraped_at": "2026-01-10T07:48:44.044110",
+  "sections": {
+    "Background": {
+      "text": "Dry Beriberi: neuro symptoms caused by thiamine deficiency\nWet Beriberi: cardiac symptoms caused by thiamine deficiency\nInfantile Beriberi: neuro/cardiac symptoms caused by thiamine deficiency in <1 year old infant",
+      "subsections": {
+        "Causes": {
+          "text": "Anything that causes\nthiamine (vitamin B1) deficiency\n: poor dietary intake, malabsorption, increased metabolic requirement\nChronic\nalcoholism\n, dieting/fasting/starvation,\nanorexia\n,\nvomiting\n/\ndiarrhea\n, unbalanced TPN, GI surgery, malignancy,\ndialysis\n,\nAIDS\n,\nIBD\n,\npancreatitis\n, liver disease,\nthyrotoxicosis",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Thiamine is a cofactor for enzymes required in:\nKrebs cycle\nPentose phosphate pathway\nAlpha-ketoglutarate dehydrogenase\nPyruvate dehydrogenase.\nBecause thiamine is an important cofactor in critical pathways for energy production, deficiency results in lactic acidosis and alteration of brain metabolism.\nThiamine is also important for lipid metabolism and may affect myelin sheath formation. This may explain peripheral neuropathy symptoms in dry beriberi.",
+          "tables": []
+        },
+        "Thiamine_deficiency_types": {
+          "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine (vitamin B1) deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "anorexia",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Anything that causes\nthiamine (vitamin B1) deficiency\n: poor dietary intake, malabsorption, increased metabolic requirement\nChronic\nalcoholism\n, dieting/fasting/starvation,\nanorexia\n,\nvomiting\n/\ndiarrhea\n, unbalanced TPN, GI surgery, malignancy,\ndialysis\n,\nAIDS\n,\nIBD\n,\npancreatitis\n, liver disease,\nthyrotoxicosis",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Thiamine is a cofactor for enzymes required in:\nKrebs cycle\nPentose phosphate pathway\nAlpha-ketoglutarate dehydrogenase\nPyruvate dehydrogenase.\nBecause thiamine is an important cofactor in critical pathways for energy production, deficiency results in lactic acidosis and alteration of brain metabolism.\nThiamine is also important for lipid metabolism and may affect myelin sheath formation. This may explain peripheral neuropathy symptoms in dry beriberi.",
+          "tables": []
+        },
+        "Thiamine_deficiency_types": {
+          "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine (vitamin B1) deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "anorexia",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Thiamine is a cofactor for enzymes required in:\nKrebs cycle\nPentose phosphate pathway\nAlpha-ketoglutarate dehydrogenase\nPyruvate dehydrogenase.\nBecause thiamine is an important cofactor in critical pathways for energy production, deficiency results in lactic acidosis and alteration of brain metabolism.\nThiamine is also important for lipid metabolism and may affect myelin sheath formation. This may explain peripheral neuropathy symptoms in dry beriberi.",
+      "subsections": {
+        "Thiamine_deficiency_types": {
+          "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Thiamine_deficiency_types": {
+      "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Dry_Beriberi": {
+          "text": "Symmetrical peripheral neuropathy (\nmotor\nand\nsensory\n) mostly distal extremities",
+          "tables": []
+        },
+        "Wet_Beriberi": {
+          "text": "CHF\n,\nhigh output heart failure\n, cardiomegaly, peripheral edema,\ntachycardia\n,\nDOE/PND/orthopnea\nCan include neuropathy seen in Dry Beriberi",
+          "tables": []
+        },
+        "Infantile_Beriberi": {
+          "text": "CHF\n, cardiomegaly,\ntachycardia\n,\ncyanosis\n,\ndyspnea\n,\nweight loss\n, marasmus,\nvomiting\n, loud cry,\nnystagmus\n,\nseizure",
+          "tables": []
+        },
+        "Bariatric_Beriberi": {
+          "text": "Occurs 1-3 months post-\nbariatric surgery\nCauses are multifactorial, including low nutritional intake, poor baseline\nnutrition\n, persistent\nvomiting\n, malabsorption",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "motor",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "high output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "DOE/PND/orthopnea",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "cyanosis",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "weight loss",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "bariatric surgery",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        },
+        {
+          "text": "nutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Dry_Beriberi": {
+      "text": "Symmetrical peripheral neuropathy (\nmotor\nand\nsensory\n) mostly distal extremities",
+      "subsections": {
+        "Wet_Beriberi": {
+          "text": "CHF\n,\nhigh output heart failure\n, cardiomegaly, peripheral edema,\ntachycardia\n,\nDOE/PND/orthopnea\nCan include neuropathy seen in Dry Beriberi",
+          "tables": []
+        },
+        "Infantile_Beriberi": {
+          "text": "CHF\n, cardiomegaly,\ntachycardia\n,\ncyanosis\n,\ndyspnea\n,\nweight loss\n, marasmus,\nvomiting\n, loud cry,\nnystagmus\n,\nseizure",
+          "tables": []
+        },
+        "Bariatric_Beriberi": {
+          "text": "Occurs 1-3 months post-\nbariatric surgery\nCauses are multifactorial, including low nutritional intake, poor baseline\nnutrition\n, persistent\nvomiting\n, malabsorption",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "motor",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "high output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "DOE/PND/orthopnea",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "cyanosis",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "weight loss",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "bariatric surgery",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        },
+        {
+          "text": "nutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Wet_Beriberi": {
+      "text": "CHF\n,\nhigh output heart failure\n, cardiomegaly, peripheral edema,\ntachycardia\n,\nDOE/PND/orthopnea\nCan include neuropathy seen in Dry Beriberi",
+      "subsections": {
+        "Infantile_Beriberi": {
+          "text": "CHF\n, cardiomegaly,\ntachycardia\n,\ncyanosis\n,\ndyspnea\n,\nweight loss\n, marasmus,\nvomiting\n, loud cry,\nnystagmus\n,\nseizure",
+          "tables": []
+        },
+        "Bariatric_Beriberi": {
+          "text": "Occurs 1-3 months post-\nbariatric surgery\nCauses are multifactorial, including low nutritional intake, poor baseline\nnutrition\n, persistent\nvomiting\n, malabsorption",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "high output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "DOE/PND/orthopnea",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "cyanosis",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "weight loss",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "bariatric surgery",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        },
+        {
+          "text": "nutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Infantile_Beriberi": {
+      "text": "CHF\n, cardiomegaly,\ntachycardia\n,\ncyanosis\n,\ndyspnea\n,\nweight loss\n, marasmus,\nvomiting\n, loud cry,\nnystagmus\n,\nseizure",
+      "subsections": {
+        "Bariatric_Beriberi": {
+          "text": "Occurs 1-3 months post-\nbariatric surgery\nCauses are multifactorial, including low nutritional intake, poor baseline\nnutrition\n, persistent\nvomiting\n, malabsorption",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "cyanosis",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "weight loss",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "bariatric surgery",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        },
+        {
+          "text": "nutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Bariatric_Beriberi": {
+      "text": "Occurs 1-3 months post-\nbariatric surgery\nCauses are multifactorial, including low nutritional intake, poor baseline\nnutrition\n, persistent\nvomiting\n, malabsorption",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bariatric surgery",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        },
+        {
+          "text": "nutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        },
+        "High-output_heart_failure": {
+          "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Vitamin_deficiencies": {
+      "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+      "subsections": {
+        "High-output_heart_failure": {
+          "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "High-output_heart_failure": {
+      "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If you suspect Beriberi then treat it! Diagnosis is clinical and difficult to confirm, treatment is simple/inexpensive/effective, there is little risk to treatment, and the risk of morbidity/mortality from not treating is high\nThiamine\n50-100mg IV/IM q day x 7-14 days, then 10mg PO q day until complete recovery\nMagnesium\n; hypomagnesemic state may be resistant to thiamine administration\nMultivitamin (at risk for other vitamin deficiencies)\nGive thiamine BEFORE glucose in patients requiring glucose who are at risk for thiamine deficiency; glucose without thiamine can precipitate/worsen WE by driving thiamine intracellularly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "",
+      "subsections": {
+        "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+          "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+          "tables": []
+        },
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[1]\n[2]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+      "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+      "subsections": {
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[1]\n[2]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Thiamine\nThiamine deficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        }
+      ]
+    },
+    "References": {
+      "text": "Donnino, Michael, et al. “Myths and misconceptions of wernicke’s encephalopathy: what every emergency physician should know.” Annals of emergency medicine.  2007. Vol 50, no 6. Pages 715-721.\nSechi, GianPietro; Serra, Alessandro.  “Wernicke’s encephalopathy: new clnical settings and recent advances in diagnosis and management.” Neurology. Vol 6, May 2007.  Pages 442-455",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

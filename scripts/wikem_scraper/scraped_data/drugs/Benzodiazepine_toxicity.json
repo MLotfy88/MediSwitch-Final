@@ -1,0 +1,331 @@
+{
+  "drug_name": "Benzodiazepine_toxicity",
+  "url": "https://wikem.org/wiki/Benzodiazepine_toxicity",
+  "scraped_at": "2026-01-10T07:48:41.898799",
+  "sections": {
+    "Background": {
+      "text": "Isolated\nbenzodiazepine\noverdose has low morbidity/mortality\nCoingestion or parenteral administration accounts for vast majority of deaths\nRespiratory depression rare with overdose of oral agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Somnolence, slurred speech, ataxia (similar to\nETOH intoxication\n)\nParadoxical reaction (more common in hyperactive children, psychiatric patients)\nHypotension\nRespiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ETOH intoxication",
+          "url": "https://wikem.org/wiki/ETOH_intoxication"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Urine toxicology screen\nMost\nbenzodiazepine\nscreens look for oxazepam, which is a metabolite of\ndiazepam\nand\nchlordiazepoxide\n. Therefore,\nlorazepam\n,\nalprazolam\n, and\nclonazepam\nare commonly missed.\nTrue positives: Oxazepam,\ntemazepam\n,\ndiazepam\n,\nalprazolam\n,\ntriazolam\nFalse negatives:\nLorazepam\n,\nclonazepam\n,\nmidazolam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "chlordiazepoxide",
+          "url": "https://wikem.org/wiki/Chlordiazepoxide"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "alprazolam",
+          "url": "https://wikem.org/wiki/Alprazolam"
+        },
+        {
+          "text": "clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        },
+        {
+          "text": "temazepam",
+          "url": "https://wikem.org/wiki/Temazepam"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "alprazolam",
+          "url": "https://wikem.org/wiki/Alprazolam"
+        },
+        {
+          "text": "triazolam",
+          "url": "https://wikem.org/wiki/Triazolam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        },
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Management": {
+      "text": "GI decontamination\nActivated Charcoal\nx1\nMechanical ventilation\nif necessary",
+      "subsections": {
+        "Flumazenil": {
+          "text": "Controversial\nMay prevent need for\nmechanical ventilation\n; may precipitate benzo-withdrawal\nseizure\nIndication:\nConsider (though controversial) for coma reversal\nContraindications:\nSuspected or known physical dependence on benzodiazepines\nSuspected TCA overdose\nCo-ingestion of seizure-inducing agents\nKnown\nseizure\ndisorder\nSuspected increased intracranial pressure\nDosing\n0.2mg IV; may repeat q1min (max dose 3mg)\nFlumazenil-Induced Seizure\nTreat with\nphenobarbital\nor\npropofol\n; benzodiazepines will not work",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GI decontamination",
+          "url": "https://wikem.org/wiki/GI_decontamination"
+        },
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "Mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        },
+        {
+          "text": "mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Flumazenil": {
+      "text": "Controversial\nMay prevent need for\nmechanical ventilation\n; may precipitate benzo-withdrawal\nseizure\nIndication:\nConsider (though controversial) for coma reversal\nContraindications:\nSuspected or known physical dependence on benzodiazepines\nSuspected TCA overdose\nCo-ingestion of seizure-inducing agents\nKnown\nseizure\ndisorder\nSuspected increased intracranial pressure\nDosing\n0.2mg IV; may repeat q1min (max dose 3mg)\nFlumazenil-Induced Seizure\nTreat with\nphenobarbital\nor\npropofol\n; benzodiazepines will not work",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge after 6hr observation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedative/Hypnotic\nBenzodiazepines\nBenzodiazepine withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative/Hypnotic",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotic"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        }
+      ]
+    }
+  }
+}

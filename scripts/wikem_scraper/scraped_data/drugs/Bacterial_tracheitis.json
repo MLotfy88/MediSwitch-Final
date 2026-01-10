@@ -1,0 +1,257 @@
+{
+  "drug_name": "Bacterial_tracheitis",
+  "url": "https://wikem.org/wiki/Bacterial_tracheitis",
+  "scraped_at": "2026-01-10T07:48:32.682667",
+  "sections": {
+    "Background": {
+      "text": "Bacterial infection of tracheal epithelium\nOften secondary infection after\nviral illness\nS. Aureus\nmost common, also\nstrep\nspecies,\nH. Influenza\nand anaerobes\nPeak age is 3-5 years old\nOccurs throughout childhood and adulthood",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "viral illness",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "S. Aureus",
+          "url": "https://wikem.org/wiki/S._Aureus"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "H. Influenza",
+          "url": "https://wikem.org/wiki/H._Influenza"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Severely ill child, starts out as viral prodrome\nFollowed by inspiratory and expiratory\nstridor\n,\nrespiratory distress\n, and copious purulent secretions\nDifficult to differentiate from\ncroup\nand\nepiglottitis\nSevere decompensation, high\nfever\n, purulent secretions help differentiate\nMay also have concomitant\npneumonia\nMay have been treated with racemic epinephrine and steroids for croup, with no clinical improvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Pediatric_stridor": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nGram stain with predominance of one organism, differentiating from colonization\nXR neck may show subglottic narrowing with ragged tracheal epithelium\nCXR\nmay show concomitant\npneumonia\nEmergent bronchoscopy is diagnostic and therapeutic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Intubation\n, emergent, usually necessary\nBronchoscopy to confirm diagnosis, rule out supraglottic pathology\nAntibiotics\n[1]\nThird generation cephalosporin (\ncefotaxime\nor\nceftriaxone\n)\nPLUS MRSA coverage, options below depending on prevalence of CA-MRSA\nClindamycin\n40mg/kg/d IV divided q8hr\nOR\nVancomycin\n45mg/kg/d IV divided q8hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU\nOften require prolonged intubation (4-5 days)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Toxic shock syndrome\nSeptic shock\nRenal failure\nPostintubation\npulmonary edema\nARDS\nResidual\nsubglottic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Septic shock",
+          "url": "https://wikem.org/wiki/Septic_shock"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Stridor (Peds)\nStridor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stridor (Peds)",
+          "url": "https://wikem.org/wiki/Stridor_(Peds)"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merck Manual - Bacterial Tracheitis\nemDocs - Tracheitis in Children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

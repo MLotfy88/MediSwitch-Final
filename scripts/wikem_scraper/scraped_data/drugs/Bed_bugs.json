@@ -1,0 +1,297 @@
+{
+  "drug_name": "Bed_bugs",
+  "url": "https://wikem.org/wiki/Bed_bugs",
+  "scraped_at": "2026-01-10T07:48:41.936169",
+  "sections": {
+    "Background": {
+      "text": "Cimex lenticularis\nBed bug bites are known as 'cimicosis'\nBed bugs are attracted to CO2, warmth, exposed surfaces\nTend to hide near beds, cracks, crevices\nFeed at night\nMay appear translucent (nymphs,) brown (mature bug,) red (after meal,) black (after digestion)\nBelong to\nHemiptera\n(like kissing bugs) which are vectors for trypanosomiasis (Central and South America)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Up to 20% of patients do not experience symptoms\n[1]\nPain immediately after bite\nErythematous papules, bullae, and wheals may take days to develop\nClassic line of bites: \"breakfast, lunch, and dinner\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Domestic_U.S._Ectoparasites": {
+          "text": "Bed bugs\nLice\nScabies\n(Mites)\nTicks\nFleas\nPseudoparasites\nDelusional parasitosis (Ekbom syndrome)\nSee also\ntravel-related skin conditions",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Ticks",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        },
+        {
+          "text": "travel-related skin conditions",
+          "url": "https://wikem.org/wiki/Travel-related_skin_conditions"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Domestic_U.S._Ectoparasites": {
+      "text": "Bed bugs\nLice\nScabies\n(Mites)\nTicks\nFleas\nPseudoparasites\nDelusional parasitosis (Ekbom syndrome)\nSee also\ntravel-related skin conditions",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Ticks",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        },
+        {
+          "text": "travel-related skin conditions",
+          "url": "https://wikem.org/wiki/Travel-related_skin_conditions"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Primarily supportive care\nAntihistamine\nfor\npruritus\nConsider\ntopical steroids\nto decrease inflammation\nNo evidence that medications improve outcomes\nTreat systemic reactions similar to\nanaphylaxis\n(rare)\nSelf-limited 1-2 weeks without treatment\nEradication using pesticides, hot water washing of bedding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if no evidence of systemic symptoms or anaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic diseases\nTravel medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        },
+        {
+          "text": "Travel medicine",
+          "url": "https://wikem.org/wiki/Travel_medicine"
+        }
+      ]
+    }
+  }
+}

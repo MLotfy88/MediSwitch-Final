@@ -1,0 +1,106 @@
+{
+  "drug_name": "Banana_bag",
+  "url": "https://wikem.org/wiki/Banana_bag",
+  "scraped_at": "2026-01-10T07:48:33.708075",
+  "sections": {
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Ethanol_related_disease_processes": {
+          "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Ethanol_related_disease_processes": {
+      "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "drug_name": "Bacterial_conjunctivitis",
+  "url": "https://wikem.org/wiki/Bacterial_conjunctivitis",
+  "scraped_at": "2026-01-10T07:48:33.732238",
+  "sections": {
+    "Background": {
+      "text": "Often due to\nstaphylococcus\nor\nstreptococcus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Painless, unilateral or bilateral mucopurulent discharge\nOften causes adherence of the eyelids on awakening\nChemosis is common",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Eye exam\nFluorescein stain of cornea (especially in infants) to assess for corneal lesion\nCulture: if severe",
+          "tables": []
+        },
+        "Clinical_diagnosis_of_conjunctivitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Bilateral",
+                "Bacterial": "50%",
+                "Viral": "25%",
+                "Allergic": "Mostly"
+              },
+              {
+                "": "Discharge",
+                "Bacterial": "Mucopurulent",
+                "Viral": "Clear, Watery",
+                "Allergic": "Cobblestoning, none"
+              },
+              {
+                "": "Redness",
+                "Bacterial": "Yes",
+                "Viral": "Yes",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Pruritis",
+                "Bacterial": "Rarely",
+                "Viral": "Rarely",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Additional",
+                "Bacterial": "Treatment: Antibiotics",
+                "Viral": "Treatment: Hygiene",
+                "Allergic": "Seasonal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Eye exam\nFluorescein stain of cornea (especially in infants) to assess for corneal lesion\nCulture: if severe",
+      "subsections": {
+        "Clinical_diagnosis_of_conjunctivitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Bilateral",
+                "Bacterial": "50%",
+                "Viral": "25%",
+                "Allergic": "Mostly"
+              },
+              {
+                "": "Discharge",
+                "Bacterial": "Mucopurulent",
+                "Viral": "Clear, Watery",
+                "Allergic": "Cobblestoning, none"
+              },
+              {
+                "": "Redness",
+                "Bacterial": "Yes",
+                "Viral": "Yes",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Pruritis",
+                "Bacterial": "Rarely",
+                "Viral": "Rarely",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Additional",
+                "Bacterial": "Treatment: Antibiotics",
+                "Viral": "Treatment: Hygiene",
+                "Allergic": "Seasonal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "",
+      "subsections": {
+        "Clinical_diagnosis_of_conjunctivitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Bilateral",
+                "Bacterial": "50%",
+                "Viral": "25%",
+                "Allergic": "Mostly"
+              },
+              {
+                "": "Discharge",
+                "Bacterial": "Mucopurulent",
+                "Viral": "Clear, Watery",
+                "Allergic": "Cobblestoning, none"
+              },
+              {
+                "": "Redness",
+                "Bacterial": "Yes",
+                "Viral": "Yes",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Pruritis",
+                "Bacterial": "Rarely",
+                "Viral": "Rarely",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Additional",
+                "Bacterial": "Treatment: Antibiotics",
+                "Viral": "Treatment: Hygiene",
+                "Allergic": "Seasonal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_diagnosis_of_conjunctivitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Bilateral",
+            "Bacterial": "50%",
+            "Viral": "25%",
+            "Allergic": "Mostly"
+          },
+          {
+            "": "Discharge",
+            "Bacterial": "Mucopurulent",
+            "Viral": "Clear, Watery",
+            "Allergic": "Cobblestoning, none"
+          },
+          {
+            "": "Redness",
+            "Bacterial": "Yes",
+            "Viral": "Yes",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Pruritis",
+            "Bacterial": "Rarely",
+            "Viral": "Rarely",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Additional",
+            "Bacterial": "Treatment: Antibiotics",
+            "Viral": "Treatment: Hygiene",
+            "Allergic": "Seasonal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment for bacterial organisms is targeted toward\nS. aureus\n,\nS. pneumoniae\n,\nH. influenzae\n,\nPseudomonas\n,\nN. gonorrhea\n,\nC. trachomatis\nContact lens wearers should be given coverage for\npseudomonas\nwith one of the\nfluoroquinolone\ndrops",
+      "subsections": {
+        "Bacterial_Conjunctivitis": {
+          "text": "Counsel patient/family on importance of hand hygiene/avoiding touching face to prevent spread!\nApply warm or cool compresses (for comfort and cleansing) every 4 hours, followed by instillation of ophthalmic antibiotic solutions\nThese options do not cover gonococcal or chlamydial infections\nPolymyxin B/Trimethoprim (Polytrim) 2 drops every 6 hours for 7 days OR\nErythromycin\napplied to the conjunctiva q6hrs for 7 days OR\nLevofloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nMoxifloxacin\n0.5% ophthalmic 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nGatifloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN 1 drop every 6 hours for 5 days OR\nAzithromycin\n1% ophthalmic solution 1 drop BID for 2 days THEN 1 drop daily for 5 days\nChloramphenicol\n0.5% ophthalmic solution 1 drop QID for 7 days\nNB: levofloxacin is preferred for contact lens wearers for coverage of pseudomonas. Advise not to wear contacts for duration of treatment",
+          "tables": []
+        },
+        "Chlamydial": {
+          "text": "Doxycycline\n100mg PO BID for 7 days OR\nAzithromycin\n1g (20mg/kg) PO one time dose\nNewborn Treatment:\nAzithromycin\n20mg/kg PO once daily x 3 days or erythromycin PO 50 mg/kg/day in 4 divided doses for 14 days\n[1]\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Due to increasing resistance, CDC recommends dual therapy with Ceftriaxone and Azithromycin (even if patient is negative for Chlamydia).\nCeftriaxone\n250mg IM one dose PLUS\nAzithromycin\n1g PO one dose\nNewborn Treatment:\nProphylaxis:\nErythromycin\nophthalmic 0.5% x1\nDisease manifests 1st 5 days post delivery (early onset)\nTreatment\nCeftriaxone\n25-50mg IV or IM, max 125mg or cefotaxime single dose of 100 mg/kg (preferred if the patient has hyperbilirubinemia)\nAlso requires evaluation for disseminated disease (meningitis, arthritis, etc.)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "N. gonorrhea",
+          "url": "https://wikem.org/wiki/N._gonorrhea"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with ophtho follow-up (if no improvement) in 3 - 4 days\nBacterial conjunctivitis is highly contagious. Patients may return to work or school after 24 hours of topical therapy and a reduction in discharge from eye(s). Advise good hygiene practices.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conjunctivitis\nEye Algorithm (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Eye Algorithm (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithm_(Main)"
+        }
+      ]
+    }
+  }
+}

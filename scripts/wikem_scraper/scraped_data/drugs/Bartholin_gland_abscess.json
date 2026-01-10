@@ -1,0 +1,942 @@
+{
+  "drug_name": "Bartholin_gland_abscess",
+  "url": "https://wikem.org/wiki/Bartholin_gland_abscess",
+  "scraped_at": "2026-01-10T07:48:40.715390",
+  "sections": {
+    "Background": {
+      "text": "Bartholin glands are located at the at the 4 o'clock and 8 o'clock positions, posterolaterally to introitus\nDucts of the glands drain into posterior vestibule and contribute to vaginal lubrication\nGlands are generally nonpalpable when cyst/abscess is not present\n[1]\nObstruction of ducts may lead to focal cyst formation, which may become infected to form an abscess\nA cyst does not need to be present for an\nabscess\nto develop\nMost common in young, adult women (20-30 years old)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain and pressure worse with walking, sexual intercourse\nIf small cyst or abscess, may also be asymptomatic\nMass in posterior introitus near 4 o'clock or 8 o'clock position\nMay appear erythematous, tender, and swollen\nMay develop over days or longer time (if preceded by cyst)\nSystemic symptoms (e.g.\nfever\n/chills) are rarely present",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cysts of other glandular structures\nLeiomyoma\nLipoma\nCarcinoma  (consider in older women who present with introital mass)",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[2]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[2]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually a clinical diagnosis\nIf there is suspicion of MRSA, may culture the specimen drained",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Incision_and_Drainage": {
+          "text": "I&D only perform once\nabscess\nis well-defined, walled-off structure",
+          "tables": []
+        },
+        "Word_Catheter": {
+          "text": "Consider parenteral analgesics or sedatives prior to local infiltration\nInject\nlocal anesthetics\nUsing an #11 blade, stab incision is made on the mucosal surface (avoid incising the skin surface on labia minora)\nExtend incision for several mm but not so many that the Word catheter will fall out (fully inflated it is not much larger than 1cm)\nInsert Word catheter and inflate balloon with 2-4mL of water. The safest way to do this is with a blunt needle tip (just long enough if pressure applied); the kit comes with a long 22-27 gauge needle but if using this be careful\nTuck end of catheter into the vagina\nCatheter should remain in place for 4-6wk to avoid recurrence\nJacobi rocks",
+          "tables": []
+        },
+        "Rubber_Ring_Catheter_(Jacobi_Ring)[3]": {
+          "text": "Less cumbersome for the patient and less likely to fall out and similar in procedure as a loop drain for a cutaneous abscess\nAdditional equipment: 7-cm length of an 8–French T tube (can also use tubing from butterfly catheter) threaded with a 20-cm length of 2-0 silk suture.\nInject local anesthetic\nStab incision is made on the mucosal surface\nPass hemostat into\nabscess\ncavity to lyse adhesions, and tunnel to make indentation for second incision\nGrab one end of Jacobi ring and pull through\nabscess\ncavity\nTie two ends to form closed ring. DO NOT TIE TOO TIGHT (pressure necrosis risk)",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "No randomized trials, general approach from expert opinion\nLimit antibiotic treatment to patients with:\nRecurrent Bartholin Abscess\nHigh risk of complications\nSurrounding Cellulitis, immunocompromise, pregnancy\nSystemic Infection (eg, fever, chills)\nRegimens:\nBactrim\n1 DS PO BID +\nAmoxicillin-clavulanate\n: 875mg PO BID\nCefixime\n400mg PO QD x7d +\nclindamycin\n300mg PO QID x7d",
+          "tables": []
+        },
+        "Wound_Care": {
+          "text": "Sitz bath x2 days, analgesics\nAbstain from vaginal intercourse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "local anesthetics",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Incision_and_Drainage": {
+      "text": "I&D only perform once\nabscess\nis well-defined, walled-off structure",
+      "subsections": {
+        "Word_Catheter": {
+          "text": "Consider parenteral analgesics or sedatives prior to local infiltration\nInject\nlocal anesthetics\nUsing an #11 blade, stab incision is made on the mucosal surface (avoid incising the skin surface on labia minora)\nExtend incision for several mm but not so many that the Word catheter will fall out (fully inflated it is not much larger than 1cm)\nInsert Word catheter and inflate balloon with 2-4mL of water. The safest way to do this is with a blunt needle tip (just long enough if pressure applied); the kit comes with a long 22-27 gauge needle but if using this be careful\nTuck end of catheter into the vagina\nCatheter should remain in place for 4-6wk to avoid recurrence\nJacobi rocks",
+          "tables": []
+        },
+        "Rubber_Ring_Catheter_(Jacobi_Ring)[3]": {
+          "text": "Less cumbersome for the patient and less likely to fall out and similar in procedure as a loop drain for a cutaneous abscess\nAdditional equipment: 7-cm length of an 8–French T tube (can also use tubing from butterfly catheter) threaded with a 20-cm length of 2-0 silk suture.\nInject local anesthetic\nStab incision is made on the mucosal surface\nPass hemostat into\nabscess\ncavity to lyse adhesions, and tunnel to make indentation for second incision\nGrab one end of Jacobi ring and pull through\nabscess\ncavity\nTie two ends to form closed ring. DO NOT TIE TOO TIGHT (pressure necrosis risk)",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "No randomized trials, general approach from expert opinion\nLimit antibiotic treatment to patients with:\nRecurrent Bartholin Abscess\nHigh risk of complications\nSurrounding Cellulitis, immunocompromise, pregnancy\nSystemic Infection (eg, fever, chills)\nRegimens:\nBactrim\n1 DS PO BID +\nAmoxicillin-clavulanate\n: 875mg PO BID\nCefixime\n400mg PO QD x7d +\nclindamycin\n300mg PO QID x7d",
+          "tables": []
+        },
+        "Wound_Care": {
+          "text": "Sitz bath x2 days, analgesics\nAbstain from vaginal intercourse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "local anesthetics",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "No randomized trials, general approach from expert opinion\nLimit antibiotic treatment to patients with:\nRecurrent Bartholin Abscess\nHigh risk of complications\nSurrounding Cellulitis, immunocompromise, pregnancy\nSystemic Infection (eg, fever, chills)\nRegimens:\nBactrim\n1 DS PO BID +\nAmoxicillin-clavulanate\n: 875mg PO BID\nCefixime\n400mg PO QD x7d +\nclindamycin\n300mg PO QID x7d",
+      "subsections": {
+        "Wound_Care": {
+          "text": "Sitz bath x2 days, analgesics\nAbstain from vaginal intercourse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bactrim",
+          "url": "https://wikem.org/wiki/Bactrim"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Wound_Care": {
+      "text": "Sitz bath x2 days, analgesics\nAbstain from vaginal intercourse",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Usually outpatient management\nRefer to GYN if >40yr (might need biopsy to rule out CA) and recurrence (complete excision vs. marsupialization)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Incision and Drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Incision and Drainage",
+          "url": "https://wikem.org/wiki/Incision_and_Drainage"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merck Manual - Bartholin Gland Cyst\nFirst10EM - What's the word on Word Catheters?",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=MmxiG-0IvDE}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=MmxiG-0IvDE}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

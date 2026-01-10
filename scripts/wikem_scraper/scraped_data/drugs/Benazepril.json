@@ -1,0 +1,238 @@
+{
+  "drug_name": "Benazepril",
+  "url": "https://wikem.org/wiki/Benazepril",
+  "scraped_at": "2026-01-10T07:48:38.975581",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nACE inhibitor\nDosage Forms: 5mg, 10mg, 20mg, 40mg\nRoutes of Administration: PO\nCommon Trade Names: Lotensin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "2-80mg PO in one or two daily doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">6yo: 0.2-0.6mg/kg daily, max 40mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category D (fetal risk demonstrated)",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk is minimal",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: GFR <30 or Cr >3: 5-40mg daily\nPediatric: not recommended if GFR <30",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established\nPediatric: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category D (fetal risk demonstrated)",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Infant risk is minimal",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: GFR <30 or Cr >3: 5-40mg daily\nPediatric: not recommended if GFR <30",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established\nPediatric: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Infant risk is minimal",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: GFR <30 or Cr >3: 5-40mg daily\nPediatric: not recommended if GFR <30",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established\nPediatric: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: GFR <30 or Cr >3: 5-40mg daily\nPediatric: not recommended if GFR <30",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established\nPediatric: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not established\nPediatric: Not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAngioedema history\nConcomitant aliskiren use in diabetic patients\nConcomitant or recent (<36h) neprilysin inhibitors (e.g. sacubitril)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Angioedema\n, anaphylactoid reaction\nSJS\nAgranulocytosis\n, [[neutropenia\nHepatic necrosis, increased LFTs\nRenal impairment",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\n,\nHeadache\nCough\nFatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Angioedema\n, anaphylactoid reaction\nSJS\nAgranulocytosis\n, [[neutropenia\nHepatic necrosis, increased LFTs\nRenal impairment",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness\n,\nHeadache\nCough\nFatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Dizziness\n,\nHeadache\nCough\nFatigue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Adult: 10-11h, pediatric: ~5h\nMetabolism: hepatic\nExcretion: renal, biliary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "ACE inhibitor: inhibits conversion of angiotensin I to angiotensin II, which decreases vasopressor activity and aldosterone activity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension\nACE inhibitors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ACE inhibitors",
+          "url": "https://wikem.org/wiki/ACE_inhibitors"
+        }
+      ]
+    },
+    "References": {
+      "text": "ALLHAT Officers and Coordinators for the ALLHAT Collaborative Research Group, “Major Outcomes in High-Risk Hypertensive Patients Randomized to Angiotensin-Converting Enzyme Inhibitor or Calcium Channel Blocker vs Diuretic: The Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT),” JAMA, 2002, 288(23):2981-97. [PubMed 12479763]\nAmerican College of Obstetricians and Gynecologists (ACOG), Task Force on Hypertension in Pregnancy. Hypertension in pregnancy. Report of the American College of Obstetricians and Gynecologists’ Task Force on Hypertension in Pregnancy. Obstet Gynecol. 2013;122(5):1122-1131. [PubMed 24150027 ]\nAmerican Diabetes Association (ADA). Diabetes Care. 2019;42(suppl 1):S1-S193.\nhttp://care.diabetesjournals.org/content/42/Supplement_1\n. Accessed January 10, 2019.\nAmsterdam EA, Wenger NK, Brindis RG, et al; American College of Cardiology; American Heart Association Task Force on Practice Guidelines; Society for Cardiovascular Angiography and Interventions; Society of Thoracic Surgeons; American Association for Clinical Chemistry. 2014 AHA/ACC guideline for the management of patients with non-ST-elevation acute coronary syndromes: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines [published correction appears in J Am Coll Cardiol. 2014;64(24):2713-2714]. J Am Coll Cardiol. 2014;64(24):e139-e228. doi: 10.1016/j.jacc.2014.09.017. [PubMed 25260718]\nAntman EM, Anbe SC, Alpert JS, et al, “ACC/AHA Guidelines for the Management of Patients With ST-Elevation Myocardial Infarction - Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Writing Committee to Revise the 1999 Guidelines for the Management of Patients With Acute Myocardial Infarction),” Circulation, 2004, 110(5):588-636. Available at\nhttp://www.circulationaha.org/cgi/content/full/110/5/588\n[PubMed 15289388]\nAntman EM, Hand M, Armstrong PW, et al, “2007 Focused Update of the ACC/AHA 2004 Guidelines for the Management of Patients With ST-Elevation Myocardial Infarction. A Report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines,” J Am Coll Cardiol, 2008, 51(2):210-49. [PubMed 18191746]\nAronoff GR, Bennett WM, Berns JS, et al. Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children. 5th ed. Philadelphia, PA: American College of Physicians; 2007.\nBakris GL, Weir MR. Angiotensin-converting enzyme inhibitor-associated elevations in serum creatinine: is this a cause for concern? Arch Intern Med. 2000;160(5):685-693. [PubMed 10724055]\nBalfour JA, Goa KL. Benazepril. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic efficacy in hypertension and congestive heart failure. Drugs. 1991;42(3):511-539. Review. [PubMed 1720384]\nCanadian Diabetes Association Clinical Practice Guidelines Expert Committee, \"Canadian Diabetes Association 2013 Clinical Practice Guidelines for the Prevention and Management of Diabetes in Canada,\" Can J Diabetes, 2013, 35(Suppl 1):1-212.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

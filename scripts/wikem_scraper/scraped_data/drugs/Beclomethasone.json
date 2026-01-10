@@ -1,0 +1,120 @@
+{
+  "drug_name": "Beclomethasone",
+  "url": "https://wikem.org/wiki/Beclomethasone",
+  "scraped_at": "2026-01-10T07:48:41.460697",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nInhaled steroids\n,\nCorticosteroid\nDosage Forms: oral inhalation aerosol, metered-dose nasal spray suspension, metered-dose nasal spray solution\nDosage Strengths: oral inhalation aerosol: 40, 80mcg/actuation; metered-dose suspension: 42mcg/actuation; metered-dose solution: 80mcg/actuation\nRoutes of Administration: inhalation, intranasal spray\nCommon Trade Names: Qvar, Qvar RediHaler, Beconase AQ, QNASL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled steroids",
+          "url": "https://wikem.org/wiki/Inhaled_steroids"
+        },
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Asthma: 40 to 320 mcg by oral inhalation BID\nRhinitis: 2 sprays (80 mcg/spray) in each nostril once daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Asthma, 6-11 yo: 40-80 mcg by oral inhalation BID\nRhinitis, 4-11 yo: 1 spray (40 mcg/spray) in each nostril once daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nNot to be used as primary treatment for acute asthma exacerbation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Secondary hypocortisolism\nCataract, glaucoma\nBronchospasm",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Secondary hypocortisolism\nCataract, glaucoma\nBronchospasm",
+      "subsections": {
+        "Common": {
+          "text": "Headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.3-3h\nMetabolism: Hepatic via CYP3A4\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Corticosteroid, reduces inflammation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Corticosteroids\nAsthma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "References": {
+      "text": "ACOG Committee on Practice Bulletins-Obstetrics, \"ACOG Practice Bulletin: Clinical Management Guidelines for Obstetrician-Gynecologists Number 90, February 2008: Asthma in Pregnancy,\" Obstet Gynecol, 2008, 111(2 Pt 1):457-64. [PubMed 18238988]\nBakhireva LN, Jones KL, Schatz M, et al, “Asthma Medication Use in Pregnancy and Fetal Growth,” J Allergy Clin Immunol, 2005, 116(3):503-9. [PubMed 16159616]\nFanta CH. Acute exacerbations of asthma in adults: Home and office management. Post TW, ed. UpToDate. Waltham, MA: UpToDate Inc.\nhttp://www.uptodate.com\n. Accessed February 7, 2019.\nGlobal Initiative for Asthma (GINA). GINA report, Global Strategy for Asthma Management and Prevention.\nhttp://www.ginasthma.org\n. Updated 2018. Accessed October 23, 2018.\nGlobal Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease: 2014 Report. Global Initiative for Chronic Obstructive Lung Disease website. Published 2014.\nGlobal Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease: 2018 Report. Global Initiative for Chronic Obstructive Lung Disease website.\nhttp://goldcopd.org/wp-content/uploads/2017/11/GOLD-2018-v6.0-FINAL-revised-20-Nov_WMS.pdf\n. Published 2018. Accessed January 12, 2018.\nGoedert JJ, Vitale F, Lauria C, et al, “Risk Factors for Classical Kaposi's Sarcoma,” J Natl Cancer Inst, 2002, 94(22):1712-8. [PubMed 12441327]\nLougheed MD, Lemière C, Dell SD, et al, “Canadian Thoracic Society Asthma Management Continuum - 2010 Consensus Summary for Children Six Years of Age and Over, and Adults,” Can Respir J, 2010, 17(1):15-24. [PubMed 20186367]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

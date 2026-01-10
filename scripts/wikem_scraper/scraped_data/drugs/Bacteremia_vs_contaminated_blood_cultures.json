@@ -1,0 +1,112 @@
+{
+  "drug_name": "Bacteremia_vs_contaminated_blood_cultures",
+  "url": "https://wikem.org/wiki/Bacteremia_vs_contaminated_blood_cultures",
+  "scraped_at": "2026-01-10T07:48:27.885162",
+  "sections": {
+    "Background": {
+      "text": "Staphylococcus aureus\nand Candida sp. isolated from the blood should never be considered a contaminant\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        }
+      ]
+    },
+    "Suggestive_of_Contamination": {
+      "text": "Typical commensal organisms of the skin flora\nin the abscence of an intravenous catheter\nCoagulase-negative\nStaphylococcus\nspecies\nCertain\nStreptococci\nGram-Positive\nbacilli (rods)\nOnly 1 out of 2 or more blood cultures are positive\nWhen positive for coagulase-negative\nStaphylococcal Species\nAntibiotic Susceptibility Pattern\nof one organism is different from the pattern of the other organisms in the same or subsequent set of cultures (as long as the organisms are of the same species)\nFor example, if 2 sets of blood cultures are both positive for\nStaphylococcus epidermidis\nbut one set is sensitive to a particular antibiotic while the other set is resistant to the same antibiotics, both sets are likely contaminated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "Streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Gram-Positive",
+          "url": "https://wikem.org/wiki/Gram-Positive"
+        },
+        {
+          "text": "Staphylococcal Species",
+          "url": "https://wikem.org/wiki/Staphylococcal_Species"
+        },
+        {
+          "text": "Antibiotic Susceptibility Pattern",
+          "url": "https://wikem.org/wiki/Antibiotic_Susceptibility_Pattern"
+        },
+        {
+          "text": "Staphylococcus epidermidis",
+          "url": "https://wikem.org/wiki/Staphylococcus_epidermidis"
+        }
+      ]
+    },
+    "Risk_Factors_for_Bacteremia": {
+      "text": "Advanced age\nCorticosteroids\nImmunosuppressing medications (transplant patients, rheumatologic diseases, etc)\nChronic liver disease\nChronic renal failure (especially if on hemodialysis)\nHematological malignancies\nHIV infection\nIntravenous catheters\nIntravenous drug use\nLoss of skin integrity\nMalnutrition and\nhypoalbuminemia\nNeutropenia\nParenteral nutrition",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Contamination_Rates_for_Specific_Organisms": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Organism": "Bacillusspp.",
+            "False positives": ">90%"
+          },
+          {
+            "Organism": "Coag-negativeStaphylococcusspp.",
+            "False positives": ">90%"
+          },
+          {
+            "Organism": "Propionibacteriumspp.",
+            "False positives": ">90%"
+          },
+          {
+            "Organism": "Corynebacteriumspp.",
+            "False positives": ">80%"
+          },
+          {
+            "Organism": "Viridans-Group Streptococci",
+            "False positives": "50%"
+          },
+          {
+            "Organism": "Clostridiumspp.",
+            "False positives": "40%"
+          },
+          {
+            "Organism": "Staphylococcus aureusspp.",
+            "False positives": "25%"
+          },
+          {
+            "Organism": "Enterococcusspp.",
+            "False positives": "15%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Microbiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

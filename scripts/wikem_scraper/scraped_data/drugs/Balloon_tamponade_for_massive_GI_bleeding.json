@@ -1,0 +1,134 @@
+{
+  "drug_name": "Balloon_tamponade_for_massive_GI_bleeding",
+  "url": "https://wikem.org/wiki/Balloon_tamponade_for_massive_GI_bleeding",
+  "scraped_at": "2026-01-10T07:48:34.413733",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Unstable patient with massive\nupper GI bleed\nand any of the following:\nInability to perform endoscopy\nEndoscopy failed (e.g., cannot visualize source due to heavy bleeding)\nDelay in endoscopy or GI consultation\nNeed to stabilize prior to transfer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Esophageal stricture\nRecent esophageal or gastric surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Balloon device\nSengstaken-Blakemore Tube\nMinnesota Tube\n60 cc syringe\nPadded(tape) kelly clamps\nUsed to clamp gastric and esophageal balloon ports to maintain precise pressure/volume\nManometer\n3-way connector device\nNG tube (only for Sengstaken-Blakemore)\nKerlex\nIV pole\n1 L bag IVF\nMay need Magill forceps for manoeuvring tube into the esophagus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Blakemore": {
+          "text": "https://www.youtube.com/watch?v=NHelCd5Jtp4\nIntubate\npatient\nFully inflate and deflate each balloon using its respective port to check for leaks\nIf using Sengstaken-Blakemore tube, secure NG tube to tamponade device with distal end of NG tube 3 cm proximal to esophageal balloon\nUse NG tube to measure 50 cm from top of gastric balloon on Sengstaken-Blakemore tube, and mark 'G'\nUse NG tube to measure 50 cm from top of esophageal balloon on Sengstaken-Blakemore tube, and mark 'E'\nAttach 3-way stopcocks to esophageal and gastric ports\nInsert tube orally (may need to use lubrication and Magill forceps) to > 50 cm\nTest for location in stomach by injecting air through the tube and auscultating at the epigastrium\nInflate gastric balloon (port marked 'G') with 50 mL of air\nConfirm location of gastric balloon in the stomach using portable XR\nCompletely fill gastric balloon\nSengstaken-Blakemore: 250-300cc\nMinnesota: 450-500cc\nMeasure the pressure at each 100 mL increment\nIf pressure is >15mm Hg more than corresponding pre-insertion pressure deflate the balloon and advance further prior to filling gastric balloon\nTie tube to casting sleeve/Kerlex attached to a 1L bag of normal saline, and hang bag over IV pole to provide 1 kg traction\nAttach esophageal and gastric aspiration ports to suction\nIf bleeding continues, inflate the esophageal balloon\nInflate to 20-40 mm Hg (use manometer to test pressure)\nDo not inflate more than 45 mm Hg",
+          "tables": []
+        },
+        "Minnesota": {
+          "text": "https://www.youtube.com/watch?v=4FHIiA_doWU\nGet the kit, 4 Kelly clamps, 50 mL syringe, lube\nTake out nasogastric tube, if present\nNasogastric tube depth can be used to estimate how far to place Minnesota\nClamp all ports on Minnesota EXCEPT gastric inflation and suction with Kelly clamps\nTake out the little white stoppers in all the ports\nIf this takes a long time you can just leave in and clamp below if there is space\nPut gastric suction to suction\nTest the gastric tube with air to see that they inflate in water bath\nInsert lubed tube to 50-60 cm mark (estimate bridge of nose to xiphoid process) and test pump 50 mL air then get a\nKUB\nto verify position\nThen count carefully to 9 more pumps of 50 mL (Minnesota gastric tube holds 500cc, you need 9 more pumps after the initial 50 mL.\nhave someone count with you)\nUnclamp the gastric inflation port, pump 50 mL, then re-clamp, then pump again, repeat until you hit 10 total times\nPEARLS\nNo need to use 3 way stopcocks/ Christmas tree adaptors, just Kelly clamp all ports other than gastric inflation site\nWe initially tried to find all the adaptors etc., but ended up having air leaks because they were not connected correctly or the right kind and the gastric balloon did not stay inflated. Don't use anything other than Kelly clamps\nCan connect suction to gastric suction but in general, ignore all ports other than gastric inflation.\nNo need to use esophageal tube or manometer as MOST of the time the gastric tamponade will be sufficient and you don’t want to risk over inflating the esophagus\nHave someone count with you to not lose count of how much air you’ve inserted!",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Blakemore": {
+      "text": "https://www.youtube.com/watch?v=NHelCd5Jtp4\nIntubate\npatient\nFully inflate and deflate each balloon using its respective port to check for leaks\nIf using Sengstaken-Blakemore tube, secure NG tube to tamponade device with distal end of NG tube 3 cm proximal to esophageal balloon\nUse NG tube to measure 50 cm from top of gastric balloon on Sengstaken-Blakemore tube, and mark 'G'\nUse NG tube to measure 50 cm from top of esophageal balloon on Sengstaken-Blakemore tube, and mark 'E'\nAttach 3-way stopcocks to esophageal and gastric ports\nInsert tube orally (may need to use lubrication and Magill forceps) to > 50 cm\nTest for location in stomach by injecting air through the tube and auscultating at the epigastrium\nInflate gastric balloon (port marked 'G') with 50 mL of air\nConfirm location of gastric balloon in the stomach using portable XR\nCompletely fill gastric balloon\nSengstaken-Blakemore: 250-300cc\nMinnesota: 450-500cc\nMeasure the pressure at each 100 mL increment\nIf pressure is >15mm Hg more than corresponding pre-insertion pressure deflate the balloon and advance further prior to filling gastric balloon\nTie tube to casting sleeve/Kerlex attached to a 1L bag of normal saline, and hang bag over IV pole to provide 1 kg traction\nAttach esophageal and gastric aspiration ports to suction\nIf bleeding continues, inflate the esophageal balloon\nInflate to 20-40 mm Hg (use manometer to test pressure)\nDo not inflate more than 45 mm Hg",
+      "subsections": {
+        "Minnesota": {
+          "text": "https://www.youtube.com/watch?v=4FHIiA_doWU\nGet the kit, 4 Kelly clamps, 50 mL syringe, lube\nTake out nasogastric tube, if present\nNasogastric tube depth can be used to estimate how far to place Minnesota\nClamp all ports on Minnesota EXCEPT gastric inflation and suction with Kelly clamps\nTake out the little white stoppers in all the ports\nIf this takes a long time you can just leave in and clamp below if there is space\nPut gastric suction to suction\nTest the gastric tube with air to see that they inflate in water bath\nInsert lubed tube to 50-60 cm mark (estimate bridge of nose to xiphoid process) and test pump 50 mL air then get a\nKUB\nto verify position\nThen count carefully to 9 more pumps of 50 mL (Minnesota gastric tube holds 500cc, you need 9 more pumps after the initial 50 mL.\nhave someone count with you)\nUnclamp the gastric inflation port, pump 50 mL, then re-clamp, then pump again, repeat until you hit 10 total times\nPEARLS\nNo need to use 3 way stopcocks/ Christmas tree adaptors, just Kelly clamp all ports other than gastric inflation site\nWe initially tried to find all the adaptors etc., but ended up having air leaks because they were not connected correctly or the right kind and the gastric balloon did not stay inflated. Don't use anything other than Kelly clamps\nCan connect suction to gastric suction but in general, ignore all ports other than gastric inflation.\nNo need to use esophageal tube or manometer as MOST of the time the gastric tamponade will be sufficient and you don’t want to risk over inflating the esophagus\nHave someone count with you to not lose count of how much air you’ve inserted!",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Minnesota": {
+      "text": "https://www.youtube.com/watch?v=4FHIiA_doWU\nGet the kit, 4 Kelly clamps, 50 mL syringe, lube\nTake out nasogastric tube, if present\nNasogastric tube depth can be used to estimate how far to place Minnesota\nClamp all ports on Minnesota EXCEPT gastric inflation and suction with Kelly clamps\nTake out the little white stoppers in all the ports\nIf this takes a long time you can just leave in and clamp below if there is space\nPut gastric suction to suction\nTest the gastric tube with air to see that they inflate in water bath\nInsert lubed tube to 50-60 cm mark (estimate bridge of nose to xiphoid process) and test pump 50 mL air then get a\nKUB\nto verify position\nThen count carefully to 9 more pumps of 50 mL (Minnesota gastric tube holds 500cc, you need 9 more pumps after the initial 50 mL.\nhave someone count with you)\nUnclamp the gastric inflation port, pump 50 mL, then re-clamp, then pump again, repeat until you hit 10 total times\nPEARLS\nNo need to use 3 way stopcocks/ Christmas tree adaptors, just Kelly clamp all ports other than gastric inflation site\nWe initially tried to find all the adaptors etc., but ended up having air leaks because they were not connected correctly or the right kind and the gastric balloon did not stay inflated. Don't use anything other than Kelly clamps\nCan connect suction to gastric suction but in general, ignore all ports other than gastric inflation.\nNo need to use esophageal tube or manometer as MOST of the time the gastric tamponade will be sufficient and you don’t want to risk over inflating the esophagus\nHave someone count with you to not lose count of how much air you’ve inserted!",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Due to misplaced balloon, migration, over-inflation, prolonged use\nMucosal ulceration\nAspiration\nAirway or large vessel obstruction\nEsophageal rupture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Gastrointestinal_Bleeding_Pages": {
+          "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_lower_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        }
+      ]
+    },
+    "Gastrointestinal_Bleeding_Pages": {
+      "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_lower_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "LITFL: Sengstaken-Blackmore and Minnesota Tubes\nEMCRIT: Blakemore Tube Placement for Massive Upper GI Hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

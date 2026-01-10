@@ -1,0 +1,587 @@
+{
+  "drug_name": "Bell%27s_palsy",
+  "url": "https://wikem.org/wiki/Bell%27s_palsy",
+  "scraped_at": "2026-01-10T07:48:41.151326",
+  "sections": {
+    "Background": {
+      "text": "Dysfunction of peripheral\ncranial nerve\nVII of unknown cause due to Inflammation at geniculate ganglion\n[1]\nThought that may be associated with\nherpes simplex virus\nMaximal clinical weakness around 3 weeks; at least partial recovery by 6 months\nAlways test CN VI function (should be normal) to rule-out\nCVA\nBilateral Bell's palsy associated with\nLyme disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cranial nerve",
+          "url": "https://wikem.org/wiki/Cranial_nerve"
+        },
+        {
+          "text": "herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Acute onset (over hours) of unilateral\nfacial paralysis\nNo forehead sparing\nInability to raise eyebrow on affected side\nDrooping of angle of the mouth\nIncomplete closure of the eyelids on the affected side\nCan lead to corneal exposure keratitis",
+      "subsections": {
+        "Associated_Symptoms": {
+          "text": "Alterations in taste\nHyperacusis\nInability to produce tears\nSubjective feeling of facial numbness without objective findings\nRetroauricular pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        }
+      ]
+    },
+    "Associated_Symptoms": {
+      "text": "Alterations in taste\nHyperacusis\nInability to produce tears\nSubjective feeling of facial numbness without objective findings\nRetroauricular pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_paralysis": {
+          "text": "Bell's palsy\nCVA\nTrigeminal neuralgia\nTick paralysis\nLyme disease\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nCNS tumor\nAcoustic neuroma or other cerebellopontine angle lesions\nMeningioma\nCerebellar pontine angle\nFacial nerve schwannoma\nParotid\nSarcoma\nAnesthesia nerve blocks\nCerebral Aneurysms (vertebral, basilar, or carotid)",
+          "tables": []
+        },
+        "Others": {
+          "text": "Amyloidosis\nBotulism\nGuillain-Barré Syndrome\n(bilateral palsy)\nHIV\nIntracranial Hemorrhage\nMalignant Otitis Externa\nMeningitis\nNeurosyphilis\nOtitis Media\n(acute or chronic)\nParotitis\nSarcoidosis\nSjögren Syndrome\nEclampsia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Guillain-Barré Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barr%C3%A9_Syndrome"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "Malignant Otitis Externa",
+          "url": "https://wikem.org/wiki/Malignant_Otitis_Externa"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Facial_paralysis": {
+      "text": "Bell's palsy\nCVA\nTrigeminal neuralgia\nTick paralysis\nLyme disease\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nCNS tumor\nAcoustic neuroma or other cerebellopontine angle lesions\nMeningioma\nCerebellar pontine angle\nFacial nerve schwannoma\nParotid\nSarcoma\nAnesthesia nerve blocks\nCerebral Aneurysms (vertebral, basilar, or carotid)",
+      "subsections": {
+        "Others": {
+          "text": "Amyloidosis\nBotulism\nGuillain-Barré Syndrome\n(bilateral palsy)\nHIV\nIntracranial Hemorrhage\nMalignant Otitis Externa\nMeningitis\nNeurosyphilis\nOtitis Media\n(acute or chronic)\nParotitis\nSarcoidosis\nSjögren Syndrome\nEclampsia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Guillain-Barré Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barr%C3%A9_Syndrome"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "Malignant Otitis Externa",
+          "url": "https://wikem.org/wiki/Malignant_Otitis_Externa"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Others": {
+      "text": "Amyloidosis\nBotulism\nGuillain-Barré Syndrome\n(bilateral palsy)\nHIV\nIntracranial Hemorrhage\nMalignant Otitis Externa\nMeningitis\nNeurosyphilis\nOtitis Media\n(acute or chronic)\nParotitis\nSarcoidosis\nSjögren Syndrome\nEclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Guillain-Barré Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barr%C3%A9_Syndrome"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "Malignant Otitis Externa",
+          "url": "https://wikem.org/wiki/Malignant_Otitis_Externa"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Clinicians should NOT obtain routine laboratory testing or diagnostic imaging in patients with new-onset Bell's palsy (\nLevel C\n)\n[2]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis\nMust performed detail ear exam to rule out\near infection\nand\nRamsay Hunt Syndrome\nFacial weakness progressing to paralysis over weeks to months, progressive twitching or facial spasm suggests a neoplasm affecting the facial nerve\nIf facial paralysis + pulsatile tinnitus and hearing loss, suspect a glomus tumor or cerebellar pontine angle tumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "ear infection",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Ramsay Hunt Syndrome",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Clinicians should NOT obtain routine laboratory testing or diagnostic imaging in patients with new-onset Bell's palsy (\nLevel C\n)\n[2]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis\nMust performed detail ear exam to rule out\near infection\nand\nRamsay Hunt Syndrome\nFacial weakness progressing to paralysis over weeks to months, progressive twitching or facial spasm suggests a neoplasm affecting the facial nerve\nIf facial paralysis + pulsatile tinnitus and hearing loss, suspect a glomus tumor or cerebellar pontine angle tumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "ear infection",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Ramsay Hunt Syndrome",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis\nMust performed detail ear exam to rule out\near infection\nand\nRamsay Hunt Syndrome\nFacial weakness progressing to paralysis over weeks to months, progressive twitching or facial spasm suggests a neoplasm affecting the facial nerve\nIf facial paralysis + pulsatile tinnitus and hearing loss, suspect a glomus tumor or cerebellar pontine angle tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ear infection",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Ramsay Hunt Syndrome",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Eye_Protection": {
+          "text": "Cornea eye protection (\nLevel X\n)\n[2]\nArtificial tears qhr while patient is awake\nOphthalmic ointment at night\nEye should be taped shut at night\nProtective glasses or goggles",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be started within 72hrs of symptom onset\n[3]\nPrednisone\n60-80mg qday x1wk\n[4]\n(\nLevel B Evidence\n)\n[5]",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Most likely no added benefit when combined with steroids.\n[6]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[5]\nValacyclovir\n1000mg TID x1 week\n[4]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level X",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Level B Evidence",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Eye_Protection": {
+      "text": "Cornea eye protection (\nLevel X\n)\n[2]\nArtificial tears qhr while patient is awake\nOphthalmic ointment at night\nEye should be taped shut at night\nProtective glasses or goggles",
+      "subsections": {
+        "Steroids": {
+          "text": "Should be started within 72hrs of symptom onset\n[3]\nPrednisone\n60-80mg qday x1wk\n[4]\n(\nLevel B Evidence\n)\n[5]",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Most likely no added benefit when combined with steroids.\n[6]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[5]\nValacyclovir\n1000mg TID x1 week\n[4]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level X",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Level B Evidence",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Should be started within 72hrs of symptom onset\n[3]\nPrednisone\n60-80mg qday x1wk\n[4]\n(\nLevel B Evidence\n)\n[5]",
+      "subsections": {
+        "Antivirals": {
+          "text": "Most likely no added benefit when combined with steroids.\n[6]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[5]\nValacyclovir\n1000mg TID x1 week\n[4]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Level B Evidence",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Most likely no added benefit when combined with steroids.\n[6]\nHowever also little harm associated with antivirals especially in patients with normal renal function\n[5]\nValacyclovir\n1000mg TID x1 week\n[4]\nOR\nAcyclovir\n400mg 5x per day x1 week",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Consider empiric\ndoxycycline\nif high index of suspicion for\nLyme\nbased on clinical presentation or lab data",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with ophtho follow up for monitoring of the affected cornea\nRefer to a facial nerve specialist for:\n[2]\nNew or worsening neurologic findings at any point\nOcular symptoms developing at any point\nIncomplete facial recovery 3 months after initial symptom onset",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Most patients recover completely, although some have permament disfiguring facial weakness\n[7]\n71% of untreated patients recover completely\nAn additional 13% of untreated patients achieve near-normal function (a total of 84% achieve normal or near-normal function even without treatment)\nUp to 10% of patients have a recurrence on the ipsilateral or controlateral side",
+      "subsections": {
+        "Poor_Prognostic_Indicators": {
+          "text": "Any one of the following\n[8]\nOlder age\nHypertension\nImpairment of taste\nPain other than in the ear\nComplete facial weakness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Poor_Prognostic_Indicators": {
+      "text": "Any one of the following\n[8]\nOlder age\nHypertension\nImpairment of taste\nPain other than in the ear\nComplete facial weakness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CVA\nFacial paralysis\nCranial nerve abnormalities\nLyme disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Cranial nerve abnormalities",
+          "url": "https://wikem.org/wiki/Cranial_nerve_abnormalities"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        }
+      ]
+    }
+  }
+}

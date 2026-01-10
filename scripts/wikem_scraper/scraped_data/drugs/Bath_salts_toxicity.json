@@ -1,0 +1,550 @@
+{
+  "drug_name": "Bath_salts_toxicity",
+  "url": "https://wikem.org/wiki/Bath_salts_toxicity",
+  "scraped_at": "2026-01-10T07:48:38.332358",
+  "sections": {
+    "Background": {
+      "text": "Found in herbal products sold under guise of \"not for human consumption\"\nMay be found under brand name Aura, Ivory wave, Vanilla sky\nActive ingredients vary; often contain methylenedioxyprovalerone (MDPV) or mephedrone\nSimilar effects to\nEcstasy (MDMA)\n,\ncocaine\n,\nmethamphetamines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "methamphetamines",
+          "url": "https://wikem.org/wiki/Methamphetamines"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sympathomimetic toxidrome\nTachycardia\nHypertension\nAgitation\nParanoia\nHyperthermia\nHallucinations\nPsychomotor agitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic toxidrome",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        },
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Sympathomimetics": {
+      "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+      "subsections": {
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Drugs_of_abuse": {
+      "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Fingerstick glucose\nComplete metabolic panel\nCoags\nCK\nUrine tox screen not helpful, usually negative",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is based on history and physical exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Fingerstick glucose\nComplete metabolic panel\nCoags\nCK\nUrine tox screen not helpful, usually negative",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is based on history and physical exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is based on history and physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Benzodiazepines\nfor agitation\nRapid cooling for hyperthermia\nParalyze if hyperthermia uncontrolled (avoid\nSuccinylcholine\ndue to hyperkalemia)\nIV hydration\nMonitor urine output",
+      "subsections": {
+        "Contra-indicated": {
+          "text": "Do not use butyrophenones (e.g.\nHaldol\n) or second gen antipsychotic (e.g.\nGeodon\n) as first line agents\nThey interfere with heat dissipation, lower seizure threshold, may prolong QTc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "Haldol",
+          "url": "https://wikem.org/wiki/Haldol"
+        },
+        {
+          "text": "Geodon",
+          "url": "https://wikem.org/wiki/Geodon"
+        }
+      ]
+    },
+    "Contra-indicated": {
+      "text": "Do not use butyrophenones (e.g.\nHaldol\n) or second gen antipsychotic (e.g.\nGeodon\n) as first line agents\nThey interfere with heat dissipation, lower seizure threshold, may prolong QTc",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Haldol",
+          "url": "https://wikem.org/wiki/Haldol"
+        },
+        {
+          "text": "Geodon",
+          "url": "https://wikem.org/wiki/Geodon"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Admit for lab abnormalities or persistent\nAMS",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Discharge after observation period if\nAMS\nand\nsympathomimetic\nsymptoms resolve with out end-organ damage\nMDPV has an estimated 6-8 hour duration of action, but may vary. Consider consult with poison control prior to discharge.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        },
+        {
+          "text": "sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        }
+      ]
+    },
+    "Admission": {
+      "text": "Admit for lab abnormalities or persistent\nAMS",
+      "subsections": {
+        "Discharge": {
+          "text": "Discharge after observation period if\nAMS\nand\nsympathomimetic\nsymptoms resolve with out end-organ damage\nMDPV has an estimated 6-8 hour duration of action, but may vary. Consider consult with poison control prior to discharge.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        },
+        {
+          "text": "sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Discharge after observation period if\nAMS\nand\nsympathomimetic\nsymptoms resolve with out end-organ damage\nMDPV has an estimated 6-8 hour duration of action, but may vary. Consider consult with poison control prior to discharge.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        },
+        {
+          "text": "sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Rhabdomyolysis\nCardiomyopathy\nValvular heart disease\nCardiac arrhythmias\nPulmonary hypertension\nAortic dissection\nAcute tubular necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sympathomimetic toxicity\nAltered Mental Status (AMS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Altered Mental Status (AMS)",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status_(AMS)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Bath Salts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "drug_name": "Bandemia",
+  "url": "https://wikem.org/wiki/Bandemia",
+  "scraped_at": "2026-01-10T07:48:34.828876",
+  "sections": {
+    "Background": {
+      "text": "Bandemia (also referred to as a \"left shift\") refers to an excess of immature neutrophil precursor cells (band cells)\nThe origin of the phrase \"left shift,\" is commonly thought to stem from the left-most button arrangement of early cell sorting machines\nA left shift refers SPECIFICALLY to increase bands and not increased neutrophils, which can increase in the setting of seizure, MI, pain or any stress response.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "There are no clinical features specific to bandemia\nGenerally defined as >6% band cells on a CBC with differential",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Bandemia typically indicates a serious underlying inflammatory or infectious process\nsepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Complete history and physical\nLook for any source of infection\nConsider decubitus ulcers\nConsider GU sources in women and young uncircumcised boys\nConsider pulmonary source\nConsider GI source including gallbladder",
+      "subsections": {
+        "Workup": {
+          "text": "Blood cultures, CBC, CMP, UA, viral swabs, CXR if respiratory symptoms\nComplete physical exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Blood cultures, CBC, CMP, UA, viral swabs, CXR if respiratory symptoms\nComplete physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

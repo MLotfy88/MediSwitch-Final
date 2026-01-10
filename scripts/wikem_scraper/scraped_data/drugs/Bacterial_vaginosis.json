@@ -1,0 +1,289 @@
+{
+  "drug_name": "Bacterial_vaginosis",
+  "url": "https://wikem.org/wiki/Bacterial_vaginosis",
+  "scraped_at": "2026-01-10T07:48:32.229612",
+  "sections": {
+    "Background": {
+      "text": "Is a vaginal dysbiosis resulting from replacement of the normally dominant\nLactobacillus\nspecies in the vagina, with high concentrations of\nanaerobic bacteria\n.\nIs\nnot\nan infection, nor is it sexually transmitted, although it is associated with sexual activity.\nAccounts for up to 50% of cases of\nvaginitis\nAssociated with\npreterm labor\nand premature rupture of membranes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaerobic bacteria",
+          "url": "https://wikem.org/wiki/Anaerobic_bacteria"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Whitish-gray\nvaginal discharge\nand odor\nLack of discharge makes diagnosis less likely\nMay have history of \"physiologic whiff test\" after contact with male ejaculate which is alkaline (like KOH)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Vulvovaginitis": {
+      "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Wet mount shows\nclue cells\n: vaginal epithelial cells with \"stippled appearance\" due to coverage by bacteria\nWhiff Test: fishy odor with 10% KOH prep\nCDC recommends testing all women with BV for HIV and other STDs\n[1]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Amsel criteria (3/4 must be present)\nHomogeneous, thin, gray-white discharge\nPositive whiff test\nVaginal pH>4.5\nClue cells on wet mount (at least 20% of epithelial cells)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "Wet mount shows\nclue cells\n: vaginal epithelial cells with \"stippled appearance\" due to coverage by bacteria\nWhiff Test: fishy odor with 10% KOH prep\nCDC recommends testing all women with BV for HIV and other STDs\n[1]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Amsel criteria (3/4 must be present)\nHomogeneous, thin, gray-white discharge\nPositive whiff test\nVaginal pH>4.5\nClue cells on wet mount (at least 20% of epithelial cells)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Amsel criteria (3/4 must be present)\nHomogeneous, thin, gray-white discharge\nPositive whiff test\nVaginal pH>4.5\nClue cells on wet mount (at least 20% of epithelial cells)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No need to treat if asymptomatic\nIn pregnant patients, consider treating to prevent preterm birth, though evidence is conflicting\n[2]\nConsider partner treatment to reduce risk of recurrence\n[3]\nDoes\nnot\nneed a test of cure",
+      "subsections": {
+        "First_Line_Therapy": {
+          "text": "Metronidazole\n500 mg PO Twice Daily for 7 days OR\nMetronidazole\ngel 0.75%, one full applicator (5 g) intravaginally, Daily for 5 days OR\nClindamycin\ncream 2%, one full applicator (5 g) intravaginally Nightly for 7 days\nMetronidazole does not cause a disulfiram-like reaction with alcohol.\n[5]",
+          "tables": []
+        },
+        "Alternative_Regimin": {
+          "text": "Clindamycin\n300 mg PO BID for 7 days OR\nClindamycin\novules 100 mg intravaginally qHS for 3 days (do not use if patient has used latex condom in last 72 hours)\nOther regimens have been studied and have varying efficacy compared to placebo but due to cost and availability do not represent alternatives outside of absolute contraindications to preferred regimens.",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Metronidazole\n500mg PO Twice a day x 7 days\n[4]\nMetronidazole\n250mg PO Three times a day has also been studied\n[6]\n[7]\nAlthough metronidazole crosses the placenta, no evidence of teratogenicity or mutagenic effects among infants has been reported in multiple cross-sectional, case-control, and cohort studies of pregnant women\n[4]",
+          "tables": []
+        },
+        "Prophylaxis_(Sexual_Assault)": {
+          "text": "Metronidazole\n500mg PO Twice a day x 7 days\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "First_Line_Therapy": {
+          "text": "Metronidazole\n500 mg PO Twice Daily for 7 days OR\nMetronidazole\ngel 0.75%, one full applicator (5 g) intravaginally, Daily for 5 days OR\nClindamycin\ncream 2%, one full applicator (5 g) intravaginally Nightly for 7 days\nMetronidazole does not cause a disulfiram-like reaction with alcohol.\n[5]",
+          "tables": []
+        },
+        "Alternative_Regimin": {
+          "text": "Clindamycin\n300 mg PO BID for 7 days OR\nClindamycin\novules 100 mg intravaginally qHS for 3 days (do not use if patient has used latex condom in last 72 hours)\nOther regimens have been studied and have varying efficacy compared to placebo but due to cost and availability do not represent alternatives outside of absolute contraindications to preferred regimens.",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Metronidazole\n500mg PO Twice a day x 7 days\n[4]\nMetronidazole\n250mg PO Three times a day has also been studied\n[6]\n[7]\nAlthough metronidazole crosses the placenta, no evidence of teratogenicity or mutagenic effects among infants has been reported in multiple cross-sectional, case-control, and cohort studies of pregnant women\n[4]",
+          "tables": []
+        },
+        "Prophylaxis_(Sexual_Assault)": {
+          "text": "Metronidazole\n500mg PO Twice a day x 7 days\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vulvovaginitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    }
+  }
+}

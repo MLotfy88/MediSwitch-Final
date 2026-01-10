@@ -1,0 +1,475 @@
+{
+  "drug_name": "Balanoposthitis",
+  "url": "https://wikem.org/wiki/Balanoposthitis",
+  "scraped_at": "2026-01-10T07:48:33.975020",
+  "sections": {
+    "Background": {
+      "text": "Balanitis = inflammation of the glans\nPosthitis = inflammation of the foreskin\nBalanoposthitis = inflammation of both glans and foreskin\nRecurrent balanoposthitis can be sole presenting sign of\ndiabetes mellitus",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Poor hygiene\nUncircumcised\nDiabetes\nImmunodeficiency\nPhimosis",
+          "tables": []
+        },
+        "Etiology": {
+          "text": "Fungal (most common overall,\ncandida\nmost common species)\n[1]\nIrritant (soaps, lotions, lubricants)\nBacterial, which includes common skin organisms (Staph, strep) and STIs.\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "Poor hygiene\nUncircumcised\nDiabetes\nImmunodeficiency\nPhimosis",
+      "subsections": {
+        "Etiology": {
+          "text": "Fungal (most common overall,\ncandida\nmost common species)\n[1]\nIrritant (soaps, lotions, lubricants)\nBacterial, which includes common skin organisms (Staph, strep) and STIs.\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Fungal (most common overall,\ncandida\nmost common species)\n[1]\nIrritant (soaps, lotions, lubricants)\nBacterial, which includes common skin organisms (Staph, strep) and STIs.\nTrauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Glans and foreskin may be swollen, erythematous, tender, or itchy\nSevere cases may involve difficulty voiding, foul smell, and penile discharge/purulence\nErythematous papular\nrash\nwith satellite lesions = fungal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Non-Traumatic_penile_diagnoses": {
+          "text": "Phimosis\nBalanoposthitis\nParaphimosis\nPriapism\nSTDs",
+          "tables": []
+        },
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Non-Traumatic_penile_diagnoses": {
+      "text": "Phimosis\nBalanoposthitis\nParaphimosis\nPriapism\nSTDs",
+      "subsections": {
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Differential_Diagnosis_2": {
+      "text": "",
+      "subsections": {
+        "Non-Traumatic_penile_diagnoses_2": {
+          "text": "Phimosis\nBalanoposthitis\nParaphimosis\nPriapism\nSTDs",
+          "tables": []
+        },
+        "Penile_trauma_types_2": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Non-Traumatic_penile_diagnoses_2": {
+      "text": "Phimosis\nBalanoposthitis\nParaphimosis\nPriapism\nSTDs",
+      "subsections": {
+        "Penile_trauma_types_2": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types_2": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis\nConsider blood glucose measurement to evaluate for diabetes\nConsider swabbing for\nSexually transmitted diseases\nin the appropriate setting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually transmitted diseases",
+          "url": "https://wikem.org/wiki/Sexually_transmitted_diseases"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Reduce_Irritation": {
+          "text": "Sitz baths BID-TID while inflammation persists\nHygiene\nClean between foreskin and glans with Q-tip and irrigate with water until resolves\nOnce resolved regular bathing of area in water is sufficient; soap may worsen irritation",
+          "tables": []
+        },
+        "Antimicrobial": {
+          "text": "Common organisms are Candida, anaerobes, and\nGroup B Streptococcus",
+          "tables": []
+        },
+        "Antifungal": {
+          "text": "Clotrimazole\n1% applied topically to glans q12hrs until resolution\nNystatin\ncream 100,000 units/gm if infection is recurrent after clotrimazole therapy",
+          "tables": []
+        },
+        "Antibacterial": {
+          "text": "Topical triple antibiotic ointment QID or\nmupirocin\ncream BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group B Streptococcus",
+          "url": "https://wikem.org/wiki/Group_B_Streptococcus"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        }
+      ]
+    },
+    "Reduce_Irritation": {
+      "text": "Sitz baths BID-TID while inflammation persists\nHygiene\nClean between foreskin and glans with Q-tip and irrigate with water until resolves\nOnce resolved regular bathing of area in water is sufficient; soap may worsen irritation",
+      "subsections": {
+        "Antimicrobial": {
+          "text": "Common organisms are Candida, anaerobes, and\nGroup B Streptococcus",
+          "tables": []
+        },
+        "Antifungal": {
+          "text": "Clotrimazole\n1% applied topically to glans q12hrs until resolution\nNystatin\ncream 100,000 units/gm if infection is recurrent after clotrimazole therapy",
+          "tables": []
+        },
+        "Antibacterial": {
+          "text": "Topical triple antibiotic ointment QID or\nmupirocin\ncream BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group B Streptococcus",
+          "url": "https://wikem.org/wiki/Group_B_Streptococcus"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        }
+      ]
+    },
+    "Antimicrobial": {
+      "text": "Common organisms are Candida, anaerobes, and\nGroup B Streptococcus",
+      "subsections": {
+        "Antifungal": {
+          "text": "Clotrimazole\n1% applied topically to glans q12hrs until resolution\nNystatin\ncream 100,000 units/gm if infection is recurrent after clotrimazole therapy",
+          "tables": []
+        },
+        "Antibacterial": {
+          "text": "Topical triple antibiotic ointment QID or\nmupirocin\ncream BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group B Streptococcus",
+          "url": "https://wikem.org/wiki/Group_B_Streptococcus"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Paraphimosis reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paraphimosis reduction",
+          "url": "https://wikem.org/wiki/Paraphimosis_reduction"
+        }
+      ]
+    }
+  }
+}

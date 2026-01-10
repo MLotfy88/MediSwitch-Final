@@ -1,0 +1,119 @@
+{
+  "drug_name": "Barbiturates",
+  "url": "https://wikem.org/wiki/Barbiturates",
+  "scraped_at": "2026-01-10T07:48:33.033296",
+  "sections": {
+    "Background": {
+      "text": "Are\nsedative/hypnotics\nused mainly for anesthesia and epilepsy\nIncrease the duration of GABA-A channel opening (as opposed to\nbenzodiazepines\n, which increase frequency of channel opening)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sedative/hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Ultra–short-acting",
+            "Half-life (h)": "",
+            "Duration of Effect (h)": "",
+            "Hypnotic Dose (mg)": "",
+            "Minimum Toxic level (mg/L)": ""
+          },
+          {
+            "Drug": "Methohexital",
+            "Half-life (h)": "3-5",
+            "Duration of Effect (h)": "< 0.5",
+            "Hypnotic Dose (mg)": "50-120",
+            "Minimum Toxic level (mg/L)": ">5"
+          },
+          {
+            "Drug": "Thiopental",
+            "Half-life (h)": "8-10",
+            "Duration of Effect (h)": "< 0.5",
+            "Hypnotic Dose (mg)": "50-75",
+            "Minimum Toxic level (mg/L)": ">5"
+          },
+          {
+            "Drug": "Short-acting",
+            "Half-life (h)": "",
+            "Duration of Effect (h)": "",
+            "Hypnotic Dose (mg)": "",
+            "Minimum Toxic level (mg/L)": ""
+          },
+          {
+            "Drug": "Secobarbital",
+            "Half-life (h)": "15-40",
+            "Duration of Effect (h)": ">3-4",
+            "Hypnotic Dose (mg)": "100-200",
+            "Minimum Toxic level (mg/L)": ">10"
+          },
+          {
+            "Drug": "Intermediate-acting",
+            "Half-life (h)": "",
+            "Duration of Effect (h)": "",
+            "Hypnotic Dose (mg)": "",
+            "Minimum Toxic level (mg/L)": ""
+          },
+          {
+            "Drug": "Amobarbital",
+            "Half-life (h)": "10-40",
+            "Duration of Effect (h)": ">4-6",
+            "Hypnotic Dose (mg)": "65-200",
+            "Minimum Toxic level (mg/L)": ">10"
+          },
+          {
+            "Drug": "Butabarbital",
+            "Half-life (h)": "35-50",
+            "Duration of Effect (h)": ">4-6",
+            "Hypnotic Dose (mg)": "100-200",
+            "Minimum Toxic level (mg/L)": ">10"
+          },
+          {
+            "Drug": "Long-acting",
+            "Half-life (h)": "",
+            "Duration of Effect (h)": "",
+            "Hypnotic Dose (mg)": "",
+            "Minimum Toxic level (mg/L)": ""
+          },
+          {
+            "Drug": "Mephobarbital",
+            "Half-life (h)": "10-70",
+            "Duration of Effect (h)": ">6-12",
+            "Hypnotic Dose (mg)": "50-100",
+            "Minimum Toxic level (mg/L)": ">30"
+          },
+          {
+            "Drug": "Phenobarbital",
+            "Half-life (h)": "80-120",
+            "Duration of Effect (h)": ">6-12",
+            "Hypnotic Dose (mg)": "100-320",
+            "Minimum Toxic level (mg/L)": ">30"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Barbituate toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Barbituate toxicity",
+          "url": "https://wikem.org/wiki/Barbituate_toxicity"
+        }
+      ]
+    }
+  }
+}

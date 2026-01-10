@@ -1,0 +1,94 @@
+{
+  "drug_name": "Balantidium_coli",
+  "url": "https://wikem.org/wiki/Balantidium_coli",
+  "scraped_at": "2026-01-10T07:48:31.177622",
+  "sections": {
+    "Background": {
+      "text": "Infection of large intestine by parasite,\nBalantidium coli\nLarge, ciliated protozoan\nSimple life cycle: dormant cyst to trophozoite to cyst\nReservoir host is pig (asymptomatic)\nPig sheds feces with cysts => contaminated water and food => ingested by humans => parasite resides in large intestine\nParasite usually resides in lumen of intestine but can also penetrate mucosa\nOpportunistic infection\nHuman-to-human transmission via fecal-oral route as well\nWorldwide prevalence 0.02-1%\n[1]\nand found wherever pigs are found\nRisk factors:\nClose contact between human and pigs\nLack of appropriate waste disposal that can contaminate drinking water sources\nSubtropical/tropical climates (warmth and humidity favor survival of cyst)\nCompromised immune system, elderly, malnourished, alcoholics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Range of mild to severe disease\nAsymptomatic hosts (usually immunocompetent)\nChronic infection: non-bloody diarrhea, cramping, abdominal pain\nFulminant balantidiasis: mucoid, bloody stools\nRarely, colonic perforation\nExtra-intestinal cases are rare\nRarely infecting lungs causing pneumonia or pulmonary hemorrhage\nMostly seen in elderly or immunocompromised\nDeath is rare",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Entamoeba histolytica\nShigella\nSalmonella\nCampylobacter\nE. coli\nIBD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Stool samples over several days (excretion of parasites can be erratic)\nWet mount slide preparation: large 150-200um ovoid shape with cilia, swimming aimlessly in circles\nIf suspect infection of pulmonary system, perform BAL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Metronidazole\nOR\nAdults: 500-750mg tid x 5 days\nPeds: 35-50mg/kg/day in 3 doses x 5 days (max: 2g/day)\nTetracycline\nOR\nAdult: 500mg QID x 10 days\nPeds (>8yo): 40mg/kg/day in 4 doses x 10 days (max: 2g/day)\nIodoquinol\nAdults: 650mg tid x 20 days\nPeds: 30-40mg/kg/day in 3 doses x 20 days (max: 2g/day)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge in well-hydrated patient with uncomplicated disease\nAdmit if needing fluid hydration, fulminant balantidiasis, or any complication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC - Parasites - Balantidiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
