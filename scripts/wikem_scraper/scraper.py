@@ -404,14 +404,15 @@ class WikEMScraper:
         logger.info(f"✓ Saved: {file_path}")
     
     def git_commit(self, message: str):
-        """Auto-commit to git"""
+        """Auto-commit and push to git"""
         try:
             subprocess.run(['git', 'add', str(DATA_DIR)], check=True, cwd='.')
             subprocess.run(['git', 'add', str(CHECKPOINT_FILE)], check=True, cwd='.')
             subprocess.run(['git', 'commit', '-m', message], check=True, cwd='.')
-            logger.info(f"✓ Git commit: {message}")
+            subprocess.run(['git', 'push'], check=True, cwd='.')  # Real-time push
+            logger.info(f"✓ Git commit & push: {message}")
         except subprocess.CalledProcessError as e:
-            logger.warning(f"Git commit failed: {e}")
+            logger.warning(f"Git commit/push failed: {e}")
     
     def run(self, drug_list: List[str]):
         """Main scraping loop with resume support"""
