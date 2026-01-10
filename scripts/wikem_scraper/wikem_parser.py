@@ -96,27 +96,17 @@ def process_file(json_path, med_id):
     json_str = json.dumps(data)
     compressed_blob = zlib.compress(json_str.encode('utf-8'))
 
-    # 2. Parse Sections
+    # Parse Sections
     parsed_guidelines = []
     
     sections = data.get("sections", {})
     
     # Target specific sections likely to have dosage
-    target_keywords = ["dosage", "treatment", "management", "administration", "pediatric"]
+    target_keywords = ["dosage", "dosing", "treatment", "management", "administration", "pediatric"]
     
-    relevant_sections = []
-    # Intro
-    if "Intro" in sections:
-        relevant_sections.append(("Intro", sections["Intro"]))
-    
-    # Other sections
-    for title, content in sections.items():
-        if any(kw in title.lower() for kw in target_keywords):
-           relevant_sections.append((title, content))
-
-    for title, content in relevant_sections:
-        # Check text content
-        if "text" in content:
+    def process_section(title, content):
+        # 1. Look in the main text of this section
+        if "text" in content and content["text"]:
             lines = content["text"].split('\n')
             for line in lines:
                 if DOSE_PATTERN.search(line):
@@ -124,8 +114,19 @@ def process_file(json_path, med_id):
                     guideline["source_section"] = title
                     parsed_guidelines.append(guideline)
         
-        # Check tables (Often contain strict dosage rows)
-        # (Table parsing is complex, skipping for MVP v1 unless requested)
+        # 2. Recursively look into subsections
+        subsections = content.get("subsections", {})
+        for sub_title, sub_content in subsections.items():
+            process_section(f"{title} > {sub_title}", sub_content)
+
+    # Intro
+    if "Intro" in sections:
+        process_section("Intro", sections["Intro"])
+    
+    # Process all sections that match keywords
+    for title, content in sections.items():
+        if any(kw in title.lower() for kw in target_keywords):
+           process_section(title, content)
 
     return parsed_guidelines, compressed_blob
 
