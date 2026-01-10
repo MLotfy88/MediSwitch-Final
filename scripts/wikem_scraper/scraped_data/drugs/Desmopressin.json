@@ -1,0 +1,124 @@
+{
+  "drug_name": "Desmopressin",
+  "url": "https://wikem.org/wiki/Desmopressin",
+  "scraped_at": "2026-01-10T03:13:04.757312",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Diabetes_Insipidus": {
+          "text": "Intranasal: 10-40 mcg/day qday or divided q8-12 hr\nPO:\nInitial: 0.05mg q 12 hr\nEffective range: 0.1-1.2mg divided q 8-12 hr\nIV/SC: 2-4 mcg/day divided q12 hr or 1/10th the maintenance of intranasal dose",
+          "tables": []
+        },
+        "Hemophilia_A_&_Von_Willebrand_Disease": {
+          "text": "IV: 0.3 mcg/kg IV over 15-30 minutes IV (for pre-op 30 min before procedure)\nintranasal:\n<50 kg: 150 mcg; for pre-op, give 2 hr before procedure\n>50 kg: 300 mcg; for pre-op, give 2 hr before procedure",
+          "tables": []
+        },
+        "Nocturnal_Enuresis": {
+          "text": "0.2mgPO qHS (up to 0.6mg/day)",
+          "tables": []
+        },
+        "Uremic_Bleeding_in_Acute_or_Chronic_Renal_Failure": {
+          "text": "0.4 mcg/kg IV over 10 minutes",
+          "tables": []
+        },
+        "DDAVP_Clamp": {
+          "text": "Eliminate unpredictable excretion of water from kidneys by stimulating V2-vasopressin receptors in the kidney, causing renal retention of water\n2 mcg IV q8h\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "3_months_to_12_years_(intranasal)": {
+          "text": "5-30 mcg/day qday or divided q12 hr (using 100 mcg/mL solution)",
+          "tables": []
+        },
+        ">12_years_(intranasal)": {
+          "text": "10-40mcg/day qday or divided q12 hr (using 100 mcg/mL solution)",
+          "tables": []
+        },
+        "3_months_to_12_years_(oral)": {
+          "text": "Initial: 0.05mg q 12 hr\nEffective range: 0.1-1.2mg",
+          "tables": []
+        },
+        ">12_years_(oral)": {
+          "text": "Initial 0.05mg PO q 12 hr\nEffective range: 0.1-1.2mg divided q8-12 hr",
+          "tables": []
+        },
+        "3_months_to_12_years_(IV/SC)": {
+          "text": "0.1-1 mcg qday or divded q12 hr",
+          "tables": []
+        },
+        ">12_years_(IV/SC)": {
+          "text": "2-4 mcg/day divided q 12 hr or one tenth the maintenance of intranasal dose",
+          "tables": []
+        },
+        "Nocturnal_Enuresis_2": {
+          "text": ">6 years: 0.2mg PO qHS; up to 0.6mg/day",
+          "tables": []
+        },
+        "Hemophilia_A_&_Von_Willebrand_Disease_2": {
+          "text": "0.3 mcg/kg IV over 15-30 minutes; for pre-op, give 30 minutes before procedure\n1 spray (150 mcg) per nostril (300 mcg total dose) if >12 years of age or >50 kg body weight\nadminister single spray (150 mcg) if patient >12 years of age but <50 kg body weight\n(Fluid intake should be limited 1 hr prior to dose until the next morning or at least 8 hr after administration)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:Pregnancy Category B\nLactation risk\n: minimally excreted in breast milk, acceptable to use",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl <50 mL/min: Contraindicated; has been used unlabeled in acute and chronic renal failure patients experiencing uremic bleeding or prevention of surgical bleeding, limit to 1 dose\nCrCl ≥50 mL/min: No adjustments necessary",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\npatients <3 months (hemophilia A or von Willebrand disease patients)\nCrCl <50\nvon Willebrand disease, type IIB\nhyponatremia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anaphylaxis\nrespiratory arrest\nhyponatremia\nwater intoxication\nseizures\nthrombosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "flushing\nheadache\nrhinitis\nnausea\nabdominal pain\ndizziness\ncough\nepistaxis\nrigors\nconjunctivitis\nhypertension\nhypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.5 -2.5 hr (oral); 3 hr (IV)\nMetabolism: kidney; CYP 450\nExcretion: urine primarily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

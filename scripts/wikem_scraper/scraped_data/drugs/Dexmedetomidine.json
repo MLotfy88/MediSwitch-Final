@@ -1,0 +1,92 @@
+{
+  "drug_name": "Dexmedetomidine",
+  "url": "https://wikem.org/wiki/Dexmedetomidine",
+  "scraped_at": "2026-01-10T03:13:20.779271",
+  "sections": {
+    "General": {
+      "text": "Type:\nAlpha-2 agonists\n;\nSedative agents\nDosage Forms:IV\nCommon Trade Names: Precedex (US), Dexdor (European)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alpha-2 agonists",
+          "url": "https://wikem.org/wiki/Alpha-2_agonists"
+        },
+        {
+          "text": "Sedative agents",
+          "url": "https://wikem.org/wiki/Sedative_agents"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "ICU_Sedation": {
+          "text": "1 mcg/kg over 10 minutes\nFollowed by 0.2 to 0.7 mcg/kg/hr",
+          "tables": []
+        },
+        "Procedural_Sedation": {
+          "text": "1 mcg/kg over 10 minutes\nFollowed by 0.6 mcg/hr titrated to effect (generally 0.2 to 1 mcg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Post-Intubation_Sedation": {
+          "text": "Do not bolus\nStart at 0.2-0.4 mcg/kg/hour and titrate to a max of 1.4 mcg/kg/hour\nRecommended to start at 0.4 mcg/kg/hour for agitated patients\nMake changes every 15-20 minutes if not desired affect or sooner if patient is agitated\nMay use with spot does of other medications like fentanyl and versed.\nIf on fentanyl or versed drip already should be able to titrate the dose down.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Unknown if excreted in milk. Exercise caution\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\nBradycardia\nApnea",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nBradycardia\nDry mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2 hours\nMetabolism: Hepatic\nExcretion: Renal\nMechanism of Action: Selective α-2 agonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Provides analgesia and anesthesia\nHemodynamically neutral medication\nProvides sedation with maintenance of arousability, airway protection\nPreserves sleep architecture and decreases incidence of ICU delirium\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

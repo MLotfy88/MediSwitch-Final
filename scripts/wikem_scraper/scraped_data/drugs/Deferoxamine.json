@@ -1,0 +1,100 @@
+{
+  "drug_name": "Deferoxamine",
+  "url": "https://wikem.org/wiki/Deferoxamine",
+  "scraped_at": "2026-01-10T03:13:01.145707",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntidote\nDosage Forms:\nRoutes of Administration: IV, IM\nCommon Trade Names: Desferal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Iron_toxicity": {
+          "text": "1000mg IV; start at 5mg/kg/hr, increase up to 15mg/kg/hr as tolerated for up to 24hrs\nSubsequent doses are 500mg increments guided by clinical status of patient / urine color\nRecommended amount during first 24hr is 360mg/kg not to exceed 6g.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Iron_toxicity_2": {
+          "text": "15 mg/kg/h IV\nProlonged use >24-48 hours may increase risk of ARDS\n100mg deferoxamine chelates 9mg free iron",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation risk\n:\nRenal Dosing\nAdult: Contraindicated in severe impairment or anuria.\nPediatric: Contraindicated in severe impairment or anuria\nHepatic Dosing\nAdult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRenal failure patients not on hemodialysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Hypotension\n(pre-existing hypotension is NOT a contraindication to therapy)\nARDS\nYersinia enterocolitica\nsepsis\n[1]\nCan see \"vin rose\" colored urine from chelated iron extretion\nCataracts\nwith long term use\nAngioedema\nFlushing, urticaria, fever, myalgia, nausea, vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Cataracts",
+          "url": "https://wikem.org/wiki/Cataracts"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6h\nMetabolism: Plasma\nExcretion: Urine, bile/feces\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Chelates iron and creates a water-soluble compound ferrioxamine that is renally excreted and can be dialyzed.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

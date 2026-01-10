@@ -1,0 +1,94 @@
+{
+  "drug_name": "Dexamethasone",
+  "url": "https://wikem.org/wiki/Dexamethasone",
+  "scraped_at": "2026-01-10T03:13:14.169979",
+  "sections": {
+    "General": {
+      "text": "Type:\nCorticosteroid\nDosage Forms: PO; IM; IV, ophthalmic\nCommon Trade Names: Decadron",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis": {
+          "text": "10mg IV or PO",
+          "tables": []
+        },
+        "COVID": {
+          "text": "6mg Qday for 10 days\nDexamethasone improves 28d mortality compared to placebo in patients requiring IMV (NNT = 8.5) and those patients requiring oxygen therapy (NNT = 29).\nThere was no benefit to patients not requiring oxygenation support and potentially harm",
+          "tables": []
+        },
+        "Nausea_and_Vomiting": {
+          "text": "5mg IV\n[1]",
+          "tables": []
+        },
+        "Pharyngitis": {
+          "text": "Single 10mg PO dose decreases symptoms at 48 hours, but not 24 hours\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis_2": {
+          "text": "0.6 mg/kg\nMaximum dose of 10-18 mg/dose, variable by study",
+          "tables": []
+        },
+        "Asthma_Exacerbation": {
+          "text": "0.6 mg/kg once PO\nMaximum dose of 10-18 mg/dose, variable by study",
+          "tables": []
+        },
+        "Post-operative_Airway_Edema": {
+          "text": "0.5 mg/kg PO q6hrs x1-2 days\nMaximum dose of 10-18 mg/dose, variable by study",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Single doses are considered compatible however corticosteroids are present in breast milk and further discussion should be had with mother due to potential serious adverse reactions in breastfed infant.\nRenal Dosing\nAdult\nNot defined\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "There is some evidence to suggest small increases in the risk of sepsis, venous thromboembolism, and fractures in short courses of steroid use\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nAdults: Oral 4 ± 0.9 hours, IV 1 - 5 hours\nMetabolism: Hepatic\nExcretion: Urine ~10%\nMechanism of Action: surpasses neutrophil migration, decreases production of inflammatory mediators, reverses increased capillary permeability, suppresses normal immune response",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
