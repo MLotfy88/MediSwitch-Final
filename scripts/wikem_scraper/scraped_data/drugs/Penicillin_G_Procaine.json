@@ -1,0 +1,256 @@
+{
+  "drug_name": "Penicillin_G_Procaine",
+  "url": "https://wikem.org/wiki/Penicillin_G_Procaine",
+  "scraped_at": "2026-01-10T07:59:33.250643",
+  "sections": {
+    "General": {
+      "text": "Type: Natural\nPenicillin\nRoutes of Administration: IM\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anthrax": {
+          "text": "Inhalational (Postexposure Prophylaxis)\n1,200,000 units IM q12 hours x 60 days (see below)\nInfo: Total treatment duration = 60 days. Do not give IM for over 2 weeks, switching alternative treatment to complete course\nCutaneous, Nonsevere (Treatment)\n600,000-1,200,000 units/day IM",
+          "tables": []
+        },
+        "Endocarditis_by_susceptible_Streptococcus_viridans": {
+          "text": "1.2 million units IM q6 hours x 2-4 weeks +\naminoglycoside",
+          "tables": []
+        },
+        "Neurosyphilis": {
+          "text": "2.4 million units/day IM + 500mg probenecid PO QID x 10-14 days\nInfo:\nPenicillin G\naqueous I.V. is preferred",
+          "tables": []
+        },
+        "Whipple's_Disease": {
+          "text": "1.2 million units/day + streptomycin x 10-14 days\nFollowed by\ntrimethoprim/sulfamethoxazole\nor doxycycline x 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "trimethoprim/sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/sulfamethoxazole"
+        }
+      ]
+    },
+    "Anthrax": {
+      "text": "Inhalational (Postexposure Prophylaxis)\n1,200,000 units IM q12 hours x 60 days (see below)\nInfo: Total treatment duration = 60 days. Do not give IM for over 2 weeks, switching alternative treatment to complete course\nCutaneous, Nonsevere (Treatment)\n600,000-1,200,000 units/day IM",
+      "subsections": {
+        "Endocarditis_by_susceptible_Streptococcus_viridans": {
+          "text": "1.2 million units IM q6 hours x 2-4 weeks +\naminoglycoside",
+          "tables": []
+        },
+        "Neurosyphilis": {
+          "text": "2.4 million units/day IM + 500mg probenecid PO QID x 10-14 days\nInfo:\nPenicillin G\naqueous I.V. is preferred",
+          "tables": []
+        },
+        "Whipple's_Disease": {
+          "text": "1.2 million units/day + streptomycin x 10-14 days\nFollowed by\ntrimethoprim/sulfamethoxazole\nor doxycycline x 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "trimethoprim/sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/sulfamethoxazole"
+        }
+      ]
+    },
+    "Endocarditis_by_susceptible_Streptococcus_viridans": {
+      "text": "1.2 million units IM q6 hours x 2-4 weeks +\naminoglycoside",
+      "subsections": {
+        "Neurosyphilis": {
+          "text": "2.4 million units/day IM + 500mg probenecid PO QID x 10-14 days\nInfo:\nPenicillin G\naqueous I.V. is preferred",
+          "tables": []
+        },
+        "Whipple's_Disease": {
+          "text": "1.2 million units/day + streptomycin x 10-14 days\nFollowed by\ntrimethoprim/sulfamethoxazole\nor doxycycline x 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "trimethoprim/sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/sulfamethoxazole"
+        }
+      ]
+    },
+    "Neurosyphilis": {
+      "text": "2.4 million units/day IM + 500mg probenecid PO QID x 10-14 days\nInfo:\nPenicillin G\naqueous I.V. is preferred",
+      "subsections": {
+        "Whipple's_Disease": {
+          "text": "1.2 million units/day + streptomycin x 10-14 days\nFollowed by\ntrimethoprim/sulfamethoxazole\nor doxycycline x 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "trimethoprim/sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/sulfamethoxazole"
+        }
+      ]
+    },
+    "Whipple's_Disease": {
+      "text": "1.2 million units/day + streptomycin x 10-14 days\nFollowed by\ntrimethoprim/sulfamethoxazole\nor doxycycline x 1 year",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "trimethoprim/sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/sulfamethoxazole"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Avoid use in neonates: increased risk of sterile abscesses and procaine reactions",
+      "subsections": {
+        "General_2": {
+          "text": "25,000-50,000 units/kg/day divided 1-2 times/day\nFirst Dose: 25,000-50,000 units/kg x 1\nMax: 4.8 million units/day",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "Inhalational (postexposure prophylaxis)\n25,000 units/kg IM q12 hours\nMax: 1,200,000 units q12 hours\nInfo: Total treatment duration = 60 days. Do not give IM for over 2 weeks, switching alternative treatment to complete course",
+          "tables": []
+        },
+        "Syphilis_(Congenital)": {
+          "text": "50,000 units/kg/day IM daily x 10 days\nIf >1 day of therapy is missed, restart entire course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "25,000-50,000 units/kg/day divided 1-2 times/day\nFirst Dose: 25,000-50,000 units/kg x 1\nMax: 4.8 million units/day",
+      "subsections": {
+        "Anthrax_2": {
+          "text": "Inhalational (postexposure prophylaxis)\n25,000 units/kg IM q12 hours\nMax: 1,200,000 units q12 hours\nInfo: Total treatment duration = 60 days. Do not give IM for over 2 weeks, switching alternative treatment to complete course",
+          "tables": []
+        },
+        "Syphilis_(Congenital)": {
+          "text": "50,000 units/kg/day IM daily x 10 days\nIf >1 day of therapy is missed, restart entire course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anthrax_2": {
+      "text": "Inhalational (postexposure prophylaxis)\n25,000 units/kg IM q12 hours\nMax: 1,200,000 units q12 hours\nInfo: Total treatment duration = 60 days. Do not give IM for over 2 weeks, switching alternative treatment to complete course",
+      "subsections": {
+        "Syphilis_(Congenital)": {
+          "text": "50,000 units/kg/day IM daily x 10 days\nIf >1 day of therapy is missed, restart entire course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Category\n: B\nLactation: Use caution\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Category",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAvoid use in neonates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Procaine reactions: Immediate toxic reactions, particularly when a large single dose is administered (4.8 million units); mental disturbances including anxiety, confusion, agitation, depression, weakness, seizures, hallucinations, combativeness, and fear\nJarisch-Herxheimer reaction with syphilis treatment\nPseudomembranous colitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rash, urticaria, exfoliative dermatitis\nSerum-sickness like reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Procaine reactions: Immediate toxic reactions, particularly when a large single dose is administered (4.8 million units); mental disturbances including anxiety, confusion, agitation, depression, weakness, seizures, hallucinations, combativeness, and fear\nJarisch-Herxheimer reaction with syphilis treatment\nPseudomembranous colitis",
+      "subsections": {
+        "Common": {
+          "text": "Rash, urticaria, exfoliative dermatitis\nSerum-sickness like reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Rash, urticaria, exfoliative dermatitis\nSerum-sickness like reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30m\nMetabolism: Hepatic\nExcretion: Urinary\nMechanism of Action: Bactericidal; Interferes with cell wall mucopeptide synthesis during active multiplication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

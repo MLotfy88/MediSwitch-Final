@@ -1,0 +1,416 @@
+{
+  "drug_name": "Peripartum_cardiomyopathy",
+  "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy",
+  "scraped_at": "2026-01-10T07:59:47.940963",
+  "sections": {
+    "Background": {
+      "text": "Uncommon cause of\nheart failure\nIncidence: 1:968 to 1:4000 in the United States\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Peripartum with presentation similar to typical\nCHF\nUsually occurs in last month of pregnancy or first five months postpartum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pneumonia\nPE\nMI\nPostpartum fluid overload",
+      "subsections": {
+        "Cardiomyopathy": {
+          "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+          "tables": []
+        },
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Cardiomyopathy": {
+      "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nCXR\nCBC &\nLFTs\nscreen for\nthrombocytopenia\nor transaminitis that can be found with severe pre-eclampsia\nChemistry\nTSH\nEchocardiography\nbedside TTE can show LV dilation and LV systolic dysfunction\nBNP",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "4 criteria needed to meet definition:\n[2]\nDevelopment of heart failure in last month of pregnancy or within 5 month postpartum\nNo identifiable alternate cause of heart failure\nNo pre-existing heart disease\nLV ejection fraction < 45%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nCXR\nCBC &\nLFTs\nscreen for\nthrombocytopenia\nor transaminitis that can be found with severe pre-eclampsia\nChemistry\nTSH\nEchocardiography\nbedside TTE can show LV dilation and LV systolic dysfunction\nBNP",
+      "subsections": {
+        "Diagnosis": {
+          "text": "4 criteria needed to meet definition:\n[2]\nDevelopment of heart failure in last month of pregnancy or within 5 month postpartum\nNo identifiable alternate cause of heart failure\nNo pre-existing heart disease\nLV ejection fraction < 45%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "4 criteria needed to meet definition:\n[2]\nDevelopment of heart failure in last month of pregnancy or within 5 month postpartum\nNo identifiable alternate cause of heart failure\nNo pre-existing heart disease\nLV ejection fraction < 45%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat like usual heart failure\nConsider anticoagulation if EF <30% during and 2-3mo after delivery; avoid warfarin and DOACs\nIf pregnant:\nAvoid\nnitroprusside\nand\nACEI\nUse of\nphenylephrine\nand\nnorepinephrine\ncontroversial\nSome animal/in vitro studies suggest increased vasoconstriction of uterine arteries may lead to adverse fetal outcome, however evidence of effect on human uterine arteries is limited\n[3]\n[4]\nMaternal hypotension is bad for both mother and fetus!\nConsider fetal monitoring to assist in evaluating uterine perfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Mortality rate up to 10%\n[5]\nHigh risk of recurrence in subsequent pregnancies\n[5]\nMany patients recover within 3 to 6 months of disease onset\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Post-Partum Emergencies\nCardiomyopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-Partum Emergencies",
+          "url": "https://wikem.org/wiki/Post-Partum_Emergencies"
+        },
+        {
+          "text": "Cardiomyopathy (Main)",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(Main)"
+        }
+      ]
+    }
+  }
+}

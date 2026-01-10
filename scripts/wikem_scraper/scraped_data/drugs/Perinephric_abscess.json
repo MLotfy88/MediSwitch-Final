@@ -1,0 +1,957 @@
+{
+  "drug_name": "Perinephric_abscess",
+  "url": "https://wikem.org/wiki/Perinephric_abscess",
+  "scraped_at": "2026-01-10T07:59:47.008108",
+  "sections": {
+    "Background": {
+      "text": "An\nabscess\nof the perinephric fat that abuts the renal cortex\nCan arise as a complication either a pre-existing\npyelonephritis\n(majority) or from hematogenous seeding",
+      "subsections": {
+        "Causative_Organisms": {
+          "text": "E. coli\n(51.4%)\nS. aureus\n(10%)",
+          "tables": []
+        },
+        "Perinephric_vs_renal_abscess": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Necrotic Area",
+                "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+                "Renal": "Renal parenchyma"
+              },
+              {
+                "": "Cause",
+                "Perinephric": "Pyelonephritis(majority)",
+                "Renal": "Pyelonephritis(vast majority)"
+              },
+              {
+                "": "Risk of morbidity",
+                "Perinephric": "Higher",
+                "Renal": "Lower"
+              }
+            ]
+          ]
+        },
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Causative_Organisms": {
+      "text": "E. coli\n(51.4%)\nS. aureus\n(10%)",
+      "subsections": {
+        "Perinephric_vs_renal_abscess": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Necrotic Area",
+                "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+                "Renal": "Renal parenchyma"
+              },
+              {
+                "": "Cause",
+                "Perinephric": "Pyelonephritis(majority)",
+                "Renal": "Pyelonephritis(vast majority)"
+              },
+              {
+                "": "Risk of morbidity",
+                "Perinephric": "Higher",
+                "Renal": "Lower"
+              }
+            ]
+          ]
+        },
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Perinephric_vs_renal_abscess": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Necrotic Area",
+            "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+            "Renal": "Renal parenchyma"
+          },
+          {
+            "": "Cause",
+            "Perinephric": "Pyelonephritis(majority)",
+            "Renal": "Pyelonephritis(vast majority)"
+          },
+          {
+            "": "Risk of morbidity",
+            "Perinephric": "Higher",
+            "Renal": "Lower"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Genitourinary_infection": {
+      "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sign/symptoms similar to\npyelo\n(\nfever\n, CVAT, dysuria)\nOccurs in setting of ascending infection with obstructed\npyelo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pyelo",
+          "url": "https://wikem.org/wiki/Pyelo"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pyelo",
+          "url": "https://wikem.org/wiki/Pyelo"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Flank_Pain": {
+          "text": "Vascular\nAbdominal aortic aneurysm\nRenal artery embolism\nRenal vein thrombosis\nAortic dissection\nMesenteric ischemia\nRenal\nPyelonephritis\nPerinephric abscess\nPerinephric hematoma\nPapillary necrosis\nRenal cell carcinoma\nObstructive uropathy\nMay or may not be due to\nnephrolithiasis\nRenal infarction\nRenal hemorrhage\nUreter\nNephrolithiasis\nBlood clot\nStricture\nTumor (primary or metastatic)\nBladder\nTumor\nVaricose vein\nCystitis\nGI\nBiliary colic\nPancreatitis\nPerforated\npeptic ulcer\nAppendicitis\n(appendix may be pushed to\nRUQ\nin pregnancy)\nInguinal Hernia\nDiverticulitis\nCancer\nBowel obstruction\nGynecologic\nEctopic Pregnancy\nPID\n/\nTOA\nOvarian cyst\nOvarian torsion\nEndometriosis\nMittelschmerz\nor benign ovulatory pain\nGU\nTesticular torsion\nEpididymitis\nOther\nShingles\nLower lobe\npneumonia\nRetroperitoneal hematoma\n, abscess, or tumor\nEpidural abscess\nEpidural hematoma\nRib contusion/fracture",
+          "tables": []
+        },
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Renal artery embolism",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "peptic ulcer",
+          "url": "https://wikem.org/wiki/Peptic_ulcer"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Inguinal Hernia",
+          "url": "https://wikem.org/wiki/Inguinal_Hernia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Flank_Pain": {
+      "text": "Vascular\nAbdominal aortic aneurysm\nRenal artery embolism\nRenal vein thrombosis\nAortic dissection\nMesenteric ischemia\nRenal\nPyelonephritis\nPerinephric abscess\nPerinephric hematoma\nPapillary necrosis\nRenal cell carcinoma\nObstructive uropathy\nMay or may not be due to\nnephrolithiasis\nRenal infarction\nRenal hemorrhage\nUreter\nNephrolithiasis\nBlood clot\nStricture\nTumor (primary or metastatic)\nBladder\nTumor\nVaricose vein\nCystitis\nGI\nBiliary colic\nPancreatitis\nPerforated\npeptic ulcer\nAppendicitis\n(appendix may be pushed to\nRUQ\nin pregnancy)\nInguinal Hernia\nDiverticulitis\nCancer\nBowel obstruction\nGynecologic\nEctopic Pregnancy\nPID\n/\nTOA\nOvarian cyst\nOvarian torsion\nEndometriosis\nMittelschmerz\nor benign ovulatory pain\nGU\nTesticular torsion\nEpididymitis\nOther\nShingles\nLower lobe\npneumonia\nRetroperitoneal hematoma\n, abscess, or tumor\nEpidural abscess\nEpidural hematoma\nRib contusion/fracture",
+      "subsections": {
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Renal artery embolism",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "peptic ulcer",
+          "url": "https://wikem.org/wiki/Peptic_ulcer"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Inguinal Hernia",
+          "url": "https://wikem.org/wiki/Inguinal_Hernia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Dysuria": {
+      "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Laboratory_Testing": {
+          "text": "CBC - Although it is a non-specific finding, a leukocytosis is typically seen.\nChemistry Panel - Lactic acidosis is a common finding and is seen earlier in the disease course in diabetic patients. Renal insufficiency is also commonly seen as well.\nUrinalysis\n- Will often show evidence of pyelonephritis, however if the perinephric\nabscess\nis secondary to hematogenous spread, the urine could be sterile. Therefore a negative U/A does NOT rule out a perinephric abscess.\nBlood and urine cultures",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "CT\nImaging modality of choice\nSensitivity ~90%.\nRenal ultrasound\n- A fluid filled mass extending from the renal cortex into the perinephric fat can be seen.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Laboratory_Testing": {
+      "text": "CBC - Although it is a non-specific finding, a leukocytosis is typically seen.\nChemistry Panel - Lactic acidosis is a common finding and is seen earlier in the disease course in diabetic patients. Renal insufficiency is also commonly seen as well.\nUrinalysis\n- Will often show evidence of pyelonephritis, however if the perinephric\nabscess\nis secondary to hematogenous spread, the urine could be sterile. Therefore a negative U/A does NOT rule out a perinephric abscess.\nBlood and urine cultures",
+      "subsections": {
+        "Imaging": {
+          "text": "CT\nImaging modality of choice\nSensitivity ~90%.\nRenal ultrasound\n- A fluid filled mass extending from the renal cortex into the perinephric fat can be seen.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "CT\nImaging modality of choice\nSensitivity ~90%.\nRenal ultrasound\n- A fluid filled mass extending from the renal cortex into the perinephric fat can be seen.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Antibiotic therapy\ndepends on the suspected cause\nPyelonephritis\n(enterobacteriaceae):  third generation\ncephalosporin\n+\nquinolone\nHematogenous (\nstaphylococcus\n)):\nvancomycin\nKnown to be colonized by\nESBL\n:\ncarbapenem\nAbscess drainage\nAbscess of ANY size requires IR for percutaneous drainage\nIf any urological obstruction is suspected (\nnephrolithiasis\n,\nureterolithiasis\n, external compression from abdominal cavity, presence of pre-existing ureteral stent), emergent urological consultation should be obtained",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic therapy",
+          "url": "https://wikem.org/wiki/Antibiotic_therapy"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "quinolone",
+          "url": "https://wikem.org/wiki/Quinolone"
+        },
+        {
+          "text": "staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "ureterolithiasis",
+          "url": "https://wikem.org/wiki/Ureterolithiasis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "pyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nUrolithiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "drug_name": "Phenobarbital",
+  "url": "https://wikem.org/wiki/Phenobarbital",
+  "scraped_at": "2026-01-10T07:59:47.760767",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsant\n,\nbarbituates\nDosage Forms\n65mg/mL injection\n20mg/5 mL oral solution\n15mg, 16.2mg, 30mg, 32.4mg, 60mg, 64.8mg, 97.2mg, 100mg tab",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsant",
+          "url": "https://wikem.org/wiki/Anticonvulsant"
+        },
+        {
+          "text": "barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Status epilepticus\n20mg/kg, infuse at 50-100mg/min\nMay repeat once after 10 minutes with additional 5-10mg/kg\nAlcohol withdrawal\n/ Delirium Tremens\nLoading dose of 10 mg/kg combined with a standardized lorazepam-based alcohol withdrawal protocol decreases ICU admissions\n[1]\n130-260mg IV q15-20 min\nSeizures, maintenance dose\n50-100mg bid-tid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Status epilepticus\n20mg/kg over 10 minutes. May repeat full dose in 15 minutes\nSeizures, maintenance dose\n≤5 yo: 3-5mg/kg/day in 1-2 divided doses\nChildren > 5 yrs: 2-3mg/kg/day in 1-2 divided doses\nAdolescents: 1-3mg/kg/day in 1-2 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Enters breast milk, use caution\nRenal Dosing\nAdult\nGFR < 10, give every 12-16 hours\nHD: Given before HD and 50% dose after HD\nPediatric: GFR < 10, decrease dose by 50% and give every 24 hours\nHepatic Dosing: Reduced dose recommended, but no defined protocols",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMarked hepatic impairment\nPorphyria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\nRespiratory depression, apnea\nSignificant soft tissue injury with subcutaneous or intra-arterial administration\nAgranulocytosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Sedation, respiratory depression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hypotension\nRespiratory depression, apnea\nSignificant soft tissue injury with subcutaneous or intra-arterial administration\nAgranulocytosis",
+      "subsections": {
+        "Common": {
+          "text": "Sedation, respiratory depression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Sedation, respiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset: Oral 20-60 min, IV 5 min\nPeak: IV 30 min\nHalf-life: Neonates 45-500 hr, Infants 20-133 hr, Children 37-73 hr, Adults 53-140 hr\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action:\nBarbituates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Barbituates\nAlcohol withdrawal\nStatus epilepticus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP: Phenobarbital for Alcohol Withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Lexicomp, UpToDate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

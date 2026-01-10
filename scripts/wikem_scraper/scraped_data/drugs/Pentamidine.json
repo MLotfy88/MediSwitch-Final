@@ -1,0 +1,124 @@
+{
+  "drug_name": "Pentamidine",
+  "url": "https://wikem.org/wiki/Pentamidine",
+  "scraped_at": "2026-01-10T07:59:37.462365",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antifungal Agent; Antiprotozoal\nRoutes of Administration: IM, IV\nCommon Trade Names: Pentam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "PCP treatment, mod-severe: 4mg/kg IV/IM QD x21 days\nNot 1st-line agent; may consider decreasing dose to 3mg/kg IV/IM QD if toxicities occur\nPCP prophylaxis: 300mg NEB q4wk\nNot 1st-line agent; use injectable product via nebulizer; reconstitute 1 vial with 6 mL sterile water; do not mix with other nebulized meds\nOff label use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "PCP treatment [for >4 mo]: 4mg/kg IV/IM QD x21 days\nNot 1st-line agent\nConsider decreasing dose to 3mg/kg IV/IM QD if toxicities occur\nSwitch to PO regimen to complete course if improvement after 7-10 days\nPCP prophylaxis [>5 yo]: 300mg NEB q4wk\nNot 1st-line agent\nUse injectable product via nebulizer; reconstitute 1 vial with 6 mL sterile water\nDo not mix with other nebulized meds\nOff label use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl <10: give q24-36h\nHD: give 750mg supplement\nPD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution advised with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "CrCl <10: give q24-36h\nHD: give 750mg supplement\nPD: no supplement",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Caution advised with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Caution advised with hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ncongenital long QT syndrome\nelectrolyte abnormalities, uncorrected\ncaution if QT prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "extravasation/tissue damage\nhypoglycemia\nhyperglycemia\ndiabetes mellitus\npancreatitis\nnephrotoxicity",
+          "tables": []
+        },
+        "Common": {
+          "text": "renal dysfunction\nBUN, creatinine elevated\ninjection site necrosis\nleukopenia\ntransaminitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "extravasation/tissue damage\nhypoglycemia\nhyperglycemia\ndiabetes mellitus\npancreatitis\nnephrotoxicity",
+      "subsections": {
+        "Common": {
+          "text": "renal dysfunction\nBUN, creatinine elevated\ninjection site necrosis\nleukopenia\ntransaminitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "renal dysfunction\nBUN, creatinine elevated\ninjection site necrosis\nleukopenia\ntransaminitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-4 weeks\nMetabolism: Liver\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "protozocidal - interferes with nuclear metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "PCP pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        }
+      ]
+    },
+    "References": {
+      "text": "<Epocrates, UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

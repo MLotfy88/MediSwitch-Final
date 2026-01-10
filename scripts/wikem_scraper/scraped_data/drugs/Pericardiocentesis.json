@@ -1,0 +1,197 @@
+{
+  "drug_name": "Pericardiocentesis",
+  "url": "https://wikem.org/wiki/Pericardiocentesis",
+  "scraped_at": "2026-01-10T07:59:41.451361",
+  "sections": {
+    "Indications": {
+      "text": "Cardiac tamponade\nDiagnose cause of\npericardial effusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No contraindications in patient who is hemodynamically unstable due to tamponade",
+      "subsections": {
+        "Relative_Contraindications": {
+          "text": "Traumatic tamponade (perform ED\nthoracotomy\ninstead)\nMyocardial rupture\nAortic dissection\nBleeding diathesis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Relative_Contraindications": {
+      "text": "Traumatic tamponade (perform ED\nthoracotomy\ninstead)\nMyocardial rupture\nAortic dissection\nBleeding diathesis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Equipment": {
+      "text": "Pericardiocentesis kit (contains equipment to perform drain placement via Seldinger technique)\nIf kit unavailable:\n18 gauge spinal needle\n20mL (or larger) syringe\nCan also use abdominal paracentesis kit or central line kit\nUltrasound\nIf ultrasound not available:\nWire with alligator clip connected to base of needle and cardiac monitor or precordial EKG lead\nIf no ultrasound and no alligator clip available, may perform procedure blind as last resort",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Preparation": {
+      "text": "Obtain consent if able\nObtain continuous cardiorespiratory monitoring\nArterial line is ideal if time permits\nConsider sedation or local anesthesia if time permits and patient is conscious\nDo not delay procedure in unstable patient\nFor apical approach:\nBed to 45˚ angle if patient condition allows\nBrings heart closer to anterior chest wall\nFor subxiphoid approach:\nBed flat\nNG tube to decompress stomach if time permits\nSkin prep with iodine or chlorhexidine\nDrape appropriately\nConsider atropine to prevent vasovagal reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "",
+      "subsections": {
+        "Ultrasound-guided": {
+          "text": "Use ultrasound to identify location of effusion\nAiming toward effusion, insert needle through skin using real-time ultrasound guidance and applying negative pressure throughout insertion\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock\nUse Seldinger technique to place pericardial drain if needed for ongoing drainage\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+          "tables": []
+        },
+        "Landmark-guided": {
+          "text": "Identify insertion location between xiphoid process and left costal margin\nAttach needle to EKG lead using alligator clip and cable (ST elevations will occur on ventricular contact with the needle)\nAiming toward left shoulder, insert needle through skin  at 30-45' angle, applying negative pressure throughout insertion\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock\nUse Seldinger technique to place pericardial drain if needed for ongoing drainage\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+          "tables": []
+        },
+        "Parasternal_Approach": {
+          "text": "If patient condition allows, position in left lateral decubitus to bring effusion towards apex\n[2]\nUse sterile ultrasonography in parasternal view to identify location of largest area of the effusion (usually around 5th intercostal space)\nInsert needle through skin at identified site perpendicular to the skin just lateral to the sternum\nUnder real-time ultrasound guidance, advance needle while continually aspirating until fluid return\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock and use Seldinger technique to place pericardial drain if needed\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+          "tables": []
+        },
+        "Novel_In-Plane_Technique": {
+          "text": "Skin is prepped\nCurvilinear probe with sterile cover is placed obliquely over the right chest with indicator to the right shoulder\nDepth corrected to see only the RV and effusion\nNeedle directed in an in-plane approach at 45°\nAspiration is done under direct needle visualization\nA catheter can be placed under direct visualization using Seldinger technique",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Subxiphoid_Approach": {
+      "text": "",
+      "subsections": {
+        "Ultrasound-guided": {
+          "text": "Use ultrasound to identify location of effusion\nAiming toward effusion, insert needle through skin using real-time ultrasound guidance and applying negative pressure throughout insertion\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock\nUse Seldinger technique to place pericardial drain if needed for ongoing drainage\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+          "tables": []
+        },
+        "Landmark-guided": {
+          "text": "Identify insertion location between xiphoid process and left costal margin\nAttach needle to EKG lead using alligator clip and cable (ST elevations will occur on ventricular contact with the needle)\nAiming toward left shoulder, insert needle through skin  at 30-45' angle, applying negative pressure throughout insertion\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock\nUse Seldinger technique to place pericardial drain if needed for ongoing drainage\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+          "tables": []
+        },
+        "Parasternal_Approach": {
+          "text": "If patient condition allows, position in left lateral decubitus to bring effusion towards apex\n[2]\nUse sterile ultrasonography in parasternal view to identify location of largest area of the effusion (usually around 5th intercostal space)\nInsert needle through skin at identified site perpendicular to the skin just lateral to the sternum\nUnder real-time ultrasound guidance, advance needle while continually aspirating until fluid return\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock and use Seldinger technique to place pericardial drain if needed\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+          "tables": []
+        },
+        "Novel_In-Plane_Technique": {
+          "text": "Skin is prepped\nCurvilinear probe with sterile cover is placed obliquely over the right chest with indicator to the right shoulder\nDepth corrected to see only the RV and effusion\nNeedle directed in an in-plane approach at 45°\nAspiration is done under direct needle visualization\nA catheter can be placed under direct visualization using Seldinger technique",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Parasternal_Approach": {
+      "text": "If patient condition allows, position in left lateral decubitus to bring effusion towards apex\n[2]\nUse sterile ultrasonography in parasternal view to identify location of largest area of the effusion (usually around 5th intercostal space)\nInsert needle through skin at identified site perpendicular to the skin just lateral to the sternum\nUnder real-time ultrasound guidance, advance needle while continually aspirating until fluid return\nRemove stylet from needle and attach 3-way stopcock and 20-mL syringe\nAspirate fluid\nDisconnect syringe and stopcock and use Seldinger technique to place pericardial drain if needed\nObtain post-procedure CXR to rule out iatrogenic pneumothorax",
+      "subsections": {
+        "Novel_In-Plane_Technique": {
+          "text": "Skin is prepped\nCurvilinear probe with sterile cover is placed obliquely over the right chest with indicator to the right shoulder\nDepth corrected to see only the RV and effusion\nNeedle directed in an in-plane approach at 45°\nAspiration is done under direct needle visualization\nA catheter can be placed under direct visualization using Seldinger technique",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Novel_In-Plane_Technique": {
+      "text": "Skin is prepped\nCurvilinear probe with sterile cover is placed obliquely over the right chest with indicator to the right shoulder\nDepth corrected to see only the RV and effusion\nNeedle directed in an in-plane approach at 45°\nAspiration is done under direct needle visualization\nA catheter can be placed under direct visualization using Seldinger technique",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Cardiac puncture\nPneumothorax/pneumopericardium\nDysrhythmias\nPVC (most common)\nVasovagal bradycardia (responsive to atropine)\nFalse negative (clotted pericardial blood)\nFalse positive (intracardiac puncture)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls": {
+      "text": "Ensuring proper placement of the needle/drain in the pericardium is imperative. There are several methods to do this.\nDirect visualization of needle/drain tip on ultrasound.\nInject small amount of agitated saline under direct ultrasound visualization and evaluate location of bubbles.\n[4]\nPlace small amount of aspirated fluid into a container and evaluate for development of clots.\nPericardial fluid will not clot secondary to intrinsic pericardial fibrinolytic activity.\n[5]\nHowever, a rapidly-developing effusion can overwhelm this fibrinolytic activity, causing the fluid to clot.\nSend pericardial fluid for blood gas analysis\nPericardial fluid will have low pH, low pO2, high pCO2 compared to arterial, venous or mixed venous blood.\n[5]\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "emDocs - Ultrasound Guided Pericardiocentesis\nALIEM Pericardiocentesis",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=XqZKK3J4cwo}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=XqZKK3J4cwo}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cardiac tamponade\nPericardial effusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    }
+  }
+}

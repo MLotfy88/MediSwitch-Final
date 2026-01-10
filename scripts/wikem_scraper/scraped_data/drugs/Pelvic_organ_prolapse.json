@@ -1,0 +1,294 @@
+{
+  "drug_name": "Pelvic_organ_prolapse",
+  "url": "https://wikem.org/wiki/Pelvic_organ_prolapse",
+  "scraped_at": "2026-01-10T07:59:31.543847",
+  "sections": {
+    "Background": {
+      "text": "Definition: herniation of pelvic organs to or beyond vaginal walls\nFirst Degree: Lowering of cervix into lower 1/3 of vagina\nSecond Degree: Protrusion of cervix through the vaginal introitus\nThird Degree: Complete externalization of the uterus and inversion of the vagina (also called descensus or procidentia)",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Advancing Age\nMultiparity\nObesity\nRace (Latina/white women at higher risk than black women)\nConstipation\nConnective tissue disorders\nChronic\nCough\nHeavy lifting",
+          "tables": []
+        },
+        "Types": {
+          "text": "Cystocele\nMost common form of pelvic organ prolapse\nHernia of anterior vaginal wall + descent of bladder\nRectocele\nHernia of posterior vaginal segment + descent of rectum\nEnterocele\nHernia of intestines to or through vaginal wall\nUterine/vaginal vault prolapse\nDescent of apex of vagina to lower vagina, hymen, or beyond introitus\nApex= uterus and cervix, cervix, or vaginal vault\nApical prolapse often associated with enterocele\nUrethral Prolapse\nPostmenopausal and prepubescent females",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Advancing Age\nMultiparity\nObesity\nRace (Latina/white women at higher risk than black women)\nConstipation\nConnective tissue disorders\nChronic\nCough\nHeavy lifting",
+      "subsections": {
+        "Types": {
+          "text": "Cystocele\nMost common form of pelvic organ prolapse\nHernia of anterior vaginal wall + descent of bladder\nRectocele\nHernia of posterior vaginal segment + descent of rectum\nEnterocele\nHernia of intestines to or through vaginal wall\nUterine/vaginal vault prolapse\nDescent of apex of vagina to lower vagina, hymen, or beyond introitus\nApex= uterus and cervix, cervix, or vaginal vault\nApical prolapse often associated with enterocele\nUrethral Prolapse\nPostmenopausal and prepubescent females",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Cystocele\nMost common form of pelvic organ prolapse\nHernia of anterior vaginal wall + descent of bladder\nRectocele\nHernia of posterior vaginal segment + descent of rectum\nEnterocele\nHernia of intestines to or through vaginal wall\nUterine/vaginal vault prolapse\nDescent of apex of vagina to lower vagina, hymen, or beyond introitus\nApex= uterus and cervix, cervix, or vaginal vault\nApical prolapse often associated with enterocele\nUrethral Prolapse\nPostmenopausal and prepubescent females",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Severity may be related to position\nLess noticeable in AM and supine\nWorse as day progresses, upright, and active\nVaginal bulge/fullness, pressure\nUrinary dysfunction\nOveractive bladder symptoms\nUrgency\nUrinary incontinence\nEnuresis\nDefecatory dysfunction\nConstipation\nIncomplete emptying\nFecal urgency\nFecal incontinence\nObstructive symptoms- straining or need for digital pressure to vagina in order to completely evacuate\nSexual dysfunction\nReports of adverse effects or orgasm and sexual satisfaction\nDyspareunia\nAvoidance of sexual activity due to fear of discomfort or embarrassment\nUrethral prolapse\npain with unination\nblood in diaper or underwear\ntenderness while wiping",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Gynecologic": {
+          "text": "Vulvovaginitis\nAtrophic vaginitis\nInfectious (\nSTI\n)\nAllergic\nUterine prolapse\nCystocele\nRectocele\nEnterocele\nUterine/Vaginal Vault Prolapse\nCervical polyps\nUterine fibroids\nEndometrial hyperplasia\nNeoplasm\nUterine\nOvarian",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Rectocele\nDiverticulitis\nNeoplasm\nAppendicitis\nIschemic Bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Urologic": {
+          "text": "Infection\nCystitis\nUrethritis\nPyelonephritis\nCystourethrocele",
+          "tables": []
+        },
+        "Urologic_2": {
+          "text": "Sarcoma botryoides\nsarcoma botryoides",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Uterine prolapse",
+          "url": "https://wikem.org/wiki/Uterine_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        }
+      ]
+    },
+    "Postmenopausal_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic": {
+          "text": "Vulvovaginitis\nAtrophic vaginitis\nInfectious (\nSTI\n)\nAllergic\nUterine prolapse\nCystocele\nRectocele\nEnterocele\nUterine/Vaginal Vault Prolapse\nCervical polyps\nUterine fibroids\nEndometrial hyperplasia\nNeoplasm\nUterine\nOvarian",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Rectocele\nDiverticulitis\nNeoplasm\nAppendicitis\nIschemic Bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Urologic": {
+          "text": "Infection\nCystitis\nUrethritis\nPyelonephritis\nCystourethrocele",
+          "tables": []
+        },
+        "Urologic_2": {
+          "text": "Sarcoma botryoides\nsarcoma botryoides",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Uterine prolapse",
+          "url": "https://wikem.org/wiki/Uterine_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        }
+      ]
+    },
+    "Prepubescent-Urethral_prolapse": {
+      "text": "",
+      "subsections": {
+        "Urologic_2": {
+          "text": "Sarcoma botryoides\nsarcoma botryoides",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Emergency_Department": {
+          "text": "Look for signs of infection or skin breakdown if prolonged prolapse\nReduction may be as simple as pushing organ back inside\nIf difficult reduction due to edema:\nProvide\nanalgesia\n, and place copious granulated sugar\nWait 15 minutes for edema to subside and re-attempt reduction\nIf reduction fails, consult gynecology\nSaline-soaked gauze applied to prolapsed organs could provide both comfort and protection of exposed mucosa\nFor urethral prolapse:\nTopical estrogen twice daily (0.01%)\nSitz baths\nConsult urology if concern for necrosis of tissue",
+          "tables": []
+        },
+        "Outpatient": {
+          "text": "Treatment includes:\nExpectant management\nConservative (vaginal pessary, pelvic floor muscle exercises)\nEstrogen creams and Sitz baths (Urethral Prolapse)\nSurgical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Emergency_Department": {
+      "text": "Look for signs of infection or skin breakdown if prolonged prolapse\nReduction may be as simple as pushing organ back inside\nIf difficult reduction due to edema:\nProvide\nanalgesia\n, and place copious granulated sugar\nWait 15 minutes for edema to subside and re-attempt reduction\nIf reduction fails, consult gynecology\nSaline-soaked gauze applied to prolapsed organs could provide both comfort and protection of exposed mucosa\nFor urethral prolapse:\nTopical estrogen twice daily (0.01%)\nSitz baths\nConsult urology if concern for necrosis of tissue",
+      "subsections": {
+        "Outpatient": {
+          "text": "Treatment includes:\nExpectant management\nConservative (vaginal pessary, pelvic floor muscle exercises)\nEstrogen creams and Sitz baths (Urethral Prolapse)\nSurgical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Outpatient": {
+      "text": "Treatment includes:\nExpectant management\nConservative (vaginal pessary, pelvic floor muscle exercises)\nEstrogen creams and Sitz baths (Urethral Prolapse)\nSurgical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with outpatient Gynecology or Urology referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rectal Prolapse\nPelvic pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rectal Prolapse",
+          "url": "https://wikem.org/wiki/Rectal_Prolapse"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rogers, RG, Fashokun, TB. Pelvic organ prolapse in women: Epidemiology, risk factors, clinical manifestations, and management. In: Post T, ed. UpToDate; Waltham, MA.: UpToDate; 2020. www.uptodate.com. Accessed June 16, 2020",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

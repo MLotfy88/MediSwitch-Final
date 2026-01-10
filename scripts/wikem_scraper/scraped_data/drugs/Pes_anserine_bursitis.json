@@ -1,0 +1,328 @@
+{
+  "drug_name": "Pes_anserine_bursitis",
+  "url": "https://wikem.org/wiki/Pes_anserine_bursitis",
+  "scraped_at": "2026-01-10T07:59:48.402759",
+  "sections": {
+    "Background": {
+      "text": "Name comes from proximity to the pes anserine (three tendons that insert on the tibia)\nInflammatory condition of the medial knee",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Osteoarthritis of knee\nObese females\nHistory of athletic activity (overuse)\ne.g. runners",
+          "tables": []
+        },
+        "Tendinopathy_Types": {
+          "text": "Patellar tendonitis\nLateral epicondylitis\n(tennis elbow)\nMedial epicondylitis\n(golf elbow)\nPes anserine bursitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Osteoarthritis of knee\nObese females\nHistory of athletic activity (overuse)\ne.g. runners",
+      "subsections": {
+        "Tendinopathy_Types": {
+          "text": "Patellar tendonitis\nLateral epicondylitis\n(tennis elbow)\nMedial epicondylitis\n(golf elbow)\nPes anserine bursitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        }
+      ]
+    },
+    "Tendinopathy_Types": {
+      "text": "Patellar tendonitis\nLateral epicondylitis\n(tennis elbow)\nMedial epicondylitis\n(golf elbow)\nPes anserine bursitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Anterior medial knee pain, frequently chronic (insertion of pes anserine)\nWorse with ascending stairs and when arising from a seated position\nFocal swelling occasionally noted over the bursa\nTTP over the bursa",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Knee_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider knee x-rays to rule out fracture\nFrequently NOT indicated. See\nOttawa Knee Rules",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ottawa Knee Rules",
+          "url": "https://wikem.org/wiki/Ottawa_Knee_Rules"
+        }
+      ]
+    },
+    "Management": {
+      "text": "RICE\nNSAIDS\nPhysical Therapy\nIntrabursal injection with local anesthetics and/or corticosteroids (second line treatment)\n3-5 mL of 1%\nlidocaine\nwith or without\nmethylprednisolone\ninto point of maximal tenderness in bursa\nDo not inject actual tendons themselves.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Home\nAdmit for IV antibiotics if\ninfected bursa\nis suspected\nFollow up with primary care provider +/- Physical Therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "infected bursa",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Knee diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee diagnoses",
+          "url": "https://wikem.org/wiki/Knee_diagnoses"
+        }
+      ]
+    }
+  }
+}

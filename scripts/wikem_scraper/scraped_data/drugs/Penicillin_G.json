@@ -1,0 +1,612 @@
+{
+  "drug_name": "Penicillin_G",
+  "url": "https://wikem.org/wiki/Penicillin_G",
+  "scraped_at": "2026-01-10T07:59:32.084226",
+  "sections": {
+    "Background": {
+      "text": "Category: Natural\nPenicillins",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillins",
+          "url": "https://wikem.org/wiki/Penicillins"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Penicillin G Potassium\n(Pfizerpen)\nPenicillin G Procaine\nPenicillin G Sodium\nPenicillin G Benzathine\n(Bicillin L-A)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        }
+      ]
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Penicillins\nAntibiotics (Main)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "vteClinically UtilizedAntibiotics"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "β-lactams",
+            "vteClinically UtilizedAntibiotics": "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam",
+            "": "",
+            "β-lactams": "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "Natural",
+            "Penicillins": "Penicillin GPenicillin V",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "",
+            "Natural": "Anti-Staphylococcal",
+            "Penicillin GPenicillin V": "CloxacillinDicloxacillinOxacillinNafcillin",
+            "Anti-Staphylococcal": "Amino-Penicillins",
+            "CloxacillinDicloxacillinOxacillinNafcillin": "AmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/Sulbactam",
+            "Amino-Penicillins": "Anti-Pseudomonal",
+            "AmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/Sulbactam": "Piperacillin/TazobactamTicarcillin/Clavulanate",
+            "Anti-Pseudomonal": "Carbapenems",
+            "Piperacillin/TazobactamTicarcillin/Clavulanate": "ErtapenemDoripenemImipenem/CilastinMeropenem",
+            "Carbapenems": "Cephalosporins",
+            "ErtapenemDoripenemImipenem/CilastinMeropenem": "1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)",
+            "Cephalosporins": "Cefazolin(Ancef)CefadroxilCephalexin(Keflex)",
+            "1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)": "",
+            "1st": "2nd",
+            "Cefazolin(Ancef)CefadroxilCephalexin(Keflex)": "CefuroximeCefoxitinCefotetanCefaclorCefprozil",
+            "2nd": "3rd",
+            "CefuroximeCefoxitinCefotetanCefaclorCefprozil": "CefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten",
+            "3rd": "4th (antipseudomonal)",
+            "CefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten": "Cefepime",
+            "4th (antipseudomonal)": "5th",
+            "Cefepime": "Ceftaroline fosamil(Teflaro)",
+            "5th": "Monobactams",
+            "Ceftaroline fosamil(Teflaro)": "Aztreonam"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Penicillins",
+            "vteClinically UtilizedAntibiotics": "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate",
+            "": "Piperacillin/TazobactamTicarcillin/Clavulanate",
+            "β-lactams": "Penicillin GPenicillin V",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "",
+            "Penicillins": "Anti-Staphylococcal",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "CloxacillinDicloxacillinOxacillinNafcillin",
+            "Natural": "",
+            "Penicillin GPenicillin V": "Amino-Penicillins",
+            "Anti-Staphylococcal": "",
+            "CloxacillinDicloxacillinOxacillinNafcillin": "Anti-Pseudomonal"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Natural",
+            "vteClinically UtilizedAntibiotics": "Penicillin GPenicillin V"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Anti-Staphylococcal",
+            "vteClinically UtilizedAntibiotics": "CloxacillinDicloxacillinOxacillinNafcillin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Amino-Penicillins",
+            "vteClinically UtilizedAntibiotics": "AmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/Sulbactam"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Anti-Pseudomonal",
+            "vteClinically UtilizedAntibiotics": "Piperacillin/TazobactamTicarcillin/Clavulanate"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Carbapenems",
+            "vteClinically UtilizedAntibiotics": "ErtapenemDoripenemImipenem/CilastinMeropenem"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Cephalosporins",
+            "vteClinically UtilizedAntibiotics": "1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)",
+            "": "Ceftaroline fosamil(Teflaro)",
+            "β-lactams": "Cefazolin(Ancef)CefadroxilCephalexin(Keflex)",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "",
+            "Penicillins": "2nd",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "CefuroximeCefoxitinCefotetanCefaclorCefprozil",
+            "Natural": "",
+            "Penicillin GPenicillin V": "3rd",
+            "Anti-Staphylococcal": "",
+            "CloxacillinDicloxacillinOxacillinNafcillin": "4th (antipseudomonal)",
+            "Amino-Penicillins": "",
+            "AmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/Sulbactam": "5th"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "1st",
+            "vteClinically UtilizedAntibiotics": "Cefazolin(Ancef)CefadroxilCephalexin(Keflex)"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "2nd",
+            "vteClinically UtilizedAntibiotics": "CefuroximeCefoxitinCefotetanCefaclorCefprozil"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "3rd",
+            "vteClinically UtilizedAntibiotics": "CefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "4th (antipseudomonal)",
+            "vteClinically UtilizedAntibiotics": "Cefepime"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "5th",
+            "vteClinically UtilizedAntibiotics": "Ceftaroline fosamil(Teflaro)"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Monobactams",
+            "vteClinically UtilizedAntibiotics": "Aztreonam"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Aminoglycosides",
+            "vteClinically UtilizedAntibiotics": "-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)Gentamicin",
+            "": "-mycin (Streptomyces)",
+            "β-lactams": "StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "",
+            "Penicillins": "-micin (Micromonospora)",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "Gentamicin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "-mycin (Streptomyces)",
+            "vteClinically UtilizedAntibiotics": "StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "-micin (Micromonospora)",
+            "vteClinically UtilizedAntibiotics": "Gentamicin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Tetracyclines",
+            "vteClinically UtilizedAntibiotics": "TetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecycline",
+            "": "Tetracyclines",
+            "β-lactams": "DoxycyclineMinocyclineTetracycline",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "",
+            "Penicillins": "Glycylcyclines",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "Tigecycline"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Tetracyclines",
+            "vteClinically UtilizedAntibiotics": "DoxycyclineMinocyclineTetracycline"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Glycylcyclines",
+            "vteClinically UtilizedAntibiotics": "Tigecycline"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Macrolides",
+            "vteClinically UtilizedAntibiotics": "StandardAzithromycinClarithromycinErythromycinKetolideTelithromycin",
+            "": "Standard",
+            "β-lactams": "AzithromycinClarithromycinErythromycin",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "",
+            "Penicillins": "Ketolide",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "Telithromycin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Standard",
+            "vteClinically UtilizedAntibiotics": "AzithromycinClarithromycinErythromycin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Ketolide",
+            "vteClinically UtilizedAntibiotics": "Telithromycin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Sulfonamides",
+            "vteClinically UtilizedAntibiotics": "TMP-SMX(Bactrim)"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Urinary Tract Agents",
+            "vteClinically UtilizedAntibiotics": "FosfomycinNitrofurantoin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Fluroquinolones",
+            "vteClinically UtilizedAntibiotics": "2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacin",
+            "": "GemifloxacinMoxifloxacinGatifloxacin",
+            "β-lactams": "CiprofloxacinOfloxacin",
+            "PenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonam": "",
+            "Penicillins": "3rd g.",
+            "NaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/Clavulanate": "Levofloxacin",
+            "Natural": "",
+            "Penicillin GPenicillin V": "4th g."
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "2nd g.",
+            "vteClinically UtilizedAntibiotics": "CiprofloxacinOfloxacin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "3rd g.",
+            "vteClinically UtilizedAntibiotics": "Levofloxacin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "4th g.",
+            "vteClinically UtilizedAntibiotics": "GemifloxacinMoxifloxacinGatifloxacin"
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": ""
+          },
+          {
+            "vteClinically UtilizedAntibioticsβ-lactamsPenicillinsNaturalPenicillin GPenicillin VAnti-StaphylococcalCloxacillinDicloxacillinOxacillinNafcillinAmino-PenicillinsAmoxicillinAmpicillinAmoxicillin/ClavulanateAmpicillin/SulbactamAnti-PseudomonalPiperacillin/TazobactamTicarcillin/ClavulanateCarbapenemsErtapenemDoripenemImipenem/CilastinMeropenemCephalosporins1stCefazolin(Ancef)CefadroxilCephalexin(Keflex)2ndCefuroximeCefoxitinCefotetanCefaclorCefprozil3rdCefdinirCefiximeCefotaximeCefpodoximeCeftriaxoneCeftazidimeCefditorenCeftibuten4th (antipseudomonal)Cefepime5thCeftaroline fosamil(Teflaro)MonobactamsAztreonamAminoglycosides-mycin (Streptomyces)StreptomycinNeomycinKanamycinAmikacinTobramycinSpectinomycinParomomycin-micin (Micromonospora)GentamicinTetracyclinesTetracyclinesDoxycyclineMinocyclineTetracyclineGlycylcyclinesTigecyclineMacrolidesStandardAzithromycinClarithromycinErythromycinKetolideTelithromycinSulfonamidesTMP-SMX(Bactrim)Urinary Tract AgentsFosfomycinNitrofurantoinFluroquinolones2nd g.CiprofloxacinOfloxacin3rd g.Levofloxacin4th g.GemifloxacinMoxifloxacinGatifloxacinOtherLinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin": "Other",
+            "vteClinically UtilizedAntibiotics": "LinezolidChloramphenicolClindamycinQuinupristin/dalfopristinMetronidazoleRifampinVancomycin"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Penicillins",
+          "url": "https://wikem.org/wiki/Penicillins"
+        },
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

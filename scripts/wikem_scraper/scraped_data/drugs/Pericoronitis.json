@@ -1,0 +1,462 @@
+{
+  "drug_name": "Pericoronitis",
+  "url": "https://wikem.org/wiki/Pericoronitis",
+  "scraped_at": "2026-01-10T07:59:43.030878",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Dental_Numbering": {
+          "text": "Adult (permanent) teeth identified by numbers\nFrom the midline to the back of the mouth on each side, there is a central incisor, a lateral incisor, a canine, two premolars (bicuspids), and three molars\nChildren (non-permanent) teeth identified by letters\nCommon landmarks:\n1\n: Right upper wisdom\n8 & 9\n: Upper incisors\n16\n: Left upper wisdom\n17\n: Left lower wisdom\n24 & 25\n: Lower incisors\n32\n: Right lower wisdom\nOccurs during tooth eruption through the gingiva\nFood and bacteria can accumulate between the erupting tooth and operculum (flap of gingiva) leading to infection and pain\nThe wisdom tooth (3rd molar) is the most common site of pericoronitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dental_Numbering": {
+      "text": "Adult (permanent) teeth identified by numbers\nFrom the midline to the back of the mouth on each side, there is a central incisor, a lateral incisor, a canine, two premolars (bicuspids), and three molars\nChildren (non-permanent) teeth identified by letters\nCommon landmarks:\n1\n: Right upper wisdom\n8 & 9\n: Upper incisors\n16\n: Left upper wisdom\n17\n: Left lower wisdom\n24 & 25\n: Lower incisors\n32\n: Right lower wisdom\nOccurs during tooth eruption through the gingiva\nFood and bacteria can accumulate between the erupting tooth and operculum (flap of gingiva) leading to infection and pain\nThe wisdom tooth (3rd molar) is the most common site of pericoronitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain\nat site of recent tooth eruption with operculum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Dental_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Dentoalveolar_Injuries": {
+      "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+      "subsections": {
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Odontogenic_Infections": {
+      "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+      "subsections": {
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Mild_to_Moderate": {
+          "text": "Analgesia\n(often requires dental block)\nChlorhexidine rinses (a randomized trial showed green tea was equally effective)\n[1]\nPenicillin VK\n500mg PO QID\nOR\nclindamycin\n300mg PO QID\nED debridement of the operculum or debris is usually not indicated",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Severe infections require intravenous\nantibiotics\nand admission\nComplications: Deep soft tissue infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Mild_to_Moderate": {
+      "text": "Analgesia\n(often requires dental block)\nChlorhexidine rinses (a randomized trial showed green tea was equally effective)\n[1]\nPenicillin VK\n500mg PO QID\nOR\nclindamycin\n300mg PO QID\nED debridement of the operculum or debris is usually not indicated",
+      "subsections": {
+        "Severe": {
+          "text": "Severe infections require intravenous\nantibiotics\nand admission\nComplications: Deep soft tissue infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "Severe infections require intravenous\nantibiotics\nand admission\nComplications: Deep soft tissue infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Mild_to_Moderate_2": {
+          "text": "Discharge with dental follow-up\nRefer to dentist for surgical excision of the operculum and/or removal of the offending tooth",
+          "tables": []
+        },
+        "Severe_2": {
+          "text": "Admit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mild_to_Moderate_2": {
+      "text": "Discharge with dental follow-up\nRefer to dentist for surgical excision of the operculum and/or removal of the offending tooth",
+      "subsections": {
+        "Severe_2": {
+          "text": "Admit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Severe_2": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dental problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        }
+      ]
+    }
+  }
+}

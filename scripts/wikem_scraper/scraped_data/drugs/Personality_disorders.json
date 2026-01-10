@@ -1,0 +1,71 @@
+{
+  "drug_name": "Personality_disorders",
+  "url": "https://wikem.org/wiki/Personality_disorders",
+  "scraped_at": "2026-01-10T07:59:47.736909",
+  "sections": {
+    "DSM-5": {
+      "text": "General personality disorders are an enduring and inflexible pattern of long duration that lead to significant distress or impairment and are not due to use of substances or another medical condition.",
+      "subsections": {
+        "Cluster_A_(odd_or_eccentric_disorders)": {
+          "text": "Paranoid personality disorder\n: characterized by a pattern of irrational suspicion and mistrust of others, interpreting motivations as malevolent.\nSchizoid personality disorder\n: lack of interest and detachment from social relationships, apathy, and restricted emotional expression.\nSchizotypal personality disorder\n: a pattern of extreme discomfort interacting socially, and distorted cognitions and perceptions.",
+          "tables": []
+        },
+        "Cluster_B_(dramatic,_emotional_or_erratic_disorders)": {
+          "text": "Antisocial personality disorder\n: a pervasive pattern of disregard for and violation of the rights of others, lack of empathy, bloated self-image, manipulative and impulsive behavior.\nBorderline personality disorder\n: pervasive pattern of abrupt mood swings, instability in relationships, self-image, identity, behavior and affect, often leading to self-harm and impulsivity.\nHistrionic personality disorder\n: pervasive pattern of attention-seeking behavior and excessive emotions.\nNarcissistic personality disorder\n: a pervasive pattern of grandiosity, need for admiration, and a lack of empathy.",
+          "tables": []
+        },
+        "Cluster_C_(anxious_or_fearful_disorders)": {
+          "text": "Avoidant personality disorder\n: pervasive feelings of social inhibition and inadequacy, extreme sensitivity to negative evaluation.\nDependent personality disorder\n: pervasive psychological need to be cared for by other people.\nObsessive-compulsive personality disorder\n: characterized by rigid conformity to rules, perfectionism, and control to the point of satisfaction and exclusion of leisurely activities and friendships (not the same as and quite different from obsessive-compulsive disorder).",
+          "tables": []
+        },
+        "Other_personality_disorders": {
+          "text": "Personality change due to another medical condition – a personality disturbance due to the direct effects of a medical condition.\nOther specified personality disorder – symptoms characteristic of a personality disorder but fails to meet the criteria for a specific disorder, with the reason given.\nPersonality disorder not otherwise specified",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Paranoid personality disorder",
+          "url": "https://wikem.org/wiki/Paranoid_personality_disorder"
+        },
+        {
+          "text": "Schizoid personality disorder",
+          "url": "https://wikem.org/wiki/Schizoid_personality_disorder"
+        },
+        {
+          "text": "Schizotypal personality disorder",
+          "url": "https://wikem.org/wiki/Schizotypal_personality_disorder"
+        },
+        {
+          "text": "Antisocial personality disorder",
+          "url": "https://wikem.org/wiki/Antisocial_personality_disorder"
+        },
+        {
+          "text": "Borderline personality disorder",
+          "url": "https://wikem.org/wiki/Borderline_personality_disorder"
+        },
+        {
+          "text": "Histrionic personality disorder",
+          "url": "https://wikem.org/wiki/Histrionic_personality_disorder"
+        },
+        {
+          "text": "Narcissistic personality disorder",
+          "url": "https://wikem.org/wiki/Narcissistic_personality_disorder"
+        },
+        {
+          "text": "Avoidant personality disorder",
+          "url": "https://wikem.org/wiki/Avoidant_personality_disorder"
+        },
+        {
+          "text": "Dependent personality disorder",
+          "url": "https://wikem.org/wiki/Dependent_personality_disorder"
+        },
+        {
+          "text": "Obsessive-compulsive personality disorder",
+          "url": "https://wikem.org/wiki/Obsessive-compulsive_personality_disorder"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "drug_name": "Pertussis",
+  "url": "https://wikem.org/wiki/Pertussis",
+  "scraped_at": "2026-01-10T07:59:49.806612",
+  "sections": {
+    "Background": {
+      "text": "“Whooping cough”.  The “whoop” is caused on inspiration between coughs.\n[1]\nMost common in kids < 1yo, because they haven’t completed the whole vaccine series,\nAND\nadults, who have waning immunity.\nOne of the only vaccine preventable diseases that has increased in prevalence recently\nUp to 20% of adults with cough >2 weeks have serologic evidence of pertussis\n[2]\nBordetella pertussis, a\ngram-negative\ncoccobacillus",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Transmitted by aerosolized droplets, extremely contagious\nInfects ciliated respiratory cells (rarely goes hematogenous), creates toxins damaging respiratory epithelium.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Transmitted by aerosolized droplets, extremely contagious\nInfects ciliated respiratory cells (rarely goes hematogenous), creates toxins damaging respiratory epithelium.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation period several days-3 weeks\n3 stages:\nCatarrhal phase: lasts 1-2 wks\nClinically indistinguishable from other\nURIs\n; dry\ncough\nstarts near the end\nGreatest infectivity phase.\nParoxysmal phase: lasts 2-4 weeks\nFever\nimproves,\ncough\nworsens\nStaccato cough + whoop (present in 1/3 kids), post-tussive emesis (often in adolescents, adults)\nInfants can present as apnea\nPatients often appear well between coughing episodes.\nPetechiae\n,\nepistaxis\n,\npneumothorax\n, and/or\nsubconjunctival hemorrhage\nmay occur due to high intrathoracic pressures during coughing.\nConvalescent phase: lasts weeks-months; residual cough",
+      "subsections": {
+        "Sequelae": {
+          "text": "Pneumonia\nsuperinfections\nRib fracture\nPneumothorax\nAspiration\nof gastric contents\nCNS complications\nMucous plugs, obstructed airway\nSecondary bacterial infection\nIncreased intrathoracic pressures\nRectal prolapse\nRuptured diaphragm\nHernia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URIs",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aspiration",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        }
+      ]
+    },
+    "Sequelae": {
+      "text": "Pneumonia\nsuperinfections\nRib fracture\nPneumothorax\nAspiration\nof gastric contents\nCNS complications\nMucous plugs, obstructed airway\nSecondary bacterial infection\nIncreased intrathoracic pressures\nRectal prolapse\nRuptured diaphragm\nHernia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aspiration",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_Shortness_of_Breath": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "WBC elevated\nin infants (20-100) with large amount of lymphs (85%), adults and infants < 6 mo may be WNL\nCXR\nwith peribronchial thickening, atelectasis, and/or consolidation\nNasopharyngeal swab can identify it in 3-7 days; often neg in adults.\nCough for >2 weeks, post tussive emesis, feeling well otherwise, treat them empirically.  Especially if infant or pregnant people at home.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "WBC elevated",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_Disease": {
+          "text": "Supportive\nSuction in infants, hydration.  Neonates with apnea should be admitted to the ICU.",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Antibiotics do not help with severity or duration but may decrease infectivity.\nA reasonable guideline is to treat persons aged >1 year within 3 weeks of cough onset and infants aged <1 year and pregnant women (especially near term) within 6 weeks of cough onset.\n[5]\nTMP--SMZ should not be administered to pregnant women, nursing mothers, or infants aged <2 months.\n[6]\nThe following regemins are for active disease or postexposure prophylaxis.  If a patient is has confirmed disease and is likely to be in contact with infants or pregnant women then the patient should be treated as up to 6-8 weeks after the onset of their illness.",
+          "tables": []
+        },
+        "<_1_month_old": {
+          "text": "Same antibiotics for active disease and postexposure prophylaxis\nAzithromycin\n10mg/kg (max 500mg/day) daily x 5 days",
+          "tables": []
+        },
+        ">1_month_old": {
+          "text": "Azithromycin\n10mg/kg (max 500mg/day) daily x 5 days\nif > 6 months old then day 2-5 of treatment should be reduced to 5mg/kg (250mg/day max)\nTMP/SMX\n4mg/kg PO BID daily for 14 days (if > 2 months old)",
+          "tables": []
+        },
+        "Adults": {
+          "text": "any of the following antibiotics are acceptable although azithromycin is most commonly prescribed\nAzithromycin\n500mg PO once daily for day #1 then 250mg PO once daily for days #2-5\nClarithromycin\n500mg BID x7 days\nErythromycin\n500mg QID x7 days",
+          "tables": []
+        },
+        "Isolation": {
+          "text": "Droplet",
+          "tables": []
+        },
+        "Post-Exposure_Prophylaxis": {
+          "text": "Prophylaxis for all household exposures of known Pertussis\nHigh risk people exposed to pertussis: infants, women in 3rd trimester of pregnancy, immunocompromised, severe\nasthma\n, people with close contact to infants <1year, people who work in neonatal ICUs / maternity wards.\nPatients are considered considerably less infectious 3 weeks after start of paroxysmal phase, or after 5 days of\nantibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Acute_Disease": {
+      "text": "Supportive\nSuction in infants, hydration.  Neonates with apnea should be admitted to the ICU.",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Antibiotics do not help with severity or duration but may decrease infectivity.\nA reasonable guideline is to treat persons aged >1 year within 3 weeks of cough onset and infants aged <1 year and pregnant women (especially near term) within 6 weeks of cough onset.\n[5]\nTMP--SMZ should not be administered to pregnant women, nursing mothers, or infants aged <2 months.\n[6]\nThe following regemins are for active disease or postexposure prophylaxis.  If a patient is has confirmed disease and is likely to be in contact with infants or pregnant women then the patient should be treated as up to 6-8 weeks after the onset of their illness.",
+          "tables": []
+        },
+        "<_1_month_old": {
+          "text": "Same antibiotics for active disease and postexposure prophylaxis\nAzithromycin\n10mg/kg (max 500mg/day) daily x 5 days",
+          "tables": []
+        },
+        ">1_month_old": {
+          "text": "Azithromycin\n10mg/kg (max 500mg/day) daily x 5 days\nif > 6 months old then day 2-5 of treatment should be reduced to 5mg/kg (250mg/day max)\nTMP/SMX\n4mg/kg PO BID daily for 14 days (if > 2 months old)",
+          "tables": []
+        },
+        "Adults": {
+          "text": "any of the following antibiotics are acceptable although azithromycin is most commonly prescribed\nAzithromycin\n500mg PO once daily for day #1 then 250mg PO once daily for days #2-5\nClarithromycin\n500mg BID x7 days\nErythromycin\n500mg QID x7 days",
+          "tables": []
+        },
+        "Isolation": {
+          "text": "Droplet",
+          "tables": []
+        },
+        "Post-Exposure_Prophylaxis": {
+          "text": "Prophylaxis for all household exposures of known Pertussis\nHigh risk people exposed to pertussis: infants, women in 3rd trimester of pregnancy, immunocompromised, severe\nasthma\n, people with close contact to infants <1year, people who work in neonatal ICUs / maternity wards.\nPatients are considered considerably less infectious 3 weeks after start of paroxysmal phase, or after 5 days of\nantibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Antibiotics do not help with severity or duration but may decrease infectivity.\nA reasonable guideline is to treat persons aged >1 year within 3 weeks of cough onset and infants aged <1 year and pregnant women (especially near term) within 6 weeks of cough onset.\n[5]\nTMP--SMZ should not be administered to pregnant women, nursing mothers, or infants aged <2 months.\n[6]\nThe following regemins are for active disease or postexposure prophylaxis.  If a patient is has confirmed disease and is likely to be in contact with infants or pregnant women then the patient should be treated as up to 6-8 weeks after the onset of their illness.",
+      "subsections": {
+        "<_1_month_old": {
+          "text": "Same antibiotics for active disease and postexposure prophylaxis\nAzithromycin\n10mg/kg (max 500mg/day) daily x 5 days",
+          "tables": []
+        },
+        ">1_month_old": {
+          "text": "Azithromycin\n10mg/kg (max 500mg/day) daily x 5 days\nif > 6 months old then day 2-5 of treatment should be reduced to 5mg/kg (250mg/day max)\nTMP/SMX\n4mg/kg PO BID daily for 14 days (if > 2 months old)",
+          "tables": []
+        },
+        "Adults": {
+          "text": "any of the following antibiotics are acceptable although azithromycin is most commonly prescribed\nAzithromycin\n500mg PO once daily for day #1 then 250mg PO once daily for days #2-5\nClarithromycin\n500mg BID x7 days\nErythromycin\n500mg QID x7 days",
+          "tables": []
+        },
+        "Isolation": {
+          "text": "Droplet",
+          "tables": []
+        },
+        "Post-Exposure_Prophylaxis": {
+          "text": "Prophylaxis for all household exposures of known Pertussis\nHigh risk people exposed to pertussis: infants, women in 3rd trimester of pregnancy, immunocompromised, severe\nasthma\n, people with close contact to infants <1year, people who work in neonatal ICUs / maternity wards.\nPatients are considered considerably less infectious 3 weeks after start of paroxysmal phase, or after 5 days of\nantibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Isolation": {
+      "text": "Droplet",
+      "subsections": {
+        "Post-Exposure_Prophylaxis": {
+          "text": "Prophylaxis for all household exposures of known Pertussis\nHigh risk people exposed to pertussis: infants, women in 3rd trimester of pregnancy, immunocompromised, severe\nasthma\n, people with close contact to infants <1year, people who work in neonatal ICUs / maternity wards.\nPatients are considered considerably less infectious 3 weeks after start of paroxysmal phase, or after 5 days of\nantibiotics",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Post-Exposure_Prophylaxis": {
+      "text": "Prophylaxis for all household exposures of known Pertussis\nHigh risk people exposed to pertussis: infants, women in 3rd trimester of pregnancy, immunocompromised, severe\nasthma\n, people with close contact to infants <1year, people who work in neonatal ICUs / maternity wards.\nPatients are considered considerably less infectious 3 weeks after start of paroxysmal phase, or after 5 days of\nantibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Vaccinate women during each pregnancy preferably between 27-36 wks, regardless of previous Tdap admin\nImmunity wanes 8 y after immunization.  Often elderly will get the disease and transmit it to young unimmunized infants.",
+      "subsections": {
+        "Tetanus_Vaccine_Selection_Guide": {
+          "text": "Caveats\nAdolescents who have already gotten a booster dose of Td are encouraged to get a dose of Tdap as well. Waiting 5 years after their last Td is encouraged but not required. A period of at least 2 years between Td and Tdap is recommended in these cases.\nPregnancy is not a contraindication to Tdap. The only true contraindication to tetanus immunization is a history of neurologic or severe hypersensitivity to a previous dose.\nStable neurologic disorders and family history of vaccine reactions are not contraindications to receiving these vaccines.\nNo vaccine has ever been shown to play any role in the development of autism or autism spectrum disorders.",
+          "tables": [
+            [
+              {
+                "Age": "2mo - 7yrs",
+                "If No Pertussis Contraindications": "DTaP",
+                "If Pertussis Contraindicated": "DT",
+                "Comments": "DT available from pharmacy"
+              },
+              {
+                "Age": "7yrs - 10yrs",
+                "If No Pertussis Contraindications": "Td",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": ""
+              },
+              {
+                "Age": "10yrs",
+                "If No Pertussis Contraindications": "Tdap(Adacel)^",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "^Off label use, but appears safe and immunogenic"
+              },
+              {
+                "Age": "11yrs - 16yrs",
+                "If No Pertussis Contraindications": "Tdap(Adacel)",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": ""
+              },
+              {
+                "Age": "16yrs - 65",
+                "If No Pertussis Contraindications": "Tdap(Adacel)^^",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "^^Use Td if patient is known to have received prior Tdap"
+              },
+              {
+                "Age": "65yrs +",
+                "If No Pertussis Contraindications": "Td",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "Consider TIG for tetanus prone wound plus Td(tetanus immune globulin)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tetanus_Vaccine_Selection_Guide": {
+      "text": "Caveats\nAdolescents who have already gotten a booster dose of Td are encouraged to get a dose of Tdap as well. Waiting 5 years after their last Td is encouraged but not required. A period of at least 2 years between Td and Tdap is recommended in these cases.\nPregnancy is not a contraindication to Tdap. The only true contraindication to tetanus immunization is a history of neurologic or severe hypersensitivity to a previous dose.\nStable neurologic disorders and family history of vaccine reactions are not contraindications to receiving these vaccines.\nNo vaccine has ever been shown to play any role in the development of autism or autism spectrum disorders.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "2mo - 7yrs",
+            "If No Pertussis Contraindications": "DTaP",
+            "If Pertussis Contraindicated": "DT",
+            "Comments": "DT available from pharmacy"
+          },
+          {
+            "Age": "7yrs - 10yrs",
+            "If No Pertussis Contraindications": "Td",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": ""
+          },
+          {
+            "Age": "10yrs",
+            "If No Pertussis Contraindications": "Tdap(Adacel)^",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "^Off label use, but appears safe and immunogenic"
+          },
+          {
+            "Age": "11yrs - 16yrs",
+            "If No Pertussis Contraindications": "Tdap(Adacel)",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": ""
+          },
+          {
+            "Age": "16yrs - 65",
+            "If No Pertussis Contraindications": "Tdap(Adacel)^^",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "^^Use Td if patient is known to have received prior Tdap"
+          },
+          {
+            "Age": "65yrs +",
+            "If No Pertussis Contraindications": "Td",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "Consider TIG for tetanus prone wound plus Td(tetanus immune globulin)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tdap\nVaccination schedule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tdap",
+          "url": "https://wikem.org/wiki/Tdap"
+        },
+        {
+          "text": "Vaccination schedule",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        }
+      ]
+    }
+  }
+}

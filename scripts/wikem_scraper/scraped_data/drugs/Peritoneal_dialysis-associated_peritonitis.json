@@ -1,0 +1,436 @@
+{
+  "drug_name": "Peritoneal_dialysis-associated_peritonitis",
+  "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis",
+  "scraped_at": "2026-01-10T07:59:42.181079",
+  "sections": {
+    "Background": {
+      "text": "Most common complication of peritoneal dialysis.  The patient uses their peritoneum as a dialysis membrane in conjunction with a surgically placed dialysis catheter that penetrates the abdominal wall.  Either at night or multiple times during the day peritoneal fluid is infused into the abdomen in an ambulatory setting or at home.\nDiagnosis of peritonitis usually is made by the patient when a cloudy dialysis effluent is noted, increased abdominal pain or white blood cells (WBCs) in the dialysate",
+      "subsections": {
+        "Causative_Organisms": {
+          "text": "Staphylococcus aureus\nor\nStaphylococcus epidermidis\nmost common\nGram-negative\nenteric organisms.\nIncreased risk of\nMRSA\nrelated infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Staphylococcus epidermidis",
+          "url": "https://wikem.org/wiki/Staphylococcus_epidermidis"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        }
+      ]
+    },
+    "Causative_Organisms": {
+      "text": "Staphylococcus aureus\nor\nStaphylococcus epidermidis\nmost common\nGram-negative\nenteric organisms.\nIncreased risk of\nMRSA\nrelated infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Staphylococcus epidermidis",
+          "url": "https://wikem.org/wiki/Staphylococcus_epidermidis"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Presentation no different from other causes of\nperitonitis\nIncluding\nabdominal pain\n,\nfever\nand rebound tenderness\nPatients may report a cloudy dialysate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Abdominal pain\nstandard differential also applies to patients with peritoneal dialysis, in addition to concern for peritonitis",
+      "subsections": {
+        "Dialysis_Complications": {
+          "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+          "tables": []
+        },
+        "Cloudy_Effluent_Differential": {
+          "text": "Culture-positive infectious\nPeritonitis\nInfectious peritonitis with sterile cultures\nChemical peritonitis\nEosinophilia\nof the effluent\nHemoperitoneum\nMalignancy\nChylous effluent (rare)\nSpecimen taken from “dry” abdomen",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Dialysis_Complications": {
+      "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+      "subsections": {
+        "Cloudy_Effluent_Differential": {
+          "text": "Culture-positive infectious\nPeritonitis\nInfectious peritonitis with sterile cultures\nChemical peritonitis\nEosinophilia\nof the effluent\nHemoperitoneum\nMalignancy\nChylous effluent (rare)\nSpecimen taken from “dry” abdomen",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Cloudy_Effluent_Differential": {
+      "text": "Culture-positive infectious\nPeritonitis\nInfectious peritonitis with sterile cultures\nChemical peritonitis\nEosinophilia\nof the effluent\nHemoperitoneum\nMalignancy\nChylous effluent (rare)\nSpecimen taken from “dry” abdomen",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Send dialysate fluid for cell count, Gram stain, culture (if available)\nCell count >100/mm\n3\nwith >50% neutrophils most consistent with infection\n[1]",
+      "subsections": {
+        "Special_Considerations": {
+          "text": "There must be dialysis fluid \"dwelling\" within the patient for adequate fluid collection.  If the patient is not \"dwelling\" then coordination with nephrology is required to infuse fluid to be used to sample the peritoneum. Fluid may be required to \"dwell\" for a few hours prior to collection.",
+          "tables": []
+        },
+        "CT_Abdominal_Scan": {
+          "text": "Perform only if necessary as part of the\nabdominal pain\nworkup, to rule-out other (secondary) causes of peritonitis\nCT WITHOUT IV contrast\nPatients are dependent on small amounts of residual renal function and thus risk of contrast outweighs benefits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Special_Considerations": {
+      "text": "There must be dialysis fluid \"dwelling\" within the patient for adequate fluid collection.  If the patient is not \"dwelling\" then coordination with nephrology is required to infuse fluid to be used to sample the peritoneum. Fluid may be required to \"dwell\" for a few hours prior to collection.",
+      "subsections": {
+        "CT_Abdominal_Scan": {
+          "text": "Perform only if necessary as part of the\nabdominal pain\nworkup, to rule-out other (secondary) causes of peritonitis\nCT WITHOUT IV contrast\nPatients are dependent on small amounts of residual renal function and thus risk of contrast outweighs benefits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "CT_Abdominal_Scan": {
+      "text": "Perform only if necessary as part of the\nabdominal pain\nworkup, to rule-out other (secondary) causes of peritonitis\nCT WITHOUT IV contrast\nPatients are dependent on small amounts of residual renal function and thus risk of contrast outweighs benefits",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Empiric_Therapy_(IP)": {
+          "text": "10- to 14-day course of intraperitoneal (IP) antibiotics that are administered by the patient on an outpatient basis or IV antibiotics and intraperitoneal for admitted patients\nVancomycin\n30mg/kg loading followed by 0.6 mg/kg IP daily  PLUS\n[2]\nCeftazidime\n1g IP daily OR\nGentamycin\n0.6mg/kg daily\nCatheter removal/exchange is usually only done if IP antibiotics fail (fungal, pseudomonal), and should be done in consultation with a nephrologist\n[3]",
+          "tables": []
+        },
+        "Empiric_Tharapy_(IV)": {
+          "text": "Although IP antibiotics are preferred IV antibiotics can be considered with coordination with nephrology for dosing. Coverage should be the same as IP antibiotics\n[4]\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "In consultation with nephrology service:\nDepending on patient reliability and level of illness, outpatient peritoneal antibiotics vs. inpatient therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications\nSpontaneous bacterial peritonitis\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

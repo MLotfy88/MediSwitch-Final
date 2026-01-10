@@ -1,0 +1,74 @@
+{
+  "drug_name": "Peripheral_IV_placement",
+  "url": "https://wikem.org/wiki/Peripheral_IV_placement",
+  "scraped_at": "2026-01-10T07:59:43.766463",
+  "sections": {
+    "Overview": {
+      "text": "Most common method of obtaining vascular access, may be performed by several members of the healthcare team\n[1]\nTypically inserted in the arm (median cubital vein, basilic vein, cephalic vein)\nAlternative sites include forearm, wrist, hand, leg, foot,\nneck\n, or scalp",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neck",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "IV fluid administration/blood products\nIV medications\nIV contrast for CT, MRI, or nuclear imaging\nIV nutritional support\nRepeated venous blood sampling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications\nAvoid infected, injured, or burned extremities if possible",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Tourniquet\nTransparent dressing (tegaderm)\nNonsterile gloves\nAntiseptic solution (alcohol prep pad or chlorhexidine)\n2X2 gauze\nVenous access device (16 gauge, 18 gauge, 20 gauge, etc.)\nSaline or heparin lock\nTape (paper tape preferred)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Prep equipment (open packages for items, prepare tape, prepare saline lock/IV line, identify sharps bin)\nApply tourniquet proximal to desired site\nCleanse site with antiseptic solution\nRe-check vein\nInsert needle, bevel up, at 10-30 degree angle, 1-2 cm distal to the desired target\nAdvance needle until flash of blood is identified in the cannula\nPush needle forward an additional 2mm, then fix the needle and advance the rest of the catheter.\nRelease the tourniquet, apply pressure above insertion site, then remove needle completely\nDispose needle into sharps bin\nAttach saline lock or IV extension line\nSecure with tegaderm or tape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Failure to access vein\nExtravasation of fluid/medication\nArterial Puncture\nThrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Central venous catheterization\nIntraosseous access",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Do Peripheral Vein Cannulation\nMerk Manual - How To Do Peripheral Vein Cannulation (Ultrasound-Guided)\nAlternate IV Access Sites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

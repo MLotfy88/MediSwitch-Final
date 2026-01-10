@@ -1,0 +1,458 @@
+{
+  "drug_name": "Pelvic_ultrasound_(transvaginal)",
+  "url": "https://wikem.org/wiki/Pelvic_ultrasound_(transvaginal)",
+  "scraped_at": "2026-01-10T07:59:41.222993",
+  "sections": {
+    "Background": {
+      "text": "Also known as endovaginal ultrasound\nUsed to evaluate female reproductive organs including uterus, ovaries, fallopian tubes, cervix, and vagina",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Pelvic pain\nAbnormal pelvic or abdominal exam",
+          "tables": []
+        },
+        "Uterus": {
+          "text": "Vaginal bleeding\nFibroids\nIUD placement",
+          "tables": []
+        },
+        "Ovaries_and_adnexa": {
+          "text": "Ovarian cyst\nOvarian torsion\nOvarian masses\nTubo-ovarian abscess\nHydrosalpinx",
+          "tables": []
+        },
+        "Pregnancy": {
+          "text": "Confirm intrauterine pregnancy\nGestational dating\nFetal monitoring and surveillance\nEvaluation of placenta\nSpontaneous abortion\nIntrauterine fetal demise\nEctopic pregnancy\nHeterotopic pregnancy\nMolar pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "General": {
+      "text": "Pelvic pain\nAbnormal pelvic or abdominal exam",
+      "subsections": {
+        "Uterus": {
+          "text": "Vaginal bleeding\nFibroids\nIUD placement",
+          "tables": []
+        },
+        "Ovaries_and_adnexa": {
+          "text": "Ovarian cyst\nOvarian torsion\nOvarian masses\nTubo-ovarian abscess\nHydrosalpinx",
+          "tables": []
+        },
+        "Pregnancy": {
+          "text": "Confirm intrauterine pregnancy\nGestational dating\nFetal monitoring and surveillance\nEvaluation of placenta\nSpontaneous abortion\nIntrauterine fetal demise\nEctopic pregnancy\nHeterotopic pregnancy\nMolar pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "Uterus": {
+      "text": "Vaginal bleeding\nFibroids\nIUD placement",
+      "subsections": {
+        "Ovaries_and_adnexa": {
+          "text": "Ovarian cyst\nOvarian torsion\nOvarian masses\nTubo-ovarian abscess\nHydrosalpinx",
+          "tables": []
+        },
+        "Pregnancy": {
+          "text": "Confirm intrauterine pregnancy\nGestational dating\nFetal monitoring and surveillance\nEvaluation of placenta\nSpontaneous abortion\nIntrauterine fetal demise\nEctopic pregnancy\nHeterotopic pregnancy\nMolar pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "Ovaries_and_adnexa": {
+      "text": "Ovarian cyst\nOvarian torsion\nOvarian masses\nTubo-ovarian abscess\nHydrosalpinx",
+      "subsections": {
+        "Pregnancy": {
+          "text": "Confirm intrauterine pregnancy\nGestational dating\nFetal monitoring and surveillance\nEvaluation of placenta\nSpontaneous abortion\nIntrauterine fetal demise\nEctopic pregnancy\nHeterotopic pregnancy\nMolar pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "Pregnancy": {
+      "text": "Confirm intrauterine pregnancy\nGestational dating\nFetal monitoring and surveillance\nEvaluation of placenta\nSpontaneous abortion\nIntrauterine fetal demise\nEctopic pregnancy\nHeterotopic pregnancy\nMolar pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Use 5 MHz endocavitary probe (high frequency, low penetration)\nApply surgical lubricant inside and outside probe cover\nPlace patient in lithotomy position\nGently advance probe into vaginal canal and position adjacent to cervix\nMay be more comfortable for patient to insert probe into vagina herself\nApply gentle pressure to lower abdominal wall with one hand and manipulate probe with other hand",
+          "tables": []
+        },
+        "Longitudinal_scan": {
+          "text": "Probe marker pointing at 12:00\nShows anterior structures on left side of screen\nBegin midline at endometrial stripe\nScan from right to left through uterus\nMove probe laterally to view adnexa and ovaries",
+          "tables": []
+        },
+        "Transverse_scan": {
+          "text": "Rotate probe 90 degrees counterclockwise so probe marker is pointing at 9:00\nShows right-sided structures on left side of screen\nStart at endometrial stripe and scan throughout uterus\nLocate cornual flare (junction of uterus and fallopian tubes)\nMove probe laterally along fallopian tube to locate ovary\nOvaries identified by follicular (anechoic or hypoechoic) structures\nUterus in longitudinal plane\nCornual flare (uterus and fallopian tube junction) in transverse plane\nNormal ovary with follicles",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "Use 5 MHz endocavitary probe (high frequency, low penetration)\nApply surgical lubricant inside and outside probe cover\nPlace patient in lithotomy position\nGently advance probe into vaginal canal and position adjacent to cervix\nMay be more comfortable for patient to insert probe into vagina herself\nApply gentle pressure to lower abdominal wall with one hand and manipulate probe with other hand",
+      "subsections": {
+        "Longitudinal_scan": {
+          "text": "Probe marker pointing at 12:00\nShows anterior structures on left side of screen\nBegin midline at endometrial stripe\nScan from right to left through uterus\nMove probe laterally to view adnexa and ovaries",
+          "tables": []
+        },
+        "Transverse_scan": {
+          "text": "Rotate probe 90 degrees counterclockwise so probe marker is pointing at 9:00\nShows right-sided structures on left side of screen\nStart at endometrial stripe and scan throughout uterus\nLocate cornual flare (junction of uterus and fallopian tubes)\nMove probe laterally along fallopian tube to locate ovary\nOvaries identified by follicular (anechoic or hypoechoic) structures\nUterus in longitudinal plane\nCornual flare (uterus and fallopian tube junction) in transverse plane\nNormal ovary with follicles",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Longitudinal_scan": {
+      "text": "Probe marker pointing at 12:00\nShows anterior structures on left side of screen\nBegin midline at endometrial stripe\nScan from right to left through uterus\nMove probe laterally to view adnexa and ovaries",
+      "subsections": {
+        "Transverse_scan": {
+          "text": "Rotate probe 90 degrees counterclockwise so probe marker is pointing at 9:00\nShows right-sided structures on left side of screen\nStart at endometrial stripe and scan throughout uterus\nLocate cornual flare (junction of uterus and fallopian tubes)\nMove probe laterally along fallopian tube to locate ovary\nOvaries identified by follicular (anechoic or hypoechoic) structures\nUterus in longitudinal plane\nCornual flare (uterus and fallopian tube junction) in transverse plane\nNormal ovary with follicles",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transverse_scan": {
+      "text": "Rotate probe 90 degrees counterclockwise so probe marker is pointing at 9:00\nShows right-sided structures on left side of screen\nStart at endometrial stripe and scan throughout uterus\nLocate cornual flare (junction of uterus and fallopian tubes)\nMove probe laterally along fallopian tube to locate ovary\nOvaries identified by follicular (anechoic or hypoechoic) structures\nUterus in longitudinal plane\nCornual flare (uterus and fallopian tube junction) in transverse plane\nNormal ovary with follicles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Normal_Findings": {
+      "text": "",
+      "subsections": {
+        "Uterus_2": {
+          "text": "Anteverted: Fundus pointing to anterior abdominal wall\nRetroverted: Fundus pointing to posterior wall\nEndometrial stripe: Measured from thickest echogenic area (from one basal endometrial interface to the other, including canal)\nPre-menopausal:\nDuring menstruation: 2-4mm\nEarly proliferative phase: 5-7mm\nLate proliferative phase: 11mm\nSecretory phase: 7-16mm\nAfter D&C or SAB: >5mm\nConsider retained POC if thicker\nPost-menopausal:\nWith vaginal bleeding: <5mm\nWithout vaginal bleeding: <11mm\nNormal thickened endometrial stripe during secretory phase\nNormal thin endometrial stripe during menses",
+          "tables": []
+        },
+        "Ovaries": {
+          "text": "Physiologic cysts present\n<3 cm diameter\nOvarian follicle or corpus luteum\nTypically don't cause complications",
+          "tables": []
+        },
+        "Pregnancy_(1st_trimester)": {
+          "text": "4-5 weeks\nGestational sac\nFirst sign of early pregnancy, usually seen between 3-5 weeks gestation\n\"Double decidual sac\" sign\nTwo concentric rings (uterine lining and gestation lining) around anechoic gestational sac)\nHighly suggestive of intrauterine pregnancy (before yolk sac or embryo embryo visualized\n\"Intradecidual sign\"\nThickened decidua on one side of uterine cavity surrounding anechoeic sac\n5-6 weeks:\nYolk Sac\nCircular (or sometimes as two parallel lines) echogenic structure with thick walls within gestational sac\nDefinitive evidence of intrauterine pregnancy\nMultiple yolk sacs is earliest sign in multiple gestational pregnancy\n\"Double bleb\" sign\nYolk sac and amniotic cavity that look like two bubbles within gestational sac\n6-7 weeks\nFetal Pole\nFirst visual manifestation of fetus (or \"embryo\")\nThickening of margin on yolk sac\nCardiac activity present (FHR ~100-115 bpm)\nCrown rump length: ~5mm\n8-9 weeks\nLimb buds appear\nHead identifiable\n9-10 weeks\nFHR ~170-180 bpm\nFetal movement visible\nEnd of embryonic period\nDouble decidual sac sign\nIntradecidual sign\nDouble bleb sign (yolk sac and amniotic cavity)\nFetal pole (Thickening of yolk sac on one side)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uterus_2": {
+      "text": "Anteverted: Fundus pointing to anterior abdominal wall\nRetroverted: Fundus pointing to posterior wall\nEndometrial stripe: Measured from thickest echogenic area (from one basal endometrial interface to the other, including canal)\nPre-menopausal:\nDuring menstruation: 2-4mm\nEarly proliferative phase: 5-7mm\nLate proliferative phase: 11mm\nSecretory phase: 7-16mm\nAfter D&C or SAB: >5mm\nConsider retained POC if thicker\nPost-menopausal:\nWith vaginal bleeding: <5mm\nWithout vaginal bleeding: <11mm\nNormal thickened endometrial stripe during secretory phase\nNormal thin endometrial stripe during menses",
+      "subsections": {
+        "Ovaries": {
+          "text": "Physiologic cysts present\n<3 cm diameter\nOvarian follicle or corpus luteum\nTypically don't cause complications",
+          "tables": []
+        },
+        "Pregnancy_(1st_trimester)": {
+          "text": "4-5 weeks\nGestational sac\nFirst sign of early pregnancy, usually seen between 3-5 weeks gestation\n\"Double decidual sac\" sign\nTwo concentric rings (uterine lining and gestation lining) around anechoic gestational sac)\nHighly suggestive of intrauterine pregnancy (before yolk sac or embryo embryo visualized\n\"Intradecidual sign\"\nThickened decidua on one side of uterine cavity surrounding anechoeic sac\n5-6 weeks:\nYolk Sac\nCircular (or sometimes as two parallel lines) echogenic structure with thick walls within gestational sac\nDefinitive evidence of intrauterine pregnancy\nMultiple yolk sacs is earliest sign in multiple gestational pregnancy\n\"Double bleb\" sign\nYolk sac and amniotic cavity that look like two bubbles within gestational sac\n6-7 weeks\nFetal Pole\nFirst visual manifestation of fetus (or \"embryo\")\nThickening of margin on yolk sac\nCardiac activity present (FHR ~100-115 bpm)\nCrown rump length: ~5mm\n8-9 weeks\nLimb buds appear\nHead identifiable\n9-10 weeks\nFHR ~170-180 bpm\nFetal movement visible\nEnd of embryonic period\nDouble decidual sac sign\nIntradecidual sign\nDouble bleb sign (yolk sac and amniotic cavity)\nFetal pole (Thickening of yolk sac on one side)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ovaries": {
+      "text": "Physiologic cysts present\n<3 cm diameter\nOvarian follicle or corpus luteum\nTypically don't cause complications",
+      "subsections": {
+        "Pregnancy_(1st_trimester)": {
+          "text": "4-5 weeks\nGestational sac\nFirst sign of early pregnancy, usually seen between 3-5 weeks gestation\n\"Double decidual sac\" sign\nTwo concentric rings (uterine lining and gestation lining) around anechoic gestational sac)\nHighly suggestive of intrauterine pregnancy (before yolk sac or embryo embryo visualized\n\"Intradecidual sign\"\nThickened decidua on one side of uterine cavity surrounding anechoeic sac\n5-6 weeks:\nYolk Sac\nCircular (or sometimes as two parallel lines) echogenic structure with thick walls within gestational sac\nDefinitive evidence of intrauterine pregnancy\nMultiple yolk sacs is earliest sign in multiple gestational pregnancy\n\"Double bleb\" sign\nYolk sac and amniotic cavity that look like two bubbles within gestational sac\n6-7 weeks\nFetal Pole\nFirst visual manifestation of fetus (or \"embryo\")\nThickening of margin on yolk sac\nCardiac activity present (FHR ~100-115 bpm)\nCrown rump length: ~5mm\n8-9 weeks\nLimb buds appear\nHead identifiable\n9-10 weeks\nFHR ~170-180 bpm\nFetal movement visible\nEnd of embryonic period\nDouble decidual sac sign\nIntradecidual sign\nDouble bleb sign (yolk sac and amniotic cavity)\nFetal pole (Thickening of yolk sac on one side)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Findings": {
+      "text": "",
+      "subsections": {
+        "Abnormal_Pregnancy": {
+          "text": "Gestational sac >10mm without visible yolk sac\nGestational sac >18mm without fetal pole\nCollapsed gestational sac\nPseudogestational sac\nEndometrial breakdown during\nectopic pregnancy\nMay be erroneously interpreted as true gestational sac in ectopic pregnancy\nIrregularly shaped\nLocated in endometrial cavity, instead of eccentrically within endometrium\nNo yolk sac present\nMay not have double decidual sac sign\nAbsence of fetal heart beat in embryo with CRL >5mm\nFHR <90 bpm\nMolar pregnancy\nMany small, irregular cystic structures in endometrium\n\"Snowstorm appearance\"\nGestational sac greater than 10mm without yolk sac\nGestational sac greater than 18mm without fetal pole\nCollapsed gestational sac\nPseudogestational sac\nMolar pregnancy with multiple cystic lesions in endometrium (\"snowstorm appearance\")",
+          "tables": []
+        },
+        "Ectopic_pregnancy": {
+          "text": "Implantation of blastocyst outside of endometrium\nOccur in fallopian tubes, cervix, ovaries, peritoneal cavity, or scar of prior uterine surgery\nMost definitive sonographic sign is gestational sac with yolk sac, embryo, or fetal heart beat outside of the endometrium\nTubal pregnancy\n\"Tubal ring\" sign: echogenic thick-walled anechoic sac visualized between uterus and ovary (separate from ovary when pressure applied to fallopian tube with probe)\nInterstitial Pregnancy\nImplantation of gestational sac in muscular wall of uterus at proximal regional of fallopian tubes\n\"Interstitial line\" sign: hyperechoic line from endometrial stripe to cornual region adjacent to interstitial gestational sac\nCervical Pregnancy\nImplantation of gestational sac below internal cervical os\nCan cause life-threatening hemorrhage\nMust distinguish between cervical ectopic and spontaneous abortion at level of cervix:\nEctopic pregnancy\nFree fluid in cul-de-sac with no gestational sac visualized in uterus\nEctopic pregnancy between ovary and uterus, suggestive of tubal ectopic\nInterstitial pregnancy\nCervical pregnancy",
+          "tables": [
+            [
+              {
+                "Cervical ectopic": "Hour-glass shaped uterus",
+                "Spontaneous abortion at cervix": "Elongated gestational sac"
+              },
+              {
+                "Cervical ectopic": "Gestational sac with yolk sac, fetal pole, or heartbeat",
+                "Spontaneous abortion at cervix": "Absent embryonic cardiac activity"
+              },
+              {
+                "Cervical ectopic": "Closed internal os",
+                "Spontaneous abortion at cervix": "Dilated internal os"
+              },
+              {
+                "Cervical ectopic": "Color doppler showing hypervascular trophoblastic ring",
+                "Spontaneous abortion at cervix": "Sac moves in cervix with gentle probing (“Sliding sac sign”)"
+              },
+              {
+                "Cervical ectopic": "Empty uterine cavity",
+                "Spontaneous abortion at cervix": "Loss of sac on serial imaging"
+              },
+              {
+                "Cervical ectopic": ""
+              }
+            ]
+          ]
+        },
+        "Ovarian_Torsion": {
+          "text": "Bimodal age distribution: young women (15-30yo) and post-menopausal women\nTypically occur in enlarged ovaries (>5cm)\nBenign mature cystic teratomas\nHemorrhagic/large ovarian cysts\nCystic neoplasms\nCystadenomas\nPolycystic ovarian syndrome\nSonographic signs associated with torsion\nEnlarged ovary from edema, engorgement, hemorrhage\nMidline ovary\nFree pelvic fluid\nUnderlying ovarian lesions\nPeripherally displaced follicular cysts\nDoppler findings:\nDecreased/absent venous or arterial flow\nAbsent/reversed diastolic flow\nCan have normal flow (from dual supply from uterine and ovarian arteries)\nLarge ovarian cystadenoma\nHemorrhagic ovarian cyst with blood clot\nLarge midline ovary with multiple peripherally located follicular cysts (torsion)\nAbsent color doppler and venous and arterial waveforms (torsion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "Abnormal_Pregnancy": {
+      "text": "Gestational sac >10mm without visible yolk sac\nGestational sac >18mm without fetal pole\nCollapsed gestational sac\nPseudogestational sac\nEndometrial breakdown during\nectopic pregnancy\nMay be erroneously interpreted as true gestational sac in ectopic pregnancy\nIrregularly shaped\nLocated in endometrial cavity, instead of eccentrically within endometrium\nNo yolk sac present\nMay not have double decidual sac sign\nAbsence of fetal heart beat in embryo with CRL >5mm\nFHR <90 bpm\nMolar pregnancy\nMany small, irregular cystic structures in endometrium\n\"Snowstorm appearance\"\nGestational sac greater than 10mm without yolk sac\nGestational sac greater than 18mm without fetal pole\nCollapsed gestational sac\nPseudogestational sac\nMolar pregnancy with multiple cystic lesions in endometrium (\"snowstorm appearance\")",
+      "subsections": {
+        "Ectopic_pregnancy": {
+          "text": "Implantation of blastocyst outside of endometrium\nOccur in fallopian tubes, cervix, ovaries, peritoneal cavity, or scar of prior uterine surgery\nMost definitive sonographic sign is gestational sac with yolk sac, embryo, or fetal heart beat outside of the endometrium\nTubal pregnancy\n\"Tubal ring\" sign: echogenic thick-walled anechoic sac visualized between uterus and ovary (separate from ovary when pressure applied to fallopian tube with probe)\nInterstitial Pregnancy\nImplantation of gestational sac in muscular wall of uterus at proximal regional of fallopian tubes\n\"Interstitial line\" sign: hyperechoic line from endometrial stripe to cornual region adjacent to interstitial gestational sac\nCervical Pregnancy\nImplantation of gestational sac below internal cervical os\nCan cause life-threatening hemorrhage\nMust distinguish between cervical ectopic and spontaneous abortion at level of cervix:\nEctopic pregnancy\nFree fluid in cul-de-sac with no gestational sac visualized in uterus\nEctopic pregnancy between ovary and uterus, suggestive of tubal ectopic\nInterstitial pregnancy\nCervical pregnancy",
+          "tables": [
+            [
+              {
+                "Cervical ectopic": "Hour-glass shaped uterus",
+                "Spontaneous abortion at cervix": "Elongated gestational sac"
+              },
+              {
+                "Cervical ectopic": "Gestational sac with yolk sac, fetal pole, or heartbeat",
+                "Spontaneous abortion at cervix": "Absent embryonic cardiac activity"
+              },
+              {
+                "Cervical ectopic": "Closed internal os",
+                "Spontaneous abortion at cervix": "Dilated internal os"
+              },
+              {
+                "Cervical ectopic": "Color doppler showing hypervascular trophoblastic ring",
+                "Spontaneous abortion at cervix": "Sac moves in cervix with gentle probing (“Sliding sac sign”)"
+              },
+              {
+                "Cervical ectopic": "Empty uterine cavity",
+                "Spontaneous abortion at cervix": "Loss of sac on serial imaging"
+              },
+              {
+                "Cervical ectopic": ""
+              }
+            ]
+          ]
+        },
+        "Ovarian_Torsion": {
+          "text": "Bimodal age distribution: young women (15-30yo) and post-menopausal women\nTypically occur in enlarged ovaries (>5cm)\nBenign mature cystic teratomas\nHemorrhagic/large ovarian cysts\nCystic neoplasms\nCystadenomas\nPolycystic ovarian syndrome\nSonographic signs associated with torsion\nEnlarged ovary from edema, engorgement, hemorrhage\nMidline ovary\nFree pelvic fluid\nUnderlying ovarian lesions\nPeripherally displaced follicular cysts\nDoppler findings:\nDecreased/absent venous or arterial flow\nAbsent/reversed diastolic flow\nCan have normal flow (from dual supply from uterine and ovarian arteries)\nLarge ovarian cystadenoma\nHemorrhagic ovarian cyst with blood clot\nLarge midline ovary with multiple peripherally located follicular cysts (torsion)\nAbsent color doppler and venous and arterial waveforms (torsion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        }
+      ]
+    },
+    "Ovarian_Torsion": {
+      "text": "Bimodal age distribution: young women (15-30yo) and post-menopausal women\nTypically occur in enlarged ovaries (>5cm)\nBenign mature cystic teratomas\nHemorrhagic/large ovarian cysts\nCystic neoplasms\nCystadenomas\nPolycystic ovarian syndrome\nSonographic signs associated with torsion\nEnlarged ovary from edema, engorgement, hemorrhage\nMidline ovary\nFree pelvic fluid\nUnderlying ovarian lesions\nPeripherally displaced follicular cysts\nDoppler findings:\nDecreased/absent venous or arterial flow\nAbsent/reversed diastolic flow\nCan have normal flow (from dual supply from uterine and ovarian arteries)\nLarge ovarian cystadenoma\nHemorrhagic ovarian cyst with blood clot\nLarge midline ovary with multiple peripherally located follicular cysts (torsion)\nAbsent color doppler and venous and arterial waveforms (torsion)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Free pelvic fluid with positive hCG is ectopic pregnancy until proven otherwise\nPresence of doppler flow cannot rule out ovarian torsion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "www.radiopaedia.org\nwww.acep.org/sonoguide\nwww.fetalultrasound.com",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

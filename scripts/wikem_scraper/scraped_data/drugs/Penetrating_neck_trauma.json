@@ -1,0 +1,471 @@
+{
+  "drug_name": "Penetrating_neck_trauma",
+  "url": "https://wikem.org/wiki/Penetrating_neck_trauma",
+  "scraped_at": "2026-01-10T07:59:34.673479",
+  "sections": {
+    "Background": {
+      "text": "Defined by platysma violation\nAssume significant injury has occurred until proven otherwise\nNever probe neck wounds beneath the platysma (may disrupt hemostasis)\nMultiple structures are injured in 50%\nStab wound can enter in one zone and damage another\nMissed esophageal injury is leading cause of delayed death\nGSW that crosses midline of 2x as likely to cause injuries to vital structures\nBlunt cervical vascular injury should be treated with systemic anticoagulation\nPenetrating injury rarely results in unstable fracture",
+      "subsections": {
+        "Injuries_Patterns_by_Zone": {
+          "text": "These patterns are neither sensitive nor specific\nNeck zones were classically used to determine workup. However, evaluation has moved primarily to a \"zoneless\" approach in part due to easy access to neck CTA.",
+          "tables": [
+            [
+              {
+                "Zone": "1",
+                "Anatomic Landmarks": "Clavicle to cricoid",
+                "Potential Injuries": "subclavian artery and veinjugular veincommon carotid arterytracheathryroidesophagusapex of the lung"
+              },
+              {
+                "Zone": "2",
+                "Anatomic Landmarks": "Cricoid to angle of mandible",
+                "Potential Injuries": "carotid arteriesinternal jugular veinesophaguslarynxcranial nerves X, XI, and XIIspine"
+              },
+              {
+                "Zone": "3",
+                "Anatomic Landmarks": "Angle of mandible to base of skull",
+                "Potential Injuries": "lateral pharynxcranial nerves VII, IX, X, XI, and XIIspinecarotids"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Injuries_Patterns_by_Zone": {
+      "text": "These patterns are neither sensitive nor specific\nNeck zones were classically used to determine workup. However, evaluation has moved primarily to a \"zoneless\" approach in part due to easy access to neck CTA.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Zone": "1",
+            "Anatomic Landmarks": "Clavicle to cricoid",
+            "Potential Injuries": "subclavian artery and veinjugular veincommon carotid arterytracheathryroidesophagusapex of the lung"
+          },
+          {
+            "Zone": "2",
+            "Anatomic Landmarks": "Cricoid to angle of mandible",
+            "Potential Injuries": "carotid arteriesinternal jugular veinesophaguslarynxcranial nerves X, XI, and XIIspine"
+          },
+          {
+            "Zone": "3",
+            "Anatomic Landmarks": "Angle of mandible to base of skull",
+            "Potential Injuries": "lateral pharynxcranial nerves VII, IX, X, XI, and XIIspinecarotids"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Hard Signs": "Airway compromise",
+            "Soft Signs": "Subcutaneous emphysema"
+          },
+          {
+            "Hard Signs": "Air bubbling wound",
+            "Soft Signs": "Dysphagia,dyspnea"
+          },
+          {
+            "Hard Signs": "Expanding or pulsatile hematoma",
+            "Soft Signs": "Non-pulsatile, non-expanding hematoma"
+          },
+          {
+            "Hard Signs": "Active Bleeding",
+            "Soft Signs": "Venous oozing"
+          },
+          {
+            "Hard Signs": "Shock, compromised radial pulse",
+            "Soft Signs": "Chest tube air leak"
+          },
+          {
+            "Hard Signs": "Hematemesis",
+            "Soft Signs": "Minor hematemesis"
+          },
+          {
+            "Hard Signs": "Neuro Deficit/Paralysis/Cerebral ischemia",
+            "Soft Signs": "Paresthesias"
+          },
+          {
+            "Hard Signs": "Absent or unequal radial pulse"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup_(WTA_Algorithm)": {
+          "text": "If hard signs or hemodynamic instability, attempt tamponade, secure airway, then directly to OR for surgical exploration\nIf no hard signs and yet suspect injury, CTA neck with IV contrast",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Airway\nIf integrity of larynx is in question trach may be safer than intubation\nOne attempt at intubation by most experienced provider with tube one size smaller\n[2]\nIf failure, surgical airway should be performed\nEmergency\ntracheostomy\npreferred to\ncricothyrotomy\nConsider intubation if:\nStridor\nHemoptysis\nSubcutaneous emphysema\nExpanding hematoma\nBreathing\nMinimize BVM (positive pressure --> air into soft tissue plains)\nConsider ultrasound or CXR to eval for\nPTX\n, especially if Zone I injury\nCirculation\nPlace IV on contralateral side of injury\nDisability\nNeuro deficits may be secondary to direct cord injury or cerebral ischemia secondary to carotid injury\nPlace in C-collar only if:\nALOC,\nneuro deficits\n, or significant blunt injury",
+          "tables": []
+        },
+        "Zone_I": {
+          "text": "Portable\nCXR\nEvaluation is generally by selective, nonoperative management\nVascular control can be difficult; requires thoracic surgical approach",
+          "tables": []
+        },
+        "Zone_II": {
+          "text": "Optimal management is controversial\nPlatysma penetration\nNo penetration → Observe, possible discharge\nPenetration + Vitals/Airway stable → CTA of neck\nPenetration + Vitals/Airway unstable, or other hard signs → OR for surgical exploration\nAll bleeding should be controlled with pressure, not with clamps",
+          "tables": []
+        },
+        "Zone_III": {
+          "text": "Treat as cranial injuries\nEvaluation is generally by selective, nonoperative management\nRoutine exploration of zone III is not indicated",
+          "tables": []
+        },
+        "Esophagus": {
+          "text": "Injuries are often initially asymptomatic\nIf missed can lead to neck space infection,\nmediastinitis\nEsophagoscopy or contrast esophagography indicated if:\nCT is equivocal or abnormal\nMissile trajectory places esophagus at risk for injury\nPersistent symptoms",
+          "tables": []
+        },
+        "Laryngotracheal": {
+          "text": "Suspect if:\nAir bubbling through wound\nDyspnea\n,\nstridor\nHemoptysis\nSubcutaneous emphysema\nLaryngoscopy\nis indicated if:\nSuspect laryngotracheal injury even if CT is negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tracheostomy",
+          "url": "https://wikem.org/wiki/Tracheostomy"
+        },
+        {
+          "text": "cricothyrotomy",
+          "url": "https://wikem.org/wiki/Cricothyrotomy"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "PTX",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "General": {
+      "text": "Airway\nIf integrity of larynx is in question trach may be safer than intubation\nOne attempt at intubation by most experienced provider with tube one size smaller\n[2]\nIf failure, surgical airway should be performed\nEmergency\ntracheostomy\npreferred to\ncricothyrotomy\nConsider intubation if:\nStridor\nHemoptysis\nSubcutaneous emphysema\nExpanding hematoma\nBreathing\nMinimize BVM (positive pressure --> air into soft tissue plains)\nConsider ultrasound or CXR to eval for\nPTX\n, especially if Zone I injury\nCirculation\nPlace IV on contralateral side of injury\nDisability\nNeuro deficits may be secondary to direct cord injury or cerebral ischemia secondary to carotid injury\nPlace in C-collar only if:\nALOC,\nneuro deficits\n, or significant blunt injury",
+      "subsections": {
+        "Zone_I": {
+          "text": "Portable\nCXR\nEvaluation is generally by selective, nonoperative management\nVascular control can be difficult; requires thoracic surgical approach",
+          "tables": []
+        },
+        "Zone_II": {
+          "text": "Optimal management is controversial\nPlatysma penetration\nNo penetration → Observe, possible discharge\nPenetration + Vitals/Airway stable → CTA of neck\nPenetration + Vitals/Airway unstable, or other hard signs → OR for surgical exploration\nAll bleeding should be controlled with pressure, not with clamps",
+          "tables": []
+        },
+        "Zone_III": {
+          "text": "Treat as cranial injuries\nEvaluation is generally by selective, nonoperative management\nRoutine exploration of zone III is not indicated",
+          "tables": []
+        },
+        "Esophagus": {
+          "text": "Injuries are often initially asymptomatic\nIf missed can lead to neck space infection,\nmediastinitis\nEsophagoscopy or contrast esophagography indicated if:\nCT is equivocal or abnormal\nMissile trajectory places esophagus at risk for injury\nPersistent symptoms",
+          "tables": []
+        },
+        "Laryngotracheal": {
+          "text": "Suspect if:\nAir bubbling through wound\nDyspnea\n,\nstridor\nHemoptysis\nSubcutaneous emphysema\nLaryngoscopy\nis indicated if:\nSuspect laryngotracheal injury even if CT is negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tracheostomy",
+          "url": "https://wikem.org/wiki/Tracheostomy"
+        },
+        {
+          "text": "cricothyrotomy",
+          "url": "https://wikem.org/wiki/Cricothyrotomy"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "PTX",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "By_Zone": {
+      "text": "",
+      "subsections": {
+        "Zone_I": {
+          "text": "Portable\nCXR\nEvaluation is generally by selective, nonoperative management\nVascular control can be difficult; requires thoracic surgical approach",
+          "tables": []
+        },
+        "Zone_II": {
+          "text": "Optimal management is controversial\nPlatysma penetration\nNo penetration → Observe, possible discharge\nPenetration + Vitals/Airway stable → CTA of neck\nPenetration + Vitals/Airway unstable, or other hard signs → OR for surgical exploration\nAll bleeding should be controlled with pressure, not with clamps",
+          "tables": []
+        },
+        "Zone_III": {
+          "text": "Treat as cranial injuries\nEvaluation is generally by selective, nonoperative management\nRoutine exploration of zone III is not indicated",
+          "tables": []
+        },
+        "Esophagus": {
+          "text": "Injuries are often initially asymptomatic\nIf missed can lead to neck space infection,\nmediastinitis\nEsophagoscopy or contrast esophagography indicated if:\nCT is equivocal or abnormal\nMissile trajectory places esophagus at risk for injury\nPersistent symptoms",
+          "tables": []
+        },
+        "Laryngotracheal": {
+          "text": "Suspect if:\nAir bubbling through wound\nDyspnea\n,\nstridor\nHemoptysis\nSubcutaneous emphysema\nLaryngoscopy\nis indicated if:\nSuspect laryngotracheal injury even if CT is negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "By_Structure": {
+      "text": "",
+      "subsections": {
+        "Esophagus": {
+          "text": "Injuries are often initially asymptomatic\nIf missed can lead to neck space infection,\nmediastinitis\nEsophagoscopy or contrast esophagography indicated if:\nCT is equivocal or abnormal\nMissile trajectory places esophagus at risk for injury\nPersistent symptoms",
+          "tables": []
+        },
+        "Laryngotracheal": {
+          "text": "Suspect if:\nAir bubbling through wound\nDyspnea\n,\nstridor\nHemoptysis\nSubcutaneous emphysema\nLaryngoscopy\nis indicated if:\nSuspect laryngotracheal injury even if CT is negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If neck CT with contrast is negative, may observe patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spinal cord trauma\nBlunt neck trauma\nHead trauma (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord trauma",
+          "url": "https://wikem.org/wiki/Spinal_cord_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        }
+      ]
+    }
+  }
+}

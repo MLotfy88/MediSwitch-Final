@@ -1,0 +1,192 @@
+{
+  "drug_name": "Penile_trauma",
+  "url": "https://wikem.org/wiki/Penile_trauma",
+  "scraped_at": "2026-01-10T07:59:39.012191",
+  "sections": {
+    "Background": {
+      "text": "Any patient with trauma to genitalia with a prothesis in place should be seen by a urologist\nAll penetrating trauma to the penis requires surgical consultation\nAvulsed penile skin should not be reapplied (invariably becomes necrotic and infected)",
+      "subsections": {
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Urethral trauma\nGU Trauma\nPenile diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "GU Trauma",
+          "url": "https://wikem.org/wiki/GU_Trauma"
+        },
+        {
+          "text": "Penile diagnoses",
+          "url": "https://wikem.org/wiki/Penile_diagnoses"
+        }
+      ]
+    }
+  }
+}

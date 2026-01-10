@@ -1,0 +1,962 @@
+{
+  "drug_name": "Peripheral_nerve_syndromes",
+  "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes",
+  "scraped_at": "2026-01-10T07:59:49.544253",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"mononeuropathies\" (i.e., conditions in which a single nerve is damaged or compressed).",
+      "subsections": {
+        "Cervical_Exam_by_Level": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Radiculopathy": "C4",
+                "Motor Deficit": "Levator Scapulae & Shoulder elevation",
+                "Sensory Deficit": "",
+                "Diminished Reflex": ""
+              },
+              {
+                "Radiculopathy": "C5",
+                "Motor Deficit": "Deltoid & Biceps",
+                "Sensory Deficit": "",
+                "Diminished Reflex": "Biceps"
+              },
+              {
+                "Radiculopathy": "C6",
+                "Motor Deficit": "Brachioradialis & Wrist extension",
+                "Sensory Deficit": "Thumb Paresthesia",
+                "Diminished Reflex": "Brachioradialis"
+              },
+              {
+                "Radiculopathy": "C7",
+                "Motor Deficit": "Triceps & Wrist flexion",
+                "Sensory Deficit": "Index/Middle/Ring Paresthesia",
+                "Diminished Reflex": "Triceps"
+              },
+              {
+                "Radiculopathy": "C8",
+                "Motor Deficit": "Index/Middle distal phlnx flexion",
+                "Sensory Deficit": "Small Finger Paresthesia",
+                "Diminished Reflex": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cervical_Exam_by_Level": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Radiculopathy": "C4",
+            "Motor Deficit": "Levator Scapulae & Shoulder elevation",
+            "Sensory Deficit": "",
+            "Diminished Reflex": ""
+          },
+          {
+            "Radiculopathy": "C5",
+            "Motor Deficit": "Deltoid & Biceps",
+            "Sensory Deficit": "",
+            "Diminished Reflex": "Biceps"
+          },
+          {
+            "Radiculopathy": "C6",
+            "Motor Deficit": "Brachioradialis & Wrist extension",
+            "Sensory Deficit": "Thumb Paresthesia",
+            "Diminished Reflex": "Brachioradialis"
+          },
+          {
+            "Radiculopathy": "C7",
+            "Motor Deficit": "Triceps & Wrist flexion",
+            "Sensory Deficit": "Index/Middle/Ring Paresthesia",
+            "Diminished Reflex": "Triceps"
+          },
+          {
+            "Radiculopathy": "C8",
+            "Motor Deficit": "Index/Middle distal phlnx flexion",
+            "Sensory Deficit": "Small Finger Paresthesia",
+            "Diminished Reflex": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Peripheral_nerve_syndromes": {
+          "text": "Upper extremity\nUlnar\nCause of Injury:\nElbow\ninjury.\nSensory changes in the 5th and medial half of 4th digits, weak wrist flexors,  “claw hand”\nRadial\nCause of Injury: Distal humeral shaft fracture, anterior shoulder dislocation, supra-condylar fracture,\nRadial neuropathy at the spiral groove\n,\nPosterior interosseous neuropathy\n“Wrist drop,” weakness of finger extensors. +/- sensory loss over the dorsum of the hand, weak thumb adduction\nMedian, distal\nCause of Injury: Wrist dislocation, laceration,\nCarpal Tunnel Syndrome\nWeak flexion of radial half of digits and thumb, loss of abduction and opposition of thumb. Ape hand deformity, benediction sign. Loss of sensation of lateral three and one-half digits and nail beds\nMedian, proximal\nCause of Injury:  Supracondylar humeral fracture,\nPronator teres syndrome\n,\nAnterior interosseous neuropathy\n, tight cast\nSee Median, distal above, loss of forearm pronation, loss of radial half digits and thumb flexion\nMusculocutaneous\nCause of Injury:\nAnterior shoulder dislocation\n, entrapment due to hypertrophy\nElbow flexion and supination weakness, radial forearm sensory deficits\nAxillary\nCause of Injury:\nAnterior shoulder dislocation\n,\ninferior shoulder dislocation\n,\nproximal humerus fracture\nWeak arm abduction (from 15 to 90 degrees), weak shoulder flexion, extension and rotation of shoulder, loss of sensation of upper lateral arm\nSuprascapular\nCause of Injury: Paralabral cyst, bone/soft tissue tumor,\nScapular fracture\n, traction injury,\nParsonage-Turner syndrome\nWeak arm abduction to 90 degrees, weak shoulder flexion to 30 degrees, weak internal rotation\nLower extremity\nFemoral\nCause of Injury: Pubic rami fracture,\npelvic fractures\nWeak knee extension, anterior knee sensory deficits\nObturator\nCause of Injury:  Obturator ring fracture,\nobturator nerve entrapment\nWeak hip adduction, medial thigh sensory deficit\nPosterior tibial\nCause of Injury:\nKnee dislocation\nWeak toe flexion, plantar foot sensory deficit\nSuperficial peroneal\nCause of Injury:  Fibular neck fracture,\nknee dislocation\nWeak ankle eversion, lateral dorsal foot sensory deficits\nDeep peroneal\nCause of Injury:  Fibular neck fracture,\ncompartment syndrome\nSensory deficit at dorsal 1st web space, weak ankle and toe dorsiflexion\nSciatic\nCause of Injury:  Posterior\nhip dislocation\nLower leg weakness, foot drop, leg sensory deficits\nSuperior gluteal\nCause of Injury:\nAcetabular pelvic fracture\nTrendelenburg’s gait, Trendelenburg’s sign\nInferior gluteal\nCause of Injury:\nAcetabular pelvic fracture\n, s/p hip replacement\nAbnormal gait, gluteus maximus weakness resulting in gluteus maximus lurch",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Elbow",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Carpal Tunnel Syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Acetabular pelvic fracture",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fracture"
+        },
+        {
+          "text": "Acetabular pelvic fracture",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fracture"
+        }
+      ]
+    },
+    "Peripheral_nerve_syndromes": {
+      "text": "Upper extremity\nUlnar\nCause of Injury:\nElbow\ninjury.\nSensory changes in the 5th and medial half of 4th digits, weak wrist flexors,  “claw hand”\nRadial\nCause of Injury: Distal humeral shaft fracture, anterior shoulder dislocation, supra-condylar fracture,\nRadial neuropathy at the spiral groove\n,\nPosterior interosseous neuropathy\n“Wrist drop,” weakness of finger extensors. +/- sensory loss over the dorsum of the hand, weak thumb adduction\nMedian, distal\nCause of Injury: Wrist dislocation, laceration,\nCarpal Tunnel Syndrome\nWeak flexion of radial half of digits and thumb, loss of abduction and opposition of thumb. Ape hand deformity, benediction sign. Loss of sensation of lateral three and one-half digits and nail beds\nMedian, proximal\nCause of Injury:  Supracondylar humeral fracture,\nPronator teres syndrome\n,\nAnterior interosseous neuropathy\n, tight cast\nSee Median, distal above, loss of forearm pronation, loss of radial half digits and thumb flexion\nMusculocutaneous\nCause of Injury:\nAnterior shoulder dislocation\n, entrapment due to hypertrophy\nElbow flexion and supination weakness, radial forearm sensory deficits\nAxillary\nCause of Injury:\nAnterior shoulder dislocation\n,\ninferior shoulder dislocation\n,\nproximal humerus fracture\nWeak arm abduction (from 15 to 90 degrees), weak shoulder flexion, extension and rotation of shoulder, loss of sensation of upper lateral arm\nSuprascapular\nCause of Injury: Paralabral cyst, bone/soft tissue tumor,\nScapular fracture\n, traction injury,\nParsonage-Turner syndrome\nWeak arm abduction to 90 degrees, weak shoulder flexion to 30 degrees, weak internal rotation\nLower extremity\nFemoral\nCause of Injury: Pubic rami fracture,\npelvic fractures\nWeak knee extension, anterior knee sensory deficits\nObturator\nCause of Injury:  Obturator ring fracture,\nobturator nerve entrapment\nWeak hip adduction, medial thigh sensory deficit\nPosterior tibial\nCause of Injury:\nKnee dislocation\nWeak toe flexion, plantar foot sensory deficit\nSuperficial peroneal\nCause of Injury:  Fibular neck fracture,\nknee dislocation\nWeak ankle eversion, lateral dorsal foot sensory deficits\nDeep peroneal\nCause of Injury:  Fibular neck fracture,\ncompartment syndrome\nSensory deficit at dorsal 1st web space, weak ankle and toe dorsiflexion\nSciatic\nCause of Injury:  Posterior\nhip dislocation\nLower leg weakness, foot drop, leg sensory deficits\nSuperior gluteal\nCause of Injury:\nAcetabular pelvic fracture\nTrendelenburg’s gait, Trendelenburg’s sign\nInferior gluteal\nCause of Injury:\nAcetabular pelvic fracture\n, s/p hip replacement\nAbnormal gait, gluteus maximus weakness resulting in gluteus maximus lurch",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elbow",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Carpal Tunnel Syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Acetabular pelvic fracture",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fracture"
+        },
+        {
+          "text": "Acetabular pelvic fracture",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        },
+        "Peripheral_neuropathy": {
+          "text": "Peripheral nerve syndromes\n(mononeuropathy)^\nAcute trauma\nChronic nerve entrapment\nMononeuritis multiplex^^\nAcute\nDiabetes mellitus\nPolyarteritis nodosum\nConnective tissue diseases (e.g.,\nSLE\n,\nrheumatoid arthritis\n)\nChronic\nMultiple compressive neuropathies\nAIDS\nSarcoidosis\nAcromegaly\nLeprosy\nLyme disease\nIdiopathic\nAssociated with autonomic features\nAlcohol use disorder\nAmyloidosis\nChemotherapy-related neuropathy\nChronic\nnitrous oxide abuse\nDiabetes mellitus\nHeavy metal toxicity\nPorphyria\nPrimary dysautonomia\nVitamin B12 deficiency\nAssociated with pain\nAlcohol use disorder\nAmyloidosis\nChemotherapy (\nheavy metal toxicity\n)\nDiabetes mellitus\nIdiopathic polyneuropathy\nPorphyria\nParaneoplastic syndrome\nVitamin B1 or B12 deficiency\nArsenic toxicity\nThallium toxicity\n^A condition in which a single nerve is damaged or compressed.\n^^A condition where damage to at least two separate peripheral nerves results in a painful, asymmetric, and asynchronous presentation of sensory and motor deficits.",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "nitrous oxide abuse",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Upper_extremity_peripheral_nerve_syndromes": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        },
+        "Peripheral_neuropathy": {
+          "text": "Peripheral nerve syndromes\n(mononeuropathy)^\nAcute trauma\nChronic nerve entrapment\nMononeuritis multiplex^^\nAcute\nDiabetes mellitus\nPolyarteritis nodosum\nConnective tissue diseases (e.g.,\nSLE\n,\nrheumatoid arthritis\n)\nChronic\nMultiple compressive neuropathies\nAIDS\nSarcoidosis\nAcromegaly\nLeprosy\nLyme disease\nIdiopathic\nAssociated with autonomic features\nAlcohol use disorder\nAmyloidosis\nChemotherapy-related neuropathy\nChronic\nnitrous oxide abuse\nDiabetes mellitus\nHeavy metal toxicity\nPorphyria\nPrimary dysautonomia\nVitamin B12 deficiency\nAssociated with pain\nAlcohol use disorder\nAmyloidosis\nChemotherapy (\nheavy metal toxicity\n)\nDiabetes mellitus\nIdiopathic polyneuropathy\nPorphyria\nParaneoplastic syndrome\nVitamin B1 or B12 deficiency\nArsenic toxicity\nThallium toxicity\n^A condition in which a single nerve is damaged or compressed.\n^^A condition where damage to at least two separate peripheral nerves results in a painful, asymmetric, and asynchronous presentation of sensory and motor deficits.",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "nitrous oxide abuse",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Peripheral_neuropathy": {
+      "text": "Peripheral nerve syndromes\n(mononeuropathy)^\nAcute trauma\nChronic nerve entrapment\nMononeuritis multiplex^^\nAcute\nDiabetes mellitus\nPolyarteritis nodosum\nConnective tissue diseases (e.g.,\nSLE\n,\nrheumatoid arthritis\n)\nChronic\nMultiple compressive neuropathies\nAIDS\nSarcoidosis\nAcromegaly\nLeprosy\nLyme disease\nIdiopathic\nAssociated with autonomic features\nAlcohol use disorder\nAmyloidosis\nChemotherapy-related neuropathy\nChronic\nnitrous oxide abuse\nDiabetes mellitus\nHeavy metal toxicity\nPorphyria\nPrimary dysautonomia\nVitamin B12 deficiency\nAssociated with pain\nAlcohol use disorder\nAmyloidosis\nChemotherapy (\nheavy metal toxicity\n)\nDiabetes mellitus\nIdiopathic polyneuropathy\nPorphyria\nParaneoplastic syndrome\nVitamin B1 or B12 deficiency\nArsenic toxicity\nThallium toxicity\n^A condition in which a single nerve is damaged or compressed.\n^^A condition where damage to at least two separate peripheral nerves results in a painful, asymmetric, and asynchronous presentation of sensory and motor deficits.",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "nitrous oxide abuse",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Neurologic exam\nwith focus on\nsensory component",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "sensory component",
+          "url": "https://wikem.org/wiki/Sensory_exam"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Weakness\nFocal neurologic signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Focal neurologic signs",
+          "url": "https://wikem.org/wiki/Focal_neurologic_signs"
+        }
+      ]
+    }
+  }
+}

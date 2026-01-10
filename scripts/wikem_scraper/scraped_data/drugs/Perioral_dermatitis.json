@@ -1,0 +1,376 @@
+{
+  "drug_name": "Perioral_dermatitis",
+  "url": "https://wikem.org/wiki/Perioral_dermatitis",
+  "scraped_at": "2026-01-10T07:59:46.727230",
+  "sections": {
+    "Background": {
+      "text": "90% female (increasing in males)",
+      "subsections": {
+        "Etiology": {
+          "text": "Topical\nor\ninhaled corticosteroids\nuse of cosmetics\nphysical (UVB, heat, wind)\nmicrobiological (fusiform spirilla,\ncandida\n)\nhormonal factors (premenstrual deterioration, use of oral contraceptives)\nGI tract abnormalities (malabsorption)\nEmotional stress",
+          "tables": []
+        },
+        "Dermatitis_Types": {
+          "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "inhaled corticosteroids",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Topical\nor\ninhaled corticosteroids\nuse of cosmetics\nphysical (UVB, heat, wind)\nmicrobiological (fusiform spirilla,\ncandida\n)\nhormonal factors (premenstrual deterioration, use of oral contraceptives)\nGI tract abnormalities (malabsorption)\nEmotional stress",
+      "subsections": {
+        "Dermatitis_Types": {
+          "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "inhaled corticosteroids",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        },
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Dermatitis_Types": {
+      "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "papular, vesiculopapular and papulopustular\nlesions\non erythematous base (Acneiform)\nconfluent aspect, follicular\nlocation perioral, limited to skin\ntypically respects rim around and 3-5 mm under lower lip, circular",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lesions",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Rosacea\nSeborrheic dermatitis\nAcne vulgaris\nFacial demodicosis\nLupus\nmilliaris\nPolymorphous light reaction\nContact dermatitis\nHaber syndrome\nGranulomatous periorificial dermatitis",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Discontinue suspected topicals\nRebound reaction\nhydrocortisone\ncuts down reaction violence\nCorticosteroid\ndependence - psychological follow up\nSuppression of follicular bacterial infection\nLipophilic\ntetracyclines\n100-250mg/d for 3-4 months\nno response - Isotretinoin\nChildren - oral, topical\nerythromycin\n,\nmetronidazole\nAntipruritics containing no corticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        },
+        {
+          "text": "tetracyclines",
+          "url": "https://wikem.org/wiki/Tetracyclines"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Disfiguring scars - emotional\nRebound effect, chronic course\nLupus-like PD - dermal infiltrate, scarring\nYellowish discoloration after diascopy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        }
+      ]
+    },
+    "References": {
+      "text": "Ljubojević et al. \"Perioral dermatitis\" Acta Dermatovenerol Croat. 2008;16(2):96-100",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

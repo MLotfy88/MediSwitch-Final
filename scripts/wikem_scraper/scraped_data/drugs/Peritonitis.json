@@ -1,0 +1,341 @@
+{
+  "drug_name": "Peritonitis",
+  "url": "https://wikem.org/wiki/Peritonitis",
+  "scraped_at": "2026-01-10T07:59:46.946931",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of serosal membrane lining abdominal cavity and intraabdominal organ\nMay be infectious (bacterial, viral, fungal) or sterile (mechanical, chemical)\nEtiology\nPrimary: Hematogenous,\nspontaneous bacterial peritonitis\n(SBP)\nSecondary: Perforation or\ntrauma\n, most common\nTertiary: Persistent/recurrent infection,\nperitoneal dialysis-associated peritonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nor discomfort\nAbdominal distention, tenderness\nRebound, guarding, or rigidity on exam\nAnorexia and\nnausea\nGuarding or rebound\nSepsis\nSigns of\nliver failure\nSpontaneous bacterial peritonitis\nFever\nand chills\nAbdominal pain\nor discomfort\nWorsening or unexplained\nencephalopathy\nDiarrhea\nAscites\nWorsening or new-onset\nrenal failure\nIleus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Imaging = CT Abd/pelvis (preferred) or 3-view abdomen XR\nUltrasound\nmay reveal certain etiologies\nOther work-up based on clinical suspicion, and may include:\nCBC, metabolic panel, coags, lipase,\nUA\n, stool studies\nDiagnostic\nparacentesis\nto evaluate for SBP (PMN ≥ 250 cells/mm³)",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Generally a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Imaging = CT Abd/pelvis (preferred) or 3-view abdomen XR\nUltrasound\nmay reveal certain etiologies\nOther work-up based on clinical suspicion, and may include:\nCBC, metabolic panel, coags, lipase,\nUA\n, stool studies\nDiagnostic\nparacentesis\nto evaluate for SBP (PMN ≥ 250 cells/mm³)",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Generally a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Generally a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Fluid resuscitation\nSurgical consult\nIR consult if requiring\nabscess\ndrainage",
+      "subsections": {
+        "Intra-Abdominal_Sepsis/Peritonitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Primary",
+                "Harbor-UCLA": "Metronidazole500mg IV q8hrsPlus one of the following:Ceftriaxone1g IV once dailyCiprofloxacin400mg IV q12hrsCefazolin1g (30mg/kg) IV q8hrsLevofloxacin750mg IV once daily",
+                "Santa Monica-UCLA": "Metronidazole500mg IV q8h+Vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)Plus one of the following:Piperacillin/tazobactam4.5g IV q6hErtapenem1g IV q24hCeftriaxone1g IV q24h",
+                "Other": "One of the following:Piperacillin-tazobactamTicarcillin-clavulanate3.1 g IV every 6 hoursErtapenem1 g every 24 hoursMoxifloxacin400 mg IV every 24 hours"
+              },
+              {
+                "": "Allergy or prior exposure",
+                "Harbor-UCLA": "Piperacillin/Tazobactam4.5g (80mg/kg) IV q8hrs ORMetronidazole500mg IV q8hrs PLUSCefepime2g IV once daily ORCiprofloxacin400mg IV q12hrs ORLevofloxacin750mg IV once dailyMeropenem1g (20mg/kg) IV q8hrs ORDoripenem500mg IV q8hrs ORAztreonam2g (30mg/kg) IV q8hrs +Metronidazole500mg IV q8hrs",
+                "Santa Monica-UCLA": "aztreonam2g IV q8h+metronidazole500mg IV q8h+/-vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)",
+                "Other": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Intra-Abdominal_Sepsis/Peritonitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Primary",
+                "Harbor-UCLA": "Metronidazole500mg IV q8hrsPlus one of the following:Ceftriaxone1g IV once dailyCiprofloxacin400mg IV q12hrsCefazolin1g (30mg/kg) IV q8hrsLevofloxacin750mg IV once daily",
+                "Santa Monica-UCLA": "Metronidazole500mg IV q8h+Vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)Plus one of the following:Piperacillin/tazobactam4.5g IV q6hErtapenem1g IV q24hCeftriaxone1g IV q24h",
+                "Other": "One of the following:Piperacillin-tazobactamTicarcillin-clavulanate3.1 g IV every 6 hoursErtapenem1 g every 24 hoursMoxifloxacin400 mg IV every 24 hours"
+              },
+              {
+                "": "Allergy or prior exposure",
+                "Harbor-UCLA": "Piperacillin/Tazobactam4.5g (80mg/kg) IV q8hrs ORMetronidazole500mg IV q8hrs PLUSCefepime2g IV once daily ORCiprofloxacin400mg IV q12hrs ORLevofloxacin750mg IV once dailyMeropenem1g (20mg/kg) IV q8hrs ORDoripenem500mg IV q8hrs ORAztreonam2g (30mg/kg) IV q8hrs +Metronidazole500mg IV q8hrs",
+                "Santa Monica-UCLA": "aztreonam2g IV q8h+metronidazole500mg IV q8h+/-vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)",
+                "Other": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intra-Abdominal_Sepsis/Peritonitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Primary",
+            "Harbor-UCLA": "Metronidazole500mg IV q8hrsPlus one of the following:Ceftriaxone1g IV once dailyCiprofloxacin400mg IV q12hrsCefazolin1g (30mg/kg) IV q8hrsLevofloxacin750mg IV once daily",
+            "Santa Monica-UCLA": "Metronidazole500mg IV q8h+Vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)Plus one of the following:Piperacillin/tazobactam4.5g IV q6hErtapenem1g IV q24hCeftriaxone1g IV q24h",
+            "Other": "One of the following:Piperacillin-tazobactamTicarcillin-clavulanate3.1 g IV every 6 hoursErtapenem1 g every 24 hoursMoxifloxacin400 mg IV every 24 hours"
+          },
+          {
+            "": "Allergy or prior exposure",
+            "Harbor-UCLA": "Piperacillin/Tazobactam4.5g (80mg/kg) IV q8hrs ORMetronidazole500mg IV q8hrs PLUSCefepime2g IV once daily ORCiprofloxacin400mg IV q12hrs ORLevofloxacin750mg IV once dailyMeropenem1g (20mg/kg) IV q8hrs ORDoripenem500mg IV q8hrs ORAztreonam2g (30mg/kg) IV q8hrs +Metronidazole500mg IV q8hrs",
+            "Santa Monica-UCLA": "aztreonam2g IV q8h+metronidazole500mg IV q8h+/-vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)",
+            "Other": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

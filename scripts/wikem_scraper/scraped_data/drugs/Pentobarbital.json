@@ -1,0 +1,181 @@
+{
+  "drug_name": "Pentobarbital",
+  "url": "https://wikem.org/wiki/Pentobarbital",
+  "scraped_at": "2026-01-10T07:59:35.627675",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticonvulsant\n,\nBarbiturate\nRoutes of Administration: IV, IM\nCommon Trade Names: Nembutal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsant",
+          "url": "https://wikem.org/wiki/Anticonvulsant"
+        },
+        {
+          "text": "Barbiturate",
+          "url": "https://wikem.org/wiki/Barbiturate"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Procedural sedation\n: 150-200mg IM x1\nOnset 10-15min IM; duration 1-4h IM\nBarbiturate coma: 1-3mg/kg/h IV\nStart: 10-15mg/kg IV x1, then 1mg/kg/h IV\nTaper dose gradually to discontinue if long-term use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Procedural sedation\n: 2-6mg/kg IM x1\nMax: 100mg/dose\nOnset: 10-15min IM, 1min IV; duration: 1-4h IM, 15min IV\nBarbiturate coma: 1-3mg/kg/h IV\nStart: 10-15mg/kg IV x1, then 1mg/kg/h IV\nTaper dose gradually to discontinue if long-term use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Renal impairment: decrease start dose",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Hepatic impairment: decrease start dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Renal impairment: decrease start dose",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Hepatic impairment: decrease start dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Hepatic impairment: decrease start dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nDepressed respiratory function\nPorphyria\nAvoid abrupt withdrawal (long-term use)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "respiratory depression\nStevens-Johnson syndrome\nangioedema\nlupus\nerythematosus",
+          "tables": []
+        },
+        "Common": {
+          "text": "somnolence\nagitation\nconfusion\nhyperkinesia\nataxia\nCNS depression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "respiratory depression\nStevens-Johnson syndrome\nangioedema\nlupus\nerythematosus",
+      "subsections": {
+        "Common": {
+          "text": "somnolence\nagitation\nconfusion\nhyperkinesia\nataxia\nCNS depression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        }
+      ]
+    },
+    "Common": {
+      "text": "somnolence\nagitation\nconfusion\nhyperkinesia\nataxia\nCNS depression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 15-50 hrs\nMetabolism: CYP450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "alters sensory cortex, cerebellar, and motor activities; produces sedation, hypnosis, and anesthesia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    }
+  }
+}

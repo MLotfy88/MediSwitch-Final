@@ -1,0 +1,242 @@
+{
+  "drug_name": "Peripheral_artery_disease",
+  "url": "https://wikem.org/wiki/Peripheral_artery_disease",
+  "scraped_at": "2026-01-10T07:59:49.019541",
+  "sections": {
+    "Intro": {
+      "text": "See\nacute arterial ischemia\nfor acute limb ischemia\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Peripheral artery disease = ABI <0.9 (normal ≥1.0)\n[1]\n>70% of patients are either former or current smokers\n[2]\n33% of deaths are from reperfusion injury\nMyoglobinemia, ARF, increased CK\nThrombosis accounts for >80% of lower limb ischemia\nPAD indicates systemic atherosclerosis\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Shiny, hyperpigmented skin, hair loss\nUlceration\nTend to be on foot/toes, more painful than venous ulcers\nCap refill >3sec",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Phlegmasia Alba Dolens\nPhlegmasia Cerulea Colens\nAnkle fracture\nVenous thromboembolism",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phlegmasia Alba Dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_Alba_Dolens"
+        },
+        {
+          "text": "Phlegmasia Cerulea Colens",
+          "url": "https://wikem.org/wiki/Phlegmasia_Cerulea_Colens"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ABI": {
+          "text": "Measuring\nPosition patient supine\nMeasure SBP from both brachial arteries using cuff and handheld Doppler over the AC fossa\nMeasure SBP from both DP and PT arteries using cuff placed just proximal to the malleoli with Doppler over artery (5-8% of normal patients have absent DP pulse)\nCalculate ABI on each leg by taking the highest ankle SBP divided by the highest brachial SBP and record to 2 decimal places\nUsing calculation\n0.91–1.30: normal\n0.70–0.90: mild occlusion\n0.40–0.69: moderate occlusion\n<0.40: severe occlusion\n>1.30: poorly compressible/calcified vessels",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Xray\nLittle use or benefit\nUltrasound\nAccurate for detecting obstruction in femoral/popliteal/bypass grafts\nSn declines at/below the calf\nQuality of signal (triphasic, biphasic, monophasic) is important to note\nCTA\nSensitivity similar to that of conventional angiography\nMRI\nLimited utility in the ED setting\nDetailed images of vasculature can be taken and plaques identified",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ABI": {
+      "text": "Measuring\nPosition patient supine\nMeasure SBP from both brachial arteries using cuff and handheld Doppler over the AC fossa\nMeasure SBP from both DP and PT arteries using cuff placed just proximal to the malleoli with Doppler over artery (5-8% of normal patients have absent DP pulse)\nCalculate ABI on each leg by taking the highest ankle SBP divided by the highest brachial SBP and record to 2 decimal places\nUsing calculation\n0.91–1.30: normal\n0.70–0.90: mild occlusion\n0.40–0.69: moderate occlusion\n<0.40: severe occlusion\n>1.30: poorly compressible/calcified vessels",
+      "subsections": {
+        "Imaging": {
+          "text": "Xray\nLittle use or benefit\nUltrasound\nAccurate for detecting obstruction in femoral/popliteal/bypass grafts\nSn declines at/below the calf\nQuality of signal (triphasic, biphasic, monophasic) is important to note\nCTA\nSensitivity similar to that of conventional angiography\nMRI\nLimited utility in the ED setting\nDetailed images of vasculature can be taken and plaques identified",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Xray\nLittle use or benefit\nUltrasound\nAccurate for detecting obstruction in femoral/popliteal/bypass grafts\nSn declines at/below the calf\nQuality of signal (triphasic, biphasic, monophasic) is important to note\nCTA\nSensitivity similar to that of conventional angiography\nMRI\nLimited utility in the ED setting\nDetailed images of vasculature can be taken and plaques identified",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Chronic PAD can recieve outpatient management (by vascular)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Chronic PAD can be managed as an outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Foot Diagnoses\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot Diagnoses",
+          "url": "https://wikem.org/wiki/Foot_Diagnoses"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Stanford Medicine 25: Measuring ABI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

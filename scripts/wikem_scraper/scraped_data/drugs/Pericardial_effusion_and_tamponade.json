@@ -1,0 +1,770 @@
+{
+  "drug_name": "Pericardial_effusion_and_tamponade",
+  "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade",
+  "scraped_at": "2026-01-10T07:59:46.783268",
+  "sections": {
+    "Background": {
+      "text": "Always consider in patient with\nPEA\nAlways consider in patient with penetrating trauma anywhere in the cardiac box (80% result in tamponade)\nGun shot wounds\nare less likely to result in tamponade because pericardial defect is larger\nRight ventricle is the most commonly injured chamber of the heart due to its anatomic location\n[1]\nPathophysiology\nIncreased pericardial pressure > decreased RV filling > decreased cardiac output",
+      "subsections": {
+        "Etiology": {
+          "text": "Hemopericardium\nTrauma\nIatrogenic (misplaced\ncentral line\n)\nBleeding diathesis\nVentricular rupture\n(post-\nMI\n)\nNon-hemopericardium\nCancer - most commonly lung, breast, prostate, or hematologic\nMelanoma\nhas predilection for heart\nMay be related to radiation, infection, chemotherapy\nPericarditis\nInfectious\nUremic (\nrenal failure\n)\nHIV\ncomplications (infection,\nKaposi sarcoma\n,\nlymphoma\n)\nSLE\nand other autoimmune or\nconnective tissue disorders\nPost-radiation\nMyxedema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PEA",
+          "url": "https://wikem.org/wiki/PEA"
+        },
+        {
+          "text": "Gun shot wounds",
+          "url": "https://wikem.org/wiki/Gun_shot_wounds"
+        },
+        {
+          "text": "central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        },
+        {
+          "text": "Bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Ventricular rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Myxedema",
+          "url": "https://wikem.org/wiki/Myxedema"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Hemopericardium\nTrauma\nIatrogenic (misplaced\ncentral line\n)\nBleeding diathesis\nVentricular rupture\n(post-\nMI\n)\nNon-hemopericardium\nCancer - most commonly lung, breast, prostate, or hematologic\nMelanoma\nhas predilection for heart\nMay be related to radiation, infection, chemotherapy\nPericarditis\nInfectious\nUremic (\nrenal failure\n)\nHIV\ncomplications (infection,\nKaposi sarcoma\n,\nlymphoma\n)\nSLE\nand other autoimmune or\nconnective tissue disorders\nPost-radiation\nMyxedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        },
+        {
+          "text": "Bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Ventricular rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Kaposi sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi_sarcoma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Myxedema",
+          "url": "https://wikem.org/wiki/Myxedema"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Chest pain\n, shortness of breath, cough, fatigue\nCHF\n-type appearance\nTachycardia\nNarrow pulse pressure\nFriction rub\nPulsus paradoxus (dec in BP on inspiration)\nBeck's Triad (33% of patients)\nHypotension\nMuffled heart sounds\nJVD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Pulsus_Paradoxus": {
+          "text": ">10mmHg change in systolic BP on inspiration",
+          "tables": []
+        },
+        "CXR": {
+          "text": "Enlarged cardiac silhouette",
+          "tables": []
+        },
+        "ECG": {
+          "text": "Often normal\nTachycardia\n(bradycardia is ominous finding)\nElectrical alternans\nLow voltage\nAll limb lead QRS amplitudes <5 mm or I+II+III<15;\n[2]\nOR\nAll precordial QRS amplitudes <10 mm or V1+V2+V3<30",
+          "tables": []
+        },
+        "Ultrasound": {
+          "text": "Pericardial effusion\nIn acute cases, even a relatively small build up of pericardial fluid can lead to hemodynamic compromise\nDifferentiate pericardial effusion from pleural effusion using the parasternal long axis view.  Pericardial effusions will have an anechoic stripe between the left atrium and descending thoracic aorta.  In a pleural effusion, the stripe will be seen behind the descending thoracic aorta.\n[3]\nClassical ultrasound findings\nDiastolic collapse of the right atrium (in atrial diastole)\nDiastolic collapse of the right ventricle\nPlethoric IVC (highly sensitive but low specificity)\n[4]\nEvaluating systolic vs. diastolic phases with M-mode\nPosition in PSL view with M-mode line through where RV appears to collapse\nAllow M-mode line to pass through where the anterior MV hits the septum in diastole (much like evaluation of EPSS - see\nFormal echocardiography\n)\nThe period of time where the anterior leaflet of the mitral valve is open (and closest to the septum) is the period of diastole. Evaluate the anterior free wall of the right ventricle for collapse. The longer period of collapse during diastole is an indicator for advanced tamponade physiology\nValvular pulsus paradoxus\nObtain apical 4-chamber view, place doppler indicator in either MV or TV location\nDoppler interrogation across the mitral valve will demonstrate exaggerated respiratory variability of transvalvular flow\nMV inflow respiratory variation, difference from highest velocity to lowest, as a percentage of highest velocity\n[5]\n> 25%, likely tamponade physiology\n> 40% for tricuspid inflow variation\nHelpful in thickened RV and RA from longstanding pulmonary hypertensive patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Formal echocardiography",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        }
+      ]
+    },
+    "Pulsus_Paradoxus": {
+      "text": ">10mmHg change in systolic BP on inspiration",
+      "subsections": {
+        "CXR": {
+          "text": "Enlarged cardiac silhouette",
+          "tables": []
+        },
+        "ECG": {
+          "text": "Often normal\nTachycardia\n(bradycardia is ominous finding)\nElectrical alternans\nLow voltage\nAll limb lead QRS amplitudes <5 mm or I+II+III<15;\n[2]\nOR\nAll precordial QRS amplitudes <10 mm or V1+V2+V3<30",
+          "tables": []
+        },
+        "Ultrasound": {
+          "text": "Pericardial effusion\nIn acute cases, even a relatively small build up of pericardial fluid can lead to hemodynamic compromise\nDifferentiate pericardial effusion from pleural effusion using the parasternal long axis view.  Pericardial effusions will have an anechoic stripe between the left atrium and descending thoracic aorta.  In a pleural effusion, the stripe will be seen behind the descending thoracic aorta.\n[3]\nClassical ultrasound findings\nDiastolic collapse of the right atrium (in atrial diastole)\nDiastolic collapse of the right ventricle\nPlethoric IVC (highly sensitive but low specificity)\n[4]\nEvaluating systolic vs. diastolic phases with M-mode\nPosition in PSL view with M-mode line through where RV appears to collapse\nAllow M-mode line to pass through where the anterior MV hits the septum in diastole (much like evaluation of EPSS - see\nFormal echocardiography\n)\nThe period of time where the anterior leaflet of the mitral valve is open (and closest to the septum) is the period of diastole. Evaluate the anterior free wall of the right ventricle for collapse. The longer period of collapse during diastole is an indicator for advanced tamponade physiology\nValvular pulsus paradoxus\nObtain apical 4-chamber view, place doppler indicator in either MV or TV location\nDoppler interrogation across the mitral valve will demonstrate exaggerated respiratory variability of transvalvular flow\nMV inflow respiratory variation, difference from highest velocity to lowest, as a percentage of highest velocity\n[5]\n> 25%, likely tamponade physiology\n> 40% for tricuspid inflow variation\nHelpful in thickened RV and RA from longstanding pulmonary hypertensive patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Formal echocardiography",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        }
+      ]
+    },
+    "CXR": {
+      "text": "Enlarged cardiac silhouette",
+      "subsections": {
+        "ECG": {
+          "text": "Often normal\nTachycardia\n(bradycardia is ominous finding)\nElectrical alternans\nLow voltage\nAll limb lead QRS amplitudes <5 mm or I+II+III<15;\n[2]\nOR\nAll precordial QRS amplitudes <10 mm or V1+V2+V3<30",
+          "tables": []
+        },
+        "Ultrasound": {
+          "text": "Pericardial effusion\nIn acute cases, even a relatively small build up of pericardial fluid can lead to hemodynamic compromise\nDifferentiate pericardial effusion from pleural effusion using the parasternal long axis view.  Pericardial effusions will have an anechoic stripe between the left atrium and descending thoracic aorta.  In a pleural effusion, the stripe will be seen behind the descending thoracic aorta.\n[3]\nClassical ultrasound findings\nDiastolic collapse of the right atrium (in atrial diastole)\nDiastolic collapse of the right ventricle\nPlethoric IVC (highly sensitive but low specificity)\n[4]\nEvaluating systolic vs. diastolic phases with M-mode\nPosition in PSL view with M-mode line through where RV appears to collapse\nAllow M-mode line to pass through where the anterior MV hits the septum in diastole (much like evaluation of EPSS - see\nFormal echocardiography\n)\nThe period of time where the anterior leaflet of the mitral valve is open (and closest to the septum) is the period of diastole. Evaluate the anterior free wall of the right ventricle for collapse. The longer period of collapse during diastole is an indicator for advanced tamponade physiology\nValvular pulsus paradoxus\nObtain apical 4-chamber view, place doppler indicator in either MV or TV location\nDoppler interrogation across the mitral valve will demonstrate exaggerated respiratory variability of transvalvular flow\nMV inflow respiratory variation, difference from highest velocity to lowest, as a percentage of highest velocity\n[5]\n> 25%, likely tamponade physiology\n> 40% for tricuspid inflow variation\nHelpful in thickened RV and RA from longstanding pulmonary hypertensive patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Formal echocardiography",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        }
+      ]
+    },
+    "ECG": {
+      "text": "Often normal\nTachycardia\n(bradycardia is ominous finding)\nElectrical alternans\nLow voltage\nAll limb lead QRS amplitudes <5 mm or I+II+III<15;\n[2]\nOR\nAll precordial QRS amplitudes <10 mm or V1+V2+V3<30",
+      "subsections": {
+        "Ultrasound": {
+          "text": "Pericardial effusion\nIn acute cases, even a relatively small build up of pericardial fluid can lead to hemodynamic compromise\nDifferentiate pericardial effusion from pleural effusion using the parasternal long axis view.  Pericardial effusions will have an anechoic stripe between the left atrium and descending thoracic aorta.  In a pleural effusion, the stripe will be seen behind the descending thoracic aorta.\n[3]\nClassical ultrasound findings\nDiastolic collapse of the right atrium (in atrial diastole)\nDiastolic collapse of the right ventricle\nPlethoric IVC (highly sensitive but low specificity)\n[4]\nEvaluating systolic vs. diastolic phases with M-mode\nPosition in PSL view with M-mode line through where RV appears to collapse\nAllow M-mode line to pass through where the anterior MV hits the septum in diastole (much like evaluation of EPSS - see\nFormal echocardiography\n)\nThe period of time where the anterior leaflet of the mitral valve is open (and closest to the septum) is the period of diastole. Evaluate the anterior free wall of the right ventricle for collapse. The longer period of collapse during diastole is an indicator for advanced tamponade physiology\nValvular pulsus paradoxus\nObtain apical 4-chamber view, place doppler indicator in either MV or TV location\nDoppler interrogation across the mitral valve will demonstrate exaggerated respiratory variability of transvalvular flow\nMV inflow respiratory variation, difference from highest velocity to lowest, as a percentage of highest velocity\n[5]\n> 25%, likely tamponade physiology\n> 40% for tricuspid inflow variation\nHelpful in thickened RV and RA from longstanding pulmonary hypertensive patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Formal echocardiography",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        }
+      ]
+    },
+    "Ultrasound": {
+      "text": "Pericardial effusion\nIn acute cases, even a relatively small build up of pericardial fluid can lead to hemodynamic compromise\nDifferentiate pericardial effusion from pleural effusion using the parasternal long axis view.  Pericardial effusions will have an anechoic stripe between the left atrium and descending thoracic aorta.  In a pleural effusion, the stripe will be seen behind the descending thoracic aorta.\n[3]\nClassical ultrasound findings\nDiastolic collapse of the right atrium (in atrial diastole)\nDiastolic collapse of the right ventricle\nPlethoric IVC (highly sensitive but low specificity)\n[4]\nEvaluating systolic vs. diastolic phases with M-mode\nPosition in PSL view with M-mode line through where RV appears to collapse\nAllow M-mode line to pass through where the anterior MV hits the septum in diastole (much like evaluation of EPSS - see\nFormal echocardiography\n)\nThe period of time where the anterior leaflet of the mitral valve is open (and closest to the septum) is the period of diastole. Evaluate the anterior free wall of the right ventricle for collapse. The longer period of collapse during diastole is an indicator for advanced tamponade physiology\nValvular pulsus paradoxus\nObtain apical 4-chamber view, place doppler indicator in either MV or TV location\nDoppler interrogation across the mitral valve will demonstrate exaggerated respiratory variability of transvalvular flow\nMV inflow respiratory variation, difference from highest velocity to lowest, as a percentage of highest velocity\n[5]\n> 25%, likely tamponade physiology\n> 40% for tricuspid inflow variation\nHelpful in thickened RV and RA from longstanding pulmonary hypertensive patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Formal echocardiography",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Hemorrhagic_Tamponade": {
+          "text": "Can occur if ECG read as STEMI/NSTEMI and heparin started\nPericardiocentesis\nTemporizing measure until\nthoracotomy\ncan be performed\nIVF\nto increase RV volume and maintain preload\nMedications\nPressors\n(temporizing)\nAvoid preload reducing medications (\nnitroglycerin\n,\ndiuretics\n)",
+          "tables": []
+        },
+        "Non-hemorrhagic_Tamponade": {
+          "text": "IVF\nbolus of 500-1000 ml (patient is pre-load dependent)\nPericardiocentesis\nis definitive treatment\nDialysis for patients with known\nrenal failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Hemorrhagic_Tamponade": {
+      "text": "Can occur if ECG read as STEMI/NSTEMI and heparin started\nPericardiocentesis\nTemporizing measure until\nthoracotomy\ncan be performed\nIVF\nto increase RV volume and maintain preload\nMedications\nPressors\n(temporizing)\nAvoid preload reducing medications (\nnitroglycerin\n,\ndiuretics\n)",
+      "subsections": {
+        "Non-hemorrhagic_Tamponade": {
+          "text": "IVF\nbolus of 500-1000 ml (patient is pre-load dependent)\nPericardiocentesis\nis definitive treatment\nDialysis for patients with known\nrenal failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Non-hemorrhagic_Tamponade": {
+      "text": "IVF\nbolus of 500-1000 ml (patient is pre-load dependent)\nPericardiocentesis\nis definitive treatment\nDialysis for patients with known\nrenal failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "To OR if traumatic and hemodynamically unstable\nAdmit with cardiology/CT surgery consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pericardiocentesis\nThoracic Trauma\nPericarditis\nCardiac ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "Thoracic Trauma",
+          "url": "https://wikem.org/wiki/Thoracic_Trauma"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Medscape - Cardiac Tamponade",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

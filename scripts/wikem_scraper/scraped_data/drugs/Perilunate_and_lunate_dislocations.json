@@ -1,0 +1,240 @@
+{
+  "drug_name": "Perilunate_and_lunate_dislocations",
+  "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations",
+  "scraped_at": "2026-01-10T07:59:43.212385",
+  "sections": {
+    "Background": {
+      "text": "Occur via high-energy FOOSH injury (fall from height, MVC)\nPerilunate Dislocation = Lunate stays in place, capitate is displaced\nLunate Dislocation = Capitate stays in place, lunate is displaced\nCommonly missed (~25%) on initial presentation\nMust rule-out median nerve injury\nMust rule out carpal bone fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Perilunate dislocation: dorsal swelling with palpable mass\nLunate dislocation: volar swelling with palpable mass",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Perilunate_Dislocation": {
+          "text": "Lateral view\nCapitate displaced dorsal to lunate\nLunate retains its normal contact with radius\nPA view\nCapitolunate joint space is obliterated as the bones overlap one another",
+          "tables": []
+        },
+        "Lunate_Dislocation": {
+          "text": "Lateral view\nLunate is pushed off the radius into the palm (\"spilled teacup\" sign)\nPA view\nLunate has triangular shape (\"piece-of-pie sign\")",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Mayfield Classification": "Stage I: scapholunate dissociation",
+            "Level of carpal instability": "Disruption of scapholunate ligament with +Terry Thomas sign; exacerbated in clenched fist view"
+          },
+          {
+            "Mayfield Classification": "Stage II: perilunate dislocation",
+            "Level of carpal instability": "+Disruption of capitolunate joint; high association with scaphoid fractures"
+          },
+          {
+            "Mayfield Classification": "Stage III:  midcarpal dislocation",
+            "Level of carpal instability": "+Disruption of triquetrolunate joint; neither capitate or lunate is aligned with distal radius"
+          },
+          {
+            "Mayfield Classification": "Stage IV: lunate dislocation",
+            "Level of carpal instability": "+Disruption of radiolunate joint"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Perilunate_Dislocation": {
+      "text": "Lateral view\nCapitate displaced dorsal to lunate\nLunate retains its normal contact with radius\nPA view\nCapitolunate joint space is obliterated as the bones overlap one another",
+      "subsections": {
+        "Lunate_Dislocation": {
+          "text": "Lateral view\nLunate is pushed off the radius into the palm (\"spilled teacup\" sign)\nPA view\nLunate has triangular shape (\"piece-of-pie sign\")",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lunate_Dislocation": {
+      "text": "Lateral view\nLunate is pushed off the radius into the palm (\"spilled teacup\" sign)\nPA view\nLunate has triangular shape (\"piece-of-pie sign\")",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Carpal_Dislocations": {
+          "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+          "tables": []
+        },
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_Dislocations": {
+      "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Closed reduction and long-arm splint\nRequires emergent ortho consultation (very difficult to reduce with high incidence of median nerve compression), and usually emergent operative management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Carpal dislocations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal dislocations",
+          "url": "https://wikem.org/wiki/Carpal_dislocations"
+        }
+      ]
+    },
+    "References": {
+      "text": "Emergency Orthopedics, The Extremeties\nRadiopaedia.org",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "drug_name": "Penicillin_V",
+  "url": "https://wikem.org/wiki/Penicillin_V",
+  "scraped_at": "2026-01-10T07:59:31.899579",
+  "sections": {
+    "General": {
+      "text": "Type: Natural\nPenicillin\nDosage Forms: PO 250mg, 500mg; 125mg/5mL, 250mg/5 mL\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Strep_Pharyngitis": {
+          "text": "Acute\n250mg QID or 500mg BID x 10 days\nChronic carrier (Group A)\n500mg QID x 10 days + rifampin\nMax: 2000mg/day",
+          "tables": []
+        },
+        "Actinomycosis": {
+          "text": "Mild\n2000-4000mg PO divided q6 hours x 8 weeks\nSurgical\nI.V.\nPenicillin G\nx 4-6 weeks, then 2000-4000mg PO divided q6h x 6-12 months",
+          "tables": []
+        },
+        "Erysipelas": {
+          "text": "500mg PO QID",
+          "tables": []
+        },
+        "Recurrent_Rheumatic_Fever_(Prophylaxis)": {
+          "text": "250mg PO BID",
+          "tables": []
+        },
+        "Prosthetic_Joint_Infection,_Chronic_Suppression_(Off-Label)": {
+          "text": "500mg BID-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Strep_Pharyngitis": {
+      "text": "Acute\n250mg QID or 500mg BID x 10 days\nChronic carrier (Group A)\n500mg QID x 10 days + rifampin\nMax: 2000mg/day",
+      "subsections": {
+        "Actinomycosis": {
+          "text": "Mild\n2000-4000mg PO divided q6 hours x 8 weeks\nSurgical\nI.V.\nPenicillin G\nx 4-6 weeks, then 2000-4000mg PO divided q6h x 6-12 months",
+          "tables": []
+        },
+        "Erysipelas": {
+          "text": "500mg PO QID",
+          "tables": []
+        },
+        "Recurrent_Rheumatic_Fever_(Prophylaxis)": {
+          "text": "250mg PO BID",
+          "tables": []
+        },
+        "Prosthetic_Joint_Infection,_Chronic_Suppression_(Off-Label)": {
+          "text": "500mg BID-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Actinomycosis": {
+      "text": "Mild\n2000-4000mg PO divided q6 hours x 8 weeks\nSurgical\nI.V.\nPenicillin G\nx 4-6 weeks, then 2000-4000mg PO divided q6h x 6-12 months",
+      "subsections": {
+        "Erysipelas": {
+          "text": "500mg PO QID",
+          "tables": []
+        },
+        "Recurrent_Rheumatic_Fever_(Prophylaxis)": {
+          "text": "250mg PO BID",
+          "tables": []
+        },
+        "Prosthetic_Joint_Infection,_Chronic_Suppression_(Off-Label)": {
+          "text": "500mg BID-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Erysipelas": {
+      "text": "500mg PO QID",
+      "subsections": {
+        "Recurrent_Rheumatic_Fever_(Prophylaxis)": {
+          "text": "250mg PO BID",
+          "tables": []
+        },
+        "Prosthetic_Joint_Infection,_Chronic_Suppression_(Off-Label)": {
+          "text": "500mg BID-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "<12 years\n25-50mg/kg/day divided q6-8 hours\nMax: 2000mg/day\n≥12 years\n125-500mg q6-8 hours\nAlt: 25-50mg/kg/day divided q6-8 hours\nMax: 2000mg/day",
+          "tables": []
+        },
+        "Strep_Pharyngitis": {
+          "text": "Acute\n[3]\n≤27kg: 250mg BID-TID x 10 days\n>27kg: 500mg BID-TID x 10 days\nChronic Carrier (\nGroup A streptococci\n50mg/kg/day divided q6 hours x 10 days +\nrifampin\nMax: 2000mg/day\n[4]\nRecurrent Rheumatic Fever, prophylaxis\n250mg BID\n[5]",
+          "tables": []
+        },
+        "Anthrax_(Cutaneous)": {
+          "text": "25-50mg/kg/day divided BID-QID\nMax: 500mg per dose (Stevens, 2005)",
+          "tables": []
+        },
+        "Pneumonia,_Community-Acquired_(>3_Months)": {
+          "text": "50-75mg/kg/day divided q6-8h hours\nMax: 2000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group A streptococci",
+          "url": "https://wikem.org/wiki/Group_A_streptococci"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "<12 years\n25-50mg/kg/day divided q6-8 hours\nMax: 2000mg/day\n≥12 years\n125-500mg q6-8 hours\nAlt: 25-50mg/kg/day divided q6-8 hours\nMax: 2000mg/day",
+      "subsections": {
+        "Strep_Pharyngitis": {
+          "text": "Acute\n[3]\n≤27kg: 250mg BID-TID x 10 days\n>27kg: 500mg BID-TID x 10 days\nChronic Carrier (\nGroup A streptococci\n50mg/kg/day divided q6 hours x 10 days +\nrifampin\nMax: 2000mg/day\n[4]\nRecurrent Rheumatic Fever, prophylaxis\n250mg BID\n[5]",
+          "tables": []
+        },
+        "Anthrax_(Cutaneous)": {
+          "text": "25-50mg/kg/day divided BID-QID\nMax: 500mg per dose (Stevens, 2005)",
+          "tables": []
+        },
+        "Pneumonia,_Community-Acquired_(>3_Months)": {
+          "text": "50-75mg/kg/day divided q6-8h hours\nMax: 2000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group A streptococci",
+          "url": "https://wikem.org/wiki/Group_A_streptococci"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Safe\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nInterstitial nephritis\nSeizures",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea, diarrhea\nOral candidiasis\nAnemia\nPositive Coombs reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nInterstitial nephritis\nSeizures",
+      "subsections": {
+        "Common": {
+          "text": "Nausea, diarrhea\nOral candidiasis\nAnemia\nPositive Coombs reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea, diarrhea\nOral candidiasis\nAnemia\nPositive Coombs reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.5-0.6hr\nMetabolism: Hepatic\nExcretion: urinary\nMechanism of Action: Inhibits the biosynthesis of cell wall mucopeptide",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

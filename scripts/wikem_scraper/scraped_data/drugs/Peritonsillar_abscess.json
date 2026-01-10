@@ -1,0 +1,1314 @@
+{
+  "drug_name": "Peritonsillar_abscess",
+  "url": "https://wikem.org/wiki/Peritonsillar_abscess",
+  "scraped_at": "2026-01-10T07:59:48.685753",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: PTA\nMost common deep head and neck infection in all populations\nGenerally preceded by pharyngitis, tonsillitis, or peritonsillar cellulitis\nAbscess between tonsillar capsule and superior constrictor and palatopharyngeus muscles\nLocation affected: superior > middle > inferior pole of tonsil\nVariable presentation, may range from minimal sore throat to sepsis and airway obstruction\nMicrobiology\nPolymicrobial:\nstrep\n/\nstaph\n,\nanaerobes\n,\neikenella\n,\nhaemophilus influenzae\n, Fusobacterium necrophorum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "eikenella",
+          "url": "https://wikem.org/wiki/Eikenella"
+        },
+        {
+          "text": "haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms": {
+          "text": "Sore throat\nFever\n, chills\nOdynophagia/\ndysphagia\nMay have neck or ear pain",
+          "tables": []
+        },
+        "Signs": {
+          "text": "Trismus, drooling, or saliva pooling\nMuffled voice (\"hot potato voice\")\nPeritonsillar edema/fluctuance and contralateral deflection of swollen uvula\nCervical lymphadenopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Sore throat\nFever\n, chills\nOdynophagia/\ndysphagia\nMay have neck or ear pain",
+      "subsections": {
+        "Signs": {
+          "text": "Trismus, drooling, or saliva pooling\nMuffled voice (\"hot potato voice\")\nPeritonsillar edema/fluctuance and contralateral deflection of swollen uvula\nCervical lymphadenopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        }
+      ]
+    },
+    "Signs": {
+      "text": "Trismus, drooling, or saliva pooling\nMuffled voice (\"hot potato voice\")\nPeritonsillar edema/fluctuance and contralateral deflection of swollen uvula\nCervical lymphadenopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[1]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[1]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Dentoalveolar_Injuries": {
+      "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+      "subsections": {
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Odontogenic_Infections": {
+      "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+      "subsections": {
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Other_2": {
+      "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Primarily a clinical diagnosis, though diagnostic uncertainty and assessment of the size/nature requires imaging\nLabs\nCBC\nCMP\nBlood cultures or culture/sensitivity of abscess fluid\nUltrasound\nDifferentiates\ncellulitis\nfrom abscess\nCan use an intraoral approach using a endocavitary probe or transcutaneous approach using a linear probe\nCan identify depth of neck vasculature prior to aspiration\nMay be limited by trismus, gag reflex, and operator technique\nCT with IV contrast\nAppears as ring-enhancing hypodense mass\nDifferentiates PTA from\nparapharyngeal\nor\nretropharyngeal space infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "parapharyngeal",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "retropharyngeal space infection",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Drainage": {
+          "text": "The recurrence rate after aspiration is 10% and the cure rate is 93% to 95%.  Recurrence rate for aspiration alone may be higher than I&D\n[3]\n[4]\nMay need IV\npain meds\n,\nsedation\nor\nprocedural sedation\nGlycopyrrolate\ncan reduce secretions",
+          "tables": []
+        },
+        "Needle_Aspiration": {
+          "text": "Apply anesthetic spray to overlying mucosa\nHave patient hold suction and use as needed\nUse\nlaryngoscope\nor disassembled vaginal speculum with wand as tongue depressor and light source\nInject 1-2mL of lidocaine with epinephrine into mucosa of anterior tonsillar pillar using 25 gauge needle\nCut distal tip off of needle sheath and place over 18ga needle to expose 1 cm of needle to prevent accidentally plunging deeper than desired\nAspirate using 18 gauge needle just lateral to the tonsil\nUse static ultrasound to determine depth of vasculature.\nThough always a concern, carotid injury has not been clearly documented as a complications\n[5]\nMay require multiple aspirations to find the abscess\nFirst try superior then middle then inferior poles\nConsider spinal needle if patient has significant trismus",
+          "tables": []
+        },
+        "I&D": {
+          "text": "#11 or #15 blade scalpel\nDo not penetrate more than 1cm\nOnly advance posteriorly\nMay be indicated if significant pus with needle aspiration\nMacintosh size 3 or 4 with handle in a \"tomahawk\" position provides visualization with lighting\n[6]",
+          "tables": []
+        },
+        "Antibiotics_Alone": {
+          "text": "Caution: No prospective, controlled studies are currently available to support this approach. The most recent review with meta analysis (2020) found only low-quality data.\n[7]\nThe medications below and ED observation for 1-2 hours after, with liquid PO challenge:\nD5-1/2 NS, 1 L bolus\nIV NSAIDs, antipyretics\nDexamethasone\n10 mg IV\nCeftriaxone\n2 g IV,\nAmpicillin/Sulbactam\n3 g IV, or\nClindamycin\n600 mg IV\nUpon discharge,\nClindamycin\n300 mg PO QID x10-14 days vs\nAmoxicillin/Clavulanate\n875mg PO BID x10-14 days\nPediatric protocol is the same, with weight based dosing",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Coverage for Streptococcus species, anerobes, Eikenella, H. influenza, S. auresus",
+          "tables": []
+        },
+        "Outpatient_Options": {
+          "text": "Clindamycin\n300mg PO Q6hrs x7-10d\nAmoxicillin/Clavulanate\n875 mg PO BID x 7-10d\nPenicillin V\n500mg PO +\nMetronidazole\n500mg QID",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Ampicillin/Sulbactam\n3 gm (75mg/kg) IV four times daily\nPipericillin/Tazobactam\n4.5 gm IV TID\nTicarcillin/Clavulanate\n3.1 g IV QID\nClindamycin\n600-900mg IV TID\nPenicillin G\n4 million units (50,000 units/kg) IV four times daily +\nMetronidazole\n500mg IV three times daily",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Decreases duration and severity of pain\n[8]\nMethylprednisolone\n125mg IV x1\nOR\ndexamethasone\n10mg PO/IM x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pain meds",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "laryngoscope",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Drainage": {
+      "text": "The recurrence rate after aspiration is 10% and the cure rate is 93% to 95%.  Recurrence rate for aspiration alone may be higher than I&D\n[3]\n[4]\nMay need IV\npain meds\n,\nsedation\nor\nprocedural sedation\nGlycopyrrolate\ncan reduce secretions",
+      "subsections": {
+        "Needle_Aspiration": {
+          "text": "Apply anesthetic spray to overlying mucosa\nHave patient hold suction and use as needed\nUse\nlaryngoscope\nor disassembled vaginal speculum with wand as tongue depressor and light source\nInject 1-2mL of lidocaine with epinephrine into mucosa of anterior tonsillar pillar using 25 gauge needle\nCut distal tip off of needle sheath and place over 18ga needle to expose 1 cm of needle to prevent accidentally plunging deeper than desired\nAspirate using 18 gauge needle just lateral to the tonsil\nUse static ultrasound to determine depth of vasculature.\nThough always a concern, carotid injury has not been clearly documented as a complications\n[5]\nMay require multiple aspirations to find the abscess\nFirst try superior then middle then inferior poles\nConsider spinal needle if patient has significant trismus",
+          "tables": []
+        },
+        "I&D": {
+          "text": "#11 or #15 blade scalpel\nDo not penetrate more than 1cm\nOnly advance posteriorly\nMay be indicated if significant pus with needle aspiration\nMacintosh size 3 or 4 with handle in a \"tomahawk\" position provides visualization with lighting\n[6]",
+          "tables": []
+        },
+        "Antibiotics_Alone": {
+          "text": "Caution: No prospective, controlled studies are currently available to support this approach. The most recent review with meta analysis (2020) found only low-quality data.\n[7]\nThe medications below and ED observation for 1-2 hours after, with liquid PO challenge:\nD5-1/2 NS, 1 L bolus\nIV NSAIDs, antipyretics\nDexamethasone\n10 mg IV\nCeftriaxone\n2 g IV,\nAmpicillin/Sulbactam\n3 g IV, or\nClindamycin\n600 mg IV\nUpon discharge,\nClindamycin\n300 mg PO QID x10-14 days vs\nAmoxicillin/Clavulanate\n875mg PO BID x10-14 days\nPediatric protocol is the same, with weight based dosing",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Coverage for Streptococcus species, anerobes, Eikenella, H. influenza, S. auresus",
+          "tables": []
+        },
+        "Outpatient_Options": {
+          "text": "Clindamycin\n300mg PO Q6hrs x7-10d\nAmoxicillin/Clavulanate\n875 mg PO BID x 7-10d\nPenicillin V\n500mg PO +\nMetronidazole\n500mg QID",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Ampicillin/Sulbactam\n3 gm (75mg/kg) IV four times daily\nPipericillin/Tazobactam\n4.5 gm IV TID\nTicarcillin/Clavulanate\n3.1 g IV QID\nClindamycin\n600-900mg IV TID\nPenicillin G\n4 million units (50,000 units/kg) IV four times daily +\nMetronidazole\n500mg IV three times daily",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Decreases duration and severity of pain\n[8]\nMethylprednisolone\n125mg IV x1\nOR\ndexamethasone\n10mg PO/IM x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pain meds",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "laryngoscope",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Coverage for Streptococcus species, anerobes, Eikenella, H. influenza, S. auresus",
+      "subsections": {
+        "Outpatient_Options": {
+          "text": "Clindamycin\n300mg PO Q6hrs x7-10d\nAmoxicillin/Clavulanate\n875 mg PO BID x 7-10d\nPenicillin V\n500mg PO +\nMetronidazole\n500mg QID",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Ampicillin/Sulbactam\n3 gm (75mg/kg) IV four times daily\nPipericillin/Tazobactam\n4.5 gm IV TID\nTicarcillin/Clavulanate\n3.1 g IV QID\nClindamycin\n600-900mg IV TID\nPenicillin G\n4 million units (50,000 units/kg) IV four times daily +\nMetronidazole\n500mg IV three times daily",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Decreases duration and severity of pain\n[8]\nMethylprednisolone\n125mg IV x1\nOR\ndexamethasone\n10mg PO/IM x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Decreases duration and severity of pain\n[8]\nMethylprednisolone\n125mg IV x1\nOR\ndexamethasone\n10mg PO/IM x1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged with ENT follow-up and PO antibiotics\nWeight PO tolerance, probability of follow-up failure, antibiotics adherence in deciding disposition\nIf no pus can be obtained but there is high suspicion for a PTA, admit with IV antibiotics (30% neg aspiration still have PTA)\nIn pediatric patients 50% respond to med management\n[9]",
+      "subsections": {
+        "Return_Precautions": {
+          "text": "shortness of breath\nWorsening throat or neck pain\nEnlarging mass\nBleeding\nNeck stiffness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "Return_Precautions": {
+      "text": "shortness of breath\nWorsening throat or neck pain\nEnlarging mass\nBleeding\nNeck stiffness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Complications": {
+          "text": "Airway obstruction\nRupture\nabscess\nwith aspiration of contents\nHemorrhage\ndue to erosion of carotid sheath\nRetropharyngeal abscess\nMediastinitis\nRecurrence occurs in 10-15% of patients\nLemierre's syndrome\nIatrogenic laceration of carotid artery\nCarotid artery is 2.5 cm posterior and lateral to tonsil\nShould limit depth of needle insertion to <10mm during aspiration",
+          "tables": []
+        },
+        "Indications_for_tonsillectomy": {
+          "text": "Airway obstruction\nRecurrent severe\npharyngitis\nor PTA\nFailure of\nabscess\nresolution with drainage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Airway obstruction\nRupture\nabscess\nwith aspiration of contents\nHemorrhage\ndue to erosion of carotid sheath\nRetropharyngeal abscess\nMediastinitis\nRecurrence occurs in 10-15% of patients\nLemierre's syndrome\nIatrogenic laceration of carotid artery\nCarotid artery is 2.5 cm posterior and lateral to tonsil\nShould limit depth of needle insertion to <10mm during aspiration",
+      "subsections": {
+        "Indications_for_tonsillectomy": {
+          "text": "Airway obstruction\nRecurrent severe\npharyngitis\nor PTA\nFailure of\nabscess\nresolution with drainage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Indications_for_tonsillectomy": {
+      "text": "Airway obstruction\nRecurrent severe\npharyngitis\nor PTA\nFailure of\nabscess\nresolution with drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pharyngitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        }
+      ]
+    }
+  }
+}

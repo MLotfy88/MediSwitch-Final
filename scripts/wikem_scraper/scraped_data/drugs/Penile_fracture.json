@@ -1,0 +1,99 @@
+{
+  "drug_name": "Penile_fracture",
+  "url": "https://wikem.org/wiki/Penile_fracture",
+  "scraped_at": "2026-01-10T07:59:38.464855",
+  "sections": {
+    "Background": {
+      "text": "Tunica albuginea of one or both corpora cavernosa ruptures due to trauma to erect penis\nCan be associated with urethral rupture and deep dorsal vein injury\nUnlikely to occur in blunt pelvic trauma with a flaccid penis\nAssociated with a urethral injury in up to 38% of penile fractures\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Penis is circumstantially swollen, discolored, tender, and flaccid\nTypically occurs during intercourse with receptive partner on top\nCracking sound followed by pain, usually immediate detumescence, swelling, discoloration, deformity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nRule out other trauma\nDo NOT pass foley until confirming patient can pass urine OR\nRetrograde urethrogram may be necessary to assure urethral integrity (especially important if pt unable to urinate)\nUrology may request corpus cavernosography, MRI, or ultrasound if the penile fracture is atypical\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgical exploration/repair required for most injuries if there is obvious or suspected fracture\nPenile hematoma with no fracture can be treated as an outpatient with NSAIDs\nPenile laceration with no fracture can be closed with 4-0 or 5-0 absorbable sutures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit, usually to OR for operative repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Penile trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        }
+      ]
+    }
+  }
+}

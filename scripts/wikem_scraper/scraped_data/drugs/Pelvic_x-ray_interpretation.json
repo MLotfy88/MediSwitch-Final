@@ -1,0 +1,40 @@
+{
+  "drug_name": "Pelvic_x-ray_interpretation",
+  "url": "https://wikem.org/wiki/Pelvic_x-ray_interpretation",
+  "scraped_at": "2026-01-10T07:59:30.389670",
+  "sections": {
+    "Measurements": {
+      "text": "pubic symphysis: up to 5mm in width, up to 2mm offset, no overlap\nSI joints: 2-4 mm in width",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Checklist": {
+      "text": "obturator foramina for symmetry-clue for rotation of film\ndiastasis of pubic symphysis and both SI joints\nassymetry of illiac wings (rotation or deformity)\nsacral foramina-especially the superior cortical margins\ntransverse processes of L5\nintegrity of all cortical lines, especially around acetabulum.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Views": {
+      "text": "Outlet views-sacral fractures, SI joint abnormalities\nInlet view-displacement of ant. Fragments into pelvis..\n(posterior abnormalities usually need CT )",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pelvic Fractures\nX-ray interpretation (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Fractures",
+          "url": "https://wikem.org/wiki/Pelvic_Fractures"
+        },
+        {
+          "text": "X-ray interpretation (main)",
+          "url": "https://wikem.org/wiki/X-ray_interpretation_(main)"
+        }
+      ]
+    }
+  }
+}

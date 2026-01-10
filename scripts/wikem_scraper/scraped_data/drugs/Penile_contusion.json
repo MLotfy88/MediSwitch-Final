@@ -1,0 +1,81 @@
+{
+  "drug_name": "Penile_contusion",
+  "url": "https://wikem.org/wiki/Penile_contusion",
+  "scraped_at": "2026-01-10T07:59:36.251276",
+  "sections": {
+    "Background": {
+      "text": "Blunt injury usually occurring to detumescent penis\nFrequently seen in straddle injuries, toilet training toddlers\nTunica albuginea remains intact",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Mangement": {
+      "text": "Treat conservatively with ice, rest, elevation, foley placement if patient unable to void\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Penile trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "drug_name": "Penicillin_G_Benzathine",
+  "url": "https://wikem.org/wiki/Penicillin_G_Benzathine",
+  "scraped_at": "2026-01-10T07:59:34.227975",
+  "sections": {
+    "General": {
+      "text": "Type:\nPenicillin\n, a type of\nPenicillin G\nDosage Forms: IM\nCommon Trade Names: Bicillin L-A",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Streptococcal_pharyngitis": {
+          "text": "1.2 million units IM x 1",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "Primary, secondary, or latent <1yr\n2.4 million units IM x 1\nLatent >1yr or unknown duration, or tertiary\n2.4 million units IM qWeek x 3 weeks\nNeurosyphilis\n4 million units IV Q4H x10 days",
+          "tables": []
+        },
+        "Rheumatic_Fever_Prophylaxis,_Secondary": {
+          "text": "1.2 million units IM every 4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Streptococcal_pharyngitis": {
+      "text": "1.2 million units IM x 1",
+      "subsections": {
+        "Syphilis": {
+          "text": "Primary, secondary, or latent <1yr\n2.4 million units IM x 1\nLatent >1yr or unknown duration, or tertiary\n2.4 million units IM qWeek x 3 weeks\nNeurosyphilis\n4 million units IV Q4H x10 days",
+          "tables": []
+        },
+        "Rheumatic_Fever_Prophylaxis,_Secondary": {
+          "text": "1.2 million units IM every 4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Syphilis": {
+      "text": "Primary, secondary, or latent <1yr\n2.4 million units IM x 1\nLatent >1yr or unknown duration, or tertiary\n2.4 million units IM qWeek x 3 weeks\nNeurosyphilis\n4 million units IV Q4H x10 days",
+      "subsections": {
+        "Rheumatic_Fever_Prophylaxis,_Secondary": {
+          "text": "1.2 million units IM every 4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rheumatic_Fever_Prophylaxis,_Secondary": {
+      "text": "1.2 million units IM every 4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Strep_Pharyngitis": {
+          "text": "<27kg:\n0.6 million units IM x 1\n>27kg:\n1.2 million units IM x 1",
+          "tables": []
+        },
+        "Syphilis_2": {
+          "text": "Congenital (<1mo)\n50,000 units/kg IM x 1\nMax: 2.4 million units/dose\nInfo: For asymptomatic disease only\nAcquired\nPrimary, secondary, or latent <1yr\n50,000 units/kg IM x 1\nMax: 2.4 million units/dose\nLatent >1yr or unknown duration\n50,000 units/kg IM qWeek x 3 weeks\nMax: 2.4 million units/dose",
+          "tables": []
+        },
+        "Rheumatic_Fever_Prophylaxis,_Secondary_2": {
+          "text": "<27kg:\n0.6 million units IM every 4 weeks\n>27kg:\n1.2 million units IM every 4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Strep_Pharyngitis": {
+      "text": "<27kg:\n0.6 million units IM x 1\n>27kg:\n1.2 million units IM x 1",
+      "subsections": {
+        "Syphilis_2": {
+          "text": "Congenital (<1mo)\n50,000 units/kg IM x 1\nMax: 2.4 million units/dose\nInfo: For asymptomatic disease only\nAcquired\nPrimary, secondary, or latent <1yr\n50,000 units/kg IM x 1\nMax: 2.4 million units/dose\nLatent >1yr or unknown duration\n50,000 units/kg IM qWeek x 3 weeks\nMax: 2.4 million units/dose",
+          "tables": []
+        },
+        "Rheumatic_Fever_Prophylaxis,_Secondary_2": {
+          "text": "<27kg:\n0.6 million units IM every 4 weeks\n>27kg:\n1.2 million units IM every 4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Syphilis_2": {
+      "text": "Congenital (<1mo)\n50,000 units/kg IM x 1\nMax: 2.4 million units/dose\nInfo: For asymptomatic disease only\nAcquired\nPrimary, secondary, or latent <1yr\n50,000 units/kg IM x 1\nMax: 2.4 million units/dose\nLatent >1yr or unknown duration\n50,000 units/kg IM qWeek x 3 weeks\nMax: 2.4 million units/dose",
+      "subsections": {
+        "Rheumatic_Fever_Prophylaxis,_Secondary_2": {
+          "text": "<27kg:\n0.6 million units IM every 4 weeks\n>27kg:\n1.2 million units IM every 4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rheumatic_Fever_Prophylaxis,_Secondary_2": {
+      "text": "<27kg:\n0.6 million units IM every 4 weeks\n>27kg:\n1.2 million units IM every 4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Safe\nRenal Dosing\nAdult\nCrCl 10-50: decrease dose 25%\nCrCl <10: decrease dose 50-80%\nHemodialysis: give after dialysis without supplement\nPeritoneal Dialysis: decrease dose 50-80%\nPediatric\nCrCl 10-50: decrease dose 25%\nCrCl <10: decrease dose 50-80%\nHemodialysis: give supplement\nHepatic Dosing (Adult & Pediatric)\nNo data",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_ratings_in_pregnancy"
+        }
+      ]
+    },
+    "Black_Box": {
+      "text": "Do not administer IV or mix with IV solutions (associated with cardiopulmonary arrest)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAnaphylactic reaction to\nBeta Lactams",
+      "subsections": {
+        "Cautions": {
+          "text": "Non-anaphylactic reaction to\nBeta Lactams\nHypersensitivity to multiple compounds\nAsthma\nRecent antibiotic associated colitis\nSeizure\ndisorder\nRenal imparement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta Lactams",
+          "url": "https://wikem.org/wiki/Beta_Lactams"
+        },
+        {
+          "text": "Beta Lactams",
+          "url": "https://wikem.org/wiki/Beta_Lactams"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Cautions": {
+      "text": "Non-anaphylactic reaction to\nBeta Lactams\nHypersensitivity to multiple compounds\nAsthma\nRecent antibiotic associated colitis\nSeizure\ndisorder\nRenal imparement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta Lactams",
+          "url": "https://wikem.org/wiki/Beta_Lactams"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nHypersensitivity reaction\nExfoliative dermatitis\nStevens Johnson Syndrome\nSuperinfection\nClostridium difficile\nJarisch-Herxheimer reaction\nHemolytic anemia\nLeukopenia\nThrombocytopenia\nNephrotoxicity\nInterstitial nephritis\nSeizures\nNeuropathy",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rash\nUrticaria\nFever\nPuritis\nFatigue\nAsthenia\nHeadache\nNausea and vomiting\nDiarrhea\nInjection site reaction\nSterile\nabscess\nElevated creatinine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Stevens Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nHypersensitivity reaction\nExfoliative dermatitis\nStevens Johnson Syndrome\nSuperinfection\nClostridium difficile\nJarisch-Herxheimer reaction\nHemolytic anemia\nLeukopenia\nThrombocytopenia\nNephrotoxicity\nInterstitial nephritis\nSeizures\nNeuropathy",
+      "subsections": {
+        "Common": {
+          "text": "Rash\nUrticaria\nFever\nPuritis\nFatigue\nAsthenia\nHeadache\nNausea and vomiting\nDiarrhea\nInjection site reaction\nSterile\nabscess\nElevated creatinine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Stevens Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Rash\nUrticaria\nFever\nPuritis\nFatigue\nAsthenia\nHeadache\nNausea and vomiting\nDiarrhea\nInjection site reaction\nSterile\nabscess\nElevated creatinine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: liver, CYP450\nExcretion: Urine\nMechanism of Action: Bactericidal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Penicillin G\nAntibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "drug_name": "Penile_dorsal_slit",
+  "url": "https://wikem.org/wiki/Penile_dorsal_slit",
+  "scraped_at": "2026-01-10T07:59:36.823428",
+  "sections": {
+    "Indications": {
+      "text": "Relieve\nparaphimosis\nAfter failure of non-invasive reduction\nEmergent urology consult not available\nPhimosis\ncausing urinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications\nShould be performed by urologist if consultation is immediately available\nCaution when:\nEvidence of overlying infection\nPatient immune compromised\nPatient has coagulation disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Betadine or other antiseptic prep solution\nSterile gloves and drape\nLocal anesthetic\n27 gauge needle\n3cc syringe\nStraight hemostats or Kelly clamp\nIris scissors\nVicryl suture (3-0 or 4-0)\nNeedle driver\nGauze",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Prep and drape penis in sterile fashion\nUsing a 27 gauge needle, raise a wheal of anesthetic in the foreskin\nJust proximal to the glans on the dorsal aspect of the penis\nExtend the injection along the longitudinal axis until entire foreskin is anesthetized\nAfter 4 min, check effectiveness of anesthetic\nSlide closed hemostat between dorsal penis and foreskin\nGently open hemostat to create a tract\nRemove hemostat\nOpen hemostat and insert bottom prong along previously created tract with top prong above the foreskin\nCarefully ensure that hemostat is not in urethral meatus\nClose hemostat to crush foreskin tissue\nLeave hemostat in place for 10 minutes\nRemove hemostat\nUse iris scissors to cut crushed tissue\nUse vicryl to place a running stitch along cut ends of foreskin if oozing is excessive or persistent\nClean glans\nPlace Foley catheter if needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Bleeding\nPain\nInfection\nDamage to glans or urethra",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Paraphimosis Reduction\nPhimosis\nParaphimosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paraphimosis Reduction",
+          "url": "https://wikem.org/wiki/Paraphimosis_Reduction"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Emedicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
