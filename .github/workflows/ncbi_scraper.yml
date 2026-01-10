@@ -1,0 +1,55 @@
+name: NCBI StatPearls Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *' # Run every 6 hours
+
+jobs:
+  scrape-ncbi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300 # 5 hours
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests aiohttp beautifulsoup4
+
+      - name: Reconstruct Database (for Target Gen)
+        run: |
+          # The database is split in parts, we need to join them to read ingredients
+          if [ -f "scripts/statpearls_scraper/targets.csv" ]; then
+             echo "Targets file exists. Skipping DB reconstruction."
+          else
+             echo "Targets file missing. Reconstructing DB..."
+             cat assets/database/parts/mediswitch.db.part-* > assets/database/mediswitch.db
+             ls -lh assets/database/mediswitch.db
+          fi
+
+      - name: Generate Targets (if missing)
+        run: |
+          if [ ! -f "scripts/statpearls_scraper/targets.csv" ]; then
+            python3 scripts/statpearls_scraper/generate_targets.py
+          fi
+
+      - name: Run Async Scraper
+        run: python3 scripts/statpearls_scraper/async_scraper.py
+        env:
+          PYTHONUNBUFFERED: 1
+
+      - name: Commit Scraped Data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat(data): update ncbi statpearls scraped data [skip ci]"
+          file_pattern: 'scripts/statpearls_scraper/scraped_data/*.json scripts/statpearls_scraper/scraped_data/**/*.json scripts/statpearls_scraper/targets.csv'
