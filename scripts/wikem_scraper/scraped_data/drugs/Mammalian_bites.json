@@ -1,0 +1,1003 @@
+{
+  "drug_name": "Mammalian_bites",
+  "url": "https://wikem.org/wiki/Mammalian_bites",
+  "scraped_at": "2026-01-10T07:56:55.267181",
+  "sections": {
+    "Background": {
+      "text": "5% of untreated dog bites will become infected (similar to rate of non-bite wounds)\n80% of untreated cat bites will become infected\nHuman Bite - (Also see\nClosed fist infection\n)",
+      "subsections": {
+        "High-Risk_Wounds": {
+          "text": "Cat, human, livestock, or monkey bites\nDeep puncture wounds\nHand or foot wounds\nBites in immunosuppressed patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "High-Risk_Wounds": {
+      "text": "Cat, human, livestock, or monkey bites\nDeep puncture wounds\nHand or foot wounds\nBites in immunosuppressed patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Depends on source of bite - bite marks or puncture wounds.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam\nConsider X-ray\nIf concern for retained foreign body (e.g. tooth)\nTo rule out fracture (adult dogs may exert >200 lbs force bite)\nConsider Ultrasound\nIf concern for\nabscess\nor foreign body\nCT Angio if concern for vascular injury\nWounds overlying a joint should be examined through complete range of motion to assess for tendon injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Management": {
+      "text": "A mnemonic to remember management:\nHELICOPTER\nH\nistory,\nE\nxamination,\nL\niberal cleansing,\nI\nrrigation,\nC\nlosure & Culture consideration,\nO\nperative cleansing & closure,\nP\nrophylactic antibiotics,\nT\netanus immunization,\nE\nlevation,\nR\nabies risk",
+      "subsections": {
+        "Indications_for_Primary_Closure_of_Mammalian_Bites": {
+          "text": "Consider primary closure in face bites\n[1]\n[2]\nif all of the following are true:\nRepair can occur within 6hr of injury (time dependent upon individual judgment)\nRepair only requires single-layer closure; no devitalized tissue\nNo underlying fracture\nNo systemic immunocompromising conditions\nLarge gaping wounds outside the face may also require closure with loose approximation\nConsider antibiotics in patients who are primarily closed",
+          "tables": []
+        },
+        "Cat_and_Dog_Bites": {
+          "text": "Coverage for\nPasteurella\n,\nStrep\n, and\nStaph\nConsider for high-risk wounds\nwounds reaching the level of the muscle/tendon, wounds to the hand\n[3]\n, violation of bone or joint capsule, immunocompromised hosts, wounds associated with significant local edema\nAmoxicilin-clavulanate\n875mg PO BID x 5-7 days OR\n[4]\nDoxycycline\n100mg PO BID x 14 days if penicillin allergic\n[5]\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days PLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days OR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Human_Bites": {
+          "text": "All human bites should be strongly considered for antibiotic therapy.\n[6]\nRequires polymicrobial coverage for:\nS. aureus\n,\nStrep Viridans\n,\nBacteroides\n, Coagulase-neg\nStaph\n,\nEikenella\n,\nFusobacterium\n,\nCornebacterium\n,\npeptostreptococus\nAmoxicilin-clavulanate\n875mg PO BID x 5-7days\nOR\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days\nPLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days\nOR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Mammalian_Bites_Severe_Infections": {
+          "text": "Ampicillin/Sulbactam\n3g IV (50mg/kg IV) q 6hrs daily OR\nCefoxitin\n1g IV q8hrs (25mg/kg q6hrs) OR\nPipericillin/Tazobactam\n4.5g IV (80mg/kg IV) q8hrs OR\nCeftriaxone\n1g (50mg/kg IV) once +\nMetronidazole\n500mg IV q8hrs OR\nClindamycin\n600mg IV q8hrs PLUS\nTMP/SMX\n5mg/kg IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Monkey Bites:\nAcyclovir\nor\nValacyclovir\nMonkeys are carriers of Cercopithecine herpesvirus 1 aka Herpesvirus simiae aka B virus.\nValacylovir — 1g PO q8hrs for 14 days or Acyclovir —800mg PO 5 times daily for 14 days",
+          "tables": []
+        },
+        "Rabies_prophylaxis": {
+          "text": "Rabies\nimmune globulin should be inidividualized\n[7]\nIndicated for bites from bats, monkeys, skunks, raccoons, foxes.  In the U.S. rare for dog and cat bites to contain rabies (however different rules apply for stray animal in areas with higher rabies incidence)\nCDC recommends that if possible, the animal be tested, or quarantined for 10 days monitoring to help with the decision to provide rabies prophylaxis",
+          "tables": []
+        },
+        "Tetanus_Prophylaxis": {
+          "text": "IDSA suggests considering Tetanus Vaccination in patients whose last Vx was 10 years or more\n[8]",
+          "tables": []
+        },
+        "Hand_Bites": {
+          "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+          "tables": []
+        },
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pasteurella",
+          "url": "https://wikem.org/wiki/Pasteurella"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep Viridans",
+          "url": "https://wikem.org/wiki/Strep_Viridans"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Eikenella",
+          "url": "https://wikem.org/wiki/Eikenella"
+        },
+        {
+          "text": "Fusobacterium",
+          "url": "https://wikem.org/wiki/Fusobacterium"
+        },
+        {
+          "text": "Cornebacterium",
+          "url": "https://wikem.org/wiki/Cornebacterium"
+        },
+        {
+          "text": "peptostreptococus",
+          "url": "https://wikem.org/wiki/Peptostreptococus"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Indications_for_Primary_Closure_of_Mammalian_Bites": {
+      "text": "Consider primary closure in face bites\n[1]\n[2]\nif all of the following are true:\nRepair can occur within 6hr of injury (time dependent upon individual judgment)\nRepair only requires single-layer closure; no devitalized tissue\nNo underlying fracture\nNo systemic immunocompromising conditions\nLarge gaping wounds outside the face may also require closure with loose approximation\nConsider antibiotics in patients who are primarily closed",
+      "subsections": {
+        "Cat_and_Dog_Bites": {
+          "text": "Coverage for\nPasteurella\n,\nStrep\n, and\nStaph\nConsider for high-risk wounds\nwounds reaching the level of the muscle/tendon, wounds to the hand\n[3]\n, violation of bone or joint capsule, immunocompromised hosts, wounds associated with significant local edema\nAmoxicilin-clavulanate\n875mg PO BID x 5-7 days OR\n[4]\nDoxycycline\n100mg PO BID x 14 days if penicillin allergic\n[5]\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days PLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days OR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Human_Bites": {
+          "text": "All human bites should be strongly considered for antibiotic therapy.\n[6]\nRequires polymicrobial coverage for:\nS. aureus\n,\nStrep Viridans\n,\nBacteroides\n, Coagulase-neg\nStaph\n,\nEikenella\n,\nFusobacterium\n,\nCornebacterium\n,\npeptostreptococus\nAmoxicilin-clavulanate\n875mg PO BID x 5-7days\nOR\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days\nPLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days\nOR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Mammalian_Bites_Severe_Infections": {
+          "text": "Ampicillin/Sulbactam\n3g IV (50mg/kg IV) q 6hrs daily OR\nCefoxitin\n1g IV q8hrs (25mg/kg q6hrs) OR\nPipericillin/Tazobactam\n4.5g IV (80mg/kg IV) q8hrs OR\nCeftriaxone\n1g (50mg/kg IV) once +\nMetronidazole\n500mg IV q8hrs OR\nClindamycin\n600mg IV q8hrs PLUS\nTMP/SMX\n5mg/kg IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Monkey Bites:\nAcyclovir\nor\nValacyclovir\nMonkeys are carriers of Cercopithecine herpesvirus 1 aka Herpesvirus simiae aka B virus.\nValacylovir — 1g PO q8hrs for 14 days or Acyclovir —800mg PO 5 times daily for 14 days",
+          "tables": []
+        },
+        "Rabies_prophylaxis": {
+          "text": "Rabies\nimmune globulin should be inidividualized\n[7]\nIndicated for bites from bats, monkeys, skunks, raccoons, foxes.  In the U.S. rare for dog and cat bites to contain rabies (however different rules apply for stray animal in areas with higher rabies incidence)\nCDC recommends that if possible, the animal be tested, or quarantined for 10 days monitoring to help with the decision to provide rabies prophylaxis",
+          "tables": []
+        },
+        "Tetanus_Prophylaxis": {
+          "text": "IDSA suggests considering Tetanus Vaccination in patients whose last Vx was 10 years or more\n[8]",
+          "tables": []
+        },
+        "Hand_Bites": {
+          "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+          "tables": []
+        },
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pasteurella",
+          "url": "https://wikem.org/wiki/Pasteurella"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep Viridans",
+          "url": "https://wikem.org/wiki/Strep_Viridans"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Eikenella",
+          "url": "https://wikem.org/wiki/Eikenella"
+        },
+        {
+          "text": "Fusobacterium",
+          "url": "https://wikem.org/wiki/Fusobacterium"
+        },
+        {
+          "text": "Cornebacterium",
+          "url": "https://wikem.org/wiki/Cornebacterium"
+        },
+        {
+          "text": "peptostreptococus",
+          "url": "https://wikem.org/wiki/Peptostreptococus"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Cat_and_Dog_Bites": {
+          "text": "Coverage for\nPasteurella\n,\nStrep\n, and\nStaph\nConsider for high-risk wounds\nwounds reaching the level of the muscle/tendon, wounds to the hand\n[3]\n, violation of bone or joint capsule, immunocompromised hosts, wounds associated with significant local edema\nAmoxicilin-clavulanate\n875mg PO BID x 5-7 days OR\n[4]\nDoxycycline\n100mg PO BID x 14 days if penicillin allergic\n[5]\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days PLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days OR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Human_Bites": {
+          "text": "All human bites should be strongly considered for antibiotic therapy.\n[6]\nRequires polymicrobial coverage for:\nS. aureus\n,\nStrep Viridans\n,\nBacteroides\n, Coagulase-neg\nStaph\n,\nEikenella\n,\nFusobacterium\n,\nCornebacterium\n,\npeptostreptococus\nAmoxicilin-clavulanate\n875mg PO BID x 5-7days\nOR\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days\nPLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days\nOR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Mammalian_Bites_Severe_Infections": {
+          "text": "Ampicillin/Sulbactam\n3g IV (50mg/kg IV) q 6hrs daily OR\nCefoxitin\n1g IV q8hrs (25mg/kg q6hrs) OR\nPipericillin/Tazobactam\n4.5g IV (80mg/kg IV) q8hrs OR\nCeftriaxone\n1g (50mg/kg IV) once +\nMetronidazole\n500mg IV q8hrs OR\nClindamycin\n600mg IV q8hrs PLUS\nTMP/SMX\n5mg/kg IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Monkey Bites:\nAcyclovir\nor\nValacyclovir\nMonkeys are carriers of Cercopithecine herpesvirus 1 aka Herpesvirus simiae aka B virus.\nValacylovir — 1g PO q8hrs for 14 days or Acyclovir —800mg PO 5 times daily for 14 days",
+          "tables": []
+        },
+        "Rabies_prophylaxis": {
+          "text": "Rabies\nimmune globulin should be inidividualized\n[7]\nIndicated for bites from bats, monkeys, skunks, raccoons, foxes.  In the U.S. rare for dog and cat bites to contain rabies (however different rules apply for stray animal in areas with higher rabies incidence)\nCDC recommends that if possible, the animal be tested, or quarantined for 10 days monitoring to help with the decision to provide rabies prophylaxis",
+          "tables": []
+        },
+        "Tetanus_Prophylaxis": {
+          "text": "IDSA suggests considering Tetanus Vaccination in patients whose last Vx was 10 years or more\n[8]",
+          "tables": []
+        },
+        "Hand_Bites": {
+          "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+          "tables": []
+        },
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pasteurella",
+          "url": "https://wikem.org/wiki/Pasteurella"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep Viridans",
+          "url": "https://wikem.org/wiki/Strep_Viridans"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Eikenella",
+          "url": "https://wikem.org/wiki/Eikenella"
+        },
+        {
+          "text": "Fusobacterium",
+          "url": "https://wikem.org/wiki/Fusobacterium"
+        },
+        {
+          "text": "Cornebacterium",
+          "url": "https://wikem.org/wiki/Cornebacterium"
+        },
+        {
+          "text": "peptostreptococus",
+          "url": "https://wikem.org/wiki/Peptostreptococus"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Monkey Bites:\nAcyclovir\nor\nValacyclovir\nMonkeys are carriers of Cercopithecine herpesvirus 1 aka Herpesvirus simiae aka B virus.\nValacylovir — 1g PO q8hrs for 14 days or Acyclovir —800mg PO 5 times daily for 14 days",
+      "subsections": {
+        "Rabies_prophylaxis": {
+          "text": "Rabies\nimmune globulin should be inidividualized\n[7]\nIndicated for bites from bats, monkeys, skunks, raccoons, foxes.  In the U.S. rare for dog and cat bites to contain rabies (however different rules apply for stray animal in areas with higher rabies incidence)\nCDC recommends that if possible, the animal be tested, or quarantined for 10 days monitoring to help with the decision to provide rabies prophylaxis",
+          "tables": []
+        },
+        "Tetanus_Prophylaxis": {
+          "text": "IDSA suggests considering Tetanus Vaccination in patients whose last Vx was 10 years or more\n[8]",
+          "tables": []
+        },
+        "Hand_Bites": {
+          "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+          "tables": []
+        },
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Rabies_prophylaxis": {
+      "text": "Rabies\nimmune globulin should be inidividualized\n[7]\nIndicated for bites from bats, monkeys, skunks, raccoons, foxes.  In the U.S. rare for dog and cat bites to contain rabies (however different rules apply for stray animal in areas with higher rabies incidence)\nCDC recommends that if possible, the animal be tested, or quarantined for 10 days monitoring to help with the decision to provide rabies prophylaxis",
+      "subsections": {
+        "Tetanus_Prophylaxis": {
+          "text": "IDSA suggests considering Tetanus Vaccination in patients whose last Vx was 10 years or more\n[8]",
+          "tables": []
+        },
+        "Hand_Bites": {
+          "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+          "tables": []
+        },
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Tetanus_Prophylaxis": {
+      "text": "IDSA suggests considering Tetanus Vaccination in patients whose last Vx was 10 years or more\n[8]",
+      "subsections": {
+        "Hand_Bites": {
+          "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+          "tables": []
+        },
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Hand_Bites": {
+      "text": "Consider hand surgeon consultation early for hand bite infections (see\nclosed fist infection\n)",
+      "subsections": {
+        "Extremity_Wounds": {
+          "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Extremity_Wounds": {
+      "text": "Keep involved extremity elevated.\nEducate patient to avoid soaking the wound and avoid wrapping bandages too tightly.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge if mild or no apparent infection\nAdmit for IV antibiotics as indicated in other\nskin and soft tissue infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "skin and soft tissue infections",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Laceration Repair\nClosed fist infection\nHerpes B virus\nEBQ:Antibiotic prophylaxis for mammalian bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Laceration Repair",
+          "url": "https://wikem.org/wiki/Laceration_Repair"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "EBQ:Antibiotic prophylaxis for mammalian bites",
+          "url": "https://wikem.org/wiki/EBQ:Antibiotic_prophylaxis_for_mammalian_bites"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011822.pub2/full",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

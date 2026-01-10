@@ -1,0 +1,303 @@
+{
+  "drug_name": "Mandible_dislocation",
+  "url": "https://wikem.org/wiki/Mandible_dislocation",
+  "scraped_at": "2026-01-10T07:56:56.918515",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Dislocation Type": "Anterior",
+            "Frequency": "Most common",
+            "Associated with trauma?": "No",
+            "Mechanism": "Spontaneously while patient is yawning, \"popping\" ears, or laughingRisk factors:Prior dislocationWeakness or laxity of capsuleLigamentous injury",
+            "Additional Comments": "Mandibular condyle forced in front of the articular eminenceMay happen bilaterally or unilaterally",
+            "Associated with fracture?": "No",
+            "Image": ""
+          },
+          {
+            "Dislocation Type": "Posterior",
+            "Frequency": "Rare",
+            "Associated with trauma?": "Yes",
+            "Mechanism": "Follows a blow to the mandible that may or may not break the condylar neck",
+            "Additional Comments": "Condylar head may prolapse into the external auditory canal",
+            "Associated with fracture?": "Possible",
+            "Image": ""
+          },
+          {
+            "Dislocation Type": "Lateral",
+            "Frequency": "Rare",
+            "Associated with trauma?": "Yes",
+            "Mechanism": "Lateral trauma to mandible",
+            "Additional Comments": "Often associated with mandibular fracture",
+            "Associated with fracture?": "Yes",
+            "Image": ""
+          },
+          {
+            "Dislocation Type": "Superior",
+            "Frequency": "Rare",
+            "Associated with trauma?": "Yes",
+            "Mechanism": "Occur from blow to the partially opened mouth",
+            "Additional Comments": "Can result in a fracture of the glenoid fossa and displacement of the condyle into the middle cranial fossa, potentially injuring the facial and vestibulocochlear nerves and the temporal lobe.Associated with cerebral contusions, facial nerve palsy, deafness",
+            "Associated with fracture?": "Yes",
+            "Image": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Inability to close mouth\nDifficulty speaking or swallowing\nMalocclusion\nPain localized anterior to the tragus\nProminent-appearing lower jaw\nPreauricular depression\nCondylar head palpable in the temporal space (in lateral dislocation)",
+      "subsections": {
+        "Posterior_Dislocation": {
+          "text": "Must examine the external auditory canal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Posterior_Dislocation": {
+      "text": "Must examine the external auditory canal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Jaw_Spasms": {
+      "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis\nFor traumatic etiology, obtain CT face to evaluate for fracture\nAlso obtain CT IAC if concern for posterior dislocation\nExamine external auditory canal, especially in posterior dislocation\nEvaluate the cranial nerves to rule out concomitant injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If no concern for fracture, perform closed reduction in the emergency department (see techniques below)\nOften easiest to reduce one side at a time\nProvide\npain control\nand anxiolysis as needed\nConsider\nprocedural sedation\n, especially if the mandible has been dislocated for an extended period\nLocal anesthetics\nmay also be effective when injected into the preauricular depression just anterior to the tragus",
+      "subsections": {
+        "Syringe_Reduction_Technique": {
+          "text": "Have the patient place an empty 5 or 10 mL syringe between the upper and lower molars on one side of the mouth\nDirect the patient to roll the syringe back and forth until reduction is achieved\nIf the opposite side does not spontaneously (it generally will), may repeat same technique on the opposite side",
+          "tables": []
+        },
+        "Extra-oral_Reduction_Technique": {
+          "text": "Place the patient in seated position\nPlace one thumb on the one zygomatic arch, and the fingers of the same hand behind the mandible\nOn the opposite side, place thumb on the coronoid process of the mandible\nUse the fingers of the first hand to pull the mandible forward while using the zygomatic arch to brace\nAt the same time, apply firm and consistent pressure on the coronoid process with the second hand\nOnce the first side is reduced, reverse hand positions and repeat the process on the second side",
+          "tables": []
+        },
+        "Wrist_Pivot_Method": {
+          "text": "Place patient in seated position\nFace the patient and grasp the mandible with your thumbs at the apex of the mentum\nPlace well-wrapped and gloved fingers on the occlusal surface of the inferior molars\nApply cephalad force with the thumbs and caudal pressure with the fingers\nPivot your wrists to reduce joint",
+          "tables": []
+        },
+        "Traditional_Technique": {
+          "text": "Place patient in seated position (anterior approach) or supine (posterior approach)\nPlace well-wrapped and gloved thumbs over occlusal surface of inferior molars or lateral to molars in the buccal fold\nApply caudal and posterior pressure to reduce joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pain control",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Local anesthetics",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        }
+      ]
+    },
+    "Syringe_Reduction_Technique": {
+      "text": "Have the patient place an empty 5 or 10 mL syringe between the upper and lower molars on one side of the mouth\nDirect the patient to roll the syringe back and forth until reduction is achieved\nIf the opposite side does not spontaneously (it generally will), may repeat same technique on the opposite side",
+      "subsections": {
+        "Extra-oral_Reduction_Technique": {
+          "text": "Place the patient in seated position\nPlace one thumb on the one zygomatic arch, and the fingers of the same hand behind the mandible\nOn the opposite side, place thumb on the coronoid process of the mandible\nUse the fingers of the first hand to pull the mandible forward while using the zygomatic arch to brace\nAt the same time, apply firm and consistent pressure on the coronoid process with the second hand\nOnce the first side is reduced, reverse hand positions and repeat the process on the second side",
+          "tables": []
+        },
+        "Wrist_Pivot_Method": {
+          "text": "Place patient in seated position\nFace the patient and grasp the mandible with your thumbs at the apex of the mentum\nPlace well-wrapped and gloved fingers on the occlusal surface of the inferior molars\nApply cephalad force with the thumbs and caudal pressure with the fingers\nPivot your wrists to reduce joint",
+          "tables": []
+        },
+        "Traditional_Technique": {
+          "text": "Place patient in seated position (anterior approach) or supine (posterior approach)\nPlace well-wrapped and gloved thumbs over occlusal surface of inferior molars or lateral to molars in the buccal fold\nApply caudal and posterior pressure to reduce joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extra-oral_Reduction_Technique": {
+      "text": "Place the patient in seated position\nPlace one thumb on the one zygomatic arch, and the fingers of the same hand behind the mandible\nOn the opposite side, place thumb on the coronoid process of the mandible\nUse the fingers of the first hand to pull the mandible forward while using the zygomatic arch to brace\nAt the same time, apply firm and consistent pressure on the coronoid process with the second hand\nOnce the first side is reduced, reverse hand positions and repeat the process on the second side",
+      "subsections": {
+        "Wrist_Pivot_Method": {
+          "text": "Place patient in seated position\nFace the patient and grasp the mandible with your thumbs at the apex of the mentum\nPlace well-wrapped and gloved fingers on the occlusal surface of the inferior molars\nApply cephalad force with the thumbs and caudal pressure with the fingers\nPivot your wrists to reduce joint",
+          "tables": []
+        },
+        "Traditional_Technique": {
+          "text": "Place patient in seated position (anterior approach) or supine (posterior approach)\nPlace well-wrapped and gloved thumbs over occlusal surface of inferior molars or lateral to molars in the buccal fold\nApply caudal and posterior pressure to reduce joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intra-oral_Reduction_Techniques": {
+      "text": "",
+      "subsections": {
+        "Wrist_Pivot_Method": {
+          "text": "Place patient in seated position\nFace the patient and grasp the mandible with your thumbs at the apex of the mentum\nPlace well-wrapped and gloved fingers on the occlusal surface of the inferior molars\nApply cephalad force with the thumbs and caudal pressure with the fingers\nPivot your wrists to reduce joint",
+          "tables": []
+        },
+        "Traditional_Technique": {
+          "text": "Place patient in seated position (anterior approach) or supine (posterior approach)\nPlace well-wrapped and gloved thumbs over occlusal surface of inferior molars or lateral to molars in the buccal fold\nApply caudal and posterior pressure to reduce joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally may be discharged if uncomplicated and successfully reduced\nInstruct patient to use soft diet, not to open mouth wider than 2cm for 2 weeks, and to support mouth when yawning\nAdmit for:\nOpen dislocation\nSuperior dislocation\nFracture\nNerve injury\nInability to reduce",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Extra-oral reduction technique video",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

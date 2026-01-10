@@ -1,0 +1,337 @@
+{
+  "drug_name": "Mastitis",
+  "url": "https://wikem.org/wiki/Mastitis",
+  "scraped_at": "2026-01-10T07:57:02.595751",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nneonatal mastitis\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Inflammation of the breast tissue - can be infectious or non-infectious in etiology.\n[1]\nContinuum of disease - Plugged ducts → engorgement → non-infectious inflammation → infectious inflammation → abscess\nInfection occurs due to bacterial colonization secondary to areolar inflammation and glandular obstruction\nOften occurs during the first few weeks to months postpartum, usually staph species with breast milk as culture medium\nPost-menopausal usually due to\nE. coli\n,\nGroup D strep\n,\nStaph\n,\nanaerobes\n[2]\n[3]\nUsually sub-areolar area due to chronic duct inflammation\n40% recurrence rates even after\nI&D\nMastitis in infants <2months old is discussed separately",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Group D strep",
+          "url": "https://wikem.org/wiki/Group_D_strep"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "I&D",
+          "url": "https://wikem.org/wiki/I%26D"
+        },
+        {
+          "text": "Mastitis in infants <2months old is discussed separately",
+          "url": "https://wikem.org/wiki/Neonatal_Mastitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Erythematous region\non breast with well-localized area of tenderness\nFever\n/chills\nFlu-like symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythematous region",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Diagnostic_Evaluation": {
+      "text": "Ultrasound\nuseful to identify\nabscess\nRoutine labs not indicated unless\n[1]\n:\nTreatment failure\nRecurrent episodes\nHospital-acquired\nSevere cases with systemic illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Management": {
+      "text": "If lactation mastitis, continue to breastfeed or pump, no need to dispose of breastmilk\nWarm compresses and massage, wearing supportive bra",
+      "subsections": {
+        "Antibiotics": {
+          "text": "No need to routinely interrupt breastfeeding with puerperal mastitis.\nFor mild symptoms <24 hours, supportive care may be sufficient\n[1]\nEffective milk removal (frequent breast feeding - use pumping to augment milk removal)\nAnalgesia (NSAIDs)\nTreatment directed at\nS. aureus\nand\nStrep\nand\nE. coli\nUncomplicated mastitis → 10 days of antibiotics (regardless of\nMRSA\nsuspicion)\n[4]\nDicloxacillin\n500mg PO q6hrs, considered first line if breastfeeding given safety for infant\nOR\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\n2DS tabs PO q12hrs if suspect\nMRSA\nClindamycin\n450mg PO q8hrs (also provides MRSA coverage)\nOR\nAmoxicillin/Clavulanate\n875mg PO q12hrs\nOR\nAzithromycin\n500mg PO x1 on day 1, then 250mg PO daily for days 2-5",
+          "tables": []
+        },
+        "Abscess": {
+          "text": "Antibiotics as above\nIf fluid collection is greater than 2cm, evacuation is recommended, with culture and sensitivity to guide antibiotic therapy\nIf superficial <1cm from skin, I&D at bedside is recommended\nIf deep >1cm, consider percutaneous 18g needle aspiration. Percutaneous aspiration may also be appropriate for superficial abscess in a lactating patient to avoid milk duct fistula.\nif palpable mass persists after 14-21 days, ultrasound and needle biopsy should be performed of solid components by radiology department",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "No need to routinely interrupt breastfeeding with puerperal mastitis.\nFor mild symptoms <24 hours, supportive care may be sufficient\n[1]\nEffective milk removal (frequent breast feeding - use pumping to augment milk removal)\nAnalgesia (NSAIDs)\nTreatment directed at\nS. aureus\nand\nStrep\nand\nE. coli\nUncomplicated mastitis → 10 days of antibiotics (regardless of\nMRSA\nsuspicion)\n[4]\nDicloxacillin\n500mg PO q6hrs, considered first line if breastfeeding given safety for infant\nOR\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\n2DS tabs PO q12hrs if suspect\nMRSA\nClindamycin\n450mg PO q8hrs (also provides MRSA coverage)\nOR\nAmoxicillin/Clavulanate\n875mg PO q12hrs\nOR\nAzithromycin\n500mg PO x1 on day 1, then 250mg PO daily for days 2-5",
+      "subsections": {
+        "Abscess": {
+          "text": "Antibiotics as above\nIf fluid collection is greater than 2cm, evacuation is recommended, with culture and sensitivity to guide antibiotic therapy\nIf superficial <1cm from skin, I&D at bedside is recommended\nIf deep >1cm, consider percutaneous 18g needle aspiration. Percutaneous aspiration may also be appropriate for superficial abscess in a lactating patient to avoid milk duct fistula.\nif palpable mass persists after 14-21 days, ultrasound and needle biopsy should be performed of solid components by radiology department",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Abscess": {
+      "text": "Antibiotics as above\nIf fluid collection is greater than 2cm, evacuation is recommended, with culture and sensitivity to guide antibiotic therapy\nIf superficial <1cm from skin, I&D at bedside is recommended\nIf deep >1cm, consider percutaneous 18g needle aspiration. Percutaneous aspiration may also be appropriate for superficial abscess in a lactating patient to avoid milk duct fistula.\nif palpable mass persists after 14-21 days, ultrasound and needle biopsy should be performed of solid components by radiology department",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge, typically\nIf signs of sepsis or WBC >15K or with left shift, consider IV antibiotics and admission\nConsider referral for outpatient Specialty Breast Services:\nrecurrent mastitis/abscess, or chronic granulomatous mastitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

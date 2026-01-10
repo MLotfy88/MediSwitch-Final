@@ -1,0 +1,125 @@
+{
+  "drug_name": "Mass_casualty_incident_triage",
+  "url": "https://wikem.org/wiki/Mass_casualty_incident_triage",
+  "scraped_at": "2026-01-10T07:57:00.809253",
+  "sections": {
+    "Background": {
+      "text": "Used by first responders to quickly classify victims during a mass casualty incident (MCI) based on the severity of their injury\nUnlike standard medical triage, MCI triage is more utilitarian (i.e. the greatest good for the greatest number of people)\nMultiple triage systems exist, however evidence regarding their effectiveness is lacking\n[1]\nIn an effort to update and standardize MCI triage, the Model Uniform Core Criteria (MUCC) were created as a national guideline for MCI triage\n[2]\nThese criteria have been endorsed by all major national shareholders, including NAEMSP, ACEP, ACS, NAEMT, NASEMSO, AMA, CDC, and others.\nCurrently, the SALT triage system is the only one that meets the Model Uniform Core Criteria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Classifications": {
+      "text": "Minor (Green) – \"Walking wounded\" with minimal injuries\nDelayed (Yellow) – Serious but non-life-threatening injuries\nImmediate (Red) – Life-threatening injuries requiring urgent intervention\nDeceased/Expectant (Black) – No signs of life or injuries incompatible with survival, based on current resources",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Triage_Categories": {
+      "text": "Immediate (Red) – Life-threatening injury or condition requiring immediate care to survive\nDelayed (Yellow) – Serious but not immediately life-threatening injuries\nMinimal (Green) – Walking wounded with minor injuries\nExpectant (Gray) – Likely to die despite maximal intervention\nDead (Black) – No signs of life",
+      "subsections": {
+        "SALT_Triage_Algorithm": {
+          "text": "1. SORT\nDirect all patients: “If you can hear me and can walk, move to [safe location].”\nThose who walk → Minimal (Green)\nAssess remaining patients in the order of:\nStill\nWaving\nWalking but unable to relocate\n2. ASSESS (Remaining Patients One by One)\n3. LIFESAVING INTERVENTIONS\nPerform only if resources and time allow:\nOpen airway (consider basic adjuncts)\nControl major hemorrhage\nChest decompression for tension pneumothorax\nAuto-injector antidotes (e.g., for nerve agents)\nUse tourniquets or hemostatic dressings as appropriate\n4. ASSIGN TRIAGE CATEGORY",
+          "tables": []
+        },
+        "Dead_(Black)": {
+          "text": "No pulse and not breathing after airway repositioning\nObvious signs incompatible with life (e.g., decapitation, massive head trauma)",
+          "tables": []
+        },
+        "Immediate_(Red)": {
+          "text": "Cannot follow commands, breathing with a pulse\nRespiratory distress, uncontrolled bleeding, or signs of shock\nMajor burns without airway compromise",
+          "tables": []
+        },
+        "Delayed_(Yellow)": {
+          "text": "Can follow commands, has adequate perfusion and respirations\nDoes not meet immediate criteria, but injuries are still serious",
+          "tables": []
+        },
+        "Minimal_(Green)": {
+          "text": "Walking wounded\nMinor injuries; requires delayed or minimal treatment",
+          "tables": []
+        },
+        "Expectant_(Gray)": {
+          "text": "Unlikely to survive given current resources\nStill have signs of life; provide comfort measures when possible\nMay be reassessed if resource availability improves",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Re-triage regularly as the situation evolves\nSALT is designed for field use by trained personnel\nConsider special tags, tape, or digital tracking to clearly mark patients\nClear communication with incident command and receiving facilities is essential",
+          "tables": []
+        },
+        "Advantages_of_SALT_over_START/JumpSTART": {
+          "text": "Applicable across all ages and incident types\nIncludes expectant category (not present in START)\nEmphasizes lifesaving interventions in line with resources\nFully meets MUCC national guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "SALT_Triage_Algorithm": {
+      "text": "1. SORT\nDirect all patients: “If you can hear me and can walk, move to [safe location].”\nThose who walk → Minimal (Green)\nAssess remaining patients in the order of:\nStill\nWaving\nWalking but unable to relocate\n2. ASSESS (Remaining Patients One by One)\n3. LIFESAVING INTERVENTIONS\nPerform only if resources and time allow:\nOpen airway (consider basic adjuncts)\nControl major hemorrhage\nChest decompression for tension pneumothorax\nAuto-injector antidotes (e.g., for nerve agents)\nUse tourniquets or hemostatic dressings as appropriate\n4. ASSIGN TRIAGE CATEGORY",
+      "subsections": {
+        "Dead_(Black)": {
+          "text": "No pulse and not breathing after airway repositioning\nObvious signs incompatible with life (e.g., decapitation, massive head trauma)",
+          "tables": []
+        },
+        "Immediate_(Red)": {
+          "text": "Cannot follow commands, breathing with a pulse\nRespiratory distress, uncontrolled bleeding, or signs of shock\nMajor burns without airway compromise",
+          "tables": []
+        },
+        "Delayed_(Yellow)": {
+          "text": "Can follow commands, has adequate perfusion and respirations\nDoes not meet immediate criteria, but injuries are still serious",
+          "tables": []
+        },
+        "Minimal_(Green)": {
+          "text": "Walking wounded\nMinor injuries; requires delayed or minimal treatment",
+          "tables": []
+        },
+        "Expectant_(Gray)": {
+          "text": "Unlikely to survive given current resources\nStill have signs of life; provide comfort measures when possible\nMay be reassessed if resource availability improves",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Re-triage regularly as the situation evolves\nSALT is designed for field use by trained personnel\nConsider special tags, tape, or digital tracking to clearly mark patients\nClear communication with incident command and receiving facilities is essential",
+          "tables": []
+        },
+        "Advantages_of_SALT_over_START/JumpSTART": {
+          "text": "Applicable across all ages and incident types\nIncludes expectant category (not present in START)\nEmphasizes lifesaving interventions in line with resources\nFully meets MUCC national guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Considerations": {
+      "text": "Re-triage regularly as the situation evolves\nSALT is designed for field use by trained personnel\nConsider special tags, tape, or digital tracking to clearly mark patients\nClear communication with incident command and receiving facilities is essential",
+      "subsections": {
+        "Advantages_of_SALT_over_START/JumpSTART": {
+          "text": "Applicable across all ages and incident types\nIncludes expectant category (not present in START)\nEmphasizes lifesaving interventions in line with resources\nFully meets MUCC national guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Advantages_of_SALT_over_START/JumpSTART": {
+      "text": "Applicable across all ages and incident types\nIncludes expectant category (not present in START)\nEmphasizes lifesaving interventions in line with resources\nFully meets MUCC national guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Mass casualty incidents\nCombat triage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mass casualty incidents",
+          "url": "https://wikem.org/wiki/Mass_casualty_incidents"
+        },
+        {
+          "text": "Combat triage",
+          "url": "https://wikem.org/wiki/Combat_triage"
+        }
+      ]
+    }
+  }
+}

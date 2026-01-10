@@ -1,0 +1,826 @@
+{
+  "drug_name": "Maxillofacial_trauma",
+  "url": "https://wikem.org/wiki/Maxillofacial_trauma",
+  "scraped_at": "2026-01-10T07:57:04.799674",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Prehospital_Care": {
+          "text": "Assess patients ability to speak and protect the airway before and frequently during transport\nHematomas can significantly distort pharyngeal and facial anatomy making intubation or\ncricothyroidotomy\ndifficult\nIncreased jaw mobility from a mid face fracture may help with intubation\nPenetrating trauma to the lower third of the face frequently requires intubation or a surgical airway\n[1]\nPlace a protective shield over an eye suspected to have a ruptured globe\nPatients should remain upright or reverse trendelenburg if there is oropharyngeal and\nnasal bleeding\nto avoid aspiration especially if placed in cervical protection\nTemporizing hemostasis with oral and nasal packing in an intubated patient may help with persistent bleeding\nTransport all avulsed pieces of the face including ears and nose",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "Cricothyrotomy is contraindicated in patients <8yr old\nMaxillary sinuses do not develop until 6 yr old (reduces midfacial fracture)\nPediatric orbital floor is more pliable, more likely to lead to entrapment\nMandible fracture requires prompt referral (1-2d) due to rapid bone remodeling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "nasal bleeding",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        }
+      ]
+    },
+    "Prehospital_Care": {
+      "text": "Assess patients ability to speak and protect the airway before and frequently during transport\nHematomas can significantly distort pharyngeal and facial anatomy making intubation or\ncricothyroidotomy\ndifficult\nIncreased jaw mobility from a mid face fracture may help with intubation\nPenetrating trauma to the lower third of the face frequently requires intubation or a surgical airway\n[1]\nPlace a protective shield over an eye suspected to have a ruptured globe\nPatients should remain upright or reverse trendelenburg if there is oropharyngeal and\nnasal bleeding\nto avoid aspiration especially if placed in cervical protection\nTemporizing hemostasis with oral and nasal packing in an intubated patient may help with persistent bleeding\nTransport all avulsed pieces of the face including ears and nose",
+      "subsections": {
+        "Pediatric_Considerations": {
+          "text": "Cricothyrotomy is contraindicated in patients <8yr old\nMaxillary sinuses do not develop until 6 yr old (reduces midfacial fracture)\nPediatric orbital floor is more pliable, more likely to lead to entrapment\nMandible fracture requires prompt referral (1-2d) due to rapid bone remodeling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "nasal bleeding",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        }
+      ]
+    },
+    "Pediatric_Considerations": {
+      "text": "Cricothyrotomy is contraindicated in patients <8yr old\nMaxillary sinuses do not develop until 6 yr old (reduces midfacial fracture)\nPediatric orbital floor is more pliable, more likely to lead to entrapment\nMandible fracture requires prompt referral (1-2d) due to rapid bone remodeling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Ears": {
+          "text": "Auricular Hematoma\nSigns of\nbasilar skull fracture\nCSF leak\nHemotympanum\nBattle Sign",
+          "tables": []
+        },
+        "Nose": {
+          "text": "Crepitus over any facial sinus suggests sinus fracture\nSeptal Hematoma\nMake sure simple\nnasal fracture\nisn't a complex naso-orbito-ethmoid injury",
+          "tables": []
+        },
+        "Oral": {
+          "text": "Intraoral palpation of zygomatic arch to distinguish\nbony\nfrom soft tissue injury\nMandible Fracture\nPlace finger in auditory canal while patient opens and closes jaw to detect condyle fracture\nTongue blade test\n95% Sn for no fracture if can bite down hard enough to break it when twisted by examiner\nJaw deviation due to\nmandible dislocation\nor condyle fracture\nChin will point away from dislocation, towards a fracture\nMalocclusion occurs in\nmandible\n,\nzygomatic\n, and\nLe Fort\nfractures\nLacerations and mucosal ecchymosis suggests\nmandible fracture",
+          "tables": []
+        },
+        "Other_Face": {
+          "text": "Numbness\nCheck supraorbital, infraorbital, and mental nerves\nAssess\nLe Fort\nby rocking hard palate with one hand while stabilizing forehead with other",
+          "tables": []
+        },
+        "Eye": {
+          "text": "See\nOrbital trauma",
+          "tables": []
+        },
+        "Visual_Diagnosis": {
+          "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular Hematoma",
+          "url": "https://wikem.org/wiki/Auricular_Hematoma"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Septal Hematoma",
+          "url": "https://wikem.org/wiki/Septal_Hematoma"
+        },
+        {
+          "text": "nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "bony",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Mandible Fracture",
+          "url": "https://wikem.org/wiki/Mandible_Fracture"
+        },
+        {
+          "text": "mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "mandible",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "zygomatic",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Ears": {
+      "text": "Auricular Hematoma\nSigns of\nbasilar skull fracture\nCSF leak\nHemotympanum\nBattle Sign",
+      "subsections": {
+        "Nose": {
+          "text": "Crepitus over any facial sinus suggests sinus fracture\nSeptal Hematoma\nMake sure simple\nnasal fracture\nisn't a complex naso-orbito-ethmoid injury",
+          "tables": []
+        },
+        "Oral": {
+          "text": "Intraoral palpation of zygomatic arch to distinguish\nbony\nfrom soft tissue injury\nMandible Fracture\nPlace finger in auditory canal while patient opens and closes jaw to detect condyle fracture\nTongue blade test\n95% Sn for no fracture if can bite down hard enough to break it when twisted by examiner\nJaw deviation due to\nmandible dislocation\nor condyle fracture\nChin will point away from dislocation, towards a fracture\nMalocclusion occurs in\nmandible\n,\nzygomatic\n, and\nLe Fort\nfractures\nLacerations and mucosal ecchymosis suggests\nmandible fracture",
+          "tables": []
+        },
+        "Other_Face": {
+          "text": "Numbness\nCheck supraorbital, infraorbital, and mental nerves\nAssess\nLe Fort\nby rocking hard palate with one hand while stabilizing forehead with other",
+          "tables": []
+        },
+        "Eye": {
+          "text": "See\nOrbital trauma",
+          "tables": []
+        },
+        "Visual_Diagnosis": {
+          "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular Hematoma",
+          "url": "https://wikem.org/wiki/Auricular_Hematoma"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Septal Hematoma",
+          "url": "https://wikem.org/wiki/Septal_Hematoma"
+        },
+        {
+          "text": "nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "bony",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Mandible Fracture",
+          "url": "https://wikem.org/wiki/Mandible_Fracture"
+        },
+        {
+          "text": "mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "mandible",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "zygomatic",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Nose": {
+      "text": "Crepitus over any facial sinus suggests sinus fracture\nSeptal Hematoma\nMake sure simple\nnasal fracture\nisn't a complex naso-orbito-ethmoid injury",
+      "subsections": {
+        "Oral": {
+          "text": "Intraoral palpation of zygomatic arch to distinguish\nbony\nfrom soft tissue injury\nMandible Fracture\nPlace finger in auditory canal while patient opens and closes jaw to detect condyle fracture\nTongue blade test\n95% Sn for no fracture if can bite down hard enough to break it when twisted by examiner\nJaw deviation due to\nmandible dislocation\nor condyle fracture\nChin will point away from dislocation, towards a fracture\nMalocclusion occurs in\nmandible\n,\nzygomatic\n, and\nLe Fort\nfractures\nLacerations and mucosal ecchymosis suggests\nmandible fracture",
+          "tables": []
+        },
+        "Other_Face": {
+          "text": "Numbness\nCheck supraorbital, infraorbital, and mental nerves\nAssess\nLe Fort\nby rocking hard palate with one hand while stabilizing forehead with other",
+          "tables": []
+        },
+        "Eye": {
+          "text": "See\nOrbital trauma",
+          "tables": []
+        },
+        "Visual_Diagnosis": {
+          "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Septal Hematoma",
+          "url": "https://wikem.org/wiki/Septal_Hematoma"
+        },
+        {
+          "text": "nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "bony",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Mandible Fracture",
+          "url": "https://wikem.org/wiki/Mandible_Fracture"
+        },
+        {
+          "text": "mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "mandible",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "zygomatic",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Oral": {
+      "text": "Intraoral palpation of zygomatic arch to distinguish\nbony\nfrom soft tissue injury\nMandible Fracture\nPlace finger in auditory canal while patient opens and closes jaw to detect condyle fracture\nTongue blade test\n95% Sn for no fracture if can bite down hard enough to break it when twisted by examiner\nJaw deviation due to\nmandible dislocation\nor condyle fracture\nChin will point away from dislocation, towards a fracture\nMalocclusion occurs in\nmandible\n,\nzygomatic\n, and\nLe Fort\nfractures\nLacerations and mucosal ecchymosis suggests\nmandible fracture",
+      "subsections": {
+        "Other_Face": {
+          "text": "Numbness\nCheck supraorbital, infraorbital, and mental nerves\nAssess\nLe Fort\nby rocking hard palate with one hand while stabilizing forehead with other",
+          "tables": []
+        },
+        "Eye": {
+          "text": "See\nOrbital trauma",
+          "tables": []
+        },
+        "Visual_Diagnosis": {
+          "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bony",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Mandible Fracture",
+          "url": "https://wikem.org/wiki/Mandible_Fracture"
+        },
+        {
+          "text": "mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "mandible",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "zygomatic",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Other_Face": {
+      "text": "Numbness\nCheck supraorbital, infraorbital, and mental nerves\nAssess\nLe Fort\nby rocking hard palate with one hand while stabilizing forehead with other",
+      "subsections": {
+        "Eye": {
+          "text": "See\nOrbital trauma",
+          "tables": []
+        },
+        "Visual_Diagnosis": {
+          "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Eye": {
+      "text": "See\nOrbital trauma",
+      "subsections": {
+        "Visual_Diagnosis": {
+          "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Visual_Diagnosis": {
+      "text": "Periorbital ecchymosis\nAuricular hematoma\nSeptal hematoma\nNasal fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Septal hematoma",
+          "url": "https://wikem.org/wiki/Septal_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Suspect midface fracture > facial CT\nSuspect orbital floor fracture > orbital CT\nSuspect mandibular fracture > CT face",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Frequently on CT",
+          "tables": []
+        },
+        "Example_Images": {
+          "text": "Le Fort\ntype 1 fracture\nMandibular fracture\nZygomatic arch fracture\nZygomaticomaxillary complex fracture\nZygomaticomaxillary complex fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Mandibular fracture",
+          "url": "https://wikem.org/wiki/Mandibular_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Suspect midface fracture > facial CT\nSuspect orbital floor fracture > orbital CT\nSuspect mandibular fracture > CT face",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Frequently on CT",
+          "tables": []
+        },
+        "Example_Images": {
+          "text": "Le Fort\ntype 1 fracture\nMandibular fracture\nZygomatic arch fracture\nZygomaticomaxillary complex fracture\nZygomaticomaxillary complex fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Mandibular fracture",
+          "url": "https://wikem.org/wiki/Mandibular_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Frequently on CT",
+      "subsections": {
+        "Example_Images": {
+          "text": "Le Fort\ntype 1 fracture\nMandibular fracture\nZygomatic arch fracture\nZygomaticomaxillary complex fracture\nZygomaticomaxillary complex fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Mandibular fracture",
+          "url": "https://wikem.org/wiki/Mandibular_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        }
+      ]
+    },
+    "Example_Images": {
+      "text": "Le Fort\ntype 1 fracture\nMandibular fracture\nZygomatic arch fracture\nZygomaticomaxillary complex fracture\nZygomaticomaxillary complex fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Le Fort",
+          "url": "https://wikem.org/wiki/Le_Fort"
+        },
+        {
+          "text": "Mandibular fracture",
+          "url": "https://wikem.org/wiki/Mandibular_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary complex fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_complex_fracture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying process/diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Bedside consult is necessary for:\nDecreased vision\nTripod Fracture\nLe Fort Fracture\nOpen\nMandibular Fracture\nFrontal Sinus Fractures\nwith intracranial involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tripod Fracture",
+          "url": "https://wikem.org/wiki/Tripod_Fracture"
+        },
+        {
+          "text": "Le Fort Fracture",
+          "url": "https://wikem.org/wiki/Le_Fort_Fracture"
+        },
+        {
+          "text": "Mandibular Fracture",
+          "url": "https://wikem.org/wiki/Mandibular_Fracture"
+        },
+        {
+          "text": "Frontal Sinus Fractures",
+          "url": "https://wikem.org/wiki/Frontal_Sinus_Fractures"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Head Trauma (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        }
+      ]
+    }
+  }
+}

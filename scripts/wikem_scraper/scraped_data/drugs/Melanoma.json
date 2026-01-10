@@ -1,0 +1,148 @@
+{
+  "drug_name": "Melanoma",
+  "url": "https://wikem.org/wiki/Melanoma",
+  "scraped_at": "2026-01-10T07:57:08.849754",
+  "sections": {
+    "Background": {
+      "text": "Ultraviolet UVB light (315 – 280 nm) from sun/tanning beds damages DNA\nHigh risk in fair skin, blue eyes, and red-haired people,\nHigh risk history of multiple atypical nevi or dysplastic nevi",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "A\nsymmetry\nB\norders (irregular)\nC\nolor (variegated)\nD\niameter (greater than 6 mm (0.24 in), about the size of a pencil eraser)\nE\nvolving over time or\nE\nlevated above the skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dermatologic_malignancies": {
+          "text": "Basal cell carcinoma\nKaposi's sarcoma\nMelanoma\nSquamous cell carcinoma",
+          "tables": []
+        },
+        "Dark_raised_skin_lesions": {
+          "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Basal cell carcinoma",
+          "url": "https://wikem.org/wiki/Basal_cell_carcinoma"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "Dermatologic_malignancies": {
+      "text": "Basal cell carcinoma\nKaposi's sarcoma\nMelanoma\nSquamous cell carcinoma",
+      "subsections": {
+        "Dark_raised_skin_lesions": {
+          "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Basal cell carcinoma",
+          "url": "https://wikem.org/wiki/Basal_cell_carcinoma"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "Dark_raised_skin_lesions": {
+      "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Biopsy outpatient at dermatology office\nLDH (elevated indicates metastasis, particularly to the liver, not sensitive)\nImaging for metastasis\nCXR\nor CT\nMRI, PET and/or PET/CT scans",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Refer to dermatology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Avoid UV radiation: hats, long sleeve shirts, sunglasses with UV protection\nEven though tanning beds mostly UVA, still can cause melanoma\nSunscreen\nBlocks damaging UVB radiation\nSun Protectant Factor (SPF) of 15 means if you notice a burn at 10 min, applying SPF 15 would allow you to stay out 150 min before noticing burn\nSPF >30 if outside work or long time recreation and reapply as needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Visual diagnosis (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Visual diagnosis (main)",
+          "url": "https://wikem.org/wiki/Visual_diagnosis_(main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "drug_name": "Medroxyprogesterone",
+  "url": "https://wikem.org/wiki/Medroxyprogesterone",
+  "scraped_at": "2026-01-10T07:57:05.532554",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Non-pregnant_vaginal_bleeding": {
+          "text": "20 mg PO TID for 7 days\n[1]\n76% success, median time 3 days\nAlternative, not officially endorsed by ACOG: 150mg IM x 1 then 20 mg PO TID x 3 days\nIn a trial of 48 patients all had cessation in 5 days.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-pregnant_vaginal_bleeding": {
+      "text": "20 mg PO TID for 7 days\n[1]\n76% success, median time 3 days\nAlternative, not officially endorsed by ACOG: 150mg IM x 1 then 20 mg PO TID x 3 days\nIn a trial of 48 patients all had cessation in 5 days.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHistory of\nVTE\nHistory of arterial\nthromboembolic events\nHistory of breast cancer\nLiver disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

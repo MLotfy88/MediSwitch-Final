@@ -1,0 +1,145 @@
+{
+  "drug_name": "Mass_casualty_incident",
+  "url": "https://wikem.org/wiki/Mass_casualty_incident",
+  "scraped_at": "2026-01-10T07:57:01.709990",
+  "sections": {
+    "Background": {
+      "text": "Mass Casualty Incident (MCI) defined as an incident where the number of patients (or the rate of their arrival to a medical facility) overwhelms local resources (and the ability to immediately supplement them).\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Potential_Causes_of_MCI": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Initial_Triage": {
+          "text": "See\nMass casualty incident triage",
+          "tables": []
+        },
+        "Incident_Command_System_(ICS)": {
+          "text": "An Incident Command System (ICS) is designed to allow for coordination of response to an MCI by providing for an integrated organizational/command structure\n[3]\nICS has been in use since the 1970's.\nDesigned to expand or contract in size in response to scope of incident.\nAfter the September 11, 2001 terrorist attacks, the Department of Homeland Security proposed the National Incident Management System (NIMS) in response to perceived deficiencies in coordination between emergency responders.\n[4]\nNIMS mandates the use of ICS in the United States for MCI response\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mass casualty incident triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        }
+      ]
+    },
+    "Initial_Triage": {
+      "text": "See\nMass casualty incident triage",
+      "subsections": {
+        "Incident_Command_System_(ICS)": {
+          "text": "An Incident Command System (ICS) is designed to allow for coordination of response to an MCI by providing for an integrated organizational/command structure\n[3]\nICS has been in use since the 1970's.\nDesigned to expand or contract in size in response to scope of incident.\nAfter the September 11, 2001 terrorist attacks, the Department of Homeland Security proposed the National Incident Management System (NIMS) in response to perceived deficiencies in coordination between emergency responders.\n[4]\nNIMS mandates the use of ICS in the United States for MCI response\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mass casualty incident triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "FEMA ICS Resource Center\nFEMA Online NIMS Training",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Mass casualty incident triage\nGEMC:Prehospital_/_Disaster_/_Mass_Casualty_Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mass casualty incident triage",
+          "url": "https://wikem.org/wiki/Mass_casualty_incident_triage"
+        },
+        {
+          "text": "GEMC:Prehospital_/_Disaster_/_Mass_Casualty_Medicine",
+          "url": "https://wikem.org/wiki/GEMC:Prehospital_/_Disaster_/_Mass_Casualty_Medicine"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "drug_name": "Maternal_vitals_and_labs_in_pregnancy",
+  "url": "https://wikem.org/wiki/Maternal_vitals_and_labs_in_pregnancy",
+  "scraped_at": "2026-01-10T07:57:01.702415",
+  "sections": {
+    "Normal_Vitals_in_Pregnancy": {
+      "text": "",
+      "subsections": {
+        "Physiologic_Changes_in_Pregnancy": {
+          "text": "Heart rate (HR) increases 15-20 bpm (75-95 bpm)\nMean arterial pressure (MAP) increases 10 mmHg (80 mmHg)\nTidal volume (TV) increases 40% (700 cc)\nMinute volume (MV) increases 40% (10.5 L/min)\nFunctional residual capacity (FRC) decreases 25% (1300ml)",
+          "tables": []
+        },
+        "Maternal_Laboratory_Changes_in_Pregnancy": {
+          "text": "CBC\nIncreased WBC count (5k-15k)\nDecreased hematocrit (32-34%) due to increased plasma volume\nDecreased platelets\nChemistry\nDecreased BUN and creatinine (<0.8mg/dL)\nGFR increases up to 60% (140ml/min)\nDecreased Bicarb\nOther\nIncreased\nD-dimer\nand Fibrinogen\nIncreased ESR ~78\nDecreased PaCO2 ~30\nECG\nwith Qs in III & aVF, left axis\nBeta-HCG Levels",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Vital": "HR",
+            "Nonpregnant": "70",
+            "1st Trimester": "78",
+            "2nd Trimester": "82",
+            "3rd Trimester": "85"
+          },
+          {
+            "Vital": "SBP",
+            "Nonpregnant": "115",
+            "1st Trimester": "112",
+            "2nd Trimester": "112",
+            "3rd Trimester": "114"
+          },
+          {
+            "Vital": "DBP",
+            "Nonpregnant": "70",
+            "1st Trimester": "60",
+            "2nd Trimester": "63",
+            "3rd Trimester": "70"
+          },
+          {
+            "Vital": "Hcrt",
+            "Nonpregnant": "40",
+            "1st Trimester": "36",
+            "2nd Trimester": "33",
+            "3rd Trimester": "34"
+          },
+          {
+            "Vital": "WBC",
+            "Nonpregnant": "7.2k",
+            "1st Trimester": "9.1k",
+            "2nd Trimester": "9.7k",
+            "3rd Trimester": "9.8k"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Beta-HCG Levels",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        }
+      ]
+    },
+    "Physiologic_Changes_in_Pregnancy": {
+      "text": "Heart rate (HR) increases 15-20 bpm (75-95 bpm)\nMean arterial pressure (MAP) increases 10 mmHg (80 mmHg)\nTidal volume (TV) increases 40% (700 cc)\nMinute volume (MV) increases 40% (10.5 L/min)\nFunctional residual capacity (FRC) decreases 25% (1300ml)",
+      "subsections": {
+        "Maternal_Laboratory_Changes_in_Pregnancy": {
+          "text": "CBC\nIncreased WBC count (5k-15k)\nDecreased hematocrit (32-34%) due to increased plasma volume\nDecreased platelets\nChemistry\nDecreased BUN and creatinine (<0.8mg/dL)\nGFR increases up to 60% (140ml/min)\nDecreased Bicarb\nOther\nIncreased\nD-dimer\nand Fibrinogen\nIncreased ESR ~78\nDecreased PaCO2 ~30\nECG\nwith Qs in III & aVF, left axis\nBeta-HCG Levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Beta-HCG Levels",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        }
+      ]
+    },
+    "Maternal_Laboratory_Changes_in_Pregnancy": {
+      "text": "CBC\nIncreased WBC count (5k-15k)\nDecreased hematocrit (32-34%) due to increased plasma volume\nDecreased platelets\nChemistry\nDecreased BUN and creatinine (<0.8mg/dL)\nGFR increases up to 60% (140ml/min)\nDecreased Bicarb\nOther\nIncreased\nD-dimer\nand Fibrinogen\nIncreased ESR ~78\nDecreased PaCO2 ~30\nECG\nwith Qs in III & aVF, left axis\nBeta-HCG Levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Beta-HCG Levels",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vital signs",
+          "url": "https://wikem.org/wiki/Vital_signs"
+        }
+      ]
+    }
+  }
+}

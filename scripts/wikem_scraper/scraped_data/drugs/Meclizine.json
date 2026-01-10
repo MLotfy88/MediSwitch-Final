@@ -1,0 +1,132 @@
+{
+  "drug_name": "Meclizine",
+  "url": "https://wikem.org/wiki/Meclizine",
+  "scraped_at": "2026-01-10T07:57:05.395966",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntihistamine\n, H1 antagonist\nDosage Forms: 12.5, 25, 32mg oral tablet; 25mg oral chewable tablet\nCommon Trade Names: Univert, Vertin-32, Dramamine less drowsy, Motion-Time",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Vertigo": {
+          "text": "25mg PO QID",
+          "tables": []
+        },
+        "Motion_sickness": {
+          "text": "25-100mg PO 1 hour before activity. May repeat q24h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vertigo": {
+      "text": "25mg PO QID",
+      "subsections": {
+        "Motion_sickness": {
+          "text": "25-100mg PO 1 hour before activity. May repeat q24h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Motion_sickness": {
+      "text": "25-100mg PO 1 hour before activity. May repeat q24h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">= 12 yrs old: Adult dosing\n< 12 yrs: No dosing specified in drug insert",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Excretion in breast milk unknown\nRenal Dosing: n/a\nHepatic Dosing: n/a",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CNS depression\nCaution in asthma, glaucoma, BPH, pyloric obstruction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Drowsiness, fatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "CNS depression\nCaution in asthma, glaucoma, BPH, pyloric obstruction",
+      "subsections": {
+        "Common": {
+          "text": "Drowsiness, fatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Drowsiness, fatigue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset: 1 hour\nHalf-life: 5 hours\nMetabolism: Hepatic\nExcretion: Urine and feces\nMechanism of Action: Central anticholinergic; blocks chemoreceptor trigger zone. Decreases middle ear excitability, blocks vestibular-cerebellar pathways",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antihistamines\nAnticholinergic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

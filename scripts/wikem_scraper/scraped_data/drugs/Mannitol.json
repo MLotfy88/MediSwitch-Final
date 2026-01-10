@@ -1,0 +1,121 @@
+{
+  "drug_name": "Mannitol",
+  "url": "https://wikem.org/wiki/Mannitol",
+  "scraped_at": "2026-01-10T07:56:58.056953",
+  "sections": {
+    "General": {
+      "text": "Type: sugar alcohol, derived from mannose, stereo-isomer of sorbitol\nDosage Forms: Reconstituted powder and solution\n[1]\n5% and 10% in 1000ml containers\n15% in 500ml containers\n20% in 250ml and 500ml containers\n25% in 50ml flip-top vials\nCommon Trade Names: Mannitol, Osmitrol",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dosing": {
+      "text": "",
+      "subsections": {
+        "Elevated_intracranial_pressure": {
+          "text": "0.25-2 g/kg given every 6 to 8 hours\n[2]\nShould be given as a one time bolus (may be inferior to Hypertonic Saline)\n[3]\nEasy ED dosing: 1g/kg bolus in ED (while awaiting neurosurgery eval/admission)",
+          "tables": []
+        },
+        "Cerebral_edema": {
+          "text": "0.25-1 g/kg IV initially; maintenance dose of 0.25-0.5 g/kg IV q4-6hr\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adult": {
+      "text": "",
+      "subsections": {
+        "Elevated_intracranial_pressure": {
+          "text": "0.25-2 g/kg given every 6 to 8 hours\n[2]\nShould be given as a one time bolus (may be inferior to Hypertonic Saline)\n[3]\nEasy ED dosing: 1g/kg bolus in ED (while awaiting neurosurgery eval/admission)",
+          "tables": []
+        },
+        "Cerebral_edema": {
+          "text": "0.25-1 g/kg IV initially; maintenance dose of 0.25-0.5 g/kg IV q4-6hr\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cerebral_edema": {
+          "text": "0.25-1 g/kg IV initially; maintenance dose of 0.25-0.5 g/kg IV q4-6hr\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation:\nUnknown if present in breast milk\nRenal Dosing\nAdult\nContraindicated in severe renal impairment\nPediatric\nContraindicated in severe renal impairment\nHepatic Dosing\nAdult\nNo adjustment necessary\nPediatric\nNo adjustment necessary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Lowering ICP with signs of impending herniation or severely deteriorating mental status in context of known trauma or intracranial lesion exerting mass effect",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Heart failure\nWorsening dehydration\nHyponatremia\nHypokalemia\nHypocalcemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Cough\nSore throat\nDry mouth\nHeadache\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Heart failure\nWorsening dehydration\nHyponatremia\nHypokalemia\nHypocalcemia",
+      "subsections": {
+        "Common": {
+          "text": "Cough\nSore throat\nDry mouth\nHeadache\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Cough\nSore throat\nDry mouth\nHeadache\nNausea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset of action: 5-10 minutes\nHalf-life: 6 hours\nMetabolism:\nExcretion: Urine\nMechanism of Action: Increased tonicity of mannitol draws water out of the brain parenchyma and into the intravascular space\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Mannitol (systemic): Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "drug_name": "Massive_transfusion_(peds)",
+  "url": "https://wikem.org/wiki/Massive_transfusion_(peds)",
+  "scraped_at": "2026-01-10T07:56:59.303098",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nmassive transfusion\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Overview": {
+      "text": "",
+      "subsections": {
+        "Blood_product_unit_conversions": {
+          "text": "PRBC\n: 1 bag = 1 unit = 350 mL\nFFP\n: 1 bag = 1 unit = 250 mL\nPlatelets\n: 1 bag = 1 pack = 5 units = 250 mL\nCryoprecipitate\n: 1 bag = 5 units = 200 mL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        }
+      ]
+    },
+    "Blood_product_unit_conversions": {
+      "text": "PRBC\n: 1 bag = 1 unit = 350 mL\nFFP\n: 1 bag = 1 unit = 250 mL\nPlatelets\n: 1 bag = 1 pack = 5 units = 250 mL\nCryoprecipitate\n: 1 bag = 5 units = 200 mL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Requiring > 40 mL/kg (40% blood volume) or 4 u for adult / patient > 30 kg over 2 hours or less\nRequiring or likely to require complete blood volume replacement or 10 u for adult in 24 hours",
+      "subsections": {
+        "Age-specific_blood_volume": {
+          "text": "Newborn – 1 month 90 mL/kg\n1-12 months 85 mL/kg\n1-14 years 80 mL/kg\n> 14 years 75 mL/kg\nObese children 65 mL/kg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Age-specific_blood_volume": {
+      "text": "Newborn – 1 month 90 mL/kg\n1-12 months 85 mL/kg\n1-14 years 80 mL/kg\n> 14 years 75 mL/kg\nObese children 65 mL/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "",
+      "subsections": {
+        "Recommended_lab_studies": {
+          "text": "Initial: Type & Cross, CBC (Hgb, plt), PT/PTT, Fibrinogen, ionized Ca, K+ (basic metab panel), pH\nAfter first 80 mL/kg PRBC: repeat above + FDPs\nAfter every 40 mL/kg PRBC from then on: repeat above + FDPs, lactate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Recommended_lab_studies": {
+      "text": "Initial: Type & Cross, CBC (Hgb, plt), PT/PTT, Fibrinogen, ionized Ca, K+ (basic metab panel), pH\nAfter first 80 mL/kg PRBC: repeat above + FDPs\nAfter every 40 mL/kg PRBC from then on: repeat above + FDPs, lactate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Massive_Transfusion_Protocol_Amounts[1]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "MTP Pack 1": "Children < 10 kg",
+                "MTP Pack 2": "",
+                "MTP Pack 3": "",
+                "MTP Pack 4": "",
+                "MTP Pack 5": ""
+              },
+              {
+                "MTP Pack 1": "25 mL/kgPRBC20 mL/kgFFPcall for platelets for pack 2",
+                "MTP Pack 2": "25 mL/kgPRBC20 mL/kgFFP10 mL/kgplatelets",
+                "MTP Pack 3": "25 mL/kgPRBC20 mL/kgFFP10 mL/kgplatelets4 mL/kgcryoprecipitate",
+                "MTP Pack 4": "25 mL/kgPRBC20 mL/kgFFP10 mL/kgplatelets4 mL/kgcryoprecipitate",
+                "MTP Pack 5": "25 mL/kgPRBC20 mL/kgFFP10 mL/kgplatelets4 mL/kgcryoprecipitate"
+              },
+              {
+                "MTP Pack 1": "Children 10-20 kg",
+                "MTP Pack 2": "",
+                "MTP Pack 3": "",
+                "MTP Pack 4": "",
+                "MTP Pack 5": ""
+              },
+              {
+                "MTP Pack 1": "1uPRBC1uFFP(thaw immediately afterPRBCissued)call for platelets for pack 2",
+                "MTP Pack 2": "1uPRBC1uFFP1platelet pack",
+                "MTP Pack 3": "1uPRBC1uFFP1platelet pack2.5ucryoprecipitate",
+                "MTP Pack 4": "1uPRBC1uFFP1platelet pack2.5ucryoprecipitate",
+                "MTP Pack 5": "1uPRBC1uFFP1platelet pack2.5ucryoprecipitate"
+              },
+              {
+                "MTP Pack 1": "Children 20-49 kg",
+                "MTP Pack 2": "",
+                "MTP Pack 3": "",
+                "MTP Pack 4": "",
+                "MTP Pack 5": ""
+              },
+              {
+                "MTP Pack 1": "2uPRBC2uFFPcall for platelets for pack 2",
+                "MTP Pack 2": "2uPRBC2uFFP1platelet pack",
+                "MTP Pack 3": "2uPRBC2uFFP1platelet pack5ucryoprecipitate",
+                "MTP Pack 4": "2uPRBC2uFFP1platelet pack5ucryoprecipitate",
+                "MTP Pack 5": "2uPRBC2uFFP1platelet pack5ucryoprecipitate"
+              },
+              {
+                "MTP Pack 1": "Children > 50 kg",
+                "MTP Pack 2": "",
+                "MTP Pack 3": "",
+                "MTP Pack 4": "",
+                "MTP Pack 5": ""
+              },
+              {
+                "MTP Pack 1": "4uPRBC4uFFPcall for platelets for pack 2",
+                "MTP Pack 2": "4uPRBC4uFFP1platelet pack",
+                "MTP Pack 3": "4uPRBC4uFFP1platelet pack10ucryoprecipitate",
+                "MTP Pack 4": "4uPRBC4uFFP1platelet pack10ucryoprecipitate",
+                "MTP Pack 5": "4uPRBC4uFFP1platelet pack10ucryoprecipitate"
+              }
+            ]
+          ]
+        },
+        "Example_Instructions_(Harbor-UCLA)": {
+          "text": "Early involvement of trauma surgery attending or chief resident in decision\nCall Blood Bank and state that you are activating the MTP\nSend a type and cross BEFORE starting transfusions\nFirst MTP box ready within 10 min of phone call trigger: 6u PRBC, 4u thawed plasma (FFP)\nSecond MTP box ready within 30 min of initial phone call trigger\nSuccessive boxes prepared and issued as needed q 30 minutes of prior box\nConsider platelets, cryoprecipitate (typically after 2nd box issued)\nCryo takes 30 min to thaw and pool – plan ahead and request\nPRBCs type specific (preferred) or O negative or O positive for men, women > 55 years\nPlasma (FFP) is Group A – incompatible with 14% of pts (B or AB), could cause some hemolysis\nReturn unused boxes to Blood Bank within 20 minutes if possible (so can return to inventory)\nMTP automatically terminated 8 hours after initiation, or if you begin to order quantities less than amount in MTP box",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Coagulopathy\nHypothermia\nHyperkalemia\nHypocalcemia\nTransfusion reaction\nTransfusion-related acute lung injury\nFluid overload",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Whole blood\nTXA\nPacked red blood cells\nThe PROPPR trial\nCoagulopathy (Main)\nHemorrhagic shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Whole blood",
+          "url": "https://wikem.org/wiki/Whole_blood"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "Packed red blood cells",
+          "url": "https://wikem.org/wiki/Packed_red_blood_cells"
+        },
+        {
+          "text": "The PROPPR trial",
+          "url": "https://wikem.org/wiki/EBQ:PROPPR_Trial"
+        },
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    }
+  }
+}

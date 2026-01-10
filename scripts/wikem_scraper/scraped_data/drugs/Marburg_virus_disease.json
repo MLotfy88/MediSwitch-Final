@@ -1,0 +1,233 @@
+{
+  "drug_name": "Marburg_virus_disease",
+  "url": "https://wikem.org/wiki/Marburg_virus_disease",
+  "scraped_at": "2026-01-10T07:56:58.324415",
+  "sections": {
+    "Background": {
+      "text": "Also known as Marburg\nhemorrhagic fever\nRNA virus of the\nfilovirus\nfamily\nThe 5 species of Ebola are the other 5 members of the family\nFirst outbreak, 1967, in Marburg and Frankfurt Germany - due to research on African green monkeys\nReservoir: Egyptian fruit bat (\nRousettus aegyptiacus\n)",
+      "subsections": {
+        "Transmission": {
+          "text": "Host animal to human - most outbreaks have implicated contact with bats as the source\n[1]\nNo documented cases of primate-human transmission outside laboratory setting\nHuman to human: direct contact with droplets of body fluid or contaminated objects\nHumans can transmit the virus as soon as they are febrile.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "filovirus",
+          "url": "https://wikem.org/wiki/Filovirus"
+        }
+      ]
+    },
+    "Transmission": {
+      "text": "Host animal to human - most outbreaks have implicated contact with bats as the source\n[1]\nNo documented cases of primate-human transmission outside laboratory setting\nHuman to human: direct contact with droplets of body fluid or contaminated objects\nHumans can transmit the virus as soon as they are febrile.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation period: 2-21 days (5-7 days more common)\n[3]\nInitial symptoms are vague:\nHigh fever, headache, chills, myalgias, abdominal pain, diarrhea\nMaculopapular rash, typically on the trunk, around 5 days after symptom onset\nMassive hemorrhage, shock, and multiorgan system failure\nDeath usually occurs 1-2 weeks after symptom onset\n[3]\n(23-90% fatal\n[4]\n)\nPatients alive at 2 weeks after symptom onset usually survive",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_Traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid Fever\nTyphus\nViral Hemorrhagic Fevers\nEbola\nLassa fever\nMarburg\nChikungunya\nYellow fever\nRift Valley Fever\nQ fever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid Fever",
+          "url": "https://wikem.org/wiki/Typhoid_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral Hemorrhagic Fevers",
+          "url": "https://wikem.org/wiki/Viral_Hemorrhagic_Fevers"
+        },
+        {
+          "text": "Ebola",
+          "url": "https://wikem.org/wiki/Ebola"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Marburg",
+          "url": "https://wikem.org/wiki/Marburg"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift Valley Fever",
+          "url": "https://wikem.org/wiki/Rift_Valley_Fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        }
+      ]
+    },
+    "Fever_in_Traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid Fever\nTyphus\nViral Hemorrhagic Fevers\nEbola\nLassa fever\nMarburg\nChikungunya\nYellow fever\nRift Valley Fever\nQ fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid Fever",
+          "url": "https://wikem.org/wiki/Typhoid_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral Hemorrhagic Fevers",
+          "url": "https://wikem.org/wiki/Viral_Hemorrhagic_Fevers"
+        },
+        {
+          "text": "Ebola",
+          "url": "https://wikem.org/wiki/Ebola"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Marburg",
+          "url": "https://wikem.org/wiki/Marburg"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift Valley Fever",
+          "url": "https://wikem.org/wiki/Rift_Valley_Fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Difficult diagnosis and very rare/unlikely outside of Central Africa\nConsider Marburg with typical symptoms and high risk exposure including:\nClose contact with African fruit bats, infected humans, infected non-human primates\nLab researcher using African primates\nRecent travel to Uganda or other Central African countries\nCave exploration in Africa",
+      "subsections": {
+        "Work-up": {
+          "text": "PCR and IgM ELISA for acute infection several days after symptom onset.\n[3]\nIgG ELISA can be used later in the course of disease.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "PCR and IgM ELISA for acute infection several days after symptom onset.\n[3]\nIgG ELISA can be used later in the course of disease.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Aggressive supportive care is the hallmark of management\n[3]\nStrict\nIsolation precautions\n: standard, contact and droplet\n[5]\nLimit entry and maintain a log of people who enter the room\nNotify public health personnel\nContinue to test and treat for other possible diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Isolation precautions",
+          "url": "https://wikem.org/wiki/Isolation_precautions"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ebola virus disease\nViral hemorrhagic fevers\nFever in traveler\nTravel medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Fever in traveler",
+          "url": "https://wikem.org/wiki/Fever_in_traveler"
+        },
+        {
+          "text": "Travel medicine",
+          "url": "https://wikem.org/wiki/Travel_medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC Marburg Site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "drug_name": "Maisonneuve_fracture",
+  "url": "https://wikem.org/wiki/Maisonneuve_fracture",
+  "scraped_at": "2026-01-10T07:56:54.599818",
+  "sections": {
+    "Background": {
+      "text": "Lower extremity equivalent of\nGaleazzi fracture",
+      "subsections": {
+        "Components": {
+          "text": "Fibula fracture (anywhere from head or as far down as 6cm above ankle joint)\nDeltoid ligament rupture or medial malleolus avulsion fracture\nInjury then directed upward and laterally tearing interosseous membrane and anterior inferior tibiofibular ligament\nMay involve posterior tibiofibular ligament or posterior malleolar fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Galeazzi fracture",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture"
+        }
+      ]
+    },
+    "Components": {
+      "text": "Fibula fracture (anywhere from head or as far down as 6cm above ankle joint)\nDeltoid ligament rupture or medial malleolus avulsion fracture\nInjury then directed upward and laterally tearing interosseous membrane and anterior inferior tibiofibular ligament\nMay involve posterior tibiofibular ligament or posterior malleolar fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Results from external rotation force applied to foot",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess distal pulse, motor, and sensation\nInspect skin for signs of open fracture\nLong leg film that includes ankle\nIncrease in medial clear space of ankle joint\nTibiofibular clear space widened >5mm\nHigh fibular fracture\nSigns of\nsyndesmotic injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "syndesmotic injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Long leg posterior splint\nwith reduction of medial ankle and syndesmotic clear space",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Long leg posterior splint",
+          "url": "https://wikem.org/wiki/Long_leg_posterior_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Long leg posterior splint\nwith reduction of medial ankle and syndesmotic clear space",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Long leg posterior splint",
+          "url": "https://wikem.org/wiki/Long_leg_posterior_splint"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Long leg posterior splint\nwith reduction of medial ankle and syndesmotic clear space",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Long leg posterior splint",
+          "url": "https://wikem.org/wiki/Long_leg_posterior_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on degree of associated ankle injury\nIf splinted and stabilized, can be discharged after consultation with ortho\n[1]\nWill need close follow-up for likely operative repair\nAdmit for:\n[2]\nOpen fracture\nSigns of neurovascular injury\nConcern for\ncompartment syndrome",
+      "subsections": {
+        "Specialty_Management": {
+          "text": "Usually requires surgical intervention (syndesmotic screws; proximal fibular fracture usually requires no fixation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Specialty_Management": {
+      "text": "Usually requires surgical intervention (syndesmotic screws; proximal fibular fracture usually requires no fixation)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ankle syndesmosis injury\nDistal leg fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        }
+      ]
+    }
+  }
+}

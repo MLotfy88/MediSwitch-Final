@@ -1,0 +1,256 @@
+{
+  "drug_name": "Malignant_bowel_obstruction",
+  "url": "https://wikem.org/wiki/Malignant_bowel_obstruction",
+  "scraped_at": "2026-01-10T07:56:53.165636",
+  "sections": {
+    "Introduction": {
+      "text": "Bowel obstruction\nin malignancy is complex in etiology\nUnderlying pathophysiology often involves combination of physical mechanical obstruction plus ileus / motility related issues, usually in patients with disseminated peritoneal metastases\nCommon causes\nPelvic malignancies, especially ovarian cancer\nGI malignancies such as colorectal pancreatic cancer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_features": {
+      "text": "Often a preceding waxing and waning course of\nnausea and vomiting\nwith\nreducing frequency of bowel movements\nand abdominal distension for a few weeks.\nAs the illness progresses an obvious mechanical bowel obstruction may develop. See\nSmall bowel obstruction#Clinnical Features",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Constipation": {
+      "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "The appropriate extent of investigations and treatment varies based on how advanced the patients malignancy is as well as his or her wishes.\nCT scan\nMay be appropriate if stenting or surgery would be considered\nWill often distinguish between unifocal (which may be amenable to endoscopic stenting or surgery) versus multi-focal obstructions (which portends a poor prognosis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "\"Pre-Bowel_Obstruction\"": {
+          "text": "In patients at high risk of a full blown malignant bowel obstruction who have no abdominal pain but increasing distension, nausea, vomiting and reducing bowel movements:\nMetoclopramide\n30mg via CSCI over 24 hours\nSodium\ndocusate\n200mg twice daily (or an alternative stool softener)\n+/-\nDexamethasone\n8mg daily SC",
+          "tables": []
+        },
+        "Clear_Malignant_Bowel_Obstruction": {
+          "text": "In many patients surgery or stenting is unlikely to be helpful, although for very proximal unifocal lesions or for patients otherwise very fit and healthy it may be worth considering\nUsually malignant bowel obstruction is indicative that a patient is coming into the last few weeks or month of life. A kind but frank discussion about this is usually helpful.\nIf vomiting and abdominal pain are very severe, consider drainage NG tube. If severe vomiting and discomfort are not major issues then it may be best to avoid an NG tube, especially if a more comfort-based approach to treatment is being considered\nTreat vomiting and distension with anti-secretorary agents:\nRanitidine\n150mg via\nCSCI\nover 24 hours\nOctreotide\n600mg via CSCI over 24 hours\nTreat nausea with an anti-emetic, e.g.\nHaloperidol\n2.5mg via CSCI over 24 hours\n+ Haloperidol 1mg SC 2-hourly PRN for nausea\nTreat abdominal pain with an anti-spasmodic + an opioid, e.g.\nHyoscine butylbromide 60mg via CSCI over 24 hours\nA low dose opioid via CSCI over 24 hours and SC PRN\nAlso consider\ndexamethasone\n8mg daily SC\nIf intractable vomiting persists, consider a venting PEG.\nIn patients where comfort and quality of life are the key concerns, IV fluids may not be helpful unless thirst is an issue.\nIn patients where life-prolongation is very important, IV hydration and TPN in hospital or in the home setting may be appropriate.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "\"Pre-Bowel_Obstruction\"": {
+      "text": "In patients at high risk of a full blown malignant bowel obstruction who have no abdominal pain but increasing distension, nausea, vomiting and reducing bowel movements:\nMetoclopramide\n30mg via CSCI over 24 hours\nSodium\ndocusate\n200mg twice daily (or an alternative stool softener)\n+/-\nDexamethasone\n8mg daily SC",
+      "subsections": {
+        "Clear_Malignant_Bowel_Obstruction": {
+          "text": "In many patients surgery or stenting is unlikely to be helpful, although for very proximal unifocal lesions or for patients otherwise very fit and healthy it may be worth considering\nUsually malignant bowel obstruction is indicative that a patient is coming into the last few weeks or month of life. A kind but frank discussion about this is usually helpful.\nIf vomiting and abdominal pain are very severe, consider drainage NG tube. If severe vomiting and discomfort are not major issues then it may be best to avoid an NG tube, especially if a more comfort-based approach to treatment is being considered\nTreat vomiting and distension with anti-secretorary agents:\nRanitidine\n150mg via\nCSCI\nover 24 hours\nOctreotide\n600mg via CSCI over 24 hours\nTreat nausea with an anti-emetic, e.g.\nHaloperidol\n2.5mg via CSCI over 24 hours\n+ Haloperidol 1mg SC 2-hourly PRN for nausea\nTreat abdominal pain with an anti-spasmodic + an opioid, e.g.\nHyoscine butylbromide 60mg via CSCI over 24 hours\nA low dose opioid via CSCI over 24 hours and SC PRN\nAlso consider\ndexamethasone\n8mg daily SC\nIf intractable vomiting persists, consider a venting PEG.\nIn patients where comfort and quality of life are the key concerns, IV fluids may not be helpful unless thirst is an issue.\nIn patients where life-prolongation is very important, IV hydration and TPN in hospital or in the home setting may be appropriate.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clear_Malignant_Bowel_Obstruction": {
+      "text": "In many patients surgery or stenting is unlikely to be helpful, although for very proximal unifocal lesions or for patients otherwise very fit and healthy it may be worth considering\nUsually malignant bowel obstruction is indicative that a patient is coming into the last few weeks or month of life. A kind but frank discussion about this is usually helpful.\nIf vomiting and abdominal pain are very severe, consider drainage NG tube. If severe vomiting and discomfort are not major issues then it may be best to avoid an NG tube, especially if a more comfort-based approach to treatment is being considered\nTreat vomiting and distension with anti-secretorary agents:\nRanitidine\n150mg via\nCSCI\nover 24 hours\nOctreotide\n600mg via CSCI over 24 hours\nTreat nausea with an anti-emetic, e.g.\nHaloperidol\n2.5mg via CSCI over 24 hours\n+ Haloperidol 1mg SC 2-hourly PRN for nausea\nTreat abdominal pain with an anti-spasmodic + an opioid, e.g.\nHyoscine butylbromide 60mg via CSCI over 24 hours\nA low dose opioid via CSCI over 24 hours and SC PRN\nAlso consider\ndexamethasone\n8mg daily SC\nIf intractable vomiting persists, consider a venting PEG.\nIn patients where comfort and quality of life are the key concerns, IV fluids may not be helpful unless thirst is an issue.\nIn patients where life-prolongation is very important, IV hydration and TPN in hospital or in the home setting may be appropriate.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Bowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

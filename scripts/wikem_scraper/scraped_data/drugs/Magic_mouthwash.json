@@ -1,0 +1,115 @@
+{
+  "drug_name": "Magic_mouthwash",
+  "url": "https://wikem.org/wiki/Magic_mouthwash",
+  "scraped_at": "2026-01-10T07:56:52.415102",
+  "sections": {
+    "Intro": {
+      "text": "In infants, do NOT use oral lidocaine due to risk of methemoglobinemia and FDA black box warning\n[1]\n[2]\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Some experts recommend Magic Mouthwash / oral\nLidocaine\nin children if not tolerating PO intake, although evidence suggests no better than placebo\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Warnings": {
+      "text": "DO NOT EXCEED dosing limits especially for\nlidocaine\n.\nDO NOT use under 2 years old\nNever give a family an amount that can be toxic if unintentionally swallowed in its entirety",
+      "subsections": {
+        "Lidocaine": {
+          "text": "1 cc Viscous 2% lidocaine = 20mg lidocaine\nMax dose = 5mg/kg\nFor a 10 kg child = 50mg lidocaine = 2.5 cc",
+          "tables": []
+        },
+        "Diphenhydramine": {
+          "text": "Diphenhydramine\n6.25mg/5cc or 12.5mg/5cc\nMax dose = 5mg/kg/day\nFor a 10 kg child = 50mg benadryl =20 cc of 12.5mg/5cc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Lidocaine": {
+      "text": "1 cc Viscous 2% lidocaine = 20mg lidocaine\nMax dose = 5mg/kg\nFor a 10 kg child = 50mg lidocaine = 2.5 cc",
+      "subsections": {
+        "Diphenhydramine": {
+          "text": "Diphenhydramine\n6.25mg/5cc or 12.5mg/5cc\nMax dose = 5mg/kg/day\nFor a 10 kg child = 50mg benadryl =20 cc of 12.5mg/5cc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Diphenhydramine": {
+      "text": "Diphenhydramine\n6.25mg/5cc or 12.5mg/5cc\nMax dose = 5mg/kg/day\nFor a 10 kg child = 50mg benadryl =20 cc of 12.5mg/5cc",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Makeup": {
+      "text": "Equal parts:\nViscous\nlidocaine\n2%\nDiphenhydramine\nMaalox\nMay also omit lidocaine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Maalox",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Management": {
+      "text": "0.5-1mL before feeds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Herpangina\nHand foot and mouth disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand foot and mouth disease",
+          "url": "https://wikem.org/wiki/Hand_foot_and_mouth_disease"
+        }
+      ]
+    }
+  }
+}

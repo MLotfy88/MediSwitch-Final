@@ -1,0 +1,206 @@
+{
+  "drug_name": "Massive_transfusion",
+  "url": "https://wikem.org/wiki/Massive_transfusion",
+  "scraped_at": "2026-01-10T07:57:03.073444",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nmassive transfusion (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Massive transfusion protocol (MTP) has no universal definition but is generally considered as:\nTransfusion of >10 units of packed red blood cells within a 24-hour period OR\nTransfusion of >4 units of packed red blood cells within 1 hour, with anticipation of requiring more transfusion within the next 24 hours\nReplacement of >1 blood volume in 24 h or >50% of the blood volume in 4 h\nIn addition to controlling hemorrhage the greatest concern during MTP is the lethal triad:\n[2]\nHypothermia\nCoagulopathy\nAcidosis\nTrauma Associated Coagulopathy\n[3]\nPlatelet defects (worse with\nTBI\n), endothelial injury, and loss of coagulation factors and platelets through hemorrhage consumption of platelets and coagulation factors\nDuring MTP, focus is on \"balanced resuscitation\" with clotting factors (FFP) and platelets”\n[4]\nThe PROPPR trial\n[5]\nexamined a 1:1:1 (FFP:Plt:pRBC) vs 1:1:2 protocol.  There was no difference in mortality at 1 or 30 days; however, the 1:1:1 group experienced less death due to exsanguination in the first day.\nThe goal of MTP is to resuscitate and temporize management until definitive operative repair can be accomplished.\nMTP should follow should follow local institutional protocols\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "TBI",
+          "url": "https://wikem.org/wiki/TBI"
+        },
+        {
+          "text": "The PROPPR trial",
+          "url": "https://wikem.org/wiki/EBQ:PROPPR_Trial"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Hemorrhagic shock\nis the only indication for a massive transfusion\nThe\nABC score\nand the\nTASH score\npredict the need for MTP\nNewer studies\n[7]\nshow that the\nShock Index score\nis a better predictor than the ABC score\nRevised Assessment of Bleeding and Transfusion (RABT) may reach higher sensitivity than ABC score, but not prospectively validated as of 2019",
+      "subsections": {
+        "ABC_Score": {
+          "text": "Non-lab scoring system as opposed to TASH:\nPenetrating mechanism\nSBP ≤90 in ED\nHR ≥120 in ED\nPositive FAST\nScoring interpretation:\n0-1, not likely to require MTP (≥10 units pRBCs)\n2-4, likely to require MTP, sensitivity 75% and specificity 86% from original study\n[9]\nSubsequent studies suggested < 50% sensitivity",
+          "tables": []
+        },
+        "Shock_Index": {
+          "text": "SI = HR / SBP\nParticularly useful in patients with pre-hospital SBP >90 mmHg\nPre-hospital SI >0.9 suggestive of need for MTP\n[10]\n[11]",
+          "tables": []
+        },
+        "RABT": {
+          "text": "RABT score ≥ 2 of the following predicts need for MTP:\nShock index > 1.0\nPelvic fracture\nPositive FAST\nPenetrating injury\nSensitivity 84%, specificity 77%\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "ABC_Score": {
+      "text": "Non-lab scoring system as opposed to TASH:\nPenetrating mechanism\nSBP ≤90 in ED\nHR ≥120 in ED\nPositive FAST\nScoring interpretation:\n0-1, not likely to require MTP (≥10 units pRBCs)\n2-4, likely to require MTP, sensitivity 75% and specificity 86% from original study\n[9]\nSubsequent studies suggested < 50% sensitivity",
+      "subsections": {
+        "Shock_Index": {
+          "text": "SI = HR / SBP\nParticularly useful in patients with pre-hospital SBP >90 mmHg\nPre-hospital SI >0.9 suggestive of need for MTP\n[10]\n[11]",
+          "tables": []
+        },
+        "RABT": {
+          "text": "RABT score ≥ 2 of the following predicts need for MTP:\nShock index > 1.0\nPelvic fracture\nPositive FAST\nPenetrating injury\nSensitivity 84%, specificity 77%\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Shock_Index": {
+      "text": "SI = HR / SBP\nParticularly useful in patients with pre-hospital SBP >90 mmHg\nPre-hospital SI >0.9 suggestive of need for MTP\n[10]\n[11]",
+      "subsections": {
+        "RABT": {
+          "text": "RABT score ≥ 2 of the following predicts need for MTP:\nShock index > 1.0\nPelvic fracture\nPositive FAST\nPenetrating injury\nSensitivity 84%, specificity 77%\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "RABT": {
+      "text": "RABT score ≥ 2 of the following predicts need for MTP:\nShock index > 1.0\nPelvic fracture\nPositive FAST\nPenetrating injury\nSensitivity 84%, specificity 77%\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adjunctive_Agents": {
+      "text": "Tranexamic acid (TXA)\nlowers risk of death if administed in less then 3 hours after injury in trauma patients with significant hemorrhage (CRASH-2 trail)\n[13]\nThromboelastography (TEG)\nhas been extensively studied in cardiac surgery and quantifies the coagulation cascade\nFactor VII, studied in the CONTROL trial, showed no mortality benefit and was terminated early\n[14]\nOther studies of Factor VII have raised concerns for\nMI\nand adverse thrombotic events\nConsider giving calcium and magnesium IV supplementation if approaching > 4 units of pRBCs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tranexamic acid (TXA)",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "Thromboelastography (TEG)",
+          "url": "https://wikem.org/wiki/Thromboelastography_(TEG)"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Example_Protocol": {
+      "text": "MTP pack contains 6 units RBCs and 4 units FFP (O neg uncrossmatched rbc's and AB FFP until completed screen)\nAttending physician activates protocol\nCharge nurse contacts blood bank and sends  runner to pick up MTP pack\nTEG\nis drawn\nFirst MTP pack is delivered within 30min of ordering\nTransfusion continues until patient expires or is hemodynamicallys stable with cessation of bleeding\nIf second pack is ordered it contains an additional single donor platelet pack (six-pack)\nThe third pack substitutes cryoprecipitate for platelets\nPT, aPTT, and Fibrinogen is ordered q2 hours for the duration of the massive transfusion event",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TEG",
+          "url": "https://wikem.org/wiki/TEG"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Hypothermia\nDilutional\ncoagulopathy\nHypocalcemia\nand\nhypomagnesemia\nfrom high citrate concentration\nLactic acidosis\nfrom inability to breakdown citrate secondary to to hepatic dysfunction\nHyperkalemia\nAir embolism\nMetabolic alkalosis\nfrom breakdown of citrate\nTRALI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "TRALI",
+          "url": "https://wikem.org/wiki/TRALI"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - ABC score\nMDCalc - Shock Index\nMassive Transfusion Protocol on\nInternet Book of Critical Care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Whole blood\nTXA\nPacked red blood cells\nThe PROPPR trial\nCoagulopathy (main)\nHemorrhagic shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Whole blood",
+          "url": "https://wikem.org/wiki/Whole_blood"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "Packed red blood cells",
+          "url": "https://wikem.org/wiki/Packed_red_blood_cells"
+        },
+        {
+          "text": "The PROPPR trial",
+          "url": "https://wikem.org/wiki/EBQ:PROPPR_Trial"
+        },
+        {
+          "text": "Coagulopathy (main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    }
+  }
+}

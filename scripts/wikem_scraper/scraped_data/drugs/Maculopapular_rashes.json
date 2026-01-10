@@ -1,0 +1,709 @@
+{
+  "drug_name": "Maculopapular_rashes",
+  "url": "https://wikem.org/wiki/Maculopapular_rashes",
+  "scraped_at": "2026-01-10T07:57:00.754882",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Rash_Red_Flags": {
+          "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+          "tables": []
+        },
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Rash_Red_Flags": {
+      "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+      "subsections": {
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Dermatology_Nomenclature": {
+      "text": "",
+      "subsections": {
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Maculopapular_rashes_visual_diagnosis": {
+          "text": "Chickenpox\nChickenpox\nChikungunya\nMeasles\nMiliaria\n(Heat rash)\nPoison ivy\n/Oak/Sumac\nPoison ivy\n/Oak/Sumac\nScabies\nShingles",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chickenpox",
+          "url": "https://wikem.org/wiki/Chickenpox"
+        },
+        {
+          "text": "Chickenpox",
+          "url": "https://wikem.org/wiki/Chickenpox"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        }
+      ]
+    },
+    "Maculopapular_rashes_visual_diagnosis": {
+      "text": "Chickenpox\nChickenpox\nChikungunya\nMeasles\nMiliaria\n(Heat rash)\nPoison ivy\n/Oak/Sumac\nPoison ivy\n/Oak/Sumac\nScabies\nShingles",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chickenpox",
+          "url": "https://wikem.org/wiki/Chickenpox"
+        },
+        {
+          "text": "Chickenpox",
+          "url": "https://wikem.org/wiki/Chickenpox"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Maculopapular_rashes": {
+      "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Frequently a clinical diagnosis based on ruling-out more dangerous causes\nSee differential diagnosis section (above)\nConsider whether or not the patient has a fever or is toxic appearing (dangerous diagnosis)\nLook at lesion distribution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Based on presumed cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Based on presumed cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "General approach to rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General approach to rashes",
+          "url": "https://wikem.org/wiki/General_approach_to_rashes"
+        }
+      ]
+    }
+  }
+}

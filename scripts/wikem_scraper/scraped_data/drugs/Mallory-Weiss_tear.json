@@ -1,0 +1,260 @@
+{
+  "drug_name": "Mallory-Weiss_tear",
+  "url": "https://wikem.org/wiki/Mallory-Weiss_tear",
+  "scraped_at": "2026-01-10T07:56:59.059377",
+  "sections": {
+    "Background": {
+      "text": "Longitudinal lacerations through mucosa and submucosa\n75% in proximal stomach, rest in distal esophagus\nDue to sudden increase in intrabdominal pressure\nTypically in the setting of forceful vomiting or retching",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Hiatal hernia\nAlcoholism\nAnything that increases intrabdominal pressure: blunt\nabdominal trauma\n, CPR, etc.",
+          "tables": []
+        },
+        "History": {
+          "text": "Classic presentation:\nHematemesis\nfollowing vomiting or retching\nAs few as 30% of patients present this way\nCoffee ground emesis\nMelena\nHematochezia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Hiatal hernia\nAlcoholism\nAnything that increases intrabdominal pressure: blunt\nabdominal trauma\n, CPR, etc.",
+      "subsections": {
+        "History": {
+          "text": "Classic presentation:\nHematemesis\nfollowing vomiting or retching\nAs few as 30% of patients present this way\nCoffee ground emesis\nMelena\nHematochezia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Classic presentation:\nHematemesis\nfollowing vomiting or retching\nAs few as 30% of patients present this way\nCoffee ground emesis\nMelena\nHematochezia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Upper_gastrointestinal_bleeding": {
+          "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+          "tables": []
+        },
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Upper_gastrointestinal_bleeding": {
+      "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+      "subsections": {
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Approach as any GI bleed\nCBC\nBMP\nType and screen\nGuiac\nCXR\nDefinitive diagnosis by endoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Most Mallory-Weiss tears are minor and resolve on their own, but up to 3% of upper gastrointestinal bleeding deaths are a result of Mallory-Weiss tears\nEndoscopy only for active and on-going bleeding\n[1]\nTreat as\nundifferentiated upper GI bleed\nMany of these patients are alcoholics and have cirrhosis; consider esophageal varices\nHistory of vomiting/retching; consider\nboerhaave",
+      "subsections": {
+        "Treatments_Not_Supported_by_the_Literature": {
+          "text": "No evidence to support octreotide use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Treatments_Not_Supported_by_the_Literature": {
+      "text": "No evidence to support octreotide use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Anticipate admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Gastrointestinal bleeding\nUpper gastrointestinal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

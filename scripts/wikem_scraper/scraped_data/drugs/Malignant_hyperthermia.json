@@ -1,0 +1,431 @@
+{
+  "drug_name": "Malignant_hyperthermia",
+  "url": "https://wikem.org/wiki/Malignant_hyperthermia",
+  "scraped_at": "2026-01-10T07:56:53.540625",
+  "sections": {
+    "Background": {
+      "text": "Inherited disorder of skeletal muscles triggered most often by anesthesia inhalation agents, succinylcholine, heat or exercise\n[1]\nResults in hypermetabolism, skeletal muscle damage, hyperthermia, and death if not treated quickly\nGENERALIZED rigidity NOT always present; if it occurs, MH is almost certain",
+      "subsections": {
+        "Likelihood_of_Complications": {
+          "text": "Increased time from 1st sign to 1st\ndantrolene\nFor every 30 minute increase in the interval, complication likelihood increases x 1.6\nIncreased maximal temperature\nFor every 2°C increase in max temp, complication likelihood increases x 2.9",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Likelihood_of_Complications": {
+      "text": "Increased time from 1st sign to 1st\ndantrolene\nFor every 30 minute increase in the interval, complication likelihood increases x 1.6\nIncreased maximal temperature\nFor every 2°C increase in max temp, complication likelihood increases x 2.9",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Muscle contraction\nFever\nMay have dark colored urine from myoglobinuria\nFirst signs\nHypercarbia\nSinus tachycardia\nMasseter spasm\nTemperature abnormalities (may be early)\nMost common pattern\nRespiratory acidosis and muscular abnormalities",
+      "subsections": {
+        "Presentations": {
+          "text": "99%\nRespiratory Acidosis\n26%\nMetabolic Acidosis\n80% Muscular Abnormalities\nWatch for it with\nsuccinylcholine\nuse.",
+          "tables": []
+        },
+        "Types": {
+          "text": "Fulminant MH\nmuscle rigidity, high fever, increased HR shortly after induction of anesthesia\nMasseter muscle rigidity\njaw muscle rigidity after succinylchoine\nMore common in children\nPresages MH in 20-30% cases\nAll patients demonstrate elevated CK and often gross myoglobinuria\nCK >20,000IU = high likelihood of MH\nLate onset MH\nUncommon, may begin shortly after anesthesia termination (usually within first hour)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Respiratory Acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_Acidosis"
+        },
+        {
+          "text": "Metabolic Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Presentations": {
+      "text": "99%\nRespiratory Acidosis\n26%\nMetabolic Acidosis\n80% Muscular Abnormalities\nWatch for it with\nsuccinylcholine\nuse.",
+      "subsections": {
+        "Types": {
+          "text": "Fulminant MH\nmuscle rigidity, high fever, increased HR shortly after induction of anesthesia\nMasseter muscle rigidity\njaw muscle rigidity after succinylchoine\nMore common in children\nPresages MH in 20-30% cases\nAll patients demonstrate elevated CK and often gross myoglobinuria\nCK >20,000IU = high likelihood of MH\nLate onset MH\nUncommon, may begin shortly after anesthesia termination (usually within first hour)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory Acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_Acidosis"
+        },
+        {
+          "text": "Metabolic Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Fulminant MH\nmuscle rigidity, high fever, increased HR shortly after induction of anesthesia\nMasseter muscle rigidity\njaw muscle rigidity after succinylchoine\nMore common in children\nPresages MH in 20-30% cases\nAll patients demonstrate elevated CK and often gross myoglobinuria\nCK >20,000IU = high likelihood of MH\nLate onset MH\nUncommon, may begin shortly after anesthesia termination (usually within first hour)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Core temperature\nCBC\nChem 7\nTotal CK\nPT/PTT\nABG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Discontinue Triggering Agents\n100% Oxygen at High Flow\nGive\nDantrolene\nProvide\nbicarbonate\nfor metabolic acidosis temporization\nActively cool the patient\nTreat any\ndysrhythmia",
+      "subsections": {
+        "Dantrolene": {
+          "text": "60ml sterile water into each vial of\ndantrolene\nmay need up to 36 vials\nIf using Dantrium® (20mg/vial), each vial contains 3 g of mannitol (renal vasodilation); newer nanocrystalline dantrolene (250mg/vial) has 250mg mannitol per vial and requires mannitol supplementation\n2.5mg/kg IV push\nTitrate to effect; may need more than 10mg/kg\nCall\nMHAUS Hotline\nif needed: 1-800-644-9737\nContinued Care\nDantrolene 1mg/kg every 4-6 hours for 24–48 hours\nMonitor for recrudescence (rate is 25%)\nFollow electrolytes, blood gases, CK, core temperature, urine output and color, coagulation studies",
+          "tables": []
+        },
+        "Bicarb": {
+          "text": "1-2 mEQ/kg if blood gas values not yet available",
+          "tables": []
+        },
+        "Cooling_Measures": {
+          "text": "Most patietns will have a core temperature >39 deg C (102.2 deg F)\nStop cooling when temperature reaches 100.4",
+          "tables": []
+        },
+        "Dysrhythmic_therapy": {
+          "text": "Dysrhythmias usually respond to treatment of acidosis and hyperkalemia\nAVOID CA CHANNEL BLOCKERS as they may cause hyperkalemia or cardiac arrest in presence of dantrolene",
+          "tables": []
+        },
+        "Hyperkalemia": {
+          "text": "Not always present but can occur\nTreat hyperkalemia with standard treatment, remember to check glucose levels q1h after treatment with insulin/glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Dantrolene": {
+      "text": "60ml sterile water into each vial of\ndantrolene\nmay need up to 36 vials\nIf using Dantrium® (20mg/vial), each vial contains 3 g of mannitol (renal vasodilation); newer nanocrystalline dantrolene (250mg/vial) has 250mg mannitol per vial and requires mannitol supplementation\n2.5mg/kg IV push\nTitrate to effect; may need more than 10mg/kg\nCall\nMHAUS Hotline\nif needed: 1-800-644-9737\nContinued Care\nDantrolene 1mg/kg every 4-6 hours for 24–48 hours\nMonitor for recrudescence (rate is 25%)\nFollow electrolytes, blood gases, CK, core temperature, urine output and color, coagulation studies",
+      "subsections": {
+        "Bicarb": {
+          "text": "1-2 mEQ/kg if blood gas values not yet available",
+          "tables": []
+        },
+        "Cooling_Measures": {
+          "text": "Most patietns will have a core temperature >39 deg C (102.2 deg F)\nStop cooling when temperature reaches 100.4",
+          "tables": []
+        },
+        "Dysrhythmic_therapy": {
+          "text": "Dysrhythmias usually respond to treatment of acidosis and hyperkalemia\nAVOID CA CHANNEL BLOCKERS as they may cause hyperkalemia or cardiac arrest in presence of dantrolene",
+          "tables": []
+        },
+        "Hyperkalemia": {
+          "text": "Not always present but can occur\nTreat hyperkalemia with standard treatment, remember to check glucose levels q1h after treatment with insulin/glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Bicarb": {
+      "text": "1-2 mEQ/kg if blood gas values not yet available",
+      "subsections": {
+        "Cooling_Measures": {
+          "text": "Most patietns will have a core temperature >39 deg C (102.2 deg F)\nStop cooling when temperature reaches 100.4",
+          "tables": []
+        },
+        "Dysrhythmic_therapy": {
+          "text": "Dysrhythmias usually respond to treatment of acidosis and hyperkalemia\nAVOID CA CHANNEL BLOCKERS as they may cause hyperkalemia or cardiac arrest in presence of dantrolene",
+          "tables": []
+        },
+        "Hyperkalemia": {
+          "text": "Not always present but can occur\nTreat hyperkalemia with standard treatment, remember to check glucose levels q1h after treatment with insulin/glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cooling_Measures": {
+      "text": "Most patietns will have a core temperature >39 deg C (102.2 deg F)\nStop cooling when temperature reaches 100.4",
+      "subsections": {
+        "Dysrhythmic_therapy": {
+          "text": "Dysrhythmias usually respond to treatment of acidosis and hyperkalemia\nAVOID CA CHANNEL BLOCKERS as they may cause hyperkalemia or cardiac arrest in presence of dantrolene",
+          "tables": []
+        },
+        "Hyperkalemia": {
+          "text": "Not always present but can occur\nTreat hyperkalemia with standard treatment, remember to check glucose levels q1h after treatment with insulin/glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dysrhythmic_therapy": {
+      "text": "Dysrhythmias usually respond to treatment of acidosis and hyperkalemia\nAVOID CA CHANNEL BLOCKERS as they may cause hyperkalemia or cardiac arrest in presence of dantrolene",
+      "subsections": {
+        "Hyperkalemia": {
+          "text": "Not always present but can occur\nTreat hyperkalemia with standard treatment, remember to check glucose levels q1h after treatment with insulin/glucose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperkalemia": {
+      "text": "Not always present but can occur\nTreat hyperkalemia with standard treatment, remember to check glucose levels q1h after treatment with insulin/glucose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Stable_to_Transfer_Criteria": {
+          "text": "ETCO2 is declining or normal\nHR is stable or decreasing\nNo ominous dysrhythmias\nTemperature is declining\nGeneralized muscular rigidity is resolving (if present)\nIV dantrolene administration has begun",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Consciousness Level Change/Coma\nCardiac Dysfunction\nPulmonary Edema\nRenal Dysfunction\nDisseminated Intravascular Coagulation\nHepatic Dysfunction\nRelapse\nDeath",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Stable_to_Transfer_Criteria": {
+      "text": "ETCO2 is declining or normal\nHR is stable or decreasing\nNo ominous dysrhythmias\nTemperature is declining\nGeneralized muscular rigidity is resolving (if present)\nIV dantrolene administration has begun",
+      "subsections": {
+        "Complications": {
+          "text": "Consciousness Level Change/Coma\nCardiac Dysfunction\nPulmonary Edema\nRenal Dysfunction\nDisseminated Intravascular Coagulation\nHepatic Dysfunction\nRelapse\nDeath",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Consciousness Level Change/Coma\nCardiac Dysfunction\nPulmonary Edema\nRenal Dysfunction\nDisseminated Intravascular Coagulation\nHepatic Dysfunction\nRelapse\nDeath",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Succinylcholine\nAcute Fever (DDX)\nToxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "Acute Fever (DDX)",
+          "url": "https://wikem.org/wiki/Acute_Fever_(DDX)"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    }
+  }
+}

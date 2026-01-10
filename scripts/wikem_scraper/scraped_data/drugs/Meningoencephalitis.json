@@ -1,0 +1,22 @@
+{
+  "drug_name": "Meningoencephalitis",
+  "url": "https://wikem.org/wiki/Meningoencephalitis",
+  "scraped_at": "2026-01-10T07:57:05.934595",
+  "sections": {
+    "Background": {
+      "text": "Concurrent\nmeningitis\n+\nencephalitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    }
+  }
+}

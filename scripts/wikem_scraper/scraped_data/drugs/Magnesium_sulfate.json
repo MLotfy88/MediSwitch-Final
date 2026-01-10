@@ -1,0 +1,240 @@
+{
+  "drug_name": "Magnesium_sulfate",
+  "url": "https://wikem.org/wiki/Magnesium_sulfate",
+  "scraped_at": "2026-01-10T07:56:54.247084",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Type:\nAntiarrhythmics\nDosage Forms: IV\nCommon Trade Names: None",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Cardiac_arrest": {
+          "text": "Loading dose = 1-2gm in 10mL\nD5W\nover 1-2min",
+          "tables": []
+        },
+        "Spontaneous_circulation": {
+          "text": "Loading dose = 1-4gm in 50-100\nD5W\nover 20-60 min",
+          "tables": []
+        },
+        "Eclampsia": {
+          "text": "Initial: 4-6 g IV magnesium sulfate (Dilute the 50% solution of 400mg elemental magnesium, to a 10% or 20% solution) and give over 20 to 30 minutes\nMaintenance: 1 to 2 g/hr IV until paroxysms cease\nOR\nIf no IV Access, give Magnesium sulfate 50% solution IM 10g Loading Dose (5g in each buttock)\nMaintenance: followed by 5 g IM q 4 hours\n(Note: Use IM if no IV, No data on IO Route for Ecclampsia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        },
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        }
+      ]
+    },
+    "Cardiac_arrest": {
+      "text": "Loading dose = 1-2gm in 10mL\nD5W\nover 1-2min",
+      "subsections": {
+        "Spontaneous_circulation": {
+          "text": "Loading dose = 1-4gm in 50-100\nD5W\nover 20-60 min",
+          "tables": []
+        },
+        "Eclampsia": {
+          "text": "Initial: 4-6 g IV magnesium sulfate (Dilute the 50% solution of 400mg elemental magnesium, to a 10% or 20% solution) and give over 20 to 30 minutes\nMaintenance: 1 to 2 g/hr IV until paroxysms cease\nOR\nIf no IV Access, give Magnesium sulfate 50% solution IM 10g Loading Dose (5g in each buttock)\nMaintenance: followed by 5 g IM q 4 hours\n(Note: Use IM if no IV, No data on IO Route for Ecclampsia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        },
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        }
+      ]
+    },
+    "Spontaneous_circulation": {
+      "text": "Loading dose = 1-4gm in 50-100\nD5W\nover 20-60 min",
+      "subsections": {
+        "Eclampsia": {
+          "text": "Initial: 4-6 g IV magnesium sulfate (Dilute the 50% solution of 400mg elemental magnesium, to a 10% or 20% solution) and give over 20 to 30 minutes\nMaintenance: 1 to 2 g/hr IV until paroxysms cease\nOR\nIf no IV Access, give Magnesium sulfate 50% solution IM 10g Loading Dose (5g in each buttock)\nMaintenance: followed by 5 g IM q 4 hours\n(Note: Use IM if no IV, No data on IO Route for Ecclampsia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        }
+      ]
+    },
+    "Eclampsia": {
+      "text": "Initial: 4-6 g IV magnesium sulfate (Dilute the 50% solution of 400mg elemental magnesium, to a 10% or 20% solution) and give over 20 to 30 minutes\nMaintenance: 1 to 2 g/hr IV until paroxysms cease\nOR\nIf no IV Access, give Magnesium sulfate 50% solution IM 10g Loading Dose (5g in each buttock)\nMaintenance: followed by 5 g IM q 4 hours\n(Note: Use IM if no IV, No data on IO Route for Ecclampsia)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Torsades\n: 25 to 50mg/kg rapid infusion over several minutes",
+      "subsections": {
+        "Cardiac": {
+          "text": "25-50mg/kg IV x 1\nSee\ncritical care quick reference\nfor drug doses by weight.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Cardiac": {
+      "text": "25-50mg/kg IV x 1\nSee\ncritical care quick reference\nfor drug doses by weight.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D (despite being drug of choice for\neclampsia\n!)\nLactation: infant risk minimal\nRenal Dosing: for severe renal impairment, max dose 20g/48 hours\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "QT prolongation\nTorsades\nRefractory v-tach/fib (regardless of Mg level)\nEclampsia\nHypomagnesemia\nBarium poisoning",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\n(rare)\nHeart block\nCNS depression\nRespiratory depression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypotension\n(rare)\nHeart block\nCNS depression\nRespiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nOnset of action = Immediate\nDuration of action = 30min\nMetabolism:\nExcretion: Renal",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Increases vasomotor tone\nProlongs AV conduction; prolongs refractoriness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Increases vasomotor tone\nProlongs AV conduction; prolongs refractoriness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypermagnesemia\nHypomagnesemia\nQT prolongation\nEclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    }
+  }
+}

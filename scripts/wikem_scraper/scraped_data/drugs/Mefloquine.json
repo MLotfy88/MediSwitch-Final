@@ -1,0 +1,106 @@
+{
+  "drug_name": "Mefloquine",
+  "url": "https://wikem.org/wiki/Mefloquine",
+  "scraped_at": "2026-01-10T07:57:07.683240",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntimalarial\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Malaria (falciparum or vivax) treatment: 750 mg PO, then 500 mg PO 6-12h later\nOR\nsingle dose of 1250mg PO\nGive with primaquine if treating p. vivax or p. ovale\nMalaria (falciparum or vivax) prophylaxis: 250 mg weekly starting 2 weeks prior to travel to endemic area, continue 4 weeks after leaving",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in patients <6mo, limited experience treating patients <20kg\nMalaria (falciparum or vivax) treatment: 15 mg/kg PO, then 10 mg/kg PO 6-12h after initial dose (max total dose: 1250 mg)\nGive with primaquine if treating p. vivax or p. ovale\nMalaria (falciparum or vivax) prophylaxis:\n<45kg: 5 mg/kg PO weekly (<45kg)\n>45kg: 250 mg PO weekly\nStart 2 weeks prior to travel to endemic area, continue 4 weeks after leaving",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nUse for malaria prophylaxis in patients with active or recent history of severe depression, anxiety, or psychotic disorders\nUse for malaria prophylaxis in patients with history of seizures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Seizures\nProlonged QT\nIncreased risk of suicide\nPneumonitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Weird dreams\nDizziness, headache, coordination problems\nSomnolence, insomnia, anxiety\nNausea/vomiting, diarrhea, abdominal pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Seizures\nProlonged QT\nIncreased risk of suicide\nPneumonitis",
+      "subsections": {
+        "Common": {
+          "text": "Weird dreams\nDizziness, headache, coordination problems\nSomnolence, insomnia, anxiety\nNausea/vomiting, diarrhea, abdominal pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Weird dreams\nDizziness, headache, coordination problems\nSomnolence, insomnia, anxiety\nNausea/vomiting, diarrhea, abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-4 weeks\nMetabolism:\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Plasmodium schizonticide, acts in erythrocytic stages of plasmodium species",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Malaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        }
+      ]
+    }
+  }
+}

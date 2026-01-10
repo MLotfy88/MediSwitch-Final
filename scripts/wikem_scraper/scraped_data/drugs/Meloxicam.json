@@ -1,0 +1,135 @@
+{
+  "drug_name": "Meloxicam",
+  "url": "https://wikem.org/wiki/Meloxicam",
+  "scraped_at": "2026-01-10T07:57:07.166121",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nNSAID\nDosage Forms: 7.5, 15mg\nRoutes of Administration: PO\nCommon Trade Names: Mobic, Vivlodex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Osteoarthritis": {
+          "text": "7.5-15mg PO QD\nMax 15mg/day",
+          "tables": []
+        },
+        "Rheumatoid_arthritis": {
+          "text": "7.5-15mg PO QD\nMax 15mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Osteoarthritis": {
+      "text": "7.5-15mg PO QD\nMax 15mg/day",
+      "subsections": {
+        "Rheumatoid_arthritis": {
+          "text": "7.5-15mg PO QD\nMax 15mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rheumatoid_arthritis": {
+      "text": "7.5-15mg PO QD\nMax 15mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Juvenile_idiopathic_arthritis(>60kg)": {
+          "text": "7.5mg PO QD\nMax 7.5mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C, category D if >30wk gestation\nLactation risk\n: safety unknown, inadequate literature available to assess risk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nmild-mod impairment: no adjustment\nCrCl <15: avoid use\nHD: max 7.5mg/day\nPediatric: see Adult dosing",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A or B: no adjustment\nChild-Pugh Class: not defined\nPediatric: see Adult Dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nmild-mod impairment: no adjustment\nCrCl <15: avoid use\nHD: max 7.5mg/day\nPediatric: see Adult dosing",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A or B: no adjustment\nChild-Pugh Class: not defined\nPediatric: see Adult Dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nChild-Pugh Class A or B: no adjustment\nChild-Pugh Class: not defined\nPediatric: see Adult Dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nASA or NSAID-induced asthma or urticaria\ncaution if:\nrenal impairment, dehydration, elderly or debilitated\nhistory of GI bleed or ulcers, alcohol use, or coagulopathy\nhepatic impairment\nasthma\ncardiovascular disease (or high risk of), including CABG surgery periop use, recent MI, CHF, HTN, smoker\nfluid retention\nPKU\nprolonged use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Serious\nGI bleed, ulcer, perforation\nblood dyscrasias, prolonged bleeding time, anemia\nnephrotoxicity, renal papillary necrosis\nMI, stroke, thromboembolism, HTN, CHF\nhepatotoxicity, hepatic necrosis, pancreatitis\nbronchospasm\nexfoliative dermatitis, SJS/TEN\nCommon\ndyspepsia, nausea/vomiting, abdominal pain, diarrhea, constipation, flatulence\nheadache, dizziness, drowsiness, tinnitus\ndizziness\nrash, pruritus, urticaria, photosensitivity\nfluid retention, peripheral edema\necchymosis\nelevated creatinine, ALT/AST\nsinusitis\nvomiting (peds)\nheadache (peds)\nfever (peds)\ndelayed ovulation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 15-20 hours\nMetabolism: liver extensively; CYP450 (2C9, 3A4 substrate)\nExcretion: urine (0.2% unchanged); feces (1.6% unchanged)\nMechanism of Action: exact MOA unknown; inhibits cyclooxygenase, reducing prostaglandin and thromboxane synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "NSAID\nNSAID toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    }
+  }
+}

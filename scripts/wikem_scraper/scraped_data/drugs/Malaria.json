@@ -1,0 +1,520 @@
+{
+  "drug_name": "Malaria",
+  "url": "https://wikem.org/wiki/Malaria",
+  "scraped_at": "2026-01-10T07:56:57.835491",
+  "sections": {
+    "Background": {
+      "text": "Caused by parasitic protozoa species of the genus Plasmodium (\nP ovale, P vivax, P malariae, P knowlesi\n, and\nP falciparum\n) carried by the Anopheles mosquito\nP falciparum\nmost severe\nSickle Cell Trait (HbAS) is protective against severe\nP falciparum\nmalaria\nFailure to consider for febrile illness following travel, even if seemingly temporally remote, can result in significant morbidity or mortality, especially in children and pregnant or immunocompromised patients\nChemoprophylaxsis does not guarantee protection\nCDC Malaria Hotline\n: 770-488-7788\nMalaria is a US nationally notifiable disease and all cases should be reported\nMalaria vaccine with ~30% efficacy will be piloted in African countries in 2018, study to assess pediatric mortality\n[2]",
+      "subsections": {
+        "Traveler_Precautions": {
+          "text": "The CDC recommends travelers to malaria-endemic regions take the following precautions:\n[3]\nUse of insecticide-treated bed nets\nUse of DEET-containing insect repellents\nWear long-sleeve shirts and pants\nChemoprophylaxis",
+          "tables": [
+            [
+              {
+                "Drug": "Chloroquine",
+                "Regimen": "Begin weekly dosing 1-2 weeks before exposure and continue until 4 weeks after returning",
+                "Dosage": "500mg weekly",
+                "Side Effects": "Headache, itching, bitter taste. Rare serious dermatologic and ocular effects",
+                "Recommended Geography": "First line in Central America, Mexico, Argentina, Paraguay, Hispaniola, Eastern Europe, Northern Africa, China, and parts of the Middle East"
+              },
+              {
+                "Drug": "Atovaquone-proguanil(Malarone)",
+                "Regimen": "Begin daily dosing 1-2 days before exposure and continue until 7 days after returning",
+                "Dosage": "One pill (250mg/150mg) daily",
+                "Side Effects": "Headache, nausea, abdominal pain, LFT increase. Avoid with renal dysfunction.",
+                "Recommended Geography": "Second line agent; First line in areas of chloroquine resistance: Most of South America, sub-Saharan Africa, most of Asia, Oceania, and parts of Saudia Arabia, Yemen, Iran, and Oman"
+              },
+              {
+                "Drug": "Mefloquine",
+                "Regimen": "Begin weekly dosing 1-2 weeks before exposure and continue until 4 weeks after returning",
+                "Dosage": "250mg weekly",
+                "Side Effects": "Headache, Nausea, Diarrhea, Dizziness, Sleep Disturbance. Avoid with psychiatric disorders or arrhythmias",
+                "Recommended Geography": "Second line agent; First line in areas of chloroquine resistance: Most of South America, sub-Saharan Africa, most of Asia (except Thailand, Myanmar, and Cambodia), Oceania, and parts of Saudia Arabia, Yemen, Iran, and Oman"
+              },
+              {
+                "Drug": "Doxycycline",
+                "Regimen": "Begin daily dosing 1-2 days before exposure and continue until 4 weeks after returning",
+                "Dosage": "100mg daily",
+                "Side Effects": "Photosensitivity, Nausea",
+                "Recommended Geography": "Second line agent; First line in areas of chloroquine resistance: Most of South America, sub-Saharan Africa, most of Asia, Oceania, and parts of Saudia Arabia, Yemen, Iran, and Oman"
+              },
+              {
+                "Drug": "Hydroxychloroquine",
+                "Regimen": "Begin weekly dosing 1-2 weeks before exposure and continue until 4 weeks after returning",
+                "Dosage": "200mg weekly",
+                "Side Effects": "Headache, itching, bitter taste. Rare serious dermatologic and ocular effects",
+                "Recommended Geography": "Second line agent"
+              },
+              {
+                "Drug": "Primaquine",
+                "Regimen": "Begin daily dosing 1-2 days before exposure and continue until 2 days after returning",
+                "Dosage": "30mg daily",
+                "Side Effects": "Nausea, Diarrhea. Avoid with G-6-PD.",
+                "Recommended Geography": "Second line agent"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Traveler_Precautions": {
+      "text": "The CDC recommends travelers to malaria-endemic regions take the following precautions:\n[3]\nUse of insecticide-treated bed nets\nUse of DEET-containing insect repellents\nWear long-sleeve shirts and pants\nChemoprophylaxis",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Chloroquine",
+            "Regimen": "Begin weekly dosing 1-2 weeks before exposure and continue until 4 weeks after returning",
+            "Dosage": "500mg weekly",
+            "Side Effects": "Headache, itching, bitter taste. Rare serious dermatologic and ocular effects",
+            "Recommended Geography": "First line in Central America, Mexico, Argentina, Paraguay, Hispaniola, Eastern Europe, Northern Africa, China, and parts of the Middle East"
+          },
+          {
+            "Drug": "Atovaquone-proguanil(Malarone)",
+            "Regimen": "Begin daily dosing 1-2 days before exposure and continue until 7 days after returning",
+            "Dosage": "One pill (250mg/150mg) daily",
+            "Side Effects": "Headache, nausea, abdominal pain, LFT increase. Avoid with renal dysfunction.",
+            "Recommended Geography": "Second line agent; First line in areas of chloroquine resistance: Most of South America, sub-Saharan Africa, most of Asia, Oceania, and parts of Saudia Arabia, Yemen, Iran, and Oman"
+          },
+          {
+            "Drug": "Mefloquine",
+            "Regimen": "Begin weekly dosing 1-2 weeks before exposure and continue until 4 weeks after returning",
+            "Dosage": "250mg weekly",
+            "Side Effects": "Headache, Nausea, Diarrhea, Dizziness, Sleep Disturbance. Avoid with psychiatric disorders or arrhythmias",
+            "Recommended Geography": "Second line agent; First line in areas of chloroquine resistance: Most of South America, sub-Saharan Africa, most of Asia (except Thailand, Myanmar, and Cambodia), Oceania, and parts of Saudia Arabia, Yemen, Iran, and Oman"
+          },
+          {
+            "Drug": "Doxycycline",
+            "Regimen": "Begin daily dosing 1-2 days before exposure and continue until 4 weeks after returning",
+            "Dosage": "100mg daily",
+            "Side Effects": "Photosensitivity, Nausea",
+            "Recommended Geography": "Second line agent; First line in areas of chloroquine resistance: Most of South America, sub-Saharan Africa, most of Asia, Oceania, and parts of Saudia Arabia, Yemen, Iran, and Oman"
+          },
+          {
+            "Drug": "Hydroxychloroquine",
+            "Regimen": "Begin weekly dosing 1-2 weeks before exposure and continue until 4 weeks after returning",
+            "Dosage": "200mg weekly",
+            "Side Effects": "Headache, itching, bitter taste. Rare serious dermatologic and ocular effects",
+            "Recommended Geography": "Second line agent"
+          },
+          {
+            "Drug": "Primaquine",
+            "Regimen": "Begin daily dosing 1-2 days before exposure and continue until 2 days after returning",
+            "Dosage": "30mg daily",
+            "Side Effects": "Nausea, Diarrhea. Avoid with G-6-PD.",
+            "Recommended Geography": "Second line agent"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\n+ exposure to\nendemic country\nCyclic fever only after chronic infection\nHeadache, cough, GI symptoms",
+      "subsections": {
+        "Classification": {
+          "text": "Severe\nAny one of the following:\nAltered mental status\n/coma\nSevere normocytic anemia [hemoglobin < 7]\nRenal failure\nARDS\nHypotension\nDIC\nSpontaneous bleeding\nAcidosis\nHemoglobinuria\nJaundice\nHepatomegaly\nSplenomegaly\nRepeated generalized\nseizures\nParasitemia >5%\nUncomplicated\nNone of the above",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "Severe\nAny one of the following:\nAltered mental status\n/coma\nSevere normocytic anemia [hemoglobin < 7]\nRenal failure\nARDS\nHypotension\nDIC\nSpontaneous bleeding\nAcidosis\nHemoglobinuria\nJaundice\nHepatomegaly\nSplenomegaly\nRepeated generalized\nseizures\nParasitemia >5%\nUncomplicated\nNone of the above",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "First smear positive in >90% of cases (thick and thin Giemsa stain)\nIf initial negative, must be repeated BID x 2-3 days for proper exclusion of malaria\nDetermines degree of parasitemia and type (e.g.\nP. falciparum\n)\nAdditional lab findings\nNormocytic\nanemia\nThrombocytopenia\n↑ ESR\n↑ LDH\nLFT abnormalities (elevated indirect bilirubin)\n↑ Cr\nHyponatremia\nHypoglycemia\nLow Haptoglobin\nFalse positive VDRL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Mixed infections involving more than one species of Plasmodium may occur in areas of high endemicity (have a low threshold for including treatment for\nP falciparum\n)\n[4]\nHyponatremia\nin the setting of hypovolemia does not require treatment beyond rehydration\nTreat\nhypoglycemia\nCheck\nHIV\nstatus (coinfection can lead to worse clinical outcomes)\nExchange transfusion\nfor patients with:\nP falciparum\nmalaria with a parasitemia greater than 10%\nLife-threatening complications (ie, coma, respiratory failure, coagulopathy, fulminant kidney failure)\nFor specific dosing see the\nCDC Recommendations\nor call the Malaria CDC Hotline(855) 856-4713",
+      "subsections": {
+        "Uncomplicated_Malaria": {
+          "text": "Uncomplicated:\nNo evidence of organ dysfunction\nParasitemia <5%\nAble to tolerate PO\nHospitalize:\nSevere clinical manifestations in non-immune host for P. falciparum or P. knowlesi\nReport to state health department\nFor non-pregnant patients (3 day course)\nArtemether + lumefantrine\nArtesunate + amodiaquine\nArtesunate + mefloquine\nDihydroartemisinin + piperaquine\nArtesunate + sulfadoxine–pyrimethamine (SP)\nFor pregnant (1st trimester)\nQuinine\n+\nclindamycin\nx 7 days\nAdditional considerations\nAvoid artesunate + SP in HIV/AIDS patients taking co-trimoxazole\nAvoid artesunate + amodiaquine in HIV/AIDS patients taking efavirenz or zidovudine\nP. vivax\nand\nP. ovale\nhave dormant hypnozoites in the liver which require treatment with primaquine phosphate for complete eradication",
+          "tables": []
+        },
+        "Severe_Malaria": {
+          "text": "Do not delay treatment in the unstable patient if strong suspicion for malaria as initial smear may be falsely negative\nTreatment (IV for ≥24 hours then 3 days PO course)\nArtesunate (IV)\nClears malaria faster than quinine\nDistributed only through CDC\nQuinidine (IV) also appropriate choice; more available in US",
+          "tables": []
+        },
+        "Cerebral_Malaria": {
+          "text": "Insufficient evidence for or against giving antiepileptics\nFor severe cerebral edema, mannitol and steroids have not shown a demonstrable benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Uncomplicated_Malaria": {
+      "text": "Uncomplicated:\nNo evidence of organ dysfunction\nParasitemia <5%\nAble to tolerate PO\nHospitalize:\nSevere clinical manifestations in non-immune host for P. falciparum or P. knowlesi\nReport to state health department\nFor non-pregnant patients (3 day course)\nArtemether + lumefantrine\nArtesunate + amodiaquine\nArtesunate + mefloquine\nDihydroartemisinin + piperaquine\nArtesunate + sulfadoxine–pyrimethamine (SP)\nFor pregnant (1st trimester)\nQuinine\n+\nclindamycin\nx 7 days\nAdditional considerations\nAvoid artesunate + SP in HIV/AIDS patients taking co-trimoxazole\nAvoid artesunate + amodiaquine in HIV/AIDS patients taking efavirenz or zidovudine\nP. vivax\nand\nP. ovale\nhave dormant hypnozoites in the liver which require treatment with primaquine phosphate for complete eradication",
+      "subsections": {
+        "Severe_Malaria": {
+          "text": "Do not delay treatment in the unstable patient if strong suspicion for malaria as initial smear may be falsely negative\nTreatment (IV for ≥24 hours then 3 days PO course)\nArtesunate (IV)\nClears malaria faster than quinine\nDistributed only through CDC\nQuinidine (IV) also appropriate choice; more available in US",
+          "tables": []
+        },
+        "Cerebral_Malaria": {
+          "text": "Insufficient evidence for or against giving antiepileptics\nFor severe cerebral edema, mannitol and steroids have not shown a demonstrable benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Severe_Malaria": {
+      "text": "Do not delay treatment in the unstable patient if strong suspicion for malaria as initial smear may be falsely negative\nTreatment (IV for ≥24 hours then 3 days PO course)\nArtesunate (IV)\nClears malaria faster than quinine\nDistributed only through CDC\nQuinidine (IV) also appropriate choice; more available in US",
+      "subsections": {
+        "Cerebral_Malaria": {
+          "text": "Insufficient evidence for or against giving antiepileptics\nFor severe cerebral edema, mannitol and steroids have not shown a demonstrable benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cerebral_Malaria": {
+      "text": "Insufficient evidence for or against giving antiepileptics\nFor severe cerebral edema, mannitol and steroids have not shown a demonstrable benefit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit_for": {
+          "text": "Patients with suspected or confirmed\nP falciparum\nor\nP knowlesi\ninfection\nYoung children\nPregnant women\nImmunocompromised patients",
+          "tables": []
+        },
+        "Admit_to_ICU_for": {
+          "text": "Severe complications (e.g.coagulopathy or end-organ failure)\nCerebral malaria (e.g.\naltered mental status\n, repeated\nseizures\n, coma)\nParasitemia\n>2% in non-immune (i.e. travelers)\n>5% in semi-immune (i.e. locals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Admit_for": {
+      "text": "Patients with suspected or confirmed\nP falciparum\nor\nP knowlesi\ninfection\nYoung children\nPregnant women\nImmunocompromised patients",
+      "subsections": {
+        "Admit_to_ICU_for": {
+          "text": "Severe complications (e.g.coagulopathy or end-organ failure)\nCerebral malaria (e.g.\naltered mental status\n, repeated\nseizures\n, coma)\nParasitemia\n>2% in non-immune (i.e. travelers)\n>5% in semi-immune (i.e. locals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Admit_to_ICU_for": {
+      "text": "Severe complications (e.g.coagulopathy or end-organ failure)\nCerebral malaria (e.g.\naltered mental status\n, repeated\nseizures\n, coma)\nParasitemia\n>2% in non-immune (i.e. travelers)\n>5% in semi-immune (i.e. locals)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Travel Medicine\nParasitic Diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "IAMAT world map and country details\nhttps://www.cdc.gov/parasites/malaria/index.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "drug_name": "Marfan_syndrome",
+  "url": "https://wikem.org/wiki/Marfan_syndrome",
+  "scraped_at": "2026-01-10T07:57:05.684870",
+  "sections": {
+    "Background": {
+      "text": "Marfan syndrome (MFS) is a heritable\nconnective tissue disorder\nwith multi-system involvement\n[1]\nFirst characterized as a syndrome by French pediatrician Antoine Marfan in 1896\nClinical features vary along a spectrum typical of autosomal-dominant disorders\nAutosomal-dominant mutation in FBN1 gene (encodes collagen matrix protein fibrillin-1) on chromosome 15\n[1]\nThis results in cystic medial degeneration of the aortic tunica media (leading to increased risk of aortic aneurysm / dissection)\nThis also interferes with elastin deposition during extracellular matrix formation implicates in the elasticity of multiple tissue types\nMajority of cases (75%) are familial / inherited vs. minority (25%) are\nde novo\nmutations\nEstimated prevalence of 1/5000 individuals worldwide (equal between men and women)\n[1]\nLife expectancy for those diagnosed and treated is now close to that of non-MFS population (previously expected increase in patient mortality by third and fourth decades of life)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Physical_Findings": {
+          "text": "Not all may be present\nTall stature, long extremities\nReduce upper-to-lower segment ratio, increased arm span-to-height ratio\nArachnodactyly (“wrist sign, thumb sign), reduced elbow extension\nScoliosis or thoracolumbar kyphosis\nPectus excavatum or carinatum\nLigamentous laxity, hyperextensibility\nProtrusio acetabuli\nHindfoot deformity, plain flat foot\nEctopia lentis\nMyopia (often severe); retinal detachment\nLumbrosacral dural ectasia\nDolichocephaly, downward slanting palpebral fissures, enophthalmos, retrognathia, malar hypoplasia, high arched palate\nSkin striae",
+          "tables": []
+        },
+        "Increased_Risk": {
+          "text": "Acute Aortic Syndrome (AAS)\nThoracic aortic aneurysm\nStanford Types A and B\naortic dissection\nIntramural Hemotoma (IMH)\nMitral valve prolapse\n(present in up to 60%) and\nmitral regurgitation\nSpontaneous pneumothorax\n(associated with bullae, 4-11%)\nSubarachnoid hemorrhage\n[3]\nControversial link between Marfan Syndrome and intracranial aneurysms (more clearly associated with vEDS and LDS)\nOcular\nLens dislocation\n,\nretinal detachment\nSpinal conditions (scoliosis; lumbosacral disease; dural ectasia)\nMusculoskeletal injuries due to joint laxity (laxity in 85% of children, 56% of adults)\nComplications during\npregnancy\n(risk of\naortic dissection\n)\nType A dissection risk increases with aortic dilation; Type B risk poorly understood. (\naortic dissection\nin up to 4.5%, primarily peripartum)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        }
+      ]
+    },
+    "Physical_Findings": {
+      "text": "Not all may be present\nTall stature, long extremities\nReduce upper-to-lower segment ratio, increased arm span-to-height ratio\nArachnodactyly (“wrist sign, thumb sign), reduced elbow extension\nScoliosis or thoracolumbar kyphosis\nPectus excavatum or carinatum\nLigamentous laxity, hyperextensibility\nProtrusio acetabuli\nHindfoot deformity, plain flat foot\nEctopia lentis\nMyopia (often severe); retinal detachment\nLumbrosacral dural ectasia\nDolichocephaly, downward slanting palpebral fissures, enophthalmos, retrognathia, malar hypoplasia, high arched palate\nSkin striae",
+      "subsections": {
+        "Increased_Risk": {
+          "text": "Acute Aortic Syndrome (AAS)\nThoracic aortic aneurysm\nStanford Types A and B\naortic dissection\nIntramural Hemotoma (IMH)\nMitral valve prolapse\n(present in up to 60%) and\nmitral regurgitation\nSpontaneous pneumothorax\n(associated with bullae, 4-11%)\nSubarachnoid hemorrhage\n[3]\nControversial link between Marfan Syndrome and intracranial aneurysms (more clearly associated with vEDS and LDS)\nOcular\nLens dislocation\n,\nretinal detachment\nSpinal conditions (scoliosis; lumbosacral disease; dural ectasia)\nMusculoskeletal injuries due to joint laxity (laxity in 85% of children, 56% of adults)\nComplications during\npregnancy\n(risk of\naortic dissection\n)\nType A dissection risk increases with aortic dilation; Type B risk poorly understood. (\naortic dissection\nin up to 4.5%, primarily peripartum)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        }
+      ]
+    },
+    "Increased_Risk": {
+      "text": "Acute Aortic Syndrome (AAS)\nThoracic aortic aneurysm\nStanford Types A and B\naortic dissection\nIntramural Hemotoma (IMH)\nMitral valve prolapse\n(present in up to 60%) and\nmitral regurgitation\nSpontaneous pneumothorax\n(associated with bullae, 4-11%)\nSubarachnoid hemorrhage\n[3]\nControversial link between Marfan Syndrome and intracranial aneurysms (more clearly associated with vEDS and LDS)\nOcular\nLens dislocation\n,\nretinal detachment\nSpinal conditions (scoliosis; lumbosacral disease; dural ectasia)\nMusculoskeletal injuries due to joint laxity (laxity in 85% of children, 56% of adults)\nComplications during\npregnancy\n(risk of\naortic dissection\n)\nType A dissection risk increases with aortic dilation; Type B risk poorly understood. (\naortic dissection\nin up to 4.5%, primarily peripartum)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Classic vs. Kyphoscoliotic vs.\nVascular Ehlers-Danlos Syndrome (vEDS)\n[4]\nLoeys-Dietz Syndrome (LDS)\nFamilial Thoracic Aortic Aneurysm and Dissection (FTAAD)\nFamilial Ectopia Lentis Syndrome\nMASS Phenotype (Myopia, Mitral Valve Prolapse, Aortic Root Dilatation, Aortic Aneurysm Syndrome, Striae, Skeletal Findings)\nShprintzen-Goldberg Syndrome\nBeals Syndrome\nStickler Syndrome\nNon-Specific Connective Tissue Disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Initial evaluation often occurs in the outpatient setting and involves a thorough physical exam for identification of classically associated features, review of family medical history, slit lamp dilated pupil eye exam (to evaluate for ectopia lentis), and echocardiogram.\nAdvancement to specialist involvement, review of transthoracic echocardiography for aortic root dilation / aneurysm / heart valve involvement, potential genetic testing and/or medical genetics consultation per current guidelines.\n[7]",
+          "tables": []
+        },
+        "Acute_Aortic_Syndrome_(AAS)": {
+          "text": "A high index of suspicion for AAS in the ED setting is critical in MFS when symptoms or signs of this life-threatening complication occur.\nKey Elements:\nSudden onset of severe, “thunderclap” quality, potentially “tearing” and/or migratory chest, neck, abdominal, and/or back pain\nYoung patients with few traditional cardiovascular risk factors\nCurrent or recent\npregnancy\nFamily history of\naortic aneurysm\n/dissection or unexplained sudden death\nTypical “Marfanoid” features may not always be present, especially in non-white patients\nClinical decision-making tools and algorithms are available (e.g., ADvISED Trial ADD-RS + D-dimer, AORTAs Algorithms), but are not yet externally validated (see images).\n[8]\nBasic labs,\ntroponin\n,\nD-dimer\nImportant Note:\nD-dimer\nis not 100% sensitive and cannot exclude all acute aortic syndromes\nEKG\n,\nCXR\nCTA / MRA aortic protocol (with IV contrast)\nBedside\nPOCUS\n(Left ventricular outflow tract, aortic root, aortic valve, pericardium, abdominal aorta survey)\nFormal\nTTE\n/ TEE",
+          "tables": []
+        },
+        "Other_Emergencies": {
+          "text": "Standard workup as with non-MFS patients",
+          "tables": []
+        },
+        "Revised_Ghent_Nosology_(2010)": {
+          "text": "In the absence of family history:\nAortic Root Dilatation Z Score > 2\nand\nEctopia Lentis\nAortic Root Dilatation Z Score > 2\nand\nFBN1 Mutation\nAortic Root Dilatation Z Score > 2\nand\nSystemic Score > 7 points\nEctopia Lentis\nand\nFBN1 Mutation (associated with aortic root dilatation)\nIn the presence of family history:\nEctopia Lentis\nand\nFamily History of MFS\nSystemic Score > 7 points\nand\nFamily History of MFS\nAortic Root Dilatation Z Score > 2 (above 20 years old), > 3 (below 20 years old)\nand\nFamily History of MFS",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "aortic aneurysm",
+          "url": "https://wikem.org/wiki/Aortic_aneurysm"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "POCUS",
+          "url": "https://wikem.org/wiki/POCUS"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/TTE"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Initial evaluation often occurs in the outpatient setting and involves a thorough physical exam for identification of classically associated features, review of family medical history, slit lamp dilated pupil eye exam (to evaluate for ectopia lentis), and echocardiogram.\nAdvancement to specialist involvement, review of transthoracic echocardiography for aortic root dilation / aneurysm / heart valve involvement, potential genetic testing and/or medical genetics consultation per current guidelines.\n[7]",
+      "subsections": {
+        "Acute_Aortic_Syndrome_(AAS)": {
+          "text": "A high index of suspicion for AAS in the ED setting is critical in MFS when symptoms or signs of this life-threatening complication occur.\nKey Elements:\nSudden onset of severe, “thunderclap” quality, potentially “tearing” and/or migratory chest, neck, abdominal, and/or back pain\nYoung patients with few traditional cardiovascular risk factors\nCurrent or recent\npregnancy\nFamily history of\naortic aneurysm\n/dissection or unexplained sudden death\nTypical “Marfanoid” features may not always be present, especially in non-white patients\nClinical decision-making tools and algorithms are available (e.g., ADvISED Trial ADD-RS + D-dimer, AORTAs Algorithms), but are not yet externally validated (see images).\n[8]\nBasic labs,\ntroponin\n,\nD-dimer\nImportant Note:\nD-dimer\nis not 100% sensitive and cannot exclude all acute aortic syndromes\nEKG\n,\nCXR\nCTA / MRA aortic protocol (with IV contrast)\nBedside\nPOCUS\n(Left ventricular outflow tract, aortic root, aortic valve, pericardium, abdominal aorta survey)\nFormal\nTTE\n/ TEE",
+          "tables": []
+        },
+        "Other_Emergencies": {
+          "text": "Standard workup as with non-MFS patients",
+          "tables": []
+        },
+        "Revised_Ghent_Nosology_(2010)": {
+          "text": "In the absence of family history:\nAortic Root Dilatation Z Score > 2\nand\nEctopia Lentis\nAortic Root Dilatation Z Score > 2\nand\nFBN1 Mutation\nAortic Root Dilatation Z Score > 2\nand\nSystemic Score > 7 points\nEctopia Lentis\nand\nFBN1 Mutation (associated with aortic root dilatation)\nIn the presence of family history:\nEctopia Lentis\nand\nFamily History of MFS\nSystemic Score > 7 points\nand\nFamily History of MFS\nAortic Root Dilatation Z Score > 2 (above 20 years old), > 3 (below 20 years old)\nand\nFamily History of MFS",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "aortic aneurysm",
+          "url": "https://wikem.org/wiki/Aortic_aneurysm"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "POCUS",
+          "url": "https://wikem.org/wiki/POCUS"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/TTE"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Revised_Ghent_Nosology_(2010)": {
+          "text": "In the absence of family history:\nAortic Root Dilatation Z Score > 2\nand\nEctopia Lentis\nAortic Root Dilatation Z Score > 2\nand\nFBN1 Mutation\nAortic Root Dilatation Z Score > 2\nand\nSystemic Score > 7 points\nEctopia Lentis\nand\nFBN1 Mutation (associated with aortic root dilatation)\nIn the presence of family history:\nEctopia Lentis\nand\nFamily History of MFS\nSystemic Score > 7 points\nand\nFamily History of MFS\nAortic Root Dilatation Z Score > 2 (above 20 years old), > 3 (below 20 years old)\nand\nFamily History of MFS",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Aortic_Dissection_Classification": {
+      "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Image": "Percentage",
+            "": "25–30%"
+          },
+          {
+            "Image": "Type",
+            "": "DeBakey III"
+          },
+          {
+            "Image": "Classification",
+            "": "Stanford B (Distal)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Medications": {
+          "text": "Beta-Blocker\nand/or\nAngiotensin II Type 1 Receptor Blocker\n(ARB) Therapy\nBeta-blockade lowers blood pressure / heart rate and reduces aortic wall shearing forces to reduce the rate of aortic aneurysm growth and risk of dissection\nInhibition of ATII Type 1 Receptor-mediated TGF-beta signaling may reduce elastic tissue degeneration based upon mouse models.\n[9]\nOther Pharmacologic Considerations\nAvoid\nfluoroquinolones\n(FQs) due to matrix metalloproteinase activation and increased risk of aortic aneurysm/dissection\nChen S-W et al. (2023) did not show a significant increase in aortic aneurysm/dissection (OR 1.000) in MFS and other high-risk patients after FQ administration.\n[10]\nGopalakrishnan et al. (2020) showed a significant increase in aortic aneurysm/dissection in patients receiving FQs for pneumonia (HR 2.57, p<0.01%), but not UTIs (HR 0.99, p<0.01%). This suggests intrathoracic inflammation from the primary disease pathology, not FQs themselves, increase the risk of aneurysm or dissection.\n[11]\nAntibiotic prophylaxis is no longer recommended for MFS patients before dental procedures, except in those with artificial heart valves",
+          "tables": []
+        },
+        "Lifestyle_Modifications_": {
+          "text": "Regular blood pressure measurement, lifestyle modification, and titration of antihypertensive therapies with goal BP < 120/80 mmHg\nAvoidance of high-intensity, high-impact sports and intensive isometric activities / weightlifting\nLow- to moderate-intensity aerobic activities are encouraged after discussion with a cardiologist or specialist\nAvoidance of Valsalva and other maneuvers that increase intrathoracic or abdominal pressure (risk of acute dissection)\nAvoidance/cessation of tobacco, smoking, vaping, or stimulant abuse (e.g., cocaine, methamphetamines)\nPsychiatric evaluation, resources, and support groups (e.g., Marfan Foundation, oeys-Dietz Syndrome Foundation) as appropriate to help address psychosocial sequelae (e.g., body dysmorphia, anxiety, depression, PTSD, suicidal ideation)",
+          "tables": []
+        },
+        "Emergency_Management_[13]_": {
+          "text": "Evidence-based management of\nacute aortic dissection\n:\nIV medications to reduce blood pressure (< 100–120 mmHg) and heart rate (< 60 bpm) (e.g.,\nesmolol\n,\nlabetalol\n,\nnitroprusside\n)\nEmergent vascular, cardiothoracic, or other surgical consultations\nDefinitive management per current guidelines based on Stanford Type A vs. B dissection, location, extent, and branch involvement\nStandard-of-care treatment for other associated pathologies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Angiotensin II Type 1 Receptor Blocker",
+          "url": "https://wikem.org/wiki/Angiotensin_II_Type_1_Receptor_Blocker"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "acute aortic dissection",
+          "url": "https://wikem.org/wiki/Acute_aortic_dissection"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "Medications": {
+      "text": "Beta-Blocker\nand/or\nAngiotensin II Type 1 Receptor Blocker\n(ARB) Therapy\nBeta-blockade lowers blood pressure / heart rate and reduces aortic wall shearing forces to reduce the rate of aortic aneurysm growth and risk of dissection\nInhibition of ATII Type 1 Receptor-mediated TGF-beta signaling may reduce elastic tissue degeneration based upon mouse models.\n[9]\nOther Pharmacologic Considerations\nAvoid\nfluoroquinolones\n(FQs) due to matrix metalloproteinase activation and increased risk of aortic aneurysm/dissection\nChen S-W et al. (2023) did not show a significant increase in aortic aneurysm/dissection (OR 1.000) in MFS and other high-risk patients after FQ administration.\n[10]\nGopalakrishnan et al. (2020) showed a significant increase in aortic aneurysm/dissection in patients receiving FQs for pneumonia (HR 2.57, p<0.01%), but not UTIs (HR 0.99, p<0.01%). This suggests intrathoracic inflammation from the primary disease pathology, not FQs themselves, increase the risk of aneurysm or dissection.\n[11]\nAntibiotic prophylaxis is no longer recommended for MFS patients before dental procedures, except in those with artificial heart valves",
+      "subsections": {
+        "Lifestyle_Modifications_": {
+          "text": "Regular blood pressure measurement, lifestyle modification, and titration of antihypertensive therapies with goal BP < 120/80 mmHg\nAvoidance of high-intensity, high-impact sports and intensive isometric activities / weightlifting\nLow- to moderate-intensity aerobic activities are encouraged after discussion with a cardiologist or specialist\nAvoidance of Valsalva and other maneuvers that increase intrathoracic or abdominal pressure (risk of acute dissection)\nAvoidance/cessation of tobacco, smoking, vaping, or stimulant abuse (e.g., cocaine, methamphetamines)\nPsychiatric evaluation, resources, and support groups (e.g., Marfan Foundation, oeys-Dietz Syndrome Foundation) as appropriate to help address psychosocial sequelae (e.g., body dysmorphia, anxiety, depression, PTSD, suicidal ideation)",
+          "tables": []
+        },
+        "Emergency_Management_[13]_": {
+          "text": "Evidence-based management of\nacute aortic dissection\n:\nIV medications to reduce blood pressure (< 100–120 mmHg) and heart rate (< 60 bpm) (e.g.,\nesmolol\n,\nlabetalol\n,\nnitroprusside\n)\nEmergent vascular, cardiothoracic, or other surgical consultations\nDefinitive management per current guidelines based on Stanford Type A vs. B dissection, location, extent, and branch involvement\nStandard-of-care treatment for other associated pathologies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Angiotensin II Type 1 Receptor Blocker",
+          "url": "https://wikem.org/wiki/Angiotensin_II_Type_1_Receptor_Blocker"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "acute aortic dissection",
+          "url": "https://wikem.org/wiki/Acute_aortic_dissection"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "Lifestyle_Modifications_": {
+      "text": "Regular blood pressure measurement, lifestyle modification, and titration of antihypertensive therapies with goal BP < 120/80 mmHg\nAvoidance of high-intensity, high-impact sports and intensive isometric activities / weightlifting\nLow- to moderate-intensity aerobic activities are encouraged after discussion with a cardiologist or specialist\nAvoidance of Valsalva and other maneuvers that increase intrathoracic or abdominal pressure (risk of acute dissection)\nAvoidance/cessation of tobacco, smoking, vaping, or stimulant abuse (e.g., cocaine, methamphetamines)\nPsychiatric evaluation, resources, and support groups (e.g., Marfan Foundation, oeys-Dietz Syndrome Foundation) as appropriate to help address psychosocial sequelae (e.g., body dysmorphia, anxiety, depression, PTSD, suicidal ideation)",
+      "subsections": {
+        "Emergency_Management_[13]_": {
+          "text": "Evidence-based management of\nacute aortic dissection\n:\nIV medications to reduce blood pressure (< 100–120 mmHg) and heart rate (< 60 bpm) (e.g.,\nesmolol\n,\nlabetalol\n,\nnitroprusside\n)\nEmergent vascular, cardiothoracic, or other surgical consultations\nDefinitive management per current guidelines based on Stanford Type A vs. B dissection, location, extent, and branch involvement\nStandard-of-care treatment for other associated pathologies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acute aortic dissection",
+          "url": "https://wikem.org/wiki/Acute_aortic_dissection"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Disposition depends upon the chief complaint, clinical gestalt, and objective findings from physical exam and workup.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Connective tissue disease\nNontraumatic thoracic aortic dissection\nEhlers-Danlos syndrome\nEBQ:IRAD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Nontraumatic thoracic aortic dissection",
+          "url": "https://wikem.org/wiki/Nontraumatic_thoracic_aortic_dissection"
+        },
+        {
+          "text": "Ehlers-Danlos syndrome",
+          "url": "https://wikem.org/wiki/Ehlers-Danlos_syndrome"
+        },
+        {
+          "text": "EBQ:IRAD",
+          "url": "https://wikem.org/wiki/EBQ:IRAD"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Marfan Foundation\nMarfan Foundation (Resources for Physicians)\nGenetic Aortic Network - formerly GenTAC Alliance\nInternational Registry of Acute Aortic Dissection (IRAD)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

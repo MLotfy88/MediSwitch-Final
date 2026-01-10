@@ -1,0 +1,249 @@
+{
+  "drug_name": "Mandible_fracture",
+  "url": "https://wikem.org/wiki/Mandible_fracture",
+  "scraped_at": "2026-01-10T07:56:58.953396",
+  "sections": {
+    "Background": {
+      "text": "Always make sure that a unilateral fracture is not in fact bilateral\nPresume an open fracture until intraoral examination shows otherwise\nFavorable vs unfavorable based on whether musculature reduces or opens the fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Malocclusion\nPain worsened by attempted movement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Bite-Test": {
+          "text": "Have patient bite on tongue blade and twist it\nIf mandibular fracture present patient should reflexively open mouth (cannot break blade)\nSn 95%, Sp 65%",
+          "tables": []
+        },
+        "Exam_for_concomitant_injuries": {
+          "text": "Test for inferior alveolar and mental nerve injury\nIntraoral exam to rule-out:\nSublingual hematoma (suggestive of occult mandible fracture)\nDental or alveolar ridge fracture\nCondyle injury test\nPlace finger into external auditory canal and have patient open and close mouth\nCheck Stenson's duct for bleeding",
+          "tables": []
+        },
+        "Workup": {
+          "text": "If high-risk (e.g. positive bite-test)\nPanorex is initial imaging study of choice (if available)\nCT face or mandible if:\nSuspected condyle fracture\nComplex fracture\nMultiple facial fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bite-Test": {
+      "text": "Have patient bite on tongue blade and twist it\nIf mandibular fracture present patient should reflexively open mouth (cannot break blade)\nSn 95%, Sp 65%",
+      "subsections": {
+        "Exam_for_concomitant_injuries": {
+          "text": "Test for inferior alveolar and mental nerve injury\nIntraoral exam to rule-out:\nSublingual hematoma (suggestive of occult mandible fracture)\nDental or alveolar ridge fracture\nCondyle injury test\nPlace finger into external auditory canal and have patient open and close mouth\nCheck Stenson's duct for bleeding",
+          "tables": []
+        },
+        "Workup": {
+          "text": "If high-risk (e.g. positive bite-test)\nPanorex is initial imaging study of choice (if available)\nCT face or mandible if:\nSuspected condyle fracture\nComplex fracture\nMultiple facial fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exam_for_concomitant_injuries": {
+      "text": "Test for inferior alveolar and mental nerve injury\nIntraoral exam to rule-out:\nSublingual hematoma (suggestive of occult mandible fracture)\nDental or alveolar ridge fracture\nCondyle injury test\nPlace finger into external auditory canal and have patient open and close mouth\nCheck Stenson's duct for bleeding",
+      "subsections": {
+        "Workup": {
+          "text": "If high-risk (e.g. positive bite-test)\nPanorex is initial imaging study of choice (if available)\nCT face or mandible if:\nSuspected condyle fracture\nComplex fracture\nMultiple facial fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "If high-risk (e.g. positive bite-test)\nPanorex is initial imaging study of choice (if available)\nCT face or mandible if:\nSuspected condyle fracture\nComplex fracture\nMultiple facial fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider Barton's bandage\nAce wrap over top of head and underneath mandible\nProphylactic antibiotics (treat all empirically as \"open\" fractures)\nPenicillin G\nIV 2-4million units\nOR\nClindamycin\n600 QID (if penicillin-allergic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (ENT, OMFS, Plastics) for:\n[2]\nAirway compromise (e.g when lying flat)\nUnable to tolerate POs or secretions\nInadequate pain control\nOpen and/or unstable fractures\n[3]\nOtherwise may follow up as outpatient in 2-3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Maxillofacial Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Maxillofacial Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1019 @@
+{
+  "drug_name": "Measles",
+  "url": "https://wikem.org/wiki/Measles",
+  "scraped_at": "2026-01-10T07:57:05.066297",
+  "sections": {
+    "Background": {
+      "text": "Also known as Rubeola, which is not to be confused with German Measles (\nRubella\n)\nPatients are contagious from about 4 days before to 4 days after onset of rash",
+      "subsections": {
+        "Risk_factors": {
+          "text": "In the prior 3 weeks: travel outside of North America, transit through U.S. international airports, interaction with foreign visitors, including at a U.S. tourist attraction, or travel to areas of the U.S with ongoing measles transmission.\nHighly contagious, transmitted via respiratory droplets or by airborne transmission\n[1]\nConfirmed measles cases in community.\nNever immunized with measles vaccine and born in 1957 or later.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "In the prior 3 weeks: travel outside of North America, transit through U.S. international airports, interaction with foreign visitors, including at a U.S. tourist attraction, or travel to areas of the U.S with ongoing measles transmission.\nHighly contagious, transmitted via respiratory droplets or by airborne transmission\n[1]\nConfirmed measles cases in community.\nNever immunized with measles vaccine and born in 1957 or later.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Consider measles in a patient of any age who has an acute RASH and FEVER\nIncubation period - 10 days\nProdrome of high\nfever\n,\ncough\n, coryza, and\nconjunctivitis\n(lasts ~3 days)\nKoplik's spots (appears day 2-3) - pathognomonic enanthem\nTiny bluish-white spots on an erythematous base, cluster on the mucosa of the cheek or palate\nRash\n(begins day 4 - lasts to day 7)\nRed, blotchy, and maculopapular; rapidly progresses to confluence\nUsually starts on the face (hairline and behind the ears)\nRapidly spreads to the chest, back, and finally the legs and feet\nRash quickly becomes confluent, produces a characteristic morbilliform rash\n[1]\nRash resolves in order of appearance between days 7-9",
+      "subsections": {
+        "Complications": {
+          "text": "Secondary infection\nMeasles virus can directly infect T cells, leading to systemic immune suppression and secondary infections\nGastrointestinal\nDiarrhea\nis the most common complication\nOthers: gingivostomatitis,\ngastroenteritis\n,\nhepatitis\n, mesenteric lymphadenitis, and\nappendicitis\nPulmonary\nPneumonia is the most common cause of measles-associated death in children\nNeurologic\nEncephalitis\nAcute disseminated encephalomyelitis\nDemyelinating disease thought to be a postinfectious autoimmune response\nSubacute sclerosing panencephalitis\nA fatal, progressive degenerative disease of the CNS that usually occurs 7 to 10 years after natural measles virus infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Secondary infection\nMeasles virus can directly infect T cells, leading to systemic immune suppression and secondary infections\nGastrointestinal\nDiarrhea\nis the most common complication\nOthers: gingivostomatitis,\ngastroenteritis\n,\nhepatitis\n, mesenteric lymphadenitis, and\nappendicitis\nPulmonary\nPneumonia is the most common cause of measles-associated death in children\nNeurologic\nEncephalitis\nAcute disseminated encephalomyelitis\nDemyelinating disease thought to be a postinfectious autoimmune response\nSubacute sclerosing panencephalitis\nA fatal, progressive degenerative disease of the CNS that usually occurs 7 to 10 years after natural measles virus infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        },
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Pediatric_Rash": {
+      "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        },
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Maculopapular_rashes": {
+      "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Initial treatment/isolation is based on clinical suspicion; testing is normally performed in conjunction with recommendations by local public health experts\n[2]\nPCR is the preferred testing method for measles, and can only be performed in public health laboratories.\n[2]\nMeasles IgM testing is frequently falsely positive and is not recommended\n[2]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Providers should consider measles in patients with FEVER AND a descending RASH in a person with a history of travel or contact with someone who has travelled outside North America\nwhether or not the patient has had 2 doses of MMR or prior measles disease\n. However, persons without a history of travel or exposure to a traveler, are unlikely to have measles in the absence of confirmed measles cases in your community.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Initial treatment/isolation is based on clinical suspicion; testing is normally performed in conjunction with recommendations by local public health experts\n[2]\nPCR is the preferred testing method for measles, and can only be performed in public health laboratories.\n[2]\nMeasles IgM testing is frequently falsely positive and is not recommended\n[2]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Providers should consider measles in patients with FEVER AND a descending RASH in a person with a history of travel or contact with someone who has travelled outside North America\nwhether or not the patient has had 2 doses of MMR or prior measles disease\n. However, persons without a history of travel or exposure to a traveler, are unlikely to have measles in the absence of confirmed measles cases in your community.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Providers should consider measles in patients with FEVER AND a descending RASH in a person with a history of travel or contact with someone who has travelled outside North America\nwhether or not the patient has had 2 doses of MMR or prior measles disease\n. However, persons without a history of travel or exposure to a traveler, are unlikely to have measles in the absence of confirmed measles cases in your community.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care\nVitamin A should be considered for patients ages 6 mo - 2 yrs who are hospitalized, or those who are immunocompromised\n[1]",
+      "subsections": {
+        "Suspected_Active_Measles_Case": {
+          "text": "Isolate patient immediately (see below)\nAlert your local health department immediately\nThe risk of measles transmission to others and large contact investigations can be reduced if control measures are implemented immediately\nIf advised to test for measles by your local health department, submit a specimen for polymerase chain reaction (PCR) testing (see Workup section above).",
+          "tables": []
+        },
+        "Isolation_Precautions": {
+          "text": "For suspected patients\nMask the patient and isolate immediately in an airborne infection isolation room\nAll personnel entering the room should use respiratory protection at least as effective as an N95 respirator\nIf possible, allow only personnel with documentation of 2 doses of live measles vaccine or laboratory evidence of immunity (measles IgG positive) to enter the room\nDo not use the room for at least 2 hours after the patient leaves.",
+          "tables": []
+        },
+        "Post-Exposure_Prophylaxis_(Non-Immune_Contact)": {
+          "text": "Immunocompetent:\nMMR Vaccine (within 72 hours of exposure)\nImmunocompromised, children <12 months, and others at high risk of complications:\nIM Immune globulin (up to 6 days after exposure)\nConsider checking with your local health authorities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Suspected_Active_Measles_Case": {
+      "text": "Isolate patient immediately (see below)\nAlert your local health department immediately\nThe risk of measles transmission to others and large contact investigations can be reduced if control measures are implemented immediately\nIf advised to test for measles by your local health department, submit a specimen for polymerase chain reaction (PCR) testing (see Workup section above).",
+      "subsections": {
+        "Isolation_Precautions": {
+          "text": "For suspected patients\nMask the patient and isolate immediately in an airborne infection isolation room\nAll personnel entering the room should use respiratory protection at least as effective as an N95 respirator\nIf possible, allow only personnel with documentation of 2 doses of live measles vaccine or laboratory evidence of immunity (measles IgG positive) to enter the room\nDo not use the room for at least 2 hours after the patient leaves.",
+          "tables": []
+        },
+        "Post-Exposure_Prophylaxis_(Non-Immune_Contact)": {
+          "text": "Immunocompetent:\nMMR Vaccine (within 72 hours of exposure)\nImmunocompromised, children <12 months, and others at high risk of complications:\nIM Immune globulin (up to 6 days after exposure)\nConsider checking with your local health authorities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Isolation_Precautions": {
+      "text": "For suspected patients\nMask the patient and isolate immediately in an airborne infection isolation room\nAll personnel entering the room should use respiratory protection at least as effective as an N95 respirator\nIf possible, allow only personnel with documentation of 2 doses of live measles vaccine or laboratory evidence of immunity (measles IgG positive) to enter the room\nDo not use the room for at least 2 hours after the patient leaves.",
+      "subsections": {
+        "Post-Exposure_Prophylaxis_(Non-Immune_Contact)": {
+          "text": "Immunocompetent:\nMMR Vaccine (within 72 hours of exposure)\nImmunocompromised, children <12 months, and others at high risk of complications:\nIM Immune globulin (up to 6 days after exposure)\nConsider checking with your local health authorities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discuss with public health\nPatients may be admitted with isolation to prevent public health spread vs. discharged with home isolation precautions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric Rashes",
+          "url": "https://wikem.org/wiki/Pediatric_Rashes"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Guidance from CDC for healthcare professionals:\nhttps://www.cdc.gov/measles/hcp/index.html\nCDC clinical syndromes:\nhttps://www.cdc.gov/vaccines/pubs/pinkbook/meas.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

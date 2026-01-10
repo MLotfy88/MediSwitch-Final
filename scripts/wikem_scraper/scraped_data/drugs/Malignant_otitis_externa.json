@@ -1,0 +1,409 @@
+{
+  "drug_name": "Malignant_otitis_externa",
+  "url": "https://wikem.org/wiki/Malignant_otitis_externa",
+  "scraped_at": "2026-01-10T07:56:54.638727",
+  "sections": {
+    "Background": {
+      "text": "Life-threatening infection of external ear/canal, soft tissue, +/- spread to skull base\nDiabetes and immunosuppression are main risk factors\nPseudomonas causes >90% of cases\nBegins as simple otitis externa",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Adults": {
+          "text": "Otitis externa\nthat has not resolved despite 2-3wks of topical antibiotics\nOtalgia\noften out of proportion for routine otitis externa\nEdema of external auditory canal\nGranulation tissue often seen in the ear canal floor\nFacial nerve often first CN involved\n[1]\nCN IX, X, or XI involvement\nTrismus",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "More rapidly progressive than in adults\nFever\n,\nleukocytosis\n, bacteremia/\nsepsis\nTM, middle ear, and facial nerve more likely to be affected",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otalgia",
+          "url": "https://wikem.org/wiki/Otalgia"
+        },
+        {
+          "text": "CN IX, X, or XI involvement",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Adults": {
+      "text": "Otitis externa\nthat has not resolved despite 2-3wks of topical antibiotics\nOtalgia\noften out of proportion for routine otitis externa\nEdema of external auditory canal\nGranulation tissue often seen in the ear canal floor\nFacial nerve often first CN involved\n[1]\nCN IX, X, or XI involvement\nTrismus",
+      "subsections": {
+        "Pediatrics": {
+          "text": "More rapidly progressive than in adults\nFever\n,\nleukocytosis\n, bacteremia/\nsepsis\nTM, middle ear, and facial nerve more likely to be affected",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otalgia",
+          "url": "https://wikem.org/wiki/Otalgia"
+        },
+        {
+          "text": "CN IX, X, or XI involvement",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "More rapidly progressive than in adults\nFever\n,\nleukocytosis\n, bacteremia/\nsepsis\nTM, middle ear, and facial nerve more likely to be affected",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Imaging\n[2]\nMost authors support CT initially, but CT fails to diagnose early osteomyelitis since 30% bone destruction needed for detection\nMRI more sensitive for intracranial complications\nLabs\nWBC usually normal or slightly elevated\nLeft shift uncommon\nElevated ESR and CRP\nDifferentiates from MOE from acute external otitis or malignancy\nHowever, not required for diagnosis\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Adults_2": {
+          "text": "Antipseudomonal cephalosporin\nOR\nfluoroquinolone",
+          "tables": []
+        },
+        "Peds": {
+          "text": "Imipenem\nOR\n(\naminoglycoside\n+\nantipseudomonal penicillin\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipseudomonal cephalosporin",
+          "url": "https://wikem.org/wiki/Antipseudomonal_cephalosporin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "antipseudomonal penicillin",
+          "url": "https://wikem.org/wiki/Antipseudomonal_penicillin"
+        }
+      ]
+    },
+    "Adults_2": {
+      "text": "Antipseudomonal cephalosporin\nOR\nfluoroquinolone",
+      "subsections": {
+        "Peds": {
+          "text": "Imipenem\nOR\n(\naminoglycoside\n+\nantipseudomonal penicillin\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipseudomonal cephalosporin",
+          "url": "https://wikem.org/wiki/Antipseudomonal_cephalosporin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "antipseudomonal penicillin",
+          "url": "https://wikem.org/wiki/Antipseudomonal_penicillin"
+        }
+      ]
+    },
+    "Peds": {
+      "text": "Imipenem\nOR\n(\naminoglycoside\n+\nantipseudomonal penicillin\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "antipseudomonal penicillin",
+          "url": "https://wikem.org/wiki/Antipseudomonal_penicillin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Contact ENT for disposition decision; early infection may be managed as outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Lateral or sigmoid sinus thrombosis\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Otitis Externa\nOtitis Media (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis Externa",
+          "url": "https://wikem.org/wiki/Otitis_Externa"
+        },
+        {
+          "text": "Otitis Media (Peds)",
+          "url": "https://wikem.org/wiki/Otitis_Media_(Peds)"
+        }
+      ]
+    }
+  }
+}

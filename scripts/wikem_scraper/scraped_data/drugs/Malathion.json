@@ -1,0 +1,114 @@
+{
+  "drug_name": "Malathion",
+  "url": "https://wikem.org/wiki/Malathion",
+  "scraped_at": "2026-01-10T07:56:54.468078",
+  "sections": {
+    "Administration": {
+      "text": "Type: Pediculicide\nDosage Forms:\nRoutes of Administration: Topical\nCommon Trade Names: Ovide",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Apply to dry hair, leave in 8-12h and rinse",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "<6y: safety/efficacy not established\n>6y: apply to dry hair, leave in 8-12h and rinse",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Safety unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Safety unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Safety unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nInfants/neonates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Chemical burns, including 2nd degree burns\nSkin/scalp irritation\nConjunctivitis (with accidental eye contact)\nStinging sensation\nContact hypersensitivity reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Chemical burns, including 2nd degree burns\nSkin/scalp irritation\nConjunctivitis (with accidental eye contact)\nStinging sensation\nContact hypersensitivity reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Chemical burns, including 2nd degree burns\nSkin/scalp irritation\nConjunctivitis (with accidental eye contact)\nStinging sensation\nContact hypersensitivity reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Cholinesterase inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediculosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediculosis",
+          "url": "https://wikem.org/wiki/Pediculosis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "drug_name": "Meconium_aspiration_syndrome",
+  "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome",
+  "scraped_at": "2026-01-10T07:57:06.937812",
+  "sections": {
+    "Background": {
+      "text": "Presentation ranges from mild respiratory distress to life-threatening respiratory failure\nIncidence is 2-10% of infants born through MSAF (meconium-stained amniotic fluid)\nThought to be associated with fetal hypoxia and post-term delivery\nCauses hypoxemia and acidosis via airway obstruction, chemical irritation/inflammation, infection, and surfactant inactivation\nAssociated with persistent pulmonary hypertension of the newborn (PPHN)",
+      "subsections": {
+        "Newborn_Vital_Signs": {
+          "text": "^Fever directly causes an increase in heart rate of 10 beats per minute per degree centigrade\n[2]\n^^Hyperoxia can be harmful",
+          "tables": [
+            [
+              {
+                "Age": "Preterm < 1 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "36-58"
+              },
+              {
+                "Age": "Preterm 1 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "42-66"
+              },
+              {
+                "Age": "Preterm 2 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "50-72"
+              },
+              {
+                "Age": "Newborn",
+                "Pulse^": "126-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "60-70"
+              }
+            ],
+            [
+              {
+                "Min of life": "1 min",
+                "Target sat^^": "60-65%"
+              },
+              {
+                "Min of life": "2 min",
+                "Target sat^^": "65-70%"
+              },
+              {
+                "Min of life": "3 min",
+                "Target sat^^": "70-75%"
+              },
+              {
+                "Min of life": "4 min",
+                "Target sat^^": "75-80%"
+              },
+              {
+                "Min of life": "5 min",
+                "Target sat^^": "80-85%"
+              },
+              {
+                "Min of life": "10 min",
+                "Target sat^^": "85-95%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Newborn_Vital_Signs": {
+      "text": "^Fever directly causes an increase in heart rate of 10 beats per minute per degree centigrade\n[2]\n^^Hyperoxia can be harmful",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Preterm < 1 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "36-58"
+          },
+          {
+            "Age": "Preterm 1 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "42-66"
+          },
+          {
+            "Age": "Preterm 2 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "50-72"
+          },
+          {
+            "Age": "Newborn",
+            "Pulse^": "126-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "60-70"
+          }
+        ],
+        [
+          {
+            "Min of life": "1 min",
+            "Target sat^^": "60-65%"
+          },
+          {
+            "Min of life": "2 min",
+            "Target sat^^": "65-70%"
+          },
+          {
+            "Min of life": "3 min",
+            "Target sat^^": "70-75%"
+          },
+          {
+            "Min of life": "4 min",
+            "Target sat^^": "75-80%"
+          },
+          {
+            "Min of life": "5 min",
+            "Target sat^^": "80-85%"
+          },
+          {
+            "Min of life": "10 min",
+            "Target sat^^": "85-95%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usually develop symptoms within 15 minutes after birth\nTachypnea\nCyanosis\nAccessory muscle use\n(intercostal/subxiphoid retractions, paradoxical breathing, grunting, nasal flaring)\nBarrel-shaped chest\nRales and rhonchi on lung auscultation\nPneumothorax\nPneumomediastinum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Accessory muscle use",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Sepsis\nPneumonia\nDelayed transition from fetal circulation\nPneumothorax\nPulmonary edema\nBlood aspiration\nPulmonary hypertension\nCongenital heart disease",
+      "subsections": {
+        "Newborn_Problems": {
+          "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Infant scalp hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Newborn_Problems": {
+      "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Infant scalp hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\nStreaky, linear densities\nHyperinflated lungs and flattened diaphragm\nDiffuse patchy opacities (may appear similar to RDS if severe)\nABG\nEchocardiography\nBlood and sputum cultures",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis based on the following:\nEvidence of meconium on infant\nRespiratory distress shortly after birth\nCharacteristic CXR findings\nIf intubation required, meconium visualized in trachea\nWays to differentiate between other causes of respiratory distress in a neonate:\nTransient tachypnea of the newborn\nis more common in late preterm infants (34-37 weeks) and RDS in preterm infants, whereas MAS more common in postmature infants (>41 weeks)\nDelayed transition from fetal circulation symptoms improve more quickly than those of MAS\nCongenital cyanotic heart disease\nis differentiated by physical exam (\nmurmurs\n,\nhepatomegaly\n), CXR (cardiac size/shape), and echocardiogram (cardiac anatomy and function)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Congenital cyanotic heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "murmurs",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\nStreaky, linear densities\nHyperinflated lungs and flattened diaphragm\nDiffuse patchy opacities (may appear similar to RDS if severe)\nABG\nEchocardiography\nBlood and sputum cultures",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis based on the following:\nEvidence of meconium on infant\nRespiratory distress shortly after birth\nCharacteristic CXR findings\nIf intubation required, meconium visualized in trachea\nWays to differentiate between other causes of respiratory distress in a neonate:\nTransient tachypnea of the newborn\nis more common in late preterm infants (34-37 weeks) and RDS in preterm infants, whereas MAS more common in postmature infants (>41 weeks)\nDelayed transition from fetal circulation symptoms improve more quickly than those of MAS\nCongenital cyanotic heart disease\nis differentiated by physical exam (\nmurmurs\n,\nhepatomegaly\n), CXR (cardiac size/shape), and echocardiogram (cardiac anatomy and function)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Congenital cyanotic heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "murmurs",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis based on the following:\nEvidence of meconium on infant\nRespiratory distress shortly after birth\nCharacteristic CXR findings\nIf intubation required, meconium visualized in trachea\nWays to differentiate between other causes of respiratory distress in a neonate:\nTransient tachypnea of the newborn\nis more common in late preterm infants (34-37 weeks) and RDS in preterm infants, whereas MAS more common in postmature infants (>41 weeks)\nDelayed transition from fetal circulation symptoms improve more quickly than those of MAS\nCongenital cyanotic heart disease\nis differentiated by physical exam (\nmurmurs\n,\nhepatomegaly\n), CXR (cardiac size/shape), and echocardiogram (cardiac anatomy and function)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Congenital cyanotic heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "murmurs",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care: see\nnewborn resuscitation\nAdequate oxygenation and ventilation\nSupplemental\noxygen\nto keep saturation >99% and PaO2 55-90\nAssisted ventilation with\nCPAP\nif FiO2 exceeds 0.4 to 0.5\nHigh frequency oscillatory ventilation or ECMO for those who fail conventional mechanical ventilation\nGoal PaCO2 50-55 mmHg\nMaintain blood pressure and perfusion\nUmbilical lines to monitor blood gases and BP\nCorrect metabolic abnormalities\nEmpiric\nantibiotics\nwhile awaiting culture results (because of difficulty differentiating between pneumonia initially)\nSurfactant administration for severe disease requiring mechanical ventilation, FiO2>0.5, and mean airway pressure >10-12",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to NICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Fetal heart rate monitoring intrapartum to  reduce risk of fetal hypoxia\nInduction of labor after 41 weeks gestation to reduce postmature delivery\nAmnioinfusion with isotonic fluid to dilute thick meconium is NOT routinely recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Newborn resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        }
+      ]
+    }
+  }
+}

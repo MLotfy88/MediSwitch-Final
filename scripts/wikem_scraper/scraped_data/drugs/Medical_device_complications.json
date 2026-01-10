@@ -1,0 +1,82 @@
+{
+  "drug_name": "Medical_device_complications",
+  "url": "https://wikem.org/wiki/Medical_device_complications",
+  "scraped_at": "2026-01-10T07:57:05.364817",
+  "sections": {
+    "Types": {
+      "text": "Bladder/sacral nerve stimulators complications\nClogged feeding tube\nContact lens problems\nDeep brain stimulator complications\nGastric pacemaker complications\nG-tube complications\nImplantable Cardioverter-Defibrillator complication\nInsulin infusion device complications\nIntrathecal drug delivery system complications\nIntrauterine device problems\nLap band complications\nLeft ventricular assist device complications\nPacemaker complication\nPhrenic nerve/diaphragmatic stimulators complications\nTracheostomy complications\nVagal nerve stimulator complications\nVentriculoperitoneal shunt complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bladder/sacral nerve stimulators complications",
+          "url": "https://wikem.org/wiki/Bladder/sacral_nerve_stimulators_complications"
+        },
+        {
+          "text": "Clogged feeding tube",
+          "url": "https://wikem.org/wiki/Clogged_feeding_tube"
+        },
+        {
+          "text": "Contact lens problems",
+          "url": "https://wikem.org/wiki/Contact_lens_problems"
+        },
+        {
+          "text": "Deep brain stimulator complications",
+          "url": "https://wikem.org/wiki/Deep_brain_stimulator_complications"
+        },
+        {
+          "text": "Gastric pacemaker complications",
+          "url": "https://wikem.org/wiki/Gastric_pacemaker_complications"
+        },
+        {
+          "text": "G-tube complications",
+          "url": "https://wikem.org/wiki/G-tube_complications"
+        },
+        {
+          "text": "Implantable Cardioverter-Defibrillator complication",
+          "url": "https://wikem.org/wiki/Implantable_Cardioverter-Defibrillator_complication"
+        },
+        {
+          "text": "Insulin infusion device complications",
+          "url": "https://wikem.org/wiki/Insulin_infusion_device_complications"
+        },
+        {
+          "text": "Intrathecal drug delivery system complications",
+          "url": "https://wikem.org/wiki/Intrathecal_drug_delivery_system_complications"
+        },
+        {
+          "text": "Intrauterine device problems",
+          "url": "https://wikem.org/wiki/Intrauterine_device_problems"
+        },
+        {
+          "text": "Lap band complications",
+          "url": "https://wikem.org/wiki/Lap_band_complications"
+        },
+        {
+          "text": "Left ventricular assist device complications",
+          "url": "https://wikem.org/wiki/Left_ventricular_assist_device_complications"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Phrenic nerve/diaphragmatic stimulators complications",
+          "url": "https://wikem.org/wiki/Phrenic_nerve/diaphragmatic_stimulators_complications"
+        },
+        {
+          "text": "Tracheostomy complications",
+          "url": "https://wikem.org/wiki/Tracheostomy_complications"
+        },
+        {
+          "text": "Vagal nerve stimulator complications",
+          "url": "https://wikem.org/wiki/Vagal_nerve_stimulator_complications"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt complications",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_complications"
+        }
+      ]
+    }
+  }
+}

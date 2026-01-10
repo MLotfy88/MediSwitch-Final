@@ -1,0 +1,2105 @@
+{
+  "drug_name": "Meningitis",
+  "url": "https://wikem.org/wiki/Meningitis",
+  "scraped_at": "2026-01-10T07:57:07.861878",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\nmeningitis. See\nMeningitis (peds)\nfor the pediatric page.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Microbiology": {
+          "text": "Bacterial meningitis:\nPneumococcus\n(60%),\nmeningococcus\n(15%),\ngroup B streptococcus\n(15%),\nH flu\n(7%),\nlisteria\n(2%)\nViral meningitis\nEchovirus,\ncoxsackies\n, enterovirus (85%)\nHSV\n,\nCMV\n,\nHerpes B virus",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Hematogenous spread via respiratory tract\nContiguous spread (\notitis media\n,\nsinusitis\n,\nbrain abscess\n)",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Otitis Media\nSinusitis\nImmunosuppression/\nsplenectomy\nAlcoholism\nPneumonia\nDiabetes Mellitus\nCSF leak\nEndocarditis\nNeurosurgical procedure /\nhead injury\nIndwelling neurosurgical device / cochlear implant\nMalignancy\nDrug induced aseptic meningitis\nNSAIDs\nAntimicrobials, see above page for list",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Acute (<24hr)\nUsually bacterial in origin (25%)\nSubacute (1-7d)\nViral or bacterial\nChronic (>7d)\nViral,\nTB\n,\nsyphilis\n,\nfungi\n, carcinomatous",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "meningococcus",
+          "url": "https://wikem.org/wiki/Meningococcus"
+        },
+        {
+          "text": "group B streptococcus",
+          "url": "https://wikem.org/wiki/Group_B_streptococcus"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "coxsackies",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Asplenic"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_injury"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Microbiology": {
+      "text": "Bacterial meningitis:\nPneumococcus\n(60%),\nmeningococcus\n(15%),\ngroup B streptococcus\n(15%),\nH flu\n(7%),\nlisteria\n(2%)\nViral meningitis\nEchovirus,\ncoxsackies\n, enterovirus (85%)\nHSV\n,\nCMV\n,\nHerpes B virus",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Hematogenous spread via respiratory tract\nContiguous spread (\notitis media\n,\nsinusitis\n,\nbrain abscess\n)",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Otitis Media\nSinusitis\nImmunosuppression/\nsplenectomy\nAlcoholism\nPneumonia\nDiabetes Mellitus\nCSF leak\nEndocarditis\nNeurosurgical procedure /\nhead injury\nIndwelling neurosurgical device / cochlear implant\nMalignancy\nDrug induced aseptic meningitis\nNSAIDs\nAntimicrobials, see above page for list",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Acute (<24hr)\nUsually bacterial in origin (25%)\nSubacute (1-7d)\nViral or bacterial\nChronic (>7d)\nViral,\nTB\n,\nsyphilis\n,\nfungi\n, carcinomatous",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "meningococcus",
+          "url": "https://wikem.org/wiki/Meningococcus"
+        },
+        {
+          "text": "group B streptococcus",
+          "url": "https://wikem.org/wiki/Group_B_streptococcus"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "coxsackies",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Asplenic"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_injury"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Hematogenous spread via respiratory tract\nContiguous spread (\notitis media\n,\nsinusitis\n,\nbrain abscess\n)",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Otitis Media\nSinusitis\nImmunosuppression/\nsplenectomy\nAlcoholism\nPneumonia\nDiabetes Mellitus\nCSF leak\nEndocarditis\nNeurosurgical procedure /\nhead injury\nIndwelling neurosurgical device / cochlear implant\nMalignancy\nDrug induced aseptic meningitis\nNSAIDs\nAntimicrobials, see above page for list",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Acute (<24hr)\nUsually bacterial in origin (25%)\nSubacute (1-7d)\nViral or bacterial\nChronic (>7d)\nViral,\nTB\n,\nsyphilis\n,\nfungi\n, carcinomatous",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Asplenic"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_injury"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Otitis Media\nSinusitis\nImmunosuppression/\nsplenectomy\nAlcoholism\nPneumonia\nDiabetes Mellitus\nCSF leak\nEndocarditis\nNeurosurgical procedure /\nhead injury\nIndwelling neurosurgical device / cochlear implant\nMalignancy\nDrug induced aseptic meningitis\nNSAIDs\nAntimicrobials, see above page for list",
+      "subsections": {
+        "Classification": {
+          "text": "Acute (<24hr)\nUsually bacterial in origin (25%)\nSubacute (1-7d)\nViral or bacterial\nChronic (>7d)\nViral,\nTB\n,\nsyphilis\n,\nfungi\n, carcinomatous",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Asplenic"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_injury"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "Acute (<24hr)\nUsually bacterial in origin (25%)\nSubacute (1-7d)\nViral or bacterial\nChronic (>7d)\nViral,\nTB\n,\nsyphilis\n,\nfungi\n, carcinomatous",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Almost all adults present with at least 2 of the following:\n[1]\nHeadache\nFever\nNeck stiffness\nAltered Mental Status\nOther nonspecific symptoms include:\nPhotophobia\nVomiting\nProdromal\nURI\nFocal neuro symptoms\n(e.g.\nCN deficit\n)\nSeizures\nRash\nApproximately 2/3 of patients with\nmeningococcemia\ndevelop rash.\n[2]\nCan include erythematous, morbilliform, or urticarial macules and papules\n[3]\nMost common hallmark is purpuric lesions with jagged edges.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Focal neuro symptoms",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "CN deficit",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        },
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        },
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "^Although a 1991 study\n[6]\nshowed high sensitivity with this test, multiple newer studies have cast doubt on its sensitivity.\n[7]\n[8]\nAlthough it may be clinically useful in the right subset of patients, it should not be considered to be 100% sensitive.",
+          "tables": [
+            [
+              {
+                "Finding": "Nuchal rigidity",
+                "Description": "Rigidity of neck muscles with flexion",
+                "Sensitivity": "13%[5]",
+                "Specificity": "80%[5]"
+              },
+              {
+                "Finding": "Kernig's sign",
+                "Description": "With flexed hip at 90°, extension of knee produces pain",
+                "Sensitivity": "2%[5]",
+                "Specificity": "97%[5]"
+              },
+              {
+                "Finding": "Brudzinski's sign",
+                "Description": "Involuntary lifting of legs with passive flexion of the neck",
+                "Sensitivity": "2%[5]",
+                "Specificity": "98%[5]"
+              },
+              {
+                "Finding": "Jolt Test",
+                "Description": "Horizontal rotation of the head at frequency of 2 rotations/secondExacerbation of pre-existing headache is positive test.",
+                "Sensitivity": "100%?^",
+                "Specificity": ""
+              }
+            ]
+          ]
+        },
+        "Work-Up": {
+          "text": "CBC\nChem\nBlood culture\n?CT head: See\nCT Before Lumbar Puncture\nCXR\n(50% of patients with pneumoccocal meningitis have evidence of pneumonia on CXR)\nLumbar Puncture",
+          "tables": []
+        },
+        "Lumbar_Puncture_Diagnosis": {
+          "text": "^Normal or lower WBC results may be found in immunocompromised, early, or partially treated (e.g. with oral antibiotics) bacterial menintigis, and those with tuberculosis meningitis\n^^Lymph predominance may be found in patients with early bacterial meningitis or those that have been partially treated (e.g. with oral antibiotics)\n^^^For unexplained elevations of protein, consider\nencephalitis\n,\nMS\n,\nGuillian Barre\nCorrections\nWBC correction (for bloody tap)\nSimplified version (if peripheral WBC and RBC counts are within normal limits):\nSubtract 1 WBC for every 750 RBC in CSF\nComplex version (WBC and/or RBC not within normal limits):\n\"WBCs added\" = WBC(blood) x [RBC(CSF) / RBC(blood)]\nWBC counted/resulted - \"WBCs added\" = actual WBC\nProtein correction (for bloody tap)\nFor each 1000 RBC decrease protein value by 1mg/dl",
+          "tables": [
+            [
+              {
+                "Measure": "Appearance",
+                "Normal": "Clear",
+                "Bacterial": "Clear, cloudy, or purulent",
+                "Aseptic (Viral)": "Clear",
+                "Fungal": "Clear or opaque",
+                "Tuberculosis": "Clear or opaque",
+                "Subarachnoid hemorrhage": "Xanthochromia, bloody, or clear",
+                "Neoplastic": "Clear or opaque"
+              },
+              {
+                "Measure": "Opening Pressure (cm H2O)",
+                "Normal": "10-20",
+                "Bacterial": ">25",
+                "Aseptic (Viral)": "Normal or elevated",
+                "Fungal": ">25",
+                "Tuberculosis": ">25",
+                "Subarachnoid hemorrhage": ">25",
+                "Neoplastic": "Normal or elevated"
+              },
+              {
+                "Measure": "WBC Count^ (cells/µL)",
+                "Normal": "0-5^",
+                "Bacterial": ">100^",
+                "Aseptic (Viral)": "5-1000",
+                "Fungal": "<500",
+                "Tuberculosis": "50-500",
+                "Subarachnoid hemorrhage": "0-5 (see correction section)",
+                "Neoplastic": "<500"
+              },
+              {
+                "Measure": "% PMNs",
+                "Normal": "",
+                "Bacterial": ">80-90%",
+                "Aseptic (Viral)": "1-50%^^",
+                "Fungal": "1-50%",
+                "Tuberculosis": "Early PMN then lymph",
+                "Subarachnoid hemorrhage": "",
+                "Neoplastic": "1-50%"
+              },
+              {
+                "Measure": "Glucose",
+                "Normal": ">60% of serum glucose",
+                "Bacterial": "Low",
+                "Aseptic (Viral)": "Normal",
+                "Fungal": "Low",
+                "Tuberculosis": "Low",
+                "Subarachnoid hemorrhage": "Normal",
+                "Neoplastic": "Normal"
+              },
+              {
+                "Measure": "Protein^^^ (mg/dL)",
+                "Normal": "< 45",
+                "Bacterial": "Elevated",
+                "Aseptic (Viral)": "Elevated",
+                "Fungal": "Elevated",
+                "Tuberculosis": "Elevated",
+                "Subarachnoid hemorrhage": "Elevated",
+                "Neoplastic": ">200"
+              },
+              {
+                "Measure": "Gram Stain",
+                "Normal": "Neg",
+                "Bacterial": "Pos",
+                "Aseptic (Viral)": "Neg",
+                "Fungal": "India ink",
+                "Tuberculosis": "Tb stain",
+                "Subarachnoid hemorrhage": "Blood",
+                "Neoplastic": ""
+              }
+            ]
+          ]
+        },
+        "Delay_in_LP": {
+          "text": "CSF cultures become sterile in\n2 hrs\nafter parenteral antibiotics in meningococcal meningitis and\n6 hrs\nin pneumococcal meningitis\n[9]\n[10]\n12 hrs after antibiotics: CSF glucose levels increase and protein levels decrease. CSF WBC and neutrophils are not affected\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CT Before Lumbar Puncture",
+          "url": "https://wikem.org/wiki/CT_Before_Lumbar_Puncture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Guillian Barre",
+          "url": "https://wikem.org/wiki/Guillian_Barre"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "^Although a 1991 study\n[6]\nshowed high sensitivity with this test, multiple newer studies have cast doubt on its sensitivity.\n[7]\n[8]\nAlthough it may be clinically useful in the right subset of patients, it should not be considered to be 100% sensitive.",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nChem\nBlood culture\n?CT head: See\nCT Before Lumbar Puncture\nCXR\n(50% of patients with pneumoccocal meningitis have evidence of pneumonia on CXR)\nLumbar Puncture",
+          "tables": []
+        },
+        "Lumbar_Puncture_Diagnosis": {
+          "text": "^Normal or lower WBC results may be found in immunocompromised, early, or partially treated (e.g. with oral antibiotics) bacterial menintigis, and those with tuberculosis meningitis\n^^Lymph predominance may be found in patients with early bacterial meningitis or those that have been partially treated (e.g. with oral antibiotics)\n^^^For unexplained elevations of protein, consider\nencephalitis\n,\nMS\n,\nGuillian Barre\nCorrections\nWBC correction (for bloody tap)\nSimplified version (if peripheral WBC and RBC counts are within normal limits):\nSubtract 1 WBC for every 750 RBC in CSF\nComplex version (WBC and/or RBC not within normal limits):\n\"WBCs added\" = WBC(blood) x [RBC(CSF) / RBC(blood)]\nWBC counted/resulted - \"WBCs added\" = actual WBC\nProtein correction (for bloody tap)\nFor each 1000 RBC decrease protein value by 1mg/dl",
+          "tables": [
+            [
+              {
+                "Measure": "Appearance",
+                "Normal": "Clear",
+                "Bacterial": "Clear, cloudy, or purulent",
+                "Aseptic (Viral)": "Clear",
+                "Fungal": "Clear or opaque",
+                "Tuberculosis": "Clear or opaque",
+                "Subarachnoid hemorrhage": "Xanthochromia, bloody, or clear",
+                "Neoplastic": "Clear or opaque"
+              },
+              {
+                "Measure": "Opening Pressure (cm H2O)",
+                "Normal": "10-20",
+                "Bacterial": ">25",
+                "Aseptic (Viral)": "Normal or elevated",
+                "Fungal": ">25",
+                "Tuberculosis": ">25",
+                "Subarachnoid hemorrhage": ">25",
+                "Neoplastic": "Normal or elevated"
+              },
+              {
+                "Measure": "WBC Count^ (cells/µL)",
+                "Normal": "0-5^",
+                "Bacterial": ">100^",
+                "Aseptic (Viral)": "5-1000",
+                "Fungal": "<500",
+                "Tuberculosis": "50-500",
+                "Subarachnoid hemorrhage": "0-5 (see correction section)",
+                "Neoplastic": "<500"
+              },
+              {
+                "Measure": "% PMNs",
+                "Normal": "",
+                "Bacterial": ">80-90%",
+                "Aseptic (Viral)": "1-50%^^",
+                "Fungal": "1-50%",
+                "Tuberculosis": "Early PMN then lymph",
+                "Subarachnoid hemorrhage": "",
+                "Neoplastic": "1-50%"
+              },
+              {
+                "Measure": "Glucose",
+                "Normal": ">60% of serum glucose",
+                "Bacterial": "Low",
+                "Aseptic (Viral)": "Normal",
+                "Fungal": "Low",
+                "Tuberculosis": "Low",
+                "Subarachnoid hemorrhage": "Normal",
+                "Neoplastic": "Normal"
+              },
+              {
+                "Measure": "Protein^^^ (mg/dL)",
+                "Normal": "< 45",
+                "Bacterial": "Elevated",
+                "Aseptic (Viral)": "Elevated",
+                "Fungal": "Elevated",
+                "Tuberculosis": "Elevated",
+                "Subarachnoid hemorrhage": "Elevated",
+                "Neoplastic": ">200"
+              },
+              {
+                "Measure": "Gram Stain",
+                "Normal": "Neg",
+                "Bacterial": "Pos",
+                "Aseptic (Viral)": "Neg",
+                "Fungal": "India ink",
+                "Tuberculosis": "Tb stain",
+                "Subarachnoid hemorrhage": "Blood",
+                "Neoplastic": ""
+              }
+            ]
+          ]
+        },
+        "Delay_in_LP": {
+          "text": "CSF cultures become sterile in\n2 hrs\nafter parenteral antibiotics in meningococcal meningitis and\n6 hrs\nin pneumococcal meningitis\n[9]\n[10]\n12 hrs after antibiotics: CSF glucose levels increase and protein levels decrease. CSF WBC and neutrophils are not affected\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Finding": "Nuchal rigidity",
+            "Description": "Rigidity of neck muscles with flexion",
+            "Sensitivity": "13%[5]",
+            "Specificity": "80%[5]"
+          },
+          {
+            "Finding": "Kernig's sign",
+            "Description": "With flexed hip at 90°, extension of knee produces pain",
+            "Sensitivity": "2%[5]",
+            "Specificity": "97%[5]"
+          },
+          {
+            "Finding": "Brudzinski's sign",
+            "Description": "Involuntary lifting of legs with passive flexion of the neck",
+            "Sensitivity": "2%[5]",
+            "Specificity": "98%[5]"
+          },
+          {
+            "Finding": "Jolt Test",
+            "Description": "Horizontal rotation of the head at frequency of 2 rotations/secondExacerbation of pre-existing headache is positive test.",
+            "Sensitivity": "100%?^",
+            "Specificity": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "CT Before Lumbar Puncture",
+          "url": "https://wikem.org/wiki/CT_Before_Lumbar_Puncture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Guillian Barre",
+          "url": "https://wikem.org/wiki/Guillian_Barre"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC\nChem\nBlood culture\n?CT head: See\nCT Before Lumbar Puncture\nCXR\n(50% of patients with pneumoccocal meningitis have evidence of pneumonia on CXR)\nLumbar Puncture",
+      "subsections": {
+        "Lumbar_Puncture_Diagnosis": {
+          "text": "^Normal or lower WBC results may be found in immunocompromised, early, or partially treated (e.g. with oral antibiotics) bacterial menintigis, and those with tuberculosis meningitis\n^^Lymph predominance may be found in patients with early bacterial meningitis or those that have been partially treated (e.g. with oral antibiotics)\n^^^For unexplained elevations of protein, consider\nencephalitis\n,\nMS\n,\nGuillian Barre\nCorrections\nWBC correction (for bloody tap)\nSimplified version (if peripheral WBC and RBC counts are within normal limits):\nSubtract 1 WBC for every 750 RBC in CSF\nComplex version (WBC and/or RBC not within normal limits):\n\"WBCs added\" = WBC(blood) x [RBC(CSF) / RBC(blood)]\nWBC counted/resulted - \"WBCs added\" = actual WBC\nProtein correction (for bloody tap)\nFor each 1000 RBC decrease protein value by 1mg/dl",
+          "tables": [
+            [
+              {
+                "Measure": "Appearance",
+                "Normal": "Clear",
+                "Bacterial": "Clear, cloudy, or purulent",
+                "Aseptic (Viral)": "Clear",
+                "Fungal": "Clear or opaque",
+                "Tuberculosis": "Clear or opaque",
+                "Subarachnoid hemorrhage": "Xanthochromia, bloody, or clear",
+                "Neoplastic": "Clear or opaque"
+              },
+              {
+                "Measure": "Opening Pressure (cm H2O)",
+                "Normal": "10-20",
+                "Bacterial": ">25",
+                "Aseptic (Viral)": "Normal or elevated",
+                "Fungal": ">25",
+                "Tuberculosis": ">25",
+                "Subarachnoid hemorrhage": ">25",
+                "Neoplastic": "Normal or elevated"
+              },
+              {
+                "Measure": "WBC Count^ (cells/µL)",
+                "Normal": "0-5^",
+                "Bacterial": ">100^",
+                "Aseptic (Viral)": "5-1000",
+                "Fungal": "<500",
+                "Tuberculosis": "50-500",
+                "Subarachnoid hemorrhage": "0-5 (see correction section)",
+                "Neoplastic": "<500"
+              },
+              {
+                "Measure": "% PMNs",
+                "Normal": "",
+                "Bacterial": ">80-90%",
+                "Aseptic (Viral)": "1-50%^^",
+                "Fungal": "1-50%",
+                "Tuberculosis": "Early PMN then lymph",
+                "Subarachnoid hemorrhage": "",
+                "Neoplastic": "1-50%"
+              },
+              {
+                "Measure": "Glucose",
+                "Normal": ">60% of serum glucose",
+                "Bacterial": "Low",
+                "Aseptic (Viral)": "Normal",
+                "Fungal": "Low",
+                "Tuberculosis": "Low",
+                "Subarachnoid hemorrhage": "Normal",
+                "Neoplastic": "Normal"
+              },
+              {
+                "Measure": "Protein^^^ (mg/dL)",
+                "Normal": "< 45",
+                "Bacterial": "Elevated",
+                "Aseptic (Viral)": "Elevated",
+                "Fungal": "Elevated",
+                "Tuberculosis": "Elevated",
+                "Subarachnoid hemorrhage": "Elevated",
+                "Neoplastic": ">200"
+              },
+              {
+                "Measure": "Gram Stain",
+                "Normal": "Neg",
+                "Bacterial": "Pos",
+                "Aseptic (Viral)": "Neg",
+                "Fungal": "India ink",
+                "Tuberculosis": "Tb stain",
+                "Subarachnoid hemorrhage": "Blood",
+                "Neoplastic": ""
+              }
+            ]
+          ]
+        },
+        "Delay_in_LP": {
+          "text": "CSF cultures become sterile in\n2 hrs\nafter parenteral antibiotics in meningococcal meningitis and\n6 hrs\nin pneumococcal meningitis\n[9]\n[10]\n12 hrs after antibiotics: CSF glucose levels increase and protein levels decrease. CSF WBC and neutrophils are not affected\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CT Before Lumbar Puncture",
+          "url": "https://wikem.org/wiki/CT_Before_Lumbar_Puncture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Guillian Barre",
+          "url": "https://wikem.org/wiki/Guillian_Barre"
+        }
+      ]
+    },
+    "Lumbar_Puncture_Diagnosis": {
+      "text": "^Normal or lower WBC results may be found in immunocompromised, early, or partially treated (e.g. with oral antibiotics) bacterial menintigis, and those with tuberculosis meningitis\n^^Lymph predominance may be found in patients with early bacterial meningitis or those that have been partially treated (e.g. with oral antibiotics)\n^^^For unexplained elevations of protein, consider\nencephalitis\n,\nMS\n,\nGuillian Barre\nCorrections\nWBC correction (for bloody tap)\nSimplified version (if peripheral WBC and RBC counts are within normal limits):\nSubtract 1 WBC for every 750 RBC in CSF\nComplex version (WBC and/or RBC not within normal limits):\n\"WBCs added\" = WBC(blood) x [RBC(CSF) / RBC(blood)]\nWBC counted/resulted - \"WBCs added\" = actual WBC\nProtein correction (for bloody tap)\nFor each 1000 RBC decrease protein value by 1mg/dl",
+      "subsections": {
+        "Delay_in_LP": {
+          "text": "CSF cultures become sterile in\n2 hrs\nafter parenteral antibiotics in meningococcal meningitis and\n6 hrs\nin pneumococcal meningitis\n[9]\n[10]\n12 hrs after antibiotics: CSF glucose levels increase and protein levels decrease. CSF WBC and neutrophils are not affected\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Measure": "Appearance",
+            "Normal": "Clear",
+            "Bacterial": "Clear, cloudy, or purulent",
+            "Aseptic (Viral)": "Clear",
+            "Fungal": "Clear or opaque",
+            "Tuberculosis": "Clear or opaque",
+            "Subarachnoid hemorrhage": "Xanthochromia, bloody, or clear",
+            "Neoplastic": "Clear or opaque"
+          },
+          {
+            "Measure": "Opening Pressure (cm H2O)",
+            "Normal": "10-20",
+            "Bacterial": ">25",
+            "Aseptic (Viral)": "Normal or elevated",
+            "Fungal": ">25",
+            "Tuberculosis": ">25",
+            "Subarachnoid hemorrhage": ">25",
+            "Neoplastic": "Normal or elevated"
+          },
+          {
+            "Measure": "WBC Count^ (cells/µL)",
+            "Normal": "0-5^",
+            "Bacterial": ">100^",
+            "Aseptic (Viral)": "5-1000",
+            "Fungal": "<500",
+            "Tuberculosis": "50-500",
+            "Subarachnoid hemorrhage": "0-5 (see correction section)",
+            "Neoplastic": "<500"
+          },
+          {
+            "Measure": "% PMNs",
+            "Normal": "",
+            "Bacterial": ">80-90%",
+            "Aseptic (Viral)": "1-50%^^",
+            "Fungal": "1-50%",
+            "Tuberculosis": "Early PMN then lymph",
+            "Subarachnoid hemorrhage": "",
+            "Neoplastic": "1-50%"
+          },
+          {
+            "Measure": "Glucose",
+            "Normal": ">60% of serum glucose",
+            "Bacterial": "Low",
+            "Aseptic (Viral)": "Normal",
+            "Fungal": "Low",
+            "Tuberculosis": "Low",
+            "Subarachnoid hemorrhage": "Normal",
+            "Neoplastic": "Normal"
+          },
+          {
+            "Measure": "Protein^^^ (mg/dL)",
+            "Normal": "< 45",
+            "Bacterial": "Elevated",
+            "Aseptic (Viral)": "Elevated",
+            "Fungal": "Elevated",
+            "Tuberculosis": "Elevated",
+            "Subarachnoid hemorrhage": "Elevated",
+            "Neoplastic": ">200"
+          },
+          {
+            "Measure": "Gram Stain",
+            "Normal": "Neg",
+            "Bacterial": "Pos",
+            "Aseptic (Viral)": "Neg",
+            "Fungal": "India ink",
+            "Tuberculosis": "Tb stain",
+            "Subarachnoid hemorrhage": "Blood",
+            "Neoplastic": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Guillian Barre",
+          "url": "https://wikem.org/wiki/Guillian_Barre"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Give as soon as possible (if\nLP\nperformed within 2hr of antibiotics,\nCSF\nculture will not be affected)",
+      "subsections": {
+        "Neonates_(up_to_1_month_of_age)": {
+          "text": "MRSA\nis uncommon in the neonate\nAmpicillin\n75mg/kg IV q6hrs\nPLUS\nCefotaxime\n50mg/kg IV q6hrs\nOR\nGentamicin\n2.5mg/kg IV q8hrs\nPer AAP,\nceftazidime\n50mg/kg IV (q12hr for babies < 8 days of age, q8hr for >7 days old) is a reasonable alternative to cefotaxime, offering virtually the same coverage for enteric bacilli and is FDA approved for all age groups\n[13]\nIf suspecting\nS. pneumoniae\nor\nMRSA\n, add\nVancomycin\nConsider\nacyclovir\nfor\nHSV",
+          "tables": []
+        },
+        ">_1_month_old": {
+          "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nVancomycin\nis for resistant\nPneumococcus",
+          "tables": []
+        },
+        "Adult_<_50_yr": {
+          "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nVancomycin\nis for resistant\nPneumococcus",
+          "tables": []
+        },
+        "Adult_>_50_yr_and_Immunocompromised": {
+          "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nPLUS\nAmpicillin\n2gm IV q4h (hourly if listeria suspected)\n[17]",
+          "tables": []
+        },
+        "Post_Procedural_(or_penetrating_trauma)": {
+          "text": "Vancomycin\n15-20mg/kg IV BID daily\nPLUS\nCefepime\n2g (50mg/kg) IV q8 hours daily\nOR\nCeftazidime\n2g (50mg/kg) IV q8 hours daily\nOR\nMeropenem\n2gm (40mg/kg) IV q8 hours daily",
+          "tables": []
+        },
+        "Cryptococcosis_Meningitis": {
+          "text": "Options\nAmphotericin B\n1mg/kg IV once daily\nAND\nFlucytosine 25mg/kg PO q6hrs daily\nAmphotericin B\n5mg/kg IV once daily\nAND\nFlucytosine 25mg/kg PO q6hrs daily",
+          "tables": []
+        },
+        "Meningitis_with_severe_PCN_allergy": {
+          "text": "Chloramphenicol\n1g IV q6h +\nVancomycin\n15mg/kg q8-12hr",
+          "tables": []
+        },
+        "Meningitis_with_VP_shunt": {
+          "text": "Coverage for skin contaminants (\nS. epidermis\n,\nS. aureus\n)\nVancomycin\nplus\nceftriaxone\nplus shunt removal",
+          "tables": []
+        },
+        "Neisseria_meningitidis_Prophylaxis": {
+          "text": "Ceftriaxone\n250mg IM once (if less than 15yr then 125mg IM)\nCiprofloxacin\n500mg PO once\nRifampin\n600 mg PO BID x 2 days\nif < 1 month old then 5mg/kg PO BID x 2 days\nif ≥ 1 month old then 10mg/kg (max at 600mg) PO BID x 2 days\nIf patient has a cephalosporin allergy, you can replace the third generation cephalosporin with Meropenem or chloramphenicol.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "S. epidermis",
+          "url": "https://wikem.org/wiki/S._epidermis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Neisseria_meningitidis_Prophylaxis": {
+      "text": "Ceftriaxone\n250mg IM once (if less than 15yr then 125mg IM)\nCiprofloxacin\n500mg PO once\nRifampin\n600 mg PO BID x 2 days\nif < 1 month old then 5mg/kg PO BID x 2 days\nif ≥ 1 month old then 10mg/kg (max at 600mg) PO BID x 2 days\nIf patient has a cephalosporin allergy, you can replace the third generation cephalosporin with Meropenem or chloramphenicol.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Dexamethasone\nin adults\nOnly give 15 min prior to or with first dose of\nantibiotics\n10mg IV q6hr x4d\nOverall, steroids only decreased mortality in patients with meningitis caused by\nStreptococcus pneumoniae\n[19]\nSteroids did decrease rates of any hearing loss, severe hearing loss, and any neurological sequelae in meningitis caused by all species\nThis benefit was present in high-income countries but not in low-income countries\nDexamethasone\nin children and infants\nThere has been no mortality benefit found with steroid use in children\n[20]\nSteroids decreased the rate of hearing loss in children with meningitis caused by\nHaemophilus influenzae\n[21]\nHydrocortisone\nfor\nadrenal failure\n(Waterhouse–Friderichsen syndrome, bilateral adrenal hemorrhage causing adrenal failure, seen in meningococcemia)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "adrenal failure",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Acyclovir\nConsider for patients with suspected viral meningitis who present with neurologic deficits\n10mg/kg IV q8hr (Obese patients should be dosed using\nideal body weight\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Other_Considerations": {
+      "text": "Inpatient team may consider MRI with MRV for further diagnostic considerations\nIf there is concern for tick-borne illness, it may be prudent to add\ndoxycycline\nbefore ID consult can occur",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "Only for\nmeningococcus\nexposure",
+      "subsections": {
+        "Indications": {
+          "text": "Household contacts\nSchool or day care contacts in previous 7 days\nDirect exposure to patient's secretions (kissing, shared utensils or toothbrush)\nIntubation without facemark",
+          "tables": []
+        },
+        "Prophylaxis_regimen": {
+          "text": "Either of the options are acceptable\nRifampin\n600mg PO BID x2d\n5mg/kg PO if < 1 month old\n10mg/kg PO ≥ 1 month old\nCeftriaxone\n250mg IM x1\n125mg IM if ≤ 15 years old\nCeftriaxone should be used for pregnant patients\nAzithromycin\n[22]\nPediatric: 10 mg/kg (maximum 500 mg), po x 1\nAdult: 500 mg, po x 1\nCiprofloxacin\n500mg PO x1\nNo longer recommended as an option in California\n[23]\nDo not use in patients with recent travel to Saudi Arabia\n[24]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "meningococcus",
+          "url": "https://wikem.org/wiki/Meningococcus"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Household contacts\nSchool or day care contacts in previous 7 days\nDirect exposure to patient's secretions (kissing, shared utensils or toothbrush)\nIntubation without facemark",
+      "subsections": {
+        "Prophylaxis_regimen": {
+          "text": "Either of the options are acceptable\nRifampin\n600mg PO BID x2d\n5mg/kg PO if < 1 month old\n10mg/kg PO ≥ 1 month old\nCeftriaxone\n250mg IM x1\n125mg IM if ≤ 15 years old\nCeftriaxone should be used for pregnant patients\nAzithromycin\n[22]\nPediatric: 10 mg/kg (maximum 500 mg), po x 1\nAdult: 500 mg, po x 1\nCiprofloxacin\n500mg PO x1\nNo longer recommended as an option in California\n[23]\nDo not use in patients with recent travel to Saudi Arabia\n[24]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Prophylaxis_regimen": {
+      "text": "Either of the options are acceptable\nRifampin\n600mg PO BID x2d\n5mg/kg PO if < 1 month old\n10mg/kg PO ≥ 1 month old\nCeftriaxone\n250mg IM x1\n125mg IM if ≤ 15 years old\nCeftriaxone should be used for pregnant patients\nAzithromycin\n[22]\nPediatric: 10 mg/kg (maximum 500 mg), po x 1\nAdult: 500 mg, po x 1\nCiprofloxacin\n500mg PO x1\nNo longer recommended as an option in California\n[23]\nDo not use in patients with recent travel to Saudi Arabia\n[24]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Bacterial_meningitis": {
+          "text": "Admit with\ndroplet precautions",
+          "tables": []
+        },
+        "Viral_meningitis": {
+          "text": "Admit for empiric\nantibiotics\nuntil culture results return\nOR\nDischarge with 24hr follow up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "droplet precautions",
+          "url": "https://wikem.org/wiki/Droplet_precautions"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Bacterial_meningitis": {
+      "text": "Admit with\ndroplet precautions",
+      "subsections": {
+        "Viral_meningitis": {
+          "text": "Admit for empiric\nantibiotics\nuntil culture results return\nOR\nDischarge with 24hr follow up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "droplet precautions",
+          "url": "https://wikem.org/wiki/Droplet_precautions"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Viral_meningitis": {
+      "text": "Admit for empiric\nantibiotics\nuntil culture results return\nOR\nDischarge with 24hr follow up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Meningitis (peds)\nNeoplastic meningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis (peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        }
+      ]
+    }
+  }
+}

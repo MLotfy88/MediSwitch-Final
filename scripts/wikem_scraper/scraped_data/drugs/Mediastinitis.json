@@ -1,0 +1,115 @@
+{
+  "drug_name": "Mediastinitis",
+  "url": "https://wikem.org/wiki/Mediastinitis",
+  "scraped_at": "2026-01-10T07:57:07.012011",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of the mediastinum\nCommonly caused by esophageal rupture or perforation\nInfection may be caused by esophageal rupture/perforation or spread of infection from remote site\nStreptococcus and Bacteroides",
+      "subsections": {
+        "Etiology": {
+          "text": "Prior cardiovascular surgery (most common cause)\n[1]\nEsophageal rupture (Boerhaave Syndrome)\nLudwig Angina\nThoracic Trauma\nLung infection extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Esophageal rupture (Boerhaave Syndrome)",
+          "url": "https://wikem.org/wiki/Esophageal_Perforation"
+        },
+        {
+          "text": "Ludwig Angina",
+          "url": "https://wikem.org/wiki/Ludwig_Angina"
+        },
+        {
+          "text": "Thoracic Trauma",
+          "url": "https://wikem.org/wiki/Thoracic_Trauma"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Prior cardiovascular surgery (most common cause)\n[1]\nEsophageal rupture (Boerhaave Syndrome)\nLudwig Angina\nThoracic Trauma\nLung infection extension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Esophageal rupture (Boerhaave Syndrome)",
+          "url": "https://wikem.org/wiki/Esophageal_Perforation"
+        },
+        {
+          "text": "Ludwig Angina",
+          "url": "https://wikem.org/wiki/Ludwig_Angina"
+        },
+        {
+          "text": "Thoracic Trauma",
+          "url": "https://wikem.org/wiki/Thoracic_Trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nDyspnea\nChest pain\nNeck pain\nand swelling\nCrepitus\nSigns of\nSepsis\nHamman sign on auscultation of precordium (crunch heard during systole)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\n- often first modality\nTypically reveals subcutaneous emphysema, widening of the mediastinum and pleural effusions\nCT with IV contrast if diagnosis in doubt\nSeptic workup to include:\nCBC\nLactic acid\nBlood cultures (incl gram Stain)\nCultures of mediastinal fluid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Aggressive airway management\nPatients with mediastinitis emergently require surgery\nConsult\nCT Surgery for repair\nENT if upper neck area\nGI for possible endoscopy\nStart broad-spectrum antibiotics to include Pseudomonal coverage\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pneumomediastinum\nThoracic Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Thoracic Trauma",
+          "url": "https://wikem.org/wiki/Thoracic_Trauma"
+        }
+      ]
+    }
+  }
+}
